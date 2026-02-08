@@ -271,7 +271,7 @@
       </exercise>
       <example xml:id="fs-idm43655440">
         <statement>
-          <p xml:id="fs-idm69332192">A statistics professor collects information about the classification of her students as freshmen, sophomores, juniors, or seniors. The data she collects are summarized in the pie chart <xref ref=""></xref>. What type of data does this graph show?</p>
+          <p xml:id="fs-idm69332192">A statistics professor collects information about the classification of her students as freshmen, sophomores, juniors, or seniors. The data she collects are summarized in the pie chart <xref ref="ch01_mod02_fig001"/>. What type of data does this graph show?</p>
           <figure xml:id="ch01_mod02_fig001">
             <image source="media/CNX_Stats_C01_M05_001.jpg">
             </image>
@@ -351,7 +351,7 @@
       <p xml:id="fs-id1164563109680">In a <em>pie chart</em>, categories of data are shown by wedges in a circle that represent the percent of individuals/items in each category. We use pie charts when we want to show parts of a whole.</p>
       <p xml:id="fs-id1164566484709">In a <em>bar graph</em>, the length of the bar for each category represents the number or percent of individuals in each category. Bars may be vertical or horizontal. We use bar graphs when we want to compare categories or show changes over time.</p>
       <p xml:id="fs-id1164562202759">A <em>Pareto chart</em> consists of bars that are sorted into order by category size (largest to smallest).</p>
-      <p xml:id="eip-378">Look at <xref ref=""></xref> and <xref ref=""></xref> and determine which graph (pie or bar) you think displays the comparisons better.</p>
+      <p xml:id="eip-378">Look at <xref ref="ch01_mod02_fig003"/> and <xref ref="ch01_mod02_fig004"/> and determine which graph (pie or bar) you think displays the comparisons better.</p>
       <p xml:id="eip-510">It is a good idea to look at a variety of graphs to see which is the most helpful in displaying the data. We might make different choices of what we think is the <em>best</em> graph depending on the data and the context. Our choice also depends on what we are using the data for.</p>
       <figure xml:id="ch01_mod02_fig003">
         <image source="media/fig-ch01_patchfile_01.jpeg">
@@ -568,7 +568,7 @@
     </subsection>
     <subsection xml:id="eip-49">
       <title>Sampling</title>
-      <p xml:id="id12361474">Gathering information about an entire population often costs too much or is virtually impossible. Instead, we use a sample of the population. <em>A sample should have the same characteristics as the population it is representing.</em> Most statisticians use various methods of random sampling in an attempt to achieve this goal. This section will describe a few of the most common methods. There are several different methods of <em>random sampling</em>. In each form of random sampling, each member of a population initially has an equal chance of being selected for the sample. Each method has pros and cons. The easiest method to describe is called a <em>simple random sample</em>. In a simple random sample, each group has the same chance of being selected. In other words, each sample of the same size has an equal chance of being selected. For example, suppose Lisa wants to form a four-person study group (herself and three other people) from her pre-calculus class, which has 31 members not including Lisa. To choose a simple random sample of size three from the other members of her class, Lisa could put all 31 names in a hat, shake the hat, close her eyes, and pick out three names. A more technological way is for Lisa to first list the last names of the members of her class together with a two-digit number, as in <xref ref=""></xref>.</p>
+      <p xml:id="id12361474">Gathering information about an entire population often costs too much or is virtually impossible. Instead, we use a sample of the population. <em>A sample should have the same characteristics as the population it is representing.</em> Most statisticians use various methods of random sampling in an attempt to achieve this goal. This section will describe a few of the most common methods. There are several different methods of <em>random sampling</em>. In each form of random sampling, each member of a population initially has an equal chance of being selected for the sample. Each method has pros and cons. The easiest method to describe is called a <em>simple random sample</em>. In a simple random sample, each group has the same chance of being selected. In other words, each sample of the same size has an equal chance of being selected. For example, suppose Lisa wants to form a four-person study group (herself and three other people) from her pre-calculus class, which has 31 members not including Lisa. To choose a simple random sample of size three from the other members of her class, Lisa could put all 31 names in a hat, shake the hat, close her eyes, and pick out three names. A more technological way is for Lisa to first list the last names of the members of her class together with a two-digit number, as in <xref ref="element-621"/>.</p>
       <table xml:id="element-621">
         <tabular>
           <row header="yes">
@@ -675,7 +675,7 @@
       <p xml:id="id12648586">Lisa reads two-digit groups until she has chosen three class members (That is, she reads .94360 as the
     groups 94, 43, 36, 60.) Each random number may only contribute one class member. If she needed to, Lisa
     could have generated more random numbers.</p>
-      <p xml:id="fs-id1164561203583">The table below shows how Lisa reads two-digit numbers form each random number. Each two-digit number in the table would represent each student in the roster above in <xref ref=""></xref>.</p>
+      <p xml:id="fs-id1164561203583">The table below shows how Lisa reads two-digit numbers from each random number. Each two-digit number in the table would represent each student in the roster above in <xref ref="element-621"/>.</p>
       <table xml:id="fs-id1164561060585">
         <title>Lisa randomly generated the decimals in the Random Number column. She then used each consecutive number in each decimal to make the numbers she read. Some of the read numbers correspond with the ID numbers given to the students in her class (e.g., 14 = Lundquist in </title>
         <tabular>
@@ -1024,7 +1024,7 @@
         <p xml:id="id10291271">The size of a sample (often called the number of observations) is important. The examples you have seen in this book so far have been small. Samples of only a few hundred observations, or even smaller, are sufficient for many purposes. In polling, samples that are from 1,200–1,500 observations are considered large enough and good enough if the survey is random and is well done. You will learn why when you study confidence intervals.</p>
         <p xml:id="eip-idp48192112">Be aware that many large samples are biased. For example, internet surveys are invariably biased, because people choose to respond or not.</p>
         <exploration xml:id="fs-idm85528320">
-          <p xml:id="fs-idp60280064">Divide into groups of two, three, or four. Your instructor will give each group one six-sided die. Try this experiment twice. Roll one fair die (six-sided) 20 times. Record the number of ones, twos, threes, fours, fives, and sixes you get in <xref ref=""></xref> and <xref ref=""></xref> (<em>frequency</em> is the number of times a particular face of the die occurs)</p>
+          <p xml:id="fs-idp60280064">Divide into groups of two, three, or four. Your instructor will give each group one six-sided die. Try this experiment twice. Roll one fair die (six-sided) 20 times. Record the number of ones, twos, threes, fours, fives, and sixes you get in <xref ref="element-497"/> and <xref ref="fs-idm76511248"/> (<em>frequency</em> is the number of times a particular face of the die occurs)</p>
           <table xml:id="element-497">
             <tabular>
               <row header="yes">
@@ -1099,7 +1099,7 @@
       <exercise xml:id="eip-219">
         <statement>
           <p xml:id="element-740">Seven hundred and seventy-one distance learning students at Long Beach City College responded to surveys in the
-    2010–11 academic year. Highlights of the summary report are listed in <xref ref=""></xref>.</p>
+    2010–11 academic year. Highlights of the summary report are listed in <xref ref="fs-idp27381216"/>.</p>
           <table xml:id="fs-idp27381216">
             <tabular>
               <row>
@@ -1176,7 +1176,7 @@
     <subsection xml:id="fs-idm2552448">
       <title>Answers and Rounding Off</title>
       <p xml:id="id5602419">A simple way to round off answers is to carry your final answer one more decimal place than was present in the original data. Round off only the final answer. Do not round off any intermediate results, if possible. If it becomes necessary to round off intermediate results, carry them to at least twice as many decimal places as the final answer. Expect that some of your answers will vary from the text due to rounding errors.</p>
-      <p xml:id="id5164237">It is not necessary to reduce most fractions in this course. Especially in <xref ref="m79609">Probability Topics</xref>, the chapter on probability, it is more helpful to leave an answer as an unreduced fraction.</p>
+      <p xml:id="id5164237">It is not necessary to reduce most fractions in this course. Especially in probability, it is more helpful to leave an answer as an unreduced fraction.</p>
     </subsection>
     <subsection xml:id="eip-109">
       <title>Levels of Measurement</title>
@@ -1201,7 +1201,7 @@
     <subsection xml:id="eip-959">
       <title>Frequency</title>
       <p xml:id="id7489802">Twenty students were asked how many hours they worked per day. Their responses, in hours, are as follows: 5, 6, 3, 3, 2, 4, 7, 5, 2, 3, 5, 6, 5, 4, 4, 3, 5, 2, 5, 3.</p>
-      <p xml:id="id9267444"><xref ref=""></xref> lists the different data values in ascending order and their frequencies. </p>
+      <p xml:id="id9267444"><xref ref="id10383738"/> lists the different data values in ascending order and their frequencies. </p>
       <table xml:id="id10383738">
         <tabular>
           <row header="yes">
@@ -1234,7 +1234,7 @@
           </row>
         </tabular>
       </table>
-      <p xml:id="element-118">A <term xml:id="term-00006">frequency</term> is the number of times a value of the data occurs. According to <xref ref=""></xref>, there are three students who work two hours, five students who work three hours, and so on. The sum of the values in the frequency column, 20, represents the total number of students included in the sample.</p>
+      <p xml:id="element-118">A <term xml:id="term-00006">frequency</term> is the number of times a value of the data occurs. According to <xref ref="id10383738"/>, there are three students who work two hours, five students who work three hours, and so on. The sum of the values in the frequency column, 20, represents the total number of students included in the sample.</p>
       <p xml:id="id8007492">A <term xml:id="term-00007">relative frequency</term> is the ratio (fraction or proportion) of the number of times a value of the data occurs in the set of all outcomes to the total number of outcomes. To find the relative frequencies, divide each frequency by the total number of students in the sample, in this case, 20. Relative frequencies can be written as fractions, percents, or decimals.</p>
       <table xml:id="id11177380">
         <tabular>
@@ -1275,11 +1275,11 @@
           </row>
         </tabular>
       </table>
-      <p xml:id="id7087521">The sum of the values in the relative frequency column of <xref ref=""></xref> is <m>\frac{20}{20}</m>
+      <p xml:id="id7087521">The sum of the values in the relative frequency column of <xref ref="id11177380"/> is <m>\frac{20}{20}</m>
     , or 1.</p>
       <p xml:id="id7575466"><term xml:id="term-00008">Cumulative relative frequency</term> is the accumulation of the previous relative
     frequencies. To find the cumulative relative frequencies, add all the previous relative frequencies to
-    the relative frequency for the current row, as shown in <xref ref=""></xref>.</p>
+    the relative frequency for the current row, as shown in <xref ref="id10564302"/>.</p>
       <p xml:id="fs-id1164565141978">In the first row, the cumulative frequency is simply .15 because it is the only one. In the second row, the relative frequency was .25, so adding that to .15, we get a relative frequency of .40. Continue adding the relative frequencies in each row to get the rest of the column.</p>
       <table xml:id="id10564302">
         <tabular>
