@@ -47,7 +47,7 @@
           of academic rigor at little to no cost.
         </p>
         
-        <subsection xml:id="about-openstax">
+        <paragraphs xml:id="about-openstax">
           <title>About OpenStax</title>
           <p>
             OpenStax is a nonprofit based at Rice University, and it's our mission to improve student 
@@ -55,18 +55,18 @@
             our library has since scaled to over 35 books used by hundreds of thousands of students for 
             college and AP courses.
           </p>
-        </subsection>
+        </paragraphs>
 
-        <subsection xml:id="about-statistics">
+        <paragraphs xml:id="about-statistics">
           <title>About Statistics</title>
           <p>
             <em>Statistics</em> covers the scope and sequence requirements of a typical one-year statistics 
             course. The text provides comprehensive coverage of statistical concepts, including quantitative 
             examples, collaborative activities, and practical applications.
           </p>
-        </subsection>
+        </paragraphs>
 
-        <subsection xml:id="coverage-and-scope">
+        <paragraphs xml:id="coverage-and-scope">
           <title>Coverage and Scope</title>
           <p>
             <em>Statistics</em> presents the appropriate statistical concepts and skills in a logical 
@@ -87,7 +87,7 @@
             <li>Chapter 12: Linear Regression and Correlation</li>
             <li>Chapter 13: F Distribution and One-way ANOVA</li>
           </ul>
-        </subsection>
+        </paragraphs>
       </preface>
     </frontmatter>
 

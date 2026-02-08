@@ -4,3 +4,6 @@
 # PreTeXt build output
 pretext/output/
 pretext/.ptx/
+pretext/logs/
+pretext/.error_schema.log
+pretext/generated-assets/
