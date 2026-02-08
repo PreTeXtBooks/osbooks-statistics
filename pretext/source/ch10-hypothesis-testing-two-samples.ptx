@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch10-hypothesis-testing-two-samples" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Hypothesis Testing with Two Samples</title>
+
+  <introduction>
+    <p>
+      This chapter extends hypothesis testing to comparisons between two samples.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-two-population-means-known-stddev">
+    <title>Two Population Means with Known Standard Deviations</title>
+    <p>
+      Content to be added from module m79667.
+    </p>
+  </section>
+
+  <section xml:id="sec-two-population-means-unknown-stddev">
+    <title>Two Population Means with Unknown Standard Deviations</title>
+    <p>
+      Content to be added from module m79668.
+    </p>
+  </section>
+
+  <section xml:id="sec-comparing-two-proportions">
+    <title>Comparing Two Independent Population Proportions</title>
+    <p>
+      Content to be added from module m79669.
+    </p>
+  </section>
+
+  <section xml:id="sec-matched-paired-samples">
+    <title>Matched or Paired Samples</title>
+    <p>
+      Content to be added from module m79670.
+    </p>
+  </section>
+
+  <section xml:id="sec-hypothesis-testing-two-samples-review">
+    <title>Hypothesis Testing with Two Samples: Review</title>
+    <p>
+      Content to be added from module m79672.
+    </p>
+  </section>
+
+  <section xml:id="sec-hypothesis-testing-two-samples-practice">
+    <title>Hypothesis Testing with Two Samples: Practice</title>
+    <p>
+      Content to be added from module m79671.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has covered hypothesis testing methods for comparing two samples.
+    </p>
+  </conclusion>
+</chapter>

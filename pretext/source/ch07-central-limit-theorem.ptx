@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch07-central-limit-theorem" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Central Limit Theorem</title>
+
+  <introduction>
+    <p>
+      This chapter introduces the Central Limit Theorem, a fundamental result in statistics 
+      that explains the behavior of sample means.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-central-limit-theorem-pocket-change">
+    <title>The Central Limit Theorem for Sample Means (Averages)</title>
+    <p>
+      Content to be added from module m79647.
+    </p>
+  </section>
+
+  <section xml:id="sec-central-limit-theorem-averages">
+    <title>The Central Limit Theorem for Sample Means</title>
+    <p>
+      Content to be added from module m79648.
+    </p>
+  </section>
+
+  <section xml:id="sec-using-central-limit-theorem">
+    <title>Using the Central Limit Theorem</title>
+    <p>
+      Content to be added from module m79649.
+    </p>
+  </section>
+
+  <section xml:id="sec-central-limit-theorem-sums">
+    <title>The Central Limit Theorem for Sums</title>
+    <p>
+      Content to be added from module m79650.
+    </p>
+  </section>
+
+  <section xml:id="sec-central-limit-theorem-lab">
+    <title>Central Limit Theorem (Cookie Recipes)</title>
+    <p>
+      Content to be added from module m79651.
+    </p>
+  </section>
+
+  <section xml:id="sec-central-limit-theorem-review">
+    <title>Central Limit Theorem: Review</title>
+    <p>
+      Content to be added from module m79652.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has covered the Central Limit Theorem and its importance in statistical inference.
+    </p>
+  </conclusion>
+</chapter>

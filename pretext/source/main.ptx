@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ************************************************************* -->
+<!-- Statistics                                                    -->
+<!-- OpenStax Statistics Textbook - PreTeXt Version               -->
+<!-- ************************************************************* -->
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  <docinfo>
+    <macros>
+      % Common statistical notation macros can be added here
+    </macros>
+    <rename element="inlineexercise">Try It</rename>
+    <rename element="assemblage">Collaborative Exercise</rename>
+  </docinfo>
+
+  <book xml:id="statistics">
+    <title>Statistics</title>
+    <subtitle>An OpenStax Resource</subtitle>
+
+    <frontmatter xml:id="frontmatter">
+      <titlepage>
+        <author>
+          <personname>Barbara Illowsky</personname>
+        </author>
+        <author>
+          <personname>Susan Dean</personname>
+        </author>
+        <date><today/></date>
+      </titlepage>
+
+      <colophon>
+        <copyright>
+          <year>2013<ndash/>2026</year>
+          <holder>OpenStax</holder>
+          <minilicense>CC BY 4.0 License</minilicense>
+          <shortlicense>
+            This work is licensed under a Creative Commons Attribution 4.0 International License.
+            Visit <url href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</url> for more information.
+          </shortlicense>
+        </copyright>
+      </colophon>
+
+      <preface xml:id="preface">
+        <title>Preface</title>
+        <p>
+          Welcome to <em>Statistics</em>, an OpenStax resource. This textbook was written to increase 
+          teacher and student access to high-quality learning materials, maintaining the highest standards 
+          of academic rigor at little to no cost.
+        </p>
+        
+        <subsection xml:id="about-openstax">
+          <title>About OpenStax</title>
+          <p>
+            OpenStax is a nonprofit based at Rice University, and it's our mission to improve student 
+            access to education. Our first openly licensed college textbook was published in 2012, and 
+            our library has since scaled to over 35 books used by hundreds of thousands of students for 
+            college and AP courses.
+          </p>
+        </subsection>
+
+        <subsection xml:id="about-statistics">
+          <title>About Statistics</title>
+          <p>
+            <em>Statistics</em> covers the scope and sequence requirements of a typical one-year statistics 
+            course. The text provides comprehensive coverage of statistical concepts, including quantitative 
+            examples, collaborative activities, and practical applications.
+          </p>
+        </subsection>
+
+        <subsection xml:id="coverage-and-scope">
+          <title>Coverage and Scope</title>
+          <p>
+            <em>Statistics</em> presents the appropriate statistical concepts and skills in a logical 
+            and engaging progression that should be familiar to faculty.
+          </p>
+          <ul>
+            <li>Chapter 1: Sampling and Data</li>
+            <li>Chapter 2: Descriptive Statistics</li>
+            <li>Chapter 3: Probability Topics</li>
+            <li>Chapter 4: Discrete Random Variables</li>
+            <li>Chapter 5: Continuous Random Variables</li>
+            <li>Chapter 6: The Normal Distribution</li>
+            <li>Chapter 7: The Central Limit Theorem</li>
+            <li>Chapter 8: Confidence Intervals</li>
+            <li>Chapter 9: Hypothesis Testing with One Sample</li>
+            <li>Chapter 10: Hypothesis Testing with Two Samples</li>
+            <li>Chapter 11: The Chi-Square Distribution</li>
+            <li>Chapter 12: Linear Regression and Correlation</li>
+            <li>Chapter 13: F Distribution and One-way ANOVA</li>
+          </ul>
+        </subsection>
+      </preface>
+    </frontmatter>
+
+    <!-- Main Content Chapters -->
+    <xi:include href="./ch01-sampling-and-data.ptx"/>
+    <xi:include href="./ch02-descriptive-statistics.ptx"/>
+    <xi:include href="./ch03-probability-topics.ptx"/>
+    <xi:include href="./ch04-discrete-random-variables.ptx"/>
+    <xi:include href="./ch05-continuous-random-variables.ptx"/>
+    <xi:include href="./ch06-normal-distribution.ptx"/>
+    <xi:include href="./ch07-central-limit-theorem.ptx"/>
+    <xi:include href="./ch08-confidence-intervals.ptx"/>
+    <xi:include href="./ch09-hypothesis-testing-one-sample.ptx"/>
+    <xi:include href="./ch10-hypothesis-testing-two-samples.ptx"/>
+    <xi:include href="./ch11-chi-square-distribution.ptx"/>
+    <xi:include href="./ch12-linear-regression-correlation.ptx"/>
+    <xi:include href="./ch13-f-distribution-anova.ptx"/>
+
+    <backmatter xml:id="backmatter">
+      <title>Back Matter</title>
+
+      <appendix xml:id="appendix-data-sets">
+        <title>Data Sets</title>
+        <p>
+          This appendix will contain practice data sets for students to use in exercises 
+          and examples throughout the textbook.
+        </p>
+      </appendix>
+
+      <appendix xml:id="appendix-group-project">
+        <title>Group and Partner Projects</title>
+        <p>
+          This appendix will contain collaborative activities and group project suggestions.
+        </p>
+      </appendix>
+
+      <appendix xml:id="appendix-solutions">
+        <title>Solutions to Selected Exercises</title>
+        <p>
+          This appendix will contain solutions to odd-numbered exercises.
+        </p>
+      </appendix>
+
+      <index>
+        <title>Index</title>
+        <index-list/>
+      </index>
+    </backmatter>
+  </book>
+</pretext>

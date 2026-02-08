@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch13-f-distribution-anova" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>F Distribution and One-Way ANOVA</title>
+
+  <introduction>
+    <p>
+      This chapter introduces the F distribution and one-way analysis of variance (ANOVA), 
+      used for comparing means across multiple groups.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-one-way-anova">
+    <title>One-Way ANOVA</title>
+    <p>
+      Content to be added from module m79701.
+    </p>
+  </section>
+
+  <section xml:id="sec-f-distribution">
+    <title>The F Distribution and the F-Ratio</title>
+    <p>
+      Content to be added from module m79703.
+    </p>
+  </section>
+
+  <section xml:id="sec-facts-one-way-anova">
+    <title>Facts About the F Distribution</title>
+    <p>
+      Content to be added from module m79704.
+    </p>
+  </section>
+
+  <section xml:id="sec-anova-lab">
+    <title>One-Way ANOVA (Lap Times)</title>
+    <p>
+      Content to be added from module m79705.
+    </p>
+  </section>
+
+  <section xml:id="sec-anova-review">
+    <title>F Distribution and One-Way ANOVA: Review</title>
+    <p>
+      Content to be added from module m79706.
+    </p>
+  </section>
+
+  <section xml:id="sec-anova-practice">
+    <title>F Distribution and One-Way ANOVA: Practice</title>
+    <p>
+      Content to be added from module m79708.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has covered the F distribution and one-way ANOVA for comparing multiple means.
+    </p>
+  </conclusion>
+</chapter>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch04-discrete-random-variables" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Discrete Random Variables</title>
+
+  <introduction>
+    <p>
+      This chapter introduces discrete random variables, probability distributions, 
+      and expected values.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-probability-distribution-function">
+    <title>Probability Distribution Function (PDF) for a Discrete Random Variable</title>
+    <p>
+      Content to be added from module m79620.
+    </p>
+  </section>
+
+  <section xml:id="sec-mean-expected-value">
+    <title>Mean or Expected Value and Standard Deviation</title>
+    <p>
+      Content to be added from module m79621.
+    </p>
+  </section>
+
+  <section xml:id="sec-binomial-distribution">
+    <title>Binomial Distribution</title>
+    <p>
+      Content to be added from module m79623.
+    </p>
+  </section>
+
+  <section xml:id="sec-geometric-distribution">
+    <title>Geometric Distribution</title>
+    <p>
+      Content to be added from module m79624.
+    </p>
+  </section>
+
+  <section xml:id="sec-hypergeometric-distribution">
+    <title>Hypergeometric Distribution</title>
+    <p>
+      Content to be added from module m79625.
+    </p>
+  </section>
+
+  <section xml:id="sec-poisson-distribution">
+    <title>Poisson Distribution</title>
+    <p>
+      Content to be added from module m79626.
+    </p>
+  </section>
+
+  <section xml:id="sec-discrete-distribution-calculator">
+    <title>Discrete Distribution (Playing Card Experiment)</title>
+    <p>
+      Content to be added from module m79627.
+    </p>
+  </section>
+
+  <section xml:id="sec-discrete-random-variables-review">
+    <title>Discrete Random Variables: Review</title>
+    <p>
+      Content to be added from module m79628.
+    </p>
+  </section>
+
+  <section xml:id="sec-discrete-random-variables-practice">
+    <title>Discrete Random Variables: Practice</title>
+    <p>
+      Content to be added from module m79629.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has covered discrete random variables and common discrete probability distributions.
+    </p>
+  </conclusion>
+</chapter>

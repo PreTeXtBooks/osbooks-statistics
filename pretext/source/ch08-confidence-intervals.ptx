@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch08-confidence-intervals" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Confidence Intervals</title>
+
+  <introduction>
+    <p>
+      This chapter introduces confidence intervals, which provide a range of plausible 
+      values for population parameters.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-single-population-mean-known-stddev">
+    <title>A Single Population Mean using the Normal Distribution</title>
+    <p>
+      Content to be added from module m79653.
+    </p>
+  </section>
+
+  <section xml:id="sec-single-population-mean-unknown-stddev">
+    <title>A Single Population Mean using the Student t Distribution</title>
+    <p>
+      Content to be added from module m79654.
+    </p>
+  </section>
+
+  <section xml:id="sec-population-proportion">
+    <title>A Population Proportion</title>
+    <p>
+      Content to be added from module m79655.
+    </p>
+  </section>
+
+  <section xml:id="sec-confidence-interval-home-costs">
+    <title>Confidence Interval (Home Costs)</title>
+    <p>
+      Content to be added from module m79656.
+    </p>
+  </section>
+
+  <section xml:id="sec-confidence-interval-place-birth">
+    <title>Confidence Interval (Place of Birth)</title>
+    <p>
+      Content to be added from module m79657.
+    </p>
+  </section>
+
+  <section xml:id="sec-confidence-intervals-review">
+    <title>Confidence Intervals: Review</title>
+    <p>
+      Content to be added from module m79658.
+    </p>
+  </section>
+
+  <section xml:id="sec-confidence-intervals-practice">
+    <title>Confidence Intervals: Practice</title>
+    <p>
+      Content to be added from module m79659.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has covered methods for constructing and interpreting confidence intervals.
+    </p>
+  </conclusion>
+</chapter>
