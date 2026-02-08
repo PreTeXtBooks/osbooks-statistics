@@ -1466,7 +1466,7 @@
         <title>Try It</title>
     
         <statement>
-          <p xml:id="fs-idm72824256"><xref ref=""></xref> shows the amount, in inches, of annual rainfall in a sample of towns.</p>
+          <p xml:id="fs-idm72824256"><xref ref="fs-idm82680048"/> shows the amount, in inches, of annual rainfall in a sample of towns.</p>
           <table xml:id="fs-idm82680048">
             <tabular>
               <row header="yes">
@@ -1521,7 +1521,7 @@
               </row>
             </tabular>
           </table>
-          <p xml:id="fs-idm81784864">From <xref ref=""></xref>, find the percentage of rainfall that is less than 9.01 inches.</p>
+          <p xml:id="fs-idm81784864">From <xref ref="fs-idm82680048"/>, find the percentage of rainfall that is less than 9.01 inches.</p>
         </statement>
         <solution>
           <p xml:id="fs-idm76738800">0.56 or 56%</p>
@@ -1529,7 +1529,7 @@
       </exercise>
       <example xml:id="element-2398">
         <statement>
-          <p xml:id="element-266">From <xref ref=""></xref>, find the percentage of heights that fall between 61.95 and 65.95 inches.
+          <p xml:id="element-266">From <xref ref="id9703284"/>, find the percentage of heights that fall between 61.95 and 65.95 inches.
     </p>
         </statement>
         <solution>
@@ -1541,7 +1541,7 @@
         <title>Try It</title>
     
         <statement>
-          <p xml:id="fs-idm71703488">From <xref ref=""></xref>, find the percentage of rainfall that is between 6.99 and 13.05 inches.</p>
+          <p xml:id="fs-idm71703488">From <xref ref="fs-idm82680048"/>, find the percentage of rainfall that is between 6.99 and 13.05 inches.</p>
         </statement>
         <solution>
           <p xml:id="fs-idm72952848">0.30 + 0.16 + 0.18 = 0.64 or 64%</p>
@@ -1549,7 +1549,7 @@
       </exercise>
       <example xml:id="element-235235">
         <statement>
-          <p xml:id="element-952">Use the heights of the 100 male semiprofessional soccer players in <xref ref=""></xref>. Fill in the blanks and check your answers.
+          <p xml:id="element-952">Use the heights of the 100 male semiprofessional soccer players in <xref ref="id9703284"/>. Fill in the blanks and check your answers.
     		</p>
           <ol xml:id="element-162">
             <li>The percentage of heights that are from 67.9571.95 inches is ________.</li>
@@ -1577,7 +1577,7 @@
         <title>Try It</title>
     
         <statement>
-          <p xml:id="fs-idm98844192">From <xref ref=""></xref>, find the number of towns that have rainfall between 2.95 and 9.01 inches.</p>
+          <p xml:id="fs-idm98844192">From <xref ref="fs-idm82680048"/>, find the number of towns that have rainfall between 2.95 and 9.01 inches.</p>
         </statement>
         <solution>
           <p xml:id="fs-idm57651936">6 + 7 + 15 = 28 towns</p>
@@ -1687,14 +1687,14 @@
         <title>Try It</title>
     
         <statement>
-          <p xml:id="fs-idm12777216"><xref ref=""></xref> represents the amount, in inches, of annual rainfall in a sample of towns. What fraction of towns surveyed get between 11.03 and 13.05 inches of rainfall each year?</p>
+          <p xml:id="fs-idm12777216"><xref ref="fs-idm82680048"/> represents the amount, in inches, of annual rainfall in a sample of towns. What fraction of towns surveyed get between 11.03 and 13.05 inches of rainfall each year?</p>
         </statement>
         <solution>
           <p xml:id="fs-idm57705408"><m>\frac{9}{50}</m></p>
         </solution>
       </exercise>
       <example xml:id="fs-idm64477536">
-        <p xml:id="fs-idm39829664"><xref ref=""></xref> contains the total number of deaths worldwide as a result of earthquakes for the period from 2000 to 2012.</p>
+        <p xml:id="fs-idm39829664"><xref ref="fs-idm52810848"/> contains the total number of deaths worldwide as a result of earthquakes for the period from 2000 to 2012.</p>
         <table xml:id="fs-idm52810848">
           <tabular>
             <row header="yes">
@@ -1785,7 +1785,7 @@
         <title>Try It</title>
     
         <statement>
-          <p xml:id="fs-idm65128336"><xref ref=""></xref> contains the total number of fatal motor vehicle traffic crashes in the United States for the period from 1994–2011.</p>
+          <p xml:id="fs-idm65128336"><xref ref="fs-idm74902768"/> contains the total number of fatal motor vehicle traffic crashes in the United States for the period from 1994–2011.</p>
           <table xml:id="fs-idm74902768">
             <tabular>
               <row header="yes">
