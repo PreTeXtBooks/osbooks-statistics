@@ -101,9 +101,229 @@
 
   <section xml:id="sec-probability-topics-practice">
     <title>Probability Topics: Practice</title>
-    <p>
-      Content to be added from module m79618.
-    </p>
+    
+    <activity xml:id="lab-probability-topics">
+      <title>Probability Topics Lab</title>
+      
+      <introduction>
+        <p><alert>Student Learning Outcomes</alert></p>
+        <ul>
+          <li>The student will use theoretical and empirical methods to estimate probabilities.</li>
+          <li>The student will appraise the differences between the two estimates.</li>
+          <li>The student will demonstrate an understanding of long-term relative frequencies.</li>
+        </ul>
+      </introduction>
+      
+      <task>
+        <title>Do the Experiment</title>
+        <p>Count out 40 mixed-color candies, which is approximately one small bag's worth. Record the number of each color in <xref ref="table-candy-population"/>. Use the information from this table to complete <xref ref="table-theoretical-probabilities"/>. Next, put the candies in a cup. The experiment is to pick two candies, one at a time. Do <em>not</em> look into the cup as you pick them. The first time through, replace the first candy before picking the second one. Record the results in the With Replacement column of <xref ref="table-empirical-results"/>. Do this 24 times. The second time through, after picking the first candy, do <em>not</em> replace it before picking the second one. Then, pick the second one. Record the results in the Without Replacement column section of <xref ref="table-empirical-probabilities"/>. After you record the pick, put <em>both</em> candies back. Do this a total of 24 times, also. Use the data from <xref ref="table-empirical-probabilities"/> to calculate the empirical probability questions. Leave your answers in unreduced fractional form. Do <em>not</em> multiply out any fractions.</p>
+        
+        <table xml:id="table-candy-population">
+          <title>Population</title>
+          <tabular>
+            <row header="yes">
+              <cell>Color</cell>
+              <cell>Quantity</cell>
+            </row>
+            <row>
+              <cell>Yellow (<em>Y</em>)</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Green (<em>G</em>)</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Blue (<em>BL</em>)</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Brown (<em>B</em>)</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Orange (<em>O</em>)</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Red (<em>R</em>)</cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+        
+        <table xml:id="table-theoretical-probabilities">
+          <title>Theoretical Probabilities</title>
+          <tabular>
+            <row header="yes">
+              <cell></cell>
+              <cell>With Replacement</cell>
+              <cell>Without Replacement</cell>
+            </row>
+            <row>
+              <cell><em>P</em>(2 reds)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(<em>R</em><sub>1</sub><em>B</em><sub>2</sub> OR <em>B</em><sub>1</sub><em>R</em><sub>2</sub>)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(<em>R</em><sub>1</sub> AND <em>G</em><sub>2</sub>)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(<em>G</em><sub>2</sub>|<em>R</em><sub>1</sub>)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(no yellows)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(doubles)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(no doubles)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+        
+        <note>
+          <p><em>G</em><sub>2</sub> = green on second pick, <em>R</em><sub>1</sub> = red on first pick, <em>B</em><sub>1</sub> = brown on first pick, <em>B</em><sub>2</sub> = brown on second pick, doubles = both picks are the same color.</p>
+        </note>
+        
+        <table xml:id="table-empirical-results">
+          <title>Empirical Results</title>
+          <tabular>
+            <row header="yes">
+              <cell>With Replacement</cell>
+              <cell>Without Replacement</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+          </tabular>
+        </table>
+        
+        <table xml:id="table-empirical-probabilities">
+          <title>Empirical Probabilities</title>
+          <tabular>
+            <row header="yes">
+              <cell></cell>
+              <cell>With Replacement</cell>
+              <cell>Without Replacement</cell>
+            </row>
+            <row>
+              <cell><em>P</em>(2 reds)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(<em>R</em><sub>1</sub><em>B</em><sub>2</sub> OR <em>B</em><sub>1</sub><em>R</em><sub>2</sub>)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(<em>R</em><sub>1</sub> AND <em>G</em><sub>2</sub>)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(<em>G</em><sub>2</sub>|<em>R</em><sub>1</sub>)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(no yellows)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(doubles)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(no doubles)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+      </task>
+      
+      <task>
+        <title>Discussion Questions</title>
+        <ol>
+          <li>Why are the With Replacement and Without Replacement probabilities different?</li>
+          <li>Convert <em>P</em>(no yellows) to decimal format for both Theoretical With Replacement and for Empirical With Replacement. Round to four decimal places.
+            <ol>
+              <li>Theoretical <em>With Replacement</em>: <em>P</em>(no yellows) = _______</li>
+              <li>Empirical With Replacement: <em>P</em>(no yellows) = _______</li>
+              <li>Are the decimal values <em>close</em>? Did you expect them to be closer together or farther apart? Why?</li>
+            </ol>
+          </li>
+          <li>If you increased the number of times you picked two candies to 240 times, why would empirical probability values change?</li>
+          <li>Would this change (see Question 3) cause the empirical probabilities and theoretical probabilities to be closer together or farther apart? How do you know?</li>
+          <li>Explain the differences in what <em>P</em>(<em>G</em><sub>1</sub> AND <em>R</em><sub>2</sub>) and <em>P</em>(<em>R</em><sub>1</sub>|<em>G</em><sub>2</sub>) represent. Hint: Think about the sample space for each probability.</li>
+        </ol>
+      </task>
+    </activity>
   </section>
 
   <conclusion>
