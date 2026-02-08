@@ -451,7 +451,7 @@
           </image>
         </figure>
         <p xml:id="eip-756">The following graph is the same as the previous graph but the <em>Other/Unknown</em> percent (9.6 percent) has been included. The <em>Other/Unknown</em> category is large compared to some of the other categories (Native American, .6 percent, Pacific Islander 1.0 percent). This is important to know when we think about what the data are telling us.</p>
-        <p xml:id="eip-187">This particular bar graph in <xref ref=""></xref> can be difficult to understand visually. The graph in <xref ref=""></xref> is a Pareto chart. The Pareto chart has the bars sorted from largest to smallest and is easier to read and interpret.</p>
+        <p xml:id="eip-187">This particular bar graph in <xref ref="ch01_mod02_fig007"/> can be difficult to understand visually. The graph in <xref ref="ch01_mod02_fig008"/> is a Pareto chart. The Pareto chart has the bars sorted from largest to smallest and is easier to read and interpret.</p>
         <figure xml:id="ch01_mod02_fig007">
           <caption>Bar Graph with Other/Unknown Category</caption>
           <image source="media/fig-ch01_patchfile_06.jpg">
@@ -465,7 +465,7 @@
       </subsection>
       <subsection xml:id="eip-47">
         <title>Pie Charts:  No Missing Data</title>
-        <p xml:id="eip-7">The following pie charts have the <em>Other/Unknown</em> category included since the percentages must add to 100 percent. The chart in <xref ref=""></xref>b is organized by the size of each wedge, which makes it a more visually informative graph than the unsorted, alphabetical graph in <xref ref=""></xref>a.</p>
+        <p xml:id="eip-7">The following pie charts have the <em>Other/Unknown</em> category included since the percentages must add to 100 percent. The chart in <xref ref="ch01_mod02_fig009"/>b is organized by the size of each wedge, which makes it a more visually informative graph than the unsorted, alphabetical graph in <xref ref="ch01_mod02_fig009"/>a.</p>
         <figure xml:id="ch01_mod02_fig009">
           <image source="media/fig-ch01_patchfile_08.jpeg">
           </image>
@@ -677,7 +677,7 @@
     could have generated more random numbers.</p>
       <p xml:id="fs-id1164561203583">The table below shows how Lisa reads two-digit numbers from each random number. Each two-digit number in the table would represent each student in the roster above in <xref ref="element-621"/>.</p>
       <table xml:id="fs-id1164561060585">
-        <title>Lisa randomly generated the decimals in the Random Number column. She then used each consecutive number in each decimal to make the numbers she read. Some of the read numbers correspond with the ID numbers given to the students in her class (e.g., 14 = Lundquist in </title>
+        <title>Lisa randomly generated the decimals in the Random Number column. She then used each consecutive number in each decimal to make the numbers she read. Some of the read numbers correspond with the ID numbers given to the students in her class (e.g., 14 = Lundquist in <xref ref="element-621"/>).</title>
         <tabular>
           <row header="yes">
             <cell>Random number</cell>
@@ -1347,7 +1347,7 @@
       70, 70, 70, 70, 70, 70, 70.5, 70.5, 70.5, 71, 71, 71,
       72, 72, 72, 72.5, 72.5, 73, 73.5,
       74</p>
-      <p xml:id="element-305"><xref ref=""></xref> summarizes the heights in this sample. Since heights are expressed in tenths, the frequency table will use labels measured in hundredths. This ensures that no data value will coincide with the upper or lower limit of an interval.</p>
+      <p xml:id="element-305"><xref ref="id9703284"/> summarizes the heights in this sample. Since heights are expressed in tenths, the frequency table will use labels measured in hundredths. This ensures that no data value will coincide with the upper or lower limit of an interval.</p>
       <table xml:id="id9703284">
         <tabular>
           <row header="yes">
@@ -1449,12 +1449,12 @@
       </ul>
       <note xml:id="id16927214">
         <title>Note</title>
-        <p xml:id="eip-idp9286128">This example is used again in <xref ref="m79599">Descriptive Statistics</xref>, where the method used to compute the intervals will be explained.</p>
+        <p xml:id="eip-idp9286128">This example is used again in Descriptive Statistics, where the method used to compute the intervals will be explained.</p>
       </note>
       <p xml:id="element-689">In this sample, there are <em>five</em> players whose heights fall within the interval 59.95–61.95 inches, <em>three</em> players whose heights fall within the interval 61.95–63.95 inches, <em>15</em> players whose heights fall within the interval 63.95–65.95 inches, <em>40</em> players whose heights fall within the interval 65.95–67.95 inches, <em>17</em> players whose heights fall within the interval 67.95–69.95 inches, <em>12</em> players whose heights fall within the interval 69.95–71.95, <em>seven</em> players whose heights fall within the interval 71.95–73.95, and <em>one</em> player whose heights fall within the interval 73.95–75.95. All heights fall between the endpoints of an interval and not at the endpoints.</p>
       <example xml:id="element-23523">
         <statement>
-          <p xml:id="element-455">From <xref ref=""></xref>, find the percentage of heights that are less than 65.95 inches.
+          <p xml:id="element-455">From <xref ref="id9703284"/>, find the percentage of heights that are less than 65.95 inches.
     		</p>
         </statement>
         <solution>
