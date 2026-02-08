@@ -43,12 +43,13 @@ jobs:
       
       - name: Build PreTeXt book
         run: |
+          cd pretext
           pretext build html
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'output/html'
+          path: 'pretext/output/html'
   
   deploy:
     if: github.event_name == 'push'
