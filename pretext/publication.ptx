@@ -4,6 +4,8 @@
 -->
 <publication>
   <source>
+    <!-- Directory paths are relative to the source/ directory -->
+    <!-- external: media files, generated: auto-generated assets -->
     <directories external="../media" generated="../generated-assets"/>
   </source>
   
