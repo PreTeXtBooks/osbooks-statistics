@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch12-linear-regression-correlation" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear Regression and Correlation</title>
+
+  <introduction>
+    <p>
+      This chapter introduces linear regression and correlation, which describe the 
+      relationship between two quantitative variables.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-linear-equations">
+    <title>Linear Equations</title>
+    <p>
+      Content to be added from module m79700.
+    </p>
+  </section>
+
+  <section xml:id="sec-scatter-plots">
+    <title>Scatter Plots</title>
+    <p>
+      Content to be added from module m79686.
+    </p>
+  </section>
+
+  <section xml:id="sec-regression-equation">
+    <title>The Regression Equation</title>
+    <p>
+      Content to be added from module m79689.
+    </p>
+  </section>
+
+  <section xml:id="sec-testing-significance-correlation">
+    <title>Testing the Significance of the Correlation Coefficient</title>
+    <p>
+      Content to be added from module m79691.
+    </p>
+  </section>
+
+  <section xml:id="sec-prediction">
+    <title>Prediction</title>
+    <p>
+      Content to be added from module m79692.
+    </p>
+  </section>
+
+  <section xml:id="sec-outliers">
+    <title>Outliers</title>
+    <p>
+      Content to be added from module m79694.
+    </p>
+  </section>
+
+  <section xml:id="sec-regression-distance">
+    <title>Regression (Distance from School)</title>
+    <p>
+      Content to be added from module m79695.
+    </p>
+  </section>
+
+  <section xml:id="sec-regression-review">
+    <title>Linear Regression and Correlation: Review</title>
+    <p>
+      Content to be added from module m79697.
+    </p>
+  </section>
+
+  <section xml:id="sec-regression-practice">
+    <title>Linear Regression and Correlation: Practice</title>
+    <p>
+      Content to be added from module m79699.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has covered linear regression and correlation analysis.
+    </p>
+  </conclusion>
+</chapter>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch06-normal-distribution" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Normal Distribution</title>
+
+  <introduction>
+    <p>
+      This chapter introduces the normal distribution, one of the most important probability 
+      distributions in statistics.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-standard-normal-distribution">
+    <title>The Standard Normal Distribution</title>
+    <p>
+      Content to be added from module m79640.
+    </p>
+  </section>
+
+  <section xml:id="sec-using-normal-distribution">
+    <title>Using the Normal Distribution</title>
+    <p>
+      Content to be added from module m79641.
+    </p>
+  </section>
+
+  <section xml:id="sec-normal-distribution-lab">
+    <title>Normal Distribution (Lap Times)</title>
+    <p>
+      Content to be added from module m79643.
+    </p>
+  </section>
+
+  <section xml:id="sec-normal-distribution-review">
+    <title>Normal Distribution: Review</title>
+    <p>
+      Content to be added from module m79644.
+    </p>
+  </section>
+
+  <section xml:id="sec-normal-distribution-practice">
+    <title>Normal Distribution: Practice</title>
+    <p>
+      Content to be added from module m79645.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has covered the normal distribution and its applications in statistics.
+    </p>
+  </conclusion>
+</chapter>

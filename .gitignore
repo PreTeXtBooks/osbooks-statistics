@@ -1,2 +1,6 @@
 .xsd
 *.vsix
+
+# PreTeXt build output
+pretext/output/
+pretext/.ptx/

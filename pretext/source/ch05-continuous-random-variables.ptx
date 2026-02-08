@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch05-continuous-random-variables" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Continuous Random Variables</title>
+
+  <introduction>
+    <p>
+      This chapter introduces continuous random variables and continuous probability distributions.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-continuous-probability-functions">
+    <title>Continuous Probability Functions</title>
+    <p>
+      Content to be added from module m79631.
+    </p>
+  </section>
+
+  <section xml:id="sec-uniform-distribution">
+    <title>The Uniform Distribution</title>
+    <p>
+      Content to be added from module m79632.
+    </p>
+  </section>
+
+  <section xml:id="sec-exponential-distribution">
+    <title>The Exponential Distribution</title>
+    <p>
+      Content to be added from module m79633.
+    </p>
+  </section>
+
+  <section xml:id="sec-continuous-random-variables-review">
+    <title>Continuous Random Variables: Review</title>
+    <p>
+      Content to be added from module m79635.
+    </p>
+  </section>
+
+  <section xml:id="sec-continuous-random-variables-practice">
+    <title>Continuous Random Variables: Practice</title>
+    <p>
+      Content to be added from module m79637.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has covered continuous random variables and important continuous distributions.
+    </p>
+  </conclusion>
+</chapter>

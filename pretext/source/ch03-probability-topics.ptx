@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch03-probability-topics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Probability Topics</title>
+
+  <introduction>
+    <p>
+      This chapter introduces probability concepts including basic probability rules, 
+      conditional probability, and independence.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-terminology">
+    <title>Terminology</title>
+    <p>
+      Content to be added from module m79609.
+    </p>
+  </section>
+
+  <section xml:id="sec-independent-mutually-exclusive">
+    <title>Independent and Mutually Exclusive Events</title>
+    <p>
+      Content to be added from module m79611.
+    </p>
+  </section>
+
+  <section xml:id="sec-two-basic-rules">
+    <title>Two Basic Rules of Probability</title>
+    <p>
+      Content to be added from module m79612.
+    </p>
+  </section>
+
+  <section xml:id="sec-contingency-tables">
+    <title>Contingency Tables</title>
+    <p>
+      Content to be added from module m79614.
+    </p>
+  </section>
+
+  <section xml:id="sec-tree-venn-diagrams">
+    <title>Tree and Venn Diagrams</title>
+    <p>
+      Content to be added from module m79616.
+    </p>
+  </section>
+
+  <section xml:id="sec-probability-topics-review">
+    <title>Probability Topics: Review</title>
+    <p>
+      Content to be added from module m79617.
+    </p>
+  </section>
+
+  <section xml:id="sec-probability-topics-practice">
+    <title>Probability Topics: Practice</title>
+    <p>
+      Content to be added from module m79618.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has covered fundamental probability concepts and calculation methods.
+    </p>
+  </conclusion>
+</chapter>

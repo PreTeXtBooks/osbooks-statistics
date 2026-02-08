@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch01-sampling-and-data" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Sampling and Data</title>
+
+  <introduction>
+    <p>
+      This chapter introduces the basic concepts of statistics, including sampling techniques, 
+      data types, and data collection methods.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-definitions-of-statistics">
+    <title>Definitions of Statistics, Probability, and Key Terms</title>
+    <p>
+      Content to be added from module m79592.
+    </p>
+  </section>
+
+  <section xml:id="sec-data-sampling-variation">
+    <title>Data, Sampling, and Variation in Data and Sampling</title>
+    <p>
+      Content to be added from module m79593.
+    </p>
+  </section>
+
+  <section xml:id="sec-frequency-frequency-tables">
+    <title>Frequency, Frequency Tables, and Levels of Measurement</title>
+    <p>
+      Content to be added from module m79594.
+    </p>
+  </section>
+
+  <section xml:id="sec-sampling-experiment-design">
+    <title>Sampling Experiment and Design</title>
+    <p>
+      Content to be added from module m79595.
+    </p>
+  </section>
+
+  <section xml:id="sec-data-collection-experiment">
+    <title>Data Collection Experiment</title>
+    <p>
+      Content to be added from module m79596.
+    </p>
+  </section>
+
+  <section xml:id="sec-sampling-data-review">
+    <title>Sampling and Data: Review</title>
+    <p>
+      Content to be added from module m79597.
+    </p>
+  </section>
+
+  <section xml:id="sec-sampling-data-practice">
+    <title>Sampling and Data: Practice</title>
+    <p>
+      Content to be added from module m79598.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has introduced fundamental concepts in statistics including data types, 
+      sampling methods, and experimental design.
+    </p>
+  </conclusion>
+</chapter>

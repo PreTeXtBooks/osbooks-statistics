@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch11-chi-square-distribution" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>The Chi-Square Distribution</title>
+
+  <introduction>
+    <p>
+      This chapter introduces the chi-square distribution and its applications in 
+      goodness-of-fit tests, independence tests, and variance tests.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-facts-chi-square">
+    <title>Facts About the Chi-Square Distribution</title>
+    <p>
+      Content to be added from module m79673.
+    </p>
+  </section>
+
+  <section xml:id="sec-goodness-of-fit-test">
+    <title>Goodness-of-Fit Test</title>
+    <p>
+      Content to be added from module m79674.
+    </p>
+  </section>
+
+  <section xml:id="sec-test-independence">
+    <title>Test of Independence</title>
+    <p>
+      Content to be added from module m79675.
+    </p>
+  </section>
+
+  <section xml:id="sec-test-homogeneity">
+    <title>Test for Homogeneity</title>
+    <p>
+      Content to be added from module m79676.
+    </p>
+  </section>
+
+  <section xml:id="sec-comparison-chi-square-tests">
+    <title>Comparison of the Chi-Square Tests</title>
+    <p>
+      Content to be added from module m79678.
+    </p>
+  </section>
+
+  <section xml:id="sec-test-single-variance">
+    <title>Test of a Single Variance</title>
+    <p>
+      Content to be added from module m79679.
+    </p>
+  </section>
+
+  <section xml:id="sec-chi-square-lab">
+    <title>Chi-Square Distribution (Lap Times)</title>
+    <p>
+      Content to be added from module m79682.
+    </p>
+  </section>
+
+  <section xml:id="sec-chi-square-review">
+    <title>Chi-Square Distribution: Review</title>
+    <p>
+      Content to be added from module m79683.
+    </p>
+  </section>
+
+  <section xml:id="sec-chi-square-practice">
+    <title>Chi-Square Distribution: Practice</title>
+    <p>
+      Content to be added from module m79685.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has covered the chi-square distribution and its various applications.
+    </p>
+  </conclusion>
+</chapter>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch02-descriptive-statistics" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Descriptive Statistics</title>
+
+  <introduction>
+    <p>
+      This chapter covers methods for describing and visualizing data, including measures 
+      of center, spread, and position.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-stem-leaf-graphs">
+    <title>Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs</title>
+    <p>
+      Content to be added from module m79599.
+    </p>
+  </section>
+
+  <section xml:id="sec-histograms-frequency-polygons">
+    <title>Histograms, Frequency Polygons, and Time Series Graphs</title>
+    <p>
+      Content to be added from module m79600.
+    </p>
+  </section>
+
+  <section xml:id="sec-measures-location">
+    <title>Measures of the Location of the Data</title>
+    <p>
+      Content to be added from module m79601.
+    </p>
+  </section>
+
+  <section xml:id="sec-box-plots">
+    <title>Box Plots</title>
+    <p>
+      Content to be added from module m79602.
+    </p>
+  </section>
+
+  <section xml:id="sec-measures-center">
+    <title>Measures of the Center of the Data</title>
+    <p>
+      Content to be added from module m79603.
+    </p>
+  </section>
+
+  <section xml:id="sec-skewness-mean-median-mode">
+    <title>Skewness and the Mean, Median, and Mode</title>
+    <p>
+      Content to be added from module m79604.
+    </p>
+  </section>
+
+  <section xml:id="sec-measures-spread">
+    <title>Measures of the Spread of the Data</title>
+    <p>
+      Content to be added from module m79605.
+    </p>
+  </section>
+
+  <section xml:id="sec-descriptive-statistics-review">
+    <title>Descriptive Statistics: Review</title>
+    <p>
+      Content to be added from module m79606.
+    </p>
+  </section>
+
+  <section xml:id="sec-descriptive-statistics-practice">
+    <title>Descriptive Statistics: Practice</title>
+    <p>
+      Content to be added from module m79608.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has covered various methods for describing and visualizing data distributions.
+    </p>
+  </conclusion>
+</chapter>

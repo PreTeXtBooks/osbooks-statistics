@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch09-hypothesis-testing-one-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Hypothesis Testing with One Sample</title>
+
+  <introduction>
+    <p>
+      This chapter introduces hypothesis testing with a single sample, including tests 
+      for means and proportions.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-null-alternative-hypotheses">
+    <title>Null and Alternative Hypotheses</title>
+    <p>
+      Content to be added from module m79660.
+    </p>
+  </section>
+
+  <section xml:id="sec-outcomes-type-errors">
+    <title>Outcomes and the Type I and Type II Errors</title>
+    <p>
+      Content to be added from module m79661.
+    </p>
+  </section>
+
+  <section xml:id="sec-distribution-test-statistics">
+    <title>Distribution Needed for Hypothesis Testing</title>
+    <p>
+      Content to be added from module m79662.
+    </p>
+  </section>
+
+  <section xml:id="sec-rare-events">
+    <title>Rare Events, the Sample, Decision and Conclusion</title>
+    <p>
+      Content to be added from module m79663.
+    </p>
+  </section>
+
+  <section xml:id="sec-additional-information-one-sample">
+    <title>Additional Information and Full Hypothesis Test Examples</title>
+    <p>
+      Content to be added from module m79664.
+    </p>
+  </section>
+
+  <section xml:id="sec-hypothesis-testing-review">
+    <title>Hypothesis Testing with One Sample: Review</title>
+    <p>
+      Content to be added from module m79665.
+    </p>
+  </section>
+
+  <section xml:id="sec-hypothesis-testing-practice">
+    <title>Hypothesis Testing with One Sample: Practice</title>
+    <p>
+      Content to be added from module m79666.
+    </p>
+  </section>
+
+  <conclusion>
+    <p>
+      This chapter has covered the fundamentals of hypothesis testing with one sample.
+    </p>
+  </conclusion>
+</chapter>
