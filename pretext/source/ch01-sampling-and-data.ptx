@@ -27,39 +27,2127 @@
     <p>Included in this chapter are the basic ideas and words of probability and statistics. You will soon understand that statistics and probability work together. You will also learn how data are gathered and what <em>good</em> data can be distinguished from <em>bad</em>.</p>
   </introduction>
 
+
   <section xml:id="sec-definitions-of-statistics">
     <title>Definitions of Statistics, Probability, and Key Terms</title>
-    <p>
-      Content to be added from module m79593.
+    <p xml:id="id8112751">The science of <term xml:id="term-00001">statistics</term> deals with the collection, analysis, interpretation, and presentation of <term xml:id="term-00002">data</term>. We see and use data in our everyday lives. </p>
+    <exploration xml:id="fs-idm27544368">
+      <p xml:id="eip-34">In your classroom, try this exercise. Have class members write down the average time—in hours, to the nearest half-hour—they sleep per night. Your instructor will record the data. Then create a simple graph, called a dot plot, of the data. A dot plot consists of a number line and dots, or points, positioned above the number line. For example, consider the following data:</p>
+      <p xml:id="eip-idm80945824">5, 5.5, 6, 6, 6, 6.5, 6.5, 6.5, 6.5, 7, 7, 8, 8, 9.</p>
+      <p xml:id="eip-71">The dot plot for this data would be as follows:</p>
+      <figure xml:id="eip-idp25549888">
+        <image source="media/fig-ch01_02_01n.png">
+        </image>
+      </figure>
+      <p xml:id="id10326643">Does your dot plot look the same as or different from the example? Why? If you did the same example in an English class with the same number of students, do you think the results would be the same? Why or why not?</p>
+      <p xml:id="id9336363">Where do your data appear to cluster? How might you interpret the clustering?</p>
+      <p xml:id="id9969457">The questions above ask you to analyze and interpret your data. With this example, you have begun your study of statistics.</p>
+    </exploration>
+    <p xml:id="eip-624">In this course, you will learn how to organize and summarize data. Organizing and summarizing data is called <term xml:id="term-00003">descriptive statistics</term>. Two ways to summarize data are by graphing and by using numbers, for example, finding an average. After you have studied probability and probability distributions, you will use formal methods for drawing conclusions from <em>good</em> data. The formal methods are called <term xml:id="term-00004">inferential statistics</term>. Statistical inference uses probability to determine how confident we can be that our conclusions are correct.</p>
+    <p xml:id="eip-23">Effective interpretation of data, or inference, is based on good procedures for producing data and thoughtful examination of the data. You will encounter what will seem to be too many mathematical formulas for interpreting data. The goal of statistics is not to perform numerous calculations using the formulas, but to gain an understanding of your data. The calculations can be done using a calculator or a computer. The understanding must come from you. If you can thoroughly grasp the basics of statistics, you can be more confident in the decisions you make in life.</p>
+    <subsection xml:id="fs-id1170309364460">
+      <title>Statistical Models</title>
+      <p xml:id="fs-id1170309782312">Statistics, like all other branches of mathematics, uses <term xml:id="term-00005">mathematical models</term> to describe phenomena that occur in the real world. Some mathematical models are deterministic. These models can be used when one value is precisely determined from another value. Examples of deterministic models are the quadratic equations that describe the acceleration of a car from rest or the differential equations that describe the transfer of heat from a stove to a pot. These models are quite accurate and can be used to answer questions and make predictions with a high degree of precision. Space agencies, for example, use deterministic models to predict the exact amount of thrust that a rocket needs to break away from Earths gravity and achieve orbit.</p>
+      <p xml:id="fs-id1170309244576">However, life is not always precise. While scientists can predict to the minute the time that the sun will rise, they cannot say precisely where a hurricane will make landfall. <alert>Statistical models</alert> can be used to predict lifes more uncertain situations. These special forms of mathematical models or functions are based on the idea that one value affects another value. Some statistical models are mathematical functions that are more preciseone set of values can predict or determine another set of values. Or some statistical models are mathematical functions in which a set of values do not precisely determine other values. Statistical models are very useful because they can describe the probability or likelihood of an event occurring and provide alternative outcomes if the event does not occur. For example, weather forecasts are examples of statistical models. Meteorologists cannot predict tomorrows weather with certainty. However, they often use statistical models to tell you how likely it is to rain at any given time, and you can prepare yourself based on this probability.</p>
+    </subsection>
+    <subsection xml:id="eip-177">
+      <title>Probability</title>
+      <p xml:id="fs-idm37641920"><term xml:id="term-00006">Probability</term> is a mathematical tool used to study randomness. It deals with the chance of an event occurring. For example, if you toss a <em>fair</em> coin four times, the outcomes may not be two heads and two tails. However, if you toss the same coin 4,000 times, the outcomes will be close to half heads and half tails. The expected theoretical probability of heads in any one toss is <m>\frac{1}{2}</m> or .5. Even though the outcomes of a few repetitions are uncertain, there is a regular pattern of outcomes when there are many repetitions. After reading about the English statistician Karl <term xml:id="term-00007">Pearson</term> who tossed a coin 24,000 times with a result of 12,012 heads, one of the authors tossed a coin 2,000 times. The results were 996 heads. The fraction <m>\frac{996}{2,000}</m> is equal to .498 which is very close to .5, the expected probability.</p>
+      <p xml:id="fs-idm51841168">The theory of probability began with the study of games of chance such as poker. Predictions take the form of probabilities. To predict the likelihood of an earthquake, of rain, or whether you will get an <em>A</em> in this course, we use probabilities. Doctors use probability to determine the chance of a vaccination causing the disease the vaccination is supposed to prevent. A stockbroker uses probability to determine the rate of return on a client's investments.</p>
+    </subsection>
+    <subsection xml:id="eip-159">
+      <title>Key Terms</title>
+      <p xml:id="fs-idm63797184">In statistics, we generally want to study a <term xml:id="term-00008">population</term>. You can think of a population as a collection of persons, things, or objects under study. To study the population, we select a <term xml:id="term-00009">sample</term>. The idea of <term xml:id="term-00010">sampling</term> is to select a portion, or subset, of the larger population and study that portion—the sample—to gain information about the population. Data are the result of sampling from a population.</p>
+      <p xml:id="fs-idp7610128">Because it takes a lot of time and money to examine an entire population, sampling is a very practical technique. If you wished to compute the overall grade point average at your school, it would make sense to select a sample of students who attend the school. The data collected from the sample would be the students' grade point averages. In presidential elections, opinion poll samples of 1,000–2,000 people are taken. The opinion poll is supposed to represent the views of the people in the entire country. Manufacturers of canned carbonated drinks take samples to determine if a 16-ounce can contains 16 ounces of carbonated drink.</p>
+      <p xml:id="fs-idm52897344">From the sample data, we can calculate a statistic. A <alert>statistic</alert> is a number that represents a property of the sample. For example, if we consider one math class as a sample of the population of <em>all</em> math classes, then the average number of points earned by students in that one math class at the end of the term is an example of a statistic. Since we do not have the data for all math classes, that statistic is our best estimate of the average for the entire population of math classes. If we happen to have data for <em>all</em> math classes, we can find the population parameter. A <alert>parameter</alert> is a numerical characteristic of the whole population that can be estimated by a statistic. Since we considered all math classes to be the population, then the average number of points earned per student over all the math classes is an example of a parameter.</p>
+      <p xml:id="fs-idm69156368">One of the main concerns in the field of statistics is how accurately a statistic estimates a parameter. In order to have an accurate sample, it must contain the characteristics of the population in order to be a <term xml:id="term-00011">representative sample</term>. We are interested in both the sample statistic and the population parameter in inferential statistics. In a later chapter, we will use the sample statistic to test the validity of the established population parameter.</p>
+      <p xml:id="fs-idm62450928">A <term xml:id="term-00012">variable</term>, usually notated by capital letters such as <em>X</em> and <em>Y</em>, is a characteristic or measurement that can be determined for each member of a population. Variables may describe values like weight in pounds or favorite subject in school. <term xml:id="term-00013">Numerical variables</term> take on values with equal units such as weight in pounds and time in hours. <term xml:id="term-00014">Categorical variables</term> place the person or thing into a category. If we let <em>X</em> equal the number of points earned by one math student at the end of a term, then <em>X</em> is a numerical variable. If we let <em>Y</em> be a person's party affiliation, then some examples of <em>Y</em> include Republican, Democrat, and Independent. <em>Y</em> is a categorical variable. We could do some math with values of <em>X</em>—calculate the average number of points earned, for example—but it makes no sense to do math with values of <em>Y</em>—calculating an average party affiliation makes no sense.</p>
+      <p xml:id="fs-idm69507040"><term xml:id="term-00015">Data</term> are the actual values of the variable. They may be numbers or they may be words. <em>Datum</em> is a single value.</p>
+      <p xml:id="fs-idm150607232">Two words that come up often in statistics are <term xml:id="term-00016">mean</term> and <term xml:id="term-00017">proportion</term>. If you were to take three exams in your math classes and obtain scores of 86, 75, and 92, you would calculate your mean score by adding the three exam scores and dividing by three. Your mean score would be 84.3 to one decimal place. If, in your math class, there are 40 students and 22 are males and 18 females, then the proportion of men students is <m>\frac{22}{40}</m> and the proportion of women students is <m>\frac{18}{40}</m>. Mean and proportion are discussed in more detail in later chapters.</p>
+      <note xml:id="fs-idp118463488">
+        <title>NOTE</title>
+        <p xml:id="fs-idm25880032">The words <em>mean</em> and <em>average</em> are often used interchangeably. In this book, we use the term <em>arithmetic mean</em> for mean.</p>
+      </note>
+      <example xml:id="fs-idm41492224">
+        <statement>
+          <p xml:id="fs-idm51690528">Determine what the population, sample, parameter, statistic, variable, and data referred to in the following study.</p>
+          <p xml:id="fs-id1164565122557">We want to know the mean amount of extracurricular activities in which high school students participate. We randomly surveyed 100 high school students. Three of those students were in 2, 5, and 7 extracurricular activities, respectively.</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-id1164566543322">The <em>population</em> is all high school students.</p>
+          <p xml:id="fs-id1164565179334">The <em>sample</em> is the 100 high school students interviewed.</p>
+          <p xml:id="fs-id1164559091930">The <em>parameter</em> is the mean amount of extracurricular activities in which all high school students participate.</p>
+          <p xml:id="fs-id1164565044337">The <em>statistic</em> is the mean amount of extracurricular activities in which the sample of high school students participate.</p>
+          <p xml:id="fs-id1164564839870">The <em>variable</em> could be the amount of extracurricular activities by one high school student. Let <em>X</em> = the amount of extracurricular activities by one high school student.</p>
+          <p xml:id="fs-id1164566557749">The <em>data</em> are the number of extracurricular activities in which the high school students participate. Examples of the data are 2, 5, 7.</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp138853216">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idm19818720">Find an article online or in a newspaper or magazine that refers to a statistical study or poll. Identify what each of the key terms—population, sample, parameter, statistic, variable, and data—refers to in the study mentioned in the article. Does the article use the key terms correctly?</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idp54569968">The <em>population</em> is all families with children attending Knoll Academy.</p>
+          <p xml:id="fs-idp74542288">The <em>sample</em> is a random selection of 100 families with children attending Knoll Academy.</p>
+          <p xml:id="fs-idp68099536">The <em>parameter</em> is the average (mean) amount of money spent on school uniforms by families with children at Knoll Academy.</p>
+          <p xml:id="fs-idp123019104">The <em>statistic</em> is the average (mean) amount of money spent on school uniforms by families in the sample.</p>
+          <p xml:id="fs-idp45305984">The <em>variable</em> is the amount of money spent by one family. Let X = the amount of money spent on school uniforms by one family with children attending Knoll Academy.</p>
+          <p xml:id="fs-idp92935216">The <em>data</em> are the dollar amounts spent by the families. Examples of the data are $65, $75, and $95.</p>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idm42503168">
+        <statement>
+          <p xml:id="fs-idm41922176">Determine what the key terms refer to in the following study.</p>
+          <p xml:id="fs-idm14780304">A study was conducted at a local high school to analyze the average cumulative GPAs of students who graduated last year. Fill in the letter of the phrase that best describes each of the items below.</p>
+          <p xml:id="fs-idm49702528">1. Population ____  2. Statistic ____  3. Parameter ____  4. Sample ____  5. Variable ____  6. Data ____</p>
+          <ul xml:id="fs-idm9097856">
+            <li>a) all students who attended the high school last year</li>
+            <li>b) the cumulative GPA of one student who graduated from the high school last year</li>
+            <li>c) 3.65, 2.80, 1.50, 3.90</li>
+            <li>d) a group of students who graduated from the high school last year, randomly selected</li>
+            <li>e) the average cumulative GPA of students who graduated from the high school last year</li>
+            <li>f) all students who graduated from the high school last year</li>
+            <li>g) the average cumulative GPA of students in the study who graduated from the high school last year</li>
+          </ul>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm53173376">1. f, 2. g, 3. e, 4. d, 5. b, 6. c
     </p>
+        </solution>
+      </example>
+      <example xml:id="fs-idm70107152">
+        <statement>
+          <p xml:id="fs-idm53163856">Determine what the population, sample, parameter, statistic, variable, and data referred to in the following study.</p>
+          <p xml:id="fs-idm19702944">As part of a study designed to test the safety of  automobiles, the National Transportation Safety Board collected and reviewed data about the effects of an automobile crash on  test dummies (The Data and Story Library, n.d.). Here is the criterion they used.</p>
+          <table xml:id="ch01_mod01_tbl003">
+            <tabular>
+              <row>
+                <cell>Speed at which Cars Crashed</cell>
+                <cell>Location of <em>Driver</em> (i.e., dummies)</cell>
+              </row>
+              <row>
+                <cell>35 miles/hour</cell>
+                <cell>Front seat</cell>
+              </row>
+            </tabular>
+          </table>
+          <p xml:id="fs-idm69168288">Cars with dummies in the front seats were crashed into a wall at a speed of 35 miles per hour. We want to know the proportion of dummies in the driver’s seat that would have had head injuries, if they had been actual drivers. We start with a simple random sample of 75 cars.</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm32368">The <em>population</em> is all cars containing dummies in the front seat.</p>
+          <p xml:id="fs-idm42507664">The <em>sample</em> is the 75 cars, selected by a simple random sample.</p>
+          <p xml:id="fs-idm45479952">The <em>parameter</em> is the proportion of driver dummies—if they had been real people—who would have suffered head injuries in the population.</p>
+          <p xml:id="fs-idm59321456">The <em>statistic</em> is proportion of driver dummies—if they had been real people—who would have suffered head injuries in the sample.</p>
+          <p xml:id="fs-idm41923744">The <em>variable</em> <em>X</em> = whether driver dummies—if they had been real people—would have suffered head injuries.</p>
+          <p xml:id="fs-idm77048688">The <em>data</em> are either: yes, had head injury, or no, did not.</p>
+        </solution>
+      </example>
+      <example xml:id="fs-idm64455456">
+        <statement>
+          <p xml:id="fs-idm74506992">Determine what the population, sample, parameter, statistic, variable, and data referred to in the following study.</p>
+          <p xml:id="fs-idm35536880">An insurance company would like to determine the proportion of all medical doctors
+    who have been involved in one or more malpractice lawsuits. The company selects
+    500 doctors at random from a professional directory and determines the number in
+    the sample who have been involved in a malpractice lawsuit.</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm43486032">The <em>population</em> is all medical doctors listed in the professional directory.</p>
+          <p xml:id="fs-idp3077328">The <em>parameter</em> is the proportion of medical doctors who have been involved in one or more malpractice suits in the population.</p>
+          <p xml:id="fs-idm45173104">The <em>sample</em> is the 500 doctors selected at random from the professional directory.</p>
+          <p xml:id="fs-idp4875616">The <em>statistic</em> is the proportion of medical doctors who have been involved in one or more malpractice suits in the sample.</p>
+          <p xml:id="fs-idm52360480">The <em>variable</em> <em>X</em> records whether a doctor has or has not been involved in a malpractice suit.</p>
+          <p xml:id="fs-idm41698096">The <em>data</em> are either: yes, was involved in one or more malpractice lawsuits; or no, was not.</p>
+        </solution>
+      </example>
+      <exploration xml:id="fs-idm62184048">
+        <p xml:id="fs-idp44556000">Do the following exercise collaboratively with up to four people per group. Find a population, a sample, the parameter, the statistic, a variable, and data for the following study: You want to determine the average—mean—number of glasses of milk college students drink per day. Suppose yesterday, in your English class, you asked five students how many glasses of milk they drank the day before. The answers were 1, 0, 1, 3, and 4 glasses of milk.</p>
+      </exploration>
+    </subsection>
   </section>
 
   <section xml:id="sec-data-sampling-variation">
     <title>Data, Sampling, and Variation in Data and Sampling</title>
-    <p>
-      Content to be added from module m79594.
+    <subsection xml:id="fs-id1164564371802">
+      <p xml:id="id7862377">Data may come from a population or from a sample. Lowercase letters like <m>x</m> or <m>y</m> generally are used to represent data values. Most data can be put into the following categories:</p>
+      <ul xml:id="id10607985">
+        <li>Qualitative</li>
+        <li>Quantitative</li>
+      </ul>
+      <p xml:id="id9602938"><term xml:id="term-00001">Qualitative data</term> are the result of categorizing or describing attributes of a population. Qualitative data are also often called <term xml:id="term-00002">categorical data</term>. Hair color, blood type, ethnic group, the car a person drives, and the street a person lives on are examples of qualitative data. Qualitative data are generally described by words or letters. For instance, hair color might be black, dark brown, light brown, blonde, gray, or red. Blood type might be AB+, O–, or B+. Researchers often prefer to use quantitative data over qualitative data because it lends itself more easily to mathematical analysis. For example, it does not make sense to find an average hair color or blood type.</p>
+      <p xml:id="id3365343"><term xml:id="term-00003">Quantitative data</term> are always numbers. Quantitative data are the result of <em>counting</em> or <em>measuring</em> attributes of a population. Amount of money, pulse rate, weight, number of people living in your town, and number of students who take statistics are examples of quantitative data. Quantitative data may be either <term xml:id="term-00004">discrete</term> or <term xml:id="term-00005">continuous</term>.</p>
+      <p xml:id="id9750754">All data that are the result of counting are called <term xml:id="term-00006">quantitative discrete data</term>. These data take on only certain numerical values. If you count the number of phone calls you receive for each day of the week, you might get values such as zero, one, two, or three.</p>
+      <p xml:id="id5023881">Data that are not only made up of counting numbers, but that may include fractions, decimals, or irrational numbers, are called <term xml:id="term-00007">quantitative continuous data</term>. Continuous data are often  the results of measurements like lengths, weights, or times. A list of the lengths in minutes for all the phone calls that you make in a week, with numbers like 2.4, 7.5, or 11.0, would be quantitative continuous data.</p>
+      <example xml:id="fs-idm37037280">
+        <title>Data Sample of Quantitative Discrete Data</title>
+        <p xml:id="id3406867">The data are the number of books students carry in their backpacks. You sample five students. Two students carry three books, one student carries four books, one student carries two books, and one student carries one book. The numbers of books, 3, 4, 2, and 1, are the quantitative discrete data.</p>
+      </example>
+      <exercise xml:id="fs-idp82396944">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idp14474960">The data are the number of machines in a gym. You sample five gyms. One gym has 12 machines, one
+    gym has 15 machines, one gym has 10 machines, one gym has 22 machines, and the other gym has 20
+    machines. What type of data is this?</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idp59961424">quantitative discrete data</p>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idm43599584">
+        <title>Data Sample of Quantitative Continuous Data</title>
+        <p xml:id="id3944554">The data are the weights of backpacks with books in them. You sample the same five students. The weights, in pounds, of their backpacks are 6.2, 7, 6.8, 9.1, 4.3. Notice that backpacks carrying three books can have different weights. Weights are quantitative continuous data.</p>
+      </example>
+      <exercise xml:id="fs-idp29656272">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idm8677600">The data are the areas of lawns in square feet. You sample five houses. The areas of the lawns are 144 sq. ft., 160 sq. ft., 190 sq. ft., 180 sq. ft., and 210 sq. ft. What type of data is this?</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm46308752">quantitative continuous data</p>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idm68548176">
+        <p xml:id="fs-idm35908224">You go to the supermarket and purchase three cans of soup (19 ounces tomato bisque, 14.1 ounces lentil, and 19 ounces Italian wedding), two packages of nuts (walnuts and peanuts), four different kinds of vegetable (broccoli, cauliflower, spinach, and carrots), and two desserts (16 ounces pistachio ice cream and 32 ounces chocolate chip cookies).</p>
+        <statement>
+          <p xml:id="fs-idp7536032">Name data sets that are quantitative discrete, quantitative continuous, and qualitative.</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm84978080">A possible solution</p>
+          <ul xml:id="fs-idp14197904">
+            <li>One example of a quantitative discrete data set would be three cans of soup, two packages of nuts, four kinds of vegetables, and two desserts because you count them.</li>
+            <li>The weights of the soups (19 ounces, 14.1 ounces, 19 ounces) are quantitative continuous data because you measure weights as precisely as possible.</li>
+            <li>Types of soups, nuts, vegetables, and desserts are qualitative data because they are categorical.</li>
+          </ul>
+        </solution>
+        <p xml:id="fs-idm59417696">Try to identify additional data sets in this example.</p>
+      </example>
+      <example xml:id="fs-idm18169904">
+        <p xml:id="id11979238">The data are the colors of backpacks. Again, you sample the same five students. One student has a red backpack, two students have black backpacks, one student has a green backpack, and one student has a gray backpack. The colors red, black, black, green, and gray are qualitative data.</p>
+      </example>
+      <exercise xml:id="fs-idp21253600">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idm81062896">The data are the colors of houses. You sample five houses. The colors of the houses are white, yellow, white, red, and white. What type of data is this?</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm128612288">qualitative data</p>
+        </solution>
+      </exercise>
+      <note xml:id="fs-idp153448320">
+        <title>Note</title>
+        <p xml:id="eip-idp9388048">You may collect data as numbers and report it categorically. For example, the quiz scores for each student are recorded throughout the term. At the end of the term, the quiz scores are reported as A, B, C, D, or F.</p>
+      </note>
+      <example xml:id="fs-idm36372528">
+        <statement>
+          <p xml:id="element-318">Work collaboratively to determine the correct data type: quantitative or qualitative. Indicate whether quantitative data are continuous or discrete. Hint: Data that are discrete often start with the words <em>the number of</em>.</p>
+          <ul xml:id="element-861">
+            <li>the number of pairs of shoes you own</li>
+            <li>the type of car you drive</li>
+            <li>the distance from your home to the nearest grocery store</li>
+            <li>the number of classes you take per school year</li>
+            <li>the type of calculator you use</li>
+            <li>weights of sumo wrestlers</li>
+            <li>number of correct answers on a quiz</li>
+            <li>IQ scores (This may cause some discussion.)</li>
+          </ul>
+        </statement>
+        <solution>
+          <p xml:id="exercise-solutions-1">Items a, d, and g are quantitative discrete; items c, f, and h are quantitative continuous; items b and e are qualitative or categorical.</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp17156448">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idm81268256">Determine the correct data type, quantitative or qualitative, for the number of cars in a parking lot. Indicate whether quantitative data are continuous or discrete.</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm23032176">quantitative discrete</p>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idm43655440">
+        <statement>
+          <p xml:id="fs-idm69332192">A statistics professor collects information about the classification of her students as freshmen, sophomores, juniors, or seniors. The data she collects are summarized in the pie chart <xref ref=""></xref>. What type of data does this graph show?</p>
+          <figure xml:id="ch01_mod02_fig001">
+            <image source="media/CNX_Stats_C01_M05_001.jpg">
+            </image>
+          </figure>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm66868784">This pie chart shows the students in each year, which is <em>qualitative or categorical data</em>.</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm89068416">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-id1164563448311">A large school district keeps data of the scores students earn on an end of the year standardized exam. The data he collects are summarized in the histogram. The class boundaries are 50 to less than 60, 60 to less than 70, 70 to less than 80, 80 to less than 90, and 90 to less than 100.
     </p>
+          <figure xml:id="ch01_mod02_fig002">
+            <image source="media/CNX_Stats_C01_M05_002.png">
+            </image>
+          </figure>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm82473472">A histogram is used to display quantitative data: the numbers of credit hours completed. Because students can complete only a whole number of hours (no fractions of hours allowed), this data is quantitative discrete.</p>
+        </solution>
+      </exercise>
+    </subsection>
+    <subsection xml:id="eip-312">
+      <title>Qualitative Data Discussion</title>
+      <p xml:id="eip-298">Below are tables comparing the number of part-time and full-time students at De Anza College and Foothill College enrolled for the spring 2010 quarter. The tables display counts, frequencies, and percentages or proportions, relative frequencies. For instance, to calculate the percentage of part time students at De Anza College, divide 9,200/22,496 to get .4089. Round to the nearest thousandth—third decimal place and then multiply by 100 to get the percentage, which is 40.9 percent.</p>
+      <p xml:id="fs-id1164563494537">So, the percent columns make comparing the same categories in the colleges easier. Displaying percentages along with the numbers is often helpful, but it is particularly important when comparing sets of data that do not have the same totals, such as the total enrollments for both colleges in this example. Notice how much larger the percentage for part-time students at Foothill College is compared to De Anza College.</p>
+      <table xml:id="eip-953">
+        <tabular>
+          <row header="yes">
+            <cell>De Anza College</cell>
+            <cell></cell>
+            <cell>Foothill College</cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell>Number</cell>
+            <cell>Percent</cell>
+            <cell></cell>
+            <cell></cell>
+            <cell>Number</cell>
+            <cell>Percent</cell>
+          </row>
+          <row>
+            <cell>Full-time</cell>
+            <cell>9,200</cell>
+            <cell>40.90%</cell>
+            <cell></cell>
+            <cell>Full-time</cell>
+            <cell>4,059</cell>
+            <cell>28.60%</cell>
+          </row>
+          <row>
+            <cell>Part-time</cell>
+            <cell>13,296</cell>
+            <cell>59.10%</cell>
+            <cell></cell>
+            <cell>Part-time</cell>
+            <cell>10,124</cell>
+            <cell>71.40%</cell>
+          </row>
+          <row>
+            <cell>Total</cell>
+            <cell>22,496</cell>
+            <cell>100%</cell>
+            <cell></cell>
+            <cell>Total</cell>
+            <cell>14,183</cell>
+            <cell>100%</cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="fs-id1164565249104">Tables are a good way of organizing and displaying data. But graphs can be even more helpful in understanding the data.</p>
+      <p xml:id="fs-id1164566888972">Two graphs that are used to display qualitative data are pie charts and bar graphs.</p>
+      <p xml:id="fs-id1164563109680">In a <em>pie chart</em>, categories of data are shown by wedges in a circle that represent the percent of individuals/items in each category. We use pie charts when we want to show parts of a whole.</p>
+      <p xml:id="fs-id1164566484709">In a <em>bar graph</em>, the length of the bar for each category represents the number or percent of individuals in each category. Bars may be vertical or horizontal. We use bar graphs when we want to compare categories or show changes over time.</p>
+      <p xml:id="fs-id1164562202759">A <em>Pareto chart</em> consists of bars that are sorted into order by category size (largest to smallest).</p>
+      <p xml:id="eip-378">Look at <xref ref=""></xref> and <xref ref=""></xref> and determine which graph (pie or bar) you think displays the comparisons better.</p>
+      <p xml:id="eip-510">It is a good idea to look at a variety of graphs to see which is the most helpful in displaying the data. We might make different choices of what we think is the <em>best</em> graph depending on the data and the context. Our choice also depends on what we are using the data for.</p>
+      <figure xml:id="ch01_mod02_fig003">
+        <image source="media/fig-ch01_patchfile_01.jpeg">
+        </image>
+      </figure>
+      <figure xml:id="ch01_mod02_fig004">
+        <image source="media/fig-ch01_patchfile_03.jpg">
+        </image>
+      </figure>
+      <subsection xml:id="eip-558">
+        <title>Percentages That Add to More (or Less) Than 100 Percent</title>
+        <p xml:id="eip-613">Sometimes percentages add up to be more than 100 percent (or less than 100 percent). In the graph, the percentages add to more than 100 percent because students can be in more than one category. A bar graph is appropriate to compare the relative size of the categories. A pie chart cannot be used. It also could not be used if the percentages added to less than 100 percent.
+    </p>
+        <table xml:id="eip-451">
+          <tabular>
+            <row header="yes">
+              <cell>Characteristic/Category</cell>
+              <cell>Percent</cell>
+            </row>
+            <row>
+              <cell>Students studying technical subjects</cell>
+              <cell>40.9%</cell>
+            </row>
+            <row>
+              <cell>Students studying non-technical subjects</cell>
+              <cell>48.6%</cell>
+            </row>
+            <row>
+              <cell>Students who intend to transfer to a four-year educational institutional</cell>
+              <cell>61.0%</cell>
+            </row>
+            <row>
+              <cell>TOTAL</cell>
+              <cell>150.5%</cell>
+            </row>
+          </tabular>
+        </table>
+        <figure xml:id="ch01_mod02_fig005">
+          <image source="media/fig-ch01_patchfile_04.jpg">
+          </image>
+        </figure>
+      </subsection>
+      <subsection xml:id="eip-993">
+        <title>Omitting Categories/Missing Data</title>
+        <p xml:id="eip-145">The table displays Ethnicity of Students but is missing the <em>Other/Unknown</em> category. This category contains people who did not feel they fit into any of the ethnicity categories or declined to respond. Notice that the frequencies do not add up to the total number of students. In this situation, create a bar graph and not a pie chart.</p>
+        <table xml:id="eip-251">
+          <tabular>
+            <row header="yes">
+              <cell></cell>
+              <cell>Frequency</cell>
+              <cell>Percent</cell>
+            </row>
+            <row>
+              <cell>Asian</cell>
+              <cell>8,794</cell>
+              <cell>36.1%</cell>
+            </row>
+            <row>
+              <cell>Black</cell>
+              <cell>1,412</cell>
+              <cell>5.8%</cell>
+            </row>
+            <row>
+              <cell>Filipino</cell>
+              <cell>1,298</cell>
+              <cell>5.3%</cell>
+            </row>
+            <row>
+              <cell>Hispanic</cell>
+              <cell>4,180</cell>
+              <cell>17.1%</cell>
+            </row>
+            <row>
+              <cell>Native American</cell>
+              <cell>146</cell>
+              <cell>.6%</cell>
+            </row>
+            <row>
+              <cell>Pacific Islander</cell>
+              <cell>236</cell>
+              <cell>1.0%</cell>
+            </row>
+            <row>
+              <cell>White</cell>
+              <cell>5,978</cell>
+              <cell>24.5%</cell>
+            </row>
+            <row>
+              <cell>TOTAL</cell>
+              <cell>22,044 out of 24,382</cell>
+              <cell>90.4% out of 100%</cell>
+            </row>
+          </tabular>
+        </table>
+        <figure xml:id="ch01_mod02_fig006">
+          <image source="media/fig-ch01_patchfile_05.jpg">
+          </image>
+        </figure>
+        <p xml:id="eip-756">The following graph is the same as the previous graph but the <em>Other/Unknown</em> percent (9.6 percent) has been included. The <em>Other/Unknown</em> category is large compared to some of the other categories (Native American, .6 percent, Pacific Islander 1.0 percent). This is important to know when we think about what the data are telling us.</p>
+        <p xml:id="eip-187">This particular bar graph in <xref ref=""></xref> can be difficult to understand visually. The graph in <xref ref=""></xref> is a Pareto chart. The Pareto chart has the bars sorted from largest to smallest and is easier to read and interpret.</p>
+        <figure xml:id="ch01_mod02_fig007">
+          <caption>Bar Graph with Other/Unknown Category</caption>
+          <image source="media/fig-ch01_patchfile_06.jpg">
+          </image>
+        </figure>
+        <figure xml:id="ch01_mod02_fig008">
+          <caption>Pareto Chart With Bars Sorted by Size</caption>
+          <image source="media/fig-ch01_patchfile_07.jpg">
+          </image>
+        </figure>
+      </subsection>
+      <subsection xml:id="eip-47">
+        <title>Pie Charts:  No Missing Data</title>
+        <p xml:id="eip-7">The following pie charts have the <em>Other/Unknown</em> category included since the percentages must add to 100 percent. The chart in <xref ref=""></xref>b is organized by the size of each wedge, which makes it a more visually informative graph than the unsorted, alphabetical graph in <xref ref=""></xref>a.</p>
+        <figure xml:id="ch01_mod02_fig009">
+          <image source="media/fig-ch01_patchfile_08.jpeg">
+          </image>
+        </figure>
+      </subsection>
+    </subsection>
+    <subsection xml:id="fs-id1170308336983">
+      <title>Marginal Distributions in Two-Way Tables</title>
+      <p xml:id="fs-id1170308510698">Below is a <em>two-way table</em>, also called a contingency table, showing the favorite sports for 50 adults: 20 women and 30 men.</p>
+      <table xml:id="fs-id1170308143125">
+        <tabular>
+          <row header="yes">
+            <cell></cell>
+            <cell>Football</cell>
+            <cell>Basketball</cell>
+            <cell>Tennis</cell>
+            <cell>Total</cell>
+          </row>
+          <row>
+            <cell>Men</cell>
+            <cell>20</cell>
+            <cell>8</cell>
+            <cell>2</cell>
+            <cell>30</cell>
+          </row>
+          <row>
+            <cell>Women</cell>
+            <cell>5</cell>
+            <cell>7</cell>
+            <cell>8</cell>
+            <cell>20</cell>
+          </row>
+          <row>
+            <cell>Total</cell>
+            <cell>25</cell>
+            <cell>15</cell>
+            <cell>10</cell>
+            <cell>50</cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="fs-id1170308283619">This is a two-way table because it displays information about two categorical variables, in this case, gender and sports. Data of this type (two variable data) are referred to as <em>bivariate data</em>. Because the data represent a count, or tally, of choices, it is a two-way <em>frequency</em> table. The entries in the total row and the total column represent marginal frequencies or <em>marginal distributions</em>. Note—The term marginal distributions gets its name from the fact that the distributions are found in the margins of frequency distribution tables. Marginal distributions may be given as a fraction or decimal: For example, the total for men could be given as .6 or 3/5 since <m>30/50 = .6 = 3/5.</m> Marginal distributions require bivariate data and only focus on <em>one</em> of the variables represented in the table. In other words, the reason 20 is a marginal frequency in this two-way table is because it represents the margin or portion of the total population that is women (20/50). The reason 25 is a marginal frequency is because it represents the portion of those sampled who favor football (25/50). Note: The values that make up the body of the table (e.g., 20, 8, 2) are called <em>joint frequencies</em>.</p>
+    </subsection>
+    <subsection xml:id="fs-id1170308173342">
+      <title>Conditional Distributions in Two-Way Tables</title>
+      <p xml:id="fs-id1170308142156">The distinction between a marginal distribution and a <em>conditional distribution</em> is that the focus is on only a particular subset of the population (not the entire population). For example, in the table, if we focused only on the subpopulation of women who prefer football, then we could calculate the conditional distributions as shown in the two-way table below.</p>
+      <table xml:id="fs-id1170308226956">
+        <tabular>
+          <row header="yes">
+            <cell></cell>
+            <cell>Football</cell>
+            <cell>Basketball</cell>
+            <cell>Tennis</cell>
+            <cell>Total</cell>
+          </row>
+          <row>
+            <cell>Men</cell>
+            <cell>20</cell>
+            <cell>8</cell>
+            <cell>2</cell>
+            <cell>30</cell>
+          </row>
+          <row>
+            <cell>Women</cell>
+            <cell>5</cell>
+            <cell>7</cell>
+            <cell>8</cell>
+            <cell>20</cell>
+          </row>
+          <row>
+            <cell>Total</cell>
+            <cell>25</cell>
+            <cell>15</cell>
+            <cell>10</cell>
+            <cell>50</cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="fs-id1164563555976">To find the first sub-population of women who prefer football, read the value at the intersection of the Women row and Football column which is 5. Then, divide this by the total population of football players which is 25. So, the subpopulation of football players who are women is 5/25 which is .2.</p>
+      <p xml:id="fs-id1164562077359">Similarly, to find the subpopulation of women who play football, use the value of 5 which is the number of women who play football. Then, divide this by the total population of women which is 20. So, the subpopulation of women who play football is 5/20 which is .25.</p>
+    </subsection>
+    <subsection xml:id="fs-id1170308286054">
+      <title>Presenting Data</title>
+      <p xml:id="fs-id1170308192607">After deciding which graph best represents your data, you may need to present your statistical data to a class or other group in an oral report or multimedia presentation. When giving an oral presentation, you must be prepared to explain exactly how you collected or calculated the data, as well as why you chose the categories, scales, and types of graphs that you are showing. Although you may have made numerous graphs of your data, be sure to use only those that actually demonstrate the stated intentions of your statistical study. While preparing your presentation, be sure that all colors, text, and scales are visible to the entire audience. Finally, make sure to allow time for your audience to ask questions and be prepared to answer them.</p>
+      <example xml:id="fs-id1170308255065">
+        <statement>
+          <p xml:id="fs-id1164564873432">Suppose the guidance counselors at De Anza and Foothill need to make an oral presentation of the student data presented in Figures 1.5 and 1.6. Under what context should they choose to display the pie graph? When might they choose the bar graph? For each graph, explain which features they should point out and the potential display problems that might exist.</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-id1164566832771">The guidance counselors should use the pie graph if the desired information is the percentage of each schools enrollment. They should use the bar graph if knowing the exact numbers of students and the relative sizes of each category at each school are important points to be made. For the pie graph, they should point out which color represents part-time students and which represents full-time students. They should also be sure that the numbers and colors are visible when displayed. For the bar graph, they should point out the scale and the total numbers for each category, and they should be sure that the numbers, colors, and scale marks are all displayed clearly.</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-id1170308180631">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-id1170308355304">Suppose you were asked to give an oral presentation of the data graphed in the pie chart in Figure 1.11(b). What features would you point out on the graph? What potential display problems with the graph should you check before giving your presentation?</p>
+        </statement>
+      </exercise>
+    </subsection>
+    <subsection xml:id="eip-49">
+      <title>Sampling</title>
+      <p xml:id="id12361474">Gathering information about an entire population often costs too much or is virtually impossible. Instead, we use a sample of the population. <em>A sample should have the same characteristics as the population it is representing.</em> Most statisticians use various methods of random sampling in an attempt to achieve this goal. This section will describe a few of the most common methods. There are several different methods of <em>random sampling</em>. In each form of random sampling, each member of a population initially has an equal chance of being selected for the sample. Each method has pros and cons. The easiest method to describe is called a <em>simple random sample</em>. In a simple random sample, each group has the same chance of being selected. In other words, each sample of the same size has an equal chance of being selected. For example, suppose Lisa wants to form a four-person study group (herself and three other people) from her pre-calculus class, which has 31 members not including Lisa. To choose a simple random sample of size three from the other members of her class, Lisa could put all 31 names in a hat, shake the hat, close her eyes, and pick out three names. A more technological way is for Lisa to first list the last names of the members of her class together with a two-digit number, as in <xref ref=""></xref>.</p>
+      <table xml:id="element-621">
+        <tabular>
+          <row header="yes">
+            <cell>ID</cell>
+            <cell>Name</cell>
+            <cell>ID</cell>
+            <cell>Name</cell>
+            <cell>ID</cell>
+            <cell>Name</cell>
+          </row>
+          <row>
+            <cell>00</cell>
+            <cell>Anselmo</cell>
+            <cell>11</cell>
+            <cell>King</cell>
+            <cell>22</cell>
+            <cell>Roquero</cell>
+          </row>
+          <row>
+            <cell>01</cell>
+            <cell>Bautista</cell>
+            <cell>12</cell>
+            <cell>Legeny</cell>
+            <cell>23</cell>
+            <cell>Roth</cell>
+          </row>
+          <row>
+            <cell>02</cell>
+            <cell>Bayani</cell>
+            <cell>13</cell>
+            <cell>Lisa</cell>
+            <cell>24</cell>
+            <cell>Rowell</cell>
+          </row>
+          <row>
+            <cell>03</cell>
+            <cell>Cheng</cell>
+            <cell>14</cell>
+            <cell>Lundquist</cell>
+            <cell>25</cell>
+            <cell>Salangsang</cell>
+          </row>
+          <row>
+            <cell>04</cell>
+            <cell>Cuarismo</cell>
+            <cell>15</cell>
+            <cell>Macierz</cell>
+            <cell>26</cell>
+            <cell>Slade</cell>
+          </row>
+          <row>
+            <cell>05</cell>
+            <cell>Cuningham</cell>
+            <cell>16</cell>
+            <cell>Motogawa</cell>
+            <cell>27</cell>
+            <cell>Stratcher</cell>
+          </row>
+          <row>
+            <cell>06</cell>
+            <cell>Fontecha</cell>
+            <cell>17</cell>
+            <cell>Okimoto</cell>
+            <cell>28</cell>
+            <cell>Tallai</cell>
+          </row>
+          <row>
+            <cell>07</cell>
+            <cell>Hong</cell>
+            <cell>18</cell>
+            <cell>Patel</cell>
+            <cell>29</cell>
+            <cell>Tran</cell>
+          </row>
+          <row>
+            <cell>08</cell>
+            <cell>Hoobler</cell>
+            <cell>19</cell>
+            <cell>Price</cell>
+            <cell>30</cell>
+            <cell>Wai</cell>
+          </row>
+          <row>
+            <cell>09</cell>
+            <cell>Jiao</cell>
+            <cell>20</cell>
+            <cell>Quizon</cell>
+            <cell>31</cell>
+            <cell>Wood</cell>
+          </row>
+          <row>
+            <cell>10</cell>
+            <cell>Khan</cell>
+            <cell>21</cell>
+            <cell>Reyes</cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="id10904793">Lisa can use a table of random numbers (found in many statistics books and mathematical handbooks), a calculator, or a computer to generate random numbers. The most common random number generators are five digit numbers where each digit is a unique number from 0 to 9. For this example, suppose Lisa chooses to generate random numbers from a calculator. The numbers generated are as follows:</p>
+      <p xml:id="element-250">.94360, .99832, .14669, .51470, .40581, .73381, .04399.
+    </p>
+      <p xml:id="id12648586">Lisa reads two-digit groups until she has chosen three class members (That is, she reads .94360 as the
+    groups 94, 43, 36, 60.) Each random number may only contribute one class member. If she needed to, Lisa
+    could have generated more random numbers.</p>
+      <p xml:id="fs-id1164561203583">The table below shows how Lisa reads two-digit numbers form each random number. Each two-digit number in the table would represent each student in the roster above in <xref ref=""></xref>.</p>
+      <table xml:id="fs-id1164561060585">
+        <title>Lisa randomly generated the decimals in the Random Number column. She then used each consecutive number in each decimal to make the numbers she read. Some of the read numbers correspond with the ID numbers given to the students in her class (e.g., 14 = Lundquist in </title>
+        <tabular>
+          <row header="yes">
+            <cell>Random number</cell>
+            <cell>Numbers read by Lisa</cell>
+          </row>
+          <row>
+            <cell>.94360</cell>
+            <cell>94</cell>
+            <cell>43</cell>
+            <cell>36</cell>
+            <cell>60</cell>
+          </row>
+          <row>
+            <cell>.99832</cell>
+            <cell>99</cell>
+            <cell>98</cell>
+            <cell>83</cell>
+            <cell>32</cell>
+          </row>
+          <row>
+            <cell>.14669</cell>
+            <cell>14</cell>
+            <cell>46</cell>
+            <cell>66</cell>
+            <cell>69</cell>
+          </row>
+          <row>
+            <cell>.51470</cell>
+            <cell>51</cell>
+            <cell>14</cell>
+            <cell>47</cell>
+            <cell>70</cell>
+          </row>
+          <row>
+            <cell>.40581</cell>
+            <cell>40</cell>
+            <cell>05</cell>
+            <cell>58</cell>
+            <cell>81</cell>
+          </row>
+          <row>
+            <cell>.73381</cell>
+            <cell>73</cell>
+            <cell>33</cell>
+            <cell>38</cell>
+            <cell>81</cell>
+          </row>
+          <row>
+            <cell>.04399</cell>
+            <cell>04</cell>
+            <cell>39</cell>
+            <cell>39</cell>
+            <cell>99</cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="id12688561">The random numbers .94360 and .99832 do not contain appropriate two digit numbers. However the third random number, .14669, contains 14 (the fourth random number also contains 14), the fifth random number contains 05, and the seventh random number contains 04. The two-digit number 14 corresponds to Lundquist, 05 corresponds to Cuningham, and 04 corresponds to Cuarismo. Besides herself, Lisa’s group will consist of Lundquist, Cuningham, and Cuarismo.</p>
+      <note xml:id="fs-idm55433408">
+        <p xml:id="fs-idp18611456">To generate random numbers perform the following steps:</p>
+        <ul xml:id="eip-752">
+          <li>Press MATH.</li>
+          <li>Arrow over to PRB.</li>
+          <li>Press 5:randInt(0, 30).</li>
+          <li>Press ENTER for the first random number.</li>
+          <li>Press ENTER two more times for the other two random numbers. If there is a repeat press ENTER again.</li>
+        </ul>
+        <p xml:id="eip-107">NoterandInt(0, 30, 3) will generate three random numbers.</p>
+        <figure xml:id="eip-idm20794224">
+          <image source="media/CNX_Stats_C01_Screenshots.jpg">
+          </image>
+        </figure>
+      </note>
+      <p xml:id="id11076554">Besides simple random sampling, there are other forms of sampling that involve a chance process for getting the sample. <em>Other well-known random sampling methods are the stratified sample, the cluster sample, and the systematic sample.</em></p>
+      <p xml:id="fs-id1164562246344">To choose a stratified sample, divide the population into groups called strata and then the sample is selected by picking the same number of values from each strata until the desired sample size is reached. For example, you could stratify (group) your high school student population by year (freshmen, sophomore, juniors, and seniors) and then choose a proportionate simple random sample from each stratum (each year) to get a stratified random sample. To choose a simple random sample from each year, number each student of the first year, number each student of the second year, and do the same for the remaining years. Then use simple random sampling to choose proportionate numbers of students from the first year and do the same for each of the remaining years. Those numbers picked from the first year, picked from the second year, and so on represent the students who make up the stratified sample.</p>
+      <p xml:id="fs-id1164566895148">To choose a cluster sample, divide the population into clusters (groups) and then randomly select some of the clusters. All the members from these clusters are in the cluster sample. For example, if you randomly sample four homeroom classes from your student population, the four classes make up the cluster sample. Each class is a cluster. Number each cluster, and then choose four different numbers using random sampling. All the students of the four classes with those numbers are the cluster sample. So, unlike a stratified example, a cluster sample may not contain an equal number of randomly chosen students from each class.</p>
+      <p xml:id="para-00001">To choose a systematic sample, establish and follow a rule. The most common way to select a systematic sample is to list the members of the population and choose every <m>nth</m> entry from a random starting point. For example, suppose you have 100,000 individuals in your population and you want to choose a sample of 1,000. Use a random number generator to select your starting point. Now, 100,000/1,000 = 100, so to ensure coverage throughout the list, choose every <m>100th</m> entry in the list. When you reach the end of the list, continue the count from the beginning until you have selected the complete sample.</p>
+      <p xml:id="id12385449">A type of sampling that is non-random is convenience sampling. <em>Convenience sampling</em> involves using results that are readily available. For example, a computer software store conducts a marketing study by interviewing potential customers who happen to be in the store browsing through the available software. The results of convenience sampling may be very good in some cases and highly biased (favor certain outcomes) in others.</p>
+      <p xml:id="id10814456">Sampling data should be done very carefully. Collecting data carelessly can have devastating results. Surveys mailed to households and then returned may be very biased. They may favor a certain group. It is better for the person conducting the survey to select the sample respondents.</p>
+      <p xml:id="id11715554">When you analyze data, it is important to be aware of <em>sampling errors</em> and nonsampling errors. The actual process of sampling causes sampling errors. For example, the sample may not be large enough. Factors not related to the sampling process cause <em>nonsampling errors</em>. A defective counting device can cause a nonsampling error.</p>
+      <p xml:id="fs-idp101680848">In reality, a sample will never be exactly representative of the population so there will always be some sampling error. As a rule, the larger the sample, the smaller the sampling error.</p>
+      <p xml:id="fs-idp40043264">In statistics, <em>a sampling bias</em> is created when a sample is collected from a population and some members of the population are not as likely to be chosen as others. Remember, each member of the population should have an equally likely chance of being chosen. When a sampling bias happens, there can be incorrect conclusions drawn about the population that is being studied. For instance, if a survey of all students is conducted only during noon lunchtime hours is biased. This is because the students who do not have a noon lunchtime would not be included.</p>
+    </subsection>
+    <subsection xml:id="eip-415">
+      <title>Critical Evaluation</title>
+      <p xml:id="element-607">We need to evaluate the statistical studies we read about critically and analyze them before accepting the results of the studies. Common problems to be aware of include the following:</p>
+      <ul xml:id="element-17">
+        <li>Problems with samples: A sample must be representative of the population. A sample that is not representative of the population is biased. Biased samples that are not representative of the population give results that are inaccurate and not reliable. Reliability in statistical measures must also be considered when analyzing data. Reliability refers to the consistency of a measure. A measure is reliable when the same results are produced given the same circumstances.</li>
+        <li>Self-selected samplesResponses only by people who choose to respond, such as internet surveys, are often unreliable.</li>
+        <li>Sample size issues: Samples that are too small may be unreliable. Larger samples are better, if possible. In some situations, having small samples is unavoidable and can still be used to draw conclusions. Examples include crash testing cars or medical testing for rare conditions.</li>
+        <li>Undue influence: collecting data or asking questions in a way that influences the response.</li>
+        <li>Non-response or refusal of subject to participate: The collected responses may no longer be representative of the population.  Often, people with strong positive or negative opinions may answer surveys, which can affect the results.</li>
+        <li>Causality: A relationship between two variables does not mean that one causes the other to occur. They may be related (correlated) because of their relationship through a different variable.</li>
+        <li>Self-funded or self-interest studies: A study performed by a person or organization in order to support their claim. Is the study impartial? Read the study carefully to evaluate the work. Do not automatically assume that the study is good, but do not automatically assume the study is bad either. Evaluate it on its merits and the work done.</li>
+        <li>Misleading use of data: These can be improperly displayed graphs, incomplete data, or lack of context.</li>
+      </ul>
+      <exploration xml:id="fs-idm39314144">
+        <p xml:id="id7878578">As a class, determine whether or not the following samples are representative. If they are not, discuss the reasons.</p>
+        <ol xml:id="element-785">
+          <li>To find the average GPA of all students in a high school, use all honor students at the university as the sample.</li>
+          <li>To find out the most popular cereal among young people under the age of 10, stand outside a large supermarket for three hours and speak to every twentieth child under age 10 who enters the supermarket.</li>
+          <li>To find the average annual income of all adults in the United States, sample U.S. congressmen. Create a cluster sample by considering each state as a stratum (group). By using simple random sampling, select states to be part of the cluster. Then survey every U.S. congressman in the cluster.</li>
+          <li>To determine the proportion of people taking public transportation to work, survey 20 people in New York City. Conduct the survey by sitting in Central Park on a bench and interviewing every person who sits next to you.</li>
+          <li>To determine the average cost of a two-day stay in a hospital in Massachusetts, survey 100 hospitals across the state using simple random sampling.</li>
+        </ol>
+      </exploration>
+      <example xml:id="fs-idp39929584">
+        <statement>
+          <p xml:id="fs-idp47080192">A study is done to determine the average tuition that private high school students pay per semester. Each student in the following samples is asked how much tuition he or she paid for the fall semester. What is the type of sampling in each case?</p>
+          <ol xml:id="fs-idp94402832">
+            <li>A sample of 100 high school students is taken by organizing the students’ names by classification (freshman, sophomore, junior, or senior) and then selecting 25 students from each.</li>
+            <li>A random number generator is used to select a student from the alphabetical listing of all high school students in the fall semester. Starting with that student, every 50th student is chosen until 75 students are included in the sample.</li>
+            <li>A completely random method is used to select 75 students. Each high school student in the fall semester has the same probability of being chosen at any stage of the sampling process.</li>
+            <li>The freshman, sophomore, junior, and senior years are numbered one, two, three, and four, respectively. A random number generator is used to pick two of those years. All students in those two years are in the sample.</li>
+            <li>An administrative assistant is asked to stand in front of the library one Wednesday and to ask the first 100 undergraduate students he encounters what they paid for tuition the fall semester. Those 100 students are the sample.</li>
+          </ol>
+        </statement>
+        <solution>
+          <p xml:id="fs-idp66558896">a. stratified, b. systematic, c. simple random, d. cluster, e. convenience
+    </p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm68463584">
+        <title>Try It</title>
+    
+        <p xml:id="eip-idm101249376">You are going to use the random number generator to generate different types of samples from the data.</p>
+        <p xml:id="fs-idm65546768">This table displays six sets of quiz scores (each quiz counts 10 points) for an elementary statistics class.</p>
+        <table xml:id="fs-idm49741168">
+          <title>Scores for quizzes #1-6 for 10 students in a statistics class. Each quiz is out of 10 points.</title>
+          <tabular>
+            <row header="yes">
+              <cell>#1</cell>
+              <cell>#2</cell>
+              <cell>#3</cell>
+              <cell>#4</cell>
+              <cell>#5</cell>
+              <cell>#6</cell>
+            </row>
+            <row>
+              <cell>5</cell>
+              <cell>7</cell>
+              <cell>10</cell>
+              <cell>9</cell>
+              <cell>8</cell>
+              <cell>3</cell>
+            </row>
+            <row>
+              <cell>10</cell>
+              <cell>5</cell>
+              <cell>9</cell>
+              <cell>8</cell>
+              <cell>7</cell>
+              <cell>6</cell>
+            </row>
+            <row>
+              <cell>9</cell>
+              <cell>10</cell>
+              <cell>8</cell>
+              <cell>6</cell>
+              <cell>7</cell>
+              <cell>9</cell>
+            </row>
+            <row>
+              <cell>9</cell>
+              <cell>10</cell>
+              <cell>10</cell>
+              <cell>9</cell>
+              <cell>8</cell>
+              <cell>9</cell>
+            </row>
+            <row>
+              <cell>7</cell>
+              <cell>8</cell>
+              <cell>9</cell>
+              <cell>5</cell>
+              <cell>7</cell>
+              <cell>4</cell>
+            </row>
+            <row>
+              <cell>9</cell>
+              <cell>9</cell>
+              <cell>9</cell>
+              <cell>10</cell>
+              <cell>8</cell>
+              <cell>7</cell>
+            </row>
+            <row>
+              <cell>7</cell>
+              <cell>7</cell>
+              <cell>10</cell>
+              <cell>9</cell>
+              <cell>8</cell>
+              <cell>8</cell>
+            </row>
+            <row>
+              <cell>8</cell>
+              <cell>8</cell>
+              <cell>9</cell>
+              <cell>10</cell>
+              <cell>8</cell>
+              <cell>8</cell>
+            </row>
+            <row>
+              <cell>9</cell>
+              <cell>7</cell>
+              <cell>8</cell>
+              <cell>7</cell>
+              <cell>7</cell>
+              <cell>8</cell>
+            </row>
+            <row>
+              <cell>8</cell>
+              <cell>8</cell>
+              <cell>10</cell>
+              <cell>9</cell>
+              <cell>8</cell>
+              <cell>7</cell>
+            </row>
+          </tabular>
+        </table>
+        <p xml:id="fs-idm50245632">Instructions: Use the Random Number Generator to pick samples.</p>
+        <statement>
+          <ol xml:id="fs-idm31566272">
+            <li>Create a stratified sample by column. Pick three quiz scores randomly from each column.
+    Number each row one through 10.
+    On your calculator, press Math and arrow over to PRB.
+    For column 1, Press 5:randInt( and enter 1,10). Press ENTER. Record the number. Press ENTER 2 more times (even the repeats). Record these numbers. Record the three quiz scores in column one that correspond to these three numbers.
+    Repeat for columns two through six.
+    These 18 quiz scores are a stratified sample.
+    </li>
+            <li>Create a cluster sample by picking two of the columns. Use the column numbers: one through six.
+    Press MATH and arrow over to the PRB function.
+    Press 5:randInt (and then enter 1,6). Press ENTER.
+    The number the calculator displays names the first column  of quiz scores to include in your sample. Press ENTER.
+    The next number the calculator displays identifies the second column, or cluster, of data to include in the sample, giving a total of 20 quiz scores.
+    </li>
+            <li>Create a simple random sample of 15 quiz scores.
+    Use the numbering one through 60.
+    Press MATH. Arrow over to PRB. Press 5:randInt(1, 60).
+    Press ENTER 15 times and record the numbers.
+    Record the quiz scores that correspond to these numbers.
+    These 15 quiz scores are the systematic sample.
+    </li>
+            <li>Create a systematic sample of 12 quiz scores.
+    Use the numbering one through 60.
+    Press MATH. Arrow over to PRB. Press 5:randInt(1, 60).
+    Press ENTER. Record the number and the first quiz score. From that number, count ten quiz scores and record that quiz score. Keep counting ten quiz scores and recording the quiz score until you have a sample of 12 quiz scores. You may wrap around (go back to the beginning).
+    </li>
+          </ol>
+        </statement>
+      </exercise>
+      <example xml:id="element-599">
+        <statement>
+          <p xml:id="element-669">Determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).</p>
+          <ol xml:id="element-187">
+            <li>A soccer coach selects six players from a group of boys aged eight to ten, seven players from a group of boys aged 11 to 12, and three players from a group of boys aged 13 to 14 to form a recreational soccer team.</li>
+            <li>A pollster interviews all human resource personnel in five different high tech companies.</li>
+            <li>A high school educational researcher interviews 50 high school female teachers and 50 high school male teachers.</li>
+            <li>A medical researcher interviews every third cancer patient from a list of cancer patients at a local hospital.</li>
+            <li>A high school counselor uses a computer to generate 50 random numbers and then picks students whose names correspond to the numbers.</li>
+            <li>A student interviews classmates in his algebra class to determine how many pairs of jeans a student owns, on average.</li>
+          </ol>
+        </statement>
+        <solution>
+          <p xml:id="exercise-solution-1">a. stratified b. cluster c. stratified d. systematic e. simple random f. convenience
+    </p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp29434960">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idp164822480">Determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).</p>
+          <p xml:id="fs-idp86918064">A high school principal polls 50 freshmen, 50 sophomores, 50 juniors, and 50 seniors regarding policy changes for after school activities.</p>
+        </statement>
+        <solution>
+          <p xml:id="eip-idp11975936">stratified</p>
+        </solution>
+      </exercise>
+      <p xml:id="id7645179">If we were to examine two samples representing the same population, even if we used random sampling methods for the samples, they would not be exactly the same. Just as there is variation in data, there is variation in samples. As you become accustomed to sampling, the variability will begin to seem natural.</p>
+      <example xml:id="element-575">
+        <p xml:id="element-62">
+    Suppose ABC college has 10,000 upperclassman (junior and senior level) students (the population). We are interested in the average amount of money an upperclassmen spends on books in the fall term. Asking all 10,000 upperclassmen is an almost impossible task.</p>
+        <p xml:id="element-199">Suppose we take two different samples. </p>
+        <p xml:id="element-499">First, we use convenience sampling and survey ten upperclassman students from a first term organic chemistry class. Many of these students are taking first term calculus in addition to the organic chemistry class. The amount of money they spend on books is as follows:</p>
+        <p xml:id="element-25001">$128, $87, $173, $116, $130, $204, $147, $189, $93, $153.</p>
+        <p xml:id="element-849">The second sample is taken using a list of seniors who take P.E. classes and taking every fifth senior on the list, for a total of ten seniors. They spend the following:</p>
+        <p xml:id="element-25002">$50, $40, $36, $15, $50, $100, $40, $53, $22, $22.
+    </p>
+        <p xml:id="eip-422">It is unlikely that any student is in both samples.</p>
+        <statement>
+          <p xml:id="eip-idp1467504">a. Do you think that either of these samples is representative of (or is characteristic of) the entire 10,000 part-time student population?</p>
+        </statement>
+        <solution>
+          <p xml:id="eip-idp24214256">a. No. The first sample probably consists of science-oriented students. Besides the chemistry course, some of them are also taking first-term calculus. Books for these classes tend to be expensive. Most of these students are, more than likely, paying more than the average part-time student for their books. The second sample is a group of seniors who are, more than likely, taking courses for health and interest. The amount of money they spend on books is probably much less than the average part-time student. Both samples are biased. Also, in both cases, not all students have a chance to be in either sample.</p>
+        </solution>
+        <statement>
+          <p xml:id="eip-idp141882144">b. Since these samples are not representative of the entire population, is it wise to use the results to describe the entire population?</p>
+        </statement>
+        <solution>
+          <p xml:id="eip-idp142060688">b. No. For these samples, each member of the population did not have an equally likely chance of being chosen.</p>
+        </solution>
+        <p xml:id="element-513">Now, suppose we take a third sample. We choose ten different part-time students from the disciplines of chemistry, math, English, psychology, sociology, history, nursing, physical education, art, and early childhood development. We assume that these are the only disciplines in which part-time students at ABC College are enrolled and that an equal number of part-time students are enrolled in each of the disciplines. Each student is chosen using simple random sampling. Using a calculator, random numbers are generated and a student from a particular discipline is selected if he or she has a corresponding number. The students spend the following amounts:</p>
+        <p xml:id="element-25003">$180, $50, $150, $85, $260, $75, $180, $200, $200, $150.
+    </p>
+        <statement>
+          <p xml:id="element-666">c. Is the sample biased?
+    </p>
+        </statement>
+        <solution>
+          <p xml:id="element-971">c. The sample is unbiased, but a larger sample would be recommended to increase the likelihood that the sample will be close to  representative of the population. However, for a biased sampling technique, even a large sample runs the risk of not being representative of the population.</p>
+        </solution>
+        <p xml:id="element-577">Students often ask if it is <em>good enough</em> to take a sample, instead of surveying the entire population. If the survey is done well, the answer is yes. </p>
+      </example>
+      <exercise xml:id="fs-idp1075328">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idp35687664">A local radio station has a fan base of 20,000 listeners. The station wants to know if its audience would prefer more music or more talk shows. Asking all 20,000 listeners is an almost impossible task.</p>
+          <p xml:id="fs-idp43318816">The station uses convenience sampling and surveys the first 200 people they meet at one of the station’s music concert events. Twenty-four people said they’d prefer more talk shows, and 176 people said they’d prefer more music.</p>
+          <p xml:id="fs-idp24594000">Do you think that this sample is representative of (or is characteristic of) the entire 20,000 listener population?</p>
+        </statement>
+        <solution>
+          <p xml:id="eip-idm90772400">The sample probably consists more of people who prefer music because it is a concert event. Also,
+    the sample represents only those who showed up to the event earlier than the majority. The
+    sample probably doesn’t represent the entire fan base and is probably biased towards people who
+    would prefer music.</p>
+        </solution>
+      </exercise>
+    </subsection>
+    <subsection xml:id="eip-624">
+      <title>Variation in Data</title>
+      <p xml:id="id8219993"><term xml:id="term-00008">Variation</term> is present in any set of data. For example, 16-ounce cans of beverage may contain more or less than 16 ounces of liquid. In one study, eight 16 ounce cans were measured and produced the following amount (in ounces) of beverage:</p>
+      <p xml:id="element-25004">15.8, 16.1, 15.2, 14.8, 15.8, 15.9, 16.0, 15.5.</p>
+      <p xml:id="id6856137">Measurements of the amount of beverage in a 16-ounce can may vary because different people make the measurements or because the exact amount, 16 ounces of liquid, was not put into the cans. Manufacturers regularly run tests to determine if the amount of beverage in a 16-ounce can falls within the desired range.</p>
+      <p xml:id="id5172174">Be aware that as you take data, your data may vary somewhat from the data someone else is taking for the same purpose. This is completely natural. However, if two or more of you are taking the same data and get very different results, it is time for you and the others to reevaluate your data-taking methods and your accuracy.</p>
+    </subsection>
+    <subsection xml:id="eip-735">
+      <title>Variation in Samples</title>
+      <p xml:id="id11414550">It was mentioned previously that two or more <term xml:id="term-00009">samples</term> from the same <term xml:id="term-00010">population</term>, taken randomly, and having close to the same characteristics of the population will likely be different from each other. Suppose Doreen and Jung both decide to study the average amount of time students at their high school sleep each night. Doreen and Jung each take samples of 500 students. Doreen uses systematic sampling and Jung uses cluster sampling. Doreen's sample will be different from Jung's sample. Even if Doreen and Jung used the same sampling method, in all likelihood their samples would be different. Neither would be wrong, however. </p>
+      <p xml:id="id11414555">Think about what contributes to making Doreen’s and Jung’s samples different. </p>
+      <p xml:id="id10715475">If Doreen and Jung took larger samples, that is, the number of data values is increased, their sample results (the average amount of time a student sleeps) might be closer to the actual population average. But still, their samples would be, in all likelihood, different from each other. This is called <em>sampling variability</em>. In other words,  it refers to how much a statistic varies from sample to sample within a population. The larger the sample size, the smaller the variability between samples will be. So, the large sample size makes for a better, more reliable statistic.</p>
+      <subsection xml:id="id-191351579127">
+        <title>Size of a Sample</title>
+        <p xml:id="id10291271">The size of a sample (often called the number of observations) is important. The examples you have seen in this book so far have been small. Samples of only a few hundred observations, or even smaller, are sufficient for many purposes. In polling, samples that are from 1,200–1,500 observations are considered large enough and good enough if the survey is random and is well done. You will learn why when you study confidence intervals.</p>
+        <p xml:id="eip-idp48192112">Be aware that many large samples are biased. For example, internet surveys are invariably biased, because people choose to respond or not.</p>
+        <exploration xml:id="fs-idm85528320">
+          <p xml:id="fs-idp60280064">Divide into groups of two, three, or four. Your instructor will give each group one six-sided die. Try this experiment twice. Roll one fair die (six-sided) 20 times. Record the number of ones, twos, threes, fours, fives, and sixes you get in <xref ref=""></xref> and <xref ref=""></xref> (<em>frequency</em> is the number of times a particular face of the die occurs)</p>
+          <table xml:id="element-497">
+            <tabular>
+              <row header="yes">
+                <cell>Face on Die</cell>
+                <cell>Frequency</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>6</cell>
+                <cell></cell>
+              </row>
+            </tabular>
+          </table>
+          <table xml:id="fs-idm76511248">
+            <tabular>
+              <row header="yes">
+                <cell>Face on Die</cell>
+                <cell>Frequency</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>6</cell>
+                <cell></cell>
+              </row>
+            </tabular>
+          </table>
+          <p xml:id="element-663">Did the two experiments have the same results? Probably not. If you did the experiment a third time, do you expect the results to be identical to the first or second experiment? Why or why not? </p>
+          <p xml:id="element-440">Which experiment had the correct results? They both did. The job of the statistician is to see through the variability and draw appropriate conclusions.</p>
+        </exploration>
+      </subsection>
+    </subsection>
+    <subsection xml:id="eip-166">
+      <title>Bringing It Together</title>
+      <exercise xml:id="eip-219">
+        <statement>
+          <p xml:id="element-740">Seven hundred and seventy-one distance learning students at Long Beach City College responded to surveys in the
+    2010–11 academic year. Highlights of the summary report are listed in <xref ref=""></xref>.</p>
+          <table xml:id="fs-idp27381216">
+            <tabular>
+              <row>
+                <cell>Have computer at home</cell>
+                <cell>96%</cell>
+              </row>
+              <row>
+                <cell>Unable to come to campus for classes</cell>
+                <cell>65%</cell>
+              </row>
+              <row>
+                <cell>Age 41 or over</cell>
+                <cell>24%</cell>
+              </row>
+              <row>
+                <cell>Would like LBCC to offer more DL courses</cell>
+                <cell>95%</cell>
+              </row>
+              <row>
+                <cell>Took DL classes due to a disability</cell>
+                <cell>17%</cell>
+              </row>
+              <row>
+                <cell>Live at least 16 miles from campus</cell>
+                <cell>13%</cell>
+              </row>
+              <row>
+                <cell>Took DL courses to fulfill transfer requirements</cell>
+                <cell>71%</cell>
+              </row>
+            </tabular>
+          </table>
+          <ol xml:id="element-431">
+            <li>What percent of the students surveyed do not have a computer at home?</li>
+            <li>About how many students in the survey live at least 16 miles from campus?</li>
+            <li>If the same survey were done at Great Basin College in Elko, Nevada, do you think the
+    percentages would be the same? Why?</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-731">
+        <statement>
+          <p xml:id="eip-265">Several online textbook retailers advertise that they have lower prices than on-campus bookstores. However, an important factor is whether the Internet retailers actually have the textbooks that students need in stock. Students need to be able to get textbooks promptly at the beginning of the college term. If the book is not available, then a student would not be able to get the textbook at all, or might get a delayed delivery if the book is back ordered.</p>
+          <p xml:id="eip-idm58143808">A college newspaper reporter is investigating textbook availability at online retailers. He decides to investigate one textbook for each of the following seven subjects: calculus, biology, chemistry, physics, statistics, geology, and general engineering. He consults textbook industry sales data and selects the most popular nationally used textbook in each of these subjects. He visits websites for a random sample of major online textbook sellers and looks up each of these seven textbooks to see if they are available in stock for quick delivery through these retailers. Based on his investigation, he writes an article in which he draws conclusions about the overall availability of all college textbooks through online textbook retailers.</p>
+          <p xml:id="eip-idm84454800">Write an analysis of his study that addresses the following issues: Is his sample representative of the population of all college textbooks?  Explain why or why not. Describe some possible sources of bias in this study, and how it might affect the results of the study. Give some suggestions about what could be done to improve the study.</p>
+        </statement>
+        <solution>
+          <p xml:id="eip-idp37500272">Answers will vary. Sample answer: The sample is not representative of the population of all college textbooks. Two reasons why it is not representative are that he only sampled seven subjects and he only investigated one textbook in each subject. There are several possible sources of bias in the study. The seven subjects that he investigated are all in mathematics and the sciences; there are many subjects in the humanities, social sciences, and other subject areas, for example: literature, art, history, psychology, sociology, business, that he did not investigate at all. It may be that different subject areas exhibit different patterns of textbook availability, but his sample would not detect such results.</p>
+          <p xml:id="eip-idp37501360">He also looked only at the most popular textbook in each of the subjects he investigated. The availability of the most popular textbooks may differ from the availability of other textbooks in one of two ways:</p>
+          <ul xml:id="eip-id1168183078945">
+            <li>The most popular textbooks may be more readily available online, because more new
+    copies are printed, and more students nationwide are selling back their used copies</li>
+            <li>The most popular textbooks may be harder to find available online, because more student demand exhausts the supply more quickly.</li>
+          </ul>
+          <p xml:id="eip-idm273136">In reality, many college students do not use the most popular textbook in their subject, and this study gives no useful information about the situation for those less popular textbooks.</p>
+          <p xml:id="eip-idm272544">He could improve this study by</p>
+          <ul xml:id="eip-id1169691864822">
+            <li>expanding the selection of subjects he investigates so that it is more representative of all subjects studied by college students, and</li>
+            <li>expanding the selection of textbooks he investigates within each subject to include a
+    mixed representation of both the most popular and less popular textbooks.</li>
+          </ul>
+        </solution>
+      </exercise>
+    </subsection>
   </section>
 
   <section xml:id="sec-frequency-frequency-tables">
     <title>Frequency, Frequency Tables, and Levels of Measurement</title>
-    <p>
-      Content to be added from module m79595.
+    /home/runner/work/osbooks-statistics/osbooks-statistics/cnxml_to_pretext_converter.py:482: DeprecationWarning: Testing an element's truth value will raise an exception in future versions.  Use specific 'len(elem)' or 'elem is not None' test instead.
+      title_elem = table_elem.find('cnxml:title', self.namespace) or table_elem.find('cnxml:caption', self.namespace)
+    <subsection xml:id="fs-id1164567076530">
+      <p xml:id="fs-idp5986864">Once you have a set of data, you will need to organize it so that you can analyze how frequently each datum occurs in the set. However, when calculating the frequency, you may need to round your answers so that they are as precise as possible.</p>
+    </subsection>
+    <subsection xml:id="fs-idm2552448">
+      <title>Answers and Rounding Off</title>
+      <p xml:id="id5602419">A simple way to round off answers is to carry your final answer one more decimal place than was present in the original data. Round off only the final answer. Do not round off any intermediate results, if possible. If it becomes necessary to round off intermediate results, carry them to at least twice as many decimal places as the final answer. Expect that some of your answers will vary from the text due to rounding errors.</p>
+      <p xml:id="id5164237">It is not necessary to reduce most fractions in this course. Especially in <xref ref="m79609">Probability Topics</xref>, the chapter on probability, it is more helpful to leave an answer as an unreduced fraction.</p>
+    </subsection>
+    <subsection xml:id="eip-109">
+      <title>Levels of Measurement</title>
+      <p xml:id="eip-192">The way a set of data is measured is called its <term xml:id="term-00001">level of measurement</term>. Correct statistical procedures depend on a researcher being familiar with levels of measurement. Not every statistical operation can be used with every set of data. Data can be classified into four levels of measurement. They are as follows (from lowest to highest level):</p>
+      <ul xml:id="eip-865">
+        <li><em>Nominal scale level</em></li>
+        <li><em>Ordinal scale level</em></li>
+        <li><em>Interval scale level</em></li>
+        <li><em>Ratio scale level</em></li>
+      </ul>
+      <p xml:id="eip-925">Data that is measured using a <term xml:id="term-00002">nominal scale</term> is <em>qualitative (categorical)</em>. Categories, colors, names, labels, and favorite foods along with yes or no responses are examples of nominal level data. Nominal scale data are not ordered. For example, trying to classify people according to their favorite food does not make any sense. Putting pizza first and sushi second is not meaningful.</p>
+      <p xml:id="eip-817">Smartphone companies are another example of nominal scale data. The data are the names of the companies that make smartphones, but there is no agreed upon order of these brands, even though people may have personal preferences. Nominal scale data cannot be used in calculations.</p>
+      <p xml:id="eip-369">Data that is measured using an <term xml:id="term-00003">ordinal scale</term> is similar to nominal scale data but there is a big difference. The ordinal scale data can be ordered. An example of ordinal scale data is a list of the top five national parks in the United States. The top five national parks in the United States can be ranked from one to five but we cannot measure differences between the data.</p>
+      <p xml:id="eip-289">Another example of using the ordinal scale is a cruise survey where the responses to questions about the cruise are <em>excellent</em>, <em>good</em>, <em>satisfactory</em>, and <em>unsatisfactory</em>. These responses are ordered from the most desired response to the least desired. But the differences between two pieces of data cannot be measured. Like the nominal scale data, ordinal scale data cannot be used in calculations.</p>
+      <p xml:id="eip-158">Like data measured on an ordinal scale, data that are measured on an <term xml:id="term-00004">interval scale</term> have a definite ordering. While ordinal scale data are categorical, or qualitative, interval scale data are numerical, or quantitative. It is possible to calculate differences between values measured on an interval scale. There is no minimum or "zero" value, however.</p>
+      <p xml:id="eip-134">Temperature scales like Celsius (C) and Fahrenheit (F) are measured by using the interval scale. In both temperature measurements, 40° is equal to 100° minus 60°. Differences make sense. But 0 degrees does not represent a minimum value. In both scales, 0 is not the absolute lowest temperature. Temperatures like 10 °F and 15 °C exist and are colder than 0.</p>
+      <p xml:id="eip-558">Data that are measured using the <term xml:id="term-00005">ratio scale</term> give the most information. Ratio scale data is like interval scale data, but there is a minimum value and ratios can be calculated. For example, four multiple choice statistics final exam scores are 80, 68, 20 and 92 (out of a possible 100 points). The exams are machine-graded.</p>
+      <p xml:id="eip-53">The data can be put in order from lowest to highest  20, 68, 80, 92.</p>
+      <p xml:id="eip-750">The differences between the data have meaning. The score 92 is more than the score 68 by 24 points.
+    Ratios can be calculated. The minimum score is 0. So 80 is four times 20. The score of 80 is four times better than the score of 20.</p>
+    </subsection>
+    <subsection xml:id="eip-959">
+      <title>Frequency</title>
+      <p xml:id="id7489802">Twenty students were asked how many hours they worked per day. Their responses, in hours, are as follows: 5, 6, 3, 3, 2, 4, 7, 5, 2, 3, 5, 6, 5, 4, 4, 3, 5, 2, 5, 3.</p>
+      <p xml:id="id9267444"><xref ref=""></xref> lists the different data values in ascending order and their frequencies. </p>
+      <table xml:id="id10383738">
+        <tabular>
+          <row header="yes">
+            <cell>DATA VALUE</cell>
+            <cell>FREQUENCY</cell>
+          </row>
+          <row>
+            <cell><em>2</em></cell>
+            <cell>3</cell>
+          </row>
+          <row>
+            <cell><em>3</em></cell>
+            <cell>5</cell>
+          </row>
+          <row>
+            <cell><em>4</em></cell>
+            <cell>3</cell>
+          </row>
+          <row>
+            <cell><em>5</em></cell>
+            <cell>6</cell>
+          </row>
+          <row>
+            <cell><em>6</em></cell>
+            <cell>2</cell>
+          </row>
+          <row>
+            <cell><em>7</em></cell>
+            <cell>1</cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="element-118">A <term xml:id="term-00006">frequency</term> is the number of times a value of the data occurs. According to <xref ref=""></xref>, there are three students who work two hours, five students who work three hours, and so on. The sum of the values in the frequency column, 20, represents the total number of students included in the sample.</p>
+      <p xml:id="id8007492">A <term xml:id="term-00007">relative frequency</term> is the ratio (fraction or proportion) of the number of times a value of the data occurs in the set of all outcomes to the total number of outcomes. To find the relative frequencies, divide each frequency by the total number of students in the sample, in this case, 20. Relative frequencies can be written as fractions, percents, or decimals.</p>
+      <table xml:id="id11177380">
+        <tabular>
+          <row header="yes">
+            <cell>DATA VALUE</cell>
+            <cell>FREQUENCY</cell>
+            <cell>RELATIVE FREQUENCY</cell>
+          </row>
+          <row>
+            <cell><em>2</em></cell>
+            <cell>3</cell>
+            <cell><m>\frac{3}{20}</m> or .15</cell>
+          </row>
+          <row>
+            <cell><em>3</em></cell>
+            <cell>5</cell>
+            <cell><m>\frac{5}{20}</m> or .25 </cell>
+          </row>
+          <row>
+            <cell><em>4</em></cell>
+            <cell>3</cell>
+            <cell><m>\frac{3}{20}</m> or .15 </cell>
+          </row>
+          <row>
+            <cell><em>5</em></cell>
+            <cell>6</cell>
+            <cell><m>\frac{6}{20}</m> or .30 </cell>
+          </row>
+          <row>
+            <cell><em>6</em></cell>
+            <cell>2</cell>
+            <cell><m>\frac{2}{20}</m> or .10</cell>
+          </row>
+          <row>
+            <cell><em>7</em></cell>
+            <cell>1</cell>
+            <cell><m>\frac{1}{20}</m> or .05</cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="id7087521">The sum of the values in the relative frequency column of <xref ref=""></xref> is <m>\frac{20}{20}</m>
+    , or 1.</p>
+      <p xml:id="id7575466"><term xml:id="term-00008">Cumulative relative frequency</term> is the accumulation of the previous relative
+    frequencies. To find the cumulative relative frequencies, add all the previous relative frequencies to
+    the relative frequency for the current row, as shown in <xref ref=""></xref>.</p>
+      <p xml:id="fs-id1164565141978">In the first row, the cumulative frequency is simply .15 because it is the only one. In the second row, the relative frequency was .25, so adding that to .15, we get a relative frequency of .40. Continue adding the relative frequencies in each row to get the rest of the column.</p>
+      <table xml:id="id10564302">
+        <tabular>
+          <row header="yes">
+            <cell>DATA VALUE</cell>
+            <cell>FREQUENCY</cell>
+            <cell>RELATIVE FREQUENCY</cell>
+            <cell>CUMULATIVE RELATIVE FREQUENCY</cell>
+          </row>
+          <row>
+            <cell><em>2</em></cell>
+            <cell>3</cell>
+            <cell><m>\frac{3}{20}</m>
+     or .15</cell>
+            <cell>.15</cell>
+          </row>
+          <row>
+            <cell><em>3</em></cell>
+            <cell>5</cell>
+            <cell><m>\frac{5}{20}</m>
+     or .25</cell>
+            <cell>.15 + .25 = .40</cell>
+          </row>
+          <row>
+            <cell><em>4</em></cell>
+            <cell>3</cell>
+            <cell><m>\frac{3}{20}</m>
+     or .15</cell>
+            <cell>.40 + .15 = .55</cell>
+          </row>
+          <row>
+            <cell><em>5</em></cell>
+            <cell>6</cell>
+            <cell><m>\frac{6}{20}</m>
+     or .30</cell>
+            <cell>.55 + .30 = .85</cell>
+          </row>
+          <row>
+            <cell><em>6</em></cell>
+            <cell>2</cell>
+            <cell><m>\frac{2}{20}</m>
+     or .10</cell>
+            <cell>.85 + .10 = .95</cell>
+          </row>
+          <row>
+            <cell><em>7</em></cell>
+            <cell>1</cell>
+            <cell><m>\frac{1}{20}</m>
+     or .05</cell>
+            <cell>.95 + .05 = 1.00</cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="id3561407">The last entry of the cumulative relative frequency column is one, indicating that one hundred percent of the data has been accumulated.</p>
+      <note xml:id="id16479556">
+        <title>NOTE</title>
+        <p xml:id="eip-idp27462880">Because of rounding, the relative frequency column may not always sum to one, and the last entry in the cumulative relative frequency column may not be one. However, they each should be close to one.</p>
+      </note>
+      <p xml:id="para-00001">The following data are the heights (in inches to the nearest half inch) of 100 male semiprofessional soccer players. The heights are <em>continuous</em> data since height is measured.
+      60, 60.5, 61, 61, 61.5,
+      63.5, 63.5, 63.5,
+      64, 64, 64, 64, 64, 64, 64, 64.5, 64.5, 64.5, 64.5, 64.5, 64.5, 64.5, 64.5,
+      66, 66, 66, 66, 66, 66, 66, 66, 66, 66, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 66.5, 67, 67, 67, 67, 67, 67, 67, 67, 67, 67, 67, 67, 67.5, 67.5, 67.5, 67.5, 67.5, 67.5, 67.5,
+      68, 68, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69, 69.5, 69.5, 69.5, 69.5, 69.5,
+      70, 70, 70, 70, 70, 70, 70.5, 70.5, 70.5, 71, 71, 71,
+      72, 72, 72, 72.5, 72.5, 73, 73.5,
+      74</p>
+      <p xml:id="element-305"><xref ref=""></xref> summarizes the heights in this sample. Since heights are expressed in tenths, the frequency table will use labels measured in hundredths. This ensures that no data value will coincide with the upper or lower limit of an interval.</p>
+      <table xml:id="id9703284">
+        <tabular>
+          <row header="yes">
+            <cell>HEIGHTS (INCHES)</cell>
+            <cell>FREQUENCY</cell>
+            <cell>RELATIVE FREQUENCY</cell>
+            <cell>CUMULATIVE RELATIVE FREQUENCY</cell>
+          </row>
+          <row>
+            <cell><em>59.95–61.95</em></cell>
+            <cell>5</cell>
+            <cell>
+    <m>\frac{5}{100}</m>
+     = .05
+    </cell>
+            <cell>.05</cell>
+          </row>
+          <row>
+            <cell><em>61.95–63.95</em></cell>
+            <cell>3</cell>
+            <cell>
+    <m>\frac{3}{100}</m>
+     = .03
+    </cell>
+            <cell>.05 + .03 = .08</cell>
+          </row>
+          <row>
+            <cell><em>63.95–65.95</em></cell>
+            <cell>15</cell>
+            <cell>
+    <m>\frac{15}{100}</m>
+     = .15
+    </cell>
+            <cell>.08 + .15 = .23</cell>
+          </row>
+          <row>
+            <cell><em>65.95–67.95</em></cell>
+            <cell>40</cell>
+            <cell>
+    <m>\frac{40}{100}</m>
+     = .40
+    </cell>
+            <cell>.23 + .40 = .63</cell>
+          </row>
+          <row>
+            <cell><em>67.95–69.95</em></cell>
+            <cell>17</cell>
+            <cell>
+    <m>\frac{17}{100}</m>
+     = .17
+    </cell>
+            <cell>.63 + .17 = .80</cell>
+          </row>
+          <row>
+            <cell><em>69.95–71.95</em></cell>
+            <cell>12</cell>
+            <cell>
+    <m>\frac{12}{100}</m>
+     = .12
+    </cell>
+            <cell>.80 + .12 = .92</cell>
+          </row>
+          <row>
+            <cell><em>71.95–73.95</em></cell>
+            <cell>7</cell>
+            <cell>
+    <m>\frac{7}{100}</m>
+     = .07
+    </cell>
+            <cell>.92 + .07 = .99</cell>
+          </row>
+          <row>
+            <cell><em>73.95–75.95</em></cell>
+            <cell>1</cell>
+            <cell>
+    <m>\frac{1}{100}</m>
+     = .01
+    </cell>
+            <cell>.99 + .01 = 1.00</cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell><em>Total = 100</em></cell>
+            <cell><em>Total = 1.00</em></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="element-591">The data in this table have been <em>grouped</em> into the following intervals:</p>
+      <ul xml:id="element-634">
+        <li>59.9561.95 inches</li>
+        <li>61.9563.95 inches</li>
+        <li>63.9565.95 inches</li>
+        <li>65.9567.95 inches</li>
+        <li>67.9569.95 inches</li>
+        <li>69.9571.95 inches</li>
+        <li>71.9573.95 inches</li>
+        <li>73.9575.95 inches</li>
+      </ul>
+      <note xml:id="id16927214">
+        <title>Note</title>
+        <p xml:id="eip-idp9286128">This example is used again in <xref ref="m79599">Descriptive Statistics</xref>, where the method used to compute the intervals will be explained.</p>
+      </note>
+      <p xml:id="element-689">In this sample, there are <em>five</em> players whose heights fall within the interval 59.95–61.95 inches, <em>three</em> players whose heights fall within the interval 61.95–63.95 inches, <em>15</em> players whose heights fall within the interval 63.95–65.95 inches, <em>40</em> players whose heights fall within the interval 65.95–67.95 inches, <em>17</em> players whose heights fall within the interval 67.95–69.95 inches, <em>12</em> players whose heights fall within the interval 69.95–71.95, <em>seven</em> players whose heights fall within the interval 71.95–73.95, and <em>one</em> player whose heights fall within the interval 73.95–75.95. All heights fall between the endpoints of an interval and not at the endpoints.</p>
+      <example xml:id="element-23523">
+        <statement>
+          <p xml:id="element-455">From <xref ref=""></xref>, find the percentage of heights that are less than 65.95 inches.
+    		</p>
+        </statement>
+        <solution>
+          <p xml:id="element-963">If you look at the first, second, and third rows, the heights are all less than 65.95 inches. There are 5 + 3 + 15 = 23 players whose heights are less than 65.95 inches. The percentage of heights less than 65.95 inches is then <m>\frac{23}{100}</m> or 23 percent. This percentage is the cumulative relative frequency entry in the third row.
     </p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm40908240">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idm72824256"><xref ref=""></xref> shows the amount, in inches, of annual rainfall in a sample of towns.</p>
+          <table xml:id="fs-idm82680048">
+            <tabular>
+              <row header="yes">
+                <cell>Rainfall (Inches)</cell>
+                <cell>Frequency</cell>
+                <cell>Relative Frequency</cell>
+                <cell>Cumulative Relative Frequency</cell>
+              </row>
+              <row>
+                <cell>2.95–4.97</cell>
+                <cell>6</cell>
+                <cell><m>\frac{6}{50}</m> = .12</cell>
+                <cell>.12</cell>
+              </row>
+              <row>
+                <cell>4.97–6.99</cell>
+                <cell>7</cell>
+                <cell><m>\frac{7}{50}</m> = .14</cell>
+                <cell>.12 + .14 = .26</cell>
+              </row>
+              <row>
+                <cell>6.99–9.01</cell>
+                <cell>15</cell>
+                <cell><m>\frac{15}{50}</m>
+     = .30</cell>
+                <cell>.26 + .30 = .56</cell>
+              </row>
+              <row>
+                <cell>9.01–11.03</cell>
+                <cell>8</cell>
+                <cell> <m>\frac{8}{50}</m> = .16</cell>
+                <cell>.56 + .16 = .72</cell>
+              </row>
+              <row>
+                <cell>11.03–13.05</cell>
+                <cell>9</cell>
+                <cell><m>\frac{9}{50}</m>
+     = .18</cell>
+                <cell>.72 + .18 = .90</cell>
+              </row>
+              <row>
+                <cell>13.05–15.07</cell>
+                <cell>5</cell>
+                <cell><m>\frac{5}{50}</m> = .10</cell>
+                <cell>.90 + .10 = 1.00</cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell>Total = 50</cell>
+                <cell>Total = 1.00</cell>
+                <cell></cell>
+              </row>
+            </tabular>
+          </table>
+          <p xml:id="fs-idm81784864">From <xref ref=""></xref>, find the percentage of rainfall that is less than 9.01 inches.</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm76738800">0.56 or 56%</p>
+        </solution>
+      </exercise>
+      <example xml:id="element-2398">
+        <statement>
+          <p xml:id="element-266">From <xref ref=""></xref>, find the percentage of heights that fall between 61.95 and 65.95 inches.
+    </p>
+        </statement>
+        <solution>
+          <p xml:id="element-827">Add the relative frequencies in the second and third rows: .03 + .15 = .18 or 18 percent.
+    </p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp124591904">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idm71703488">From <xref ref=""></xref>, find the percentage of rainfall that is between 6.99 and 13.05 inches.</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm72952848">0.30 + 0.16 + 0.18 = 0.64 or 64%</p>
+        </solution>
+      </exercise>
+      <example xml:id="element-235235">
+        <statement>
+          <p xml:id="element-952">Use the heights of the 100 male semiprofessional soccer players in <xref ref=""></xref>. Fill in the blanks and check your answers.
+    		</p>
+          <ol xml:id="element-162">
+            <li>The percentage of heights that are from 67.9571.95 inches is ________.</li>
+            <li>The percentage of heights that are from 67.9573.95 inches is ________.</li>
+            <li>The percentage of heights that are more than 65.95 inches is ________.</li>
+            <li>The number of players in the sample who are between 61.95 and 71.95 inches tall is ________.</li>
+            <li>What kind of data are the heights?</li>
+            <li>Describe how you could gather this data (the heights) so that the data are characteristic of all male semiprofessional soccer players.</li>
+          </ol>
+          <p xml:id="element-683">Remember, you <em>count frequencies</em>. To find the relative frequency, divide the frequency by the total number of data values. To find the cumulative relative frequency, add all of the previous relative frequencies to the relative frequency for the current row.
+    		</p>
+        </statement>
+        <solution>
+          <ol xml:id="solution-list-1">
+            <li>29 percent</li>
+            <li>36 percent</li>
+            <li>77 percent</li>
+            <li>87</li>
+            <li>quantitative continuous</li>
+            <li>get rosters from each team and choose a simple random sample from each</li>
+          </ol>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp31175024">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idm98844192">From <xref ref=""></xref>, find the number of towns that have rainfall between 2.95 and 9.01 inches.</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm57651936">6 + 7 + 15 = 28 towns</p>
+        </solution>
+      </exercise>
+      <exploration xml:id="res">
+        <p xml:id="id8661133">In your class, have someone conduct a survey of the number of siblings (brothers and sisters) each student has. Create a frequency table. Add to it a relative frequency column and a cumulative relative frequency column. Answer the following questions:</p>
+        <ol xml:id="element-889">
+          <li>What percentage of the students in your class have no siblings?</li>
+          <li>What percentage of the students have from one to three siblings?</li>
+          <li>What percentage of the students have fewer than three siblings?</li>
+        </ol>
+      </exploration>
+      <example xml:id="element-569">
+        <p xml:id="element-755">Nineteen people were asked how many miles, to the nearest mile, they commute to work each day. The data are as follows:
+    2, 5, 7, 3, 2, 10, 18, 15, 20, 7, 10, 18, 5, 12, 13, 12, 4, 5, 10. <xref ref=""></xref> was produced.</p>
+        <table xml:id="id9833287">
+          <tabular>
+            <row header="yes">
+              <cell>DATA</cell>
+              <cell>FREQUENCY</cell>
+              <cell>RELATIVE FREQUENCY</cell>
+              <cell>CUMULATIVE RELATIVE FREQUENCY</cell>
+            </row>
+            <row>
+              <cell><em>3</em></cell>
+              <cell>3</cell>
+              <cell><m>\frac{3}{19}</m></cell>
+              <cell>.1579</cell>
+            </row>
+            <row>
+              <cell><em>4</em></cell>
+              <cell>1</cell>
+              <cell><m>\frac{1}{19}</m></cell>
+              <cell>.2105</cell>
+            </row>
+            <row>
+              <cell><em>5</em></cell>
+              <cell>3</cell>
+              <cell><m>\frac{3}{19}</m></cell>
+              <cell>.1579</cell>
+            </row>
+            <row>
+              <cell><em>7</em></cell>
+              <cell>2</cell>
+              <cell><m>\frac{2}{19}</m></cell>
+              <cell>.2632</cell>
+            </row>
+            <row>
+              <cell><em>10</em></cell>
+              <cell>3</cell>
+              <cell><m>\frac{4}{19}</m></cell>
+              <cell>.4737</cell>
+            </row>
+            <row>
+              <cell><em>12</em></cell>
+              <cell>2</cell>
+              <cell><m>\frac{2}{19}</m></cell>
+              <cell>.7895</cell>
+            </row>
+            <row>
+              <cell><em>13</em></cell>
+              <cell>1</cell>
+              <cell><m>\frac{1}{19}</m></cell>
+              <cell>.8421</cell>
+            </row>
+            <row>
+              <cell><em>15</em></cell>
+              <cell>1</cell>
+              <cell><m>\frac{1}{19}</m></cell>
+              <cell>.8948</cell>
+            </row>
+            <row>
+              <cell><em>18</em></cell>
+              <cell>1</cell>
+              <cell><m>\frac{1}{19}</m></cell>
+              <cell>.9474</cell>
+            </row>
+            <row>
+              <cell><em>20</em></cell>
+              <cell>1</cell>
+              <cell>
+    <m>\frac{1}{19}</m>
+    </cell>
+              <cell>1.0000</cell>
+            </row>
+          </tabular>
+        </table>
+        <statement>
+          <ol xml:id="element-582">
+            <li>Is the table correct? If it is not correct, what is wrong?</li>
+            <li>True or False: Three percent of the people surveyed commute three miles. If the statement is not correct, what should it be? If the table is incorrect, make the corrections.</li>
+            <li>What fraction of the people surveyed commute five or seven miles?</li>
+            <li>What fraction of the people surveyed commute 12 miles or more? Less than 12 miles? Between five and 13 miles (not including five and 13 miles)?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol xml:id="solution-list-2">
+            <li>No. The frequency column sums to 18, not 19. Not all cumulative relative frequencies are correct. The table entries for data values 2, 3, 10, and 18 are incorrect. This affects cumulative relative frequency for most values.</li>
+            <li>False. The frequency for three miles should be one; for two miles (left out), two. The cumulative relative frequency column should read 1052, .1579, .2105, .3684, .4737, .6316, .7368, .7895, .8421, .9474, 1.0000.</li>
+            <li><m>\frac{5}{19}</m></li>
+            <li><m>\frac{7}{19}</m>, <m>\frac{12}{19}</m>, <m>\frac{7}{19}</m></li>
+          </ol>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp46953216">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idm12777216"><xref ref=""></xref> represents the amount, in inches, of annual rainfall in a sample of towns. What fraction of towns surveyed get between 11.03 and 13.05 inches of rainfall each year?</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm57705408"><m>\frac{9}{50}</m></p>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idm64477536">
+        <p xml:id="fs-idm39829664"><xref ref=""></xref> contains the total number of deaths worldwide as a result of earthquakes for the period from 2000 to 2012.</p>
+        <table xml:id="fs-idm52810848">
+          <tabular>
+            <row header="yes">
+              <cell>Year</cell>
+              <cell>Total Number of Deaths</cell>
+            </row>
+            <row>
+              <cell>2000</cell>
+              <cell>231</cell>
+            </row>
+            <row>
+              <cell>2001</cell>
+              <cell>21,357</cell>
+            </row>
+            <row>
+              <cell>2002</cell>
+              <cell>11,685</cell>
+            </row>
+            <row>
+              <cell>2003</cell>
+              <cell>33,819</cell>
+            </row>
+            <row>
+              <cell>2004</cell>
+              <cell>228,802</cell>
+            </row>
+            <row>
+              <cell>2005</cell>
+              <cell>88,003</cell>
+            </row>
+            <row>
+              <cell>2006</cell>
+              <cell>6,605</cell>
+            </row>
+            <row>
+              <cell>2007</cell>
+              <cell>712</cell>
+            </row>
+            <row>
+              <cell>2008</cell>
+              <cell>88,011</cell>
+            </row>
+            <row>
+              <cell>2009</cell>
+              <cell>1,790</cell>
+            </row>
+            <row>
+              <cell>2010</cell>
+              <cell>320,120</cell>
+            </row>
+            <row>
+              <cell>2011</cell>
+              <cell>21,953</cell>
+            </row>
+            <row>
+              <cell>2012</cell>
+              <cell>768</cell>
+            </row>
+            <row>
+              <cell>Total</cell>
+              <cell>823,856</cell>
+            </row>
+          </tabular>
+        </table>
+        <statement>
+          <p xml:id="fs-idm38990240">Answer the following questions:</p>
+          <ol xml:id="fs-idm21722256">
+            <li>What is the frequency of deaths measured from 2006 through 2009?</li>
+            <li>What percentage of deaths occurred after 2009?</li>
+            <li>What is the relative frequency of deaths that occurred in 2003 or earlier?</li>
+            <li>What is the percentage of deaths that occurred in 2004?</li>
+            <li>What kind of data are the numbers of deaths? </li>
+            <li>The Richter scale is used to quantify the energy produced by an earthquake. Examples of Richter scale numbers are 2.3, 4.0, 6.1, and 7.0. What kind of data are these numbers?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol xml:id="fs-idm15442992">
+            <li>97,118 (11.8 percent)</li>
+            <li>41.6 percent</li>
+            <li>67,092/823,356 or 0.081 or 8.1 percent</li>
+            <li>27.8 percent</li>
+            <li>quantitative discrete</li>
+            <li>quantitative continuous</li>
+          </ol>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm44002848">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idm65128336"><xref ref=""></xref> contains the total number of fatal motor vehicle traffic crashes in the United States for the period from 1994–2011.</p>
+          <table xml:id="fs-idm74902768">
+            <tabular>
+              <row header="yes">
+                <cell>Year</cell>
+                <cell>Total Number of Crashes</cell>
+                <cell>Year</cell>
+                <cell>Total Number of Crashes</cell>
+              </row>
+              <row>
+                <cell>1994</cell>
+                <cell>36,254</cell>
+                <cell>2004</cell>
+                <cell>38,444</cell>
+              </row>
+              <row>
+                <cell>1995</cell>
+                <cell>37,241</cell>
+                <cell>2005</cell>
+                <cell>39,252</cell>
+              </row>
+              <row>
+                <cell>1996</cell>
+                <cell>37,494</cell>
+                <cell>2006</cell>
+                <cell>38,648</cell>
+              </row>
+              <row>
+                <cell>1997</cell>
+                <cell>37,324</cell>
+                <cell>2007</cell>
+                <cell>37,435</cell>
+              </row>
+              <row>
+                <cell>1998</cell>
+                <cell>37,107</cell>
+                <cell>2008</cell>
+                <cell>34,172</cell>
+              </row>
+              <row>
+                <cell>1999</cell>
+                <cell>37,140</cell>
+                <cell>2009</cell>
+                <cell>30,862</cell>
+              </row>
+              <row>
+                <cell>2000</cell>
+                <cell>37,526</cell>
+                <cell>2010</cell>
+                <cell>30,296</cell>
+              </row>
+              <row>
+                <cell>2001</cell>
+                <cell>37,862</cell>
+                <cell>2011</cell>
+                <cell>29,757</cell>
+              </row>
+              <row>
+                <cell>2002</cell>
+                <cell>38,491</cell>
+                <cell>Total</cell>
+                <cell>653,782</cell>
+              </row>
+              <row>
+                <cell>2003</cell>
+                <cell>38,477</cell>
+                <cell></cell>
+                <cell></cell>
+              </row>
+            </tabular>
+          </table>
+          <p xml:id="fs-idm72473616">Answer the following questions:</p>
+          <ol xml:id="fs-idm94591440">
+            <li>What is the frequency of deaths measured from 2000 through 2004?</li>
+            <li>What percentage of deaths occurred after 2006?</li>
+            <li>What is the relative frequency of deaths that occurred in 2000 or before?</li>
+            <li>What is the percentage of deaths that occurred in 2011?</li>
+            <li>What is the cumulative relative frequency for 2006? Explain what this number tells you about the data.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol xml:id="fs-idm84107376">
+            <li>190,800 (29.2%)</li>
+            <li>24.9%</li>
+            <li>260,086/653,782 or 39.8%</li>
+            <li>4.6%</li>
+            <li>75.1% of all fatal traffic crashes for the period from 1994 to 2011 happened from 1994 to 2006.</li>
+          </ol>
+        </solution>
+      </exercise>
+    </subsection>
   </section>
 
   <section xml:id="sec-sampling-experiment-design">
     <title>Sampling Experiment and Design</title>
-    <p>
-      Content to be added from module m79596.
+    <subsection xml:id="fs-id1164564810562">
+      <p xml:id="fs-idm26748320">Does aspirin reduce the risk of heart attacks? Is one brand of fertilizer more effective at growing roses than another? Is fatigue as dangerous to a driver as speeding? Questions like these are answered using randomized experiments. In this module, you will learn important aspects of experimental design. Proper study design ensures the production of reliable, accurate data.</p>
+      <p xml:id="fs-id1164568065305">The purpose of an experiment is to investigate the relationship between two variables. In an experiment, there is the <alert>explanatory variable</alert> which affects the <alert>response variable</alert>. In a randomized experiment, the researcher manipulates the explanatory variable and then observes the response variable. Each value of the explanatory variable used in an experiment is called a <alert>treatment</alert>.</p>
+      <p xml:id="fs-idp20958864">You want to investigate the effectiveness of vitamin E in preventing disease. You recruit a group of subjects and ask them if they regularly take vitamin E. You notice that the subjects who take vitamin E exhibit better health on average than those who do not. Does this prove that vitamin E is effective in disease prevention? It does not. There are many differences between the two groups compared in addition to vitamin E consumption. People who take vitamin E regularly often take other steps to improve their health: exercise, diet, other vitamin supplements. Any one of these factors could be influencing health. As described, this study does not prove that vitamin E is the key to disease prevention.</p>
+      <p xml:id="fs-idm26816896">Additional variables that can cloud a study are called <term xml:id="term-00001">lurking variables</term>. In order to prove that the explanatory variable is causing a change in the response variable, it is necessary to isolate the explanatory variable. The researcher must design her experiment in such a way that there is only one difference between groups being compared: the planned treatments. This is accomplished by the <term xml:id="term-00002">random assignment</term> of experimental units to treatment groups. When subjects are assigned treatments randomly, all of the potential lurking variables are spread equally among the groups. At this point the only difference between groups is the one imposed by the researcher. Different outcomes measured in the response variable, therefore, must be a direct result of the different treatments. In this way, an experiment can prove a cause-and-effect connection between the explanatory and response variables.</p>
+      <p xml:id="fs-id1164567483970">Confounding occurs when the effects of multiple factors on a response cannot be separated, for instance, if a student guesses on the even-numbered questions on an exam and sits in a favorite spot on exam day. Why does the student get a high test scores on the exam? It could be the increased study time or sitting in the favorite spot or both. Confounding makes it difficult to draw valid conclusions about the effect of each factor on the outcome. The way around this is to test several outcomes with one method (treatment). This way, we know which treatment really works.</p>
+      <p xml:id="fs-idm40990544">The power of suggestion can have an important influence on the outcome of an experiment. Studies have shown that the expectation of the study participant can be as important as the actual medication. In one study of performance-enhancing substances, researchers noted the following:</p>
+      <p xml:id="eip-753"><em>Results showed that believing one had taken the substance resulted in [</em>performance<em>] times almost as fast as those associated with consuming the substance itself. In contrast, taking the substance without knowledge yielded no significant performance increment.</em>McClung, M. and Collins, D. (2007 June). "Because I know it will!" Placebo effects of an ergogenic aid on athletic performance. Journal of Sport &amp; Exercise Psychology, 29(3), 382-94.</p>
+      <p xml:id="fs-idp21694240">When participation in a study prompts a physical response from a participant, it is difficult to isolate the effects of the explanatory variable. To counter the power of suggestion, researchers set aside one treatment group as a <term xml:id="term-00003">control group</term>. This group is given a <term xml:id="term-00004">placebo</term> treatment, a treatment that cannot influence the response variable. The control group helps researchers balance the effects of being in an experiment with the effects of the active treatments. Of course, if you are participating in a study and you know that you are receiving a pill that contains no actual medication, then the power of suggestion is no longer a factor. <term xml:id="term-00005">Blinding</term> in a randomized experiment designed to reduce bias by hiding information. When a person involved in a research study is blinded, he does not know who is receiving the active treatment(s) and who is receiving the placebo treatment. A <term xml:id="term-00006">double-blind experiment</term> is one in which both the subjects and the researchers involved with the subjects are blinded.</p>
+      <p xml:id="fs-id1170309538048">Sometimes, it is neither possible nor ethical for researchers to conduct experimental studies. For example, if you want to investigate whether malnutrition affects elementary school performance in children, it would not be appropriate to assign an experimental group to be malnourished. In these cases, <term xml:id="term-00007">observational studies</term> or <term xml:id="term-00008">surveys</term> may be used. In an observational study, the researcher does not directly manipulate the independent variable. Instead, he or she takes recordings and measurements of naturally occurring phenomena. By sorting these data into control and experimental conditions, the relationship between the dependent and independent variables can be drawn. In a survey, a researchers measurements consist of questionnaires that are answered by the research participants.</p>
+      <example xml:id="fs-idm46263440">
+        <statement>
+          <p xml:id="fs-idm36907744">Researchers want to investigate whether taking aspirin regularly reduces the risk of a heart attack. 400 men between the ages of 50 and 84 are recruited as participants. The men are divided randomly into two groups: one group will take aspirin, and the other group will take a placebo. Each man takes one pill each day for three years, but he does not know whether he is taking aspirin or the placebo. At the end of the study, researchers count the number of men in each group who have had heart attacks.</p>
+          <p xml:id="fs-idm23449264">Identify the following values for this study: population, sample, experimental units, explanatory variable, response variable, treatments.</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm50725904">The <em>population</em> is men aged 50 to 84.
+    The <em>sample</em> is the 400 men who participated.
+    The <em>experimental units</em> are the individual men in the study.
+    The <em>explanatory variable</em> is oral medication.
+    The <em>treatments</em> are aspirin and a placebo.
+    The <em>response variable</em> is whether a subject had a heart attack.</p>
+        </solution>
+      </example>
+      <example xml:id="fs-idp16610496">
+        <statement>
+          <p xml:id="fs-idp39070944">The Smell &amp; Taste Treatment and Research Foundation conducted a study to investigate whether smell can affect learning. Subjects completed mazes multiple times while wearing masks. They completed the pencil and paper mazes three times wearing floral-scented masks, and three times with unscented masks. Participants were assigned at random to wear the floral mask during the first three trials or during the last three trials. For each trial, researchers recorded the time it took to complete the maze and the subject’s impression of the mask’s scent: positive, negative, or neutral.
     </p>
+          <ol xml:id="fs-idp29645920">
+            <li>Describe the explanatory and response variables in this study.</li>
+            <li>What are the treatments?</li>
+            <li>Identify any lurking variables that could interfere with this study.</li>
+            <li>Is it possible to use blinding in this study?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol xml:id="fs-idm25552784">
+            <li>The explanatory variable is scent, and the response variable is the time it takes to complete the maze.</li>
+            <li>There are two treatments: a floral-scented mask and an unscented mask.</li>
+            <li>All subjects experienced both treatments. The order of treatments was randomly assigned so there were no differences between the treatment groups. Random assignment eliminates the problem of lurking variables.</li>
+            <li>Subjects will clearly know whether they can smell flowers or not, so subjects cannot be blinded in this study. Researchers timing the mazes can be blinded, though. The researcher who is observing a subject will not know which mask is being worn.</li>
+          </ol>
+        </solution>
+      </example>
+      <example xml:id="fs-idm25280016">
+        <statement>
+          <p xml:id="fs-idm24852048">A researcher wants to study the effects of birth order on personality. Explain why this study could not be conducted as a randomized experiment. What is the main problem in a study that cannot be designed as a randomized experiment?</p>
+        </statement>
+        <solution>
+          <p xml:id="fs-idm27252064">The explanatory variable is birth order. You cannot randomly assign a person’s birth order. Random assignment eliminates the impact of lurking variables. When you cannot assign subjects to treatment groups at random, there will be differences between the groups other than the explanatory variable.</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm24188176">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idm27042912">You are concerned about the effects of texting on driving performance. Design a study to test the response time of drivers while texting and while driving only. How many seconds does it take for a driver to respond when a leading car hits the brakes?</p>
+          <ol xml:id="fs-idp17285584">
+            <li>Describe the explanatory and response variables in the study.</li>
+            <li>What are the treatments?</li>
+            <li>What should you consider when selecting participants?</li>
+            <li>Your research partner wants to divide participants randomly into two groups: one to drive without distraction and one to text and drive simultaneously. Is this a good idea? Why or why not?</li>
+            <li>Identify any lurking variables that could interfere with this study.</li>
+            <li>How can blinding be used in this study?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol xml:id="fs-idp8242480">
+            <li>Explanatory: presence of distraction from texting; response: response time measured in seconds</li>
+            <li>Driving without distraction and driving while texting</li>
+            <li>Answers will vary. Possible responses: Do participants regularly send and receive text messages? How long has the subject been driving? What is the age of the participants? Do participants have similar texting and driving experience?</li>
+            <li>This is not a good plan because it compares drivers with different abilities. It would be better to assign both treatments to each participant in random order.</li>
+            <li>Possible responses include: texting ability, driving experience, type of phone.</li>
+            <li>The researchers observing the trials and recording response time could be blinded to the treatment being applied.</li>
+          </ol>
+        </solution>
+      </exercise>
+    </subsection>
+    <subsection xml:id="eip-165">
+      <title>Ethics</title>
+      <p xml:id="fs-idp69338592">The widespread misuse and misrepresentation of statistical information often gives the field a bad name. Some say that “numbers don’t lie,” but the people who use numbers to support their claims often do.</p>
+      <p xml:id="fs-idp63161552">A recent investigation of famous social psychologist, Diederik Stapel, has led to the retraction of his articles from some of the world’s top journals including, <em>Journal of Experimental Social Psychology, Social Psychology, Basic and Applied Social Psychology, British Journal of Social Psychology,</em> and the magazine <em>Science</em>. Diederik Stapel is a former professor at Tilburg University in the Netherlands. Over the past two years, an extensive investigation involving three universities where Stapel has worked concluded that the psychologist is guilty of fraud on a colossal scale. Falsified data taints over 55 papers he authored and 10 Ph.D. dissertations that he supervised.</p>
+      <p xml:id="eip-idm40688480"><em>Stapel did not deny that his deceit was driven by ambition. But it was more complicated than that, he told me. He insisted that he loved social psychology but had been frustrated by the messiness of experimental data, which rarely led to clear conclusions. His lifelong obsession with elegance and order, he said, led him to concoct results that journals found attractive. “It was a quest for aesthetics, for beauty—instead of the truth,” he said. He described his behavior as an addiction that drove him to carry out acts of increasingly daring fraud</em>.
+    Bhattacharjee, Y. (2013, April 26). The mind of a con man. The New York Times. Retrieved from http://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html?_r=3&amp;src=dayp&amp;.</p>
+      <p xml:id="fs-idp11297920">The committee investigating Stapel concluded that he is guilty of several practices including</p>
+      <ul xml:id="fs-idp81387808">
+        <li>creating datasets, which largely confirmed the prior expectations,</li>
+        <li>altering data in existing datasets,</li>
+        <li>changing measuring instruments without reporting the change, and</li>
+        <li>misrepresenting the number of experimental subjects.</li>
+      </ul>
+      <p xml:id="fs-idp31763600">Clearly, it is never acceptable to falsify data the way this researcher did. Sometimes, however, violations of ethics are not as easy to spot.</p>
+      <p xml:id="fs-idp40590784">Researchers have a responsibility to verify that proper methods are being followed. The report describing the investigation of Stapel’s fraud states that, “statistical flaws frequently revealed a lack of familiarity with elementary statistics.”Tillburg University. (2012, Nov. 28). Flawed science: the fraudulent research practices of social psychologist Diederik Stapel. Retrieved from https://www.tilburguniversity.edu/upload/3ff904d7-547b-40ae-85fe-bea38e05a34a_Final%20report%20Flawed%20Science.pdf. Many of Stapel’s co-authors should have spotted irregularities in his data. Unfortunately, they did not know very much about statistical analysis, and they simply trusted that he was collecting and reporting data properly.</p>
+      <p xml:id="fs-idp112502080">Many types of statistical fraud are difficult to spot. Some researchers simply stop collecting data once they have just enough to prove what they had hoped to prove. They don’t want to take the chance that a more extensive study would complicate their lives by producing data contradicting their hypothesis.</p>
+      <p xml:id="fs-idp75599696">Professional organizations, like the American Statistical Association, clearly define expectations for researchers. There are even laws in the federal code about the use of research data.</p>
+      <p xml:id="fs-idp35202800">When a statistical study uses human participants, as in medical studies, both ethics and the law dictate that researchers should be mindful of the safety of their research subjects. The U.S. Department of Health and Human Services oversees federal regulations of research studies with the aim of protecting participants. When a university or other research institution engages in research, it must ensure the safety of all human subjects. For this reason, research institutions establish oversight committees known as <term xml:id="term-00009">Institutional Review Boards (IRB)</term>. All planned studies must be approved in advance by the IRB. Key protections that are mandated by law include the following:</p>
+      <ul xml:id="fs-idp105688032">
+        <li>Risks to participants must be minimized and reasonable with respect to projected benefits.</li>
+        <li>Participants must give <term xml:id="term-00010">informed consent</term>. This means that the risks of participation must be clearly explained to the subjects of the study. Subjects must consent in writing, and researchers are required to keep documentation of their consent.</li>
+        <li>Data collected from individuals must be guarded carefully to protect their privacy.</li>
+      </ul>
+      <p xml:id="fs-idm5212816">These ideas may seem fundamental, but they can be very difficult to verify in practice. Is removing a participant’s name from the data record sufficient to protect privacy? Perhaps the person’s identity could be discovered from the data that remains. What happens if the study does not proceed as planned and risks arise that were not anticipated? When is informed consent really necessary? Suppose your doctor wants a blood sample to check your cholesterol level. Once the sample has been tested, you expect the lab to dispose of the remaining blood. At that point the blood becomes biological waste. Does a researcher have the right to take it for use in a study?</p>
+      <p xml:id="fs-idp36402832">It is important that students of statistics take time to consider the ethical questions that arise in statistical studies. How prevalent is fraud in statistical studies? You might be surprised—and disappointed. There is a <url href="http://openstaxcollege.org/l/40introone">website</url> dedicated to cataloging retractions of study articles that have been proven fraudulent. A quick glance will show that the misuse of statistics is a bigger problem than most people realize.</p>
+      <p xml:id="fs-idp26995216">Vigilance against fraud requires knowledge. Learning the basic theory of statistics will empower you to analyze statistical studies critically.</p>
+      <example xml:id="fs-idp23504416">
+        <statement>
+          <p xml:id="fs-idp39089936">Describe the unethical behavior in each example and describe how it could impact the reliability of the resulting data. Explain how the problem should be corrected.</p>
+          <p xml:id="fs-idp132934528">A researcher is collecting data in a community.</p>
+          <ol xml:id="fs-idp10407040">
+            <li>She selects a block where she is comfortable walking because she knows many of the people living on the street.</li>
+            <li>No one seems to be home at four houses on her route. She does not record the addresses and does not return at a later time to try to find residents at home.</li>
+            <li>She skips four houses on her route because she is running late for an appointment. When she gets home, she fills in the forms by selecting random answers from other residents in the neighborhood.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol xml:id="fs-idp82395040">
+            <li>By selecting a convenient sample, the researcher is intentionally selecting a sample that could be biased. Claiming that this sample represents the community is misleading. The researcher needs to select areas in the community at random.</li>
+            <li>Intentionally omitting relevant data will create bias in the sample. Suppose the researcher is gathering information about jobs and child care. By ignoring people who are not home, she may be missing data from working families that are relevant to her study. She needs to make every effort to interview all members of the target sample.</li>
+            <li>It is never acceptable to fake data. Even though the responses she uses are <em>real</em> responses provided by other participants, the duplication is fraudulent and can create bias in the data. She needs to work diligently to interview everyone on her route.</li>
+          </ol>
+        </solution>
+      </example>
+      <exercise xml:id="eip-89">
+        <title>Try It</title>
+    
+        <statement>
+          <p xml:id="fs-idp19040992">Describe the unethical behavior, if any, in each example and describe how it could impact the reliability of the resulting data. Explain how the problem should be corrected.</p>
+          <p xml:id="fs-idp62918448">A study is commissioned to determine the favorite brand of fruit juice among teens in California.</p>
+          <ol xml:id="fs-idm4025376">
+            <li>The survey is commissioned by the seller of a popular brand of apple juice.</li>
+            <li>There are only two types of juice included in the study: apple juice and cranberry juice.</li>
+            <li>Researchers allow participants to see the brand of juice as samples are poured for a taste test.</li>
+            <li>Twenty-five percent of participants prefer Brand X, 33 percent prefer Brand Y and 42 percent have no preference between the two brands. Brand X references the study in a commercial saying “Most teens like Brand X as much as or more than Brand Y.”</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol xml:id="fs-idp62071840">
+            <li>This is not necessarily a problem. The study should be monitored carefully, however, to ensure that the company is not pressuring researchers to return biased results.</li>
+            <li>If the researchers truly want to determine the favorite brand of juice, then researchers should ask teens to compare different brands of the same type of juice. Choosing a sweet juice to compare against a sharp-flavored juice will not lead to an accurate comparison of brand quality.</li>
+            <li>Participants could be biased by the knowledge. The results may be different from those obtained in a blind taste test.</li>
+            <li>The commercial tells the truth, but not the whole truth. It leads consumers to believe that Brand X was preferred by more participants than Brand Y while the opposite is true.</li>
+          </ol>
+        </solution>
+      </exercise>
+    </subsection>
   </section>
 
   <section xml:id="sec-data-collection-experiment">
     <title>Data Collection Experiment</title>
-    <p>
-      Content to be added from module m79597.
-    </p>
+    <subsection xml:id="fs-id1164567617265">
+      <project xml:id="fs-id1170942442486">
+        <title>Data Collection Experiment</title>
+        <ul xml:id="element-293">
+          <title>Student Learning Outcomes</title>
+          <li>The student will demonstrate the systematic sampling technique.</li>
+          <li>The student will construct relative frequency tables.</li>
+          <li>The student will interpret results and their differences from different data groupings.</li>
+        </ul>
+        <title>Movie Survey</title>
+        <p xml:id="fs-id1164567996867">Get a class roster/list. Randomly mark a persons name, and then mark every fourth name on the list until you get 12 names. You may have to go back to the start of the list. For each name marked, record the number of movies they saw at the theater last month.</p>
+        <title>Order the Data</title>
+        <p xml:id="element-6">Complete the two relative frequency tables below using your class data.</p>
+        <table xml:id="id9610791234">
+          <tabular>
+            <row header="yes">
+              <cell>Number of Movies</cell>
+              <cell>Frequency</cell>
+              <cell>Relative Frequency</cell>
+              <cell>Cumulative Relative Frequency</cell>
+            </row>
+            <row>
+              <cell><em>0</em></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>5</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>6</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>7+</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+        <table xml:id="id10778923248">
+          <tabular>
+            <row header="yes">
+              <cell>Number of Movies</cell>
+              <cell>Frequency</cell>
+              <cell>Relative Frequency</cell>
+              <cell>Cumulative Relative Frequency</cell>
+            </row>
+            <row>
+              <cell>0–1</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>2–3</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>4–5</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>6–7+</cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+        <ol xml:id="list-2349875">
+          <li>Using the tables, find the percent of data that is at most two. Which table did you use and why?</li>
+          <li>Using the tables, find the percent of data that is at most three. Which table did you use and why?</li>
+          <li>Using the tables, find the percent of data that is more than two. Which table did you use and why?</li>
+          <li>Using the tables, find the percent of data that is more than three. Which table did you use and why?</li>
+        </ol>
+        <ol xml:id="list-23497695">
+          <title>Discussion Questions</title>
+          <li>Is one of the tables <em>more correct</em> than the other? Why or why not?</li>
+          <li>In general, how could you group the data differently? Are there any advantages to either way of grouping the data?</li>
+          <li>Why did you switch between tables, if you did, when answering the question above?</li>
+        </ol>
+      </project>
+    </subsection>
   </section>
 
   <section xml:id="sec-sampling-data-review">
@@ -71,9 +2159,301 @@
 
   <section xml:id="sec-sampling-data-practice">
     <title>Sampling and Data: Practice</title>
-    <p>
-      Content to be added from module m79599.
+    <subsection xml:id="fs-id1164565979860">
+      <project xml:id="fs-id1167914447982">
+        <title>Sampling Experiment</title>
+        <ul xml:id="element-806">
+          <title>Student Learning Outcomes</title>
+          <li>The student will demonstrate the simple random, systematic, stratified, and cluster sampling techniques.</li>
+          <li>The student will explain the details of each procedure used.</li>
+        </ul>
+        <p xml:id="element-153">In this lab, you will be asked to pick several random samples of restaurants. In each case, describe your procedure briefly, including how you might have used the random number generator, and then list the restaurants in the sample you obtained.</p>
+        <note xml:id="id11521709">
+          <title>Note</title>
+          <p xml:id="fs-idp40181216">The following section contains restaurants stratified by city into columns and grouped horizontally by entree cost (clusters).</p>
+        </note>
+        <table xml:id="id9894hh324636">
+          <title>Restaurants Used in Sample</title>
+          <tabular>
+            <row header="yes">
+              <cell>Restaurants Stratified by City and Entree Cost</cell>
+            </row>
+            <row header="yes">
+              <cell>Entree Cost</cell>
+              <cell>Under $10</cell>
+              <cell>$10 to under $15</cell>
+              <cell>$15 to under $20</cell>
+              <cell>Over $20</cell>
+            </row>
+            <row>
+              <cell>San Jose</cell>
+              <cell>El Abuelo Taq, Pasta Mia, Emma’s Express, Bamboo Hut</cell>
+              <cell>Emperor’s Guard, Creekside Inn</cell>
+              <cell>Agenda, Gervais, Miro’s</cell>
+              <cell>Blake’s, Eulipia, Hayes Mansion, Germania</cell>
+            </row>
+            <row>
+              <cell>Palo Alto</cell>
+              <cell>Senor Taco, Tuscan Garden, Taxi’s</cell>
+              <cell>Ming’s, P.A. Joe’s, Stickney’s</cell>
+              <cell>Scott’s Seafood, Poolside Grill, Fish Market</cell>
+              <cell>Sundance Mine, Maddalena’s, Sally's</cell>
+            </row>
+            <row>
+              <cell>Los Gatos</cell>
+              <cell>Mary’s Patio, Mount Everest, Sweet Pea’s, Andele Taqueria</cell>
+              <cell>Lindsey’s, Willow Street</cell>
+              <cell>Toll House</cell>
+              <cell>Charter House, La Maison Du Cafe</cell>
+            </row>
+            <row>
+              <cell>Mountain View</cell>
+              <cell>Maharaja, New Ma’s, Thai-Rific, Garden Fresh</cell>
+              <cell>Amber Indian, La Fiesta, Fiesta del Mar, Dawit</cell>
+              <cell>Austin’s, Shiva’s, Mazeh</cell>
+              <cell>Le Petit Bistro</cell>
+            </row>
+            <row>
+              <cell>Cupertino</cell>
+              <cell>Hobees, Hung Fu, Samrat, China Express</cell>
+              <cell>Santa Barb. Grill, Mand. Gourmet, Bombay Oven, Kathmandu West</cell>
+              <cell>Fontana’s, Blue Pheasant</cell>
+              <cell>Hamasushi, Helios</cell>
+            </row>
+            <row>
+              <cell>Sunnyvale</cell>
+              <cell>Chekijababi, Taj India, Full Throttle, Tia Juana, Lemon Grass</cell>
+              <cell>Pacific Fresh, Charley Brown’s, Cafe Cameroon, Faz, Aruba’s</cell>
+              <cell>Lion &amp; Compass, The Palace, Beau Sejour</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Santa Clara</cell>
+              <cell>Rangoli, Armadillo Willy’s, Thai Pepper, Pasand</cell>
+              <cell>Arthur’s, Katie’s Cafe, Pedro’s, La Galleria</cell>
+              <cell>Birk’s, Truya Sushi, Valley Plaza</cell>
+              <cell>Lakeside, Mariani’s</cell>
+            </row>
+          </tabular>
+        </table>
+        <title>A Simple Random Sample</title>
+        <p xml:id="element-23513616999">Pick a <em>simple random sample</em> of 15 restaurants.</p>
+        <ol xml:id="list-23562">
+          <li>Describe your procedure.</li>
+          <li>
+            <p>Complete the table with your sample.
     </p>
+            <table xml:id="tableone">
+              <tabular>
+                <row>
+                  <cell>1. __________</cell>
+                  <cell>6. __________</cell>
+                  <cell>11. __________</cell>
+                </row>
+                <row>
+                  <cell>2. __________</cell>
+                  <cell>7. __________</cell>
+                  <cell>12. __________</cell>
+                </row>
+                <row>
+                  <cell>3. __________</cell>
+                  <cell>8. __________</cell>
+                  <cell>13. __________</cell>
+                </row>
+                <row>
+                  <cell>4. __________</cell>
+                  <cell>9. __________</cell>
+                  <cell>14. __________</cell>
+                </row>
+                <row>
+                  <cell>5. __________</cell>
+                  <cell>10. __________</cell>
+                  <cell>15. __________</cell>
+                </row>
+              </tabular>
+            </table>
+          </li>
+        </ol>
+        <title>A Systematic Sample</title>
+        <p xml:id="element-235975691">Pick a <em>systematic sample</em> of 15 restaurants.</p>
+        <ol xml:id="list-235562">
+          <li>Describe your procedure.</li>
+          <li>
+            <p>Complete the table with your sample.
+    </p>
+            <table xml:id="tabletwo">
+              <tabular>
+                <row>
+                  <cell>1. __________</cell>
+                  <cell>6. __________</cell>
+                  <cell>11. __________</cell>
+                </row>
+                <row>
+                  <cell>2. __________</cell>
+                  <cell>7. __________</cell>
+                  <cell>12. __________</cell>
+                </row>
+                <row>
+                  <cell>3. __________</cell>
+                  <cell>8. __________</cell>
+                  <cell>13. __________</cell>
+                </row>
+                <row>
+                  <cell>4. __________</cell>
+                  <cell>9. __________</cell>
+                  <cell>14. __________</cell>
+                </row>
+                <row>
+                  <cell>5. __________</cell>
+                  <cell>10. __________</cell>
+                  <cell>15. __________</cell>
+                </row>
+              </tabular>
+            </table>
+          </li>
+        </ol>
+        <title>A Stratified Sample</title>
+        <p xml:id="element-2466992">Pick a <em>stratified sample</em>, by city, of 20 restaurants. Use 25 percent of the restaurants from each stratum. Round to the nearest whole number.</p>
+        <ol xml:id="list-23566372">
+          <li>Describe your procedure.</li>
+          <li>
+            <p>Complete the table with your sample.
+    </p>
+            <table xml:id="tablethree">
+              <tabular>
+                <row>
+                  <cell>1. __________</cell>
+                  <cell>6. __________</cell>
+                  <cell>11. __________</cell>
+                  <cell>16. __________</cell>
+                </row>
+                <row>
+                  <cell>2. __________</cell>
+                  <cell>7. __________</cell>
+                  <cell>12. __________</cell>
+                  <cell>17. __________</cell>
+                </row>
+                <row>
+                  <cell>3. __________</cell>
+                  <cell>8. __________</cell>
+                  <cell>13. __________</cell>
+                  <cell>18. __________</cell>
+                </row>
+                <row>
+                  <cell>4. __________</cell>
+                  <cell>9. __________</cell>
+                  <cell>14. __________</cell>
+                  <cell>19. __________</cell>
+                </row>
+                <row>
+                  <cell>5. __________</cell>
+                  <cell>10. __________</cell>
+                  <cell>15. __________</cell>
+                  <cell>20. __________</cell>
+                </row>
+              </tabular>
+            </table>
+          </li>
+        </ol>
+        <title>A Stratified Sample</title>
+        <p xml:id="element-2359869125">Pick a <em>stratified sample</em>, by entree cost, of 21 restaurants. Use 25 percent of the restaurants from each stratum. Round to the nearest whole number.</p>
+        <ol xml:id="list-235966372">
+          <li>Describe your procedure.</li>
+          <li>
+            <p>Complete the table with your sample.
+    </p>
+            <table xml:id="tablefour">
+              <tabular>
+                <row>
+                  <cell>1. __________</cell>
+                  <cell>6. __________</cell>
+                  <cell>11. __________</cell>
+                  <cell>16. __________</cell>
+                </row>
+                <row>
+                  <cell>2. __________</cell>
+                  <cell>7. __________</cell>
+                  <cell>12. __________</cell>
+                  <cell>17. __________</cell>
+                </row>
+                <row>
+                  <cell>3. __________</cell>
+                  <cell>8. __________</cell>
+                  <cell>13. __________</cell>
+                  <cell>18. __________</cell>
+                </row>
+                <row>
+                  <cell>4. __________</cell>
+                  <cell>9. __________</cell>
+                  <cell>14. __________</cell>
+                  <cell>19. __________</cell>
+                </row>
+                <row>
+                  <cell>5. __________</cell>
+                  <cell>10. __________</cell>
+                  <cell>15. __________</cell>
+                  <cell>20. __________</cell>
+                </row>
+                <row>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell></cell>
+                  <cell>21. __________</cell>
+                </row>
+              </tabular>
+            </table>
+          </li>
+        </ol>
+        <title>A Cluster Sample</title>
+        <p xml:id="element-252976925">Pick a <em>cluster sample</em> of restaurants from two cities. The number of restaurants will vary.</p>
+        <ol xml:id="list-2359669372">
+          <li>Describe your procedure.</li>
+          <li>
+            <p>Complete the table with your sample.
+    </p>
+            <table xml:id="tablefive">
+              <tabular>
+                <row>
+                  <cell>1. ________</cell>
+                  <cell>6. ________</cell>
+                  <cell>11. ________</cell>
+                  <cell>16. ________</cell>
+                  <cell>21. ________</cell>
+                </row>
+                <row>
+                  <cell>2. ________</cell>
+                  <cell>7. ________</cell>
+                  <cell>12. ________</cell>
+                  <cell>17. ________</cell>
+                  <cell>22. ________</cell>
+                </row>
+                <row>
+                  <cell>3. ________</cell>
+                  <cell>8. ________</cell>
+                  <cell>13. ________</cell>
+                  <cell>18. ________</cell>
+                  <cell>23. ________</cell>
+                </row>
+                <row>
+                  <cell>4. ________</cell>
+                  <cell>9. ________</cell>
+                  <cell>14. ________</cell>
+                  <cell>19. ________</cell>
+                  <cell>24. ________</cell>
+                </row>
+                <row>
+                  <cell>5. ________</cell>
+                  <cell>10. ________</cell>
+                  <cell>15. ________</cell>
+                  <cell>20. ________</cell>
+                  <cell>25. ________</cell>
+                </row>
+              </tabular>
+            </table>
+          </li>
+        </ol>
+      </project>
+    </subsection>
   </section>
 
   <conclusion>
