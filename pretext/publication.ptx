@@ -3,6 +3,10 @@
     This file provides publication settings for your PreTeXt project.
 -->
 <publication>
+  <source>
+    <directories external="../media" generated="../generated-assets"/>
+  </source>
+  
   <!-- HTML-Specific Options -->
   <html>
     <calculator model="geogebra-graphing"/>
