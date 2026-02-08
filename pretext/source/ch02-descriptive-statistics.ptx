@@ -4,7 +4,7 @@
 
   <introduction>
     <figure xml:id="fs-idm37970816">
-      <image source="media/CNX_Stats_C02_CO Photo.jpg" width="500%"/>
+      <image source="media/CNX_Stats_C02_CO Photo.jpg" width="100%"/>
       <caption>When you have a large amount of data, you will need to organize it in a way that makes sense. These ballots from an election are rolled together with similar ballots to keep them organized. (credit: William Greeson)</caption>
     </figure>
 
@@ -841,7 +841,7 @@ Teenager Is Reminded</cell>
         </tabular>
       </table>
       <figure xml:id="M01_Ch02_fig001">
-        <image source="media/fig-ch_02_03_01.jpg" width="380%"/>
+        <image source="media/fig-ch_02_03_01.jpg" width="80%"/>
       </figure>
     </example>
 
@@ -876,7 +876,7 @@ Teenager Is Reminded</cell>
       </statement>
       <solution>
         <figure xml:id="eip-idp32593792">
-          <image source="media/CNX_Stats_C02_M03_tryit003.png" width="380%"/>
+          <image source="media/CNX_Stats_C02_M03_tryit003.png" width="80%"/>
         </figure>
       </solution>
     </exercise>
@@ -914,7 +914,7 @@ Teenager Is Reminded</cell>
         </statement>
         <solution>
           <figure xml:id="fs-idm25485824">
-            <image source="media/fig-ch02_03_02.jpg" width="380%"/>
+            <image source="media/fig-ch02_03_02.jpg" width="80%"/>
           </figure>
         </solution>
       </exercise>
@@ -951,7 +951,7 @@ Teenager Is Reminded</cell>
       </statement>
       <solution>
         <figure xml:id="eip-idm94855488">
-          <image source="media/CNX_Stats_C02_M03_tryit004.png" width="350%"/>
+          <image source="media/CNX_Stats_C02_M03_tryit004.png" width="80%"/>
         </figure>
       </solution>
     </exercise>
@@ -1002,7 +1002,7 @@ Teenager Is Reminded</cell>
         </statement>
         <solution>
           <figure xml:id="M01_Ch02_fig003">
-            <image source="media/fig-ch02_03_03.jpg" width="380%"/>
+            <image source="media/fig-ch02_03_03.jpg" width="80%"/>
           </figure>
         </solution>
       </exercise>
@@ -1054,7 +1054,7 @@ Teenager Is Reminded</cell>
       </statement>
       <solution>
         <figure xml:id="M01_Ch02_fig004">
-          <image source="media/CNX_Stats_C02_M03_tryit005.png" width="400%"/>
+          <image source="media/CNX_Stats_C02_M03_tryit005.png" width="85%"/>
         </figure>
       </solution>
     </exercise>
@@ -1294,7 +1294,7 @@ Teenager Is Reminded</cell>
       </statement>
       <solution>
         <figure xml:id="fs-idp29124208">
-          <image source="media/CNX_Stats_C02_M03_005.jpg" width="350%"/>
+          <image source="media/CNX_Stats_C02_M03_005.jpg" width="80%"/>
         </figure>
       </solution>
     </exercise>
@@ -1371,7 +1371,7 @@ Teenager Is Reminded</cell>
       </statement>
       <solution>
         <figure xml:id="fs-idm11163840">
-          <image source="media/CNX_Stats_C02_M03_007.jpg" width="350%"/>
+          <image source="media/CNX_Stats_C02_M03_007.jpg" width="80%"/>
         </figure>
       </solution>
     </exercise>
@@ -1417,7 +1417,7 @@ Teenager Is Reminded</cell>
       </statement>
       <solution>
         <figure xml:id="fs-idp48344576">
-          <image source="media/CNX_Stats_C02_M03_009.jpg" width="350%"/>
+          <image source="media/CNX_Stats_C02_M03_009.jpg" width="80%"/>
         </figure>
       </solution>
     </exercise>
@@ -1473,7 +1473,7 @@ Teenager Is Reminded</cell>
       </statement>
       <solution>
         <figure xml:id="fs-idp86744448">
-          <image source="media/CNX_Stats_C02_M03_011.jpg" width="420%"/>
+          <image source="media/CNX_Stats_C02_M03_011.jpg" width="85%"/>
         </figure>
       </solution>
     </exercise>
@@ -1750,7 +1750,7 @@ n
       <p>The heights 60 through 61.5 inches are in the interval 59.95–61.95. The heights that are 63.5 are in the interval 61.95–63.95. The heights that are 64 through 64.5 are in the interval 63.95–65.95. The heights 66 through 67.5 are in the interval 65.95–67.95. The heights 68 through 69.5 are in the interval 67.95–69.95. The heights 70 through 71 are in the interval 69.95–71.95. The heights 72 through 73.5 are in the interval 71.95–73.95. The height 74 is in the interval 73.95–75.95.</p>
       <p>The following histogram displays the heights on the <em>x</em>-axis and relative frequency on the <em>y</em>-axis.</p>
       <figure xml:id="eip-idm88475792">
-        <image source="media/fig-ch_02_04_01.jpg" width="350%"/>
+        <image source="media/fig-ch_02_04_01.jpg" width="80%"/>
       </figure>
     </example>
 
@@ -1851,7 +1851,7 @@ n
       <p>Notice that we may choose different rational numbers to add to, or subtract from, our maximum and minimum values when calculating bin size. In the previous example, we added and subtracted .05, while this time, we added and subtracted .5. Given a data set, you will be able to determine what is appropriate and reasonable.</p>
       <p>The following histogram displays the number of books on the <em>x</em>-axis and the frequency on the <em>y</em>-axis.</p>
       <figure xml:id="eip-idp35221648">
-        <image source="media/fig-ch_02_04_02.jpg" width="380%"/>
+        <image source="media/fig-ch_02_04_02.jpg" width="80%"/>
       </figure>
     </example>
 
@@ -1941,7 +1941,7 @@ Twenty student athletes play one sport. Twenty-two student athletes play two spo
         </statement>
         <solution>
           <figure xml:id="fs-idp72238816">
-            <image source="media/CNX_Stats_C02_M04_020.jpg" width="400%"/>
+            <image source="media/CNX_Stats_C02_M04_020.jpg" width="85%"/>
           </figure>
           <p>Some values in this data set fall on boundaries for the class intervals. A value is counted in a class interval if it falls on the left boundary but not if it falls on the right boundary. Different researchers may set up histograms for the same data in different ways. There is more than one correct way to set up a histogram.</p>
         </solution>
@@ -1967,7 +1967,7 @@ Twenty student athletes play one sport. Twenty-two student athletes play two spo
 
     <p>To construct a frequency polygon, first examine the data and decide on the number of intervals and resulting interval size, for both the <em>x</em>-axis and <em>y</em>-axis. The <em>x</em>-axis will show the lower and upper bound for each interval, containing the data values, whereas the <em>y</em>-axis will represent the frequencies of the values. Each data point represents the frequency for each interval. For example, if an interval has three data values in it, the frequency polygon will show a 3 at the upper endpoint of that interval. After choosing the appropriate intervals, begin plotting the data points. After all the points are plotted, draw line segments to connect them.</p>
 
-    <example xml:id="example4">
+    <example xml:id="example4-2">
       <p>A frequency polygon was constructed from the frequency table below.</p>
       <table>
         <tabular>
@@ -2013,7 +2013,7 @@ Twenty student athletes play one sport. Twenty-two student athletes play two spo
         </tabular>
       </table>
       <figure xml:id="eip-idm19499056">
-        <image source="media/CNX_Stats_C02_M05a_001.jpg" width="350%"/>
+        <image source="media/CNX_Stats_C02_M05a_001.jpg" width="80%"/>
       </figure>
       <p>Notice that each point represents frequency for a particular interval. These points are located halfway between the lower bound and upper bound. In fact, the horizontal axis, or <em>x</em>-axis, shows only these midpoint values. For the interval 49.5–59.5 the value 54.5 is represented by a point, showing the correct frequency of 5. For the interval occurring before 49.5–59.5, (as well as 39.5–49.5), the value of the midpoint, or 44.5, is represented by a point, showing a frequency of 0, since we do not have any values in that range. The same idea applies to the last interval of 99.5–109.5, which has a midpoint of 104.5 and correctly shows a point representing a frequency of 0. Looking at the graph, we say
 that this distribution is skewed because one side of the graph does not mirror the other side.</p>
@@ -2059,7 +2059,7 @@ that this distribution is skewed because one side of the graph does not mirror t
       <solution>
         <p>The first label on the <em>x</em>-axis is 39. This represents an interval extending from 36.5 to 41.5. Since there are no ages less than 41.5, this interval is used only to allow the graph to touch the <em>x</em>-axis. The point labeled 44 represents the next interval, or the first <em>real</em> interval from the table, and contains four scores. This reasoning is followed for each of the remaining intervals with the point 74 representing the interval from 71.5 to 76.5. Again, this interval contains no data and is used only so that the graph will touch the <em>x</em>-axis. Looking at the graph, we say that this distribution is skewed because one side of the graph does not mirror the other side.</p>
         <figure xml:id="eip-idp57000416">
-          <image source="media/CNX_Stats_C02_M02_001.jpg" width="400%"/>
+          <image source="media/CNX_Stats_C02_M02_001.jpg" width="85%"/>
         </figure>
       </solution>
     </exercise>
@@ -2155,7 +2155,7 @@ that this distribution is skewed because one side of the graph does not mirror t
         </tabular>
       </table>
       <figure xml:id="eip-id1165746871888">
-        <image source="media/CNX_Stats_C02_M05a_002N.jpg" width="350%"/>
+        <image source="media/CNX_Stats_C02_M05a_002N.jpg" width="80%"/>
       </figure>
     </example>
 
@@ -2389,7 +2389,7 @@ that this distribution is skewed because one side of the graph does not mirror t
         </statement>
         <solution>
           <figure xml:id="eip-idm68714544">
-            <image source="media/CNX_Stats_C02_M05a_026annoN.jpg" width="400%"/>
+            <image source="media/CNX_Stats_C02_M05a_026annoN.jpg" width="85%"/>
             <caption>The annual amounts are plotted for each year. Then, consecutive points are connected with a line.</caption>
           </figure>
         </solution>
@@ -2458,7 +2458,7 @@ that this distribution is skewed because one side of the graph does not mirror t
       </statement>
       <solution>
         <figure xml:id="eip-idp40339472">
-          <image source="media/CNX_Stats_C02_M05b_004.png" width="450%"/>
+          <image source="media/CNX_Stats_C02_M05b_004.png" width="90%"/>
         </figure>
       </solution>
     </exercise>
@@ -2566,13 +2566,13 @@ that this distribution is skewed because one side of the graph does not mirror t
       <statement>
         <p>To construct the histogram for the data in , determine appropriate minimum and maximum <em>x</em>- and <em>y</em>-values and the scaling. Sketch the histogram. Label the horizontal and vertical axes with words. Include numerical scaling.</p>
         <figure xml:id="eip-idp57691072">
-          <image source="media/fig-ch02_11_01.jpg" width="350%"/>
+          <image source="media/fig-ch02_11_01.jpg" width="80%"/>
         </figure>
       </statement>
       <solution>
         <p>Answers will vary. One possible histogram is shown below.</p>
         <figure xml:id="eip-idp746160">
-          <image source="media/CNX_Stats_C02_M03_101.jpg" width="380%"/>
+          <image source="media/CNX_Stats_C02_M03_101.jpg" width="80%"/>
         </figure>
       </solution>
     </exercise>
@@ -2672,7 +2672,7 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
       <solution>
         <p>Find the midpoint for each class. These will be graphed on the <em>x</em>-axis. The frequency values will be graphed on the <em>y</em>-axis values.</p>
         <figure xml:id="eip-idp56723312">
-          <image source="media/CNX_Stats_C02_M05a_024annoN.jpg" width="420%"/>
+          <image source="media/CNX_Stats_C02_M05a_024annoN.jpg" width="85%"/>
         </figure>
       </solution>
     </exercise>
@@ -2893,7 +2893,7 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
       </statement>
       <solution>
         <figure xml:id="eip-idp37153376">
-          <image source="media/CNX_Stats_C02_M05a_028anno.jpg" width="400%"/>
+          <image source="media/CNX_Stats_C02_M05a_028anno.jpg" width="85%"/>
         </figure>
       </solution>
     </exercise>
@@ -3678,7 +3678,7 @@ Ordered from smallest to largest:
     <p>The quartiles are illustrated below:</p>
 
     <figure xml:id="fs-id1164563168227">
-      <image source="media/OSX_HS_Statistics_Figure_02_03_01_01.jpg" width="400%"/>
+      <image source="media/OSX_HS_Statistics_Figure_02_03_01_01.jpg" width="85%"/>
     </figure>
 
     <p>The <term>interquartile range</term> is a number that indicates the spread of the middle half, or the middle 50 percent of the data. It is the difference between the third quartile (<em>Q</em><m>_{3}</m>) and the first quartile (<em>Q</em><m>_{1}</m>)</p>
@@ -4352,7 +4352,7 @@ How should the &lt; 20,000 and the 100,000+ intervals be handled? Why?
       <statement>
         <p>Given the following box plot, answer the questions.</p>
         <figure xml:id="fs-idm476896">
-          <image source="media/fig-ch02_13_02.jpg" width="400%"/>
+          <image source="media/fig-ch02_13_02.jpg" width="85%"/>
         </figure>
         <ol>
           <li><p>Which quarter has the smallest spread of data? What is that spread?</p></li>
@@ -4374,7 +4374,7 @@ need more information
       <statement>
         <p>The following box plot shows the ages of the U.S. population for 1990, the latest available year:</p>
         <figure xml:id="fs-idm132205520">
-          <image source="media/fig-ch02_13_08.jpg" width="400%"/>
+          <image source="media/fig-ch02_13_08.jpg" width="85%"/>
         </figure>
         <ol>
           <li><p>Are there fewer or more children (age 17 and under) than senior citizens (age 65 and over)? How do you know?</p></li>
@@ -4415,7 +4415,7 @@ need more information
     </note>
 
     <figure xml:id="fs-idp11793488">
-      <image source="media/fig-ch_02_05_01.jpg" width="420%"/>
+      <image source="media/fig-ch_02_05_01.jpg" width="85%"/>
     </figure>
 
     <p>The two whiskers extend from the first quartile to the smallest value and from the third quartile to the largest value. The median is shown with a dashed line.</p>
@@ -4437,7 +4437,7 @@ need more information
         <li><p><em>Q</em><m>_{3}</m>: Third quartile = 70</p></li>
       </ul>
       <figure xml:id="fs-idm18897872">
-        <image source="media/fig-ch_02_05_02.jpg" width="420%"/>
+        <image source="media/fig-ch_02_05_02.jpg" width="85%"/>
       </figure>
       <ol>
         <li><p>Each quarter has approximately 25 percent of the data.</p></li>
@@ -4480,7 +4480,7 @@ need more information
       </statement>
       <solution>
         <figure xml:id="fs-idm17008240">
-          <image source="media/CNX_Stats_C02_M05_tryit001.png" width="550%"/>
+          <image source="media/CNX_Stats_C02_M05_tryit001.png" width="100%"/>
         </figure>
         <p><em>IQR</em> = 158</p>
       </solution>
@@ -4489,7 +4489,7 @@ need more information
     <p>For some sets of data, some of the largest value, smallest value, first quartile, median, and third quartile may be the same. For instance, you might have a data set in which the median and the third quartile are the same. In this case, the diagram would not have a dotted line inside the box displaying the median. The right side of the box would display both the third quartile and the median. For example, if the smallest value and the first quartile were both one, the median and the third quartile were both five, and the largest value was seven, the box plot would look like the following:</p>
 
     <figure xml:id="fs-idm16338080">
-      <image source="media/fig-ch_02_05_03.jpg" width="380%"/>
+      <image source="media/fig-ch_02_05_03.jpg" width="80%"/>
     </figure>
 
     <p>In this case, at least 25 percent of the values are equal to one. Twenty-five percent of the values are between one and five, inclusive. At least 25 percent of the values are equal to five. The top 25 percent of the values fall between five and seven, inclusive.</p>
@@ -4557,7 +4557,7 @@ Construct a box plot using a graphing calculator for each data set, and state wh
       </statement>
       <solution>
         <figure xml:id="fs-idm27585392">
-          <image source="media/CNX_Stats_C02_M05_tryit002.png" width="450%"/>
+          <image source="media/CNX_Stats_C02_M05_tryit002.png" width="90%"/>
         </figure>
         <p><em>IQR</em> for the boys = 4</p>
         <p><em>IQR</em> for the girls = 5</p>
@@ -4578,7 +4578,7 @@ Construct a box plot using a graphing calculator for each data set, and state wh
       </ul>
       <p>The following graph shows the box-and-whisker plot.</p>
       <figure xml:id="fs-idm67197680">
-        <image source="media/CNX_Stats_C02_M05_015.jpg" width="420%"/>
+        <image source="media/CNX_Stats_C02_M05_015.jpg" width="85%"/>
       </figure>
     </example>
 
@@ -4598,7 +4598,7 @@ Construct a box plot using a graphing calculator for each data set, and state wh
           <li><p>Max: 330</p></li>
         </ul>
         <figure xml:id="figtry">
-          <image source="media/CNX_Stats_C02_M04_100.jpg" width="420%"/>
+          <image source="media/CNX_Stats_C02_M04_100.jpg" width="85%"/>
         </figure>
       </solution>
     </exercise>
@@ -4628,7 +4628,7 @@ Construct a box plot using a graphing calculator for each data set, and state wh
       <statement>
         <p>In a survey of 20-year-olds in China, Germany, and the United States, people were asked the number of foreign countries they had visited in their lifetime. The following box plots display the results:</p>
         <figure xml:id="fs-idm75185920">
-          <image source="media/fig-ch02_13_01_rev.jpg" width="420%"/>
+          <image source="media/fig-ch02_13_01_rev.jpg" width="85%"/>
         </figure>
         <ol>
           <li><p>In complete sentences, describe what the shape of each box plot implies about the distribution of the data collected.</p></li>
@@ -4642,7 +4642,7 @@ Construct a box plot using a graphing calculator for each data set, and state wh
       <statement>
         <p>Given the following box plot, answer the questions.</p>
         <figure xml:id="fs-idp53170192">
-          <image source="media/fig-ch02_13_03.jpg" width="400%"/>
+          <image source="media/fig-ch02_13_03.jpg" width="85%"/>
         </figure>
         <ol>
           <li><p>Think of an example (in words) where the data might fit into the above box plot. In two to five sentences, write down the example.</p></li>
@@ -4661,7 +4661,7 @@ Construct a box plot using a graphing calculator for each data set, and state wh
       <statement>
         <p>Given the following box plots, answer the questions.</p>
         <figure xml:id="fs-idm76469696">
-          <image source="media/fig-ch02_13_06.jpg" width="400%"/>
+          <image source="media/fig-ch02_13_06.jpg" width="85%"/>
         </figure>
         <ol>
           <li><p>In complete sentences, explain why each statement is false.
@@ -4678,7 +4678,7 @@ For <em>Data 1</em>, there are more data values below four than there are above 
       <statement>
         <p>A survey was conducted of 130 purchasers of new black sports cars, 130 purchasers of new red sports cars, and 130 purchasers of new white sports cars. In it, people were asked the age they were when they purchased their car. The following box plots display the results:</p>
         <figure xml:id="fs-idm78146976">
-          <image source="media/fig-ch02_13_07.jpg" width="400%"/>
+          <image source="media/fig-ch02_13_07.jpg" width="85%"/>
         </figure>
         <ol>
           <li><p>In complete sentences, describe what the shape of each box plot implies about the distribution of the data collected for that car series.</p></li>
@@ -4794,7 +4794,7 @@ For <em>Data 1</em>, there are more data values below four than there are above 
           <li><p>Which box plot most resembles the information above?</p></li>
         </ol>
         <figure xml:id="fs-idm2636592">
-          <image source="media/fig-ch02_13_04.jpg" width="450%"/>
+          <image source="media/fig-ch02_13_04.jpg" width="90%"/>
         </figure>
       </statement>
       <solution>
@@ -5475,7 +5475,7 @@ Frequency
       </tabular>
     </table>
 
-    <exercise xml:id="element-84">
+    <exercise xml:id="element-84-2">
       <statement>
         <p>What is the <em>IQR</em>?</p>
         <ol>
@@ -5527,7 +5527,7 @@ Frequency
     <p>This data set can be represented by the following histogram. Each interval has width 1, and each value is located in the middle of an interval.</p>
 
     <figure xml:id="M06_Ch02_fig001">
-      <image source="media/fig-ch02_08_01.jpg" width="350%"/>
+      <image source="media/fig-ch02_08_01.jpg" width="80%"/>
     </figure>
 
     <p>The histogram displays a <em>symmetrical</em> distribution of data. A distribution is symmetrical if a vertical line can be drawn at some point in the histogram such that the shape to the left and the right of the vertical line are mirror images of each other. The mean, the median, and the mode are each seven for these data. <em>In a perfectly symmetrical distribution, the mean and the median are the same.</em> This example has one mode (unimodal), and the mode is the same as the mean and median. In a symmetrical distribution that has two modes (bimodal), the two modes would be different from the mean and median.</p>
@@ -5535,7 +5535,7 @@ Frequency
     <p>The histogram for the data: 4, 5, 6, 6, 6, 7, 7, 7, 7, 8 is not symmetrical. The right-hand side seems <em>chopped off</em> compared to the left-hand side. A distribution of this type is called <em>skewed to the left</em> because it is pulled out to the left. A skewed left distribution has more high values.</p>
 
     <figure xml:id="M06_Ch02_fig002">
-      <image source="media/fig-ch02_08_02.jpg" width="350%"/>
+      <image source="media/fig-ch02_08_02.jpg" width="80%"/>
     </figure>
 
     <p>The mean is 6.3, the median is 6.5, and the mode is seven. <em>Notice that the mean is less than the median, and they are both less than the mode</em>. The mean and the median both reflect the skewing, but the mean reflects it more so. The mean is pulled toward the tail in a skewed distribution.</p>
@@ -5543,7 +5543,7 @@ Frequency
     <p>The histogram for the data: 6, 7, 7, 7, 7, 8, 8, 8, 9, 10 is also not symmetrical. It is <em>skewed to the right</em>. A skewed right distribution has more low values.</p>
 
     <figure xml:id="M06_Ch02_fig003">
-      <image source="media/fig-ch02_08_03.jpg" width="350%"/>
+      <image source="media/fig-ch02_08_03.jpg" width="80%"/>
     </figure>
 
     <p>The mean is 7.7, the median is 7.5, and the mode is seven. Of the three statistics, <em>the mean is the largest, while the mode is the smallest</em>. Again, the mean reflects the skewing the most.</p>
@@ -5707,7 +5707,7 @@ The Ages at Which Former U.S. Presidents Died
       <statement>
         <p>Describe the shape of this distribution.</p>
         <figure xml:id="fs-idm14476592">
-          <image source="media/CNX_Stats_C02_M08_007.jpg" width="380%"/>
+          <image source="media/CNX_Stats_C02_M08_007.jpg" width="80%"/>
         </figure>
       </statement>
       <solution>
@@ -5719,7 +5719,7 @@ The Ages at Which Former U.S. Presidents Died
       <statement>
         <p>Describe the relationship between the mode and the median of this distribution.</p>
         <figure xml:id="fs-idm155444400">
-          <image source="media/CNX_Stats_C02_M08_007.jpg" width="380%"/>
+          <image source="media/CNX_Stats_C02_M08_007.jpg" width="80%"/>
         </figure>
       </statement>
     </exercise>
@@ -5728,7 +5728,7 @@ The Ages at Which Former U.S. Presidents Died
       <statement>
         <p>Describe the relationship between the mean and the median of this distribution.</p>
         <figure xml:id="fs-idm57592704">
-          <image source="media/CNX_Stats_C02_M08_007.jpg" width="380%"/>
+          <image source="media/CNX_Stats_C02_M08_007.jpg" width="80%"/>
         </figure>
       </statement>
       <solution>
@@ -5740,7 +5740,7 @@ The Ages at Which Former U.S. Presidents Died
       <statement>
         <p>Describe the shape of this distribution.</p>
         <figure xml:id="fs-idp20306352">
-          <image source="media/CNX_Stats_C02_M08_010.jpg" width="380%"/>
+          <image source="media/CNX_Stats_C02_M08_010.jpg" width="80%"/>
         </figure>
       </statement>
     </exercise>
@@ -5749,7 +5749,7 @@ The Ages at Which Former U.S. Presidents Died
       <statement>
         <p>Describe the relationship between the mode and the median of this distribution.</p>
         <figure xml:id="fs-idm16308016">
-          <image source="media/CNX_Stats_C02_M08_010.jpg" width="380%"/>
+          <image source="media/CNX_Stats_C02_M08_010.jpg" width="80%"/>
         </figure>
       </statement>
       <solution>
@@ -5761,7 +5761,7 @@ The Ages at Which Former U.S. Presidents Died
       <statement>
         <p>Are the mean and the median the exact same in this distribution? Why or why not?</p>
         <figure xml:id="fs-idm34380208">
-          <image source="media/CNX_Stats_C02_M08_010.jpg" width="380%"/>
+          <image source="media/CNX_Stats_C02_M08_010.jpg" width="80%"/>
         </figure>
       </statement>
     </exercise>
@@ -5770,7 +5770,7 @@ The Ages at Which Former U.S. Presidents Died
       <statement>
         <p>Describe the shape of this distribution.</p>
         <figure xml:id="fs-idp2366192">
-          <image source="media/CNX_Stats_C02_M08_013.jpg" width="380%"/>
+          <image source="media/CNX_Stats_C02_M08_013.jpg" width="80%"/>
         </figure>
       </statement>
       <solution>
@@ -5782,7 +5782,7 @@ The Ages at Which Former U.S. Presidents Died
       <statement>
         <p>Describe the relationship between the mode and the median of this distribution.</p>
         <figure xml:id="fs-idp1844976">
-          <image source="media/CNX_Stats_C02_M08_013.jpg" width="380%"/>
+          <image source="media/CNX_Stats_C02_M08_013.jpg" width="80%"/>
         </figure>
       </statement>
     </exercise>
@@ -5791,7 +5791,7 @@ The Ages at Which Former U.S. Presidents Died
       <statement>
         <p>Describe the relationship between the mean and the median of this distribution.</p>
         <figure xml:id="fs-idm85728080">
-          <image source="media/CNX_Stats_C02_M08_013.jpg" width="380%"/>
+          <image source="media/CNX_Stats_C02_M08_013.jpg" width="80%"/>
         </figure>
       </statement>
       <solution>
@@ -6175,7 +6175,7 @@ The third quartile
             <li><p>The <em>x</em>-axis goes from 32.5 to 100.5; the <em>y</em>-axis goes from –2.4 to 15 for the histogram. The number of intervals is 5, so the width of an interval is (100.5 – 32.5) divided by 5, equal to 13.6. Endpoints of the intervals are as follows: the starting point is 32.5, 32.5 + 13.6 = 46.1, 46.1 + 13.6 = 59.7, 59.7 + 13.6 = 73.3, 73.3 + 13.6 = 86.9, 86.9 + 13.6 = 100.5 = the ending value; no data values fall on an interval boundary.</p></li>
           </ol>
           <figure xml:id="id6380826">
-            <image source="media/fig-ch02_09_02.jpg" width="350%"/>
+            <image source="media/fig-ch02_09_02.jpg" width="80%"/>
           </figure>
         </solution>
       </exercise>
@@ -6994,7 +6994,7 @@ Points per Game	Frequency
       </statement>
     </exercise>
 
-    <exercise xml:id="element-833">
+    <exercise xml:id="element-833-2">
       <statement>
         <p>Twenty-five randomly selected students were asked the number of movies they watched the previous week. The results are as follows:</p>
         <table>
@@ -7164,7 +7164,7 @@ In addition, when the team's most famous quarterback, played football, he weighe
       <statement>
         <p>Refer to  to determine which of the following are true and which are false. Explain your solution to each part in complete sentences.</p>
         <figure xml:id="fs-idm70725344">
-          <image source="media/fig-ch02_13_05.jpg" width="550%"/>
+          <image source="media/fig-ch02_13_05.jpg" width="100%"/>
         </figure>
         <ol>
           <li><p>The medians for all three graphs are the same.</p></li>
