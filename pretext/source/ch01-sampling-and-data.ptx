@@ -3,58 +3,76 @@
   <title>Sampling and Data</title>
 
   <introduction>
-    <p>
-      This chapter introduces the basic concepts of statistics, including sampling techniques, 
-      data types, and data collection methods.
-    </p>
+    <figure xml:id="fig-ch01-00-01">
+      <caption>We encounter statistics in our daily lives more often than we probably realize and from many different sources, like the news. (David Sim)</caption>
+      <image source="media/CNX_Stats_C01_COs.jpg" width="80%">
+        <description>This photo shows a large open news room with enough space to seat about 200 employees.</description>
+      </image>
+    </figure>
+
+    <objectives>
+      <title>Chapter Objectives</title>
+      <p>By the end of this chapter, the student should be able to do the following:</p>
+      <ul>
+        <li>Recognize and differentiate between key terms</li>
+        <li>Apply various types of sampling methods to data collection</li>
+        <li>Create and interpret frequency tables</li>
+      </ul>
+    </objectives>
+
+    <p>You are probably asking yourself the question, <q>When and where will I use statistics?</q> If you read any newspaper, watch television, or use the Internet, you will see statistical information. There are statistics about crime, sports, education, politics, and real estate. Typically, when you read a newspaper article or watch a television news program, you are given sample information. With this information, you may make a decision about the correctness of a statement, claim, or <em>fact</em>. Statistical methods can help you make the <em>best educated guess</em>.</p>
+
+    <p>Since you will undoubtedly be given statistical information at some point in your life, you need to know some techniques for analyzing the information thoughtfully. Think about buying a house or managing a budget. Think about your chosen profession. The fields of economics, business, psychology, education, biology, law, computer science, police science, and early childhood development require at least one course in statistics.</p>
+
+    <p>Included in this chapter are the basic ideas and words of probability and statistics. You will soon understand that statistics and probability work together. You will also learn how data are gathered and what <em>good</em> data can be distinguished from <em>bad</em>.</p>
   </introduction>
 
   <section xml:id="sec-definitions-of-statistics">
     <title>Definitions of Statistics, Probability, and Key Terms</title>
     <p>
-      Content to be added from module m79592.
+      Content to be added from module m79593.
     </p>
   </section>
 
   <section xml:id="sec-data-sampling-variation">
     <title>Data, Sampling, and Variation in Data and Sampling</title>
     <p>
-      Content to be added from module m79593.
+      Content to be added from module m79594.
     </p>
   </section>
 
   <section xml:id="sec-frequency-frequency-tables">
     <title>Frequency, Frequency Tables, and Levels of Measurement</title>
     <p>
-      Content to be added from module m79594.
+      Content to be added from module m79595.
     </p>
   </section>
 
   <section xml:id="sec-sampling-experiment-design">
     <title>Sampling Experiment and Design</title>
     <p>
-      Content to be added from module m79595.
+      Content to be added from module m79596.
     </p>
   </section>
 
   <section xml:id="sec-data-collection-experiment">
     <title>Data Collection Experiment</title>
     <p>
-      Content to be added from module m79596.
+      Content to be added from module m79597.
     </p>
   </section>
 
   <section xml:id="sec-sampling-data-review">
     <title>Sampling and Data: Review</title>
     <p>
-      Content to be added from module m79597.
+      Content to be added from module m79598.
     </p>
   </section>
 
   <section xml:id="sec-sampling-data-practice">
     <title>Sampling and Data: Practice</title>
     <p>
-      Content to be added from module m79598.
+      Content to be added from module m79599.
     </p>
   </section>
 
