@@ -3,50 +3,1712 @@
   <title>The Normal Distribution</title>
 
   <introduction>
-    <p>
-      This chapter introduces the normal distribution, one of the most important probability 
-      distributions in statistics.
-    </p>
+    <figure xml:id="fs-idp3364000">
+      <caption>If you ask enough people about their shoe size, you will find that your graphed data is shaped like a bell curve and can be described as normally distributed. (credit: Ömer Ünlϋ)</caption>
+      <image source="media/CNX_Stats_C06_CON.jpg" width="80%"/>
+    </figure>
+
+    <objectives>
+      <title>Chapter Objectives</title>
+      <p>By the end of this chapter, the student should be able to do the following:</p>
+      <ul>
+        <li>Recognize the normal probability distribution and apply it appropriately</li>
+        <li>Recognize the standard normal probability distribution and apply it appropriately</li>
+        <li>Compare normal probabilities by converting to the standard normal distribution</li>
+      </ul>
+    </objectives>
+
+    <p>The normal, a continuous distribution, is the most important of all the distributions. It is widely used and even more widely abused. Its graph is bell-shaped. You see the bell curve in almost all disciplines, including psychology, business, economics, the sciences, nursing, and, of course, mathematics. Some of your instructors may use the <alert>normal distribution</alert> to help determine your grade. Most IQ scores are normally distributed. Often, real-estate prices fit a normal distribution. The normal distribution is extremely important, but it cannot be applied to everything in the real world.</p>
+
+    <p>In this chapter, you will study the normal distribution, the standard normal distribution, and applications associated with them.</p>
+
+    <p>The normal distribution has two parameters: the mean (<m>μ</m>) and the standard deviation (<m>σ</m>). If <m>X</m> is a quantity to be measured that has a normal distribution with mean (<m>μ</m>) and standard deviation (<m>σ</m>), we designate this by writing </p>
+
+    <p>The curve is symmetric about a vertical line drawn through the mean, <m>μ</m>. In theory, the mean is the same as the median, because the graph is symmetric about <m>μ</m>. With a normal distribution, the mean, median, and mode all lie at the same point. The normal distribution depends only on the mean and the standard deviation. The location of the mean simply indicates the location of the line of symmetry, in a normal distribution. Since the area under the curve must equal one, a change in the standard deviation, <m>σ</m>, causes a change in the shape of the curve; the curve becomes fatter or skinnier depending on <m>σ</m>. A change in <m>μ</m> causes the graph to shift to the left or right. The location of the mean simply indicates the location of the line of symmetry, in a normal distribution. This means there are an infinite number of normal probability distributions. One distribution of special interest is called the standard normal distribution.</p>
+
+    <p>Your instructor will record the heights of both men and women in your class, separately. Draw histograms of your data. Then draw a smooth curve through each histogram. Is each curve somewhat bell-shaped? Do you think that if you had recorded 200 data values for men and 200 for women that the curves would look bell-shaped? Calculate the mean for each data set. Write the means on the <m>x</m>-axis of the appropriate graph below the peak. Shade the approximate area that represents the probability that one randomly chosen male is taller than 72 inches. Shade the approximate area that represents the probability that one randomly chosen female is shorter than 60 inches. If the total area under each curve is one, does either probability appear to be more than 0.5?</p>
+
+    <p><m>X \sim N(\mu, \sigma)</m></p>
+
+    <p><m>μ</m> = the mean, <m>σ</m> = the standard deviation</p>
+
   </introduction>
 
   <section xml:id="sec-standard-normal-distribution">
     <title>The Standard Normal Distribution</title>
-    <p>
-      Content to be added from module m79640.
-    </p>
+
+
+    <subsection xml:id="fs-id1164562165107">
+      <p>The standardized normal distribution is a type of normal distribution, with a mean of 0 and standard deviation of 1. It represents a distribution of standardized scores, called <alert><m>z</m>-scores</alert>, as opposed to raw scores (the actual data values). A <m>z</m>-score indicates the number of standard deviation a score falls above or below the mean. <m>Z</m>-scores allow for comparison of scores, occurring in different data sets, with different means and standard deviations. It would not make sense to compare apples and oranges. Likewise, it does not make sense to compare scores from two different samples that have different means and standard deviations. <m>Z</m>-scores can be looked up in a <m>Z</m>-Table of Standard Normal Distribution, in order to find the area under the standard normal curve, between a score and the mean, between two scores, or above or below a score. The standard normal distribution allows us to interpret standardized scores and provides us with one table that we may use, in order to compute areas under the normal curve, for an infinite number of data sets, no matter what the mean or standard deviation.</p>
+      <p>A <m>z</m>-score is calculated as <m>z=\frac{x-\mu}{\sigma}</m>. The score itself can be found by using algebra and solving for <m>x</m>. Multiplying both sides of the equation by <m>σ</m> gives: <m>(z)(\sigma)=x-\mu</m>. Adding <m>μ</m> to both sides of the equation gives <m>\mu+(z)(\sigma)=x</m>.</p>
+      <p>Suppose we have a data set with a mean of 5 and standard deviation of 2. We want to determine the number of standard deviations the score of 11 falls above the mean. We can find this answer (or <m>z</m>-score) by writing</p>
+      <me>z=\frac{11-5}{2}=3</me>
+      <p>or</p>
+      <me>5+(z)(2)=11\text{,}</me>
+      <p>we can solve for <m>z</m>.</p>
+      <me>2z=6 \\ z=3</me>
+      <p>We have determined that the score of 11 falls 3 standard deviations above the mean of 5.</p>
+      <p>With a standard normal distribution, we indicate the distribution by writing <m>Z \sim N(0, 1)</m> which shows the normal distribution has a mean of 0 and standard deviation of 1. This notation simply indicates that a standard normal distribution is being used.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idp52480624">
+      <p>As described previously, if <m>X</m> is a normally distributed random variable and <m>X</m> ~ <m>N(μ, σ)</m>, then the <m>z</m>-score is</p>
+      <me>z=\frac{x-\mu}{\sigma}\text{.}</me>
+      <p>The <m>z</m>-score tells you how many standard deviations the value <m>x</m> is above, to the right of, or below, to the left of, the mean, <m>μ</m>. Values of <m>x</m> that are larger than the mean have positive <m>z</m>-scores, and values of <m>x</m> that are smaller than the mean have negative <m>z</m>-scores. If <m>x</m> equals the mean, then <m>x</m> has a <m>z</m>-score of zero.</p>
+      <p>When determining the <m>z</m>-score for an <m>x</m>-value, for a normal distribution, with a given mean and standard deviation, the notation above for a normal distribution, will be given.</p>
+      <example xml:id="element-49">
+        <statement>
+          <p>Suppose <m>X</m> ~ <m>N(5, 6)</m>. This equation says that <m>X</m> is a normally distributed random variable with mean <m>μ</m> = 5 and standard deviation <m>σ</m> = 6. Suppose <m>x</m> = 17. Then,</p>
+          <me>z=\frac{x-\mu}{\sigma}=\frac{17-5}{6}=2\text{.}</me>
+          <p>This means that <m>x</m> = 17 is two standard deviations (2<m>σ</m>) above, or to the right, of the mean <m>μ</m> = 5.</p>
+          <p>Notice that 5 + (2)(6) = 17. The pattern is <m>μ</m> + <m>zσ</m> = <m>x</m>.</p>
+          <p>Now suppose <m>x</m> = 1. Then, <m>z</m> = <m>\frac{x-\mu}{\sigma}</m> = <m>\frac{1-5}{6}</m> = –0.67, rounded to two decimal places.</p>
+          <p><em>This means that <m>x</m> = 1 is 0.67 standard deviations (–0.67<m>σ</m>) below or to the left of the mean <m>μ</m> = 5.</em> This <m>z</m>-score shows that <m>x</m> = 1 is less than 1 standard deviation below the mean of 5. Therefore, the score doesn't fall very far below the mean.</p>
+          <p>Summarizing, when <m>z</m> is positive, <m>x</m> is above or to the right of <m>μ</m>, and when <m>z</m> is negative, <m>x</m> is to the left of or below <m>μ</m>. Or, when <m>z</m> is positive, <m>x</m> is greater than <m>μ</m>, and when <m>z</m> is negative, <m>x</m> is less than <m>μ</m>. The absolute value of <m>z</m> indicates how far the score is from the mean, in either direction.</p>
+        </statement>
+      </example>
+      <exercise xml:id="fs-idp69782784">
+        <title>Try It</title>
+        <statement>
+          <p>What is the <m>z</m>-score of <m>x</m>, when <m>x</m> = 1 and <m>X \sim N(12, 3)</m>?</p>
+          <p><m>z=\frac{1-12}{3}\approx-3.67</m></p>
+        </statement>
+      </exercise>
+      <example xml:id="element-305">
+        <statement>
+          <p>a. Suppose a person <em>lost</em> 10 pounds in a month. The <m>z</m>-score when <m>x</m> = 10 pounds is <m>z</m> = 2.5 (verify). This <m>z</m>-score tells you that <m>x</m> = 10 is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</p>
+        </statement>
+        <solution>
+          <p>a. This <m>z</m>-score tells you that <m>x</m> = 10 is 2.5 standard deviations to the <em>right</em> of the mean <em>five</em>.&#160;&#160;</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp126867120">
+        <title>Try It</title>
+        <statement>
+          <p>Fill in the blanks.</p>
+          <p>Jerome averages 16 points a game with a standard deviation of four points. <m>X \sim N(16, 4)</m>. Suppose Jerome scores 10 points in a game. The <m>z</m>-score when <m>x</m> = 10 is –1.5. This score tells you that <m>x</m> = 10 is _____ standard deviations to the ______ (right or left) of the mean______ (What is the mean?).</p>
+          <p>1.5, left, 16</p>
+        </statement>
+      </exercise>
+      <p>The Empirical Rule If <m>X</m> is a random variable and has a normal distribution with mean <m>\mu</m> and standard deviation <m>σ</m>, then the <term>Empirical Rule</term> states the following:</p>
+      <ul>
+        <li>About 68 percent of the <m>x</m> values lie between –1<m>σ</m> and +1<m>σ</m> of the mean <m>\mu</m> (within one standard deviation of the mean).</li>
+        <li>About  95 percent of the <m>x</m> values lie between –2<m>σ</m> and +2<m>σ</m> of the mean <m>\mu</m> (within two standard deviations of the mean).</li>
+        <li>About 99.7 percent of the <m>x</m> values lie between –3<m>σ</m> and +3<m>σ</m> of the mean <m>\mu</m> (within three standard deviations of the mean). Notice that almost all the <m>x</m> values lie within three standard deviations of the mean.</li>
+        <li>The <m>z</m>-scores for +1<m>σ</m> and –1<m>σ</m> are +1 and –1, respectively.</li>
+        <li>The <m>z</m>-scores for +2<m>σ</m>  and –2<m>σ</m> are +2 and –2, respectively.</li>
+        <li>The <m>z</m>-scores for +3<m>σ</m>  and –3<m>σ</m> are +3 and –3, respectively.</li>
+      </ul>
+      <p>So, in other words, this is that about 68 percent of the values lie between <m>z</m>-scores of –1 and 1, about 95% of the values lie between <m>z</m>-scores of –2 and 2, and about 99.7 percent of the values lie between <m>z</m>-scores of -3 and 3. These facts can be checked, by looking up the mean to <m>z</m> area in a <m>z</m>-table for each positive <m>z</m>-score and multiplying by 2.</p>
+      <p>The empirical rule is also known as the <em>68–95–99.7 rule</em>.</p>
+      <figure xml:id="fs-id1164562267461">
+        <image source="media/OSX_HS_Statistics_Figure_06_01_02_01.jpg" width="60%"/>
+      </figure>
+      <example xml:id="eip-736">
+        <statement>
+          <p>a. Suppose a 15-to 18-year-old male from Chile was 168 cm tall in 20092010. The <m>z</m>-score when <m>x</m> = 168 cm is <m>z</m> = _______. This <m>z</m>-score tells you that <m>x</m> = 168 is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</p>
+        </statement>
+        <solution>
+          <p>a. –0.32, 0.32, left, 170&#160;&#160;</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp103857616">
+        <title>Try It</title>
+        <statement>
+          <p>Use the information in  to answer the following questions:</p>
+          <p>Solve the equation <m>z</m> = <m>\frac{x-\mu}{\sigma}</m> for <m>x</m>. <m>x</m> = <m>μ</m> + (<m>z</m>)(<m>σ</m>)</p>
+          <ol>
+            <li>Suppose a 15-to 18-year-old male from Chile was 176 cm tall from 20092010. The <m>z</m>-score when <m>x</m> = 176 cm is <m>z</m> = _______. This <m>z</m>-score tells you that <m>x</m> = 176 cm is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</li>
+            <li>Suppose that the height of a 15-to 18-year-old male from Chile in 20092010 has a <m>z</m>-score of <m>z</m> = –2. What is the male’s height? The <m>z</m>-score (<m>z</m> = –2) tells you that the male’s height is ________ standard deviations to the __________ (right or left) of the mean.</li>
+          </ol>
+          <ol>
+            <li><m>z</m> = <m>\frac{176-170}{6.28}</m> ≈ 0.96, This <m>z</m>-score tells you that <m>x</m> = 176 cm is 0.96 standard deviations to the right of the mean 170 cm.</li>
+            <li><m>X</m> = 157.44 cm, The  <m>z</m>-score(<m>z</m> = –2) tells you that the male’s height is two standard deviations to the left of the mean.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <example xml:id="eip-953">
+        <statement>
+          <p>From 1984 to 1985, the mean height of 15-to 18-year-old males from Chile was 172.36 cm, and the standard deviation was 6.34 cm. Let <m>Y</m> = the height of 15-to 18-year-old males from 19841985, and <m>y</m> = the height of one male from this group. Then <m>Y \sim N(172.36, 6.34)</m>.</p>
+          <p>The mean height of 15-to 18-year-old males from Chile in 20092010 was 170 cm with a standard deviation of 6.28 cm. Male heights are known to follow a normal distribution. Let <m>X</m> = the height of a 15-to 18-year-old male from Chile in 20092010,  and <m>x</m> = the height of one male from this group. Then <m>X \sim N(170, 6.28)</m>.</p>
+          <p>Find the <m>z</m>-scores for <m>x</m> = 160.58 cm and <m>y</m> = 162.85 cm. Interpret each <m>z</m>-score. What can you say about <m>x</m> = 160.58 cm and <m>y</m> = 162.85 cm as they compare to their respective means and standard deviations?</p>
+        </statement>
+        <solution>
+          <p>The <m>z</m>-score for <m>x</m> = 160.58 cm is <m>z</m> = –1.5.
+&#160;The <m>z</m>-score for <m>y</m> = 162.85 cm is <m>z</m> = –1.5.
+&#160;Both <m>x</m> = 160.58 and <m>y</m> = 162.85 deviate the same number of standard deviations from their respective means and in the same direction.</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp90060128">
+        <title>Try It</title>
+        <statement>
+          <p>In 2012, 1,664,479 students took the SAT exam. The distribution of scores in the verbal section of the SAT had a mean <m>\mu</m> = 496 and a standard deviation <m>σ</m> = 114. Let <m>X</m> = a SAT exam verbal section score in 2012. Then, <m>X \sim N(496, 114)</m>.</p>
+          <p>Find the <m>z</m>-scores for <m>x_{1}</m> = 325 and <m>x_{2}</m> = 366.21. Interpret each <m>z</m>-score. What can you say about <m>x_{1}</m> = 325 and <m>x_{2}</m> = 366.21, as they compare to their respective means and standard deviations?</p>
+          <p>The <m>z</m>-score for <m>x_{1}</m> = 325 is <m>z_{1}</m> = –1.14.</p>
+          <p>The <m>z</m>-score for <m>x_{2}</m> = 366.21 is <m>z_{2}</m> = –1.14.</p>
+          <p>Student 2 scored closer to the mean than Student 1 and, since they both had negative <m>z</m>-scores, Student 2 had the better score.</p>
+        </statement>
+      </exercise>
+      <example xml:id="eip-980">
+        <statement>
+          <p>Suppose <m>x</m> has a normal distribution with mean 50 and standard deviation 6.</p>
+          <ul>
+            <li>About 68 percent of the <m>x</m> values lie within one standard deviation of the mean. Therefore, about 68 percent of the <m>x</m> values lie between –1<m>σ</m> = (–1)(6) = –6 and 1<m>σ</m> = (1)(6) = 6 of the mean 50. The values 50 – 6 = 44 and 50 + 6 = 56 are within one standard deviation from the mean 50. The <m>z</m>-scores are –1 and +1 for 44 and 56, respectively.</li>
+            <li>About 95 percent of the <m>x</m> values lie within two standard deviations of the mean. Therefore, about 95 percent of the <m>x</m> values lie between –2<m>σ</m> = (–2)(6) = –12 and 2<m>σ</m> = (2)(6) = 12. The values 50 – 12 = 38 and 50 + 12 = 62 are within two standard deviations from the mean 50. The <m>z</m>-scores are –2 and +2 for 38 and 62, respectively.</li>
+            <li>About 99.7 percent of the <m>x</m> values lie within three standard deviations of the mean. Therefore, about 95 percent of the <m>x</m> values lie between –3<m>σ</m> = (–3)(6) = –18 and 3<m>σ</m> = (3)(6) = 18 of the mean 50. The values 50 – 18 = 32 and 50 + 18 = 68 are within three standard deviations from the mean 50. The <m>z</m>-scores are –3 and +3 for 32 and 68, respectively.</li>
+          </ul>
+        </statement>
+      </example>
+      <exercise xml:id="fs-idp63750176">
+        <title>Try It</title>
+        <statement>
+          <p>Suppose <m>X</m> has a normal distribution with mean 25 and standard deviation five. Between what values of <m>x</m> do 68 percent of the values lie?</p>
+          <p>between 20 and 30.</p>
+        </statement>
+      </exercise>
+      <example xml:id="eip-265">
+        <statement>
+          <p>From 19841985, the mean height of 15-to 18-year-old males from Chile was 172.36 cm, and the standard deviation was 6.34 cm. Let <m>Y</m> = the height of 15-to 18-year-old males in 19841985. Then <m>Y \sim N(172.36, 6.34)</m>.</p>
+          <p>About 68 percent of the <m>y</m> values lie between what two values? These values are ________________. The <m>z</m>-scores are ________________, respectively.
+About 95 percent of the <m>y</m> values lie between what two values? These values are ________________. The <m>z</m>-scores are ________________ respectively.
+About 99.7 percent of the <m>y</m> values lie between what two values? These values are ________________. The <m>z</m>-scores are ________________, respectively.</p>
+          <ol>
+            <li>About 68 percent of the <m>y</m> values lie between what two values? These values are ________________. The <m>z</m>-scores are ________________, respectively.</li>
+            <li>About 95 percent of the <m>y</m> values lie between what two values? These values are ________________. The <m>z</m>-scores are ________________ respectively.</li>
+            <li>About 99.7 percent of the <m>y</m> values lie between what two values? These values are ________________. The <m>z</m>-scores are ________________, respectively.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>About 68 percent of the values lie between 166.02 cm and 178.7 cm. The <m>z</m>-scores are –1 and 1.</li>
+            <li>About 95 percent of the values lie between 159.68 cm and 185.04 cm. The <m>z</m>-scores are –2 and 2.</li>
+            <li>About 99.7 percent of the values lie between 153.34 cm and 191.38 cm. The <m>z</m>-scores are –3 and 3.</li>
+          </ol>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp139717168">
+        <title>Try It</title>
+        <statement>
+          <p>The scores on a college entrance exam have an approximate normal distribution with mean, <m>\mu</m> = 52 points and a standard deviation, <m>σ</m> = 11 points.</p>
+          <ol>
+            <li>About 68 percent of the <m>y</m> values lie between what two values? These values are ________________. The <m>z</m>-scores are ________________, respectively.</li>
+            <li>About 95 percent of the <m>y</m> values lie between what two values? These values are ________________. The <m>z</m>-scores are ________________, respectively.</li>
+            <li>About 99.7 percent of the <m>y</m> values lie between what two values? These values are ________________. The <m>z</m>-scores are ________________, respectively.</li>
+          </ol>
+          <ol>
+            <li>About 68% of the values lie between the values 41 and 63. The <m>z</m>-scores are –1 and 1, respectively.</li>
+            <li>About 95% of the values lie between the values 30 and 74. The <m>z</m>-scores are –2 and 2, respectively.</li>
+            <li>About 99.7% of the values lie between the values 19 and 85. The <m>z</m>-scores are –3 and 3, respectively.</li>
+          </ol>
+        </statement>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm49020816">
+      <title>References</title>
+      <p>CollegeBoard. (2012). 2012 <em>College-bound seniors: Total group profile report</em>. Retrieved from http://media.collegeboard.com/digitalServices/pdf/research/TotalGroup-2012.pdf</p>
+      <p>Joyce, C. A., Janssen, S., &amp; Liu, M. L. (2010). <em>The world almanac and book of facts, 2010</em>. New York, NY: World Almanac Books.</p>
+      <p>London School of Hygiene and Tropical Medicine. (2009). Calculation of z-scores. Retrieved from http://conflict.lshtm.ac.uk/page_125.htm</p>
+      <p>National Center for Education Statistics. (2009). <em>ACT score averages and standard deviations, by sex and race/ethnicity, and percentage of ACT test takers, by selected composite score ranges and planned fields of study: Selected years, 1995 through 2009</em>. Retrieved from http://nces.ed.gov/programs/digest/d09/tables/dt09_147.asp</p>
+      <p>NBA.com. (2013). NBA Media Ventures. Retrieved from http://www.nba.com</p>
+      <p>StatCrunch. (2010). <em>Blood pressure of males and females</em>. Retrieved from http://www.statcrunch.com/5.0/viewreport.php?reportid=11960</p>
+      <p><em>The Mercury News</em>. (n.d.). Retrieved from http://www.mercurynews.com/</p>
+      <p>Wikipedia. (2013). List of stadiums by capacity - Wikipedia. Retrieved from https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity</p>
+    </subsection>
+
+    <subsection xml:id="fs-idp33285824">
+      <title>Chapter Review</title>
+      <p>A <m>z</m>-score is a standardized value. Its distribution is the standard normal, <m>Z \sim N(0, 1)</m>. The mean of the <m>z</m>-scores is zero and the standard deviation is one. If <m>z</m> is the <m>z</m>-score for a value <m>x</m> from the normal distribution <m>N</m>(<m>\mu</m>, <m>σ</m>), then <m>z</m> tells you how many standard deviations <m>x</m> is abovegreater thanor belowless than<m>\mu</m>.</p>
+    </subsection>
+
+    <subsection xml:id="eip-676">
+      <title>Formula Review</title>
+      <p><m>Z \sim N(0, 1)</m></p>
+      <p><m>z</m> = a standardized value (<m>z</m>-score)</p>
+      <p>mean = 0, standard deviation = 1</p>
+      <p>To find the <m>k</m>^{th} percentile of <m>X</m> when the <m>z</m>-score is known,&#160;<m>k</m> = <m>μ</m> + (<m>z</m>)<m>σ</m></p>
+      <p><m>z</m>-score: <m>z</m> = <m>\frac{x\text{–}\mu}{\sigma}</m></p>
+      <p><m>Z</m> = the random variable for <m>z</m>-scores</p>
+    </subsection>
+
+    <subsection xml:id="fs-idm124208336">
+      <exercise xml:id="fs-idp27962224">
+        <statement>
+          <p>A bottle of water contains 12.05 fluid ounces with a standard deviation of 0.01 ounces. Define the random variable <m>X</m> in words. <m>X</m> = ____________.</p>
+        </statement>
+        <solution>
+          <p>ounces of water in a bottle</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm114970736">
+        <statement>
+          <p>A normal distribution has a mean of 61 and a standard deviation of 15. What is the median?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm121963344">
+        <statement>
+          <p><m>X \sim N(1, 2)</m></p>
+          <p><m>σ</m> = _______</p>
+        </statement>
+        <solution>
+          <p>2</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm142191456">
+        <statement>
+          <p>A company manufactures rubber balls. The mean diameter of a ball is 12 cm with a standard deviation of 0.2 cm. Define the random variable <m>X</m> in words. <m>X</m> = ______________.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm97876640">
+        <statement>
+          <p><m>X \sim N(–4, 1)</m></p>
+          <p>What is the median?</p>
+        </statement>
+        <solution>
+          <p>–4</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm102541136">
+        <statement>
+          <p><m>X \sim N(3, 5)</m></p>
+          <p><m>σ</m> = _______</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm19058720">
+        <statement>
+          <p><m>X \sim N(–2, 1)</m></p>
+          <p><m>μ</m> = _______</p>
+        </statement>
+        <solution>
+          <p>–2</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm122119648">
+        <statement>
+          <p>What does a <m>z</m>-score measure?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm63043376">
+        <statement>
+          <p>What does standardizing a normal distribution do to the mean?</p>
+        </statement>
+        <solution>
+          <p>The mean becomes zero.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm126130944">
+        <statement>
+          <p>Is <m>X \sim N(0, 1)</m> a standardized normal distribution? Why or why not?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm26153296">
+        <statement>
+          <p>What is the <m>z</m>-score of <m>x</m> = 12, if it is two standard deviations to the right of the mean?</p>
+        </statement>
+        <solution>
+          <p><m>z</m> = 2</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm114925552">
+        <statement>
+          <p>What is the <m>z</m>-score of <m>x</m> = 9, if it is 1.5 standard deviations to the left of the mean?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm64977712">
+        <statement>
+          <p>What is the <m>z</m>-score of <m>x</m> = –2, if it is 2.78 standard deviations to the right of the mean?</p>
+        </statement>
+        <solution>
+          <p><m>z</m> = 2.78</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm140331968">
+        <statement>
+          <p>What is the <m>z</m>-score of <m>x</m> = 7, if it is 0.133 standard deviations to the left of the mean?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm61157328">
+        <statement>
+          <p>Suppose <m>X \sim N(2, 6)</m>. What value of <m>x</m> has a <m>z</m>-score of three?</p>
+        </statement>
+        <solution>
+          <p><m>x</m> = 20</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm18781776">
+        <statement>
+          <p>Suppose <m>X \sim N(8, 1)</m>. What value of <m>x</m> has a <m>z</m>-score of –2.25?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp23562800">
+        <statement>
+          <p>Suppose <m>X \sim N(9, 5)</m>. What value of <m>x</m> has a <m>z</m>-score of –0.5?</p>
+        </statement>
+        <solution>
+          <p><m>x</m> = 6.5</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm69709296">
+        <statement>
+          <p>Suppose <m>X \sim N(2, 3)</m>. What value of <m>x</m> has a <m>z</m>-score of –0.67?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm137634928">
+        <statement>
+          <p>Suppose <m>X \sim N(4, 2)</m>. What value of <m>x</m> is 1.5 standard deviations to the left of the mean?</p>
+        </statement>
+        <solution>
+          <p><m>x</m> = 1</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm63053168">
+        <statement>
+          <p>Suppose <m>X \sim N(4, 2)</m>. What value of <m>x</m> is two standard deviations to the right of the mean?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm62507744">
+        <statement>
+          <p>Suppose <m>X \sim N(8, 9)</m>. What value of <m>x</m> is 0.67 standard deviations to the left of the mean?</p>
+        </statement>
+        <solution>
+          <p><m>x</m> = 1.97</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm78772448">
+        <statement>
+          <p>Suppose <m>X \sim N(–1, 2)</m>. What is the <m>z</m>-score of <m>x</m> = 2?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp21093808">
+        <statement>
+          <p>Suppose <m>X \sim N(12, 6)</m>. What is the <m>z</m>-score of <m>x</m> = 2?</p>
+        </statement>
+        <solution>
+          <p><m>z</m> = –1.67</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp10811840">
+        <statement>
+          <p>Suppose <m>X \sim N(9, 3)</m>. What is the <m>z</m>-score of <m>x</m> = 9?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm74086800">
+        <statement>
+          <p>Suppose a normal distribution has a mean of six and a standard deviation of 1.5. What is the <m>z</m>-score of <m>x</m> = 5.5?</p>
+        </statement>
+        <solution>
+          <p><m>z</m> ≈ –0.33</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm61163760">
+        <statement>
+          <p>In a normal distribution, <m>x</m> = 5 and <m>z</m> = –1.25. This tells you that <m>x</m> = 5 is ____ standard deviations to the ____ (right or left) of the mean.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp37768720">
+        <statement>
+          <p>In a normal distribution, <m>x</m> = 3 and <m>z</m> = 0.67. This tells you that <m>x</m> = 3 is ____ standard deviations to the ____ (right or left) of the mean.</p>
+        </statement>
+        <solution>
+          <p>0.67, right</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm38070992">
+        <statement>
+          <p>In a normal distribution, <m>x</m> = –2 and <m>z</m> = 6. This tells you that <m>x</m> = –2 is ____ standard deviations to the ____ (right or left) of the mean.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm122820544">
+        <statement>
+          <p>In a normal distribution, <m>x</m> = –5 and <m>z</m> = –3.14. This tells you that <m>x</m> = –5 is ____ standard deviations to the ____ (right or left) of the mean.</p>
+        </statement>
+        <solution>
+          <p>3.14, left</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm49315712">
+        <statement>
+          <p>In a normal distribution, <m>x</m> = 6 and <m>z</m> = –1.7. This tells you that <m>x</m> = 6 is ____ standard deviations to the ____ (right or left) of the mean.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm144883616">
+        <statement>
+          <p>About what percent of <m>x</m> values from a normal distribution lie within one standard deviation, left and right, of the mean of that distribution?</p>
+        </statement>
+        <solution>
+          <p>about 68 percent</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm80518368">
+        <statement>
+          <p>About what percent of the <m>x</m> values from a normal distribution lie within two standard deviations, left and right, of the mean of that distribution?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm85847520">
+        <statement>
+          <p>About what percent of <m>x</m> values lie between the second and third standard deviations, both sides?</p>
+        </statement>
+        <solution>
+          <p>about 4 percent</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm24842144">
+        <statement>
+          <p>Suppose <m>X \sim N(15, 3)</m>. Between what <m>x</m> values does 68.27 percent of the data lie? The range of <m>x</m> values is centered at the mean of the distribution (i.e., 15).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm53172656">
+        <statement>
+          <p>Suppose <m>X \sim N(–3, 1)</m>. Between what <m>x</m> values does 95.45 percent of the data lie? The range of <m>x</m> values is centered at the mean of the distribution (i.e., –3).</p>
+        </statement>
+        <solution>
+          <p>between –5 and –1</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm113806912">
+        <statement>
+          <p>Suppose <m>X \sim N(–3, 1)</m>. Between what <m>x</m> values does 34.14 percent of the data lie?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp81343328">
+        <statement>
+          <p>About  what percent of <m>x</m> values lie between the mean and three standard deviations?</p>
+        </statement>
+        <solution>
+          <p>about 50 percent</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp84402208">
+        <statement>
+          <p>About what percent of <m>x</m> values lie between the mean and one standard deviation?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp76784880">
+        <statement>
+          <p>About what percent of <m>x</m> values lie between the first and second standard deviations from the mean, both sides?</p>
+        </statement>
+        <solution>
+          <p>about 27 percent</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp72804864">
+        <statement>
+          <p>About what percent of <m>x</m> values lie between the first and third standard deviations, both sides?</p>
+        </statement>
+      </exercise>
+      <p><em>Use the following information to answer the next two exercises:</em> The life of Sunshine CD players is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A CD player is guaranteed for three years. We are interested in the length of time a CD player lasts.</p>
+      <exercise xml:id="fs-idm143086848">
+        <statement>
+          <p>Define the random variable <m>X</m> in words. <m>X</m> = _______________.</p>
+        </statement>
+        <solution>
+          <p>The lifetime of a Sunshine CD player measured in years</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm119601152">
+        <statement>
+          <p><m>X</m> ~ _____(_____, _____)</p>
+        </statement>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm58670224">
+      <title>Homework</title>
+      <p><em>Use the following information to answer the next two exercises:</em> The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.</p>
+      <exercise xml:id="fs-idp12375792">
+        <statement>
+          <p>What is the median recovery time?</p>
+          <ol>
+            <li>2.7</li>
+            <li>5.3</li>
+            <li>7.4</li>
+            <li>2.1</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp45221936">
+        <statement>
+          <p>What is the <m>z</m>-score for a patient who takes 10 days to recover?</p>
+          <ol>
+            <li>1.5</li>
+            <li>0.2</li>
+            <li>2.2</li>
+            <li>7.3</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>c</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm62385744">
+        <statement>
+          <p>The length of time it takes to find a parking space at 9 a.m. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes. If the mean is significantly greater than the standard deviation, which of the following statements is true?</p>
+          <ol>
+            <li>The data cannot follow the uniform distribution.</li>
+            <li>The data cannot follow the exponential distribution.</li>
+            <li>The data cannot follow the normal distribution.</li>
+          </ol>
+          <ol>
+            <li>I only</li>
+            <li>II only</li>
+            <li>III only</li>
+            <li>I, II, and III</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-866">
+        <statement>
+          <p>The heights of the 430 basketball players were listed on team rosters at the start of the 2005–2006 season. The heights of basketball players have an approximate normal distribution with a mean, <m>\mu</m> = 79 inches, and a standard deviation, <m>σ</m> = 3.89 inches. For each of the following heights, calculate the <m>z</m>-score and interpret it using complete sentences:</p>
+          <ol>
+            <li>77 inches</li>
+            <li>85 inches</li>
+            <li>If a player reported his height had a <m>z</m>-score of 3.5, would you believe him? Explain your answer.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>Use the <m>z</m>-score formula. <m>z</m> = –0.5141. The height of 77 inches is 0.5141 standard deviations below the mean. An NBA player whose height is 77 inches is shorter than average.</li>
+            <li>Use the <m>z</m>-score formula. <m>z</m> = 1.5424. The height 85 inches is 1.5424 standard deviations above the mean. An NBA player whose height is 85 inches is taller than average.</li>
+            <li>Height = 79 + 3.5(3.89) = 90.67 inches, which is over 7.7 feet tall. There are very few NBA players this tall; so, the answer is no, not likely.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-474">
+        <statement>
+          <p>The systolic blood pressure, given in millimeters, of males has an approximately normal distribution with mean <m>\mu</m> = 125 and standard deviation <m>σ</m> = 14. Systolic blood pressure for males follows a normal distribution.</p>
+          <ol>
+            <li>Calculate the <m>z</m>-scores for the male systolic blood pressures 100 and 150 millimeters.</li>
+            <li>If a male friend of yours said he thought his systolic blood pressure was 2.5 standard deviations below the mean, and that he believed his blood pressure was between 100 and 150 millimeters, what would you say to him?</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-808">
+        <statement>
+          <p>Kyle’s doctor told him that the <m>z</m>-score for his systolic blood pressure is 1.75. Which of the following is the best interpretation of this standardized score? The systolic blood pressure, given in millimeters, of males has an approximately normal distribution with mean <m>\mu</m> = 125 and standard deviation <m>σ</m> = 14. If <m>X</m> = a systolic blood pressure score, then  <m>X \sim N</m> (125, 14).</p>
+          <ol>
+            <li>Which answer(s) is/are correct?
+
+Kyle’s systolic blood pressure is 175.
+Kyle’s systolic blood pressure is 1.75 times the average blood pressure of men his age.
+Kyle’s systolic blood pressure is 1.75 above the average systolic blood pressure of men his age.
+Kyles’s systolic blood pressure is 1.75 standard deviations above the average systolic blood pressure for men.</li>
+            <li>Kyle’s systolic blood pressure is 175.</li>
+            <li>Kyle’s systolic blood pressure is 1.75 times the average blood pressure of men his age.</li>
+            <li>Kyle’s systolic blood pressure is 1.75 above the average systolic blood pressure of men his age.</li>
+            <li>Kyles’s systolic blood pressure is 1.75 standard deviations above the average systolic blood pressure for men.</li>
+            <li>Calculate Kyle’s blood pressure.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>iv</li>
+            <li>Kyle’s blood pressure is equal to 125 + (1.75)(14) = 149.5.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-459">
+        <statement>
+          <p>Height and weight are two measurements used to track a child’s development. The World Health Organization measures child development by comparing the weights of children who are the same height and same gender. In 2009, weights for all 80 cm girls in the reference population had a mean <m>\mu</m> = 10.2 kg and standard deviation <m>σ</m> = 0.8 kg. Weights are normally distributed. <m>X \sim N(10.2, 0.8)</m>. Calculate the <m>z</m>-scores that correspond to the following weights and interpret them:
+
+11 kg
+7.9 kg
+12.2 kg</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-802">
+        <statement>
+          <p>In 2005, 1,475,623 students heading to college took the SAT exam. The distribution of scores in the math section of the SAT follows a normal distribution with mean <m>\mu</m> = 520 and standard deviation <m>σ</m> = 115.</p>
+          <ol>
+            <li>Calculate the <m>z</m>-score for an SAT score of 720. Interpret it using a complete sentence.</li>
+            <li>What math SAT score is 1.5 standard deviations above the mean? What can you say about this SAT score?</li>
+            <li>For 2012, the SAT math test had a mean of 514 and standard deviation 117. The ACT math test is an alternative to the SAT math test, and is approximately normally distributed with mean 21 and standard deviation 5.3. If one person took the SAT math test and scored 700 and a second person took the ACT math test and scored 30, who did better with respect to the test that each person took?</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>Let <m>X</m> = an SAT math score and <m>Y</m> = an ACT math score.</p>
+          <ol>
+            <li><m>X</m> = 720 <m>\frac{\text{720 – 520}}{\text{15}}</m> = 1.74 The exam score of 720 is 1.74 standard deviations above the mean of 520.</li>
+            <li><m>z</m> = 1.5 &#160;The math SAT score is 520 + 1.5(115) ≈ 692.5. The exam score of 692.5 is 1.5 standard deviations above the mean of 520.</li>
+            <li><m>\frac{X\text{–}\mu}{\sigma}</m> = <m>\frac{\text{700 – 514}}{\text{117}}</m> ≈ 1.59, the <m>z</m>-score for the SAT. <m>\frac{Y\text{–}\mu}{\sigma}</m> = <m>\frac{30\text{–}21}{5.3}</m> ≈ 1.70, the <m>z</m>-scores for the ACT. With respect to the test they took, the person who took the ACT did betterhas the higher <m>z</m>-score).</li>
+          </ol>
+        </solution>
+      </exercise>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-using-normal-distribution">
     <title>Using the Normal Distribution</title>
-    <p>
-      Content to be added from module m79641.
-    </p>
+
+
+    <subsection xml:id="fs-id1164566284231">
+      <p>The shaded area in the following graph indicates the area to the left of <m>x</m>. This area could represent the percentage of students scoring less than a particular grade on a final exam. This area is represented by the probability <m>P</m>(<m>X</m> &lt; <m>x</m>). Normal tables, computers, and calculators are used to provide or calculate the probability <m>P</m>(<m>X</m> &lt; <m>x</m>).</p>
+      <figure xml:id="fs-idm109348848">
+        <image source="media/fig-ch06_04_01.jpg" width="84%"/>
+      </figure>
+      <p>The area to the right is then <m>P</m>(<m>X</m> &gt; <m>x</m>) = 1 – <m>P</m>(<m>X</m> &lt; <m>x</m>). Remember, <m>P</m>(<m>X</m> &lt; <m>x</m>) = <em>Area to the left</em> of the vertical line through <m>x</m>. <m>P</m>(<m>X</m> &lt; <m>x</m>) = 1 – <m>P</m>(<m>X</m> &lt; <m>x</m>) = <em>Area to the right</em> of the vertical line through <m>x</m>. <m>P</m>(<m>X</m> &lt; <m>x</m>) is the same as <m>P</m>(<m>X</m> ≤ <m>x</m>) and <m>P</m>(<m>X</m> &gt; <m>x</m>) is the same as <m>P</m>(<m>X</m> ≥ <m>x</m>) for continuous distributions.</p>
+      <p>Suppose the graph above were to represent the percentage of students scoring less than 75 on a final exam, with this probability equal to 0.39. This would also indicate that the percentage of students scoring higher than 75 was equal to 1 minus 0.39 or 0.61.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idm123993536">
+      <title>Calculations of Probabilities</title>
+      <p>Probabilities are calculated using technology. There are instructions given as necessary for the TI-83+ and TI-84 calculators.</p>
+      <note xml:id="id1168986691838">
+        <title>NOTE</title>
+        <p>To calculate the probability, use the probability tables provided in <url href="m79718"></url> without the use of technology. The tables include instructions for how to use them.</p>
+        <p>The probability is represented by the area under the normal curve. To find the probability, calculate the <m>z</m>-score and look up the <m>z</m>-score in the z-table under the <m>z</m>-column. Most <m>z</m>-tables show the area under the normal curve to the left of <m>z</m>. Others show the mean to <m>z</m> area. The method used will be indicated on the table.</p>
+        <p>We will discuss the <m>z</m>-table that represents the area under the normal curve to the left of <m>z</m>. Once you have located the <m>z</m>-score, locate the corresponding area. This will be the area under the normal curve, to the left of the <m>z</m>-score. This area can be used to find the area to the right of the <m>z</m>-score, or by subtracting from 1 or the total area under the normal curve. These areas can also be used to determine the area between two <m>z</m>-scores.</p>
+      </note>
+      <example xml:id="element-375">
+        <statement>
+          <p>If the area to the left is 0.0228, then the area to the right is 1 – 0.0228 = 0.9772.</p>
+        </statement>
+      </example>
+      <exercise xml:id="fs-idm96786656">
+        <title>Try It</title>
+        <statement>
+          <p>If the area to the left of <m>x</m> is 0.012, then what is the area to the right?</p>
+          <p>1 − 0.012 = 0.988</p>
+        </statement>
+      </exercise>
+      <example xml:id="element-961">
+        <title>Historical Note</title>
+        <statement>
+          <p>a. Find the probability that a randomly selected student scored more than 65 on the exam.</p>
+        </statement>
+        <solution>
+          <p>a. Let <m>X</m> = a score on the final exam. <m>X \sim N(63, 5)</m>, where <m>μ</m> = 63 and <m>σ</m> = 5.</p>
+          <p>Draw a graph.</p>
+          <p>Calculate the <m>z</m>-score:</p>
+          <p>The <m>z</m>-table shows that the area to the left of <m>z</m> is 0.6554. Subtracting this area from 1 gives 0.3446.</p>
+          <p>Then, find <m>P</m>(<m>x</m> &gt; 65).</p>
+          <p>The probability that any student selected at random scores more than 65 is 0.3446.</p>
+          <p>Go into <c>2nd DISTR</c>.
+&#160;After pressing <c>2nd DISTR</c>, press <c>2:normalcdf</c>.</p>
+          <p>The syntax for the instructions is as follows:</p>
+          <p>normalcdf(lower value, upper value, mean, standard deviation)
+For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by pressing <c>1</c>, the <c>EE</c> keya 2nd keyand then <c>99</c>. Or, you can enter <c>10^99</c> instead. The number 10^{99} is way out in the right tail of the normal curve. We are calculating the area between 65 and 10^{99}. In some instances, the lower number of the area might be –1E99 (= –10^{99}). The number –10^{99} is way out in the left tail of the normal curve. We chose the exponent of 99 because this produces such a large number that we can reasonably expect all of the values under the curve to fall below it. This is an arbitrary value and one that works well, for our purpose.</p>
+          <p>The TI probability program calculates a <m>z</m>-score and then the probability from the <m>z</m>-score. Before technology, the <m>z</m>-score was looked up in a standard normal probability table, also known as a Z-tablethe math involved to find probability is cumbersome. In this example, a standard normal table with area to the left of the <m>z</m>-score was used. You calculate the <m>z</m>-score and look up the area to the left. The probability is the area to the right.</p>
+          <me>z=\frac{x-\mu}{\sigma}=\frac{65-63}{5}=\frac{2}{5}=.40</me>
+          <me>P\text{(}x\text{> 65) = 0}\text{.3446}</me>
+          <figure xml:id="fs-idm5159232">
+            <image source="media/fig-ch06_05_01.jpg" width="76%"/>
+          </figure>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm83435856">
+        <title>Try It</title>
+        <statement>
+          <p>The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three.</p>
+          <p>Find the probability that a randomly selected golfer scored less than 65.</p>
+          <p>normalcdf(10^{99},65,68,3) = 0.1587</p>
+        </statement>
+      </exercise>
+      <example xml:id="element-32">
+        <statement>
+          <p>a. Find the probability that a household personal computer is used for entertainment between 1.8 and 2.75 hours per day.</p>
+        </statement>
+        <solution>
+          <p>a. Let <m>X</m> = the amount of time, in hours, a household personal computer is used for entertainment. <m>X \sim N(2, 0.5)</m> where <m>μ</m> = 2 and <m>σ</m> = 0.5.</p>
+          <p>Find <m>P</m>(1.8 &lt; <m>x</m> &lt; 2.75).</p>
+          <p>First, calculate the <m>z</m>-scores for each <m>x</m>-value.</p>
+          <p><m>z=\frac{1.8-2}{0.5}=\frac{-0.2}{0.5}=-0.40 \\ z=\frac{2.75-2}{0.5}=\frac{0.75}{0.5}=1.5</m></p>
+          <p>Now, use the <m>Z</m>-table to locate the area under the normal curve to the left of each of these <m>z</m>-scores.</p>
+          <p>The area to the left of the <m>z</m>-score of −0.40 is 0.3446. The area to the left of the <m>z</m>-score of 1.5 is 0.9332. The area between these scores will be the difference in the two areas, or <m>0.9332-0.3446</m>, which equals 0.5886.</p>
+          <p>normalcdf(1.8,2.75,2,0.5) = 0.5886</p>
+          <p>The probability that a household personal computer is used between 1.8 and 2.75 hours per day for entertainment is 0.5886.&#160;&#160;</p>
+          <figure xml:id="fs-idm13004032">
+            <image source="media/fig-ch06_05_03.jpg" width="90%"/>
+          </figure>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm101393328">
+        <title>Try It</title>
+        <statement>
+          <p>The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three. Find the probability that a golfer scored between 66 and 70.</p>
+          <p>normalcdf(66,70,68,3) = 0.4950</p>
+        </statement>
+      </exercise>
+      <example xml:id="eip-562">
+        <statement>
+          <p>a. Determine the probability that a random smartphone user in the age range 13 to 55+ is between 23 and 64.7 years old.</p>
+        </statement>
+        <solution>
+          <p>a. normalcdf(23,64.7,36.9,13.9) = 0.8186</p>
+          <p>The <m>z</m>-scores are calculated as</p>
+          <p><m>z=\frac{23-36.9}{13.9}=\frac{-13.9}{13.9}=-1 \\ z=\frac{64.7-36.9}{13.9}=\frac{27.8}{13.9}=2</m></p>
+          <p>The <m>Z</m>-table shows the area to the left of a z-score with an absolute value of 1 to be 0.1587. It shows the area to the left of a <m>z</m>-score of 2 to be 0.9772. The difference in the two areas is 0.8185.</p>
+          <p>This is slightly different than the area given by the calculator, due to rounding.</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm126739248">
+        <title>Try It</title>
+        <statement>
+          <p>Use the information in  to answer the following questions:</p>
+          <p>Let <m>X</m> = a smart phone user whose age is 13 to 55+. <m>X \sim N(36.9, 13.9)</m></p>
+          <ol>
+            <li>Find the 30<m>^{th}</m> percentile, and interpret it in a complete sentence.</li>
+            <li>What is the probability that the age of a randomly selected smartphone user in the range 13 to 55+ is less than 27 years old?</li>
+          </ol>
+          <ol>
+            <li>To find the 30<m>^{th}</m> percentile, find <m>k</m> such that  <m>P</m>(<m>x</m> &lt; <m>k</m>) = 0.30.
+&#160;invNorm(0.30, 36.9, 13.9) = 29.6 years
+&#160;Thirty percent of smartphone users 13 to 55+ are at most 29.6 years and 70% are at least 29.6 years.</li>
+            <li>Find <m>P</m>(<m>x</m> &lt; 27)
+
+
+
+&#160;normalcdf(0,27,36.9,13.9) = 0.2342
+&#160;(Note that normalcdf(–10^{99},27,36.9,13.9) = 0.2382. The two answers differ only by 0.0040.)</li>
+          </ol>
+        </statement>
+      </exercise>
+      <example xml:id="fs-idm50441184">
+        <statement>
+          <p>a. Calculate the interquartile range (<em>IQR</em>).</p>
+        </statement>
+        <solution>
+          <p>a. <em>IQR</em> = <m>Q_{3}</m> – <m>Q_{1}</m>
+Calculate <m>Q_{3}</m> = 75<m>^{th}</m> percentile and <m>Q_{1}</m> = 25<m>^{th}</m> percentile.
+Recall that we can use invNorm to find the <m>k</m>-value. We can use this to find the quartile values.
+invNorm(0.75,36.9,13.9) = <m>Q_{3}</m> = 46.2754
+invNorm(0.25,36.9,13.9) = <m>Q_{1}</m> = 27.5246
+<em>IQR</em> = <m>Q_{3}</m> – <m>Q_{1}</m> = 18.8
+&#160;&#160;</p>
+          <ul>
+            <li><em>IQR</em> = <m>Q_{3}</m> – <m>Q_{1}</m></li>
+            <li>Calculate <m>Q_{3}</m> = 75<m>^{th}</m> percentile and <m>Q_{1}</m> = 25<m>^{th}</m> percentile.</li>
+            <li>Recall that we can use invNorm to find the <m>k</m>-value. We can use this to find the quartile values.</li>
+            <li>invNorm(0.75,36.9,13.9) = <m>Q_{3}</m> = 46.2754</li>
+            <li>invNorm(0.25,36.9,13.9) = <m>Q_{1}</m> = 27.5246</li>
+            <li><em>IQR</em> = <m>Q_{3}</m> – <m>Q_{1}</m> = 18.8</li>
+          </ul>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm81547104">
+        <title>Try It</title>
+        <statement>
+          <p>Two thousand students took an exam. The scores on the exam have an approximate normal distribution with a mean <m>μ</m> = 81 points and standard deviation <m>σ</m> = 15 points.</p>
+          <ol>
+            <li>Calculate the first- and third-quartile scores for this exam.</li>
+            <li>The middle 50 percent of the exam scores are between what two values?</li>
+          </ol>
+          <ol>
+            <li><m>Q_{1}</m> = 25<m>^{th}</m> percentile = invNorm(0.25,81,15) = 70.9
+&#160;<m>Q_{3}</m> = 75<m>^{th}</m> percentile = invNorm(0.75,81,15) = 91.9</li>
+            <li>The middle 50% of the scores are between 70.9 and 91.1.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <example xml:id="eip-662">
+        <statement>
+          <p>a. Find the probability that a randomly selected mandarin orange from this farm has a diameter larger than 6.0 cm. Sketch the graph.</p>
+        </statement>
+        <solution>
+          <p>a. normalcdf(6,10^99,5.85,0.24) = 0.2660</p>
+          <figure xml:id="eip-idp150275440">
+            <image source="media/CNX_Stats_C06_M03_003a.jpg" width="84%"/>
+          </figure>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm127937776">
+        <title>Try It</title>
+        <statement>
+          <p>Using the information from , answer the following:</p>
+          <p>The middle area = 0.40, so each tail has an area of 0.30.</p>
+          <p>1 – 0.40 = 0.60</p>
+          <p>The tails of the graph of the normal distribution each have an area of 0.30.</p>
+          <p>Find <m>k1</m>, the 30<m>^{th}</m> percentile and <m>k2</m>, the 70<m>^{th}</m> percentile (0.40 + 0.30 = 0.70).</p>
+          <p><m>k1</m> = invNorm(0.30,5.85,0.24) = 5.72 cm</p>
+          <p><m>k2</m> = invNorm(0.70,5.85,0.24) = 5.98 cm</p>
+          <ol>
+            <li>The middle 45 percent of mandarin oranges from this farm are between ______ and ______.</li>
+            <li>Find the 16<m>^{th}</m> percentile, and interpret it in a complete sentence.</li>
+          </ol>
+          <ol>
+            <li>The middle area = 0.40, so each tail has an area of 0.30.
+1 – 0.40 = 0.60The tails of the graph of the normal distribution each have an area of 0.30.Find <m>k1</m>, the 30<m>^{th}</m> percentile and <m>k2</m>, the 70<m>^{th}</m> percentile (0.40 + 0.30 = 0.70).<m>k1</m> = invNorm(0.30,5.85,0.24) = 5.72 cm<m>k2</m> = invNorm(0.70,5.85,0.24) = 5.98 cm</li>
+            <li>normalcdf(5,1099,5.85,0.24) = 0.9998</li>
+          </ol>
+        </statement>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm101453488">
+      <title>References</title>
+      <p>Chicago Public Media &amp; Ira Glass. (2013). 403: <em>NUMMI</em>. Retrieved from http://www.thisamericanlife.org/radioarchives/episode/403/nummi</p>
+      <p>lauramitchell347. (2012, Dec. 28). Smart phone users, by the numbers. <em>Visually</em>. Retrieved from http://visual.ly/smart-phone-users-numbers</p>
+      <p>Statistics Brain Research Institute. (2013). <em>Facebook company statistics  statistic brain</em>. Retrieved from http://www.statisticbrain.com/facebook-statistics/</p>
+      <p>Wikipedia (2013). <em>Naegele's rule</em>. Retrieved from http://en.wikipedia.org/wiki/Naegele's_rule</p>
+      <p>Win at the Lottery. (2013). <em>Scratch-off lottery ticket playing tips</em>. Retrieved  from www.winatthelottery.com/public/department40.cfm</p>
+    </subsection>
+
+    <subsection xml:id="eip-424">
+      <title>Chapter Review</title>
+      <p>The normal distribution, which is continuous, is the most important of all the probability distributions. Its graph is bell-shaped. This bell-shaped curve is used in almost all disciplines. Since it is a continuous distribution, the total area under the curve is one. The parameters of the normal are the mean <m>\mu</m> and the standard deviation <m>σ</m>. A special normal distribution, called the standard normal distribution, is the distribution of <m>z</m>-scores. Its mean is zero, and its standard deviation is one.</p>
+    </subsection>
+
+    <subsection xml:id="eip-108">
+      <title>Formula Review</title>
+      <p>Normal Distribution: <m>X \sim N(<m>\mu</m>, <m>σ</m>)</m>, where <m>\mu</m> is the mean and <m>σ</m> is the standard deviation</p>
+      <p>Standard Normal Distribution: <m>Z \sim N(0, 1)</m>.</p>
+      <p>Calculator function for probability: normalcdf (lower <m>x</m> value of the area, upper <m>x</m> value of the area, mean, standard deviation)</p>
+      <p>Calculator function for the <m>k</m>^{th} percentile: <m>k</m> =  invNorm (area to the left of <m>k</m>, mean, standard deviation)</p>
+    </subsection>
+
+    <subsection xml:id="eip-527">
+      <exercise xml:id="fs-idp83652864">
+        <statement>
+          <p>How would you represent the area to the left of one in a probability statement?</p>
+          <figure xml:id="eip-idp74682384">
+            <image source="media/CNX_Stats_C06_M04_item001.jpg"/>
+          </figure>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>x</m> &lt; 1)</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm18365728">
+        <statement>
+          <p>What is the area to the right of one?</p>
+          <figure xml:id="eip-idm26567824">
+            <image source="media/CNX_Stats_C06_M04_item001.jpg"/>
+          </figure>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp76730048">
+        <statement>
+          <p>Is <m>P</m>(<m>x</m> &lt; 1) equal to <m>P</m>(<m>x</m> ≤ 1)? Why or why not?</p>
+        </statement>
+        <solution>
+          <p>Yes, because they are the same in a continuous distribution: <m>P</m>(<m>x</m> = 1) = 0</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp16475344">
+        <statement>
+          <p>How would you represent the area to the left of three in a probability statement?</p>
+          <figure xml:id="eip-idm45345808">
+            <image source="media/CNX_Stats_C06_M04_item002.jpg"/>
+          </figure>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp103778720">
+        <statement>
+          <p>What is the area to the right of three?</p>
+          <figure xml:id="eip-idp19359872">
+            <image source="media/CNX_Stats_C06_M04_item002.jpg"/>
+          </figure>
+        </statement>
+        <solution>
+          <p>1 – <m>P</m>(<m>x</m> &lt; 3) or <m>P</m>(<m>x</m> &gt; 3)</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp880816">
+        <statement>
+          <p>If the area to the left of <m>x</m> in a normal distribution is 0.123, what is the area to the right of <m>x</m>?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm33682096">
+        <statement>
+          <p>If the area to the right of <m>x</m> in a normal distribution is 0.543, what is the area to the left of <m>x</m>?</p>
+        </statement>
+        <solution>
+          <p>1 – 0.543 = 0.457</p>
+        </solution>
+      </exercise>
+      <p><em>Use the following information to answer the next four exercises:</em></p>
+      <p><m>X \sim N(54, 8)</m></p>
+      <exercise xml:id="fs-idp83610000">
+        <statement>
+          <p>Find the probability that <m>x</m> &gt; 56.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp105059184">
+        <statement>
+          <p>Find the probability that <m>x</m> &lt; 30.</p>
+        </statement>
+        <solution>
+          <p>0.0013</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp153118944">
+        <statement>
+          <p>Find the 80<m>^{th}</m> percentile.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp49095264">
+        <statement>
+          <p>Find the 60<m>^{th}</m> percentile.</p>
+        </statement>
+        <solution>
+          <p>56.03</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp65259648">
+        <statement>
+          <p><m>X \sim N(6, 2)</m></p>
+          <p>Find the probability that <m>x</m> is between three and nine.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp152542352">
+        <statement>
+          <p><m>X \sim N(–3, 4)</m></p>
+          <p>Find the probability that <m>x</m> is between one and four.</p>
+        </statement>
+        <solution>
+          <p>0.1186</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp153143568">
+        <statement>
+          <p><m>X \sim N(4, 5)</m></p>
+          <p>Find the maximum of <m>x</m> in the bottom quartile.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-942">
+        <statement>
+          <p><em>Use the following information to answer the next three exercises:</em> The life of Sunshine CD players is normally distributed with a mean of 4.1 years and a standard deviation of 1.3 years. A CD player is guaranteed for three years. We are interested in the length of time a CD player lasts. Find the probability that a CD player will break down during the guarantee period.</p>
+          <ol>
+            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.</li>
+            <li><m>P</m>(0 &lt; <m>x</m> &lt; ____________) = ___________. Use zero for the minimum value of <m>x</m>.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>Check student’s solution</li>
+            <li>3, 0.1979</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-893">
+        <statement>
+          <p>Find the probability that a CD player will last between 2.8 and 6 years.</p>
+          <ol>
+            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.</li>
+            <li><m>P</m>(__________ &lt; <m>x</m> &lt; __________) = __________</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-889">
+        <statement>
+          <p>Find the 70<m>^{th}</m> percentile of the distribution for the time a CD player lasts.</p>
+          <ol>
+            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the lower 70 percent.</li>
+            <li><m>P</m>(<m>x</m> &lt; <m>k</m>) = __________. Therefore, <m>k</m> = _________.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>Check student’s solution</li>
+            <li>0.70, 4.78 years</li>
+          </ol>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="eip-866">
+      <title>Homework</title>
+      <p><em>Use the following information to answer the next two exercises:</em> The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.</p>
+      <exercise xml:id="eip-181">
+        <statement>
+          <p>What is the probability of spending more than two days in recovery?</p>
+          <ol>
+            <li>0.0580</li>
+            <li>0.8447</li>
+            <li>0.0553</li>
+            <li>0.9420</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-318">
+        <statement>
+          <p>The 90<m>^{th}</m> percentile for recovery times is –</p>
+          <ol>
+            <li>8.89</li>
+            <li>7.07</li>
+            <li>7.99</li>
+            <li>4.32</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>c</p>
+        </solution>
+      </exercise>
+      <p><em>Use the following information to answer the next three exercises:</em> The length of time it takes to find a parking space at 9 a.m. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.</p>
+      <exercise xml:id="eip-486">
+        <statement>
+          <p>Based on the given information and numerically justified, would you be surprised if it took less than one minute to find a parking space?</p>
+          <ol>
+            <li>Yes</li>
+            <li>No</li>
+            <li>Unable to determine</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-231">
+        <statement>
+          <p>Find the probability that it takes at least eight minutes to find a parking space.</p>
+          <ol>
+            <li>0.0001</li>
+            <li>0.9270</li>
+            <li>0.1862</li>
+            <li>0.0668</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>d</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-295">
+        <statement>
+          <p>Seventy percent of the time, it takes more than how many minutes to find a parking space?</p>
+          <ol>
+            <li>1.24</li>
+            <li>2.41</li>
+            <li>3.95</li>
+            <li>6.05</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-581">
+        <statement>
+          <p>According to a study done by De Anza students, the height for Asian adult males is normally distributed with an average of 66 inches and a standard deviation of 2.5 inches. Suppose one Asian adult male is randomly chosen. Let <m>X</m> = height of the individual.</p>
+          <ol>
+            <li><m>X</m> ~ _____ (_____ ,_____)</li>
+            <li>Find the probability that the person is between 65 and 69 inches. Include a sketch of the graph, and write a probability statement.</li>
+            <li>Would you expect to meet many Asian adult males taller than 72 inches? Explain why or why not, and
+numerically justify your answer.</li>
+            <li>The middle 40 percent of heights fall between what two values? Sketch the graph, and write the
+probability statement.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>X \sim N(66, 2.5)</m></li>
+            <li>0.5404</li>
+            <li>No, the probability that an Asian male is over 72 inches tall is 0.0082.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-563">
+        <statement>
+          <p>IQ is normally distributed with a mean of 100 and a standard deviation of 15. Suppose one individual is randomly chosen. Let <m>X</m> =  IQ of an individual.</p>
+          <ol>
+            <li><m>X</m> ~ _____ (_____, _____)</li>
+            <li>Find the probability that the person has an IQ greater than 120. Include a sketch of the graph, and write a probability statement.</li>
+            <li>MENSA is an organization whose members have the top 2 percent of all IQs. Find the minimum IQ needed to qualify for the MENSA organization. Sketch the graph, and write the probability statement.</li>
+            <li>The middle 50 percent of IQs fall between what two values? Sketch the graph, and write the probability statement.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-516">
+        <statement>
+          <p>The percent of fat calories that a person in the United States consumes each day is normally distributed with a mean of about 36 and a standard deviation of 10. Suppose that one individual is randomly chosen. Let <m>X</m> = percentage of fat calories.</p>
+          <ol>
+            <li><m>X</m> ~ _____ (_____, _____)</li>
+            <li>Find the probability that the percentage of fat calories a person consumes is more than 40. Graph the situation. Shade in the area to be determined.</li>
+            <li>Find the maximum number for the lower quarter of percent of fat calories. Sketch the graph and write the probability statement.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>X \sim N(36, 10)</m></li>
+            <li>The probability that a person consumes more than 40 percent of their calories as fat is 0.3446.</li>
+            <li>Approximately 25 percent of people consume less than 29.26 percent of their calories as fat.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-967">
+        <statement>
+          <p>Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet.</p>
+          <ol>
+            <li>If <m>X</m> = distance in feet for a fly ball, then <m>X</m> ~ _____ (_____, _____)</li>
+            <li>If one fly ball is randomly chosen from this distribution, what is the probability that this ball traveled less than 220 feet? Sketch the graph. Scale the horizontal axis <m>X</m>. Shade the region corresponding to the probability. Find the probability.</li>
+            <li>Find the 80<m>^{th}</m> percentile of the distribution of fly balls. Sketch the graph, and write the probability statement.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-930">
+        <statement>
+          <p>In China, four-year-olds average three hours a day unsupervised. Most of the unsupervised children live in rural areas, considered safe. Suppose that the standard deviation is 1.5 hours and the amount of time spent alone is normally distributed. We randomly select one Chinese four-year-old living in a rural area. We are interested in the amount of time that child spends alone per day.</p>
+          <ol>
+            <li>In words, define the random variable <m>X</m>.</li>
+            <li><m>X</m> ~ _____ (_____, _____)</li>
+            <li>Find the probability that the child spends less than one hour per day unsupervised. Sketch the graph, and write the probability statement.</li>
+            <li>What percentage of the children spend more than 10 hours per day unsupervised?</li>
+            <li>Seventy percent of the children spend at least how long per day unsupervised?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>X</m> = number of hours that a Chinese four-year-old in a rural area is unsupervised during the day.</li>
+            <li><m>X \sim N(3, 1.5)</m></li>
+            <li>The probability that the child spends less than one hour a day unsupervised is 0.0918.</li>
+            <li>The probability that a child spends over 10 hours a day unsupervised is less than 0.0001.</li>
+            <li>2.21 hours</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-698">
+        <statement>
+          <p>In the 1992 presidential election, Alaska’s 40 election districts averaged 1,956.8 votes per district for a candidate. The standard deviation was  572.3. There are only 40 election districts in Alaska. The distribution of the votes per district for the candidate was bell-shaped. Let <m>X</m> = number of votes for the candidate for an election district.</p>
+          <ol>
+            <li>State the approximate distribution of <m>X</m>.</li>
+            <li>Is 1,956.8 a population mean or a sample mean? How do you know?</li>
+            <li>Find the probability that a randomly selected district had fewer than 1,600 votes for the candidate. Sketch the graph, and write the probability statement.</li>
+            <li>Find the probability that a randomly selected district had between 1,800 and 2,000 votes for the candidate.</li>
+            <li>Find the third quartile for votes for the candidate.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-838">
+        <statement>
+          <p>Suppose that the duration of a particular type of criminal trial is known to be normally distributed with a mean of 21 days and a standard deviation of  seven days.</p>
+          <ol>
+            <li>In words, define the random variable <m>X</m>.</li>
+            <li><m>X</m> ~ _____ (_____, _____)</li>
+            <li>If one of the trials is randomly chosen, find the probability that it lasted at least 24 days. Sketch the graph and write the probability statement.</li>
+            <li>Sixty percent of all trials of this type are completed within how many days?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>X</m> = the distribution of the number of days a particular type of criminal trial will take</li>
+            <li><m>X \sim N(21, 7)</m></li>
+            <li>The probability that a randomly selected trial will last more than 24 days is 0.3336.</li>
+            <li>22.77</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-335">
+        <statement>
+          <p>Terri Vogel, an amateur motorcycle racer, averages 129.71 seconds per 2.5-mile lap, in a seven-lap race, with a standard deviation of 2.28 seconds. The distribution of her race times is normally distributed. We are interested in one of her randomly selected laps.</p>
+          <ol>
+            <li>In words, define the random variable <m>X</m>.</li>
+            <li><m>X</m> ~ _____ (_____, _____)</li>
+            <li>Find the percent of her laps that are completed in less than 130 seconds.</li>
+            <li>The fastest 3 percent of her laps are under _____.</li>
+            <li>The middle 80 percent of her laps are from _______ seconds to _______ seconds.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-923">
+        <statement>
+          <p>Thuy Dau, Ngoc Bui, Sam Su, and Lan Voung conducted a survey as to how long customers at Lucky claimed to wait in the checkout line until their turn. Let <m>X</m> = time in line.  displays the ordered real data, in minutes.
+
+
+
+
+
+
+
+
+
+0.50
+4.25
+5
+6
+7.25
+
+
+1.75
+4.25
+5.25
+6
+7.25
+
+
+2
+4.25
+5.25
+6.25
+7.25
+
+
+2.25
+4.25
+5.5
+6.25
+7.75
+
+
+2.25
+4.5
+5.5
+6.5
+8
+
+
+2.5
+4.75
+5.5
+6.5
+8.25
+
+
+2.75
+4.75
+5.75
+6.5
+9.5
+
+
+3.25
+4.75
+5.75
+6.75
+9.5
+
+
+3.75
+5
+6
+6.75
+9.75
+
+
+3.75
+5
+6
+6.75
+10.75
+
+
+
+
+
+Calculate the sample mean and the sample standard deviation.
+Construct a histogram.
+Draw a smooth curve through the midpoints of the tops of the bars.
+In words, describe the shape of your histogram and smooth curve.
+Let the sample mean approximate <m>μ</m> and the sample standard deviation approximate <m>σ</m>. The distribution of <m>X</m> can then be approximated by <m>X</m> ~ _____ (_____, _____)
+Use the distribution in part e to calculate the probability that a person will wait fewer than 6.1 minutes.
+Determine the cumulative relative frequency for waiting less than 6.1 minutes.
+Why aren’t the answers to part f and part g exactly the same?
+Why are the answers to part f and part g as close as they are?
+If only 10 customers were surveyed rather than 50, do you think the answers to part f and part g would have been closer together or farther apart? Explain your conclusion.</p>
+        </statement>
+        <solution>
+          <ol>
+            <li>mean = 5.51, <m>s</m> = 2.15</li>
+            <li>Check student's solution.</li>
+            <li>Check student's solution.</li>
+            <li>Check student's solution.</li>
+            <li><m>X \sim N(5.51, 2.15)</m></li>
+            <li>0.6029</li>
+            <li>The cumulative frequency for less than 6.1 minutes is 0.64.</li>
+            <li>The answers to part f and part g are not exactly the same, because the normal distribution is only an approximation to the real one.</li>
+            <li>The answers to part f and part g are close, because a normal distribution is an excellent approximation when the sample size is greater than 30.</li>
+            <li>The approximation would have been less accurate, because the smaller sample size means that the data does not fit a normal curve as well.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-24">
+        <statement>
+          <p>Suppose that Ricardo and Anita attend different colleges. Ricardo’s GPA is the same as the average GPA at his school. Anita’s GPA is 0.70 standard deviations above her school average. In complete sentences, explain why each of the following statements may be false:</p>
+          <ol>
+            <li>Ricardo’s actual GPA is lower than Anita’s actual GPA.</li>
+            <li>Ricardo is not passing because his <m>z</m>-score is zero.</li>
+            <li>Anita is in the 70<m>^{th}</m> percentile of students at her college.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-67">
+        <statement>
+          <p>shows a sample of the maximum capacitymaximum number of spectatorsof sports stadiums. The table does not include horse-racing or motor-racing stadiums.
+
+
+
+
+
+
+
+
+
+40,000
+40,000
+45,050
+45,500
+46,249
+48,134
+
+
+49,133
+50,071
+50,096
+50,466
+50,832
+51,100
+
+
+51,500
+51,900
+52,000
+52,132
+52,200
+52,530
+
+
+52,692
+53,864
+54,000
+55,000
+55,000
+55,000
+
+
+55,000
+55,000
+55,000
+55,082
+57,000
+58,008
+
+
+59,680
+60,000
+60,000
+60,492
+60,580
+62,380
+
+
+62,872
+64,035
+65,000
+65,050
+65,647
+66,000
+
+
+66,161
+67,428
+68,349
+68,976
+69,372
+70,107
+
+
+70,585
+71,594
+72,000
+72,922
+73,379
+74,500
+
+
+75,025
+76,212
+78,000
+80,000
+80,000
+82,300
+
+
+
+
+Calculate the sample mean and the sample standard deviation for the maximum capacity of sports stadiums.
+Construct a histogram.
+Draw a smooth curve through the midpoints of the tops of the bars of the histogram.
+In words, describe the shape of your histogram and smooth curve.
+Let the sample mean approximate <m>μ</m> and the sample standard deviation approximate <m>σ</m>. The distribution of <m>X</m> can then be approximated by <m>X</m> ~ _____ (_____, _____).
+Use the distribution in part e to calculate the probability that the maximum capacity of sports stadiums is less than 67,000 spectators.
+Determine the cumulative relative frequency that the maximum capacity of sports stadiums is less than 67,000 spectators. HintOrder the data and count the sports stadiums that have a maximum capacity less than 67,000. Divide by the total number of sports stadiums in the sample.
+Why aren’t the answers to part f and part g exactly the same?</p>
+        </statement>
+        <solution>
+          <ol>
+            <li>mean = 60,136&#160;
+<m>s</m> = 10,468</li>
+            <li>Answers will vary</li>
+            <li>Answers will vary</li>
+            <li>Answers will vary</li>
+            <li><m>X \sim N(60136, 10468)</m></li>
+            <li>0.7440</li>
+            <li>The cumulative relative frequency is 43/60 = 0.717.</li>
+            <li>The answers for part f and part g are not the same because the normal distribution is only an
+approximation.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-406">
+        <statement>
+          <p>The length of a pregnancy of a certain female animal is normally distributed with a mean of 280 days and a standard deviation of 13 days. The father was not present from 240 to 306 days before the birth of the offspring, so the pregnancy would have been less than 240 days or more than 306 days long, if he was the father. What is the probability that he was NOT the father?  What is the probability that he could be the father?  Calculate the <m>z</m>-scores first, and then use those to calculate the probability.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-889">
+        <statement>
+          <p>A NUMMI assembly line, which has been operating since 1984, has built an average of 6,000 cars and trucks a week. Generally, 10 percent of the cars were defective coming off the assembly line. Suppose we draw a random sample of <m>n</m> = 100 cars. Let <m>X</m> represent the number of defective cars in the sample. What can we say about <m>X</m> in regard to  the 68–95–99.7 empirical ruleone standard deviation, two standard deviations, and three standard deviations from the mean being referred to?  Assume a normal distribution for the defective cars in the sample.</p>
+        </statement>
+        <solution>
+          <ul>
+            <li><m>n</m> = 100; <m>p</m> = 0.1;  <m>q</m> = 0.9</li>
+            <li><m>μ</m> = <m>np</m> = (100)(0.10) = 10</li>
+            <li><m>σ</m> = <m>\sqrt{npq}</m> = <m>\sqrt{\text{(100)(0}\text{.1)(0}\text{.9)}}</m> = 3</li>
+          </ul>
+          <ol>
+            <li><m>z</m> = ±1:   <em>x_{1}</em> = <m>\mu</m> + <m>zσ</m> = 10 + 1(3) = 13  and  <m>x</m>2 = <m>\mu</m> – <m>zσ</m> = 10 – 1(3) = 7. 68 percent of the defective cars will fall between seven and 13</li>
+            <li><m>z</m> = ±2:   <em>x_{1}</em> = <m>\mu</m> + <m>zσ</m> = 10 + 2(3) = 16 and <m>x</m>2 = <m>\mu</m> – <m>zσ</m> = 10 – 2(3) = 4. 95 percent of the defective cars will fall between four and 16</li>
+            <li><m>z</m> = ±3:   <em>x_{1}</em> = <m>\mu</m> + <m>zσ</m> = 10 + 3(3) = 19 and  <m>x</m>2 = <m>\mu</m> – <m>zσ</m> = 10 – 3(3) = 1. 99.7 percent of the defective cars will fall between one and 19</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-35">
+        <statement>
+          <p>We flip a coin 100 times (<m>n</m> = 100) and note that it only comes up heads 20 percent (<m>p</m> = 0.20) of the time. The mean and standard deviation for the number of times the coin lands on heads is <m>\mu</m> = 20 and <m>σ</m> = 4verify the mean and standard deviation. Solve the following:</p>
+          <ol>
+            <li>There is about a 68 percent chance that the number of heads will be somewhere between ___ and ___.</li>
+            <li>There is about a ____chance that the number of heads will be somewhere between 12 and 28.</li>
+            <li>There is about a ____ chance that the number of heads will be somewhere between eight and 32.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-868">
+        <statement>
+          <p>A child playing a carnival game will be a winner one out of five times. If 190 games are played, what is the probability that there are</p>
+          <ol>
+            <li>somewhere between 34 and 54 wins</li>
+            <li>somewhere between 54 and 64 wins</li>
+            <li>more than 64 wins</li>
+          </ol>
+        </statement>
+        <solution>
+          <ul>
+            <li><m>n</m> = 190; <m>p</m> = <m>\frac{1}{5}</m>
+ = 0.2; <m>q</m> = 0.8</li>
+            <li><m>μ</m> = <m>np</m> = (190)(0.2) = 38</li>
+            <li><m>σ</m> = <m>\sqrt{npq}</m> = <m>\sqrt{\text{(190)(0}\text{.2)(0}\text{.8)}}</m> = 5.5136</li>
+          </ul>
+          <ol>
+            <li>For this problem: <m>P</m>(34 &lt; <m>x</m> &lt; 54) = normalcdf(34,54,48,5.5136) = 0.7641</li>
+            <li>For this problem: <m>P</m>(54 &lt; <m>x</m> &lt; 64) = normalcdf(54,64,48,5.5136) = 0.0018</li>
+            <li>For this problem: <m>P</m>(<m>x</m> &gt; 64) = normalcdf(64,10^{99},48,5.5136) = 0.0000012 (approximately 0)</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-291">
+        <statement>
+          <p>A social media site provides a variety of statistics on its website that detail the growth and popularity of the site.</p>
+          <p>On average,  28 percent of 18- to 34-year-olds check their social media profiles before getting out of bed in the morning. Suppose this percentage follows a normal distribution with a standard deviation of five percent.</p>
+          <ol>
+            <li>Find the probability that the percentage of 18- to 34-year-olds who check the social media website before getting out of bed in the morning is at least 30.</li>
+            <li>Find the 95<m>^{th}</m> percentile,  and express it in a sentence.</li>
+          </ol>
+        </statement>
+      </exercise>
+    </subsection>
+
   </section>
 
-  <section xml:id="sec-normal-distribution-lab">
-    <title>Normal Distribution (Lap Times)</title>
-    <p>
-      Content to be added from module m79643.
-    </p>
+  <section xml:id="sec-normal-distribution-lab-lap-times">
+    <title>Lab: Lap Times</title>
+
+
+    <subsection xml:id="fs-id1164566501560">
+      <project xml:id="fs-id8352229">
+        <title>Normal Distribution (Lap Times)</title>
+        <p>DirectionsRound the relative frequencies and probabilities to four decimal places. Carry all other decimal answers to two places.</p>
+        <p>Analyze the Distribution
+Using your sample mean, sample standard deviation, and histogram to help, what is the approximate theoretical distribution of the data?</p>
+        <p>Describe the Data
+Use the data you collected to complete the following statements.</p>
+        <p>Theoretical Distribution
+Using the theoretical distribution, complete the following statements. You should use a normal approximation based on your sample data.</p>
+        <p>Discussion QuestionsDo the data from the section titled Collect the Data give a close approximation to the theoretical distribution in the section titled Analyze the Distribution? In complete sentences and comparing the result in the sections titled Describe the Data and Theoretical Distribution, explain why or why not.</p>
+        <ul>
+          <li>The student will compare and contrast empirical data and a theoretical distribution to determine if Terry Vogel's lap times fit a continuous distribution.</li>
+        </ul>
+        <ul>
+          <li>Use the data from <url href="m79712"></url>. Use a stratified sampling method by lap races 1 to 20 and a random number generator to pick six lap times from each stratum. Record the lap times below for laps two to seven.&#160;
+
+
+
+
+_______
+_______
+_______
+_______
+_______
+_______
+
+
+_______
+_______
+_______
+_______
+_______
+_______
+
+
+_______
+_______
+_______
+_______
+_______
+_______
+
+
+_______
+_______
+_______
+_______
+_______
+_______
+
+
+_______
+_______
+_______
+_______
+_______
+_______
+
+
+_______
+_______
+_______
+_______
+_______
+_______</li>
+          <li>Construct a histogram. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.</li>
+          <li>Calculate the following:
+
+<m>\overline{x}</m> = _______
+<m>s</m> = _______</li>
+          <li><m>\overline{x}</m> = _______</li>
+          <li><m>s</m> = _______</li>
+          <li>Draw a smooth curve through the tops of the bars of the histogram. Write one to two complete sentences to describe the general shape of the curve. (Keep it simple. Does the graph go straight across, does it have a V-shape, does it have a hump in the middle or at either end, and so on?)</li>
+        </ul>
+        <ol>
+          <li><m>\overline{x}</m> = _______</li>
+          <li><m>s</m> = _______</li>
+        </ol>
+        <ul>
+          <li><m>X</m> ~ _____(_____,_____)</li>
+          <li>How does the histogram help you arrive at the approximate distribution?</li>
+        </ul>
+        <ul>
+          <li>The <em>IQR</em> goes from __________ to __________.</li>
+          <li><em>IQR</em> = __________. (<em>IQR</em> = <m>Q_{3}</m> – <m>Q_{1}</m>)</li>
+          <li>The 15<m>^{th}</m> percentile is _______.</li>
+          <li>The 85<m>^{th}</m> percentile is _______.</li>
+          <li>The median is _______.</li>
+          <li>The empirical probability that a randomly chosen lap time is more than 130 seconds  is _______.</li>
+          <li>Explain the meaning of the 85<m>^{th}</m> percentile of this data.</li>
+        </ul>
+        <ul>
+          <li>The <em>IQR</em> goes from __________ to __________.</li>
+          <li><em>IQR</em> =  _______.</li>
+          <li>The 15<m>^{th}</m> percentile is _______.</li>
+          <li>The 85<m>^{th}</m> percentile is _______.</li>
+          <li>The median is _______.</li>
+          <li>The probability that a randomly chosen lap time is more than 130 seconds is _______.</li>
+          <li>Explain the meaning of the 85<m>^{th}</m> percentile of this distribution.</li>
+        </ul>
+      </project>
+    </subsection>
+
   </section>
 
-  <section xml:id="sec-normal-distribution-review">
-    <title>Normal Distribution: Review</title>
-    <p>
-      Content to be added from module m79644.
-    </p>
-  </section>
+  <section xml:id="sec-normal-distribution-lab-pinkie">
+    <title>Lab: Pinkie Length</title>
 
-  <section xml:id="sec-normal-distribution-practice">
-    <title>Normal Distribution: Practice</title>
-    <p>
-      Content to be added from module m79645.
-    </p>
-  </section>
 
-  <conclusion>
-    <p>
-      This chapter has covered the normal distribution and its applications in statistics.
-    </p>
-  </conclusion>
+    <subsection xml:id="fs-id1164565251908">
+      <project xml:id="fs-id1164259932581">
+        <title>Normal Distribution (Pinkie Length)</title>
+        <p>Collect the DataMeasure the length of your pinkie finger, in centimeters.</p>
+        <p>Analyze the Distribution
+Using your sample mean, sample standard deviation, and histogram, what was the approximate theoretical distribution of the data you collected?</p>
+        <p>Describe the Data
+Using the data you collected complete the following statements. HintOrder the data.</p>
+        <p>(<em>IQR</em> = <m>Q_{3}</m> – <m>Q_{1}</m>)</p>
+        <p>Theoretical Distribution
+Using the theoretical distribution, complete the following statements. Use a normal approximation based on the sample mean and standard deviation.</p>
+        <p>Discussion QuestionsDo the data you collected give a close approximation to the theoretical distribution? In complete sentences and comparing the results in the sections titled Describe the Data and Theoretical Distribution, explain why or why not.</p>
+        <ul>
+          <li>The student will compare empirical data and a theoretical distribution to determine if data from the experiment follow a continuous distribution.</li>
+        </ul>
+        <ol>
+          <li>Randomly survey 30 adults for their pinkie finger lengths. Round the lengths to the nearest 0.5 cm.&#160;
+
+
+
+
+_______
+_______
+_______
+_______
+_______
+
+
+_______
+_______
+_______
+_______
+_______
+
+
+_______
+_______
+_______
+_______
+_______
+
+
+_______
+_______
+_______
+_______
+_______
+
+
+_______
+_______
+_______
+_______
+_______
+
+
+_______
+_______
+_______
+_______
+_______</li>
+          <li>Construct a histogram. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.</li>
+          <li>Calculate the following:
+<m>\overline{x}</m> = _______
+<m>s</m> = _______</li>
+          <li><m>\overline{x}</m> = _______</li>
+          <li><m>s</m> = _______</li>
+          <li>Draw a smooth curve  through the top of the bars of the histogram. Write one to two complete sentences to describe the general shape of the curve. Keep it simple. Does the graph go straight across, does it have a V-shape, does it have a hump in the middle or at either end, and so on?</li>
+        </ol>
+        <ol>
+          <li><m>\overline{x}</m> = _______</li>
+          <li><m>s</m> = _______</li>
+        </ol>
+        <ul>
+          <li><m>X</m> ~ _____ (_____, _____)</li>
+          <li>How does the histogram help you arrive at the approximate distribution?</li>
+        </ul>
+        <ul>
+          <li><em>IQR</em> = _______</li>
+          <li>The 15<m>^{th}</m> percentile is _______.</li>
+          <li>The 85<m>^{th}</m> percentile is _______.</li>
+          <li>Median is _______.</li>
+          <li>What is the theoretical probability that a randomly chosen pinkie length is more than 6.5 cm?</li>
+          <li>Explain the meaning of the 85<m>^{th}</m> percentile of these data.</li>
+        </ul>
+        <ul>
+          <li><em>IQR</em> = _______</li>
+          <li>The 15<m>^{th}</m> percentile is _______.</li>
+          <li>The 85<m>^{th}</m> percentile is _______.</li>
+          <li>Median is _______.</li>
+          <li>What is the theoretical probability that a randomly chosen pinkie length is more than 6.5 cm?</li>
+          <li>Explain the meaning of the 85<m>^{th}</m> percentile of these data.</li>
+        </ul>
+      </project>
+    </subsection>
+
+  </section>
 </chapter>
