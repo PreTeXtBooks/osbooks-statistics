@@ -66,7 +66,7 @@
 
 <p xml:id="fs-idm47553248">Suppose <em>X</em> is a random variable with a distribution that may be known or unknown (it can be any distribution). Using a subscript that matches the random variable, suppose</p>
 
-<ol xml:id="list-1">
+<ol xml:id="list-clt-means-properties">
 <li><m>\mu_x</m> = the mean of <em>X</em></li>
 <li><m>\sigma_x</m> = the standard deviation of <em>X</em></li>
 </ol>
@@ -89,7 +89,7 @@ z = \frac{\overline{x} - \mu_x}{\left(\frac{\sigma_x}{\sqrt{n}}\right)},
 
 <p xml:id="element-686"><em>μ<m>_X</m></em> is the average of both <em>X</em> and <m>\overline{X}</m>.</p>
 
-<p xml:id="element-455"><m>\sigma\overline{x} = \frac{\sigma x}{\sqrt{n}}</m> = standard deviation of <m>\overline{X}</m> and is called the <term xml:id="term-00004">standard error of the mean</term>.</p>
+<p xml:id="element-455"><m>\sigma_{\overline{x}} = \frac{\sigma_x}{\sqrt{n}}</m> = standard deviation of <m>\overline{X}</m> and is called the <term xml:id="term-00004">standard error of the mean</term>.</p>
 
 <note xml:id="fs-idm74236704"><title>Calculator</title>
 <p xml:id="fs-idm164143744">To find probabilities for means on the calculator, follow these steps.</p>
@@ -334,7 +334,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <subsection xml:id="fs-idm104045584">
 <title>Formula Review</title>
-<p xml:id="fs-idm43969232">Central limit theorem for sample means: <m>\overline{X}</m> ~ <em>N</em><m>\left(\mu_x, \frac{\sigma x}{\sqrt{n}}\right)</m></p>
+<p xml:id="fs-idm43969232">Central limit theorem for sample means: <m>\overline{X}</m> ~ <em>N</em><m>\left(\mu_x, \frac{\sigma_x}{\sqrt{n}}\right)</m></p>
 
 <p xml:id="fs-idm14943744">Mean <m>\overline{X}</m>: <em>μ<m>_x</m></em></p>
 
@@ -635,12 +635,12 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <p xml:id="eip-123456789">Suppose <em>X</em> is a random variable with a distribution that may be <em>known or unknown</em> (it can be any distribution) and suppose:</p>
 
-<ol xml:id="list-1">
+<ol xml:id="list-clt-sums-properties">
 <li><em>μ<m>_X</m></em> = the mean of <em>Χ</em></li>
 <li><em>σ<m>_Χ</m></em> = the standard deviation of <em>X</em></li>
 </ol>
 
-<p xml:id="fs-idm29530720">If you draw random samples of size <em>n</em>, then as <em>n</em> increases, the random variable Σ<em>X</em> consisting of sums tends to be <term xml:id="term-00001">normally distributed</term> and Σ<em>Χ</em> ~ <em>N</em>[(<em>n</em>)(<em>μ<m>_Χ</m></em>), (<m>\sqrt{n}</m>)(<em>σ<m>_Χ</m></em>)].</p>
+<p xml:id="fs-idm29530720">If you draw random samples of size <em>n</em>, then as <em>n</em> increases, the random variable Σ<em>X</em> consisting of sums tends to be normally distributed and Σ<em>Χ</em> ~ <em>N</em>[(<em>n</em>)(<em>μ<m>_Χ</m></em>), (<m>\sqrt{n}</m>)(<em>σ<m>_Χ</m></em>)].</p>
 
 <p xml:id="element-603"><em>The</em> <term xml:id="term-00002">central limit theorem for sums</term> says that if you keep drawing larger and larger samples and taking their sums, the sums form their own normal distribution (the sampling distribution), which approaches a normal distribution as the sample size increases. <em>The normal distribution has a mean equal to the original mean multiplied by the sample size and a standard deviation equal to the original standard deviation multiplied by the square root of the sample size.</em></p>
 
@@ -1057,7 +1057,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </solution>
 </exercise>
 
-<p xml:id="eip-465"><em>Use the following information to answer the next three exercises:</em> An unkwon distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let <em>X</em> = one object of interest.</p>
+<p xml:id="eip-465"><em>Use the following information to answer the next three exercises:</em> An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let <em>X</em> = one object of interest.</p>
 
 <exercise xml:id="eip-956">
 <problem xml:id="eip-217">
