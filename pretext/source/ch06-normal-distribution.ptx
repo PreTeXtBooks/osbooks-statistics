@@ -226,7 +226,7 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
       <p><m>Z \sim N(0, 1)</m></p>
       <p><m>z</m> = a standardized value (<m>z</m>-score)</p>
       <p>mean = 0, standard deviation = 1</p>
-      <p>To find the <m>k</m>^{th} percentile of <m>X</m> when the <m>z</m>-score is known,&#160;<m>k</m> = <m>μ</m> + (<m>z</m>)<m>σ</m></p>
+      <p>To find the <m>k^{th}</m> percentile of <m>X</m> when the <m>z</m>-score is known,&#160;<m>k</m> = <m>μ</m> + (<m>z</m>)<m>σ</m></p>
       <p><m>z</m>-score: <m>z</m> = <m>\frac{x\text{–}\mu}{\sigma}</m></p>
       <p><m>Z</m> = the random variable for <m>z</m>-scores</p>
     </subsection>
@@ -853,7 +853,7 @@ invNorm(0.25,36.9,13.9) = <m>Q_{1}</m> = 27.5246
       <p>Normal Distribution: <m>X \sim N(<m>\mu</m>, <m>σ</m>)</m>, where <m>\mu</m> is the mean and <m>σ</m> is the standard deviation</p>
       <p>Standard Normal Distribution: <m>Z \sim N(0, 1)</m>.</p>
       <p>Calculator function for probability: normalcdf (lower <m>x</m> value of the area, upper <m>x</m> value of the area, mean, standard deviation)</p>
-      <p>Calculator function for the <m>k</m>^{th} percentile: <m>k</m> =  invNorm (area to the left of <m>k</m>, mean, standard deviation)</p>
+      <p>Calculator function for the <m>k^{th}</m> percentile: <m>k</m> =  invNorm (area to the left of <m>k</m>, mean, standard deviation)</p>
     </subsection>
 
     <subsection xml:id="eip-527">
