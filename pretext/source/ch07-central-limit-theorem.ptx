@@ -23,7 +23,7 @@
 
     <p>Why are we so concerned with means? Two reasons are they give us a middle ground for comparison, and they are easy to calculate. In this chapter, you will study means and the <em>central limit theorem</em>.</p>
 
-    <p>The <term xml:id="ch7-term-00001">central limit theorem</term> (clt) is one of the most powerful and useful ideas in all of statistics. There are two alternative forms of the theorem, and both alternatives are concerned with drawing a finite samples size <m>n</m> from a population with a known mean, <m>\mu</m>, and a known standard deviation, <m>\sigma</m>. The first alternative says that if we collect samples of size <m>n</m> with a <em>large enough n</em>, calculate each sample's mean, and create a histogram of those means, then the resulting histogram will tend to have an approximate normal bell shape. The second alternative says that if we again collect samples of size n that are <em>large enough</em>, calculate the sum of each sample and create a histogram, then the resulting histogram will again tend to have a normal bell shape. The central limit theorem for sample means is more discussed in the world of statistics, but it is important to note that taking each sample's sum and graphing the sums will also result in a normal histogram. There are instances where one wishes to calculate the sum of a sample, as opposed to its mean.</p>
+    <p>The central limit theorem (clt) is one of the most powerful and useful ideas in all of statistics. There are two alternative forms of the theorem, and both alternatives are concerned with drawing a finite samples size <m>n</m> from a population with a known mean, <m>\mu</m>, and a known standard deviation, <m>\sigma</m>. The first alternative says that if we collect samples of size <m>n</m> with a <em>large enough n</em>, calculate each sample's mean, and create a histogram of those means, then the resulting histogram will tend to have an approximate normal bell shape. The second alternative says that if we again collect samples of size n that are <em>large enough</em>, calculate the sum of each sample and create a histogram, then the resulting histogram will again tend to have a normal bell shape. The central limit theorem for sample means is more discussed in the world of statistics, but it is important to note that taking each sample's sum and graphing the sums will also result in a normal histogram. There are instances where one wishes to calculate the sum of a sample, as opposed to its mean.</p>
 
     <p><em>In either case, it does not matter what the distribution of the original population is, or whether you even need to know it. The important fact is that the distributions of sample means and the sums tend to follow the normal distribution.</em></p>
 
@@ -34,7 +34,7 @@
       
       <p>Suppose eight of you roll one fair die ten times, seven of you roll two fair dice ten times, nine of you roll five fair dice ten times, and 11 of you roll ten fair dice ten times.</p>
 
-      <p>Each time a person rolls more than one die, he or she calculates the sample <term xml:id="ch7-term-00002">mean</term> of the faces showing. For example, one person might roll five fair dice and get 2, 2, 3, 4, and 6 on one roll.</p>
+      <p>Each time a person rolls more than one die, he or she calculates the sample mean of the faces showing. For example, one person might roll five fair dice and get 2, 2, 3, 4, and 6 on one roll.</p>
 
       <p>The mean is <m>\frac{2 + 2 + 3 + 4 + 6}{5} = 3.4</m>. The 3.4 is one mean when five fair dice are rolled. This same person would roll the five dice nine more times and calculate nine more means for a total of ten means.</p>
 
@@ -71,15 +71,15 @@
 <li><m>\sigma_x</m> = the standard deviation of <em>X</em></li>
 </ol>
 
-<p>If you draw random samples of size <em>n</em>, then as <em>n</em> increases, the random variable <m>\overline{X}</m>, which consists of sample means, tends to be <term xml:id="ch7-term-00008">normally distributed</term> and</p>
+<p>If you draw random samples of size <em>n</em>, then as <em>n</em> increases, the random variable <m>\overline{X}</m>, which consists of sample means, tends to be normally distributed and</p>
 
 <me xml:id="ch7-fs-id1164561129806">
 \overline{X} \sim N\left(\mu_x, \frac{\sigma_x}{\sqrt{n}}\right)
 </me>
 
-<p>The <term xml:id="ch7-term-00002">central limit theorem</term> for sample means says that if you keep drawing larger and larger samples (such as rolling one, two, five, and finally, ten dice) and <em>calculating their means</em>, the sample means form their own <em>normal distribution</em> (the sampling distribution). The normal distribution has the same mean as the original distribution and a variance that equals the original variance divided by the sample size. The variable <em>n</em> is the number of values that are averaged together, not the number of times the experiment is done.</p>
+<p>The central limit theorem for sample means says that if you keep drawing larger and larger samples (such as rolling one, two, five, and finally, ten dice) and <em>calculating their means</em>, the sample means form their own <em>normal distribution</em> (the sampling distribution). The normal distribution has the same mean as the original distribution and a variance that equals the original variance divided by the sample size. The variable <em>n</em> is the number of values that are averaged together, not the number of times the experiment is done.</p>
 
-<p>To put it more formally, if you draw random samples of size <em>n</em>, the distribution of the random variable <m>\overline{X}</m>, which consists of sample means, is called the <em>sampling distribution of the mean</em>. The sampling distribution of the mean approaches a normal distribution as <em>n</em>, the <term xml:id="ch7-term-00003">sample size</term>, increases.</p>
+<p>To put it more formally, if you draw random samples of size <em>n</em>, the distribution of the random variable <m>\overline{X}</m>, which consists of sample means, is called the <em>sampling distribution of the mean</em>. The sampling distribution of the mean approaches a normal distribution as <em>n</em>, the sample size, increases.</p>
 
 <p>The random variable <m>\overline{X}</m> has a different <em>z</em>-score associated with it from that of the random variable <em>X</em>. The mean <m>\overline{x}</m> is the value of <m>\overline{X}</m> in one sample.</p>
 
@@ -89,7 +89,7 @@ z = \frac{\overline{x} - \mu_x}{\left(\frac{\sigma_x}{\sqrt{n}}\right)},
 
 <p><em>μ<m>_X</m></em> is the average of both <em>X</em> and <m>\overline{X}</m>.</p>
 
-<p><m>\sigma_{\overline{x}} = \frac{\sigma_x}{\sqrt{n}}</m> = standard deviation of <m>\overline{X}</m> and is called the <term xml:id="ch7-term-00004">standard error of the mean</term>.</p>
+<p><m>\sigma_{\overline{x}} = \frac{\sigma_x}{\sqrt{n}}</m> = standard deviation of <m>\overline{X}</m> and is called the standard error of the mean.</p>
 
 <note xml:id="ch7-fs-idm74236704"><title>Calculator</title>
 <p>To find probabilities for means on the calculator, follow these steps.</p>
@@ -190,9 +190,9 @@ value = 90 + 2\left(\frac{15}{\sqrt{25}}\right) = 96.
 
 <p>The probability question asks you to find a probability for the <em>sample mean time,</em> <em>in hours</em>, it takes to play one soccer match.</p>
 
-<p>Let <m>\overline{X}</m> = the <term xml:id="ch7-term-00006">mean</term> time, in hours, it takes to play one soccer match.</p>
+<p>Let <m>\overline{X}</m> = the mean time, in hours, it takes to play one soccer match.</p>
 
-<p>If <em>μ<m>_X</m></em> = _________, <em>σ<m>_X</m></em> = __________, and <em>n</em> = ___________, then <em>X</em> ~ <em>N</em>(______, ______) by the <term xml:id="ch7-term-00007">central limit theorem for means</term>.</p>
+<p>If <em>μ<m>_X</m></em> = _________, <em>σ<m>_X</m></em> = __________, and <em>n</em> = ___________, then <em>X</em> ~ <em>N</em>(______, ______) by the central limit theorem for means.</p>
 
 <p><em>μ<m>_X</m></em> = 2, <em>σ<m>_X</m></em> = 0.5, <em>n</em> = 50, and <em>X</em> ~ <em>N</em><m>\left(2, \frac{0.5}{\sqrt{50}}\right)</m></p>
 
@@ -642,7 +642,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <p>If you draw random samples of size <em>n</em>, then as <em>n</em> increases, the random variable Σ<em>X</em> consisting of sums tends to be normally distributed and Σ<em>Χ</em> ~ <em>N</em>[(<em>n</em>)(<em>μ<m>_Χ</m></em>), (<m>\sqrt{n}</m>)(<em>σ<m>_Χ</m></em>)].</p>
 
-<p><em>The</em> <term xml:id="ch7-term-00002">central limit theorem for sums</term> says that if you keep drawing larger and larger samples and taking their sums, the sums form their own normal distribution (the sampling distribution), which approaches a normal distribution as the sample size increases. <em>The normal distribution has a mean equal to the original mean multiplied by the sample size and a standard deviation equal to the original standard deviation multiplied by the square root of the sample size.</em></p>
+<p><em>The</em> central limit theorem for sums says that if you keep drawing larger and larger samples and taking their sums, the sums form their own normal distribution (the sampling distribution), which approaches a normal distribution as the sample size increases. <em>The normal distribution has a mean equal to the original mean multiplied by the sample size and a standard deviation equal to the original standard deviation multiplied by the square root of the sample size.</em></p>
 
 <p>The random variable Σ<em>X</em> has the following <em>z</em>-score associated with it:</p>
 
@@ -918,13 +918,13 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <p><em>Use the following information to answer the next six exercises:</em> A researcher measures the amount of sugar in several cans of the same type of soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.</p>
 
-<exercise xml:id="exercise11">
+<exercise xml:id="ch7-exercise11">
 <problem xml:id="ch7-eip--311">
 <p>Find the probability that the sum of the 100 values is greater than 3,910.</p>
 </problem>
 </exercise>
 
-<exercise xml:id="exercise12">
+<exercise xml:id="ch7-exercise12">
 <problem xml:id="ch7-eip--886">
 <p>Find the probability that the sum of the 100 values is less than 3,900.</p>
 </problem>
@@ -1130,7 +1130,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </problem>
 </exercise>
 
-<exercise xml:id="ch7-element-138">
+<exercise xml:id="ch7-element-138-1">
 <problem xml:id="id6535223">
 <p>Salaries for entry-level managers at a restaurant chain are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey 10 managers from these restaurants.</p>
 <ol xml:id="ch7-fs-idm127251264">
@@ -1171,7 +1171,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
   <title>Using the Central Limit Theorem</title>
 
   <subsection xml:id="ch7-fs-id1164565575770">
-    <p>It is important for you to understand when to use the <term xml:id="ch7-term-00009">central limit theorem</term>. If you are being asked to find the probability of the mean, use the clt for the means. If you are being asked to find the probability of a sum or total, use the clt for sums. This also applies to percentiles for means and sums.</p>
+    <p>It is important for you to understand when to use the central limit theorem. If you are being asked to find the probability of the mean, use the clt for the means. If you are being asked to find the probability of a sum or total, use the clt for sums. This also applies to percentiles for means and sums.</p>
     <note xml:id="id11030776">
       <title>NOTE</title>
       <p>If you are being asked to find the probability of an <em>individual</em> value, do <em>not</em> use the clt. <em>Use the distribution of its random variable.</em></p>
@@ -1181,13 +1181,13 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
     <title>Examples of the Central Limit Theorem</title>
     <subsection xml:id="ch7-fs-idp5962992">
       <title>Law of Large Numbers</title>
-      <p>The <term xml:id="ch7-term-00002">law of large numbers</term> says that if you take samples of larger and larger sizes from any population, then the mean <m>\overline{x}</m> of the samples tends to get closer and closer to <em>μ</em>. From the central limit theorem, we know that as <em>n</em> gets larger and larger, the sample means follow a normal distribution. The larger <em>n</em> gets, the smaller the standard deviation gets. (Remember that the standard deviation for <m>\overline{X}</m> is <m>\frac{\sigma}{\sqrt{n}}</m>.) This means that the sample mean <m>\overline{x}</m> must be close to the population mean <em>μ</em>. We can say that <em>μ</em> is the value that the sample means approach as <em>n</em> gets larger. The central limit theorem illustrates the law of large numbers.</p>
+      <p>The law of large numbers says that if you take samples of larger and larger sizes from any population, then the mean <m>\overline{x}</m> of the samples tends to get closer and closer to <em>μ</em>. From the central limit theorem, we know that as <em>n</em> gets larger and larger, the sample means follow a normal distribution. The larger <em>n</em> gets, the smaller the standard deviation gets. (Remember that the standard deviation for <m>\overline{X}</m> is <m>\frac{\sigma}{\sqrt{n}}</m>.) This means that the sample mean <m>\overline{x}</m> must be close to the population mean <em>μ</em>. We can say that <em>μ</em> is the value that the sample means approach as <em>n</em> gets larger. The central limit theorem illustrates the law of large numbers.</p>
     </subsection>
     <subsection xml:id="ch7-fs-idm1089056">
       <title>Central Limit Theorem for the Mean and Sum Examples</title>
       <example xml:id="ch7-element-482">
         <statement>
-          <p>A study involving stress is conducted among the students on a college campus. <em>The stress scores follow a <term xml:id="ch7-term-00003">uniform distribution</term></em> with the lowest stress score equal to one and the highest equal to five. Using a sample of 75 students, find:</p>
+          <p>A study involving stress is conducted among the students on a college campus. <em>The stress scores follow a uniform distribution</em> with the lowest stress score equal to one and the highest equal to five. Using a sample of 75 students, find:</p>
           <ol xml:id="ch7-fs-idp18838512">
             <li>the probability that the <em>mean stress score</em> for the 75 students is less than 2</li>
             <li>the 90<m>^{th}</m> percentile for the <em>mean stress score</em> for the 75 students</li>
@@ -1195,7 +1195,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
             <li>the 90<m>^{th}</m> percentile for the <em>total stress score</em> for the 75 students</li>
           </ol>
           <p>Let <em>X</em> = one stress score.</p>
-          <p>Problems (a) and (b) ask you to find a probability or a percentile for a <term xml:id="ch7-term-00004">mean</term>. Problems (c) and (d) ask you to find a probability or a percentile for a <em>total or sum</em>. The sample size, <em>n</em>, is equal to 75.</p>
+          <p>Problems (a) and (b) ask you to find a probability or a percentile for a mean. Problems (c) and (d) ask you to find a probability or a percentile for a <em>total or sum</em>. The sample size, <em>n</em>, is equal to 75.</p>
           <p>Because the individual stress scores follow a uniform distribution, <em>X</em> ~ <em>U</em>(1, 5) where <em>a</em> = 1 and <em>b</em> = 5 (see Continuous Random Variables for an explanation of a uniform distribution),</p>
           <me xml:id="ch7-fs-id1164567042229">\mu_{X}\text{ =}\frac{a+b}{2}=\frac{1 + 5}{2}=3</me>
           <me xml:id="ch7-fs-id1164566177088">\sigma_{X}\text{ =}\sqrt{\frac{{(b-a)}^{2}}{12}}=\sqrt{\frac{{(5-1)}^{2}}{12}}\text{ = 1}\text{.15}</me>
@@ -1270,7 +1270,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
       </note>
       <example xml:id="example2">
         <statement>
-          <p>Suppose that a market research analyst for a cell phone company conducts a study of their customers who exceed the time allowance included on their basic cell phone contract. The analyst finds that for those people who exceed the time included in their basic contract, the <em>excess time used</em> follows an <term xml:id="ch7-term-00005">exponential distribution</term> with a mean of 22 minutes.</p>
+          <p>Suppose that a market research analyst for a cell phone company conducts a study of their customers who exceed the time allowance included on their basic cell phone contract. The analyst finds that for those people who exceed the time included in their basic contract, the <em>excess time used</em> follows an exponential distribution with a mean of 22 minutes.</p>
           <p>Consider a random sample of 80 customers who exceed the time allowance included in their basic cell phone contract.</p>
           <p>Let <em>X</em> = the excess time used by one INDIVIDUAL cell phone customer who exceeds his contracted time allowance.</p>
           <p><em>X</em> ∼ <em>Exp</em><m>(\frac{1}{22})</m>. From previous chapters, we know that <em>μ</em> = 22 and <em>σ</em> = 22.</p>
@@ -1398,7 +1398,7 @@ When asked to find the probability of an individual value, use the stated distri
       <note xml:id="ch7-eip--713">
         <title>HISTORICAL NOTE</title>
         <p><em>Normal Approximation to the Binomial</em></p>
-        <p>Historically, being able to compute binomial probabilities was one of the most important applications of the central limit theorem. Binomial probabilities with a small value for <em>n</em> (say, 20) were displayed in a table in a book. To calculate the probabilities with large values of <em>n</em>,  you had to use the binomial formula, which could be very complicated. Using the <em>normal approximation to the binomial</em> distribution simplified the process. To compute the normal approximation to the binomial distribution, take a simple random sample from a population. You must meet the following conditions for a <term xml:id="ch7-term-00006">binomial distribution</term>:</p>
+        <p>Historically, being able to compute binomial probabilities was one of the most important applications of the central limit theorem. Binomial probabilities with a small value for <em>n</em> (say, 20) were displayed in a table in a book. To calculate the probabilities with large values of <em>n</em>,  you had to use the binomial formula, which could be very complicated. Using the <em>normal approximation to the binomial</em> distribution simplified the process. To compute the normal approximation to the binomial distribution, take a simple random sample from a population. You must meet the following conditions for a binomial distribution:</p>
         <ul xml:id="norm_bi_approx">
           <li>There are a certain number, <em>n</em>, of independent trials.</li>
           <li>The outcomes of any trial are success or failure.</li>
@@ -1407,7 +1407,7 @@ When asked to find the probability of an individual value, use the stated distri
         <p>Recall that if <em>X</em> is the binomial random variable, then <em>X</em> ~ <em>B</em>(<em>n, p</em>). The shape of the binomial distribution needs to be
 similar to the shape of the normal distribution. To ensure this, the quantities <em>np</em>
 and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</em> > 5;  the approximation is better if they are both greater than or equal to 10. The product &gt;5 is more or less accepted as the norm here.). This is another accepted rule. So, for whatever value of <em>x</em> we are looking at (the number of successes). We add 0.5 if we are looking for the probability that is less than or equal to that number. We subtract 0.5 if we are looking for the probability that is greater than or equal to that number. Then the binomial can be approximated by the normal distribution with mean <em>μ</em> = <em>np</em> and standard deviation <em>σ</em> = <m>\sqrt{npq}</m>. Remember that <em>q</em> = 1 – <em>p</em>. In order to get the best approximation, add 0.5 to <em>x</em> or subtract 0.5 from <em>x</em> (use <em>x</em> + 0.5 or <em>x</em> – 0.5).</p>
-        <p>This is another accepted rule. So, for whatever value of <em>x</em> we are looking at (the number of successes). We add 0.5 if we are looking for the probability that is less than or equal to that number. We subtract 0.5 if we are looking for the probability that is greater than or equal to that number. The number 0.5 is called the <term xml:id="ch7-term-00007">continuity correction factor</term> and is used in the following example.</p>
+        <p>This is another accepted rule. So, for whatever value of <em>x</em> we are looking at (the number of successes). We add 0.5 if we are looking for the probability that is less than or equal to that number. We subtract 0.5 if we are looking for the probability that is greater than or equal to that number. The number 0.5 is called the continuity correction factor and is used in the following example.</p>
       </note>
       <example xml:id="ch7-eip--831">
         <statement>
@@ -1455,7 +1455,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
   </subsection>
   <subsection xml:id="ch7-fs-idm65344016">
     <p><em>Use the following information to answer the next 10 exercises:</em> A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely, so the distribution of weights is uniform. A sample of 100 weights is taken.</p>
-    <exercise xml:id="exercise4">
+    <exercise xml:id="ch7-exercise4">
       <statement>
         <ol xml:id="ch7-fs-idm44419104">
           <li>What is the distribution for the weights of one 25-pound lifting weight? What are the mean and standard deviation?</li>
@@ -1476,7 +1476,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
         <p>Draw the graph of .</p>
       </statement>
     </exercise>
-    <exercise xml:id="exercise6">
+    <exercise xml:id="ch7-exercise6">
       <statement>
         <p>Find the probability that the mean actual weight for the 100 weights is greater than 25.2.</p>
       </statement>
@@ -1489,7 +1489,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
         <p>Draw the graph of .</p>
       </statement>
     </exercise>
-    <exercise xml:id="exercise8">
+    <exercise xml:id="ch7-exercise8">
       <statement>
         <p>Find the 90<m>^{th}</m> percentile for the mean weight for the 100 weights.</p>
       </statement>
@@ -1502,7 +1502,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
         <p>Draw the graph of .</p>
       </statement>
     </exercise>
-    <exercise xml:id="exercise10">
+    <exercise xml:id="ch7-exercise10">
       <statement>
         <ol xml:id="ch7-fs-idm21659936">
           <li>What is the distribution for the sum of the weights of 100 25-pound lifting weights?</li>
@@ -1516,12 +1516,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
         </ol>
       </solution>
     </exercise>
-    <exercise xml:id="exercise11">
+    <exercise xml:id="ch7-exercise11">
       <statement>
         <p>Draw the graph of .</p>
       </statement>
     </exercise>
-    <exercise xml:id="exercise12">
+    <exercise xml:id="ch7-exercise12">
       <statement>
         <p>Find the 90<m>^{th}</m> percentile for the total weight of the 100 weights.</p>
       </statement>
