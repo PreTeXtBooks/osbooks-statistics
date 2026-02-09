@@ -548,7 +548,7 @@
         <em>X</em>
         , simply multiply each value of the random variable by its probability and add the products. The formula is given as
 
-        <m>E(X)=μ=\sumxP(x)\text{.}</m>
+        <m>E(X)=\mu=\sum x P(x)\text{.}</m>
         
 
       </p>
@@ -645,7 +645,7 @@
     </example>
     <p xml:id="fs-id1164567592732">
       As you learned in 
-      <xref ref="m79609">Chapter 3</xref>
+      <xref ref="ch03-probability-topics">Chapter 3</xref>
       , if you toss a fair coin, the probability that the result is heads is 0.5. This probability is a theoretical probability, which is what we expect to happen. This probability does not describe the short-term results of an experiment. If you flip a coin two times, the probability does not tell you that these flips will result in one head and one tail. Even if you flip a coin 10 times or 100 times, the probability does not tell you that you will get half tails and half heads. The probability gives information about what can be expected in the long term. To demonstrate this, Karl Pearson once tossed a fair coin 24,000 times! He recorded the results of each toss, obtaining heads 12,012 times. The relative frequency of heads is 12,012/24,000 = .5005, which is very close to the theoretical probability .5. In his experiment, Pearson illustrated the law of large numbers.
     </p>
     <p xml:id="fs-id1164566050803">The law of large numbers</p>
@@ -1454,9 +1454,7 @@
             <p xml:id="fs-idm82328592">
               Toss a fair, six-sided die twice. Let 
               <em>X</em>
-               = the number of faces that show an even number. Construct a table like 
-              <url/>
-               and calculate the mean 
+               = the number of faces that show an even number. Construct a table like <xref ref="fs-idm71508016"/> and calculate the mean 
               <em>μ</em>
                and standard deviation 
               <em>σ</em>
@@ -1643,11 +1641,11 @@
     <title>Formula Review</title>
     <p xml:id="fs-idm6265952">
       Mean or Expected Value: 
-      <m>μ=(\sum)^{\text{​}}_{x\inX}xP(x)</m>
+      <m>\mu = \sum_{x \in X} x P(x)</m>
     </p>
     <p xml:id="fs-idm133403024">
       Standard Deviation: 
-      <m>σ=\sqrt{(\sum)^{\text{​}}_{x\inX}((x−μ))^{2}P(x)}</m>
+      <m>\sigma = \sqrt{\sum_{x \in X} (x-\mu)^{2} P(x)}</m>
     </p>
   </subsection>
   <subsection xml:id="fs-idm82465552">
@@ -2072,7 +2070,7 @@
       <statement>
         <p xml:id="fs-idp78893136">
           Complete 
-          <url/>
+          <xref ref="M02_Ch04_tbl021"/>
            using the data provided.
         </p>
         <table xml:id="M02_Ch04_tbl021">
@@ -2473,7 +2471,7 @@
       <statement>
         <p xml:id="fs-idp13631152">
           Suppose that the PDF for the number of years it takes to earn a bachelor of science (B.S.) degree is given as in 
-          <url/>
+          <xref ref="id488jhjhj72479"/>
           .
         </p>
         <table xml:id="id488jhjhj72479">
