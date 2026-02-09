@@ -74,7 +74,7 @@
       <figure xml:id="fig-ch05-01-03">
         <caption>The graph shows the standard normal distribution with the area between <em>x</em> = 1 and <em>x</em> = 2 shaded to represent the probability that the value of the random variable <em>X</em> is in the interval between one and two.</caption>
         <image source="media/fig-ch05_01_03.jpg" width="80%">
-          <description>This graph shows an exponential distribution. The graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph. The region under the graph from x = 2 to x = 4 is shaded to represent P(2 &lt; x &lt; 4).</description>
+          <description>This graph shows a bell-shaped normal distribution curve. The symmetric graph reaches maximum height at x = 0 and slopes downward gradually to the x-axis on each side of the peak. The region under the curve between x = 1 and x = 2 is shaded to represent P(1 &lt; x &lt; 2).</description>
         </image>
       </figure>
     </subsection>
@@ -412,7 +412,7 @@
     <p xml:id="element-13">The notation for the uniform distribution is</p>
     <p xml:id="element-746"><em>X</em> ~ <em>U</em>(<em>a</em>, <em>b</em>) where <em>a</em> = the lowest value of <em>x</em> and <em>b</em> = the highest value of <em>x</em>.</p>
     <p xml:id="eip-720">The probability density function is
-<em>f</em>(<em>x</em>) =  <m>\frac{1}{b-a}</m> for <em>a</em> ≤ <em>x</em> ≤ <em>b</em>.</p>
+<em>f</em>(<em>x</em>) =  <m>\frac{1}{b-a}</m> for <em>a</em> ≤ <em>x</em> ≤ <em>b</em>, and <em>f</em>(<em>x</em>) = 0 otherwise.</p>
     <p xml:id="element-500">For this example, <em>X</em> ~ <em>U</em>(0, 23) and <em>f</em>(<em>x</em>) = <m>\frac{1}{23-0}</m> for 0 ≤ <em>X</em> ≤ 23.</p>
     <p xml:id="element-771">Formulas for the theoretical mean and standard deviation are</p>
     <men xml:id="fs-id1164563448999">μ=\frac{a+b}{2}andσ=\sqrt{\frac{(b-a)^{2}}{12}}</men>
@@ -532,8 +532,7 @@ for 0 ≤ <em>x</em> ≤ 15.</p>
     <exercise xml:id="element-375">
       <title>Try It</title>
       <statement>
-        <p xml:id="element-44">c. Ninety percent of the time, the minutes a person must wait falls below what value?
- [Note: th]</p>
+        <p xml:id="element-44">c. Ninety percent of the time, the minutes a person must wait falls below what value?</p>
       </statement>
       <solution>
         <p xml:id="element-12">c. Find the 90<sup>th</sup> percentile. Draw a graph. Let <em>k</em> = the 90<sup>th</sup> percentile.
@@ -692,7 +691,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
     <p xml:id="element-429">The mean is <m>μ=\frac{a+b}{2}.</m></p>
     <p xml:id="element-311">The standard deviation is <m>σ=\sqrt{\frac{(b–a)^{2}}{12}}.</m></p>
     <p xml:id="element-104">Probability density function:
-<m>f(x)=\frac{1}{b-a}</m> for <m>a\leqX\leqb</m></p>
+<m>f(x)=\frac{1}{b-a}</m> for <m>a \leq x \leq b</m></p>
     <p xml:id="element-636">Area to the left of <em>x</em>: <em>P</em>(<em>X</em> &lt; <em>x</em>) = (<em>x</em> – <em>a</em>)<m>(\frac{1}{b-a})</m></p>
     <p xml:id="element-84">Area to the right of <em>x</em>: <em>P</em>(<em>X</em> &gt; <em>x</em>) = (<em>b</em> – <em>x</em>)<m>(\frac{1}{b-a})</m></p>
     <p xml:id="element-315">Area between <em>c</em> and <em>d</em>: <em>P</em>(<em>c</em> &lt; <em>x</em> &lt; <em>d</em>) = (base)(height) = (<em>d</em> – <em>c</em>)<m>(\frac{1}{b-a})</m></p>
@@ -1023,7 +1022,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         <ol marker="a">
           <li><em>X</em> ~ <em>U</em>(1, 9)</li>
           <li>Check student’s solution</li>
-          <li><m>f(x)=\frac{1}{8}</m> where <m>1\leqx\leq9</m></li>
+          <li><m>f(x)=\frac{1}{8}</m> where <m>1 \leq x \leq 9</m></li>
           <li>five</li>
           <li>2.3</li>
           <li><m>\frac{15}{32}</m></li>
@@ -1944,12 +1943,6 @@ k!
 <li>What would make this number higher than 9.848 percent?</li>
 </ol>
 </li>
-<li>Why is this number different from 9.848 percent?</li>
-<li>What would make this number higher than 9.848 percent?</li>
-</ol>
-<ol xml:id="fs-idm34527280">
-<li>Why is this number different from 9.848 percent?</li>
-<li>What would make this number higher than 9.848 percent?</li>
 </ol>
 </statement>
 </exercise>
