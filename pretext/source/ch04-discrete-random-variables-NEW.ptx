@@ -1073,7 +1073,7 @@
               (0)
               <m>\frac{4}{50}</m>
                + (1)
-              <m>\frac{4}{50}</m>
+              <m>\frac{8}{50}</m>
                + (2)
               <m>\frac{16}{50}</m>
                + (3)
@@ -1289,11 +1289,29 @@
             </table>
           </statement>
           <solution>
-            <p xml:id="fs-idm44109456">b.
-
-
-
- </p>
+            <p xml:id="fs-idm44109456">b.</p>
+            <table xml:id="element-644s">
+              <tabular>
+                <row header="yes">
+                  <cell/>
+                  <cell><em>x</em></cell>
+                  <cell><em>P</em>(<em>x</em>)</cell>
+                  <cell><em>xP</em>(<em>x</em>)</cell>
+                </row>
+                <row>
+                  <cell>WIN</cell>
+                  <cell>10</cell>
+                  <cell><m>\frac{1}{3}</m></cell>
+                  <cell><m>\frac{10}{3}</m></cell>
+                </row>
+                <row>
+                  <cell>LOSE</cell>
+                  <cell>–6</cell>
+                  <cell><m>\frac{2}{3}</m></cell>
+                  <cell><m>\frac{–12}{3}</m></cell>
+                </row>
+              </tabular>
+            </table>
           </solution>
         </exercise>
         <exercise xml:id="element-737">
