@@ -83,9 +83,1358 @@
 
   <section xml:id="sec-single-population-mean-known-stddev">
     <title>A Single Population Mean using the Normal Distribution</title>
-    <p>
-      Content to be added from module m79653.
+    
+    <p xml:id="eip-351">A confidence interval for a population mean with a known standard deviation is based on the fact that the sample means follow an approximately normal distribution. Suppose that our sample has a mean of <m>\bar{x}= 10</m> and we have constructed the 90 percent confidence interval (5, 15), where the margin of error = 5.</p>
+
+    <subsection xml:id="eip-548">
+      <title>Calculating the Confidence Interval</title>
+
+      <p xml:id="eip-id1171249700620">To construct a confidence interval for a single unknown population mean, <em>μ</em>, <em>where the population standard deviation is known</em>, we need <m>\bar{x}</m> as an estimate for <em>μ</em>, and we need the margin of error. The margin of error for the population mean is called the <term xml:id="term-00001">error bound for a population mean</term> (<em>EBM</em>). The sample mean, <m>\bar{x},</m> is the point estimate of the unknown population mean, <em>μ</em>.</p>
+
+    <p xml:id="eip-660">The confidence interval (<em>CI</em>) estimate will have the form:</p>
+
+    <p xml:id="fs-idm11177728">(point estimate – error bound, point estimate + error bound) or, in symbols, (<m>\bar{x}–EBM,\bar{x}+EBM</m>).</p>
+
+    <p xml:id="eip-id1171253180187">The margin of error (<em>EBM</em>) depends on the <term xml:id="term-00002">confidence level</term> (<em>CL</em>). The confidence level is often considered the probability that the calculated confidence interval estimate will contain the true population parameter. However, it is more accurate to state that the confidence level is the percentage of confidence intervals that contain the true population parameter when repeated samples are taken. Most often, the person constructing the confidence interval will choose a confidence level of 90 percent or higher, because that person wants to be reasonably certain of his or her conclusions.</p>
+
+    <p xml:id="fs-id1164565293557">Another probability, which is called alpha <m>(α)</m> is related to the confidence level, <em>CL</em>. Alpha is the probability that the confidence interval does not contain the unknown population parameter. Mathematically, alpha can be computed as <m>α=1−CL</m>.</p>
+
+    <example xml:id="eip-id1171253594561">
+      <ul xml:id="eip-37">
+        <li>
+          <p>Suppose we have collected data from a sample. We know the sample mean, but we do not know the mean for the entire population.</p>
+        </li>
+        <li>
+          <p>The sample mean is seven, and the error bound for the mean is 2.5.</p>
+        </li>
+      </ul>
+      <me>\bar{x}\text{and}EBM= 2.5.</me>
+      <p xml:id="eip-id1171253247744">The confidence interval is (7 – 2.5, 7 + 2.5), and calculating the values gives (4.5, 9.5).</p>
+      <p xml:id="eip-id1171248980360">If the confidence level is 95 percent, then we say, "We estimate with 95 percent confidence that the true value of the population mean is between 4.5 and 9.5."</p>
+    </example>
+
+    <note xml:id="fs-idp2956752">
+      <title>Try It</title>
+      <exercise xml:id="eip-273">
+        <statement>
+          <p xml:id="eip-488">Suppose we have data from a sample. The sample mean is 15, and the error bound for the mean is 3.2.</p>
+          <p xml:id="eip-idm56205568">What is the confidence interval estimate for the population mean?</p>
+        </statement>
+        <solution>
+          <p xml:id="eip-720">(11.8, 18.2)</p>
+        </solution>
+      </exercise>
+    </note>
+
+    <p xml:id="eip-id1171249556158">A confidence interval for a population mean with a known standard deviation is based on the fact that the sample means follow an approximately normal distribution. Suppose that our sample has a mean of <m>\bar{x}</m> = 10, and we have constructed the 90 percent confidence interval (5, 15) where <em>EBM</em> = 5.</p>
+
+    <p xml:id="eip-id1171249132425">To get a 90 percent confidence interval, we must include the central 90 percent of the probability of the normal distribution. If we include the central 90 percent, we leave out a total of <em>α</em> = 10 percent in both tails, or 5 percent in each tail, of the normal distribution.</p>
+
+    <figure xml:id="fs-idm23539888">
+      <image source="media/fig-ch08_02_01N.jpg" width="380">
+      </image>
+    </figure>
+
+    <p xml:id="fs-id1164568060052">The critical value <em>1.645</em> is the <em>z-score</em> in a standard normal probability distribution that puts an area of <em>0.90</em> in the center, an area of <em>0.05</em> in the far left tail, and an area of <em>0.05</em> in the far right tail. To capture the central 90 percent, we must go out <em>1.645 standard deviations</em> on either side of the calculated sample mean. The critical value will change depending on the confidence level of the interval.</p>
+
+    <p xml:id="eip-id1171249345209">It is important that the <em>standard deviation</em> used be appropriate for the parameter we are estimating, so in this section, we need to use the standard deviation that applies to sample means, which is <m>\frac{σ}{\sqrt{n}}</m>. The fraction <m>\frac{σ}{\sqrt{n}}</m> is commonly called the <em>standard error of the mean</em> in order to distinguish clearly the standard deviation for a mean from the population standard deviation, <em>σ</em>.</p>
+
+    <ul xml:id="eip-id1171260540557">
+      <title>In summary, as a result of the central limit theorem, the following statements apply:</title>
+      <li>
+        <p><m>\bar{X}</m> is normally distributed, that is, <m>\bar{X}</m> ~ <em>N</em><m>(μ_{X},\frac{σ}{\sqrt{n}})</m>.</p>
+      </li>
+      <li>
+        <p>When the population standard deviation <em>σ</em> is known, we use a normal distribution to calculate the error bound.</p>
+      </li>
+    </ul>
+
+    <subsection xml:id="fs-idm57905968">
+      <title>Calculating the Confidence Interval</title>
+
+      <p xml:id="fs-idp100429424">To construct a confidence interval estimate for an unknown population mean, we need data from a random sample. The steps to construct and interpret the confidence interval are as follows:</p>
+
+      <ul xml:id="eip-id1171253322089">
+        <li>
+          <p> Calculate the sample mean, <m>\bar{x},</m> from the sample data. Remember, in this section, we already know the population standard deviation, <em>σ</em>.</p>
+        </li>
+        <li>
+          <p>Find the <em>z</em>-score that corresponds to the confidence level.</p>
+        </li>
+        <li>
+          <p>Calculate the error bound <em>EBM</em>.</p>
+        </li>
+        <li>
+          <p>Construct the confidence interval.</p>
+        </li>
+        <li>
+          <p>If we denote the critical <em>z</em>-score by <m>z_{\frac{a}{2}}</m>, and the sample size by <em>n</em>, then the formula for the confidence interval with confidence level <m>Cl=1−α</m>, is given by <m>(\bar{x}−z_{\frac{a}{2}}\times\frac{σ}{\sqrt{n}},\bar{x}+z_{\frac{a}{2}}\times\frac{σ}{\sqrt{n}}).</m></p>
+        </li>
+        <li>
+          <p>Write a sentence that interprets the estimate in the context of the situation in the problem. (Explain what the confidence interval means, in the words of the problem.)</p>
+        </li>
+      </ul>
+
+      <p xml:id="eip-id1171252935175">We will first examine each step in more detail and then illustrate the process with some examples.</p>
+
+    </subsection>
+
+    <subsection xml:id="fs-idm60964192">
+      <title>Finding the <em>z</em>-Score for the Stated Confidence Level</title>
+
+      <p xml:id="fs-idp7628608">When we know the population standard deviation, <em>σ</em>, we use a standard normal distribution to calculate the error bound <em>EBM</em> and construct the confidence interval. We need to find the value of <em>z</em> that puts an area equal to the confidence level (in decimal form) in the middle of the standard normal distribution <em>Z</em> ~ <em>N</em>(0, 1).</p>
+
+      <p xml:id="eip-id1171249080440">The confidence level, <em>CL</em>, is the area in the middle of the standard normal distribution. <em>CL</em> = 1 – <em>α</em>, so <em>α</em> is the area that is split equally between the two tails. Each of the tails contains an area equal to <m>\frac{α}{2}</m>.</p>
+
+      <p xml:id="eip-id1171266449435">The <em>z</em>-score that has an area to the right of <m>\frac{α}{2}</m> is denoted by <m>z_{\frac{α}{2}}</m>.</p>
+
+      <p xml:id="eip-id1171258387350">For example, when <em>CL</em> = 0.95, <em>α</em> = 0.05, and <m>\frac{α}{2}</m> = 0.025, we write <m>z_{\frac{α}{2}}</m> = <m>z</m><sub>0.025</sub>.</p>
+
+      <p xml:id="eip-id1171262711575">The area to the right of <em>z</em><sub>0.025</sub> is 0.025 and the area to the left of <em>z</em><sub>0.025</sub> is 1 – 0.025 = 0.975.</p>
+
+      <p xml:id="eip-id1171249206094"><m>z_{\frac{α}{2}}=z_{0.025}= 1.96</m>, using a calculator, computer, or standard normal probability table.</p>
+
+      <p xml:id="fs-id1164564329685">Normal table (see appendices) shows that the probability for 0 to 1.96 is 0.47500, and so the probability to the right tail of the critical value 1.96 is 0.5 – 0.475 = 0.025</p>
+
+      <note xml:id="fs-idm6917168">
+        <p xml:id="fs-idp47831024"><c>invNorm</c>(0.975, 0, 1) = 1.96. In this command, the value 0.975 is the total area to the left of the critical value that we are looking to calculate. The parameters 0 and 1 are the mean value and the standard deviation of the standard normal distribution Z.</p>
+      </note>
+
+      <note xml:id="eip-831">
+        <title>Note</title>
+        <p xml:id="fs-idm49071376">Remember to use the area to the LEFT of <m>z_{\frac{α}{2}}</m>. In this chapter, the last two inputs in the invNorm command are 0, 1, because you are using a standard normal distribution Z with mean 0 and standard deviation 1.</p>
+      </note>
+
+    </subsection>
+
+    <subsection xml:id="fs-idp84332448">
+      <title>Calculating the Margin of Error <em>EBM</em></title>
+
+      <p xml:id="fs-idp74136672">The error bound formula for an unknown population mean, <em>μ</em>, when the population standard deviation, <em>σ</em>, is known is</p>
+
+      <p xml:id="eip-631">Margin of error = <m>(z_{\frac{α}{2}})(\frac{σ}{\sqrt{n}}).</m></p>
+
+    </subsection>
+
+    <subsection xml:id="fs-idm53546816">
+      <title>Constructing the Confidence Interval</title>
+
+      <p xml:id="eip-118">The confidence interval estimate has the format sample mean plus or minus the margin of error.</p>
+
+      <p xml:id="eip-id1171253190648">The graph gives a picture of the entire situation</p>
+
+      <p xml:id="eip-id1171259600150"><em>CL</em> + <m>\frac{α}{2}</m> + <m>\frac{α}{2}</m> = <em>CL</em> + <em>α</em> = 1.</p>
+
+      <figure xml:id="fs-idp113086400">
+        <image source="media/fig-ch08_02_02N.jpg" width="380">
+        </image>
+      </figure>
+
+    </subsection>
+
+    <subsection xml:id="fs-idm103016896">
+      <title>Writing the Interpretation</title>
+
+      <p xml:id="fs-idp86836496">The interpretation should clearly state the confidence level (<em>CL</em>), explain which population parameter is being estimated (here, a population mean), and state the confidence interval (both endpoints): "We estimate with ___percent confidence that the true population mean (include the context of the problem) is between ___ and ___ (include appropriate units)."</p>
+
+      <example xml:id="eip-id1171257291379">
+        <p xml:id="eip-id1171249543224">Suppose scores on exams in statistics are normally distributed with an unknown population mean and a population standard deviation of three points. A random sample of 36 scores is taken and gives a sample mean (sample mean score) of 68. Find a confidence interval estimate for the population mean exam score (the mean score on all exams).</p>
+        <exercise xml:id="eip-id1171264272125">
+          <statement>
+            <p xml:id="eip-id1171254920718">Find a 90 percent confidence interval for the true (population) mean of statistics exam scores.</p>
+          </statement>
+          <solution>
+            <ul xml:id="eip-id1170665387344">
+              <li>
+                <p>You can use technology to calculate the confidence interval directly.</p>
+              </li>
+              <li>
+                <p>The first solution is shown step-by-step (Solution A).</p>
+              </li>
+              <li>
+                <p>The second solution uses the TI-83, 83+, and 84+ calculators (Solution B).</p>
+              </li>
+            </ul>
+            <p xml:id="eip-id1171260460763">Solution ATo find the confidence interval, you need the sample mean, <m>\bar{x}</m>, and the <em>EBM</em>.</p>
+            <ul xml:id="eip-id1171249631187">
+              <li>
+                <p>
+<m>\bar{x}= 68</m>
+<m>EBM=(z_{\frac{α}{2}})(\frac{σ}{\sqrt{n}})</m>
+<m>σ= 3;\,n= 36;</m>
+</p>
+              </li>
+              <li>
+                <p>
+The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
+              </li>
+            </ul>
+            <me>CL= 0\text{.90, so}α= 1 –CL= 1 – 0.90 = 0.10.</me>
+            <me>\frac{α}{2}=0.05, z_{\frac{α}{2}}=z_{0.05}</me>
+            <p xml:id="eip-id1171249710090">The area to the right of <em>z</em><sub>0.05</sub> is 0.05 and the area to the left of <em>z</em><sub>0.05</sub> is 1 – 0.05 = 0.95.</p>
+            <me>z_{\frac{α}{2}}=z_{0.05}= 1.645</me>
+            <p xml:id="eip-id1171251216060">using invNorm(0.95, 0, 1) on the TI-83,83+, and 84+ calculators. This can also be found using appropriate commands on other calculators, using a computer, or using a probability table for the standard normal distribution.</p>
+            <p xml:id="eip-id1171261548281"><em>EBM</em> = (1.645)<m>(\frac{3}{\sqrt{36}})</m> = 0.8225</p>
+            <p xml:id="eip-id1171249016439"><m>\bar{x}</m> – <em>EBM</em> = 68 – 0.8225 = 67.1775</p>
+            <p xml:id="eip-id1171247927262"><m>\bar{x}</m> + <em>EBM</em> = 68 + 0.8225 = 68.8225</p>
+            <p xml:id="eip-id1171262340763">The 90 percent confidence interval is (67.1775, 68.8225).</p>
+          </solution>
+          <solution>
+            <p xml:id="eip-idm50696864">Solution B</p>
+            <note xml:id="fs-idp129429152">
+              <p xml:id="eip-542">Press <c>STAT</c> and arrow over to <c>TESTS</c>. Arrow down to <c>7:ZInterval</c>. Press <c>ENTER</c>. Arrow to <c>Stats</c> and press <c>ENTER</c>. Arrow down and enter 3 for <em>σ</em>, 68 for <m>\bar{x}</m>, 36 for <em>n</em>, and .90 for <c>C-level</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. The confidence interval is (to three decimal places)(67.178, 68.822).</p>
+            </note>
+            <p xml:id="eip-id1171248950887">InterpretationWe estimate with 90 percent confidence that the true population mean exam score for all statistics students is between 67.18 and 68.82.</p>
+            <p xml:id="eip-id1171264042411">Explanation of 90 percent Confidence Level Ninety percent of all confidence intervals constructed in this way contain the true mean statistics exam score. For example, if we constructed 100 of these confidence intervals, we would expect 90 of them to contain the true population mean exam score.</p>
+          </solution>
+        </exercise>
+      </example>
+
+      <note xml:id="fs-idm85249264">
+        <title>Try It</title>
+        <p xml:id="eip-idm104826624">Suppose average pizza delivery times are normally distributed with an unknown population mean and a population standard deviation of 6 minutes. A random sample of 28 pizza delivery restaurants is taken and has a sample mean delivery time of 36 min.</p>
+        <exercise xml:id="eip-24">
+          <statement>
+            <p xml:id="eip-887">Find a 90 percent confidence interval estimate for the population mean delivery time.</p>
+          </statement>
+          <solution>
+            <p xml:id="eip-637">(34.1347, 37.8653)</p>
+          </solution>
+        </exercise>
+      </note>
+
+      <example xml:id="example3">
+        <p xml:id="eip-431">The specific absorption rate (SAR) for a cell phone measures the amount of radio frequency (RF) energy absorbed by the user’s body when using the handset. Every cell phone emits RF energy. Different phone models have different SAR measures. For certification from the Federal Communications Commission for sale in the United States, the SAR level for a cell phone must be no more than 1.6 watts per kilogram. <xref ref="M02_CH08-tbl001"></xref> shows the highest SAR level for a random selection of cell phone models of a random cell phone company.</p>
+        <exercise xml:id="eip-377">
+          <statement>
+            <p xml:id="eip-289">Find a 98 percent confidence interval for the true (population) mean of the SARs for cell phones. Assume that the population standard deviation is <em>σ</em> = 0.337.</p>
+          </statement>
+          <solution>
+            <p xml:id="eip-303">Solution ATo find the confidence interval, start by finding the point estimate: the sample mean,</p>
+            <me>\bar{x}=1.024.</me>
+            <p xml:id="fs-id1164564438742">This is calculated by adding the specific absorption rate for the 30 cell phones in the sample, and dividing the result by 30.</p>
+            <p xml:id="eip-idm41535920">Next, find the <em>EBM</em>. Because you are creating a 98 percent confidence interval, <em>CL</em> = 0.98.</p>
+            <figure xml:id="fs-idp138152784">
+              <image source="media/CNX_Stats_C08_M02_001.jpg" width="380">
+              </image>
+            </figure>
+            <p xml:id="eip-idp4350608">You need to find <em>z</em><sub>0.01</sub>, having the property that the area under the normal density curve to the right of <em>z</em><sub>0.01</sub> is 0.01 and the area to the left is 0.99. Use your calculator, a computer, or a probability table for the standard normal distribution to find <em>z</em><sub>0.01</sub> = 2.326.</p>
+            <me>EBM=(z_{0.01})\frac{σ}{\sqrt{n}}=(2.326)\frac{0.337}{\sqrt{30}}=0.1431</me>
+            <p xml:id="eip-idm15410192">To find the 98 percent confidence interval, find <m>\bar{x}\pmEBM</m>.</p>
+            <me>\bar{x}–EBM= 1.024 – 0.1431 = 0.8809</me>
+            <me>\bar{x}+EBM= 1.024 + 0.1431 = 1.1671</me>
+            <p xml:id="eip-idm89961264">We estimate with 98 percent confidence that the true SAR mean for the population of cell phones in the United States is between 0.8809 and 1.1671 watts per kilogram.</p>
+          </solution>
+          <solution>
+            <p xml:id="eip-idm52012352">Solution B</p>
+            <note xml:id="fs-idm71087104">
+              <ul xml:id="eip-idp8586624">
+                <li>
+                  <p>Press STAT and arrow over to TESTS.</p>
+                </li>
+                <li>
+                  <p>Arrow down to 7:ZInterval.</p>
+                </li>
+                <li>
+                  <p>Press ENTER.</p>
+                </li>
+                <li>
+                  <p>Arrow to Stats and press ENTER.</p>
+                </li>
+                <li>
+                  <p>Arrow down and enter the following values:
+    <em>σ</em>: 0.337
+    <m>\bar{x}:1.024</m>
+    <em>n</em>: 30
+    <em>C</em>-level: 0.98
     </p>
+                </li>
+                <li>
+                  <p>Arrow down to Calculate and press ENTER.</p>
+                </li>
+                <li>
+                  <p>The confidence interval is (to three decimal places) (0.881, 1.167).</p>
+                </li>
+              </ul>
+            </note>
+          </solution>
+        </exercise>
+      </example>
+
+      <note xml:id="fs-idp77326048">
+        <title>Try It</title>
+        <exercise xml:id="eip-158">
+          <statement>
+            <p xml:id="eip-136"><xref ref="M02_CH08-tbl002"></xref> shows a different random sampling of 20 cell phone models. Use these data to calculate a 93 percent confidence interval for the true mean SAR for cell phones certified for use in the United States. As previously, assume that the population standard deviation is <em>σ</em> = 0.337.</p>
+            <table xml:id="M02_CH08-tbl002">
+              <tabular halign="l l l l">
+                <row header="yes">
+                  <cell>Phone Model</cell>
+                  <cell>SAR</cell>
+                  <cell>Phone Model</cell>
+                  <cell>SAR</cell>
+                </row>
+                <row>
+                  <cell>450</cell>
+                  <cell>1.48</cell>
+                  <cell>1450</cell>
+                  <cell>1.53</cell>
+                </row>
+                <row>
+                  <cell>550</cell>
+                  <cell>0.8</cell>
+                  <cell>1550</cell>
+                  <cell>0.68</cell>
+                </row>
+                <row>
+                  <cell>650</cell>
+                  <cell>1.15</cell>
+                  <cell>1650</cell>
+                  <cell>1.4</cell>
+                </row>
+                <row>
+                  <cell>750</cell>
+                  <cell>1.36</cell>
+                  <cell>1750</cell>
+                  <cell>1.24</cell>
+                </row>
+                <row>
+                  <cell>850</cell>
+                  <cell>0.77</cell>
+                  <cell>1850</cell>
+                  <cell>0.57</cell>
+                </row>
+                <row>
+                  <cell>950</cell>
+                  <cell>0.462</cell>
+                  <cell>1950</cell>
+                  <cell>0.2</cell>
+                </row>
+                <row>
+                  <cell>1050</cell>
+                  <cell>1.36</cell>
+                  <cell>2050</cell>
+                  <cell>0.51</cell>
+                </row>
+                <row>
+                  <cell>1150</cell>
+                  <cell>1.39</cell>
+                  <cell>2150</cell>
+                  <cell>0.3</cell>
+                </row>
+                <row>
+                  <cell>1250</cell>
+                  <cell>1.3</cell>
+                  <cell>2250</cell>
+                  <cell>0.73</cell>
+                </row>
+                <row>
+                  <cell>1350</cell>
+                  <cell>0.7</cell>
+                  <cell>2350</cell>
+                  <cell>0.869</cell>
+                </row>
+              </tabular>
+            </table>
+          </statement>
+          <solution>
+            <p xml:id="eip-idm8029072"><m>\bar{x}=0.940</m></p>
+            <p xml:id="eip-idm18738416"><m>\frac{α}{2}=\frac{1−CL}{2}=\frac{1−0.93}{2}=0.035</m></p>
+            <p xml:id="eip-idp62671024"><em>Z</em><sub>0.035</sub> = 1.812</p>
+            <p xml:id="eip-idm34184544"><m>EBM=(z_{0.035})(\frac{σ}{\sqrt{n}})=(1.812)(\frac{0.337}{\sqrt{20}})=0.1365</m></p>
+            <p xml:id="eip-idp96595104"><m>\bar{x}</m> – <em>EBM</em> = 0.940 – 0.1365 = 0.8035</p>
+            <p xml:id="eip-idm76412160"><m>\bar{x}</m> + <em>EBM</em> = 0.940 + 0.1365 = 1.0765</p>
+            <p xml:id="eip-idp5304336">We estimate with 93 percent confidence that the true SAR mean for the population of cell phones in the United States is between 0.8035 and 1.0765 watts per kilogram.</p>
+          </solution>
+        </exercise>
+      </note>
+
+      <p xml:id="eip-idp5304592">Notice the difference in the confidence intervals calculated in <xref ref="example3"></xref> and the following <xref ref="fs-idp77326048">Try It</xref> exercise. These intervals are different for several reasons: they are calculated from different samples, the samples are different sizes, and the intervals are calculated for different levels of confidence. Even though the intervals are different, they do not yield conflicting information. The effects of these kinds of changes are the subject of the next section in this chapter.</p>
+
+    </subsection>
+
+    <subsection xml:id="eip-783">
+      <title>Changing the Confidence Level or Sample Size</title>
+
+      <example xml:id="element-1217">
+        <exercise xml:id="element-971">
+          <statement>
+            <p xml:id="element-214">Suppose we change the original problem in <xref ref="eip-id1171257291379"></xref> by using a 95 percent confidence level. Find a 95 percent confidence interval for the true (population) mean statistics exam score.</p>
+          </statement>
+          <solution>
+            <p xml:id="element-701">To find the confidence interval, you need the sample mean, <m>\bar{x}</m>, and the <em>EBM</em>.</p>
+            <ul xml:id="element-5">
+              <li>
+                <p><m>\bar{x}= 68</m><m>EBM=(z_{\frac{α}{2}})(\frac{σ}{\sqrt{n}})</m><m>σ= 3;\,n= 36</m></p>
+              </li>
+              <li>
+                <p>The confidence level is 95 percent (<em>CL</em> = 0.95).</p>
+              </li>
+            </ul>
+            <me>CL= 0\text{.95, so}α= 1 –CL= 1 – 0.95 = 0.05.</me>
+            <me>\frac{α}{2}=0.025z_{\frac{α}{2}}=z_{0.025}</me>
+            <p xml:id="element-370">The area to the right of <m>z</m><sub>0.025</sub> is 0.025, and the area to the left of <m>z</m><sub>0.025</sub> is 1 – 0.025 = 0.975.</p>
+            <me>z_{\frac{α}{2}}=z_{0.025}=1.96,</me>
+            <p xml:id="fs-idm2686672">when using invnorm(0.975,0,1) on the TI-83, 83+, or 84+ calculators. (This can also be found using appropriate commands on other calculators, using a computer, or using a probability table for the standard normal distribution.)</p>
+            <me>EBM= (1.96)(\frac{3}{\sqrt{36}})= 0.98</me>
+            <me>\bar{x}–EBM= 68 – 0.98 = 67.02</me>
+            <me>\bar{x}+EBM= 68 + 0.98 = 68.98</me>
+            <p xml:id="fs-idp120322464">Notice that the <em>EBM</em> is larger for a 95 percent confidence level in the original problem.</p>
+            <p xml:id="fs-idp25970000">InterpretationWe estimate with 95 percent confidence that the true population mean for all statistics exam scores is between 67.02 and 68.98.</p>
+            <p xml:id="fs-idp48227696">Explanation of 95 percent Confidence Level95 percent of all confidence intervals constructed in this way contain the true value of the population mean statistics exam score.</p>
+            <p xml:id="fs-idp38701776">Comparing the ResultsThe 90 percent confidence interval is (67.18, 68.82). The 95 percent confidence interval is (67.02, 68.98). The 95 percent confidence interval is wider. If you look at the graphs, because the area 0.95 is larger than the area 0.90, it makes sense that the 95 percent confidence interval is wider. For more certainty that the confidence interval actually does contain the true value of the population mean for all statistics exam scores, the confidence interval necessarily needs to be wider.</p>
+            <figure xml:id="conf_intvls_cfpm3">
+              <image source="media/fig-ch08_02_03.jpg" width="450">
+              </image>
+            </figure>
+            <ul xml:id="eip-703">
+              <title>Summary: Effect of Changing the Confidence Level</title>
+              <li>
+                <p>Increasing the confidence level increases the error bound, making the confidence interval wider.</p>
+              </li>
+              <li>
+                <p>Decreasing the confidence level decreases the error bound, making the confidence interval narrower.</p>
+              </li>
+            </ul>
+          </solution>
+        </exercise>
+      </example>
+
+      <note xml:id="fs-idm35811600">
+        <title>Try It</title>
+        <exercise xml:id="eip-847">
+          <statement>
+            <p xml:id="eip-idp138029248">Refer back to the pizza-delivery <xref ref="fs-idm85249264">Try It</xref> exercise. The population standard deviation is six minutes and the sample mean deliver time is 36 minutes. Use a sample size of 20. Find a 95 percent confidence interval estimate for the true mean pizza-delivery time.</p>
+          </statement>
+          <solution>
+            <p xml:id="eip-145">(33.37, 38.63)</p>
+          </solution>
+        </exercise>
+      </note>
+
+    </subsection>
+
+    <example xml:id="element-542">
+      <p xml:id="element-338">Suppose we change the original problem in <xref ref="eip-id1171257291379"></xref> to see what happens to the error bound if the sample size is changed.</p>
+      <exercise xml:id="element-442">
+        <statement>
+          <p xml:id="element-98">Leave everything the same except the sample size. Use the original 90 percent confidence level. What happens to the error bound and the confidence interval if we increase the sample size and use <em>n</em> = 100 instead of <em>n</em> = 36? What happens if we decrease the sample size to <em>n</em> = 25 instead of <em>n</em> = 36?</p>
+          <ul xml:id="element-119">
+            <li>
+              <p><m>\bar{x}</m> = 68</p>
+            </li>
+            <li>
+              <p><em>EBM</em> = <m>(z_{\frac{α}{2}})(\frac{σ}{\sqrt{n}})</m></p>
+            </li>
+            <li>
+              <p><em>σ</em> = 3, the confidence level is 90 percent (<em>CL</em> = 0.90), <m>z_{\frac{α}{2}}</m> = <em>z</em><sub>0.05</sub> = 1.645.</p>
+            </li>
+          </ul>
+        </statement>
+        <solution>
+          <p xml:id="element-124">Solution AIf we <em>increase</em> the sample size <em>n</em> to 100, we <em>decrease</em> the margin of error.</p>
+          <p xml:id="element-412">When <em>n</em> = 100, <em>EBM</em> = <m>(z_{\frac{α}{2}})(\frac{σ}{\sqrt{n}})</m> = (1.645)<m>(\frac{3}{\sqrt{100}})</m> = 0.4935.</p>
+        </solution>
+        <solution>
+          <p xml:id="element-125">Solution BIf we <em>decrease</em> the sample size <em>n</em> to 25, we <em>increase</em> the error bound.</p>
+          <p xml:id="element-9">When <em>n</em> = 25, <em>EBM</em> = <m>(z_{\frac{α}{2}})(\frac{σ}{\sqrt{n}})</m> = (1.645)<m>(\frac{3}{\sqrt{25}})</m> = 0.987.</p>
+        </solution>
+      </exercise>
+    </example>
+
+    <note xml:id="fs-idm59608800">
+      <title>Try It</title>
+      <exercise xml:id="eip-159">
+        <statement>
+          <p xml:id="eip-929">Refer back to the pizza-delivery <xref ref="fs-idm85249264">Try It</xref> exercise. The mean delivery time is 36 minutes and the population standard deviation is six minutes. Assume the sample size is changed to 50 restaurants with the same sample mean. Find a 90 percent confidence interval estimate for the population mean delivery time.</p>
+        </statement>
+        <solution>
+          <p xml:id="eip-790">(34.6041, 37.3958)</p>
+        </solution>
+      </exercise>
+    </note>
+
+    </subsection>
+
+    <subsection xml:id="eip-951">
+      <title>Working Backward to Find the Error Bound or Sample Mean</title>
+
+      <p xml:id="eip-719">When we calculate a confidence interval, we find the sample mean, calculate the error bound, and use them to calculate the confidence interval. However, sometimes when we read statistical studies, the study may state the confidence interval only. If we know the confidence interval, we can work backward to find both the error bound and the sample mean.</p>
+
+    <ul xml:id="eip-109">
+      <title>Finding the Error Bound</title>
+      <li>
+        <p>From the upper value for the interval, subtract the sample mean,</p>
+      </li>
+      <li>
+        <p>Or, from the upper value for the interval, subtract the lower value. Then divide the difference by 2.</p>
+      </li>
+    </ul>
+
+    <ul xml:id="eip-364">
+      <title>Finding the Sample Mean</title>
+      <li>
+        <p>Subtract the error bound from the upper value of the confidence interval,</p>
+      </li>
+      <li>
+        <p>Or, average the upper and lower endpoints of the confidence interval.</p>
+      </li>
+    </ul>
+
+    <p xml:id="eip-117">Notice that there are two methods to perform each calculation. You can choose the method that is easier to use with the information you know.</p>
+
+    <example xml:id="eip-209">
+      <p xml:id="element-108">Suppose we know that a confidence interval is (67.18, 68.82) and we want to find the error bound. We may know that the sample mean is 68, or perhaps our source only gives the confidence interval and does not tell us the value of the sample mean.</p>
+      <ul xml:id="element-733">
+        <title>Calculate the error bound:</title>
+        <li>
+          <p>If we know that the sample mean is 68, <em>EBM</em> = 68.82 – 68 = 0.82.</p>
+        </li>
+        <li>
+          <p>If we do not know the sample mean, <em>EBM</em> = <m>\frac{(68.82−67.18)}{2}</m> = 0.82. The margin of error is the quantity that we add and subtract from the sample mean to obtain the confidence interval. Therefore, the margin of error is half of the length of the interval.</p>
+        </li>
+      </ul>
+      <ul xml:id="fs-idm83129664">
+        <title>Calculate the sample mean:</title>
+        <li>
+          <p>If we know the error bound,
+    <m>\bar{x}</m> = 68.82 – 0.82 = 68.</p>
+        </li>
+        <li>
+          <p>If we do not know the error bound, <m>\bar{x}</m> = <m>\frac{(67.18+68.82)}{2}</m> = 68.</p>
+        </li>
+      </ul>
+    </example>
+
+    <note xml:id="fs-idm38498176">
+      <title>Try It</title>
+      <exercise xml:id="eip-998">
+        <statement>
+          <p xml:id="eip-94">Suppose we know that a confidence interval is (42.12, 47.88). Find the error bound and the sample mean.</p>
+        </statement>
+        <solution>
+          <p xml:id="eip-456">Sample mean is 45, error bound is 2.88</p>
+        </solution>
+      </exercise>
+    </note>
+
+    </subsection>
+
+    <subsection xml:id="eip-724">
+      <title>Calculating the Sample Size <em>n</em></title>
+
+      <p xml:id="eip-630">If researchers desire a specific margin of error, then they can use the error bound formula to calculate the required sample size. In this situation, we are given the desired margin of error, <em>EBM</em>, and we need to compute the sample size <em>n</em>.</p>
+
+    <p xml:id="eip-975">The formula for sample size is <em>n</em> = <m>\frac{z^{2}σ^{2}}{EBM^{2}}</m>, found by solving the error bound formula for <em>n</em>. Always round up the value of <em>n</em> to the closest integer.</p>
+
+    <p xml:id="eip-409">In this formula, <em>z</em> is the critical value <m>z_{\frac{α}{2}}</m>, corresponding to the desired confidence level. A researcher planning a study who wants a specified confidence level and error bound can use this formula to calculate the size of the sample needed for the study.</p>
+
+    <example xml:id="eip-324">
+      <p xml:id="eip-796">The population standard deviation for the age of Foothill College students is 15 years. If we want to be 95 percent confident that the sample mean age is within two years of the true population mean age of Foothill College students, how many randomly selected Foothill College students must be surveyed?</p>
+      <ul xml:id="eip-110">
+        <li>
+          <p>From the problem, we know that <em>σ</em> = 15 and <em>EBM</em> = 2.</p>
+        </li>
+        <li>
+          <p><em>z</em> = <em>z</em><sub>0.025</sub> = 1.96, because the confidence level is 95 percent.</p>
+        </li>
+      </ul>
+      <ul xml:id="eip-501">
+        <li>
+          <p><em>n</em> = <m>\frac{z^{2}σ^{2}}{EBM^{2}}</m> = <m>\frac{(1.96)^{2}(15)^{2}}{2^{2}}</m> = 216.09 using the sample size equation.</p>
+        </li>
+        <li>
+          <p> Use <em>n</em> = 217. Always round the answer up to the next higher integer to ensure that the sample size is large enough.</p>
+        </li>
+      </ul>
+      <p xml:id="eip-893">Therefore, 217 Foothill College students should be surveyed in order to be 95 percent confident that we are within two years of the true population mean age of Foothill College students.</p>
+    </example>
+
+    <note xml:id="fs-idm26211984">
+      <title>Try It</title>
+      <exercise xml:id="eip-669">
+        <statement>
+          <p xml:id="eip-731">The population standard deviation for the height of high school basketball players is three inches. If we want to be 95 percent confident that the sample mean height is within one inch of the true population mean height, how many randomly selected students must be surveyed?</p>
+        </statement>
+        <solution>
+          <p xml:id="eip-792">35 students</p>
+        </solution>
+      </exercise>
+    </note>
+
+    </subsection>
+
+    <subsection xml:id="eip-493">
+      <title>References</title>
+
+      <p xml:id="fs-id1164565427842">Centers for Disease Control and Prevention. (n.d.). <em>National health and nutrition examination survey</em>. Retrieved from http://www.cdc.gov/nchs/nhanes.htm</p>
+
+    <p xml:id="fs-id1164567894793">Foothill De Anza Community College District. (n.d.). <em>Headcount enrollment trends by student demographics ten-year fall trends to most recently completed fall</em>. Retrieved from http://research.fhda.edu/factbook/FH_Demo_Trends/FoothillDemographicTrends.htm</p>
+
+    <p xml:id="fs-id1164567909600">Kuczmarski, R. J., et al. (2002). <em>2000 CDC growth charts for the United States: Methods and development</em>. Retrieved from http://www.cdc.gov/growthcharts/2000growthchart-us.pdf</p>
+
+    <p xml:id="fs-id1164565466381">La, L., and; German, K. (n.d.). Cell phones with the highest radiation levels. <em>CNET</em>. Retrieved from http://reviews.cnet.com/cell-phone-radiation-levels/</p>
+
+    <p xml:id="fs-id1164567926005">U.S. Census Bureau. (n.d.). <em>American FactFinder</em>. Retrieved from http://factfinder2.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t</p>
+
+    <p xml:id="fs-id1164565474634">U.S. Census Bureau. (2011). <em>Mean income in the past 12 months (in 2011 inflation-adjusted dollars): 2011 American Community Survey 1-year estimates</em>. Retrieved from http://factfinder2.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_11_1YR_S1902&amp;prodType=table</p>
+
+    <p xml:id="fs-id1164564473393">U.S. Federal Election Commission. (n.d.). <em>Disclosure data catalog: Candidate summary report 2012</em>. Retrieved from http://www.fec.gov/data/CandidateSummary.do?format=html&amp;election_yr=2012</p>
+
+      <p xml:id="fs-id1164567298151">U.S. Federal Election Commission. (n.d.). <em>Metadata description of candidate summary file</em>. Retrieved from http://www.fec.gov/finance/disclosure/metadata/metadataforcandidatesummary.shtml</p>
+
+    </subsection>
+
+    <subsection xml:id="eip-710">
+      <title>Chapter Review</title>
+
+      <p xml:id="eip-120">In this module, we learned how to calculate the confidence interval for a single population mean where the population standard deviation is known. When estimating a population mean, the margin of error is called the error bound for a population mean (<em>EBM</em>). A confidence interval has the general form</p>
+
+    <p xml:id="fs-idm46112">(lower bound, upper bound) = (point estimate – <em>EBM</em>, point estimate + <em>EBM</em>).</p>
+
+    <p xml:id="eip-430">The calculation of <em>EBM</em> depends on the size of the sample and the level of confidence desired. The confidence level is the percentage of all possible samples that can be expected to include the true population parameter. As the confidence level increases, the corresponding <em>EBM</em> increases as well. As the sample size increases, the <em>EBM</em> decreases. By the central limit theorem,</p>
+
+    <p xml:id="fs-idm70707712"><m>EBM=z\frac{σ}{\sqrt{n}.}</m></p>
+
+    <p xml:id="eip-974">Given a confidence interval, you can work backward to find the error bound (<em>EBM</em>) or the sample mean. To find the error bound, find the difference of the upper bound of the interval and the mean. If you do not know the sample mean, you can find the error bound by calculating half of the difference of the upper and lower bounds. To find the sample mean given a confidence interval, find the difference of the upper bound and the error bound. If the error bound is unknown, then average the upper and lower bounds of the confidence interval to find the sample mean.</p>
+
+    <p xml:id="eip-211">Sometimes researchers know in advance that they want to estimate a population mean within a specific margin of error for a given level of confidence. In that case, solve the <em>EBM</em> formula for <em>n</em> to discover the size of the sample that is needed to achieve this goal:</p>
+
+    <me>n= \frac{z^{2}σ^{2}}{EBM^{2}}</me>
+
+    </subsection>
+
+    <subsection xml:id="eip-669">
+      <title>Formula Review</title>
+
+      <p xml:id="eip-524"><m>\bar{X}~N(μ_{X},\frac{σ}{\sqrt{n}})</m> The distribution of sample means is normally distributed with mean equal to the population mean and standard deviation given by the population standard deviation divided by the square root of the sample size.</p>
+
+    <p xml:id="eip-461">The general form for a confidence interval for a single population mean, known standard deviation, normal distribution is given by (lower bound, upper bound) = (point estimate – <em>EBM</em>, point estimate + <em>EBM</em>)</p>
+
+    <me>=(\bar{x}−EBM,\bar{x}+EBM)</me>
+
+    <me>=(\bar{x}−z\frac{σ}{\sqrt{n}},\bar{x}+z\frac{σ}{\sqrt{n}}).</me>
+
+    <p xml:id="eip-880"><em>EBM</em> = <m>z\frac{σ}{\sqrt{n}}</m> = the error bound for the mean, or the margin of error for a single population mean; this formula is used when the population standard deviation is known.</p>
+
+    <p xml:id="eip-277"><em>CL</em> = confidence level, or the proportion of confidence intervals created that is expected to contain the true population parameter</p>
+
+    <p xml:id="eip-401"><em>α</em> = 1 – <em>CL</em> = the proportion of confidence intervals that will not contain the population parameter</p>
+
+    <p xml:id="eip-468"><m>z_{\frac{α}{2}}</m> = the <em>z</em>-score with the property that the area to the right of the <em>z</em>-score is <m>\frac{∝}{2}</m>; this is the <em>z</em>-score, used in the calculation of <em>EBM</em>, where α = 1 – <em>CL</em>.</p>
+
+    <p xml:id="eip-709"><em>n</em> = <m>\frac{z^{2}σ^{2}}{EBM^{2}}</m> = the formula used to determine the sample size (<em>n</em>) needed to achieve a desired margin of error at a given level of confidence</p>
+
+    <p xml:id="eip-73">General form of a confidence interval</p>
+
+    <p xml:id="fs-idp49175936">(lower value, upper value) = (point estimate error bound, point estimate + error bound)</p>
+
+    <p xml:id="eip-863">To find the error bound when you know the confidence interval,</p>
+
+    <p xml:id="eip-622">error bound = upper value point estimate <alert>or</alert> error bound = <m>\frac{\text{upper value}−\text{lower value}}{2}.</m></p>
+
+    <p xml:id="eip-531">Single population mean, known standard deviation, normal distribution</p>
+
+    <p xml:id="eip-212">Use the normal distribution for means; population standard deviation is known: <em>EBM</em> = <em>z</em><m>\frac{α}{2}⋅\frac{σ}{\sqrt{n}}</m></p>
+
+    <p xml:id="eip-889">The confidence interval has the format (<m>\bar{x}</m> − <em>EBM</em>, <m>\bar{x}</m> + <em>EBM</em>).</p>
+
+    <p xml:id="eip-93"><em>Use the following information to answer the next five exercises:</em> The standard deviation of the weights of elephants is known to be approximately 15 lb. We wish to construct a 95 percent confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 lb. The sample standard deviation is 11 lb.</p>
+
+    <exercise xml:id="eip-499">
+      <statement>
+        <p xml:id="eip-836">Identify the following:</p>
+        <ol xml:id="fs-idm9196736">
+          <li>
+            <p><m>\bar{x}</m> = _____</p>
+          </li>
+          <li>
+            <p><em>σ</em> = _____</p>
+          </li>
+          <li>
+            <p><em>n</em> = _____</p>
+          </li>
+        </ol>
+      </statement>
+      <solution>
+        <ol xml:id="fs-idp24073552">
+          <li>
+            <p>244</p>
+          </li>
+          <li>
+            <p>15</p>
+          </li>
+          <li>
+            <p>50</p>
+          </li>
+        </ol>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-681">
+      <statement>
+        <p xml:id="eip-832">In words, define the random variables <em>X</em> and <m>\bar{X}</m>.</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-568">
+      <statement>
+        <p xml:id="eip-935">Which distribution should you use for this problem?</p>
+      </statement>
+      <solution>
+        <p xml:id="eip-224"><m>N(244,\frac{15}{\sqrt{50}})</m></p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-815">
+      <statement>
+        <p xml:id="eip-406">Construct a 95 percent confidence interval for the population mean weight of newborn elephants. State the confidence interval, sketch the graph, and calculate the error bound.</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-773">
+      <statement>
+        <p xml:id="eip-619">What will happen to the confidence interval obtained, if 500 newborn elephants are weighed instead of 50? Why?</p>
+      </statement>
+      <solution>
+        <p xml:id="eip-827">As the sample size increases, there will be less variability in the mean, so the interval size decreases.</p>
+      </solution>
+    </exercise>
+
+    <p xml:id="eip-526"><em>Use the following information to answer the next seven exercises:</em> The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal.</p>
+
+    <exercise xml:id="eip-250">
+      <statement>
+        <p xml:id="eip-idm61282736">Identify the following:</p>
+        <ol xml:id="fs-idm21105152">
+          <li>
+            <p><m>\bar{x}</m> = _____</p>
+          </li>
+          <li>
+            <p><em>σ</em> = _____</p>
+          </li>
+          <li>
+            <p><em>n</em> = _____</p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-322">
+      <statement>
+        <p xml:id="eip-22">In words, define the random variables <em>X</em> and <m>\bar{X}</m>.</p>
+      </statement>
+      <solution>
+        <p xml:id="eip-266"><em>X</em> is the time in minutes it takes to complete the U.S. Census short form. <m>\bar{X}</m> is the mean time it took a sample of 200 people to complete the U.S. Census short form.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-818">
+      <statement>
+        <p xml:id="eip-749">Which distribution should you use for this problem?</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-899">
+      <statement>
+        <p xml:id="eip-801">Construct a 90 percent confidence interval for the population mean time to complete the forms. State the confidence interval, sketch the graph, and calculate the error bound.</p>
+      </statement>
+      <solution>
+        <p xml:id="eip-16">CI: (7.9441, 8.4559)</p>
+        <figure xml:id="eip-idm5552576">
+          <image source="media/CNX_Stats_C08_M02_item002annoN.jpg" width="380">
+          </image>
+        </figure>
+        <p xml:id="eip-idm5550160"><em>EBM</em> = 0.26</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-846">
+      <statement>
+        <p xml:id="eip-756">If the Census wants to increase its level of confidence and keep the error bound the same by taking another survey, what changes should it make?</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-366">
+      <statement>
+        <p xml:id="eip-583">If the Census did another survey, kept the error bound the same, and surveyed only 50 people instead of 200, what would happen to the level of confidence? Why?</p>
+      </statement>
+      <solution>
+        <p xml:id="eip-615">The level of confidence would decrease, because decreasing <em>n</em> makes the confidence interval wider, so at the same error bound, the confidence level decreases.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-838">
+      <statement>
+        <p xml:id="eip-193">Suppose the Census needed to be 98 percent confident of the population mean length of time. Would the Census have to survey more people? Why or why not?</p>
+      </statement>
+    </exercise>
+
+    <p xml:id="eip-98"><em>Use the following information to answer the next 10 exercises:</em> A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 lb, with a standard deviation of 0.1 lb. The population standard deviation is known to be 0.2 lb.</p>
+
+    <exercise xml:id="eip-924">
+      <statement>
+        <p xml:id="eip-997">Identify the following:</p>
+        <ol xml:id="fs-idm74017152">
+          <li>
+            <p><m>\bar{x}</m> = ______</p>
+          </li>
+          <li>
+            <p><em>σ</em> = ______</p>
+          </li>
+          <li>
+            <p><em>n</em> = ______</p>
+          </li>
+        </ol>
+      </statement>
+      <solution>
+        <ol xml:id="fs-idm35892368">
+          <li>
+            <p><m>\bar{x}</m> = 2.2</p>
+          </li>
+          <li>
+            <p><em>σ</em> = 0.2</p>
+          </li>
+          <li>
+            <p><em>n</em> = 20</p>
+          </li>
+        </ol>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-700">
+      <statement>
+        <p xml:id="eip-361">In words, define the random variable <em>X</em>.</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-64">
+      <statement>
+        <p xml:id="eip-474">In words, define the random variable <m>\bar{X}</m>.</p>
+      </statement>
+      <solution>
+        <p xml:id="eip-692"><m>\bar{X}</m> is the mean weight of a sample of 20 heads of lettuce.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-187">
+      <statement>
+        <p xml:id="eip-925">Which distribution should you use for this problem?</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-833">
+      <statement>
+        <p xml:id="eip-422">Construct a 90 percent confidence interval for the population mean weight of the heads of lettuce. State the confidence interval, sketch the graph, and calculate the error bound.</p>
+      </statement>
+      <solution>
+        <p xml:id="fs-idm25106704"><em>EBM</em> = 0.07 CI: (2.1264, 2.2736)</p>
+        <figure xml:id="fs-idp82050400">
+          <image source="media/CNX_Stats_C08_M02_item003annoN.jpg" width="380">
+          </image>
+        </figure>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-342">
+      <statement>
+        <p xml:id="eip-530">Construct a 95 percent confidence interval for the population mean weight of the heads of lettuce. State the confidence interval, sketch the graph, and calculate the error bound.</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-656">
+      <statement>
+        <p xml:id="eip-363">In complete sentences, explain why the confidence interval in <xref ref="eip-833"></xref> is larger than in <xref ref="eip-342"></xref>.</p>
+      </statement>
+      <solution>
+        <p xml:id="eip-564">The interval is greater, because the level of confidence increased. If the only change made in the analysis is a change in confidence level, then all we are doing is changing how much area is being calculated for the normal distribution. Therefore, a larger confidence level results in larger areas and larger intervals.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-598">
+      <statement>
+        <p xml:id="eip-323">In complete sentences, give an interpretation of what the interval in <xref ref="eip-342"></xref> means.</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-909">
+      <statement>
+        <p xml:id="eip-711">What would happen if 40 heads of lettuce were sampled instead of 20 and the error bound remained the same?</p>
+      </statement>
+      <solution>
+        <p xml:id="eip-799">The confidence level would increase.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-602">
+      <statement>
+        <p xml:id="eip-3">What would happen if 40 heads of lettuce were sampled instead of 20 and the confidence level remained the same?</p>
+      </statement>
+    </exercise>
+
+    <p xml:id="element-797"><em>Use the following information to answer the next 14 exercises:</em> The mean age for all Foothill College students for a recent fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that 25 winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for winter Foothill College students. Let <em>X</em> = the age of a winter Foothill College student.</p>
+
+    <exercise xml:id="element-463">
+      <statement>
+        <p xml:id="element-111"><m>\bar{x}</m> = _____</p>
+      </statement>
+      <solution>
+        <p xml:id="element-345">30.4</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm37850320">
+      <statement>
+        <p xml:id="element-514"><em>n</em> = _____</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-608">
+      <statement>
+        <p xml:id="element-390">________ = 15</p>
+      </statement>
+      <solution>
+        <p xml:id="element-253"><em>σ</em></p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="element-440">
+      <statement>
+        <p xml:id="element-266">In words, define the random variable <m>\bar{X}</m>.</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-917">
+      <statement>
+        <p xml:id="element-875">What is <m>\bar{x}</m> estimating?</p>
+      </statement>
+      <solution>
+        <p xml:id="element-983"><em>μ</em></p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="element-724">
+      <statement>
+        <p xml:id="element-451">Is <m>σ_{x}</m> known?</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-524">
+      <statement>
+        <p xml:id="element-334">As a result of your answer to <xref ref="element-440"></xref>, state the exact distribution to use when calculating the confidence interval.</p>
+      </statement>
+      <solution>
+        <p xml:id="element-919">normal</p>
+      </solution>
+    </exercise>
+
+    <p xml:id="element-251"><em>Construct a 95 percent confidence interval for the true mean age of winter Foothill College students by working out and then answering the next eight exercises</em>.</p>
+
+    <exercise xml:id="fs-idm67667568">
+      <statement>
+        <p xml:id="element-1">How much area is in both tails (combined)? <em>α</em> =________</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-888">
+      <statement>
+        <p xml:id="element-497">How much area is in each tail? <m>\frac{α}{2}</m> =________</p>
+      </statement>
+      <solution>
+        <p xml:id="element-748">0.025</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="element-74">
+      <statement>
+        <p xml:id="element-402">Identify the following specifications: lower limit upper limit error bound</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-767">
+      <statement>
+        <p xml:id="element-539">The 95 percent confidence interval is __________________.</p>
+      </statement>
+      <solution>
+        <p xml:id="element-702">(24.52,36.28)</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm6858288">
+      <statement>
+        <p xml:id="eip-810">Fill in the blanks on the graph with the areas, upper and lower limits of the confidence interval, and the sample mean.</p>
+        <figure xml:id="five-0">
+          <image source="media/fig-ch08_06_01.jpg" width="380">
+          </image>
+        </figure>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-158">
+      <statement>
+        <p xml:id="element-46">In one complete sentence, explain what the interval means.</p>
+      </statement>
+      <solution>
+        <p xml:id="fs-idm27075104">We are 95 percent confident that the true mean age for winter Foothill College students is between 24.52 and 36.28.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="element-449">
+      <statement>
+        <p xml:id="element-992">Using the same mean, standard deviation, and level of confidence, suppose that <em>n</em> were 69 instead of 25. Would the error bound become larger or smaller? How do you know?</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-395">
+      <statement>
+        <p xml:id="element-630">Using the same mean, standard deviation, and sample size, how would the error bound change if the confidence level were reduced to 90 percent? Why?</p>
+      </statement>
+      <solution>
+        <p xml:id="fs-idm23028944">The error bound for the mean would decrease, because as the CL decreases, you need less area under the normal curve (which translates into a smaller interval) to capture the true population mean.</p>
+      </solution>
+    </exercise>
+
+    </subsection>
+
+    <subsection xml:id="eip-783">
+      <title>Homework</title>
+
+      <exercise xml:id="exer1">
+        <statement>
+          <p xml:id="para1">Among various ethnic groups, the standard deviation of heights is known to be approximately three inches. We wish to construct a 95 percent confidence interval for the mean height of male Swedes. 48 male Swedes are surveyed. The sample mean is 71 inches. The sample standard deviation is 2.8 in. <m>\bar{x}</m> =________ <em>σ</em> =________ <em>n</em> =________ In words, define the random variables <em>X</em> and <m>\bar{X}</m>. Which distribution should you use for this problem? Explain your choice. Construct a 95 percent confidence interval for the population mean height of male Swedes. State the confidence interval. Sketch the graph. Calculate the error bound. What will happen to the level of confidence obtained if 1,000 male Swedes are surveyed instead of 48? Why?</p>
+        </statement>
+      <solution>
+        <p xml:id="paras1">71 3 48 <em>X</em> is the height of a Swedish male, and is the mean height from a sample of 48 Swedish males. Normal. We know the standard deviation for the population, and the sample size is greater than 30. CI: (70.151, 71.49) EBM = 0.849 The confidence interval will decrease in size, because the sample size increased. Recall, when all factors remain unchanged, an increase in sample size decreases variability. Thus, we do not need as large an interval to capture the true population mean.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="exer8">
+      <statement>
+        <p xml:id="para17">Announcements for 84 upcoming engineering conferences were randomly picked from a stack of <em>IEEE Spectrum</em> magazines. The mean length of the conferences was 3.94 days, with a standard deviation of 1.28 days. Assume the underlying population is normal.</p>
+        <ol xml:id="list18">
+          <li>
+            <p>In words, define the random variables <em>X</em> and <m>\bar{X}</m>.</p>
+          </li>
+          <li>
+            <p>Which distribution should you use for this problem? Explain your choice.</p>
+          </li>
+          <li>
+            <p>Construct a 95 percent confidence interval for the population mean length of engineering conferences.
+            
+              State the confidence interval. 
+          Sketch the graph.
+        Calculate the error bound.
+            
+          </p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exer6">
+      <statement>
+        <p xml:id="para13">Suppose that an accounting firm does a study to determine the time needed to complete one person’s tax forms. It randomly surveys 100 people. The sample mean is 23.6 hours. There is a known standard deviation of 7.0 hours. The population distribution is assumed to be normal.</p>
+        <ol xml:id="list15a">
+          <li>
+            <p>
+          
+            <m>\bar{x}</m> =________
+    <em>σ</em> =________
+            <em>n</em> =________
+          
+          </p>
+          </li>
+          <li>
+            <p>In words, define the random variables <em>X</em> and <m>\bar{X}</m>.</p>
+          </li>
+          <li>
+            <p>Which distribution should you use for this problem? Explain your choice.</p>
+          </li>
+          <li>
+            <p>Construct a 90 percent confidence interval for the population mean time to complete the tax forms.
+          
+            State the confidence interval.
+           Sketch the graph.
+           Calculate the error bound.
+          
+        </p>
+          </li>
+          <li>
+            <p>If the firm wished to increase its level of confidence and keep the error bound the same by taking another survey, which changes should it make?</p>
+          </li>
+          <li>
+            <p>If the firm did another survey, kept the error bound the same, and only surveyed 49 people, what would happen to the level of confidence? Why?</p>
+          </li>
+          <li>
+            <p>Suppose that the firm decided that it needed to be at least 96 percent confident of the population mean length of time to within one hour. How would the number of people the firm surveys change? Why?</p>
+          </li>
+        </ol>
+      </statement>
+      <solution>
+        <ol xml:id="list15">
+          <li>
+            <p>
+
+<m>\bar{x}</m> = 23.6
+<m>σ</m> =  7
+n =  100
+</p>
+          </li>
+          <li>
+            <p><em>X</em> is the time needed to complete an individual tax form. <m>\bar{X}</m> is the mean time to complete tax forms from a sample of 100 customers.</p>
+          </li>
+          <li>
+            <p><m>N(23.6,\frac{7}{\sqrt{100}})</m> because we know sigma.</p>
+          </li>
+          <li>
+            <p>
+
+(22.228, 24.972)
+
+
+
+<em>EBM</em> = 1.372
+
+</p>
+          </li>
+          <li>
+            <p>It will need to change the sample size. The firm needs to determine what the confidence level should be and then apply the error bound formula to determine the necessary sample size.</p>
+          </li>
+          <li>
+            <p>The confidence level would increase as a result of a larger interval. Smaller sample sizes result in more variability. To capture the true population mean, we need to have a larger interval.</p>
+          </li>
+          <li>
+            <p>According to the error bound formula, the firm needs to survey 206 people. Because we increase the confidence level, we need to increase either our error bound or the sample size.</p>
+          </li>
+        </ol>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="exer9">
+      <statement>
+        <p xml:id="para19">A sample of 16 small bags of the same brand of candies was selected. Assume that the population distribution of bag weights is normal. The weight of each bag was then recorded. The mean weight was two ounces with a standard deviation of 0.12 ounces. The population standard deviation is known to be 0.1 ounce.</p>
+        <ol xml:id="list19">
+          <li>
+            <p>
+        <m>\bar{x}</m> =________
+          
+          <em>σ</em> =________
+          <em>s<sub>x</sub></em> =________
+        
+        </p>
+          </li>
+          <li>
+            <p>In words, define the random variable <em>X</em>.</p>
+          </li>
+          <li>
+            <p>In words, define the random variable <m>\bar{X}</m>.</p>
+          </li>
+          <li>
+            <p>Which distribution should you use for this problem? Explain your choice.</p>
+          </li>
+          <li>
+            <p>Construct a 90 percent confidence interval for the population mean weight of the candies.
+           
+             State the confidence interval. 
+    Sketch the graph.
+    Calculate the error bound.
+         </p>
+          </li>
+          <li>
+            <p>Construct a 98 percent confidence interval for the population mean weight of the candies.
+            
+              State the confidence interval.
+    Sketch the graph.
+    Calculate the error bound.</p>
+          </li>
+          <li>
+            <p>In complete sentences, explain why the confidence interval in Part f is larger than the confidence interval in Part e.</p>
+          </li>
+          <li>
+            <p>In complete sentences, give an interpretation of what the interval in Part f means.</p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exerci">
+      <statement>
+        <p xml:id="para39">A camp director is interested in the mean number of letters each child sends during his or her camp session. The population standard deviation is known to be 2.5. A survey of 20 campers is taken. The mean from the sample is 7.9, with a sample standard deviation of 2.8.</p>
+        <ol xml:id="list39">
+          <li>
+            <p>
+        
+          <m>\bar{x}</m> =________
+          <em>σ</em> =________
+          <em>n</em> =________
+        
+          </p>
+          </li>
+          <li>
+            <p>Define the random variables <em>X</em> and <m>\bar{X}</m> in words.</p>
+          </li>
+          <li>
+            <p>Which distribution should you use for this problem? Explain your choice.</p>
+          </li>
+          <li>
+            <p>Construct a 90 percent confidence interval for the population mean number of letters campers send home.
+      
+        State the confidence interval. 
+        Sketch the graph.
+    Calculate the error bound.
+      
+    </p>
+          </li>
+          <li>
+            <p>What will happen to the error bound and confidence interval if 500 campers are surveyed? Why?</p>
+          </li>
+        </ol>
+      </statement>
+      <solution>
+        <p xml:id="solutilllonnnn">7.9 2.5 20 <em>X</em> is the number of letters a single camper will send home. <m>\bar{X}</m> is the mean number of letters sent home from a sample of 20 campers. <em>N</em> <m>7.9(\frac{2.5}{\sqrt{20}})</m> CI: (6.98, 8.82) <em>EBM</em>: 0.92 The error bound and confidence interval will decrease.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="exercising">
+      <statement>
+        <p xml:id="para62">What is meant by the term <em>90 percent confident</em> when constructing a confidence interval for a mean?</p>
+        <ol xml:id="list62">
+          <li>
+            <p>If we took repeated samples, approximately 90 percent of the samples would produce the same confidence interval.</p>
+          </li>
+          <li>
+            <p>If we took repeated samples, approximately 90 percent of the confidence intervals calculated from those samples would contain the sample mean.</p>
+          </li>
+          <li>
+            <p>If we took repeated samples, approximately 90 percent of the confidence intervals calculated from those samples would contain the true value of the population mean.</p>
+          </li>
+          <li>
+            <p>If we took repeated samples, the sample mean would equal the population mean in approximately 90 percent of the samples.</p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-217">
+      <statement>
+        <p xml:id="eip-315">The Federal Election Commission collects information about campaign contributions and disbursements for candidates and political committees during each election cycle. During the 2012 campaign season, there were 1,619 candidates for the House of Representatives across the United States who received contributions from individuals. <xref ref="M02_CH08-tbl003"></xref> shows the total receipts from individuals for a random selection of 40 House candidates rounded to the nearest $100. The standard deviation for this data to the nearest hundred is <em>σ</em> = $909,200.</p>
+        <table xml:id="M02_CH08-tbl003">
+          <tabular halign="l l l l l">
+            <row>
+              <cell>$3,600</cell>
+              <cell>$1,243,900</cell>
+              <cell>$10,900</cell>
+              <cell>$385,200</cell>
+              <cell>$581,500</cell>
+            </row>
+            <row>
+              <cell>$7,400</cell>
+              <cell>$2,900</cell>
+              <cell>$400</cell>
+              <cell>$3,714,500</cell>
+              <cell>$632,500</cell>
+            </row>
+            <row>
+              <cell>$391,000</cell>
+              <cell>$467,400</cell>
+              <cell>$56,800</cell>
+              <cell>$5,800</cell>
+              <cell>$405,200</cell>
+            </row>
+            <row>
+              <cell>$733,200</cell>
+              <cell>$8,000</cell>
+              <cell>$468,700</cell>
+              <cell>$75,200</cell>
+              <cell>$41,000</cell>
+            </row>
+            <row>
+              <cell>$13,300</cell>
+              <cell>$9,500</cell>
+              <cell>$953,800</cell>
+              <cell>$1,113,500</cell>
+              <cell>$1,109,300</cell>
+            </row>
+            <row>
+              <cell>$353,900</cell>
+              <cell>$986,100</cell>
+              <cell>$88,600</cell>
+              <cell>$378,200</cell>
+              <cell>$13,200</cell>
+            </row>
+            <row>
+              <cell>$3,800</cell>
+              <cell>$745,100</cell>
+              <cell>$5,800</cell>
+              <cell>$3,072,100</cell>
+              <cell>$1,626,700</cell>
+            </row>
+            <row>
+              <cell>$512,900</cell>
+              <cell>$2,309,200</cell>
+              <cell>$6,600</cell>
+              <cell>$202,400</cell>
+              <cell>$15,800</cell>
+            </row>
+          </tabular>
+        </table>
+        <ol xml:id="eip-idm150440080">
+          <li>
+            <p>Find the point estimate for the population mean.</p>
+          </li>
+          <li>
+            <p>Using 95 percent confidence, calculate the error bound.</p>
+          </li>
+          <li>
+            <p>Create a 95 percent confidence interval for the mean total individual contributions.</p>
+          </li>
+          <li>
+            <p>Interpret the confidence interval in the context of the problem.</p>
+          </li>
+        </ol>
+      </statement>
+      <solution>
+        <ol xml:id="fs-idm93426480">
+          <li>
+            <p><m>\bar{x}</m> = $568,873</p>
+          </li>
+          <li>
+            <p><em>CL</em> = 0.95, <em>α</em> = 1 – 0.95 = 0.05, <m>z_{\frac{α}{2}}</m> = 1.96
+    
+      <em>EBM</em> = <m>z_{0.025}\frac{σ}{\sqrt{n}}</m> = 1.96 <m>\frac{909200}{\sqrt{40}}</m> = $281,764</p>
+          </li>
+          <li>
+            <p xml:id="fs-idp4716768">Alternate solution:</p>
+          </li>
+          <li>
+            <p>We estimate with 95 percent confidence that the mean amount of contributions received from all individuals by House candidates is between $287,109 and $850,637.</p>
+          </li>
+        </ol>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-806">
+      <statement>
+        <p xml:id="eip-503">The American Community Survey (ACS), part of the U.S. Census Bureau, conducts a yearly census similar to the one taken every 10 years, but with a smaller percentage of participants. The most recent survey estimates with 90 percent confidence that the mean household income in the United States falls between $69,720 and $69,922. Find the point estimate for mean U.S. household income and the error bound for mean U.S. household income.</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-580">
+      <statement>
+        <p xml:id="eip-360">The average height of young adult males has a normal distribution with standard deviation of 2.5 in. You want to estimate the mean height of students at your college or university to within 1 in. with 93 percent confidence. How many male students must you measure?</p>
+      </statement>
+      <solution>
+        <p xml:id="eip-475">Use the formula for <em>EBM</em>, solved for <em>n</em>: <m>n= \frac{z^{2}σ^{2}}{EBM^{2}}</m></p>
+        <p xml:id="eip-idm89942784">From the statement of the problem, you know that <em>σ</em> = 2.5, and you need <em>EBM</em> = 1.</p>
+        <p xml:id="eip-idp13947008"><em>z</em> = <em>z</em><sub>0.035</sub> = 1.812.</p>
+        <p xml:id="eip-idm56424256">(This is the value of <em>z</em> for which the area under the density curve to the <em>right</em> of <em>z</em> is 0.035.)</p>
+        <p xml:id="eip-idp85126192"><m>n= \frac{z^{2}σ^{2}}{EBM^{2}}=\frac{1.812^{2}2.5^{2}}{1^{2}} \approx 20.52.</m></p>
+        <p xml:id="eip-idm82999392">You need to measure at least 21 male students to achieve your goal.</p>
+      </solution>
+    </exercise>
+
+    </subsection>
+
   </section>
 
   <section xml:id="sec-single-population-mean-unknown-stddev">
