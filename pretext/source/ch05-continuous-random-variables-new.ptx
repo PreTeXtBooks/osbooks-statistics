@@ -415,9 +415,9 @@
 <em>f</em>(<em>x</em>) =  <m>\frac{1}{b-a}</m> for <em>a</em> ≤ <em>x</em> ≤ <em>b</em>, and <em>f</em>(<em>x</em>) = 0 otherwise.</p>
     <p xml:id="element-500">For this example, <em>X</em> ~ <em>U</em>(0, 23) and <em>f</em>(<em>x</em>) = <m>\frac{1}{23-0}</m> for 0 ≤ <em>X</em> ≤ 23.</p>
     <p xml:id="element-771">Formulas for the theoretical mean and standard deviation are</p>
-    <men xml:id="fs-id1164563448999">μ=\frac{a+b}{2}andσ=\sqrt{\frac{(b-a)^{2}}{12}}</men>
+    <men xml:id="fs-id1164563448999">μ=\frac{a+b}{2} \text{ and } σ=\sqrt{\frac{(b-a)^{2}}{12}}</men>
     <p xml:id="element-729">For this problem, the theoretical mean and standard deviation are</p>
-    <men xml:id="fs-id1164563492190">μ=\frac{0+23}{2}= 11.50 seconds andσ=\sqrt{\frac{(23-0)^{2}}{12}}= 6.64 seconds.</men>
+    <men xml:id="fs-id1164563492190">μ=\frac{0+23}{2}= 11.50 \text{ seconds and } σ=\sqrt{\frac{(23-0)^{2}}{12}}= 6.64 \text{ seconds.}</men>
     <p xml:id="element-919">Notice that the theoretical mean and standard deviation are close to the sample mean and standard deviation in this example.</p>
   </example>
   <note xml:id="fs-idp70845248" class="statistics try">
