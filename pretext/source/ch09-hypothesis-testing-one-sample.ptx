@@ -22,12 +22,14 @@
     <p>A statistician will make a decision about these claims. This process is called <term>hypothesis testing.</term> A hypothesis test involves collecting data from a sample and evaluating the data. Then, the statistician makes a decision as to whether or not there is sufficient evidence, based upon analyses of the data, to reject the null hypothesis.</p>
     <p>In this chapter, you will conduct hypothesis tests on single means and single proportions.
     You will also learn about the errors associated with these tests.</p>
-    <p>Hypothesis testing consists of two contradictory hypotheses or statements, a decision based on the data, and a conclusion. To perform a hypothesis test, a statistician will do the following:
-Set up two contradictory hypotheses.
-Collect sample data. In homework problems, the data or summary statistics will be given to you.
-Determine the correct distribution to perform the hypothesis test.
-Analyze sample data by performing the calculations that ultimately will allow you to reject or decline to reject the null hypothesis.
-Make a decision and write a meaningful conclusion.</p>
+    <p>Hypothesis testing consists of two contradictory hypotheses or statements, a decision based on the data, and a conclusion. To perform a hypothesis test, a statistician will do the following:</p>
+    <ol>
+      <li>Set up two contradictory hypotheses.</li>
+      <li>Collect sample data. In homework problems, the data or summary statistics will be given to you.</li>
+      <li>Determine the correct distribution to perform the hypothesis test.</li>
+      <li>Analyze sample data by performing the calculations that ultimately will allow you to reject or decline to reject the null hypothesis.</li>
+      <li>Make a decision and write a meaningful conclusion.</li>
+    </ol>
     <note xml:id="id23787041">
       <title>Note</title>
       <p>To do the hypothesis test homework problems for this chapter and later chapters, make copies of the appropriate special solution sheets. See <url href="m79714">Appendix E</url>.</p>
@@ -670,7 +672,7 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
       is approximately normally distributed, or the sample size is large, with a known standard
       deviation.</li>
       </ol>
-      <p>When testing a single population proportion use a normal test for a single population proportion if the data come from a simple, random sample, fill the requirements for a binomial distribution, and the mean number of success and the mean number of failures satisfy the conditions: <m>np</m> &gt; 5 and <m>nq</m> &gt; <m>n</m> where <m>n</m> is the sample size, <m>p</m> is the probability of a success, and <m>q</m> is the probability of a failure.</p>
+      <p>When testing a single population proportion use a normal test for a single population proportion if the data come from a simple, random sample, fill the requirements for a binomial distribution, and the mean number of success and the mean number of failures satisfy the conditions: <m>np</m> &gt; 5 and <m>nq</m> &gt; 5 where <m>n</m> is the sample size, <m>p</m> is the probability of a success, and <m>q</m> is the probability of a failure.</p>
     </subsection>
 
     <subsection xml:id="eip-772">
@@ -1788,8 +1790,8 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
         </statement>
         <solution>
           <ol>
-            <li>H_{0}: μ ≥ 35.5</li>
-            <li>H_{a}: μ &lt; 35.5</li>
+            <li><em>H_{0}</em>: <m>μ</m> ≥ 35.5</li>
+            <li><em>H_{a}</em>: <m>μ</m> &lt; 35.5</li>
             <li>Let <m>\overline{x}</m> = the average mpg for the sample of cars and trucks in the fleet</li>
             <li>normal distribution</li>
             <li>z = -0.648</li>
@@ -2439,7 +2441,7 @@ Conclusion: At the 5 percent significance level, there is sufficient evidence to
         </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: p ≥ 0.14, <em>H_{a}</em>: p &lt; 0.14</li>
+            <li><em>H_{0}</em>: <m>p</m> ≥ 0.14, <em>H_{a}</em>: <m>p</m> &lt; 0.14</li>
             <li><m>p</m>-value &lt; 0.0002</li>
             <li>Alpha: 0.05</li>
             <li>Reject the null hypothesis.</li>
