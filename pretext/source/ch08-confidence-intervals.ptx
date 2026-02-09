@@ -1437,13 +1437,1010 @@ n =  100
 
   </section>
 
-  <section xml:id="sec-single-population-mean-unknown-stddev">
-    <title>A Single Population Mean using the Student t Distribution</title>
-    <p>
-      Content to be added from module m79654.
-    </p>
-  </section>
+<section xml:id="sec-single-population-mean-unknown-stddev">
+  <title>A Single Population Mean using the Student t Distribution</title>
 
+  <p xml:id="eip-123456789">In practice, we rarely know the <alert>population</alert> <term xml:id="term-00001">standard deviation</term>. In the past, when the sample size was large, this unknown number did not present a problem to statisticians. They used the sample standard deviation <em>s</em> as an estimate for <em>σ</em> and proceeded as before to calculate a <term xml:id="term-00002">confidence interval</term> with close-enough results. However, statisticians ran into problems when the sample size was small. A small sample size caused inaccuracies in the confidence interval. </p>
+  <p xml:id="element-643">William S. Gosset (1876–1937) of the Guinness brewery in Dublin, Ireland, ran into this  problem. His experiments with hops and barley produced very few samples. Just replacing <em>σ</em> with <em>s</em> did not produce accurate results when he tried to calculate a confidence interval. He realized that he could not use a normal distribution for the calculation; he found that the actual distribution depends on the sample size. This problem led him to <em>discover</em> what is called the <term xml:id="term-00003">Student's <em>t</em>-distribution</term>. The name comes from the fact that Gosset wrote under the pen name <em>Student</em>.</p>
+  <p xml:id="eip-254">Up until the mid-1970s, some statisticians used the <term xml:id="term-00004">normal distribution</term> approximation for large sample sizes and used the Student's <em>t</em>-distribution only for sample sizes of at most 30. With graphing calculators and computers, the practice now is to use the Student's <em>t</em>-distribution whenever <em>s</em> is used as an estimate for <em>σ</em>.</p>
+  <p xml:id="eip-449">If you draw a simple random sample of size <em>n</em> from a population that has an approximately normal distribution with mean <em>μ</em> and unknown population standard deviation <em>σ</em> and calculate the <em>t</em>-score <em>t</em> = <m>\frac{\bar{x}-\mu}{(\frac{s}{\sqrt{n}})}</m>, then the <em>t</em>-scores follow a <em>Student's <em>t</em>-distribution with <em>n</em> – 1 degrees of freedom</em>. The <em>t</em>-score has the same interpretation as the <term xml:id="term-00005"><em>z</em>-score</term>: It measures how far <m>\bar{x}</m> is from its mean <em>μ</em>. For each sample size <em>n</em>, there is a different Student's <em>t</em>-distribution.</p>
+  <p xml:id="fs-id1164567141154">The <em>degrees of freedom (<em>df</em>)</em>, <em>n</em> - 1, are the sample size minus 1.</p>
+  <p><term>Properties of the Student's <em>t</em>-distribution</term></p>
+  <ul xml:id="eip-418">
+    <li>The graph for the Student's <em>t</em>-distribution is similar to the standard normal curve.</li>
+    <li>The mean for the Student's <em>t</em>-distribution is zero, and the distribution is symmetric about zero.</li>
+    <li>The Student's <em>t</em>-distribution has more probability in its tails than the standard normal distribution. <xref ref="fs-id1164567593546"/> shows the graphs of the student <em>t</em>-distribution for 1, 2 and 5 degrees of freedom: (<em>v</em>), compare to the standard normal distribution (in black).
+
+
+
+
+
+</li>
+    <li>The exact shape of the Student's <em>t</em>-distribution depends on the degrees of freedom. As the degrees of freedom increase, the graph of the Student's <em>t</em>-distribution becomes more like the graph of the standard normal distribution.</li>
+    <li>The underlying population of individual observations is assumed to be normally distributed with unknown population mean <em>μ</em> and unknown population standard deviation <em>σ</em>. The size of the underlying population is generally not relevant unless it is very small. If it is bell-shaped (normal), then the assumption is met and does not need discussion. Random sampling is assumed, but that is a completely separate assumption from normality.</li>
+  </ul>
+  <p xml:id="eip-231" class="finger">Calculators and computers can easily calculate any Student's <em>t</em>-probabilities. The TI-83, 83+, and 84+ have a tcdf function to find the probability for given values of <em>t</em>. The grammar for the tcdf command is tcdf(lower bound, upper bound, degrees of freedom). However, for confidence intervals, we need to use inverse probability to find the value of <em>t</em> when we know the probability.</p>
+  <p xml:id="eip-980">For the TI-84+, you can use the invT command on the DISTRibution menu. The invT command works similarly to the invnorm. The invT command requires two inputs: invT(area to the left, degrees of freedom). The output is the <em>t</em>-score that corresponds to the area we specified. 
+
+
+ The TI-83 and 83+ do not have the invT command. (The TI-89 has an inverse T command.)</p>
+  <p xml:id="eip-647">A probability table for the Student's <em>t</em>-distribution can also be used. The table gives critical <em>t</em>-values that correspond to the confidence level (column) and degrees of freedom (row). (The TI-86 does not have an invT program or command, so if you are using that calculator, you need to use a probability table for the Student's <em>t</em>-distribution.) When using a <em>t</em>-table, note that some tables are formatted to show the confidence level in the column headings, while the column headings in some tables may show only corresponding area in one or both tails.
+
+
+ 
+A Student's <em>t</em>-table (see ) gives <em>t</em>-scores given the degrees of freedom and the right-tailed probability. The table is very limited. <em>Calculators and computers can easily calculate any Student's  t-probabilities.</em>
+</p>
+  <p xml:id="eip-737"><em>If the population standard deviation is  not known</em>,  the error bound for a population mean is</p>
+  <ul xml:id="eip-168">
+    <li><m>EBM=(t_{\frac{\alpha}{2}})(\frac{s}{\sqrt{n}})</m>,</li>
+    <li><m>t_{\frac{\sigma}{2}}</m> is the <em>t</em>-score with area to the right equal to <m>\frac{\alpha}{2}</m>,</li>
+    <li>use <em>df</em> = <em>n</em> – 1 degrees of freedom, and</li>
+    <li><em>s</em> = sample standard deviation.</li>
+  </ul>
+  <p xml:id="eip-819"><em>The format for the confidence interval is</em></p>
+  <me xml:id="fs-id1164567761210">(\bar{x}-EBM,\bar{x}+EBM)\text{.}</me>
+  <note xml:id="fs-idm181176784">
+    <p xml:id="eip-881">To calculate the confidence interval directly, do the following:
+
+Press <c>STAT</c>.
+
+Arrow over to <c>TESTS</c>.
+
+Arrow down to <c>8:TInterval</c> and press <c>ENTER</c> (or just press 8).</p>
+  </note>
+  <example xml:id="eip-51">
+    <exercise xml:id="element-632">
+      <statement>
+        <p xml:id="element-866">Suppose you do a study of acupuncture to determine how effective it is in relieving pain. You measure sensory rates for 15 subjects with the results given. Use the sample data to construct a 95 percent confidence interval for the mean sensory rate for the population (assumed normal) from which you took the data.
+
+The solution is shown step-by-step and by using the TI-83, 83+, or 84+ calculators.</p>
+        <p>8.6, 9.4, 7.9, 6.8, 8.3, 7.3, 9.2, 9.6, 8.7, 11.4, 10.3, 5.4, 8.1, 5.5, 6.9</p>
+      </statement>
+      <solution xml:id="id1171108330127">
+        <ul xml:id="eip-id1169415158393">
+          <li>The first solution is step-by-step (Solution A).</li>
+          <li>The second solution uses the TI-83+ and TI-84 calculators (Solution B).</li>
+        </ul>
+        <p xml:id="element-835">To find the confidence interval, you need the sample mean, <m>\bar{x}</m>, and the <em>EBM</em>.</p>
+        <p xml:id="element-809">
+
+<m>\begin{aligned}
+\bar{x}=\frac{8.6 + 9.4 + 7.9 + 6.8 + 8.3 + 7.3 + 9.2 + 9.6 + 8.7 + 11.4 + 10.3 + 5.4 + 8.1+ 5.5+ 6.9}{15}=8.2267; \\
+\begin{aligned}
+ \\
+s=\sqrt{\frac{(8.6-\bar{x})^{2}+ (9.4 - \bar{x})^{2}+\cdots+(5.5 - \bar{x})^{2}+ (6.9 - \bar{x})^{2}}{14}}=1.6722;
+\end{aligned} \\
+\begin{aligned}
+ \\
+n=15
+\end{aligned}
+\end{aligned}</m>
+
+
+</p>
+        <p xml:id="element-152"><em>df</em> = 15 – 1 = 14 <em>CL</em>, so <em>α</em> = 1 – <em>CL</em> = 1 – 0.95 = 0.05</p>
+        <p xml:id="element-471"><m>\frac{\alpha}{2}</m> = 0.025; <m>t_{\frac{\alpha}{2}}=t_{0.025}</m></p>
+        <p xml:id="element-331">The area to the right of <em>t</em><sub>0.025</sub> is 0.025, and the area to the left of <em>t</em><sub>0.025</sub> is 1 – 0.025 = 0.975.</p>
+        <p xml:id="element-995"><m>t_{\frac{\alpha}{2}}=t_{0.025}=2.14</m> using invT(.975,14) on the TI-84+ calculator.</p>
+        <me xml:id="fs-id1164567805825">EBM=(t_{\frac{\alpha}{2}})(\frac{s}{\sqrt{n}})</me>
+        <me xml:id="fs-id1164564314946">EBM=(2.14)(\frac{1.6722}{\sqrt{15}})=0.924</me>
+        <me xml:id="fs-id1164565649522">\bar{x}\text{ }-\text{ }EBM\text{ = 8}\text{.2267 – 0}\text{.9240 = 7}\text{.3}</me>
+        <me xml:id="fs-id1164565629522">\bar{x}+EBM\text{ = 8}\text{.2267 + 0}\text{.9240 = 9}\text{.15}</me>
+        <p xml:id="eip-idm393833904">
+The 95 percent confidence interval is (7.30, 9.15).
+</p>
+        <p xml:id="element-273">We estimate with 95 percent confidence  that the true population mean sensory rate is between 7.30 and 9.15.</p>
+      </solution>
+      <solution xml:id="fs-idp148096976">
+        <note xml:id="fs-idm8032736">
+          <p xml:id="fs-idm125793568">Press <c>STAT</c> and arrow over to <c>TESTS</c>.
+
+Arrow down to <c>8:TInterval</c> and press <c>ENTER</c> (or you can just press <c>8</c>).
+
+Arrow to <c>Data</c> and press <c>ENTER</c>.
+
+Arrow down to <c>List</c> and enter the list name where you put the data.
+
+There should be a 1 after <c>Freq</c>.
+
+Arrow down to <c>C-level</c> and enter 0.95.
+
+Arrow down to <c>Calculate</c> and press <c>ENTER</c>.
+
+The 95 percent confidence interval is (7.3006, 9.1527).</p>
+        </note>
+        <note xml:id="eip-406">
+          <title>Note</title>
+          <p xml:id="fs-idm137079696">When calculating the error bound, you can also use a probability table for the Student's <em>t</em>-distribution to find the value of <em>t</em>. The table gives <em>t</em>-scores that correspond to the confidence level (column) and degrees of freedom (row); the <em>t</em>-score is found where the row and column intersect in the table.</p>
+        </note>
+      </solution>
+    </exercise>
+  </example>
+  <note xml:id="fs-idm181001040">
+    <title>Try It</title>
+    <exercise xml:id="eip-496">
+      <statement>
+        <p xml:id="eip-331">You do a study of hypnotherapy to determine how effective it is in increasing the number of hours of sleep subjects get each night. You measure hours of sleep for 12 subjects with the following results. Construct a 95 percent confidence interval for the mean number of hours slept for the population (assumed normal) from which you took the data.</p>
+        <p xml:id="eip-idm108202576">8.2, 9.1, 7.7, 8.6, 6.9, 11.2, 10.1, 9.9, 8.9, 9.2, 7.5, 10.5</p>
+      </statement>
+      <solution xml:id="eip-415">
+        <p xml:id="eip-720">(8.1634, 9.8032)</p>
+      </solution>
+    </exercise>
+  </note>
+  <example xml:id="eip-804">
+    <exercise xml:id="eip-821">
+      <statement>
+        <p xml:id="eip-645">A group of researchers is working to understand the scope of industrial pollution in the human body. Industrial chemicals may enter the body through pollution or as ingredients in consumer products. In October 2008, the scientists tested cord-blood samples for 20 newborn infants in the United States. The cord blood of the <em>in utero/newborn</em> group was tested for 430 industrial compounds, pollutants, and other chemicals, including chemicals linked to brain and nervous-system toxicity, immune-system toxicity, reproductive toxicity, and fertility problems. There are health concerns about the effects of some chemicals on the brain and nervous system. <xref ref="eip-222"/> shows how many of the targeted chemicals were found in each infant’s cord blood.</p>
+        <table xml:id="eip-222">
+          <tabular>
+            <row>
+              <cell>79</cell>
+              <cell>145</cell>
+              <cell>147</cell>
+              <cell>160</cell>
+              <cell>116</cell>
+              <cell>100</cell>
+              <cell>159</cell>
+              <cell>151</cell>
+              <cell>156</cell>
+              <cell>126</cell>
+            </row>
+            <row>
+              <cell>137</cell>
+              <cell>83</cell>
+              <cell>156</cell>
+              <cell>94</cell>
+              <cell>121</cell>
+              <cell>144</cell>
+              <cell>123</cell>
+              <cell>114</cell>
+              <cell>139</cell>
+              <cell>99</cell>
+            </row>
+          </tabular>
+        </table>
+        <p xml:id="eip-idp159676448">Use this sample data to construct a 90 percent confidence interval for the mean number of targeted industrial chemicals to be found in an infant’s blood.</p>
+      </statement>
+      <solution xml:id="eip-262">
+        <p xml:id="eip-78">Solution AFrom the sample data, you can calculate
+
+<m>\begin{aligned}
+\begin{aligned}
+ \\
+\bar{x}=\frac{79 + 145 + \cdots+ 139+ 99}{20}=127.45 \\
+
+\end{aligned} \\
+s=\sqrt{\frac{(79-\bar{x})^{2}+ (145 - \bar{x})^{2}+\cdots+(139 - \bar{x})^{2}+ (99 - \bar{x})^{2}}{19}}=25.965\text{.}
+\end{aligned}</m>
+
+
+ There are 20 infants in the sample, so <em>n</em> = 20, and <em>df</em> = 20 – 1 = 19. </p>
+        <p xml:id="eip-idm108372720">You are asked to calculate a 90 percent confidence interval: <em>CL</em> = 0.90, so <em>α</em> = 1 – <em>CL</em> = 1 – 0.90 = 0.10.
+
+<m>\frac{\alpha}{2}=0.05, t_{\frac{\alpha}{2}}=t_{0.05}</m>
+   
+  </p>
+        <p xml:id="eip-idm186375552">By definition, the area to the right of <em>t</em><sub>0.05</sub> is 0.05, and so the area to the left of <em>t</em><sub>0.05</sub> is 1 – 0.05 = 0.95.</p>
+        <p xml:id="eip-idm38662128" class="finger">Use a table, calculator, or computer to find that <em>t</em><sub>0.05</sub> = 1.729.</p>
+        <me xml:id="fs-id1164556514502">\begin{aligned}
+EBM=t_{\frac{\alpha}{2}}(\frac{s}{\sqrt{n}})=1.729(\frac{25.965}{\sqrt{20}}) ≈ 10.038 \\
+\bar{x}\text{ – }EBM\text{ = 127}\text{.45 – 10}\text{.038 = 117}\text{.412 } \\
+\bar{x}\text{ + }EBM\text{ = 127}\text{.45 + 10}\text{.038 = 137}\text{.488}
+\end{aligned}</me>
+        <p xml:id="eip-idm27533168">We estimate with 90 percent confidence that the mean number of all targeted industrial chemicals found in cord blood in the United States is between 117.412 and 137.488.</p>
+      </solution>
+      <solution xml:id="fs-idp111080464">
+        <p xml:id="eip-idp189552432">
+Solution B</p>
+        <note xml:id="fs-idm115636704">
+          <p xml:id="fs-idm150426592">Enter the data as a list.
+
+Press <c>STAT</c> and arrow over to <c>TESTS</c>.
+
+Arrow down to <c>8:TInterval</c> and press <c>ENTER</c> (or you can just press <c>8</c>). Arrow to Data and press <c>ENTER</c>.
+
+Arrow down to <c>List</c> and enter the list name where you put the data.
+
+Arrow down to <c>Freq</c> and enter 1.
+
+Arrow down to <c>C-level</c> and enter 0.90.
+
+Arrow down to <c>Calculate</c> and press <c>ENTER</c>.
+
+The 90 percent confidence interval is (117.41, 137.49).</p>
+        </note>
+      </solution>
+    </exercise>
+  </example>
+  <note xml:id="fs-idm12320384">
+    <title>Try It</title>
+    <exercise xml:id="eip-467">
+      <statement>
+        <p xml:id="eip-636">A random sample of statistics students was asked to estimate the total number of hours they spend watching television in an average week. The responses are recorded in <xref ref="eip-672"/>. Use the following sample data to construct a 98 percent confidence interval for the mean number of hours statistics students will spend watching television in one week.
+
+
+  0	3	1	20	9
+5	10	1	10	4
+14	2	4	4	5
+
+
+
+  </p>
+      </statement>
+      <solution xml:id="eip-235">
+        <p xml:id="eip-290"><m>\bar{x}</m>= 6.133, <em>s</em> = 5.514, <em>n</em> = 15, and <em>df</em> = 15 – 1 = 14
+  </p>
+        <p xml:id="eip-idp148478592"><em>CL</em> = 0.98, so <em>α</em> = 1 - <em>CL</em> = 1 - 0.98 = 0.02</p>
+        <p xml:id="fs-idm61507728">
+ <m>\frac{\alpha}{2}=0.01t_{\frac{\alpha}{2}}=t_{0.01}=2.624</m></p>
+        <p xml:id="eip-idp139727531137792"><m>EBM=t_{\frac{\alpha}{2}}(\frac{s}{\sqrt{n}})=2.624(\frac{5.514}{\sqrt{15}})~3.736</m></p>
+        <p xml:id="eip-idp139727531150080"><m>\bar{x}</m> – <em>EBM</em> = 6.133 – 3.736 = 2.397</p>
+        <p xml:id="eip-idp139727531152800"><m>\bar{x}</m>
+ + <em>EBM</em> = 6.133 + 3.736 = 9.869</p>
+        <p xml:id="eip-idm9854640">We estimate with 98 percent confidence that the mean number of all hours that statistics students spend watching television in one week is between 2.397 and 9.869.</p>
+      </solution>
+      <solution xml:id="fs-idm58364192">
+        <note xml:id="fs-idm75621696">
+          <p xml:id="fs-idm12601504">Enter the data as a list.
+
+Press <c>STAT</c> and arrow over to <c>TESTS</c>.
+
+Arrow down to <c>8:TInterval</c>.
+
+Press <c>ENTER</c>.
+
+Arrow to <c>Data</c> and press <c>ENTER</c>.
+
+ Arrow down and enter the name of the list where the data is stored.
+
+ Enter <c>Freq</c>: 1
+
+ Enter <c>C-Level</c>: 0.98
+
+ Arrow down to <c>Calculate</c> and press <c>Enter</c>.
+
+ The 98 percent confidence interval is (2.3965, 9,8702).
+
+</p>
+        </note>
+      </solution>
+    </exercise>
+  </note>
+
+  <subsection xml:id="eip-400">
+    <title>References</title>
+    <p xml:id="fs-id1164565861654"><em>Bloomberg Businessweek</em>. (n.d.). Retrieved from http://www.businessweek.com/</p>
+    <p xml:id="fs-id1164567559284">Environmental Working Group. (n.d.). <em>Human toxome project: Mapping the pollution in people</em>. Retrieved from http://www.ewg.org/sites/humantoxome/participants/participant-group.php?group=in+utero%2Fnewborn</p>
+    <p xml:id="fs-id1164568024484">Federal Election Commission. (n.d.). <em>Disclosure data catalog: 2012 leadership PACs and sponsors</em>. Retrieved from http://www.fec.gov/data/index.jsp</p>
+    <p xml:id="fs-id1164567320804">Federal Election Commission. (n.d.). <em>Metadata description of leadership PAC list</em>. Retrieved from http://www.fec.gov/finance/disclosure/metadata/metadataLeadershipPacList.shtml</p>
+    <p xml:id="fs-id1164565499720">Forbes. (2013). Americas best small companies. Retrieved from http://www.forbes.com/best-small-companies/list/</p>
+    <p xml:id="fs-id1164567479841">Forbes. (n.d.). Retrieved from http://www.forbes.com/</p>
+    <p xml:id="fs-id1164567790594">Microsoft Bookshelf. (n.d.).</p>
+  </subsection>
+
+  <subsection xml:id="eip-447">
+    <title>Chapter Review</title>
+    <p xml:id="eip-895">In many cases, the researcher does not know the population standard deviation, <em>σ</em>, of the measure being studied. In these cases, it is common to use the sample standard deviation, <em>s</em>, as an estimate of <em>σ</em>. The normal distribution creates accurate confidence intervals when <em>σ</em> is known, but it is not as accurate when <em>s</em> is used as an estimate. In this case, the Student’s <em>t</em>-distribution is much better. Define a <em>t</em>-score using the following formula:</p>
+    <me xml:id="fs-id1164567141007">t= \frac{\bar{x}- \mu}{\frac{s}{\sqrt{n}}}</me>
+    <p xml:id="eip-305">The <em>t</em>-score follows the Student’s <em>t</em>-distribution with <em>n</em> – 1 degrees of freedom. The confidence interval under this distribution is calculated with <em>EBM</em> = <m>(t_{\frac{\alpha}{2}})\frac{s}{\sqrt{n}\text{,}}</m> where <m>t_{\frac{\alpha}{2}}</m> is the <em>t</em>-score with area to the right equal to <m>\frac{\alpha}{2}</m>, <em>s</em> is the sample standard deviation, and <em>n</em> is the sample size. Use a table, calculator, or computer to find <m>t_{\frac{\alpha}{2}}</m> for a given <em>α</em>.</p>
+  </subsection>
+
+  <subsection xml:id="eip-428">
+    <title>Formula Review</title>
+    <p xml:id="eip-987"><em>s</em> = the standard deviation of sample values
+</p>
+    <p xml:id="eip-11"><m>t= \frac{\bar{x}-\mu}{\frac{s}{\sqrt{n}}}</m> is the formula for the <em>t</em>-score, which measures how far away a measure is from the population mean in the Student’s <em>t</em>-distribution.</p>
+    <p xml:id="eip-995"><em>df</em> = <em>n</em> – 1; the degrees of freedom for a Student’s <em>t</em>-distribution, where <em>n</em> represents the size of the sample</p>
+    <p xml:id="eip-288"><em>T</em>~<em>t<sub>df </sub></em> the random variable, <em>T</em>, has a Student’s <em>t</em>-distribution with <em>df</em> degrees of freedom</p>
+    <p xml:id="eip-635"><m>EBM=t_{\frac{\alpha}{2}}\frac{s}{\sqrt{n}}</m> = the error bound for the population mean when the population standard deviation is unknown</p>
+    <p xml:id="eip-110"><m>t_{\frac{\alpha}{2}}</m> is the <em>t</em>-score in the Student’s <em>t</em>-distribution with area to the right equal to <m>\frac{\alpha}{2}\text{.}</m></p>
+    <p xml:id="fs-idm169440128">The general form for a confidence interval for a single mean, population standard deviation unknown, Student's <em>t</em> is given by 
+ (lower bound, upper bound)
+= (point estimate – <em>EBM</em>, point estimate + <em>EBM</em>)</p>
+    <me xml:id="fs-id1164566103182">\text{= }(\bar{x}-\frac{ts}{\sqrt{n}},\bar{x}\text{+ }\frac{ts}{\sqrt{n}})\text{.}</me>
+  </subsection>
+
+  <subsection xml:id="eip-568">
+    <p xml:id="eip-517"><em>Use the following information to answer the next five exercises:</em> A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hr, with a sample standard deviation of 0.5 hr.</p>
+    <exercise xml:id="eip-761">
+      <statement>
+        <p xml:id="eip-271">Identify the following:  </p>
+        <ol xml:id="fs-idm169488192">
+          <li>
+<m>\bar{x}</m> =_______</li>
+          <li>
+ <m>s_{x}</m> =_______</li>
+          <li><em>n</em> =_______</li>
+          <li><em>n</em> – 1 =_______</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="eip-589">
+      <statement>
+        <p xml:id="eip-213">Define the random variables <em>X</em> and <m>\bar{X}</m> in words.</p>
+      </statement>
+      <solution xml:id="eip-771">
+        <p xml:id="eip-673"><em>X</em> is the number of hours a patient waits in the emergency room before being called back to be examined. <m>\bar{X}</m> is the mean wait time of 70 patients in the emergency room.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="eip-709">
+      <statement>
+        <p xml:id="eip-555">Which distribution should you use for this problem?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="eip-624">
+      <statement>
+        <p xml:id="eip-158">Construct a 95 percent confidence interval for the population mean time spent waiting. State the confidence interval, sketch the graph, and calculate the error bound.</p>
+      </statement>
+      <solution xml:id="eip-501">
+        <p xml:id="eip-334">CI: (1.3808, 1.6192)</p>
+        <figure xml:id="fs-idm150372688">
+          <image source="../../media/CNX_Stats_C08_M03_item001annoN.jpg"/>
+        </figure>
+        <p xml:id="eip-idm67620928">
+<em>EBM</em> = 0.12</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="eip-469">
+      <statement>
+        <p xml:id="eip-785">Explain in complete sentences what the confidence interval means.</p>
+      </statement>
+    </exercise>
+    <p xml:id="eip-724">
+<em>Use the following information to answer the next six exercises:</em> One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watch an average of 151 hours each month, with a standard deviation of 32 hours. Assume that the underlying population distribution is normal.</p>
+    <exercise xml:id="eip-817">
+      <statement>
+        <p xml:id="eip-716">Identify the following:</p>
+        <ol xml:id="fs-idm137662144">
+          <li><m>\bar{x}</m> =_______</li>
+          <li><m>s_{x}</m> =_______</li>
+          <li><em>n</em> =_______</li>
+          <li><em>n</em> – 1 =_______</li>
+        </ol>
+      </statement>
+      <solution xml:id="eip-123">
+        <ol xml:id="fs-idm117900288">
+          <li>
+ <m>\bar{x}</m> = 151</li>
+          <li>
+<m>s_{x}</m> = 32</li>
+          <li><em>n</em> = 108</li>
+          <li><em>n</em> – 1 = 107</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="eip-225">
+      <statement>
+        <p xml:id="eip-675">Define the random variable <em>X</em> in words.</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="eip-810">
+      <statement>
+        <p xml:id="eip-629">Define the random variable <m>\bar{X}</m> in words.</p>
+      </statement>
+      <solution xml:id="eip-823">
+        <p xml:id="eip-495"><m>\bar{X}</m> is the mean number of hours spent watching television per month from a sample of 108 Americans.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="eip-72">
+      <statement>
+        <p xml:id="eip-578">Which distribution should you use for this problem?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="eip-82">
+      <statement>
+        <p xml:id="eip-489">Construct a 99 percent confidence interval for the population mean hours spent watching television per month. State the confidence interval, sketch the graph, and calculate the error bound.</p>
+      </statement>
+      <solution xml:id="eip-35">
+        <p xml:id="eip-id1169812910484">CI: (142.92, 159.08)
+
+
+  
+
+<em>EBM</em> = 8.08
+</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="eip-793">
+      <statement>
+        <p xml:id="eip-524">Why would the error bound change if the confidence level were lowered to 95 percent?</p>
+      </statement>
+    </exercise>
+    <p xml:id="element-59">
+<em>Use the following information to answer the next 13 exercises:</em> The data in <xref ref="element-181"/> are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let <em>X</em> = the number of colors on a national flag.</p>
+    <table xml:id="element-181">
+      <tabular>
+        <row header="yes">
+          <cell><em>X</em></cell>
+          <cell>Freq.</cell>
+        </row>
+        <row>
+          <cell>1</cell>
+          <cell>1</cell>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell>7</cell>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell>18</cell>
+        </row>
+        <row>
+          <cell>4</cell>
+          <cell>7</cell>
+        </row>
+        <row>
+          <cell>5</cell>
+          <cell>6</cell>
+        </row>
+      </tabular>
+    </table>
+    <exercise xml:id="element-953">
+      <statement>
+        <p xml:id="element-234525">
+Calculate the following:
+</p>
+        <ol xml:id="list-87678">
+          <li><m>\bar{x}</m> =______</li>
+          <li><m>s_{x}</m> =______</li>
+          <li><em>n</em> =______</li>
+        </ol>
+      </statement>
+      <solution xml:id="id45593982">
+        <ol xml:id="list-827634">
+          <li>3.26</li>
+          <li>1.02</li>
+          <li>39</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="element-62">
+      <statement>
+        <p xml:id="element-588">Define the random variable <m>\bar{X}</m> in words.</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="element-212">
+      <statement>
+        <p xml:id="element-703">What is <m>\bar{x}</m> estimating?</p>
+      </statement>
+      <solution xml:id="id45594200">
+        <p xml:id="element-760"><em>μ</em></p>
+      </solution>
+    </exercise>
+    <exercise xml:id="element-704">
+      <statement>
+        <p xml:id="element-695">Is <m>\sigma_{x}</m> known?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="element-164">
+      <statement>
+        <p xml:id="element-339">As a result of your answer to <xref ref="element-704"/>, state the exact distribution to use when calculating the confidence interval.</p>
+      </statement>
+      <solution xml:id="id45594350">
+        <p xml:id="element-875"><em>t</em><sub>38</sub></p>
+      </solution>
+    </exercise>
+    <p xml:id="element-548">
+<em>Construct a 95 percent confidence interval for the true mean number of colors on national flags.</em></p>
+    <exercise xml:id="element-425">
+      <statement>
+        <p xml:id="element-325">How much area is in both tails (combined)?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="element-945">
+      <statement>
+        <p xml:id="element-260">How much area is in each tail?</p>
+      </statement>
+      <solution xml:id="id45959554">
+        <p xml:id="element-697">0.025</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="element-526">
+      <statement>
+        <p xml:id="element-2354253">Calculate the following:
+ 
+  lower limit
+  upper limit
+  error bound
+</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="element-363">
+      <statement>
+        <p xml:id="element-434">The 95 percent confidence interval is_____.</p>
+      </statement>
+      <solution xml:id="id45959750">
+        <p xml:id="element-350">(2.93, 3.59)</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="element-188">
+      <statement>
+        <p xml:id="element-726">Fill in the blanks on the graph with the areas, the upper and lower limits of the confidence interval, and the sample mean.</p>
+        <figure xml:id="five5">
+          <image source="../../media/fig-ch08_07_01.jpg"/>
+        </figure>
+      </statement>
+    </exercise>
+    <exercise xml:id="element-499">
+      <statement>
+        <p xml:id="fs-idp7770160">In one complete sentence, explain what the interval means.</p>
+      </statement>
+      <solution xml:id="eip-idm51678224">
+        <p xml:id="eip-idp98208704">We are 95 percent confident that the true mean number of colors for national flags is between 2.93 colors and 3.59 colors.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="element-542">
+      <statement>
+        <p xml:id="one">
+ Using the same <m>\bar{x}</m>, <m>s_{x}</m>, and level of confidence, suppose that <em>n</em> were 69 instead of 39. Would the error bound become larger or smaller? How do you know?</p>
+      </statement>
+      <solution xml:id="eip-idm61120128">
+        <p xml:id="eip-idm61119872">The error bound would become EBM = 0.245. This error bound decreases, because as sample sizes increase, variability decreases, and we need less interval length to capture the true mean.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="element-939">
+      <statement>
+        <p xml:id="element-111">Using the same <m>\bar{x}</m>, <m>s_{x}</m>, and <em>n</em> = 39, how would the error bound change if the confidence level were reduced to 90 percent? Why?</p>
+      </statement>
+    </exercise>
+  </subsection>
+
+  <subsection xml:id="fs-idp293092128">
+    <title>Homework</title>
+    <exercise xml:id="exer2">
+      <statement>
+        <p xml:id="para2">In six packages of multicolored fruit snacks, there were five red snack pieces. The total number of snack pieces in the six bags was 68. We wish to calculate a 96 percent confidence interval for the population proportion of red snack pieces.</p>
+        <ol xml:id="list5">
+          <li>Define the random variables <em>X</em> and
+   <em>P</em>′ in words.</li>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>Calculate <em>p</em>′.</li>
+          <li>
+            <ol xml:id="list6">
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>Do you think that six packages of fruit snacks yield enough data to give accurate results? Why or why not?</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="exer3">
+      <statement>
+        <p xml:id="para7">A random survey of enrollment at 35 community colleges across the United States yielded the following figures: 6,414, 1,550, 2,109, 9,350, 21,828, 4,300, 5,944, 5,722, 2,825, 2,044, 5,481, 5,200, 5,853, 2,750, 10,012, 6,357, 27,000, 9,414, 7,681, 3,200, 17,500, 9,200, 7,380, 18,314, 6,557, 13,713, 17,768, 7,493, 2,771, 2,861, 1,263, 7,285, 28,165, 5,080, 11,622. Assume the underlying population is normal.
+ 
+ 
+  
+   <m>\bar{x}</m> = __________
+   <m>s_{x}</m> = __________
+   <em>n</em> = __________
+   <em>n</em> – 1 = __________
+  
+  
+   Define the random variables <m>X</m> and <m>\bar{X}</m> in words.
+      Which distribution should you use for this problem? Explain your choice.
+      Construct a 95 percent confidence interval for the population mean enrollment at community colleges in the United States.
+       
+        State the confidence interval.
+      Sketch the graph.
+    Calculate the error bound.
+       
+      
+    What will happen to the error bound and confidence interval if 500 community colleges are surveyed? Why?
+ 
+</p>
+      </statement>
+      <solution xml:id="id6025360">
+        <ol xml:id="list_s4">
+          <li>
+            <ol xml:id="list_s5">
+              <li>8,629</li>
+              <li>6,944</li>
+              <li>35</li>
+              <li>34</li>
+            </ol>
+          </li>
+          <li><m>t_{34}</m>
+  </li>
+          <li>
+            <ol xml:id="list_s7">
+              <li>CI: (6244, 11,014)</li>
+              <li></li>
+              <li>EB = 2385</li>
+            </ol>
+          </li>
+          <li>It will become smaller.</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="exer5">
+      <statement>
+        <p xml:id="para8">Suppose that a committee is studying whether there is wasted time in our judicial system. It is interested in the mean amount of time individuals waste at the courthouse waiting to be called for jury duty. The committee randomly surveyed 81 people who recently served as jurors. The sample mean wait time was 8 hr, with a sample standard deviation of 4 hr.</p>
+        <ol xml:id="list13">
+          <li>
+            <ol xml:id="list12">
+              <li><m>\bar{x}</m> = __________</li>
+              <li><m>s_{x}</m> = __________</li>
+              <li><em>n</em> = __________</li>
+              <li><em>n</em> – 1 = __________</li>
+            </ol>
+          </li>
+          <li>Define the random variables <m>X</m> and <m>\bar{X}</m> in words.</li>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>
+            <ol xml:id="list14">
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>Explain in a complete sentence what the confidence interval means.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="exer10">
+      <statement>
+        <p xml:id="para21">A pharmaceutical company makes a drug used during surgery. It is assumed that the distribution for the length of time the drug lasts is approximately normal. Researchers in a hospital used the drug on a random sample of nine patients. The effective period of the antibiotic drug for each patient (in hours) was as follows: 2.7, 2.8, 3.0, 2.3, 2.3, 2.2, 2.8, 2.1, and 2.4.</p>
+        <ol xml:id="list21">
+          <li>
+            <ol xml:id="list21a">
+              <li><m>\bar{x}</m> = __________</li>
+              <li><m>s_{x}</m> = __________</li>
+              <li><em>n</em> = __________</li>
+              <li><em>n</em> – 1 = __________</li>
+            </ol>
+          </li>
+          <li>Define the random variable <m>X</m> in words.</li>
+          <li>Define the random variable <m>\bar{X}</m> in words.</li>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>
+            <ol xml:id="list22_5">
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>What does it mean to be  <em>95 percent confident</em> in this problem?</li>
+        </ol>
+      </statement>
+      <solution xml:id="fs-idm131198032">
+        <ol xml:id="fs-idm86189312">
+          <li>
+            <ol xml:id="fs-idm33946400">
+              <li><m>\bar{x}</m> = 2.51</li>
+              <li><m>s_{x}</m> = 0.318</li>
+              <li><em>n</em> = 9</li>
+              <li><em>n</em> - 1 = 8 </li>
+            </ol>
+          </li>
+          <li>The effective length of time for a tranquilizer</li>
+          <li>The mean effective length of time of tranquilizers from a sample of nine patients</li>
+          <li>We need to use a Student’s <em>t</em>-distribution, because we do not know the population standard deviation.</li>
+          <li>
+            <ol xml:id="fs-idm270080896">
+              <li>CI: (2.27, 2.76)</li>
+              <li>Check student's solution.</li>
+              <li><em>EBM</em>: 0.25</li>
+            </ol>
+          </li>
+          <li>If we were to sample many groups of nine patients, 95 percent of the samples would contain the true population mean length of time.</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="exer11">
+      <statement>
+        <p xml:id="para23">Suppose that 14 children who were learning to ride two-wheel bikes were surveyed to determine how long they had to use training wheels. It was revealed that they used them an average of six months, with a sample standard deviation of three months. Assume that the underlying population distribution is normal.</p>
+        <ol xml:id="list23_5">
+          <li>
+            <ol xml:id="list24">
+              <li><m>\bar{x}</m> = __________</li>
+              <li><m>s_{x}</m> = __________</li>
+              <li><em>n</em> = __________</li>
+              <li><em>n</em> – 1 = __________</li>
+            </ol>
+          </li>
+          <li>Define the random variable <m>X</m> in words.</li>
+          <li>Define the random variable <m>\bar{X}</m> in words.</li>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>
+            <ol xml:id="list24_5">
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>Why would the error bound change if the confidence level were lowered to 90 percent?</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="eip-390">
+      <statement>
+        <p xml:id="eip-520">The Federal Election Commission (FEC) collects information about campaign contributions and disbursements for candidates and political committees during each election cycle. A political action committee (PAC) is a committee formed to raise money for candidates and campaigns. A Leadership PAC is a PAC formed by a federal politician (senator or representative) to raise money to help other candidates’ campaigns.</p>
+        <p xml:id="eip-idm79133520">The FEC has reported financial information for 556 Leadership PACs that operated during the 2011–2012 election cycle. The following table shows the total receipts during this cycle for a random selection of 20 Leadership PACs.</p>
+        <table xml:id="eip-146">
+          <tabular>
+            <row>
+              <cell>$46,500.00</cell>
+              <cell>$0</cell>
+              <cell>$40,966.50</cell>
+              <cell>$105,887.20</cell>
+              <cell>$5,175.00</cell>
+            </row>
+            <row>
+              <cell>$29,050.00</cell>
+              <cell>$19,500.00</cell>
+              <cell>$181,557.20</cell>
+              <cell>$31,500.00</cell>
+              <cell>$149,970.80</cell>
+            </row>
+            <row>
+              <cell>$2,555,363.20</cell>
+              <cell>$12,025.00</cell>
+              <cell>$409,000.00</cell>
+              <cell>$60,521.70</cell>
+              <cell>$18,000.00</cell>
+            </row>
+            <row>
+              <cell>$61,810.20</cell>
+              <cell>$76,530.80</cell>
+              <cell>$119,459.20</cell>
+              <cell>$0</cell>
+              <cell>$63,520.00</cell>
+            </row>
+            <row>
+              <cell>$6,500.00</cell>
+              <cell>$502,578.00</cell>
+              <cell>$705,061.10</cell>
+              <cell>$708,258.90</cell>
+              <cell>$135,810.00</cell>
+            </row>
+            <row>
+              <cell>$2,000.00</cell>
+              <cell>$2,000.00</cell>
+              <cell>$0</cell>
+              <cell>$1,287,933.80</cell>
+              <cell>$219,148.30</cell>
+            </row>
+          </tabular>
+        </table>
+        <p xml:id="fs-idm101832672">
+<m>\bar{x}=$251,854.23</m>
+</p>
+        <p xml:id="fs-idm60266896">
+<m>s=\text{ }$521,130.41</m>
+</p>
+        <p xml:id="eip-idp69132832">Use the sample data to construct a 96 percent confidence interval for the mean amount of money raised by all Leadership PACs during the 2011–2012 election cycle. Use the Student's <em>t</em>-distribution.</p>
+      </statement>
+      <solution xml:id="eip-770">
+        <p xml:id="fs-idm151956208">
+<m>\bar{x}=$251,854.23\text{;}</m>
+</p>
+        <p xml:id="fs-idp3598576">
+<m>s=\text{ }$521,130.41\text{.}</m>
+</p>
+        <p xml:id="fs-idm60939744">Note that we are not given the population standard deviation, only the standard deviation of the sample.</p>
+        <p xml:id="eip-idm63664256">There are 30 measures in the sample, so <em>n</em> = 30, and <em>df</em> = 30 - 1 = 29.</p>
+        <p xml:id="fs-idm117819488"><em>CL</em> = 0.96, so <em>α</em> = 1 - <em>CL</em> = 1 - 0.96 = 0.04.</p>
+        <p xml:id="fs-idm140901120"><m>\frac{\alpha}{2}=0.02t_{\frac{\alpha}{2}}=t_{0.02}</m>
+ = 2.150.</p>
+        <p xml:id="eip-idp903520"><m>EBM=t_{\frac{\alpha}{2}}(\frac{s}{\sqrt{n}})=2.150(\frac{521,130.41}{\sqrt{30}}) ~ $204,561.66\text{.}</m>
+</p>
+        <p xml:id="eip-idm139616976"><m>\bar{x}</m> - <em>EBM</em> = $251,854.23 - $204,561.66 = $47,292.57.</p>
+        <p xml:id="eip-idm95497616"><m>\bar{x}</m> + <em>EBM</em> = $251,854.23 + $204,561.66 = $456,415.89.</p>
+        <p xml:id="eip-idm43369008">We estimate with 96 percent confidence that the mean amount of money raised by all Leadership PACs during the 2011–2012 election cycle lies between $47,292.57 and $456,415.89.
+</p>
+        <p xml:id="eip-idm19923248">Alternate Solution</p>
+        <note xml:id="fs-idm33267104">
+        </note>
+        <p xml:id="eip-idp167827024">The difference between solutions arises from rounding differences.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="eip-217">
+      <statement>
+        <p xml:id="eip-184">A major business magazine published data on the best small firms in 2012. These were firms that have been publicly traded for at least a year, have a stock price of at least $5 per share, and have reported annual revenue between $5 million and $1 billion. <xref ref="eip-884"/> shows the ages of the corporate CEOs for a random sample of these firms.
+  </p>
+        <table xml:id="eip-884">
+          <tabular>
+            <row>
+              <cell>48</cell>
+              <cell>58</cell>
+              <cell>51</cell>
+              <cell>61</cell>
+              <cell>56</cell>
+            </row>
+            <row>
+              <cell>59</cell>
+              <cell>74</cell>
+              <cell>63</cell>
+              <cell>53</cell>
+              <cell>50</cell>
+            </row>
+            <row>
+              <cell>59</cell>
+              <cell>60</cell>
+              <cell>60</cell>
+              <cell>57</cell>
+              <cell>46</cell>
+            </row>
+            <row>
+              <cell>55</cell>
+              <cell>63</cell>
+              <cell>57</cell>
+              <cell>47</cell>
+              <cell>55</cell>
+            </row>
+            <row>
+              <cell>57</cell>
+              <cell>43</cell>
+              <cell>61</cell>
+              <cell>62</cell>
+              <cell>49</cell>
+            </row>
+            <row>
+              <cell>67</cell>
+              <cell>67</cell>
+              <cell>55</cell>
+              <cell>55</cell>
+              <cell>49</cell>
+            </row>
+          </tabular>
+        </table>
+        <p xml:id="eip-idm30943456">Use the sample data to construct a 90 percent confidence interval for the mean age of CEOs for these top small firms. Use the Student's <em>t</em>-distribution.</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="eip-392">
+      <statement>
+        <p xml:id="eip-579">Unoccupied seats on flights cause airlines to lose revenue. Suppose a large airline wants to estimate its mean number of unoccupied seats per flight over the past year. To accomplish this, the records of 225 flights are randomly selected, and the number of unoccupied seats is noted for each of the sampled flights. The sample mean is 11.6 seats, and the sample standard deviation is 4.1 seats.</p>
+        <ol xml:id="eip-idm49907776">
+          <li>
+            <ol xml:id="eip-idp70657312">
+              <li><m>\bar{x}</m> = __________
+  </li>
+              <li><m>s_{x}</m> = __________</li>
+              <li><em>n</em> = __________</li>
+              <li><em>n</em>  1 = __________</li>
+            </ol>
+          </li>
+          <li>Define the random variables <m>X</m> and <m>\bar{X}</m> in words.</li>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>
+            <ol xml:id="eip-idm535456">
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+        </ol>
+      </statement>
+      <solution xml:id="fs-idm33461392">
+        <ol xml:id="fs-idp16278992">
+          <li>
+            <ol xml:id="fs-idm150491184">
+              <li><m>\bar{x}</m> = </li>
+              <li><m>s_{x}</m> = </li>
+              <li><em>n</em> = </li>
+              <li><em>n</em> - 1 = </li>
+            </ol>
+          </li>
+          <li><em>X</em> is the number of unoccupied seats on a single flight. <m>\bar{X}</m> is the mean number of unoccupied seats from a sample of 225 flights.</li>
+          <li>We will use a Student’s t-distribution, because we do not know the population standard deviation.</li>
+          <li>
+            <ol xml:id="fs-idm19293168">
+              <li>CI: (11.12 , 12.08)</li>
+              <li>Check student's solution.</li>
+              <li><em>EBM</em>: 0.48</li>
+            </ol>
+          </li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="eip-848">
+      <statement>
+        <p xml:id="eip-idp46649712">In a recent sample of 84 used car sales costs, the sample mean was $6,425, with a standard deviation of $3,156. Assume the underlying distribution is approximately normal.</p>
+        <ol xml:id="eip-idp46650288">
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>Define the random variable <m>\bar{X}</m> in words.</li>
+          <li>
+            <ol xml:id="eip-idp2064304">
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>Explain what a <em>95 percent confidence interval</em> means for this study.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="eip-789">
+      <statement>
+        <p xml:id="eip-idp114357168">Six different national brands of chocolate chip cookies were randomly selected at the supermarket. The grams of fat per serving are as follows: 8, 8, 10, 7, 9, 9. Assume the underlying distribution is approximately normal.</p>
+        <ol xml:id="eip-idp114357792">
+          <li>
+            <ol xml:id="eip-idm3541392">
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>If you wanted a smaller error bound while keeping the same level of confidence, what should have been changed in the study before it was done?</li>
+          <li>Go to the store and record the grams of fat per serving of six brands of chocolate chip cookies.</li>
+          <li>Calculate the mean.</li>
+          <li>Is the mean within the interval you calculated in Part a? Did you expect it to be? Why or why not?</li>
+        </ol>
+      </statement>
+      <solution xml:id="fs-idm144387776">
+        <ol xml:id="fs-idm144387520">
+          <li>
+            <ol xml:id="fs-idm104467472">
+              <li>CI: (7.64, 9.36)</li>
+              <li></li>
+              <li><em>EBM</em>: 0.86</li>
+            </ol>
+          </li>
+          <li>The sample should have been increased.</li>
+          <li>Answers will vary.</li>
+          <li>Answers will vary.</li>
+          <li>Answers will vary.</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-idm170967312">
+      <statement>
+        <p xml:id="fs-idm181156384">A survey of the mean number of cents off given by coupons was conducted by randomly surveying one coupon per page from the coupons section of a local newspaper. The following data were collected: 20¢, 75¢, 50¢, 65¢, 30¢, 55¢, 40¢, 40¢, 30¢, 55¢, $1.50, 40¢, 65¢, 40¢. Assume the underlying distribution is approximately normal.</p>
+        <ol xml:id="fs-idm115727600">
+          <li>
+            <ol xml:id="fs-idm158307360">
+              <li><m>\bar{x}</m> = __________</li>
+              <li><m>s_{x}</m> = __________</li>
+              <li><em>n</em> = __________</li>
+              <li><em>n</em>  1 = __________</li>
+            </ol>
+          </li>
+          <li>Define the random variables <m>X</m> and <m>\bar{X}</m> in words.</li>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>
+            <ol xml:id="fs-idm87013712">
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>If many random samples were collected with 14 samples as the size, which percentage of the confidence intervals constructed should contain the population mean worth of coupons? Explain why.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <p xml:id="id7660865">
+<em>Use the following information to answer the next two exercises:</em> A quality control specialist for a restaurant chain takes a random sample of size 12 to check the amount of soda served in the 16-oz serving size. The sample mean is 13.30, with a sample standard deviation of 1.55. Assume the underlying population is normally distributed.</p>
+    <exercise xml:id="eeeeeeeeeeeeeeex">
+      <statement>
+        <p xml:id="para58">Find the 95 percent confidence interval for the true population mean for the amount of soda served.</p>
+        <ol xml:id="list58">
+          <li>(12.42, 14.18)</li>
+          <li>(12.32, 14.29)</li>
+          <li>(12.50, 14.10)</li>
+          <li>Impossible to determine</li>
+        </ol>
+      </statement>
+      <solution xml:id="id6215942">
+        <p xml:id="solb11">b</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="exxxx">
+      <statement>
+        <p xml:id="para60">Which of the following is the error bound?</p>
+        <ol xml:id="list60">
+          <li>0.87</li>
+          <li>1.98</li>
+          <li>0.99</li>
+          <li>1.74</li>
+        </ol>
+      </statement>
+    </exercise>
+  </subsection>
+</section>
   <section xml:id="sec-population-proportion">
     <title>A Population Proportion</title>
     <p>
