@@ -3,10 +3,82 @@
   <title>Confidence Intervals</title>
 
   <introduction>
-    <p>
-      This chapter introduces confidence intervals, which provide a range of plausible 
-      values for population parameters.
-    </p>
+    <figure xml:id="fig-ch08-00-01">
+      <caption>Have you ever wondered what the average number of chocolate candies in a bag at the grocery store is? You can use confidence intervals to answer this question. (credit: comedy_nose/flickr)</caption>
+      <image source="media/CNX_Stats_C08_CO.jpg" width="80%">
+        <description>This is a photo of M&amp;Ms piled together. The M&amp;Ms are red, blue, green, yellow, orange and brown.</description>
+      </image>
+    </figure>
+
+    <objectives>
+      <title>Chapter Objectives</title>
+      <p xml:id="element-281">By the end of this chapter, the student should be able to do the following:</p>
+      <ul xml:id="list12315">
+        <li><p>Calculate and interpret confidence intervals for estimating a population mean and a population proportion</p></li>
+        <li><p>Interpret the Student's <em>t</em> probability distribution as the sample size changes</p></li>
+        <li><p>Discriminate between problems applying the normal and the Student's <em>t</em>-distributions</p></li>
+        <li><p>Calculate the sample size required to estimate a population mean and a population proportion, given a desired confidence level and margin of error</p></li>
+      </ul>
+    </objectives>
+
+    <p xml:id="eip-123456789">Suppose you were trying to determine the mean rent of a two-bedroom apartment in your town. You might look in the classified section of the newspaper, write down several rents listed, and average them together. You would have obtained a point estimate of the true mean. If you are trying to determine the percentage of times you make a basket when shooting a basketball, you might count the number of shots you make and divide that by the number of shots you attempt. In this case, you would have obtained a point estimate for the true proportion.</p>
+
+    <p xml:id="element-550">We use sample data to make generalizations about an unknown population. This part of statistics is called <term xml:id="term-00001">inferential statistics</term>. <em>The sample data help us to make an estimate of a population <term xml:id="term-00002">parameter</term></em>. We realize that the point estimate is most likely not the exact value of the population parameter, but close to it. After calculating point estimates, we construct interval estimates, called <em>confidence intervals</em>.</p>
+
+    <p xml:id="element-667">In this chapter, you will learn to construct and interpret confidence intervals. You will also learn a new distribution, the Student's-<em>t</em>, and how it is used with those intervals. Throughout the chapter, it is important to keep in mind that the confidence interval is a random variable. It is the population parameter that is fixed.</p>
+
+    <p xml:id="element-560">If you worked in the marketing department of an entertainment company, you might be interested in the mean number of songs a consumer downloads a month from an internet music store. If so, you could conduct a survey and calculate the sample mean, <m>\bar{x}</m>, and the sample standard deviation, <em>s</em>. You would use <m>\bar{x}</m> to estimate the population mean and <em>s</em> to estimate the population standard deviation. The sample mean, <m>\bar{x}</m>, is the <term xml:id="term-00003">point estimate</term> for the population mean, <em>μ</em>. The sample standard deviation, <em>s</em>, is the point estimate for the population standard deviation, <em>σ</em>.</p>
+
+    <p xml:id="eip-65">Each instance of <m>\bar{x}</m> and <em>s</em> is called a <em>statistic</em>.</p>
+
+    <p xml:id="element-510">A <term xml:id="term-00004">confidence interval</term> is another type of estimate but, instead of being just one number, it is an interval of numbers. The interval of numbers is a range of values calculated from a given set of sample data. The confidence interval is likely to include an unknown population parameter.</p>
+
+    <p xml:id="element-53">Suppose, for the internet music example, we do not know the population mean, <em>μ</em>, but we do know that the population standard deviation is <em>σ</em> = 1 and our sample size is 100. Then, by the central limit theorem, the standard deviation for the sample mean is</p>
+
+    <me xml:id="fs-id1164562170064">
+      \frac{\sigma}{\sqrt{n}} = \frac{1}{\sqrt{100}} = 0.1.
+    </me>
+
+    <p xml:id="element-730">The <term xml:id="term-00005">Empirical Rule</term>, which applies to bell-shaped distributions, says that in approximately 95 percent of the samples, the sample mean, <m>\bar{x}</m>, will be within two standard deviations of the population mean, <em>μ</em>. For our internet music example, two standard deviations would be calculated as (2)(0.1) = 0.2. The sample mean, <m>\bar{x}</m>, is likely to be within 0.2 units of <em>μ</em>.</p>
+
+    <p xml:id="fs-id1164560823716">In this example, we do not know the true population mean <em>μ</em> (because we do not have information from all the internet music users!), but we can compute the sample mean <m>\bar{x}</m> based on our sample of 100 individuals. Because the sample mean is likely to be within 0.2 units of the true population mean 95 percent of the times that we take a sample of 100 users, we can say with 95 percent confidence that <em>μ</em> is within 0.2 units of <m>\bar{x}</m>. In other words, <em>μ</em> is somewhere between <m>\bar{x} - 0.2</m> and <m>\bar{x} + 0.2</m>.</p>
+
+    <p xml:id="fs-id1164563452758">Suppose that from the sample of 100 internet music customers, we compute a sample mean download of <m>\bar{x} = 2</m> songs per month. Since we know that the population standard deviation is <m>\sigma = 1</m>, according to the central limit theorem, the standard deviation for the sample means is <m>\sigma = \frac{1}{\sqrt{100}} = 0.1</m>.</p>
+
+    <p xml:id="fs-id1164564841116">We know that there is a 95 percent chance that the true population mean value <em>μ</em> is between two standard deviations from the sample mean. That is, with 95 percent confidence we can say that <em>μ</em> is between <m>\bar{x} + 2 \times \frac{\sigma}{\sqrt{n}}</m> and <m>\bar{x} - 2 \times \frac{\sigma}{\sqrt{n}}</m>.</p>
+
+    <p xml:id="fs-id1164566885665">Replacing the symbols for their values in this example, we say that we are <em>95 percent confident</em> that the true average number of songs downloaded from an internet music store per month is between <me xml:id="fs-id1164562059797">\bar{x} - 2 \times \frac{\sigma}{\sqrt{n}} = 2 - 2 \times \frac{\sigma}{\sqrt{100}} = 2 - 0.2 = 1.8, \text{ and}</me></p>
+
+    <me xml:id="eip-123">
+      \bar{x} + 2 \times \frac{\sigma}{\sqrt{n}} = 2 + 2 \times \frac{\sigma}{\sqrt{100}} = 2 + 0.2 = 2.2.
+    </me>
+
+    <p xml:id="fs-id1164564919894"><em>The 95 percent confidence interval for</em> <em>μ</em> <em>is (1.8, 2.2)</em>.</p>
+
+    <p xml:id="element-484">The 95 percent confidence interval implies two possibilities. Either the interval (1.8, 2.2) contains the true mean, <em>μ</em>, or our sample produced an <m>\bar{x}</m> that is not within 0.2 units of the true mean <em>μ</em>. The second possibility happens for only 5 percent of all the samples (95–100 percent).</p>
+
+    <p xml:id="element-39">Remember that a confidence interval is created for an unknown population parameter like the population mean, <em>μ</em>. Confidence intervals for some parameters have the form</p>
+
+    <p xml:id="element-75"><em>(point estimate – margin of error, point estimate + </em> <term xml:id="term-00006">margin of error</term><em>)</em>.</p>
+
+    <p xml:id="element-485">The margin of error depends on the confidence level or percentage of confidence and the standard error of the mean.</p>
+
+    <p xml:id="eip-255">When you read newspapers and journals, you might notice that some reports use the phrase <em>margin of error</em>. Other reports will not use that phrase, but include a confidence interval as the point estimate plus or minus the margin of error. Those are two ways of expressing the same concept.</p>
+
+    <note xml:id="eip-882">
+      <title>Note</title>
+      <p xml:id="eip-idm127604736">Although the text covers only symmetrical confidence intervals, there are non-symmetrical confidence intervals (for example, a confidence interval for the standard deviation).</p>
+    </note>
+
+    <exploration xml:id="fs-idp47490208">
+      <p xml:id="element-906">Have your instructor record the number of meals each student in your class eats out in a week. Assume that the standard deviation is known to be three meals. Construct an approximate 95 percent confidence interval for the true mean number of meals students eat out each week.</p>
+      <ol xml:id="element-997">
+        <li><p>Calculate the sample mean.</p></li>
+        <li><p>Let <em>σ</em> = 3 and <em>n</em> = the number of students surveyed.</p></li>
+        <li><p>Construct the interval. <me>\left(\bar{x} - 2 \left(\frac{\sigma}{\sqrt{n}}\right)\right), \left(\bar{x} + 2 \left(\frac{\sigma}{\sqrt{n}}\right)\right)</me></p></li>
+      </ol>
+      <p xml:id="element-927">We say we are approximately 95 percent confident that the true mean number of meals that students eat out in a week is between __________ and ___________.</p>
+    </exploration>
   </introduction>
 
   <section xml:id="sec-single-population-mean-known-stddev">
@@ -57,6 +129,35 @@
       Content to be added from module m79659.
     </p>
   </section>
+
+  <glossary xml:id="glossary-ch08">
+    <title>Glossary</title>
+    
+    <gi xml:id="coninter">
+      <title>confidence interval (CI)</title>
+      <p>an interval estimate for an unknown population parameter. This depends on the following:</p>
+      <ul xml:id="confint1">
+        <li><p>the desired confidence level,</p></li>
+        <li><p>information that is known about the distribution (for example, known standard deviation), and</p></li>
+        <li><p>the sample and its size.</p></li>
+      </ul>
+    </gi>
+    
+    <gi xml:id="infrstats">
+      <title>inferential statistics</title>
+      <p>also called statistical inference or inductive statistics; this facet of statistics deals with estimating a population parameter based on a sample statistic. For example, if four out of the 100 calculators sampled are defective, we might infer that 4 percent of the production is defective.</p>
+    </gi>
+    
+    <gi xml:id="parameter">
+      <title>parameter</title>
+      <p>a numerical characteristic of a population</p>
+    </gi>
+    
+    <gi xml:id="pointest">
+      <title>point estimate</title>
+      <p>a single number computed from a sample and used to estimate a population parameter</p>
+    </gi>
+  </glossary>
 
   <conclusion>
     <p>
