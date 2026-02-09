@@ -71,7 +71,7 @@
 <li><m>\sigma_x</m> = the standard deviation of <em>X</em></li>
 </ol>
 
-<p xml:id="fs-idm4523440">If you draw random samples of size <em>n</em>, then as <em>n</em> increases, the random variable <m>\overline{X}</m>, which consists of sample means, tends to be <term xml:id="term-00001">normally distributed</term> and</p>
+<p xml:id="fs-idm4523440">If you draw random samples of size <em>n</em>, then as <em>n</em> increases, the random variable <m>\overline{X}</m>, which consists of sample means, tends to be <term xml:id="term-00008">normally distributed</term> and</p>
 
 <me xml:id="fs-id1164561129806">
 \overline{X} \sim N\left(\mu_x, \frac{\sigma_x}{\sqrt{n}}\right)
@@ -1171,7 +1171,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
   <title>Using the Central Limit Theorem</title>
 
   <subsection xml:id="fs-id1164565575770">
-    <p xml:id="eip-123456789">It is important for you to understand when to use the <term xml:id="term-00001">central limit theorem</term>. If you are being asked to find the probability of the mean, use the clt for the means. If you are being asked to find the probability of a sum or total, use the clt for sums. This also applies to percentiles for means and sums.</p>
+    <p xml:id="eip-123456789">It is important for you to understand when to use the <term xml:id="term-00009">central limit theorem</term>. If you are being asked to find the probability of the mean, use the clt for the means. If you are being asked to find the probability of a sum or total, use the clt for sums. This also applies to percentiles for means and sums.</p>
     <note xml:id="id11030776">
       <title>NOTE</title>
       <p xml:id="fs-idm90223456">If you are being asked to find the probability of an <em>individual</em> value, do <em>not</em> use the clt. <em>Use the distribution of its random variable.</em></p>
@@ -1458,7 +1458,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
     <exercise xml:id="exercise4">
       <statement>
         <ol xml:id="fs-idm44419104">
-          <li>What is the distribution for the weights of one 25-pound lifting weight? What are the mean and standard deivation?</li>
+          <li>What is the distribution for the weights of one 25-pound lifting weight? What are the mean and standard deviation?</li>
           <li>What is the distribution for the mean weight of 100 25-pound lifting weights?</li>
           <li>Find the probability that the mean actual weight for the 100 weights is less than 24.9.</li>
         </ol>
