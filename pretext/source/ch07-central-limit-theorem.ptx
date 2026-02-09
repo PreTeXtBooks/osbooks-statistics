@@ -2209,7 +2209,7 @@ The average stay of 80 women was more than five days.</li>
 <li>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li>
 </ol>
 
-<p><title>Collecting Averages of Groups of Five:</title>Repeat steps one through five (of the section titled <xref ref="CollectData">Collect the Data</xref>), with one exception. Instead of recording the change of 30 classmates, record the average change of 30 groups of five.</p>
+<p xml:id="ch7-element-505436759"><title>Collecting Averages of Groups of Five:</title>Repeat steps one through five (of the section titled <xref ref="CollectData">Collect the Data</xref>), with one exception. Instead of recording the change of 30 classmates, record the average change of 30 groups of five.</p>
 
 <ol xml:id="list-9735659975974443">
 <li>Randomly survey 30 <em>groups of five</em> classmates.</li>
