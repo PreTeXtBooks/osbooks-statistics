@@ -828,7 +828,7 @@ invNorm(0.25,36.9,13.9) = <m>Q_{1}</m> = 27.5246
           <ol>
             <li>The middle area = 0.40, so each tail has an area of 0.30.
 1 – 0.40 = 0.60The tails of the graph of the normal distribution each have an area of 0.30.Find <m>k1</m>, the 30<m>^{th}</m> percentile and <m>k2</m>, the 70<m>^{th}</m> percentile (0.40 + 0.30 = 0.70).<m>k1</m> = invNorm(0.30,5.85,0.24) = 5.72 cm<m>k2</m> = invNorm(0.70,5.85,0.24) = 5.98 cm</li>
-            <li>normalcdf(5,1099,5.85,0.24) = 0.9998</li>
+            <li>normalcdf(5,<m>10^{99}</m>,5.85,0.24) = 0.9998</li>
           </ol>
         </statement>
       </exercise>
