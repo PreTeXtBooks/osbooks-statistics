@@ -912,10 +912,8 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
           <li>Sketch the graph of the probability distribution.</li>
           <li>Identify the following values:
         <ol>
-          <li>Lowest value for <m>x
-        ¯</m>: _______</li>
-          <li>Highest value for <m>x
-        ¯</m>: _______</li>
+          <li>Lowest value for <m>\overline{x}</m>: _______</li>
+          <li>Highest value for <m>\overline{x}</m>: _______</li>
           <li>Height of the rectangle: _______</li>
           <li>Label for <em>x</em>-axis (words): _______</li>
           <li>Label for <em>y</em>-axis (words): _______</li>
@@ -1072,7 +1070,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         <ol marker="a">
           <li><em>X</em> represents the length of time a commuter must wait for a train to arrive on the Red Line.</li>
           <li><em>X</em> ~ <em>U</em>(0, 8)</li>
-          <li><m>f(x)=\frac{1}{8}</m> where ≤ <em>x</em> ≤ 8</li>
+          <li><m>f(x)=\frac{1}{8}</m> where 0 ≤ <em>x</em> ≤ 8</li>
           <li>four</li>
           <li>2.31</li>
           <li><m>\frac{1}{8}</m></li>
