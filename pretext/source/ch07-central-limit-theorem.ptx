@@ -2070,8 +2070,9 @@ The average stay of 80 women was more than five days.</li>
 <p>This lab works best when sampling from several classes and combining data.</p>
 </note>
 
-<ol>
+<subsection xml:id="CollectData">
 <title>Collect the Data</title>
+<ol>
 <li>Count the change in your pocket. (Do not include bills.)</li>
 <li>Randomly survey 30 classmates. Record the values of the change in <xref ref="Ch07_lab1_tbl001"/>.
 <table xml:id="Ch07_lab1_tbl001">
@@ -2138,6 +2139,7 @@ The average stay of 80 women was more than five days.</li>
 </li>
 <li>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li>
 </ol>
+</subsection>
 
 <p><title>Collecting Averages of Pairs:</title>Repeat steps one through five of the section <xref ref="CollectData">Collect the Data</xref> with one exception. Instead of recording the change of 30 classmates, record the average change of 30 pairs.</p>
 
@@ -2209,7 +2211,9 @@ The average stay of 80 women was more than five days.</li>
 <li>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li>
 </ol>
 
-<p><title>Collecting Averages of Groups of Five:</title>Repeat steps one through five (of the section titled <xref ref="CollectData">Collect the Data</xref>), with one exception. Instead of recording the change of 30 classmates, record the average change of 30 groups of five.</p>
+<subsection xml:id="ch7-element-505436759">
+<title>Collecting Averages of Groups of Five</title>
+<p>Repeat steps one through five (of the section titled <xref ref="CollectData">Collect the Data</xref>), with one exception. Instead of recording the change of 30 classmates, record the average change of 30 groups of five.</p>
 
 <ol>
 <li>Randomly survey 30 <em>groups of five</em> classmates.</li>
@@ -2278,6 +2282,7 @@ The average stay of 80 women was more than five days.</li>
 </li>
 <li>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li>
 </ol>
+</subsection>
 
 <ol>
 <title>Discussion Questions</title>
