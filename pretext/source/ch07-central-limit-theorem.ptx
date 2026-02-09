@@ -29,7 +29,7 @@
 
     <p>The size of the sample, <m>n</m>, that is required in order to be <em>large enough</em> depends on the original population from which the samples are drawn (the sample size should be at least 30 or the data should come from a normal distribution). If the original population is far from normal, then more observations are needed for the sample means or sums to be normal. <em>Sampling is done with replacement</em>.</p>
 
-    <exploration>
+    <exploration xml:id="ch7-intro-exploration">
       <title>Collaborative Classroom Activity</title>
       
       <p>Suppose eight of you roll one fair die ten times, seven of you roll two fair dice ten times, nine of you roll five fair dice ten times, and 11 of you roll ten fair dice ten times.</p>
@@ -2060,7 +2060,7 @@ The average stay of 80 women was more than five days.</li>
 <subsection xml:id="ch7-lab-pocket-change">
 <title>Lab Activity</title>
 
-<exploration>
+<exploration xml:id="ch7-lab1-exploration">
 <title>Central Limit Theorem (Pocket Change)</title>
 
 <ul>
@@ -2306,7 +2306,7 @@ The average stay of 80 women was more than five days.</li>
   <subsection xml:id="ch7-lab-cookie-recipes">
   <title>Lab Activity</title>
   
-  <exploration>
+  <exploration xml:id="ch7-lab2-exploration">
     <title>Central Limit Theorem (Cookie Recipes)</title>
     
     <ul>
