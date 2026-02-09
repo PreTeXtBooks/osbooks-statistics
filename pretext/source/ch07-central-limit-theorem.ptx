@@ -2,7 +2,7 @@
 <chapter xml:id="ch07-central-limit-theorem" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Central Limit Theorem</title>
 
-  <introduction xml:id="intro-ch07">
+  <introduction>
     <figure xml:id="ch7-fs-idm16905488">
       <image source="media/CNX_Stats_C07_CO.jpg" width="80%">
         <description>This is a photo of change and a set of keys in a pile. There appear to be five pennies, three quarters, four dimes, and two nickels. The key ring has a bronze whale on it and holds eleven keys.</description>
@@ -10,10 +10,10 @@
       <caption>If you want to figure out the distribution of the change people carry in their pockets, using the central limit theorem and assuming your sample is large enough, you will find that the distribution is normal and bell-shaped. (credit: John Lodder)</caption>
     </figure>
 
-    <objectives xml:id="ch7-fs-idp26371136">
+    <objectives>
       <title>Chapter Objectives</title>
       <p>By the end of this chapter, the student should be able to do the following:</p>
-      <ul xml:id="list6234">
+      <ul>
         <li>Recognize central limit theorem problems</li>
         <li>Classify continuous word problems by their distributions</li>
         <li>Apply and interpret the central limit theorem for means</li>
@@ -29,7 +29,7 @@
 
     <p>The size of the sample, <m>n</m>, that is required in order to be <em>large enough</em> depends on the original population from which the samples are drawn (the sample size should be at least 30 or the data should come from a normal distribution). If the original population is far from normal, then more observations are needed for the sample means or sums to be normal. <em>Sampling is done with replacement</em>.</p>
 
-    <exploration xml:id="ch7-fs-idp64638656">
+    <exploration>
       <title>Collaborative Classroom Activity</title>
       
       <p>Suppose eight of you roll one fair die ten times, seven of you roll two fair dice ten times, nine of you roll five fair dice ten times, and 11 of you roll ten fair dice ten times.</p>
@@ -50,7 +50,7 @@
 
       <p>As the number of dice rolled increases from one to two to five to ten, the following is happening:</p>
 
-      <ol xml:id="list-1">
+      <ol>
         <li>The mean of the sample means remains approximately the same.</li>
         <li>The spread of the sample means (the standard deviation of the sample means) gets smaller.</li>
         <li>The graph appears steeper and thinner.</li>
@@ -66,14 +66,14 @@
 
 <p>Suppose <em>X</em> is a random variable with a distribution that may be known or unknown (it can be any distribution). Using a subscript that matches the random variable, suppose</p>
 
-<ol xml:id="list-clt-means-properties">
+<ol>
 <li><m>\mu_x</m> = the mean of <em>X</em></li>
 <li><m>\sigma_x</m> = the standard deviation of <em>X</em></li>
 </ol>
 
 <p>If you draw random samples of size <em>n</em>, then as <em>n</em> increases, the random variable <m>\overline{X}</m>, which consists of sample means, tends to be normally distributed and</p>
 
-<me xml:id="ch7-fs-id1164561129806">
+<me>
 \overline{X} \sim N\left(\mu_x, \frac{\sigma_x}{\sqrt{n}}\right)
 </me>
 
@@ -83,7 +83,7 @@
 
 <p>The random variable <m>\overline{X}</m> has a different <em>z</em>-score associated with it from that of the random variable <em>X</em>. The mean <m>\overline{x}</m> is the value of <m>\overline{X}</m> in one sample.</p>
 
-<me xml:id="ch7-element-684">
+<me>
 z = \frac{\overline{x} - \mu_x}{\left(\frac{\sigma_x}{\sqrt{n}}\right)},
 </me>
 
@@ -91,7 +91,7 @@ z = \frac{\overline{x} - \mu_x}{\left(\frac{\sigma_x}{\sqrt{n}}\right)},
 
 <p><m>\sigma_{\overline{x}} = \frac{\sigma_x}{\sqrt{n}}</m> = standard deviation of <m>\overline{X}</m> and is called the standard error of the mean.</p>
 
-<note xml:id="ch7-fs-idm74236704"><title>Calculator</title>
+<note><title>Calculator</title>
 <p>To find probabilities for means on the calculator, follow these steps.</p>
 
 <p>2nd DISTR</p>
@@ -100,19 +100,19 @@ z = \frac{\overline{x} - \mu_x}{\left(\frac{\sigma_x}{\sqrt{n}}\right)},
 <p><m>normalcdf(lower\, value\, of\, the\, area, upper\, value\, of\, the\, area, mean, \frac{standard\, deviation}{\sqrt{sample\, size}})</m></p>
 
 <p>where</p>
-<ul xml:id="ch7-fs-idm130027040">
+<ul>
 <li><em>mean</em> is the mean of the original distribution</li>
 <li><em>standard deviation</em> is the standard deviation of the original distribution</li>
 <li><em>sample size</em> = <em>n</em></li>
 </ul>
 </note>
 
-<example xml:id="ch7-element-469">
+<example>
 <statement>
 <p>A distribution has a mean of 90 and a standard deviation of 15. Samples of size <em>n</em> = 25 are drawn randomly from the population.</p>
 </statement>
 
-<solution xml:id="id5873893">
+<solution>
 <p>a. Let <em>X</em> = one value from the original unknown population. The probability question asks you to find a probability for the <em>sample mean</em>.</p>
 
 <p>Let <m>\overline{X}</m> = the mean of a sample of size 25. Because <em>μ<m>_x</m></em> = 90, <em>σ<m>_x</m></em> = 15, and <em>n</em> = 25,</p>
@@ -135,11 +135,11 @@ z = \frac{\overline{x} - \mu_x}{\left(\frac{\sigma_x}{\sqrt{n}}\right)},
 
 <p>Find <em>P</em>(85 &lt; <m>\overline{x}</m> &lt; 92). Draw a graph.</p>
 
-<me xml:id="ch7-fs-id1164564482613">
+<me>
 P(85 &lt; \overline{x} &lt; 92) = 0.6997
 </me>
 
-<note xml:id="ch7-fs-idm146534448"><title>Calculator</title>
+<note><title>Calculator</title>
 <p><c>normalcdf</c>(lower value, upper value, mean, standard error of the mean)</p>
 
 <p>The parameter list is abbreviated (lower value, upper value, <em>μ</em>, <m>\frac{\sigma}{\sqrt{n}}</m>).</p>
@@ -148,11 +148,11 @@ P(85 &lt; \overline{x} &lt; 92) = 0.6997
 </note>
 
 <exercise xml:id="ch7-element-808">
-<problem xml:id="id5864943">
+<problem>
 <p>b. Find the value that is two standard deviations above the expected value, 90, of the sample mean.</p>
 </problem>
 
-<solution xml:id="id5864961">
+<solution>
 <p>b. To find the value that is two standard deviations above the expected value 90, use the following formula</p>
 
 <me>
@@ -171,21 +171,21 @@ value = 90 + 2\left(\frac{15}{\sqrt{25}}\right) = 96.
 
 <exercise xml:id="ch7-fs-idm18823760">
 <title>Try It</title>
-<problem xml:id="ch7-fs-idp5202224">
+<problem>
 <p>An unknown distribution has a mean of 45 and a standard deviation of eight. Samples of size <em>n</em> = 30 are drawn randomly from the population. Find the probability that the sample mean is between 42 and 50.</p>
 </problem>
 
-<solution xml:id="ch7-fs-idm29520400">
+<solution>
 <p><em>P</em>(42 &lt; <m>\overline{x}</m> &lt; 50) = <m>\left(42,50,45,\frac{8}{\sqrt{30}}\right)</m> = 0.9797</p>
 </solution>
 </exercise>
 
-<example xml:id="ch7-element-708">
+<example>
 <statement>
 <p>The length of time, in hours, it takes a group of people, 40 years old and older, to play one soccer match is normally distributed with a <em>mean of 2 hours</em> and a <em>standard deviation of 0.5 hours</em>. A <em>sample of size <em>n</em> = 50</em> is drawn randomly from the population. Find the probability that the <em>sample mean</em> is between 1.8 hours and 2.3 hours.</p>
 </statement>
 
-<solution xml:id="id5865170">
+<solution>
 <p>Let <em>X</em> = the time, in hours, it takes to play one soccer match.</p>
 
 <p>The probability question asks you to find a probability for the <em>sample mean time,</em> <em>in hours</em>, it takes to play one soccer match.</p>
@@ -210,16 +210,16 @@ P(1.8 &lt; \overline{x} &lt; 2.3) = 0.9977
 
 <exercise xml:id="ch7-fs-idp55734224">
 <title>Try It</title>
-<problem xml:id="ch7-fs-idp43500160">
+<problem>
 <p>The length of time taken on the SAT exam for a group of students is normally distributed with a mean of 2.5 hours and a standard deviation of 0.25 hours. A sample size of <em>n</em> = 60 is drawn randomly from the population. Find the probability that the sample mean is between two hours and three hours.</p>
 </problem>
 
-<solution xml:id="ch7-fs-idp2448480">
+<solution>
 <p><em>P</em>(2 &lt; <m>\overline{x}</m> &lt; 3) = normalcdf<m>\left(2, 3, 2.5, \frac{0.25}{\sqrt{60}}\right)</m> = 1</p>
 </solution>
 </exercise>
 
-<note xml:id="ch7-fs-idm13085488"><title>Calculator</title>
+<note><title>Calculator</title>
 <p>To find percentiles for means on the calculator, follow these steps.</p>
 
 <p>2<m>^{nd}</m> DIStR</p>
@@ -230,7 +230,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </me>
 
 <p>where</p>
-<ul xml:id="ch7-fs-idm74110784">
+<ul>
 <li><em>k</em> = the <em>k</em><m>^{th}</m> percentile</li>
 <li><em>mean</em> is the mean of the original distribution</li>
 <li><em>standard deviation</em> is the standard deviation of the original distribution</li>
@@ -238,11 +238,11 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </ul>
 </note>
 
-<example xml:id="ch7-fs-idp22561888">
+<example>
 <statement>
 <p>In a recent study reported Oct. 29, 2012, the mean age of tablet users is 34 years. Suppose the standard deviation is 15 years. Take a sample of size <em>n</em> = 100.</p>
 
-<ol xml:id="ch7-fs-idm47147072">
+<ol>
 <li>What are the mean and standard deviation for the sample mean ages of tablet users?</li>
 <li>What does the distribution look like?</li>
 <li>Find the probability that the sample mean age is more than 30 years (the reported mean age of tablet users in this particular study).</li>
@@ -250,8 +250,8 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </ol>
 </statement>
 
-<solution xml:id="ch7-fs-idp42522512">
-<ol xml:id="ch7-fs-idm50017008">
+<solution>
+<ol>
 <li>Because the sample mean tends to target the population mean, we have <em>μ<m>_χ</m></em> = <em>μ</em> = 34. The sample standard deviation is given by <m>\sigma_\text{χ} = \frac{\sigma}{\sqrt{n}} = \frac{15}{\sqrt{100}} = \frac{15}{10}</m> = 1.5.</li>
 
 <li>The central limit theorem states that for large sample sizes (<em>n</em>), the sampling distribution will be approximately normal.</li>
@@ -267,11 +267,11 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <exercise xml:id="ch7-fs-idm62512800">
 <title>Try It</title>
-<problem xml:id="ch7-fs-idm44878080">
+<problem>
 <p>A gaming marketing gap for men between the ages of 30 to 40 has been identified. You are researching a startup game targeted at the 35-year-old demographic. Your idea is to develop a strategy game that can be played by men from their late 20s through their late 30s. Based on the article's data, industry research shows that the average strategy player is 28 years old with a standard deviation of 4.8 years. You take a sample of 100 randomly selected gamers. If your target market is 29- to 35-year-olds, should you continue with your development strategy?</p>
 </problem>
 
-<solution xml:id="ch7-fs-idm51603952">
+<solution>
 <p>You need to determine the probability for men whose mean age is between 29 and 35 years of age wanting to play a strategy game.</p>
 
 <p><em>P</em>(29 &lt; <m>\overline{x}</m> &lt; 35) = <c>normalcdf</c><m>\left(29,35,28,\frac{4.8}{\sqrt{100}}\right)</m> = 0.0186</p>
@@ -280,11 +280,11 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </solution>
 </exercise>
 
-<example xml:id="ch7-fs-idm59036512">
+<example>
 <statement>
 <p>The mean number of minutes for app engagement by a tablet user is 8.2 minutes. Suppose the standard deviation is one minute. Take a sample of 60.</p>
 
-<ol xml:id="ch7-fs-idm51964960">
+<ol>
 <li>What are the mean and standard deviation for the sample mean number of app engagement minutes by a tablet user?</li>
 <li>What is the standard error of the mean?</li>
 <li>Find the 90<m>^{th}</m> percentile for the sample mean time for app engagement for a tablet user. Interpret this value in a complete sentence.</li>
@@ -292,8 +292,8 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </ol>
 </statement>
 
-<solution xml:id="ch7-fs-idp4823088">
-<ol xml:id="ch7-fs-idm38233840">
+<solution>
+<ol>
 <li><m>\mu_{\overline{x}} = \mu = 8.2 \quad \sigma_{\overline{x}} = \frac{\sigma}{\sqrt{n}} = \frac{1}{\sqrt{60}} = 0.13</m></li>
 
 <li>This allows us to calculate the probability of sample means of a particular distance from the mean, in repeated samples of size 60.</li>
@@ -309,16 +309,16 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <exercise xml:id="ch7-fs-idp8586512">
 <title>Try It</title>
-<problem xml:id="ch7-fs-idm57780000">
+<problem>
 <p>Cans of a cola beverage claim to contain 16 ounces. The amounts in a sample are measured and the statistics are <em>n</em> = 34, <m>\overline{x}</m> = 16.01 ounces. If the cans are filled so that <em>μ</em> = 16.00 ounces (as labeled) and <em>σ</em> = 0.143 ounces, find the probability that a sample of 34 cans will have an average amount greater than 16.01 ounces. Do the results suggest that cans are filled with an amount greater than 16 ounces?</p>
 </problem>
 
-<solution xml:id="ch7-fs-idm100844880">
+<solution>
 <p>We have <em>P</em>(<m>\overline{x}</m> > 16.01) = <c>normalcdf</c><m>\left(16.01,E99,16,\frac{0.143}{\sqrt{34}}\right)</m> = 0.3417. Since there is a 34.17% probability that the average sample weight is greater than 16.01 ounces, we should be skeptical of the company's claimed volume. If I am a consumer, I should be glad that I am probably receiving free cola. If I am the manufacturer, I need to determine if my bottling processes are outside of acceptable limits.</p>
 </solution>
 </exercise>
 
-<references xml:id="ch7-fs-idp10661120">
+<references>
 <title>References</title>
 <p>Baran, D. (2010). 20 percent of Americans have never used email. <em>WebGuild</em>. Retrieved from http://www.webguild.org/20080519/20-percent-of-americans-have-never-used-email</p>
 
@@ -348,20 +348,20 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 <p><em>Use the following information to answer the next six exercises:</em> Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let <em>Χ</em> be the random variable representing the time it takes her to complete one review. Assume <em>Χ</em> is normally distributed. Let <m>\overline{X}</m> be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.</p>
 
 <exercise xml:id="ch7-fs-idm15565424">
-<problem xml:id="ch7-fs-idm37731072">
+<problem>
 <p>What is the mean, standard deviation, and sample size?</p>
 </problem>
 
-<solution xml:id="ch7-eip--id1165897421719">
+<solution>
 <p>mean = 4 hours, standard deviation = 1.2 hours, sample size = 16</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-fs-idp17869408">
-<problem xml:id="ch7-fs-idm62741104">
+<problem>
 <p>Complete the distributions.</p>
 
-<ol xml:id="ch7-fs-idm16577088">
+<ol>
 <li><em>X</em> ~ _____(_____, _____)</li>
 <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
 </ol>
@@ -369,27 +369,27 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-446">
-<problem xml:id="id16709593">
+<problem>
 <p>Find the probability that <em>one</em> review will take Yoonie from 3.5 to 4.25 hours. Sketch the graph, labeling and scaling the horizontal axis. Shade the region corresponding to the probability.</p>
 
-<ol xml:id="sublist1346264">
+<ol>
 <li><figure xml:id="ch7-fs-idm61024352"><image source="media/fig-ch07_06_01.jpg" width="80%"><description>This is a frequency curve for a normal distribution. It shows a single peak in the center with the curve tapering down to the horizontal axis on each side. The distribution is symmetrical. The horizontal axis represents the random variable X.</description></image></figure></li>
 
 <li><em>P</em>(________ &lt; <em>x</em> &lt; ________) = _______</li>
 </ol>
 </problem>
 
-<solution xml:id="id14567929">
+<solution>
 <p>a. Check student's solution.</p>
 <p>b. 3.5, 4.25, 0.2441</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-element-322">
-<problem xml:id="id14777355">
+<problem>
 <p>Find the probability that the <em>mean</em> of a month's reviews will take Yoonie from 3.5 to 4.25 hrs. Sketch the graph, labeling and scaling the horizontal axis. Shade the region corresponding to the probability.</p>
 
-<ol xml:id="sublist27646547">
+<ol>
 <li><figure xml:id="ch7-fs-idm31915744"><image source="media/fig-ch07_06_02.jpg" width="80%"><description>This is a frequency curve for a normal distribution. It shows a single peak in the center with the curve tapering down to the horizontal axis on each side. The distribution is symmetrical. The horizontal axis represents the random variable X.</description></image></figure></li>
 
 <li><em>P</em>(________________) = _______</li>
@@ -398,20 +398,20 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-fs-idm42157984">
-<problem xml:id="ch7-fs-idm42157728">
+<problem>
 <p>What causes the probabilities in <xref ref="ch7-element-446"/> and <xref ref="ch7-element-322"/> to be different?</p>
 </problem>
 
-<solution xml:id="ch7-fs-idm43625488">
+<solution>
 <p>The fact that the two distributions are different accounts for the different probabilities.</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-fs-idm70816816">
-<problem xml:id="ch7-fs-idm70816560">
+<problem>
 <p>Find the 95<m>^{th}</m> percentile for the mean time to complete one month's reviews. Sketch the graph.</p>
 
-<ol xml:id="ch7-fs-idm62305696">
+<ol>
 <li><figure xml:id="ch7-fs-idm79810480"><image source="media/fig-ch07_06_02.jpg" width="80%"><description>This is a frequency curve for a normal distribution. It shows a single peak in the center with the curve tapering down to the horizontal axis on each side. The distribution is symmetrical. The horizontal axis represents the random variable X.</description></image></figure></li>
 <li>The 95<m>^{th}</m> percentile =____________</li>
 </ol>
@@ -423,10 +423,10 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 <title>Homework</title>
 
 <exercise xml:id="ch7-element-475">
-<problem xml:id="id6273705">
+<problem>
 <p>Previously, De Anza's statistics students estimated that the amount of change daytime statistics students carry is exponentially distributed with a mean of $0.88. Suppose that we randomly pick 25 daytime statistics students.</p>
 
-<ol xml:id="ch7-element-224">
+<ol>
 <li>In words, <em>Χ</em> = ____________.</li>
 <li><em>Χ</em> ~ _____(_____, _____)</li>
 <li>In words, <m>\overline{X}</m> = ____________.</li>
@@ -437,8 +437,8 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </ol>
 </problem>
 
-<solution xml:id="ch7-fs-idp10454080">
-<ol xml:id="ch7-fs-idm137132816">
+<solution>
+<ol>
 <li><em>Χ</em> = amount of change students carry</li>
 <li><em>Χ</em> ~ <em>Exp</em>(1/0.88) or approximately <em>Χ</em> ~ <em>Exp</em>(1.1364)</li>
 <li><m>\overline{X}</m> = average amount of change carried by a sample of 25 students.</li>
@@ -451,10 +451,10 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-51">
-<problem xml:id="id6273949">
+<problem>
 <p>Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet. We randomly sample 49 fly balls.</p>
 
-<ol xml:id="ch7-element-530">
+<ol>
 <li>If <m>\overline{X}</m> = average distance in feet for 49 fly balls, then <m>\overline{X}</m> ~ _______(_______, _______).</li>
 <li>What is the probability that the 49 balls traveled an average of less than 240 feet? Sketch the graph. Scale the horizontal axis for <m>\overline{X}</m>. Shade the region corresponding to the probability. Find the probability.</li>
 <li>Find the 80<m>^{th}</m> percentile of the distribution of the average of 49 fly balls.</li>
@@ -463,10 +463,10 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-820">
-<problem xml:id="id6533450">
+<problem>
 <p>According to the Internal Revenue Service, the average length of time for an individual to complete (keep records for, learn, prepare, copy, assemble, and send) IRS Form 1040 is 10.53 hours (without any attached schedules). The distribution is unknown. Let us assume that the standard deviation is two hours. Suppose we randomly sample 36 taxpayers.</p>
 
-<ol xml:id="ch7-element-685">
+<ol>
 <li>In words, <em>Χ</em> = _____________.</li>
 <li>In words, <m>\overline{X}</m> = _____________.</li>
 <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
@@ -475,8 +475,8 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </ol>
 </problem>
 
-<solution xml:id="ch7-fs-idm166717360">
-<ol xml:id="ch7-fs-idm37918272">
+<solution>
+<ol>
 <li>length of time for an individual to complete IRS form 1040, in hours</li>
 <li>mean length of time for a sample of 36 taxpayers to complete IRS form 1040, in hours</li>
 <li><em>N</em><m>\left(10.53, \frac{1}{3}\right)</m></li>
@@ -487,10 +487,10 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-133">
-<problem xml:id="id6533652">
+<problem>
 <p>Suppose that a category of world-class runners are known to run a marathon (26 miles) in an average of 145 minutes with a standard deviation of 14 minutes. Consider 49 of the races. Let <m>\overline{X}</m> be the average of the 49 races.</p>
 
-<ol xml:id="ch7-element-45">
+<ol>
 <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
 <li>Find the probability that the runner will average between 142 and 146 minutes in these 49 marathons.</li>
 <li>Find the 80<m>^{th}</m> percentile for the average of these 49 marathons.</li>
@@ -500,10 +500,10 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-848">
-<problem xml:id="id6534960">
+<problem>
 <p>The length of songs in a collector's online album collection is uniformly distributed from 2 to 3.5 minutes. Suppose we randomly pick five albums from the collection. There are a total of 43 songs on the five albums.</p>
 
-<ol xml:id="ch7-element-118">
+<ol>
 <li>In words, <em>Χ</em> = _________.</li>
 <li><em>Χ</em> ~ _____________</li>
 <li>In words, <m>\overline{X}</m> = _____________.</li>
@@ -513,8 +513,8 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </ol>
 </problem>
 
-<solution xml:id="ch7-fs-idm135637280">
-<ol xml:id="ch7-fs-idm135637024">
+<solution>
+<ol>
 <li>the length of a song, in minutes, in the collection</li>
 <li><em>U</em>(2, 3.5)</li>
 <li>the average length, in minutes, of the songs from a sample of five albums from the collection</li>
@@ -526,10 +526,10 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-424">
-<problem xml:id="id6536525">
+<problem>
 <p>In 1940, the average size of a U.S. farm was 174 acres. Let's say that the standard deviation was 55 acres. Suppose we randomly survey 38 farmers from 1940.</p>
 
-<ol xml:id="madeup2">
+<ol>
 <li>In words, <em>Χ</em> = _____________.</li>
 <li>In words, <m>\overline{X}</m> = _____________.</li>
 <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
@@ -539,18 +539,18 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-371">
-<problem xml:id="id6264723">
+<problem>
 <p>Determine which of the following are true and which are false. Then, in complete sentences, justify your answers.</p>
 
-<ol xml:id="ch7-fs-idm39736064">
+<ol>
 <li>When the sample size is large, the mean of <m>\overline{X}</m> is approximately equal to the mean of <em>Χ</em>.</li>
 <li>When the sample size is large, <m>\overline{X}</m> is approximately normally distributed.</li>
 <li>When the sample size is large, the standard deviation of <m>\overline{X}</m> is approximately the same as the standard deviation of <em>Χ</em>.</li>
 </ol>
 </problem>
 
-<solution xml:id="ch7-fs-idp58516336">
-<ol xml:id="ch7-fs-idp58516592">
+<solution>
+<ol>
 <li>True. The mean of a sampling distribution of the means is approximately the mean of the data distribution.</li>
 <li>True. According to the central limit theorem, the larger the sample, the closer the sampling distribution of the means becomes normal.</li>
 <li>The standard deviation of the sampling distribution of the means will decrease, making it approximately the same as the standard deviation of X as the sample size increases.</li>
@@ -559,10 +559,10 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-169">
-<problem xml:id="id6272391">
+<problem>
 <p>The percentage of fat calories that a person in America consumes each day is normally distributed with a mean of about 36 and a standard deviation of about ten. Suppose that 16 individuals are randomly chosen. Let <m>\overline{X}</m> = average percentage of fat calories.</p>
 
-<ol xml:id="ch7-eip--idm27753728">
+<ol>
 <li><m>\overline{X}</m> ~ ______(______, ______)</li>
 <li>For the group of 16, find the probability that the average percentage of fat calories consumed is more than five. Graph the situation and shade in the area to be determined.</li>
 <li>Find the first quartile for the average percentage of fat calories.</li>
@@ -571,10 +571,10 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-795">
-<problem xml:id="id6535840">
+<problem>
 <p>The distribution of income in some economically developing countries is considered wedge shaped (many very poor people, very few middle income people, and even fewer wealthy people). Suppose we pick a country with a wedge-shaped distribution. Let the average salary be $2,000 per year with a standard deviation of $8,000. We randomly survey 1,000 residents of that country.</p>
 
-<ol xml:id="ch7-element-834">
+<ol>
 <li>In words, <em>Χ</em> = _____________.</li>
 <li>In words, <m>\overline{X}</m> = _____________.</li>
 <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
@@ -583,8 +583,8 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </ol>
 </problem>
 
-<solution xml:id="ch7-fs-idm50399184">
-<ol xml:id="ch7-fs-idp55008880">
+<solution>
+<ol>
 <li><em>X</em> = the yearly income of someone in a Third World country</li>
 <li>the average salary from samples of 1,000 residents of a Third World country</li>
 <li><m>\overline{X}</m> ∼ <em>N</em><m>\left(2,000, \frac{8,000}{\sqrt{1,000}}\right)</m></li>
@@ -599,10 +599,10 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-338">
-<problem xml:id="id6538396">
+<problem>
 <p>Which of the following is NOT true about the distribution for averages?</p>
 
-<ol xml:id="ch7-element-992">
+<ol>
 <li>The mean, median, and mode are equal.</li>
 <li>The area under the curve is 1.</li>
 <li>The curve never touches the <em>x</em>-axis.</li>
@@ -612,10 +612,10 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-680">
-<problem xml:id="id6538522">
+<problem>
 <p>The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations. The distribution to use for the average cost of gasoline for the 16 gas stations is:</p>
 
-<ol xml:id="ch7-element-728">
+<ol>
 <li><m>\overline{X}</m> ~ <em>N</em>(4.59, 0.10)</li>
 <li><m>\overline{X}</m> ~ <em>N</em><m>\left(4.59, \frac{0.10}{\sqrt{16}}\right)</m></li>
 <li><m>\overline{X}</m> ~ <em>N</em><m>\left(4.59, \frac{16}{0.10}\right)</m></li>
@@ -623,7 +623,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </ol>
 </problem>
 
-<solution xml:id="id6538759">
+<solution>
 <p>b</p>
 </solution>
 </exercise>
@@ -635,7 +635,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <p>Suppose <em>X</em> is a random variable with a distribution that may be <em>known or unknown</em> (it can be any distribution) and suppose:</p>
 
-<ol xml:id="list-clt-sums-properties">
+<ol>
 <li><em>μ<m>_X</m></em> = the mean of <em>Χ</em></li>
 <li><em>σ<m>_Χ</m></em> = the standard deviation of <em>X</em></li>
 </ol>
@@ -646,36 +646,36 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <p>The random variable Σ<em>X</em> has the following <em>z</em>-score associated with it:</p>
 
-<ol xml:id="ch7-element-434">
+<ol>
 <li>Σ<em>x</em> is one sum.</li>
 <li><m>z = \frac{\Sigma x - (n)(\mu_X)}{(\sqrt{n})(\sigma_X)}</m>
-<ol xml:id="ch7-element-444">
+<ol>
 <li>(<em>n</em>)(<em>μ<m>_X</m></em>) = mean of Σ<em>X</em></li>
 <li><m>(\sqrt{n})(\sigma_X)</m> = standard deviation of <m>\Sigma X</m></li>
 </ol>
 </li>
 </ol>
 
-<note xml:id="ch7-fs-idm172522384">
+<note>
 <title>Calculator</title>
 <p>To find probabilities for sums on the calculator, follow these steps:</p>
 <p>2<m>^{nd}</m> <c>DISTR</c></p>
 <p>2:<c>normalcdf</c></p>
 <p><c>normalcdf</c>(lower value of the area, upper value of the area, (<em>n</em>)(mean), (<m>\sqrt{n}</m>)(standard deviation))</p>
 <p>where,</p>
-<ul xml:id="ch7-fs-idm89750656">
+<ul>
 <li><em>mean</em> is the mean of the original distribution,</li>
 <li><em>standard deviation</em> is the standard deviation of the original distribution, and</li>
 <li><em>sample size</em> = n.</li>
 </ul>
 </note>
 
-<example xml:id="ch7-element-747">
+<example>
 <statement>
 <p>An unknown distribution has a mean of 90 and a standard deviation of 15. A sample of size 80 is drawn randomly from the population.</p>
 </statement>
-<solution xml:id="ch7-element-55">
-<ol xml:id="ch7-element-710">
+<solution>
+<ol>
 <li>Find the probability that the sum of the 80 values (or the total of the 80 values) is more than 7,500.</li>
 <li>Find the sum that is 1.5 standard deviations above the mean of the sums.</li>
 </ol>
@@ -684,7 +684,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <p>Σ<em>X</em> = the sum or total of 80 values. Because <em>μ<m>_X</m></em> = 90, <em>σ<m>_X</m></em> = 15, and <em>n</em> = 80, <m>\Sigma X</m> ~ <em>N</em>[(80)(90), (<m>\sqrt{80}</m>)(15)]</p>
 
-<ul xml:id="ch7-element-907">
+<ul>
 <li>mean of the sums = (<em>n</em>)(<em>μ<m>_X</m></em>) = (80)(90) = 7200</li>
 <li>standard deviation of the sums = <m>(\sqrt{n})(\sigma_X) = (\sqrt{80})</m>(15)</li>
 <li>sum of 80 values = <em>Σx</em> = 7500</li>
@@ -700,14 +700,14 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </image>
 </figure>
 
-<note xml:id="ch7-fs-idm202010592">
+<note>
 <title>Calculator</title>
 <p><c>normalcdf</c>(lower value, upper value, mean of sums, <c>stdev</c> of sums)</p>
 <p>The parameter list is abbreviated(lower, upper, (<em>n</em>)(<em>μ<m>_X</m></em>, <m>(\sqrt{n})</m>(<em>σ<m>_X</m></em>))</p>
 <p><c>normalcdf</c> (7500,1E99,(80)(90),<m>(\sqrt{80})</m>(15)) = 0.0127</p>
 </note>
 
-<note xml:id="ch7-fs-idm71809936">
+<note>
 <title>Reminder</title>
 <p><em>1E99 = 10<m>^{99}</m></em>.</p>
 <p>Press the <c>EE</c> key for E.</p>
@@ -721,22 +721,22 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <exercise xml:id="ch7-fs-idm105647824">
 <title>Try It</title>
-<problem xml:id="ch7-fs-idp18637136">
+<problem>
 <p>An unknown distribution has a mean of 45 and a standard deviation of 8. A sample size of 50 is drawn randomly from the population. Find the probability that the sum of the 50 values is more than 2,400.</p>
 </problem>
-<solution xml:id="ch7-fs-idm41890480">
+<solution>
 <p>0.0040</p>
 </solution>
 </exercise>
 
-<note xml:id="ch7-fs-idm133155984">
+<note>
 <title>Calculator</title>
 <p>To find percentiles for sums on the calculator, follow these steps:</p>
 <p>2<m>^{nd}</m> DIStR</p>
 <p>3:invNorm</p>
 <p><em>k</em> = invNorm (area to the left of <em>k</em>, (<em>n</em>)(mean), <m>(\sqrt{n})</m>(standard deviation))</p>
 <p>where,</p>
-<ul xml:id="ch7-fs-idm10652880">
+<ul>
 <li><em>k</em> is the <em>k</em><m>^{th}</m> percentile,</li>
 <li><em>mean</em> is the mean of the original distribution,</li>
 <li><em>standard deviation</em> is the standard deviation of the original distribution, and</li>
@@ -744,17 +744,17 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </ul>
 </note>
 
-<example xml:id="ch7-fs-idm82232896">
+<example>
 <statement>
 <p>In a recent study reported Oct. 29, 2012, the mean age of tablet users is 34 years. Suppose the standard deviation is 15 years. The sample size is 50.</p>
-<ol xml:id="ch7-fs-idm90393840">
+<ol>
 <li>What are the mean and standard deviation for the sum of the ages of tablet users? What is the distribution?</li>
 <li>Find the probability that the sum of the ages is between 1,500 and 1,800 years.</li>
 <li>Find the 80<m>^{th}</m> percentile for the sum of the 50 ages.</li>
 </ol>
 </statement>
-<solution xml:id="ch7-fs-idp41767792">
-<ol xml:id="ch7-fs-idp6531984">
+<solution>
+<ol>
 <li><em>μ<m>_{\Sigma x}</m></em> = <em>nμ<m>_x</m></em> = 50(34) = 1,700 and <em>σ<m>_{\Sigma x}</m></em> = <m>\sqrt{n}</m><em>σ<m>_x</m></em> = <m>(\sqrt{50})</m>(15) = 106.01
 <p>The distribution is normal for sums by the central limit theorem.</p></li>
 <li><em>P</em>(1500 &lt; Σ<em>x</em> &lt; 1800) = <c>normalcdf</c>(1500, 1800, (50)(34), <m>(\sqrt{50})</m>(15)) = 0.7974</li>
@@ -766,16 +766,16 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <exercise xml:id="ch7-fs-idm67768928">
 <title>Try It</title>
-<problem xml:id="ch7-fs-idm16414224">
+<problem>
 <p>In a recent study reported Oct.29, 2012, the mean age of tablet users is 35 years. Suppose the standard deviation is 10 years. The sample size is 39.</p>
-<ol xml:id="ch7-fs-idp46009888">
+<ol>
 <li>What are the mean and standard deviation for the sum of the ages of tablet users? What is the distribution?</li>
 <li>Find the probability that the sum of the ages is between 1,400 and 1,500 years.</li>
 <li>Find the 90<m>^{th}</m> percentile for the sum of the 39 ages.</li>
 </ol>
 </problem>
-<solution xml:id="ch7-fs-idm17174416">
-<ol xml:id="ch7-fs-idm6171392">
+<solution>
+<ol>
 <li><em>μ<m>_{\Sigma x}</m></em> = <em>nμ<m>_x</m></em> = 1,365 and <em>σ<m>_{\Sigma x}</m></em> = <m>\sqrt{n}\sigma_x</m> = 62.4
 <p>The distribution is normal for sums by the central limit theorem.</p></li>
 <li><em>P</em>(1400 &lt; <em>Σ<m>_x</m></em> &lt; 1500) = <c>normalcdf</c>(1400,1500,(39)(35),(<m>\sqrt{39}</m>)(10)) = 0.2723</li>
@@ -785,17 +785,17 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </solution>
 </exercise>
 
-<example xml:id="ch7-fs-idm145402592">
+<example>
 <statement>
 <p>The mean number of minutes for app engagement by a tablet user is 8.2 minutes. Suppose the standard deviation is one minute. Take a sample size of 70.</p>
-<ol xml:id="ch7-fs-idm71334512">
+<ol>
 <li>What are the mean and standard deviation for the sums?</li>
 <li>Find the 95<m>^{th}</m> percentile for the sum of the sample. Interpret this value in a complete sentence.</li>
 <li>Find the probability that the sum of the sample is at least 10 hours.</li>
 </ol>
 </statement>
-<solution xml:id="ch7-fs-idp2253552">
-<ol xml:id="ch7-fs-idm78488688">
+<solution>
+<ol>
 <li><em>μ<m>_{\Sigma x}</m></em> = <em>nμ<m>_x</m></em> = 70(8.2) = 574 minutes and <em>σ<m>_{\Sigma x}</m></em> = <m>(\sqrt{n})(\sigma_x)</m> = <m>(\sqrt{70})</m>(1) = 8.37 minutes</li>
 <li>Let <em>k</em> = the 95<m>^{th}</m> percentile.
 <p><em>k</em> = invNorm(0.95,(70)(8.2),<m>(\sqrt{70})</m>(1)) = 587.76 minutes</p>
@@ -808,15 +808,15 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <exercise xml:id="ch7-fs-idp7815296">
 <title>Try It</title>
-<problem xml:id="ch7-fs-idp93890400">
+<problem>
 <p>The mean number of minutes for app engagement by a tablet user is 8.2 minutes. Suppose the standard deviation is one minute. Take a sample size of 70.</p>
-<ol xml:id="ch7-fs-idm85536928">
+<ol>
 <li>What is the probability that the sum of the sample is between seven hours and 10 hours? What does this mean in context of the problem?</li>
 <li>Find the 84<m>^{th}</m> and 16<m>^{th}</m> percentiles for the sum of the sample. Interpret these values in context.</li>
 </ol>
 </problem>
-<solution xml:id="ch7-fs-idp48297552">
-<ol xml:id="ch7-fs-idp118279152">
+<solution>
+<ol>
 <li>7 hours = 420 minutes
 <p>10 hours = 600 minutes</p>
 <p>normalcdf<m>P(420 \leq \Sigma x \leq 600) = normalcdf(420,600,(70)(8.2),\sqrt{70}(1)) = 0.9991</m></p>
@@ -846,31 +846,31 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 <p><em>Use the following information to answer the next four exercises:</em> An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population.</p>
 
 <exercise xml:id="ch7-eip--769">
-<problem xml:id="ch7-eip--202">
+<problem>
 <p>Find the probability that the sum of the 95 values is greater than 7,650.</p>
 </problem>
-<solution xml:id="ch7-eip--80">
+<solution>
 <p>0.3345</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-eip--145">
-<problem xml:id="ch7-eip--777">
+<problem>
 <p>Find the probability that the sum of the 95 values is less than 7,400.</p>
 </problem>
 </exercise>
 
 <exercise xml:id="ch7-eip--335">
-<problem xml:id="ch7-eip--637">
+<problem>
 <p>Find the sum that is two standard deviations above the mean of the sums.</p>
 </problem>
-<solution xml:id="ch7-eip--363">
+<solution>
 <p>7833.92</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-eip--251">
-<problem xml:id="ch7-eip--702">
+<problem>
 <p>Find the sum that is 1.5 standard deviations below the mean of the sums.</p>
 </problem>
 </exercise>
@@ -878,40 +878,40 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 <p><em>Use the following information to answer the next five exercises:</em> The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly.</p>
 
 <exercise xml:id="ch7-eip--539">
-<problem xml:id="ch7-eip--930">
+<problem>
 <p>Find the probability that the sum of the 40 values is greater than 7,500.</p>
 </problem>
-<solution xml:id="ch7-eip--146">
+<solution>
 <p>0.0089</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-eip--169">
-<problem xml:id="ch7-eip--608">
+<problem>
 <p>Find the probability that the sum of the 40 values is less than 7,000.</p>
 </problem>
 </exercise>
 
 <exercise xml:id="ch7-eip--308">
-<problem xml:id="ch7-eip--399">
+<problem>
 <p>Find the sum that is one standard deviation above the mean of the sums.</p>
 </problem>
-<solution xml:id="ch7-eip--875">
+<solution>
 <p>7326.49</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-eip--743">
-<problem xml:id="ch7-eip--495">
+<problem>
 <p>Find the sum that is 1.5 standard deviations below the mean of the sums.</p>
 </problem>
 </exercise>
 
 <exercise xml:id="ch7-eip--593">
-<problem xml:id="ch7-eip--726">
+<problem>
 <p>Find the percentage of sums between 1.5 standard deviations below the mean of the sums and one standard deviation above the mean of the sums.</p>
 </problem>
-<solution xml:id="ch7-eip--673">
+<solution>
 <p>77.45%</p>
 </solution>
 </exercise>
@@ -919,46 +919,46 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 <p><em>Use the following information to answer the next six exercises:</em> A researcher measures the amount of sugar in several cans of the same type of soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.</p>
 
 <exercise xml:id="ch7-exercise11">
-<problem xml:id="ch7-eip--311">
+<problem>
 <p>Find the probability that the sum of the 100 values is greater than 3,910.</p>
 </problem>
 </exercise>
 
 <exercise xml:id="ch7-exercise12">
-<problem xml:id="ch7-eip--886">
+<problem>
 <p>Find the probability that the sum of the 100 values is less than 3,900.</p>
 </problem>
-<solution xml:id="ch7-eip--687">
+<solution>
 <p>0.4207</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-eip--718">
-<problem xml:id="ch7-eip--127">
+<problem>
 <p>Find the probability that the sum of the 100 values falls between the numbers you found in (16) and (17).</p>
 </problem>
 </exercise>
 
 <exercise xml:id="ch7-eip--750">
-<problem xml:id="ch7-eip--662">
+<problem>
 <p>Find the sum with a <em>z</em>-score of –2.5.</p>
 </problem>
-<solution xml:id="ch7-eip--650">
+<solution>
 <p>3,888.5</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-eip--763">
-<problem xml:id="ch7-eip--808">
+<problem>
 <p>Find the sum with a <em>z</em>-score of 0.5.</p>
 </problem>
 </exercise>
 
 <exercise xml:id="ch7-eip--44">
-<problem xml:id="ch7-eip--573">
+<problem>
 <p>Find the probability that the sums will fall between the <em>z</em>-scores –2 and 1.</p>
 </problem>
-<solution xml:id="ch7-eip--910">
+<solution>
 <p>0.8186</p>
 </solution>
 </exercise>
@@ -966,67 +966,67 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 <p><em>Use the following information to answer the next four exercises:</em> An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let <em>X</em> = the object of interest.</p>
 
 <exercise xml:id="ch7-eip--175">
-<problem xml:id="ch7-eip--37">
+<problem>
 <p>What is the mean of <em>ΣX</em>?</p>
 </problem>
 </exercise>
 
 <exercise xml:id="ch7-eip--213">
-<problem xml:id="ch7-eip--345">
+<problem>
 <p>What is the standard deviation of <em>ΣX</em>?</p>
 </problem>
-<solution xml:id="ch7-eip--603">
+<solution>
 <p>5</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-eip--592">
-<problem xml:id="ch7-eip--435">
+<problem>
 <p>What is <em>P</em>(<em>Σx</em> = 290)?</p>
 </problem>
 </exercise>
 
 <exercise xml:id="ch7-eip--710">
-<problem xml:id="ch7-eip--587">
+<problem>
 <p>What is <em>P</em>(<em>Σx</em> > 290)?</p>
 </problem>
-<solution xml:id="ch7-eip--179">
+<solution>
 <p>0.9772</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-eip--102">
-<problem xml:id="ch7-eip--529">
+<problem>
 <p>True or False: Only the sums of normal distributions are also normal distributions.</p>
 </problem>
 </exercise>
 
 <exercise xml:id="ch7-eip--580">
-<problem xml:id="ch7-eip--688">
+<problem>
 <p>In order for the sums of a distribution to approach a normal distribution, what must be true?</p>
 </problem>
-<solution xml:id="ch7-eip--227">
+<solution>
 <p>The sample size, <em>n</em>, gets larger.</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-eip--266">
-<problem xml:id="ch7-eip--412">
+<problem>
 <p>What three things must you know about a distribution to find the probability of sums?</p>
 </problem>
 </exercise>
 
 <exercise xml:id="ch7-eip--943">
-<problem xml:id="ch7-eip--389">
+<problem>
 <p>An unknown distribution has a mean of 25 and a standard deviation of six. Let <em>X</em> = one object from this distribution. What is the sample size if the standard deviation of <em>ΣX</em> is 42?</p>
 </problem>
-<solution xml:id="ch7-eip--826">
+<solution>
 <p>49</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-eip--427">
-<problem xml:id="ch7-eip--269">
+<problem>
 <p>An unknown distribution has a mean of 19 and a standard deviation of 20. Let <em>X</em> = the object of interest. What is the sample size if the mean of <em>ΣX</em> is 15,200?</p>
 </problem>
 </exercise>
@@ -1034,25 +1034,25 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 <p><em>Use the following information to answer the next three exercises:</em> A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. She samples 400 customers.</p>
 
 <exercise xml:id="ch7-eip--626">
-<problem xml:id="ch7-eip--496">
+<problem>
 <p>What is the <em>z</em>-score for <em>Σx</em> = 840?</p>
 </problem>
-<solution xml:id="ch7-eip--263">
+<solution>
 <p>26.00</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-eip--224">
-<problem xml:id="ch7-eip--562">
+<problem>
 <p>What is the <em>z</em>-score for <em>Σx</em> = 1,186?</p>
 </problem>
 </exercise>
 
 <exercise xml:id="ch7-eip--616">
-<problem xml:id="ch7-eip--893">
+<problem>
 <p>What is <em>P</em>(<em>Σx</em> &lt; 1186)?</p>
 </problem>
-<solution xml:id="ch7-eip--925">
+<solution>
 <p>0.1587</p>
 </solution>
 </exercise>
@@ -1060,22 +1060,22 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 <p><em>Use the following information to answer the next three exercises:</em> An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let <em>X</em> = one object of interest.</p>
 
 <exercise xml:id="ch7-eip--956">
-<problem xml:id="ch7-eip--217">
+<problem>
 <p>What is the mean of <em>ΣX</em>?</p>
 </problem>
 </exercise>
 
 <exercise xml:id="ch7-eip--368">
-<problem xml:id="ch7-eip--193">
+<problem>
 <p>What is the standard deviation of <em>ΣX</em>?</p>
 </problem>
-<solution xml:id="ch7-eip--891">
+<solution>
 <p>1000</p>
 </solution>
 </exercise>
 
 <exercise xml:id="ch7-eip--899">
-<problem xml:id="ch7-eip--725">
+<problem>
 <p>What is <em>P</em>(<em>Σx</em> > 9000)?</p>
 </problem>
 </exercise>
@@ -1085,9 +1085,9 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 <title>Homework</title>
 
 <exercise xml:id="ch7-fs-idm54402176">
-<problem xml:id="ch7-fs-idm54401920">
+<problem>
 <p>Which of the following is NOT true about the theoretical distribution of sums?</p>
-<ol xml:id="ch7-fs-idm98145264">
+<ol>
 <li>The mean, median, and mode are equal.</li>
 <li>The area under the curve is one.</li>
 <li>The curve never touches the <em>x</em>-axis.</li>
@@ -1097,17 +1097,17 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-119">
-<problem xml:id="id6533195">
+<problem>
 <p>Suppose that the duration of a particular type of criminal trial is known to have a mean of 21 days and a standard deviation of seven days. We randomly sample nine trials.</p>
-<ol xml:id="ch7-element-645">
+<ol>
 <li>In words, <em>ΣX</em> = ______________.</li>
 <li><em>ΣX</em> ~ _____(_____, _____)</li>
 <li>Find the probability that the total length of the nine trials is at least 225 days.</li>
 <li>Ninety percent of the total of nine of these types of trials will last at least how long?</li>
 </ol>
 </problem>
-<solution xml:id="id6533339">
-<ol xml:id="ch7-element-220">
+<solution>
+<ol>
 <li>the total length of time for nine criminal trials</li>
 <li><em>N</em>(189, 21)</li>
 <li>0.0432</li>
@@ -1117,9 +1117,9 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-797">
-<problem xml:id="id6532824">
+<problem>
 <p>Suppose that the weight of open boxes of cereal in a home with children is uniformly distributed from two to six pounds with a mean of four pounds and standard deviation of 1.1547. We randomly survey 64 homes with children.</p>
-<ol xml:id="ch7-element-173">
+<ol>
 <li>In words, <em>X</em> = _____________.</li>
 <li>The distribution is _______.</li>
 <li>In words, <em>ΣX</em> = _______________.</li>
@@ -1131,9 +1131,9 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 
 <exercise xml:id="ch7-element-138-1">
-<problem xml:id="id6535223">
+<problem>
 <p>Salaries for entry-level managers at a restaurant chain are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey 10 managers from these restaurants.</p>
-<ol xml:id="ch7-fs-idm127251264">
+<ol>
 <li>In words, <em>X</em> = ______________.</li>
 <li><em>X</em> ~ _____(_____, _____)</li>
 <li>In words, <em>ΣX</em> = _____________.</li>
@@ -1145,8 +1145,8 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 <li>If each of the 70 managers received a $3,000 raise, graphically, how would that change the distribution in part (b)?</li>
 </ol>
 </problem>
-<solution xml:id="ch7-fs-idm67922240">
-<ol xml:id="ch7-fs-idm82776816">
+<solution>
+<ol>
 <li><em>X</em> = the salary of one elementary school teacher in the district</li>
 <li><em>X</em> ~ <em>N</em>(44000, 6500)</li>
 <li><em>ΣX</em> ~ sum of the salaries of 10 elementary school teachers in the sample</li>
@@ -1172,7 +1172,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
   <subsection xml:id="ch7-fs-id1164565575770">
     <p>It is important for you to understand when to use the central limit theorem. If you are being asked to find the probability of the mean, use the clt for the means. If you are being asked to find the probability of a sum or total, use the clt for sums. This also applies to percentiles for means and sums.</p>
-    <note xml:id="id11030776">
+    <note>
       <title>NOTE</title>
       <p>If you are being asked to find the probability of an <em>individual</em> value, do <em>not</em> use the clt. <em>Use the distribution of its random variable.</em></p>
     </note>
@@ -1185,10 +1185,10 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
     </subsection>
     <subsection xml:id="ch7-fs-idm1089056">
       <title>Central Limit Theorem for the Mean and Sum Examples</title>
-      <example xml:id="ch7-element-482">
+      <example>
         <statement>
           <p>A study involving stress is conducted among the students on a college campus. <em>The stress scores follow a uniform distribution</em> with the lowest stress score equal to one and the highest equal to five. Using a sample of 75 students, find:</p>
-          <ol xml:id="ch7-fs-idp18838512">
+          <ol>
             <li>the probability that the <em>mean stress score</em> for the 75 students is less than 2</li>
             <li>the 90<m>^{th}</m> percentile for the <em>mean stress score</em> for the 75 students</li>
             <li>the probability that the <em>total of the 75 stress scores</em> is less than 200</li>
@@ -1197,11 +1197,11 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
           <p>Let <em>X</em> = one stress score.</p>
           <p>Problems (a) and (b) ask you to find a probability or a percentile for a mean. Problems (c) and (d) ask you to find a probability or a percentile for a <em>total or sum</em>. The sample size, <em>n</em>, is equal to 75.</p>
           <p>Because the individual stress scores follow a uniform distribution, <em>X</em> ~ <em>U</em>(1, 5) where <em>a</em> = 1 and <em>b</em> = 5 (see Continuous Random Variables for an explanation of a uniform distribution),</p>
-          <me xml:id="ch7-fs-id1164567042229">\mu_{X}\text{ =}\frac{a+b}{2}=\frac{1 + 5}{2}=3</me>
-          <me xml:id="ch7-fs-id1164566177088">\sigma_{X}\text{ =}\sqrt{\frac{{(b-a)}^{2}}{12}}=\sqrt{\frac{{(5-1)}^{2}}{12}}\text{ = 1}\text{.15}</me>
+          <me>\mu_{X}\text{ =}\frac{a+b}{2}=\frac{1 + 5}{2}=3</me>
+          <me>\sigma_{X}\text{ =}\sqrt{\frac{{(b-a)}^{2}}{12}}=\sqrt{\frac{{(5-1)}^{2}}{12}}\text{ = 1}\text{.15}</me>
           <p>In the formula above, the denominator is understood to be 12, regardless of the endpoints of the uniform distribution.</p>
           <p>For problems (a) and (b), let <m>\overline{X}</m> = the mean stress score for the 75 students. Then,</p>
-          <me xml:id="ch7-fs-id1164565689386">\overline{X}\text{ ~ }N (3, \frac{1.15}{\sqrt{75}})\text{ where }n\text{ = 75}\text{.}</me>
+          <me>\overline{X}\text{ ~ }N (3, \frac{1.15}{\sqrt{75}})\text{ where }n\text{ = 75}\text{.}</me>
           <p>For problems (c) and (d), let <em>ΣX</em> = the sum of the 75 stress scores. Then, <em>ΣX</em> ~ <em>N</em>[(75)(3),<m>(\sqrt{75})</m>(1.15)].</p>
         </statement>
       </example>
@@ -1265,10 +1265,10 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
           <p><c>invNorm</c>(0.90,(75)(3),<m>(\sqrt{75})</m>(1.15)) = 237.8</p>
         </solution>
       </exercise>
-      <note xml:id="ch7-fs-idm56169616">
+      <note>
         <title>Try It</title>
       </note>
-      <example xml:id="example2">
+      <example>
         <statement>
           <p>Suppose that a market research analyst for a cell phone company conducts a study of their customers who exceed the time allowance included on their basic cell phone contract. The analyst finds that for those people who exceed the time included in their basic contract, the <em>excess time used</em> follows an exponential distribution with a mean of 22 minutes.</p>
           <p>Consider a random sample of 80 customers who exceed the time allowance included in their basic cell phone contract.</p>
@@ -1280,14 +1280,14 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
       </example>
       <exercise xml:id="ch7-eip--id8136792">
         <statement>
-          <ol xml:id="ch7-eip--id1171180795181">
+          <ol>
             <li>Find the probability that the mean excess time used by the 80 customers in the sample is longer than 20 minutes. This is asking us to find <em>P(</em><m>\overline{x}</m> &gt; 20). Draw the graph.</li>
             <li>Suppose that one customer who exceeds the time limit for his cell phone contract is randomly selected. Find the probability that this individual customer's excess time is longer than 20 minutes. This is asking us to find <em>P</em>(<em>x</em> &gt; 20).</li>
             <li>Explain why the probabilities in parts (a) and (b) are different.</li>
           </ol>
         </statement>
         <solution>
-          <ol xml:id="ch7-fs-idm166018016">
+          <ol>
             <li>
 Find: <em>P</em>(<m>\overline{x}</m> &gt; 20)
 <em>P</em>(<m>\overline{x}</m> &gt; 20) = 0.79199 using <c>normalcdf</c><m>(\text{20,1E99,22,}\frac{\text{22}}{\sqrt{\text{80}}})</m>The probability is 0.7919 that the mean excess time used is more than 20 minutes, for a sample of 80 customers who exceed their contracted time allowance.
@@ -1327,17 +1327,17 @@ When asked to find the probability of an individual value, use the stated distri
           <p>95 percent of such samples would have means under 26 minutes; only five percent of such samples would have means above 26 minutes.</p>
         </solution>
       </exercise>
-      <note xml:id="ch7-fs-idm50063488">
+      <note>
         <title>Try It</title>
       </note>
-      <example xml:id="ch7-fs-idm153949776">
+      <example>
         <statement>
           <p>U.S. scientists studying a certain medical condition discovered that a new person is diagnosed every two minutes, on average. Suppose the standard deviation is 0.5 minutes and the sample size is 100.</p>
         </statement>
       </example>
       <exercise xml:id="ch7-fs-idm67039584">
         <statement>
-          <ol xml:id="ch7-fs-idm184397680">
+          <ol>
             <li>Find the median, the first quartile, and the third quartile for the sample mean time of diagnosis in the United States.</li>
             <li>Find the median, the first quartile, and the third quartile for the sum of sample times of diagnosis in the United States.</li>
             <li>Find the probability that a diagnosis occurs on average between 1.75 and 1.85 minutes.</li>
@@ -1346,7 +1346,7 @@ When asked to find the probability of an individual value, use the stated distri
           </ol>
         </statement>
         <solution>
-          <ol xml:id="ch7-fs-idm113256736">
+          <ol>
             <li>We have <em>μ<m>_{x}</m></em> = <em>μ</em> = 2 and <em>σ<m>_{x}</m></em> = <m>\frac{\sigma}{\sqrt{n}}</m> = <m>\frac{0.5}{10}</m> = 0.05. Therefore,
 50<m>^{th}</m> percentile = <em>μ<m>_{x}</m></em> = <em>μ</em> = 2,
 25<m>^{th}</m> percentile = <em>invNorm</em>(0.25,2,0.05) = 1.97, and
@@ -1362,17 +1362,17 @@ When asked to find the probability of an individual value, use the stated distri
           </ol>
         </solution>
       </exercise>
-      <note xml:id="ch7-fs-idm67893584">
+      <note>
         <title>Try It</title>
       </note>
-      <example xml:id="ch7-fs-idm112138992">
+      <example>
         <statement>
         </statement>
       </example>
       <exercise xml:id="ch7-fs-idm108732608">
         <statement>
           <p>A study was done about a medical condition that affects a certain group of people. The age range of the people was 14–61. The mean age was 30.9 years with a standard deviation of nine years.</p>
-          <ol xml:id="ch7-fs-idm45985568">
+          <ol>
             <li>In a sample of 25 people, what is the probability that the mean age of the people is less than 35?</li>
             <li>Is it likely that the mean age of the sample group could be more than 50 years? Interpret the results.</li>
             <li>In a sample of 49 people, what is the probability that the sum of the ages is no less than 1,600?</li>
@@ -1382,7 +1382,7 @@ When asked to find the probability of an individual value, use the stated distri
           </ol>
         </statement>
         <solution>
-          <ol xml:id="ch7-fs-idm86323200">
+          <ol>
             <li><em>P</em>(<m>\overline{x}</m> &lt; 35) = <c>normalcdf</c>(-<em>E</em>99,35,30.9,1.8) = 0.9886</li>
             <li><em>P</em>(<m>\overline{x}</m> &gt; 50) = <c>normalcdf</c>(50, <em>E</em>99,30.9,1.8) ≈ 0. For this sample group, it is almost impossible for the group’s average age to be more than 50. However, it is still possible for an individual in this group to have an age greater than 50.</li>
             <li><em>P</em>(<em>Σx</em> ≥ 1,600) = <c>normalcdf</c>(1600,E99,1514.10,63) = 0.0864</li>
@@ -1392,14 +1392,14 @@ When asked to find the probability of an individual value, use the stated distri
           </ol>
         </solution>
       </exercise>
-      <note xml:id="ch7-fs-idm102859984">
+      <note>
         <title>Try It</title>
       </note>
-      <note xml:id="ch7-eip--713">
+      <note>
         <title>HISTORICAL NOTE</title>
         <p><em>Normal Approximation to the Binomial</em></p>
         <p>Historically, being able to compute binomial probabilities was one of the most important applications of the central limit theorem. Binomial probabilities with a small value for <em>n</em> (say, 20) were displayed in a table in a book. To calculate the probabilities with large values of <em>n</em>,  you had to use the binomial formula, which could be very complicated. Using the <em>normal approximation to the binomial</em> distribution simplified the process. To compute the normal approximation to the binomial distribution, take a simple random sample from a population. You must meet the following conditions for a binomial distribution:</p>
-        <ul xml:id="norm_bi_approx">
+        <ul>
           <li>There are a certain number, <em>n</em>, of independent trials.</li>
           <li>The outcomes of any trial are success or failure.</li>
           <li>Each trial has the same probability of a success, <em>p</em>.</li>
@@ -1409,10 +1409,10 @@ similar to the shape of the normal distribution. To ensure this, the quantities 
 and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</em> > 5;  the approximation is better if they are both greater than or equal to 10. The product &gt;5 is more or less accepted as the norm here.). This is another accepted rule. So, for whatever value of <em>x</em> we are looking at (the number of successes). We add 0.5 if we are looking for the probability that is less than or equal to that number. We subtract 0.5 if we are looking for the probability that is greater than or equal to that number. Then the binomial can be approximated by the normal distribution with mean <em>μ</em> = <em>np</em> and standard deviation <em>σ</em> = <m>\sqrt{npq}</m>. Remember that <em>q</em> = 1 – <em>p</em>. In order to get the best approximation, add 0.5 to <em>x</em> or subtract 0.5 from <em>x</em> (use <em>x</em> + 0.5 or <em>x</em> – 0.5).</p>
         <p>This is another accepted rule. So, for whatever value of <em>x</em> we are looking at (the number of successes). We add 0.5 if we are looking for the probability that is less than or equal to that number. We subtract 0.5 if we are looking for the probability that is greater than or equal to that number. The number 0.5 is called the continuity correction factor and is used in the following example.</p>
       </note>
-      <example xml:id="ch7-eip--831">
+      <example>
         <statement>
           <p>Suppose in a local kindergarten through 12<m>^{th}</m> grade (K12) school district, 53 percent of the population favor a charter school for grades K through 5. A simple random sample of 300 is surveyed.</p>
-          <ol xml:id="ch7-eip--306">
+          <ol>
             <li>Find the probability that <em>at least 150</em> favor a charter school.</li>
             <li>Find the probability that <em>at most 160</em> favor a charter school.</li>
             <li>Find the probability that <em>more than 155</em> favor a charter school.</li>
@@ -1439,12 +1439,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
           <p><em>P</em>(<em>X</em> = 175) :(You use the binomial pdf.)<c>binomialpdf</c>(300,0.53,175) = 0.0083</p>
         </statement>
       </example>
-      <note xml:id="ch7-fs-idm31488240">
+      <note>
         <title>Try It</title>
       </note>
     </subsection>
   </subsection>
-  <references xml:id="ch7-fs-idm136010448">
+  <references>
     <title>References</title>
     <p><em>The Wall Street Journal</em>. (n.d.). Retrieved from https://www.wsj.com/</p>
     <p>Centers for Disease Control and Prevention. (2017, April 16). National health and nutrition examination survey. <em>National Center for Health Statistics</em>. Retrieved from http://www.cdc.gov/nchs/nhanes.htm</p>
@@ -1457,14 +1457,14 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
     <p><em>Use the following information to answer the next 10 exercises:</em> A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely, so the distribution of weights is uniform. A sample of 100 weights is taken.</p>
     <exercise xml:id="ch7-exercise4">
       <statement>
-        <ol xml:id="ch7-fs-idm44419104">
+        <ol>
           <li>What is the distribution for the weights of one 25-pound lifting weight? What are the mean and standard deviation?</li>
           <li>What is the distribution for the mean weight of 100 25-pound lifting weights?</li>
           <li>Find the probability that the mean actual weight for the 100 weights is less than 24.9.</li>
         </ol>
       </statement>
       <solution>
-        <ol xml:id="ch7-fs-idp41045488">
+        <ol>
           <li><em>U</em>(24, 26), 25, 0.5774</li>
           <li><em>N</em>(25, 0.0577)</li>
           <li>0.0416</li>
@@ -1504,24 +1504,24 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
     </exercise>
     <exercise xml:id="ch7-exercise10">
       <statement>
-        <ol xml:id="ch7-fs-idm21659936">
+        <ol>
           <li>What is the distribution for the sum of the weights of 100 25-pound lifting weights?</li>
           <li>Find <em>P</em>(<em>Σx</em> &lt; 2450).</li>
         </ol>
       </statement>
       <solution>
-        <ol xml:id="ch7-fs-idp176981200">
+        <ol>
           <li><em>N</em>(2500, 5.7735)</li>
           <li>0</li>
         </ol>
       </solution>
     </exercise>
-    <exercise xml:id="ch7-exercise11">
+    <exercise xml:id="ch7-exercise11-b">
       <statement>
         <p>Draw the graph of .</p>
       </statement>
     </exercise>
-    <exercise xml:id="ch7-exercise12">
+    <exercise xml:id="ch7-exercise12-b">
       <statement>
         <p>Find the 90<m>^{th}</m> percentile for the total weight of the 100 weights.</p>
       </statement>
@@ -1537,13 +1537,13 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
     <p><em>Use the following information to answer the next five exercises:</em> The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.</p>
     <exercise xml:id="ch7-fs-idm110175696">
       <statement>
-        <ol xml:id="ch7-fs-idp7565520">
+        <ol>
           <li>What is the standard deviation?</li>
           <li>What is the parameter <em>m</em>?</li>
         </ol>
       </statement>
       <solution>
-        <ol xml:id="ch7-fs-idp20993168">
+        <ol>
           <li>10</li>
           <li><m>\frac{1}{10}</m></li>
         </ol>
@@ -1639,7 +1639,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
     <exercise xml:id="ch7-element-941">
       <statement>
         <p>The attention span of a two-year-old is exponentially distributed with a mean of about eight minutes. Suppose we randomly survey 60 two-year-olds.</p>
-        <ol xml:id="ch7-element-307">
+        <ol>
           <li>In words, <em>Χ</em> = _______.</li>
           <li><em>Χ</em> ~  _____(_____, _____)</li>
           <li>In words, <m>\overline{X}</m> = ____________.</li>
@@ -1698,7 +1698,7 @@ The probability that the average attention span for the 60 children is less than
             <row><cell>35</cell> <cell>29.25</cell></row>
           </tabular>
         </table>
-        <ol xml:id="madeup9">
+        <ol>
           <li>In words, <em>Χ</em> = ______________.</li>
           <li>
 <m>\overline{x}</m> = _____
@@ -1720,7 +1720,7 @@ The probability that the average attention span for the 60 children is less than
         </ol>
       </statement>
       <solution>
-        <ol xml:id="madeup8">
+        <ol>
           <li><em>X</em> = the closing stock prices for U.S. semiconductor manufacturers</li>
           <li>i. $20.71, ii. $17.31, iii. 35</li>
           <li></li>
@@ -1738,7 +1738,7 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-element-725">
       <statement>
         <p><em>Χ</em> ~ _____(_____, _____)</p>
-        <ol xml:id="ch7-element-596">
+        <ol>
           <li><em>U</em>(0, 4)</li>
           <li><em>U</em>(10, 2)</li>
           <li><em>Eχp</em>(2)</li>
@@ -1749,7 +1749,7 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-element-407">
       <statement>
         <p>The average wait time is:</p>
-        <ol xml:id="ch7-element-143">
+        <ol>
           <li>one hour</li>
           <li>two hours</li>
           <li>two and a half hours</li>
@@ -1763,7 +1763,7 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-element-191">
       <statement>
         <p>Suppose that it is now past noon on a delivery day. The probability that a person must wait at least one and a half more hours is</p>
-        <ol xml:id="ch7-fs-idp191113008">
+        <ol>
           <li><m>\frac{1}{4}</m></li>
           <li><m>\frac{1}{2}</m>
 </li>
@@ -1778,7 +1778,7 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-element-620">
       <statement>
         <p>The 90<m>^{th}</m> percentile sample average wait time (in minutes) for a sample of 100 riders is:</p>
-        <ol xml:id="ch7-element-576">
+        <ol>
           <li>315.0</li>
           <li>40.3	</li>
           <li>38.5	</li>
@@ -1792,7 +1792,7 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-element-339">
       <statement>
         <p>Would you be surprised, based on numerical calculations, if the sample average wait time (in minutes) for 100 riders was less than 30 minutes?</p>
-        <ol xml:id="ch7-element-346">
+        <ol>
           <li>yes</li>
           <li>no</li>
           <li>There is not enough information.	</li>
@@ -1803,7 +1803,7 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-element-644">
       <statement>
         <p>What's the approximate probability that the average price for 16 gas stations is more than $4.69?</p>
-        <ol xml:id="ch7-element-390">
+        <ol>
           <li>almost zero</li>
           <li>0.1587</li>
           <li>0.0943</li>
@@ -1817,7 +1817,7 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-eip--415">
       <statement>
         <p>Find the probability that the average price for 30 gas stations is less than $4.55.</p>
-        <ol xml:id="ch7-element-193">
+        <ol>
           <li>0.6554</li>
           <li>0.3446</li>
           <li>0.0142</li>
@@ -1829,7 +1829,7 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-eip--786">
       <statement>
         <p>Suppose in a local kindergarten through 12<m>^{th}</m> grade (K12) school district, 53 percent of the population favor a charter school for grades K through five. A simple random sample of 300 is surveyed. Calculate the following using the normal approximation to the binomial distribtion.</p>
-        <ol xml:id="Charter_School">
+        <ol>
           <li>Find the probability that less than 100 favor a charter school for grades K through 5.</li>
           <li>Find the probability that 170 or more favor a charter school for grades K through 5.</li>
           <li>Find the probability that no more than 140 favor a charter school for grades K through 5.</li>
@@ -1839,7 +1839,7 @@ The probability that the average attention span for the 60 children is less than
         <p>If you have access to an appropriate calculator or computer software, try calculating these probabilities using the technology.</p>
       </statement>
       <solution>
-        <ol xml:id="Charter_school_answers">
+        <ol>
           <li>0</li>
           <li>0.1123</li>
           <li>0.0162</li>
@@ -1851,7 +1851,7 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-eip--140">
       <statement>
         <p>Four friends, Janice, Barbara, Kathy, and Roberta, decided to carpool together to get to school. Each day the driver would be chosen by randomly selecting one of the four names. They carpool to school for 96 days. Use the normal approximation to the binomial to calculate the following probabilities. Round the standard deviation to four decimal places.</p>
-        <ol xml:id="Carpool">
+        <ol>
           <li>Find the probability that Janice is the driver at most 20 days.</li>
           <li>Find the probability that Roberta is the driver more than 16 days.</li>
           <li>Find the probability that Barbara drives exactly 24 of those 96 days.</li>
@@ -1861,7 +1861,7 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-element-440">
       <statement>
         <p><em>X</em> ~ <em>N</em>(60, 9). Suppose that you form random samples of 25 from this distribution. Let <m>\overline{X}</m> be the random variable of averages. Let <em>ΣX</em> be the random variable of sums. For parts (c) through (f), sketch the graph, shade the region, label and scale the horizontal axis for <m>\overline{X}</m>, and find the probability.</p>
-        <ol xml:id="ch7-element-455">
+        <ol>
           <li>Sketch the distributions of <em>X</em> and
 <m>\overline{X}</m> on the same graph.</li>
           <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
@@ -1875,7 +1875,7 @@ The probability that the average attention span for the 60 children is less than
         </ol>
       </statement>
       <solution>
-        <ol xml:id="ch7-element-209">
+        <ol>
           <li>Check student’s solution.</li>
           <li><m>\overline{X}</m> ~ <em>N</em><m>(\text{60, }\frac{9}{\sqrt{25}})</m></li>
           <li>0.5000</li>
@@ -1892,7 +1892,7 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-element-666">
       <statement>
         <p>Suppose that the length of research papers is uniformly distributed from 10 to 25 pages. We survey a class in which 55 research papers were turned in to a professor. The 55 research papers are considered a random collection of all papers. We are interested in the average length of the research papers.</p>
-        <ol xml:id="ch7-element-826">
+        <ol>
           <li>In words, <em>X</em> = _____________.</li>
           <li><em>X</em> ~ _____(_____, _____)</li>
           <li><em>μ<m>_{x}</m></em> = _____</li>
@@ -1910,13 +1910,13 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-element-138">
       <statement>
         <p>Salaries for managers in a restaurant chain are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey 10 managers from that district.</p>
-        <ol xml:id="ch7-element-285">
+        <ol>
           <li>Find the 90<m>^{th}</m> percentile for an individual manager's salary.</li>
           <li>Find the 90<m>^{th}</m> percentile for the average manager's salary.</li>
         </ol>
       </statement>
       <solution>
-        <ol xml:id="ch7-fs-idm1040640">
+        <ol>
           <li>$52,330</li>
           <li>$46,634</li>
         </ol>
@@ -1925,7 +1925,7 @@ The probability that the average attention span for the 60 children is less than
     <exercise xml:id="ch7-element-566">
       <statement>
         <p>The average length of a maternity stay in a U.S. hospital is said to be 2.4 days with a standard deviation of 0.9 days. We randomly survey 80 women who recently bore children in a U.S. hospital.</p>
-        <ol xml:id="madeup">
+        <ol>
           <li>In words, <em>X</em> = _____________.</li>
           <li>In words, <m>\overline{X}</m> = ___________________.</li>
           <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
@@ -1947,7 +1947,7 @@ The average stay of 80 women was more than five days.</li>
         <p>NeverReady batteries has engineered a newer, longer-lasting AAA battery. The company claims this battery has an average life span of 17 hours with a standard deviation of 0.8 hours. Your statistics class questions this claim. As a class, you randomly select 30 batteries and find that the sample mean life span is 16.7 hours. If the process is working properly, what is the probability of getting a random sample of 30 batteries in which the sample mean life span is 16.7 hours or less? Is the company’s claim reasonable?</p>
       </statement>
       <solution>
-        <ul xml:id="ch7-fs-idm24476240">
+        <ul>
           <li>We have <em>μ</em> = 17, σ = 0.8, <m>\overline{x}</m> = 16.7, and <em>n</em> = 30. To calculate the probability, we use <c>normalcdf</c>(lower, upper, <em>μ</em>, <m>\frac{\sigma}{\sqrt{n}}</m>) = <c>normalcdf</c><m>(E-\text{99,16}\text{.7,17,}\frac{0.\text{8}}{\sqrt{\text{30}}})</m> = 0.0200.</li>
           <li>If the process is working properly, then the probability that a sample of 30 batteries would have at most 16.7 life span hours is only 2%. Therefore, the class was justified to question the claim.</li>
         </ul>
@@ -1956,7 +1956,7 @@ The average stay of 80 women was more than five days.</li>
     <exercise xml:id="ch7-fs-idm165833488">
       <statement>
         <p>Men have an average weight of 172 pounds with a standard deviation of 29 pounds.</p>
-        <ol xml:id="ch7-fs-idm165831968">
+        <ol>
           <li>Find the probability that 20 randomly selected men will have a sum weight greater than 3,600 pounds.</li>
           <li>If 20 men have a sum weight greater than 3,500 pounds, then their total weight exceeds the safety limits for water taxis. Based on (a), is this a safety concern? Explain.</li>
         </ol>
@@ -1997,7 +1997,7 @@ The average stay of 80 women was more than five days.</li>
           </tabular>
         </table>
         <p>The bag contained 465 candies and the listed weights in the table came from randomly selected candies. Count the weights.</p>
-        <ol xml:id="ch7-fs-idm5281504">
+        <ol>
           <li>Find the mean sample weight and the standard deviation of the sample weights of candies in the table.</li>
           <li>Find the sum of the sample weights in the table and the standard deviation of the sum of the weights.</li>
           <li>If 465 candies are randomly selected, find the probability that their weights sum to at least 396.9 g.</li>
@@ -2005,7 +2005,7 @@ The average stay of 80 women was more than five days.</li>
         </ol>
       </statement>
       <solution>
-        <ol xml:id="ch7-fs-idm20614048">
+        <ol>
           <li>For the sample, we have <em>n</em> = 100, <m>\overline{x}</m> = 0.862, and <em>s</em> = 0.05.</li>
           <li><m>\Sigma\overline{x}</m> = 85.65, <em>Σs</em> = 5.18</li>
           <li><c>normalcdf</c>(396.9,<em>E</em>99,(465)(0.8565),(0.05)(<m>\sqrt{465}</m>)) ≈ 1</li>
@@ -2026,7 +2026,7 @@ The average stay of 80 women was more than five days.</li>
           </tabular>
         </table>
         <p>The screws were randomly selected from the local home repair store.</p>
-        <ol xml:id="ch7-fs-idm59306112">
+        <ol>
           <li>Find the mean diameter and standard deviation for the sample.</li>
           <li>Find the probability that 50 randomly selected screws will be within the stated tolerance levels. Is the company’s diameter claim plausible?</li>
         </ol>
@@ -2057,7 +2057,7 @@ The average stay of 80 women was more than five days.</li>
 </section><section xml:id="m79651">
 <title>The Central Limit Theorem for Sample Means (Pocket Change)</title>
 
-<exploration xml:id="ch7-fs-id1172804210713">
+<exploration>
 <title>Central Limit Theorem (Pocket Change)</title>
 
 <ul>
@@ -2070,7 +2070,7 @@ The average stay of 80 women was more than five days.</li>
 <p>This lab works best when sampling from several classes and combining data.</p>
 </note>
 
-<ol xml:id="CollectData">
+<ol>
 <title>Collect the Data</title>
 <li>Count the change in your pocket. (Do not include bills.)</li>
 <li>Randomly survey 30 classmates. Record the values of the change in <xref ref="Ch07_lab1_tbl001"/>.
@@ -2131,7 +2131,7 @@ The average stay of 80 women was more than five days.</li>
 </figure>
 </li>
 <li>Calculate the following (<em>n</em> = 1, surveying one person at a time):
-<ol xml:id="list-975947">
+<ol>
 <li><m>\overline{x}</m> = _______</li>
 <li><em>s</em> = _______</li>
 </ol>
@@ -2141,7 +2141,7 @@ The average stay of 80 women was more than five days.</li>
 
 <p><title>Collecting Averages of Pairs:</title>Repeat steps one through five of the section <xref ref="CollectData">Collect the Data</xref> with one exception. Instead of recording the change of 30 classmates, record the average change of 30 pairs.</p>
 
-<ol xml:id="list-9759443">
+<ol>
 <li>Randomly survey 30 <em>pairs</em> of classmates.</li>
 <li>Record the values of the average of their change in <xref ref="Ch07_lab1_tbl002"/>.
 <table xml:id="Ch07_lab1_tbl002">
@@ -2201,7 +2201,7 @@ The average stay of 80 women was more than five days.</li>
 </figure>
 </li>
 <li>Calculate the following (<em>n</em> = 2, surveying two people at a time):
-<ol xml:id="list-975875947">
+<ol>
 <li><m>\overline{x}</m> = _______</li>
 <li><em>s</em> = _______</li>
 </ol>
@@ -2209,9 +2209,9 @@ The average stay of 80 women was more than five days.</li>
 <li>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li>
 </ol>
 
-<p xml:id="ch7-element-505436759"><title>Collecting Averages of Groups of Five:</title>Repeat steps one through five (of the section titled <xref ref="CollectData">Collect the Data</xref>), with one exception. Instead of recording the change of 30 classmates, record the average change of 30 groups of five.</p>
+<p><title>Collecting Averages of Groups of Five:</title>Repeat steps one through five (of the section titled <xref ref="CollectData">Collect the Data</xref>), with one exception. Instead of recording the change of 30 classmates, record the average change of 30 groups of five.</p>
 
-<ol xml:id="list-9735659975974443">
+<ol>
 <li>Randomly survey 30 <em>groups of five</em> classmates.</li>
 <li>Record the values of the averages of their change.
 <table xml:id="Ch07_lab1_tbl003">
@@ -2271,7 +2271,7 @@ The average stay of 80 women was more than five days.</li>
 </figure>
 </li>
 <li>Calculate the following (<em>n</em> = 5, surveying five people at a time):
-<ol xml:id="list-97587555947">
+<ol>
 <li><m>\overline{x}</m> = _______</li>
 <li><em>s</em> = _______</li>
 </ol>
@@ -2279,7 +2279,7 @@ The average stay of 80 women was more than five days.</li>
 <li>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li>
 </ol>
 
-<ol xml:id="ch7-element-441">
+<ol>
 <title>Discussion Questions</title>
 <li>Why did the shape of the distribution of the data change, as <em>n</em> changed? Use one to two complete sentences to explain what happened.</li>
 <li>In the section titled <xref ref="CollectData">Collect the Data</xref>, what was the approximate distribution of the data?</li>
@@ -2294,7 +2294,7 @@ The average stay of 80 women was more than five days.</li>
 <section xml:id="m79652">
   <title>The Central Limit Theorem for Sums (Cookie Recipes)</title>
   
-  <exploration xml:id="ch7-fs-id1171897709330">
+  <exploration>
     <title>Central Limit Theorem (Cookie Recipes)</title>
     
     <ul>
@@ -2781,26 +2781,26 @@ The average stay of 80 women was more than five days.</li>
     </ol>
   </exploration>
 </section>
-  <glossary xml:id="glossary-ch07">
+  <glossary>
     <title>Glossary</title>
     
-    <gi xml:id="average">
+    <gi>
       <title>average</title>
       <p>a number that describes the central tendency of the data; there are a number of specialized averages, including the arithmetic mean, weighted mean, median, mode, and geometric mean</p>
     </gi>
     
-    <gi xml:id="centlimit">
+    <gi>
       <title>central limit theorem</title>
       <p>given a random variable (RV) with a known mean, <m>\mu</m>, and known standard deviation, <m>\sigma</m>, and sampling with size <m>n</m>, we are interested in two new RVs: the sample mean, <m>\overline{X}</m>, and the sample sum, <m>\Sigma X</m></p>
       <p>If the size (<m>n</m>) of the sample is sufficiently large, then <m>\overline{X} \sim N\left(\mu, \frac{\sigma}{\sqrt{n}}\right)</m> and <m>\Sigma X \sim N(n\mu, \sqrt{n}\sigma)</m>. If the size (<m>n</m>) of the sample is sufficiently large, then the distribution of the sample means and the distribution of the sample sums will approximate a normal distribution regardless of the shape of the population. The mean of the sample means will equal the population mean, and the mean of the sample sums will equal <m>n</m> times the population mean. The standard deviation of the distribution of the sample means, <m>\frac{\sigma}{\sqrt{n}}</m>, is called the standard error of the mean</p>
     </gi>
     
-    <gi xml:id="normdist">
+    <gi>
       <title>normal distribution</title>
       <p>a continuous random variable (RV) with probability density function (pdf) <m>f(x) = \frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^2}{2\sigma^2}}</m>, where <m>\mu</m> is the mean of the distribution and <m>\sigma</m> is the standard deviation; notation: <m>X \sim N(\mu, \sigma)</m>. If <m>\mu = 0</m> and <m>\sigma = 1</m>, the RV is called a <em>standard normal distribution</em></p>
     </gi>
     
-    <gi xml:id="stdmean">
+    <gi>
       <title>standard error of the mean</title>
       <p>the standard deviation of the distribution of the sample means, or <m>\frac{\sigma}{\sqrt{n}}</m></p>
     </gi>
