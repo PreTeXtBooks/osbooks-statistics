@@ -3,49 +3,90 @@
   <title>Probability Topics</title>
 
   <introduction>
-    <p>
-      This chapter introduces probability concepts including basic probability rules, 
-      conditional probability, and independence.
-    </p>
+    <figure xml:id="fig-ch03-meteor">
+      <caption>Meteor showers are rare, but the probability of them occurring can be calculated. (credit: Navicore/flickr)</caption>
+      <image source="media/CNX_Stats_C03_CO.jpg" width="70%">
+        <description>This is a photo taken of the night sky. A meteor and its tail are shown entering the earth's atmosphere.</description>
+      </image>
+    </figure>
+
+    <objectives xml:id="ch03-objectives">
+      <title>Chapter Objectives</title>
+      <p>By the end of this chapter, the student should be able to do the following:</p>
+      <ul>
+        <li>Understand and use the terminology of probability</li>
+        <li>Determine whether two events are mutually exclusive and whether two events are independent</li>
+        <li>Calculate probabilities using the addition rules and multiplication rules</li>
+        <li>Construct and interpret contingency tables</li>
+        <li>Construct and interpret Venn diagrams</li>
+        <li>Construct and interpret tree diagrams</li>
+      </ul>
+    </objectives>
+
+    <p>It is often necessary to <em>guess</em> about the outcome of an event in order to make a decision. Politicians study polls to guess their likelihood of winning an election. Teachers choose a particular course of study based on what they think students can comprehend. Doctors choose the treatments needed for various diseases based on their assessment of likely results. You may have visited a casino where people play games chosen because of the belief that the likelihood of winning is good. You may have chosen your course of study based on the probable availability of jobs.</p>
+
+    <p>You have, more than likely, used probability. In fact, you probably have an intuitive sense of probability. Probability deals with the chance of an event occurring. Whenever you weigh the odds of whether or not to do your homework or to study for an exam, you are using probability. In this chapter, you will learn how to solve probability problems using a systematic approach.</p>
+
+    <activity xml:id="activity-probability-intro">
+      <title>Collaborative Activity</title>
+      
+      <p>How likely is it that a randomly chosen person in your class has change in his or her pocket? Would you say that it is very likely? Somewhat likely? Not likely?</p>
+      
+      <p>How likely is it that a randomly chosen person in your class has ridden a bus in the past month?</p>
+      
+      <p>If a person is chosen at random from your classroom and you know that he or she has ridden a bus in the past month, do you think that person is more likely or less likely to have change?</p>
+      
+      <p>Probability theory allows us to measure how likely or unlikely a given result is.</p>
+      
+      <p>Your instructor will survey your class. Count the number of students in the class today.</p>
+      
+      <ul>
+        <li>Raise your hand if you have any change in your pocket or purse. Record the number of raised hands.</li>
+        <li>Raise your hand if you rode a bus within the past month. Record the number of raised hands.</li>
+        <li>Raise your hand if you answered <em>yes</em> to BOTH of the first two questions. Record the number of raised hands.</li>
+      </ul>
+      
+      <p>Use the class data as estimates of the following probabilities. <em>P</em>(change) means the probability that a randomly chosen person in your class has change in his/her pocket or purse. <em>P</em>(bus) means the probability that a randomly chosen person in your class rode a bus within the last month and so on. Discuss your answers.</p>
+      
+      <ul>
+        <li>Find <em>P</em>(change).</li>
+        <li>Find <em>P</em>(bus).</li>
+        <li>Find <em>P</em>(change AND bus). Find the probability that a randomly chosen student in your class has change in his/her pocket or purse and rode a bus within the last month.</li>
+        <li>Find <em>P</em>(change|bus). Find the probability that a randomly chosen student has change given that he or she rode a bus within the last month. Count all the students who rode a bus. From the group of students who rode a bus, count those who have change. The probability is equal to those who have change and rode a bus divided by those who rode a bus.</li>
+      </ul>
+    </activity>
   </introduction>
 
   <section xml:id="sec-terminology">
     <title>Terminology</title>
     <p>
-      Content to be added from module m79609.
+      Content to be added from module m79611.
     </p>
   </section>
 
   <section xml:id="sec-independent-mutually-exclusive">
     <title>Independent and Mutually Exclusive Events</title>
     <p>
-      Content to be added from module m79611.
+      Content to be added from module m79612.
     </p>
   </section>
 
   <section xml:id="sec-two-basic-rules">
     <title>Two Basic Rules of Probability</title>
     <p>
-      Content to be added from module m79612.
+      Content to be added from module m79614.
     </p>
   </section>
 
   <section xml:id="sec-contingency-tables">
     <title>Contingency Tables</title>
     <p>
-      Content to be added from module m79614.
+      Content to be added from module m79616.
     </p>
   </section>
 
   <section xml:id="sec-tree-venn-diagrams">
     <title>Tree and Venn Diagrams</title>
-    <p>
-      Content to be added from module m79616.
-    </p>
-  </section>
-
-  <section xml:id="sec-probability-topics-review">
-    <title>Probability Topics: Review</title>
     <p>
       Content to be added from module m79617.
     </p>
@@ -53,9 +94,229 @@
 
   <section xml:id="sec-probability-topics-practice">
     <title>Probability Topics: Practice</title>
-    <p>
-      Content to be added from module m79618.
-    </p>
+    
+    <activity xml:id="lab-probability-topics">
+      <title>Probability Topics Lab</title>
+      
+      <introduction>
+        <p><alert>Student Learning Outcomes</alert></p>
+        <ul>
+          <li>The student will use theoretical and empirical methods to estimate probabilities.</li>
+          <li>The student will appraise the differences between the two estimates.</li>
+          <li>The student will demonstrate an understanding of long-term relative frequencies.</li>
+        </ul>
+      </introduction>
+      
+      <task>
+        <title>Do the Experiment</title>
+        <p>Count out 40 mixed-color candies, which is approximately one small bag's worth. Record the number of each color in <xref ref="table-candy-population"/>. Use the information from this table to complete <xref ref="table-theoretical-probabilities"/>. Next, put the candies in a cup. The experiment is to pick two candies, one at a time. Do <em>not</em> look into the cup as you pick them. The first time through, replace the first candy before picking the second one. Record the results in the With Replacement column of <xref ref="table-empirical-results"/>. Do this 24 times. The second time through, after picking the first candy, do <em>not</em> replace it before picking the second one. Then, pick the second one. Record the results in the Without Replacement column section of <xref ref="table-empirical-probabilities"/>. After you record the pick, put <em>both</em> candies back. Do this a total of 24 times, also. Use the data from <xref ref="table-empirical-probabilities"/> to calculate the empirical probability questions. Leave your answers in unreduced fractional form. Do <em>not</em> multiply out any fractions.</p>
+        
+        <table xml:id="table-candy-population">
+          <title>Population</title>
+          <tabular>
+            <row header="yes">
+              <cell>Color</cell>
+              <cell>Quantity</cell>
+            </row>
+            <row>
+              <cell>Yellow (<em>Y</em>)</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Green (<em>G</em>)</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Blue (<em>BL</em>)</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Brown (<em>B</em>)</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Orange (<em>O</em>)</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>Red (<em>R</em>)</cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+        
+        <table xml:id="table-theoretical-probabilities">
+          <title>Theoretical Probabilities</title>
+          <tabular>
+            <row header="yes">
+              <cell></cell>
+              <cell>With Replacement</cell>
+              <cell>Without Replacement</cell>
+            </row>
+            <row>
+              <cell><em>P</em>(2 reds)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(<em>R</em><sub>1</sub><em>B</em><sub>2</sub> OR <em>B</em><sub>1</sub><em>R</em><sub>2</sub>)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(<em>R</em><sub>1</sub> AND <em>G</em><sub>2</sub>)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(<em>G</em><sub>2</sub>|<em>R</em><sub>1</sub>)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(no yellows)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(doubles)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(no doubles)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+        
+        <note>
+          <p><em>G</em><sub>2</sub> = green on second pick, <em>R</em><sub>1</sub> = red on first pick, <em>B</em><sub>1</sub> = brown on first pick, <em>B</em><sub>2</sub> = brown on second pick, doubles = both picks are the same color.</p>
+        </note>
+        
+        <table xml:id="table-empirical-results">
+          <title>Empirical Results</title>
+          <tabular>
+            <row header="yes">
+              <cell>With Replacement</cell>
+              <cell>Without Replacement</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+            <row>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+              <cell>( __ , __ ) ( __ , __ )</cell>
+            </row>
+          </tabular>
+        </table>
+        
+        <table xml:id="table-empirical-probabilities">
+          <title>Empirical Probabilities</title>
+          <tabular>
+            <row header="yes">
+              <cell></cell>
+              <cell>With Replacement</cell>
+              <cell>Without Replacement</cell>
+            </row>
+            <row>
+              <cell><em>P</em>(2 reds)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(<em>R</em><sub>1</sub><em>B</em><sub>2</sub> OR <em>B</em><sub>1</sub><em>R</em><sub>2</sub>)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(<em>R</em><sub>1</sub> AND <em>G</em><sub>2</sub>)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(<em>G</em><sub>2</sub>|<em>R</em><sub>1</sub>)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(no yellows)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(doubles)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell><em>P</em>(no doubles)</cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+      </task>
+      
+      <task>
+        <title>Discussion Questions</title>
+        <ol>
+          <li>Why are the With Replacement and Without Replacement probabilities different?</li>
+          <li>Convert <em>P</em>(no yellows) to decimal format for both Theoretical With Replacement and for Empirical With Replacement. Round to four decimal places.
+            <ol>
+              <li>Theoretical <em>With Replacement</em>: <em>P</em>(no yellows) = _______</li>
+              <li>Empirical With Replacement: <em>P</em>(no yellows) = _______</li>
+              <li>Are the decimal values <em>close</em>? Did you expect them to be closer together or farther apart? Why?</li>
+            </ol>
+          </li>
+          <li>If you increased the number of times you picked two candies to 240 times, why would empirical probability values change?</li>
+          <li>Would this change (see Question 3) cause the empirical probabilities and theoretical probabilities to be closer together or farther apart? How do you know?</li>
+          <li>Explain the differences in what <em>P</em>(<em>G</em><sub>1</sub> AND <em>R</em><sub>2</sub>) and <em>P</em>(<em>R</em><sub>1</sub>|<em>G</em><sub>2</sub>) represent. Hint: Think about the sample space for each probability.</li>
+        </ol>
+      </task>
+    </activity>
   </section>
 
   <conclusion>
