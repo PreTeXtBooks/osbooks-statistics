@@ -2057,6 +2057,9 @@ The average stay of 80 women was more than five days.</li>
 </section><section xml:id="m79651">
 <title>The Central Limit Theorem for Sample Means (Pocket Change)</title>
 
+<subsection xml:id="ch7-lab-pocket-change">
+<title>Lab Activity</title>
+
 <exploration>
 <title>Central Limit Theorem (Pocket Change)</title>
 
@@ -2295,9 +2298,13 @@ The average stay of 80 women was more than five days.</li>
 
 </exploration>
 
+</subsection>
 </section>
 <section xml:id="m79652">
   <title>The Central Limit Theorem for Sums (Cookie Recipes)</title>
+  
+  <subsection xml:id="ch7-lab-cookie-recipes">
+  <title>Lab Activity</title>
   
   <exploration>
     <title>Central Limit Theorem (Cookie Recipes)</title>
@@ -2785,6 +2792,8 @@ The average stay of 80 women was more than five days.</li>
       <li>As <em>n</em> changed, why did the shape of the distribution of the data change? Use one to two complete sentences to explain what happened.</li>
     </ol>
   </exploration>
+  
+  </subsection>
 </section>
   <glossary>
     <title>Glossary</title>
