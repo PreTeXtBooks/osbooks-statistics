@@ -31,13 +31,16 @@
     <p><nbsp/>This chapter deals with the following hypothesis tests:</p>
     <ul>
       <li>Independent groups (samples are independent)
-Test of two population means
-Test of two population proportions</li>
-      <li>Test of two population means</li>
-      <li>Test of two population proportions</li>
+        <ul>
+          <li>Test of two population means</li>
+          <li>Test of two population proportions</li>
+        </ul>
+      </li>
       <li>Matched or paired samples (samples are dependent)
-Test of the two population proportions by testing one population mean of differences</li>
-      <li>Test of the two population proportions by testing one population mean of differences</li>
+        <ul>
+          <li>Test of the two population proportions by testing one population mean of differences</li>
+        </ul>
+      </li>
     </ul>
   </section>
 
@@ -52,29 +55,37 @@ if the sample sizes are large, the distributions are not important (need not be 
       <li>if the sample sizes are small, the distributions are important (should be normal), and</li>
       <li>if the sample sizes are large, the distributions are not important (need not be normal)</li>
     </ol>
-    <p>NOTE The test comparing two independent population means with unknown and possibly unequal population standard deviations is called the Aspin-Welch <m>t</m>-test. The degrees of freedom formula was developed by Aspin-Welch.</p>
+    <note xml:id="fs-idm107349216">
+      <title>NOTE</title>
+      <p>The test comparing two independent population means with unknown and possibly unequal population standard deviations is called the Aspin-Welch <m>t</m>-test. The degrees of freedom formula was developed by Aspin-Welch.</p>
+    </note>
     <p>The comparison of two population means is very common. A difference between the two samples depends on both the means and the standard deviations. Very different means can occur by chance if there is great variation among the individual samples. To account for the variation, we take the difference of the sample means,
 
 <m>\overline{X}_{1}-\overline{X}_{2}</m>, and divide by the standard error to standardize the difference. The result is a <m>t</m>-score test statistic.</p>
     <p>Because we do not know the population standard deviations, we estimate them using the two sample standard deviations from our independent samples. For the hypothesis test, we calculate the estimated <term>standard deviation</term>, or <term>standard error</term>, of the difference in sample means,
 <m>\overline{X}_{1}-\overline{X}_{2}\text{.}</m></p>
     <p>The standard error is calculated as follows:</p>
-    <me>\sqrt{(s_{1})^{2}n_{1}}</me>
+    <me>\sqrt{\frac{(s_{1})^{2}}{n_{1}}+\frac{(s_{2})^{2}}{n_{2}}}</me>
     <p>The test statistic (<m>t</m>-score) is calculated as follows:
   <m>\frac{\text{(}x¯_{1}-x¯_{2}\text{)}-\text{(}\mu_{1}-\mu_{2}\text{)}}{\sqrt{\frac{\text{(}s_{1}\text{)}^{2}}{n_{1}}+\frac{\text{(}s_{2}\text{)}^{2}}{n_{2}}}}</m>
 
-where<m>s</m>_{1} and <m>s</m>_{2}, the sample standard deviations, are estimates of <m>σ</m>_{1} and <m>σ</m>_{2}, respectively,
-  <m>σ</m>_{1} and <m>σ</m>_{1} are the unknown population standard deviations,
-<m>x¯_{1}</m>
-and
-<m>x¯_{2}</m>
-are the sample means, and 
-<m>μ</m>_{1} and <m>μ</m>_{2} are the population means.</p>
+where <m>s_{1}</m> and <m>s_{2}</m>, the sample standard deviations, are estimates of <m>\sigma_{1}</m> and <m>\sigma_{2}</m>, respectively,
+  <m>\sigma_{1}</m> and <m>\sigma_{2}</m> are the unknown population standard deviations,
+<m>\bar{x}_{1}</m> and <m>\bar{x}_{2}</m> are the sample means, and 
+<m>\mu_{1}</m> and <m>\mu_{2}</m> are the population means.</p>
     <p>The number of <term>degrees of freedom (<m>df</m>)</term> requires a somewhat complicated calculation. However, a computer or calculator calculates it easily. The <m>df</m> are not always a whole number. The test statistic calculated previously is approximated by the Student’s <m>t</m>-distribution with <m>df</m> as follows:</p>
     <p>Degrees of freedom</p>
     <me>df=\frac{(\frac{(s_{1})^{2}}{n_{1}}+\frac{(s_{2})^{2}}{n_{2}})^{2}}{(\frac{1}{n_{1}-1})(\frac{(s_{1})^{2}}{n_{1}})^{2}+(\frac{1}{n_{2}-1})(\frac{(s_{2})^{2}}{n_{2}})^{2}}</me>
-    <p>When both sample sizes <m>n</m>_{1} and <m>n</m>_{2} are five or larger, the Student’s <m>t</m> approximation is very good. Notice that the sample variances (<m>s</m>_{1})^{2} and (<m>s</m>_{2})^{2} are not pooled. (If the question comes up, do not pool the variances.)
-NOTEIt is not necessary to compute this by hand. A calculator or computer easily computes it.</p>
+    <p>When both sample sizes <m>n_{1}</m> and <m>n_{2}</m> are five or larger, the Student's <m>t</m> approximation is very good. Notice that the sample variances <m>(s_{1})^{2}</m> and <m>(s_{2})^{2}</m> are not pooled. (If the question comes up, do not pool the variances.)</p>
+    <note xml:id="fs-idm50414209">
+      <title>NOTE</title>
+      <p>It is not necessary to compute this by hand. A calculator or computer easily computes it.</p>
+    </note>
+    <p>When both sample sizes <m>n_{1}</m> and <m>n_{2}</m> are five or larger, the Student's <m>t</m> approximation is very good. Notice that the sample variances <m>(s_{1})^{2}</m> and <m>(s_{2})^{2}</m> are not pooled. (If the question comes up, do not pool the variances.)</p>
+    <note xml:id="fs-idm50414209">
+      <title>NOTE</title>
+      <p>It is not necessary to compute this by hand. A calculator or computer easily computes it.</p>
+    </note>
     <example xml:id="element-208">
       <title>Independent groups</title>
       <statement>
