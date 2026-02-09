@@ -1,0 +1,2712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch04-discrete-random-variables" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Discrete Random Variables</title>
+
+  <introduction>
+    <figure xml:id="fig-ch04-00-01">
+      <caption>You can use probability and discrete random variables to calculate the likelihood of lightning striking the ground five times during a half-hour thunderstorm. (Leszek Leszczynski)</caption>
+      <image source="media/CNX_Stats_C04_CON.jpg" width="80%">
+        <description>This photo shows branch lightning coming from a dark cloud and hitting the ground.</description>
+      </image>
+    </figure>
+
+    <objectives>
+      <title>Chapter Objectives</title>
+      <p>By the end of this chapter, the student should be able to do the following:</p>
+      <ul>
+        <li>Recognize and understand discrete probability distribution functions, in general.</li>
+        <li>Calculate and interpret expected values.</li>
+        <li>Recognize the binomial probability distribution and apply it appropriately.</li>
+        <li>Recognize the poisson probability distribution and apply it appropriately.</li>
+        <li>Recognize the geometric probability distribution and apply it appropriately.</li>
+        <li>Recognize the hypergeometric probability distribution and apply it appropriately.</li>
+        <li>Classify discrete word problems by their distributions.</li>
+      </ul>
+    </objectives>
+
+    <p>A student takes a 10-question, true-false quiz. Because the student had such a busy schedule, he or she could not study and guesses randomly at each answer. What is the probability of the student passing the test with at least a 70 percent?</p>
+    
+    <p>Small companies might be interested in the number of long-distance phone calls their employees make during the peak time of the day. Suppose the average is 20 calls. What is the probability that the employees make more than 20 long-distance phone calls during the peak time?</p>
+
+    <p>These two examples illustrate two different types of probability problems involving discrete random variables. Recall that discrete data are data that you can count. A random variable is a variable whose values are numerical outcome of a probability experiment. We always describe a random variable in words and its values in numbers. The values of a random variable can vary with each repetition of an experiment.</p>
+
+    <subsection xml:id="randvarnot">
+      <title>Random Variable Notation</title>
+      <p>Uppercase letters such as <em>X</em> or <em>Y</em> denote a random variable. Lowercase letters like <em>x</em> or <em>y</em> denote the value of a random variable. If <alert><em>X</em> is a random variable, then <em>X</em> is written in words, and <em>x</em> is given as a number.</alert></p>
+
+      <p>The following are examples of random variables:</p>
+
+      <p>Example 1: Suppose a jar contains three marbles, one blue, one red, and one white. Randomly draw one marble from the jar. Let <em>X</em> = the possible number of red marbles to be drawn. The sample space for the drawing is red, white, and blue. Then, <em>x</em> = 0,1. If the marble we draw is red, then <em>x</em> = 1; otherwise, <em>x</em> = 0.</p>
+
+      <p>Example 2: Let <em>X</em> = the number of female children in a randomly selected family with only two kids. Here we are only interested in families with two kids, not families with one kid or more than two kids. The sample space for the genders of two-kid families is <em>MM, MF, FM, FF</em>. Here the first letter represents the gender of the older child and the second letter represents the gender of the younger child. F represents a female child and M represents a male child. For example, FM represents that the older child is a girl and the younger child is a boy, while MF represents that the older child is a boy and the younger child is a girl. Then, <em>x</em> = 0,1,2. A family has 0 female children if it has two boys (MM), a family has one female child if it has one boy and one girl (MF or FM), and a family has two female children if both kids are girls (FF).</p>
+
+      <p>Example 3: Let <em>X</em> = the number of heads you get when you toss three fair coins. The sample space for the toss of three fair coins is <em>TTT, THH, HTH, HHT, HTT, THT, TTH, HHH</em>. Here the first letter represents the result of the first toss, the second letter represents the result of the second toss, and the third letter represents the result of the third toss. T represents a tail and H represents a head. For example, THH means we get a tail in the first toss but a head in the second and third toss, while HHT means we get a head in the first and second toss but a tail in the third toss. Then, <em>x</em> = 0, 1, 2, 3. There are 0 heads if the result is TTT, one head if the result is THT, TTH, or HTT, two heads if the result is THH, HTH, or HHT, and three heads if the result is HHH.</p>
+    </subsection>
+
+    <exploration xml:id="collab-ch04-intro">
+      <p>Toss a coin 10 times and record the number of heads. After all members of the class have completed the experiment (tossed a coin 10 times and counted the number of heads), fill in the table below. Let <em>X</em> = the number of heads in 10 tosses of the coin.</p>
+
+      <table xml:id="tbl-ch04-intro-collab">
+        <title>Coin Toss Results</title>
+        <tabular>
+          <row header="yes">
+            <cell><em>x</em></cell>
+            <cell>Frequency of <em>x</em></cell>
+            <cell>Relative Frequency of <em>x</em></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+          <row>
+            <cell></cell>
+            <cell></cell>
+            <cell></cell>
+          </row>
+        </tabular>
+      </table>
+
+      <p>
+        <ol marker="a">
+          <li>Which value(s) of <em>x</em> occurred most frequently?</li>
+          <li>If you tossed the coin 1,000 times, what values could <em>x</em> take on? Which value(s) of <em>x</em> do you think would occur most frequently?</li>
+          <li>What does the relative frequency column sum to?</li>
+        </ol>
+      </p>
+    </exploration>
+  </introduction>
+
+  <section xml:id="sec-probability-distribution-function">
+    <title>Probability Distribution Function (PDF) for a Discrete Random Variable</title>
+    
+    <p>There are two types of <term xml:id="term-ch04-random-variables">random variables</term>, discrete random variables and continuous random variables. The values of a <em>discrete random variable</em> are countable, which means the values are obtained by counting. All random variables we discussed in previous examples are discrete random variables. We counted the number of red balls, the number of heads, or the number of female children to get the corresponding random variable values. The values of a <em>continuous random variable</em> are uncountable, which means the values are not obtained by counting. Instead, they are obtained by measuring. For example, let <em>X</em> = temperature of a randomly selected day in June in a city. The value of <em>X</em> can be 68°, 71.5°, 80.6°, or 90.32°. These values are obtained by measuring by a thermometer. Another example of a continuous random variable is the height of a randomly selected high school student. The value of this random variable can be 5'2", 6'1", or 5'8". Those values are obtained by measuring by a ruler.</p>
+
+    <p>A discrete <term xml:id="term-ch04-probability-distribution-function">probability distribution function</term> has two characteristics:</p>
+
+    <p>
+      <ol>
+        <li>Each probability is between zero and one, inclusive.</li>
+        <li>The sum of the probabilities is one.</li>
+      </ol>
+    </p>
+
+    <example xml:id="example-ch04-pdf-1">
+      <p>A child psychologist is interested in the number of times a newborn baby's crying wakes its mother after midnight. For a random sample of 50 mothers, the following information was obtained. Let <em>X</em> = the number of times per week a newborn baby's crying wakes its mother after midnight. For this example, <em>x</em> = 0, 1, 2, 3, 4, 5.</p>
+
+      <p><em>P</em>(<em>x</em>) = probability that <em>X</em> takes on a value <em>x</em>.</p>
+
+      <table xml:id="tbl-ch04-pdf-example-1">
+        <title>PDF for Newborn Waking Mother</title>
+        <tabular>
+          <row header="yes">
+            <cell><em>x</em></cell>
+            <cell><em>P</em>(<em>x</em>)</cell>
+          </row>
+          <row>
+            <cell>0</cell>
+            <cell><em>P</em>(<em>x</em> = 0) = <m>\frac{2}{50}</m></cell>
+          </row>
+          <row>
+            <cell>1</cell>
+            <cell><em>P</em>(<em>x</em> = 1) = <m>\frac{11}{50}</m></cell>
+          </row>
+          <row>
+            <cell>2</cell>
+            <cell><em>P</em>(<em>x</em> = 2) = <m>\frac{23}{50}</m></cell>
+          </row>
+          <row>
+            <cell>3</cell>
+            <cell><em>P</em>(<em>x</em> = 3) = <m>\frac{9}{50}</m></cell>
+          </row>
+          <row>
+            <cell>4</cell>
+            <cell><em>P</em>(<em>x</em> = 4) = <m>\frac{4}{50}</m></cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell><em>P</em>(<em>x</em> = 5) = <m>\frac{1}{50}</m></cell>
+          </row>
+        </tabular>
+      </table>
+
+      <p><em>X</em> takes on the values 0, 1, 2, 3, 4, 5. This is a discrete PDF because we can count the number of values of <em>x</em> and also because of the following two reasons:</p>
+
+      <p>
+        <ol marker="a">
+          <li>Each <em>P</em>(<em>x</em>) is between zero and one, therefore inclusive</li>
+          <li>The sum of the probabilities is one, that is,</li>
+        </ol>
+      </p>
+
+      <me>\frac{2}{50} + \frac{11}{50} + \frac{23}{50} + \frac{9}{50} + \frac{4}{50} + \frac{1}{50} = 1</me>
+    </example>
+
+    <exercise xml:id="try-it-ch04-pdf-1">
+      <title>Try It</title>
+      <statement>
+        <p>A hospital researcher is interested in the number of times the average post-op patient will ring the nurse during a 12-hour shift. For a random sample of 50 patients, the following information was obtained. Let <em>X</em> = the number of times a patient rings the nurse during a 12-hour shift. For this exercise, <em>x</em> = 0, 1, 2, 3, 4, 5. <em>P</em>(<em>x</em>) = the probability that <em>X</em> takes on value <em>x</em>. Why is this a discrete probability distribution function (two reasons)?</p>
+
+        <table xml:id="tbl-ch04-tryit-1">
+          <tabular halign="center">
+            <row header="yes">
+              <cell><em>X</em></cell>
+              <cell><em>P</em>(<em>x</em>)</cell>
+            </row>
+            <row>
+              <cell>0</cell>
+              <cell><em>P</em>(<em>x</em> = 0) = <m>\frac{4}{50}</m></cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell><em>P</em>(<em>x</em> = 1) = <m>\frac{8}{50}</m></cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell><em>P</em>(<em>x</em> = 2) = <m>\frac{16}{50}</m></cell>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell><em>P</em>(<em>x</em> = 3) = <m>\frac{14}{50}</m></cell>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell><em>P</em>(<em>x</em> = 4) = <m>\frac{6}{50}</m></cell>
+            </row>
+            <row>
+              <cell>5</cell>
+              <cell><em>P</em>(<em>x</em> = 5) = <m>\frac{2}{50}</m></cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <p>Each <em>P</em>(<em>x</em>) is between 0 and 1, inclusive, and the sum of the probabilities is 1, that is: <me>\frac{4}{50} + \frac{8}{50} + \frac{16}{50} + \frac{14}{50} + \frac{6}{50} + \frac{2}{50} = 1</me></p>
+      </solution>
+    </exercise>
+
+    <example xml:id="example-ch04-nancy">
+      <p>Suppose Nancy has classes <alert>three days</alert> a week. She attends classes three days a week <alert>80 percent</alert> of the time, <alert>two days 15 percent</alert> of the time, <alert>one day 4 percent</alert> of the time, and <alert>no days 1 percent</alert> of the time. Suppose one week is randomly selected.</p>
+
+      <statement>
+        <p>a. Describe the random variable in words. Let <em>X</em> = the number of days Nancy ________.</p>
+      </statement>
+      
+      <solution>
+        <p>a. Let <em>X</em> = the number of days Nancy attends class per week.</p>
+      </solution>
+
+      <statement>
+        <p>b. In this example, what are possible values of <em>X</em>?</p>
+      </statement>
+      
+      <solution>
+        <p>b. 0, 1, 2, and 3</p>
+      </solution>
+
+      <statement>
+        <p>c. Suppose one week is randomly chosen. Construct a probability distribution table (called a PDF table) like the one in <xref ref="example-ch04-pdf-1"/>. The table should have two columns labeled <em>x</em> and <em>P</em>(<em>x</em>).</p>
+      </statement>
+      
+      <solution>
+        <p>c.</p>
+        <table xml:id="tbl-ch04-nancy-pdf">
+          <title>Nancy's Class Attendance PDF</title>
+          <tabular>
+            <row header="yes">
+              <cell><em>x</em></cell>
+              <cell><em>P</em>(<em>x</em>)</cell>
+            </row>
+            <row>
+              <cell>0</cell>
+              <cell>.01</cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>.04</cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>.15</cell>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell>.80</cell>
+            </row>
+          </tabular>
+        </table>
+        <p>The sum of the <em>P</em>(<em>x</em>) column is 0.01+0.04+0.15+0.80 = 1.00.</p>
+      </solution>
+    </example>
+
+    <exercise xml:id="try-it-ch04-jeremiah">
+      <title>Try It</title>
+      <statement>
+        <p>Jeremiah has basketball practice two days a week. 90 percent of the time, he attends both practices. Eight percent of the time, he attends one practice. Two percent of the time, he does not attend either practice. What is <em>X</em> and what values does it take on?</p>
+      </statement>
+      <solution>
+        <p><em>X</em> is the number of days Jeremiah attends basketball practice per week. <em>X</em> takes on the values 0, 1, and 2.</p>
+      </solution>
+    </exercise>
+
+    <subsection xml:id="subsec-ch04-pdf-chapter-review">
+      <title>Chapter Review</title>
+      <p>The characteristics of a probability distribution function (PDF) for a discrete random variable are as follows:</p>
+      <p>
+        <ol>
+          <li>Each probability is between zero and one, inclusive (<em>inclusive</em> means to include zero and one)</li>
+          <li>The sum of the probabilities is one</li>
+        </ol>
+      </p>
+    </subsection>
+
+    <subsection xml:id="subsec-ch04-pdf-practice">
+      <title>Practice</title>
+      <p><em>Use the following information to answer the next five exercises:</em> A company wants to evaluate its attrition rate, or in other words, how long new hires stay with the company. Over the years, the company has established the following probability distribution:</p>
+
+      <p>Let <em>X</em> = the number of years a new hire will stay with the company.</p>
+
+      <p>Let <em>P</em>(<em>x</em>) = the probability that a new hire will stay with the company <em>x</em> years.</p>
+
+      <exercise xml:id="exercise-ch04-pdf-practice-1">
+        <statement>
+          <p>Complete the table using the data provided.</p>
+          <table xml:id="tbl-ch04-practice-attrition">
+            <tabular>
+              <row header="yes">
+                <cell><em>x</em></cell>
+                <cell><em>P</em>(<em>x</em>)</cell>
+              </row>
+              <row>
+                <cell>0</cell>
+                <cell>.12</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>.18</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>.30</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>.15</cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell>.10</cell>
+              </row>
+              <row>
+                <cell>6</cell>
+                <cell>.05</cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+        <solution>
+          <table xml:id="tbl-ch04-practice-attrition-solution">
+            <tabular halign="center">
+              <row header="yes">
+                <cell><em>x</em></cell>
+                <cell><em>P</em>(<em>x</em>)</cell>
+              </row>
+              <row>
+                <cell>0</cell>
+                <cell>.12</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>.18</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>.30</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>.15</cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell>.10</cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell>.10</cell>
+              </row>
+              <row>
+                <cell>6</cell>
+                <cell>.05</cell>
+              </row>
+            </tabular>
+          </table>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="exercise-ch04-pdf-practice-2">
+        <statement>
+          <p><em>P</em>(<em>x</em> = 4) = ________</p>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="exercise-ch04-pdf-practice-3">
+        <statement>
+          <p><em>P</em>(<em>x</em> ≥ 5) = ________</p>
+        </statement>
+        <solution>
+          <p>.10 + .05 = .15</p>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="exercise-ch04-pdf-practice-4">
+        <statement>
+          <p>On average, how long would you expect a new hire to stay with the company?</p>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="exercise-ch04-pdf-practice-5">
+        <statement>
+          <p>What does the column <q><em>P</em>(<em>x</em>)</q> sum to?</p>
+        </statement>
+        <solution>
+          <p>1</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="subsec-ch04-pdf-homework">
+      <title>Homework</title>
+      
+      <exercise xml:id="exercise-ch04-pdf-hw-1">
+        <statement>
+          <p>A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.</p>
+
+          <table xml:id="tbl-ch04-hw-baker">
+            <tabular halign="center">
+              <row header="yes">
+                <cell><em>x</em></cell>
+                <cell><em>P</em>(<em>x</em>)</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>.15</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>.35</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>.40</cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell>.10</cell>
+              </row>
+            </tabular>
+          </table>
+
+          <p>
+            <ol marker="a">
+              <li>Define the random variable <em>X</em>.</li>
+              <li>What is the probability the baker will sell more than one batch? <em>P</em>(<em>x</em> > 1) = ________</li>
+              <li>What is the probability the baker will sell exactly one batch? <em>P</em>(<em>x</em> = 1) = ________</li>
+              <li>On average, how many batches should the baker make?</li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="exercise-ch04-pdf-hw-2">
+        <statement>
+          <p>Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random. What values does <em>X</em> take on?</p>
+        </statement>
+        <solution>
+          <p>0, 1, 2, and 3</p>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="exercise-ch04-pdf-hw-3">
+        <statement>
+          <p>The World Bank records the prevalence of HIV in countries around the world. According to their data, <q>Prevalence of HIV refers to the percentage of people ages 15 to 49 who are infected with HIV.</q><fn>World Bank, World Development Indicators, <url href="http://data.worldbank.org/data-catalog/world-development-indicators">http://data.worldbank.org/data-catalog/world-development-indicators</url>.</fn> In South Africa, the prevalence of HIV is 17.3%. Let <em>X</em> = the number of people you test until you find a person infected with HIV.</p>
+
+          <p>
+            <ol marker="a">
+              <li>Sketch a graph of the distribution of the discrete random variable <em>X</em>.</li>
+              <li>What is the probability that you must test 30 people to find one with HIV?</li>
+              <li>What is the probability that you must ask ten people?</li>
+              <li>Find the expected value <em>μ</em> = ________.</li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="exercise-ch04-pdf-bs-degree">
+        <statement>
+          <p>Suppose that the PDF for the number of years it takes to earn a bachelor of science (B.S.) degree is given in the table below.</p>
+          <table xml:id="table-ch04-pdf-bs-degree">
+            <tabular>
+              <row header="yes">
+                <cell><em>x</em></cell>
+                <cell><em>P</em>(<em>x</em>)</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>.05</cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell>.40</cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell>.30</cell>
+              </row>
+              <row>
+                <cell>6</cell>
+                <cell>.15</cell>
+              </row>
+              <row>
+                <cell>7</cell>
+                <cell>.10</cell>
+              </row>
+            </tabular>
+          </table>
+          <p>
+            <ol marker="a.">
+              <li>In words, define the random variable <em>X</em>.</li>
+              <li>What does it mean that the values 0, 1, and 2 are not included for <em>x</em> in the PDF?</li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="subsec-ch04-pdf-glossary">
+      <title>Glossary</title>
+      <p><term xml:id="term-probability-distribution-function">probability distribution function (PDF)</term>: a mathematical description of a discrete random variable (<em>RV</em>), given either in the form of an equation (formula) or in the form of a table listing all the possible outcomes of an experiment and the probability associated with each outcome</p>
+    </subsection>
+  </section>
+
+
+<section xml:id="sec-mean-expected-value" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Mean or Expected Value and Standard Deviation</title>
+  <subsection xml:id="fs-id1164967836938">
+    <p xml:id="fs-id1164567985407">
+      The 
+      <term xml:id="term-00001">expected value</term>
+       of a discrete random variable  
+      <em>X</em>
+      , symbolized as 
+      <em>E(X)</em>
+      , is often referred to as the 
+      <em>
+        long-term average or 
+        <term xml:id="term-00002">mean</term>
+      </em>
+       (symbolized as 
+      <em>μ</em>
+      ). This means that over the long term of doing an experiment over and over, you would expect this average. For example, let 
+      <em>X</em>
+       = the number of heads you get when you toss three fair coins. If you repeat this experiment (toss three fair coins) a large number of times, the expected value of 
+      <em>X</em>
+       is the number of heads you expect to get for each three tosses on average.
+    </p>
+    <note xml:id="id8737934">
+      <title>NOTE</title>
+      <p xml:id="fs-id1164567101270">
+        To find the expected value, 
+        <em>E(X)</em>
+        ,  or mean 
+        <em>μ</em>
+         of a discrete random variable  
+        <em>X</em>
+        , simply multiply each value of the random variable by its probability and add the products. The formula is given as
+
+        <m>E(X)=μ=\sumxP(x)\text{.}</m>
+        
+
+      </p>
+      <p xml:id="fs-id1164565562429">
+        Here 
+        <em>x</em>
+         represents values of the random variable 
+        <em>X</em>
+        , 
+        <em>P</em>
+        (
+        <em>x</em>
+        ) represents the corresponding probability, and symbol 
+        <m>\sum</m>
+         represents the sum of all products 
+        <em>x</em>
+        <em>P</em>
+        (
+        <em>x</em>
+        ). Here we use symbol 
+        <em>μ</em>
+         for the mean because it is a parameter. It represents the mean of a population.
+      </p>
+    </note>
+    <example xml:id="fs-idp56252608">
+      <p xml:id="fs-idm190895152">
+        A men's soccer team plays soccer zero, one, or two days a week. The probability that they play zero days is .2, the probability that they play one day is .5, and the probability that they play two days is .3. Find the long-term average or expected value, 
+        <em>μ</em>
+        , of the number of days per week the men's soccer team plays soccer.
+      </p>
+      <p xml:id="element-126">
+        To do the problem, first let the random variable 
+        <em>X</em>
+         = the number of days the men's soccer team plays soccer per week. 
+        <em>X</em>
+         takes on the values 0, 1, 2. Construct a PDF table adding a column 
+        <em>x*P(x)</em>
+        , the product of the value 
+        <em>x</em>
+         with the corresponding probability 
+        <em>P(x)</em>
+        . In this column, you will multiply each 
+        <em>x</em>
+         value by its probability.
+      </p>
+      <table xml:id="element-749">
+        <title>Expected Value Table</title>
+        <tabular>
+          <row header="yes">
+            <cell>
+              <em>x</em>
+            </cell>
+            <cell>
+              <em>P</em>
+              (
+              <em>x</em>
+              )
+            </cell>
+            <cell>
+              <em>x</em>
+              *
+              <em>P</em>
+              (
+              <em>x</em>
+              )
+            </cell>
+          </row>
+          <row>
+            <cell>0</cell>
+            <cell>.2</cell>
+            <cell>(0)(.2) = 0</cell>
+          </row>
+          <row>
+            <cell>1</cell>
+            <cell>.5</cell>
+            <cell>(1)(.5) = .5</cell>
+          </row>
+          <row>
+            <cell>2</cell>
+            <cell>.3</cell>
+            <cell>(2)(.3) = .6</cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="fs-id1164564181939">
+        Add the last column 
+        <m>x*P(x)</m>
+         to get the expected value/mean of the random variable 
+        <em>X</em>
+        .
+      </p>
+      <me>E(X)=μ=\sumxP(x)=0+.5+.6=1.1</me>
+      <p xml:id="element-353">The expected value/mean is 1.1. The men's soccer team would, on the average, expect to play soccer 1.1 days per week. The number 1.1 is the long-term average or expected value if the men's soccer team plays soccer week after week after week.</p>
+    </example>
+    <p xml:id="fs-id1164567592732">
+      As you learned in 
+      <xref ref="m79609">Chapter 3</xref>
+      , if you toss a fair coin, the probability that the result is heads is 0.5. This probability is a theoretical probability, which is what we expect to happen. This probability does not describe the short-term results of an experiment. If you flip a coin two times, the probability does not tell you that these flips will result in one head and one tail. Even if you flip a coin 10 times or 100 times, the probability does not tell you that you will get half tails and half heads. The probability gives information about what can be expected in the long term. To demonstrate this, Karl Pearson once tossed a fair coin 24,000 times! He recorded the results of each toss, obtaining heads 12,012 times. The relative frequency of heads is 12,012/24,000 = .5005, which is very close to the theoretical probability .5. In his experiment, Pearson illustrated the law of large numbers.
+    </p>
+    <p xml:id="fs-id1164566050803">The law of large numbers</p>
+    <p xml:id="fs-id1164566365166">
+      In the next example, we will demonstrate how to find the expected value and 
+      <term xml:id="term-00003">standard deviation of a discrete probability distribution</term>
+       by using relative frequency.
+    </p>
+    <p xml:id="fs-id1164565605314">
+      Like data, probability distributions have variances and standard deviations. The variance of a probability distribution is symbolized as 
+      <m>σ^{2}</m>
+       and the standard deviation of a probability distribution is symbolized as 
+      <em>σ</em>
+      . Both are parameters since they summarize information about a population. To find the variance 
+      <m>σ^{2}</m>
+       of a discrete probability distribution, find each deviation from its expected value, square it, multiply it by its probability, and add the products. To find the standard deviation 
+      <em>σ</em>
+       of a probability distribution, simply take the square root of variance 
+      <m>σ^{2}</m>
+      . The formulas are given as below.
+    </p>
+    <note xml:id="fs-id1164565502913">
+      <title>NOTE</title>
+      <p xml:id="fs-id1164567841793">
+        The formula of the variance 
+        <m>σ^{2}</m>
+         of a discrete random variable 
+        <em>X</em>
+         is
+      </p>
+      <men xml:id="fs-id1164566961828">σ^{2}=\sum((x−μ))^{2}P(x)\text{.}</men>
+      <p xml:id="fs-id1164565487202">
+        Here 
+        <em>x</em>
+         represents values of the random variable 
+        <em>X</em>
+        , 
+        <em>μ</em>
+         is the mean of 
+        <em>X</em>
+        , 
+        <em>P</em>
+        (
+        <em>x</em>
+        ) represents the corresponding probability, and symbol 
+        <em>∑</em>
+         represents the sum of all products 
+        <m>((x−μ))^{2}P(x).</m>
+      </p>
+      <p xml:id="fs-id1164566020731">
+        To find the standard deviation, 
+        <em>σ</em>
+        , of a discrete random variable 
+        <em>X</em>
+        , simply take the square root of the variance 
+        <m>σ^{2}</m>
+        .
+      </p>
+      <me>σ=\sqrt{σ^{2}}=\sqrt{\sum((x−μ))^{2}P(x)}</me>
+    </note>
+    <example xml:id="fs-idm82770544">
+      <p xml:id="fs-id1164567289766">A researcher conducted a study to investigate how a newborn babys crying after midnight affects the sleep of the baby's mother. The researcher randomly selected 50 new mothers and asked how many times they were awakened by their newborn baby's crying after midnight per week. Two mothers were awakened zero times, 11 mothers were awakened one time, 23 mothers were awakened two times, nine mothers were awakened three times, four mothers were awakened four times, and one mother was awakened five times. Find the expected value of the number of times a newborn baby's crying wakes its mother after midnight per week. Calculate the standard deviation of the variable as well.</p>
+      <p xml:id="fs-id1164567389383">
+        To do the problem, first let the random variable 
+        <em>X</em>
+         = the number of times a mother is awakened by her newborns crying after midnight per week. 
+        <em>X</em>
+         takes on the values 0, 1, 2, 3, 4, 5. Construct a PDF table as below. The column of 
+        <em>P</em>
+        (
+        <em>x</em>
+        )  gives the experimental probability of each 
+        <em>x</em>
+         value. We will use the relative frequency to get the probability. For example, the probability that a mother wakes up zero times is 
+        <m>\frac{2}{50}</m>
+         since there are two mothers out of 50 who were awakened zero times. The third column of the table is the product of a value and its probability, 
+        <em>x</em>
+        <em>P</em>
+        (
+        <em>x</em>
+        ).
+      </p>
+      <table xml:id="fs-id1164567284598">
+        <tabular>
+          <row header="yes">
+            <cell>
+              <em>x</em>
+            </cell>
+            <cell>
+              <em>P</em>
+              (
+              <em>x</em>
+              )
+            </cell>
+            <cell>
+              <em>x</em>
+              <em>P</em>
+              (
+              <em>x</em>
+              )
+            </cell>
+          </row>
+          <row>
+            <cell>0</cell>
+            <cell>
+              <m>P(x = 0) =\frac{2}{50}</m>
+              
+
+            </cell>
+            <cell>
+              <m>(0)(\frac{2}{50})=0</m>
+            </cell>
+          </row>
+          <row>
+            <cell>1</cell>
+            <cell>
+              <m>P(x = 1) =\frac{11}{50}</m>
+            </cell>
+            <cell>
+              <m>(1)(\frac{11}{50})=\frac{11}{50}</m>
+            </cell>
+          </row>
+          <row>
+            <cell>2</cell>
+            <cell>
+              <m>P(x = 2) =\frac{23}{50}</m>
+              
+
+            </cell>
+            <cell>
+              <m>(2)(\frac{23}{50})=\frac{46}{50}</m>
+            </cell>
+          </row>
+          <row>
+            <cell>3</cell>
+            <cell>
+              <m>P(x = 3) =\frac{9}{50}</m>
+            </cell>
+            <cell>
+              <m>(3)(\frac{9}{50})=\frac{27}{50}</m>
+              
+
+            </cell>
+          </row>
+          <row>
+            <cell>4</cell>
+            <cell>
+              <m>P(x =\text{ 4}) =\frac{4}{50}</m>
+            </cell>
+            <cell>
+              <m>(4)(\frac{4}{50})=\frac{16}{50}</m>
+            </cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell>
+              <m>P(x = 5) =\frac{1}{50}</m>
+              
+
+            </cell>
+            <cell>
+              <m>(5)(\frac{1}{50})=\frac{5}{50}</m>
+            </cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="fs-id1164565545501">
+        We then add all the products in the third column to get the mean/expected value of 
+        <em>X</em>
+        .
+      </p>
+      <men xml:id="fs-id1164567354993">E(X)=μ=\sumxP(x)=0+\frac{11}{50}+\frac{46}{50}+\frac{27}{50}+\frac{16}{50}+\frac{5}{50}=\frac{105}{50}=2.1</men>
+      <p xml:id="fs-id1164567577800">Therefore, we expect a newborn to wake its mother after midnight 2.1 times per week, on the average.</p>
+      <p xml:id="fs-id1164567878100">
+        To calculate the standard deviation 
+        <em>σ</em>
+        , we add the fourth column (
+        <em>x-μ</em>
+        )^{2} and the fifth column 
+        <m>((x-μ))^{2}∙P(x)</m>
+         to get the following table:
+      </p>
+      <table xml:id="fs-id1164567849065">
+        <tabular>
+          <row header="yes">
+            <cell>
+              <em>x</em>
+            </cell>
+            <cell>
+              <em>P</em>
+              (
+              <em>x</em>
+              )
+            </cell>
+            <cell>
+              <em>x</em>
+              <em>P</em>
+              (
+              <em>x</em>
+              )
+            </cell>
+            <cell>
+              (
+              <em>x-µ</em>
+              )^{2}
+            </cell>
+            <cell>
+              (
+              <em>x-µ</em>
+              )^{2}•
+              <em>P</em>
+              (
+              <em>x</em>
+              )
+            </cell>
+          </row>
+          <row>
+            <cell>0</cell>
+            <cell>
+              <m>P(x = 0) =\frac{2}{50}</m>
+            </cell>
+            <cell>
+              <m>(0)(\frac{2}{50})=0</m>
+            </cell>
+            <cell>
+              <m>((0−2.1))^{2}=4.41</m>
+              
+
+            </cell>
+            <cell>
+              <m>4.41•\frac{2}{50}=.1764</m>
+            </cell>
+          </row>
+          <row>
+            <cell>1</cell>
+            <cell>
+              <m>P(x = 1) =\frac{11}{50}</m>
+            </cell>
+            <cell>
+              <m>(1)(\frac{11}{50})=\frac{11}{50}</m>
+              
+
+            </cell>
+            <cell>
+              <m>((1−2.1))^{2}=1.21</m>
+              
+
+            </cell>
+            <cell>
+              <m>1.21•\frac{11}{50}=.2662</m>
+            </cell>
+          </row>
+          <row>
+            <cell>2</cell>
+            <cell>
+              <m>P(x = 2) =\frac{23}{50}</m>
+            </cell>
+            <cell>
+              <m>(2)(\frac{23}{50})=\frac{46}{50}</m>
+              
+
+            </cell>
+            <cell>
+              <m>((2−2.1))^{2}=.01</m>
+            </cell>
+            <cell>
+              <m>.01•\frac{23}{50}=.0046</m>
+            </cell>
+          </row>
+          <row>
+            <cell>3</cell>
+            <cell>
+              <m>P(x = 3) =\frac{9}{50}</m>
+            </cell>
+            <cell>
+              <m>(3)(\frac{9}{50})=\frac{27}{50}</m>
+            </cell>
+            <cell>
+              <m>((3−2.1))^{2}=.81</m>
+            </cell>
+            <cell>
+              <m>.81•\frac{9}{50}=.1458</m>
+            </cell>
+          </row>
+          <row>
+            <cell>4</cell>
+            <cell>
+              <m>P(x = 4) =\frac{4}{50}</m>
+            </cell>
+            <cell>
+              <m>(4)(\frac{4}{50})=\frac{16}{50}</m>
+            </cell>
+            <cell>
+              <m>((4−2.1))^{2}=3.61</m>
+            </cell>
+            <cell>
+              <m>3.61•\frac{4}{50}=.2888</m>
+            </cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell>
+              <m>P(x = 5) =\frac{1}{50}</m>
+            </cell>
+            <cell>
+              <m>(5)(\frac{1}{50})=\frac{5}{50}</m>
+            </cell>
+            <cell>
+              <m>((5−2.1))^{2}=8.41</m>
+            </cell>
+            <cell>
+              <m>8.41•\frac{1}{50}=.1682</m>
+            </cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="fs-id1164567469151">
+        We then add all the products in the 5^{th} column to get the variance of 
+        <em>X</em>
+        .
+      </p>
+      <men xml:id="fs-id1164567289888">σ^{2}=.1764+.2662+.0046+.1458+.2888+.1682=1.05</men>
+      <p xml:id="fs-id1164567233541">
+        To get the standard deviation 
+        <em>σ</em>
+        , we simply take the square root of variance 
+        <em>σ</em>
+        ^{2}.
+      </p>
+      <men xml:id="fs-id1164567558892">σ=\sqrt{σ^{2}}=\sqrt{1.05}\approx1.0247</men>
+    </example>
+    <exercise xml:id="fs-idm80414512">
+      <title>Try It</title>
+      <statement>
+        <exercise xml:id="fs-idm131173600">
+          <statement>
+            <p xml:id="fs-idm86997008">A hospital researcher is interested in the number of times the average post-op patient will ring the nurse during a 12-hour shift. For a random sample of 50 patients, the following information was obtained. What is the expected value?</p>
+            <table xml:id="fs-idm56815952">
+              <tabular>
+                <row header="yes">
+                  <cell>
+                    <em>x</em>
+                  </cell>
+                  <cell>
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                    )
+                  </cell>
+                </row>
+                <row>
+                  <cell>0</cell>
+                  <cell>
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                     = 0) = 
+                    <m>\frac{4}{50}</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>1</cell>
+                  <cell>
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                     = 1) = 
+                    <m>\frac{8}{50}</m>
+                    
+
+                  </cell>
+                </row>
+                <row>
+                  <cell>2</cell>
+                  <cell>
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                     = 2) = 
+                    <m>\frac{16}{50}</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>3</cell>
+                  <cell>
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                     = 3) = 
+                    <m>\frac{14}{50}</m>
+                    
+
+                  </cell>
+                </row>
+                <row>
+                  <cell>4</cell>
+                  <cell>
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                     = 4) = 
+                    <m>\frac{6}{50}</m>
+                    
+
+                  </cell>
+                </row>
+                <row>
+                  <cell>5</cell>
+                  <cell>
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                     = 5) = 
+                    <m>\frac{2}{50}</m>
+                    
+
+                  </cell>
+                </row>
+              </tabular>
+            </table>
+          </statement>
+          <solution>
+            <p xml:id="fs-idm49996960">The expected value is 2.24</p>
+            <p xml:id="fs-idm133987296">
+              (0)
+              <m>\frac{4}{50}</m>
+               + (1)
+              <m>\frac{4}{50}</m>
+               + (2)
+              <m>\frac{16}{50}</m>
+               + (3)
+              <m>\frac{14}{50}</m>
+               + (4)
+              <m>\frac{6}{50}</m>
+               + (5)
+              <m>\frac{2}{50}</m>
+               = 0 + 
+              <m>\frac{8}{50}</m>
+               + 
+              <m>\frac{32}{50}</m>
+               +
+              <m>\frac{42}{50}</m>
+               + 
+              <m>\frac{24}{50}</m>
+               + 
+              <m>\frac{10}{50}</m>
+               = 
+              <m>\frac{116}{50}</m>
+               = 2.24
+            </p>
+          </solution>
+        </exercise>
+      </statement>
+    </exercise>
+    <example xml:id="element-116">
+      <p xml:id="element-117">
+        Suppose you play a game of chance in which five numbers are chosen from 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. A computer randomly selects five numbers from zero to nine with replacement. You pay $2 to play and could profit $100,000 if you match all five numbers in order (you get your $2 back plus $100,000). Over the long term, what is your 
+        <em>expected</em>
+         profit of playing the game?
+      </p>
+      <p xml:id="fs-id1164564484850">To do this problem, set up a PDF table for the amount of money you can profit.</p>
+      <p xml:id="fs-id1164567242944">
+        Let 
+        <em>X</em>
+         = the amount of money you profit. If your five numbers match in order, you will win the game and will get your $2 back plus $100,000. That means your profit is $100,000. If your five numbers do not match in order, you will lose the game and lose your $2. That means your profit is -$2. Therefore, X takes on the values $100,000 and –$2. That is the second column 
+        <em>x</em>
+         in the PDF table below.
+      </p>
+      <p xml:id="fs-id1164567272570">
+        To win, you must get all five numbers correct, in order. The probability of choosing the correct first number is 
+        <m>\frac{1}{10}</m>
+        
+ because there are 10 numbers (from zero to nine) and only one of them is correct. The probability of choosing the correct second number is also 
+        <m>\frac{1}{10}</m>
+        
+ because the selection is done with replacement and there are still 10 numbers (from zero to nine) for you to choose. Due to the same reason, the probability of choosing the correct third number, the correct fourth number, and the correct fifth number are also 
+        <m>\frac{1}{10}</m>
+        
+. The selection of one number does not affect the selection of another number. That means the five selections are independent. The probability of choosing all five correct numbers and in order is equal to the product of the probabilities of choosing each number correctly. 
+      </p>
+      <me>\begin{matrix} \text{P}(\text{choosing all five numbers correctly})•\text{P}(\text{choosing 1st number correctly})• \\ \text{ P}(\text{choosing 2nd number correctly})•\text{ P}(\text{choosing 5th number correctly}) \\ =(\frac{1}{10})•(\frac{1}{10})•(\frac{1}{10})•(\frac{1}{10})•(\frac{1}{10}) \\ =.00001 \end{matrix}</me>
+      <p xml:id="fs-id1164564477521">
+        Therefore, the probability of winning is .00001 and the probability of losing is 1 − .00001 = .99999. That is how we get the third column 
+        <em>P</em>
+        (
+        <em>x</em>
+        ) in the PDF table below.
+      </p>
+      <p xml:id="fs-id1164565764618">
+        To get the fourth column 
+        <em>x</em>
+        <em>P</em>
+        (
+        <em>x</em>
+        ) in the table, we simply multiply the value 
+        <em>x</em>
+         with the corresponding probability 
+        <em>P</em>
+        (
+        <em>x</em>
+        ).
+      </p>
+      <p xml:id="fs-id1164565532486">The PDF table is as follows:</p>
+      <table xml:id="element-480">
+        <title/>
+        <tabular>
+          <row header="yes">
+            <cell/>
+            <cell>
+              <em>x</em>
+            </cell>
+            <cell>
+              <em>P</em>
+              (
+              <em>x</em>
+              )
+            </cell>
+            <cell>
+              <em>x</em>
+              *
+              <em>P</em>
+              (
+              <em>x</em>
+              )
+            </cell>
+          </row>
+          <row>
+            <cell>Loss</cell>
+            <cell>–2</cell>
+            <cell>.99999</cell>
+            <cell>(–2)(.99999) = –1.99998</cell>
+          </row>
+          <row>
+            <cell>Profit</cell>
+            <cell>100,000</cell>
+            <cell>.00001</cell>
+            <cell>(100000)(.00001) = 1</cell>
+          </row>
+        </tabular>
+      </table>
+      <p xml:id="fs-id1164566177364">
+        We then add all the products in the last column to get the mean/expected value of 
+        <em>X</em>
+        .
+      </p>
+      <me> E(X)=μ=\sumxP(x)=−1.99998+1=−.9998\text{.}</me>
+      <p xml:id="element-406">Since –.99998 is about –1, you would, on average, expect to lose approximately $1 for each game you play. However, each time you play, you either lose $2 or profit $100,000. The $1 is the average or expected loss</p>
+    </example>
+    <exercise xml:id="fs-idm7487840">
+      <title>Try It</title>
+      <statement>
+        <exercise xml:id="fs-idm58858880">
+          <statement>
+            <p xml:id="fs-idm147804448">You are playing a game of chance in which four cards are drawn from a standard deck of 52 cards. You guess the suit of each card before it is drawn. The cards are replaced in the deck on each draw. You pay $1 to play. If you guess the right suit every time, you get your money back and $256. What is your expected profit of playing the game over the long term?</p>
+          </statement>
+          <solution>
+            <p xml:id="fs-idm127713904">
+              Let 
+              <em>X</em>
+               = the amount of money you profit. The 
+              <em>x</em>
+              -values are –$1 and $256.
+            </p>
+            <p xml:id="fs-idm112707632">
+              The probability of guessing the right suit each time is 
+              <m>(\frac{1}{4})(\frac{1}{4})(\frac{1}{4})(\frac{1}{4})=\frac{1}{256}</m>
+               = 0.0039
+            </p>
+            <p xml:id="fs-idm50024064">
+              The probability of losing is 1 – 
+              <m>\frac{1}{256}</m>
+               = 
+              <m>\frac{255}{256}</m>
+               = 0.9961
+            </p>
+            <p xml:id="fs-idm108269184">(0.0039)256 + (0.9961)(–1) = 0.9984 + (–0.9961) = 0.0023 or 0.23 cents.</p>
+          </solution>
+        </exercise>
+      </statement>
+    </exercise>
+    <example xml:id="element-341">
+      <statement>
+        <p xml:id="element-408">
+          Suppose you play a game with a biased coin. You play each game by tossing the coin once. 
+          <em>P</em>
+          (heads) = 
+          <m>\frac{2}{3}</m>
+           and 
+          <em>P</em>
+          (tails) = 
+          <m>\frac{1}{3}</m>
+          . If you toss a head, you pay $6. If you toss a tail, you win $10. If you play this game many times, will you come out ahead? 
+
+        </p>
+        <exercise xml:id="element-193">
+          <statement>
+            <p xml:id="element-653">
+              a. Define a random variable 
+              <em>X</em>
+              .
+            </p>
+          </statement>
+          <solution>
+            <p xml:id="element-548">
+              a. 
+              <em>X</em>
+               = amount of profit 
+            </p>
+          </solution>
+        </exercise>
+        <exercise xml:id="element-483">
+          <statement>
+            <p xml:id="element-597">b. Complete the following expected value table.</p>
+            <table xml:id="element-644">
+              <tabular>
+                <row header="yes">
+                  <cell/>
+                  <cell>
+                    <em>x</em>
+                  </cell>
+                  <cell>____</cell>
+                  <cell>____</cell>
+                </row>
+                <row>
+                  <cell>WIN</cell>
+                  <cell>10</cell>
+                  <cell>
+                    <m>\frac{1}{3}</m>
+                  </cell>
+                  <cell>____</cell>
+                </row>
+                <row>
+                  <cell>LOSE</cell>
+                  <cell>____</cell>
+                  <cell>____</cell>
+                  <cell>
+                    <m>\frac{–12}{3}</m>
+                  </cell>
+                </row>
+              </tabular>
+            </table>
+          </statement>
+          <solution>
+            <p xml:id="fs-idm44109456">b.
+
+
+
+ </p>
+          </solution>
+        </exercise>
+        <exercise xml:id="element-737">
+          <statement>
+            <p xml:id="element-847">
+              c. What is the expected value, 
+              <em>μ</em>
+              ? Do you come out ahead?
+            </p>
+          </statement>
+          <solution>
+            <p xml:id="fs-id1164565965260">
+              c. Add the last column of the table. The expected value 
+              <m>E(X)=μ=\frac{10}{3}+(−\frac{12}{3})=−\frac{2}{3}\approx−.67</m>
+              . You lose, on average, about 67 cents each time you play the game, so you do not come out ahead.
+            </p>
+          </solution>
+        </exercise>
+      </statement>
+      <solution/>
+    </example>
+    <exercise xml:id="fs-idp157498240">
+      <title>Try It</title>
+      <statement>
+        <exercise xml:id="fs-idm123810544">
+          <statement>
+            <p xml:id="fs-idm133743184">
+              Suppose you play a game with a spinner. You play each game by spinning the spinner once. 
+              <em>P</em>
+              (red) = 
+              <m>\frac{2}{5}</m>
+              , 
+              <em>P</em>
+              (blue) = 
+              <m>\frac{2}{5}</m>
+              , and 
+              <em>P</em>
+              (green) = 
+              <m>\frac{1}{5}</m>
+              . If you land on red, you pay $10. If you land on blue, you don't pay or win anything. If you land on green, you win $10. Complete the following expected value table.
+            </p>
+            <table xml:id="fs-idm71508016">
+              <tabular>
+                <row header="yes">
+                  <cell/>
+                  <cell>
+                    <em>x</em>
+                  </cell>
+                  <cell>
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                    )
+                  </cell>
+                  <cell/>
+                </row>
+                <row>
+                  <cell>Red</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>
+                    <m>\text{–}\frac{20}{5}</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>Blue</cell>
+                  <cell/>
+                  <cell>
+                    <m>\frac{2}{5}</m>
+                  </cell>
+                  <cell/>
+                </row>
+                <row>
+                  <cell>Green</cell>
+                  <cell>10</cell>
+                  <cell/>
+                  <cell/>
+                </row>
+              </tabular>
+            </table>
+          </statement>
+          <solution>
+            <table xml:id="fs-idm141334512">
+              <tabular>
+                <row header="yes">
+                  <cell/>
+                  <cell>
+                    <em>x</em>
+                  </cell>
+                  <cell>
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                    )
+                  </cell>
+                  <cell>
+                    <em>x</em>
+                    *
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                    )
+                  </cell>
+                </row>
+                <row>
+                  <cell>Red</cell>
+                  <cell>–10</cell>
+                  <cell>
+                    <m>\frac{2}{5}</m>
+                  </cell>
+                  <cell>
+                    <m>–\frac{20}{5}</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>Blue</cell>
+                  <cell>0</cell>
+                  <cell>
+                    <m>\frac{2}{5}</m>
+                    
+
+                  </cell>
+                  <cell>
+                    <m>\frac{0}{5}</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>Green</cell>
+                  <cell>10</cell>
+                  <cell>
+                    <m>\frac{1}{5}</m>
+                  </cell>
+                  <cell>
+                    <m>\frac{10}{5}</m>
+                  </cell>
+                </row>
+              </tabular>
+            </table>
+          </solution>
+        </exercise>
+      </statement>
+    </exercise>
+    <p xml:id="element-873">
+      Generally for probability distributions, we use a calculator or a computer to calculate 
+      <em>μ</em>
+       and 
+      <em>σ</em>
+       to reduce rounding errors. For some probability distributions, there are shortcut formulas for calculating 
+      <em>μ</em>
+       and 
+      <em>σ</em>
+      .
+    </p>
+    <example xml:id="fs-idp4384592">
+      <statement>
+        <exercise xml:id="fs-idm87291728">
+          <statement>
+            <p xml:id="fs-idm82328592">
+              Toss a fair, six-sided die twice. Let 
+              <em>X</em>
+               = the number of faces that show an even number. Construct a table like 
+              <url/>
+               and calculate the mean 
+              <em>μ</em>
+               and standard deviation 
+              <em>σ</em>
+               of 
+              <em>X</em>
+              .
+            </p>
+          </statement>
+          <solution>
+            <p xml:id="fs-idm86008592">Tossing one fair six-sided die twice has the same sample space as tossing two fair six-sided dice. The sample space has 36 outcomes.</p>
+            <table xml:id="fs-idm21999584">
+              <tabular>
+                <row>
+                  <cell>(1, 1)</cell>
+                  <cell>(1, 2)</cell>
+                  <cell>(1, 3)</cell>
+                  <cell>(1, 4)</cell>
+                  <cell>(1, 5)</cell>
+                  <cell>(1, 6)</cell>
+                </row>
+                <row>
+                  <cell>(2, 1)</cell>
+                  <cell>(2, 2)</cell>
+                  <cell>(2, 3)</cell>
+                  <cell>(2, 4)</cell>
+                  <cell>(2, 5)</cell>
+                  <cell>(2, 6)</cell>
+                </row>
+                <row>
+                  <cell>(3, 1)</cell>
+                  <cell>(3, 2)</cell>
+                  <cell>(3, 3)</cell>
+                  <cell>(3, 4)</cell>
+                  <cell>(3, 5)</cell>
+                  <cell>(3, 6)</cell>
+                </row>
+                <row>
+                  <cell>(4, 1)</cell>
+                  <cell>(4, 2)</cell>
+                  <cell>(4, 3)</cell>
+                  <cell>(4, 4)</cell>
+                  <cell>(4, 5)</cell>
+                  <cell>(4, 6)</cell>
+                </row>
+                <row>
+                  <cell>(5, 1)</cell>
+                  <cell>(5, 2)</cell>
+                  <cell>(5, 3)</cell>
+                  <cell>(5, 4)</cell>
+                  <cell>(5, 5)</cell>
+                  <cell>(5, 6)</cell>
+                </row>
+                <row>
+                  <cell>(6, 1)</cell>
+                  <cell>(6, 2)</cell>
+                  <cell>(6, 3)</cell>
+                  <cell>(6, 4)</cell>
+                  <cell>(6, 5)</cell>
+                  <cell>(6, 6)</cell>
+                </row>
+              </tabular>
+            </table>
+            <p xml:id="fs-idm130208640">Use the sample space to complete the following table.</p>
+            <table xml:id="fs-idp385088">
+              <title>Calculating μσ</title>
+              <tabular>
+                <row header="yes">
+                  <cell>
+                    <em>x</em>
+                  </cell>
+                  <cell>
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                    )
+                  </cell>
+                  <cell>
+                    <em>x</em>
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                    )
+                  </cell>
+                  <cell>
+                    (
+                    <em>x</em>
+                     – 
+                    <em>μ</em>
+                    )^{2} 
+                    <m>\cdot</m>
+                     
+                    <em>P</em>
+                    (
+                    <em>x</em>
+                    )
+                  </cell>
+                </row>
+                <row>
+                  <cell>0</cell>
+                  <cell>
+                    <m>\frac{9}{36}</m>
+                  </cell>
+                  <cell>0</cell>
+                  <cell>
+                    (0 – 1)^{2} ⋅ 
+                    <m>\frac{9}{36}</m>
+                     = 
+                    <m>\frac{9}{36}</m>
+                  </cell>
+                </row>
+                <row>
+                  <cell>1</cell>
+                  <cell>
+                    <m>\frac{18}{36}</m>
+                  </cell>
+                  <cell>
+                    <m>\frac{18}{36}</m>
+                  </cell>
+                  <cell>
+                    (1 – 1)^{2} ⋅ 
+                    <m>\frac{18}{36}</m>
+                     = 0
+                  </cell>
+                </row>
+                <row>
+                  <cell>2</cell>
+                  <cell>
+                    <m>\frac{9}{36}</m>
+                    
+
+                  </cell>
+                  <cell>
+                    <m>\frac{18}{36}</m>
+                    
+
+                  </cell>
+                  <cell>
+                    (2 – 1)^{2} ⋅ 
+                    <m>\frac{9}{36}</m>
+                     = 
+                    <m>\frac{9}{36}</m>
+                  </cell>
+                </row>
+              </tabular>
+            </table>
+            <p xml:id="fs-idm8206048">
+              Add the values in the third column to find the expected value: 
+              <em>μ</em>
+               = 
+              <m>\frac{36}{36}</m>
+               = 1. Use this value to complete the fourth column.
+            </p>
+            <p xml:id="fs-idm151081888">
+              Add the values in the fourth column and take the square root of the sum: σ = 
+              <m>\sqrt{\frac{18}{36}}</m>
+               ≈ .7071.
+            </p>
+          </solution>
+        </exercise>
+      </statement>
+      <solution/>
+    </example>
+    <p xml:id="element-1">Some of the more common discrete probability functions are binomial, geometric, hypergeometric, and Poisson. Most elementary courses do not cover the geometric, hypergeometric, and Poisson. Your instructor will let you know if he or she wishes to cover these distributions.</p>
+    <p xml:id="element-428">A probability distribution function is a pattern. You try to fit a probability problem into a pattern</p>
+  </subsection>
+  <references xml:id="fs-idp138592560">
+    <title>References</title>
+    <p xml:id="fs-id1164967857565">
+      Florida State University. (n.d.). 
+      <em>Class catalogue at the Florida State University</em>
+      . Retrieved from https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy
+    </p>
+    <p xml:id="fs-id1164965581425">
+      World Earthquakes. (2012). 
+      <em>World earthquakes: Live earthquake news and highlights</em>
+      . Retrieved from http://www.worldearthquakes.com/index.php?option=ethq_prediction
+    </p>
+  </references>
+  <conclusion xml:id="fs-idp17559008">
+    <title>Chapter Review</title>
+    <p xml:id="fs-idm56942800">The expected value, or mean, of a discrete random variable predicts the long-term results of a statistical experiment that has been repeated many times. The standard deviation of a probability distribution is used to measure the variability of possible outcomes.</p>
+  </conclusion>
+  <subsection xml:id="fs-idp161572768">
+    <title>Formula Review</title>
+    <p xml:id="fs-idm6265952">
+      Mean or Expected Value: 
+      <m>μ=(\sum)^{\text{​}}_{x\inX}xP(x)</m>
+    </p>
+    <p xml:id="fs-idm133403024">
+      Standard Deviation: 
+      <m>σ=\sqrt{(\sum)^{\text{​}}_{x\inX}((x−μ))^{2}P(x)}</m>
+    </p>
+  </subsection>
+  <subsection xml:id="fs-idm82465552">
+    <exercise xml:id="fs-idm139526544">
+      <statement>
+        <p xml:id="fs-idm42698096">Complete the expected value table.</p>
+        <table xml:id="fs-idp12281248">
+          <tabular>
+            <row header="yes">
+              <cell>
+                <em>x</em>
+              </cell>
+              <cell>
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+              <cell>
+                <em>x</em>
+                *
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+            </row>
+            <row>
+              <cell>0</cell>
+              <cell>.2</cell>
+              <cell/>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>.2</cell>
+              <cell/>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>.4</cell>
+              <cell/>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell>.2</cell>
+              <cell/>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+    <exercise xml:id="fs-idm146513696">
+      <statement>
+        <p xml:id="fs-idp41672272">Find the expected value from the expected value table.</p>
+        <table xml:id="fs-idm121788096">
+          <tabular>
+            <row header="yes">
+              <cell>
+                <em>x</em>
+              </cell>
+              <cell>
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+              <cell>
+                <em>x</em>
+                *
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>.1</cell>
+              <cell>2(.1) = .2</cell>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell>.3</cell>
+              <cell>4(.3) = 1.2</cell>
+            </row>
+            <row>
+              <cell>6</cell>
+              <cell>.4</cell>
+              <cell>6(.4) = 2.4</cell>
+            </row>
+            <row>
+              <cell>8</cell>
+              <cell>.2</cell>
+              <cell>8(.2) = 1.6</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <p xml:id="fs-idm57490144">.2 + 1.2 + 2.4 + 1.6 = 5.4</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-idp39629888">
+      <statement>
+        <p xml:id="fs-idm134246528">Find the standard deviation.</p>
+        <table xml:id="fs-idm133091552">
+          <tabular>
+            <row header="yes">
+              <cell>
+                <em>x</em>
+              </cell>
+              <cell>
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+              <cell>
+                <em>x</em>
+                *
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+              <cell>
+                (
+                <em>x</em>
+                 – 
+                <em>μ</em>
+                )^{2}
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>0.1</cell>
+              <cell>2(.1) = .2</cell>
+              <cell>(2–5.4)^{2}(.1) = 1.156</cell>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell>0.3</cell>
+              <cell>4(.3) = 1.2</cell>
+              <cell>(4–5.4)^{2}(.3) = .588</cell>
+            </row>
+            <row>
+              <cell>6</cell>
+              <cell>0.4</cell>
+              <cell>6(.4) = 2.4</cell>
+              <cell>(6–5.4)^{2}(.4) = .144</cell>
+            </row>
+            <row>
+              <cell>8</cell>
+              <cell>0.2</cell>
+              <cell>8(.2) = 1.6</cell>
+              <cell>(8–5.4)^{2}(.2) = 1.352</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+    <exercise xml:id="fs-idm1819872">
+      <statement>
+        <p xml:id="fs-idm54877632">Identify the mistake in the probability distribution table.</p>
+        <table xml:id="fs-idm39458912">
+          <tabular>
+            <row header="yes">
+              <cell>
+                <em>x</em>
+              </cell>
+              <cell>
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+              <cell>
+                <em>x</em>
+                *
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>.15</cell>
+              <cell>.15</cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>.25</cell>
+              <cell>.50</cell>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell>.30</cell>
+              <cell>.90</cell>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell>.20</cell>
+              <cell>.80</cell>
+            </row>
+            <row>
+              <cell>5</cell>
+              <cell>.15</cell>
+              <cell>.75</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <p xml:id="fs-idm60042160">
+          The values of 
+          <em>P</em>
+          (
+          <em>x</em>
+          ) do not sum to one.
+        </p>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-idp10316752">
+      <statement>
+        <p xml:id="fs-idm15847472">Identify the mistake in the probability distribution table.</p>
+        <table xml:id="fs-idp41547808">
+          <tabular>
+            <row header="yes">
+              <cell>
+                <em>x</em>
+              </cell>
+              <cell>
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+              <cell>
+                <em>x</em>
+                *
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>.15</cell>
+              <cell>.15</cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>.25</cell>
+              <cell>.40</cell>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell>.25</cell>
+              <cell>.65</cell>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell>.20</cell>
+              <cell>.85</cell>
+            </row>
+            <row>
+              <cell>5</cell>
+              <cell>.15</cell>
+              <cell>1</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+    <p xml:id="fs-idp88127600">
+      <em>Use the following information to answer the next five exercises:</em>
+       A physics professor wants to know what percent of physics majors will spend the next several years doing postgraduate research. He has the following probability distribution:
+    </p>
+    <table xml:id="fs-idm82264048">
+      <tabular>
+        <row header="yes">
+          <cell>
+            <em>x</em>
+          </cell>
+          <cell>
+            <em>P</em>
+            (
+            <em>x</em>
+            )
+          </cell>
+          <cell>
+            <em>x</em>
+            *
+            <em>P</em>
+            (
+            <em>x</em>
+            )
+          </cell>
+        </row>
+        <row>
+          <cell>1</cell>
+          <cell>.35</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell>.20</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell>.15</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>4</cell>
+          <cell/>
+          <cell/>
+        </row>
+        <row>
+          <cell>5</cell>
+          <cell>.10</cell>
+          <cell/>
+        </row>
+        <row>
+          <cell>6</cell>
+          <cell>.05</cell>
+          <cell/>
+        </row>
+      </tabular>
+    </table>
+    <exercise xml:id="fs-idp57624976">
+      <statement>
+        <p xml:id="fs-idm88304064">
+          Define the random variable 
+          <em>X</em>
+          .
+        </p>
+      </statement>
+      <solution>
+        <p xml:id="fs-idp108818960">
+          Let 
+          <em>X</em>
+           = the number of years a physics major will spend doing postgraduate research.
+        </p>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-idp12372960">
+      <statement>
+        <p xml:id="fs-idp35057888">
+          Define 
+          <em>P</em>
+          (
+          <em>x</em>
+          ), or the probability of 
+          <em>x</em>
+          .
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="fs-idp33661936">
+      <statement>
+        <p xml:id="fs-idp110219840">
+          Find the probability that a physics major will do postgraduate research for four years. 
+          <em>P</em>
+          (
+          <em>x</em>
+           = 4) = ________
+        </p>
+      </statement>
+      <solution>
+        <p xml:id="fs-idm41700928">1 – .35 – .20 – .15 – .10 – .05 = .15</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-idm517184">
+      <statement>
+        <p xml:id="fs-idp41023008">
+          Find the probability that a physics major will do postgraduate research for at most three years. 
+          <em>P</em>
+          (
+          <em>x</em>
+           ≤ 3) = ________
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="fs-idp96964736">
+      <statement>
+        <p xml:id="fs-idm16085360">On average, how many years would you expect a physics major to spend doing postgraduate research?</p>
+      </statement>
+      <solution>
+        <p xml:id="fs-idm21541632">1(.35) + 2(.20) + 3(.15) + 4(.15) + 5(.10) + 6(.05) = .35 + .40 + .45 + .60 + .50 + .30 = 2.6 years</p>
+      </solution>
+    </exercise>
+    <p xml:id="fs-idp155133792">
+       
+      <em>Use the following information to answer the next seven exercises:</em>
+       A ballet instructor is interested in knowing what percent of each year's class will continue on to the next so that she can plan what classes to offer. Over the years, she has established the following probability distribution:
+    </p>
+    <ul xml:id="list-24215">
+      <li>
+        Let 
+        <em>X</em>
+         = the number of years a student will study ballet with the teacher.
+      </li>
+      <li>
+        Let 
+        <em>P</em>
+        (
+        <em>x</em>
+        ) = the probability that a student will study ballet 
+        <em>x</em>
+         years.
+      </li>
+    </ul>
+    <exercise xml:id="fs-idp129333088">
+      <statement>
+        <p xml:id="fs-idp78893136">
+          Complete 
+          <url/>
+           using the data provided.
+        </p>
+        <table xml:id="M02_Ch04_tbl021">
+          <tabular>
+            <row header="yes">
+              <cell>
+                <em>x</em>
+              </cell>
+              <cell>
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+              <cell>
+                <em>x</em>
+                *
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>.10</cell>
+              <cell/>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>.05</cell>
+              <cell/>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell>.10</cell>
+              <cell/>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell/>
+              <cell/>
+            </row>
+            <row>
+              <cell>5</cell>
+              <cell>.30</cell>
+              <cell/>
+            </row>
+            <row>
+              <cell>6</cell>
+              <cell>.20</cell>
+              <cell/>
+            </row>
+            <row>
+              <cell>7</cell>
+              <cell>.10</cell>
+              <cell/>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+    <exercise xml:id="exerciseone">
+      <statement>
+        <p xml:id="prob_1">
+          In words, define the random variable 
+          <em>X</em>
+          .
+        </p>
+      </statement>
+      <solution>
+        <p xml:id="fs-idp92658144">
+          <em>X</em>
+           is the number of years a student studies ballet with the teacher.
+        </p>
+      </solution>
+    </exercise>
+    <exercise xml:id="exercisetwo">
+      <statement>
+        <p xml:id="prob_2">
+          <em>P</em>
+          (
+          <em>x</em>
+           = 4) = ________
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="exercisethree">
+      <statement>
+        <p xml:id="prob_3">
+          <em>P</em>
+          (
+          <em>x</em>
+           &lt; 4) = ________
+        </p>
+      </statement>
+      <solution>
+        <p xml:id="fs-idp138936448">.10 + .05 + .10 = .25</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="exercisefour">
+      <statement>
+        <p xml:id="prob_4">On average, how many years would you expect a child to study ballet with this teacher?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="exercisefive">
+      <statement>
+        <p xml:id="prob_5">
+          What does the column 
+          <em>P</em>
+          (
+          <em>x</em>
+          ) sum to and why?
+        </p>
+      </statement>
+      <solution>
+        <p xml:id="fs-idp101715584">The sum of the probabilities sum to one because it is a probability distribution.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="exercisesix">
+      <statement>
+        <p xml:id="prob_6">
+          What does the column 
+          <em>x</em>
+          *
+          <em>P</em>
+          (
+          <em>x</em>
+          ) sum to and why?
+        </p>
+      </statement>
+    </exercise>
+    <exercise xml:id="fs-idm7617472">
+      <statement>
+        <p xml:id="fs-idm77353440">You are playing a game by drawing a card from a standard deck and replacing it. If the card is a face card, you win $30. If it is not a face card, you pay $2. There are 12 face cards in a deck of 52 cards. What is the expected value of playing the game?</p>
+      </statement>
+      <solution>
+        <p xml:id="fs-idm57969456">
+          <m>−2(\frac{40}{52})+30(\frac{12}{52})=−1.54+6.92=5.38</m>
+          
+
+        </p>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-idm132715600">
+      <statement>
+        <p xml:id="fs-idm11733600">You are playing a game by drawing a card from a standard deck and replacing it. If the card is a face card, you win $30. If it is not a face card, you pay $2. There are 12 face cards in a deck of 52 cards. Should you play the game?</p>
+      </statement>
+    </exercise>
+  </subsection>
+  <subsection xml:id="fs-idm60120304">
+    <title>HOMEWORK</title>
+    <exercise xml:id="fs-idp10277168">
+      <statement>
+        <p xml:id="fs-idp1332192">A theater group holds a fund-raiser. It sells 100 raffle tickets for $5 apiece. Suppose you purchase four tickets. The prize is two passes to a Broadway show, worth a total of $150.</p>
+        <ol xml:id="element-762">
+          <li>What are you interested in here?</li>
+          <li>
+            In words, define the random variable 
+            <em>X</em>
+            .
+          </li>
+          <li>
+            List the values that 
+            <em>X</em>
+             may take on.
+          </li>
+          <li>Construct a PDF.</li>
+          <li>If this fund-raiser is repeated often and you always purchase four tickets, what would be your expected average winnings per raffle?</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="eip-254">
+      <statement>
+        <p xml:id="eip-id1164893406210">A game involves selecting a card from a regular 52-card deck and tossing a coin. The coin is a fair coin and is equally likely to land on heads or tails.</p>
+        <ul xml:id="eip-id1164886929394">
+          <li>If the card is a face card, and the coin lands on heads, you win $6.</li>
+          <li>If the card is a face card, and the coin lands on tails, you win $2.</li>
+          <li>If the card is not a face card, you lose $2, no matter what the coin shows.</li>
+        </ul>
+        <ol xml:id="eip-idm175700160">
+          <li>Find the expected value for this game (expected net gain or loss).</li>
+          <li>Explain what your calculations indicate about your long-term average profits and losses on this game.</li>
+          <li>Should you play this game to win money?</li>
+        </ol>
+      </statement>
+      <solution>
+        <p xml:id="eip-id1164900324701">
+          The variable of interest is 
+          <em>X</em>
+          , or the gain or loss, in dollars.
+        </p>
+        <p xml:id="eip-id1164893101611">The face cards jack, queen, and king. There are (3)(4) = 12 face cards and 52 – 12 = 40 cards that are not face cards.</p>
+        <p xml:id="eip-id1164889621862">
+          We first need to construct the probability distribution for 
+          <em>X</em>
+          . We use the card and coin events to determine the probability for each outcome, but we use the monetary value of 
+          <em>X</em>
+           to determine the expected value.
+        </p>
+        <table xml:id="eip-id1164878717794">
+          <tabular>
+            <row header="yes">
+              <cell>Card Event</cell>
+              <cell>
+                <em>X</em>
+                 net gain/loss
+              </cell>
+              <cell>
+                <em>P</em>
+                (
+                <em>X</em>
+                )
+              </cell>
+            </row>
+            <row>
+              <cell>Face Card and Heads</cell>
+              <cell>6</cell>
+              <cell>
+                <m>(\frac{12}{52})(\frac{1}{2})=(\frac{6}{52})</m>
+                
+
+              </cell>
+            </row>
+            <row>
+              <cell>Face Card and Tails</cell>
+              <cell>2</cell>
+              <cell>
+                <m>(\frac{12}{52})(\frac{1}{2})=(\frac{6}{52})</m>
+                
+
+              </cell>
+            </row>
+            <row>
+              <cell>(Not Face Card) and (H or T)</cell>
+              <cell>–2</cell>
+              <cell>
+                <m>(\frac{40}{52})(1)=(\frac{40}{52})</m>
+                
+
+              </cell>
+            </row>
+          </tabular>
+        </table>
+        <ul xml:id="eip-id1164900807448">
+          <li>
+            <m>\text{Expected value}=(6)(\frac{6}{52})+(2)(\frac{6}{52})+(−2)(\frac{40}{52})=–\frac{32}{52}</m>
+          </li>
+          <li>Expected value = –$0.62, rounded to the nearest cent</li>
+          <li>If you play this game repeatedly, over a long string of games, you would expect to lose 62 cents per game, on average.</li>
+          <li>You should not play this game to win money because the expected value indicates an expected average loss.</li>
+        </ul>
+      </solution>
+    </exercise>
+    <exercise xml:id="eip-945">
+      <statement>
+        <p xml:id="eip-id1170601642785">You buy a ticket to a raffle that costs $10 per ticket. There are only 100 tickets available to be sold in this raffle. In this raffle there are one $500 prize, two $100 prizes, and four $25 prizes. Find your expected gain or loss.</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="fs-idm153056144">
+      <statement>
+        <p xml:id="element-640">Complete the PDF and answer the questions.</p>
+        <table xml:id="id4858kj4983">
+          <tabular>
+            <row header="yes">
+              <cell>
+                <em>x</em>
+              </cell>
+              <cell>
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+              <cell>
+                <em>x</em>
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+            </row>
+            <row>
+              <cell>0</cell>
+              <cell>.3</cell>
+              <cell/>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>.2</cell>
+              <cell/>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell/>
+              <cell/>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell>.4</cell>
+              <cell/>
+            </row>
+          </tabular>
+        </table>
+        <ol xml:id="element-229">
+          <li>
+            Find the probability that 
+            <em>x</em>
+             = 2.
+          </li>
+          <li>Find the expected value.</li>
+        </ol>
+      </statement>
+      <solution>
+        <ol xml:id="list1">
+          <li>.1</li>
+          <li>1.6</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="element-360">
+      <statement>
+        <p xml:id="element-6">Suppose that you are offered the following deal: You roll a die. If you roll a six, you win $10. If you roll a four or five, you win $5. If you roll a one, two, or three, you pay $6.</p>
+        <ol xml:id="element-615">
+          <li>What are you ultimately interested in here (the value of the roll or the money you win)?</li>
+          <li>
+            In words, define the random variable 
+            <em>X</em>
+            .
+          </li>
+          <li>
+            List the values that 
+            <em>X</em>
+             may take on.
+          </li>
+          <li>Construct a PDF.</li>
+          <li>Over the long run of playing this game, what are your expected average winnings per game?</li>
+          <li>Based on numerical values, should you take the deal? Explain your decision in complete sentences.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="element-725">
+      <statement>
+        <p xml:id="element-866">A venture capitalist, willing to invest $1,000,000, has three investments to choose from: The first investment, a software company, has a 10 percent chance of returning $5,000,000 profit, a 30 percent chance of returning $1,000,000 profit, and a 60 percent chance of losing the million dollars. The second company, a hardware company, has a 20 percent chance of returning $3,000,000 profit, a 40 percent chance of returning $1,000,000 profit, and a 40 percent chance of losing the million dollars. The third company, a biotech firm, has a 10 percent chance of returning $6,000,000 profit, a 70 percent of no profit or loss, and a 20 percent chance of losing the million dollars.</p>
+        <ol xml:id="element-723">
+          <li>Construct a PDF for each investment.</li>
+          <li>Find the expected value for each investment.</li>
+          <li>Which is the safest investment? Why do you think so?</li>
+          <li>Which is the riskiest investment? Why do you think so?</li>
+          <li>Which investment has the highest expected return, on average?</li>
+        </ol>
+      </statement>
+      <solution>
+        <ol xml:id="element-751">
+          <li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</li>
+          <li>$200,000; $600,000; $400,000</li>
+          <li>third investment because it has the lowest probability of loss</li>
+          <li>first investment because it has the highest probability of loss</li>
+          <li>second investment</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-idm21991696">
+      <statement>
+        <p xml:id="element-150">
+          Suppose that 20,000 married adults in the United States were randomly surveyed as to the number of children they have. The results are compiled and are used as theoretical probabilities. Let 
+          <em>X</em>
+           = the number of children married people have.
+
+
+
+
+
+        </p>
+        <ol xml:id="eip-idm15856832">
+          <li>Find the probability that a married adult has three children.</li>
+          <li>In words, what does the expected value in this example represent?</li>
+          <li>Find the expected value.</li>
+          <li>Is it more likely that a married adult will have two to three children or four to six children? How do you know?</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="fs-idp33692128">
+      <statement>
+        <p xml:id="fs-idp13631152">
+          Suppose that the PDF for the number of years it takes to earn a bachelor of science (B.S.) degree is given as in 
+          <url/>
+          .
+        </p>
+        <table xml:id="id488jhjhj72479">
+          <tabular>
+            <row header="yes">
+              <cell>
+                <em>x</em>
+              </cell>
+              <cell>
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell>.05</cell>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell>.40</cell>
+            </row>
+            <row>
+              <cell>5</cell>
+              <cell>.30</cell>
+            </row>
+            <row>
+              <cell>6</cell>
+              <cell>.15</cell>
+            </row>
+            <row>
+              <cell>7</cell>
+              <cell>.10</cell>
+            </row>
+          </tabular>
+        </table>
+        <p xml:id="eip-idp142551264">On average, how many years do you expect it to take for an individual to earn a B.S.?</p>
+      </statement>
+      <solution>
+        <p xml:id="fs-idp126181696">4.85 years</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-idp126182336">
+      <statement>
+        <p xml:id="fs-idp126182848">People visiting video rental stores often rent more than one DVD at a time. The probability distribution for DVD rentals per customer at Video to Go is given in the following table. There is a five-video limit per customer at this store, so nobody ever rents more than five DVDs.</p>
+        <table xml:id="fs-idp126183520">
+          <tabular>
+            <row header="yes">
+              <cell>
+                <em>x</em>
+              </cell>
+              <cell>
+                <em>P</em>
+                (
+                <em>x</em>
+                )
+              </cell>
+            </row>
+            <row>
+              <cell>0</cell>
+              <cell>.03</cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>.50</cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>.24</cell>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell/>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell>.07</cell>
+            </row>
+            <row>
+              <cell>5</cell>
+              <cell>.04</cell>
+            </row>
+          </tabular>
+        </table>
+        <ol xml:id="fs-idp118390688">
+          <li>
+            Describe the random variable 
+            <em>X</em>
+             in words.
+          </li>
+          <li>Find the probability that a customer rents three DVDs.</li>
+          <li>Find the probability that a customer rents at least four DVDs.</li>
+          <li>Find the probability that a customer rents at most two DVDs.  Another shop, Entertainment Headquarters, rents DVDs and video games. The probability distribution for DVD rentals per customer at this shop is given as follows. They also have a five-DVD limit per customer.
+
+
+
+
+</li>
+          <li>At which store is the expected number of DVDs rented per customer higher?</li>
+          <li>If Video to Go estimates that they will have 300 customers next week, how many DVDs do they expect to rent next week? Answer in sentence form.</li>
+          <li>If Video to Go expects 300 customers next week, and Entertainment Headquarters projects that they will have 420 customers, for which store is the expected number of DVD rentals for next week higher? Explain.</li>
+          <li>Which of the two video stores experiences more variation in the number of DVD rentals per customer? How do you know that?</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="element-134">
+      <statement>
+        <p xml:id="element-633">A “friend” offers you the following deal: For a $10 fee, you may pick an envelope from a box containing 100 seemingly identical envelopes. However, each envelope contains a coupon for a free gift.</p>
+        <ul xml:id="element-982">
+          <li>Ten of the coupons are for a free gift worth $6.</li>
+          <li>Eighty of the coupons are for a free gift worth $8.</li>
+          <li>Six of the coupons are for a free gift worth $12.</li>
+          <li>Four of the coupons are for a free gift worth $40.</li>
+        </ul>
+        <p xml:id="element-380">Based upon the financial gain or loss over the long run, should you play the game?
+
+Yes, I expect to come out ahead in money.
+No, I expect to come out behind in money.
+It doesn’t matter. I expect to break even.
+</p>
+      </statement>
+      <solution>
+        <p xml:id="element-970">b</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-idm63057856">
+      <statement>
+        <p xml:id="fs-idm71157472">A university has 14 statistics classes scheduled for its Summer 2013 term. One class has space available for 30 students, eight classes have space for 60 students, one class has space for 70 students, and four classes have space for 100 students.</p>
+        <ol xml:id="fs-idm80083648">
+          <li>What is the average class size assuming each class is filled to capacity?</li>
+          <li>
+            Space is available for 980 students. Suppose that each class is filled to capacity and select a statistics student at random. Let the random variable 
+            <em>X</em>
+             equal the size of the student’s class. Define the PDF for 
+            <em>X</em>
+            .
+          </li>
+          <li>
+            Find the mean of 
+            <em>X</em>
+            .
+          </li>
+          <li>
+            Find the standard deviation of 
+            <em>X</em>
+            .
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="fs-idp29002528">
+      <statement>
+        <p xml:id="fs-idm46146656">In a raffle, there are 250 prizes of $5, 50 prizes of $25, and 10 prizes of $100. Assuming that 10,000 tickets are to be issued and sold, what is a fair price to charge to break even?</p>
+      </statement>
+      <solution>
+        <p xml:id="fs-idp31192112">
+          Let 
+          <em>X</em>
+           = the amount of money to be won on a ticket. The following table shows the PDF for 
+          <em>X</em>
+          :
+
+
+
+
+
+        </p>
+        <p xml:id="fs-idm41233712">
+          Calculate the expected value of 
+          <em>X</em>
+          .
+        </p>
+        <p xml:id="fs-idm86179776">0(.969) + 5(.025) + 25(.005) + 100(.001) = .35</p>
+        <p xml:id="fs-idm45715696">A fair price for a ticket is $0.35. Any price over $0.35 will enable the lottery to raise money.</p>
+      </solution>
+    </exercise>
+  </subsection>
+  <subsection xml:id="glossary-mean-expected-value">
+    <title>Glossary</title>
+    <p>
+      <term xml:id="expectedv">expected value</term>
+      : expected arithmetic average when an experiment is repeated many times; also called the mean; notations 
+      <em>μ</em>
+      ; for a discrete random variable (RV) with probability distribution function 
+      <em>P</em>
+      (
+      <em>x</em>
+      ),the definition can also be written in the form 
+      <em>μ</em>
+       = 
+      <m>\sum</m>
+      <em>x</em>
+      <em>P</em>
+      (
+      <em>x</em>
+      )
+    </p>
+    <p>
+      <term xml:id="mean">mean</term>
+      : a number that measures the central tendency; a common name for mean is 
+      <em>average</em>
+      
+ The term 
+      <em>mean</em>
+       is a shortened form of 
+      <em>arithmetic mean</em>
+      . By definition, the mean for a sample (denoted by 
+      <m>\overline{x}</m>
+      ) is 
+      <m>\overline{x}=\frac{Sum of all values in the sample}{Number of values in the sample}</m>
+       and the mean for a population (denoted by 
+      <em>μ</em>
+      ) is 
+      <em>μ</em>
+       = 
+      <m>\frac{Sum of all values in the population}{Number of values in the population}</m>
+      .
+    </p>
+    <p>
+      <term xml:id="fs-idm144391840">mean of a probability distribution</term>
+      : the long-term average of many trials of a statistical experiment
+    </p>
+    <p>
+      <term xml:id="fs-idm82850224">standard deviation of a probability distribution</term>
+      : a number that measures how far the outcomes of a statistical experiment are from the mean of the distribution
+    </p>
+    <p>
+      <term xml:id="fs-idm140669088">the law of large numbers</term>
+      : as the number of trials in a probability experiment increases, the difference between the theoretical probability of an event and the relative frequency probability approaches zero
+    </p>
+  </subsection>
+</section>
+
+
+</chapter>
