@@ -131,7 +131,7 @@ Construct a stemplot for the data.</p>
       <p>The data are the distances (in kilometers) from a home to local supermarkets. Create a stemplot using the data.
 
 1.1, 1.5, 2.3, 2.5, 2.7, 3.2, 3.3, 3.3, 3.5, 3.8, 4.0, 4.2, 4.5, 4.5, 4.7, 4.8, 5.5, 5.6, 6.5, 6.7, 12.3</p>
-      <exercise xml:id="element-6923">
+      <task xml:id="element-6923">
         <statement>
           <p>Do the data seem to have any concentration of values?</p>
           <hint>
@@ -197,7 +197,7 @@ Construct a stemplot for the data.</p>
             </tabular>
           </table>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -257,7 +257,7 @@ Construct a stemplot for the data.</p>
     </exercise>
 
     <example xml:id="fs-idp11879648">
-      <exercise xml:id="fs-idp161531440">
+      <task xml:id="fs-idp161531440">
         <statement>
           <p>A <em>side-by-side stem-and-leaf plot</em> allows a comparison of the two data sets in two columns. In a side-by-side stem-and-leaf plot, two sets of leaves share the same stem. The leaves are to the left and the right of the stems.  and  show the ages of presidents at their inauguration and at their death. Construct a side-by-side stem-and-leaf plot using these data.</p>
           <table>
@@ -569,7 +569,7 @@ Construct a stemplot for the data.</p>
           </table>
           <p>Notice that the leaf values increase in order, from right to left, for leaves shown to the left of the stem, while the leaf values increase in order from left to right, for leaves shown to the right of the stem.</p>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -884,7 +884,7 @@ Teenager Is Reminded</cell>
     <p><em>Bar graphs</em> consist of bars that are separated from each other. The bars can be rectangles, or they can be rectangular boxes, used in three-dimensional plots, and they can be vertical or horizontal. The <em>bar graph</em> shown in  has age-groups represented on the <em><em>x</em>-axis</em> and proportions on the <em><em>y</em>-axis</em>.</p>
 
     <example xml:id="example5">
-      <exercise xml:id="fs-idm7260336">
+      <task xml:id="fs-idm7260336">
         <statement>
           <p>By the end of 2011, a social media site had more than 146 million users in the United States.  shows three age-groups, the number of users in each age-group, and the proportion (percentage) of users in each age-group. Construct a bar graph using this data.</p>
           <table>
@@ -917,7 +917,7 @@ Teenager Is Reminded</cell>
             <image source="media/fig-ch02_03_02.jpg" width="80%"/>
           </figure>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -957,7 +957,7 @@ Teenager Is Reminded</cell>
     </exercise>
 
     <example xml:id="eip-708">
-      <exercise xml:id="fs-idm25526448">
+      <task xml:id="fs-idm25526448">
         <statement>
           <p>The columns in  contain the race or ethnicity of students in U.S. public schools for the class of 2011, percentages for the Advanced Placement (AP) examinee population for that class, and percentages for the overall student population. Create a bar graph with the student race or ethnicity (qualitative data) on the <em>x</em>-axis and the AP examinee population percentages on the <em>y</em>-axis.</p>
           <table>
@@ -1005,7 +1005,7 @@ Teenager Is Reminded</cell>
             <image source="media/fig-ch02_03_03.jpg" width="80%"/>
           </figure>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -1060,7 +1060,7 @@ Teenager Is Reminded</cell>
     </exercise>
 
     <example xml:id="fs-id1170309417897">
-      <exercise xml:id="fs-id1170309302796">
+      <task xml:id="fs-id1170309302796">
         <statement>
           <p> is a two-way table showing the types of pets owned by men and women.</p>
           <table>
@@ -1106,11 +1106,11 @@ Teenager Is Reminded</cell>
 </p>
           <p>Note—The sum of all the marginal distributions must equal one. In this case, <m>0.4\text{ }+\text{ }0.4\text{ }+\text{ }0.2\text{ }=\text{ }1;</m> therefore, the solution <em>checks</em>.</p>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <example xml:id="fs-id1170309344760">
-      <exercise xml:id="fs-id1170309371933">
+      <task xml:id="fs-id1170309371933">
         <statement>
           <p> is a two-way table showing the types of pets owned by men and women.</p>
           <table>
@@ -1156,7 +1156,7 @@ Teenager Is Reminded</cell>
 </p>
           <p>Note—The sum of all the conditional distributions must equal one. In this case, <m>0.5\text{ }+\text{ }0.25\text{ }+\text{ }0.25\text{ }=\text{ }1;</m> therefore, the solution <em>checks</em>.</p>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <p>Burbary, K. (2011, March 7). Facebook demographics revisited – 2001 statistics. <em>Social Media Today</em>. Retrieved from http://www.kenburbary.com/2011/03/facebook-demographics-revisited-2011-statistics-2/</p>
@@ -1840,14 +1840,14 @@ n
 
 6, 6</p>
       <p>Eleven students buy one book. Ten students buy two books. Sixteen students buy three books. Six students buy four books. Five students buy five books. Two students buy six books.</p>
-      <exercise xml:id="fs-id1164564502878">
+      <task xml:id="fs-id1164564502878">
         <statement>
           <p>Calculate the width of each bar/bin size/interval size.</p>
         </statement>
         <solution>
           <p>The smallest data value is 1, and the largest data value is 6. To make sure each is included in an interval, we can use 0.5 as the smallest value and 6.5 as the largest value by subtracting and adding 0.5 to these values. We have a small range here of 6 (6.5 – 0.5), so we will want a fewer number of bins; let's say six this time. So, six divided by six bins gives a bin size (or interval size) of one.</p>
         </solution>
-      </exercise>
+      </task>
       <p>Notice that we may choose different rational numbers to add to, or subtract from, our maximum and minimum values when calculating bin size. In the previous example, we added and subtracted .05, while this time, we added and subtracted .5. Given a data set, you will be able to determine what is appropriate and reasonable.</p>
       <p>The following histogram displays the number of books on the <em>x</em>-axis and the frequency on the <em>y</em>-axis.</p>
       <figure xml:id="eip-idp35221648">
@@ -1893,7 +1893,7 @@ Twenty student athletes play one sport. Twenty-two student athletes play two spo
     </exercise>
 
     <example xml:id="fs-idp46234048">
-      <exercise xml:id="fs-idm61675872">
+      <task xml:id="fs-idm61675872">
         <statement>
           <p>Using this data set, construct a histogram.</p>
           <table>
@@ -1945,7 +1945,7 @@ Twenty student athletes play one sport. Twenty-two student athletes play two spo
           </figure>
           <p>Some values in this data set fall on boundaries for the class intervals. A value is counted in a class interval if it falls on the left boundary but not if it falls on the right boundary. Different researchers may set up histograms for the same data in different ways. There is more than one correct way to set up a histogram.</p>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -2166,7 +2166,7 @@ that this distribution is skewed because one side of the graph does not mirror t
     <p>To construct a time series graph, we must look at both pieces of our <term>paired data set</term>. We start with a standard Cartesian coordinate system. The horizontal axis is used to plot the date or time increments, and the vertical axis is used to plot the values of the variable that we are measuring. By using the axes in that way, we make each point on the graph correspond to a date and a measured quantity. The points on the graph are typically connected by straight lines in the order in which they occur.</p>
 
     <example xml:id="fs-idp7658080">
-      <exercise xml:id="fs-idp4161680">
+      <task xml:id="fs-idp4161680">
         <statement>
           <p>The following data show the Annual Consumer Price Index each month for 10 years. Construct a time series graph for the Annual Consumer Price Index data only.</p>
           <table>
@@ -2393,7 +2393,7 @@ that this distribution is skewed because one side of the graph does not mirror t
             <caption>The annual amounts are plotted for each year. Then, consecutive points are connected with a line.</caption>
           </figure>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -3693,7 +3693,7 @@ Ordered from smallest to largest:
     </note>
 
     <example xml:id="element-826">
-      <exercise xml:id="exer5">
+      <task xml:id="exer5">
         <statement>
           <p>For the following 13 real estate prices, calculate the <em>IQR</em> and determine if any prices are potential outliers. Prices are in dollars.
 
@@ -3713,7 +3713,7 @@ Ordered from smallest to largest:
           <p><em>Q</em><m>_{3}</m> + (1.5)(<em>IQR</em>) = 649,000 + 510,375 = 1,159,375</p>
           <p>No house price is less than –201,625. However, 5,500,000 is more than 1,159,375. Therefore, 5,500,000 is a potential <term>outlier</term>.</p>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -3903,7 +3903,7 @@ Test Scores for Class <em>B</em>:
     </exercise>
 
     <example xml:id="element-572">
-      <exercise xml:id="element-2353">
+      <task xml:id="element-2353">
         <statement>
           <p>Using :</p>
           <ol>
@@ -3921,7 +3921,7 @@ Test Scores for Class <em>B</em>:
             <li><p><em>Q</em><m>_{1}</m> is also the 25<m>^{th}</m> percentile. The 25<m>^{th}</m> percentile location calculation: <em>P</em><m>_{25}</m> = .25(50) = 12.5 ≈ 13, the 13<m>^{th}</m> data value. Thus, the 25<m>^{th}</m> percentile is six.</p></li>
           </ol>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -3968,7 +3968,7 @@ The percentage of students who own fewer than four sweaters
     </ul>
 
     <example xml:id="fs-idm4569232">
-      <exercise xml:id="fs-idm105708208">
+      <task xml:id="fs-idm105708208">
         <statement>
           <p>Listed are 29 ages for Academy Award-winning best actors <em>in order from smallest to largest:</em>
 
@@ -3996,7 +3996,7 @@ The percentage of students who own fewer than four sweaters
 <em>i</em>  = <m>\frac{k}{100}</m> (<em>n</em> + 1) = (<m>\frac{83}{100}</m>)(29 + 1) = 24.9, which is <em>not</em> an integer. Round it down to 24 and up to 25. The age in the 24<m>^{th}</m> position is 71, and the age in the 25<m>^{th}</m> position is 72. Average 71 and 72. The 83<m>^{rd}</m> percentile is 71.5 years.</p></li>
           </ol>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -4027,7 +4027,7 @@ Calculate the 20<m>^{th}</m> percentile and the 55<m>^{th}</m> percentile.</p>
     </ul>
 
     <example xml:id="fs-idm3849664">
-      <exercise xml:id="fs-idp28609648">
+      <task xml:id="fs-idp28609648">
         <statement>
           <p>Listed are 29 ages for Academy Award-winning best actors <em>in order from smallest to largest:</em>
 
@@ -4048,7 +4048,7 @@ Counting from the bottom of the list, there are three data values less than 25. 
 </p></li>
           </ol>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -4500,7 +4500,7 @@ need more information
       <p>Test scores for Ms. Park's class held during the evening are as follows:</p>
       <p>98, 78, 68, 83, 81, 89, 88, 76, 65, 45, 98, 90, 80, 84.5, 85, 79, 78, 98, 90, 79, 81, 25.5.
 </p>
-      <exercise xml:id="element-23526">
+      <task xml:id="element-23526">
         <statement>
           <ol>
             <li><p>Find the smallest and largest values, the median, and the first and third quartile for Mr. Ramirez's class.</p></li>
@@ -4540,7 +4540,7 @@ Max = 98
             <li><p>The first data set has the wider spread for the middle 50 percent of the data. The <em>IQR</em> for the first data set is greater than the <em>IQR</em> for the second set. This means that there is more variability in the middle 50 percent of the first data set.</p></li>
           </ol>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -4835,7 +4835,7 @@ The two most widely used measures of the <em>center</em> of the data are the <te
 <m>\frac{100+1}{2}</m> = 50.5. The median occurs midway between the 50<m>^{th}</m> and 51<m>^{st}</m> values. The location of the median and the value of the median are <em>not</em> the same. The uppercase letter <em>M</em> is often used to represent the median. The next example illustrates the location of the median and the value of the median.</p>
 
     <example xml:id="element-3">
-      <exercise xml:id="exer4">
+      <task xml:id="exer4">
         <statement>
           <p>Data indicating the number of months a patient with a specific disease lives after taking a new antibody drug are as follows (smallest to largest):
 
@@ -4865,7 +4865,7 @@ Start from the smallest value and count up; the median is located between the 20
           <p><m>M=\frac{24+24}{2}=24</m>
 </p>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <note xml:id="fs-idp50763088">
@@ -4895,7 +4895,7 @@ Median: Starting at the smallest value, the median is the 20<m>^{th}</m> term, w
     </exercise>
 
     <example xml:id="element-231">
-      <exercise xml:id="exer6">
+      <task xml:id="exer6">
         <statement>
           <p>Suppose that in a small town of 50 people, one person earns $5,000,000 per year and the other 49 each earn $30,000. Which is the better measure of the <em>center</em>: the mean or the median?</p>
         </statement>
@@ -4906,7 +4906,7 @@ Median: Starting at the smallest value, the median is the 20<m>^{th}</m> term, w
           <p>There are 49 people who earn $30,000 and one person who earns $5,000,000.</p>
           <p>The median is a better measure of the <em>center</em> than the mean because 49 of  the values are 30,000 and one is 5,000,000. The 5,000,000 is an outlier. The 30,000 gives us a better sense of the middle of the data.</p>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -4925,14 +4925,14 @@ Median: Starting at the smallest value, the median is the 20<m>^{th}</m> term, w
       <p>Statistics exam scores for 20 students are as follows:</p>
       <p>50, 53, 59, 59, 63, 63, 72, 72, 72, 72, 72, 76, 78, 81, 83, 84, 84, 84, 90, 93
 </p>
-      <exercise xml:id="exer3">
+      <task xml:id="exer3">
         <statement>
           <p>Find the mode.</p>
         </statement>
         <solution>
           <p>The most frequent score is 72, which occurs five times. Mode  =  72.</p>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -5020,7 +5020,7 @@ Find the mode.
      }\text{,}</m> where <em>f</em> = the frequency of the interval, <em>m</em> = the midpoint of the interval, and sigma (∑) is read as "sigma" and means to sum up. So this formula says that we will sum the products of each midpoint and the corresponding frequency and divide by the sum of all of the frequencies.</p>
 
     <example xml:id="fs-idp59127680">
-      <exercise xml:id="fs-idp61839840">
+      <task xml:id="fs-idp61839840">
         <statement>
           <p>A frequency table displaying Professor Blount’s last statistic test is shown. Find the best estimate of the class mean.</p>
           <table>
@@ -5119,7 +5119,7 @@ Find the mode.
      }=\frac{1460.25}{19}=76.86</m></p></li>
           </ul>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -5553,7 +5553,7 @@ Frequency
     <p>Skewness and symmetry become important when we discuss probability distributions in later chapters. </p>
 
     <example xml:id="fs-idp17640608">
-      <exercise xml:id="eip-idp68426064">
+      <task xml:id="eip-idp68426064">
         <statement>
           <p>Statistics are used to compare and sometimes identify authors. The following lists show a simple random sample that compares the letter counts for three authors.</p>
           <p>Terry: 7, 9, 3, 3, 3, 4, 1, 3, 2, 2</p>
@@ -5587,7 +5587,7 @@ Frequency
             <li><p>It appears that the median is always closest to the high point (the mode), while the mean tends to be farther out on the tail. In a symmetrical distribution, the mean and the median are both centrally located close to the high point of the distribution.</p></li>
           </ol>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -6077,7 +6077,7 @@ The symbol <m>
       <p>The <em>sample standard deviation</em> <em>s</em> is equal to the square root of the sample variance:</p>
       <p><m>s=\sqrt{.5125}=.715891,</m> which is rounded to two decimal places, <em>s</em> = .72.</p>
       <p><em>Typically, you do the calculation for the standard deviation on your calculator or computer</em>. The intermediate results are not rounded. This is done for accuracy.</p>
-      <exercise xml:id="element-397">
+      <task xml:id="element-397">
         <statement>
           <p>
     For the following problems, recall that <em>value = mean + (#ofSTDEVs)(standard deviation)</em>. Verify the mean and standard deviation on a calculator or computer. Note that these formulas are derived by algebraically manipulating the <em>z</em>-score formulas, given either parameters or statistics.
@@ -6114,7 +6114,7 @@ The symbol <m>
       </p></li>
           </ol>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
@@ -6150,7 +6150,7 @@ Use your calculator or computer to find the mean and standard deviation. Then fi
     <p>The standard deviation, when first presented, can seem unclear. By graphing your data, you can get a better <em>feel</em> for the deviations and the standard deviation. You will find that in symmetrical distributions, the standard deviation can be very helpful, but in skewed distributions, the standard deviation may not be much help. The reason is that the two sides of a skewed distribution have different spreads. In a skewed distribution, it is better to look at the first quartile, the median, the third quartile, the smallest value, and the largest value. Because numbers can be confusing, <em>always graph your data</em>. Display your data in a histogram or a box plot.</p>
 
     <example xml:id="element-649">
-      <exercise xml:id="exer2">
+      <task xml:id="exer2">
         <statement>
           <p>Use the following data (first exam scores) from Susan Dean's spring precalculus class:</p>
           <p>33, 42, 49, 49, 53, 55, 55, 61, 63, 67, 68, 68, 69, 69, 72, 73, 74, 78, 80, 83, 88, 88, 88, 90, 92, 94, 94, 94, 94, 96, 100</p>
@@ -6178,7 +6178,7 @@ The third quartile
             <image source="media/fig-ch02_09_02.jpg" width="80%"/>
           </figure>
         </solution>
-      </exercise>
+      </task>
       <p>The long left whisker in the box plot is reflected in the left side of the histogram. The spread of the exam scores in the lower 50 percent is greater (73 – 33 = 40) than the spread in the upper 50 percent (100 – 73 = 27). The histogram, box plot, and chart all reflect this. There are a substantial number of A and B grades (80s, 90s, and 100). The histogram clearly shows this. The box plot shows us that the middle 50 percent of the exam scores  (<em>IQR</em> = 29) are Ds, Cs, and Bs. The box plot also shows us that the lower 25 percent of the exam scores are Ds and Fs.</p>
     </example>
 
@@ -6455,7 +6455,7 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
     <p>As shown in the table, when only a sample mean and sample standard deviation are given, the top formula is used. When the population mean and population standard deviation are given, the bottom formula is used.</p>
 
     <example xml:id="element-387">
-      <exercise xml:id="exer1">
+      <task xml:id="exer1">
         <statement>
           <p>Two students, John and Ali, from different high schools, wanted to find out who had the highest GPA when compared to his school. Which student had the highest GPA when compared to his school?
 
@@ -6498,7 +6498,7 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
           <p>John has the better GPA when compared to his school because his GPA is 0.21 standard deviations <em>below</em> his school's mean, while Ali's GPA is .3 standard deviations <em>below</em> his school's mean.</p>
           <p>John's <em>z</em>-score of –.21 is higher than Ali's <em>z</em>-score of –.3. For GPA, higher values are  better, so we conclude that John has the better GPA when compared to his school. The <em>z</em>-score representing John's score does not fall as far below the mean as the <em>z</em>-score representing Ali's score.</p>
         </solution>
-      </exercise>
+      </task>
     </example>
 
     <exercise>
