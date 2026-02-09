@@ -1473,7 +1473,7 @@ A Student's <em>t</em>-table (see ) gives <em>t</em>-scores given the degrees of
   <p xml:id="eip-737"><em>If the population standard deviation is  not known</em>,  the error bound for a population mean is</p>
   <ul xml:id="eip-168">
     <li><m>EBM=(t_{\frac{\alpha}{2}})(\frac{s}{\sqrt{n}})</m>,</li>
-    <li><m>t_{\frac{\sigma}{2}}</m> is the <em>t</em>-score with area to the right equal to <m>\frac{\alpha}{2}</m>,</li>
+    <li><m>t_{\frac{\alpha}{2}}</m> is the <em>t</em>-score with area to the right equal to <m>\frac{\alpha}{2}</m>,</li>
     <li>use <em>df</em> = <em>n</em> – 1 degrees of freedom, and</li>
     <li><em>s</em> = sample standard deviation.</li>
   </ul>
@@ -1776,7 +1776,7 @@ Arrow to <c>Data</c> and press <c>ENTER</c>.
       <solution xml:id="eip-501">
         <p xml:id="eip-334">CI: (1.3808, 1.6192)</p>
         <figure xml:id="fs-idm150372688">
-          <image source="../../media/CNX_Stats_C08_M03_item001annoN.jpg"/>
+          <image source="media/CNX_Stats_C08_M03_item001annoN.jpg"/>
         </figure>
         <p xml:id="eip-idm67620928">
 <em>EBM</em> = 0.12</p>
@@ -1959,7 +1959,7 @@ Calculate the following:
       <statement>
         <p xml:id="element-726">Fill in the blanks on the graph with the areas, the upper and lower limits of the confidence interval, and the sample mean.</p>
         <figure xml:id="five5">
-          <image source="../../media/fig-ch08_07_01.jpg"/>
+          <image source="media/fig-ch08_07_01.jpg"/>
         </figure>
       </statement>
     </exercise>
