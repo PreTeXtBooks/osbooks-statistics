@@ -601,7 +601,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
       <statement>
         <p xml:id="element-546">b. Find the probability that a different nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes.</p>
         <p xml:id="element-938">The second question has a <term xml:id="term-00001">conditional probability</term>. You are asked to find the probability that a nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes. Solve the problem two different ways (see <xref ref="example-170"/>). You must reduce the sample space. <em>First way</em>: Since you know the child has already been eating the doughnut for more than 1.5 minutes, you are no longer starting at <em>a</em> = 0.5 minutes. Your starting point is 1.5 minutes.</p>
-        <p xml:id="element-69"><em>Write a new <em>f</em>(<em>x</em>):</em></p>
+        <p xml:id="element-69">Write a new <em>f</em>(<em>x</em>):</p>
         <men xml:id="fs-id1164566880095">f(x)=\frac{1}{4-1.5}=\frac{2}{5}for 1.5\leqx\leq4.</men>
         <p xml:id="eip-idm60988032">Find <em>P</em>(<em>x</em> &gt; 2|<em>x</em> &gt; 1.5). Draw a graph.</p>
         <men xml:id="fs-id1164564967560">P(x&gt;2|x&gt;1.5)= (base)(new height) = (4 – 2)(\frac{2}{5})=\frac{4}{5}</men>
@@ -1281,15 +1281,15 @@ The probability that a postal clerk spends four to five minutes with a randomly 
 <mrow>
  
   
-     P(x &lt; x)\text{ = 1 – }e^{
+     P(X &lt; x)\text{ = 1 – }e^{
        –mx
       }
 
      \\ 
-     P(x &lt; \text{5})\text{ = 1 – }e^{
+     P(X &lt; \text{5})\text{ = 1 – }e^{
        (–0.25)(5)
       }
-      = 0.7135 and P(x &lt; \text{4})\text{ = 1 – }e^{
+      = 0.7135 and P(X &lt; \text{4})\text{ = 1 – }e^{
        (–0.25)(4)
       }
       = 0.6321
@@ -2082,10 +2082,7 @@ k!
 </m>}</m> ≈ 0.1175.</li>
 <li>We want to find <em>P</em>(6 &lt; <em>t</em> &lt; 10).
     To do this, <em>P</em>(6 &lt; <em>t</em> &lt; 10) – <em>P</em>(<em>t</em> &lt; 6)
-    = <m>
- 
-  =(
-   
+    = <m>(1–e^{–\frac{1}{8}*10})–(
     1–e^{
       –\frac{1}{8}
       *10
@@ -2494,17 +2491,17 @@ Therefore, <em>m</em> = <m>
     <label/>
     <title>Continuous Distribution</title>
     
-    <p>
+    <paragraphs>
       <title>Student Learning Outcomes</title>
-    </p>
-    <ul>
-      <li>The student will compare and contrast empirical data from a random number generator with the uniform distribution.</li>
-    </ul>
+      <ul>
+        <li>The student will compare and contrast empirical data from a random number generator with the uniform distribution.</li>
+      </ul>
+    </paragraphs>
     
-    <p xml:id="para-collect-data">
+    <paragraphs xml:id="para-collect-data">
       <title>Collect the Data</title>
-      Use a random number generator to generate 50 values between zero and one (inclusive). List them in <xref ref="table-random-values"/>. Round the numbers to four decimal places or set the calculator MODE to four places.
-    </p>
+      <p>Use a random number generator to generate 50 values between zero and one (inclusive). List them in <xref ref="table-random-values"/>. Round the numbers to four decimal places or set the calculator MODE to four places.</p>
+    </paragraphs>
     
     <ol>
       <li>
