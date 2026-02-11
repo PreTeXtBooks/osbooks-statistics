@@ -535,7 +535,7 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
           </solution>
         </exercise>
 
-      <p>Notice the difference in the confidence intervals calculated in <xref ref="example3"></xref> and the following <xref ref="ch8-fs-idp77326048">Try It</xref> exercise. These intervals are different for several reasons: they are calculated from different samples, the samples are different sizes, and the intervals are calculated for different levels of confidence. Even though the intervals are different, they do not yield conflicting information. The effects of these kinds of changes are the subject of the next section in this chapter.</p>
+      <p>Notice the difference in the confidence intervals calculated in <xref ref="example3"></xref> and the following <xref ref="ch8-eip-158">Try It</xref> exercise. These intervals are different for several reasons: they are calculated from different samples, the samples are different sizes, and the intervals are calculated for different levels of confidence. Even though the intervals are different, they do not yield conflicting information. The effects of these kinds of changes are the subject of the next section in this chapter.</p>
 
     </subsection>
 
