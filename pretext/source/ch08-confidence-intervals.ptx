@@ -1639,18 +1639,16 @@ The 95 percent confidence interval is (7.3006, 9.1527).</p>
       </solution>
     </exercise>
   </example>
-  <note xml:id="ch8-fs-idm181001040">
+  <exercise xml:id="ch8-eip-496">
     <title>Try It</title>
-    <exercise xml:id="ch8-eip-496">
-      <statement>
-        <p>You do a study of hypnotherapy to determine how effective it is in increasing the number of hours of sleep subjects get each night. You measure hours of sleep for 12 subjects with the following results. Construct a 95 percent confidence interval for the mean number of hours slept for the population (assumed normal) from which you took the data.</p>
-        <p>8.2, 9.1, 7.7, 8.6, 6.9, 11.2, 10.1, 9.9, 8.9, 9.2, 7.5, 10.5</p>
-      </statement>
-      <solution>
-        <p>(8.1634, 9.8032)</p>
-      </solution>
-    </exercise>
-  </note>
+    <statement>
+      <p>You do a study of hypnotherapy to determine how effective it is in increasing the number of hours of sleep subjects get each night. You measure hours of sleep for 12 subjects with the following results. Construct a 95 percent confidence interval for the mean number of hours slept for the population (assumed normal) from which you took the data.</p>
+      <p>8.2, 9.1, 7.7, 8.6, 6.9, 11.2, 10.1, 9.9, 8.9, 9.2, 7.5, 10.5</p>
+    </statement>
+    <solution>
+      <p>(8.1634, 9.8032)</p>
+    </solution>
+  </exercise>
   <example xml:id="ch8-eip-804">
     <exercise xml:id="ch8-eip-821">
       <statement>
@@ -1736,10 +1734,9 @@ The 90 percent confidence interval is (117.41, 137.49).</p>
       </solution>
     </exercise>
   </example>
-  <note xml:id="ch8-fs-idm12320384">
+  <exercise xml:id="ch8-eip-467">
     <title>Try It</title>
-    <exercise xml:id="ch8-eip-467">
-      <statement>
+    <statement>
         <p>A random sample of statistics students was asked to estimate the total number of hours they spend watching television in an average week. The responses are recorded in <xref ref="ch8-eip-672"/>. Use the following sample data to construct a 98 percent confidence interval for the mean number of hours statistics students will spend watching television in one week.</p>
         <table xml:id="ch8-eip-672">
           <tabular>
@@ -1807,7 +1804,6 @@ Arrow to <c>Data</c> and press <c>ENTER</c>.
         </note>
       </solution>
     </exercise>
-  </note>
 
   <subsection xml:id="ch8-eip-400">
     <title>References</title>
@@ -2598,19 +2594,17 @@ Ninety-five percent of the confidence intervals constructed in this way would co
         </solution>
       </exercise>
     </example>
-    <note xml:id="ch8-fs-idp89365680">
+    <exercise xml:id="ch8-eip-890">
       <title>Try It</title>
-      <exercise xml:id="ch8-eip-890">
-        <statement>
-          <p>
+      <statement>
+        <p>
 Suppose 250 randomly selected people are surveyed to determine whether they own tablets. Of the 250 surveyed, 98 reported owning tablets. Using a 95 percent confidence level, compute a confidence interval estimate for the true proportion of people who own tablets.
   </p>
-        </statement>
-        <solution>
-          <p>(0.3315, 0.4525)</p>
-        </solution>
-      </exercise>
-    </note>
+      </statement>
+      <solution>
+        <p>(0.3315, 0.4525)</p>
+      </solution>
+    </exercise>
     <example xml:id="ch8-eip-164">
       <exercise xml:id="ch8-element-2">
         <statement>
@@ -2641,21 +2635,21 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
         </solution>
       </exercise>
     </example>
-    <note xml:id="ch8-fs-idp55027792">
+    <exercise xml:id="ch8-fs-idm23330928">
       <title>Try It</title>
-      <exercise xml:id="ch8-fs-idm23330928">
-        <statement>
-          <p>A student polls her school to determine whether students in the school district are for or against the new legislation regarding school uniforms. She surveys 600 students and finds that 480 are against the new legislation.</p>
-          <p>a. Compute a 90 percent confidence interval for the true percentage of students who are against the new legislation, and interpret the confidence interval.</p>
-        </statement>
-        <solution>
-          <p>
+      <statement>
+        <p>A student polls her school to determine whether students in the school district are for or against the new legislation regarding school uniforms. She surveys 600 students and finds that 480 are against the new legislation.</p>
+        <p>a. Compute a 90 percent confidence interval for the true percentage of students who are against the new legislation, and interpret the confidence interval.</p>
+      </statement>
+      <solution>
+        <p>
 (0.7731, 0.8269); We estimate with 90 percent confidence that the true percent of all students in the district who are against the new legislation is between 77.31 percent and 82.69 percent.
   </p>
-        </solution>
-      </exercise>
-      <exercise xml:id="ch8-fs-idm29038320">
-        <statement>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch8-fs-idm29038320">
+      <title>Try It</title>
+      <statement>
           <p>b. In a sample of 300 students, 68 percent said they own an iPod and a smartphone. Compute a 97 percent confidence interval for the true percentage of students who own an iPod and a smartphone.</p>
         </statement>
         <solution>
@@ -2674,7 +2668,6 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
           <p>We are 97 percent confident that the true proportion of all students who own an iPod and a smartphone is between 0.6531 and 0.7069.</p>
         </solution>
       </exercise>
-    </note>
   </subsection>
 
   <subsection xml:id="ch8-eip-443">
@@ -2702,10 +2695,9 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
       </solution>
     </exercise>
   </example>
-  <note xml:id="ch8-fs-idp89200688">
+  <exercise xml:id="ch8-eip-479">
     <title>Try It</title>
-    <exercise xml:id="ch8-eip-479">
-      <statement>
+    <statement>
         <p>Out of a random sample of 65 freshmen at State University, 31 students have declared their majors. Use the plus-four method to find a 96 percent confidence interval for the true proportion of freshmen at State University who have declared their majors.</p>
       </statement>
       <solution>
@@ -2719,12 +2711,10 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
         <p><m>z_{0.02}=2.054</m>
      </p>
         <p><m>EPB=(z_{\frac{α}{2}})\sqrt{\frac{p^{'}q^{'}}{n}}=(2.054)(\sqrt{\frac{(0.478)(0.522)}{69}}) \sim 0.124</m></p>
-        <p><em>p′</em> – <em>EPB</em> = 0.478 – 0.124 = 0.354</p>
         <p><em>p′</em> + <em>EPB</em> = 0.478 + 0.124 = 0.602</p>
         <p>We are 96 percent confident that between 35.4 percent and 60.2 percent of all freshmen at State University have declared a major.</p>
       </solution>
     </exercise>
-  </note>
   <example xml:id="ch8-eip-251">
     <exercise xml:id="ch8-eip-790">
       <statement>
@@ -2743,10 +2733,9 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
       </solution>
     </exercise>
   </example>
-  <note xml:id="ch8-fs-idp15135760">
+  <exercise xml:id="ch8-eip-375">
     <title>Try It</title>
-    <exercise xml:id="ch8-eip-375">
-      <statement>
+    <statement>
         <p>The research group referenced in <url href=""></url> talked to teens in smaller focus groups but also interviewed additional teens over the phone. When the study was complete, 588 teens had answered the question about their social media site friends, with 159 saying that they have more than 500 friends. Use the plus-four method to find a 90 percent confidence interval for the true proportion of teens who would report having more than 500 online friends based on this larger sample. Compare the results to those in <url href=""></url>.
      </p>
       </statement>
@@ -2762,7 +2751,6 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
         <p>We are 90 percent confident that between 24.2 percent and 30.2 percent of all teens would report having more than 500 friends on Facebook.</p>
       </solution>
     </exercise>
-  </note>
   <subsection xml:id="ch8-fs-idm22068416">
     <title>Calculating the Sample Size <em>n</em></title>
     <p>
@@ -2791,17 +2779,15 @@ If researchers desire a specific margin of error, then they can use the error bo
         </solution>
       </exercise>
     </example>
-    <note xml:id="ch8-fs-idp13131184">
+    <exercise xml:id="ch8-eip-143">
       <title>Try It</title>
-      <exercise xml:id="ch8-eip-143">
-        <statement>
-          <p>An internet marketing company wants to determine the current percentage of customers who click on ads on their smartphones. How many customers should the company survey in order to be 90 percent confident that the estimated proportion is within 5 percentage points of the true population proportion of customers who click on ads on their smartphones? Assume that the sample proportion <em>p′</em> is 0.50.</p>
-        </statement>
-        <solution>
-          <p>271 customers should be surveyed. Check the Real Estate section in your local</p>
-        </solution>
-      </exercise>
-    </note>
+      <statement>
+        <p>An internet marketing company wants to determine the current percentage of customers who click on ads on their smartphones. How many customers should the company survey in order to be 90 percent confident that the estimated proportion is within 5 percentage points of the true population proportion of customers who click on ads on their smartphones? Assume that the sample proportion <em>p′</em> is 0.50.</p>
+      </statement>
+      <solution>
+        <p>271 customers should be surveyed. Check the Real Estate section in your local</p>
+      </solution>
+    </exercise>
   </subsection>
 
   <references xml:id="ch8-eip-566">
