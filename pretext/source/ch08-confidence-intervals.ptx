@@ -2711,6 +2711,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
         <p><m>z_{0.02}=2.054</m>
      </p>
         <p><m>EPB=(z_{\frac{α}{2}})\sqrt{\frac{p^{'}q^{'}}{n}}=(2.054)(\sqrt{\frac{(0.478)(0.522)}{69}}) \sim 0.124</m></p>
+        <p><em>p′</em> – <em>EPB</em> = 0.478 – 0.124 = 0.354</p>
         <p><em>p′</em> + <em>EPB</em> = 0.478 + 0.124 = 0.602</p>
         <p>We are 96 percent confident that between 35.4 percent and 60.2 percent of all freshmen at State University have declared a major.</p>
       </solution>
@@ -2785,7 +2786,7 @@ If researchers desire a specific margin of error, then they can use the error bo
         <p>An internet marketing company wants to determine the current percentage of customers who click on ads on their smartphones. How many customers should the company survey in order to be 90 percent confident that the estimated proportion is within 5 percentage points of the true population proportion of customers who click on ads on their smartphones? Assume that the sample proportion <em>p′</em> is 0.50.</p>
       </statement>
       <solution>
-        <p>271 customers should be surveyed. Check the Real Estate section in your local</p>
+        <p>271 customers should be surveyed.</p>
       </solution>
     </exercise>
   </subsection>
