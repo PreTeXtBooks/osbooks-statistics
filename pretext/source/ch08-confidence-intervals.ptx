@@ -113,10 +113,9 @@
       <p>If the confidence level is 95 percent, then we say, "We estimate with 95 percent confidence that the true value of the population mean is between 4.5 and 9.5."</p>
     </example>
 
-    <note xml:id="ch8-fs-idp2956752">
+    <exercise xml:id="ch8-eip-273">
       <title>Try It</title>
-      <exercise xml:id="ch8-eip-273">
-        <statement>
+      <statement>
           <p>Suppose we have data from a sample. The sample mean is 15, and the error bound for the mean is 3.2.</p>
           <p>What is the confidence interval estimate for the population mean?</p>
         </statement>
@@ -124,7 +123,6 @@
           <p>(11.8, 18.2)</p>
         </solution>
       </exercise>
-    </note>
 
     <p>A confidence interval for a population mean with a known standard deviation is based on the fact that the sample means follow an approximately normal distribution. Suppose that our sample has a mean of <m>\bar{x}</m> = 10, and we have constructed the 90 percent confidence interval (5, 15) where <em>EBM</em> = 5.</p>
 
@@ -290,18 +288,16 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
         </exercise>
       </example>
 
-      <note xml:id="ch8-fs-idm85249264">
+      <p>Suppose average pizza delivery times are normally distributed with an unknown population mean and a population standard deviation of 6 minutes. A random sample of 28 pizza delivery restaurants is taken and has a sample mean delivery time of 36 min.</p>
+      <exercise xml:id="ch8-eip-24">
         <title>Try It</title>
-        <p>Suppose average pizza delivery times are normally distributed with an unknown population mean and a population standard deviation of 6 minutes. A random sample of 28 pizza delivery restaurants is taken and has a sample mean delivery time of 36 min.</p>
-        <exercise xml:id="ch8-eip-24">
-          <statement>
+        <statement>
             <p>Find a 90 percent confidence interval estimate for the population mean delivery time.</p>
           </statement>
           <solution>
             <p>(34.1347, 37.8653)</p>
           </solution>
         </exercise>
-      </note>
 
       <example xml:id="example3">
         <p>The specific absorption rate (SAR) for a cell phone measures the amount of radio frequency (RF) energy absorbed by the user’s body when using the handset. Every cell phone emits RF energy. Different phone models have different SAR measures. For certification from the Federal Communications Commission for sale in the United States, the SAR level for a cell phone must be no more than 1.6 watts per kilogram. <xref ref="M02_CH08-tbl001"></xref> shows the highest SAR level for a random selection of cell phone models of a random cell phone company.</p>
@@ -453,10 +449,9 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
         </exercise>
       </example>
 
-      <note xml:id="ch8-fs-idp77326048">
+      <exercise xml:id="ch8-eip-158">
         <title>Try It</title>
-        <exercise xml:id="ch8-eip-158">
-          <statement>
+        <statement>
             <p><xref ref="M02_CH08-tbl002"></xref> shows a different random sampling of 20 cell phone models. Use these data to calculate a 93 percent confidence interval for the true mean SAR for cell phones certified for use in the United States. As previously, assume that the population standard deviation is <em>σ</em> = 0.337.</p>
             <table xml:id="M02_CH08-tbl002">
               <tabular halign="l l l l">
@@ -539,7 +534,6 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
             <p>We estimate with 93 percent confidence that the true SAR mean for the population of cell phones in the United States is between 0.8035 and 1.0765 watts per kilogram.</p>
           </solution>
         </exercise>
-      </note>
 
       <p>Notice the difference in the confidence intervals calculated in <xref ref="example3"></xref> and the following <xref ref="ch8-fs-idp77326048">Try It</xref> exercise. These intervals are different for several reasons: they are calculated from different samples, the samples are different sizes, and the intervals are calculated for different levels of confidence. Even though the intervals are different, they do not yield conflicting information. The effects of these kinds of changes are the subject of the next section in this chapter.</p>
 
@@ -592,17 +586,15 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
         </exercise>
       </example>
 
-      <note xml:id="ch8-fs-idm35811600">
+      <exercise xml:id="ch8-eip-847">
         <title>Try It</title>
-        <exercise xml:id="ch8-eip-847">
-          <statement>
-            <p>Refer back to the pizza-delivery <xref ref="ch8-fs-idm85249264">Try It</xref> exercise. The population standard deviation is six minutes and the sample mean deliver time is 36 minutes. Use a sample size of 20. Find a 95 percent confidence interval estimate for the true mean pizza-delivery time.</p>
-          </statement>
-          <solution>
-            <p>(33.37, 38.63)</p>
-          </solution>
-        </exercise>
-      </note>
+        <statement>
+          <p>Refer back to the pizza-delivery <xref ref="ch8-eip-24">Try It</xref> exercise. The population standard deviation is six minutes and the sample mean deliver time is 36 minutes. Use a sample size of 20. Find a 95 percent confidence interval estimate for the true mean pizza-delivery time.</p>
+        </statement>
+        <solution>
+          <p>(33.37, 38.63)</p>
+        </solution>
+      </exercise>
 
     </subsection>
 
@@ -634,17 +626,15 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
       </exercise>
     </example>
 
-    <note xml:id="ch8-fs-idm59608800">
+    <exercise xml:id="ch8-eip-159">
       <title>Try It</title>
-      <exercise xml:id="ch8-eip-159">
-        <statement>
-          <p>Refer back to the pizza-delivery <xref ref="ch8-fs-idm85249264">Try It</xref> exercise. The mean delivery time is 36 minutes and the population standard deviation is six minutes. Assume the sample size is changed to 50 restaurants with the same sample mean. Find a 90 percent confidence interval estimate for the population mean delivery time.</p>
-        </statement>
-        <solution>
-          <p>(34.6041, 37.3958)</p>
-        </solution>
-      </exercise>
-    </note>
+      <statement>
+        <p>Refer back to the pizza-delivery <xref ref="ch8-eip-24">Try It</xref> exercise. The mean delivery time is 36 minutes and the population standard deviation is six minutes. Assume the sample size is changed to 50 restaurants with the same sample mean. Find a 90 percent confidence interval estimate for the population mean delivery time.</p>
+      </statement>
+      <solution>
+        <p>(34.6041, 37.3958)</p>
+      </solution>
+    </exercise>
 
     </subsection>
 
@@ -698,17 +688,15 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
       </ul>
     </example>
 
-    <note xml:id="ch8-fs-idm38498176">
+    <exercise xml:id="ch8-eip-998">
       <title>Try It</title>
-      <exercise xml:id="ch8-eip-998">
-        <statement>
-          <p>Suppose we know that a confidence interval is (42.12, 47.88). Find the error bound and the sample mean.</p>
-        </statement>
-        <solution>
-          <p>Sample mean is 45, error bound is 2.88</p>
-        </solution>
-      </exercise>
-    </note>
+      <statement>
+        <p>Suppose we know that a confidence interval is (42.12, 47.88). Find the error bound and the sample mean.</p>
+      </statement>
+      <solution>
+        <p>Sample mean is 45, error bound is 2.88</p>
+      </solution>
+    </exercise>
 
     </subsection>
 
@@ -742,17 +730,15 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
       <p>Therefore, 217 Foothill College students should be surveyed in order to be 95 percent confident that we are within two years of the true population mean age of Foothill College students.</p>
     </example>
 
-    <note xml:id="ch8-fs-idm26211984">
+    <exercise xml:id="ch8-eip-669-ex">
       <title>Try It</title>
-      <exercise xml:id="ch8-eip-669-ex">
-        <statement>
-          <p>The population standard deviation for the height of high school basketball players is three inches. If we want to be 95 percent confident that the sample mean height is within one inch of the true population mean height, how many randomly selected students must be surveyed?</p>
-        </statement>
-        <solution>
-          <p>35 students</p>
-        </solution>
-      </exercise>
-    </note>
+      <statement>
+        <p>The population standard deviation for the height of high school basketball players is three inches. If we want to be 95 percent confident that the sample mean height is within one inch of the true population mean height, how many randomly selected students must be surveyed?</p>
+      </statement>
+      <solution>
+        <p>35 students</p>
+      </solution>
+    </exercise>
 
     </subsection>
 
