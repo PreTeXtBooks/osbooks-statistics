@@ -304,7 +304,7 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="exer11">
+      <exercise xml:id="ch9-exer11">
         <statement>
           <p>A recent survey of 273 randomly selected teens living in Massachusetts asked about social media. Sixty-three said that they routinely use a certain app to share pictures. The researchers want to determine if there is good evidence that more than 30 percent of teens use this app. The alternative hypothesis is as follows:</p>
           <ol>
@@ -356,7 +356,7 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
 
     <subsection xml:id="fs-id1164565232863">
       <p>When you perform a hypothesis test, there are four possible outcomes depending on the actual truth, or falseness, of the null hypothesis <em>H_{0}</em> and the decision to reject or not. The outcomes are summarized in the following table:</p>
-      <table xml:id="element-689">
+      <table xml:id="ch9-element-689">
         <tabular>
           <row><cell>ACTION</cell><cell><em>H_{0}</em> IS ACTUALLY</cell><cell>...</cell></row>
           <row><cell></cell><cell>True</cell><cell>False</cell></row>
@@ -517,7 +517,7 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
           <p>A group of doctors is deciding whether or not to perform an operation. Suppose the null hypothesis, <em>H_{0}</em>, is: the surgical procedure will go well. Which is the error with the greater consequence?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-404">
+      <exercise xml:id="ch9-eip-404">
         <statement>
           <p>The power of a test is 0.981. What is the probability of a Type II error?</p>
         </statement>
@@ -578,7 +578,7 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-231">
+      <exercise xml:id="ch9-element-231">
         <statement>
           <p>For Statements A–J in , answer the following in complete sentences.</p>
           <ol>
@@ -587,7 +587,7 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="exer10">
+      <exercise xml:id="ch9-exer10">
         <statement>
           <p>When a new drug is created, the pharmaceutical company must subject it to testing before receiving the necessary permission from the U.S. Food and Drug Administration (FDA) to market the drug. Suppose the null hypothesis is <em>the drug is unsafe</em>. What is the Type II error?</p>
           <ol>
@@ -817,7 +817,7 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
           <p>Because the <m>p</m>-value is almost 0, we conclude that obtaining a sample height of 17 cm or higher from 10 loaves of bread is very unlikely if the true mean height is 15 cm. We reject the null hypothesis and conclude that there is sufficient evidence to claim that the true population mean height of the baker’s loaves of bread is higher than 15 cm.</p>
         </statement>
       </example>
-      <exercise xml:id="eip-440">
+      <exercise xml:id="ch9-eip-440">
         <statement>
           <p>A normal distribution has a standard deviation of 1. We want to verify a claim that the mean is greater than 12. A sample of 36 is taken with a sample mean of 12.5.</p>
           <p><em>H_{0}</em>: <m>μ</m> ≤ 12
@@ -1438,7 +1438,7 @@ the graph in ).</p>
         <p>Because <m>p</m> &gt; <m>α</m>, we fail to reject the null hypothesis. There is not sufficient evidence to suggest that the proportion of students that want to go to the zoo is not 85 percent.</p>
       </solution>
     </exercise>
-    <example xml:id="element-577">
+    <example xml:id="ch9-element-577">
       <statement>
         <p>Suppose a consumer group suspects that the proportion of households that have three cell phones is 30 percent. A cell phone company has reason to believe that the proportion  is not 30 percent. Before the cell phone company starts a big advertising campaign, it conducts a hypothesis test. The company's marketing people survey 150 households with the result that 43 of the households have three cell phones.
 
@@ -1481,7 +1481,7 @@ Next, the <m>z</m>-test is given by
         <me>z\text{-test}=\frac{p-p}{\sqrt{\frac{p⋅q}{n}}}=\frac{0.287-0.30}{\sqrt{\frac{0.30\times0.70}{150}}}\approx–0.36\text{.}</me>
       </solution>
     </example>
-    <exercise xml:id="eip-341">
+    <exercise xml:id="ch9-eip-341">
       <statement>
         <p>Marketers believe that 92 percent of adults in the United States own a cell phone. A cell phone manufacturer believes that number is actually lower. Two hundred American adults are surveyed, of which 174 report having cell phones. Use a 5 percent level of significance. State the null and alternative hypotheses, find the <m>p</m>-value, state your conclusion, and identify the Type I and Type II errors.</p>
       </statement>
@@ -1662,7 +1662,7 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
     </subsection>
 
     <subsection xml:id="eip-213">
-      <exercise xml:id="eip-750">
+      <exercise xml:id="ch9-eip-750">
         <statement>
           <p>Assume <em>H_{0}</em>: <m>μ</m> = 9 and <em>H_{a}</em>: <m>μ</m> &lt; 9. Is this a left-tailed, right-tailed, or two-tailed test?</p>
         </statement>
@@ -1703,7 +1703,7 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
           <p>A bottle of water is labeled as containing 16 fluid ounces of water. You believe it is less than that. What type of test would you use?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-34">
+      <exercise xml:id="ch9-eip-34">
         <statement>
           <p>Your friend claims that his mean golf score is 63. You want to show that it is higher than that. What type of test would you use?</p>
         </statement>
@@ -1716,7 +1716,7 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
           <p>A bathroom scale claims to be able to identify correctly any weight within a pound. You think that it cannot be that accurate. What type of test would you use?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-71">
+      <exercise xml:id="ch9-eip-71">
         <statement>
           <p>You flip a coin and record whether it shows heads or tails. You know the probability of getting heads is 50 percent, but you think it is less for this particular coin. What type of test would you use?</p>
         </statement>
@@ -2052,7 +2052,7 @@ Conclusion: At the 5 percent significance level, there is sufficient evidence to
           <p>Note that here the  <em>large-sample</em> 1 – PropZTest provides the approximate <m>p</m>-value of 0.0438. Whenever a <m>p</m>-value based on a normal approximation is close to the level of significance, the exact <m>p</m>-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course.</p>
         </solution>
       </exercise>
-      <exercise xml:id="exer4">
+      <exercise xml:id="ch9-exer4">
         <statement>
           <p>"Blowing Bubbles," by Sondra Prull</p>
           <p>Studying stats just made me tense,</p>
@@ -2141,7 +2141,7 @@ Conclusion: There is sufficient evidence to conclude that the mean number of bub
           <p>Based on all the dog data they've got?</p>
         </statement>
       </exercise>
-      <exercise xml:id="exer5">
+      <exercise xml:id="ch9-exer5">
         <title>Price per box of Mac and Cheese</title>
         <statement>
           <p><em>Macaroni and Cheese, please!!</em> by Nedda Misherghi and Rachelle Hall</p>
@@ -2180,7 +2180,7 @@ Conclusion: The mean cost could be $1, or less. At the 5 percent significance le
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="exer8">
+      <exercise xml:id="ch9-exer8">
         <title>THE CHARACTERS (in order of appearance):</title>
         <statement>
           <p>"William Shakespeare: The Tragedy of Hamlet, Prince of Denmark," by Jacqueline Ghodsi</p>
@@ -2236,7 +2236,7 @@ Conclusion: At the 5 percent significance level, there is sufficient evidence to
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="exer6">
+      <exercise xml:id="ch9-exer6">
         <statement>
           <p>"Japanese Girls’ Names"</p>
           <p>by Kumi Furuichi</p>
@@ -2551,7 +2551,7 @@ Conclusion: At the 5 percent significance level, there is sufficient evidence to
           <p>A survey in the <em>New York Times Almanac</em> finds the mean commute time (one way) is 25.4 minutes for the 15 largest US cities. The Austin, TX, chamber of commerce feels that Austin’s commute time is less and wants to publicize this fact. The mean for 25 randomly selected commuters is 22.1 minutes with a standard deviation of 5.3 minutes. At the α = 0.10 level, is the Austin, TX, commute significantly less than the mean commute time for the 15 largest U.S. cities?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-192">
+      <exercise xml:id="ch9-eip-192">
         <statement>
           <p>A report by the Gallup Poll found that a woman visits her doctor, on average, at most 5.8 times each year. A random sample of 20 women results in these yearly visit totals:<nbsp/>
 3
@@ -2774,11 +2774,11 @@ Determine  the <m>p</m>-value.</li>
   <section xml:id="sec-hypothesis-testing-practice">
     <title>Hypothesis Testing with One Sample: Practice</title>
 
-    <figure xml:id="fs-idp119584608">
+    <figure xml:id="ch9-fs-idp119584608">
       <caption>If you want to test a claim that involves two groups (the types of breakfasts eaten east and west of the Mississippi River), you can use a slightly different technique when conducting a hypothesis test. (credit: Chloe Lim)</caption>
       <image source="media/CNX_Stats_C10_CO.jpg" width="76%"/>
     </figure>
-    <note xml:id="fs-idm64219152">
+    <note xml:id="ch9-fs-idm64219152">
       <title>Chapter Objectives</title>
       <p>By the end of this chapter, the student should be able to do the following:</p>
       <ul>
@@ -2793,7 +2793,7 @@ Determine  the <m>p</m>-value.</li>
     <p>There are other situations that deal with the comparison of two groups. For example, studies compare various diet and exercise programs. Politicians compare the proportion of individuals from different income brackets who might vote for them. Students are interested in whether the SAT or GRE preparatory courses really help raise their scores.</p>
     <p>You have learned to conduct hypothesis tests on single means and single proportions. You will expand upon that in this chapter. You will compare two means or two proportions to each other. The general procedure is the same, just expanded.</p>
     <p>To compare two means or two proportions, you work with two groups. The groups are classified as <em>independent groups</em> or <em>matched pairs</em>. <em>Independent groups</em> consist of two samples that are independent, that is, sample values selected from one population are not related in any way to sample values selected from the other population. <em>Matched pairs</em> consist of two samples that are dependent. The parameter tested using matched pairs is the population mean. The parameters tested using independent groups are either population means or population proportions.</p>
-    <note xml:id="fs-idp1161216">
+    <note xml:id="ch9-fs-idp1161216">
       <title>NOTE</title>
       <p>This chapter relies on either a calculator or a computer to calculate the degrees of freedom, the test statistics, and <m>p</m> values. TI-83+ and TI-84 instructions are included, as well as the test statistic formulas. When using a TI-83+ or TI-84 calculator, we do not need to separate two population means, independent groups, or population variances unknown into large and small sample sizes. However, most statistical computer software has the ability to differentiate these tests.</p>
     </note>

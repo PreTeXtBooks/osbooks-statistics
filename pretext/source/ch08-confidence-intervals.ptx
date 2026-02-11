@@ -1186,7 +1186,7 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
       </solution>
     </exercise>
 
-    <exercise xml:id="exer8">
+    <exercise xml:id="ch8-exer8">
       <statement>
         <p>Announcements for 84 upcoming engineering conferences were randomly picked from a stack of <em>IEEE Spectrum</em> magazines. The mean length of the conferences was 3.94 days, with a standard deviation of 1.28 days. Assume the underlying population is normal.</p>
         <ol>
@@ -2178,7 +2178,7 @@ Calculate the following:
         </ol>
       </statement>
     </exercise>
-    <exercise xml:id="exer10">
+    <exercise xml:id="ch8-exer10">
       <statement>
         <p>A pharmaceutical company makes a drug used during surgery. It is assumed that the distribution for the length of time the drug lasts is approximately normal. Researchers in a hospital used the drug on a random sample of nine patients. The effective period of the antibiotic drug for each patient (in hours) was as follows: 2.7, 2.8, 3.0, 2.3, 2.3, 2.2, 2.8, 2.1, and 2.4.</p>
         <ol>
@@ -2227,7 +2227,7 @@ Calculate the following:
         </ol>
       </solution>
     </exercise>
-    <exercise xml:id="exer11">
+    <exercise xml:id="ch8-exer11">
       <statement>
         <p>Suppose that 14 children who were learning to ride two-wheel bikes were surveyed to determine how long they had to use training wheels. It was revealed that they used them an average of six months, with a sample standard deviation of three months. Assume that the underlying population distribution is normal.</p>
         <ol>

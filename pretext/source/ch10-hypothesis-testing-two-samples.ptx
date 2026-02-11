@@ -5,11 +5,11 @@
   <section xml:id="sec-hypothesis-testing-two-samples-intro">
     <title>Introduction</title>
 
-    <figure xml:id="fs-idp119584608">
+    <figure xml:id="ch10-fs-idp119584608">
       <caption>If you want to test a claim that involves two groups (the types of breakfasts eaten east and west of the Mississippi River), you can use a slightly different technique when conducting a hypothesis test. (credit: Chloe Lim)</caption>
       <image source="media/CNX_Stats_C10_CO.jpg" width="76%"/>
     </figure>
-    <note xml:id="fs-idm64219152">
+    <note xml:id="ch10-fs-idm64219152">
       <title>Chapter Objectives</title>
       <p>By the end of this chapter, the student should be able to do the following:</p>
       <ul>
@@ -24,7 +24,7 @@
     <p>There are other situations that deal with the comparison of two groups. For example, studies compare various diet and exercise programs. Politicians compare the proportion of individuals from different income brackets who might vote for them. Students are interested in whether the SAT or GRE preparatory courses really help raise their scores.</p>
     <p>You have learned to conduct hypothesis tests on single means and single proportions. You will expand upon that in this chapter. You will compare two means or two proportions to each other. The general procedure is the same, just expanded.</p>
     <p>To compare two means or two proportions, you work with two groups. The groups are classified as <em>independent groups</em> or <em>matched pairs</em>. <em>Independent groups</em> consist of two samples that are independent, that is, sample values selected from one population are not related in any way to sample values selected from the other population. <em>Matched pairs</em> consist of two samples that are dependent. The parameter tested using matched pairs is the population mean. The parameters tested using independent groups are either population means or population proportions.</p>
-    <note xml:id="fs-idp1161216">
+    <note xml:id="ch10-fs-idp1161216">
       <title>NOTE</title>
       <p>This chapter relies on either a calculator or a computer to calculate the degrees of freedom, the test statistics, and <m>p</m> values. TI-83+ and TI-84 instructions are included, as well as the test statistic formulas. When using a TI-83+ or TI-84 calculator, we do not need to separate two population means, independent groups, or population variances unknown into large and small sample sizes. However, most statistical computer software has the ability to differentiate these tests.</p>
     </note>
@@ -77,12 +77,12 @@ where <m>s_{1}</m> and <m>s_{2}</m>, the sample standard deviations, are estimat
     <p>Degrees of freedom</p>
     <me>df=\frac{(\frac{(s_{1})^{2}}{n_{1}}+\frac{(s_{2})^{2}}{n_{2}})^{2}}{(\frac{1}{n_{1}-1})(\frac{(s_{1})^{2}}{n_{1}})^{2}+(\frac{1}{n_{2}-1})(\frac{(s_{2})^{2}}{n_{2}})^{2}}</me>
     <p>When both sample sizes <m>n_{1}</m> and <m>n_{2}</m> are five or larger, the Student's <m>t</m> approximation is very good. Notice that the sample variances <m>(s_{1})^{2}</m> and <m>(s_{2})^{2}</m> are not pooled. (If the question comes up, do not pool the variances.)</p>
-    <note xml:id="fs-idm50414209">
+    <note xml:id="ch10-fs-idm50414209-1">
       <title>NOTE</title>
       <p>It is not necessary to compute this by hand. A calculator or computer easily computes it.</p>
     </note>
     <p>When both sample sizes <m>n_{1}</m> and <m>n_{2}</m> are five or larger, the Student's <m>t</m> approximation is very good. Notice that the sample variances <m>(s_{1})^{2}</m> and <m>(s_{2})^{2}</m> are not pooled. (If the question comes up, do not pool the variances.)</p>
-    <note xml:id="fs-idm50414209">
+    <note xml:id="ch10-fs-idm50414209-2">
       <title>NOTE</title>
       <p>It is not necessary to compute this by hand. A calculator or computer easily computes it.</p>
     </note>

@@ -1488,7 +1488,7 @@ Teenager Is Reminded</cell>
       </statement>
     </exercise>
 
-    <exercise xml:id="eip-440">
+    <exercise xml:id="ch2-eip-440">
       <statement>
         <p> contains the 2010 rates for a specific disease in U.S. states and Washington, DC.</p>
         <table>
@@ -2486,7 +2486,7 @@ that this distribution is skewed because one side of the graph does not mirror t
 
     <p>A <em>histogram</em> is a graphic version of a frequency distribution. The graph consists of bars of equal width drawn adjacent to each other. The horizontal scale represents classes of quantitative data values, and the vertical scale represents frequencies. The heights of the bars correspond to frequency values. Histograms are typically used for large, continuous, quantitative data sets. A frequency polygon can also be used when graphing large data sets with data points that repeat. The data usually go on the <em>y</em>-axis with the frequency being graphed on the <em>x</em>-axis. Time series graphs can be helpful when looking at large amounts of data for one variable over a period of time.</p>
 
-    <exercise xml:id="eip-341">
+    <exercise xml:id="ch2-eip-341">
       <statement>
         <p>65 randomly selected car salespersons were asked the number of cars they generally sell in one week. 14 people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars. Complete the table.</p>
         <table>
@@ -3693,7 +3693,7 @@ Ordered from smallest to largest:
     </note>
 
     <example xml:id="element-826">
-      <task xml:id="exer5">
+      <task xml:id="ch2-exer5">
         <statement>
           <p>For the following 13 real estate prices, calculate the <em>IQR</em> and determine if any prices are potential outliers. Prices are in dollars.
 
@@ -4013,7 +4013,7 @@ Calculate the 20<m>^{th}</m> percentile and the 55<m>^{th}</m> percentile.</p>
       </solution>
     </exercise>
 
-    <note xml:id="eip-404">
+    <note xml:id="ch2-eip-404">
       <title>NOTE</title>
       <p>You can calculate percentiles using calculators and computers. There are a variety of online calculators.</p>
     </note>
@@ -4835,7 +4835,7 @@ The two most widely used measures of the <em>center</em> of the data are the <te
 <m>\frac{100+1}{2}</m> = 50.5. The median occurs midway between the 50<m>^{th}</m> and 51<m>^{st}</m> values. The location of the median and the value of the median are <em>not</em> the same. The uppercase letter <em>M</em> is often used to represent the median. The next example illustrates the location of the median and the value of the median.</p>
 
     <example xml:id="element-3">
-      <task xml:id="exer4">
+      <task xml:id="ch2-exer4">
         <statement>
           <p>Data indicating the number of months a patient with a specific disease lives after taking a new antibody drug are as follows (smallest to largest):
 
@@ -4894,8 +4894,8 @@ Median: Starting at the smallest value, the median is the 20<m>^{th}</m> term, w
       </solution>
     </exercise>
 
-    <example xml:id="element-231">
-      <task xml:id="exer6">
+    <example xml:id="ch2-element-231">
+      <task xml:id="ch2-exer6">
         <statement>
           <p>Suppose that in a small town of 50 people, one person earns $5,000,000 per year and the other 49 each earn $30,000. Which is the better measure of the <em>center</em>: the mean or the median?</p>
         </statement>
