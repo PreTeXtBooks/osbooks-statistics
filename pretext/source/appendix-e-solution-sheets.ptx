@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Appendix E: Solution Sheets -->
+<appendix xml:id="appendix-e-solution-sheets" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Solution Sheets</title>
+
+  <section xml:id="fs-id1168979367091">
+    <title>Hypothesis Testing With One Sample </title>
+    <p>
+      Class Time: __________________________  Name: _____________________________________
+    </p>
+    <ol>
+      <li>
+        <p>
+          <em>H0</em> : _______
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Ha</em> : _______
+        </p>
+      </li>
+      <li>
+        <p>
+          In words, clearly state what your random variable  or  represents.
+        </p>
+      </li>
+      <li>
+        <p>
+          State the distribution to use for the test.
+        </p>
+      </li>
+      <li>
+        <p>
+          What is the test statistic?
+        </p>
+      </li>
+      <li>
+        <p>
+          What is the <em>p</em> -value? In one or two <em>complete sentences</em> , explain what the <em>p</em> -value means for this problem.
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the previous information to sketch a picture of this situation. <em>Clearly</em> , label and scale the horizontal axis and shade the region(s) corresponding to the <em>p</em> -value. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Indicate the correct decision ( <em>reject</em> or <em>do not reject</em> the null hypothesis), the reason for it and write appropriate conclusions using <em>complete sentences.&quot;</em>  
+        <ol>
+          <li>
+            <p>
+              Alpha: _______
+            </p>
+          </li>
+          <li>
+            <p>
+              Decision: _______
+            </p>
+          </li>
+          <li>
+            <p>
+              Reason for decision: _______
+            </p>
+          </li>
+          <li>
+            <p>
+              Conclusion: _______
+            </p>
+          </li>
+        </ol>
+        </p>
+      </li>
+      <li>
+        <p>
+          Alpha: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Decision: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Reason for decision: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Conclusion: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Construct a 95 percent confidence interval for the true mean or proportion. Sketch of the graph of the situation. Label the point estimate and the lower and upper bounds of the confidence interval. 
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <section xml:id="eip-422">
+    <title>Hypothesis Testing With Two Samples </title>
+    <p>
+      Class Time: __________________________  Name: _____________________________________
+    </p>
+    <ol>
+      <li>
+        <p>
+          <em>H0</em> : _______
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Ha</em> : _______
+        </p>
+      </li>
+      <li>
+        <p>
+          In words, <em>clearly</em> state what your random variable  ,  or  represents.
+        </p>
+      </li>
+      <li>
+        <p>
+          State the distribution to use for the test.
+        </p>
+      </li>
+      <li>
+        <p>
+          What is the test statistic?
+        </p>
+      </li>
+      <li>
+        <p>
+          What is the <em>p</em> -value? In one to two <em>complete sentences,</em> explain what the <em>p</em> -value means for this problem.
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the previous information to sketch a picture of this situation. <em>Clearly</em> label and scale the horizontal axis and shade the region(s) corresponding to the <em>p</em> -value. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Indicate the correct decision ( <em>reject</em> or <em>do not reject</em> the null hypothesis), and write appropriate conclusions using <em>complete sentences.</em>  
+        <ol>
+          <li>
+            <p>
+              Alpha: _______
+            </p>
+          </li>
+          <li>
+            <p>
+              Decision: _______
+            </p>
+          </li>
+          <li>
+            <p>
+              Reason for decision: _______
+            </p>
+          </li>
+          <li>
+            <p>
+              Conclusion: _______
+            </p>
+          </li>
+        </ol> 
+        </p>
+      </li>
+      <li>
+        <p>
+          Alpha: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Decision: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Reason for decision: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Conclusion: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          In <em>complete sentences,</em> explain how you determined which distribution to use.
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <section xml:id="eip-494">
+    <title>The Chi-Square Distribution</title>
+    <p>
+      Class Time: __________________________  Name: ____________________________________
+    </p>
+    <ol>
+      <li>
+        <p>
+          <em>H0</em> : _______
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Ha</em> : _______
+        </p>
+      </li>
+      <li>
+        <p>
+          What are the degrees of freedom?
+        </p>
+      </li>
+      <li>
+        <p>
+          State the distribution to use for the test.
+        </p>
+      </li>
+      <li>
+        <p>
+          What is the test statistic?
+        </p>
+      </li>
+      <li>
+        <p>
+          What is the <em>p</em> -value? In one to two <em>complete sentences,</em> explain what the <em>p</em> -value means for this problem.
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the previous information to sketch a picture of this situation. <em>Clearly</em> label and scale the horizontal axis and shade the region(s) corresponding to the <em>p</em> -value. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Indicate the correct decision ( <em>reject</em> or <em>do not reject</em> the null hypothesis) and write appropriate conclusions, using <em>complete sentences. </em>  
+        <ol>
+          <li>
+            <p>
+              Alpha: _______
+            </p>
+          </li>
+          <li>
+            <p>
+              Decision: _______
+            </p>
+          </li>
+          <li>
+            <p>
+              Reason for decision: _______
+            </p>
+          </li>
+          <li>
+            <p>
+              Conclusion: _______
+            </p>
+          </li>
+        </ol>
+        </p>
+      </li>
+      <li>
+        <p>
+          Alpha: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Decision: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Reason for decision: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Conclusion: _______
+        </p>
+      </li>
+    </ol>
+  </section>
+
+  <section xml:id="eip-893">
+    <title>F Distribution and One-Way ANOVA</title>
+    <p>
+      Class Time: __________________________  Name: ____________________________________
+    </p>
+    <ol>
+      <li>
+        <p>
+          <em>H0</em> : _______
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Ha</em> : _______
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>df</em> ( <em>n</em> ) = ______ <em>df</em> ( <em>d</em> ) = _______
+        </p>
+      </li>
+      <li>
+        <p>
+          State the distribution to use for the test.
+        </p>
+      </li>
+      <li>
+        <p>
+          What is the test statistic?
+        </p>
+      </li>
+      <li>
+        <p>
+          What is the <em>p</em> -value?
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the previous information to sketch a picture of this situation. <em>Clearly</em> label and scale the horizontal axis and shade the region(s) corresponding to the <em>p</em> -value. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Indicate the correct decision ( <em>reject</em> or <em>do not reject</em> the null hypothesis) and write appropriate conclusions, using <em>complete sentences</em> . 
+        <ol>
+          <li>
+            <p>
+              Alpha: _______
+            </p>
+          </li>
+          <li>
+            <p>
+              Decision: _______
+            </p>
+          </li>
+          <li>
+            <p>
+              Reason for decision: _______
+            </p>
+          </li>
+          <li>
+            <p>
+              Conclusion: _______
+            </p>
+          </li>
+        </ol>
+        </p>
+      </li>
+      <li>
+        <p>
+          Alpha: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Decision: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Reason for decision: _______
+        </p>
+      </li>
+      <li>
+        <p>
+          Conclusion: _______
+        </p>
+      </li>
+    </ol>
+  </section>
+
+</appendix>

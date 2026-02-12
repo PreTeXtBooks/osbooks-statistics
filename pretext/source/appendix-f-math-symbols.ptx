@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Appendix F: Mathematical Phrases, Symbols, and Formulas -->
+<appendix xml:id="appendix-f-math-symbols" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Mathematical Phrases, Symbols, and Formulas</title>
+
+  <section xml:id="fs-id1168975964661">
+    <title>English Phrases Written Mathematically</title>
+    <table xml:id="table-140237257359120">
+      <tabular>
+        <row header="yes">
+          <cell>When the English says:</cell>
+          <cell>Interpret this as:</cell>
+        </row>
+        <row>
+          <cell>X is at least 4.</cell>
+          <cell>X ≥ 4</cell>
+        </row>
+        <row>
+          <cell>The minimum of X is 4.</cell>
+          <cell>X ≥ 4</cell>
+        </row>
+        <row>
+          <cell>X is no less than 4.</cell>
+          <cell>X ≥ 4</cell>
+        </row>
+        <row>
+          <cell>X is greater than or equal to 4.</cell>
+          <cell>X ≥ 4</cell>
+        </row>
+        <row>
+          <cell>X is at most 4.</cell>
+          <cell>X ≤ 4</cell>
+        </row>
+        <row>
+          <cell>The maximum of X is 4.</cell>
+          <cell>X ≤ 4</cell>
+        </row>
+        <row>
+          <cell>X is no more than 4.</cell>
+          <cell>X ≤ 4</cell>
+        </row>
+        <row>
+          <cell>X is less than or equal to 4.</cell>
+          <cell>X ≤ 4</cell>
+        </row>
+        <row>
+          <cell>X does not exceed 4.</cell>
+          <cell>X ≤ 4</cell>
+        </row>
+        <row>
+          <cell>X is greater than 4.</cell>
+          <cell>X &gt; 4</cell>
+        </row>
+        <row>
+          <cell>X is more than 4.</cell>
+          <cell>X &gt; 4</cell>
+        </row>
+        <row>
+          <cell>X exceeds 4.</cell>
+          <cell>X &gt; 4</cell>
+        </row>
+        <row>
+          <cell>X is less than 4.</cell>
+          <cell>X &lt; 4</cell>
+        </row>
+        <row>
+          <cell>There are fewer X than 4.</cell>
+          <cell>X &lt; 4</cell>
+        </row>
+        <row>
+          <cell>X is 4.</cell>
+          <cell>X = 4</cell>
+        </row>
+        <row>
+          <cell>X is equal to 4.</cell>
+          <cell>X = 4</cell>
+        </row>
+        <row>
+          <cell>X is the same as 4.</cell>
+          <cell>X = 4</cell>
+        </row>
+        <row>
+          <cell>X is not 4.</cell>
+          <cell>X ≠ 4</cell>
+        </row>
+        <row>
+          <cell>X is not equal to 4.</cell>
+          <cell>X ≠ 4</cell>
+        </row>
+        <row>
+          <cell>X is not the same as 4.</cell>
+          <cell>X ≠ 4</cell>
+        </row>
+        <row>
+          <cell>X is different than 4.</cell>
+          <cell>X ≠ 4</cell>
+        </row>
+      </tabular>
+    </table>
+  </section>
+
+  <section xml:id="eip-732">
+    <title>Formulas</title>
+    <p>
+      Formula 1: Factorial  
+    </p>
+    <p>
+         
+    </p>
+    <p>
+      Formula 2: Combinations   
+    </p>
+    <p>
+      Formula 3: Binomial Distribution  
+    </p>
+    <p>
+       , for   
+    </p>
+    <p>
+      Formula 4: Geometric Distribution 
+    </p>
+    <p>
+       , for   
+    </p>
+    <p>
+      Formula 5: Hypergeometric Distribution 
+    </p>
+    <p>
+        
+    </p>
+    <p>
+      Formula 6: Poisson Distribution  
+    </p>
+    <p>
+        
+    </p>
+    <p>
+      Formula 7: Uniform Distribution 
+    </p>
+    <p>
+       ,   
+    </p>
+    <p>
+      Formula 8: Exponential Distribution  
+    </p>
+    <p>
+        
+    </p>
+    <p>
+      Formula 9: Normal Distribution 
+    </p>
+    <p>
+       ,   
+    </p>
+    <p>
+      Formula 10: Gamma Function    
+    </p>
+    <p>
+        
+    </p>
+    <p>
+        for  , a nonnegative integer
+    </p>
+    <p>
+      otherwise:   
+    </p>
+    <p>
+      Formula 11: Student&apos;s t-distribution  
+    </p>
+    <p>
+       
+    </p>
+    <p>
+        
+    </p>
+    <p>
+       ,  = degrees of freedom 
+    </p>
+    <p>
+      Formula 12: Chi-Square Distribution  
+    </p>
+    <p>
+       ,  ,  = positive integer and degrees of freedom 
+    </p>
+    <p>
+      Formula 13: F Distribution  
+    </p>
+    <p>
+       degrees of freedom for the numerator
+    </p>
+    <p>
+       degrees of freedom for the denominator
+    </p>
+    <p>
+      
+    </p>
+    <p>
+        ,  ,  are chi-square
+    </p>
+  </section>
+
+  <section xml:id="eip-663">
+    <title>Symbols and Their Meanings</title>
+    <table xml:id="table-140237255924112">
+      <title>Symbols and their Meanings</title>
+      <tabular>
+        <row header="yes">
+          <cell>Chapter (1st used)</cell>
+          <cell>Symbol</cell>
+          <cell>Spoken</cell>
+          <cell>Meaning</cell>
+        </row>
+        <row>
+          <cell>Sampling and Data</cell>
+          <cell></cell>
+          <cell>The square root of</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Sampling and Data</cell>
+          <cell>π</cell>
+          <cell>Pi</cell>
+          <cell>3.14159… (a specific number)</cell>
+        </row>
+        <row>
+          <cell>Descriptive Statistics</cell>
+          <cell>Q1</cell>
+          <cell>Quartile one</cell>
+          <cell>the first quartile</cell>
+        </row>
+        <row>
+          <cell>Descriptive Statistics</cell>
+          <cell>Q2</cell>
+          <cell>Quartile two</cell>
+          <cell>the second quartile</cell>
+        </row>
+        <row>
+          <cell>Descriptive Statistics</cell>
+          <cell>Q3</cell>
+          <cell>Quartile three</cell>
+          <cell>the third quartile</cell>
+        </row>
+        <row>
+          <cell>Descriptive Statistics</cell>
+          <cell>IQR</cell>
+          <cell>interquartile range</cell>
+          <cell>Q3 – Q1 = IQR</cell>
+        </row>
+        <row>
+          <cell>Descriptive Statistics</cell>
+          <cell>x
+    ¯</cell>
+          <cell>x-bar</cell>
+          <cell>sample mean</cell>
+        </row>
+        <row>
+          <cell>Descriptive Statistics</cell>
+          <cell>μ</cell>
+          <cell>mu</cell>
+          <cell>population mean</cell>
+        </row>
+        <row>
+          <cell>Descriptive Statistics</cell>
+          <cell>s sx sx</cell>
+          <cell>s</cell>
+          <cell>sample standard deviation</cell>
+        </row>
+        <row>
+          <cell>Descriptive Statistics</cell>
+          <cell>s2 sx2</cell>
+          <cell>s squared</cell>
+          <cell>sample variance</cell>
+        </row>
+        <row>
+          <cell>Descriptive Statistics</cell>
+          <cell>σ σx σx</cell>
+          <cell>sigma</cell>
+          <cell>population standard deviation</cell>
+        </row>
+        <row>
+          <cell>Descriptive Statistics</cell>
+          <cell>σ2 σx2</cell>
+          <cell>sigma squared</cell>
+          <cell>population variance</cell>
+        </row>
+        <row>
+          <cell>Descriptive Statistics</cell>
+          <cell>Σ</cell>
+          <cell>capital sigma</cell>
+          <cell>sum</cell>
+        </row>
+        <row>
+          <cell>Probability Topics</cell>
+          <cell>{
+  }</cell>
+          <cell>brackets</cell>
+          <cell>set notation</cell>
+        </row>
+        <row>
+          <cell>Probability Topics</cell>
+          <cell>S</cell>
+          <cell>S</cell>
+          <cell>sample space</cell>
+        </row>
+        <row>
+          <cell>Probability Topics</cell>
+          <cell>A</cell>
+          <cell>Event A</cell>
+          <cell>event A</cell>
+        </row>
+        <row>
+          <cell>Probability Topics</cell>
+          <cell>P
+  
+    (
+    A
+    )</cell>
+          <cell>probability of A</cell>
+          <cell>probability of A occurring</cell>
+        </row>
+        <row>
+          <cell>Probability Topics</cell>
+          <cell>P(A|B)</cell>
+          <cell>probability of A given B</cell>
+          <cell>prob. of A occurring given B has occurred</cell>
+        </row>
+        <row>
+          <cell>Probability Topics</cell>
+          <cell>P(A OR B)</cell>
+          <cell>prob. of A or B</cell>
+          <cell>prob. of A or B or both occurring</cell>
+        </row>
+        <row>
+          <cell>Probability Topics</cell>
+          <cell>P(A AND B)</cell>
+          <cell>prob. of A and B</cell>
+          <cell>prob. of both A and B occurring (same time)</cell>
+        </row>
+        <row>
+          <cell>Probability Topics</cell>
+          <cell>A′</cell>
+          <cell>A-prime, complement of A</cell>
+          <cell>complement of A, not A</cell>
+        </row>
+        <row>
+          <cell>Probability Topics</cell>
+          <cell>P(A&apos;)</cell>
+          <cell>prob. of complement of A</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Probability Topics</cell>
+          <cell>G1</cell>
+          <cell>green on first pick</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Probability Topics</cell>
+          <cell>P(G1)</cell>
+          <cell>prob. of green on first pick</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Discrete Random Variables</cell>
+          <cell>PDF</cell>
+          <cell>prob. distribution function</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Discrete Random Variables</cell>
+          <cell>X</cell>
+          <cell>X</cell>
+          <cell>the random variable X</cell>
+        </row>
+        <row>
+          <cell>Discrete Random Variables</cell>
+          <cell>X ~</cell>
+          <cell>the distribution of X</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Discrete Random Variables</cell>
+          <cell>B</cell>
+          <cell>binomial distribution</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Discrete Random Variables</cell>
+          <cell>G</cell>
+          <cell>geometric distribution</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Discrete Random Variables</cell>
+          <cell>H</cell>
+          <cell>hypergeometric dist.</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Discrete Random Variables</cell>
+          <cell>P</cell>
+          <cell>Poisson dist.</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Discrete Random Variables</cell>
+          <cell>λ</cell>
+          <cell>Lambda</cell>
+          <cell>average of Poisson distribution</cell>
+        </row>
+        <row>
+          <cell>Discrete Random Variables</cell>
+          <cell>≥</cell>
+          <cell>greater than or equal to</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Discrete Random Variables</cell>
+          <cell>≤</cell>
+          <cell>less than or equal to</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Discrete Random Variables</cell>
+          <cell>=</cell>
+          <cell>equal to</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Discrete Random Variables</cell>
+          <cell>≠</cell>
+          <cell>not equal to</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Continuous Random Variables</cell>
+          <cell>f(x)</cell>
+          <cell>f of x</cell>
+          <cell>function of x</cell>
+        </row>
+        <row>
+          <cell>Continuous Random Variables</cell>
+          <cell>pdf</cell>
+          <cell>prob. density function</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Continuous Random Variables</cell>
+          <cell>U</cell>
+          <cell>uniform distribution</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Continuous Random Variables</cell>
+          <cell>Exp</cell>
+          <cell>exponential distribution</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Continuous Random Variables</cell>
+          <cell>k</cell>
+          <cell>k</cell>
+          <cell>critical value</cell>
+        </row>
+        <row>
+          <cell>Continuous Random Variables</cell>
+          <cell>f(x) =</cell>
+          <cell>f of x equals</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Continuous Random Variables</cell>
+          <cell>m</cell>
+          <cell>m</cell>
+          <cell>decay rate (for exp. dist.)</cell>
+        </row>
+        <row>
+          <cell>The Normal Distribution</cell>
+          <cell>N</cell>
+          <cell>normal distribution</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>The Normal Distribution</cell>
+          <cell>z</cell>
+          <cell>z-score</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>The Normal Distribution</cell>
+          <cell>Z</cell>
+          <cell>standard normal dist.</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>The Central Limit Theorem</cell>
+          <cell>CLT</cell>
+          <cell>Central Limit Theorem</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>The Central Limit Theorem</cell>
+          <cell>X
+  ¯</cell>
+          <cell>X-bar</cell>
+          <cell>the random variable X-bar</cell>
+        </row>
+        <row>
+          <cell>The Central Limit Theorem</cell>
+          <cell>μ
+   x</cell>
+          <cell>mean of X</cell>
+          <cell>the average of X</cell>
+        </row>
+        <row>
+          <cell>The Central Limit Theorem</cell>
+          <cell>μ
+   
+    x
+    ¯</cell>
+          <cell>mean of X-bar</cell>
+          <cell>the average of X-bar</cell>
+        </row>
+        <row>
+          <cell>The Central Limit Theorem</cell>
+          <cell>σ
+   x</cell>
+          <cell>standard deviation of X</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>The Central Limit Theorem</cell>
+          <cell>σ
+   
+    x
+    ¯</cell>
+          <cell>standard deviation of X-bar</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>The Central Limit Theorem</cell>
+          <cell>ΣX</cell>
+          <cell>sum of X</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>The Central Limit Theorem</cell>
+          <cell>Σx</cell>
+          <cell>sum of x</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Confidence Intervals</cell>
+          <cell>CL</cell>
+          <cell>confidence level</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Confidence Intervals</cell>
+          <cell>CI</cell>
+          <cell>confidence interval</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Confidence Intervals</cell>
+          <cell>EBM</cell>
+          <cell>error bound for a mean</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Confidence Intervals</cell>
+          <cell>EBP</cell>
+          <cell>error bound for a proportion</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Confidence Intervals</cell>
+          <cell>t</cell>
+          <cell>Student&apos;s t-distribution</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Confidence Intervals</cell>
+          <cell>df</cell>
+          <cell>degrees of freedom</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Confidence Intervals</cell>
+          <cell>t
+    
+      α
+      2</cell>
+          <cell>student t with a/2 area in right tail</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Confidence Intervals</cell>
+          <cell>p′
+ 
+; 
+    p
+    ^</cell>
+          <cell>p-prime; p-hat</cell>
+          <cell>sample proportion of success</cell>
+        </row>
+        <row>
+          <cell>Confidence Intervals</cell>
+          <cell>q′
+ 
+; 
+    q
+    ^</cell>
+          <cell>q-prime; q-hat</cell>
+          <cell>sample proportion of failure</cell>
+        </row>
+        <row>
+          <cell>Hypothesis Testing</cell>
+          <cell>H
+   0</cell>
+          <cell>H-naught, H-sub 0</cell>
+          <cell>null hypothesis</cell>
+        </row>
+        <row>
+          <cell>Hypothesis Testing</cell>
+          <cell>H
+   a</cell>
+          <cell>H-a, H-sub a</cell>
+          <cell>alternate hypothesis</cell>
+        </row>
+        <row>
+          <cell>Hypothesis Testing</cell>
+          <cell>H
+   1</cell>
+          <cell>H-1, H-sub 1</cell>
+          <cell>alternate hypothesis</cell>
+        </row>
+        <row>
+          <cell>Hypothesis Testing</cell>
+          <cell>α</cell>
+          <cell>alpha</cell>
+          <cell>probability of Type I error</cell>
+        </row>
+        <row>
+          <cell>Hypothesis Testing</cell>
+          <cell>β</cell>
+          <cell>beta</cell>
+          <cell>probability of Type II error</cell>
+        </row>
+        <row>
+          <cell>Hypothesis Testing</cell>
+          <cell>X1
+   
+   ¯
+  
+  −
+   
+    X2
+   
+   ¯</cell>
+          <cell>X1-bar minus X2-bar</cell>
+          <cell>difference in sample means</cell>
+        </row>
+        <row>
+          <cell>Hypothesis Testing</cell>
+          <cell>μ
+   1
+  
+  −
+   μ
+   2</cell>
+          <cell>mu-1 minus mu-2</cell>
+          <cell>difference in population means</cell>
+        </row>
+        <row>
+          <cell>Hypothesis Testing</cell>
+          <cell>P
+    ′
+   
+   
+   1
+  
+  −
+   
+    P
+    ′
+   
+   
+   2</cell>
+          <cell>P1-prime minus P2-prime</cell>
+          <cell>difference in sample proportions</cell>
+        </row>
+        <row>
+          <cell>Hypothesis Testing</cell>
+          <cell>p
+   1
+  
+  −
+   p
+   2</cell>
+          <cell>p1 minus p2</cell>
+          <cell>difference in population proportions</cell>
+        </row>
+        <row>
+          <cell>Chi-Square Distribution</cell>
+          <cell>Χ
+    2</cell>
+          <cell>Ky-square</cell>
+          <cell>Chi-square</cell>
+        </row>
+        <row>
+          <cell>Chi-Square Distribution</cell>
+          <cell>O</cell>
+          <cell>Observed</cell>
+          <cell>Observed frequency</cell>
+        </row>
+        <row>
+          <cell>Chi-Square Distribution</cell>
+          <cell>E</cell>
+          <cell>Expected</cell>
+          <cell>Expected frequency</cell>
+        </row>
+        <row>
+          <cell>Linear Regression and Correlation</cell>
+          <cell>y = a + bx</cell>
+          <cell>y equals a plus b-x</cell>
+          <cell>equation of a line</cell>
+        </row>
+        <row>
+          <cell>Linear Regression and Correlation</cell>
+          <cell>y^</cell>
+          <cell>y-hat</cell>
+          <cell>estimated value of y</cell>
+        </row>
+        <row>
+          <cell>Linear Regression and Correlation</cell>
+          <cell>r</cell>
+          <cell>correlation coefficient</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Linear Regression and Correlation</cell>
+          <cell>ε</cell>
+          <cell>error</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Linear Regression and Correlation</cell>
+          <cell>SSE</cell>
+          <cell>Sum of Squared Errors</cell>
+          <cell>same</cell>
+        </row>
+        <row>
+          <cell>Linear Regression and Correlation</cell>
+          <cell>1.9s</cell>
+          <cell>1.9 times s</cell>
+          <cell>cut-off value for outliers</cell>
+        </row>
+        <row>
+          <cell>F-Distribution and ANOVA</cell>
+          <cell>F</cell>
+          <cell>F-ratio</cell>
+          <cell>F-ratio</cell>
+        </row>
+      </tabular>
+    </table>
+  </section>
+
+</appendix>

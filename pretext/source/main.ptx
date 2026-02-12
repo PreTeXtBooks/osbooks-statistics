@@ -109,27 +109,15 @@
     <backmatter xml:id="backmatter">
       <title>Back Matter</title>
 
-      <appendix xml:id="appendix-data-sets">
-        <title>Data Sets</title>
-        <p>
-          This appendix will contain practice data sets for students to use in exercises 
-          and examples throughout the textbook.
-        </p>
-      </appendix>
-
-      <appendix xml:id="appendix-group-project">
-        <title>Group and Partner Projects</title>
-        <p>
-          This appendix will contain collaborative activities and group project suggestions.
-        </p>
-      </appendix>
-
-      <appendix xml:id="appendix-solutions">
-        <title>Solutions to Selected Exercises</title>
-        <p>
-          This appendix will contain solutions to odd-numbered exercises.
-        </p>
-      </appendix>
+      <!-- Appendices -->
+      <xi:include href="./appendix-a-review-exercises.ptx"/>
+      <xi:include href="./appendix-b-practice-tests.ptx"/>
+      <xi:include href="./appendix-c-data-sets.ptx"/>
+      <xi:include href="./appendix-d-group-projects.ptx"/>
+      <xi:include href="./appendix-e-solution-sheets.ptx"/>
+      <xi:include href="./appendix-f-math-symbols.ptx"/>
+      <xi:include href="./appendix-g-calculator-notes.ptx"/>
+      <xi:include href="./appendix-h-tables.ptx"/>
 
       <index>
         <title>Index</title>

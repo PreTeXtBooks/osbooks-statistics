@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Appendix G: Notes for the TI-83, 83+, 84, 84+ Calculators -->
+<appendix xml:id="appendix-g-calculator-notes" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Notes for the TI-83, 83+, 84, 84+ Calculators</title>
+
+  <section xml:id="fs-id15632468">
+    <title>Quick Tips</title>
+    <p>
+       Legend  
+    <ul>
+      <li>
+        <p>
+           represents a button press
+        </p>
+      </li>
+      <li>
+        <p>
+          [ ] represents yellow command or green letter behind a key
+        </p>
+      </li>
+      <li>
+        <p>
+          &lt; &gt; represents items on the screen
+        </p>
+      </li>
+    </ul>
+    </p>
+    <p>
+      To adjust the contrast Press  , then hold  to increase the contrast or  to decrease the contrast.
+    </p>
+    <p>
+      To capitalize letters and words Press  to get one capital letter, or press  , then  to set all button presses to capital letters.
+			You can return to the top-level button values by pressing  again.
+    </p>
+    <p>
+      To correct a mistake If you hit a wrong button, press  and start again.
+    </p>
+    <p>
+      To write in scientific notation Numbers in scientific notation are expressed on the TI-83, 83+, 84, and 84+ using E notation, such that... 
+    <ul>
+      <li>
+        <p>
+          4.321 E 4 = 
+        </p>
+      </li>
+      <li>
+        <p>
+          4.321 E –4 =  
+        </p>
+      </li>
+    </ul>
+    </p>
+    <p>
+      To transfer programs or equations from one calculator to another <em>Both calculators:</em> Insert your respective end of the link cable cable
+and press  , then [LINK] .
+    </p>
+    <p>
+      Calculator receiving information 
+    <ol>
+      <li>
+        <p>
+          Use the arrows to navigate to and select &lt;RECEIVE&gt; .
+        </p>
+      </li>
+      <li>
+        <p>
+          Press  .
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      Calculator sending information 
+    <ol>
+      <li>
+        <p>
+          Press the appropriate number or letter.
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the up and down arrows to access the appropriate item.
+        </p>
+      </li>
+      <li>
+        <p>
+          Press  to select the item to transfer.
+        </p>
+      </li>
+      <li>
+        <p>
+          Press the right arrow to navigate to and select &lt;TRANSMIT&gt; .
+        </p>
+      </li>
+      <li>
+        <p>
+          Press  .
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      Both calculators—Insert your respective end of the link cable, press  , then [QUIT] to exit when done.
+    </p>
+  </section>
+
+  <section xml:id="eip-367">
+    <title>Manipulating One-Variable Statistics</title>
+    <table xml:id="table-140237255629040">
+      <title>Sample Data</title>
+      <tabular>
+        <row header="yes">
+          <cell>Data</cell>
+          <cell>Frequency</cell>
+        </row>
+        <row>
+          <cell>–2</cell>
+          <cell>10</cell>
+        </row>
+        <row>
+          <cell>–1</cell>
+          <cell>3</cell>
+        </row>
+        <row>
+          <cell>0</cell>
+          <cell>4</cell>
+        </row>
+        <row>
+          <cell>1</cell>
+          <cell>5</cell>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell>8</cell>
+        </row>
+      </tabular>
+    </table>
+    <p>
+      To begin 
+    <ol>
+      <li>
+        <p>
+           Turn on the calculator.
+        </p>
+      </li>
+      <li>
+        <p>
+           Access statistics mode.
+        </p>
+      </li>
+      <li>
+        <p>
+           Select &lt;4:ClrList&gt; to clear data from lists, if desired.
+
+
+, then
+
+
+
+.
+        </p>
+      </li>
+      <li>
+        <p>
+          Enter the list [L1] to be cleared.
+
+
+ , [L1] ,
+
+
+
+.
+        </p>
+      </li>
+      <li>
+        <p>
+          Display the last instruction.
+
+
+ , [ENTRY].
+        </p>
+      </li>
+      <li>
+        <p>
+          Continue clearing any remaining lists in the same fashion, if desired.
+
+
+ ,
+
+
+ , [L2] ,
+        </p>
+      </li>
+      <li>
+        <p>
+          Access statistics mode.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select &lt;1:Edit . . .&gt;.
+        </p>
+      </li>
+      <li>
+        <p>
+          Enter data. Data values go into [L1]. (You may need to arrow over to [L1]).
+
+Type in a data value and enter it. For negative numbers, use the negate  key at the bottom of the keypad.
+
+
+ ,
+
+
+ ,
+
+
+
+.
+Continue in the same manner until all data values are entered. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Type in a data value and enter it. For negative numbers, use the negate  key at the bottom of the keypad.
+
+
+ ,
+
+
+ ,
+
+
+
+.
+        </p>
+      </li>
+      <li>
+        <p>
+          Continue in the same manner until all data values are entered.
+        </p>
+      </li>
+      <li>
+        <p>
+          In [L2], enter the frequencies for each data value in [L1].
+
+Type in a frequency and enter it. If a data value appears only once, the frequency is 1.
+
+
+ ,
+
+
+
+.
+
+Continue in the same manner until all data values are entered. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Type in a frequency and enter it. If a data value appears only once, the frequency is 1.
+
+
+ ,
+
+
+
+.
+        </p>
+      </li>
+      <li>
+        <p>
+          Continue in the same manner until all data values are entered.
+        </p>
+      </li>
+      <li>
+        <p>
+          Access statistics mode.
+        </p>
+      </li>
+      <li>
+        <p>
+          Navigate to &lt;CALC&gt; .
+        </p>
+      </li>
+      <li>
+        <p>
+          Access &lt;1:1-var Stats&gt;.
+        </p>
+      </li>
+      <li>
+        <p>
+          Indicate that the data is in [L1]...
+
+
+
+ , [L1] ,
+
+
+
+,
+        </p>
+      </li>
+      <li>
+        <p>
+          ...and indicate that the frequencies are in [L2].
+
+
+ , [L2] ,
+
+
+
+.
+        </p>
+      </li>
+      <li>
+        <p>
+          The statistics should be displayed. You may arrow down to get remaining statistics. Repeat as necessary.
+        </p>
+      </li>
+    </ol>
+    </p>
+  </section>
+
+  <section xml:id="fs-id15737311">
+    <title>Drawing Histograms</title>
+    <p>
+      We will construct two histograms with the built-in [STAT PLOT] application. In the first method, we will use the default ZOOM. The second method will involve customizing a new graph.
+    </p>
+    <ol>
+      <li>
+        <p>
+           Access graphing mode.
+
+
+ , [STAT PLOT]. 
+        </p>
+      </li>
+      <li>
+        <p>
+           Select &lt;1:plot 1&gt; to access plotting - first graph. 
+        </p>
+      </li>
+      <li>
+        <p>
+           Use the arrows to navigate to &lt;ON&gt; to turn on Plot 1.
+&lt;ON&gt; ,
+
+
+
+. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the arrows to go to the histogram picture and select the histogram.  
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the arrows to navigate to &lt;Xlist&gt; .
+        </p>
+      </li>
+      <li>
+        <p>
+           If [L1] is not selected, select it.
+
+
+ , [L1] ,
+
+
+
+.
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the arrows to navigate to &lt;Freq&gt; .
+        </p>
+      </li>
+      <li>
+        <p>
+           Assign the frequencies to [L2].
+
+
+ , [L2] ,
+
+
+
+.
+        </p>
+      </li>
+      <li>
+        <p>
+          Go back to access other graphs.
+
+
+ , [STAT PLOT].
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the arrows to turn off the remaining plots.
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Be sure to deselect or clear all equations before graphing.</em>
+        </p>
+      </li>
+    </ol>
+    <p>
+      To deselect equations 
+    <ol>
+      <li>
+        <p>
+          Access the list of equations.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select each equal sign (=).
+
+
+
+
+
+
+
+
+
+.
+        </p>
+      </li>
+      <li>
+        <p>
+          Continue until all equations are deselected.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      To clear equations 
+    <ol>
+      <li>
+        <p>
+          Access the list of equations.
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the arrow keys to navigate to the right of each equal sign (=) and clear them.
+
+
+
+
+
+
+
+
+
+.
+        </p>
+      </li>
+      <li>
+        <p>
+          Repeat until all equations are deleted.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      To draw default histogram 
+    <ol>
+      <li>
+        <p>
+          Access the ZOOM menu.
+        </p>
+      </li>
+      <li>
+        <p>
+          Select &lt;9:ZoomStat&gt;.
+        </p>
+      </li>
+      <li>
+        <p>
+          The histogram will display with a window automatically set.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      To draw a custom histogram 
+    <ol>
+      <li>
+        <p>
+          Access window mode to set the graph parameters.   
+        </p>
+      </li>
+      <li>
+        <p>
+           
+        <ul>
+          <li>
+            <p>
+                
+            </p>
+          </li>
+          <li>
+            <p>
+                
+            </p>
+          </li>
+          <li>
+            <p>
+                (width of bars)
+            </p>
+          </li>
+          <li>
+            <p>
+                
+            </p>
+          </li>
+          <li>
+            <p>
+                
+            </p>
+          </li>
+          <li>
+            <p>
+                (spacing of tick marks on <em>y</em> -axis)
+            </p>
+          </li>
+          <li>
+            <p>
+                
+            </p>
+          </li>
+        </ul> 
+        </p>
+      </li>
+      <li>
+        <p>
+            
+        </p>
+      </li>
+      <li>
+        <p>
+            
+        </p>
+      </li>
+      <li>
+        <p>
+            (width of bars)
+        </p>
+      </li>
+      <li>
+        <p>
+            
+        </p>
+      </li>
+      <li>
+        <p>
+            
+        </p>
+      </li>
+      <li>
+        <p>
+            (spacing of tick marks on <em>y</em> -axis)
+        </p>
+      </li>
+      <li>
+        <p>
+            
+        </p>
+      </li>
+      <li>
+        <p>
+          Access graphing mode to see the histogram.   
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      To draw box plots 
+    <ol>
+      <li>
+        <p>
+          Access graphing mode.
+
+
+ , [STAT PLOT]. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Select &lt;1:Plot 1&gt; to access the first graph. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the arrows to select &lt;ON&gt; and turn on Plot 1. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the arrows to select the box plot picture and enable it. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the arrows to navigate to &lt;Xlist&gt; .
+        </p>
+      </li>
+      <li>
+        <p>
+          If [L1] is not selected, select it.
+
+
+ , [L1] ,
+
+
+
+. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Use the arrows to navigate to &lt;Freq&gt; .
+        </p>
+      </li>
+      <li>
+        <p>
+          Indicate that the frequencies are in [L2].
+
+
+ , [L2] ,
+
+
+
+. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Go back to access other graphs.
+
+
+ , [STAT PLOT]. 
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Be sure to deselect or clear all equations before graphing</em> using the method mentioned above.
+        </p>
+      </li>
+      <li>
+        <p>
+          View the box plot.
+
+
+ , [STAT PLOT]. 
+        </p>
+      </li>
+    </ol>
+    </p>
+  </section>
+
+  <section xml:id="fs-id14569516">
+    <title>Linear Regression</title>
+  </section>
+
+  <section xml:id="fs-id5169011">
+    <title>TI-83, 83+, 84, 84+ instructions for distributions and tests</title>
+  </section>
+
+</appendix>

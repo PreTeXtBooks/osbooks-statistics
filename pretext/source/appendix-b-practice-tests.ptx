@@ -1,0 +1,2144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Appendix B: Practice Tests (1-4) and Final Exams -->
+<appendix xml:id="appendix-b-practice-tests" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Practice Tests (1-4) and Final Exams</title>
+
+  <section xml:id="fs-id1167205437366">
+    <title>Practice Test 1</title>
+  </section>
+
+  <section xml:id="eip-396">
+    <title>Practice Test 1 Solutions</title>
+  </section>
+
+  <section xml:id="eip-220">
+    <title>Practice Test 2</title>
+  </section>
+
+  <section xml:id="eip-730">
+    <title>Practice Test 2 Solutions</title>
+  </section>
+
+  <section xml:id="eip-661">
+    <title>Practice Test 3</title>
+  </section>
+
+  <section xml:id="eip-526">
+    <title>Practice Test 3 Solutions</title>
+  </section>
+
+  <section xml:id="eip-137">
+    <title>Practice Test 4</title>
+  </section>
+
+  <section xml:id="eip-807">
+    <title>Practice Test 4 Solutions</title>
+  </section>
+
+  <section xml:id="eip-74">
+    <title>Practice Final Exam 1</title>
+    <p>
+      <em>Use the following information to answer the next two exercises.</em> An experiment consists of tossing two, 12-sided dice (the numbers 1–12 are printed on the sides of each die). 
+    <ul>
+      <li>
+        <p>
+          Let Event <em>A</em> = both dice show an even number.
+        </p>
+      </li>
+      <li>
+        <p>
+          Let Event <em>B</em> = both dice show a number greater than eight
+        </p>
+      </li>
+    </ul>
+    </p>
+    <p>
+      <em>1</em> . Events <em>A</em> and <em>B</em> are 
+    <ol>
+      <li>
+        <p>
+          Mutually exclusive
+        </p>
+      </li>
+      <li>
+        <p>
+          Independent
+        </p>
+      </li>
+      <li>
+        <p>
+          Mutually exclusive and independent
+        </p>
+      </li>
+      <li>
+        <p>
+          Neither mutually exclusive nor independent
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>2</em> . Find <em>P</em> ( <em>A</em> | <em>B</em> ). 
+    <ol>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>3</em> . Which of the following are TRUE when we perform a hypothesis test on matched or paired samples? 
+    <ol>
+      <li>
+        <p>
+          Sample sizes are almost never small.
+        </p>
+      </li>
+      <li>
+        <p>
+          Two measurements are drawn from the same pair of individuals or objects.
+        </p>
+      </li>
+      <li>
+        <p>
+          Two sample means are compared to each other.
+        </p>
+      </li>
+      <li>
+        <p>
+          Answer choices b and c are both true.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next two exercises.</em> One hundred eighteen students were asked what type of color their bedrooms were painted: light colors, dark colors, or vibrant colors. The results were tabulated according to gender. Light colors
+              Dark colors
+              Vibrant colors
+            
+            
+              Female
+              20
+              22
+              28
+            
+            
+              Male
+              10
+              30
+              8
+    </p>
+    <p>
+      <em>4</em> . Find the probability that a randomly chosen student is male or has a bedroom painted with light colors. 
+    <ol>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>5</em> . Find the probability that a randomly chosen student is male given the student’s bedroom is painted with dark colors. 
+    <ol>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next two exercises.</em> We are interested in the number of times a teenager must be reminded to do his or her chores each week. A survey of 40 mothers was conducted.  shows the results of the survey.
+    </p>
+    <table xml:id="table-140237254675888">
+      <tabular>
+        <row header="yes">
+          <cell>x</cell>
+          <cell>P (x)</cell>
+        </row>
+        <row>
+          <cell>0</cell>
+          <cell>2
+    40</cell>
+        </row>
+        <row>
+          <cell>1</cell>
+          <cell>5
+    40</cell>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell>14
+    40</cell>
+        </row>
+        <row>
+          <cell>4</cell>
+          <cell>7
+    40</cell>
+        </row>
+        <row>
+          <cell>5</cell>
+          <cell>4
+    40</cell>
+        </row>
+      </tabular>
+    </table>
+    <p>
+      <em>6</em> . Find the probability that a teenager is reminded two times. 
+    <ol>
+      <li>
+        <p>
+          8
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          2
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>7</em> . Find the expected number of times a teenager is reminded to do his or her chores. 
+    <ol>
+      <li>
+        <p>
+          15
+        </p>
+      </li>
+      <li>
+        <p>
+          2.78
+        </p>
+      </li>
+      <li>
+        <p>
+          1.0
+        </p>
+      </li>
+      <li>
+        <p>
+          3.13
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next two exercises.</em> On any given day, approximately 37.5 percent of the cars parked in the De Anza parking garage are parked crookedly. We randomly survey 22 cars. We are interested in the number of cars that are parked crookedly.
+    </p>
+    <p>
+      <em>8</em> . For every 22 cars, how many would you expect to be parked crookedly, on average? 
+    <ol>
+      <li>
+        <p>
+          8.25
+        </p>
+      </li>
+      <li>
+        <p>
+          11
+        </p>
+      </li>
+      <li>
+        <p>
+          18
+        </p>
+      </li>
+      <li>
+        <p>
+          7.5
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>9</em> . What is the probability that at least 10 of the 22 cars are parked crookedly? 
+    <ol>
+      <li>
+        <p>
+          0.1263
+        </p>
+      </li>
+      <li>
+        <p>
+          0.1607
+        </p>
+      </li>
+      <li>
+        <p>
+          0.2870
+        </p>
+      </li>
+      <li>
+        <p>
+          0.8393
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>10</em> . Using a sample of 15 Stanford-Binet IQ scores, we wish to conduct a hypothesis test. Our claim is that the mean IQ score on the Stanford-Binet IQ test is more than 100. It is known that the standard deviation of all Stanford-Binet IQ scores is 15 points. Which of the following is the correct distribution to use for the hypothesis test? 
+    <ol>
+      <li>
+        <p>
+          Binomial
+        </p>
+      </li>
+      <li>
+        <p>
+          Student&apos;s <em>t</em>
+        </p>
+      </li>
+      <li>
+        <p>
+          Normal
+        </p>
+      </li>
+      <li>
+        <p>
+          Uniform
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next three exercises.</em> De Anza College keeps statistics on the pass rate of students who enroll in math classes. In a sample of 1,795 students enrolled in Math 1A (1st quarter calculus), 1,428 passed the course. In a sample of 856 students enrolled in Math 1B (2nd quarter calculus), 662 passed. In general, are the pass rates of Math 1A and Math 1B statistically the same? Let A = the subscript for Math 1A and B = the subscript for Math 1B.
+    </p>
+    <p>
+      <em>11</em> . If you were to conduct an appropriate hypothesis test, the alternate hypothesis would be 
+    <ol>
+      <li>
+        <p>
+          <em>Ha</em> : <em>pA</em> = <em>pB</em> 
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Ha</em> : <em>pA</em> &gt; <em>pB</em> 
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Ho</em> : <em>pA</em> = <em>pB</em> 
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Ha</em> : <em>pA</em> ≠ <em>pB</em> 
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>12</em> . The Type I error is to 
+    <ol>
+      <li>
+        <p>
+          conclude that the pass rate for Math 1A is the same as the pass rate for Math 1B when, in fact, the pass rates are different.
+        </p>
+      </li>
+      <li>
+        <p>
+          conclude that the pass rate for Math 1A is different than the pass rate for Math 1B when, in fact, the pass rates are the same.
+        </p>
+      </li>
+      <li>
+        <p>
+          conclude that the pass rate for Math 1A is greater than the pass rate for Math 1B when, in fact, the pass rate for Math 1A is less than the pass rate for Math 1B.
+        </p>
+      </li>
+      <li>
+        <p>
+          conclude that the pass rate for Math 1A is the same as the pass rate for Math 1B when, in fact, they are the same.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>13</em> . The correct decision is to 
+    <ol>
+      <li>
+        <p>
+          reject <em>H0</em> .
+        </p>
+      </li>
+      <li>
+        <p>
+          not reject <em>H0</em> .
+        </p>
+      </li>
+      <li>
+        <p>
+          There is not enough information given to conduct the hypothesis test.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      Kia, Alejandra, and Iris are runners on the track teams at three different schools. Their running times, in minutes, and the statistics for the track teams at their respective schools, for a one mile run, are given in the table below:
+    </p>
+    <table xml:id="table-140237254688608">
+      <tabular>
+        <row header="yes">
+          <cell></cell>
+          <cell>Running Time</cell>
+          <cell>School Average Running Time</cell>
+          <cell>School Standard Deviation</cell>
+        </row>
+        <row>
+          <cell>Kia</cell>
+          <cell>4.9</cell>
+          <cell>5.2</cell>
+          <cell>0.15</cell>
+        </row>
+        <row>
+          <cell>Alejandra</cell>
+          <cell>4.2</cell>
+          <cell>4.6</cell>
+          <cell>0.25</cell>
+        </row>
+        <row>
+          <cell>Iris</cell>
+          <cell>4.5</cell>
+          <cell>4.9</cell>
+          <cell>0.12</cell>
+        </row>
+      </tabular>
+    </table>
+    <p>
+      <em>14</em> . Which student is the BEST when compared to the other runners at her school? 
+    <ol>
+      <li>
+        <p>
+          Kia
+        </p>
+      </li>
+      <li>
+        <p>
+          Alejandra
+        </p>
+      </li>
+      <li>
+        <p>
+          Iris
+        </p>
+      </li>
+      <li>
+        <p>
+          Impossible to determine
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next two exercises.</em> The following adult ski sweater prices are from the Gorsuch Ltd. Winter catalog: $212, $292, $278, $199, $280, $236.
+    </p>
+    <p>
+       Assume the underlying sweater price population is approximately normal. The null hypothesis is that the mean price of adult ski sweaters from Gorsuch Ltd. is at least $275.
+    </p>
+    <p>
+      <em>15</em> . Which of the following is the correct distribution to use for the hypothesis test? 
+    <ol>
+      <li>
+        <p>
+          Normal
+        </p>
+      </li>
+      <li>
+        <p>
+          Binomial
+        </p>
+      </li>
+      <li>
+        <p>
+          Student&apos;s <em>t</em>
+        </p>
+      </li>
+      <li>
+        <p>
+          Exponential
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>16</em> . The hypothesis test 
+    <ol>
+      <li>
+        <p>
+          is two-tailed.
+        </p>
+      </li>
+      <li>
+        <p>
+          is left-tailed.
+        </p>
+      </li>
+      <li>
+        <p>
+          is right-tailed.
+        </p>
+      </li>
+      <li>
+        <p>
+          has no tails.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>17</em> . Sara, a statistics student, wanted to determine the mean number of books that college professors have in their office. She randomly selected two buildings on campus and asked each professor in the selected buildings how many books are in his or her office. Sara surveyed 25 professors. The type of sampling selected is 
+    <ol>
+      <li>
+        <p>
+          simple random sampling.
+        </p>
+      </li>
+      <li>
+        <p>
+          systematic sampling.
+        </p>
+      </li>
+      <li>
+        <p>
+          cluster sampling.
+        </p>
+      </li>
+      <li>
+        <p>
+          stratified sampling.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>18</em> . A clothing store would use which measure of the center of data when placing orders for the typical <em>middle</em> customer? 
+    <ol>
+      <li>
+        <p>
+          Mean
+        </p>
+      </li>
+      <li>
+        <p>
+          Median
+        </p>
+      </li>
+      <li>
+        <p>
+          Mode
+        </p>
+      </li>
+      <li>
+        <p>
+          IQR
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>19</em> . In a hypothesis test, the <em>p</em> -value is 
+    <ol>
+      <li>
+        <p>
+          the probability that an outcome of the data will happen purely by chance when the null hypothesis is true.
+        </p>
+      </li>
+      <li>
+        <p>
+          called the preconceived alpha.
+        </p>
+      </li>
+      <li>
+        <p>
+          compared to beta to decide whether to reject or not reject the null hypothesis.
+        </p>
+      </li>
+      <li>
+        <p>
+          Answer choices A and B are both true.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>Use the following information to answer the next three exercises.</em> A community college offers classes six days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her five classes she randomly selected 10 students and asked them how many days they come to campus for classes.
+
+Each of her classes are the same size.
+
+The results of her survey are summarized in  . Number of Days on Campus
+              Frequency
+              Relative Frequency
+              Cumulative Relative Frequency
+            
+
+
+
+            
+              1
+              2
+              
+              
+            
+            
+              2
+              12
+              .24
+              
+            
+            
+              3
+              10
+              .20
+              
+            
+            
+              4
+              
+              
+              .98
+            
+            
+              5
+              0
+              
+              
+            
+            
+              6
+              1
+              .02
+              1
+    </p>
+    <p>
+      <em>20</em> . Combined with convenience sampling, what other sampling technique did Maria use? 
+    <ol>
+      <li>
+        <p>
+          Simple random
+        </p>
+      </li>
+      <li>
+        <p>
+          Systematic
+        </p>
+      </li>
+      <li>
+        <p>
+          Cluster
+        </p>
+      </li>
+      <li>
+        <p>
+          Stratified
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>21</em> . How many students come to campus for classes four days a week? 
+    <ol>
+      <li>
+        <p>
+          49
+        </p>
+      </li>
+      <li>
+        <p>
+          25
+        </p>
+      </li>
+      <li>
+        <p>
+          30
+        </p>
+      </li>
+      <li>
+        <p>
+          13
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>22</em> . What is the 60 th percentile for this data? 
+    <ol>
+      <li>
+        <p>
+          2
+        </p>
+      </li>
+      <li>
+        <p>
+          3
+        </p>
+      </li>
+      <li>
+        <p>
+          4
+        </p>
+      </li>
+      <li>
+        <p>
+          5
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>Use the following information to answer the next two exercises.</em> The following data are the results of a random survey of 110 reservists called to active duty to increase security at California airports. Number of Dependents
+              Frequency
+            
+          
+          
+            
+              0
+              11
+            
+            
+              1
+              27
+            
+            
+              2
+              33
+            
+            
+              3
+              20
+            
+            
+              4
+              19
+    </p>
+    <p>
+      <em>23</em> . Construct a 95 percent confidence interval for the true population mean number of dependents of reservists called to active duty to increase security at California airports. 
+    <ol>
+      <li>
+        <p>
+          (1.85, 2.32)
+        </p>
+      </li>
+      <li>
+        <p>
+          (1.80, 2.36)
+        </p>
+      </li>
+      <li>
+        <p>
+          (1.97, 2.46)
+        </p>
+      </li>
+      <li>
+        <p>
+          (1.92, 2.50)
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>24</em> . The 95 percent confidence interval above means: 
+    <ol>
+      <li>
+        <p>
+          Five percent of confidence intervals constructed this way will not contain the true population aveage number of dependents.
+        </p>
+      </li>
+      <li>
+        <p>
+          We are 95 percent confident the true population mean number of dependents falls in the interval.
+        </p>
+      </li>
+      <li>
+        <p>
+          Both of the above answer choices are correct.
+        </p>
+      </li>
+      <li>
+        <p>
+          None of the above.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>25</em> . <em>X</em> ~ <em>U</em> (4, 10). Find the 30 th percentile. 
+    <ol>
+      <li>
+        <p>
+          0.3000
+        </p>
+      </li>
+      <li>
+        <p>
+          3
+        </p>
+      </li>
+      <li>
+        <p>
+          5.8
+        </p>
+      </li>
+      <li>
+        <p>
+          6.1
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>26</em> . If <em>X</em> ~ <em>Ex</em> p(0.8), then <em>P</em> ( <em>x</em> &lt; <em>μ</em> ) = — 
+    <ol>
+      <li>
+        <p>
+          0.3679
+        </p>
+      </li>
+      <li>
+        <p>
+          0.4727
+        </p>
+      </li>
+      <li>
+        <p>
+          0.6321
+        </p>
+      </li>
+      <li>
+        <p>
+          cannot be determined
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>27</em> . The lifetime of a computer circuit board is normally distributed with a mean of 2,500 hours and a standard deviation of 60 hours. What is the probability that a randomly chosen board will last at most 2,560 hours? 
+    <ol>
+      <li>
+        <p>
+          0.8413
+        </p>
+      </li>
+      <li>
+        <p>
+          0.1587
+        </p>
+      </li>
+      <li>
+        <p>
+          0.3461
+        </p>
+      </li>
+      <li>
+        <p>
+          0.6539
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>28</em> . A survey of 123 reservists called to active duty as a result of the September 11, 2001, attacks was conducted to determine the proportion that were married. Eighty-six reported being married. Construct a 98 percent confidence interval for the true population proportion of reservists called to active duty that are married. 
+    <ol>
+      <li>
+        <p>
+          (0.6030, 0.7954)
+        </p>
+      </li>
+      <li>
+        <p>
+          (0.6181, 0.7802)
+        </p>
+      </li>
+      <li>
+        <p>
+          (0.5927, 0.8057)
+        </p>
+      </li>
+      <li>
+        <p>
+          (0.6312, 0.7672)
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>29</em> . Winning times in 26 mile marathons run by world class runners average 145 minutes with a standard deviation of 14 minutes. A sample of the last 10 marathon winning times is collected. Let <em>x</em> = mean winning times for 10 marathons. The distribution for <em>x</em> is 
+    <ol>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+           
+        </p>
+      </li>
+      <li>
+        <p>
+           
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>30</em> . Suppose that Phi Beta Kappa honors the top 1 percent of college and university seniors. Assume that grade point means (GPA) at a certain college are normally distributed with a 2.5 mean and a standard deviation of 0.5. What would be the minimum GPA needed to become a member of Phi Beta Kappa at that college? 
+    <ol>
+      <li>
+        <p>
+          3.99
+        </p>
+      </li>
+      <li>
+        <p>
+          1.34
+        </p>
+      </li>
+      <li>
+        <p>
+          3.00
+        </p>
+      </li>
+      <li>
+        <p>
+          3.66
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      The number of people living on American farms has declined steadily during the 20 th century. Here are data on the farm population (in millions of persons) from 1935 to 1980.
+    </p>
+    <table xml:id="table-140237254810000">
+      <tabular>
+        <row header="yes">
+          <cell>Year</cell>
+          <cell>1935</cell>
+          <cell>1940</cell>
+          <cell>1945</cell>
+          <cell>1950</cell>
+          <cell>1955</cell>
+          <cell>1960</cell>
+          <cell>1965</cell>
+          <cell>1970</cell>
+          <cell>1975</cell>
+          <cell>1980</cell>
+        </row>
+        <row>
+          <cell>Population</cell>
+          <cell>32.1</cell>
+          <cell>30.5</cell>
+          <cell>24.4</cell>
+          <cell>23</cell>
+          <cell>19.1</cell>
+          <cell>15.6</cell>
+          <cell>12.4</cell>
+          <cell>9.7</cell>
+          <cell>8.9</cell>
+          <cell>7.2</cell>
+        </row>
+      </tabular>
+    </table>
+    <p>
+      <em>31</em> . The linear regression equation is  = 1166.93 – 0.5868 <em>x</em> . What was the expected farm population in millions of persons for 1980? 
+    <ol>
+      <li>
+        <p>
+          7.2
+        </p>
+      </li>
+      <li>
+        <p>
+          5.1
+        </p>
+      </li>
+      <li>
+        <p>
+          6
+        </p>
+      </li>
+      <li>
+        <p>
+          8
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>32</em> . In linear regression, which is the best possible <em>SSE</em> ? 
+    <ol>
+      <li>
+        <p>
+          13.46
+        </p>
+      </li>
+      <li>
+        <p>
+          18.22
+        </p>
+      </li>
+      <li>
+        <p>
+          24.05
+        </p>
+      </li>
+      <li>
+        <p>
+          16.33
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>33</em> . In regression analysis, if the correlation coefficient is close to one, what can be said about the best fit line? 
+    <ol>
+      <li>
+        <p>
+          It is a horizontal line. Therefore, we cannot use it.
+        </p>
+      </li>
+      <li>
+        <p>
+          There is a strong linear pattern. Therefore, it is most likely a good model to be used.
+        </p>
+      </li>
+      <li>
+        <p>
+          The coefficient correlation is close to the limit. Therefore, it is hard to make a decision.
+        </p>
+      </li>
+      <li>
+        <p>
+          We do not have the equation. Therefore, we cannot say anything about it.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next three exercises.</em> A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.
+    </p>
+    <table xml:id="table-140237254814880">
+      <tabular>
+        <row header="yes">
+          <cell></cell>
+          <cell>Female</cell>
+          <cell>Male</cell>
+        </row>
+        <row>
+          <cell>Accounting</cell>
+          <cell>68</cell>
+          <cell>56</cell>
+        </row>
+        <row>
+          <cell>Administration</cell>
+          <cell>91</cell>
+          <cell>40</cell>
+        </row>
+        <row>
+          <cell>Economics</cell>
+          <cell>5</cell>
+          <cell>6</cell>
+        </row>
+        <row>
+          <cell>Finance</cell>
+          <cell>61</cell>
+          <cell>59</cell>
+        </row>
+      </tabular>
+    </table>
+    <p>
+      <em>34</em> . The distribution for the test is 
+    <ol>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>35</em> . The expected number of females who choose finance is 
+    <ol>
+      <li>
+        <p>
+          37.
+        </p>
+      </li>
+      <li>
+        <p>
+          61.
+        </p>
+      </li>
+      <li>
+        <p>
+          60.
+        </p>
+      </li>
+      <li>
+        <p>
+          70.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>36</em> . The <em>p</em> -value is 0.0127 and the level of significance is 0.05. The conclusion to the test is: 
+    <ol>
+      <li>
+        <p>
+          there is insufficient evidence to conclude that the choice of major and the gender of the student are not independent of each other.
+        </p>
+      </li>
+      <li>
+        <p>
+          there is sufficient evidence to conclude that the choice of major and the gender of the student are not independent of each other.
+        </p>
+      </li>
+      <li>
+        <p>
+          there is sufficient evidence to conclude that students find economics very hard.
+        </p>
+      </li>
+      <li>
+        <p>
+          there is in sufficient evidence to conclude that more females prefer administration than males.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>37</em> . An agency reported that the work force nationwide is composed of 10 percent professional, 10 percent clerical, 30 percent skilled, 15 percent service, and 35 percent semiskilled laborers. A random sample of 100 San Jose residents indicated 15 professional, 15 clerical, 40 skilled, 10 service, and 20 semiskilled laborers. At <em>α</em> = 0.10, does the work force in San Jose appear to be consistent with the agency report for the nation? Which kind of test is it? 
+    <ol>
+      <li>
+        <p>
+          Chi 2 goodness of fit
+        </p>
+      </li>
+      <li>
+        <p>
+          Chi 2 test of independence
+        </p>
+      </li>
+      <li>
+        <p>
+          Independent groups proportions
+        </p>
+      </li>
+      <li>
+        <p>
+          Unable to determine
+        </p>
+      </li>
+    </ol>
+    </p>
+  </section>
+
+  <section xml:id="eip-571">
+    <title>Practice Final Exam 1 Solutions</title>
+  </section>
+
+  <section xml:id="eip-779">
+    <title>Practice Final Exam 2</title>
+    <p>
+      <em>1</em> . A study was done to determine the proportion of teenagers that own a car. The population proportion of teenagers that own a car is the 
+    <ol>
+      <li>
+        <p>
+          statistic.
+        </p>
+      </li>
+      <li>
+        <p>
+          parameter.
+        </p>
+      </li>
+      <li>
+        <p>
+          population.
+        </p>
+      </li>
+      <li>
+        <p>
+          variable.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next two exercises.</em>
+    </p>
+    <table xml:id="table-140237254882736">
+      <tabular>
+        <row header="yes">
+          <cell>value</cell>
+          <cell>frequency</cell>
+        </row>
+        <row>
+          <cell>0</cell>
+          <cell>1</cell>
+        </row>
+        <row>
+          <cell>1</cell>
+          <cell>4</cell>
+        </row>
+        <row>
+          <cell>2</cell>
+          <cell>7</cell>
+        </row>
+        <row>
+          <cell>3</cell>
+          <cell>9</cell>
+        </row>
+        <row>
+          <cell>6</cell>
+          <cell>4</cell>
+        </row>
+      </tabular>
+    </table>
+    <p>
+      <em>2</em> . The box plot for the data is
+    </p>
+    <p>
+      <em>3</em> . If six were added to each value of the data in the table, the 15th percentile of the new list of values is would be 
+    <ol>
+      <li>
+        <p>
+          six
+        </p>
+      </li>
+      <li>
+        <p>
+          one
+        </p>
+      </li>
+      <li>
+        <p>
+          seven
+        </p>
+      </li>
+      <li>
+        <p>
+          eight
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next two exercises.</em> Suppose that the probability of a drought in any independent year is 20 percent. Out of those years in which a drought occurs, the probability of water rationing is 10 percent. However, in any year, the probability of water rationing is 5 percent.
+    </p>
+    <p>
+      <em>4</em> . What is the probability of both a drought and water rationing occurring? 
+    <ol>
+      <li>
+        <p>
+          0.05
+        </p>
+      </li>
+      <li>
+        <p>
+          0.01
+        </p>
+      </li>
+      <li>
+        <p>
+          0.02
+        </p>
+      </li>
+      <li>
+        <p>
+          0.30
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>5</em> . Which of the following is true? 
+    <ol>
+      <li>
+        <p>
+          Drought and water rationing are independent events.
+        </p>
+      </li>
+      <li>
+        <p>
+          Drought and water rationing are mutually exclusive events.
+        </p>
+      </li>
+      <li>
+        <p>
+          None of the above.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next two exercises.</em> Suppose that a survey yielded the following data: Favorite Pie
+
+          
+          
+          
+          
+            
+              gender
+              apple
+              pumpkin
+              pecan
+            
+
+
+            
+              female
+              40
+              10
+              30
+            
+            
+              male
+              20
+              30
+              10 
+    </p>
+    <p>
+      <em>6</em> . Suppose that one individual is randomly chosen. The probability that the person’s favorite pie is apple or the person is male is — 
+    <ol>
+      <li>
+        <p>
+           
+        </p>
+      </li>
+      <li>
+        <p>
+           
+        </p>
+      </li>
+      <li>
+        <p>
+           
+        </p>
+      </li>
+      <li>
+        <p>
+           
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>7</em> . Suppose <em>H0</em> is favorite pie and gender are independent. The <em>p</em> -value is — 
+    <ol>
+      <li>
+        <p>
+          ≈ 0
+        </p>
+      </li>
+      <li>
+        <p>
+          1
+        </p>
+      </li>
+      <li>
+        <p>
+          0.05
+        </p>
+      </li>
+      <li>
+        <p>
+          Cannot be determined
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next two exercises.</em> Let’s say that the probability that an adult watches the news at least once per week is 0.60. We randomly survey 14 people. Of interest is the number of people who watch the news at least once per week.
+    </p>
+    <p>
+      <em>8</em> . Which of the following statements is FALSE? 
+    <ol>
+      <li>
+        <p>
+          <em>X</em> ~ <em>B</em> (14 0.60)
+        </p>
+      </li>
+      <li>
+        <p>
+          The values for <em>x</em> are {1, 2, 3, . . . 14}.
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>μ</em> = 8.4
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>P</em> ( <em>X</em> = 5) = 0.0408
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>9</em> . Find the probability that at least six adults watch the news at least once per week. 
+    <ol>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          0.8499
+        </p>
+      </li>
+      <li>
+        <p>
+          0.9417
+        </p>
+      </li>
+      <li>
+        <p>
+          0.6429
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>10</em> . The following histogram is most likely to be a result of sampling from which distribution?  
+    <ol>
+      <li>
+        <p>
+          Chi-square with <em>df</em> = 6
+        </p>
+      </li>
+      <li>
+        <p>
+          Exponential
+        </p>
+      </li>
+      <li>
+        <p>
+          Uniform
+        </p>
+      </li>
+      <li>
+        <p>
+          Binomial
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>11</em> . The ages of campus day and evening students is known to be normally distributed. A sample of six campus day and evening students reported their ages (in years) as {18, 35, 27, 45, 20, 20}. What is the error bound for the 90 percent confidence interval of the true average age? 
+    <ol>
+      <li>
+        <p>
+          11.2
+        </p>
+      </li>
+      <li>
+        <p>
+          22.3
+        </p>
+      </li>
+      <li>
+        <p>
+          17.5
+        </p>
+      </li>
+      <li>
+        <p>
+          8.7
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>12</em> . If a normally distributed random variable has <em>µ</em> = 0 and <em>σ</em> = 1, then 97.5 percent of the population values lie above 
+    <ol>
+      <li>
+        <p>
+          –1.96
+        </p>
+      </li>
+      <li>
+        <p>
+          1.96
+        </p>
+      </li>
+      <li>
+        <p>
+          1
+        </p>
+      </li>
+      <li>
+        <p>
+          –1
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next three exercises.</em> The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the average amount of money a customer spends in one trip to the supermarket is $72.
+    </p>
+    <p>
+      <em>13</em> . What is the probability that one customer spends less than $72 in one trip to the supermarket? 
+    <ol>
+      <li>
+        <p>
+          0.6321
+        </p>
+      </li>
+      <li>
+        <p>
+          0.5000
+        </p>
+      </li>
+      <li>
+        <p>
+          0.3714
+        </p>
+      </li>
+      <li>
+        <p>
+          1
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>14</em> . How much money altogether would you expect the next five customers to spend in one trip to the supermarket (in dollars)? 
+    <ol>
+      <li>
+        <p>
+          72
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          5184
+        </p>
+      </li>
+      <li>
+        <p>
+          360
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>15</em> . If you want to find the probability that the mean amount of money 50 customers spend in one trip to the supermarket is less than $60, the distribution to use is 
+    <ol>
+      <li>
+        <p>
+          <em>N</em> (72, 72)
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>Exp</em> (72)
+        </p>
+      </li>
+      <li>
+        <p>
+          
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next three exercises.</em> The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to 10 minutes.
+    </p>
+    <p>
+      <em>16</em> . What is the probability that a randomly chosen fourth grader takes more than seven minutes to take out the trash? 
+    <ol>
+      <li>
+        <p>
+           
+        </p>
+      </li>
+      <li>
+        <p>
+           
+        </p>
+      </li>
+      <li>
+        <p>
+           
+        </p>
+      </li>
+      <li>
+        <p>
+           
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>17</em> . Which graph best shows the probability that a randomly chosen fourth grader takes more than six minutes to take out the trash, given that he or she has already taken more than three minutes?
+    </p>
+    <p>
+      <em>18</em> . We should expect a fourth grader to take how many minutes to take out the trash? 
+    <ol>
+      <li>
+        <p>
+          4.5
+        </p>
+      </li>
+      <li>
+        <p>
+          5.5
+        </p>
+      </li>
+      <li>
+        <p>
+          5
+        </p>
+      </li>
+      <li>
+        <p>
+          10
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next three exercises.</em> At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5  minutes.
+    </p>
+    <p>
+      <em>19</em> . What is the 90th percentile of waiting times in minutes? 
+    <ol>
+      <li>
+        <p>
+          1.28
+        </p>
+      </li>
+      <li>
+        <p>
+          90
+        </p>
+      </li>
+      <li>
+        <p>
+          7.47
+        </p>
+      </li>
+      <li>
+        <p>
+          6.92
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>20</em> . The median waiting time in minutes for one student is 
+    <ol>
+      <li>
+        <p>
+          5
+        </p>
+      </li>
+      <li>
+        <p>
+          50
+        </p>
+      </li>
+      <li>
+        <p>
+          2.5
+        </p>
+      </li>
+      <li>
+        <p>
+          1.5
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>21</em> . Find the probability that the average wait time for ten students is at most 5.5 minutes. 
+    <ol>
+      <li>
+        <p>
+          0.6301
+        </p>
+      </li>
+      <li>
+        <p>
+          0.8541
+        </p>
+      </li>
+      <li>
+        <p>
+          0.3694
+        </p>
+      </li>
+      <li>
+        <p>
+          0.1459
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>22</em> . A sample of 80 software engineers in Silicon Valley is taken, and it is found that 20 percent of them earn approximately $50,000 per year. A point estimate for the true proportion of engineers in Silicon Valley who earn $50,000 per year is 
+    <ol>
+      <li>
+        <p>
+          16
+        </p>
+      </li>
+      <li>
+        <p>
+          0.2
+        </p>
+      </li>
+      <li>
+        <p>
+          1
+        </p>
+      </li>
+      <li>
+        <p>
+          0.95
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>23</em> . If <em>P</em> ( <em>Z</em> &lt; <em>zα</em> ) = 0.1587 where <em>Z</em> ~ <em>N</em> (0, 1), then <em>α</em> is equal to 
+    <ol>
+      <li>
+        <p>
+          –1
+        </p>
+      </li>
+      <li>
+        <p>
+          0.1587
+        </p>
+      </li>
+      <li>
+        <p>
+          0.8413
+        </p>
+      </li>
+      <li>
+        <p>
+          1
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>24</em> . A professor tested 35 students to determine their entering skills. At the end of the term, after completing the course, the same test was administered to the same 35 students to study their improvement. This would be a test of 
+    <ol>
+      <li>
+        <p>
+          independent groups
+        </p>
+      </li>
+      <li>
+        <p>
+          two proportions
+        </p>
+      </li>
+      <li>
+        <p>
+          matched pairs, dependent groups
+        </p>
+      </li>
+      <li>
+        <p>
+          exclusive groups
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      A math exam was given to all the third-grade children attending ABC School. Two random samples of scores were taken.
+    </p>
+    <table xml:id="table-140237254976400">
+      <tabular>
+        <row header="yes">
+          <cell></cell>
+          <cell>n</cell>
+          <cell>x
+  ¯</cell>
+          <cell>s</cell>
+        </row>
+        <row>
+          <cell>Boys</cell>
+          <cell>55</cell>
+          <cell>82</cell>
+          <cell>5</cell>
+        </row>
+        <row>
+          <cell>Girls</cell>
+          <cell>60</cell>
+          <cell>86</cell>
+          <cell>7</cell>
+        </row>
+      </tabular>
+    </table>
+    <p>
+      <em>25</em> . Which of the following correctly describes the results of a hypothesis test of the claim, “There is a difference between the mean scores obtained by third-grade girls and boys at the 5 percent level of significance”? 
+    <ol>
+      <li>
+        <p>
+          Do not reject <em>H0</em> . There is insufficient evidence to conclude that there is a difference in the mean scores.
+        </p>
+      </li>
+      <li>
+        <p>
+          Do not reject <em>H0</em> . There is sufficient evidence to conclude that there is a difference in the mean scores.
+        </p>
+      </li>
+      <li>
+        <p>
+          Reject <em>H0</em> . There is insufficient evidence to conclude that there is no difference in the mean scores.
+        </p>
+      </li>
+      <li>
+        <p>
+          Reject <em>H0</em> . There is sufficient evidence to conclude that there is a difference in the mean scores.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>26</em> . In a survey of 80 males, 45 had played an organized sport growing up. Of the 70 females surveyed, 25 had played an organized sport growing up. We are interested in whether the proportion for males is higher than the proportion for females. The correct conclusion is that 
+    <ol>
+      <li>
+        <p>
+          There is insufficient information to conclude that the proportion for males is the same as the proportion for females.
+        </p>
+      </li>
+      <li>
+        <p>
+          There is insufficient information to conclude that the proportion for males is not the same as the proportion for females.
+        </p>
+      </li>
+      <li>
+        <p>
+          There is sufficient evidence to conclude that the proportion for males is higher than the proportion for females.
+        </p>
+      </li>
+      <li>
+        <p>
+          There is not enough information to make a conclusion.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>27</em> . From past experience, a statistics teacher has found that the average score on a midterm is 81, with a standard deviation of 5.2. This term, a class of 49 students had a standard deviation of 5 on the midterm. Do the data indicate that we should reject the teacher’s claim that the standard deviation is 5.2? Use <em>α</em> = 0.05. 
+    <ol>
+      <li>
+        <p>
+          Yes
+        </p>
+      </li>
+      <li>
+        <p>
+          No
+        </p>
+      </li>
+      <li>
+        <p>
+          Not enough information given to solve the problem
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>28</em> . Three loading machines are being compared. Ten samples were taken for each machine. Machine I took an average of 31 minutes to load packages, with a standard deviation of two minutes. Machine II took an average of 28 minutes to load packages, with a standard deviation of 1.5 minutes. Machine III took an average of 29 minutes to load packages, with a standard deviation of one minute. Find the <em>p</em> -value when testing that the average loading times are the same. 
+    <ol>
+      <li>
+        <p>
+          <em>p</em> -value is close to zero
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>p</em> -value is close to one
+        </p>
+      </li>
+      <li>
+        <p>
+          Not enough information given to solve the problem
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+       <em>Use the following information to answer the next three exercises.</em> A corporation has offices in different parts of the country. It has gathered the following information concerning the number of bathrooms and the number of employees at seven sites: Number of employees x
+              650
+              730
+              810
+              900
+              102
+              107
+              1150
+            
+            
+              Number of bathrooms y
+              40
+              50
+              54
+              61
+              82
+              110
+              121
+    </p>
+    <p>
+      <em>29</em> . Is the correlation between the number of employees and the number of bathrooms significant? 
+    <ol>
+      <li>
+        <p>
+          Yes
+        </p>
+      </li>
+      <li>
+        <p>
+          No
+        </p>
+      </li>
+      <li>
+        <p>
+          Not enough information to answer question
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>30</em> . The linear regression equation is 
+    <ol>
+      <li>
+        <p>
+          <em>ŷ</em> = 0.0094 − 79.96 <em>x</em>
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>ŷ</em> = 79.96 + 0.0094 <em>x</em>
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>ŷ</em> = 79.96 − 0.0094 <em>x</em>
+        </p>
+      </li>
+      <li>
+        <p>
+          <em>ŷ</em> = −0.0094 + 79.96 <em>x</em>
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>31</em> . If a site has 1,150 employees, approximately how many bathrooms should it have? 
+    <ol>
+      <li>
+        <p>
+          69
+        </p>
+      </li>
+      <li>
+        <p>
+          91
+        </p>
+      </li>
+      <li>
+        <p>
+          91,954
+        </p>
+      </li>
+      <li>
+        <p>
+          We should not be estimating here.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>32</em> . Suppose that a sample of size 10 was collected, with  = 4.4 and <em>s</em> = 1.4. <em>H0</em> : <em>σ2</em> = 1.6 vs. <em>Ha</em> : <em>σ2</em> ≠ 1.6. Which graph best describes the results of the test?
+    </p>
+    <p>
+       
+    </p>
+    <p>
+      Sixty-four backpackers were asked the number of days since their latest backpacking trip. The number of days is given in  .
+    </p>
+    <table xml:id="table-140237255054480">
+      <tabular>
+        <row>
+          <cell># of days</cell>
+          <cell>1</cell>
+          <cell>2</cell>
+          <cell>3</cell>
+          <cell>4</cell>
+          <cell>5</cell>
+          <cell>6</cell>
+          <cell>7</cell>
+          <cell>8</cell>
+        </row>
+        <row>
+          <cell>Frequency</cell>
+          <cell>5</cell>
+          <cell>9</cell>
+          <cell>6</cell>
+          <cell>12</cell>
+          <cell>7</cell>
+          <cell>10</cell>
+          <cell>5</cell>
+          <cell>10</cell>
+        </row>
+      </tabular>
+    </table>
+    <p>
+      <em>33</em> . Conduct an appropriate test to determine if the distribution is uniform. 
+    <ol>
+      <li>
+        <p>
+          The <em>p</em> -value is &gt; 0.10. There is insufficient information to conclude that the distribution is not uniform.
+        </p>
+      </li>
+      <li>
+        <p>
+          The <em>p</em> -value is &lt; 0.01. There is sufficient information to conclude the distribution is not uniform.
+        </p>
+      </li>
+      <li>
+        <p>
+          The <em>p</em> -value is between 0.01 and 0.10, but without alpha ( <em>α</em> ) there is not enough information.
+        </p>
+      </li>
+      <li>
+        <p>
+          There is no such test that can be conducted.
+        </p>
+      </li>
+    </ol>
+    </p>
+    <p>
+      <em>34</em> . Which of the following statements is true when using one-way ANOVA? 
+    <ol>
+      <li>
+        <p>
+          The populations from which the samples are selected have different distributions.
+        </p>
+      </li>
+      <li>
+        <p>
+          The sample sizes are large.
+        </p>
+      </li>
+      <li>
+        <p>
+          The test is to determine if the different groups have the same means.
+        </p>
+      </li>
+      <li>
+        <p>
+          There is a correlation between the factors of the experiment.
+        </p>
+      </li>
+    </ol>
+    </p>
+  </section>
+
+  <section xml:id="eip-587">
+    <title>Practice Final Exam 2 Solutions</title>
+  </section>
+
+</appendix>

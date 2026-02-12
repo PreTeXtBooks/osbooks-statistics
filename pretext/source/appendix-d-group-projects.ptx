@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Appendix D: Group and Partner Projects -->
+<appendix xml:id="appendix-d-group-projects" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Group and Partner Projects</title>
+
+  <section xml:id="fs-id1168805567129">
+    <title>Univariate Data</title>
+  </section>
+
+  <section xml:id="eip-143">
+    <title>Continuous Distributions and Central Limit Theorem </title>
+  </section>
+
+  <section xml:id="eip-496">
+    <title>Hypothesis Testing-Article</title>
+  </section>
+
+  <section xml:id="eip-625">
+    <title>Bivariate Data, Linear Regression, and Univariate Data</title>
+  </section>
+
+</appendix>
