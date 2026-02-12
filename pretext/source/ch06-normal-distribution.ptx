@@ -74,7 +74,7 @@
           <p><m>z=\frac{1-12}{3}\approx-3.67</m></p>
         </statement>
       </exercise>
-      <example xml:id="element-305">
+      <example xml:id="ch06-element-305">
         <statement>
           <p>a. Suppose a person <em>lost</em> 10 pounds in a month. The <m>z</m>-score when <m>x</m> = 10 pounds is <m>z</m> = 2.5 (verify). This <m>z</m>-score tells you that <m>x</m> = 10 is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</p>
         </statement>
@@ -127,7 +127,7 @@
           </ol>
         </statement>
       </exercise>
-      <example xml:id="eip-953">
+      <example xml:id="ch06-eip-953">
         <statement>
           <p>From 1984 to 1985, the mean height of 15-to 18-year-old males from Chile was 172.36 cm, and the standard deviation was 6.34 cm. Let <m>Y</m> = the height of 15-to 18-year-old males from 19841985, and <m>y</m> = the height of one male from this group. Then <m>Y</m> ~ <m>N</m>(172.36, 6.34).</p>
           <p>The mean height of 15-to 18-year-old males from Chile in 20092010 was 170 cm with a standard deviation of 6.28 cm. Male heights are known to follow a normal distribution. Let <m>X</m> = the height of a 15-to 18-year-old male from Chile in 20092010,  and <m>x</m> = the height of one male from this group. Then <m>X</m> ~ <m>N</m>(170, 6.28).</p>
@@ -704,7 +704,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by 
           <p>normalcdf(10^{99},65,68,3) = 0.1587</p>
         </statement>
       </exercise>
-      <example xml:id="element-32">
+      <example xml:id="ch06-element-32">
         <statement>
           <p>a. Find the probability that a household personal computer is used for entertainment between 1.8 and 2.75 hours per day.</p>
         </statement>
@@ -989,7 +989,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-889">
+      <exercise xml:id="ch06-element-889">
         <statement>
           <p>Find the 70^{th} percentile of the distribution for the time a CD player lasts.</p>
           <ol>
@@ -1118,7 +1118,7 @@ probability statement.</li>
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="eip-967">
+      <exercise xml:id="ch06-eip-967">
         <statement>
           <p>Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet.</p>
           <ol>

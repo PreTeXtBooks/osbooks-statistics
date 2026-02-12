@@ -301,7 +301,7 @@
       <title>Qualitative Data Discussion</title>
       <p xml:id="eip-298">Below are tables comparing the number of part-time and full-time students at De Anza College and Foothill College enrolled for the spring 2010 quarter. The tables display counts, frequencies, and percentages or proportions, relative frequencies. For instance, to calculate the percentage of part time students at De Anza College, divide 9,200/22,496 to get .4089. Round to the nearest thousandth—third decimal place and then multiply by 100 to get the percentage, which is 40.9 percent.</p>
       <p xml:id="fs-id1164563494537">So, the percent columns make comparing the same categories in the colleges easier. Displaying percentages along with the numbers is often helpful, but it is particularly important when comparing sets of data that do not have the same totals, such as the total enrollments for both colleges in this example. Notice how much larger the percentage for part-time students at Foothill College is compared to De Anza College.</p>
-      <table xml:id="eip-953">
+      <table xml:id="ch01-eip-953">
         <tabular>
           <row header="yes">
             <cell>De Anza College</cell>
@@ -1347,7 +1347,7 @@
       70, 70, 70, 70, 70, 70, 70.5, 70.5, 70.5, 71, 71, 71,
       72, 72, 72, 72.5, 72.5, 73, 73.5,
       74</p>
-      <p xml:id="element-305"><xref ref="id9703284"/> summarizes the heights in this sample. Since heights are expressed in tenths, the frequency table will use labels measured in hundredths. This ensures that no data value will coincide with the upper or lower limit of an interval.</p>
+      <p xml:id="ch01-element-305"><xref ref="id9703284"/> summarizes the heights in this sample. Since heights are expressed in tenths, the frequency table will use labels measured in hundredths. This ensures that no data value will coincide with the upper or lower limit of an interval.</p>
       <table xml:id="id9703284">
         <tabular>
           <row header="yes">
@@ -1585,7 +1585,7 @@
       </exercise>
       <exploration xml:id="res">
         <p xml:id="id8661133">In your class, have someone conduct a survey of the number of siblings (brothers and sisters) each student has. Create a frequency table. Add to it a relative frequency column and a cumulative relative frequency column. Answer the following questions:</p>
-        <ol xml:id="element-889">
+        <ol xml:id="ch01-element-889">
           <li>What percentage of the students in your class have no siblings?</li>
           <li>What percentage of the students have from one to three siblings?</li>
           <li>What percentage of the students have fewer than three siblings?</li>

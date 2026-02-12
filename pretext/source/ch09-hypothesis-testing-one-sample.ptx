@@ -530,7 +530,7 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
           <p>A group of divers is exploring an old sunken ship. Suppose the null hypothesis, <em>H_{0}</em>, is the sunken ship does not contain buried treasure. State the Type I and Type II errors in complete sentences.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-967">
+      <exercise xml:id="ch09-eip-967">
         <statement>
           <p>A microbiologist is testing a water sample for E. coli. Suppose the null hypothesis, <em>H_{0}</em>, is the sample does not contain E. coli. The probability that the sample does not contain E. coli, but the microbiologist thinks it does is 0.012. The probability that the sample does contain E. coli, but the microbiologist thinks it does not is 0.002. What is the power of this test?</p>
         </statement>
