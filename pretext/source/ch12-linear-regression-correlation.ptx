@@ -580,12 +580,12 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
           <p>The slope is 1.99 (<m>b</m> = 1.99). It means that for every endorsement deal a professional player gets, he gets an average of another $1.99 million in pay each year.</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-723">
+      <exercise>
         <statement>
           <p>What is the <m>y</m>-intercept of the line of best fit? What does it represent?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-976">
+      <exercise>
         <statement>
           <p>What does an <m>r</m> value of zero mean?</p>
         </statement>
@@ -859,7 +859,7 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
       <p>After determining the presence of a strong correlation coefficient and calculating the line of best fit, you can use the least-squares regression line to make predictions about your data.</p>
     </subsection>
 
-    <subsection xml:id="eip-160">
+    <subsection>
       <p><em>Use the following information to answer the next two exercises</em>. An electronics retailer used regression to find a simple model to predict sales growth in the first quarter of the new year (January through March). The model is good for 90 days, where <m>x</m> is the day. The model can be written as <m>ŷ</m> = 101.32 + 2.48<m>x</m>, where <m>ŷ</m> is in thousands of dollars.</p>
       <exercise xml:id="eip-673">
         <statement>
@@ -897,7 +897,7 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </solution>
       </exercise>
       <p><em>Use the following information to answer the next 14 exercises</em>.  contains real data for the first two decades of flu reporting.</p>
-      <table xml:id="element-806">
+      <table>
         <tabular>
           <row><cell>Year</cell><cell>Number of Flu Cases Diagnosed</cell><cell>Number of Flu Deaths</cell></row>
           <row><cell>Pre-1981</cell><cell>91</cell><cell>29</cell></row>
@@ -1025,7 +1025,7 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
           <p>Graph <em>year</em> vs. <em>number flu cases diagnosed</em>. Do not include pre-1981. Label both axes with words. Scale both axes.</p>
         </statement>
       </exercise>
-      <exercise xml:id="element-54">
+      <exercise>
         <statement>
           <p>Enter your data into your calculator or computer. The pre-1981 data should not be included. Why is that so?</p>
           <p>Write the linear equation, rounding to four decimal places.</p>
