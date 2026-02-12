@@ -1856,7 +1856,7 @@ n
     </example>
 
     <note xml:id="fs-idm25803056">
-      <p>Go to <url href="m79717">Appendix G</url>. There are calculator instructions for entering data and for creating a customized histogram. Create the histogram for .</p>
+      <p>Go to <xref ref="appendix-g-calculator-notes">Appendix G</xref>. There are calculator instructions for entering data and for creating a customized histogram. Create the histogram for .</p>
       <ul>
         <li><p>Press Y=. Press CLEAR to delete any equations.</p></li>
         <li><p>Press STAT 1:EDIT. If L1 has data in it, arrow up into the name L1, press CLEAR and then arrow down. If necessary, do the same for L2.</p></li>
@@ -5993,7 +5993,7 @@ The symbol <m>
 
     <p>Sample variability occurs when multiple random samples are taken from the same population. For example, if I conduct four surveys of 50 people randomly selected from a given population, the differences in outcomes may be affected by sample variability.</p>
 
-    <p>The statistic of a sampling distribution was discussed in <url href="m79604">Descriptive Statistics: Measures of the Center of the Data</url>. How much the statistic varies from one sample to another is known as the  <term>sampling variability of a statistic</term>. You typically measure the sampling variability of a statistic by its standard error. The <em>standard error of the mean</em> is an example of a standard error. The standard error is the standard deviation of the sampling distribution. In other words, it is the average standard deviation that results from repeated sampling. You will cover the standard error of the mean in the chapter <url href="m79647">The Central Limit Theorem</url> (not now). The notation for the standard error of the mean is <m>\frac{σ}{\sqrt{n}}</m>, where <em>σ</em> is the standard deviation of the population and <em>n</em> is the size of the sample.</p>
+    <p>The statistic of a sampling distribution was discussed in <xref ref="ch02-descriptive-statistics">Descriptive Statistics: Measures of the Center of the Data</xref>. How much the statistic varies from one sample to another is known as the  <term>sampling variability of a statistic</term>. You typically measure the sampling variability of a statistic by its standard error. The <em>standard error of the mean</em> is an example of a standard error. The standard error is the standard deviation of the sampling distribution. In other words, it is the average standard deviation that results from repeated sampling. You will cover the standard error of the mean in the chapter <xref ref="ch07-central-limit-theorem">The Central Limit Theorem</xref> (not now). The notation for the standard error of the mean is <m>\frac{σ}{\sqrt{n}}</m>, where <em>σ</em> is the standard deviation of the population and <em>n</em> is the size of the sample.</p>
 
     <note xml:id="id7166567">
       <title>NOTE</title>

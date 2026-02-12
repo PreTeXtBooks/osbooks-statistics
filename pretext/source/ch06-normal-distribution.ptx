@@ -655,7 +655,7 @@ Kyles’s systolic blood pressure is 1.75 standard deviations above the average 
       <p>Probabilities are calculated using technology. There are instructions given as necessary for the TI-83+ and TI-84 calculators.</p>
       <note xml:id="id1168986691838">
         <title>NOTE</title>
-        <p>To calculate the probability, use the probability tables provided in <url href="m79718"></url> without the use of technology. The tables include instructions for how to use them.</p>
+        <p>To calculate the probability, use the probability tables provided in <xref ref="appendix-h-tables"/> without the use of technology. The tables include instructions for how to use them.</p>
         <p>The probability is represented by the area under the normal curve. To find the probability, calculate the <m>z</m>-score and look up the <m>z</m>-score in the z-table under the <m>z</m>-column. Most <m>z</m>-tables show the area under the normal curve to the left of <m>z</m>. Others show the mean to <m>z</m> area. The method used will be indicated on the table.</p>
         <p>We will discuss the <m>z</m>-table that represents the area under the normal curve to the left of <m>z</m>. Once you have located the <m>z</m>-score, locate the corresponding area. This will be the area under the normal curve, to the left of the <m>z</m>-score. This area can be used to find the area to the right of the <m>z</m>-score, or by subtracting from 1 or the total area under the normal curve. These areas can also be used to determine the area between two <m>z</m>-scores.</p>
       </note>
@@ -1519,7 +1519,7 @@ Using the theoretical distribution, complete the following statements. You shoul
           <li>The student will compare and contrast empirical data and a theoretical distribution to determine if Terry Vogel's lap times fit a continuous distribution.</li>
         </ul>
         <ul>
-          <li>Use the data from <url href="m79712"></url>. Use a stratified sampling method by lap races 1 to 20 and a random number generator to pick six lap times from each stratum. Record the lap times below for laps two to seven.<nbsp/>
+          <li>Use the data from <xref ref="appendix-c-data-sets">Appendix C</xref>. Use a stratified sampling method by lap races 1 to 20 and a random number generator to pick six lap times from each stratum. Record the lap times below for laps two to seven.<nbsp/>
 
 
 

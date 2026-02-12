@@ -648,10 +648,10 @@
       <em>34.</em> Rachel’s piano cost $3,000. The average cost for a piano is $4,000 with a standard deviation of $2,500. Becca’s guitar cost $550. The average cost for a guitar is $500 with a standard deviation of $200. Matt’s drums cost $600. The average cost for drums is $700 with a standard deviation of $100. Whose cost was lowest when compared to his or her own instrument?
     </p>
     <figure xml:id="fs-idp112081744">
-      <image source="../media/CNX-Stats_Review_Exercises_fig002.jpg" width="380%"/>
+      <image source="../media/CNX-Stats_Review_Exercises_fig002.jpg" width="80%"/>
     </figure>
     <p>
-      <em>35.</em> Explain why each statement is either true or false given the box plot in <xref ref="fs-idp112081744"></xref> . 
+      <em>35.</em> Explain why each statement is either true or false given the box plot in the table . 
 <ol marker="A">
   <li>
     <p>
@@ -689,7 +689,7 @@
       <em>37.</em> Find the first, second, and third quartiles. Use them to construct a box plot of the data.
     </p>
     <p>
-      <em>Use the following information to answer the next three exercises.</em> <xref ref="fs-idp29366416"></xref> shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.
+      <em>Use the following information to answer the next three exercises.</em> the table shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.
     </p>
     <table xml:id="fs-idp29366416">
       <tabular>
@@ -777,10 +777,10 @@
 
     </p>
     <figure xml:id="fs-idp4743968">
-      <image source="../media/CNX-Stats_Review_Exercises_fig004.jpg" width="380%"/>
+      <image source="../media/CNX-Stats_Review_Exercises_fig004.jpg" width="80%"/>
     </figure>
     <p>
-      <em>43.</em> Which of the following is true for the box plot in <xref ref="fs-idp4743968"></xref> ? 
+      <em>43.</em> Which of the following is true for the box plot in the table ? 
 <ol marker="A">
   <li>
     <p>
@@ -1160,7 +1160,7 @@
 
     </p>
     <p>
-      <em>57.</em> Find the probability asked for in <xref ref="fs-idp153370976">Question 56</xref> .
+      <em>57.</em> Find the probability asked for in Question 56 .
     </p>
     <p>
       <em>58.</em> Find the 90 <m>^{th}</m> percentile for the mean amount of weight lost by 15 people.
@@ -1238,7 +1238,7 @@
 
     </p>
     <p>
-      <em>62.</em> Using the information in <xref ref="fs-idp212391840">Question 61</xref> , find the probability that the total time for all first accidents to occur is more than 43 hours.
+      <em>62.</em> Using the information in Question 61 , find the probability that the total time for all first accidents to occur is more than 43 hours.
     </p>
     <p>
       <em>Use the following information to answer the next two exercises.</em> The length of time a parent must wait for his children to clean their rooms is uniformly distributed in the time interval from one to 15 days.
@@ -1553,7 +1553,7 @@
 
     </p>
     <p>
-      <em>74.</em> Construct a histogram of the IPO data (see <xref ref="m79712"></xref> ).
+      <em>74.</em> Construct a histogram of the IPO data (see <xref ref="appendix-c-data-sets">Appendix C</xref> ).
     </p>
     <p>
       <em>Use the following information to answer the next three exercises.</em> Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let <em>X</em> = the number of estimates.
@@ -1798,7 +1798,7 @@
       </tabular>
     </table>
     <p>
-      Suppose that one person from <xref ref="fs-idp51990160"></xref> was randomly selected.
+      Suppose that one person from the table was randomly selected.
     </p>
     <p>
       <em>88.</em> Find the probability that the person was a skier or was age 11–20.
@@ -2076,7 +2076,7 @@
       <em>Use the following information to answer the next two exercises.</em> A random sample of 70 compulsive gamblers were asked the number of days they go to casinos per week. The results are given in the following graph.
     </p>
     <figure xml:id="fs-idp27199264">
-      <image source="../media/CNX-Stats_Review_Exercises_fig005.jpg" width="380%"/>
+      <image source="../media/CNX-Stats_Review_Exercises_fig005.jpg" width="80%"/>
     </figure>
     <p>
       <em>116.</em> Find the number of responses that were five.
@@ -3083,7 +3083,7 @@ Cumulative Relative Frequency
         <em>99.</em> .9431
       </p>
     </subsection>
-    <subsection xml:id="eip-736">
+    <subsection xml:id="appendix-eip-736">
       <title>Chapter 11</title>
       <p>
         <em>100.</em> 7.5
