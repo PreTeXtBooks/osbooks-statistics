@@ -27,10 +27,12 @@ def convert_mathml_to_latex(elem, namespaces=None):
     # Remove namespace prefix
     tag = elem.tag.split('}')[-1] if '}' in elem.tag else elem.tag
     
-    # Handle text-only content
+    # Handle text-only content (leaf nodes)
     text = (elem.text or '').strip()
     if text and len(list(elem)) == 0:
-        # Apply symbol replacements
+        # Apply symbol replacements for Greek letters and mathematical symbols
+        # Note: Σ is mapped to \Sigma here, but gets special handling in
+        # munder/munderover contexts where it becomes \sum (see those handlers)
         replacements = {
             'μ': r'\mu', 'σ': r'\sigma', 'π': r'\pi', 'θ': r'\theta',
             'χ': r'\chi', 'Σ': r'\Sigma',
@@ -94,16 +96,19 @@ def convert_mathml_to_latex(elem, namespaces=None):
             inner = convert_mathml_to_latex(child[0]) if len(child) > 0 else ''
             result.append(r'\sqrt{' + inner + '}')
         elif ctag == 'munderover':
+            # Handle operators with upper and lower limits (e.g., summation)
+            # Note: In MathML, Σ is often encoded as <mi>Σ</mi>, but in LaTeX,
+            # summation operators with limits should use \sum, not \Sigma
             base = convert_mathml_to_latex(child[0]) if len(child) > 0 else ''
-            # Convert \Sigma to \sum in context of limits
             if base == r'\Sigma':
                 base = r'\sum'
             under = convert_mathml_to_latex(child[1]) if len(child) > 1 else ''
             over = convert_mathml_to_latex(child[2]) if len(child) > 2 else ''
             result.append(base + '_{' + under + '}^{' + over + '}')
         elif ctag == 'munder':
+            # Handle operators with lower limits (e.g., summation without upper bound)
+            # Note: Convert Σ to \sum in limit contexts for proper LaTeX rendering
             base = convert_mathml_to_latex(child[0]) if len(child) > 0 else ''
-            # Convert \Sigma to \sum in context of limits
             if base == r'\Sigma':
                 base = r'\sum'
             under = convert_mathml_to_latex(child[1]) if len(child) > 1 else ''
