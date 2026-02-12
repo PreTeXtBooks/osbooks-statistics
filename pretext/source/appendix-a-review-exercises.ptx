@@ -14,153 +14,158 @@
     </p>
     <p>
       <em>1</em> . The <em>average increase</em> for all NASDAQ stocks is the — 
-    <ol>
-      <li>
-        <p>
-          population
-        </p>
-      </li>
-      <li>
-        <p>
-          statistic
-        </p>
-      </li>
-      <li>
-        <p>
-          parameter
-        </p>
-      </li>
-      <li>
-        <p>
-          sample
-        </p>
-      </li>
-      <li>
-        <p>
-          variable
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      population
+    </p>
+  </li>
+  <li>
+    <p>
+      statistic
+    </p>
+  </li>
+  <li>
+    <p>
+      parameter
+    </p>
+  </li>
+  <li>
+    <p>
+      sample
+    </p>
+  </li>
+  <li>
+    <p>
+      variable
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>2.</em> All of the NASDAQ stocks are — 
-    <ol>
-      <li>
-        <p>
-          population
-        </p>
-      </li>
-      <li>
-        <p>
-          statistics
-        </p>
-      </li>
-      <li>
-        <p>
-          parameter
-        </p>
-      </li>
-      <li>
-        <p>
-          sample
-        </p>
-      </li>
-      <li>
-        <p>
-          variable
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      population
+    </p>
+  </li>
+  <li>
+    <p>
+      statistics
+    </p>
+  </li>
+  <li>
+    <p>
+      parameter
+    </p>
+  </li>
+  <li>
+    <p>
+      sample
+    </p>
+  </li>
+  <li>
+    <p>
+      variable
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>3.</em> Nine percent is — 
-    <ol>
-      <li>
-        <p>
-          population
-        </p>
-      </li>
-      <li>
-        <p>
-          statistics
-        </p>
-      </li>
-      <li>
-        <p>
-          parameter
-        </p>
-      </li>
-      <li>
-        <p>
-          sample
-        </p>
-      </li>
-      <li>
-        <p>
-          variable
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      population
+    </p>
+  </li>
+  <li>
+    <p>
+      statistics
+    </p>
+  </li>
+  <li>
+    <p>
+      parameter
+    </p>
+  </li>
+  <li>
+    <p>
+      sample
+    </p>
+  </li>
+  <li>
+    <p>
+      variable
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>4.</em> The 100 NASDAQ stocks in the survey are — 
-    <ol>
-      <li>
-        <p>
-          population
-        </p>
-      </li>
-      <li>
-        <p>
-          statistic
-        </p>
-      </li>
-      <li>
-        <p>
-          parameter
-        </p>
-      </li>
-      <li>
-        <p>
-          sample
-        </p>
-      </li>
-      <li>
-        <p>
-          variable
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      population
+    </p>
+  </li>
+  <li>
+    <p>
+      statistic
+    </p>
+  </li>
+  <li>
+    <p>
+      parameter
+    </p>
+  </li>
+  <li>
+    <p>
+      sample
+    </p>
+  </li>
+  <li>
+    <p>
+      variable
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>5.</em> The percent increase for one stock in the survey is — 
-    <ol>
-      <li>
-        <p>
-          population
-        </p>
-      </li>
-      <li>
-        <p>
-          statistic
-        </p>
-      </li>
-      <li>
-        <p>
-          parameter
-        </p>
-      </li>
-      <li>
-        <p>
-          sample
-        </p>
-      </li>
-      <li>
-        <p>
-          variable
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      population
+    </p>
+  </li>
+  <li>
+    <p>
+      statistic
+    </p>
+  </li>
+  <li>
+    <p>
+      parameter
+    </p>
+  </li>
+  <li>
+    <p>
+      sample
+    </p>
+  </li>
+  <li>
+    <p>
+      variable
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>6.</em> Would the data collected by qualitative, quantitative discrete, or quantitative continuous?
@@ -168,7 +173,7 @@
     <p>
       <em>Use the following information to answer the next two exercises.</em> Thirty people spent two weeks around Mardi Gras in New Orleans. Their two-week weight gain is below. Note—a loss is shown by a negative weight gain.
     </p>
-    <table xml:id="table-140237257492176">
+    <table xml:id="fs-idp142908256">
       <tabular>
         <row header="yes">
           <cell>Weight Gain</cell>
@@ -206,23 +211,24 @@
     </table>
     <p>
       <em>7.</em> Calculate the following values: 
-    <ol>
-      <li>
-        <p>
-          The average weight gain for the two weeks
-        </p>
-      </li>
-      <li>
-        <p>
-          The standard deviation
-        </p>
-      </li>
-      <li>
-        <p>
-          The first, second, and third quartiles
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      The average weight gain for the two weeks
+    </p>
+  </li>
+  <li>
+    <p>
+      The standard deviation
+    </p>
+  </li>
+  <li>
+    <p>
+      The first, second, and third quartiles
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>8.</em> Construct a histogram and box plot of the data.
@@ -236,83 +242,86 @@
     </p>
     <p>
       <em>9.</em> What is the probability that a randomly selected respondent will spend more than $2,000 <em>and</em> use a credit card that gives them a mile of air travel for every dollar they charge? 
-    <ol>
-      <li>
-        <p>
-          (.30)(.35)
-        </p>
-      </li>
-      <li>
-        <p>
-          (.80)(.35)
-        </p>
-      </li>
-      <li>
-        <p>
-          (.80)(.30)
-        </p>
-      </li>
-      <li>
-        <p>
-          (.80)
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      (.30)(.35)
+    </p>
+  </li>
+  <li>
+    <p>
+      (.80)(.35)
+    </p>
+  </li>
+  <li>
+    <p>
+      (.80)(.30)
+    </p>
+  </li>
+  <li>
+    <p>
+      (.80)
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>10.</em> Are using a credit card that gives a mile of air travel for each dollar spent <em>and</em> charging more than $2,000 per month independent events? 
-    <ol>
-      <li>
-        <p>
-          Yes
-        </p>
-      </li>
-      <li>
-        <p>
-          No, and they are not mutually exclusive either
-        </p>
-      </li>
-      <li>
-        <p>
-          No, but they are mutually exclusive
-        </p>
-      </li>
-      <li>
-        <p>
-          Not enough information given to determine the answer
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Yes
+    </p>
+  </li>
+  <li>
+    <p>
+      No, and they are not mutually exclusive either
+    </p>
+  </li>
+  <li>
+    <p>
+      No, but they are mutually exclusive
+    </p>
+  </li>
+  <li>
+    <p>
+      Not enough information given to determine the answer
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>11.</em> A sociologist wants to know the opinions of employed adult women about government funding for day care. She obtains a list of 520 members of a local business and professional women’s club and mails a questionnaire to 100 of these women selected at random. Sixty-eight questionnaires are returned. What is the population in this study? 
-    <ol>
-      <li>
-        <p>
-          All employed adult women
-        </p>
-      </li>
-      <li>
-        <p>
-          All the members of a local business and professional women’s club
-        </p>
-      </li>
-      <li>
-        <p>
-          The 100 women who received the questionnaire
-        </p>
-      </li>
-      <li>
-        <p>
-          All employed women with children
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      All employed adult women
+    </p>
+  </li>
+  <li>
+    <p>
+      All the members of a local business and professional women’s club
+    </p>
+  </li>
+  <li>
+    <p>
+      The 100 women who received the questionnaire
+    </p>
+  </li>
+  <li>
+    <p>
+      All employed women with children
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>Use the following information to answer the next two exercises.</em> An article from the <em>San Jose Mercury News</em> was concerned with the racial mix of the 1,500 students at Prospect High School in Saratoga, CA. The table summarizes the results. Male and female values are approximate. Suppose one Prospect High School student is randomly selected.
     </p>
-    <table xml:id="table-140237257499296">
+    <table xml:id="fs-idp74177072">
       <tabular>
         <row header="yes">
           <cell>Gender/Ethnic Group</cell>
@@ -348,158 +357,164 @@
     </p>
     <p>
       <em>14.</em> A sample of pounds lost, in a certain month, by individual members of a weight reducing clinic produced the following statistics: 
-    <ul>
-      <li>
-        <p>
-          Mean = 5 lbs
-        </p>
-      </li>
-      <li>
-        <p>
-          Median = 4.5 lbs
-        </p>
-      </li>
-      <li>
-        <p>
-          Mode = 4 lbs
-        </p>
-      </li>
-      <li>
-        <p>
-          Standard deviation = 3.8 lbs
-        </p>
-      </li>
-      <li>
-        <p>
-          First quartile = 2 lbs
-        </p>
-      </li>
-      <li>
-        <p>
-          Third quartile = 8.5 lbs
-        </p>
-      </li>
-    </ul>  What is the correct statement? 
-    <ol>
-      <li>
-        <p>
-          One fourth of the members lost exactly two pounds.
-        </p>
-      </li>
-      <li>
-        <p>
-          The middle 50 percent of the members lost from two to 8.5 lbs.
-        </p>
-      </li>
-      <li>
-        <p>
-          Most people lost 3.5 to 4.5 lbs.
-        </p>
-      </li>
-      <li>
-        <p>
-          All of the choices above are correct.
-        </p>
-      </li>
-    </ol>  
+<ul>
+  <li>
+    <p>
+      Mean = 5 lbs
+    </p>
+  </li>
+  <li>
+    <p>
+      Median = 4.5 lbs
+    </p>
+  </li>
+  <li>
+    <p>
+      Mode = 4 lbs
+    </p>
+  </li>
+  <li>
+    <p>
+      Standard deviation = 3.8 lbs
+    </p>
+  </li>
+  <li>
+    <p>
+      First quartile = 2 lbs
+    </p>
+  </li>
+  <li>
+    <p>
+      Third quartile = 8.5 lbs
+    </p>
+  </li>
+</ul> 
+ What is the correct statement? 
+<ol marker="A">
+  <li>
+    <p>
+      One fourth of the members lost exactly two pounds.
+    </p>
+  </li>
+  <li>
+    <p>
+      The middle 50 percent of the members lost from two to 8.5 lbs.
+    </p>
+  </li>
+  <li>
+    <p>
+      Most people lost 3.5 to 4.5 lbs.
+    </p>
+  </li>
+  <li>
+    <p>
+      All of the choices above are correct.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>15.</em> What does it mean when a data set has a standard deviation equal to zero? 
-    <ol>
-      <li>
-        <p>
-          All values of the data appear with the same frequency.
-        </p>
-      </li>
-      <li>
-        <p>
-          The mean of the data is also zero.
-        </p>
-      </li>
-      <li>
-        <p>
-          All of the data have the same value.
-        </p>
-      </li>
-      <li>
-        <p>
-          There are no data to begin with.
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      All values of the data appear with the same frequency.
+    </p>
+  </li>
+  <li>
+    <p>
+      The mean of the data is also zero.
+    </p>
+  </li>
+  <li>
+    <p>
+      All of the data have the same value.
+    </p>
+  </li>
+  <li>
+    <p>
+      There are no data to begin with.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
-      <em>16.</em> Which statement describes the illustration?  
-    <ol>
-      <li>
-        <p>
-          The mean is equal to the median.
-        </p>
-      </li>
-      <li>
-        <p>
-          There is no first quartile.
-        </p>
-      </li>
-      <li>
-        <p>
-          The lowest data value is the median.
-        </p>
-      </li>
-      <li>
-        <p>
-          The median equals  .
-        </p>
-      </li>
-    </ol> 
+      <em>16.</em> Which statement describes the illustration? 
+<ol marker="A">
+  <li>
+    <p>
+      The mean is equal to the median.
+    </p>
+  </li>
+  <li>
+    <p>
+      There is no first quartile.
+    </p>
+  </li>
+  <li>
+    <p>
+      The lowest data value is the median.
+    </p>
+  </li>
+  <li>
+    <p>
+      The median equals  .
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>17.</em> According to a recent article in the <em>San Jose Mercury News</em> the average number of babies born with significant hearing lossdeafnessis approximately 2 per 1,000 babies in a healthy baby nursery. The number climbs to an average of 30 per 1,000 babies in an intensive care nursery. Suppose that 1,000 babies from healthy baby nurseries were randomly surveyed. Find the probability that exactly two babies were born deaf.
     </p>
     <p>
       <em>18.</em> A <em>friend</em> offers you the following <em>deal</em> : For a $10 fee, you may pick an envelope from a box containing 100 seemingly identical envelopes. However, each envelope contains a coupon for a free gift. 
-    <ul>
-      <li>
-        <p>
-          Ten of the coupons are for a free gift worth $6.
-        </p>
-      </li>
-      <li>
-        <p>
-          Eighty of the coupons are for a free gift worth $8.
-        </p>
-      </li>
-      <li>
-        <p>
-          Six of the coupons are for a free gift worth $12.
-        </p>
-      </li>
-      <li>
-        <p>
-          Four of the coupons are for a free gift worth $40.
-        </p>
-      </li>
-    </ul> 
+<ul>
+  <li>
+    <p>
+      Ten of the coupons are for a free gift worth $6.
+    </p>
+  </li>
+  <li>
+    <p>
+      Eighty of the coupons are for a free gift worth $8.
+    </p>
+  </li>
+  <li>
+    <p>
+      Six of the coupons are for a free gift worth $12.
+    </p>
+  </li>
+  <li>
+    <p>
+      Four of the coupons are for a free gift worth $40.
+    </p>
+  </li>
+</ul> 
+
     </p>
     <p>
       Based upon the financial gain or loss over the long run, should you play the game? 
-    <ol>
-      <li>
-        <p>
-          Yes, I expect to come out ahead in money.
-        </p>
-      </li>
-      <li>
-        <p>
-          No, I expect to come out behind in money.
-        </p>
-      </li>
-      <li>
-        <p>
-          It doesn’t matter. I expect to break even.
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Yes, I expect to come out ahead in money.
+    </p>
+  </li>
+  <li>
+    <p>
+      No, I expect to come out behind in money.
+    </p>
+  </li>
+  <li>
+    <p>
+      It doesn’t matter. I expect to break even.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>Use the following information to answer the next four exercises.</em> Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that he/she truly has the fluand not just a nasty coldis only about 4 percent. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.
@@ -521,23 +536,24 @@
     </p>
     <p>
       <em>23.</em> What kind of data was collected? 
-    <ol>
-      <li>
-        <p>
-          Qualitative
-        </p>
-      </li>
-      <li>
-        <p>
-          Quantitative continuous
-        </p>
-      </li>
-      <li>
-        <p>
-          Quantitative discrete
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Qualitative
+    </p>
+  </li>
+  <li>
+    <p>
+      Quantitative continuous
+    </p>
+  </li>
+  <li>
+    <p>
+      Quantitative discrete
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>24.</em> What is the population under study?
@@ -550,19 +566,20 @@
       <em>Use the following information to answer the next five exercises.</em> A recent study of mothers of junior high school children in Santa Clara County reported that 76 percent of the mothers are employed in paid positions. Of those mothers who are employed, 64 percent work full-timemore than 35 hours per weekand 36 percent work part-time. However, out of all of the mothers in the population, 49 percent work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.
     </p>
     <p>
-      <em>25.</em>  
-    <ol>
-      <li>
-        <p>
-          Find the percent of all mothers in the population that are <em>not</em> employed.
-        </p>
-      </li>
-      <li>
-        <p>
-          Find the percent of mothers in the population that are employed part-time.
-        </p>
-      </li>
-    </ol> 
+      <em>25.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      Find the percent of all mothers in the population that are <em>not</em> employed.
+    </p>
+  </li>
+  <li>
+    <p>
+      Find the percent of mothers in the population that are employed part-time.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>26.</em> The <em>type of employment</em> is considered to be what type of data?
@@ -575,18 +592,19 @@
     </p>
     <p>
       <em>29.</em> Being employed and working part-time— 
-    <ol>
-      <li>
-        <p>
-          mutually exclusive events? Why or why not?
-        </p>
-      </li>
-      <li>
-        <p>
-          independent events? Why or why not?
-        </p>
-      </li>
-    </ol>  
+<ol marker="A">
+  <li>
+    <p>
+      mutually exclusive events? Why or why not?
+    </p>
+  </li>
+  <li>
+    <p>
+      independent events? Why or why not?
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>Use the following additional information to answer the next two exercises</em> . We randomly pick 10 mothers from the above population. We are interested in the number of the mothers that are employed. Let <em>X</em> = number of mothers that are employed.
@@ -599,28 +617,29 @@
     </p>
     <p>
       <em>32.</em> We expect the statistics discussion board to have, on average, 14 questions posted to it per week. We are interested in the number of questions posted to it per day. 
-    <ol>
-      <li>
-        <p>
-          Define <em>X</em> .
-        </p>
-      </li>
-      <li>
-        <p>
-          What are the values that the random variable may take on?
-        </p>
-      </li>
-      <li>
-        <p>
-          State the distribution for <em>X</em> .
-        </p>
-      </li>
-      <li>
-        <p>
-          Find the probability that from 10 to 14inclusivequestions are posted to the listserv on a randomly picked day.
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Define <em>X</em> .
+    </p>
+  </li>
+  <li>
+    <p>
+      What are the values that the random variable may take on?
+    </p>
+  </li>
+  <li>
+    <p>
+      State the distribution for <em>X</em> .
+    </p>
+  </li>
+  <li>
+    <p>
+      Find the probability that from 10 to 14inclusivequestions are posted to the listserv on a randomly picked day.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>33.</em> A person invests $1,000 into  stock of a company that hopes to go public in one year. The probability that the person will lose all his money after one year, that is, his stock will be worthless, is 35 percent. The probability that the person’s stock will still have a value of $1,000 after one year, that is, no profit and no loss, is 60 percent. The probability that the person’s stock will increase in value by $10,000 after one year, that is, will be worth $11,000, is 5 percent. Find the expected profit after one year.
@@ -628,34 +647,41 @@
     <p>
       <em>34.</em> Rachel’s piano cost $3,000. The average cost for a piano is $4,000 with a standard deviation of $2,500. Becca’s guitar cost $550. The average cost for a guitar is $500 with a standard deviation of $200. Matt’s drums cost $600. The average cost for drums is $700 with a standard deviation of $100. Whose cost was lowest when compared to his or her own instrument?
     </p>
+    <figure xml:id="fs-idp112081744">
+      <image source="../media/CNX-Stats_Review_Exercises_fig002.jpg" width="380%"/>
+    </figure>
     <p>
-      <em>35.</em> Explain why each statement is either true or false given the box plot in  . 
-    <ol>
-      <li>
-        <p>
-          Twenty-five percent of the data are at most five.
-        </p>
-      </li>
-      <li>
-        <p>
-          There is the same amount of data from 4–5 as there is from 5–7.
-        </p>
-      </li>
-      <li>
-        <p>
-          There are no data values of three.
-        </p>
-      </li>
-      <li>
-        <p>
-          Fifty percent of the data are four.
-        </p>
-      </li>
-    </ol> 
+      <em>35.</em> Explain why each statement is either true or false given the box plot in <xref ref="fs-idp112081744"></xref> . 
+<ol marker="A">
+  <li>
+    <p>
+      Twenty-five percent of the data are at most five.
+    </p>
+  </li>
+  <li>
+    <p>
+      There is the same amount of data from 4–5 as there is from 5–7.
+    </p>
+  </li>
+  <li>
+    <p>
+      There are no data values of three.
+    </p>
+  </li>
+  <li>
+    <p>
+      Fifty percent of the data are four.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>Using the following information to answer the next two exercises.</em> 64 faculty members were asked the number of cars they ownedincluding spouse and children’s cars. The results are given in the following graph.
     </p>
+    <figure xml:id="fs-idp177574896">
+      <image source="../media/CNX_Stats_AppendixA_Figure_1pt3N.jpg"/>
+    </figure>
     <p>
       <em>36.</em> Find the approximate number of responses that were three.
     </p>
@@ -663,9 +689,9 @@
       <em>37.</em> Find the first, second, and third quartiles. Use them to construct a box plot of the data.
     </p>
     <p>
-      <em>Use the following information to answer the next three exercises.</em>   shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.
+      <em>Use the following information to answer the next three exercises.</em> <xref ref="fs-idp29366416"></xref> shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.
     </p>
-    <table xml:id="table-140237257534304">
+    <table xml:id="fs-idp29366416">
       <tabular>
         <row header="yes">
           <cell>Hair Style/Hair Color</cell>
@@ -705,148 +731,154 @@
     </p>
     <p>
       <em>41.</em> Explain which of the following are false and which are true. 
-    <ol>
-      <li>
-        <p>
-          <em>f</em> ( <em>x</em> ) =  , 3 ≤ <em>x</em> ≤ 13
-        </p>
-      </li>
-      <li>
-        <p>
-          There is no mode.
-        </p>
-      </li>
-      <li>
-        <p>
-          The median is less than the mean.
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>P</em> ( <em>x</em> &gt; 10) = <em>P</em> ( <em>x</em> ≤ 6)
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      <em>f</em> ( <em>x</em> ) =  , 3 ≤ <em>x</em> ≤ 13
+    </p>
+  </li>
+  <li>
+    <p>
+      There is no mode.
+    </p>
+  </li>
+  <li>
+    <p>
+      The median is less than the mean.
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>P</em> ( <em>x</em> &gt; 10) = <em>P</em> ( <em>x</em> ≤ 6)
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>42.</em> Calculate 
-    <ol>
-      <li>
-        <p>
-          the mean,
-        </p>
-      </li>
-      <li>
-        <p>
-          the median, and
-        </p>
-      </li>
-      <li>
-        <p>
-          the 65 th percentile.
-        </p>
-      </li>
-    </ol> 
-    </p>
+<ol marker="A">
+  <li>
     <p>
-      <em>43.</em> Which of the following is true for the box plot in  ? 
-    <ol>
-      <li>
-        <p>
-          Twenty-five percent of the data are at most five.
-        </p>
-      </li>
-      <li>
-        <p>
-          There is about the same amount of data from 4–5 as there is from 5–7.
-        </p>
-      </li>
-      <li>
-        <p>
-          There are no data values of three.
-        </p>
-      </li>
-      <li>
-        <p>
-          Fifty percent of the data are four.
-        </p>
-      </li>
-    </ol> 
+      the mean,
+    </p>
+  </li>
+  <li>
+    <p>
+      the median, and
+    </p>
+  </li>
+  <li>
+    <p>
+      the 65 <m>^{th}</m> percentile.
+    </p>
+  </li>
+</ol> 
+
+    </p>
+    <figure xml:id="fs-idp4743968">
+      <image source="../media/CNX-Stats_Review_Exercises_fig004.jpg" width="380%"/>
+    </figure>
+    <p>
+      <em>43.</em> Which of the following is true for the box plot in <xref ref="fs-idp4743968"></xref> ? 
+<ol marker="A">
+  <li>
+    <p>
+      Twenty-five percent of the data are at most five.
+    </p>
+  </li>
+  <li>
+    <p>
+      There is about the same amount of data from 4–5 as there is from 5–7.
+    </p>
+  </li>
+  <li>
+    <p>
+      There are no data values of three.
+    </p>
+  </li>
+  <li>
+    <p>
+      Fifty percent of the data are four.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>44.</em> If <em>P</em> ( <em>G</em> | <em>H</em> ) = <em>P</em> ( <em>G</em> ), then which of the following is correct? 
-    <ol>
-      <li>
-        <p>
-          <em>G</em> and <em>H</em> are mutually exclusive events.
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>P</em> ( <em>G</em> ) = <em>P</em> ( <em>H</em> )
-        </p>
-      </li>
-      <li>
-        <p>
-          Knowing that <em>H</em> has occurred will affect the chance that <em>G</em> will happen.
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>G</em> and <em>H</em> are independent events.
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      <em>G</em> and <em>H</em> are mutually exclusive events.
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>P</em> ( <em>G</em> ) = <em>P</em> ( <em>H</em> )
+    </p>
+  </li>
+  <li>
+    <p>
+      Knowing that <em>H</em> has occurred will affect the chance that <em>G</em> will happen.
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>G</em> and <em>H</em> are independent events.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>45.</em> If <em>P</em> ( <em>J</em> ) = .3, <em>P</em> ( <em>K</em> ) = .63, and <em>J</em> and <em>K</em> are independent events, then explain which are correct and which are incorrect. 
-    <ol>
-      <li>
-        <p>
-          <em>P</em> ( <em>J</em> AND <em>K</em> ) = 0
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>P</em> ( <em>J</em> OR <em>K</em> ) = .9
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>P</em> ( <em>J</em> OR <em>K</em> ) = .72
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>P</em> ( <em>J</em> ) ≠ <em>P</em> ( <em>J</em> | <em>K</em> )
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      <em>P</em> ( <em>J</em> AND <em>K</em> ) = 0
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>P</em> ( <em>J</em> OR <em>K</em> ) = .9
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>P</em> ( <em>J</em> OR <em>K</em> ) = .72
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>P</em> ( <em>J</em> ) ≠ <em>P</em> ( <em>J</em> | <em>K</em> )
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>46.</em> On average, five students from each high school class get full scholarships to four-year colleges. Assume that most high school classes have about 500 students. <em>X</em> = the number of students from a high school class that get full scholarships to four-year schools. Which of the following is the distribution of <em>X</em> ? 
-    <ol>
-      <li>
-        <p>
-          <em>P</em> (5)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>B</em> (500, 5)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>Exp</em>  
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      <em>P</em> (5)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>B</em> (500, 5)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>Exp</em> 
+    </p>
+  </li>
+  <li>
+  </li>
+</ol> 
+
     </p>
   </section>
 
@@ -856,246 +888,243 @@
       <em>Use the following information to answer the next three exercises.</em> Richard’s Furniture Company delivers furniture from 10 a.m. to 2 p.m. continuously and uniformly. We are interested in how long—in hours—past the 10 a.m. start time that individuals wait for their delivery.
     </p>
     <p>
-      <em>47.</em>  <em>X</em> ~ ________ 
-    <ol>
-      <li>
-        <p>
-          <em>U</em> (0, 4)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>U</em> (10, 20)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>Exp</em> (2)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>N</em> (2, 1)
-        </p>
-      </li>
-    </ol> 
+      <em>47.</em> <em>X</em> ~ ________ 
+<ol marker="A">
+  <li>
+    <p>
+      <em>U</em> (0, 4)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>U</em> (10, 20)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>Exp</em> (2)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>N</em> (2, 1)
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>48.</em> The average wait time is — 
-    <ol>
-      <li>
-        <p>
-          one hour
-        </p>
-      </li>
-      <li>
-        <p>
-          two hours
-        </p>
-      </li>
-      <li>
-        <p>
-          two and a half hours
-        </p>
-      </li>
-      <li>
-        <p>
-          four hours
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      one hour
+    </p>
+  </li>
+  <li>
+    <p>
+      two hours
+    </p>
+  </li>
+  <li>
+    <p>
+      two and a half hours
+    </p>
+  </li>
+  <li>
+    <p>
+      four hours
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>49.</em> Suppose that it is now past noon on a delivery day. The probability that a person must wait at least 1.5 more hours is — 
-    <ol>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+  </li>
+  <li>
+  </li>
+  <li>
+  </li>
+  <li>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>50.</em> Given <em>X</em> ~ <em>Exp</em>  
-    <ol>
-      <li>
-        <p>
-          Find <em>P</em> ( <em>x</em> &gt; 1).
-        </p>
-      </li>
-      <li>
-        <p>
-          Calculate the minimum value for the upper quartile.
-        </p>
-      </li>
-      <li>
-        <p>
-          Find <em>P</em>  
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Find <em>P</em> ( <em>x</em> &gt; 1).
+    </p>
+  </li>
+  <li>
+    <p>
+      Calculate the minimum value for the upper quartile.
+    </p>
+  </li>
+  <li>
+    <p>
+      Find <em>P</em> 
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
-      <em>51.</em>  
-    <ul>
-      <li>
-        <p>
-          Forty percent of full-time students took four years to graduate.
-        </p>
-      </li>
-      <li>
-        <p>
-          Thirty percent of full-time students took five years to graduate.
-        </p>
-      </li>
-      <li>
-        <p>
-          Twenty percent of full-time students took six years to graduate.
-        </p>
-      </li>
-      <li>
-        <p>
-          Ten percent of full-time students took seven years to graduate.
-        </p>
-      </li>
-    </ul>  The expected time for full-time students to graduate is — 
-    <ol>
-      <li>
-        <p>
-          four years
-        </p>
-      </li>
-      <li>
-        <p>
-          four and a half years
-        </p>
-      </li>
-      <li>
-        <p>
-          five years
-        </p>
-      </li>
-      <li>
-        <p>
-          five and a half years
-        </p>
-      </li>
-    </ol> 
+      <em>51.</em> 
+<ul>
+  <li>
+    <p>
+      Forty percent of full-time students took four years to graduate.
+    </p>
+  </li>
+  <li>
+    <p>
+      Thirty percent of full-time students took five years to graduate.
+    </p>
+  </li>
+  <li>
+    <p>
+      Twenty percent of full-time students took six years to graduate.
+    </p>
+  </li>
+  <li>
+    <p>
+      Ten percent of full-time students took seven years to graduate.
+    </p>
+  </li>
+</ul> 
+ The expected time for full-time students to graduate is — 
+<ol marker="A">
+  <li>
+    <p>
+      four years
+    </p>
+  </li>
+  <li>
+    <p>
+      four and a half years
+    </p>
+  </li>
+  <li>
+    <p>
+      five years
+    </p>
+  </li>
+  <li>
+    <p>
+      five and a half years
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
-      <em>52.</em> Which of the following distributions is described by the following example?  Many people can run a short distance of under two miles, but as the distance increases, fewer people can run that far. 
-    <ol>
-      <li>
-        <p>
-          binomial
-        </p>
-      </li>
-      <li>
-        <p>
-          uniform
-        </p>
-      </li>
-      <li>
-        <p>
-          exponential
-        </p>
-      </li>
-      <li>
-        <p>
-          normal
-        </p>
-      </li>
-    </ol> 
+      <em>52.</em> Which of the following distributions is described by the following example? 
+ Many people can run a short distance of under two miles, but as the distance increases, fewer people can run that far. 
+<ol marker="A">
+  <li>
+    <p>
+      binomial
+    </p>
+  </li>
+  <li>
+    <p>
+      uniform
+    </p>
+  </li>
+  <li>
+    <p>
+      exponential
+    </p>
+  </li>
+  <li>
+    <p>
+      normal
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>53.</em> The length of time to brush one’s teeth is generally thought to be exponentially distributed with a mean of  minutes. Find the probability that a randomly selected person brushes his or her teeth less than  minutes. 
-    <ol>
-      <li>
-        <p>
-          .5
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-          .43
-        </p>
-      </li>
-      <li>
-        <p>
-          .63
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      .5
+    </p>
+  </li>
+  <li>
+  </li>
+  <li>
+    <p>
+      .43
+    </p>
+  </li>
+  <li>
+    <p>
+      .63
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
-      <em>54.</em> Which distribution accurately describes the following situation?  The chance that a teenage boy regularly gives his mother a kiss goodnight is about 20 percent. Fourteen teenage boys are randomly surveyed. Let <em>X</em> = the number of teenage boys that regularly give their mother a kiss goodnight. 
-    <ol>
-      <li>
-        <p>
-          <em>B</em> (14,.20)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>P</em> (2.8)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>N</em> (2.8,2.24)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>Exp</em>  
-        </p>
-      </li>
-    </ol> 
+      <em>54.</em> Which distribution accurately describes the following situation? 
+ The chance that a teenage boy regularly gives his mother a kiss goodnight is about 20 percent. Fourteen teenage boys are randomly surveyed. Let <em>X</em> = the number of teenage boys that regularly give their mother a kiss goodnight. 
+<ol marker="A">
+  <li>
+    <p>
+      <em>B</em> (14,.20)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>P</em> (2.8)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>N</em> (2.8,2.24)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>Exp</em> 
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>55.</em> A 2008 report on technology use states that approximately 20 percent of U.S. households have never sent an email. Suppose that we select a random sample of fourteen U.S. households. Let <em>X</em> = the number of households in a 2008 sample of 14 households that have never sent an email. 
-    <ol>
-      <li>
-        <p>
-          <em>B</em> (14,.20)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>P</em> (2.8)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>N</em> (2.8,2.24)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>Exp</em>  
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      <em>B</em> (14,.20)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>P</em> (2.8)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>N</em> (2.8,2.24)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>Exp</em> 
+    </p>
+  </li>
+</ol> 
+
     </p>
   </section>
 
@@ -1106,386 +1135,392 @@
     </p>
     <p>
       <em>56.</em> To find the probability that the mean amount of weight lost by 15 people is no more than 14 pounds, the random variable should be ________. 
-    <ol>
-      <li>
-        <p>
-          number of people who lost weight on the special weight-loss diet
-        </p>
-      </li>
-      <li>
-        <p>
-          the number of people who were on the diet
-        </p>
-      </li>
-      <li>
-        <p>
-          the mean amount of weight lost by 15 people on the special weight-loss diet
-        </p>
-      </li>
-      <li>
-        <p>
-          the total amount of weight lost by 15 people on the special weight-loss diet
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      number of people who lost weight on the special weight-loss diet
+    </p>
+  </li>
+  <li>
+    <p>
+      the number of people who were on the diet
+    </p>
+  </li>
+  <li>
+    <p>
+      the mean amount of weight lost by 15 people on the special weight-loss diet
+    </p>
+  </li>
+  <li>
+    <p>
+      the total amount of weight lost by 15 people on the special weight-loss diet
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
-      <em>57.</em> Find the probability asked for in Question 56 .
+      <em>57.</em> Find the probability asked for in <xref ref="fs-idp153370976">Question 56</xref> .
     </p>
     <p>
-      <em>58.</em> Find the 90 th percentile for the mean amount of weight lost by 15 people.
+      <em>58.</em> Find the 90 <m>^{th}</m> percentile for the mean amount of weight lost by 15 people.
     </p>
     <p>
       <em>Using the following information to answer the next three exercises.</em> The time of occurrence of the first accident during rush-hour traffic at a major intersection is uniformly distributed between the three hour interval 4 p.m. to 7 p.m. Let <em>X</em> = the amount of timehoursit takes for the first accident to occur.
     </p>
     <p>
       <em>59.</em> What is the probability that the time of occurrence is within the first half-hour or the last hour of the period from 4 to 7 p.m.? 
-    <ol>
-      <li>
-        <p>
-          It cannot be determined from the information given.
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      It cannot be determined from the information given.
+    </p>
+  </li>
+  <li>
+  </li>
+  <li>
+  </li>
+  <li>
+  </li>
+</ol> 
+
     </p>
     <p>
-      <em>60.</em> The 20 th percentile occurs after how many hours? 
-    <ol>
-      <li>
-        <p>
-          .20
-        </p>
-      </li>
-      <li>
-        <p>
-          .60
-        </p>
-      </li>
-      <li>
-        <p>
-          .50
-        </p>
-      </li>
-      <li>
-        <p>
-          1
-        </p>
-      </li>
-    </ol> 
+      <em>60.</em> The 20 <m>^{th}</m> percentile occurs after how many hours? 
+<ol marker="A">
+  <li>
+    <p>
+      .20
+    </p>
+  </li>
+  <li>
+    <p>
+      .60
+    </p>
+  </li>
+  <li>
+    <p>
+      .50
+    </p>
+  </li>
+  <li>
+    <p>
+      1
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>61.</em> Assume Ramon has kept track of the times for the first accidents to occur for 40 different days. Let <em>C</em> = the total cumulative time. Then <em>C</em> follows which distribution? 
-    <ol>
-      <li>
-        <p>
-          <em>U</em> (0,3)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>Exp</em> (13)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>N</em> (60, 5.477)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>N</em> (1.5, .01875)
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      <em>U</em> (0,3)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>Exp</em> (13)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>N</em> (60, 5.477)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>N</em> (1.5, .01875)
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
-      <em>62.</em> Using the information in Question 61 , find the probability that the total time for all first accidents to occur is more than 43 hours.
+      <em>62.</em> Using the information in <xref ref="fs-idp212391840">Question 61</xref> , find the probability that the total time for all first accidents to occur is more than 43 hours.
     </p>
     <p>
       <em>Use the following information to answer the next two exercises.</em> The length of time a parent must wait for his children to clean their rooms is uniformly distributed in the time interval from one to 15 days.
     </p>
     <p>
       <em>63.</em> How long must a parent expect to wait for his children to clean their rooms? 
-    <ol>
-      <li>
-        <p>
-          8 days
-        </p>
-      </li>
-      <li>
-        <p>
-          3 days
-        </p>
-      </li>
-      <li>
-        <p>
-          14 days
-        </p>
-      </li>
-      <li>
-        <p>
-          6 days
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      8 days
+    </p>
+  </li>
+  <li>
+    <p>
+      3 days
+    </p>
+  </li>
+  <li>
+    <p>
+      14 days
+    </p>
+  </li>
+  <li>
+    <p>
+      6 days
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>64.</em> What is the probability that a parent will wait more than six days given that the parent has already waited more than three days? 
-    <ol>
-      <li>
-        <p>
-          .5174
-        </p>
-      </li>
-      <li>
-        <p>
-          .0174
-        </p>
-      </li>
-      <li>
-        <p>
-          .7500
-        </p>
-      </li>
-      <li>
-        <p>
-          .2143
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      .5174
+    </p>
+  </li>
+  <li>
+    <p>
+      .0174
+    </p>
+  </li>
+  <li>
+    <p>
+      .7500
+    </p>
+  </li>
+  <li>
+    <p>
+      .2143
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>Use the following information to answer the next five exercises.</em> Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75 percent receive some kind of financial aid.
     </p>
     <p>
       <em>65.</em> Find the probability that a randomly chosen student at the local community college does not live within five miles of the campus. 
-    <ol>
-      <li>
-        <p>
-          80 percent
-        </p>
-      </li>
-      <li>
-        <p>
-          20 percent
-        </p>
-      </li>
-      <li>
-        <p>
-          30 percent
-        </p>
-      </li>
-      <li>
-        <p>
-          Cannot be determined
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      80 percent
+    </p>
+  </li>
+  <li>
+    <p>
+      20 percent
+    </p>
+  </li>
+  <li>
+    <p>
+      30 percent
+    </p>
+  </li>
+  <li>
+    <p>
+      Cannot be determined
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>66.</em> Find the probability that a randomly chosen student at the local community college lives within five miles of the campus or receives some kind of financial aid. 
-    <ol>
-      <li>
-        <p>
-          50 percent
-        </p>
-      </li>
-      <li>
-        <p>
-          35 percent
-        </p>
-      </li>
-      <li>
-        <p>
-          27.5 percent
-        </p>
-      </li>
-      <li>
-        <p>
-          75 percent
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      50 percent
+    </p>
+  </li>
+  <li>
+    <p>
+      35 percent
+    </p>
+  </li>
+  <li>
+    <p>
+      27.5 percent
+    </p>
+  </li>
+  <li>
+    <p>
+      75 percent
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>67.</em> Are living in student housing within five miles of the campus and receiving some kind of financial aid mutually exclusive? 
-    <ol>
-      <li>
-        <p>
-          Yes
-        </p>
-      </li>
-      <li>
-        <p>
-          No
-        </p>
-      </li>
-      <li>
-        <p>
-          Cannot be determined
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Yes
+    </p>
+  </li>
+  <li>
+    <p>
+      No
+    </p>
+  </li>
+  <li>
+    <p>
+      Cannot be determined
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>68.</em> The interest rate charged on the financial aid is ________ data. 
-    <ol>
-      <li>
-        <p>
-          Quantitative discrete
-        </p>
-      </li>
-      <li>
-        <p>
-          Quantitative continuous
-        </p>
-      </li>
-      <li>
-        <p>
-          Qualitative discrete
-        </p>
-      </li>
-      <li>
-        <p>
-          Qualitative
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Quantitative discrete
+    </p>
+  </li>
+  <li>
+    <p>
+      Quantitative continuous
+    </p>
+  </li>
+  <li>
+    <p>
+      Qualitative discrete
+    </p>
+  </li>
+  <li>
+    <p>
+      Qualitative
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>69.</em> The following information is about the students who receive financial aid at the local community college. 
-    <ul>
-      <li>
-        <p>
-          1st quartile = $250
-        </p>
-      </li>
-      <li>
-        <p>
-          2nd quartile = $700
-        </p>
-      </li>
-      <li>
-        <p>
-          3rd quartile = $1,200
-        </p>
-      </li>
-    </ul>   These amounts are for the school year. If a sample of 200 students is taken, how many are expected to receive $250 or more? 
-    <ol>
-      <li>
-        <p>
-          50
-        </p>
-      </li>
-      <li>
-        <p>
-          250
-        </p>
-      </li>
-      <li>
-        <p>
-          150
-        </p>
-      </li>
-      <li>
-        <p>
-          Cannot be determined
-        </p>
-      </li>
-    </ol> 
+<ul>
+  <li>
+    <p>
+      1st quartile = $250
+    </p>
+  </li>
+  <li>
+    <p>
+      2nd quartile = $700
+    </p>
+  </li>
+  <li>
+    <p>
+      3rd quartile = $1,200
+    </p>
+  </li>
+</ul> 
+ These amounts are for the school year. If a sample of 200 students is taken, how many are expected to receive $250 or more? 
+<ol marker="A">
+  <li>
+    <p>
+      50
+    </p>
+  </li>
+  <li>
+    <p>
+      250
+    </p>
+  </li>
+  <li>
+    <p>
+      150
+    </p>
+  </li>
+  <li>
+    <p>
+      Cannot be determined
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
-      <em>Use the following information to answer the next two exercises.</em>  <em>P</em> ( <em>A</em> ) = .2, <em>P</em> ( <em>B</em> ) = .3; <em>A</em> and <em>B</em> are independent events.
+      <em>Use the following information to answer the next two exercises.</em> <em>P</em> ( <em>A</em> ) = .2, <em>P</em> ( <em>B</em> ) = .3; <em>A</em> and <em>B</em> are independent events.
     </p>
     <p>
-      <em>70.</em>  <em>P</em> ( <em>A</em> AND <em>B</em> ) = — 
-    <ol>
-      <li>
-        <p>
-          .5
-        </p>
-      </li>
-      <li>
-        <p>
-          .6
-        </p>
-      </li>
-      <li>
-        <p>
-          0
-        </p>
-      </li>
-      <li>
-        <p>
-          .06
-        </p>
-      </li>
-    </ol> 
+      <em>70.</em> <em>P</em> ( <em>A</em> AND <em>B</em> ) = — 
+<ol marker="A">
+  <li>
+    <p>
+      .5
+    </p>
+  </li>
+  <li>
+    <p>
+      .6
+    </p>
+  </li>
+  <li>
+    <p>
+      0
+    </p>
+  </li>
+  <li>
+    <p>
+      .06
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
-      <em>71.</em>  <em>P</em> ( <em>A</em> OR <em>B</em> ) = — 
-    <ol>
-      <li>
-        <p>
-          .56
-        </p>
-      </li>
-      <li>
-        <p>
-          .5
-        </p>
-      </li>
-      <li>
-        <p>
-          .44
-        </p>
-      </li>
-      <li>
-        <p>
-          1
-        </p>
-      </li>
-    </ol> 
+      <em>71.</em> <em>P</em> ( <em>A</em> OR <em>B</em> ) = — 
+<ol marker="A">
+  <li>
+    <p>
+      .56
+    </p>
+  </li>
+  <li>
+    <p>
+      .5
+    </p>
+  </li>
+  <li>
+    <p>
+      .44
+    </p>
+  </li>
+  <li>
+    <p>
+      1
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>72.</em> If <em>H</em> and <em>D</em> are mutually exclusive events, <em>P</em> ( <em>H</em> ) = .25, <em>P</em> ( <em>D</em> ) = .15, then <em>P</em> ( <em>H</em> | <em>D</em> ). 
-    <ol>
-      <li>
-        <p>
-          1
-        </p>
-      </li>
-      <li>
-        <p>
-          0
-        </p>
-      </li>
-      <li>
-        <p>
-          .40
-        </p>
-      </li>
-      <li>
-        <p>
-          .0375
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      1
+    </p>
+  </li>
+  <li>
+    <p>
+      0
+    </p>
+  </li>
+  <li>
+    <p>
+      .40
+    </p>
+  </li>
+  <li>
+    <p>
+      .0375
+    </p>
+  </li>
+</ol> 
+
     </p>
   </section>
 
@@ -1493,28 +1528,29 @@
     <title>Chapter 9</title>
     <p>
       <em>73.</em> Rebecca and Matt are 14 year old twins. Matt’s height is two standard deviations below the mean for 14 year old boys’ height. Rebecca’s height is .10 standard deviations above the mean for 14 year old girls’ height. Interpret this. 
-    <ol>
-      <li>
-        <p>
-          Matt is 2.1 inches shorter than Rebecca.
-        </p>
-      </li>
-      <li>
-        <p>
-          Rebecca is very tall compared to other 14 year old girls.
-        </p>
-      </li>
-      <li>
-        <p>
-          Rebecca is taller than Matt.
-        </p>
-      </li>
-      <li>
-        <p>
-          Matt is shorter than the average 14 year old boy.
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Matt is 2.1 inches shorter than Rebecca.
+    </p>
+  </li>
+  <li>
+    <p>
+      Rebecca is very tall compared to other 14 year old girls.
+    </p>
+  </li>
+  <li>
+    <p>
+      Rebecca is taller than Matt.
+    </p>
+  </li>
+  <li>
+    <p>
+      Matt is shorter than the average 14 year old boy.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>74.</em> Construct a histogram of the IPO data (see <xref ref="m79712"></xref> ).
@@ -1522,7 +1558,7 @@
     <p>
       <em>Use the following information to answer the next three exercises.</em> Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let <em>X</em> = the number of estimates.
     </p>
-    <table xml:id="table-140237255597072">
+    <table xml:id="fs-idp187952032">
       <tabular>
         <row header="yes">
           <cell>x</cell>
@@ -1558,7 +1594,7 @@
       <em>76.</em> Calculate the sample mean (a), the sample standard deviation (b), and the percent of the estimates that fall at or below four (c).
     </p>
     <p>
-      <em>77.</em> Calculate the median, <em>M</em> , the first quartile, <em>Q</em> 1 , and the third quartile <em>Q</em> 3 . Then construct a box plot of the data.
+      <em>77.</em> Calculate the median, <em>M</em> , the first quartile, <em>Q</em> <m>_{1}</m> , and the third quartile <em>Q</em> <m>_{3}</m> . Then construct a box plot of the data.
     </p>
     <p>
       <em>78.</em> The middle 50 percent of the data are between ________ and ________.
@@ -1566,7 +1602,7 @@
     <p>
       <em>Use the following information to answer the next three exercises.</em> Seventy fifth and sixth graders were asked their favorite dinner.
     </p>
-    <table xml:id="table-140237255600752">
+    <table xml:id="fs-idp73514720">
       <tabular>
         <row header="yes">
           <cell></cell>
@@ -1576,14 +1612,14 @@
           <cell>Fried Shrimp</cell>
         </row>
         <row>
-          <cell>5th Grader</cell>
+          <cell><em>5th Grader</em></cell>
           <cell>15</cell>
           <cell>6</cell>
           <cell>9</cell>
           <cell>0</cell>
         </row>
         <row>
-          <cell>6th Grader</cell>
+          <cell><em>6th Grader</em></cell>
           <cell>15</cell>
           <cell>7</cell>
           <cell>10</cell>
@@ -1593,166 +1629,141 @@
     </table>
     <p>
       <em>79.</em> Find the probability that one randomly chosen child is in the 6th grade and prefers fried shrimp. 
-    <ol>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+  </li>
+  <li>
+  </li>
+  <li>
+  </li>
+  <li>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>80.</em> Find the probability that a child does not prefer pizza. 
-    <ol>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-          1
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+  </li>
+  <li>
+  </li>
+  <li>
+  </li>
+  <li>
+    <p>
+      1
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>81.</em> Find the probability a child is in the fifth grade given that the child prefers spaghetti. 
-    <ol>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+  </li>
+  <li>
+  </li>
+  <li>
+  </li>
+  <li>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>82.</em> A sample of convenience is a random sample. 
-    <ol>
-      <li>
-        <p>
-          True
-        </p>
-      </li>
-      <li>
-        <p>
-          False
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      True
+    </p>
+  </li>
+  <li>
+    <p>
+      False
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>83.</em> A statistic is a number that is a property of the population. 
-    <ol>
-      <li>
-        <p>
-          True
-        </p>
-      </li>
-      <li>
-        <p>
-          False
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      True
+    </p>
+  </li>
+  <li>
+    <p>
+      False
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>84.</em> You should always throw out any data that are outliers. 
-    <ol>
-      <li>
-        <p>
-          True
-        </p>
-      </li>
-      <li>
-        <p>
-          False
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      True
+    </p>
+  </li>
+  <li>
+    <p>
+      False
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>85.</em> Lee bakes pies for a small restaurant in Felton, CA. She generally bakes 20 pies in a day, on average. Of interest is the number of pies she bakes each day. 
-    <ol>
-      <li>
-        <p>
-          Define the random variable <em>X</em> .
-        </p>
-      </li>
-      <li>
-        <p>
-          State the distribution for <em>X</em> .
-        </p>
-      </li>
-      <li>
-        <p>
-          Find the probability that Lee bakes more than 25 pies in any given day.
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Define the random variable <em>X</em> .
+    </p>
+  </li>
+  <li>
+    <p>
+      State the distribution for <em>X</em> .
+    </p>
+  </li>
+  <li>
+    <p>
+      Find the probability that Lee bakes more than 25 pies in any given day.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>86.</em> Six different brands of Italian salad dressing were randomly selected at a supermarket. The grams of fat per serving are 7, 7, 9, 6, 8, and 5. Assume that the underlying distribution is normal. Calculate a 95 percent confidence interval for the population mean grams of fat per serving of Italian salad dressing sold in supermarkets.
     </p>
     <p>
       <em>87.</em> Given: uniform, exponential, normal distributions. Match each to a statement below. 
-    <ol>
-      <li>
-        <p>
-          mean = median ≠ mode
-        </p>
-      </li>
-      <li>
-        <p>
-          mean &gt; median &gt; mode
-        </p>
-      </li>
-      <li>
-        <p>
-          mean = median = mode
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      mean = median ≠ mode
+    </p>
+  </li>
+  <li>
+    <p>
+      mean &gt; median &gt; mode
+    </p>
+  </li>
+  <li>
+    <p>
+      mean = median = mode
+    </p>
+  </li>
+</ol> 
+
     </p>
   </section>
 
@@ -1761,7 +1772,7 @@
     <p>
       <em>Use the following information to answer the next three exercises.</em> In a survey at Kirkwood Ski Resort the following information was recorded.
     </p>
-    <table xml:id="table-140237255630480">
+    <table xml:id="fs-idp51990160">
       <tabular>
         <row header="yes">
           <cell></cell>
@@ -1771,14 +1782,14 @@
           <cell>40+</cell>
         </row>
         <row>
-          <cell>Ski</cell>
+          <cell><em>Ski</em></cell>
           <cell>10</cell>
           <cell>12</cell>
           <cell>30</cell>
           <cell>8</cell>
         </row>
         <row>
-          <cell>Snowboard</cell>
+          <cell><em>Snowboard</em></cell>
           <cell>6</cell>
           <cell>17</cell>
           <cell>12</cell>
@@ -1787,7 +1798,7 @@
       </tabular>
     </table>
     <p>
-      Suppose that one person from  was randomly selected.
+      Suppose that one person from <xref ref="fs-idp51990160"></xref> was randomly selected.
     </p>
     <p>
       <em>88.</em> Find the probability that the person was a skier or was age 11–20.
@@ -1797,81 +1808,84 @@
     </p>
     <p>
       <em>90.</em> Explain which of the following are true and which are false. 
-    <ol>
-      <li>
-        <p>
-          Sport and age are independent events.
-        </p>
-      </li>
-      <li>
-        <p>
-          Ski and age 11–20 are mutually exclusive events.
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>P</em> (Ski AND age 21–40) &lt; <em>P</em> (Ski|age 21–40)
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>P</em> (Snowboard OR age 0–10) &lt; <em>P</em> (Snowboard|age 0–10)
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Sport and age are independent events.
+    </p>
+  </li>
+  <li>
+    <p>
+      Ski and age 11–20 are mutually exclusive events.
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>P</em> (Ski AND age 21–40) &lt; <em>P</em> (Ski|age 21–40)
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>P</em> (Snowboard OR age 0–10) &lt; <em>P</em> (Snowboard|age 0–10)
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>91.</em> The average length of time a person with a broken leg wears a cast is approximately six weeks. The standard deviation is about three weeks. Thirty people who had recently healed from broken legs were interviewed. State the distribution that most accurately reflects total time to heal for the 30 people.
     </p>
     <p>
       <em>92.</em> The distribution for <em>X</em> is uniform. What can we say for certain about the distribution for  when <em>n</em> = 1? 
-    <ol>
-      <li>
-        <p>
-          The distribution for  is still uniform with the same mean and standard deviation as the distribution for <em>X</em> .
-        </p>
-      </li>
-      <li>
-        <p>
-          The distribution for  is normal with the different mean and a different standard deviation as the distribution for <em>X</em> .
-        </p>
-      </li>
-      <li>
-        <p>
-          The distribution for  is normal with the same mean but a larger standard deviation than the distribution for <em>X</em> .
-        </p>
-      </li>
-      <li>
-        <p>
-          The distribution for  is normal with the same mean but a smaller standard deviation than the distribution for <em>X</em> .
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      The distribution for  is still uniform with the same mean and standard deviation as the distribution for <em>X</em> .
+    </p>
+  </li>
+  <li>
+    <p>
+      The distribution for  is normal with the different mean and a different standard deviation as the distribution for <em>X</em> .
+    </p>
+  </li>
+  <li>
+    <p>
+      The distribution for  is normal with the same mean but a larger standard deviation than the distribution for <em>X</em> .
+    </p>
+  </li>
+  <li>
+    <p>
+      The distribution for  is normal with the same mean but a smaller standard deviation than the distribution for <em>X</em> .
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>93.</em> The distribution for <em>X</em> is uniform. What can we say for certain about the distribution for  when <em>n</em> = 50? 
-    <ol>
-      <li>
-        <p>
-          The distribution for  is still uniform with the same mean and standard deviation as the distribution for <em>X</em> .
-        </p>
-      </li>
-      <li>
-        <p>
-          The distribution for  is normal with the same mean but a larger standard deviation as the distribution for <em>X</em> .
-        </p>
-      </li>
-      <li>
-        <p>
-          The distribution for  is normal with a larger mean and a larger standard deviation than the distribution for <em>X</em> .
-        </p>
-      </li>
-      <li>
-        <p>
-          The distribution for  is normal with the same mean but a smaller standard deviation than the distribution for <em>X</em> .
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      The distribution for  is still uniform with the same mean and standard deviation as the distribution for <em>X</em> .
+    </p>
+  </li>
+  <li>
+    <p>
+      The distribution for  is normal with the same mean but a larger standard deviation as the distribution for <em>X</em> .
+    </p>
+  </li>
+  <li>
+    <p>
+      The distribution for  is normal with a larger mean and a larger standard deviation than the distribution for <em>X</em> .
+    </p>
+  </li>
+  <li>
+    <p>
+      The distribution for  is normal with the same mean but a smaller standard deviation than the distribution for <em>X</em> .
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>Use the following information to answer the next three exercises.</em> A group of students measured the lengths of all the carrots in a five-pound bag of baby carrots. They calculated the average length of baby carrots to be 2.0 inches with a standard deviation of 0.25 inches. Suppose we randomly survey 16 five-pound bags of baby carrots.
@@ -1889,7 +1903,7 @@
       <em>Use the following information to answer the next three exercises.</em> At the beginning of the term, the amount of time a student waits in line at the campus store is normally distributed with a mean of five minutes and a standard deviation of two minutes.
     </p>
     <p>
-      <em>97.</em> Find the 90 th percentile of waiting time in minutes.
+      <em>97.</em> Find the 90 <m>^{th}</m> percentile of waiting time in minutes.
     </p>
     <p>
       <em>98.</em> Find the median waiting time for one student.
@@ -1918,48 +1932,50 @@
     </p>
     <p>
       <em>104.</em> For which distribution is the median not equal to the mean? 
-    <ol>
-      <li>
-        <p>
-          Uniform
-        </p>
-      </li>
-      <li>
-        <p>
-          Exponential
-        </p>
-      </li>
-      <li>
-        <p>
-          Normal
-        </p>
-      </li>
-      <li>
-        <p>
-          Student <em>t</em>
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Uniform
+    </p>
+  </li>
+  <li>
+    <p>
+      Exponential
+    </p>
+  </li>
+  <li>
+    <p>
+      Normal
+    </p>
+  </li>
+  <li>
+    <p>
+      Student <em>t</em>
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>105.</em> Compare the standard normal distribution to the Student’s <em>t</em> distribution, centered at zero. Explain which of the following are true and which are false. 
-    <ol>
-      <li>
-        <p>
-          As the number surveyed increases, the area to the left of –1 for the Student’s <em>t</em> distribution approaches the area for the standard normal distribution.
-        </p>
-      </li>
-      <li>
-        <p>
-          As the degrees of freedom decrease, the graph of the Student’s <em>t</em> distribution looks more like the graph of the standard normal distribution.
-        </p>
-      </li>
-      <li>
-        <p>
-          If the number surveyed is 15, the normal distribution should never be used.
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      As the number surveyed increases, the area to the left of –1 for the Student’s <em>t</em> distribution approaches the area for the standard normal distribution.
+    </p>
+  </li>
+  <li>
+    <p>
+      As the degrees of freedom decrease, the graph of the Student’s <em>t</em> distribution looks more like the graph of the standard normal distribution.
+    </p>
+  </li>
+  <li>
+    <p>
+      If the number surveyed is 15, the normal distribution should never be used.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>Use the following information to answer the next five exercises.</em> We are interested in the checking account balance of 24-old college students. We randomly survey 16 20-year-old college students. We obtain a sample mean of $640 and a sample standard deviation of $150. Let <em>X</em> = checking account balance of an individual 20-year-old college student.
@@ -1981,23 +1997,24 @@
     </p>
     <p>
       <em>111.</em> On average, a busy emergency room gets a patient with a shotgun wound about once per week. We are interested in the number of patients with a shotgun wound the emergency room gets per 28 days. 
-    <ol>
-      <li>
-        <p>
-          Define the random variable <em>X</em> .
-        </p>
-      </li>
-      <li>
-        <p>
-          State the distribution for <em>X</em> .
-        </p>
-      </li>
-      <li>
-        <p>
-          Find the probability that the emergency room gets no patients with shotgun wounds in the next 28 days.
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Define the random variable <em>X</em> .
+    </p>
+  </li>
+  <li>
+    <p>
+      State the distribution for <em>X</em> .
+    </p>
+  </li>
+  <li>
+    <p>
+      Find the probability that the emergency room gets no patients with shotgun wounds in the next 28 days.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>Use the following information to answer the next two exercises.</em> The probability that a certain slot machine will pay back money when a quarter is inserted is .30. Assume that each play of the slot machine is independent from each other. A person puts in 15 quarters for 15 plays.
@@ -2010,52 +2027,57 @@
     </p>
     <p>
       <em>114.</em> A game is played with the following rules: 
-    <ul>
-      <li>
-        <p>
-          It costs $10 to enter.
-        </p>
-      </li>
-      <li>
-        <p>
-          A fair coin is tossed four times.
-        </p>
-      </li>
-      <li>
-        <p>
-          If you do not get four heads or four tails, you lose your $10.
-        </p>
-      </li>
-      <li>
-        <p>
-          If you get four heads or four tails, you get back your $10, plus $30 more.
-        </p>
-      </li>
-    </ul>   Over the long run of playing this game, what are your expected earnings?
+<ul>
+  <li>
+    <p>
+      It costs $10 to enter.
+    </p>
+  </li>
+  <li>
+    <p>
+      A fair coin is tossed four times.
+    </p>
+  </li>
+  <li>
+    <p>
+      If you do not get four heads or four tails, you lose your $10.
+    </p>
+  </li>
+  <li>
+    <p>
+      If you get four heads or four tails, you get back your $10, plus $30 more.
+    </p>
+  </li>
+</ul> 
+ Over the long run of playing this game, what are your expected earnings?
     </p>
     <p>
-      <em>115.</em>  
-    <ul>
-      <li>
-        <p>
-          The mean grade on a math exam in Rachel’s class was 74, with a standard deviation of five. Rachel earned an 80.
-        </p>
-      </li>
-      <li>
-        <p>
-          The mean grade on a math exam in Becca’s class was 47, with a standard deviation of two. Becca earned a 51.
-        </p>
-      </li>
-      <li>
-        <p>
-          The mean grade on a math exam in Matt’s class was 70, with a standard deviation of eight. Matt earned an 83.
-        </p>
-      </li>
-    </ul>   Find whose score was the best, compared to his or her own class. Justify your answer numerically.
+      <em>115.</em> 
+<ul>
+  <li>
+    <p>
+      The mean grade on a math exam in Rachel’s class was 74, with a standard deviation of five. Rachel earned an 80.
+    </p>
+  </li>
+  <li>
+    <p>
+      The mean grade on a math exam in Becca’s class was 47, with a standard deviation of two. Becca earned a 51.
+    </p>
+  </li>
+  <li>
+    <p>
+      The mean grade on a math exam in Matt’s class was 70, with a standard deviation of eight. Matt earned an 83.
+    </p>
+  </li>
+</ul> 
+ Find whose score was the best, compared to his or her own class. Justify your answer numerically.
     </p>
     <p>
       <em>Use the following information to answer the next two exercises.</em> A random sample of 70 compulsive gamblers were asked the number of days they go to casinos per week. The results are given in the following graph.
     </p>
+    <figure xml:id="fs-idp27199264">
+      <image source="../media/CNX-Stats_Review_Exercises_fig005.jpg" width="380%"/>
+    </figure>
     <p>
       <em>116.</em> Find the number of responses that were five.
     </p>
@@ -2064,109 +2086,113 @@
     </p>
     <p>
       <em>118.</em> Based upon research at De Anza College, it is believed that about 19 percent of the student population speaks a language other than English at home. Suppose that a study was done this year to see if that percent has decreased. Ninety-eight students were randomly surveyed with the following results: Fourteen said that they speak a language other than English at home. 
-    <ol>
-      <li>
-        <p>
-          State an appropriate null hypothesis.
-        </p>
-      </li>
-      <li>
-        <p>
-          State an appropriate alternative hypothesis.
-        </p>
-      </li>
-      <li>
-        <p>
-          Define the random variable, <em>P</em> ′.
-        </p>
-      </li>
-      <li>
-        <p>
-          Calculate the test statistic.
-        </p>
-      </li>
-      <li>
-        <p>
-          Calculate the <em>p</em> -value.
-        </p>
-      </li>
-      <li>
-        <p>
-          At the 5 percent level of decision, what is your decision about the null hypothesis?
-        </p>
-      </li>
-      <li>
-        <p>
-          What is the Type I error?
-        </p>
-      </li>
-      <li>
-        <p>
-          What is the Type II error?
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      State an appropriate null hypothesis.
+    </p>
+  </li>
+  <li>
+    <p>
+      State an appropriate alternative hypothesis.
+    </p>
+  </li>
+  <li>
+    <p>
+      Define the random variable, <em>P</em> ′.
+    </p>
+  </li>
+  <li>
+    <p>
+      Calculate the test statistic.
+    </p>
+  </li>
+  <li>
+    <p>
+      Calculate the <em>p</em> -value.
+    </p>
+  </li>
+  <li>
+    <p>
+      At the 5 percent level of decision, what is your decision about the null hypothesis?
+    </p>
+  </li>
+  <li>
+    <p>
+      What is the Type I error?
+    </p>
+  </li>
+  <li>
+    <p>
+      What is the Type II error?
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>119.</em> Assume that you are an emergency paramedic called in to rescue victims of an accident. You need to help a patient who is bleeding profusely. The patient is also considered to be a high risk for contracting a blood-borne illness. Assume that the null hypothesis is that the patient does <em>not</em> have the a blood-borne illness. What is a Type I error?
     </p>
     <p>
-      <em>120.</em> It is often said that Californians are more casual than the rest of Americans. Suppose that a survey was done to see if the proportion of Californian professionals that wear jeans to work is greater than the proportion of non-Californian professionals. Fifty of each was surveyed with the following results: Fifteen Californians wear jeans to work and six non-Californians wear jeans to work.  Let <em>C</em> = Californian professional; <em>NC</em> = non-Californian professional 
-    <ol>
-      <li>
-        <p>
-          State appropriate null and alternate hypotheses.
-        </p>
-      </li>
-      <li>
-        <p>
-          Define the random variable.
-        </p>
-      </li>
-      <li>
-        <p>
-          Calculate the test statistic and <em>p</em> -value.
-        </p>
-      </li>
-      <li>
-        <p>
-          At the 5 percent significance level, what is your decision?
-        </p>
-      </li>
-      <li>
-        <p>
-          What is the Type I error?
-        </p>
-      </li>
-      <li>
-        <p>
-          What is the Type II error?
-        </p>
-      </li>
-    </ol> 
+      <em>120.</em> It is often said that Californians are more casual than the rest of Americans. Suppose that a survey was done to see if the proportion of Californian professionals that wear jeans to work is greater than the proportion of non-Californian professionals. Fifty of each was surveyed with the following results: Fifteen Californians wear jeans to work and six non-Californians wear jeans to work. 
+ Let <em>C</em> = Californian professional; <em>NC</em> = non-Californian professional 
+<ol marker="A">
+  <li>
+    <p>
+      State appropriate null and alternate hypotheses.
+    </p>
+  </li>
+  <li>
+    <p>
+      Define the random variable.
+    </p>
+  </li>
+  <li>
+    <p>
+      Calculate the test statistic and <em>p</em> -value.
+    </p>
+  </li>
+  <li>
+    <p>
+      At the 5 percent significance level, what is your decision?
+    </p>
+  </li>
+  <li>
+    <p>
+      What is the Type I error?
+    </p>
+  </li>
+  <li>
+    <p>
+      What is the Type II error?
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>Use the following information to answer the next two exercises.</em> A group of statistics students have developed a technique that they feel will lower their anxiety level on statistics exams. They measured their anxiety level at the start of the quarter and again at the end of the quarter. Recorded is the paired data in that order: (1,000, 900); (1,200, 1,050); (600, 700); (1,300, 1,100); (1,000, 900); (900, 900).
     </p>
     <p>
       <em>121.</em> This is a test of (pick the best answer) — 
-    <ol>
-      <li>
-        <p>
-          large samples, and independent means
-        </p>
-      </li>
-      <li>
-        <p>
-          small samples, and independent means
-        </p>
-      </li>
-      <li>
-        <p>
-          dependent means
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      large samples, and independent means
+    </p>
+  </li>
+  <li>
+    <p>
+      small samples, and independent means
+    </p>
+  </li>
+  <li>
+    <p>
+      dependent means
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>122.</em> State the distribution to use for the test.
@@ -2215,7 +2241,7 @@
     <p>
       <em>Use the following information to answer the next three exercises.</em>
     </p>
-    <table xml:id="table-140237255757872">
+    <table xml:id="fs-idp83656832">
       <tabular>
         <row header="yes">
           <cell></cell>
@@ -2224,13 +2250,13 @@
           <cell>Pecan</cell>
         </row>
         <row>
-          <cell>Female</cell>
+          <cell><em>Female</em></cell>
           <cell>40</cell>
           <cell>10</cell>
           <cell>30</cell>
         </row>
         <row>
-          <cell>Male</cell>
+          <cell><em>Male</em></cell>
           <cell>20</cell>
           <cell>30</cell>
           <cell>10</cell>
@@ -2256,29 +2282,30 @@
       <em>135.</em> We randomly survey 14 people. Of interest is the number that watch the news at least once per week. State the distribution of <em>X</em> . <em>X</em> ~ ________.
     </p>
     <p>
-      <em>136.</em> The following histogram is most likely to be a result of sampling from which distribution?  
-    <ol>
-      <li>
-        <p>
-          Chi-square
-        </p>
-      </li>
-      <li>
-        <p>
-          Geometric
-        </p>
-      </li>
-      <li>
-        <p>
-          Uniform
-        </p>
-      </li>
-      <li>
-        <p>
-          Binomial
-        </p>
-      </li>
-    </ol> 
+      <em>136.</em> The following histogram is most likely to be a result of sampling from which distribution? 
+<ol marker="A">
+  <li>
+    <p>
+      Chi-square
+    </p>
+  </li>
+  <li>
+    <p>
+      Geometric
+    </p>
+  </li>
+  <li>
+    <p>
+      Uniform
+    </p>
+  </li>
+  <li>
+    <p>
+      Binomial
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>137.</em> The ages of De Anza evening students is known to be normally distributed with a population mean of 40 and a population standard deviation of six. A sample of six De Anza evening students reported their ages in years as: 28; 35; 47; 45; 30; 50. Find the probability that the mean of six ages of randomly chosen students is less than 35 years. Hint—Find the sample mean.
@@ -2286,23 +2313,22 @@
     <p>
       <em>138.</em> A math exam was given to all the fifth grade children attending Country School. Two random samples of scores were taken. The null hypothesis is that the mean math scores for boys and girls in fifth grade are the same. Conduct a hypothesis test.
     </p>
-    <table xml:id="table-140237255762352">
+    <table xml:id="fs-idp61162016">
       <tabular>
         <row header="yes">
           <cell></cell>
-          <cell>n</cell>
-          <cell>x
-  ¯</cell>
-          <cell>s2</cell>
+          <cell><em>n</em></cell>
+          <cell></cell>
+          <cell><em>s</em> <m>^{2}</m></cell>
         </row>
         <row>
-          <cell>Boys</cell>
+          <cell><em>Boys</em></cell>
           <cell>55</cell>
           <cell>82</cell>
           <cell>29</cell>
         </row>
         <row>
-          <cell>Girls</cell>
+          <cell><em>Girls</em></cell>
           <cell>60</cell>
           <cell>86</cell>
           <cell>46</cell>
@@ -2314,33 +2340,34 @@
     </p>
     <p>
       <em>140.</em> Which of the following is preferable when designing a hypothesis test? 
-    <ol>
-      <li>
-        <p>
-          Maximize <em>α</em> and minimize <em>β</em>
-        </p>
-      </li>
-      <li>
-        <p>
-          Minimize <em>α</em> and maximize <em>β</em>
-        </p>
-      </li>
-      <li>
-        <p>
-          Maximize <em>α</em> and <em>β</em>
-        </p>
-      </li>
-      <li>
-        <p>
-          Minimize <em>α</em> and <em>β</em>
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      Maximize <em>α</em> and minimize <em>β</em>
+    </p>
+  </li>
+  <li>
+    <p>
+      Minimize <em>α</em> and maximize <em>β</em>
+    </p>
+  </li>
+  <li>
+    <p>
+      Maximize <em>α</em> and <em>β</em>
+    </p>
+  </li>
+  <li>
+    <p>
+      Minimize <em>α</em> and <em>β</em>
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>Use the following information to answer the next three exercises.</em> One hundred twenty people were surveyed as to their favorite beverage. The results are below.
     </p>
-    <table xml:id="table-140237255766512">
+    <table xml:id="fs-idp53311952">
       <tabular>
         <row header="yes">
           <cell>Beverage/Age</cell>
@@ -2386,18 +2413,19 @@
     </table>
     <p>
       <em>141.</em> Are the events of milk and 30+ 
-    <ol>
-      <li>
-        <p>
-          independent events? Justify your answer.
-        </p>
-      </li>
-      <li>
-        <p>
-          mutually exclusive events? Justify your answer.
-        </p>
-      </li>
-    </ol> 
+<ol marker="A">
+  <li>
+    <p>
+      independent events? Justify your answer.
+    </p>
+  </li>
+  <li>
+    <p>
+      mutually exclusive events? Justify your answer.
+    </p>
+  </li>
+</ol> 
+
     </p>
     <p>
       <em>142.</em> Suppose that one person is randomly chosen. Find the probability that person is 10–19 given that he or she prefers juice.
@@ -2406,34 +2434,858 @@
       <em>143.</em> Are Preferred Beverage and Age independent events? Conduct a hypothesis test.
     </p>
     <p>
-      <em>144.</em> Given the following histogram, which distribution is the data most likely to come from?  
-    <ol>
-      <li>
-        <p>
-          Uniform
-        </p>
-      </li>
-      <li>
-        <p>
-          Exponential
-        </p>
-      </li>
-      <li>
-        <p>
-          Normal
-        </p>
-      </li>
-      <li>
-        <p>
-          Chi-square
-        </p>
-      </li>
-    </ol> 
+      <em>144.</em> Given the following histogram, which distribution is the data most likely to come from? 
+<ol marker="A">
+  <li>
+    <p>
+      Uniform
+    </p>
+  </li>
+  <li>
+    <p>
+      Exponential
+    </p>
+  </li>
+  <li>
+    <p>
+      Normal
+    </p>
+  </li>
+  <li>
+    <p>
+      Chi-square
+    </p>
+  </li>
+</ol> 
+
     </p>
   </section>
 
   <section xml:id="eip-501">
     <title>Solutions</title>
+    <subsection xml:id="eip-927">
+      <title>Chapter 3</title>
+      <p>
+        <em>1. C</em> Parameter
+      </p>
+      <p>
+        <em>2. A</em> Population
+      </p>
+      <p>
+        <em>3. B</em> Statistic
+      </p>
+      <p>
+        <em>4. D</em> Sample
+      </p>
+      <p>
+        <em>5. E</em> Variable
+      </p>
+      <p>
+        <em>6.</em> quantitative continuous
+      </p>
+      <p>
+        <em>7.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      2.27
+    </p>
+  </li>
+  <li>
+    <p>
+      3.04
+    </p>
+  </li>
+  <li>
+    <p>
+      –1, 4, 4
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>8.</em> Answers will vary.
+      </p>
+    </subsection>
+    <subsection xml:id="eip-517">
+      <title>Chapter 4</title>
+      <p>
+        <em>9. C</em> (.80)(.30)
+      </p>
+      <p>
+        <em>10. B</em> No, and they are not mutually exclusive either.
+      </p>
+      <p>
+        <em>11. A</em> All employed adult women
+      </p>
+      <p>
+        <em>12.</em> .5773
+      </p>
+      <p>
+        <em>13.</em> .0522
+      </p>
+      <p>
+        <em>14. B</em> The middle fifty percent of the members lost from 2 to 8.5 lbs.
+      </p>
+      <p>
+        <em>15. C</em> All of the data have the same value.
+      </p>
+      <p>
+        <em>16. C</em> The lowest data value is the median.
+      </p>
+      <p>
+        <em>17.</em> .279
+      </p>
+      <p>
+        <em>18. B</em> No, I expect to come out behind in money.
+      </p>
+      <p>
+        <em>19.</em> <em>X</em> = the number of patients calling in claiming to have the flu, who actually have the flu. 
+ <em>X</em> = 0, 1, 2, …25
+      </p>
+      <p>
+        <em>20.</em> <em>B</em> (25, .04)
+      </p>
+      <p>
+        <em>21.</em> .0165
+      </p>
+      <p>
+        <em>22.</em> 1
+      </p>
+      <p>
+        <em>23. C</em> Quantitative discrete
+      </p>
+      <p>
+        <em>24.</em> all words used by Tom Clancy in his novels
+      </p>
+    </subsection>
+    <subsection xml:id="eip-282">
+      <title>Chapter 5</title>
+      <p>
+        <em>25.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      24 percent
+    </p>
+  </li>
+  <li>
+    <p>
+      27 percent
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>26.</em> qualitative
+      </p>
+      <p>
+        <em>27.</em> .36
+      </p>
+      <p>
+        <em>28.</em> .7636
+      </p>
+      <p>
+        <em>29.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      no
+    </p>
+  </li>
+  <li>
+    <p>
+      no
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>30.</em> <em>B</em> (10, .76)
+      </p>
+      <p>
+        <em>31.</em> .9330
+      </p>
+      <p>
+        <em>32.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      <em>X</em> = the number of questions posted to the statistics listserv per day.
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>X</em> = 0, 1, 2,…
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>X</em> ~ <em>P</em> (2)
+    </p>
+  </li>
+  <li>
+    <p>
+      0
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>33.</em> $150
+      </p>
+      <p>
+        <em>34.</em> Matt
+      </p>
+      <p>
+        <em>35.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      False
+    </p>
+  </li>
+  <li>
+    <p>
+      True
+    </p>
+  </li>
+  <li>
+    <p>
+      False
+    </p>
+  </li>
+  <li>
+    <p>
+      False
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>36.</em> 16
+      </p>
+      <p>
+        <em>37.</em> first quartile: 2 
+ second quartile: 2 
+ third quartile: 3
+      </p>
+      <p>
+        <em>38.</em> 0.5
+      </p>
+      <p>
+        <em>39.</em> 
+      </p>
+      <p>
+        <em>40.</em> 
+      </p>
+    </subsection>
+    <subsection xml:id="eip-162">
+      <title>Chapter 6</title>
+      <p>
+        <em>41.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      True
+    </p>
+  </li>
+  <li>
+    <p>
+      True
+    </p>
+  </li>
+  <li>
+    <p>
+      False – the median and the mean are the same for this symmetric distribution.
+    </p>
+  </li>
+  <li>
+    <p>
+      True
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>42.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      8
+    </p>
+  </li>
+  <li>
+    <p>
+      8
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>P</em> ( <em>x</em> &lt; <em>k</em> ) = 0.65 = ( <em>k</em> – 3)  . <em>k</em> = 9.5
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>43.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      False –  of the data are at most five.
+    </p>
+  </li>
+  <li>
+    <p>
+      True – each quartile has 25 percent of the data.
+    </p>
+  </li>
+  <li>
+    <p>
+      False – that is unknown.
+    </p>
+  </li>
+  <li>
+    <p>
+      False – 50 percent of the data are four or less.
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>44. D</em> <em>G</em> and <em>H</em> are independent events.
+      </p>
+      <p>
+        <em>45.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      False – <em>J</em> and <em>K</em> are independent so they are not mutually exclusive which would imply dependency (meaning <em>P</em> ( <em>J</em> AND <em>K</em> ) is not 0).
+    </p>
+  </li>
+  <li>
+    <p>
+      False – see answer c.
+    </p>
+  </li>
+  <li>
+    <p>
+      True – <em>P</em> ( <em>J</em> OR <em>K</em> ) = <em>P</em> ( <em>J</em> ) + <em>P</em> ( <em>K</em> ) – <em>P</em> ( <em>J</em> AND <em>K</em> ) = <em>P</em> ( <em>J</em> ) + <em>P</em> ( <em>K</em> ) – <em>P</em> ( <em>J</em> ) <em>P</em> ( <em>K</em> ) = .3 + .6 – (.3)(.6) = .72. Note the <em>P</em> ( <em>J</em> AND <em>K</em> ) = <em>P</em> ( <em>J</em> ) <em>P</em> ( <em>K</em> ) because <em>J</em> and <em>K</em> are independent.
+    </p>
+  </li>
+  <li>
+    <p>
+      False – <em>J</em> and <em>K</em> are independent so <em>P</em> ( <em>J</em> ) = <em>P</em> ( <em>J</em> | <em>K</em> ).
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>46. A</em> <em>P</em> (5)
+      </p>
+    </subsection>
+    <subsection xml:id="eip-434">
+      <title>Chapter 7</title>
+      <p>
+        <em>47. A</em> <em>U</em> (0, 4)
+      </p>
+      <p>
+        <em>48. B</em> 2 hours
+      </p>
+      <p>
+        <em>49. A</em> 
+      </p>
+      <p>
+        <em>50.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      .7165
+    </p>
+  </li>
+  <li>
+    <p>
+      4.16
+    </p>
+  </li>
+  <li>
+    <p>
+      0
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>51. C</em> 5 years
+      </p>
+      <p>
+        <em>52. C</em> exponential
+      </p>
+      <p>
+        <em>53.</em> .63
+      </p>
+      <p>
+        <em>54. A</em> <em>B</em> (14, .20)
+      </p>
+      <p>
+        <em>55. A</em> <em>B</em> (14, .20)
+      </p>
+    </subsection>
+    <subsection xml:id="eip-864">
+      <title>Chapter 8</title>
+      <p>
+        <em>56. C</em> The mean amount of weight lost by 15 people on the special weight-loss diet.
+      </p>
+      <p>
+        <em>57.</em> .9951
+      </p>
+      <p>
+        <em>58.</em> 12.99
+      </p>
+      <p>
+        <em>59. C</em> 
+      </p>
+      <p>
+        <em>60. B</em> .60
+      </p>
+      <p>
+        <em>61. C</em> <em>N</em> (60, 5.477)
+      </p>
+      <p>
+        <em>62.</em> .9990
+      </p>
+      <p>
+        <em>63. A</em> eight days
+      </p>
+      <p>
+        <em>64. C</em> .7500
+      </p>
+      <p>
+        <em>65. A</em> 80 percent
+      </p>
+      <p>
+        <em>66. B</em> 35 percent
+      </p>
+      <p>
+        <em>67. B</em> no
+      </p>
+      <p>
+        <em>68. B</em> Quantitative continuous
+      </p>
+      <p>
+        <em>69. C</em> 150
+      </p>
+      <p>
+        <em>70. D</em> .06
+      </p>
+      <p>
+        <em>71. C</em> .44
+      </p>
+      <p>
+        <em>72. B</em> 0
+      </p>
+    </subsection>
+    <subsection xml:id="eip-761">
+      <title>Chapter 9</title>
+      <p>
+        <em>73. D</em> Matt is shorter than the average 14 year old boy.
+      </p>
+      <p>
+        <em>74.</em> Answers will vary.
+      </p>
+      <p>
+        <em>75.</em> x
+Relative Frequency
+Cumulative Relative Frequency
+
+
+
+
+1
+.3
+.3
+
+
+2
+.2
+.2
+
+
+4
+.4
+.4
+
+
+5
+.1
+.1
+      </p>
+      <p>
+        <em>76.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      2.8
+    </p>
+  </li>
+  <li>
+    <p>
+      1.48
+    </p>
+  </li>
+  <li>
+    <p>
+      90 percent
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>77.</em> <em>M</em> = 3; <em>Q</em> <m>_{1}</m> = 1; <em>Q</em> <m>_{3}</m> = 4
+      </p>
+      <p>
+        <em>78.</em> 1 and 4
+      </p>
+      <p>
+        <em>79. D</em> 
+      </p>
+      <p>
+        <em>80. C</em> 
+      </p>
+      <p>
+        <em>81. A</em> 
+      </p>
+      <p>
+        <em>82. B</em> False
+      </p>
+      <p>
+        <em>83. B</em> False
+      </p>
+      <p>
+        <em>84. B</em> False
+      </p>
+      <p>
+        <em>85.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      <em>X</em> = the number of pies Lee bakes every day.
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>P</em> (20)
+    </p>
+  </li>
+  <li>
+    <p>
+      .1122
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>86.</em> CI: (5.25, 8.48)
+      </p>
+      <p>
+        <em>87.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      uniform
+    </p>
+  </li>
+  <li>
+    <p>
+      exponential
+    </p>
+  </li>
+  <li>
+    <p>
+      normal
+    </p>
+  </li>
+</ol> 
+
+      </p>
+    </subsection>
+    <subsection xml:id="eip-827">
+      <title>Chapter 10</title>
+      <p>
+        <em>88.</em> 
+      </p>
+      <p>
+        <em>89.</em> 
+      </p>
+      <p>
+        <em>90.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      False
+    </p>
+  </li>
+  <li>
+    <p>
+      False
+    </p>
+  </li>
+  <li>
+    <p>
+      True
+    </p>
+  </li>
+  <li>
+    <p>
+      False
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>91.</em> <em>N</em> (180, 16.43)
+      </p>
+      <p>
+        <em>92. A</em> The distribution for  is still uniform with the same mean and standard deviation as the distribution for <em>X</em> .
+      </p>
+      <p>
+        <em>93. C</em> The distribution for  is normal with a larger mean and a larger standard deviation than the distribution for <em>X</em> .
+      </p>
+      <p>
+        <em>94.</em> 
+      </p>
+      <p>
+        <em>95.</em> Answers will vary.
+      </p>
+      <p>
+        <em>96.</em> .5000
+      </p>
+      <p>
+        <em>97.</em> 7.6
+      </p>
+      <p>
+        <em>98.</em> 5
+      </p>
+      <p>
+        <em>99.</em> .9431
+      </p>
+    </subsection>
+    <subsection xml:id="eip-736">
+      <title>Chapter 11</title>
+      <p>
+        <em>100.</em> 7.5
+      </p>
+      <p>
+        <em>101.</em> .0122
+      </p>
+      <p>
+        <em>102.</em> <em>N</em> (7, .63)
+      </p>
+      <p>
+        <em>103.</em> .9911
+      </p>
+      <p>
+        <em>104. B</em> exponential
+      </p>
+      <p>
+        <em>105.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      True
+    </p>
+  </li>
+  <li>
+    <p>
+      False
+    </p>
+  </li>
+  <li>
+    <p>
+      False
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>106.</em> Answers will vary.
+      </p>
+      <p>
+        <em>107.</em> Student’s <em>t</em> with <em>df</em> = 15
+      </p>
+      <p>
+        <em>108.</em> (560.07, 719.93)
+      </p>
+      <p>
+        <em>109.</em> quantitative continuous data
+      </p>
+      <p>
+        <em>110.</em> quantitative discrete data
+      </p>
+      <p>
+        <em>111.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      <em>X</em> = the number of patients with a shotgun wound the emergency room gets per 28 days.
+    </p>
+  </li>
+  <li>
+    <p>
+      <em>P</em> (4)
+    </p>
+  </li>
+  <li>
+    <p>
+      .0183
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>112.</em> greater than
+      </p>
+      <p>
+        <em>113.</em> no; <em>P</em> ( <em>x</em> = 8) = .0348
+      </p>
+      <p>
+        <em>114.</em> You will lose $5.
+      </p>
+      <p>
+        <em>115.</em> Becca
+      </p>
+      <p>
+        <em>116.</em> 14
+      </p>
+      <p>
+        <em>117.</em> sample mean = 3.2 
+ sample standard deviation = 1.85 
+ median = 3 
+ <em>Q</em> <m>_{1}</m> = 2 
+ <em>Q</em> <m>_{3}</m> = 5 
+ <em>IQR</em> = 3
+      </p>
+      <p>
+        <em>118.</em> d. <em>z</em> = –1.19 
+ e. .1171 
+ f. Do not reject the null hypothesis.
+      </p>
+      <p>
+        <em>119.</em> We conclude that the patient does have the illness when, in fact, the patient does not.
+      </p>
+      <p>
+        <em>120.</em> c. <em>z</em> = 2.21; <em>p</em> = .0136 
+ d. Reject the null hypothesis. 
+ e. We conclude that the proportion of Californian professionals that wear jeans to work is greater than the proportion of non-Californian professionals when, in fact, it is not greater. 
+ f. We cannot conclude that the proportion of Californian professionals that wear jeans to work is greater than the proportion of non-Californian professionals when, in fact, it is greater.
+      </p>
+      <p>
+        <em>121. C</em> dependent means
+      </p>
+      <p>
+        <em>122.</em> <em>t</em> <m>_{5}</m>
+      </p>
+    </subsection>
+    <subsection xml:id="eip-896">
+      <title>Chapter 12</title>
+      <p>
+        <em>123.</em> (.0424, .0770)
+      </p>
+      <p>
+        <em>124.</em> 2,401
+      </p>
+      <p>
+        <em>125.</em> Check student&apos;s solution.
+      </p>
+      <p>
+        <em>126.</em> .6321
+      </p>
+      <p>
+        <em>127.</em> $360
+      </p>
+      <p>
+        <em>128.</em> 
+      </p>
+    </subsection>
+    <subsection xml:id="eip-693">
+      <title>Chapter 13</title>
+      <p>
+        <em>129.</em> .02
+      </p>
+      <p>
+        <em>130.</em> .40
+      </p>
+      <p>
+        <em>131.</em> 
+      </p>
+      <p>
+        <em>132.</em> 
+      </p>
+      <p>
+        <em>133.</em> <em>p</em> -value = 0; reject the null hypothesis; conclude that they are dependent events
+      </p>
+      <p>
+        <em>134.</em> 8.4
+      </p>
+      <p>
+        <em>135.</em> <em>B</em> (14, .60)
+      </p>
+      <p>
+        <em>136. D</em> Binomial
+      </p>
+      <p>
+        <em>137.</em> .3669
+      </p>
+      <p>
+        <em>138.</em> <em>p</em> -value = .0006; reject the null hypothesis; conclude that the averages are not equal
+      </p>
+      <p>
+        <em>139.</em> <em>p</em> -value = 0; reject the null hypothesis; conclude that the proportion of males is higher
+      </p>
+      <p>
+        <em>140.</em> minimize <em>α</em> and <em>β</em>
+      </p>
+      <p>
+        <em>141.</em> 
+<ol marker="A">
+  <li>
+    <p>
+      no
+    </p>
+  </li>
+  <li>
+    <p>
+      yes, <em>P</em> ( <em>M</em> AND 30+) = 0
+    </p>
+  </li>
+</ol> 
+
+      </p>
+      <p>
+        <em>142.</em> 
+      </p>
+      <p>
+        <em>143.</em> no; <em>p</em> -value = 0
+      </p>
+      <p>
+        <em>144. A</em> uniform
+      </p>
+    </subsection>
   </section>
 
   <section xml:id="fs-idp74334080">

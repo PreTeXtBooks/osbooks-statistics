@@ -8,7 +8,7 @@
     <p>
       The following tables provide lap times from Terri Vogel&apos;s log book. Times are recorded in seconds for 2.5-mile laps completed in a series of races and practice runs.
     </p>
-    <table xml:id="table-140237257357200">
+    <table xml:id="id5853402">
       <title>Race Lap Times (in seconds)</title>
       <tabular>
         <row header="yes">
@@ -223,7 +223,7 @@
         </row>
       </tabular>
     </table>
-    <table xml:id="table-140237257537984">
+    <table xml:id="id11030993">
       <title>Practice Lap Times (in seconds)</title>
       <tabular>
         <row header="yes">
@@ -395,7 +395,7 @@
     <p>
       The following table lists initial public offering (IPO) stock prices for all 1999 stocks that at least doubled in value during the first day of trading.
     </p>
-    <table xml:id="table-140237255630480">
+    <table xml:id="id10255660">
       <title>IPO Offer Prices</title>
       <tabular>
         <row>

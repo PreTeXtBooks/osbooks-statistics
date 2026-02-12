@@ -6,107 +6,79 @@
   <section xml:id="fs-id15632468">
     <title>Quick Tips</title>
     <p>
-       Legend  
-    <ul>
-      <li>
-        <p>
-           represents a button press
-        </p>
-      </li>
-      <li>
-        <p>
-          [ ] represents yellow command or green letter behind a key
-        </p>
-      </li>
-      <li>
-        <p>
-          &lt; &gt; represents items on the screen
-        </p>
-      </li>
-    </ul>
+      <title>Legend</title>
+       represents a button press [ ] represents yellow command or green letter behind a key &lt; &gt; represents items on the screen
     </p>
     <p>
-      To adjust the contrast Press  , then hold  to increase the contrast or  to decrease the contrast.
+      <title>To adjust the contrast</title>
+      Press <image source="../media/ti83-2nd.png"/> <image source="../media/ti83-dir-up.png"/> <image source="../media/ti83-dir-down.png"/>
     </p>
     <p>
-      To capitalize letters and words Press  to get one capital letter, or press  , then  to set all button presses to capital letters.
-			You can return to the top-level button values by pressing  again.
+      <title>To capitalize letters and words</title>
+      Press <image source="../media/ti83-alpha.png"/> <image source="../media/ti83-2nd.png"/> <image source="../media/ti83-alpha.png"/> <image source="../media/ti83-alpha.png"/>
     </p>
     <p>
-      To correct a mistake If you hit a wrong button, press  and start again.
+      <title>To correct a mistake</title>
+      If you hit a wrong button, press <image source="../media/ti83-clear.png"/>
     </p>
     <p>
-      To write in scientific notation Numbers in scientific notation are expressed on the TI-83, 83+, 84, and 84+ using E notation, such that... 
-    <ul>
-      <li>
-        <p>
-          4.321 E 4 = 
-        </p>
-      </li>
-      <li>
-        <p>
-          4.321 E –4 =  
-        </p>
-      </li>
-    </ul>
+      <title>To write in scientific notation</title>
+      Numbers in scientific notation are expressed on the TI-83, 83+, 84, and 84+ using E notation, such that... 4.321 E 4 = 
+ 
+  4.321×
+   
+    10
+   
+   4 4.321 E –4 = 
+ 
+  4.321×
+   
+    10
+   
+   
+    –4
     </p>
     <p>
-      To transfer programs or equations from one calculator to another <em>Both calculators:</em> Insert your respective end of the link cable cable
-and press  , then [LINK] .
+      <title>To transfer programs or equations from one calculator to another</title>
+      Both calculators: <image source="../media/ti83-2nd.png"/> [LINK]
     </p>
     <p>
-      Calculator receiving information 
-    <ol>
-      <li>
-        <p>
-          Use the arrows to navigate to and select &lt;RECEIVE&gt; .
-        </p>
-      </li>
-      <li>
-        <p>
-          Press  .
-        </p>
-      </li>
-    </ol>
+      <title>Calculator receiving information</title>
+      Use the arrows to navigate to and select &lt;RECEIVE&gt;. Press 
+              
+              
+            .
     </p>
     <p>
-      Calculator sending information 
-    <ol>
-      <li>
-        <p>
-          Press the appropriate number or letter.
-        </p>
-      </li>
-      <li>
-        <p>
-          Use the up and down arrows to access the appropriate item.
-        </p>
-      </li>
-      <li>
-        <p>
-          Press  to select the item to transfer.
-        </p>
-      </li>
-      <li>
-        <p>
-          Press the right arrow to navigate to and select &lt;TRANSMIT&gt; .
-        </p>
-      </li>
-      <li>
-        <p>
-          Press  .
-        </p>
-      </li>
-    </ol>
+      <title>Calculator sending information</title>
+      Press the appropriate number or letter. Use the up and down arrows to access the appropriate item. Press 
+              
+             
+             to select the item to transfer. Press the right arrow to navigate to and select &lt;TRANSMIT&gt;. Press 
+              
+              
+            .
     </p>
+    <note xml:id="eip-623">
+      <title>Note</title>
+      <p>
+        ERROR 35 LINK generally means that the cables have not been inserted far enough.
+      </p>
+    </note>
     <p>
-      Both calculators—Insert your respective end of the link cable, press  , then [QUIT] to exit when done.
+      Both calculators—Insert your respective end of the link cable, press <image source="../media/ti83-2nd.png"/> , then <c>[QUIT]</c> to exit when done.
     </p>
   </section>
 
   <section xml:id="eip-367">
     <title>Manipulating One-Variable Statistics</title>
-    <table xml:id="table-140237255629040">
+    <note xml:id="builtinprogram">
+      <title>Note</title>
+      <p>
+        These directions are for entering data using the built-in statistical program.
+      </p>
+    </note>
+    <table xml:id="eip-886">
       <title>Sample Data</title>
       <tabular>
         <row header="yes">
@@ -136,74 +108,31 @@ and press  , then [LINK] .
       </tabular>
     </table>
     <p>
-      To begin 
-    <ol>
-      <li>
-        <p>
-           Turn on the calculator.
-        </p>
-      </li>
-      <li>
-        <p>
-           Access statistics mode.
-        </p>
-      </li>
-      <li>
-        <p>
-           Select &lt;4:ClrList&gt; to clear data from lists, if desired.
+      <title>To begin</title>
+      Turn on the calculator. Access statistics mode. Select &lt;4:ClrList&gt; to clear data from lists, if desired.
 
 
 , then
 
 
 
-.
-        </p>
-      </li>
-      <li>
-        <p>
-          Enter the list [L1] to be cleared.
+. Enter the list [L1] to be cleared.
 
 
  , [L1] ,
 
 
 
-.
-        </p>
-      </li>
-      <li>
-        <p>
-          Display the last instruction.
+. Display the last instruction.
 
 
- , [ENTRY].
-        </p>
-      </li>
-      <li>
-        <p>
-          Continue clearing any remaining lists in the same fashion, if desired.
+ , [ENTRY]. Continue clearing any remaining lists in the same fashion, if desired.
 
 
  ,
 
 
- , [L2] ,
-        </p>
-      </li>
-      <li>
-        <p>
-          Access statistics mode.
-        </p>
-      </li>
-      <li>
-        <p>
-          Select &lt;1:Edit . . .&gt;.
-        </p>
-      </li>
-      <li>
-        <p>
-          Enter data. Data values go into [L1]. (You may need to arrow over to [L1]).
+ , [L2] , Access statistics mode. Select &lt;1:Edit . . .&gt;. Enter data. Data values go into [L1]. (You may need to arrow over to [L1]).
 
 Type in a data value and enter it. For negative numbers, use the negate  key at the bottom of the keypad.
 
@@ -216,32 +145,7 @@ Type in a data value and enter it. For negative numbers, use the negate  key a
 
 
 .
-Continue in the same manner until all data values are entered. 
-        </p>
-      </li>
-      <li>
-        <p>
-          Type in a data value and enter it. For negative numbers, use the negate  key at the bottom of the keypad.
-
-
- ,
-
-
- ,
-
-
-
-.
-        </p>
-      </li>
-      <li>
-        <p>
-          Continue in the same manner until all data values are entered.
-        </p>
-      </li>
-      <li>
-        <p>
-          In [L2], enter the frequencies for each data value in [L1].
+Continue in the same manner until all data values are entered. In [L2], enter the frequencies for each data value in [L1].
 
 Type in a frequency and enter it. If a data value appears only once, the frequency is 1.
 
@@ -252,44 +156,7 @@ Type in a frequency and enter it. If a data value appears only once, the frequen
 
 .
 
-Continue in the same manner until all data values are entered. 
-        </p>
-      </li>
-      <li>
-        <p>
-          Type in a frequency and enter it. If a data value appears only once, the frequency is 1.
-
-
- ,
-
-
-
-.
-        </p>
-      </li>
-      <li>
-        <p>
-          Continue in the same manner until all data values are entered.
-        </p>
-      </li>
-      <li>
-        <p>
-          Access statistics mode.
-        </p>
-      </li>
-      <li>
-        <p>
-          Navigate to &lt;CALC&gt; .
-        </p>
-      </li>
-      <li>
-        <p>
-          Access &lt;1:1-var Stats&gt;.
-        </p>
-      </li>
-      <li>
-        <p>
-          Indicate that the data is in [L1]...
+Continue in the same manner until all data values are entered. Access statistics mode. Navigate to &lt;CALC&gt;. Access &lt;1:1-var Stats&gt;. Indicate that the data is in [L1]...
 
 
 
@@ -297,104 +164,78 @@ Continue in the same manner until all data values are entered.
 
 
 
-,
-        </p>
-      </li>
-      <li>
-        <p>
-          ...and indicate that the frequencies are in [L2].
+, ...and indicate that the frequencies are in [L2].
 
 
  , [L2] ,
 
 
 
-.
-        </p>
-      </li>
-      <li>
-        <p>
-          The statistics should be displayed. You may arrow down to get remaining statistics. Repeat as necessary.
-        </p>
-      </li>
-    </ol>
+. The statistics should be displayed. You may arrow down to get remaining statistics. Repeat as necessary.
     </p>
   </section>
 
   <section xml:id="fs-id15737311">
     <title>Drawing Histograms</title>
+    <note xml:id="fs-id14426441">
+      <title>Note</title>
+      <p>
+        We will assume that the data are already entered.
+      </p>
+    </note>
     <p>
       We will construct two histograms with the built-in [STAT PLOT] application. In the first method, we will use the default ZOOM. The second method will involve customizing a new graph.
     </p>
     <ol>
       <li>
         <p>
-           Access graphing mode.
-
-
- , [STAT PLOT]. 
+          Access graphing mode. 
+ <image source="../media/ti83-2nd.png"/> , <c>[STAT PLOT]</c> .
         </p>
       </li>
       <li>
         <p>
-           Select &lt;1:plot 1&gt; to access plotting - first graph. 
+          Select <c>&lt;1:plot 1&gt;</c> to access plotting - first graph. 
+ <image source="../media/ti83-enter.png"/>
         </p>
       </li>
       <li>
         <p>
-           Use the arrows to navigate to &lt;ON&gt; to turn on Plot 1.
-&lt;ON&gt; ,
-
-
-
-. 
+          Use the arrows to navigate to <c>&lt;ON&gt;</c> to turn on Plot 1. 
+ <c>&lt;ON&gt;</c> , <image source="../media/ti83-enter.png"/> .
         </p>
       </li>
       <li>
         <p>
-          Use the arrows to go to the histogram picture and select the histogram.  
+          Use the arrows to go to the histogram picture and select the histogram. <image source="../media/ti83-enter.png"/>
         </p>
       </li>
       <li>
         <p>
-          Use the arrows to navigate to &lt;Xlist&gt; .
+          Use the arrows to navigate to <c>&lt;Xlist&gt;</c> .
         </p>
       </li>
       <li>
         <p>
-           If [L1] is not selected, select it.
-
-
- , [L1] ,
-
-
-
-.
+          If [L1] is not selected, select it. 
+ <image source="../media/ti83-2nd.png"/> , <c>[L1]</c> , <image source="../media/ti83-enter.png"/> .
         </p>
       </li>
       <li>
         <p>
-          Use the arrows to navigate to &lt;Freq&gt; .
+          Use the arrows to navigate to <c>&lt;Freq&gt;</c> .
         </p>
       </li>
       <li>
         <p>
-           Assign the frequencies to [L2].
-
-
- , [L2] ,
-
-
-
-.
+          Assign the frequencies to <c>[L2]</c> . 
+ <image source="../media/ti83-2nd.png"/> , <c>[L2]</c> , <image source="../media/ti83-enter.png"/> .
         </p>
       </li>
       <li>
         <p>
-          Go back to access other graphs.
-
-
- , [STAT PLOT].
+          Go back to access other graphs. 
+ <image source="../media/ti83-2nd.png"/> , <c>[STAT PLOT]</c> .
         </p>
       </li>
       <li>
@@ -409,16 +250,8 @@ Continue in the same manner until all data values are entered.
       </li>
     </ol>
     <p>
-      To deselect equations 
-    <ol>
-      <li>
-        <p>
-          Access the list of equations.
-        </p>
-      </li>
-      <li>
-        <p>
-          Select each equal sign (=).
+      <title>To deselect equations</title>
+      Access the list of equations. Select each equal sign (=).
 
 
 
@@ -428,27 +261,11 @@ Continue in the same manner until all data values are entered.
 
 
 
-.
-        </p>
-      </li>
-      <li>
-        <p>
-          Continue until all equations are deselected.
-        </p>
-      </li>
-    </ol>
+. Continue until all equations are deselected.
     </p>
     <p>
-      To clear equations 
-    <ol>
-      <li>
-        <p>
-          Access the list of equations.
-        </p>
-      </li>
-      <li>
-        <p>
-          Use the arrow keys to navigate to the right of each equal sign (=) and clear them.
+      <title>To clear equations</title>
+      Access the list of equations. Use the arrow keys to navigate to the right of each equal sign (=) and clear them.
 
 
 
@@ -458,219 +275,673 @@ Continue in the same manner until all data values are entered.
 
 
 
-.
-        </p>
-      </li>
-      <li>
-        <p>
-          Repeat until all equations are deleted.
-        </p>
-      </li>
-    </ol>
+. Repeat until all equations are deleted.
     </p>
     <p>
-      To draw default histogram 
-    <ol>
-      <li>
-        <p>
-          Access the ZOOM menu.
-        </p>
-      </li>
-      <li>
-        <p>
-          Select &lt;9:ZoomStat&gt;.
-        </p>
-      </li>
-      <li>
-        <p>
-          The histogram will display with a window automatically set.
-        </p>
-      </li>
-    </ol>
+      <title>To draw default histogram</title>
+      Access the ZOOM menu. Select &lt;9:ZoomStat&gt;. The histogram will display with a window automatically set.
     </p>
     <p>
-      To draw a custom histogram 
-    <ol>
-      <li>
-        <p>
-          Access window mode to set the graph parameters.   
-        </p>
-      </li>
-      <li>
-        <p>
-           
-        <ul>
-          <li>
-            <p>
-                
-            </p>
-          </li>
-          <li>
-            <p>
-                
-            </p>
-          </li>
-          <li>
-            <p>
-                (width of bars)
-            </p>
-          </li>
-          <li>
-            <p>
-                
-            </p>
-          </li>
-          <li>
-            <p>
-                
-            </p>
-          </li>
-          <li>
-            <p>
-                (spacing of tick marks on <em>y</em> -axis)
-            </p>
-          </li>
-          <li>
-            <p>
-                
-            </p>
-          </li>
-        </ul> 
-        </p>
-      </li>
-      <li>
-        <p>
+      <title>To draw a custom histogram</title>
+      Access window mode to set the graph parameters. X
+   
+    min
+   
+  
+  =–2.5
+ 
+
+
             
-        </p>
-      </li>
-      <li>
-        <p>
+              
+ 
+  
+   X
+   
+    max
+   
+  
+  =3.5
+ 
+
+
             
-        </p>
-      </li>
-      <li>
-        <p>
-            (width of bars)
-        </p>
-      </li>
-      <li>
-        <p>
             
-        </p>
-      </li>
-      <li>
-        <p>
+              
+ 
+  
+   X
+   
+    scl
+   
+  
+  =1
+ 
+ (width of bars)
             
-        </p>
-      </li>
-      <li>
-        <p>
-            (spacing of tick marks on <em>y</em> -axis)
-        </p>
-      </li>
-      <li>
-        <p>
             
-        </p>
-      </li>
-      <li>
-        <p>
-          Access graphing mode to see the histogram.   
-        </p>
-      </li>
-    </ol>
+              
+ 
+  
+   Y
+   
+    min
+   
+  
+  =0
+ 
+
+
+            
+            
+              
+ 
+  
+   Y
+   
+    max
+   
+  
+  =10
+ 
+
+
+            
+            
+              
+ 
+  
+   Y
+   
+    scl
+   
+  
+  =1
+ 
+ (spacing of tick marks on y-axis)
+            
+            
+              
+ 
+  
+   X
+   
+    res
+   
+  
+  =1 Access graphing mode to see the histogram.
     </p>
     <p>
-      To draw box plots 
-    <ol>
-      <li>
-        <p>
-          Access graphing mode.
+      <title>To draw box plots</title>
+      Access graphing mode.
 
 
- , [STAT PLOT]. 
-        </p>
-      </li>
-      <li>
-        <p>
-          Select &lt;1:Plot 1&gt; to access the first graph. 
-        </p>
-      </li>
-      <li>
-        <p>
-          Use the arrows to select &lt;ON&gt; and turn on Plot 1. 
-        </p>
-      </li>
-      <li>
-        <p>
-          Use the arrows to select the box plot picture and enable it. 
-        </p>
-      </li>
-      <li>
-        <p>
-          Use the arrows to navigate to &lt;Xlist&gt; .
-        </p>
-      </li>
-      <li>
-        <p>
-          If [L1] is not selected, select it.
+ , [STAT PLOT]. Select &lt;1:Plot 1&gt; to access the first graph. Use the arrows to select &lt;ON&gt; and turn on Plot 1. Use the arrows to select the box plot picture and enable it. Use the arrows to navigate to &lt;Xlist&gt;. If [L1] is not selected, select it.
 
 
  , [L1] ,
 
 
 
-. 
-        </p>
-      </li>
-      <li>
-        <p>
-          Use the arrows to navigate to &lt;Freq&gt; .
-        </p>
-      </li>
-      <li>
-        <p>
-          Indicate that the frequencies are in [L2].
+. Use the arrows to navigate to &lt;Freq&gt;. Indicate that the frequencies are in [L2].
 
 
  , [L2] ,
 
 
 
-. 
-        </p>
-      </li>
-      <li>
-        <p>
-          Go back to access other graphs.
+. Go back to access other graphs.
 
 
- , [STAT PLOT]. 
-        </p>
-      </li>
-      <li>
-        <p>
-          <em>Be sure to deselect or clear all equations before graphing</em> using the method mentioned above.
-        </p>
-      </li>
-      <li>
-        <p>
-          View the box plot.
+ , [STAT PLOT]. Be sure to deselect or clear all equations before graphing using the method mentioned above. View the box plot.
 
 
- , [STAT PLOT]. 
-        </p>
-      </li>
-    </ol>
+ , [STAT PLOT].
     </p>
   </section>
 
   <section xml:id="fs-id14569516">
     <title>Linear Regression</title>
+    <subsection xml:id="fs-id15377984">
+      <title>Sample Data</title>
+      <p>
+        The following data are real. The percent of declared ethnic minority students at De Anza College for selected years from 1970–1995 is indicated in the following table.
+      </p>
+      <table xml:id="fs-id14336458">
+        <title>The independent variable is <em>Year,</em> while the independent variable is <em>Student Ethnic Minority Percentage</em> .</title>
+        <tabular>
+          <row header="yes">
+            <cell>Year</cell>
+            <cell>Student Ethnic Minority Percentage</cell>
+          </row>
+          <row>
+            <cell>1970</cell>
+            <cell>14.13%</cell>
+          </row>
+          <row>
+            <cell>1973</cell>
+            <cell>12.27%</cell>
+          </row>
+          <row>
+            <cell>1976</cell>
+            <cell>14.08%</cell>
+          </row>
+          <row>
+            <cell>1979</cell>
+            <cell>18.16%</cell>
+          </row>
+          <row>
+            <cell>1982</cell>
+            <cell>27.64%</cell>
+          </row>
+          <row>
+            <cell>1983</cell>
+            <cell>28.72%</cell>
+          </row>
+          <row>
+            <cell>1986</cell>
+            <cell>31.86%</cell>
+          </row>
+          <row>
+            <cell>1989</cell>
+            <cell>33.14%</cell>
+          </row>
+          <row>
+            <cell>1992</cell>
+            <cell>45.37%</cell>
+          </row>
+          <row>
+            <cell>1995</cell>
+            <cell>53.1%</cell>
+          </row>
+        </tabular>
+      </table>
+      <figure xml:id="fs-id13815357">
+        <caption>By hand, verify the scatterplot above.</caption>
+        <image source="../media/CNX_Stats_Appendix_ART_Figure_14.6.jpg" width="350%"/>
+      </figure>
+      <note xml:id="fs-id15648837">
+        <title>Note</title>
+        <p>
+          The TI-83 has a built-in linear regression feature, which allows the data to be edited. The <em>x</em> -values will be in <c>[L1]</c> ; the <em>y</em> -values in <c>[L2]</c> .
+        </p>
+      </note>
+      <p>
+        <title>To enter data and perform linear regression</title>
+        ON Turns calculator on. Before accessing this program, be sure to turn off all plots.
+
+Access graphing mode.
+
+
+ , [STAT PLOT].
+
+
+
+Turn off all plots.
+
+
+ ,
+
+
+
+. Round to three decimal places.
+
+Access the mode menu.
+
+
+ , [STAT PLOT].
+
+
+
+
+Navigate to &lt;Float&gt; and then to the right until you reach &lt;3&gt;.
+
+
+
+
+
+
+.
+
+
+
+All numbers will be rounded to three decimal places until changed. Enter statistics mode and clear lists [L1] and [L2], as described previously.
+
+
+ ,
+
+
+
+. Enter editing mode to insert values for x and y.
+
+
+ ,
+
+
+
+. Enter each value. Press
+
+
+ to continue.
+      </p>
+      <p>
+        <title>To display the correlation coefficient</title>
+        Access the catalog.
+
+
+ , [CATALOG]. Arrow down and select &lt;DiagnosticOn&gt;.
+
+
+... ,
+
+
+ ,
+
+
+
+. r
+ and
+
+
+
+r
+2
+
+ will be displayed during regression calculations. Access linear regression.
+
+
+
+
+
+
+. Select the form of y = a + bx.
+
+
+ ,
+
+
+
+.
+      </p>
+      <p>
+        
+ The display will show the following information
+      </p>
+      <p>
+        <title>LinReg</title>
+        y = a + bx a = –3176.909 b = 1.617 r2 = 0.924 r = 0.961
+      </p>
+      <p>
+        
+ This means the Line of Best Fit (Least Squares Line) is: 
+<ul>
+  <li>
+    <p>
+      <em>y</em> = –3176.909 + 1.617 <em>x</em>
+    </p>
+  </li>
+  <li>
+    <p>
+      % = –3176.909 + 1.617 (year #)
+    </p>
+  </li>
+</ul> The correlation coefficient is <em>r</em> = 0.961.
+      </p>
+      <p>
+        <title>To see the scatter plot</title>
+         Access graphing mode.
+
+
+ , [STAT PLOT]. Select &lt;1:Plot 1&gt; To access plotting - first graph. Navigate and select &lt;ON&gt; to turn on &lt;1:Plot 1&gt;.
+&lt;ON&gt;
+
+
+
+. Navigate to the first picture. Select the scatter plot. Navigate to &lt;Xlist&gt;. If [L1] is not selected, press
+
+
+ , then [L1] to select it. Confirm that the data values are in [L1].
+&lt;ON&gt;,
+
+
+
+. Navigate to &lt;Ylist&gt;. Select that the frequencies are in [L2].
+
+
+ , [L2] , Go back to access other graphs.
+
+
+ , [STAT PLOT] Use the arrows to turn off the remaining plots. Access window mode to set the graph parameters.
+
+
+
+
+
+
+
+
+X
+
+min
+
+
+=1970
+
+
+
+
+
+
+
+X
+
+max
+
+
+=2000
+
+
+
+
+
+
+
+X
+
+scl
+
+
+=10
+
+ (spacing of tick marks on x-axis)
+
+
+
+
+
+Y
+
+min
+
+
+=−0.05
+
+
+
+
+
+
+
+Y
+
+max
+
+
+=60
+
+
+
+
+
+
+
+Y
+
+scl
+
+
+=10
+
+ (spacing of tick marks on y-axis)
+
+
+
+
+
+X
+
+res
+
+
+=1 Be sure to deselect or clear all equations before graphing, using the instructions above. Press  the graph button to see the scatter plot.
+      </p>
+      <p>
+        <title>To see the regression graph</title>
+         Access the equation menu. The regression equation will be put into Y1. Access the vars menu and navigate to &lt;5: Statistics&gt;.
+
+
+ ,
+
+
+
+. Navigate to &lt;EQ&gt;. &lt;1: RegEQ&gt; contains the regression equation which will be entered in Y1. Press the graphing mode button. The regression line will be superimposed over the scatter plot.
+      </p>
+      <p>
+        <title>To see the residuals and use them to calculate the critical point for an outlier</title>
+        Access the list. &lt;RESID&gt; will be an item on the menu. Navigate to it.
+
+
+, [LIST], then &lt;RESID&gt;. Press enter twice to view the list of residuals. Use the arrows to select them.
+
+
+ ,
+
+
+
+. The critical point for an outlier is
+
+
+
+1.9
+V
+
+
+SSE
+
+
+n
+2
+
+
+
+, where
+
+
+
+n
+ = number of pairs of data
+
+
+
+SSE
+ = sum of the squared errors
+
+
+
+
+
+
+
+residual
+2 Store the residuals in [L3].
+
+
+ ,
+
+
+ , [L3] ,
+
+
+
+. Calculate the
+
+
+
+
+
+(residual)
+2
+
+
+
+n
+2
+
+
+. Note that
+
+
+
+
+
+n
+2
+
+8
+
+
+.
+
+
+ , [L3] ,
+
+
+ ,
+
+
+ , then
+
+
+
+. Store this value in [L4].
+
+
+ ,
+
+
+ , [L4] ,
+
+
+
+. Calculate the critical value using the equation above.
+
+
+ ,
+
+
+ ,
+
+
+ ,
+
+
+ ,
+
+
+ , [V] ,
+
+
+ , [LIST]
+
+
+ ,
+
+
+ ,
+
+
+ ,
+
+
+ , [L4] ,
+
+
+ ,
+
+
+ , then
+
+
+
+. Verify that the calculator displays 7.642669563. This is the critical value. Compare the absolute value of each residual value in [L3] to 7.64. If the absolute value is greater than 7.64, then the (x, y) corresponding point is an outlier. In this case, none of the points is an outlier.
+      </p>
+      <p>
+        <title>To obtain estimates of </title>
+        There are various ways to determine estimates for &quot; y. x <image source="../media/ti83-trace.png"/>
+      </p>
+    </subsection>
   </section>
 
   <section xml:id="fs-id5169011">
     <title>TI-83, 83+, 84, 84+ instructions for distributions and tests</title>
+    <subsection xml:id="fs-id15450346">
+      <title>Distributions</title>
+      <p>
+        Access <c>DISTR</c> for <em>Distributions</em> .
+      </p>
+      <p>
+        For technical assistance, visit the Texas Instruments website at <url href="http://www.ti.com">http://www.ti.com</url> and enter your calculator model into the <em>search</em> box.
+      </p>
+      <p>
+        <title>Binomial Distribution</title>
+         binompdf(n,p,x) corresponds to P(X = x) binomcdf(n,p,x) corresponds to P(X ≤ x) To see a list of all probabilities for x: 0, 1, . . . , n, leave off the &quot;x&quot; parameter.
+      </p>
+      <p>
+        <title>Poisson Distribution</title>
+         poissonpdf(λ,x) corresponds to P(X = x) poissoncdf(λ,x) corresponds to P(X ≤ x)
+      </p>
+      <p>
+        <title>Continuous Distributions (general)</title>
+        −∞
+ 
+ uses the value –1EE99 for left bound uses the value 1EE99 for right bound
+      </p>
+      <p>
+        <title>Normal Distribution</title>
+        normalpdf(x,μ,σ)  yields a probability density function value, only useful to plot the normal curve, in which case &quot;x&quot; is the variable normalcdf(left bound, right bound, μ, σ) corresponds to P(left bound &lt; X &lt; right bound) normalcdf(left bound, right bound) corresponds to P(left bound &lt; Z &lt; right bound) – standard normal invNorm(p,μ,σ) yields the critical value, k: P(X &lt; k) = p invNorm(p) yields the critical value, k: P(Z &lt; k) = p for the standard normal
+      </p>
+      <p>
+        <title>Student&apos;s </title>
+        tpdf(x,df) yields the probability density function value, only useful to plot the student-t curve, in which case &quot;x&quot; is the variable) tcdf(left bound, right bound, df) corresponds to P(left bound &lt; t &lt; right bound)
+      </p>
+      <p>
+        <title>Chi-square Distribution</title>
+        Χ2pdf(x,df) yields the probability density function value, only useful to plot the chi2 curve, in which case &quot;x&quot; is the variable Χ2cdf(left bound, right bound, df) corresponds to P(left bound &lt; Χ2 &lt; right bound)
+      </p>
+      <p>
+        <title>F Distribution</title>
+        Fpdf(x,dfnum,dfdenom) yields the probability density function value, only useful to plot the F curve, in which case &quot;x&quot; is the variable Fcdf(left bound,right bound,dfnum,dfdenom) corresponds to P(left bound &lt; F &lt; right bound)
+      </p>
+    </subsection>
+    <subsection xml:id="fs-id15677913">
+      <title>Tests and Confidence Intervals</title>
+      <p>
+        Access <c>STAT</c> and <c>TESTS</c> .
+      </p>
+      <p>
+        For the confidence intervals and hypothesis tests, you may enter the data into the appropriate lists and press <c>DATA</c> to have the calculator find the sample means and standard deviations. Or, you may enter the sample means and sample standard deviations directly by pressing <c>STAT</c> once in the appropriate tests.
+      </p>
+      <p>
+        <title>Confidence Intervals</title>
+         ZInterval is the confidence interval for mean when σ is known. TInterval is the confidence interval for mean when σ is unknown; s estimates σ. 1-PropZInt is the confidence interval for proportion.
+      </p>
+      <note xml:id="fs-id14799914">
+        <title>Note</title>
+        <p>
+          The confidence levels should be given as percents (e.g., enter &quot; <c>95</c> &quot; or &quot; <c>.95</c> &quot; for a 95 percent confidence level).
+        </p>
+      </note>
+      <p>
+        <title>Hypothesis Tests</title>
+         Z-Test is the hypothesis test for single mean when σ is known. T-Test is the hypothesis test for single mean when σ is unknown; s estimates σ. 2-SampZTest is the hypothesis test for two independent means when both σs are known. 2-SampTTest is the hypothesis test for two independent means when both σs are unknown. 1-PropZTest is the hypothesis test for a single proportion. 2-PropZTest is the hypothesis test for two proportions. Χ2-Test is the hypothesis test for independence. Χ2GOF-Test is the hypothesis test for goodness-of-fit (TI-84+ only). LinRegTTEST is the hypothesis test for Linear Regression (TI-84+ only).
+      </p>
+      <note xml:id="fs-id15374930">
+        <title>Note</title>
+        <p>
+          Input the null hypothesis value in the row below &quot; <c>Inpt</c> .&quot; For a test of a single mean, &quot; <c>μ∅</c> &quot; represents the null hypothesis. For a test of a single proportion, &quot; <c>p∅</c> &quot; represents the null hypothesis. Enter the alternate hypothesis on the bottom row.
+        </p>
+      </note>
+    </subsection>
   </section>
 
 </appendix>
