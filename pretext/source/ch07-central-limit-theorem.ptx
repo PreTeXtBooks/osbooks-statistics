@@ -2057,9 +2057,6 @@ The average stay of 80 women was more than five days.</li>
 </section><section xml:id="m79651">
 <title>The Central Limit Theorem for Sample Means (Pocket Change)</title>
 
-<subsection xml:id="ch7-lab-pocket-change">
-<title>Lab Activity</title>
-
 <exploration xml:id="ch7-lab1-exploration">
 <title>Central Limit Theorem (Pocket Change)</title>
 
@@ -2073,7 +2070,7 @@ The average stay of 80 women was more than five days.</li>
 <p>This lab works best when sampling from several classes and combining data.</p>
 </note>
 
-<subsection xml:id="CollectData">
+<task xml:id="CollectData">
 <title>Collect the Data</title>
 <ol>
 <li>Count the change in your pocket. (Do not include bills.)</li>
@@ -2142,7 +2139,7 @@ The average stay of 80 women was more than five days.</li>
 </li>
 <li>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li>
 </ol>
-</subsection>
+</task>
 
 <p><title>Collecting Averages of Pairs:</title>Repeat steps one through five of the section <xref ref="CollectData">Collect the Data</xref> with one exception. Instead of recording the change of 30 classmates, record the average change of 30 pairs.</p>
 
@@ -2214,7 +2211,7 @@ The average stay of 80 women was more than five days.</li>
 <li>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li>
 </ol>
 
-<subsection xml:id="ch7-element-505436759">
+<task xml:id="ch7-element-505436759">
 <title>Collecting Averages of Groups of Five</title>
 <p>Repeat steps one through five (of the section titled <xref ref="CollectData">Collect the Data</xref>), with one exception. Instead of recording the change of 30 classmates, record the average change of 30 groups of five.</p>
 
@@ -2285,7 +2282,7 @@ The average stay of 80 women was more than five days.</li>
 </li>
 <li>Draw a smooth curve through the tops of the bars of the histogram. Use one to two complete sentences to describe the general shape of the curve.</li>
 </ol>
-</subsection>
+</task>
 
 <ol>
 <title>Discussion Questions</title>
@@ -2298,13 +2295,9 @@ The average stay of 80 women was more than five days.</li>
 
 </exploration>
 
-</subsection>
 </section>
 <section xml:id="m79652">
   <title>The Central Limit Theorem for Sums (Cookie Recipes)</title>
-  
-  <subsection xml:id="ch7-lab-cookie-recipes">
-  <title>Lab Activity</title>
   
   <exploration xml:id="ch7-lab2-exploration">
     <title>Central Limit Theorem (Cookie Recipes)</title>
@@ -2793,7 +2786,6 @@ The average stay of 80 women was more than five days.</li>
     </ol>
   </exploration>
   
-  </subsection>
 </section>
   <glossary>
     <title>Glossary</title>

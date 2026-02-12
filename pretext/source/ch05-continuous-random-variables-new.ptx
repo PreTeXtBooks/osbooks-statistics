@@ -504,7 +504,7 @@
         <p xml:id="element-438">a. Let <em>X</em> = the number of minutes a person must wait for a bus. <em>a</em> = 0 and <em>b</em> = 15.
 <em>X</em> ~ <em>U</em>(0, 15). Write the probability density function. <em>f</em> (<em>x</em>) = <m>\frac{1}{15-0}</m> = <m>\frac{1}{15}</m>
 for 0 ≤ <em>x</em> ≤ 15.</p>
-        <p xml:id="element-577">Find <em>P</em> (<em>x</em> &lt; 12.5). Draw a graph.</p>
+        <p xml:id="ch5-element-577">Find <em>P</em> (<em>x</em> &lt; 12.5). Draw a graph.</p>
         <men xml:id="fs-id1164559086241">P(x&lt;k)=(base)(height)=(12.5-0)(\frac{1}{15})=0.8333</men>
         <p xml:id="element-748">The probability a person waits fewer than 12.5 minutes is 0.8333.</p>
         <figure xml:id="eip-idp99340768">
@@ -1095,7 +1095,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         </ol>
       </statement>
     </exercise>
-    <p xml:id="eip-192"><em>Use the following information to answer the next three exercises.</em> The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution.</p>
+    <p xml:id="ch5-eip-192"><em>Use the following information to answer the next three exercises.</em> The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution.</p>
     <exercise xml:id="eip-518">
       <title>Try It</title>
       <statement>

@@ -5,11 +5,11 @@
   <section xml:id="sec-hypothesis-testing-two-samples-intro">
     <title>Introduction</title>
 
-    <figure xml:id="fs-idp119584608">
+    <figure xml:id="ch10-fs-idp119584608">
       <caption>If you want to test a claim that involves two groups (the types of breakfasts eaten east and west of the Mississippi River), you can use a slightly different technique when conducting a hypothesis test. (credit: Chloe Lim)</caption>
       <image source="media/CNX_Stats_C10_CO.jpg" width="76%"/>
     </figure>
-    <note xml:id="fs-idm64219152">
+    <note xml:id="ch10-fs-idm64219152">
       <title>Chapter Objectives</title>
       <p>By the end of this chapter, the student should be able to do the following:</p>
       <ul>
@@ -24,7 +24,7 @@
     <p>There are other situations that deal with the comparison of two groups. For example, studies compare various diet and exercise programs. Politicians compare the proportion of individuals from different income brackets who might vote for them. Students are interested in whether the SAT or GRE preparatory courses really help raise their scores.</p>
     <p>You have learned to conduct hypothesis tests on single means and single proportions. You will expand upon that in this chapter. You will compare two means or two proportions to each other. The general procedure is the same, just expanded.</p>
     <p>To compare two means or two proportions, you work with two groups. The groups are classified as <em>independent groups</em> or <em>matched pairs</em>. <em>Independent groups</em> consist of two samples that are independent, that is, sample values selected from one population are not related in any way to sample values selected from the other population. <em>Matched pairs</em> consist of two samples that are dependent. The parameter tested using matched pairs is the population mean. The parameters tested using independent groups are either population means or population proportions.</p>
-    <note xml:id="fs-idp1161216">
+    <note xml:id="ch10-fs-idp1161216">
       <title>NOTE</title>
       <p>This chapter relies on either a calculator or a computer to calculate the degrees of freedom, the test statistics, and <m>p</m> values. TI-83+ and TI-84 instructions are included, as well as the test statistic formulas. When using a TI-83+ or TI-84 calculator, we do not need to separate two population means, independent groups, or population variances unknown into large and small sample sizes. However, most statistical computer software has the ability to differentiate these tests.</p>
     </note>
@@ -77,12 +77,12 @@ where <m>s_{1}</m> and <m>s_{2}</m>, the sample standard deviations, are estimat
     <p>Degrees of freedom</p>
     <me>df=\frac{(\frac{(s_{1})^{2}}{n_{1}}+\frac{(s_{2})^{2}}{n_{2}})^{2}}{(\frac{1}{n_{1}-1})(\frac{(s_{1})^{2}}{n_{1}})^{2}+(\frac{1}{n_{2}-1})(\frac{(s_{2})^{2}}{n_{2}})^{2}}</me>
     <p>When both sample sizes <m>n_{1}</m> and <m>n_{2}</m> are five or larger, the Student's <m>t</m> approximation is very good. Notice that the sample variances <m>(s_{1})^{2}</m> and <m>(s_{2})^{2}</m> are not pooled. (If the question comes up, do not pool the variances.)</p>
-    <note xml:id="fs-idm50414209">
+    <note xml:id="ch10-fs-idm50414209-1">
       <title>NOTE</title>
       <p>It is not necessary to compute this by hand. A calculator or computer easily computes it.</p>
     </note>
     <p>When both sample sizes <m>n_{1}</m> and <m>n_{2}</m> are five or larger, the Student's <m>t</m> approximation is very good. Notice that the sample variances <m>(s_{1})^{2}</m> and <m>(s_{2})^{2}</m> are not pooled. (If the question comes up, do not pool the variances.)</p>
-    <note xml:id="fs-idm50414209">
+    <note xml:id="ch10-fs-idm50414209-2">
       <title>NOTE</title>
       <p>It is not necessary to compute this by hand. A calculator or computer easily computes it.</p>
     </note>
@@ -118,17 +118,15 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
         <p>Conclusion: At the 5 percent level of significance, the sample data show there is sufficient evidence to conclude that the mean number of hours that girls and boys aged 7 to 11 play sports per day is different (mean number of hours  boys aged 7 to 11 play sports per day is greater than the mean number of hours played by girls OR the mean number of hours  girls aged 7 to 11 play sports per day is greater than the mean number of hours played by boys).</p>
       </solution>
     </example>
-    <note xml:id="fs-idp67783984">
+    <exercise xml:id="fs-idm235264144">
       <title>Try It</title>
-      <exercise xml:id="fs-idm235264144">
-        <statement>
+      <statement>
           <p>Two samples are shown in . Both have normal distributions. The means for the two populations are thought to be the same. Is there a difference in the means? Test at the 5 percent level of significance.</p>
         </statement>
         <solution>
           <p>The <m>p</m>-value is 0.4125, which is much higher than 0.05, so we decline to reject the null hypothesis. There is not sufficient evidence to conclude that the means of the two populations are not the same.</p>
         </solution>
       </exercise>
-    </note>
     <note xml:id="fs-idm50414208">
       <title>NOTE</title>
       <p>When the sum of the sample sizes is larger than 30 (<m>n</m>_{1} + <m>n</m>_{2} &gt; 30), you can use the normal distribution to approximate the Student’s <m>t</m>.</p>
@@ -141,10 +139,9 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
         <p>a. two means<nbsp/><nbsp/></p>
       </solution>
     </example>
-    <note xml:id="fs-idp145514592">
+    <exercise xml:id="eip-idp166826064">
       <title>Try It</title>
-      <exercise xml:id="eip-idp166826064">
-        <statement>
+      <statement>
           <p>A study is done to determine if Company A retains its workers longer than Company B. Company A samples 15 workers, and their average time with the company is 5 years with a standard deviation of 1.2. Company B samples 20 workers, and their average time with the company is 4.5 years with a standard deviation of 0.8. The populations are normally distributed.</p>
           <ol>
             <li>Are the population standard deviations known?</li>
@@ -158,7 +155,6 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
           </ol>
         </solution>
       </exercise>
-    </note>
     <example xml:id="fs-idm22935408">
       <title>Online Class</title>
       <statement>
@@ -222,11 +218,10 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
         <p><m>d</m> = 0.834; large, because 0.834 is greater than Cohen’s 0.8 for a large effect size. The size of the differences between the means of the final exam scores of online students and students in a face-to-face class is large, indicating a significant difference.</p>
       </solution>
     </example>
-    <note xml:id="fs-idp145071264">
+    <p>Weighted alpha is a measure of risk-adjusted performance of stocks over a period of a year. A high positive weighted alpha signifies a stock whose price has risen, while a small positive weighted alpha indicates an unchanged stock price during the time period. Weighted alpha is used to identify companies with strong upward or downward trends. The weighted alpha for the top 30 stocks of banks in the Northeast and in the West as identified by Nasdaq on May 24, 2013 are listed in  and , respectively.</p>
+    <exercise xml:id="fs-idm120507648">
       <title>Try It</title>
-      <p>Weighted alpha is a measure of risk-adjusted performance of stocks over a period of a year. A high positive weighted alpha signifies a stock whose price has risen, while a small positive weighted alpha indicates an unchanged stock price during the time period. Weighted alpha is used to identify companies with strong upward or downward trends. The weighted alpha for the top 30 stocks of banks in the Northeast and in the West as identified by Nasdaq on May 24, 2013 are listed in  and , respectively.</p>
-      <exercise xml:id="fs-idm120507648">
-        <statement>
+      <statement>
           <p>Is there a difference in the weighted alpha of the top 30 stocks of banks in the Northeast and in the West? Test at a 5 percent significance level. Answer the following questions:</p>
           <ol>
             <li>Is this a test of two means or two proportions?</li>
@@ -263,7 +258,7 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
           </ol>
         </solution>
       </exercise>
-    </note>
+
   </section>
 
   <section xml:id="sec-two-population-means-known-stddev">
@@ -305,17 +300,16 @@ significance.</p>
         </note>
       </solution>
     </example>
-    <note xml:id="fs-idm64723040">
+    <exercise xml:id="fs-idm106881952">
       <title>Try It</title>
-      <exercise xml:id="fs-idm106881952">
-        <statement>
+      <statement>
           <p>The means of the number of revolutions per minute of two competing engines are to be compared. Thirty engines are randomly assigned to be tested. Both populations have normal distributions.  shows the result. Do the data indicate that Engine 2 has higher RPM than Engine 1? Test at a 5 percent level of significance.</p>
         </statement>
         <solution>
           <p>The <m>p</m> value is almost zero, so we reject the null hypothesis. There is sufficient evidence to conclude that Engine 2 runs at a higher RPM than Engine 1.</p>
         </solution>
       </exercise>
-    </note>
+
     <example xml:id="fs-idm64896800">
       <statement>
         <p>Do the data indicate that Democratic senators are older than Republican senators, on average? Test at a 5 percent level of significance.</p>
@@ -390,17 +384,16 @@ and <c>200</c> for n2. Arrow down to <c>p1</c>: and arrow to <c>not equal p2</c>
         </note>
       </solution>
     </example>
-    <note xml:id="fs-idp38726464">
+    <exercise xml:id="fs-idm6482160">
       <title>Try It</title>
-      <exercise xml:id="fs-idm6482160">
-        <statement>
+      <statement>
           <p>Two types of valves are being tested to determine if there is a difference in pressure tolerances. Fifteen out of a random sample of 100 of Valve A cracked under 4,500 psi. Six out of a random sample of 100 of Valve B cracked under 4,500 psi. Test at a 5 percent level of significance.</p>
         </statement>
         <solution>
           <p>The <m>p</m>-value is 0.0379, so we can reject the null hypothesis. At the 5 percent significance level, the data support that there is a difference in the pressure tolerances between the two valves.</p>
         </solution>
       </exercise>
-    </note>
+
     <example xml:id="fs-idp34418816">
       <title>Random variable:</title>
       <statement>
@@ -465,19 +458,19 @@ Estimated proportion for group B: 0.05</p>
         </note>
       </solution>
     </example>
-    <note xml:id="fs-idp142829376">
-      <title>Try It</title>
-      <p>A group of citizens wanted to know if the proportion of homeowners in their small city was different in 2011 than in 2010. Their research showed that of the 113,231 available homes in their city in 2010, 7,622 of them were owned by the families who live there. In 2011, 7,439 of the 104,873 of the available homes were owned by city residents. Test at a 5 percent significance level. Answer the following questions:<nbsp/></p>
-      <exercise xml:id="fs-idm127205008">
-        <statement>
+    <p>A group of citizens wanted to know if the proportion of homeowners in their small city was different in 2011 than in 2010. Their research showed that of the 113,231 available homes in their city in 2010, 7,622 of them were owned by the families who live there. In 2011, 7,439 of the 104,873 of the available homes were owned by city residents. Test at a 5 percent significance level. Answer the following questions:<nbsp/></p>
+    <exercise xml:id="fs-idm127205008">
+      <title>Try It - Part a</title>
+      <statement>
           <p>a. Is this a test of two means or two proportions?</p>
         </statement>
         <solution>
           <p>a. two proportions</p>
         </solution>
       </exercise>
-      <exercise xml:id="fs-idm45452624">
-        <statement>
+    <exercise xml:id="fs-idm45452624">
+      <title>Try It - Part b</title>
+      <statement>
           <p>b. Which distribution do you use to perform the test?</p>
         </statement>
         <solution>
@@ -536,7 +529,7 @@ Estimated proportion for group B: 0.05</p>
           <p>h. At the 5 percent significance level, from the sample data, there is sufficient evidence to conclude that there is a difference between the proportion of forcible rapes in 2011 and 2010.</p>
         </solution>
       </exercise>
-    </note>
+
   </section>
 
   <section xml:id="sec-matched-paired-samples">
@@ -586,17 +579,16 @@ Estimated proportion for group B: 0.05</p>
         <p>Conclusion: At a 5 percent level of significance, from the sample data, there is sufficient evidence to conclude that the sensory measurements, on average, are lower after taking the medication. The medication appears to be effective in reducing pain.</p>
       </solution>
     </example>
-    <note xml:id="fs-idp46905536">
+    <exercise xml:id="fs-idp1097104">
       <title>Try It</title>
-      <exercise xml:id="fs-idp1097104">
-        <statement>
+      <statement>
           <p>A study was conducted to investigate how effective a new diet was in lowering cholesterol. Results for the randomly selected subjects are shown in the table. The differences have a normal distribution. Are the subjects’ cholesterol levels lower on average after the diet? Test at the 5 percent level.</p>
         </statement>
         <solution>
           <p>The <m>p</m>-value is 0.0130, so we can reject the null hypothesis. There is enough evidence to suggest that the diet lowers cholesterol.</p>
         </solution>
       </exercise>
-    </note>
+
     <example xml:id="element-752">
       <title>Note</title>
       <p>A college football coach was interested in whether the college’s strength development class increased his players’ maximum lift (in pounds) on the bench press exercise. He asked four of his players to participate in a study. The amount of weight they could each lift was recorded before they took the strength development class. After completing the class, the amount of weight they could each lift was again measured. The data are as follows:</p>
@@ -621,17 +613,16 @@ Estimated proportion for group B: 0.05</p>
       <p>What is the conclusion?</p>
       <p>At a 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the strength development class helped make the players stronger, on average.</p>
     </example>
-    <note xml:id="fs-idm13751200">
+    <exercise xml:id="fs-idp4946544">
       <title>Try It</title>
-      <exercise xml:id="fs-idp4946544">
-        <statement>
+      <statement>
           <p>A new prep class was designed to improve SAT test scores. Five students were selected at random. Their scores on two practice exams were recorded, one before the class and one after. The data are recorded in . Are the scores, on average, higher after the class? Test at a 5 percent level.</p>
         </statement>
         <solution>
           <p>The <m>p</m>-value is 0.0874, so we decline to reject the null hypothesis. The data do not support that the class improves SAT scores significantly.</p>
         </solution>
       </exercise>
-    </note>
+
     <example xml:id="element-241">
       <p>Seven eighth-graders at Kennedy Middle School measured how far they could push the shot put with their dominant (writing) hand and their weaker (nonwriting) hand. They thought that they could push equal distances with both hands. The data are collected and recorded in .</p>
       <p>Conduct a hypothesis test to determine whether the mean difference in distances between the children’s dominant versus weaker hands is significant.</p>
@@ -646,17 +637,16 @@ Estimated proportion for group B: 0.05</p>
       <p>Decision: Assume <m>α</m> = 0.05. Since <m>α</m> &lt; <m>p</m>-value, do not reject <em>H_{0}</em>.</p>
       <p>Conclusion:  At the 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that there is a difference in the children’s weaker and dominant hands to push the shot put.</p>
     </example>
-    <note xml:id="fs-idp98011888">
-      <title>Try-It</title>
-      <exercise xml:id="fs-idm3639952">
-        <statement>
+    <exercise xml:id="fs-idm3639952">
+      <title>Try It</title>
+      <statement>
           <p>Five ball players think they can throw the same distance with their dominant hand (throwing) and off-hand (catching hand). The data were collected and recorded in . Conduct a hypothesis test to determine whether the mean 5 difference in distances between the dominant and off-hand is significant. Test at the 5 percent level.</p>
         </statement>
         <solution>
           <p>The <m>p</m>-value is 0.0230, so we can reject the null hypothesis. The data show that the players do not throw the same distance with their off-hands as they do with their dominant hands.</p>
         </solution>
       </exercise>
-    </note>
+
   </section>
 
   <section xml:id="sec-hypothesis-testing-two-samples-practice">

@@ -113,10 +113,9 @@
       <p>If the confidence level is 95 percent, then we say, "We estimate with 95 percent confidence that the true value of the population mean is between 4.5 and 9.5."</p>
     </example>
 
-    <note xml:id="ch8-fs-idp2956752">
+    <exercise xml:id="ch8-eip-273">
       <title>Try It</title>
-      <exercise xml:id="ch8-eip-273">
-        <statement>
+      <statement>
           <p>Suppose we have data from a sample. The sample mean is 15, and the error bound for the mean is 3.2.</p>
           <p>What is the confidence interval estimate for the population mean?</p>
         </statement>
@@ -124,7 +123,6 @@
           <p>(11.8, 18.2)</p>
         </solution>
       </exercise>
-    </note>
 
     <p>A confidence interval for a population mean with a known standard deviation is based on the fact that the sample means follow an approximately normal distribution. Suppose that our sample has a mean of <m>\bar{x}</m> = 10, and we have constructed the 90 percent confidence interval (5, 15) where <em>EBM</em> = 5.</p>
 
@@ -239,8 +237,11 @@
 
       <example xml:id="ch8-eip-id1171257291379">
         <p>Suppose scores on exams in statistics are normally distributed with an unknown population mean and a population standard deviation of three points. A random sample of 36 scores is taken and gives a sample mean (sample mean score) of 68. Find a confidence interval estimate for the population mean exam score (the mean score on all exams).</p>
-        <exercise xml:id="ch8-eip-id1171264272125">
-          <statement>
+      </example>
+      
+      <exercise xml:id="ch8-eip-id1171264272125">
+        <title>Try It</title>
+        <statement>
             <p>Find a 90 percent confidence interval for the true (population) mean of statistics exam scores.</p>
           </statement>
           <solution>
@@ -288,20 +289,17 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
             <p>Explanation of 90 percent Confidence Level Ninety percent of all confidence intervals constructed in this way contain the true mean statistics exam score. For example, if we constructed 100 of these confidence intervals, we would expect 90 of them to contain the true population mean exam score.</p>
           </solution>
         </exercise>
-      </example>
 
-      <note xml:id="ch8-fs-idm85249264">
+      <p>Suppose average pizza delivery times are normally distributed with an unknown population mean and a population standard deviation of 6 minutes. A random sample of 28 pizza delivery restaurants is taken and has a sample mean delivery time of 36 min.</p>
+      <exercise xml:id="ch8-eip-24">
         <title>Try It</title>
-        <p>Suppose average pizza delivery times are normally distributed with an unknown population mean and a population standard deviation of 6 minutes. A random sample of 28 pizza delivery restaurants is taken and has a sample mean delivery time of 36 min.</p>
-        <exercise xml:id="ch8-eip-24">
-          <statement>
+        <statement>
             <p>Find a 90 percent confidence interval estimate for the population mean delivery time.</p>
           </statement>
           <solution>
             <p>(34.1347, 37.8653)</p>
           </solution>
         </exercise>
-      </note>
 
       <example xml:id="example3">
         <p>The specific absorption rate (SAR) for a cell phone measures the amount of radio frequency (RF) energy absorbed by the user’s body when using the handset. Every cell phone emits RF energy. Different phone models have different SAR measures. For certification from the Federal Communications Commission for sale in the United States, the SAR level for a cell phone must be no more than 1.6 watts per kilogram. <xref ref="M02_CH08-tbl001"></xref> shows the highest SAR level for a random selection of cell phone models of a random cell phone company.</p>
@@ -397,8 +395,11 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
             </row>
           </tabular>
         </table>
-        <exercise xml:id="ch8-eip-377">
-          <statement>
+      </example>
+      
+      <exercise xml:id="ch8-eip-377">
+        <title>Try It</title>
+        <statement>
             <p>Find a 98 percent confidence interval for the true (population) mean of the SARs for cell phones. Assume that the population standard deviation is <em>σ</em> = 0.337.</p>
           </statement>
           <solution>
@@ -451,12 +452,10 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
             </note>
           </solution>
         </exercise>
-      </example>
 
-      <note xml:id="ch8-fs-idp77326048">
+      <exercise xml:id="ch8-eip-158">
         <title>Try It</title>
-        <exercise xml:id="ch8-eip-158">
-          <statement>
+        <statement>
             <p><xref ref="M02_CH08-tbl002"></xref> shows a different random sampling of 20 cell phone models. Use these data to calculate a 93 percent confidence interval for the true mean SAR for cell phones certified for use in the United States. As previously, assume that the population standard deviation is <em>σ</em> = 0.337.</p>
             <table xml:id="M02_CH08-tbl002">
               <tabular halign="l l l l">
@@ -539,9 +538,8 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
             <p>We estimate with 93 percent confidence that the true SAR mean for the population of cell phones in the United States is between 0.8035 and 1.0765 watts per kilogram.</p>
           </solution>
         </exercise>
-      </note>
 
-      <p>Notice the difference in the confidence intervals calculated in <xref ref="example3"></xref> and the following <xref ref="ch8-fs-idp77326048">Try It</xref> exercise. These intervals are different for several reasons: they are calculated from different samples, the samples are different sizes, and the intervals are calculated for different levels of confidence. Even though the intervals are different, they do not yield conflicting information. The effects of these kinds of changes are the subject of the next section in this chapter.</p>
+      <p>Notice the difference in the confidence intervals calculated in <xref ref="example3"></xref> and the following <xref ref="ch8-eip-158">Try It</xref> exercise. These intervals are different for several reasons: they are calculated from different samples, the samples are different sizes, and the intervals are calculated for different levels of confidence. Even though the intervals are different, they do not yield conflicting information. The effects of these kinds of changes are the subject of the next section in this chapter.</p>
 
     </subsection>
 
@@ -549,8 +547,11 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
       <title>Changing the Confidence Level or Sample Size</title>
 
       <example xml:id="ch8-element-1217">
-        <exercise xml:id="ch8-element-971">
-          <statement>
+      </example>
+      
+      <exercise xml:id="ch8-element-971">
+        <title>Try It</title>
+        <statement>
             <p>Suppose we change the original problem in <xref ref="ch8-eip-id1171257291379"></xref> by using a 95 percent confidence level. Find a 95 percent confidence interval for the true (population) mean statistics exam score.</p>
           </statement>
           <solution>
@@ -576,7 +577,7 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
             <p>Explanation of 95 percent Confidence Level95 percent of all confidence intervals constructed in this way contain the true value of the population mean statistics exam score.</p>
             <p>Comparing the ResultsThe 90 percent confidence interval is (67.18, 68.82). The 95 percent confidence interval is (67.02, 68.98). The 95 percent confidence interval is wider. If you look at the graphs, because the area 0.95 is larger than the area 0.90, it makes sense that the 95 percent confidence interval is wider. For more certainty that the confidence interval actually does contain the true value of the population mean for all statistics exam scores, the confidence interval necessarily needs to be wider.</p>
             <figure xml:id="conf_intvls_cfpm3">
-              <image source="media/fig-ch08_02_03.jpg" width="450">
+              <image source="media/fig-ch08_02_03.jpg" width="50%">
               </image>
             </figure>
             <ul>
@@ -590,26 +591,26 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
             </ul>
           </solution>
         </exercise>
-      </example>
 
-      <note xml:id="ch8-fs-idm35811600">
+      <exercise xml:id="ch8-eip-847">
         <title>Try It</title>
-        <exercise xml:id="ch8-eip-847">
-          <statement>
-            <p>Refer back to the pizza-delivery <xref ref="ch8-fs-idm85249264">Try It</xref> exercise. The population standard deviation is six minutes and the sample mean deliver time is 36 minutes. Use a sample size of 20. Find a 95 percent confidence interval estimate for the true mean pizza-delivery time.</p>
-          </statement>
-          <solution>
-            <p>(33.37, 38.63)</p>
-          </solution>
-        </exercise>
-      </note>
+        <statement>
+          <p>Refer back to the pizza-delivery <xref ref="ch8-eip-24">Try It</xref> exercise. The population standard deviation is six minutes and the sample mean deliver time is 36 minutes. Use a sample size of 20. Find a 95 percent confidence interval estimate for the true mean pizza-delivery time.</p>
+        </statement>
+        <solution>
+          <p>(33.37, 38.63)</p>
+        </solution>
+      </exercise>
 
     </subsection>
 
     <example xml:id="ch8-element-542">
       <p>Suppose we change the original problem in <xref ref="ch8-eip-id1171257291379"></xref> to see what happens to the error bound if the sample size is changed.</p>
-      <exercise xml:id="ch8-element-442">
-        <statement>
+    </example>
+    
+    <exercise xml:id="ch8-element-442">
+      <title>Try It</title>
+      <statement>
           <p>Leave everything the same except the sample size. Use the original 90 percent confidence level. What happens to the error bound and the confidence interval if we increase the sample size and use <em>n</em> = 100 instead of <em>n</em> = 36? What happens if we decrease the sample size to <em>n</em> = 25 instead of <em>n</em> = 36?</p>
           <ul>
             <li>
@@ -632,19 +633,16 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
           <p>When <em>n</em> = 25, <em>EBM</em> = <m>(z_{\frac{α}{2}})(\frac{σ}{\sqrt{n}})</m> = (1.645)<m>(\frac{3}{\sqrt{25}})</m> = 0.987.</p>
         </solution>
       </exercise>
-    </example>
 
-    <note xml:id="ch8-fs-idm59608800">
+    <exercise xml:id="ch8-eip-159">
       <title>Try It</title>
-      <exercise xml:id="ch8-eip-159">
-        <statement>
-          <p>Refer back to the pizza-delivery <xref ref="ch8-fs-idm85249264">Try It</xref> exercise. The mean delivery time is 36 minutes and the population standard deviation is six minutes. Assume the sample size is changed to 50 restaurants with the same sample mean. Find a 90 percent confidence interval estimate for the population mean delivery time.</p>
-        </statement>
-        <solution>
-          <p>(34.6041, 37.3958)</p>
-        </solution>
-      </exercise>
-    </note>
+      <statement>
+        <p>Refer back to the pizza-delivery <xref ref="ch8-eip-24">Try It</xref> exercise. The mean delivery time is 36 minutes and the population standard deviation is six minutes. Assume the sample size is changed to 50 restaurants with the same sample mean. Find a 90 percent confidence interval estimate for the population mean delivery time.</p>
+      </statement>
+      <solution>
+        <p>(34.6041, 37.3958)</p>
+      </solution>
+    </exercise>
 
     </subsection>
 
@@ -698,17 +696,15 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
       </ul>
     </example>
 
-    <note xml:id="ch8-fs-idm38498176">
+    <exercise xml:id="ch8-eip-998">
       <title>Try It</title>
-      <exercise xml:id="ch8-eip-998">
-        <statement>
-          <p>Suppose we know that a confidence interval is (42.12, 47.88). Find the error bound and the sample mean.</p>
-        </statement>
-        <solution>
-          <p>Sample mean is 45, error bound is 2.88</p>
-        </solution>
-      </exercise>
-    </note>
+      <statement>
+        <p>Suppose we know that a confidence interval is (42.12, 47.88). Find the error bound and the sample mean.</p>
+      </statement>
+      <solution>
+        <p>Sample mean is 45, error bound is 2.88</p>
+      </solution>
+    </exercise>
 
     </subsection>
 
@@ -742,17 +738,15 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
       <p>Therefore, 217 Foothill College students should be surveyed in order to be 95 percent confident that we are within two years of the true population mean age of Foothill College students.</p>
     </example>
 
-    <note xml:id="ch8-fs-idm26211984">
+    <exercise xml:id="ch8-eip-669-ex">
       <title>Try It</title>
-      <exercise xml:id="ch8-eip-669-ex">
-        <statement>
-          <p>The population standard deviation for the height of high school basketball players is three inches. If we want to be 95 percent confident that the sample mean height is within one inch of the true population mean height, how many randomly selected students must be surveyed?</p>
-        </statement>
-        <solution>
-          <p>35 students</p>
-        </solution>
-      </exercise>
-    </note>
+      <statement>
+        <p>The population standard deviation for the height of high school basketball players is three inches. If we want to be 95 percent confident that the sample mean height is within one inch of the true population mean height, how many randomly selected students must be surveyed?</p>
+      </statement>
+      <solution>
+        <p>35 students</p>
+      </solution>
+    </exercise>
 
     </subsection>
 
@@ -1200,7 +1194,7 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
       </solution>
     </exercise>
 
-    <exercise xml:id="exer8">
+    <exercise xml:id="ch8-exer8">
       <statement>
         <p>Announcements for 84 upcoming engineering conferences were randomly picked from a stack of <em>IEEE Spectrum</em> magazines. The mean length of the conferences was 3.94 days, with a standard deviation of 1.28 days. Assume the underlying population is normal.</p>
         <ol>
@@ -1586,8 +1580,11 @@ Arrow over to <c>TESTS</c>.
 Arrow down to <c>8:TInterval</c> and press <c>ENTER</c> (or just press 8).</p>
   </note>
   <example xml:id="ch8-eip-51">
-    <exercise xml:id="ch8-element-632">
-      <statement>
+  </example>
+  
+  <exercise xml:id="ch8-element-632">
+    <title>Try It</title>
+    <statement>
         <p>Suppose you do a study of acupuncture to determine how effective it is in relieving pain. You measure sensory rates for 15 subjects with the results given. Use the sample data to construct a 95 percent confidence interval for the mean sensory rate for the population (assumed normal) from which you took the data.
 
 The solution is shown step-by-step and by using the TI-83, 83+, or 84+ calculators.</p>
@@ -1652,22 +1649,23 @@ The 95 percent confidence interval is (7.3006, 9.1527).</p>
         </note>
       </solution>
     </exercise>
-  </example>
-  <note xml:id="ch8-fs-idm181001040">
+  
+  <exercise xml:id="ch8-eip-496">
     <title>Try It</title>
-    <exercise xml:id="ch8-eip-496">
-      <statement>
-        <p>You do a study of hypnotherapy to determine how effective it is in increasing the number of hours of sleep subjects get each night. You measure hours of sleep for 12 subjects with the following results. Construct a 95 percent confidence interval for the mean number of hours slept for the population (assumed normal) from which you took the data.</p>
-        <p>8.2, 9.1, 7.7, 8.6, 6.9, 11.2, 10.1, 9.9, 8.9, 9.2, 7.5, 10.5</p>
-      </statement>
-      <solution>
-        <p>(8.1634, 9.8032)</p>
-      </solution>
-    </exercise>
-  </note>
+    <statement>
+      <p>You do a study of hypnotherapy to determine how effective it is in increasing the number of hours of sleep subjects get each night. You measure hours of sleep for 12 subjects with the following results. Construct a 95 percent confidence interval for the mean number of hours slept for the population (assumed normal) from which you took the data.</p>
+      <p>8.2, 9.1, 7.7, 8.6, 6.9, 11.2, 10.1, 9.9, 8.9, 9.2, 7.5, 10.5</p>
+    </statement>
+    <solution>
+      <p>(8.1634, 9.8032)</p>
+    </solution>
+  </exercise>
   <example xml:id="ch8-eip-804">
-    <exercise xml:id="ch8-eip-821">
-      <statement>
+  </example>
+  
+  <exercise xml:id="ch8-eip-821">
+    <title>Try It</title>
+    <statement>
         <p>A group of researchers is working to understand the scope of industrial pollution in the human body. Industrial chemicals may enter the body through pollution or as ingredients in consumer products. In October 2008, the scientists tested cord-blood samples for 20 newborn infants in the United States. The cord blood of the <em>in utero/newborn</em> group was tested for 430 industrial compounds, pollutants, and other chemicals, including chemicals linked to brain and nervous-system toxicity, immune-system toxicity, reproductive toxicity, and fertility problems. There are health concerns about the effects of some chemicals on the brain and nervous system. <xref ref="ch8-eip-222"/> shows how many of the targeted chemicals were found in each infant’s cord blood.</p>
         <table xml:id="ch8-eip-222">
           <tabular>
@@ -1749,11 +1747,10 @@ The 90 percent confidence interval is (117.41, 137.49).</p>
         </note>
       </solution>
     </exercise>
-  </example>
-  <note xml:id="ch8-fs-idm12320384">
+  
+  <exercise xml:id="ch8-eip-467">
     <title>Try It</title>
-    <exercise xml:id="ch8-eip-467">
-      <statement>
+    <statement>
         <p>A random sample of statistics students was asked to estimate the total number of hours they spend watching television in an average week. The responses are recorded in <xref ref="ch8-eip-672"/>. Use the following sample data to construct a 98 percent confidence interval for the mean number of hours statistics students will spend watching television in one week.</p>
         <table xml:id="ch8-eip-672">
           <tabular>
@@ -1821,7 +1818,6 @@ Arrow to <c>Data</c> and press <c>ENTER</c>.
         </note>
       </solution>
     </exercise>
-  </note>
 
   <subsection xml:id="ch8-eip-400">
     <title>References</title>
@@ -2196,7 +2192,7 @@ Calculate the following:
         </ol>
       </statement>
     </exercise>
-    <exercise xml:id="exer10">
+    <exercise xml:id="ch8-exer10">
       <statement>
         <p>A pharmaceutical company makes a drug used during surgery. It is assumed that the distribution for the length of time the drug lasts is approximately normal. Researchers in a hospital used the drug on a random sample of nine patients. The effective period of the antibiotic drug for each patient (in hours) was as follows: 2.7, 2.8, 3.0, 2.3, 2.3, 2.2, 2.8, 2.1, and 2.4.</p>
         <ol>
@@ -2245,7 +2241,7 @@ Calculate the following:
         </ol>
       </solution>
     </exercise>
-    <exercise xml:id="exer11">
+    <exercise xml:id="ch8-exer11">
       <statement>
         <p>Suppose that 14 children who were learning to ride two-wheel bikes were surveyed to determine how long they had to use training wheels. It was revealed that they used them an average of six months, with a sample standard deviation of three months. Assume that the underlying population distribution is normal.</p>
         <ol>
@@ -2581,8 +2577,11 @@ Calculate the following:
     <p>The confidence interval can be used only if the number of successes <em>np′</em> and the number of failures <em>nq′</em> are both greater than five.</p>
     <p>That is, in order to use the formula for confidence intervals for proportions, you need to verify that both <m>np^{'} \geq 5</m> and <m>nq^{'} \geq 5</m>.</p>
     <example xml:id="ch8-element-32">
-      <exercise xml:id="ch8-element-814">
-        <statement>
+    </example>
+    
+    <exercise xml:id="ch8-element-814">
+      <title>Try It</title>
+      <statement>
           <p>Suppose that a market research firm is hired to estimate the percentage of adults living in a large city who have cell phones. Five hundred randomly selected adult residents in this city are surveyed to determine whether they have cell phones. Of
   the 500 people surveyed, 421 responded yes, they own cell phones. Using a 95 percent confidence level, compute a confidence interval estimate for the true proportion of adult residents of this city who have cell phones.</p>
         </statement>
@@ -2611,23 +2610,24 @@ We estimate with 95 percent confidence that between 81 percent and 87.4 percent 
 Ninety-five percent of the confidence intervals constructed in this way would contain the true value for the population proportion of all adult residents of this city who have cell phones.</p>
         </solution>
       </exercise>
-    </example>
-    <note xml:id="ch8-fs-idp89365680">
+    
+    <exercise xml:id="ch8-eip-890">
       <title>Try It</title>
-      <exercise xml:id="ch8-eip-890">
-        <statement>
-          <p>
+      <statement>
+        <p>
 Suppose 250 randomly selected people are surveyed to determine whether they own tablets. Of the 250 surveyed, 98 reported owning tablets. Using a 95 percent confidence level, compute a confidence interval estimate for the true proportion of people who own tablets.
   </p>
-        </statement>
-        <solution>
-          <p>(0.3315, 0.4525)</p>
-        </solution>
-      </exercise>
-    </note>
+      </statement>
+      <solution>
+        <p>(0.3315, 0.4525)</p>
+      </solution>
+    </exercise>
     <example xml:id="ch8-eip-164">
-      <exercise xml:id="ch8-element-2">
-        <statement>
+    </example>
+    
+    <exercise xml:id="ch8-element-2">
+      <title>Try It</title>
+      <statement>
           <p>For a class project, a political science student at a large university wants to estimate the percentage of students who are registered voters. He surveys 500 students and finds that 300 are registered voters. Compute a 90 percent confidence interval for the true percentage of students who are registered voters, and interpret the confidence interval.</p>
         </statement>
         <solution>
@@ -2654,22 +2654,22 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
           <p>Ninety percent of all confidence intervals constructed in this way contain the true value for the population percentage of students who are registered voters.</p>
         </solution>
       </exercise>
-    </example>
-    <note xml:id="ch8-fs-idp55027792">
+    
+    <exercise xml:id="ch8-fs-idm23330928">
       <title>Try It</title>
-      <exercise xml:id="ch8-fs-idm23330928">
-        <statement>
-          <p>A student polls her school to determine whether students in the school district are for or against the new legislation regarding school uniforms. She surveys 600 students and finds that 480 are against the new legislation.</p>
-          <p>a. Compute a 90 percent confidence interval for the true percentage of students who are against the new legislation, and interpret the confidence interval.</p>
-        </statement>
-        <solution>
-          <p>
+      <statement>
+        <p>A student polls her school to determine whether students in the school district are for or against the new legislation regarding school uniforms. She surveys 600 students and finds that 480 are against the new legislation.</p>
+        <p>a. Compute a 90 percent confidence interval for the true percentage of students who are against the new legislation, and interpret the confidence interval.</p>
+      </statement>
+      <solution>
+        <p>
 (0.7731, 0.8269); We estimate with 90 percent confidence that the true percent of all students in the district who are against the new legislation is between 77.31 percent and 82.69 percent.
   </p>
-        </solution>
-      </exercise>
-      <exercise xml:id="ch8-fs-idm29038320">
-        <statement>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch8-fs-idm29038320">
+      <title>Try It</title>
+      <statement>
           <p>b. In a sample of 300 students, 68 percent said they own an iPod and a smartphone. Compute a 97 percent confidence interval for the true percentage of students who own an iPod and a smartphone.</p>
         </statement>
         <solution>
@@ -2688,7 +2688,6 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
           <p>We are 97 percent confident that the true proportion of all students who own an iPod and a smartphone is between 0.6531 and 0.7069.</p>
         </solution>
       </exercise>
-    </note>
   </subsection>
 
   <subsection xml:id="ch8-eip-443">
@@ -2699,8 +2698,11 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
   </subsection>
 
   <example xml:id="ch8-eip-982">
-    <exercise xml:id="ch8-eip-152">
-      <statement>
+  </example>
+  
+  <exercise xml:id="ch8-eip-152">
+    <title>Try It</title>
+    <statement>
         <p>A random sample of 25 statistics students was asked: “Have you used a product in the past week?” Six students reported using the product within the past week. Use the plus-four method to find a 95 percent confidence interval for the true proportion of statistics students who use the product weekly.</p>
       </statement>
       <solution>
@@ -2715,11 +2717,10 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
         <p>We are 95 percent confident that the true proportion of all statistics students who use the product is between 0.113 and 0.439.</p>
       </solution>
     </exercise>
-  </example>
-  <note xml:id="ch8-fs-idp89200688">
+  
+  <exercise xml:id="ch8-eip-479">
     <title>Try It</title>
-    <exercise xml:id="ch8-eip-479">
-      <statement>
+    <statement>
         <p>Out of a random sample of 65 freshmen at State University, 31 students have declared their majors. Use the plus-four method to find a 96 percent confidence interval for the true proportion of freshmen at State University who have declared their majors.</p>
       </statement>
       <solution>
@@ -2738,10 +2739,12 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
         <p>We are 96 percent confident that between 35.4 percent and 60.2 percent of all freshmen at State University have declared a major.</p>
       </solution>
     </exercise>
-  </note>
   <example xml:id="ch8-eip-251">
-    <exercise xml:id="ch8-eip-790">
-      <statement>
+  </example>
+  
+  <exercise xml:id="ch8-eip-790">
+    <title>Try It</title>
+    <statement>
         <p>A group of researchers recently conducted a study analyzing the privacy management habits of teen internet users. In a group of 50 teens, 13 reported having more than 500 friends on a social media site. Use the plus four method to find a 90 percent confidence interval for the true proportion of teens who would report having more than 500 online friends.</p>
       </statement>
       <solution>
@@ -2756,11 +2759,10 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
         <p>We are 90 percent confident that between 17.8 percent and 37.8 percent of all teens would report having more than 500 friends on a social media site.</p>
       </solution>
     </exercise>
-  </example>
-  <note xml:id="ch8-fs-idp15135760">
+  
+  <exercise xml:id="ch8-eip-375">
     <title>Try It</title>
-    <exercise xml:id="ch8-eip-375">
-      <statement>
+    <statement>
         <p>The research group referenced in <url href=""></url> talked to teens in smaller focus groups but also interviewed additional teens over the phone. When the study was complete, 588 teens had answered the question about their social media site friends, with 159 saying that they have more than 500 friends. Use the plus-four method to find a 90 percent confidence interval for the true proportion of teens who would report having more than 500 online friends based on this larger sample. Compare the results to those in <url href=""></url>.
      </p>
       </statement>
@@ -2776,7 +2778,6 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
         <p>We are 90 percent confident that between 24.2 percent and 30.2 percent of all teens would report having more than 500 friends on Facebook.</p>
       </solution>
     </exercise>
-  </note>
   <subsection xml:id="ch8-fs-idm22068416">
     <title>Calculating the Sample Size <em>n</em></title>
     <p>
@@ -2791,8 +2792,11 @@ If researchers desire a specific margin of error, then they can use the error bo
  <m>n=\frac{{(z_{\frac{α}{2}})}^{2}(p^{'}q^{'})}{EBP^{2}}</m>. This formula tells us that we can compute the sample size <em>n</em> required for a confidence level of <m>Cl=1-α</m> by taking the square of the critical value <m>z_{\frac{a}{2}}</m>, multiplying by the point estimate <em>p′</em>, and by <em>q′</em> = 1 – <em>p′</em> and finally dividing the result by the square of the margin of error. <em>Always remember to round up the value of n</em>.</li>
     </ul>
     <example xml:id="ch8-element-724">
-      <exercise xml:id="ch8-fs-idp171900368">
-        <statement>
+    </example>
+    
+    <exercise xml:id="ch8-fs-idp171900368">
+      <title>Try It</title>
+      <statement>
           <p>Suppose a mobile phone company wants to determine the current percentage of customers ages 50+ who use text messaging on their cell phones. How many customers ages 50+ should the company survey in order to be 90 percent confident that the estimated (sample) proportion is within 3 percentage points of the true population proportion of customers ages 50+ who use text messaging on their cell phones? Assume that <em>p′</em> = 0.5.</p>
         </statement>
         <solution>
@@ -2804,18 +2808,16 @@ If researchers desire a specific margin of error, then they can use the error bo
 </p>
         </solution>
       </exercise>
-    </example>
-    <note xml:id="ch8-fs-idp13131184">
+    
+    <exercise xml:id="ch8-eip-143">
       <title>Try It</title>
-      <exercise xml:id="ch8-eip-143">
-        <statement>
-          <p>An internet marketing company wants to determine the current percentage of customers who click on ads on their smartphones. How many customers should the company survey in order to be 90 percent confident that the estimated proportion is within 5 percentage points of the true population proportion of customers who click on ads on their smartphones? Assume that the sample proportion <em>p′</em> is 0.50.</p>
-        </statement>
-        <solution>
-          <p>271 customers should be surveyed. Check the Real Estate section in your local</p>
-        </solution>
-      </exercise>
-    </note>
+      <statement>
+        <p>An internet marketing company wants to determine the current percentage of customers who click on ads on their smartphones. How many customers should the company survey in order to be 90 percent confident that the estimated proportion is within 5 percentage points of the true population proportion of customers who click on ads on their smartphones? Assume that the sample proportion <em>p′</em> is 0.50.</p>
+      </statement>
+      <solution>
+        <p>271 customers should be surveyed.</p>
+      </solution>
+    </exercise>
   </subsection>
 
   <references xml:id="ch8-eip-566">
