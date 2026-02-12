@@ -2,79 +2,916 @@
 <chapter xml:id="ch11-chi-square-distribution" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Chi-Square Distribution</title>
 
-  <introduction>
-    <p>
-      This chapter introduces the chi-square distribution and its applications in 
-      goodness-of-fit tests, independence tests, and variance tests.
-    </p>
-  </introduction>
+  <section xml:id="sec-chi-square-intro">
+    <title>Introduction</title>
+
+    <figure xml:id="fs-idm45331472">
+      <caption>The chi-square distribution can be used to find relationships between two things, like grocery prices at different stores. (credit: Pete/flickr)</caption>
+      <image source="media/CNX_Stats_C11_CO.jpg" width="100%"/>
+    </figure>
+    <note xml:id="fs-idm151065040">
+      <title>Chapter Objectives</title>
+      <p>By the end of this chapter, the student should be able to do the following:</p>
+      <ul>
+        <li>Interpret the chi-square probability distribution as the sample size changes</li>
+        <li>Conduct and interpret chi-square goodness-of-fit hypothesis tests</li>
+        <li>Conduct and interpret chi-square test of independence hypothesis 
+tests</li>
+        <li>Conduct and interpret chi-square homogeneity hypothesis tests</li>
+        <li>Conduct and interpret chi-square single variance hypothesis tests</li>
+      </ul>
+    </note>
+    <p>Have you ever wondered if lottery numbers were evenly distributed or if some numbers occurred with a greater frequency? How about if the types of movies people preferred were different across different age groups? What about if a coffee machine was dispensing approximately the same amount of coffee each time? You could answer these questions by conducting a hypothesis test.</p>
+    <p>You will now study a new distribution, one that is used to determine the answers to such questions. This distribution is called the chi-square distribution.</p>
+    <p>In this chapter, you will learn the three major applications of the chi-square distribution:
+
+The goodness-of-fit test, which determines if data fit a particular distribution, such as in the lottery example
+The test of independence, which determines if events are independent, such as in the movie example
+The test of a single variance, which tests variability, such as in the coffee example</p>
+    <note xml:id="id17641525">
+      <title>NOTE</title>
+      <p>Though the chi-square distribution depends on calculators or computers for most of the calculations, there is a table available (see <url href="m79717"></url>). TI-83+ and TI-84 calculator instructions are included in the text.</p>
+    </note>
+    <note xml:id="fs-idm94608208">
+      <title>Collaborative Classroom Exercise</title>
+      <p>Look in the sports section of a newspaper or on the internet for some sports data: baseball averages, basketball scores, golf tournament scores, football odds, swimming times, and the like. Plot a histogram and a boxplot using your data. See if you can determine a probability distribution that your data fits. Have a discussion with the class about your choice.</p>
+    </note>
+  </section>
 
   <section xml:id="sec-facts-chi-square">
     <title>Facts About the Chi-Square Distribution</title>
-    <p>
-      Content to be added from module m79673.
-    </p>
+
+    <p>The notation for the <term>chi-square distribution</term> is</p>
+    <me>χ\simχdf2</me>
+    <p><nbsp/>where <m>df</m> = degrees of freedom, which depends on how chi-square is being used. If you want to practice calculating chi-square probabilities then use <m>df</m> = <m>n</m> – 1. The degrees of freedom for the three major uses are calculated differently.</p>
+    <p>For the <em>χ^{2}</em> distribution, the population mean is <m>μ</m> = <m>df</m>, and the population standard deviation is <m>\sigma=\sqrt{2(df)}</m>.</p>
+    <p>The random variable is shown as <em>χ^{2}</em>, but it may be any uppercase letter.</p>
+    <p>The random variable for a chi-square distribution with <m>k</m> degrees of freedom is the sum of <m>k</m> independent, squared standard normal variables is</p>
+    <p><m>χ</m>^{2} = (<m>Z</m>_{1})^{2} + (<m>Z</m>_{2})^{2} + ... + (<m>Z</m>_{<m>k</m>})^{2}, where the following are true:</p>
+    <ul>
+      <li>The curve is nonsymmetrical and skewed to the right.</li>
+      <li>There is a different chi-square curve for each <m>df</m>.</li>
+      <li>The test statistic for any test is always greater than or equal to zero.</li>
+      <li>When <m>df</m> &gt; 90, the chi-square curve approximates the normal distribution. For <m>X</m> ~ <m>χ1,0002</m>, the mean, <m>μ</m> = <m>df</m> = 1,000 and the standard deviation, <m>σ</m> = <m>\sqrt{2(1,000)}</m> = 44.7. Therefore, <m>X</m> ~ <m>N</m>(1,000, 44.7), approximately.</li>
+      <li>The mean, <m>μ</m>, is located just to the right of the peak.</li>
+    </ul>
   </section>
 
   <section xml:id="sec-goodness-of-fit-test">
     <title>Goodness-of-Fit Test</title>
-    <p>
-      Content to be added from module m79674.
-    </p>
+
+    <p>In this type of hypothesis test, you determine whether the data fit a particular distribution. For example, you may suspect your unknown data fit a binomial distribution. You use a chi-square test, meaning the distribution for the hypothesis test is chi-square, to determine if there is a fit. The null and the alternative hypotheses for this test may be written in sentences or may be stated as equations or inequalities.</p>
+    <p>The test statistic for a goodness-of-fit test is:</p>
+    <me>\Sigmak\frac{(O-E)^{2}}{E}</me>
+    <p>where</p>
+    <ul>
+      <li><m>O</m> = <term>observed values</term> (data),</li>
+      <li><m>E</m> = <term>expected values</term> (from theory), and</li>
+      <li><m>k</m> = the number of different data cells or categories.</li>
+    </ul>
+    <p>The observed values are the data values, and the expected values are the values you would expect to get if the null hypothesis were true. There are <m>n</m> terms of the form <m>\frac{(O-E)^{2}}{E}</m>.</p>
+    <p>The number of degrees of freedom is <m>df</m> = (number of categories – 1).</p>
+    <p>The goodness-of-fit test is almost always right-tailed. If the observed values and the corresponding expected values are not close to each other, then the test statistic can get very large and will be way out in the right tail of the chi-square curve.</p>
+    <note xml:id="eip-587">
+      <title>Note</title>
+      <p>The expected value for each cell needs to be at least five for you to use this test.</p>
+    </note>
+    <example xml:id="element-719">
+      <statement>
+        <p>a. Can you use the information as it appears in the charts to conduct the goodness-of-fit test?</p>
+      </statement>
+      <solution>
+        <p>a. No. Notice that the expected number of absences for the 12+ entry is less than five; it is two. Combine that group with the 9–11 group to create new tables where the number of students for each entry is at least five. The new results are in  and .
+<nbsp/>
+
+
+
+
+  
+    Number of Absences per Term
+    Expected Number of Students
+  
+
+
+  
+    0–2
+    50
+  
+  
+    3–5
+    30
+  
+  
+    6–8
+    12
+  
+  
+    9+
+    8
+  
+
+
+
+
+
+
+
+  
+    Number of Absences per Term
+    Actual Number of Students
+  
+
+
+  
+    0–2
+    35
+  
+  
+    3–5
+    40
+  
+  
+    6–8
+    20
+  
+  
+    9+
+    5</p>
+      </solution>
+    </example>
+    <note xml:id="fs-idm289894560">
+      <title>Try It</title>
+      <exercise xml:id="eip-31">
+        <statement>
+          <p>A factory manager needs to understand how many products are defective versus how many are produced. The number of expected defects is listed in .</p>
+          <p>A random sample was taken to determine the actual number of defects.  shows the results of the survey.</p>
+          <p>State the null and alternative hypotheses needed to conduct a goodness-of-fit test, and state the degrees of freedom.</p>
+        </statement>
+        <solution>
+          <p><em>H_{0}</em>:The number of defaults fits expectations.</p>
+          <p><em>H_{a}</em>:The number of defaults does not fit expectations.<nbsp/><m>df</m> = 4</p>
+        </solution>
+      </exercise>
+    </note>
+    <example xml:id="element-962">
+      <title>Day of the Week Employees Were Most Absent</title>
+      <statement>
+        <p>Employers want to know which days of the week employees are absent in a five-day work week. Most employers would like to believe that employees are absent equally during the week. Suppose a random sample of 60 managers were asked on which day of the week they had the highest number of employee absences. The results were distributed as in . For the population of employees, do the days for the highest number of absences occur with equal frequencies during a five-day work week? Test at a 5 percent significance level.</p>
+      </statement>
+      <solution>
+        <p>The null and alternative hypotheses are as follows:</p>
+        <ul>
+          <li><em>H_{0}</em>: The absent days occur with equal frequencies; that is, they fit a uniform distribution.</li>
+          <li><em>H_{a}</em>: The absent days occur with unequal frequencies; that is, they do not fit a uniform distribution.</li>
+        </ul>
+        <p>If the absent days occur with equal frequencies, then, out of 60 absent days (the total in the sample: 15 + 12 + 9 + 9 + 15 = 60) there would be 12 absences on Monday, 12 on Tuesday, 12 on Wednesday, 12 on Thursday, and 12 on Friday. These numbers are the <em>expected</em> (<m>E</m>) values. The values in the table are the <em>observed</em> (<m>O</m>) values or data.</p>
+        <p>This time, calculate the <m>χ</m>^{2} test statistic by hand. Make a chart with the following headings  and fill in the columns:</p>
+        <ul>
+          <li>Expected (<m>E</m>) values (12, 12, 12, 12, 12)</li>
+          <li>Observed (<m>O</m>) values (15, 12, 9, 9, 15)</li>
+          <li>(<m>O</m> – <m>E</m>)</li>
+          <li>(<m>O</m> – <m>E</m>)^{2}</li>
+          <li><m>\frac{(O\text{–}E)^{2}}{E}</m></li>
+        </ul>
+        <p>Now add (sum) the last column. The sum is three. This is the <em>χ^{2}</em> test statistic.</p>
+        <p>To find the <m>p</m>-value, calculate <m>P</m>(<m>χ</m>^{2} &gt; 3). This test is right-tailed. Use a computer or calculator to find the <m>p</m>-value. You should get <m>p</m>-value = 0.5578.</p>
+        <p>The <m>df</m>s are the number of cells – 1 = 5 – 1 = 4.</p>
+        <note xml:id="fs-idm116498656">
+          <p>Press <c>2nd DISTR</c>. Arrow down to <c>χ^{2}cdf</c>. Press <c>ENTER</c>. Enter <c>(3,10^99,4)</c>. Rounded to four decimal places, you should see .5578, which is the <m>p</m>-value.</p>
+        </note>
+        <p>Next, complete a graph like the following one with the proper labeling and shading. You should shade the right tail.</p>
+        <figure xml:id="eip-idm102621328">
+          <image source="media/fig-ch11_04_01.jpg" width="76%"/>
+        </figure>
+        <p>The decision is not to reject the null hypothesis.</p>
+        <p>Conclusion: At a 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the absent days do not occur with equal frequencies.</p>
+        <note xml:id="fs-idm74937360">
+          <p>TI-83+ and some TI-84 calculators do not have a special program for the test statistic for the goodness-of-fit test. The next example, , has the calculator instructions. The newer TI-84 calculators have in <c>STAT TESTS</c> the test <c>Chi2 GOF</c>. To run the test, put the observed values—the data—into a first list and the expected values—the values you expect if the null hypothesis is true—into a second list. Press <c>STAT TESTS</c> and <c>Chi2 GOF</c>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <c>Calculate</c> or <c>Draw</c>. Make sure you clear any lists before you start. To Clear Lists in the calculators: Go into <c>STAT EDIT</c> and arrow up to the list name area of the particular list. Press <c>CLEAR</c> and then arrow down. The list will be cleared. Alternatively, you can press <c>STAT</c> and press 4 for <c>ClrList</c>. Enter the list name and press <c>ENTER</c>.</p>
+        </note>
+      </solution>
+    </example>
+    <note xml:id="fs-idm3127168">
+      <title>Try It</title>
+      <exercise xml:id="eip-723">
+        <statement>
+          <p>Teachers want to know which night each week their students are doing most of their homework. Most teachers think that students do homework equally throughout the week. Suppose a random sample of 56 students were asked on which night of the week they did the most homework. The results were distributed as in .</p>
+          <p>From the population of students, do the nights for the highest number of students doing the majority of their homework occur with equal frequencies during a week? What type of hypothesis test should you use?</p>
+        </statement>
+        <solution>
+          <p><m>df</m> = 6</p>
+          <p><m>p</m>-value = 0.6093
+<nbsp/>We decline to reject the null hypothesis. There is not enough evidence to support that students do not do the majority of their homework equally throughout the week.</p>
+        </solution>
+      </exercise>
+    </note>
+    <example xml:id="example3">
+      <title>Note</title>
+      <statement>
+        <p>At the 1 percent significance level, does it appear that the distribution <em>number of televisions</em> of far western U.S. families is different from the distribution for the American population as a whole?</p>
+      </statement>
+      <solution>
+        <p>This problem asks you to test whether the far western U.S. families distribution fits the distribution of the American families. This test is always right-tailed.</p>
+        <p>The first table contains expected percentages. To get expected (<m>E</m>) frequencies, multiply the percentage by 600. The expected frequencies are shown in .</p>
+        <p>Therefore, the expected frequencies are 60, 96, 330, 66, and 48. In the TI calculators, you can let the calculator do the math. For example, instead of 60, enter 0.10 * 600.</p>
+        <p><alert><em>H_{0}</em></alert>: The <em>number of televisions</em> distribution of far western U.S. families is the same as the <em>number of televisions</em> distribution of the American population.</p>
+        <p><alert><em>H_{a}</em></alert>: The <em>number of televisions</em> distribution of far western U.S. families is different from the <em>number of televisions</em> distribution of the American population.</p>
+        <p><alert>Distribution for the test:</alert> <m>χ42</m> where <m>df</m> = (the number of cells) – 1 = 5 – 1 = 4.</p>
+        <note xml:id="id6229977">
+          <title>Note</title>
+          <p><m>df</m> ≠ 600 – 1</p>
+        </note>
+        <p>Calculate the test statistic: <m>χ</m>^{2} = 29.65</p>
+        <p>Graph</p>
+        <figure xml:id="eip-idm60132512">
+          <image source="media/fig-ch11_04_002.jpg" width="76%"/>
+        </figure>
+        <p>Probability statement: <m>p</m>-value = <m>P</m>(<m>χ</m>^{2} &gt; 29.65) = .000006</p>
+        <p>Compare <m>α</m> and the <m>p</m>-value:
+
+<m>α</m> = .01
+<m>p</m>-value = 0.000006
+
+So, <m>α</m> &gt; <m>p</m>-value.</p>
+        <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{o}</em>.</p>
+        <p>This means you reject the hypothesis that the distribution for the far western states is the same as that of the American population as a whole.</p>
+        <p>Conclusion: At the 1 percent significance level, from the data, there is sufficient evidence to conclude that the <em>number of televisions</em> distribution for the far western United States is different from the <em>number of televisions</em> distribution for the American population as a whole.</p>
+        <note xml:id="fs-idm137892176">
+          <p>Press <c>STAT</c> and <c>ENTER</c>. Make sure to clear lists <c>L1</c>, <c>L2</c>, and <c>L3</c> if they have data in them—see the note at the end of . Into <c>L1</c>, put the observed frequencies <c>66</c>, <c>119</c>, <c>349</c>, <c>60</c>, <c>15</c>. Into <c>L2</c>, put the expected frequencies <c>.10*600, .16*600</c>, <c>.55*600</c>, <c>.11*600</c>, <c>.08*600</c>. Arrow over to list <c>L3</c> and up to the name area <c>L3</c>. Enter <c>(L1-L2)^2/L2</c> and <c>ENTER</c>. Press <c>2nd QUIT</c>. Press <c>2nd LIST</c> and arrow over to <c>MATH</c>. Press <c>5</c>. You should see <c>sum (Enter L3)</c>. Rounded to two decimal places, you should see <c>29.65</c>. Press <c>2nd DISTR</c>. Press <c>7</c> or Arrow down to <c>7:χ2cdf</c> and press <c>ENTER</c>. Enter <c>(29.65,1E99,4)</c>. Rounded to four places, you should see <c>5.77E-6 = .000006</c> (rounded to six decimal places), which is the <m>p</m>-value.</p>
+          <p>The newer TI-84 calculators have in <c>STAT TESTS</c> the test <c>Chi2 GOF</c>. To run the test, put the observed values (the data) into a first list and the expected values—the values you expect if the null hypothesis is true—into a second list. Press <c>STAT TESTS</c> and <c>Chi2 GOF</c>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <c>Calculate</c> or <c>Draw</c>. Make sure you clear any lists before you start.</p>
+        </note>
+      </solution>
+    </example>
+    <note xml:id="fs-idm99666800">
+      <title>Try It</title>
+      <exercise xml:id="eip-521">
+        <statement>
+          <p>The expected percentage of the number of pets students have in their homes is distributed (this is the given distribution for the student population of the United States) as in .</p>
+          <p>A random sample of 1,000 students from the eastern United States resulted in the data in .</p>
+          <p>At the 1 percent significance level, does it appear that the distribution <em>number of pets</em> of students in the eastern United States is different from the distribution for the United States student population as a whole? What is the <m>p</m>-value?</p>
+        </statement>
+        <solution>
+          <p><m>p</m>-value = 0.0036</p>
+          <p>We reject the null hypothesis that the distributions are the same. There is sufficient evidence to conclude that the distribution for “number of pets” of students in the Eastern United States is different from the distribution for the U.S. student population as a whole.</p>
+        </solution>
+      </exercise>
+    </note>
+    <example xml:id="element-866">
+      <statement>
+        <p>Suppose you flip two coins 100 times. The results are 20 <m>HH</m>, 27 <m>HT</m>, 30 <m>TH</m>, and 23 <m>TT</m>. Are the coins fair? Test at a 5 percent significance level.</p>
+      </statement>
+      <solution>
+        <p>This problem can be set up as a goodness-of-fit problem. The sample space for flipping two fair coins is {<m>HH</m>, <m>HT</m>, <m>TH</m>, <m>TT</m>}. Out of 100 flips, you would expect 25 <m>HH</m>, 25 <m>HT</m>, 25 <m>TH</m>, and 25 <m>TT</m>. This is the expected distribution. The question, “Are the coins fair?” is the same as saying, “Does the distribution of the coins (20 <m>HH</m>, 27 <m>HT</m>, 30 <m>TH</m>, 23 <m>TT</m>) fit the expected distribution?”</p>
+        <p>Random variable: Let <m>X</m> = the number of heads in one flip of the two coins. <m>X</m> takes on the values 0, 1, 2. There are 0, 1, or 2 heads in the flip of two coins. Therefore, the number of cells is three. Since <m>X</m> = the number of heads, the observed frequencies are 20 for two heads, 57 for one head, and 23 for zero heads or both tails. The expected frequencies are 25 for two heads, 50 for one head, and 25 for zero heads or both tails. This test is right-tailed.</p>
+        <p><em>H_{0}</em>: The coins are fair.</p>
+        <p><em>H_{a}</em>: The coins are not fair.</p>
+        <p>Distribution for the test:
+<m>χ22</m>
+where
+    <m>df</m> = 3 – 1 = 2.</p>
+        <p>Calculate the test statistic: <m>χ</m>^{2} = 2.14.</p>
+        <p>Graph</p>
+        <figure xml:id="eip-idm189345712">
+          <image source="media/fig-ch11_04_003.jpg" width="76%"/>
+        </figure>
+        <p>Probability statement: <m>p</m>-value = <m>P</m>(<m>χ</m>^{2} &gt; 2.14) = 0.3430.</p>
+        <p>Compare <m>α</m> and the <m>p</m>-value:
+<m>α</m> = .05
+<m>p</m>-value = 0.3430
+<m>α</m> &lt; <m>p</m>-value.</p>
+        <p>Make a decision: Since <m>α</m> &lt; <m>p</m>-value, do not reject <em>H_{0}</em>.</p>
+        <p>Conclusion: There is insufficient evidence to conclude that the coins are not fair.</p>
+        <note xml:id="fs-idm114779376">
+          <p>Press <c>STAT</c> and <c>ENTER</c>. Make sure you
+clear lists <c>L1</c>, <c>L2</c>, and <c>L3</c> if they have data in them. Into <c>L1</c>, put the observed
+frequencies <c>20</c>, <c>57</c>, <c>23</c>. Into <c>L2</c>, put the expected frequencies <c>25</c>, <c>50</c>, <c>25</c>. Arrow
+over to list <c>L3</c> and up to the name area <c>L3</c>. Enter <c>(L1-L2)^2/L2</c> and
+<c>ENTER</c>. Press <c>2nd QUIT</c>. Press <c>2nd LIST</c> and arrow over to <c>MATH</c>. Press
+<c>5</c>. You should see <c>sum</c>. Enter <c>L3</c>. Rounded to two decimal places, you
+should see <c>2.14</c>. Press <c>2nd DISTR</c>. Arrow down to <c>7:χ2cdf</c>—or press <c>7</c>. Press
+<c>ENTER</c>. Enter <c>2.14,1E99,2)</c>. Rounded to four places, you should see <c>.3430</c>, which
+is the <m>p</m>-value.</p>
+          <p>The newer TI-84 calculators have in <c>STAT TESTS</c> the test <c>Chi2 GOF</c>. To run the test, put the observed values—the data—into a first list and the expected values—the values you expect if the null hypothesis is true—into a second list. Press <c>STAT TESTS</c> and <c>Chi2 GOF</c>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <c>Calculate</c> or <c>Draw</c>. Make
+sure you clear any lists before you start.</p>
+        </note>
+      </solution>
+    </example>
+    <note xml:id="fs-idm153122384">
+      <title>Try It</title>
+      <exercise xml:id="eip-860">
+        <statement>
+          <p>Students in a social studies class hypothesize that the literacy rates around the world for every region are 82 percent.  shows the actual literacy rates around the world broken down by region. What are the test statistic and the degrees of freedom?</p>
+        </statement>
+        <solution>
+          <p>degrees of freedom = 9</p>
+          <p>chi^{2} test statistic = 26.38</p>
+          <figure xml:id="eip-idm50682624">
+            <image source="media/CNX_Stats_C11_M04_tryit001.jpg" width="76%"/>
+          </figure>
+          <p>Press <c>STAT</c> and <c>ENTER</c>. Make sure you clear lists <c>L1, L2,</c> and <c>L3</c> if they have data in them. Into L1, put the observed frequencies <c>99, 99.5, 67.3, 62.5, 91, 93.8, 61.9, 91.9, 84.5, 66.4</c>. Into <c>L2</c>, put the expected frequencies <c>82, 82, 82, 82, 82, 82, 82, 82, 82, 82</c>. Arrow over to list <c>L3</c> and up to the name area <c>"L3"</c>. Enter <c>(L1-L2)^2/L2</c> and <c>ENTER</c>. Press <c>2nd QUIT</c>. Press <c>2nd LIST</c> and arrow over to <c>MATH</c>. Press <c>5</c>. You should see <c>"sum"</c>. <c>Enter L3</c>. Rounded to two decimal places, you should see <c>26.38</c>. Press <c>2nd DISTR</c>. Arrow down to <c>7:χ2cdf</c> (or press <c>7</c>). Press <c>ENTER</c>. Enter <c>26.38,1E99,9)</c>. Rounded to four places, you should see <c>.0018</c>, which is the <m>p</m>-value.</p>
+          <p>The newer TI-84 calculators have in <c>STAT TESTS</c> the test <c>Chi2 GOF</c>. To run the test, put the observed values (the data) into a first list and the expected values (the values you expect if the null hypothesis is true) into a second list. Press <c>STAT TESTS</c> and <c>Chi2 GOF</c>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <c>calculate</c> or <c>draw</c>. Make sure you clear any lists before you start.</p>
+        </solution>
+      </exercise>
+    </note>
   </section>
 
   <section xml:id="sec-test-independence">
     <title>Test of Independence</title>
-    <p>
-      Content to be added from module m79675.
-    </p>
+
+    <p>Tests of independence involve using a <term>contingency table</term> of observed (data) values.</p>
+    <p>The test statistic for a <term>test of independence</term> is similar to that of a goodness-of-fit test</p>
+    <me>\Sigma(i⋅j)\frac{(O-E)^{2}}{E}</me>
+    <p>where</p>
+    <ul>
+      <li><m>O</m> = observed values,</li>
+      <li><m>E</m> = expected values,</li>
+      <li><m>i</m> = the number of rows in the table, and</li>
+      <li><m>j</m> = the number of columns in the table.</li>
+    </ul>
+    <p>There are <m>i⋅j</m> terms of the form <m>\frac{(O-E)^{2}}{E}</m>.</p>
+    <p>A test of independence determines whether two factors are independent. You first encountered the term <em>independence</em> in <url href="m79609">Probability Topics</url>. As a review, consider the following example.</p>
+    <note xml:id="eip-155">
+      <title>Note</title>
+      <p>The expected value for each cell needs to be at least five for you to use this test.</p>
+    </note>
+    <example xml:id="element-54">
+      <p>Suppose <m>A</m> = a speeding violation in the last year and <m>B</m> = a cell phone user while driving. If <m>A</m> and <m>B</m> are independent, then <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>). <m>A</m> AND <m>B</m> is the event that a driver received a speeding violation last year and also used a cell phone while driving. Suppose, in a study of drivers who received speeding violations in the last year, and who used cell phones while driving, that 755 people were surveyed. Out of the 755, 70 had a speeding violation and 685 did not; 305 used cell phones while driving and 450 did not.</p>
+      <p>Let <m>y</m> = expected number of drivers who used a cell phone while driving and received speeding violations.</p>
+      <p>If <m>A</m> and <m>B</m> are independent, then <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>). By substitution,</p>
+      <p><m>\frac{y}{755}=(\frac{70}{755})(\frac{305}{755})\text{.}</m></p>
+      <p>Solve for <m>y</m>: <m>y</m> = <m>\frac{(70)(305)}{755}=28.3\text{.}</m></p>
+      <p>About 28 people from the sample are expected to use cell phones while driving and to receive speeding violations.</p>
+      <p>In a test of independence, we state the null and alternative hypotheses in words. Since the contingency table consists of two factors, the null hypothesis states that the factors are independent and the alternative hypothesis states that they are not independent (dependent). If we do a test of independence using the example, then the null hypothesis is the following:</p>
+      <p><em>H_{0}</em>: Being a cell phone user while driving and receiving a speeding violation are independent events.</p>
+      <p>If the null hypothesis were true, we would expect about 28 people to use cell phones while driving and to receive a speeding violation.</p>
+      <p>The test of independence is always right-tailed because of the calculation of the test statistic. If the expected and observed values are not close together, then the test statistic is very large and way out in the right tail of the chi-square curve, as it is in a goodness-of-fit.</p>
+      <p>The number of degrees of freedom for the test of independence is</p>
+      <p><m>df</m> = (number of columns – 1)(number of rows – 1).</p>
+      <p>The following formula calculates the expected number (<m>E</m>):</p>
+      <p><m>E=\frac{(row total)(column total)}{total number surveyed}</m></p>
+    </example>
+    <note xml:id="fs-idp45633632">
+      <title>Try It</title>
+      <exercise xml:id="eip-298">
+        <statement>
+          <p>A sample of 300 students is taken. Of the students surveyed, 50 were music students, while 250 were not. 97 were on the honor roll, while 203 were not. If we assume being a music student and being on the honor roll are independent events, what is the expected number of music students who are also on the honor roll?</p>
+        </statement>
+        <solution>
+          <p>About 16 students are expected to be music students and on the honor roll.</p>
+        </solution>
+      </exercise>
+    </note>
+    <example xml:id="element-272">
+      <title>Number of Hours Worked per Week by Volunteer Type (Observed)</title>
+      <statement>
+        <p>Is the number of hours volunteered independent of the type of volunteer?</p>
+      </statement>
+      <solution>
+        <p>The observed values and the question at the end of the problem, “Is the number of hours volunteered independent of the type of volunteer?” tell you this is a test of independence. The two factors are <em>number of hours volunteered</em> and <em>type of volunteer</em>. This test is always right-tailed.</p>
+        <p><em>H_{0}</em>: The number of hours volunteered is <em>independent</em> of the type of volunteer.</p>
+        <p><em>H_{a}</em>: The number of hours volunteered is <em>dependent</em> on the type of volunteer.</p>
+        <p>The expected result are in .
+ Number of Hours Worked per Week by Volunteer Type (Expected)
+
+   
+   
+   
+   Type of Volunteer 	1-3 Hours 	4–6 Hours 	7-9 Hours
+   
+    Community College Students90.57115.1949.24
+    Four-Year College Students10313156
+    Nonstudents104.42132.8156.77
+   
+
+The table contains expected (<m>E</m>) values (data).</p>
+        <p>For example, the calculation for the expected frequency for the top-left cell is</p>
+        <p><m>E=\frac{(\text{row total})(\text{column total})}{\text{total number surveyed}}=\frac{(255)(298)}{839}=90.57\text{.}</m></p>
+        <p>Calculate the test statistic: <m>χ</m>^{2} = 12.99 (calculator or computer)</p>
+        <p>Distribution for the test:  <m>χ42</m></p>
+        <p><m>df</m> = (3 columns – 1)(3 rows – 1) = (2)(2) = 4</p>
+        <p>Graph</p>
+        <figure xml:id="fs-idm32439392">
+          <image source="media/fig-ch11_05_01N.jpg" width="76%"/>
+        </figure>
+        <p>Probability statement: <m>p</m>-value = <m>P</m>(<em>χ^{2}</em> &gt; 12.99) = 0.0113</p>
+        <p>Compare <m>α</m> and the <m>p</m>-value: Since no <m>α</m> is given, assume <m>α</m> = 0.05. <m>p</m>-value = 0.0113. <m>α</m> &gt; <m>p</m>-value.</p>
+        <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{0}</em>. This means that the factors are not independent.</p>
+        <p>Conclusion: At a 5 percent level of significance, from the data, there is sufficient evidence to conclude that the number of hours volunteered and the type of volunteer are dependent on each other.</p>
+        <p>For the example in , if there had been another type of volunteer, teenagers, what would the degrees of freedom be?</p>
+        <note xml:id="fs-idp30286464">
+          <p>Press the <c>MATRX</c> key and arrow over to <c>EDIT</c>. Press <c>1:[A]</c>. Press <c>3 ENTER 3 ENTER</c>. Enter the observed values for each group (but not the totals) by row from . Press <c>ENTER</c> after each. Press <c>2nd QUIT</c>. Press the <c>MATRX</c> key and arrow over to <c>EDIT</c>. Press 2:[B]. Press 3 <c>ENTER</c> 3 <c>ENTER</c>. Enter the expected values by row from . Press ENTER after each. Press 2nd QUIT. Press <c>STAT</c> and arrow over to <c>TESTS</c>. Arrow down to <c>C:χ2-TEST</c>. Press <c>ENTER</c>. You should see <c>Observed:[A]</c> and <c>Expected:[B]</c>. Arrow down to <c>Calculate</c>. Press <c>ENTER</c>. The test statistic is 12.9909 and the <m>p</m>-value = .0113. Do the procedure a second time, but arrow down to <c>Draw</c> instead of <c>Calculate</c>.</p>
+        </note>
+      </solution>
+    </example>
+    <note xml:id="fs-idm24618832">
+      <title>Try It</title>
+      <exercise xml:id="eip-685">
+        <statement>
+          <p>The Bureau of Labor Statistics gathers data about employment in the United States. A sample is taken to calculate the number of U.S. citizens working in one of several industry sectors over time.  shows the results:</p>
+          <p>We want to know if the change in the number of jobs is independent of the change in years. State the null and alternative hypotheses and the degrees of freedom.</p>
+        </statement>
+        <solution>
+          <p><m>H</m>_{0} : The number of jobs is independent of the year.</p>
+          <p><em>H_{a}</em> : The number of jobs is dependent on the year.<nbsp/><m>df</m> = 12</p>
+          <p>Press the <c>MATRX</c> key and arrow over to <c>EDIT</c>. Press <c>1:[A]</c>. Press <c>3 ENTER 3 ENTER</c>. Enter the table values by row. Press <c>ENTER</c> after each. Press <c>2nd QUIT</c>. Press <c>STAT</c> and arrow over to <c>TESTS</c>. Arrow down to <c>C:χ2-TEST</c>. Press <c>ENTER</c>. You should see <c>Observed:[A] and Expected:[B]</c>. Arrow down to <c>Calculate</c>. Press <c>ENTER</c>. The test statistic is 227.73 and the <m>p</m>−value = 5.90E - 42 = 0. Do the procedure a second time but arrow down to <c>Draw</c> instead of <c>calculate</c>.</p>
+        </solution>
+      </exercise>
+    </note>
+    <example xml:id="element-505">
+      <title>Need to Succeed in School vs. Anxiety Level</title>
+      <statement>
+        <p>a. How many high anxiety level students are expected to have a high need to succeed in school?</p>
+      </statement>
+      <solution>
+        <p>a. The column total for a high anxiety level is 57. The row total for high need to succeed in school is 155. The sample size or total surveyed is 400.</p>
+        <p><m>E=\frac{(row total)(column total)}{total surveyed}=\frac{155⋅57}{400}=22.09</m></p>
+        <p>The expected number of students who have a high anxiety level and a high need to succeed in school is about 22.<nbsp/><nbsp/></p>
+      </solution>
+    </example>
+    <note xml:id="fs-idm15185536">
+      <title>Try It</title>
+      <exercise xml:id="eip-358">
+        <statement>
+          <p>Refer back to the information in . How many services-providing jobs are there expected to be in 2020? How many nonagriculture wage and salary jobs are there expected to be in 2020?</p>
+        </statement>
+        <solution>
+          <p>12,727, 14,965</p>
+        </solution>
+      </exercise>
+    </note>
   </section>
 
   <section xml:id="sec-test-homogeneity">
     <title>Test for Homogeneity</title>
-    <p>
-      Content to be added from module m79676.
-    </p>
+
+    <p>The goodness-of-fit test can be used to decide whether a population fits a given distribution, but it will not suffice to decide whether two populations follow the same unknown distribution. A different test, called the <term>test for homogeneity</term>, can be used to draw a conclusion about whether two populations have the same distribution. To calculate the test statistic for a test for homogeneity, follow the same procedure as with the test of independence.</p>
+    <note xml:id="eip-195">
+      <title>Note</title>
+      <p>The expected value for each cell needs to be at least five for you to use this test.</p>
+    </note>
+    <p>Hypotheses<nbsp/><em>H_{0}</em>: The distributions of the two populations are the same.<nbsp/>
+    <nbsp/><em>H_{a}</em>:  The distributions of the two populations are not the same.</p>
+    <p>Test StatisticUse a <m>χ^{2}</m>  test statistic. It is computed in the same way as the test for independence.</p>
+    <p>Degrees of freedom (<m>df</m>)<m>df</m> = (number of columns – 1)(number of rows – 1)</p>
+    <p>RequirementsAll values in the table must be greater than or equal to five.</p>
+    <p>Common UsesComparing two populations. For example:  men vs. women, before vs. after, east vs. west. The variable is categorical with more than two possible response values.</p>
+    <example xml:id="eip-101">
+      <title>Distribution of Living Arragements for College Males and College Females</title>
+      <statement>
+        <p>Do male and female college students have the same distribution of living arrangements?  Use a level of significance of 0.05. Suppose that 250 randomly selected male college students and 300 randomly selected female college students were asked about their living arrangements: dormitory, apartment, with parents, other. The results are shown in . Do male and female college students have the same distribution of living arrangements?</p>
+      </statement>
+      <solution>
+        <p><em>H_{0}</em>: The distribution of living arrangements for male college students is the same as the distribution of living arrangements for female college students.<nbsp/>
+    <nbsp/><em>H_{a}</em>: The distribution of living arrangements for male college students is not the same as the distribution of living arrangements for female college students.<nbsp/><nbsp/>
+    Degrees of freedom (<m>df</m>):<nbsp/> <m>df</m> = (number of columns – 1)(number of rows – 1) = (4 – 1)(2– 1) = 3 <nbsp/><nbsp/>  Distribution for the test: <m>χ32</m><nbsp/><nbsp/>
+    Calculate the test statistic: <m>χ</m>^{2} = 10.1287 (calculator or computer)  <nbsp/><nbsp/> Probability statement: <m>p</m>-value = <m>P</m>(<m>χ</m>^{2} &gt;10.1287) = 0.0175</p>
+        <note xml:id="fs-idm46378784">
+        </note>
+        <p><nbsp/>Compare <m>α</m> and the <m>p</m>-value: Since no <m>α</m> is given, assume <m>α</m> = 0.05. <m>p</m>-value = 0.0175. <m>α</m> &gt; <m>p</m>-value. <nbsp/><nbsp/> Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{0}</em>. This means that the distributions are not the same. <nbsp/><nbsp/> Conclusion: At a 5 percent level of significance, from the data, there is sufficient evidence to conclude that the distributions of living arrangements for male and female college students are not the same.<nbsp/><nbsp/> Notice that the conclusion is only that the distributions are not the same. We cannot use the test for homogeneity to draw any conclusions about how they differ.</p>
+      </solution>
+    </example>
+    <note xml:id="fs-idp99198384">
+      <title>Try It</title>
+      <exercise xml:id="eip-976">
+        <statement>
+          <p>Do families and singles have the same distribution of cars? Suppose that 100 randomly selected families and 200 randomly selected singles were asked what type of car they drove: sport, sedan, hatchback, truck, van/SUV. The results are shown in . Do families and singles have the same distribution of cars? Test at a level of significance of 0.05.</p>
+        </statement>
+        <solution>
+          <p>With a <m>p</m>-value of almost zero, we reject the null hypothesis. The data show that the distribution of cars is not the same for families and singles.</p>
+        </solution>
+      </exercise>
+    </note>
+    <example xml:id="eip-151">
+      <statement>
+        <p>Both before and after a recent earthquake, surveys were conducted asking voters which of the three candidates they planned on voting for in the upcoming city council election. Has there been a change since the earthquake? Use a level of significance of 0.05.  shows the results of the survey. Has there been a change in the distribution of voter preferences since the earthquake?</p>
+      </statement>
+      <solution>
+        <p><em>H_{0}</em>: The distribution of voter preferences was the same before and after the earthquake. <nbsp/><nbsp/> <em>H_{a}</em>: The distribution of voter preferences was not the same before and after the earthquake. <nbsp/><nbsp/> Degrees of freedom (<m>df</m>):<nbsp/> <m>df</m> = (number of columns – 1)(number of rows – 1) = (3 – 1)(2 – 1) = 2 <nbsp/><nbsp/>  Distribution for the test:  <m>χ22</m>
+<nbsp/><nbsp/>Calculate the test statistic: <em>χ^{2}</em> = 3.2603 (calculator or computer)
+<nbsp/><nbsp/>Probability statement: <m>p</m>-value=<m>P</m>(<em>χ^{2}</em> &gt; 3.2603) = 0.1959</p>
+        <note xml:id="fs-idp99944704">
+          <p>Press the <c>MATRX</c> key and arrow over to <c>EDIT</c>. Press <c>1:[A]</c>. Press <c>2 ENTER 3 ENTER</c>. Enter the table values by row. Press <c>ENTER</c> after each. Press <c>2nd QUIT</c>. Press <c>STAT</c> and arrow over to <c>TESTS</c>. Arrow down to <c>C:χ2-TEST</c>. Press <c>ENTER</c>. You should see <c>Observed:[A]</c> and <c>Expected:[B]</c>. Arrow down to <c>Calculate</c>. Press <c>ENTER</c>. The test statistic is 3.2603 and the <m>p</m>-value = 0.1959. Do the procedure a second time but arrow down to <c>Draw</c> instead of <c>Calculate</c>.</p>
+        </note>
+        <p>Compare <m>α</m> and the <m>p</m>-value: <m>α</m> = 0.05 and the  <m>p</m>-value = 0.1959. <m>α</m> &lt; <m>p</m>-value.</p>
+        <p>Make a decision: Since <m>α</m> &lt; <m>p</m>-value, do not reject <em>H_{o}</em>.</p>
+        <p>Conclusion: At a 5 percent level of significance, from the data, there is insufficient evidence to  conclude that the distribution of voter preferences was not the same before and after the earthquake.</p>
+      </solution>
+    </example>
+    <note xml:id="fs-idm61233888">
+      <title>Try It</title>
+      <exercise xml:id="eip-680">
+        <statement>
+          <p>Ivy League schools receive many applications, but only some can be accepted. At the schools listed in , two types of applications are accepted: regular and early decision.</p>
+          <p>We want to know if the number of regular applications accepted follows the same distribution as the number of early applications accepted. State the null and alternative hypotheses, the degrees of freedom and the test statistic, sketch the graph of the <m>p</m>-value, and draw a conclusion about the test of homogeneity.</p>
+        </statement>
+        <solution>
+          <p><em>H_{0}</em> : The distribution of regular applications accepted is the same as the distribution of early applications accepted.</p>
+          <p><em>H_{a}</em> : The distribution of regular applications accepted is not the same as the distribution of early applications accepted.
+<nbsp/><m>df</m> = 5
+<nbsp/><em>χ^{2}</em> test statistic = 430.06</p>
+          <figure xml:id="fs-idp12140192">
+            <image source="media/CNX_Stats_C11_M06_tryit001.jpg" width="76%"/>
+          </figure>
+          <note xml:id="fs-idp12880128">
+            <p>Press the <c>MATRX</c> key and arrow over to <c>EDIT</c>. Press <c>1:[A]</c>. Press <c>3 ENTER 3 ENTER</c>. Enter the table values by row. Press <c>ENTER</c> after each. Press <c>2nd QUIT</c>. Press <c>STAT</c> and arrow over to <c>TESTS</c>. Arrow down to<c>C:χ2-TEST</c>. Press <c>ENTER</c>. You should see <c>Observed:[A]</c> and <c>Expected:[B]</c>. Arrow down to <c>Calculate</c>. Press <c>ENTER</c>. The test statistic is 430.06 and the <m>p</m>-value = 9.80E-91. Do the procedure a second time but arrow down to <c>Draw</c> instead of <c>Calculate</c>.</p>
+          </note>
+        </solution>
+      </exercise>
+    </note>
   </section>
 
   <section xml:id="sec-comparison-chi-square-tests">
     <title>Comparison of the Chi-Square Tests</title>
-    <p>
-      Content to be added from module m79678.
-    </p>
+
+    <p>You have seen the <m>χ</m>^{2} test statistic used in three different circumstances. The following bulleted list is a summary that will help you decide which <m>χ</m>^{2} test is the appropriate one to use.</p>
+    <ul>
+      <li>Goodness-of-Fit: Use the goodness-of-fit test to decide whether a population with an unknown distribution <em>fits</em> a known distribution. In this case there will be a single qualitative survey question or a single outcome of an experiment from a single population. Goodness-of-fit is typically used to see if the population is uniform (all outcomes occur with equal frequency), the population is normal, or the population is the same as another population with a known distribution. The null and alternative hypotheses are as follows:
+<nbsp/><em>H_{0}</em>: The population fits the given distribution.
+<nbsp/><em>H_{a}</em>: The population does not fit the given distribution.</li>
+      <li>Independence: Use the test for independence to decide whether two variables (factors) are independent or dependent. In this case there will be two qualitative survey questions or experiments and a contingency table will be constructed. The goal is to see if the two variables are unrelated/independent or related/dependent. The null and alternative hypotheses are as follows:
+<nbsp/><em>H_{0}</em>: The two variables (factors) are independent.
+<nbsp/><em>H_{a}</em>: The two variables (factors) are dependent.</li>
+      <li>Homogeneity: Use the test for homogeneity to decide if two populations with unknown distributions have the same distribution. In this case there will be a single qualitative survey question or experiment given to two different populations. The null and alternative hypotheses are as follows:
+<nbsp/><em>H_{0}</em>: The two populations follow the same distribution.
+<nbsp/><em>H_{a}</em>: The two populations have different distributions.</li>
+    </ul>
   </section>
 
   <section xml:id="sec-test-single-variance">
     <title>Test of a Single Variance</title>
-    <p>
-      Content to be added from module m79679.
-    </p>
+
+    <p>A <term>test of a single variance</term> assumes that the underlying distribution is normal. The null and alternative hypotheses are stated in terms of the <term>population variance</term> or population standard deviation. The test statistic is</p>
+    <me>\frac{(n-1)s^{2}}{\sigma^{2}}</me>
+    <p>where</p>
+    <ul>
+      <li><m>n</m> = the total number of data,</li>
+      <li><m>s</m>^{2} = sample variance, and</li>
+      <li><m>σ</m>^{2} = population variance.</li>
+    </ul>
+    <p>You may think of <m>s</m> as the random variable in this test. The number of degrees of freedom is <m>df</m> = <m>n</m> – 1. A test of a single variance may be right-tailed, left-tailed, or two-tailed.  will show you how to set up the null and alternative hypotheses. The null and alternative hypotheses contain statements about the population variance.</p>
+    <example xml:id="element-174">
+      <statement>
+        <p>Math instructors are not only interested in how their students do on exams, on average, but how the exam scores vary. To many instructors, the variance, or standard deviation, may be more important than the average.</p>
+        <p>Suppose a math instructor believes that the standard deviation for his final exam is five points. One of his
+best students thinks otherwise. The student claims that the standard deviation is more than five points. If the student were to conduct a hypothesis test, what would the null and alternative hypotheses be?</p>
+      </statement>
+      <solution>
+        <p>Even though we are given the population standard deviation, we can set up the test using the population variance as follows:</p>
+        <ul>
+          <li><em>H_{0}</em>: <m>σ</m>^{2} = 5^{2}</li>
+          <li><em>H_{a}</em>: <m>σ</m>^{2} &gt; 5^{2}</li>
+        </ul>
+      </solution>
+    </example>
+    <note xml:id="fs-idp75827040">
+      <title>Try It</title>
+      <exercise xml:id="eip-420">
+        <statement>
+          <p>A scuba instructor wants to record the collective depths each of his students dives during their checkout. He is interested in how the depths vary, even though everyone should have been at the same depth. He believes the standard deviation is three feet. His assistant thinks the standard deviation is less than three feet. If the instructor were to conduct a test, what would the null and alternative hypotheses be?</p>
+        </statement>
+        <solution>
+          <p><em>H_{0}</em>: <m>σ</m>^{2} = 3^{2}</p>
+          <p><em>H_{a}</em>: <m>σ</m>^{2} &lt; 3^{2}</p>
+        </solution>
+      </exercise>
+    </note>
+    <example xml:id="element-28">
+      <statement>
+        <p>With individual lines at its various windows, a post office finds that the standard deviation for normally distributed waiting times for customers on Friday afternoon is 7.2 minutes. The post office experiments with a single, main waiting line and finds that for a random sample of 25 customers, the waiting times for customers have a standard deviation of 3.5 minutes.</p>
+        <p>With a significance level of 5 percent, test the claim that a single line causes lower variation
+among waiting times (shorter waiting times) for customers.</p>
+      </statement>
+      <solution>
+        <p>Since the claim is that a single line causes less variation, this is a test of a single variance.
+The parameter is the population variance, <m>σ</m>^{2}, or the population standard deviation, <m>σ</m>.</p>
+        <p>Random variable: The sample standard deviation, <m>s</m>, is the random variable.
+Let <m>s</m> = standard deviation for the waiting times.</p>
+        <ul>
+          <li><em>H_{0}</em>: <m>σ</m>^{2} = 7.2^{2}</li>
+          <li><em>H_{a}</em>: <m>σ</m>^{2} &lt; 7.2^{2}</li>
+        </ul>
+        <p>The word <em>less</em> tells you this is a left-tailed test.</p>
+        <p>Distribution for the test: <m>χ242</m>, where
+<m>n</m> = the number of customers sampled, and
+ <m>df</m> = <m>n</m> – 1 = 25 – 1 = 24.</p>
+        <p>Calculate the test statistic:</p>
+        <p><m>χ^{2}=\frac{(n-1)s^{2}}{\sigma^{2}}=\frac{(25-1)(3.5)^{2}}{7.2^{2}}=5.67</m></p>
+        <p>where <m>n</m> = 25, <m>s</m> = 3.5, and <m>σ</m> = 7.2.</p>
+        <p>Graph</p>
+        <figure xml:id="fs-idp135015696">
+          <image source="media/figure-ch11_08_01.jpg" width="76%"/>
+        </figure>
+        <p>Probability statement: <m>p</m>-value = <m>P</m> ( <m>χ</m>^{2} &lt; 5.67) = 0.000042</p>
+        <p>Compare <m>α</m> and the <m>p</m>-value:
+
+<nbsp/><m>α</m> = 0.05
+<nbsp/><m>p</m>-value = 0.000042
+<nbsp/><m>α</m> &gt; <m>p</m>-value</p>
+        <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{0}</em>. This means that you reject <m>σ</m>^{2} = 7.2^{2}. In other words, you do not think the variation in waiting times is 7.2 minutes; you think the variation in waiting times is less.</p>
+        <p>Conclusion: At a 5 percent level of significance, from the data, there is sufficient evidence to
+conclude that a single line causes a lower variation among the waiting times <m>or</m> with a single
+line, the customer waiting times vary less than 7.2 minutes.</p>
+        <note xml:id="fs-idm81061344">
+          <p>In <c>2nd DISTR</c>, use <c>7:χ2cdf</c>. The syntax is
+<c>(lower, upper, df)</c> for the parameter list.
+  For , <c>χ2cdf(-1E99,5.67,24)</c>. The <m>p</m>-value = 0.000042.</p>
+        </note>
+      </solution>
+    </example>
+    <note xml:id="fs-idp108749600">
+      <title>Try It</title>
+      <exercise xml:id="eip-209">
+        <statement>
+          <p>The FCC conducts broadband speed tests to measure how much data per second passes between a consumer’s computer and the internet. As of August 2012, the standard deviation of internet speeds across internet service providers (ISPs) was 12.2 percent. Suppose a sample of 15 ISPs is taken, and the standard deviation is 13.2. An analyst claims that the standard deviation of speeds is more than what was reported. State the null and alternative hypotheses, compute the degrees of freedom, calculate the test statistic, sketch the graph of the <m>p</m>-value, and draw a conclusion. Test at the 1 percent significance level.</p>
+        </statement>
+        <solution>
+          <p><em>H_{0}</em>: <m>σ</m>^{2} = 12.2^{2}</p>
+          <p><em>H_{a}</em>: <m>σ</m>^{2} &gt; 12.2^{2}
+<nbsp/><m>df</m> = 14
+<nbsp/>chi^{2} test statistic = 16.39</p>
+          <figure xml:id="fs-idp135068032">
+            <image source="media/CNX_Stats_C11_M08_tryit001.jpg" width="76%"/>
+          </figure>
+          <p>The <m>p</m>-value is 0.2902, so we decline to reject the null hypothesis. There is not enough evidence to suggest that the variance is greater than 12.2^{2}.</p>
+          <note xml:id="eip-idp106427424">
+            <p>In <c>2nd DISTR</c>, use7:<c>χ2cdf</c>. The syntax is <c>(lower, upper, df)</c> for the parameter list. <c>χ2cdf(16.39,10^99,14)</c>. The <m>p</m>-value = 0.2902.</p>
+          </note>
+        </solution>
+      </exercise>
+    </note>
   </section>
 
-  <section xml:id="sec-chi-square-lab">
-    <title>Chi-Square Distribution (Lap Times)</title>
-    <p>
-      Content to be added from module m79682.
-    </p>
+  <section xml:id="sec-chi-square-lab1">
+    <title>Lab 1: Chi-Square Goodness-of-Fit</title>
+
+    <note xml:id="fs-id1170646469482">
+      <title>Lab 1: Chi-Square Goodness-of-Fit</title>
+      <ul>
+        <li>The student will evaluate data collected to determine if they fit either the uniform or exponential distributions.</li>
+      </ul>
+      <p>Collect the DataGo to your local supermarket. Ask 30 people as they leave for the total amount on their grocery receipts. Or, ask 3 cashiers for the last 10 amounts. Be sure to include the express lane, if it is open.</p>
+      <note xml:id="eip-665">
+        <title>Note</title>
+      </note>
+      <ol>
+        <li>Record the values.
+     
+      
+       
+        
+         __________
+         __________
+         __________
+         __________
+         __________
+        
+        
+         __________
+         __________
+         __________
+         __________
+         __________
+        
+        
+         __________
+         __________
+         __________
+         __________
+         __________
+        
+        
+         __________
+         __________
+         __________
+         __________
+         __________
+        
+        
+         __________
+         __________
+         __________
+         __________
+         __________
+        
+        
+         __________
+         __________
+         __________
+         __________
+         __________</li>
+        <li>Construct a histogram of the data. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.</li>
+        <li>Calculate the following: <m>\overline{x}</m> = ________
+     <m>s</m> = ________
+     <m>s</m>^{2} = ________</li>
+        <li><m>\overline{x}</m> = ________</li>
+        <li><m>s</m> = ________</li>
+        <li><m>s</m>^{2} = ________</li>
+      </ol>
+      <p>Uniform Distribution
+    Test to see if grocery receipts follow the uniform distribution.</p>
+      <ol>
+        <li>Using your lowest and highest values, <m>X</m> ~ <m>U</m> (_______, _______).</li>
+        <li>Divide the distribution into fifths.</li>
+        <li>Calculate the following:
+     lowest value = _________
+      20^{th} percentile = _________
+      40^{th} percentile = _________
+      60^{th} percentile = _________
+      80^{th} percentile = _________
+      highest value = _________</li>
+        <li>lowest value = _________</li>
+        <li>20^{th} percentile = _________</li>
+        <li>40^{th} percentile = _________</li>
+        <li>60^{th} percentile = _________</li>
+        <li>80^{th} percentile = _________</li>
+        <li>highest value = _________</li>
+        <li>For each fifth, count the observed number of receipts and record it. Then determine the expected number of receipts and record that.
+     
+      
+       
+       
+       
+        
+         Fifth 
+         Observed
+         Expected
+        
+       
+       
+        
+         1^{st}
+         
+         
+        
+        
+         2^{nd}
+         
+         
+        
+        
+         3^{rd}
+         
+         
+        
+        
+         4^{th}
+         
+         
+        
+        
+         5^{th}</li>
+        <li><em>H_{0}</em>: ________</li>
+        <li><em>H_{a}</em>: ________</li>
+        <li>What distribution should you use for a hypothesis test?</li>
+        <li>Why did you choose this distribution?</li>
+        <li>Calculate the test statistic.</li>
+        <li>Find the <m>p</m>-value.</li>
+        <li>Sketch a graph of the situation. Label and scale the <m>x</m>-axis. Shade the area corresponding to the <m>p</m>-value.</li>
+        <li>State your decision.</li>
+        <li>State your conclusion in a complete sentence.</li>
+      </ol>
+      <p>Exponential Distribution
+    Test to see if grocery receipts follow the exponential distribution with decay parameter <m>\frac{1}{x}</m>.</p>
+      <ol>
+        <li>Using <m>\frac{1}{x¯}</m> as the decay parameter, <m>X</m> ~ <em>Exp</em>(_________).</li>
+        <li>Calculate the following:
+     
+      lowest value = ________
+      first quartile = ________
+      37^{th} percentile = ________
+      median = ________
+      63^{rd} percentile = ________
+      3^{rd} quartile = ________
+      highest value = ________</li>
+        <li>lowest value = ________</li>
+        <li>first quartile = ________</li>
+        <li>37^{th} percentile = ________</li>
+        <li>median = ________</li>
+        <li>63^{rd} percentile = ________</li>
+        <li>3^{rd} quartile = ________</li>
+        <li>highest value = ________</li>
+        <li>For each cell, count the observed number of receipts and record it. Then determine the expected number of receipts and record that.
+     
+      
+      
+      
+       
+        Cell
+        Observed
+        Expected
+       
+      
+      
+       
+        1^{st}
+        
+        
+       
+       
+        2^{nd}
+        
+        
+       
+       
+        3^{rd}
+        
+        
+       
+       
+        4^{th}
+        
+        
+       
+       
+        5^{th}
+        
+        
+       
+       
+        6^{th}</li>
+        <li><em>H_{0}</em>: ________</li>
+        <li><em>H_{a}</em>: ________</li>
+        <li>What distribution should you use for a hypothesis test?</li>
+        <li>Why did you choose this distribution?</li>
+        <li>Calculate the test statistic.</li>
+        <li>Find the <m>p</m>-value.</li>
+        <li>Sketch a graph of the situation. Label and scale the <m>x</m>-axis. Shade the area corresponding to the <m>p</m>-value.</li>
+        <li>State your decision.</li>
+        <li>State your conclusion in a complete sentence.</li>
+      </ol>
+      <ol>
+        <li>Did your data fit either distribution? If so, which?</li>
+        <li>In general, do you think it’s likely that data could fit more than one distribution? In complete sentences, explain why or why not.</li>
+      </ol>
+    </note>
   </section>
 
-  <section xml:id="sec-chi-square-review">
-    <title>Chi-Square Distribution: Review</title>
-    <p>
-      Content to be added from module m79683.
-    </p>
+  <section xml:id="sec-chi-square-lab2">
+    <title>Lab 2: Chi-Square Test of Independence</title>
+
+    <note xml:id="fs-id1170238033322">
+      <title>Lab 2: Chi-Square Test of Independence</title>
+      <ul>
+        <li>The student will evaluate if there is a significant relationship between favorite type of snack and gender.</li>
+      </ul>
+      <ol>
+        <li>Using your class as a sample, complete the following chart. Ask one another what your favorite snack is, then total the results.
+    NoteYou may need to combine two food categories so that each cell has an expected value of at least five.
+     Favorite Type of Snack
+     
+      
+      
+      
+      
+      
+      
+       
+        
+        Sweets (candy &amp; baked goods)
+        Ice Cream
+        Chips &amp; Pretzels
+        Fruits &amp; Vegetables
+        Total
+       
+      
+      
+       
+        <alert>Male</alert>
+        
+        
+        
+        
+        
+       
+       
+        <alert>Female</alert>
+        
+        
+        
+        
+        
+       
+       
+        <alert>Total</alert></li>
+        <li>Looking at , does it appear to you that there is a dependence between gender and favorite type of snack food? Why or why not?</li>
+      </ol>
+      <p>Hypothesis Test
+   Conduct a hypothesis test to determine if the factors are independent:</p>
+      <ol>
+        <li><em>H_{0}</em>: ________</li>
+        <li><em>H_{a}</em>: ________</li>
+        <li>What distribution should you use for a hypothesis test?</li>
+        <li>Why did you choose this distribution?</li>
+        <li>Calculate the test statistic.</li>
+        <li>Find the <m>p</m> value.</li>
+        <li>Sketch a graph of the situation. Label and scale the <m>x</m> axis. Shade the area corresponding to the <m>p</m> value.</li>
+        <li>State your decision.</li>
+        <li>State your conclusion in a complete sentence.</li>
+      </ol>
+      <ol>
+        <li>Is the conclusion of your study the same as or different from your answer to answer to Question 2 under Collect the Data?</li>
+        <li>Why do you think that occurred?</li>
+      </ol>
+    </note>
   </section>
 
-  <section xml:id="sec-chi-square-practice">
-    <title>Chi-Square Distribution: Practice</title>
-    <p>
-      Content to be added from module m79685.
-    </p>
-  </section>
-
-  <conclusion>
-    <p>
-      This chapter has covered the chi-square distribution and its various applications.
-    </p>
-  </conclusion>
 </chapter>
