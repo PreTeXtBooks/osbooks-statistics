@@ -577,7 +577,7 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
             <p>Explanation of 95 percent Confidence Level95 percent of all confidence intervals constructed in this way contain the true value of the population mean statistics exam score.</p>
             <p>Comparing the ResultsThe 90 percent confidence interval is (67.18, 68.82). The 95 percent confidence interval is (67.02, 68.98). The 95 percent confidence interval is wider. If you look at the graphs, because the area 0.95 is larger than the area 0.90, it makes sense that the 95 percent confidence interval is wider. For more certainty that the confidence interval actually does contain the true value of the population mean for all statistics exam scores, the confidence interval necessarily needs to be wider.</p>
             <figure xml:id="conf_intvls_cfpm3">
-              <image source="media/fig-ch08_02_03.jpg" width="450">
+              <image source="media/fig-ch08_02_03.jpg" width="50%">
               </image>
             </figure>
             <ul>
