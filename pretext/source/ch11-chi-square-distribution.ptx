@@ -42,7 +42,7 @@ The test of a single variance, which tests variability, such as in the coffee ex
     <title>Facts About the Chi-Square Distribution</title>
 
     <p>The notation for the <term>chi-square distribution</term> is</p>
-    <me>χ\simχdf2</me>
+    <me>\chi\sim\chi_{df}^{2}</me>
     <p><nbsp/>where <m>df</m> = degrees of freedom, which depends on how chi-square is being used. If you want to practice calculating chi-square probabilities then use <m>df</m> = <m>n</m> – 1. The degrees of freedom for the three major uses are calculated differently.</p>
     <p>For the <em>χ^{2}</em> distribution, the population mean is <m>μ</m> = <m>df</m>, and the population standard deviation is <m>\sigma=\sqrt{2(df)}</m>.</p>
     <p>The random variable is shown as <em>χ^{2}</em>, but it may be any uppercase letter.</p>
@@ -52,7 +52,7 @@ The test of a single variance, which tests variability, such as in the coffee ex
       <li>The curve is nonsymmetrical and skewed to the right.</li>
       <li>There is a different chi-square curve for each <m>df</m>.</li>
       <li>The test statistic for any test is always greater than or equal to zero.</li>
-      <li>When <m>df</m> &gt; 90, the chi-square curve approximates the normal distribution. For <m>X</m> ~ <m>χ1,0002</m>, the mean, <m>μ</m> = <m>df</m> = 1,000 and the standard deviation, <m>σ</m> = <m>\sqrt{2(1,000)}</m> = 44.7. Therefore, <m>X</m> ~ <m>N</m>(1,000, 44.7), approximately.</li>
+      <li>When <m>df</m> &gt; 90, the chi-square curve approximates the normal distribution. For <m>X</m> ~ <m>\chi_{1,000}^{2}</m>, the mean, <m>μ</m> = <m>df</m> = 1,000 and the standard deviation, <m>σ</m> = <m>\sqrt{2(1,000)}</m> = 44.7. Therefore, <m>X</m> ~ <m>N</m>(1,000, 44.7), approximately.</li>
       <li>The mean, <m>μ</m>, is located just to the right of the peak.</li>
     </ul>
   </section>
@@ -62,7 +62,7 @@ The test of a single variance, which tests variability, such as in the coffee ex
 
     <p>In this type of hypothesis test, you determine whether the data fit a particular distribution. For example, you may suspect your unknown data fit a binomial distribution. You use a chi-square test, meaning the distribution for the hypothesis test is chi-square, to determine if there is a fit. The null and the alternative hypotheses for this test may be written in sentences or may be stated as equations or inequalities.</p>
     <p>The test statistic for a goodness-of-fit test is:</p>
-    <me>\Sigmak\frac{(O-E)^{2}}{E}</me>
+    <me>\sum_{k}\frac{(O-E)^{2}}{E}</me>
     <p>where</p>
     <ul>
       <li><m>O</m> = <term>observed values</term> (data),</li>
@@ -215,7 +215,7 @@ The test of a single variance, which tests variability, such as in the coffee ex
         <p>Therefore, the expected frequencies are 60, 96, 330, 66, and 48. In the TI calculators, you can let the calculator do the math. For example, instead of 60, enter 0.10 * 600.</p>
         <p><alert><em>H_{0}</em></alert>: The <em>number of televisions</em> distribution of far western U.S. families is the same as the <em>number of televisions</em> distribution of the American population.</p>
         <p><alert><em>H_{a}</em></alert>: The <em>number of televisions</em> distribution of far western U.S. families is different from the <em>number of televisions</em> distribution of the American population.</p>
-        <p><alert>Distribution for the test:</alert> <m>χ42</m> where <m>df</m> = (the number of cells) – 1 = 5 – 1 = 4.</p>
+        <p><alert>Distribution for the test:</alert> <m>\chi_{4}^{2}</m> where <m>df</m> = (the number of cells) – 1 = 5 – 1 = 4.</p>
         <note xml:id="id6229977">
           <title>Note</title>
           <p><m>df</m> ≠ 600 – 1</p>
@@ -265,7 +265,7 @@ So, <m>α</m> &gt; <m>p</m>-value.</p>
         <p><em>H_{0}</em>: The coins are fair.</p>
         <p><em>H_{a}</em>: The coins are not fair.</p>
         <p>Distribution for the test:
-<m>χ22</m>
+<m>\chi_{2}^{2}</m>
 where
     <m>df</m> = 3 – 1 = 2.</p>
         <p>Calculate the test statistic: <m>χ</m>^{2} = 2.14.</p>
@@ -319,7 +319,7 @@ sure you clear any lists before you start.</p>
 
     <p>Tests of independence involve using a <term>contingency table</term> of observed (data) values.</p>
     <p>The test statistic for a <term>test of independence</term> is similar to that of a goodness-of-fit test</p>
-    <me>\Sigma(i⋅j)\frac{(O-E)^{2}}{E}</me>
+    <me>\sum_{(i⋅j)}\frac{(O-E)^{2}}{E}</me>
     <p>where</p>
     <ul>
       <li><m>O</m> = observed values,</li>
@@ -386,7 +386,7 @@ The table contains expected (<m>E</m>) values (data).</p>
         <p>For example, the calculation for the expected frequency for the top-left cell is</p>
         <p><m>E=\frac{(\text{row total})(\text{column total})}{\text{total number surveyed}}=\frac{(255)(298)}{839}=90.57\text{.}</m></p>
         <p>Calculate the test statistic: <m>χ</m>^{2} = 12.99 (calculator or computer)</p>
-        <p>Distribution for the test:  <m>χ42</m></p>
+        <p>Distribution for the test:  <m>\chi_{4}^{2}</m></p>
         <p><m>df</m> = (3 columns – 1)(3 rows – 1) = (2)(2) = 4</p>
         <p>Graph</p>
         <figure xml:id="fs-idm32439392">
@@ -450,7 +450,7 @@ The table contains expected (<m>E</m>) values (data).</p>
     </note>
     <p>Hypotheses<nbsp/><em>H_{0}</em>: The distributions of the two populations are the same.<nbsp/>
     <nbsp/><em>H_{a}</em>:  The distributions of the two populations are not the same.</p>
-    <p>Test StatisticUse a <m>χ^{2}</m>  test statistic. It is computed in the same way as the test for independence.</p>
+    <p>Test StatisticUse a <m>\chi^{2}</m>  test statistic. It is computed in the same way as the test for independence.</p>
     <p>Degrees of freedom (<m>df</m>)<m>df</m> = (number of columns – 1)(number of rows – 1)</p>
     <p>RequirementsAll values in the table must be greater than or equal to five.</p>
     <p>Common UsesComparing two populations. For example:  men vs. women, before vs. after, east vs. west. The variable is categorical with more than two possible response values.</p>
@@ -462,7 +462,7 @@ The table contains expected (<m>E</m>) values (data).</p>
       <solution>
         <p><em>H_{0}</em>: The distribution of living arrangements for male college students is the same as the distribution of living arrangements for female college students.<nbsp/>
     <nbsp/><em>H_{a}</em>: The distribution of living arrangements for male college students is not the same as the distribution of living arrangements for female college students.<nbsp/><nbsp/>
-    Degrees of freedom (<m>df</m>):<nbsp/> <m>df</m> = (number of columns – 1)(number of rows – 1) = (4 – 1)(2– 1) = 3 <nbsp/><nbsp/>  Distribution for the test: <m>χ32</m><nbsp/><nbsp/>
+    Degrees of freedom (<m>df</m>):<nbsp/> <m>df</m> = (number of columns – 1)(number of rows – 1) = (4 – 1)(2– 1) = 3 <nbsp/><nbsp/>  Distribution for the test: <m>\chi_{3}^{2}</m><nbsp/><nbsp/>
     Calculate the test statistic: <m>χ</m>^{2} = 10.1287 (calculator or computer)  <nbsp/><nbsp/> Probability statement: <m>p</m>-value = <m>P</m>(<m>χ</m>^{2} &gt;10.1287) = 0.0175</p>
         <note xml:id="fs-idm46378784">
         </note>
@@ -485,7 +485,7 @@ The table contains expected (<m>E</m>) values (data).</p>
         <p>Both before and after a recent earthquake, surveys were conducted asking voters which of the three candidates they planned on voting for in the upcoming city council election. Has there been a change since the earthquake? Use a level of significance of 0.05.  shows the results of the survey. Has there been a change in the distribution of voter preferences since the earthquake?</p>
       </statement>
       <solution>
-        <p><em>H_{0}</em>: The distribution of voter preferences was the same before and after the earthquake. <nbsp/><nbsp/> <em>H_{a}</em>: The distribution of voter preferences was not the same before and after the earthquake. <nbsp/><nbsp/> Degrees of freedom (<m>df</m>):<nbsp/> <m>df</m> = (number of columns – 1)(number of rows – 1) = (3 – 1)(2 – 1) = 2 <nbsp/><nbsp/>  Distribution for the test:  <m>χ22</m>
+        <p><em>H_{0}</em>: The distribution of voter preferences was the same before and after the earthquake. <nbsp/><nbsp/> <em>H_{a}</em>: The distribution of voter preferences was not the same before and after the earthquake. <nbsp/><nbsp/> Degrees of freedom (<m>df</m>):<nbsp/> <m>df</m> = (number of columns – 1)(number of rows – 1) = (3 – 1)(2 – 1) = 2 <nbsp/><nbsp/>  Distribution for the test:  <m>\chi_{2}^{2}</m>
 <nbsp/><nbsp/>Calculate the test statistic: <em>χ^{2}</em> = 3.2603 (calculator or computer)
 <nbsp/><nbsp/>Probability statement: <m>p</m>-value=<m>P</m>(<em>χ^{2}</em> &gt; 3.2603) = 0.1959</p>
         <note xml:id="fs-idp99944704">
@@ -590,11 +590,11 @@ Let <m>s</m> = standard deviation for the waiting times.</p>
           <li><em>H_{a}</em>: <m>σ</m>^{2} &lt; 7.2^{2}</li>
         </ul>
         <p>The word <em>less</em> tells you this is a left-tailed test.</p>
-        <p>Distribution for the test: <m>χ242</m>, where
+        <p>Distribution for the test: <m>\chi_{24}^{2}</m>, where
 <m>n</m> = the number of customers sampled, and
  <m>df</m> = <m>n</m> – 1 = 25 – 1 = 24.</p>
         <p>Calculate the test statistic:</p>
-        <p><m>χ^{2}=\frac{(n-1)s^{2}}{\sigma^{2}}=\frac{(25-1)(3.5)^{2}}{7.2^{2}}=5.67</m></p>
+        <p><m>\chi^{2}=\frac{(n-1)s^{2}}{\sigma^{2}}=\frac{(25-1)(3.5)^{2}}{7.2^{2}}=5.67</m></p>
         <p>where <m>n</m> = 25, <m>s</m> = 3.5, and <m>σ</m> = 7.2.</p>
         <p>Graph</p>
         <figure xml:id="fs-idp135015696">

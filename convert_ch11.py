@@ -33,6 +33,7 @@ def convert_mathml_to_latex(elem, namespaces=None):
         # Apply symbol replacements
         replacements = {
             'μ': r'\mu', 'σ': r'\sigma', 'π': r'\pi', 'θ': r'\theta',
+            'χ': r'\chi', 'Σ': r'\Sigma',
             '−': '-', '–': '-', '≤': r'\leq', '≥': r'\geq',
             '≈': r'\approx', '∼': r'\sim', '~': r'\sim',
             '∞': r'\infty', '≠': r'\neq', '×': r'\times',
@@ -49,7 +50,7 @@ def convert_mathml_to_latex(elem, namespaces=None):
         ctext = (child.text or '').strip()
         
         if ctag == 'mi':  # Identifier
-            greek = {'μ': r'\mu', 'σ': r'\sigma', 'π': r'\pi', 'θ': r'\theta', 'Σ': r'\Sigma'}
+            greek = {'μ': r'\mu', 'σ': r'\sigma', 'π': r'\pi', 'θ': r'\theta', 'Σ': r'\Sigma', 'χ': r'\chi'}
             result.append(greek.get(ctext, ctext))
         elif ctag == 'mn':  # Number
             result.append(ctext)
@@ -57,7 +58,7 @@ def convert_mathml_to_latex(elem, namespaces=None):
             ops = {'−': '-', '–': '-', '∼': r'\sim', '~': r'\sim',
                    '≤': r'\leq', '≥': r'\geq', '≈': r'\approx',
                    '×': r'\times', '·': r'\cdot', '≠': r'\neq',
-                   '±': r'\pm'}
+                   '±': r'\pm', 'Σ': r'\sum'}
             result.append(ops.get(ctext, ctext))
         elif ctag == 'mtext':
             result.append(r'\text{' + ctext + '}' if ctext else '')
@@ -73,6 +74,11 @@ def convert_mathml_to_latex(elem, namespaces=None):
             base = convert_mathml_to_latex(child[0]) if len(child) > 0 else ''
             sup = convert_mathml_to_latex(child[1]) if len(child) > 1 else ''
             result.append(base + '^{' + sup + '}')
+        elif ctag == 'msubsup':
+            base = convert_mathml_to_latex(child[0]) if len(child) > 0 else ''
+            sub = convert_mathml_to_latex(child[1]) if len(child) > 1 else ''
+            sup = convert_mathml_to_latex(child[2]) if len(child) > 2 else ''
+            result.append(base + '_{' + sub + '}^{' + sup + '}')
         elif ctag == 'mover':
             base = convert_mathml_to_latex(child[0]) if len(child) > 0 else ''
             over_elem = child[1] if len(child) > 1 else None
@@ -87,6 +93,21 @@ def convert_mathml_to_latex(elem, namespaces=None):
         elif ctag == 'msqrt':
             inner = convert_mathml_to_latex(child[0]) if len(child) > 0 else ''
             result.append(r'\sqrt{' + inner + '}')
+        elif ctag == 'munderover':
+            base = convert_mathml_to_latex(child[0]) if len(child) > 0 else ''
+            # Convert \Sigma to \sum in context of limits
+            if base == r'\Sigma':
+                base = r'\sum'
+            under = convert_mathml_to_latex(child[1]) if len(child) > 1 else ''
+            over = convert_mathml_to_latex(child[2]) if len(child) > 2 else ''
+            result.append(base + '_{' + under + '}^{' + over + '}')
+        elif ctag == 'munder':
+            base = convert_mathml_to_latex(child[0]) if len(child) > 0 else ''
+            # Convert \Sigma to \sum in context of limits
+            if base == r'\Sigma':
+                base = r'\sum'
+            under = convert_mathml_to_latex(child[1]) if len(child) > 1 else ''
+            result.append(base + '_{' + under + '}')
         elif ctag == 'mrow':
             result.append(convert_mathml_to_latex(child))
         elif ctag == 'mtable':
