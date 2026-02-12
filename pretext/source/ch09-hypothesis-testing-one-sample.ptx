@@ -32,7 +32,7 @@
     </ol>
     <note xml:id="id23787041">
       <title>Note</title>
-      <p>To do the hypothesis test homework problems for this chapter and later chapters, make copies of the appropriate special solution sheets. See <url href="m79714">Appendix E</url>.</p>
+      <p>To do the hypothesis test homework problems for this chapter and later chapters, make copies of the appropriate special solution sheets. See <xref ref="appendix-e-solution-sheets">Appendix E</xref>.</p>
     </note>
   </introduction>
 
@@ -530,7 +530,7 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
           <p>A group of divers is exploring an old sunken ship. Suppose the null hypothesis, <em>H_{0}</em>, is the sunken ship does not contain buried treasure. State the Type I and Type II errors in complete sentences.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-967">
+      <exercise xml:id="ch09-eip-967">
         <statement>
           <p>A microbiologist is testing a water sample for E. coli. Suppose the null hypothesis, <em>H_{0}</em>, is the sample does not contain E. coli. The probability that the sample does not contain E. coli, but the microbiologist thinks it does is 0.012. The probability that the sample does contain E. coli, but the microbiologist thinks it does not is 0.002. What is the power of this test?</p>
         </statement>
@@ -1221,7 +1221,7 @@ average, in 16.43 seconds. (Reject the null hypothesis when the null hypothesis 
         <p>The traditional way to compare the two probabilities, <m>α</m> and the <m>p</m>-value, is to compare the critical value (<m>z</m>-score from <m>α</m>) to the test statistic (<m>z</m>-score from data). The calculated test statistic for the <m>p</m>-value is –2.08. (From the central limit theorem, the test statistic formula is <m>z=\frac{\overline{x}-\mu_{X}}{(\frac{\sigma_{X}}{\sqrt{n}})}</m>.
 
 
-For this problem, <m>\overline{x}</m> = 16, <em>μ_{X}</em> = 16.43 from the null hypothesis, <em>σ_{X}</em> = 0.8, and <m>n</m> = 15.) You can find the critical value for <m>α</m> = 0.05 in the normal table (see <url href="m79718">Appendix H: Tables</url>). The <m>z</m>-score for an area to the left equal to 0.05 is midway between –1.65 and –1.64 (0.05 is midway between 0.0505 and 0.0495). The <m>z</m>-score is –1.645. Since –1.645 &gt; –2.08 (which demonstrates that α &gt; <m>p</m>-value), reject <em>H_{0}</em>. Traditionally, the decision
+For this problem, <m>\overline{x}</m> = 16, <em>μ_{X}</em> = 16.43 from the null hypothesis, <em>σ_{X}</em> = 0.8, and <m>n</m> = 15.) You can find the critical value for <m>α</m> = 0.05 in the normal table (see <xref ref="appendix-h-tables">Appendix H: Tables</xref>). The <m>z</m>-score for an area to the left equal to 0.05 is midway between –1.65 and –1.64 (0.05 is midway between 0.0505 and 0.0495). The <m>z</m>-score is –1.645. Since –1.645 &gt; –2.08 (which demonstrates that α &gt; <m>p</m>-value), reject <em>H_{0}</em>. Traditionally, the decision
 to reject or not reject was done in this way. Today, comparing the two probabilities <m>α</m> and the <m>p</m>-value is very common. For this problem, the <m>p</m>-value, 0.0187, is considerably smaller than <m>α</m>, 0.05. You can be confident about your decision to reject. The graph shows <m>α</m>, the <m>p</m>-value, and the test statistic and the critical value.</p>
       </note>
       <exercise xml:id="fs-idp78508304">
@@ -1754,7 +1754,7 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
 
     <subsection xml:id="fs-idp139727497473120">
       <title>Homework</title>
-      <p><em>For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in <url href="m79714">Appendix E, Solution Sheets</url>. Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.</em></p>
+      <p><em>For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in <xref ref="appendix-e-solution-sheets">Appendix E, Solution Sheets</xref>. Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.</em></p>
       <note xml:id="id8395739">
         <title>Note</title>
         <p>If you are using a Student's-<m>t</m>-distribution for one of the following homework problems, you may assume that the underlying population is normally distributed. In general, you must first prove that assumption, however.</p>
@@ -1964,7 +1964,7 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
       </exercise>
       <exercise xml:id="element-761">
         <statement>
-          <p>Use the <em>Lap time</em> data for Lap 4 (see <url href="m79712">Appendix C: Data Sets</url>) to test the claim that Terri finishes Lap 4, on average, in less than 129 seconds. Use all 20 races given.</p>
+          <p>Use the <em>Lap time</em> data for Lap 4 (see <xref ref="appendix-c-data-sets">Appendix C: Data Sets</xref>) to test the claim that Terri finishes Lap 4, on average, in less than 129 seconds. Use all 20 races given.</p>
         </statement>
         <solution>
           <ol>
@@ -1989,7 +1989,7 @@ Conclusion: There is insufficient evidence to conclude that Terri’s mean lap t
       </exercise>
       <exercise xml:id="fs-idp191961952">
         <statement>
-          <p>Use the <em>Initial Public Offering</em> data (see <url href="m79712">Appendix C: Data Sets</url>) to test the claim that the mean offer price was $18 per share. Do not use all the data. Use your random number generator to randomly survey 15 prices.</p>
+          <p>Use the <em>Initial Public Offering</em> data (see <xref ref="appendix-c-data-sets">Appendix C: Data Sets</xref>) to test the claim that the mean offer price was $18 per share. Do not use all the data. Use your random number generator to randomly survey 15 prices.</p>
         </statement>
       </exercise>
       <note xml:id="id9401550">

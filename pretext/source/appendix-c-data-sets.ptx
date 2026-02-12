@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Appendix C: Data Sets -->
+<appendix xml:id="appendix-c-data-sets" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Data Sets</title>
+
+  <section xml:id="element-244">
+    <title>Lap Times</title>
+    <p>
+      The following tables provide lap times from Terri Vogel&apos;s log book. Times are recorded in seconds for 2.5-mile laps completed in a series of races and practice runs.
+    </p>
+    <table xml:id="id5853402">
+      <title>Race Lap Times (in seconds)</title>
+      <tabular>
+        <row header="yes">
+          <cell></cell>
+          <cell>Lap 1</cell>
+          <cell>Lap 2</cell>
+          <cell>Lap 3</cell>
+          <cell>Lap 4</cell>
+          <cell>Lap 5</cell>
+          <cell>Lap 6</cell>
+          <cell>Lap 7</cell>
+        </row>
+        <row>
+          <cell>Race 1</cell>
+          <cell>135</cell>
+          <cell>130</cell>
+          <cell>131</cell>
+          <cell>132</cell>
+          <cell>130</cell>
+          <cell>131</cell>
+          <cell>133</cell>
+        </row>
+        <row>
+          <cell>Race 2</cell>
+          <cell>134</cell>
+          <cell>131</cell>
+          <cell>131</cell>
+          <cell>129</cell>
+          <cell>128</cell>
+          <cell>128</cell>
+          <cell>129</cell>
+        </row>
+        <row>
+          <cell>Race 3</cell>
+          <cell>129</cell>
+          <cell>128</cell>
+          <cell>127</cell>
+          <cell>127</cell>
+          <cell>130</cell>
+          <cell>127</cell>
+          <cell>129</cell>
+        </row>
+        <row>
+          <cell>Race 4</cell>
+          <cell>125</cell>
+          <cell>125</cell>
+          <cell>126</cell>
+          <cell>125</cell>
+          <cell>124</cell>
+          <cell>125</cell>
+          <cell>125</cell>
+        </row>
+        <row>
+          <cell>Race 5</cell>
+          <cell>133</cell>
+          <cell>132</cell>
+          <cell>132</cell>
+          <cell>132</cell>
+          <cell>131</cell>
+          <cell>130</cell>
+          <cell>132</cell>
+        </row>
+        <row>
+          <cell>Race 6</cell>
+          <cell>130</cell>
+          <cell>130</cell>
+          <cell>130</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>130</cell>
+          <cell>129</cell>
+        </row>
+        <row>
+          <cell>Race 7</cell>
+          <cell>132</cell>
+          <cell>131</cell>
+          <cell>133</cell>
+          <cell>131</cell>
+          <cell>134</cell>
+          <cell>134</cell>
+          <cell>131</cell>
+        </row>
+        <row>
+          <cell>Race 8</cell>
+          <cell>127</cell>
+          <cell>128</cell>
+          <cell>127</cell>
+          <cell>130</cell>
+          <cell>128</cell>
+          <cell>126</cell>
+          <cell>128</cell>
+        </row>
+        <row>
+          <cell>Race 9</cell>
+          <cell>132</cell>
+          <cell>130</cell>
+          <cell>127</cell>
+          <cell>128</cell>
+          <cell>126</cell>
+          <cell>127</cell>
+          <cell>124</cell>
+        </row>
+        <row>
+          <cell>Race 10</cell>
+          <cell>135</cell>
+          <cell>131</cell>
+          <cell>131</cell>
+          <cell>132</cell>
+          <cell>130</cell>
+          <cell>131</cell>
+          <cell>130</cell>
+        </row>
+        <row>
+          <cell>Race 11</cell>
+          <cell>132</cell>
+          <cell>131</cell>
+          <cell>132</cell>
+          <cell>131</cell>
+          <cell>130</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+        </row>
+        <row>
+          <cell>Race 12</cell>
+          <cell>134</cell>
+          <cell>130</cell>
+          <cell>130</cell>
+          <cell>130</cell>
+          <cell>131</cell>
+          <cell>130</cell>
+          <cell>130</cell>
+        </row>
+        <row>
+          <cell>Race 13</cell>
+          <cell>128</cell>
+          <cell>127</cell>
+          <cell>128</cell>
+          <cell>128</cell>
+          <cell>128</cell>
+          <cell>129</cell>
+          <cell>128</cell>
+        </row>
+        <row>
+          <cell>Race 14</cell>
+          <cell>132</cell>
+          <cell>131</cell>
+          <cell>131</cell>
+          <cell>131</cell>
+          <cell>132</cell>
+          <cell>130</cell>
+          <cell>130</cell>
+        </row>
+        <row>
+          <cell>Race 15</cell>
+          <cell>136</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+        </row>
+        <row>
+          <cell>Race 16</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>128</cell>
+          <cell>128</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+        </row>
+        <row>
+          <cell>Race 17</cell>
+          <cell>134</cell>
+          <cell>131</cell>
+          <cell>132</cell>
+          <cell>131</cell>
+          <cell>132</cell>
+          <cell>132</cell>
+          <cell>132</cell>
+        </row>
+        <row>
+          <cell>Race 18</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>130</cell>
+          <cell>130</cell>
+          <cell>133</cell>
+          <cell>133</cell>
+          <cell>127</cell>
+        </row>
+        <row>
+          <cell>Race 19</cell>
+          <cell>130</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>128</cell>
+        </row>
+        <row>
+          <cell>Race 20</cell>
+          <cell>131</cell>
+          <cell>128</cell>
+          <cell>130</cell>
+          <cell>128</cell>
+          <cell>129</cell>
+          <cell>130</cell>
+          <cell>130</cell>
+        </row>
+      </tabular>
+    </table>
+    <table xml:id="id11030993">
+      <title>Practice Lap Times (in seconds)</title>
+      <tabular>
+        <row header="yes">
+          <cell></cell>
+          <cell>Lap 1</cell>
+          <cell>Lap 2</cell>
+          <cell>Lap 3</cell>
+          <cell>Lap 4</cell>
+          <cell>Lap 5</cell>
+          <cell>Lap 6</cell>
+          <cell>Lap 7</cell>
+        </row>
+        <row>
+          <cell>Practice 1</cell>
+          <cell>142</cell>
+          <cell>143</cell>
+          <cell>180</cell>
+          <cell>137</cell>
+          <cell>134</cell>
+          <cell>134</cell>
+          <cell>172</cell>
+        </row>
+        <row>
+          <cell>Practice 2</cell>
+          <cell>140</cell>
+          <cell>135</cell>
+          <cell>134</cell>
+          <cell>133</cell>
+          <cell>128</cell>
+          <cell>128</cell>
+          <cell>131</cell>
+        </row>
+        <row>
+          <cell>Practice 3</cell>
+          <cell>130</cell>
+          <cell>133</cell>
+          <cell>130</cell>
+          <cell>128</cell>
+          <cell>135</cell>
+          <cell>133</cell>
+          <cell>133</cell>
+        </row>
+        <row>
+          <cell>Practice 4</cell>
+          <cell>141</cell>
+          <cell>136</cell>
+          <cell>137</cell>
+          <cell>136</cell>
+          <cell>136</cell>
+          <cell>136</cell>
+          <cell>145</cell>
+        </row>
+        <row>
+          <cell>Practice 5</cell>
+          <cell>140</cell>
+          <cell>138</cell>
+          <cell>136</cell>
+          <cell>137</cell>
+          <cell>135</cell>
+          <cell>134</cell>
+          <cell>134</cell>
+        </row>
+        <row>
+          <cell>Practice 6</cell>
+          <cell>142</cell>
+          <cell>142</cell>
+          <cell>139</cell>
+          <cell>138</cell>
+          <cell>129</cell>
+          <cell>129</cell>
+          <cell>127</cell>
+        </row>
+        <row>
+          <cell>Practice 7</cell>
+          <cell>139</cell>
+          <cell>137</cell>
+          <cell>135</cell>
+          <cell>135</cell>
+          <cell>137</cell>
+          <cell>134</cell>
+          <cell>135</cell>
+        </row>
+        <row>
+          <cell>Practice 8</cell>
+          <cell>143</cell>
+          <cell>136</cell>
+          <cell>134</cell>
+          <cell>133</cell>
+          <cell>134</cell>
+          <cell>133</cell>
+          <cell>132</cell>
+        </row>
+        <row>
+          <cell>Practice 9</cell>
+          <cell>135</cell>
+          <cell>134</cell>
+          <cell>133</cell>
+          <cell>133</cell>
+          <cell>132</cell>
+          <cell>132</cell>
+          <cell>133</cell>
+        </row>
+        <row>
+          <cell>Practice 10</cell>
+          <cell>131</cell>
+          <cell>130</cell>
+          <cell>128</cell>
+          <cell>129</cell>
+          <cell>127</cell>
+          <cell>128</cell>
+          <cell>127</cell>
+        </row>
+        <row>
+          <cell>Practice 11</cell>
+          <cell>143</cell>
+          <cell>139</cell>
+          <cell>139</cell>
+          <cell>138</cell>
+          <cell>138</cell>
+          <cell>137</cell>
+          <cell>138</cell>
+        </row>
+        <row>
+          <cell>Practice 12</cell>
+          <cell>132</cell>
+          <cell>133</cell>
+          <cell>131</cell>
+          <cell>129</cell>
+          <cell>128</cell>
+          <cell>127</cell>
+          <cell>126</cell>
+        </row>
+        <row>
+          <cell>Practice 13</cell>
+          <cell>149</cell>
+          <cell>144</cell>
+          <cell>144</cell>
+          <cell>139</cell>
+          <cell>138</cell>
+          <cell>138</cell>
+          <cell>137</cell>
+        </row>
+        <row>
+          <cell>Practice 14</cell>
+          <cell>133</cell>
+          <cell>132</cell>
+          <cell>137</cell>
+          <cell>133</cell>
+          <cell>134</cell>
+          <cell>130</cell>
+          <cell>131</cell>
+        </row>
+        <row>
+          <cell>Practice 15</cell>
+          <cell>138</cell>
+          <cell>136</cell>
+          <cell>133</cell>
+          <cell>133</cell>
+          <cell>132</cell>
+          <cell>131</cell>
+          <cell>131</cell>
+        </row>
+      </tabular>
+    </table>
+  </section>
+
+  <section xml:id="element-949">
+    <title>Stock Prices</title>
+    <p>
+      The following table lists initial public offering (IPO) stock prices for all 1999 stocks that at least doubled in value during the first day of trading.
+    </p>
+    <table xml:id="id10255660">
+      <title>IPO Offer Prices</title>
+      <tabular>
+        <row>
+          <cell>$17.00</cell>
+          <cell>$23.00</cell>
+          <cell>$14.00</cell>
+          <cell>$16.00</cell>
+          <cell>$12.00</cell>
+          <cell>$26.00</cell>
+        </row>
+        <row>
+          <cell>$20.00</cell>
+          <cell>$22.00</cell>
+          <cell>$14.00</cell>
+          <cell>$15.00</cell>
+          <cell>$22.00</cell>
+          <cell>$18.00</cell>
+        </row>
+        <row>
+          <cell>$18.00</cell>
+          <cell>$21.00</cell>
+          <cell>$21.00</cell>
+          <cell>$19.00</cell>
+          <cell>$15.00</cell>
+          <cell>$21.00</cell>
+        </row>
+        <row>
+          <cell>$18.00</cell>
+          <cell>$17.00</cell>
+          <cell>$15.00</cell>
+          <cell>$25.00</cell>
+          <cell>$14.00</cell>
+          <cell>$30.00</cell>
+        </row>
+        <row>
+          <cell>$16.00</cell>
+          <cell>$10.00</cell>
+          <cell>$20.00</cell>
+          <cell>$12.00</cell>
+          <cell>$16.00</cell>
+          <cell>$17.44</cell>
+        </row>
+        <row>
+          <cell>$16.00</cell>
+          <cell>$14.00</cell>
+          <cell>$15.00</cell>
+          <cell>$20.00</cell>
+          <cell>$20.00</cell>
+          <cell>$16.00</cell>
+        </row>
+        <row>
+          <cell>$17.00</cell>
+          <cell>$16.00</cell>
+          <cell>$15.00</cell>
+          <cell>$15.00</cell>
+          <cell>$19.00</cell>
+          <cell>$48.00</cell>
+        </row>
+        <row>
+          <cell>$16.00</cell>
+          <cell>$18.00</cell>
+          <cell>$9.00</cell>
+          <cell>$18.00</cell>
+          <cell>$18.00</cell>
+          <cell>$20.00</cell>
+        </row>
+        <row>
+          <cell>$8.00</cell>
+          <cell>$20.00</cell>
+          <cell>$17.00</cell>
+          <cell>$14.00</cell>
+          <cell>$11.00</cell>
+          <cell>$16.00</cell>
+        </row>
+        <row>
+          <cell>$19.00</cell>
+          <cell>$15.00</cell>
+          <cell>$21.00</cell>
+          <cell>$12.00</cell>
+          <cell>$8.00</cell>
+          <cell>$16.00</cell>
+        </row>
+        <row>
+          <cell>$13.00</cell>
+          <cell>$14.00</cell>
+          <cell>$15.00</cell>
+          <cell>$14.00</cell>
+          <cell>$13.41</cell>
+          <cell>$28.00</cell>
+        </row>
+        <row>
+          <cell>$21.00</cell>
+          <cell>$17.00</cell>
+          <cell>$28.00</cell>
+          <cell>$17.00</cell>
+          <cell>$19.00</cell>
+          <cell>$16.00</cell>
+        </row>
+        <row>
+          <cell>$17.00</cell>
+          <cell>$19.00</cell>
+          <cell>$18.00</cell>
+          <cell>$17.00</cell>
+          <cell>$15.00</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>$14.00</cell>
+          <cell>$21.00</cell>
+          <cell>$12.00</cell>
+          <cell>$18.00</cell>
+          <cell>$24.00</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>$15.00</cell>
+          <cell>$23.00</cell>
+          <cell>$14.00</cell>
+          <cell>$16.00</cell>
+          <cell>$12.00</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>$24.00</cell>
+          <cell>$20.00</cell>
+          <cell>$14.00</cell>
+          <cell>$14.00</cell>
+          <cell>$15.00</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>$14.00</cell>
+          <cell>$19.00</cell>
+          <cell>$16.00</cell>
+          <cell>$38.00</cell>
+          <cell>$20.00</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>$24.00</cell>
+          <cell>$16.00</cell>
+          <cell>$8.00</cell>
+          <cell>$18.00</cell>
+          <cell>$17.00</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>$16.00</cell>
+          <cell>$15.00</cell>
+          <cell>$7.00</cell>
+          <cell>$19.00</cell>
+          <cell>$12.00</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>$8.00</cell>
+          <cell>$23.00</cell>
+          <cell>$12.00</cell>
+          <cell>$18.00</cell>
+          <cell>$20.00</cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell>$21.00</cell>
+          <cell>$34.00</cell>
+          <cell>$16.00</cell>
+          <cell>$26.00</cell>
+          <cell>$14.00</cell>
+          <cell></cell>
+        </row>
+      </tabular>
+    </table>
+  </section>
+
+  <section xml:id="fs-idp192653104">
+    <title>References</title>
+    <p>
+      Data compiled by Jay R. Ritter of University of Florida using data from <em>Securities Data Co.</em> and <em>Bloomberg</em> .
+    </p>
+  </section>
+
+</appendix>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Appendix H: Tables -->
+<appendix xml:id="appendix-h-tables" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Tables</title>
+
+  <p>
+    The module contains links to government site tables used in statistics.
+  </p>
+
+  <note xml:id="idp85711232">
+    <title>Note</title>
+    <p>
+      When you are finished with the table link, use the back button on your browser to return here.
+    </p>
+  </note>
+
+  <p><title>Tables (NIST/SEMATECH e-Handbook of Statistical Methods,  http://www.itl.nist.gov/div898/handbook/, January 3, 2009)</title></p>
+  <ul>
+    <li>
+      <p>
+        <url href="http://www.itl.nist.gov/div898/handbook/eda/section3/eda3672.htm">Student <em>t</em> table</url>
+      </p>
+    </li>
+    <li>
+      <p>
+        <url href="http://www.itl.nist.gov/div898/handbook/eda/section3/eda3671.htm">Normal table</url>
+      </p>
+    </li>
+    <li>
+      <p>
+        <url href="http://www.itl.nist.gov/div898/handbook/eda/section3/eda3674.htm">Chi-Square table</url>
+      </p>
+    </li>
+    <li>
+      <p>
+        <url href="http://www.itl.nist.gov/div898/handbook/eda/section3/eda3673.htm">F-table</url>
+      </p>
+    </li>
+    <li>
+      <p>
+        All <url href="http://www.itl.nist.gov/div898/handbook/eda/section3/eda367.htm">four tables</url> can be accessed by going to http://www.itl.nist.gov/div898/handbook/eda/section3/eda367.htm
+      </p>
+    </li>
+  </ul>
+
+  <p><title>95% Critical Values of the Sample Correlation Coefficient Table</title></p>
+  <ul>
+    <li>
+      <p>
+        <em>95% Critical Values of the Sample Correlation Coefficient</em> (see Chapter 12)
+      </p>
+    </li>
+  </ul>
+
+</appendix>
