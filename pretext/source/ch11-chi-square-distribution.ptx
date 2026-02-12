@@ -72,7 +72,7 @@ The test of a single variance, which tests variability, such as in the coffee ex
     <p>The observed values are the data values, and the expected values are the values you would expect to get if the null hypothesis were true. There are <m>n</m> terms of the form <m>\frac{(O-E)^{2}}{E}</m>.</p>
     <p>The number of degrees of freedom is <m>df</m> = (number of categories – 1).</p>
     <p>The goodness-of-fit test is almost always right-tailed. If the observed values and the corresponding expected values are not close to each other, then the test statistic can get very large and will be way out in the right tail of the chi-square curve.</p>
-    <note xml:id="eip-587">
+    <note xml:id="ch11-eip-587">
       <title>Note</title>
       <p>The expected value for each cell needs to be at least five for you to use this test.</p>
     </note>

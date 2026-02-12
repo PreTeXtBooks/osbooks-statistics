@@ -166,7 +166,7 @@
           <p>between 20 and 30.</p>
         </statement>
       </exercise>
-      <example xml:id="eip-265">
+      <example xml:id="ch06-eip-265">
         <statement>
           <p>From 19841985, the mean height of 15-to 18-year-old males from Chile was 172.36 cm, and the standard deviation was 6.34 cm. Let <m>Y</m> = the height of 15-to 18-year-old males in 19841985. Then <m>Y</m> ~ <m>N</m>(172.36, 6.34).</p>
           <p>About 68 percent of the <m>y</m> values lie between what two values? These values are ________________. The <m>z</m>-scores are ________________, respectively.
@@ -582,7 +582,7 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="eip-808">
+      <exercise xml:id="ch06-eip-808">
         <statement>
           <p>Kyle’s doctor told him that the <m>z</m>-score for his systolic blood pressure is 1.75. Which of the following is the best interpretation of this standardized score? The systolic blood pressure, given in millimeters, of males has an approximately normal distribution with mean <m>µ</m> = 125 and standard deviation <m>σ</m> = 14. If <m>X</m> = a systolic blood pressure score, then  <m>X</m> ~ <m>N</m> (125, 14).</p>
           <ol>
@@ -843,7 +843,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
       <p>Win at the Lottery. (2013). <em>Scratch-off lottery ticket playing tips</em>. Retrieved  from www.winatthelottery.com/public/department40.cfm</p>
     </subsection>
 
-    <subsection xml:id="eip-424">
+    <subsection xml:id="ch06-eip-424">
       <title>Chapter Review</title>
       <p>The normal distribution, which is continuous, is the most important of all the probability distributions. Its graph is bell-shaped. This bell-shaped curve is used in almost all disciplines. Since it is a continuous distribution, the total area under the curve is one. The parameters of the normal are the mean <m>µ</m> and the standard deviation <m>σ</m>. A special normal distribution, called the standard normal distribution, is the distribution of <m>z</m>-scores. Its mean is zero, and its standard deviation is one.</p>
     </subsection>
@@ -1059,7 +1059,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
           <p>d</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-295">
+      <exercise xml:id="ch06-eip-295">
         <statement>
           <p>Seventy percent of the time, it takes more than how many minutes to find a parking space?</p>
           <ol>
@@ -1180,7 +1180,7 @@ probability statement.</li>
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="eip-335">
+      <exercise xml:id="ch06-eip-335">
         <statement>
           <p>Terri Vogel, an amateur motorcycle racer, averages 129.71 seconds per 2.5-mile lap, in a seven-lap race, with a standard deviation of 2.28 seconds. The distribution of her race times is normally distributed. We are interested in one of her randomly selected laps.</p>
           <ol>
@@ -1431,7 +1431,7 @@ approximation.</li>
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="eip-406">
+      <exercise xml:id="ch06-eip-406">
         <statement>
           <p>The length of a pregnancy of a certain female animal is normally distributed with a mean of 280 days and a standard deviation of 13 days. The father was not present from 240 to 306 days before the birth of the offspring, so the pregnancy would have been less than 240 days or more than 306 days long, if he was the father. What is the probability that he was NOT the father?  What is the probability that he could be the father?  Calculate the <m>z</m>-scores first, and then use those to calculate the probability.</p>
         </statement>
