@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<chapter xml:id="ch11-chi-square-distribution">
+<chapter xml:id="ch11-chi-square-distribution" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The Chi-Square Distribution</title>
 
   <section xml:id="sec-chi-square-intro">
@@ -140,7 +140,8 @@ The test of a single variance, which tests variability, such as in the coffee ex
       </solution>
     </example>
     <exercise xml:id="eip-31">
-        <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
           <p>A factory manager needs to understand how many products are defective versus how many are produced. The number of expected defects is listed in .</p>
           <p>A random sample was taken to determine the actual number of defects.  shows the results of the survey.</p>
           <p>State the null and alternative hypotheses needed to conduct a goodness-of-fit test, and state the degrees of freedom.</p>
@@ -188,7 +189,8 @@ The test of a single variance, which tests variability, such as in the coffee ex
       </solution>
     </example>
     <exercise xml:id="eip-723">
-        <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
           <p>Teachers want to know which night each week their students are doing most of their homework. Most teachers think that students do homework equally throughout the week. Suppose a random sample of 56 students were asked on which night of the week they did the most homework. The results were distributed as in .</p>
           <p>From the population of students, do the nights for the highest number of students doing the majority of their homework occur with equal frequencies during a week? What type of hypothesis test should you use?</p>
         </statement>
@@ -236,7 +238,8 @@ So, <m>α</m> &gt; <m>p</m>-value.</p>
       </solution>
     </example>
     <exercise xml:id="eip-521">
-        <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
           <p>The expected percentage of the number of pets students have in their homes is distributed (this is the given distribution for the student population of the United States) as in .</p>
           <p>A random sample of 1,000 students from the eastern United States resulted in the data in .</p>
           <p>At the 1 percent significance level, does it appear that the distribution <em>number of pets</em> of students in the eastern United States is different from the distribution for the United States student population as a whole? What is the <m>p</m>-value?</p>
@@ -287,7 +290,8 @@ sure you clear any lists before you start.</p>
       </solution>
     </example>
     <exercise xml:id="eip-860">
-        <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
           <p>Students in a social studies class hypothesize that the literacy rates around the world for every region are 82 percent.  shows the actual literacy rates around the world broken down by region. What are the test statistic and the degrees of freedom?</p>
         </statement>
         <solution>
@@ -338,7 +342,8 @@ sure you clear any lists before you start.</p>
       <p><m>E=\frac{(row total)(column total)}{total number surveyed}</m></p>
     </example>
     <exercise xml:id="ch11-eip-298">
-        <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
           <p>A sample of 300 students is taken. Of the students surveyed, 50 were music students, while 250 were not. 97 were on the honor roll, while 203 were not. If we assume being a music student and being on the honor roll are independent events, what is the expected number of music students who are also on the honor roll?</p>
         </statement>
         <solution>
@@ -388,7 +393,8 @@ The table contains expected (<m>E</m>) values (data).</p>
       </solution>
     </example>
     <exercise xml:id="eip-685">
-        <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
           <p>The Bureau of Labor Statistics gathers data about employment in the United States. A sample is taken to calculate the number of U.S. citizens working in one of several industry sectors over time.  shows the results:</p>
           <p>We want to know if the change in the number of jobs is independent of the change in years. State the null and alternative hypotheses and the degrees of freedom.</p>
         </statement>
@@ -410,7 +416,8 @@ The table contains expected (<m>E</m>) values (data).</p>
       </solution>
     </example>
     <exercise xml:id="eip-358">
-        <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
           <p>Refer back to the information in . How many services-providing jobs are there expected to be in 2020? How many nonagriculture wage and salary jobs are there expected to be in 2020?</p>
         </statement>
         <solution>
@@ -449,7 +456,8 @@ The table contains expected (<m>E</m>) values (data).</p>
       </solution>
     </example>
     <exercise xml:id="eip-976">
-        <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
           <p>Do families and singles have the same distribution of cars? Suppose that 100 randomly selected families and 200 randomly selected singles were asked what type of car they drove: sport, sedan, hatchback, truck, van/SUV. The results are shown in . Do families and singles have the same distribution of cars? Test at a level of significance of 0.05.</p>
         </statement>
         <solution>
@@ -473,7 +481,8 @@ The table contains expected (<m>E</m>) values (data).</p>
       </solution>
     </example>
     <exercise xml:id="eip-680">
-        <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
           <p>Ivy League schools receive many applications, but only some can be accepted. At the schools listed in , two types of applications are accepted: regular and early decision.</p>
           <p>We want to know if the number of regular applications accepted follows the same distribution as the number of early applications accepted. State the null and alternative hypotheses, the degrees of freedom and the test statistic, sketch the graph of the <m>p</m>-value, and draw a conclusion about the test of homogeneity.</p>
         </statement>
@@ -536,7 +545,8 @@ best students thinks otherwise. The student claims that the standard deviation i
       </solution>
     </example>
     <exercise xml:id="eip-420">
-        <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
           <p>A scuba instructor wants to record the collective depths each of his students dives during their checkout. He is interested in how the depths vary, even though everyone should have been at the same depth. He believes the standard deviation is three feet. His assistant thinks the standard deviation is less than three feet. If the instructor were to conduct a test, what would the null and alternative hypotheses be?</p>
         </statement>
         <solution>
@@ -588,7 +598,8 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
       </solution>
     </example>
     <exercise xml:id="eip-209">
-        <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
           <p>The FCC conducts broadband speed tests to measure how much data per second passes between a consumer’s computer and the internet. As of August 2012, the standard deviation of internet speeds across internet service providers (ISPs) was 12.2 percent. Suppose a sample of 15 ISPs is taken, and the standard deviation is 13.2. An analyst claims that the standard deviation of speeds is more than what was reported. State the null and alternative hypotheses, compute the degrees of freedom, calculate the test statistic, sketch the graph of the <m>p</m>-value, and draw a conclusion. Test at the 1 percent significance level.</p>
         </statement>
         <solution>
