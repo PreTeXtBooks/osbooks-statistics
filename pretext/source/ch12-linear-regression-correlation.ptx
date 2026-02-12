@@ -90,8 +90,8 @@
     </subsection>
 
     <subsection xml:id="fs-idm35899664">
-      <title>Slope and</title>
-      <p>For the linear equation <m>y</m> = <m>a</m> + <m>bx</m>, <m>b</m> = slope and <m>a</m> = <m>y</m>-inttercept. From algebra, recall that the slope is a number that describes the steepness of a line; the <m>y</m>-intercept is the <m>y</m>-coordinate of the point (0, <m>a</m>), where the line crosses the <m>y</m>-axis.</p>
+      <title>Slope and <m>y</m>-intercept of a Linear Equation</title>
+      <p>For the linear equation <m>y</m> = <m>a</m> + <m>bx</m>, <m>b</m> = slope and <m>a</m> = <m>y</m>-intercept. From algebra, recall that the slope is a number that describes the steepness of a line; the <m>y</m>-intercept is the <m>y</m>-coordinate of the point (0, <m>a</m>), where the line crosses the <m>y</m>-axis.</p>
       <p>Please note that in previous courses you learned <m>y=mx+b</m> was the slope-intercept form of the equation, where <m>m</m> represented the slope and <m>b</m> represented the <m>y</m>-intercept. In this text, the form <m>y=a+bx</m> is used, where <m>a</m> is the <m>y</m>-intercept and <m>b</m> is the slope. The key is remembering the coefficient of <m>x</m> is the slope, and the constant number is the <m>y</m>-intercept.</p>
       <figure xml:id="linrgs_slope1">
         <caption>Three possible graphs of <m>y</m> = <m>a</m> + <m>bx</m>. (a) If <m>b</m> &gt; 0, the line slopes upward to the right. (b) If <m>b</m> = 0, the line is horizontal. (c) If <m>b</m> &lt; 0, the line slopes downward to the right.</caption>
@@ -415,7 +415,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
     </subsection>
 
     <subsection xml:id="fs-id1170308568879">
-      <title>Understanding and Interpreting the</title>
+      <title>Understanding and Interpreting the <m>y</m>-intercept</title>
       <p>The <m>y</m>-intercept, <m>a</m>, of the line describes where the plot line crosses the <m>y</m>-axis. The <m>y</m>-intercept of the best-fit line tells us the best value of the relationship when <m>x</m> is zero. In some cases, it does not make sense to figure out what <m>y</m> is when <m>x</m> = 0. For example, in the third exam vs. final exam example, the <m>y</m>-intercept occurs when the third exam score, or <m>x</m>, is zero. Since all the scores are grouped around a passing grade, there is no need to figure out what the final exam score, or <m>y</m>, would be when the third exam was zero.</p>
       <p>However, the <m>y</m>-intercept is very useful in many cases. For many examples in science, the <m>y</m>-intercept gives the baseline reading when the experimental conditions aren't applied to an experimental system. This baseline indicates how much the experimental condition affects the system. It could also be used to ensure that equipment and measurements are calibrated properly before starting the experiment.</p>
       <p>In biology, the concentration of proteins in a sample can be measured using a chemical assay that changes color depending on how much protein is present. The more protein present, the darker the color. The amount of color can be measured by the absorbance reading.  shows the expected absorbance readings at different protein concentrations. This is called a <em>standard curve</em> for the assay.</p>
