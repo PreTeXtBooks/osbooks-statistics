@@ -2,79 +2,2126 @@
 <chapter xml:id="ch12-linear-regression-correlation" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Linear Regression and Correlation</title>
 
-  <introduction>
-    <p>
-      This chapter introduces linear regression and correlation, which describe the 
-      relationship between two quantitative variables.
-    </p>
-  </introduction>
 
   <section xml:id="sec-linear-equations">
     <title>Linear Equations</title>
-    <p>
-      Content to be added from module m79700.
-    </p>
+
+    <figure xml:id="fs-idm37352640">
+      <caption>Linear regression and correlation can help you determine whether an auto mechanic’s salary is related to his work experience. (credit: Joshua Rothhaas)</caption>
+      <image source="media/CNX_Stats_C12_CO.jpg" width="76%"/>
+    </figure>
+    <note xml:id="fs-idm16563264">
+      <title>Chapter Objectives</title>
+      <p>By the end of this chapter, the student should be able to do the following:</p>
+      <ul>
+        <li>Discuss basic ideas of linear regression and correlation</li>
+        <li>Create and interpret a line of best fit</li>
+        <li>Calculate and interpret the correlation coefficient</li>
+        <li>Calculate and interpret outliers</li>
+      </ul>
+    </note>
+    <p>Professionals often want to know how two or more numeric variables are related. For example, is there a relationship between the grade on the second math exam a student takes and the grade on the final exam? If there is a relationship, what is the relationship, and how strong is it?</p>
+    <p>In another example, your income may be determined by your education, your profession, your years of experience, and your ability. The amount you pay a repair person for labor is often determined by an initial amount plus an hourly fee.</p>
+    <p>The type of data described in the examples is <term>bivariate</term> data—<m>bi</m>—for two variables. In reality, statisticians use <term>multivariate</term> data, meaning many variables.</p>
+    <p>In this chapter, you will study the simplest form of regression—<em>linear regression</em>—with one independent variable (<m>x</m>). This involves data that fit a line in two dimensions. You will also study correlation, which measures the strength of a relationship.</p>
+
   </section>
 
   <section xml:id="sec-scatter-plots">
     <title>Scatter Plots</title>
-    <p>
-      Content to be added from module m79686.
-    </p>
+
+
+    <subsection xml:id="fs-id1164564612243">
+      <p>Linear regression for two variables is based on a linear equation with one independent variable. The equation has the form</p>
+      <me>y=a+bx</me>
+      <p><nbsp/>where <m>a</m> and <m>b</m> are constant numbers.</p>
+      <p>The variable <m>x</m> is the <em>independent variable</em>; <m>y</m> is the <em>dependent variable</em>. Typically, you choose a value to substitute for the independent variable and then solve for the dependent variable.</p>
+      <example xml:id="element-906">
+        <statement>
+          <p>The following examples are linear equations.</p>
+          <me>y=3+\text{2}x</me>
+          <me>y=–0.01+\text{1.2}x</me>
+        </statement>
+      </example>
+      <exercise xml:id="eip-279">
+        <statement>
+          <p>Is the following an example of a linear equation?</p>
+          <p><m>y</m> = –0.125 – 3.5<m>x</m></p>
+        </statement>
+        <solution>
+          <p>yes</p>
+        </solution>
+      </exercise>
+      <p>The graph of a linear equation of the form <m>y</m> = <m>a</m> + <m>bx</m> is a straight line. Any line that is not vertical can be described by this equation.</p>
+      <example xml:id="element-44">
+        <statement>
+          <p>Graph the equation <m>y</m> = –1 + 2<m>x</m>.</p>
+          <figure xml:id="linrgs_lineq1">
+            <image source="media/fig-ch12_02_01.jpg" width="76%"/>
+          </figure>
+        </statement>
+      </example>
+      <exercise xml:id="eip-46">
+        <statement>
+          <p>Is the following an example of a linear equation? Why or why not?</p>
+        </statement>
+        <solution>
+          <p>No, the graph is not a straight line; therefore, it is not a linear equation.</p>
+        </solution>
+      </exercise>
+      <example xml:id="element-913">
+        <statement>
+          <p>Find the equation that expresses the total cost in terms of the number of hours required to complete the job.</p>
+        </statement>
+        <solution>
+          <p>Let <m>x</m> = the number of hours it takes to get the job done.
+<nbsp/>Let <m>y</m> = the total cost to the customer.</p>
+          <p>The $31.50 is a fixed cost. If it takes <m>x</m> hours to complete the job, then (32)(<m>x</m>) is the cost of the word processing only. The total cost is <m>y</m> = 31.50 + 32<m>x</m>.</p>
+        </solution>
+      </example>
+      <exercise xml:id="eip-977">
+        <statement>
+          <p>Emma’s Extreme Sports hires hang-gliding instructors and pays them a fee of $50 per class, as well as $20 per student in the class. The total cost Emma pays depends on the number of students in a class. Find the equation that expresses the total cost in terms of the number of students in a class.</p>
+        </statement>
+        <solution>
+          <p><m>y</m> = 50 + 20<m>x</m></p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm35899664">
+      <title>Slope and <m>y</m>-intercept of a Linear Equation</title>
+      <p>For the linear equation <m>y</m> = <m>a</m> + <m>bx</m>, <m>b</m> = slope and <m>a</m> = <m>y</m>-intercept. From algebra, recall that the slope is a number that describes the steepness of a line; the <m>y</m>-intercept is the <m>y</m>-coordinate of the point (0, <m>a</m>), where the line crosses the <m>y</m>-axis.</p>
+      <p>Please note that in previous courses you learned <m>y=mx+b</m> was the slope-intercept form of the equation, where <m>m</m> represented the slope and <m>b</m> represented the <m>y</m>-intercept. In this text, the form <m>y=a+bx</m> is used, where <m>a</m> is the <m>y</m>-intercept and <m>b</m> is the slope. The key is remembering the coefficient of <m>x</m> is the slope, and the constant number is the <m>y</m>-intercept.</p>
+      <figure xml:id="linrgs_slope1">
+        <caption>Three possible graphs of <m>y</m> = <m>a</m> + <m>bx</m>. (a) If <m>b</m> &gt; 0, the line slopes upward to the right. (b) If <m>b</m> = 0, the line is horizontal. (c) If <m>b</m> &lt; 0, the line slopes downward to the right.</caption>
+        <image source="media/fig-ch12_03_01.jpg" width="96%"/>
+      </figure>
+      <example xml:id="element-201">
+        <statement>
+          <p>What are the independent and dependent variables? What is the <m>y</m>-intercept, and what is the slope? Interpret them using complete sentences.</p>
+        </statement>
+        <solution>
+          <p>The independent variable (<m>x</m>) is the number of hours Svetlana tutors each session. The dependent variable (<m>y</m>) is the amount, in dollars, Svetlana earns for each session.</p>
+          <p>The <m>y</m>-intercept is 25 (<m>a</m> = 25). At the start of the tutoring session, Svetlana charges a one-time fee of $25 (this is when <m>x</m> = 0). The slope is 15 (<m>b</m> = 15). For each session, Svetlana earns $15 for each hour she tutors.</p>
+        </solution>
+      </example>
+      <exercise xml:id="eip-972">
+        <statement>
+          <p>Ethan repairs household appliances such as dishwashers and refrigerators. For each visit, he charges $25 plus $20 per hour of work. A linear equation that expresses the total amount of money Ethan earns per visit is <m>y</m> = 25 + 20<m>x</m>.</p>
+          <p>What are the independent and dependent variables? What is the <m>y</m>-intercept, and what is the slope? Interpret them using complete sentences.</p>
+        </statement>
+        <solution>
+          <p>The independent variable (<m>x</m>) is the number of hours Ethan works each visit. The dependent variable (<m>y</m>) is the amount, in dollars, Ethan earns for each visit.</p>
+          <p>The <m>y</m>-intercept is 25 (<m>a</m> = 25). At the start of a visit, Ethan charges a one-time fee of $25 (this is when <m>x</m> = 0). The slope is 20 (<m>b</m> = 20). For each visit, Ethan earns $20 for each hour he works.</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="eip-746">
+      <title>References</title>
+      <p>Centers for Disease Control and Prevention. (n.d.). Retrieved from https://www.cdc.gov/</p>
+      <p>National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention. (n.d.). Centers for Disease Control and Prevention. Retrieved from https://www.cdc.gov/nchhstp/default.htm</p>
+    </subsection>
+
+    <subsection xml:id="eip-645">
+      <title>Chapter Review</title>
+      <p>The most basic type of association is a linear association. This type of relationship can be defined algebraically by the equations used (numerically with actual or predicted data values) or graphically from a plotted curve. Lines are classified as straight curves. Algebraically, a linear equation typically takes the form <em>y = mx + b</em>, where <m>m</m> and <m>b</m> are constants, <m>x</m> is the independent variable, and <m>y</m> is the dependent variable. In a statistical context, a linear equation is written in the form <em>y = a + bx</em>, where <m>a</m> and <m>b</m> are the constants. This form is used to help you distinguish the statistical context from the algebraic context. In the equation <em>y = a + bx</em>, the constant <m>b</m> that multiplies the <m>x</m> variable (<m>b</m> is called a <em>coefficient</em>) is called the <em>slope</em>. The slope describes the rate of change between the independent and dependent variables; in other words, the rate of change describes the change that occurs in the dependent variable as the independent variable is changed. In the equation <em>y = a + bx</em>, the constant <m>a</m> is called the <m>y</m>-intercept. Graphically, the <m>y</m>-intercept is the <m>y</m>-coordinate of the point where the graph of the line crosses the <m>y</m>-axis. At this point, <m>x</m> = 0.</p>
+      <p>The slope of a line is a value that describes the rate of change between the independent and dependent variables. The slope tells us how the dependent variable (<m>y</m>) changes for every one-unit increase in the independent (<m>x</m>) variable, on average. The <m>y</m>-intercept is used to describe the dependent variable when the independent variable equals zero. Graphically, the slope is represented by three line types in elementary statistics.</p>
+    </subsection>
+
+    <subsection xml:id="eip-190">
+      <title>Formula Review</title>
+      <p><m>y</m> = <m>a</m> + <m>bx</m>, where <m>a</m> is the <m>y</m>-intercept and <m>b</m> is the slope. The variable <m>x</m> is the independent variable and <m>y</m> is the dependent variable.</p>
+    </subsection>
+
+    <subsection xml:id="eip-178">
+      <p><em>Use the following information to answer the next three exercises</em>. A vacation resort rents scuba equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour.</p>
+      <exercise xml:id="eip-510">
+        <statement>
+          <p>What are the dependent and independent variables?</p>
+        </statement>
+        <solution>
+          <p>dependent variable: fee amount</p>
+          <p>independent variable: time</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-683">
+        <statement>
+          <p>Find the equation that expresses the total fee in terms of the number of hours the equipment is rented.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-325">
+        <statement>
+          <p>Graph the equation from .</p>
+        </statement>
+        <solution>
+          <figure xml:id="fs-idm133416208">
+            <image source="media/CNX_Stats_C012_M02_item001anno.jpg" width="76%"/>
+          </figure>
+        </solution>
+      </exercise>
+      <p><nbsp/><em>Use the following information to answer the next two exercises</em>. A credit card company charges $10 when a payment is late and $5 a day each day the payment remains unpaid.</p>
+      <exercise xml:id="eip-23">
+        <statement>
+          <p>Find the equation that expresses the total fee in terms of the number of days the payment is late.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-22">
+        <statement>
+          <p>Graph the equation from .</p>
+        </statement>
+        <solution>
+          <figure xml:id="fs-idp120210480">
+            <image source="media/CNX_Stats_C012_M02_item002anno.jpg" width="76%"/>
+          </figure>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-337">
+        <statement>
+          <p>Is the equation <m>y</m> = 10 + 5<m>x</m> – 3<m>x</m>^{2} linear? Why or why not?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-740">
+        <statement>
+          <p>Which of the following equations are linear?</p>
+          <p>a. <m>y</m> = 6<m>x</m> + 8</p>
+          <p>b. <m>y</m> + 7 = 3<m>x</m></p>
+          <p>c. <m>y</m> – <m>x</m> = 8<m>x</m>^{2}</p>
+          <p>d. 4<m>y</m> = 8</p>
+        </statement>
+        <solution>
+          <p><m>y</m> = 6<m>x</m> + 8, 4<m>y</m> = 8, and <m>y</m> + 7 = 3<m>x</m> are all linear equations.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-675">
+        <statement>
+          <p>Does the graph in  show a linear equation? Why or why not?</p>
+        </statement>
+      </exercise>
+      <p><em>Use the following information to answer the next exercise.</em>  contains real data for the first two decades of flu reporting.</p>
+      <table xml:id="element-806">
+        <tabular>
+          <row><cell>Year</cell><cell>Number of Flu Cases Diagnosed</cell><cell>Number of Flu Deaths</cell></row>
+          <row><cell>Pre-1981</cell><cell>91</cell><cell>29</cell></row>
+          <row><cell>1981</cell><cell>319</cell><cell>121</cell></row>
+          <row><cell>1982</cell><cell>1,170</cell><cell>453</cell></row>
+          <row><cell>1983</cell><cell>3,076</cell><cell>1,482</cell></row>
+          <row><cell>1984</cell><cell>6,240</cell><cell>3,466</cell></row>
+          <row><cell>1985</cell><cell>11,776</cell><cell>6,878</cell></row>
+          <row><cell>1986</cell><cell>19,032</cell><cell>11,987</cell></row>
+          <row><cell>1987</cell><cell>28,564</cell><cell>16,162</cell></row>
+          <row><cell>1988</cell><cell>35,447</cell><cell>20,868</cell></row>
+          <row><cell>1989</cell><cell>42,674</cell><cell>27,591</cell></row>
+          <row><cell>1990</cell><cell>48,634</cell><cell>31,335</cell></row>
+          <row><cell>1991</cell><cell>59,660</cell><cell>36,560</cell></row>
+          <row><cell>1992</cell><cell>78,530</cell><cell>41,055</cell></row>
+          <row><cell>1993</cell><cell>78,834</cell><cell>44,730</cell></row>
+          <row><cell>1994</cell><cell>71,874</cell><cell>49,095</cell></row>
+          <row><cell>1995</cell><cell>68,505</cell><cell>49,456</cell></row>
+          <row><cell>1996</cell><cell>59,347</cell><cell>38,510</cell></row>
+          <row><cell>1997</cell><cell>47,149</cell><cell>20,736</cell></row>
+          <row><cell>1998</cell><cell>38,393</cell><cell>19,005</cell></row>
+          <row><cell>1999</cell><cell>25,174</cell><cell>18,454</cell></row>
+          <row><cell>2000</cell><cell>25,522</cell><cell>17,347</cell></row>
+          <row><cell>2001</cell><cell>25,643</cell><cell>17,402</cell></row>
+          <row><cell>2002</cell><cell>26,464</cell><cell>16,371</cell></row>
+          <row><cell>Total</cell><cell>802,118</cell><cell>489,093</cell></row>
+        </tabular>
+      </table>
+      <exercise xml:id="element-352">
+        <statement>
+          <p>Use the columns <em>Year</em> and <em>Number of Flu Cases Diagnosed</em>. Why is year the independent variable and number of flu cases diagnosed the dependent variable (instead of the reverse)?</p>
+        </statement>
+        <solution>
+          <p>The number of flu cases depends on the year. Therefore, year becomes the independent variable and the number of flu cases is the dependent variable.</p>
+        </solution>
+      </exercise>
+      <p><nbsp/><em>Use the following information to answer the next two exercises</em>. A specialty cleaning company charges an equipment fee and an hourly labor fee. A linear equation that expresses the total amount of the fee the company charges for each session is <m>y</m> = 50 + 100<m>x</m>.</p>
+      <exercise xml:id="eip-177">
+        <statement>
+          <p>What are the independent and dependent variables?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-188">
+        <statement>
+          <p>What is the <m>y</m>-intercept, and what is the slope? Interpret them using complete sentences.</p>
+        </statement>
+        <solution>
+          <p>The <m>y</m>-intercept is 50 (<m>a</m> = 50). At the start of the cleaning, the company charges a one-time fee of $50 (this is when <m>x</m> = 0). The slope is 100 (<m>b</m> = 100). For each session, the company charges $100 for each hour they clean.</p>
+        </solution>
+      </exercise>
+      <p><nbsp/><em>Use the following information to answer the next three questions</em>. As a result of erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is <m>y</m> = 12,000<m>x</m>.</p>
+      <exercise xml:id="eip-364">
+        <statement>
+          <p>What are the independent and dependent variables?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-160">
+        <statement>
+          <p>How many pounds of soil does the shoreline lose in a year?</p>
+        </statement>
+        <solution>
+          <p>12,000 lb of soil</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-67">
+        <statement>
+          <p>What is the <m>y</m>-intercept? Interpret its meaning.</p>
+        </statement>
+      </exercise>
+      <p><nbsp/><em>Use the following information to answer the next two exercises</em>. The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is <m>y</m> = 15 – 1.5<m>x</m>, where <m>x</m> is the number of hours passed in an eight-hour day of trading.</p>
+      <exercise xml:id="eip-761">
+        <statement>
+          <p>What are the slope and <m>y</m>-intercept? Interpret their meaning.</p>
+        </statement>
+        <solution>
+          <p>The slope is –1.5 (<m>b</m> = –1.5). This means the stock is losing value at a rate of $1.50 per hour. The <m>y</m>-intercept is $15 (<m>a</m> = 15). This means the price of stock before the trading day was $15.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-227">
+        <statement>
+          <p>If you owned this stock, would you want a positive or negative slope? Why?</p>
+        </statement>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm70124224">
+      <title>Homework</title>
+      <exercise xml:id="element-367">
+        <statement>
+          <p>For each of the following situations, state the independent variable and the dependent variable.</p>
+          <ol>
+            <li>A study is done to determine whether elderly drivers are involved in more motor vehicle fatalities than other drivers. The number of fatalities per 100,000 drivers is compared with the age of drivers.</li>
+            <li>A study is done to determine whether the weekly grocery bill changes based on the number of family members.</li>
+            <li>Insurance companies base life insurance premiums partially on the age of the applicant.</li>
+            <li>Utility bills vary according to power consumption.</li>
+            <li>A study is done to determine whether a higher education reduces the crime rate in a population.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>independent variable: age; dependent variable: fatalities</li>
+            <li>independent variable: number of family members; dependent variable: grocery bill</li>
+            <li>independent variable: age of applicant; dependent variable: insurance premium</li>
+            <li>independent variable: power consumption; dependent variable: utility</li>
+            <li>independent variable: higher education (years); dependent variable: crime rates</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm114941024">
+        <statement>
+          <p>Piece-rate systems are widely debated incentive payment plans. In a recent study of loan officer effectiveness, the following piece-rate system was examined:</p>
+          <p>If a loan officer makes 95 percent of his or her goal, write the linear function that applies based on the incentive plan table. In context, explain the <m>y</m>-intercept and slope.</p>
+        </statement>
+      </exercise>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-regression-equation">
     <title>The Regression Equation</title>
-    <p>
-      Content to be added from module m79689.
-    </p>
+
+
+    <subsection xml:id="fs-id1164566831456">
+      <p>Data rarely fit a straight line exactly. Usually, you must be satisfied with rough
+predictions. Typically, you have a set of data with a scatter plot that appear to <em>fit</em> a straight line. This is called a <em>line of best fit or least-squares regression line</em>.</p>
+      <note xml:id="fs-idm66386384">
+        <p>If you know a person’s pinky (smallest) finger length, do you think you could predict that person’s height? Collect data from your class (pinky finger length, in inches). The independent variable, <m>x</m>, is pinky finger length and the dependent variable, <m>y</m>, is height. For each set of data, plot the points on graph paper. Make your graph big enough and <em>use a ruler</em>. Then, <em>by eye</em>, draw a line that appears to <em>fit</em> the data. For your line, pick two convenient points and use them to find the slope of the line. Find the <m>y</m>-intercept of the line by extending your line so it crosses the <m>y</m>-axis. Using the slopes and the <m>y</m>-intercepts, write your equation of <em>best fit</em>. Do you think everyone will have the same equation? Why or why not? According to your equation, what is the predicted height for a pinky length of 2.5 inches?</p>
+      </note>
+      <example xml:id="element-22">
+        <statement>
+          <p>A random sample of 11 statistics students produced the data in , where <m>x</m> is the third exam score out of 80 and <m>y</m> is the final exam score out of 200. Can you predict the final exam score of a random student if you know the third exam score?</p>
+          <figure xml:id="linrgs_regeq1">
+            <caption>Using the <m>x</m>- and <m>y</m>-coordinates in the table, we plot the points on a graph to create the scatter plot showing the scores on the final exam based on scores from the third exam.</caption>
+            <image source="media/fig-ch12_05_01.jpg" width="76%"/>
+          </figure>
+        </statement>
+      </example>
+      <note xml:id="fs-idp122176240">
+        <title>Try It</title>
+      </note>
+      <p>The third exam score, <m>x</m>, is the independent variable, and the final exam score, <m>y</m>, is the dependent variable. We will plot a regression line that best <em>fits</em> the data. If each of you were to fit a line <em>by eye</em>, you would draw different lines. We can obtain a line of best fit using either the median-median line approach or by calculating the least-squares regression line.</p>
+      <p>Let's first find the line of best fit for the relationship between the third exam score and the final exam score using the median-median line approach. Remember that this is the data from  after the ordered pairs have been listed by ordering <m>x</m> values. If multiple data points have the same <m>x</m> values, then they are listed in order from least to greatest <m>x</m> (see data values where <m>x</m> = 71). We first divide our scores into three groups of approximately equal numbers of <m>x</m> values per group. The first and third groups have the same number of <m>x</m> values. We must remember first to put the <m>x</m> values in ascending order. The corresponding <m>y</m> values are then recorded. However, to find the median, we first must rearrange the <m>y</m> values in each group from the least value to the greatest value.  shows the correct ordering of the <m>x</m> values but does not show a reordering of the <m>y</m> values.</p>
+      <table xml:id="fs-id1170308472605">
+        <tabular>
+          <row><cell><m>x</m> (third exam score)</cell><cell><m>y</m> (final exam score)</cell></row>
+          <row><cell>65</cell><cell>175</cell></row>
+          <row><cell>66</cell><cell>126</cell></row>
+          <row><cell>67</cell><cell>133</cell></row>
+          <row><cell>67</cell><cell>153</cell></row>
+          <row><cell>69</cell><cell>151</cell></row>
+          <row><cell>69</cell><cell>159</cell></row>
+          <row><cell>70</cell><cell>163</cell></row>
+          <row><cell>71</cell><cell>159</cell></row>
+          <row><cell>71</cell><cell>163</cell></row>
+          <row><cell>71</cell><cell>185</cell></row>
+          <row><cell>75</cell><cell>198</cell></row>
+        </tabular>
+      </table>
+      <p>With this set of data, the first and last groups each have four <m>x</m> values and four corresponding <m>y</m> values. The second group has three <m>x</m> values and three corresponding <m>y</m> values. We need to organize the <m>x</m> and <m>y</m> values per group and find the median <m>x</m> and <m>y</m> values for each group. Let’s now write out our <m>y</m> values for each group in ascending order. For group 1, the <m>y</m> values in order are 126, 133, 153, and 175. For group 2, the <m>y</m> values are already in order. For group 3, the <m>y</m> values are also already in order. We can represent these data as shown in , but notice that we have <em>broken</em> the ordered pairs; (65, 126) is not a data point in our original set:</p>
+      <table xml:id="fs-id1170308944039">
+        <tabular>
+          <row><cell>Group</cell><cell><m>x</m> (third exam score)</cell><cell><m>y</m> (final exam score)</cell><cell>Median <m>x</m> value</cell><cell>Median <m>y</m> value</cell></row>
+          <row><cell>1</cell><cell>65<nbsp/>66<nbsp/>67<nbsp/>67</cell><cell>126<nbsp/>133<nbsp/>153<nbsp/>175</cell><cell>66.5<nbsp/><nbsp/><nbsp/></cell><cell>143<nbsp/><nbsp/><nbsp/></cell></row>
+          <row><cell>2</cell><cell>69<nbsp/>69<nbsp/>70</cell><cell>151<nbsp/>159<nbsp/>163</cell><cell>69</cell><cell>159</cell></row>
+          <row><cell>3</cell><cell>71<nbsp/>71<nbsp/>71<nbsp/>75</cell><cell>159<nbsp/>163<nbsp/>185<nbsp/>198</cell><cell>71</cell><cell>174</cell></row>
+        </tabular>
+      </table>
+      <p>When this is completed, we can write the ordered pairs for the median values. This allows us to find the slope and <m>y</m>-intercept of the median-median line.</p>
+      <p>The ordered pairs are (66.5, 143), (69, 159), and (71, 174).</p>
+      <p>The slope can be calculated using the formula <m>m-\frac{y_{2}-y_{1}}{x_{2}-x_{1}}\text{.}</m> Substituting the median <m>x</m> and <m>y</m> values from the first and third groups gives <m>m=\frac{174-143}{71-66.5}\text{,}</m> which simplifies to <m>m\approx6.9\text{.}</m></p>
+      <p>The <m>y</m>-intercept may be found using the formula <m>b=\frac{\Sigmay-m\Sigmax}{3}</m>, which means the quantity of the sum of the median <m>y</m> values minus the slope times the sum of the median <m>x</m> values divided by three.</p>
+      <p>The sum of the median <m>x</m> values is 206.5, and the sum of the median <m>y</m> values is 476. Substituting these sums and the slope into the formula gives <m>b=\frac{476-6.9(206.5)}{3}</m>, which simplifies to <m>b\approx-316.3\text{.}</m></p>
+      <p>The line of best fit is represented as <m>y=mx+b\text{.}</m></p>
+      <p>Thus, the equation can be written as <m>y</m> = 6.9<m>x</m> − 316.3.</p>
+      <p>The median–median line may also be found using your graphing calculator. You can enter the <m>x</m> and <m>y</m> values into two separate lists; choose Stat, Calc, Med-Med, and press Enter. The slope, <m>a</m>, and <m>y</m>-intercept, <m>b</m>, will be provided. The calculator shows a slight deviation from the previous manual calculation as a result of rounding. Rounding to the nearest tenth, the calculator gives the median-median line of <m>y=6.9x-315.5\text{.}</m> Each point of data is of the the form (<m>x</m>, <m>y</m>), and each point of the line of best fit using least-squares linear regression has the form (<m>x</m>, <m>ŷ</m>).</p>
+      <p>The <m>ŷ</m> is read <em>y hat</em> and is the <em>estimated value of y</em>. It is the value of <m>y</m> obtained using the regression line. It is not generally equal to <m>y</m> from data, but it is still important because it can help make predictions for other values.</p>
+      <p>The term <m>y</m>_{0} – <m>ŷ</m>_{0} = <m>ε</m>_{0} is called the <em>error</em> or <em>residual</em>. It is not an error in the sense of a mistake. The <em>absolute value of a residual</em> measures the vertical distance between the actual value of <m>y</m> and the estimated value of <m>y</m>. In other words, it measures the vertical distance between the actual data point and the predicted point on the line, or it measures how far the estimate is from the actual data value.</p>
+      <p>If the observed data point lies above the line, the residual is positive and the line underestimates the actual data value for <m>y</m>. If the observed data point lies below the line, the residual is negative and the line overestimates that actual data value for <m>y</m>.</p>
+      <p>In , <m>y</m>_{0} – <m>ŷ</m>_{0} = ε_{0} is the residual for the point shown. Here the point lies above the line and the residual is positive.</p>
+      <p><m>ε</m> = the Greek letter epsilon</p>
+      <p>For each data point, you can calculate the residuals or errors, <m>y</m>_{i}  <m>ŷ</m>_{i} = <m>ε</m>_{i} for <m>i</m> = 1, 2, 3, . . . , 11.</p>
+      <p>Each |<m>ε</m>| is a vertical distance.</p>
+      <p>For the example about the third exam scores and the final exam scores for the 11 statistics students, there are 11 data points. Therefore, there are 11 <m>ε</m> values. If you square each <m>ε</m> and add them, you get the sum of <m>ε</m> squared from <m>i</m> = 1 to <m>i</m> = 11, as shown below.</p>
+      <p><m>(ε_{1})^{2}+(ε_{2})^{2}+...+(ε_{11})^{2}=\Sigmai=1ε^{2}\text{.}</m></p>
+      <p>This is called the <term>sum of squared errors (SSE)</term>.</p>
+      <p>Using calculus, you can determine the values of <m>a</m> and <m>b</m> that make the SSE a minimum. When you make the SSE a minimum, you have determined the points that are on the line of best fit. It turns out that the line of best fit has the equation</p>
+      <me>ŷ=a+bx</me>
+      <p>where</p>
+      <p><m>a=\overline{y}-b\overline{x}</m></p>
+      <p>and <m>b=\frac{∑(x-\overline{x})(y-\overline{y})}{∑(x-\overline{x})^{2}}</m>.</p>
+      <p>The sample means of the <m>x</m> values and the <m>y</m> values are <m>\overline{x}</m> and <m>\overline{y}</m>, respectively. The best-fit line always passes through the point <m>(\overline{x},\overline{y})</m>.</p>
+      <p>The slope (<m>b</m>) can be written as <m>b=r(\frac{s_{y}}{s_{x}})</m> where <m>s</m>_{<m>y</m>} = the standard deviation of the <m>y</m> values and <m>s</m>_{<m>x</m>} = the standard deviation of the <m>x</m> values. <m>r</m> is the correlation coefficient, which shows the relationship between the <m>x</m> and <m>y</m> values. This will be discussed in more detail in the next section.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idm120169264">
+      <title>Least-Squares Criteria for Best Fit</title>
+      <p>The process of fitting the best-fit line is called linear regression. We assume that the data are scattered about a straight line. To find that line, we minimize the sum of the squared errors (SSE), or make it as small as possible. Any other line you might choose would have a higher SSE than the best-fit line. This best-fit line is called the <em>least-squares regression line</em>.</p>
+      <note xml:id="id1164273503037">
+        <title>Note</title>
+        <p>Computer spreadsheets, statistical software, and many calculators can quickly calculate the best-fit line and create the graphs. The calculations tend to be tedious if done by hand. Instructions to use the TI-83, TI-83+, and TI-84+ calculators to find the best-fit line and create a scatter plot are shown at the end of this section.</p>
+      </note>
+    </subsection>
+
+    <subsection xml:id="fs-id1164561137123">
+      <title>Third Exam vs. Final Exam Example</title>
+      <p>The graph of the line of best fit for the third exam/final exam example is as follows:</p>
+      <figure xml:id="linrgs_regeq3">
+        <image source="media/fig-ch12_05_03.jpg" width="76%"/>
+      </figure>
+      <p>The least-squares regression line (best-fit line) for the third exam/final exam example has the equation</p>
+      <me>ŷ=−173.51+4.83x\text{.}</me>
+    </subsection>
+
+    <subsection xml:id="fs-id1170308568879">
+      <title>Understanding and Interpreting the <m>y</m>-intercept</title>
+      <p>The <m>y</m>-intercept, <m>a</m>, of the line describes where the plot line crosses the <m>y</m>-axis. The <m>y</m>-intercept of the best-fit line tells us the best value of the relationship when <m>x</m> is zero. In some cases, it does not make sense to figure out what <m>y</m> is when <m>x</m> = 0. For example, in the third exam vs. final exam example, the <m>y</m>-intercept occurs when the third exam score, or <m>x</m>, is zero. Since all the scores are grouped around a passing grade, there is no need to figure out what the final exam score, or <m>y</m>, would be when the third exam was zero.</p>
+      <p>However, the <m>y</m>-intercept is very useful in many cases. For many examples in science, the <m>y</m>-intercept gives the baseline reading when the experimental conditions aren't applied to an experimental system. This baseline indicates how much the experimental condition affects the system. It could also be used to ensure that equipment and measurements are calibrated properly before starting the experiment.</p>
+      <p>In biology, the concentration of proteins in a sample can be measured using a chemical assay that changes color depending on how much protein is present. The more protein present, the darker the color. The amount of color can be measured by the absorbance reading.  shows the expected absorbance readings at different protein concentrations. This is called a <em>standard curve</em> for the assay.</p>
+      <table xml:id="fs-id1170308505621">
+        <tabular>
+          <row><cell>Concentration (mM)</cell><cell>Absorbance (mAU)</cell></row>
+          <row><cell>125</cell><cell>0.021</cell></row>
+          <row><cell>250</cell><cell>0.023</cell></row>
+          <row><cell>500</cell><cell>0.068</cell></row>
+          <row><cell>750</cell><cell>0.086</cell></row>
+          <row><cell>1,000</cell><cell>0.105</cell></row>
+          <row><cell>1,500</cell><cell>0.124</cell></row>
+          <row><cell>2,000</cell><cell>0.146</cell></row>
+        </tabular>
+      </table>
+      <p>The scatter plot  includes the line of best fit.</p>
+      <figure xml:id="figure_12_03_01">
+        <image source="media/fig_12_03_01.jpg" width="76%"/>
+      </figure>
+      <p>The <m>y</m>-intercept of this line occurs at 0.0226 mAU. This means the assay gives a reading of 0.0226 mAU when there is no protein present. That is, it is the baseline reading that can be attributed to something else, which, in this case, is some other non-protein chemicals that are absorbing light. We can tell that this line of best fit is reasonable because the <m>y</m>-intercept is small, close to zero. When there is no protein present in the sample, we expect the absorbance to be very small, or close to zero, as well.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idp153906304">
+      <title>Understanding Slope</title>
+      <p>The slope of the line, <m>b</m>, describes how changes in the variables are related. It is important to interpret the slope of the line in the context of the situation represented by the data. You should be able to write a sentence interpreting the slope in plain English.</p>
+      <p>Interpretation of the Slope: The slope of the best-fit line tells us how the dependent variable (<m>y</m>) changes for every one unit increase in the independent (<m>x</m>) variable, on average.</p>
+      <p>Third Exam vs. Final Exam ExampleSlope: The slope of the line is <m>b</m> = 4.83.
+<nbsp/>Interpretation: For a 1-point increase in the score on the third exam, the final exam score increases by 4.83 points, on average.</p>
+      <note xml:id="fs-idm68284544">
+        <p>Using the Linear Regression T Test: <c>LinRegTTest</c></p>
+        <ol>
+          <li>In the <c>STAT</c> list editor, enter the <m>x</m> data in list <c>L1</c> and the <m>y</m> data in list <c>L2</c>, paired so that the corresponding (<m>x</m>, <m>y</m>) values are next to each other in the lists. (If a particular pair of values is repeated, enter it as many times as it appears in the data.)</li>
+          <li>On the <c>STAT TESTS</c> menu, scroll down and select <c>LinRegTTest</c>. (Be careful to select <c>LinRegTTest</c>. Some calculators may also have a different item called <c>LinRegTInt</c>.)</li>
+          <li>On the <c>LinRegTTest</c> input screen, enter <c>Xlist: L1</c>, <c>Ylist: L2</c>, and <c>Freq: 1</c>.</li>
+          <li>On the next line, at the prompt <m>β</m> or <m>ρ</m>, highlight <c>≠ 0</c> and press <c>ENTER</c>.</li>
+          <li>Leave the line for <c>RegEQ:</c> blank.</li>
+          <li>Highlight <c>Calculate</c> and press <c>ENTER</c>.</li>
+        </ol>
+        <p>The output screen contains a lot of information. For now, let’s focus on a few items from the output and return to the other items later.
+<nbsp/>The second line says <m>y</m> = <m>a</m> + <m>bx</m>. Scroll down to find the values <m>a</m> = –173.513 and <m>b</m> = 4.8273.</p>
+        <p>The equation of the best-fit line is <m>ŷ</m> = –173.51 + 4.83<m>x</m>.
+<nbsp/>The two items at the bottom are <m>r</m>^{2} = .43969 and <m>r</m> = .663. For now, just note where to find these values; we examine them in the next two sections.</p>
+        <p>Graphing the Scatter Plot and Regression Line</p>
+        <ol>
+          <li>We are assuming the <m>x</m> data are already entered in list <c>L1</c> and the <m>y</m> data are in list <c>L2</c>.</li>
+          <li>Press <c>2nd STATPLOT ENTER</c> to use <c>Plot 1</c>.</li>
+          <li>On the input screen for <c>PLOT 1</c>, highlight <c>On</c>, and press <c>ENTER</c>.</li>
+          <li>For <c>TYPE</c>, highlight the first icon, which is the scatter plot, and press <c>ENTER</c>.</li>
+          <li>Indicate <c>Xlist: L1</c> and <c>Ylist: L2</c>.</li>
+          <li>For <c>Mark</c>, it does not matter which symbol you highlight.</li>
+          <li>Press the <c>ZOOM</c> key and then the number <c>9</c> (for menu item <c>ZoomStat</c>); the calculator fits the window to the data.</li>
+          <li>To graph the best-fit line, press the <c>Y=</c> key and type the equation –173.5 + 4.83X into equation Y1. (The <c>X</c> key is immediately left of the <c>STAT</c> key.) Press <c>ZOOM 9</c> again to graph it.</li>
+          <li>Optional: If you want to change the viewing window, press the <c>WINDOW</c> key. Enter your desired window using <c>Xmin</c>, <c>Xmax</c>, <c>Ymin</c>, and <c>Ymax</c>.</li>
+        </ol>
+      </note>
+      <note xml:id="fs-idm135623232">
+        <title>NOTE</title>
+        <p>Another way to graph the line after you create a scatter plot is to use <c>LinRegTTest</c>.
+
+Make sure you have done the scatter plot. Check it on your screen.
+Go to <c>LinRegTTest</c> and enter the lists.
+At <c>RegEq</c>, press <c>VARS</c> and arrow over to <c>Y-VARS</c>. Press 1 for <c>1:Function</c>. Press 1 for <c>1:Y1</c>. Then, arrow down to <c>Calculate</c> and do the calculation for the line of best fit.
+Press <c>Y=</c> (you will see the regression equation).
+Press <c>GRAPH</c>, and the line will be drawn.</p>
+      </note>
+    </subsection>
+
+    <subsection xml:id="eip-737">
+      <title>The Correlation Coefficient</title>
+      <p>Besides looking at the scatter plot and seeing that a line seems reasonable, how can you determine whether the line is a good predictor? Use the correlation coefficient as another indicator (besides the scatter plot) of the strength of the relationship between <m>x</m> and <m>y</m>.</p>
+      <p>The correlation coefficient, <m>r</m>, developed by Karl Pearson during the early 1900s, is numeric and provides a measure of the strength and direction of the linear association between the independent variable <m>x</m> and the dependent variable <m>y</m>.</p>
+      <p>If you suspect a linear relationship between <m>x</m> and <m>y</m>, then <m>r</m> can measure the strength of the linear relationship.</p>
+      <p>What the Value of <m>r</m> Tells Us
+
+The value of <m>r</m> is always between –1 and +1. In other words, –1 ≤ <m>r</m> ≤ 1.
+The size of the correlation <m>r</m> indicates the strength of the linear relationship between <m>x</m> and <m>y</m>. Values of <m>r</m> close to –1 or to +1 indicate a stronger linear relationship between <m>x</m> and <m>y</m>.
+
+If <m>r</m> = 0, there is absolutely no linear relationship between <m>x</m> and <m>y</m> (no linear correlation).
+If <m>r</m> = 1, there is perfect positive correlation. If <m>r</m> = –1, there is perfect negative correlation. In both these cases, all the original data points lie on a straight line. Of course, in the real world, this does not generally happen.</p>
+      <p>What the Sign of <m>r</m> Tells Us
+A positive value of <m>r</m> means that when <m>x</m> increases, <m>y</m> tends to increase and when <m>x</m> decreases, <m>y</m> tends to decrease (positive correlation).
+A negative value of <m>r</m> means that when <m>x</m> increases, <m>y</m> tends to decrease and when <m>x</m> decreases, <m>y</m> tends to increase (negative correlation).
+The sign of <m>r</m> is the same as the sign of the slope, <m>b</m>, of the best-fit line.</p>
+      <note xml:id="eip-131">
+        <title>Note</title>
+      </note>
+      <p>The correlation coefficient is calculated as the quantity of data points times the sum of the quantity of the <m>x</m>-coordinates times the <m>y</m>-coordinates, minus the quantity of the sum of the <m>x</m>-coordinates times the sum of the <m>y</m>-coordinates, all divided by the square root of the quantity of data points times the sum of the <m>x</m>-coordinates squared minus the square of the sum of the <m>x</m>-coordinates, times the number of data points times the sum of the <m>y</m>-coordinates squared minus the square of the sum of the <m>y</m>-coordinates. It can be summarized by the following equation:</p>
+      <p><m>r=\frac{n\Sigma(xy)-(\Sigmax)(\Sigmay)}{\sqrt{[n\Sigmax^{2}-(\Sigmax)^{2}][n\Sigmay^{2}-(\Sigmay)^{2}]}}</m></p>
+      <p>where <m>n</m> is the number of data points.</p>
+      <figure xml:id="linrgs_facts_pics">
+        <caption>(a) A scatter plot showing data with a positive correlation: 0 &lt; <m>r</m> &lt; 1. (b) A scatter plot showing data with a negative correlation: –1 &lt; <m>r</m> &lt; 0. (c) A scatter plot showing data with zero correlation: <m>r</m> = 0.</caption>
+        <image source="media/fig-ch12_06_01.jpg" width="76%"/>
+      </figure>
+    </subsection>
+    <p>The formula for <m>r</m> looks formidable. However, computer spreadsheets, statistical software, and many calculators can calculate <m>r</m> quickly. The correlation coefficient, <m>r</m>, is the bottom item in the output screens for the LinRegTTest on the TI-83, TI-83+, or TI-84+ calculator (see previous section for instructions).</p>
+
+    <subsection xml:id="eip-117">
+      <title>The Coefficient of Determination</title>
+      <p>The variable <m>r</m>^{2} is called the <term>coefficient of determination</term> and it is the square of the correlation coefficient, but it is usually stated as a percentage, rather than in decimal form. It has an interpretation in the context of the data:</p>
+      <ul>
+        <li><m>r^{2}\text{,}</m> when expressed as a percent, represents the percentage of variation in the dependent (predicted) variable <m>y</m> that can be explained by variation in the independent (explanatory) variable <m>x</m> using the regression (best-fit) line.</li>
+        <li>1 – <m>r^{2}\text{,}</m> when expressed as a percentage, represents the percentage of variation in <m>y</m> that is <em>not</em> explained by variation in <m>x</m> using the regression line. This can be seen as the scattering of the observed data points about the regression line.</li>
+      </ul>
+      <p>Consider the third exam/final exam example introduced in the previous section.<nbsp/>
+The line of best fit is: <m>ŷ</m> = –173.51 + 4.83<m>x</m>.
+ The correlation coefficient is <m>r</m> = .6631.
+The coefficient of determination is <m>r</m>^{2} = .6631^{2} = .4397.</p>
+      <p>Interpret <m>r</m>^{2} in the context of this example.<nbsp/>
+Approximately 44 percent of the variation (0.4397 is approximately 0.44) in the final exam grades can be explained by the variation in the grades on the third exam, using the best-fit regression line.
+Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the final exam grades cannot be explained by the variation of the grades on the third exam with the best-fit regression line. These are the variation of the points that are not as close to the regression line as others.</p>
+    </subsection>
+
+    <subsection xml:id="eip-993">
+      <title>Chapter Review</title>
+      <p>A regression line, or a line of best fit, can be drawn on a scatter plot and used to predict outcomes for the <m>x</m> and <m>y</m> variables in a given data set or sample data. There are several ways to find a regression line, but usually the least-squares regression line is used because it creates a uniform line. Residuals, also called <em>errors</em>, measure the distance from the actual value of <m>y</m> and the estimated value of <m>y</m>. The sum of squared errors, or SSE, when set to its minimum, calculates the points on the line of best fit. Regression lines can be used to predict values within the given set of data but should not be used to make predictions for values outside the set of data.</p>
+      <p>The correlation coefficient, <m>r</m>, measures the strength of the linear association between <m>x</m> and <m>y</m>. The variable <m>r</m> has to be between –1 and +1. When <m>r</m> is positive, <m>x</m> and <m>y</m> tend to increase and decrease together. When <m>r</m> is negative, <m>x</m> increases and <m>y</m> decreases, or the opposite occurs: <m>x</m> decreases and <m>y</m> increases. The coefficient of determination, <m>r</m>^{2}, is equal to the square of the correlation coefficient. When expressed as a percentage, <m>r</m>^{2} represents the percentage of variation in the dependent variable, <m>y</m>, that can be explained by variation in the independent variable, <m>x</m>, using the regression line.</p>
+    </subsection>
+
+    <subsection xml:id="eip-234">
+      <exercise xml:id="fs-id1170308315959">
+        <statement>
+          <p>Table 12.16 below represents the relationship between the number of hours spent studying and final exam grades.</p>
+          <p>Fill in the following chart as a first step in finding the line of best fit, using the median–median approach.</p>
+        </statement>
+        <solution>
+        </solution>
+      </exercise>
+      <p><em>Use the following information to answer the next five exercises</em>. A random sample of 10 professional athletes produced the following data, where <m>x</m> is the number of endorsements the player has and <m>y</m> is the amount of money made, in millions of dollars.</p>
+      <table xml:id="fs-idm76330016">
+        <tabular>
+          <row><cell><m>x</m></cell><cell><m>y</m></cell><cell><m>x</m></cell><cell><m>y</m></cell></row>
+          <row><cell>0</cell><cell>2</cell><cell>5</cell><cell>12</cell></row>
+          <row><cell>3</cell><cell>8</cell><cell>4</cell><cell>9</cell></row>
+          <row><cell>2</cell><cell>7</cell><cell>3</cell><cell>9</cell></row>
+          <row><cell>1</cell><cell>3</cell><cell>0</cell><cell>3</cell></row>
+          <row><cell>5</cell><cell>13</cell><cell>4</cell><cell>10</cell></row>
+        </tabular>
+      </table>
+      <exercise xml:id="eip-405">
+        <statement>
+          <p>Draw a scatter plot of the data.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-141">
+        <statement>
+          <p>Use regression to find the equation for the line of best fit.</p>
+        </statement>
+        <solution>
+          <p><m>ŷ</m> = 2.23 + 1.99<m>x</m></p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-88">
+        <statement>
+          <p>Draw the line of best fit on the scatter plot.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-247">
+        <statement>
+          <p>What is the slope of the line of best fit? What does it represent?</p>
+        </statement>
+        <solution>
+          <p>The slope is 1.99 (<m>b</m> = 1.99). It means that for every endorsement deal a professional player gets, he gets an average of another $1.99 million in pay each year.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-723">
+        <statement>
+          <p>What is the <m>y</m>-intercept of the line of best fit? What does it represent?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-976">
+        <statement>
+          <p>What does an <m>r</m> value of zero mean?</p>
+        </statement>
+        <solution>
+          <p>It means that there is no correlation between the data sets.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-339">
+        <statement>
+          <p>When <m>n</m> = 2 and <m>r</m> = 1, are the data significant? Explain.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-270">
+        <statement>
+          <p>When <m>n</m> = 100 and <m>r</m> = –0.89, is there a significant correlation? Explain.</p>
+        </statement>
+        <solution>
+          <p>Yes. There are enough data points and the value of <m>r</m> is strong enough to show there is a strong negative correlation between the data sets.</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="eip-884">
+      <title>Homework</title>
+      <exercise xml:id="eip-idp54658976">
+        <statement>
+          <p>What is the process through which we can calculate a line that goes through a scatter plot with a linear pattern?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-71">
+        <statement>
+          <p>Explain what it means when a correlation has an <m>r</m>^{2} value of .72.</p>
+        </statement>
+        <solution>
+          <p>It means that 72 percent of the variation in the dependent variable (<m>y</m>) can be explained by the variation in the independent variable (<m>x</m>).</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-956">
+        <statement>
+          <p>Can a coefficient of determination be negative? Why or why not?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-id1170308330356">
+        <statement>
+          <p>The table below represents the relationship between SAT scores on the math portion of the test and high school grade point averages (GPAs).</p>
+          <p>Use the median-median line approach to find the equation for the line of best fit.</p>
+        </statement>
+        <solution>
+          <p>We must remember to check the order of the <m>y</m> values within each group as well. We notice that the <m>y</m> values in the second group are not in order from the least value to the greatest value; these values thus must be reordered, meaning the median <m>y</m> value for that group is 70.</p>
+          <p>The ordered pairs are (294.5, 61), (364, 70), and (605.5, 88.5).</p>
+          <p>The slope can be calculated using the formula <m>m=\frac{y_{3}-y_{1}}{x_{3}-x_{1}}\text{.}</m> Substituting the median <m>x</m> and <m>y</m> values, from the first and third groups gives <m>m=\frac{88.5-61}{605.5-294.5}\text{,}</m> which simplifies to <m>m\approx0.09\text{.}</m></p>
+          <p>The y-intercept may be found using the formula <m>b=\frac{∑y-m∑x}{3}\text{.}</m> The sum of the median <m>x</m> values is 1264, and the sum of the median <m>y</m> values is 219.5. Substituting these sums and the slope into the formula gives <m>b=\frac{219.5-0.09(1264)}{3}\text{,}</m> which simplifies to <m>b\approx35.25\text{.}</m></p>
+          <p>The line of best fit is represented as <m>y=mx+b</m>. Thus, the equation can be written as <m>y=0.09x+35.25\text{.}</m></p>
+        </solution>
+      </exercise>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-testing-significance-correlation">
     <title>Testing the Significance of the Correlation Coefficient</title>
-    <p>
-      Content to be added from module m79691.
-    </p>
+
+
+    <subsection xml:id="fs-id1164565134582">
+      <p>The correlation coefficient, <m>r</m>, tells us about the strength and direction of the linear relationship between <m>x</m> and <m>y</m>. However, the reliability of the linear model also depends on how many observed data points are in the sample. We need to look at both the correlation coefficient <m>r</m> and the sample size <m>n</m>, together.</p>
+      <p>We perform a hypothesis test of the <em>significance of the correlation coefficient</em> to decide whether the linear relationship in the sample data is strong enough to use to model the relationship in the population.</p>
+      <p>The sample data are used to compute <m>r</m>, the correlation coefficient for the sample. If we had data for the entire population, we could find the population correlation coefficient. But, because we have only sample data, we cannot calculate the population correlation coefficient. The sample correlation coefficient, <m>r</m>, is our estimate of the unknown population correlation coefficient.</p>
+      <ul>
+        <li>The symbol for the population correlation coefficient is <m>ρ</m>, the Greek letter rho.</li>
+        <li><m>ρ</m> = population correlation coefficient (unknown).</li>
+        <li><m>r</m> = sample correlation coefficient (known; calculated from sample data).</li>
+      </ul>
+      <p>The hypothesis test lets us decide whether the value of the population correlation coefficient <m>ρ</m> is <em>close to zero</em> or <em>significantly different from zero</em>. We decide this based on the sample correlation coefficient <m>r</m> and the sample size <m>n</m>.</p>
+      <p>If the test concludes the correlation coefficient is significantly different from zero, we say the correlation coefficient is <em>significant</em>.
+
+Conclusion: There is sufficient evidence to conclude there is a significant  linear relationship between <m>x</m> and <m>y</m> because the correlation coefficient is significantly different from zero.
+What the conclusion means: There is a significant linear relationship between <m>x</m> and <m>y</m>. We can use the regression line to model the linear relationship between <m>x</m> and <m>y</m> in the population.</p>
+      <p>If the test concludes the correlation coefficient is not significantly different from zero (it is close to zero), we say the correlation coefficient is <em>not significant</em>.
+
+Conclusion: There is insufficient evidence to conclude there is a significant  linear relationship between <m>x</m> and <m>y</m> because the correlation coefficient is not significantly different from zero.
+What the conclusion means: There is not a significant linear relationship between <m>x</m> and <m>y</m>. Therefore, we <em>cannot</em> use the regression line to model a linear relationship between <m>x</m> and <m>y</m> in the population.</p>
+      <note xml:id="eip-939">
+        <title>Note</title>
+        <ul>
+          <li>If <m>r</m> is significant and the scatter plot shows a  linear trend, the line can be used to predict the value of
+<m>y</m> for values of <m>x</m> that are within the domain of observed <m>x</m> values.</li>
+          <li>If <m>r</m> is not significant <m>or</m> if the scatter plot does not show a linear trend, the line should not be used for prediction.</li>
+          <li>If <m>r</m> is significant and the scatter plot shows a linear trend, the line may <em>not</em> be appropriate or reliable for prediction <em>outside</em> the domain of observed <m>x</m> values in the data.</li>
+        </ul>
+      </note>
+    </subsection>
+
+    <subsection xml:id="fs-idm115676240">
+      <title>Performing the Hypothesis Test</title>
+      <ul>
+        <li>Null hypothesis: <m>H</m>_{0}: <m>ρ</m> = 0.</li>
+        <li>Alternate hypothesis: <em>H_{a}</em>: <m>ρ</m> ≠ 0.</li>
+      </ul>
+      <p>What the Hypothesis Means in Words:</p>
+      <ul>
+        <li>Null hypothesis <m>H</m>_{0}: The population correlation coefficient <em>is not</em> significantly different from zero. There <em>is not</em> a significant linear relationship (correlation) between <m>x</m> and <m>y</m> in the population.</li>
+        <li>Alternate hypothesis <em>H_{a}</em>: The population correlation coefficient <m>is</m> significantly different from zero. There <m>is</m> a significant linear relationship (correlation) between <m>x</m> and <m>y</m> in the population.</li>
+      </ul>
+      <p>Drawing a Conclusion:There are two methods to make a conclusion. The two methods are equivalent and give the same result.</p>
+      <ul>
+        <li>Method 1: Use the <m>p</m>-value.</li>
+        <li>Method 2: Use a table of critical values.</li>
+      </ul>
+      <p>In this chapter, we will always use a significance level of 5 percent, <m>α</m> = 0.05.</p>
+      <note xml:id="eip-128">
+        <title>Note</title>
+        <p>Using the <m>p</m>-value method, you could choose any appropriate significance level you want; you are not limited to using <m>α</m> = 0.05. But, the table of critical values provided in this textbook assumes we are using a significance level of 5 percent, <m>α</m> = 0.05. If we wanted to use a significance level different from 5 percent with the critical value method, we would need different tables of critical values that are not provided in this textbook.</p>
+      </note>
+    </subsection>
+
+    <subsection xml:id="fs-idm89842304">
+      <title>Third Exam vs. Final Exam Example: Critical Value Method</title>
+      <p>Consider the <url href="m79689">third exam/final exam example</url>.
+The line of best fit is: <m>ŷ</m> = –173.51 + 4.83<m>x</m>, with <m>r</m> = .6631, and there are <m>n</m> = 11 data points. Can the regression line be used for prediction? Given a third exam score (<m>x</m> value), can we use the line to predict the final exam score (predicted <m>y</m> value)?</p>
+      <ul>
+        <li><m>H</m>_{0}: <m>ρ</m> = 0</li>
+        <li><em>H_{a}</em>: <m>ρ</m> ≠ 0</li>
+        <li><m>α</m> = 0.05</li>
+      </ul>
+      <ul>
+        <li>Use the 95 Percent Critical Values table for <m>r</m> with <m>df</m> = <m>n</m> – 2 = 11 – 2 = 9.</li>
+        <li>Using the table with <m>df</m> = 9, we find that the critical value listed is 0.602. Therefore, the critical values are ±0.602.</li>
+        <li>Since 0.6631 &gt; 0.602, <m>r</m> is significant.</li>
+        <li>Decision: Reject the null hypothesis.</li>
+        <li>Conclusion: There is sufficient evidence to conclude there is a significant  linear relationship between the third exam score (<m>x</m>) and the final exam score (<m>y</m>) because the correlation coefficient is significantly different from zero.</li>
+      </ul>
+      <p>Because <m>r</m> is significant and the scatter plot shows a linear trend, the regression line can be used to predict final exam scores.</p>
+      <example xml:id="element-433">
+        <statement>
+          <p>Suppose you computed the following correlation coefficients. Using the table at the end of the chapter, determine whether <m>r</m> is significant and whether the line of best fit associated with each correlation coefficient can be used to predict a <m>y</m> value. If it helps, draw a number line.</p>
+          <ol>
+            <li><m>r</m> = 0.567 and the sample size, <m>n</m>, is 19.<nbsp/><nbsp/>
+To solve this problem, first find the degrees of freedom. <m>df</m> = <m>n</m> - 2 = 17.<nbsp/>
+Then, using the table, the critical values are ±0.456.<nbsp/>
+0.567 &lt; 0.456, or you may say that 0.567 is not between the two critical values.<nbsp/>
+<m>r</m> is significant and may be used for predictions.<nbsp/></li>
+            <li><m>r</m> = 0.708 and the sample size, <m>n</m>, is 9.<nbsp/><nbsp/>
+<m>df</m> = <m>n</m> - 2 = 7<nbsp/>
+The critical values are ±0.666.<nbsp/>
+0.708 &gt; 0.666.<nbsp/>
+<m>r</m> is significant and may be used for predictions.<nbsp/></li>
+            <li><m>r</m> = 0.134 and the sample size, <m>n</m>, is 14.<nbsp/><nbsp/>
+<m>df</m> = 14 - 2 = 12.<nbsp/>
+The critical values are ±0.532.<nbsp/>
+0.134 is between 0.532 and 0.532.<nbsp/>
+<m>r</m> is not significant and may not be used for predictions.</li>
+            <li><m>r</m> = 0 and the sample size, <m>n</m>, is 5.<nbsp/><nbsp/>
+It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will always be between the two critical values, so <m>r</m> is not significant and may not be used for predictions.</li>
+          </ol>
+        </statement>
+      </example>
+      <exercise xml:id="eip-316">
+        <statement>
+          <p>For a given line of best fit, you compute that <m>r</m> = 0 using <m>n</m> = 100 data points. Can the line be used for prediction? Why or why not?</p>
+        </statement>
+        <solution>
+          <p>No, the line cannot be used for prediction no matter what the sample size is.</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="eip-570">
+      <title>Assumptions in Testing the Significance of the Correlation Coefficient</title>
+      <p>Testing the significance of the correlation coefficient requires that certain assumptions about the data be satisfied. The premise of this test is that the data are a sample of observed points taken from a larger population. We have not examined the entire population because it is not possible or feasible to do so. We are examining the sample to draw a conclusion about whether the linear relationship that we see between <m>x</m> and <m>y</m> in the sample data provides strong enough evidence that we can conclude there is a linear relationship between <m>x</m> and <m>y</m> in the population.</p>
+      <p>The regression line equation that we calculate from the sample data gives the best-fit line for our particular sample. We want to use this best-fit line for the sample as an estimate of the best-fit line for the population. Examining the scatter plot and testing the significance of the correlation coefficient helps us determine whether it is appropriate to do this.</p>
+      <ul>
+        <li>There is a linear relationship in the population that models the sample data. Our regression line from the sample is our best estimate of this line in the population.</li>
+        <li>The <m>y</m> values for any particular <m>x</m> value are normally distributed about the line. This implies there are more <m>y</m> values scattered closer to the line than are scattered farther away. Assumption 1 implies that these normal distributions are centered on the line; the means of these normal distributions of <m>y</m> values lie on the line.</li>
+        <li>Normal distributions of all the <m>y</m> values have the same shape and spread about the line.</li>
+        <li>The residual errors are mutually independent (no pattern).</li>
+        <li>The data are produced from a well-designed, random sample or randomized experiment.</li>
+      </ul>
+      <figure xml:id="linrgs_facts_normal">
+        <caption>The <m>y</m> values for each <m>x</m> value are normally distributed about the line with the same standard deviation. For each <m>x</m> value, the mean of the <m>y</m> values lies on the regression line. More <m>y</m> values lie near the line than are scattered farther away from the line.</caption>
+        <image source="media/fig-ch12_07_04.jpg" width="76%"/>
+      </figure>
+    </subsection>
+
+    <subsection xml:id="eip-724">
+      <title>Chapter Review</title>
+      <p>Linear regression is a procedure for fitting a straight line of the form <m>ŷ</m> = <m>a</m> + <m>bx</m> to data. The conditions for regression are as follows:</p>
+      <ul>
+        <li>Linear: In the population, there is a linear relationship that models the average value of <m>y</m> for different values of <m>x</m>.</li>
+        <li>Independent: The residuals are assumed to be independent.</li>
+        <li>Normal: The <m>y</m> values are distributed normally for any value of <m>x</m>.</li>
+        <li>Equal variance: The standard deviation of the <m>y</m> values is equal for each <m>x</m> value.</li>
+        <li>Random: The data are produced from a well-designed random sample or a randomized experiment.</li>
+      </ul>
+      <p>The slope <m>b</m> and intercept <m>a</m> of the least-squares line estimate the slope <m>β</m> and intercept <m>α</m> of the population (true) regression line. To estimate the population standard deviation of <m>y</m> (<m>σ</m>) use the standard deviation of the residuals: <m>s=\sqrt{\frac{\text{SSE}}{n-2}}</m>. The variable <m>ρ</m> (rho) is the population correlation coefficient. To test the null hypothesis, <m>H</m>_{0}: <m>ρ</m> = hypothesized value, use a linear regression <m>t</m>-test. The most common null hypothesis is <m>H</m>_{0}: <m>ρ</m> = 0, which indicates there is no linear relationship between <m>x</m> and <m>y</m> in the population. The TI-83, 83+, 84, 84+ calculator function LinRegTTest can perform this test (STATS, TESTS, LinRegTTest).</p>
+    </subsection>
+
+    <subsection xml:id="eip-896">
+      <title>Formula Review</title>
+      <p>Least-Squares Line or Line of Best Fit:</p>
+      <p><m>ŷ=a+bx\text{,}</m></p>
+      <p>where <m>a</m> is the <m>y</m>-intercept and <m>b</m> is the slope.</p>
+      <p>Standard Deviation of the Residuals:</p>
+      <p><m>s=\sqrt{\frac{\text{SSE}}{n-2}},</m></p>
+      <p>where SSE = sum of squared errors, and</p>
+      <p><m>n</m> = the number of data points.</p>
+    </subsection>
+
+    <subsection xml:id="eip-142">
+      <exercise xml:id="eip-552">
+        <statement>
+          <p>When testing the significance of the correlation coefficient, what is the null hypothesis?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-592">
+        <statement>
+          <p>When testing the significance of the correlation coefficient, what is the alternative hypothesis?</p>
+        </statement>
+        <solution>
+          <p><em>H_{a}</em>: <m>ρ</m> ≠ 0</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-59">
+        <statement>
+          <p>If the level of significance is 0.05 and the <m>p</m>-value is 0.04, what conclusion can you draw?</p>
+        </statement>
+      </exercise>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-prediction">
     <title>Prediction</title>
-    <p>
-      Content to be added from module m79692.
-    </p>
+
+
+    <subsection xml:id="fs-id1164563515442">
+      <p>Recall the <url href="m79689">third exam/final exam example</url>.</p>
+      <p>We found the equation of the best-fit line for the final exam grade as a function of the grade on the third exam. We can now use the least-squares regression line for prediction.</p>
+      <p>Suppose you want to estimate, or predict, the mean final exam score of statistics students who received a 73 on the third exam. The exam scores (<m>x</m> values) range from 65 to 75. Since 73 is between the <m>x</m> values 65 and 75, substitute <m>x</m> = 73 into the equation. Then,</p>
+      <me>y=-173.51+4.83(73)=179.08\text{.}</me>
+      <p>We predict that statistics students who earn a grade of 73 on the third exam will earn a grade of 179.08 on the final exam, on average.</p>
+      <example xml:id="element-438">
+        <statement>
+          <p>a. What would you predict the final exam score to be for a student who scored a 66 on the third exam?</p>
+        </statement>
+        <solution>
+          <p>a. 145.27<nbsp/><nbsp/></p>
+        </solution>
+      </example>
+      <exercise xml:id="eip-375">
+        <statement>
+          <p>Data are collected on the relationship between the number of hours per week practicing a musical instrument and scores on a math test. The line of best fit is as follows:</p>
+          <p><m>ŷ</m> = 72.5 + 2.8<m>x.</m>
+<nbsp/>What would you predict the score on a math test will be for a student who practices a musical instrument for five hours a week?</p>
+        </statement>
+        <solution>
+          <p>86.5</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="eip-368">
+      <title>References</title>
+      <p>Centers for Disease Control and Prevention. (n.d.). Retrieved from https://www.cdc.gov/</p>
+      <p>National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention. (n.d.). Centers for Disease Control and Prevention. Retrieved from https://www.cdc.gov/nchhstp/default.htm</p>
+      <p>National Center for Health Statistics. (n.d.). Centers for Disease Control and Prevention. Retrieved from https://www.cdc.gov/nchs/index.htm</p>
+      <p>U.S. Census Bureau. (n.d.). Retrieved from http://www.census.gov/compendia/statab/cats/transportation/motor_vehicle_accidents_and_fatalities.html</p>
+    </subsection>
+
+    <subsection xml:id="eip-469">
+      <title>Chapter Review</title>
+      <p>After determining the presence of a strong correlation coefficient and calculating the line of best fit, you can use the least-squares regression line to make predictions about your data.</p>
+    </subsection>
+
+    <subsection xml:id="eip-160">
+      <p><em>Use the following information to answer the next two exercises</em>. An electronics retailer used regression to find a simple model to predict sales growth in the first quarter of the new year (January through March). The model is good for 90 days, where <m>x</m> is the day. The model can be written as <m>ŷ</m> = 101.32 + 2.48<m>x</m>, where <m>ŷ</m> is in thousands of dollars.</p>
+      <exercise xml:id="eip-673">
+        <statement>
+          <p>What would you predict the sales to be on day 60?</p>
+        </statement>
+        <solution>
+          <p>$250,120</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-439">
+        <statement>
+          <p>What would you predict the sales to be on day 90?</p>
+        </statement>
+      </exercise>
+      <p><nbsp/><em>Use the following information to answer the next three exercises</em>. A landscaping company is hired to mow the grass for several large properties. The total area of the properties is 1,345 acres. The rate at which one person can mow is <m>ŷ</m> = 1350 – 1.2<m>x</m>, where <m>x</m> is the number of hours and <m>ŷ</m> represents the number of acres left to mow.</p>
+      <exercise xml:id="eip-584">
+        <statement>
+          <p>How many acres are left to mow after 20 hours of work?</p>
+        </statement>
+        <solution>
+          <p>1326 acres</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-309">
+        <statement>
+          <p>How many acres are left to mow after 100 hours of work?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-159">
+        <statement>
+          <p>How many hours does it take to mow all the lawns, or when is <m>ŷ</m> = 0?</p>
+        </statement>
+        <solution>
+          <p>1125 hours, or when <m>x</m> = 1125</p>
+        </solution>
+      </exercise>
+      <p><em>Use the following information to answer the next 14 exercises</em>.  contains real data for the first two decades of flu reporting.</p>
+      <table xml:id="element-806">
+        <tabular>
+          <row><cell>Year</cell><cell>Number of Flu Cases Diagnosed</cell><cell>Number of Flu Deaths</cell></row>
+          <row><cell>Pre-1981</cell><cell>91</cell><cell>29</cell></row>
+          <row><cell>1981</cell><cell>319</cell><cell>121</cell></row>
+          <row><cell>1982</cell><cell>1,170</cell><cell>453</cell></row>
+          <row><cell>1983</cell><cell>3,076</cell><cell>1,482</cell></row>
+          <row><cell>1984</cell><cell>6,240</cell><cell>3,466</cell></row>
+          <row><cell>1985</cell><cell>11,776</cell><cell>6,878</cell></row>
+          <row><cell>1986</cell><cell>19,032</cell><cell>11,987</cell></row>
+          <row><cell>1987</cell><cell>28,564</cell><cell>16,162</cell></row>
+          <row><cell>1988</cell><cell>35,447</cell><cell>20,868</cell></row>
+          <row><cell>1989</cell><cell>42,674</cell><cell>27,591</cell></row>
+          <row><cell>1990</cell><cell>48,634</cell><cell>31,335</cell></row>
+          <row><cell>1991</cell><cell>59,660</cell><cell>36,560</cell></row>
+          <row><cell>1992</cell><cell>78,530</cell><cell>41,055</cell></row>
+          <row><cell>1993</cell><cell>78,834</cell><cell>44,730</cell></row>
+          <row><cell>1994</cell><cell>71,874</cell><cell>49,095</cell></row>
+          <row><cell>1995</cell><cell>68,505</cell><cell>49,456</cell></row>
+          <row><cell>1996</cell><cell>59,347</cell><cell>38,510</cell></row>
+          <row><cell>1997</cell><cell>47,149</cell><cell>20,736</cell></row>
+          <row><cell>1998</cell><cell>38,393</cell><cell>19,005</cell></row>
+          <row><cell>1999</cell><cell>25,174</cell><cell>18,454</cell></row>
+          <row><cell>2000</cell><cell>25,522</cell><cell>17,347</cell></row>
+          <row><cell>2001</cell><cell>25,643</cell><cell>17,402</cell></row>
+          <row><cell>2002</cell><cell>26,464</cell><cell>16,371</cell></row>
+          <row><cell>Total</cell><cell>802,118</cell><cell>489,093</cell></row>
+        </tabular>
+      </table>
+      <exercise xml:id="fs-idm41333104">
+        <statement>
+          <p>Graph year versus number of flu cases diagnosed (plot the scatter plot). Do not include pre-1981 data.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp60770720">
+        <statement>
+          <p>Perform a linear regression. What is the linear equation?  Round to the nearest whole number. Find the following:<nbsp/></p>
+          <p><em>Write the equations:</em></p>
+          <ul>
+            <li><em>Linear equation:</em> __________</li>
+            <li><em>a =</em> ________</li>
+            <li><em>b =</em> ________</li>
+            <li><em>r =</em> ________</li>
+            <li><em>n =</em> ________</li>
+          </ul>
+        </statement>
+        <solution>
+          <p>Check student solution.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-578">
+        <statement>
+          <p>Solve.
+When <m>x</m> = 1985, <m>ŷ</m> = _____.
+When <m>x</m> = 1990, <m>ŷ</m> = _____.
+When <m>x</m> = 1970, <m>ŷ</m> = _____. Why doesn’t this answer make sense?</p>
+          <ol>
+            <li>When <m>x</m> = 1985, <m>ŷ</m> = _____.</li>
+            <li>When <m>x</m> = 1990, <m>ŷ</m> = _____.</li>
+            <li>When <m>x</m> = 1970, <m>ŷ</m> = _____. Why doesn’t this answer make sense?</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>When <m>x</m> = 1985, <m>ŷ</m> = 25,52.
+When <m>x</m> = 1990, <m>ŷ</m> = 34,275.
+When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense?  The range of <m>x</m> values was 1981 to 2002; the year 1970 is not in this range. The regression equation does not apply, because predicting for the year 1970 is extrapolation, which requires a different process. Also, a negative number does not make sense in this context, when we are predicting flu cases diagnosed.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp123707680">
+        <statement>
+          <p>Does the line seem to fit the data? Why or why not?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp46020944">
+        <statement>
+          <p>What does the correlation imply about the relationship between time (years) and the number of diagnosed flu cases reported in the United States?</p>
+        </statement>
+        <solution>
+          <p>Also, the correlation <m>r</m> = 0.4526. If <m>r</m> is compared with the value in the 95 Percent Critical Values of the Sample Correlation Coefficient Table, because <m>r</m> &gt; 0.423, <m>r</m> is significant, and you would think that the line could be used for prediction. But, the scatter plot indicates otherwise.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-id1164567881521">
+        <statement>
+          <p>Plot the two points on the graph. Then, connect the two points to form the regression line.</p>
+        </statement>
+        <solution>
+          <p>Check student solution.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-537">
+        <statement>
+          <p>Write the equation: <m>ŷ</m> = ____________.</p>
+        </statement>
+        <solution>
+          <p><m>ŷ</m> = 3,448,225 + 1750<m>x</m></p>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-593">
+        <statement>
+          <p>Hand-draw a smooth curve on the graph that shows the flow of the data.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-508">
+        <statement>
+          <p>Does the line seem to fit the data? Why or why not?</p>
+        </statement>
+        <solution>
+          <p>There was an increase in flu cases diagnosed until 1993. From 1993 through 2002, the number of flu cases diagnosed declined each year. It is not appropriate to use a linear regression line to fit to the data.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-717">
+        <statement>
+          <p>Do you think a linear fit is best? Why or why not?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-658">
+        <statement>
+          <p>What does the correlation imply about the relationship between time (years) and the number of diagnosed flu cases reported in the United States?</p>
+        </statement>
+        <solution>
+          <p>Because there is no linear association between year and number of flu cases diagnosed, it is not appropriate to calculate a linear correlation coefficient. When there is a linear association and it is appropriate to calculate a correlation, we cannot say that one variable <em>causes</em> the other variable.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp87876464">
+        <statement>
+          <p>Graph <em>year</em> vs. <em>number flu cases diagnosed</em>. Do not include pre-1981. Label both axes with words. Scale both axes.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-54">
+        <statement>
+          <p>Enter your data into your calculator or computer. The pre-1981 data should not be included. Why is that so?</p>
+          <p>Write the linear equation, rounding to four decimal places.</p>
+        </statement>
+        <solution>
+          <p>We don’t know if the pre-1981 data were collected from a single year. So, we don’t have an accurate <m>x</m> value for this figure.</p>
+          <p>Regression equation: <m>ŷ</m> (number of flu cases) = –3,448,225 + 1749.777 (year).</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-id1164565598834">
+        <statement>
+          <p><em>Calculate the following:</em></p>
+          <ul>
+            <li><em>a =</em> _____</li>
+            <li><em>b =</em> _____</li>
+            <li>correlation = _____</li>
+            <li><em>n =</em> _____</li>
+          </ul>
+        </statement>
+        <solution>
+          <ul>
+            <li><m>a</m> = 3,488,225</li>
+            <li><m>b</m> = 1,750</li>
+            <li>correlation = 0.4526</li>
+            <li><m>n</m> = 22</li>
+          </ul>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idp66999104">
+      <title>Homework</title>
+      <exercise xml:id="element-401">
+        <statement>
+          <p>Recently, the annual numbers of driver deaths per 100,000 people for the selected age groups are as follows:</p>
+          <ol>
+            <li>For each age group, pick the midpoint of the interval for the <m>x</m> value. For the 75+ group, use 80.</li>
+            <li>Using <em>age</em> as the independent variable and <em>number of driver deaths per 100,000 people</em> as the dependent variable, make a scatter plot of the data.</li>
+            <li>Calculate the least-squares (best–fit) line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. Is it significant?</li>
+            <li>Predict the number of deaths for ages 40 years and 60 years.</li>
+            <li>Based on the given data, is there a linear relationship between age of a driver and driver fatality rate?</li>
+            <li>What is the slope of the least-squares (best-fit) line?  Interpret the slope.</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>b. Check student solution.<nbsp/><nbsp/></p>
+          <p>c. <m>ŷ</m> = 35.5818045 – 0.19182491<m>x</m><nbsp/><nbsp/></p>
+          <p>d. <m>r</m> = –0.57874<nbsp/>For four degrees of freedom and alpha = 0.05, the LinRegTTest gives a <m>p</m> value of 0.2288, so we do not reject the null hypothesis; there is not a significant linear relationship between deaths and age.<nbsp/>Using the table of critical values for the correlation coefficient, with four degrees of freedom, the critical value is 0.811. The correlation coefficient <m>r</m> = –0.57874  is not less than –0.811, so we do not reject the null hypothesis.<nbsp/><nbsp/></p>
+          <p>f. There is not a linear relationship between the two variables, as evidenced by a <m>p</m> value greater than 0.05.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-213">
+        <statement>
+          <p>shows the life expectancy for an individual born in the United States in certain years.</p>
+          <ol>
+            <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
+            <li>Draw a scatter plot of the ordered pairs.</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. Is it significant?</li>
+            <li>Find the estimated life expectancy for an individual born in 1950 and for one born in 1982.</li>
+            <li>Why aren’t the answers to Part E the same as the values in  that correspond to those years?</li>
+            <li>Use the two points in Part E to plot the least-squares line on your graph from Part B.</li>
+            <li>Based on the data, is there a linear relationship between the year of birth and life expectancy?</li>
+            <li>Are there any outliers in the data?</li>
+            <li>Using the least-squares line, find the estimated life expectancy for an individual born in 1850. Does the least-squares line give an accurate estimate for that year? Explain why or why not.</li>
+            <li>What is the slope of the least-squares (best-fit) line? Interpret the slope.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-682">
+        <statement>
+          <p>The maximum discount value of the Entertainment^{®} card for the <em>Fine Dining</em> section, 10th edition, for various pages is given in .</p>
+          <ol>
+            <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
+            <li>Draw a scatter plot of the ordered pairs.</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. Is it significant?</li>
+            <li>Find the estimated maximum values for the restaurants on page 10 and on page 70.</li>
+            <li>Does it appear that the restaurants giving the maximum value are placed in the beginning of the <em>Fine Dining</em> section? How did you arrive at your answer?</li>
+            <li>Suppose there are 200 pages of restaurants. What do you estimate to be the maximum value for a restaurant listed on page 200?</li>
+            <li>Is the least-squares line valid for page 200? Why or why not?</li>
+            <li>What is the slope of the least-squares (best-fit) line? Interpret the slope.</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>a. We wonder if the better discounts appear earlier in the book, so we select page as <m>x</m> and discount as <m>y</m>.<nbsp/><nbsp/></p>
+          <p>b. Check student solution.<nbsp/><nbsp/></p>
+          <p>c. <m>ŷ</m> = 17.21757 – 0.01412<m>x</m><nbsp/><nbsp/></p>
+          <p>d. <m>r</m> = – 0.2752 <nbsp/>For seven degrees of freedom and alpha = 0.05, LinRegTTest  gives a <m>p</m> value = 0.4736,  so we do not reject; there is a not a significant linear relationship between page and discount.<nbsp/>Using the table of critical values for the correlation coefficient, with seven  gives degrees of freedom, the critical value is 0.666. The correlation coefficient <m>xi</m> = –0.2752 is not less than 0.666, so we do not reject.<nbsp/><nbsp/></p>
+          <p>f. There is not a significant linear correlation so it appears there is no relationship between the page and the amount of the discount.</p>
+          <p>As the page number increases by one page, the discount decreases by $0.01412.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-263a">
+        <statement>
+          <p>gives the gold medal times for every other Summer Olympics for the women’s 100-meter freestyle in swimming.</p>
+          <ol>
+            <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
+            <li>Draw a scatter plot of the data.</li>
+            <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. Is the decrease in times significant?</li>
+            <li>Find the estimated gold medal time for 1932. Find the estimated time for 1984.</li>
+            <li>Why are the answers from Part F different from the chart values?</li>
+            <li>Does it appear that a line is the best way to fit the data? Why or why not?</li>
+            <li>Use the least-squares line to estimate the gold medal time for the next Summer Olympics. Do you think your answer is reasonable? Why or why not?</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-512">
+        <statement>
+          <p>We are interested in whether the number of letters in a state name depends on the year the state entered the Union.</p>
+          <ol>
+            <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
+            <li>Draw a scatter plot of the data.</li>
+            <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. What does it imply about the significance of the relationship?</li>
+            <li>Find the estimated number of letters (to the nearest integer) a state name would have if it entered the Union in 1900. Find the estimated number of letters a state name would have if it entered the Union in 1940.</li>
+            <li>Does it appear that a line is the best way to fit the data? Why or why not?</li>
+            <li>Use the least-squares line to estimate the number of letters for a new state that enters the Union this year. Can the least-squares line be used to predict it? Why or why not?</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>a. Year is the independent or <m>x</m> variable; the number of letters is the dependent or <m>y</m> variable.<nbsp/><nbsp/></p>
+          <p>b. Check student’s solution.<nbsp/><nbsp/></p>
+          <p>c. No.<nbsp/><nbsp/></p>
+          <p>d. <m>ŷ</m> = 47.03 – 0.0216<m>x</m><nbsp/><nbsp/></p>
+          <p>e. –0.4280. The <m>r</m> value indicates that there is not a significant correlation between the year the state entered the Union and the number of letters in the name.<nbsp/><nbsp/></p>
+          <p>g. No. The relationship does not appear to be linear; the correlation is not significant.</p>
+        </solution>
+      </exercise>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-outliers">
     <title>Outliers</title>
-    <p>
-      Content to be added from module m79694.
-    </p>
+
+
+    <subsection xml:id="fs-id1164566957266">
+      <p>In some data sets, there are values (observed data points) called outliers. Outliers are observed data points that are far from the least-squares line. They have large errors, where the error or residual is not very close to the best-fit line.</p>
+      <p>Outliers need to be examined closely. Sometimes, they should not be included in the analysis of the data, like if it is possible that an outlier is a result of incorrect data. Other times, an outlier may hold valuable information about the population under study and should remain included in the data. The key is to examine carefully what causes a data point to be an outlier.</p>
+      <p>Besides outliers, a sample may contain one or a few points that are called influential points. Influential points are observed data points that are far from the other observed data points in the horizontal direction. These points may have a big effect on the slope of the regression line. To begin to identify an influential point, you can remove it from the data set and determine whether the slope of the regression line is changed significantly.</p>
+      <p>You also want to examine how the correlation coefficient, <m>r</m>, has changed. Sometimes, it is difficult to discern a significant change in slope, so you need to look at how the strength of the linear relationship has changed. Computers and many calculators can be used to identify outliers and influential points. Regression analysis can determine if an outlier is, indeed, an influential point. The new regression will show how omitting the outlier will affect the correlation among the variables, as well as the fit of the line. A graph showing both regression lines helps determine how removing an outlier affects the fit of the model.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idm49430544">
+      <title>Identifying Outliers</title>
+      <p>We could guess at outliers by looking at a graph of the scatter plot and best-fit line. However, we would like some guideline regarding how far away a point needs to be to be considered an outlier. <em>As a rough rule of thumb, we can flag as an outlier any point that is located farther than two standard deviations above or below the best-fit line</em>. The standard deviation used is the standard deviation of the residuals or errors.</p>
+      <p>We can do this visually in the scatter plot by drawing an extra pair of lines that are two standard deviations above and below the best-fit line. Any data points outside this extra pair of lines are flagged as potential outliers. Or, we can do this numerically by calculating each residual and comparing it with twice the standard deviation. With regard to the TI-83, 83+, or 84+ calculators, the graphical approach is easier. The graphical procedure is shown first, followed by the numerical calculations. You would generally need to use only one of these methods.</p>
+      <example xml:id="eip-837">
+        <title>Graphical Identification of Outliers</title>
+        <statement>
+          <p>In the <url href="m79689">third exam/final exam example</url>, you can determine whether there is an outlier. If there is an outlier, as an exercise, delete it and fit the remaining data to a new line. For this example, the new line ought to fit the remaining data better. This means the SSE (sum of the squared errors) should be smaller and the correlation coefficient ought to be closer to 1 or –1.</p>
+        </statement>
+        <solution>
+          <p>Graphical Identification of OutliersWith the TI-83, 83+, or 84+ graphing calculators, it is easy to  identify the outliers graphically and visually. If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance were equal to 2<m>s</m> or more, then we would consider the data point to be too far from the line of best fit. We need to find and graph the lines that are two standard deviations below and above the regression line. Any points that are outside these two lines are outliers. Let’s call these lines Y2 and Y3.</p>
+          <p>As we did with the equation of the regression line and the correlation coefficient, we will use technology to calculate this standard deviation for us. Using the LinRegTTest with these data, scroll down through the output screens to find <m>s</m> = 16.412.</p>
+          <p>Line Y2 = –173.5 + 4.83<m>x</m> – 2(16.4), and line Y3 = –173.5 + 4.83<m>x</m> + 2(16.4),<nbsp/>where <m>ŷ</m> = –173.5 + 4.83<m>x</m> is the line of best fit. Y2 and Y3 have the same slope as the line of best fit.</p>
+          <p>Graph the scatter plot with the best-fit line in equation Y1, then enter the two extra lines as Y2 and Y3 in the <m>Y</m>= equation editor. Press ZOOM-9 to get a good view. You will see that the only point that is not between Y2 and Y3 is the point (65, 175). On the calculator screen, it is barely outside these lines, but it is considered an outlier because it is more than two standard deviations away from the best-fit line. The outlier is the student who had a grade of 65 on the third exam and 175 on the final exam.</p>
+          <p>Sometimes a point is so close to the lines used to flag outliers on the graph that it is difficult to tell whether the point is between or outside the lines. On a computer, enlarging the graph may help;  on a small calculator screen, zooming in may make the graph clearer. Note that when the graph does not give a clear enough picture, you can use the numerical comparisons to identify outliers.</p>
+          <figure xml:id="eip-idp140675136">
+            <image source="media/fig-ch12_09_01.jpg" width="76%"/>
+          </figure>
+        </solution>
+      </example>
+      <exercise xml:id="eip-365">
+        <statement>
+          <p>Identify the potential outlier in the scatter plot. The standard deviation of the residuals, or errors, is approximately 8.6.</p>
+        </statement>
+        <solution>
+          <p>The outlier appears to be at (6, 58). The expected <m>y</m> value on the line for the point (6, 58) is approximately 82. Fifty-eight is 24 units from 82. Twenty-four is more than two standard deviations (2<m>s</m> = (2)(8.6) = 17.2 ). So 82 is more than two standard deviations from 58, which makes (6, 58) a potential outlier.</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="eip-212">
+      <title>Numerical Identification of Outliers</title>
+      <p>In , the first two columns include the third exam and final exam data. The third column shows the predicted <m>ŷ</m> values calculated from the line of best fit: <m>ŷ</m> = –173.5 + 4.83<m>x</m>. The residuals, or errors, that were mentioned in Section 3 of this chapter have been calculated in the fourth column of the table: Observed <m>y</m> value  predicted <m>y</m> value = <m>y</m>  <m>ŷ</m>.</p>
+      <p><m>s</m> is the standard deviation of all the <m>y</m>  <m>ŷ</m> = <m>ε</m> values, where <m>n</m> is the total number of data points. If each residual is calculated and squared, and the results are added, we get the SSE. The standard deviation of the residuals is calculated from the SSE as</p>
+      <me>s=\sqrt{\frac{SSE}{n-2}}\text{.}</me>
+      <note xml:id="fs-idm68726848">
+        <title>Note</title>
+        <p>We divide by (<m>n</m> – 2) because the regression model involves two estimates.</p>
+      </note>
+      <p>Rather than calculate the value of <m>s</m> ourselves, we can find <m>s</m> using a computer or calculator. For this example, the calculator function LinRegTTest found <m>s</m> = 16.4 as the standard deviation of the residuals 35
+–17
+16
+–6
+–19
+9
+3
+–1
+–10
+–9
+–1
+.</p>
+      <table xml:id="element-4662">
+        <tabular>
+          <row><cell><m>x</m></cell><cell><m>y</m></cell><cell><m>ŷ</m></cell><cell><m>y</m> – <m>ŷ</m></cell></row>
+          <row><cell>65</cell><cell>175</cell><cell>140</cell><cell>175 – 140 = 35</cell></row>
+          <row><cell>67</cell><cell>133</cell><cell>150</cell><cell>133 – 150= –17</cell></row>
+          <row><cell>71</cell><cell>185</cell><cell>169</cell><cell>185 – 169 = 16</cell></row>
+          <row><cell>71</cell><cell>163</cell><cell>169</cell><cell>163 – 169 = –6</cell></row>
+          <row><cell>66</cell><cell>126</cell><cell>145</cell><cell>126 – 145 = –19</cell></row>
+          <row><cell>75</cell><cell>198</cell><cell>189</cell><cell>198 – 189 = 9</cell></row>
+          <row><cell>67</cell><cell>153</cell><cell>150</cell><cell>153 – 150 = 3</cell></row>
+          <row><cell>70</cell><cell>163</cell><cell>164</cell><cell>163 – 164 = –1</cell></row>
+          <row><cell>71</cell><cell>159</cell><cell>169</cell><cell>159 – 169 = –10</cell></row>
+          <row><cell>69</cell><cell>151</cell><cell>160</cell><cell>151 – 160 = –9</cell></row>
+          <row><cell>69</cell><cell>159</cell><cell>160</cell><cell>159 – 160 = –1</cell></row>
+        </tabular>
+      </table>
+      <p>We are looking for all data points for which the residual is greater than 2<m>s</m> = 2(16.4) = 32.8 or less than –32.8. Compare these values with the residuals in column four of the table. The only such data point is the student who had a grade of 65 on the third exam and 175 on the final exam; the residual for this student is 35.</p>
+    </subsection>
+
+    <subsection xml:id="fs-id1170308241568">
+      <title>How Does the Outlier Affect the Best-Fit Line?</title>
+      <p>Numerically and graphically, we have identified point (65, 175) as an outlier. Recall that recalculation of the least-squares regression line and summary statistics, following deletion of an outlier, may be used to determine whether an outlier is also an influential point. This process also allows you to compare the strength of the correlation of the variables and possible changes in the slope both before and after the omission of any outliers.</p>
+      <p>Compute a new best-fit line and correlation coefficient using the 10 remaining points.</p>
+      <p>On the TI-83, TI-83+, or TI-84+ calculators, delete the outlier from L1 and L2. Using the LinRegTTest, found under Stat and Tests, the new line of best fit and correlation coefficient are the following:</p>
+      <p><m>ŷ=-355.19+7.39x</m> and <m>r=0.9121</m>.</p>
+      <p>The slope is now 7.39, compared to the previous slope of 4.83. This seems significant, but we need to look at the change in <m>r</m>-values as well. The new line shows <m>r=0.9121</m>, which indicates a stronger correlation than the original line, with <m>r=0.6631\text{,}</m> since <m>r=0.9121</m> is closer to 1. This means the new line is a better fit to the data values. The line can better predict the final exam score given the third exam score. It also means the outlier of (65, 175) was an influential point, since there is a sizeable difference in <m>r</m>-values. We must now decide whether to delete the outlier. If the outlier was recorded erroneously, it should certainly be deleted. Because it produces such a profound effect on the correlation, the new line of best fit allows for better prediction and an overall stronger model.</p>
+      <p>You may use Excel to graph the two least-squares regression lines and compare the slopes and fit of the lines to the data, as shown in .</p>
+      <figure xml:id="figure_12_06_01">
+        <image source="media/CNX_Stats_figure_12_06_01.jpg" width="76%"/>
+      </figure>
+      <p>You can see that the second graph shows less deviation from the line of best fit. It is clear that omission of the influential point produced a line of best fit that more closely models the data.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idm24143888">
+      <title>Numerical Identification of Outliers: Calculating</title>
+      <p>If you do not have the function LinRegTTest on your calculator, then you must calculate the outlier in the first example by doing the following.
+<nbsp/><nbsp/>
+First, square each |<m>y</m> – <m>ŷ</m>|.</p>
+      <p>The squares are 
+35^{2}
+17^{2}
+16^{2}
+6^{2}
+19^{2}
+9^{2}
+3^{2}
+1^{2}
+10^{2}
+9^{2}
+1^{2}.</p>
+      <p>Then, add (sum) all the |<m>y</m> – <m>ŷ</m>| squared terms using the formula</p>
+      <p><m>\Sigmai=111(|y_{i}-ŷ_{i}|)^{2}=\Sigmai=111ε_{i}^{2}</m> (Recall that <m>y</m>_{i} – <m>ŷ</m>_{i} = <m>ε</m>_{i}).</p>
+      <p>= 35^{2} + 17^{2} + 16^{2} + 6^{2} + 19^{2} + 9^{2} + 3^{2} + 1^{2} + 10^{2} + 9^{2} + 1^{2}</p>
+      <p>= 2,440 =  SSE.</p>
+      <p>The result, SSE, is the sum of squared errors.</p>
+      <p>Next, calculate <m>s</m>, the standard deviation of all the <m>y</m> – <m>ŷ</m> = <m>ε</m>-values where <m>n</m> = the total number of data points.</p>
+      <p>The calculation is <m>s=\sqrt{\text{SSE}n-2}</m>.</p>
+      <p>For the third exam/final exam example, <m>s=\sqrt{244011-2}=16.47.</m></p>
+      <p>Next, multiply <m>s</m> by 2:
+<nbsp/>(2)(16.47) = 32.94
+<nbsp/>32.94 is two standard deviations away from the mean of the <m>y</m> – <m>ŷ</m> values.</p>
+      <p>If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance is at least 2<m>s</m>, then we would consider the data point to be too far from the line of best fit. We call that point a <term>potential outlier</term>.</p>
+      <p>For the example, if any of the |<m>y</m> – <m>ŷ</m>| values are <em>at least</em> 32.94, the corresponding (<m>x</m>, <m>y</m>) data point is a potential outlier.</p>
+      <p>For the third exam/final exam example, all the |<m>y</m> – <m>ŷ</m>| values are less than 31.29 except for the first one, which is 35:</p>
+      <p>35 &gt; 31.29. That is, |<m>y</m> – <m>ŷ</m>| ≥ (2)(<m>s</m>).</p>
+      <p>The point that corresponds to |<m>y</m> – <m>ŷ</m>| = 35 is (65, 175). <em>Therefore, the data point (65, 175) is a potential outlier.</em> For this example, we will delete it. (Remember, we do not always delete an outlier.)
+
+Note
+When outliers are deleted, the researcher should either record that data were deleted, and why, or the researcher should provide results both with and without the deleted data. If data are erroneous and the correct values are known (e.g., student 1 actually scored a 70 instead of a 65), then this correction can be made to the data.<nbsp/><nbsp/>The next step is to compute a new best-fit line using the 10 remaining points. The new line of best fit and the correlation coefficient are</p>
+      <p><m>ŷ</m> = –355.19 + 7.39<m>x</m> and <m>r</m> = .9121.</p>
+      <example xml:id="element-824">
+        <statement>
+          <p>Using this new line of best fit (based on the remaining 10 data points  in the <url href="m79689">third exam/final exam example</url>), what would a student who receives a 73 on the third exam expect to receive on the final exam? Is this the same as the prediction made using the original line?</p>
+        </statement>
+        <solution>
+          <p>Using the new line of best fit, <m>ŷ</m> = –355.19 + 7.39(73) = 184.28. A student who scored 73 points on the third exam would expect to earn 184 points on the final exam.
+<nbsp/><nbsp/>
+The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so the prediction using the new line with the outlier eliminated differs from the original prediction.</p>
+        </solution>
+      </example>
+      <exercise xml:id="eip-846">
+        <statement>
+          <p>The data points for the graph from the <url href="m79689">third exam/final exam example</url> are as follows: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), and (7, 21). Remove the outlier and recalculate the line of best fit. Find the value of <m>ŷ</m> when <m>x</m> = 10.</p>
+        </statement>
+        <solution>
+          <p><m>ŷ</m> = 1.04 + 2.96<m>x</m> = 30.64.</p>
+        </solution>
+      </exercise>
+      <example xml:id="element-986">
+        <title>Note</title>
+        <statement>
+          <ol>
+            <li>Draw a scatter plot of the data.</li>
+            <li>Calculate the least-squares line. Write the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Draw the line on a scatter plot.</li>
+            <li>Find the correlation coefficient. Is it significant?</li>
+            <li>What is the average CPI for the year 1990?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>See .</li>
+            <li>Using our calculator, <m>ŷ</m> = 3204 + 1.662<m>x</m> is the equation of the line of best fit.</li>
+            <li>See .</li>
+            <li><m>r</m> = 0.8694. The number of data points is <m>n</m> = 14. Use the 95 Percent Critical Values of the Sample Correlation Coefficient table at the end of Chapter 12: In this case, <m>df</m> = 12. The corresponding critical values from the table are ±0.532. Since 0.8694 &gt; 0.532, <m>r</m> is significant. We can use the predicted regression line we found above to make the prediction for <m>x</m> = 1990.</li>
+            <li><m>ŷ</m> = 3204 + 1.662(1990) = 103.4 CPI.</li>
+          </ol>
+          <figure xml:id="eip-idp35936320">
+            <image source="media/fig-ch12_09_02.jpg" width="76%"/>
+          </figure>
+        </solution>
+      </example>
+      <exercise xml:id="eip-298">
+        <statement>
+          <p>The following table shows economic development measured in per capita income (PCINC).</p>
+          <ol>
+            <li>What are the independent and dependent variables?</li>
+            <li>Draw a scatter plot.</li>
+            <li>Use regression to find the line of best fit and the correlation coefficient.</li>
+            <li>Interpret the significance of the correlation coefficient.</li>
+            <li>Is there a linear relationship between the variables?</li>
+            <li>Find the coefficient of determination and interpret it.</li>
+            <li>What is the slope of the regression equation? What does it mean?</li>
+            <li>Use the line of best fit to estimate PCINC for 1900 and for 2000.</li>
+            <li>Determine whether there are any outliers.</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>a. The independent variable (<m>x</m>) is the year and the dependent variable (<m>y</m>) is the per capita income.</p>
+          <p>b.</p>
+          <p>c. <m>ŷ</m> = 18.61x – 34574; <m>r</m> = 0.9732</p>
+          <p>d. At <m>df</m> = 8, the critical value is 0.632. The <m>r</m>-value is significant because it is greater than the critical value.</p>
+          <p>e. There does appear to be a linear relationship between the variables.</p>
+          <p>f. The coefficient of determination is 0.947, which means that 94.7% of the variation in PCINC is explained by the variation in the years.</p>
+          <p>g. and h. The slope of the regression equation is 18.61, and it means that per capita income increases by $18.61 for each passing year. <m>ŷ</m> = 785 when the year is 1900, and <m>ŷ</m> = 2,646 when the year is 2000.</p>
+          <p>i. There do not appear to be any outliers.</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="eip-518">
+      <title>95 Percent Critical Values of the Sample Correlation Coefficient Table</title>
+      <table xml:id="eip-idm31993488">
+        <tabular>
+          <row><cell>Degrees of Freedom: <m>n</m> – 2</cell><cell>Critical Values: + and –</cell></row>
+          <row><cell>1</cell><cell>0.997</cell></row>
+          <row><cell>2</cell><cell>0.950</cell></row>
+          <row><cell>3</cell><cell>0.878</cell></row>
+          <row><cell>4</cell><cell>0.811</cell></row>
+          <row><cell>5</cell><cell>0.754</cell></row>
+          <row><cell>6</cell><cell>0.707</cell></row>
+          <row><cell>7</cell><cell>0.666</cell></row>
+          <row><cell>8</cell><cell>0.632</cell></row>
+          <row><cell>9</cell><cell>0.602</cell></row>
+          <row><cell>10</cell><cell>0.576</cell></row>
+          <row><cell>11</cell><cell>0.555</cell></row>
+          <row><cell>12</cell><cell>0.532</cell></row>
+          <row><cell>13</cell><cell>0.514</cell></row>
+          <row><cell>14</cell><cell>0.497</cell></row>
+          <row><cell>15</cell><cell>0.482</cell></row>
+          <row><cell>16</cell><cell>0.468</cell></row>
+          <row><cell>17</cell><cell>0.456</cell></row>
+          <row><cell>18</cell><cell>0.444</cell></row>
+          <row><cell>19</cell><cell>0.433</cell></row>
+          <row><cell>20</cell><cell>0.423</cell></row>
+          <row><cell>21</cell><cell>0.413</cell></row>
+          <row><cell>22</cell><cell>0.404</cell></row>
+          <row><cell>23</cell><cell>0.396</cell></row>
+          <row><cell>24</cell><cell>0.388</cell></row>
+          <row><cell>25</cell><cell>0.381</cell></row>
+          <row><cell>26</cell><cell>0.374</cell></row>
+          <row><cell>27</cell><cell>0.367</cell></row>
+          <row><cell>28</cell><cell>0.361</cell></row>
+          <row><cell>29</cell><cell>0.355</cell></row>
+          <row><cell>30</cell><cell>0.349</cell></row>
+          <row><cell>40</cell><cell>0.304</cell></row>
+          <row><cell>50</cell><cell>0.273</cell></row>
+          <row><cell>60</cell><cell>0.250</cell></row>
+          <row><cell>70</cell><cell>0.232</cell></row>
+          <row><cell>80</cell><cell>0.217</cell></row>
+          <row><cell>90</cell><cell>0.205</cell></row>
+          <row><cell>100</cell><cell>0.195</cell></row>
+        </tabular>
+      </table>
+    </subsection>
+
+    <subsection xml:id="eip-604">
+      <title>References</title>
+      <p>Committee on Ways and Means, U.S. House of Representatives. (n.d.). Washington, DC: U.S. Department of Health and Human Services.</p>
+      <p>Microsoft Bookshelf. (n.d.).</p>
+      <p>Physicians Desk Reference Staff. (1990). <em>Physicians desk reference</em>. Ohio: Medical Economics Company.</p>
+      <p>U.S. Bureau of Labor Statistics. (n.d.). Retrieved from https://www.bls.gov/</p>
+    </subsection>
+
+    <subsection xml:id="eip-380">
+      <title>Chapter Review</title>
+      <p>To determine whether a point is an outlier, do one of the following:
+        Input the following equations into the TI 83, 83+, 84, or 84+ calculator:
+        <nbsp/><m>y_{1}=a+bx \\ y_{2}=a+bx+\text{2}s \\ y_{3}=a+bx-\text{2}s</m>where <m>s</m> is the standard deviation of the residuals.If any point is above <m>y</m>_{2} or below <m>y</m>_{3}, then the point is considered to be an outlier.
+
+        Use the residuals and compare their absolute values to 2<m>s</m>, where <m>s</m> is the standard deviation of the residuals. If the absolute value of any residual is greater than or equal to 2<m>s</m>, then the corresponding point is an outlier.
+
+        Note: The calculator function LinRegTTest (STATS, TESTS, LinRegTTest) calculates <m>s</m>.</p>
+    </subsection>
+
+    <subsection xml:id="eip-319">
+      <exercise xml:id="fs-id1170308842407">
+        <statement>
+          <p>Marcus states that all outliers are influential points. Is he correct? Explain.</p>
+        </statement>
+        <solution>
+          <p>No, he is not correct. An outlier is only an influential point if it significantly impacts the slope of the least-squares regression line and the correlation coefficient, <m>r</m>. If omission of this data point from the calculation of the regression line does not show much impact on the slope or <m>r</m>-value, then the outlier is not considered an influential point. For different reasons, it still may be determined that the data point must be omitted from the data set.</p>
+        </solution>
+      </exercise>
+      <p><em>Use the following information to answer the next four exercises.</em> The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.</p>
+      <figure xml:id="fs-idp84808448">
+        <image source="media/CNX_Stats_C012_M09_item001.jpg" width="70%"/>
+      </figure>
+      <exercise xml:id="eip-984">
+        <statement>
+          <p>Do there appear to be any outliers?</p>
+        </statement>
+        <solution>
+          <p>Yes. There appears to be an outlier at (6, 58).</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-237">
+        <statement>
+          <p>A point is removed and the line of best fit is recalculated. The new correlation coefficient is 0.98. Does the point appear to have been an outlier? Why?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-430">
+        <statement>
+          <p>What effect did the potential outlier have on the line of best fit?</p>
+        </statement>
+        <solution>
+          <p>The potential outlier flattened the slope of the line of best fit because it was below the data set. It made the line of best fit less accurate as a predictor for the data.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-955">
+        <statement>
+          <p>Are you more or less confident in the predictive ability of the new line of best fit?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-930">
+        <statement>
+          <p>The sum of squared errors (SSE) for a data set of 18 numbers is 49. What is the standard deviation?</p>
+        </statement>
+        <solution>
+          <p><m>s</m> = 1.75</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-7">
+        <statement>
+          <p>The standard deviation for the SSE for a data set is 9.8. What is the cutoff for the vertical distance that a point can be from the line of best fit to be considered an outlier?</p>
+        </statement>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm86899200">
+      <title>Homework</title>
+      <exercise xml:id="fs-id1170308387336">
+        <statement>
+          <p>Given the information in Table 12.30, which represents the relationship between final exam math grades and final exam history grades, decide whether point (56, 95) is an influential point. Explain how you arrived at your decision. Show all work.</p>
+        </statement>
+        <solution>
+          <p>Using LinRegTTest, the output for the original least-squares regression line is <m>y=26.14+0.7539x</m> and <m>r=0.6657\text{.}</m></p>
+          <p>The output for the new least-squares regression line, after omitting the outlier of (56, 95), is <m>ŷ=6.36+1.0045x</m> and <m>r=0.9757\text{.}</m></p>
+          <p>The slope of the new line is quite a bit different from the slope of the original least-squares regression line, but the larger change is shown in the <m>r</m>-values, such that the new line has an <m>r</m>-value that has increased to a value that is almost equal to one.</p>
+          <p>Thus, it may be stated that the outlier (56, 95) is also an influential point.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-957">
+        <statement>
+          <p>In Table 12.31, the height (sidewalk to roof) of notable tall buildings in America is compared with the number of stories of the building (beginning at street level).</p>
+          <ol>
+            <li>Using <em>stories</em> as the independent variable and <em>height</em> as the dependent variable, make a scatter plot of the data.</li>
+            <li>Does it appear from inspection that there is a relationship between the variables?</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. Is it significant?</li>
+            <li>Find the estimated heights for a building that has 32 stories and for a building that has 94 stories.</li>
+            <li>Based on the data in , is there a linear relationship between the number of stories in tall buildings and the height of the buildings?</li>
+            <li>Are there any outliers in the data? If so, which point(s)?</li>
+            <li>What is the estimated height of a building with six stories? Does the least-squares line give an accurate estimate of height? Explain why or why not.</li>
+            <li>Based on the least-squares line, adding an extra story is predicted to add about how many feet to a building?</li>
+            <li>What is the slope of the least-squares (best-fit) line?  Interpret the slope.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp218993792">
+        <statement>
+          <p>Ornithologists (scientists who study birds) tag sparrow hawks in 13 different colonies to study their population. They gather data for the percentage of new sparrow hawks in each colony and the percentage of those that have returned from migration.</p>
+          <p>Percent return: 74, 66, 81, 52, 73, 62, 52, 45, 62, 46, 60, 46, 38
+<nbsp/>Percent new: 5, 6, 8, 11, 12, 15, 16, 17, 18, 18, 19, 20, 20</p>
+          <ol>
+            <li>Enter the data into a calculator and make a scatter plot.</li>
+            <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</li>
+            <li>Explain what the slope and <m>y</m>-intercept of the regression line tell us.</li>
+            <li>How well does the regression line fit the data? Explain your response.</li>
+            <li>Which point has the largest residual? Explain what the residual means in context. Is this point an outlier? An influential point? Explain.</li>
+            <li>An ecologist wants to predict how many birds will join another colony of sparrow hawks to which 70 percent of the adults from the previous year have returned. What is the prediction?</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>a. and b. Check student solution.</p>
+          <p>c. The slope of the regression line is 0.3031 with a <m>y</m>-intercept of 31.93. In context, the <m>y</m>-intercept indicates that when there are no returning sparrow hawks, there will be almost 32 percent new sparrow hawks, which doesn’t make sense, because if there are no returning birds, then the new percentage would have to be 100% (this is an example of why we do not extrapolate). The slope tells us that for each percentage increase in returning birds, the percentage of new birds in the colony decreases by 30.3 percent.</p>
+          <p>d. If we examine <m>r</m>_{2}, we see that only 57.52 percent of the variation in the percentage of new birds is explained by the model and the correlation coefficient, <m>r</m> = .7584 only indicates a somewhat strong correlation between returning and new percentages.</p>
+          <p>e. The ordered pair (66, 6) generates the largest residual of 6.0. This means that when the observed return percentage is 66 percent, our observed new percentage, 6 percent, is almost 6 percent less than the predicted new value of 11.98 percent. If we remove this data pair, we see only an adjusted slope of 0.2789 and an adjusted intercept of 30.9816. In other words, although these data generate the largest residual, it is not an outlier, nor is the data pair an influential point.</p>
+          <p>f. If there are 70 percent returning birds, we would expect to see <m>y</m> = 0.2789(70) + 30.9816 = 0.114 or 11.4 percent new birds in the colony.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp82285104">
+        <statement>
+          <p>The following table shows data on average per capita coffee consumption and death rate from heart disease in a random sample of 10 countries.</p>
+          <ol>
+            <li>Enter the data into a calculator and make a scatter plot.</li>
+            <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</li>
+            <li>Explain what the slope and <m>y</m>-intercept of the regression line tell us.</li>
+            <li>How well does the regression line fit the data? Explain your response.</li>
+            <li>Which point has the largest residual? Explain what the residual means in context. Is this point an outlier? An influential point? Explain.</li>
+            <li>Do the data provide convincing evidence that there is a linear relationship between the amount of coffee consumed and the heart disease death rate? Carry out an appropriate test at a significance level of 0.05 to help answer this question.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp2751904">
+        <statement>
+          <p>The following table consists of one student athlete’s time (in minutes) to swim 2,000 yards and the student’s heart rate (beats per minute) after swimming on a random sample of 10 days.</p>
+          <ol>
+            <li>Enter the data into a calculator and make a scatter plot.</li>
+            <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</li>
+            <li>Explain what the slope and <m>y</m>-intercept of the regression line tell us.</li>
+            <li>How well does the regression line fit the data? Explain your response.</li>
+            <li>Which point has the largest residual? Explain what the residual means in context. Is this point an outlier? An influential point? Explain.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>Check student solution.</li>
+            <li>Check student solution.</li>
+            <li>We have a slope of –1.4946 with a <m>y</m>-intercept of 193.88. The slope, in context, indicates that for each additional minute added to the swim time, the heart rate decreases by 1.5 beats per minute. If the student is not swimming at all, the <m>y</m>-intercept indicates that his heart rate will be 193.88 beats per minute. Although the slope has meaning (the longer it takes to swim 2000 m, the less effort the heart puts out), the <m>y</m>-intercept does not make sense. If the athlete is not swimming (resting), then his heart rate should be very low.</li>
+            <li>Because only 1.5 percent of the heart rate variation is explained by this regression equation, we must conclude that this association is not explained with a linear relationship.</li>
+            <li>Point (34.72, 124) generates the largest residual: –11.82. This means that our observed heart rate is almost 12 beats less than our predicted rate of 136 beats per minute. When this point is removed, the slope becomes 2.953, with the <m>y</m>-intercept changing to 247.1616. Although the linear association is still very weak, we see that the removed data pair can be considered an influential point in the sense that the <m>y</m>-intercept becomes more meaningful.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp111074400">
+        <statement>
+          <p>A researcher is investigating whether population impacts homicide rate. He uses demographic data from Detroit, Michigan, to compare homicide rates and the population.</p>
+          <ol>
+            <li>Use a calculator to construct a scatter plot of the data. What is the independent variable? Why?</li>
+            <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot.</li>
+            <li>Discuss what the following mean in context:
+The slope of the regression equation
+The <m>y</m>-intercept of the regression equation
+The correlation coefficient, <m>r</m>
+The coefficient of determination, <m>r</m>^{2}</li>
+            <li>The slope of the regression equation</li>
+            <li>The <m>y</m>-intercept of the regression equation</li>
+            <li>The correlation coefficient, <m>r</m></li>
+            <li>The coefficient of determination, <m>r</m>^{2}</li>
+            <li>Do the data provide convincing evidence that there is a linear relationship between population size and homicide rate? Carry out an appropriate test at a significance level of 0.05 to help answer this question.</li>
+          </ol>
+          <ol>
+            <li>The slope of the regression equation</li>
+            <li>The <m>y</m>-intercept of the regression equation</li>
+            <li>The correlation coefficient, <m>r</m></li>
+            <li>The coefficient of determination, <m>r</m>^{2}</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm81379472">
+        <statement>
+          <p>Use the data in the Table 12.35 to determine the linear regression line equation with the outliers removed. Is there a linear correlation for the data set with outliers removed? Justify your answer.</p>
+        </statement>
+        <solution>
+          <p>If we remove the two service academies (the tuition is $0.00), we construct a new regression equation of <m>y</m> = –0.0009<m>x</m> + 160, with a correlation coefficient of 0.71397 and a coefficient of determination of 0.50976. This allows us to say there is a fairly strong linear association between tuition costs and salaries if the service academies are removed from the data set.</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm85401472">
+      <title>Bring It Together</title>
+      <exercise xml:id="element-793">
+        <statement>
+          <p>The average number of people in a family who attended college for various years is given in .</p>
+          <ol>
+            <li>Using <em>year</em> as the independent variable and <em>number of family members attending college</em> as the dependent variable, draw a scatter plot of the data.</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Does the <m>y</m>-intercept, <m>a</m>, have any meaning here?</li>
+            <li>Find the correlation coefficient. Is it significant?</li>
+            <li>Pick two years between 1969 and 1991 and find the estimated number of family members attending college.</li>
+            <li>Based on the data in , is there a linear relationship between the year and the average number of family members attending college?</li>
+            <li>Using the least-squares line, estimate the number of family members attending college for 1960 and 1995. Does the least-squares line give an accurate estimate for those years? Explain why or why not.</li>
+            <li>Are there any outliers in the data?</li>
+            <li>What is the estimated average number of family members attending college for 1986? Does the least-squares line give an accurate estimate for that year? Explain why or why not.</li>
+            <li>What is the slope of the least-squares (best-fit) line?  Interpret the slope.</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>c. No. The <m>y</m>-intercept would occur at year 0, which doesn’t exist.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-402">
+        <statement>
+          <p>The percent of female wage and salary workers who are paid hourly rates is given in  for the years 1979 to 1992.</p>
+          <ol>
+            <li>Using <em>year</em> as the independent variable and <em>percent of workers paid hourly rates</em> as the dependent variable, draw a scatter plot of the data.</li>
+            <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
+            <li>Does the <m>y</m>-intercept, <m>a</m>, have any meaning here?</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. Is it significant?</li>
+            <li>Find the estimated percentages for 1991 and 1988.</li>
+            <li>Based on the data, is there a linear relationship between the year and the percentage of female wage and salary earners who are paid hourly rates?</li>
+            <li>Are there any outliers in the data?</li>
+            <li>What is the estimated percentage for the year 2050? Does the least-squares line give an accurate estimate for that year? Explain why or why not.</li>
+            <li>What is the slope of the least-squares (best-fit) line? Interpret the slope.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>Check student's solution.</li>
+            <li>Yes.</li>
+            <li>No, the <m>y</m>-intercept would occur at year 0, which doesnt exist.</li>
+            <li><m>ŷ</m> = −266.8863 + 0.1656<m>x</m>.</li>
+            <li>0.9448, yes.</li>
+            <li>62.8233, 62.3265.</li>
+            <li>Yes.</li>
+            <li>No, (1987, 62.7).</li>
+            <li>72.5937, no.</li>
+            <li>Slope = 0.1656. As the year increases by one, the percent of workers paid hourly rates tends to increase by 0.1656.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <p><nbsp/><em>Use the following information to answer the next two exercises.</em> The cost of a leading liquid laundry detergent in different sizes is given in .</p>
+      <table xml:id="id10105430">
+        <tabular>
+          <row><cell>Size (ounces)</cell><cell>Cost ($)</cell><cell>Cost per Ounce</cell></row>
+          <row><cell>16</cell><cell>3.99</cell><cell></cell></row>
+          <row><cell>32</cell><cell>4.99</cell><cell></cell></row>
+          <row><cell>64</cell><cell>5.99</cell><cell></cell></row>
+          <row><cell>200</cell><cell>10.99</cell><cell></cell></row>
+        </tabular>
+      </table>
+      <exercise xml:id="element-454">
+        <statement>
+          <ol>
+            <li>Using <em>size</em> as the independent variable and <em>cost</em> as the dependent variable, draw a scatter plot.</li>
+            <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. Is it significant?</li>
+            <li>If the laundry detergent were sold in a 40 oz. size, what is the estimated cost?</li>
+            <li>If the laundry detergent were sold in a 90 oz. size, what is the estimated cost?</li>
+            <li>Does it appear that a line is the best way to fit the data? Why or why not?</li>
+            <li>Are there any outliers in the given data?</li>
+            <li>Is the least-squares line valid for predicting what a 300 oz. size of the laundry detergent would cost? Why or why not?</li>
+            <li>What is the slope of the least-squares (best-fit) line? Interpret the slope.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-952">
+        <statement>
+          <ol>
+            <li>Complete  for the cost per ounce of the different sizes of laundry detergent.</li>
+            <li>Using <em>size</em> as the independent variable and <em>cost per ounce</em> as the dependent variable, draw a scatter plot of the data.</li>
+            <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. Is it significant?</li>
+            <li>If the laundry detergent were sold in a 40 oz. size, what is the estimated cost per ounce?</li>
+            <li>If the laundry detergent were sold in a 90 oz. size, what is the estimated cost per ounce?</li>
+            <li>Does it appear that a line is the best way to fit the data? Why or why not?</li>
+            <li>Are there any outliers in the the data?</li>
+            <li>Is the least-squares line valid for predicting what a 300 oz. size of the laundry detergent would cost per ounce? Why or why not?</li>
+            <li>What is the slope of the least-squares (best-fit) line? Interpret the slope.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>Size (ounces)
+Cost ($)
+Cost per ounce
+
+
+
+
+16
+3.99
+24.94
+
+
+32
+4.99
+15.59
+
+
+64
+5.99
+9.36
+
+
+200
+10.99
+5.50</li>
+            <li>Check student solution.</li>
+            <li>There is a linear relationship for the sizes 16 through 64, but that linear trend does not continue to the 200-oz size.</li>
+            <li><m>ŷ</m> =  20.2368 – 0.0819<m>x</m></li>
+            <li><m>r</m> = –.8086</li>
+            <li>40-oz: 16.96 cents/oz</li>
+            <li>90-oz: 12.87 cents/oz</li>
+            <li>The relationship is not linear; the least-squares line is not appropriate.</li>
+            <li>There are no outliers.</li>
+            <li>No. You would be extrapolating. The 300-oz size is outside the range of <m>x</m>.</li>
+            <li>X = –0.08194. For each additional ounce in size, the cost per ounce decreases by 0.082 cents.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-574">
+        <statement>
+          <p>According to a flyer published by Prudential Insurance Company, the costs of approximate probate fees and taxes for selected net taxable estates are as follows:</p>
+          <ol>
+            <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
+            <li>Draw a scatter plot of the data.</li>
+            <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. Is it significant?</li>
+            <li>Find the estimated total cost for a net taxable estate of $1,000,000. Find the cost for $2,500,000.</li>
+            <li>Does it appear that a line is the best way to fit the data? Why or why not?</li>
+            <li>Are there any outliers in the data?</li>
+            <li>Based on these results, what would be the probate fees and taxes for an estate that does not have any assets?</li>
+            <li>What is the slope of the least-squares (best-fit) line? Interpret the slope.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-911">
+        <statement>
+          <p>The following are advertised sale prices of color televisions at Anderson’s:</p>
+          <ol>
+            <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
+            <li>Draw a scatter plot of the data.</li>
+            <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. Is it significant?</li>
+            <li>Find the estimated sale price for a 32-inch television. Find the cost for a 50-inch television.</li>
+            <li>Does it appear that a line is the best way to fit the data? Why or why not?</li>
+            <li>Are there any outliers in the data?</li>
+            <li>What is the slope of the least-squares (best-fit) line? Interpret the slope.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>Size is <m>x</m>, the independent variable, and price is <m>y</m>, the dependent variable.</li>
+            <li>Check student solution.</li>
+            <li>The relationship does not appear to be linear.</li>
+            <li><m>ŷ</m> = –745.252 + 54.75569<m>x</m>.</li>
+            <li><m>r</m> = .8944 and yes, it is significant.</li>
+            <li>32-inch: $1006.93, 50-inch: $1992.53.</li>
+            <li>No, the relationship does not appear to be linear. However, <m>r</m> is significant.</li>
+            <li>No, the 60-inch TV.</li>
+            <li>For each additional inch, the price increases by $54.76.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-188">
+        <statement>
+          <p>shows the average heights for American boys in 1990.</p>
+          <ol>
+            <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
+            <li>Draw a scatter plot of the data.</li>
+            <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. Is it significant?</li>
+            <li>Find the estimated average height for a 1-year-old. Find the estimated average height for an 11-year-old.</li>
+            <li>Does it appear that a line is the best way to fit the data? Why or why not?</li>
+            <li>Are there any outliers in the data?</li>
+            <li>Use the least-squares line to estimate the average height for a 62-year-old man. Do you think that your answer is reasonable? Why or why not?</li>
+            <li>What is the slope of the least-squares (best-fit) line? Interpret the slope.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-133">
+        <statement>
+          <p>We are interested in whether there is a relationship between the ranking of a state and the area of the state.</p>
+          <ol>
+            <li>What are the independent and dependent variables?</li>
+            <li>What do you think the scatter plot will look like? Make a scatter plot of the data.</li>
+            <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
+            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+            <li>Find the correlation coefficient. What does it imply about the significance of the relationship?</li>
+            <li>Find the estimated areas for Alabama and for Colorado. Are they close to the actual areas?</li>
+            <li>Use the two points in Part F to plot the least-squares line on your graph from Part B.</li>
+            <li>Does it appear that a line is the best way to fit the data? Why or why not?</li>
+            <li>Are there any outliers?</li>
+            <li>Use the least-squares line to estimate the area of a new state that enters the Union. Can the least-squares line be used to predict it? Why or why not?</li>
+            <li>Delete <em>Hawaii</em> and substitute <em>Alaska</em> for it. Alaska is a state with an area of 656,424 square miles.</li>
+            <li>Calculate the new least-squares line.</li>
+            <li>Find the estimated area for Alabama. Is it closer to the actual area with this new least-squares line or with the previous one that included Hawaii? Why do you think that’s the case?</li>
+            <li>Do you think that, in general, newer states are larger than the original states?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>Rank is the independent variable and area is the dependent variable.</li>
+            <li>Check student solution.</li>
+            <li>There appears to be a linear relationship, with one outlier.</li>
+            <li><m>ŷ</m> (area) = 24177.06 + 1010.478<m>x</m></li>
+            <li><m>r</m> = .50047. <m>r</m> is not significant, so there is no relationship between the variables.</li>
+            <li>Alabama: 46,407.576 square miles, Colorado: 62,575.224 square miles.</li>
+            <li>The Alabama estimate is closer than the Colorado estimate.</li>
+            <li>If the outlier is removed, there is a linear relationship.</li>
+            <li>There is one outlier (Hawaii).</li>
+            <li>rank 51: 75,711.4 square miles, no.</li>
+            <li>Alabama
+7
+1819
+22
+52,423
+
+
+
+
+Colorado
+8
+1876
+38
+104,100
+
+
+Hawaii
+6
+1959
+50
+10,932
+
+
+Iowa
+4
+1846
+29
+56,276
+
+
+Maryland
+8
+1788
+7
+12,407
+
+
+Missouri
+8
+1821
+24
+69,709
+
+
+New Jersey
+9
+1787
+3
+8,722
+
+
+Ohio
+4
+1803
+17
+44,828
+
+
+South Carolina
+13
+1788
+8
+32,008
+
+
+Utah
+4
+1896
+45
+84,904
+
+
+Wisconsin
+9
+1848
+30
+65,499</li>
+            <li><m>ŷ</m> = –87065.3 + 7828.532<m>x</m>.</li>
+            <li>Alabama: 85,162.404; the prior estimate was closer. Alaska is an outlier.</li>
+            <li>Yes, with the exception of Hawaii.</li>
+          </ol>
+        </solution>
+      </exercise>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-regression-distance">
     <title>Regression (Distance from School)</title>
-    <p>
-      Content to be added from module m79695.
-    </p>
+
+
+    <subsection xml:id="fs-id1164565346742">
+      <note xml:id="fs-id1172772301748">
+        <title>Regression (Distance From School)</title>
+        <ul>
+          <li>The student will calculate and construct the line of best fit between two variables.</li>
+          <li>The student will evaluate the relationship between two variables to determine whether that relationship is significant.</li>
+        </ul>
+        <p>Collect the DataUse eight members of your class for the sample. Collect bivariate data (distance an individual lives
+from school, the cost of supplies for the current term).</p>
+        <ol>
+          <li>Complete the table.
+
+
+
+
+
+
+
+Distance from School
+Cost of Supplies This Term</li>
+          <li>Which variable should be the dependent variable and which should be the independent
+variable? Why?</li>
+          <li>Graph <em>distance</em> vs. <em>cost</em>. Plot the points on the graph. Label both axes with
+words. Scale both axes.</li>
+        </ol>
+        <p>Analyze the DataEnter your data into a calculator or computer. Write the linear equation, rounding to four decimal places.</p>
+        <ol>
+          <li>Calculate the following:
+<m>a</m> = ______
+<m>b</m> = ______
+correlation = ______
+<m>n</m> = ______
+equation: <m>ŷ</m> = ______
+Is the correlation significant? Why or why not? (Answer in one to three complete sentences.)</li>
+          <li><m>a</m> = ______</li>
+          <li><m>b</m> = ______</li>
+          <li>correlation = ______</li>
+          <li><m>n</m> = ______</li>
+          <li>equation: <m>ŷ</m> = ______</li>
+          <li>Is the correlation significant? Why or why not? (Answer in one to three complete sentences.)</li>
+          <li>Supply an answer for the following scenarios:
+
+			For a person who lives eight miles from campus, predict the total cost of supplies this term.
+			For a person who lives 80 miles from campus, predict the total cost of supplies this term.</li>
+          <li>For a person who lives eight miles from campus, predict the total cost of supplies this term.</li>
+          <li>For a person who lives 80 miles from campus, predict the total cost of supplies this term.</li>
+          <li>Obtain the graph on a calculator or computer. Sketch the regression line.</li>
+        </ol>
+        <ol>
+          <li>Answer each question in complete sentences.
+
+			Does the line seem to fit the data? Why?
+			What does the correlation imply about the relationship between distance and cost?</li>
+          <li>Does the line seem to fit the data? Why?</li>
+          <li>What does the correlation imply about the relationship between distance and cost?</li>
+          <li>Are there any outliers? If so, which point is an outlier?</li>
+          <li>Should the outlier, if it exists, be removed? Why or why not?</li>
+        </ol>
+      </note>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-regression-review">
     <title>Linear Regression and Correlation: Review</title>
-    <p>
-      Content to be added from module m79697.
-    </p>
+
+
+    <subsection xml:id="fs-id1164566269287">
+      <note xml:id="fs-id1172137875645">
+        <title>Regression (Textbook Cost)</title>
+        <ul>
+          <li>The student will calculate and construct the line of best fit between two variables.</li>
+          <li>The student will evaluate the relationship between two variables to determine whether that relationship is significant.</li>
+        </ul>
+        <p>Collect the Data
+Survey 10 textbooks. Collect bivariate data (number of pages in a textbook, the cost of the textbook).</p>
+        <ol>
+          <li>Complete the table.
+
+
+
+					
+					
+						
+							Number of Pages
+							Cost of Textbook</li>
+          <li>Which variable should be the dependent variable and which should be the independent
+variable? Why?</li>
+          <li>Graph <em>pages vs. cost</em>. Plot the points on the graph in Analyze the Data. Label both axes with words. Scale both axes.</li>
+        </ol>
+        <p>Analyze the Data
+Enter your data into a calculator or computer.
+Write the linear equation, rounding to four decimal places.</p>
+        <ol>
+          <li>Calculate the following:
+<m>a</m> = ______
+<m>b</m> = ______
+correlation = ______
+<m>n</m> = ______
+equation: <m>y</m> = ______
+Is the correlation significant? Why or why not? (Answer in complete sentences.)</li>
+          <li><m>a</m> = ______</li>
+          <li><m>b</m> = ______</li>
+          <li>correlation = ______</li>
+          <li><m>n</m> = ______</li>
+          <li>equation: <m>y</m> = ______</li>
+          <li>Is the correlation significant? Why or why not? (Answer in complete sentences.)</li>
+          <li>Supply an answer for the following scenarios:
+
+For a textbook with 400 pages, predict the cost.
+For a textbook with 600 pages, predict the cost.</li>
+          <li>For a textbook with 400 pages, predict the cost.</li>
+          <li>For a textbook with 600 pages, predict the cost.</li>
+          <li>Obtain the graph on a calculator or computer. Sketch the regression line.</li>
+        </ol>
+        <ol>
+          <li>Answer each question in complete sentences.
+
+Does the line seem to fit the data? Why?
+What does the correlation imply about the relationship between the number of pages and the cost?</li>
+          <li>Does the line seem to fit the data? Why?</li>
+          <li>What does the correlation imply about the relationship between the number of pages and the cost?</li>
+          <li>Are there any outliers? If so, which point is an outlier?</li>
+          <li>Should the outlier, if it exists, be removed? Why or why not?</li>
+        </ol>
+      </note>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-regression-practice">
     <title>Linear Regression and Correlation: Practice</title>
-    <p>
-      Content to be added from module m79699.
-    </p>
-  </section>
 
-  <conclusion>
-    <p>
-      This chapter has covered linear regression and correlation analysis.
-    </p>
-  </conclusion>
+
+    <subsection xml:id="fs-id1164565598597">
+      <note xml:id="fs-id1170235891735">
+        <title>Regression (Fuel Efficiency)</title>
+        <ul>
+          <li>The student will calculate and construct the line of best fit between two variables.</li>
+          <li>The student will evaluate the relationship between two variables to determine whether that relationship is significant.</li>
+        </ul>
+        <p>Collect the DataFind a reputable source that provides information on total fuel efficiency (in miles per gallon) and weight (in pounds) of new cars with an automatic transmission. You will use these data to determine the relationship, if any, between the fuel efficiency of a car and its weight.</p>
+        <ol>
+          <li>Using your random-number generator, select 20 cars randomly from the list and record their weight and fuel efficiency into .
+
+
+
+
+
+
+
+
+Weight
+Fuel Efficiency</li>
+          <li>Which variable is the dependent variable and which is the independent
+variable? Why?</li>
+          <li>By hand, draw a scatter plot of <em>weight vs. fuel efficiency</em>. Plot the points on graph paper.
+Label both axes with words. Scale both axes accurately.</li>
+        </ol>
+        <p>Analyze the Data
+Enter your data into a calculator or computer. Write the linear equation, rounding to four decimal places.</p>
+        <ol>
+          <li>Calculate the following:
+
+<m>a</m> = ______
+<m>b</m> = ______
+correlation = ______
+<m>n</m> = ______
+equation: <m>ŷ</m> = ______</li>
+          <li><m>a</m> = ______</li>
+          <li><m>b</m> = ______</li>
+          <li>correlation = ______</li>
+          <li><m>n</m> = ______</li>
+          <li>equation: <m>ŷ</m> = ______</li>
+          <li>Obtain a graph of the regression line on a calculator. Sketch the regression line on the
+same axes as your scatter plot.</li>
+        </ol>
+        <ol>
+          <li>Is the correlation significant? Explain how you determined this in complete sentences.</li>
+          <li>Is the relationship a positive one or a negative one? Explain how you can tell and what
+this means in terms of weight and fuel efficiency.</li>
+          <li>In one or two complete sentences, what is the practical interpretation of the slope of the least-squares line in terms of fuel efficiency and weight?</li>
+          <li>For a car that weighs 4,000 pounds, predict its fuel efficiency. Include units.</li>
+          <li>Can we predict the fuel efficiency of a car that weighs 10,000 pounds using the least-squares line? Explain why or why not.</li>
+          <li>Answer each question in complete sentences.
+
+Does the line seem to fit the data? Why or why not?
+What does the correlation imply about the relationship between fuel efficiency and
+weight of a car? Is this what you expected?</li>
+          <li>Does the line seem to fit the data? Why or why not?</li>
+          <li>What does the correlation imply about the relationship between fuel efficiency and
+weight of a car? Is this what you expected?</li>
+          <li>Are there any outliers? If so, which point is an outlier?</li>
+        </ol>
+      </note>
+    </subsection>
+
+  </section>
 </chapter>
