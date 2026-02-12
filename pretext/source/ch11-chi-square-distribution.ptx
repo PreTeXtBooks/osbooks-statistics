@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<chapter xml:id="ch11-chi-square-distribution" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version='1.0' encoding='UTF-8'?>
+<chapter xml:id="ch11-chi-square-distribution">
   <title>The Chi-Square Distribution</title>
 
   <section xml:id="sec-chi-square-intro">
@@ -7,7 +7,7 @@
 
     <figure xml:id="fs-idm45331472">
       <caption>The chi-square distribution can be used to find relationships between two things, like grocery prices at different stores. (credit: Pete/flickr)</caption>
-      <image source="media/CNX_Stats_C11_CO.jpg" width="100%"/>
+      <image source="media/CNX_Stats_C11_CO.jpg" width="100%" />
     </figure>
     <note xml:id="fs-idm151065040">
       <title>Chapter Objectives</title>
@@ -30,7 +30,7 @@ The test of independence, which determines if events are independent, such as in
 The test of a single variance, which tests variability, such as in the coffee example</p>
     <note xml:id="id17641525">
       <title>NOTE</title>
-      <p>Though the chi-square distribution depends on calculators or computers for most of the calculations, there is a table available (see <url href="m79717"></url>). TI-83+ and TI-84 calculator instructions are included in the text.</p>
+      <p>Though the chi-square distribution depends on calculators or computers for most of the calculations, there is a table available (see <url href="m79717" />). TI-83+ and TI-84 calculator instructions are included in the text.</p>
     </note>
     <note xml:id="fs-idm94608208">
       <title>Collaborative Classroom Exercise</title>
@@ -43,7 +43,7 @@ The test of a single variance, which tests variability, such as in the coffee ex
 
     <p>The notation for the <term>chi-square distribution</term> is</p>
     <me>\chi\sim\chi_{df}^{2}</me>
-    <p><nbsp/>where <m>df</m> = degrees of freedom, which depends on how chi-square is being used. If you want to practice calculating chi-square probabilities then use <m>df</m> = <m>n</m> – 1. The degrees of freedom for the three major uses are calculated differently.</p>
+    <p><nbsp />where <m>df</m> = degrees of freedom, which depends on how chi-square is being used. If you want to practice calculating chi-square probabilities then use <m>df</m> = <m>n</m> – 1. The degrees of freedom for the three major uses are calculated differently.</p>
     <p>For the <em>χ^{2}</em> distribution, the population mean is <m>μ</m> = <m>df</m>, and the population standard deviation is <m>\sigma=\sqrt{2(df)}</m>.</p>
     <p>The random variable is shown as <em>χ^{2}</em>, but it may be any uppercase letter.</p>
     <p>The random variable for a chi-square distribution with <m>k</m> degrees of freedom is the sum of <m>k</m> independent, squared standard normal variables is</p>
@@ -82,7 +82,7 @@ The test of a single variance, which tests variability, such as in the coffee ex
       </statement>
       <solution>
         <p>a. No. Notice that the expected number of absences for the 12+ entry is less than five; it is two. Combine that group with the 9–11 group to create new tables where the number of students for each entry is at least five. The new results are in  and .
-<nbsp/>
+<nbsp />
 
 
 
@@ -139,20 +139,17 @@ The test of a single variance, which tests variability, such as in the coffee ex
     5</p>
       </solution>
     </example>
-    <note xml:id="fs-idm289894560">
-      <title>Try It</title>
-      <exercise xml:id="eip-31">
-        <statement>
+    <exercise xml:id="eip-31">
+        <title>Try It</title><statement>
           <p>A factory manager needs to understand how many products are defective versus how many are produced. The number of expected defects is listed in .</p>
           <p>A random sample was taken to determine the actual number of defects.  shows the results of the survey.</p>
           <p>State the null and alternative hypotheses needed to conduct a goodness-of-fit test, and state the degrees of freedom.</p>
         </statement>
         <solution>
           <p><em>H_{0}</em>:The number of defaults fits expectations.</p>
-          <p><em>H_{a}</em>:The number of defaults does not fit expectations.<nbsp/><m>df</m> = 4</p>
+          <p><em>H_{a}</em>:The number of defaults does not fit expectations.<nbsp /><m>df</m> = 4</p>
         </solution>
       </exercise>
-    </note>
     <example xml:id="element-962">
       <title>Day of the Week Employees Were Most Absent</title>
       <statement>
@@ -181,7 +178,7 @@ The test of a single variance, which tests variability, such as in the coffee ex
         </note>
         <p>Next, complete a graph like the following one with the proper labeling and shading. You should shade the right tail.</p>
         <figure xml:id="eip-idm102621328">
-          <image source="media/fig-ch11_04_01.jpg" width="76%"/>
+          <image source="media/fig-ch11_04_01.jpg" width="76%" />
         </figure>
         <p>The decision is not to reject the null hypothesis.</p>
         <p>Conclusion: At a 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the absent days do not occur with equal frequencies.</p>
@@ -190,21 +187,18 @@ The test of a single variance, which tests variability, such as in the coffee ex
         </note>
       </solution>
     </example>
-    <note xml:id="fs-idm3127168">
-      <title>Try It</title>
-      <exercise xml:id="eip-723">
-        <statement>
+    <exercise xml:id="eip-723">
+        <title>Try It</title><statement>
           <p>Teachers want to know which night each week their students are doing most of their homework. Most teachers think that students do homework equally throughout the week. Suppose a random sample of 56 students were asked on which night of the week they did the most homework. The results were distributed as in .</p>
           <p>From the population of students, do the nights for the highest number of students doing the majority of their homework occur with equal frequencies during a week? What type of hypothesis test should you use?</p>
         </statement>
         <solution>
           <p><m>df</m> = 6</p>
           <p><m>p</m>-value = 0.6093
-<nbsp/>We decline to reject the null hypothesis. There is not enough evidence to support that students do not do the majority of their homework equally throughout the week.</p>
+<nbsp />We decline to reject the null hypothesis. There is not enough evidence to support that students do not do the majority of their homework equally throughout the week.</p>
         </solution>
       </exercise>
-    </note>
-    <example xml:id="example3">
+    <example xml:id="ch11-example3">
       <title>Note</title>
       <statement>
         <p>At the 1 percent significance level, does it appear that the distribution <em>number of televisions</em> of far western U.S. families is different from the distribution for the American population as a whole?</p>
@@ -223,7 +217,7 @@ The test of a single variance, which tests variability, such as in the coffee ex
         <p>Calculate the test statistic: <m>χ</m>^{2} = 29.65</p>
         <p>Graph</p>
         <figure xml:id="eip-idm60132512">
-          <image source="media/fig-ch11_04_002.jpg" width="76%"/>
+          <image source="media/fig-ch11_04_002.jpg" width="76%" />
         </figure>
         <p>Probability statement: <m>p</m>-value = <m>P</m>(<m>χ</m>^{2} &gt; 29.65) = .000006</p>
         <p>Compare <m>α</m> and the <m>p</m>-value:
@@ -241,10 +235,8 @@ So, <m>α</m> &gt; <m>p</m>-value.</p>
         </note>
       </solution>
     </example>
-    <note xml:id="fs-idm99666800">
-      <title>Try It</title>
-      <exercise xml:id="eip-521">
-        <statement>
+    <exercise xml:id="eip-521">
+        <title>Try It</title><statement>
           <p>The expected percentage of the number of pets students have in their homes is distributed (this is the given distribution for the student population of the United States) as in .</p>
           <p>A random sample of 1,000 students from the eastern United States resulted in the data in .</p>
           <p>At the 1 percent significance level, does it appear that the distribution <em>number of pets</em> of students in the eastern United States is different from the distribution for the United States student population as a whole? What is the <m>p</m>-value?</p>
@@ -254,7 +246,6 @@ So, <m>α</m> &gt; <m>p</m>-value.</p>
           <p>We reject the null hypothesis that the distributions are the same. There is sufficient evidence to conclude that the distribution for “number of pets” of students in the Eastern United States is different from the distribution for the U.S. student population as a whole.</p>
         </solution>
       </exercise>
-    </note>
     <example xml:id="element-866">
       <statement>
         <p>Suppose you flip two coins 100 times. The results are 20 <m>HH</m>, 27 <m>HT</m>, 30 <m>TH</m>, and 23 <m>TT</m>. Are the coins fair? Test at a 5 percent significance level.</p>
@@ -271,7 +262,7 @@ where
         <p>Calculate the test statistic: <m>χ</m>^{2} = 2.14.</p>
         <p>Graph</p>
         <figure xml:id="eip-idm189345712">
-          <image source="media/fig-ch11_04_003.jpg" width="76%"/>
+          <image source="media/fig-ch11_04_003.jpg" width="76%" />
         </figure>
         <p>Probability statement: <m>p</m>-value = <m>P</m>(<m>χ</m>^{2} &gt; 2.14) = 0.3430.</p>
         <p>Compare <m>α</m> and the <m>p</m>-value:
@@ -295,23 +286,20 @@ sure you clear any lists before you start.</p>
         </note>
       </solution>
     </example>
-    <note xml:id="fs-idm153122384">
-      <title>Try It</title>
-      <exercise xml:id="eip-860">
-        <statement>
+    <exercise xml:id="eip-860">
+        <title>Try It</title><statement>
           <p>Students in a social studies class hypothesize that the literacy rates around the world for every region are 82 percent.  shows the actual literacy rates around the world broken down by region. What are the test statistic and the degrees of freedom?</p>
         </statement>
         <solution>
           <p>degrees of freedom = 9</p>
           <p>chi^{2} test statistic = 26.38</p>
           <figure xml:id="eip-idm50682624">
-            <image source="media/CNX_Stats_C11_M04_tryit001.jpg" width="76%"/>
+            <image source="media/CNX_Stats_C11_M04_tryit001.jpg" width="76%" />
           </figure>
           <p>Press <c>STAT</c> and <c>ENTER</c>. Make sure you clear lists <c>L1, L2,</c> and <c>L3</c> if they have data in them. Into L1, put the observed frequencies <c>99, 99.5, 67.3, 62.5, 91, 93.8, 61.9, 91.9, 84.5, 66.4</c>. Into <c>L2</c>, put the expected frequencies <c>82, 82, 82, 82, 82, 82, 82, 82, 82, 82</c>. Arrow over to list <c>L3</c> and up to the name area <c>"L3"</c>. Enter <c>(L1-L2)^2/L2</c> and <c>ENTER</c>. Press <c>2nd QUIT</c>. Press <c>2nd LIST</c> and arrow over to <c>MATH</c>. Press <c>5</c>. You should see <c>"sum"</c>. <c>Enter L3</c>. Rounded to two decimal places, you should see <c>26.38</c>. Press <c>2nd DISTR</c>. Arrow down to <c>7:χ2cdf</c> (or press <c>7</c>). Press <c>ENTER</c>. Enter <c>26.38,1E99,9)</c>. Rounded to four places, you should see <c>.0018</c>, which is the <m>p</m>-value.</p>
           <p>The newer TI-84 calculators have in <c>STAT TESTS</c> the test <c>Chi2 GOF</c>. To run the test, put the observed values (the data) into a first list and the expected values (the values you expect if the null hypothesis is true) into a second list. Press <c>STAT TESTS</c> and <c>Chi2 GOF</c>. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press <c>calculate</c> or <c>draw</c>. Make sure you clear any lists before you start.</p>
         </solution>
       </exercise>
-    </note>
   </section>
 
   <section xml:id="sec-test-independence">
@@ -329,7 +317,7 @@ sure you clear any lists before you start.</p>
     </ul>
     <p>There are <m>i⋅j</m> terms of the form <m>\frac{(O-E)^{2}}{E}</m>.</p>
     <p>A test of independence determines whether two factors are independent. You first encountered the term <em>independence</em> in <url href="m79609">Probability Topics</url>. As a review, consider the following example.</p>
-    <note xml:id="eip-155">
+    <note xml:id="ch11-eip-155">
       <title>Note</title>
       <p>The expected value for each cell needs to be at least five for you to use this test.</p>
     </note>
@@ -349,17 +337,14 @@ sure you clear any lists before you start.</p>
       <p>The following formula calculates the expected number (<m>E</m>):</p>
       <p><m>E=\frac{(row total)(column total)}{total number surveyed}</m></p>
     </example>
-    <note xml:id="fs-idp45633632">
-      <title>Try It</title>
-      <exercise xml:id="eip-298">
-        <statement>
+    <exercise xml:id="ch11-eip-298">
+        <title>Try It</title><statement>
           <p>A sample of 300 students is taken. Of the students surveyed, 50 were music students, while 250 were not. 97 were on the honor roll, while 203 were not. If we assume being a music student and being on the honor roll are independent events, what is the expected number of music students who are also on the honor roll?</p>
         </statement>
         <solution>
           <p>About 16 students are expected to be music students and on the honor roll.</p>
         </solution>
       </exercise>
-    </note>
     <example xml:id="element-272">
       <title>Number of Hours Worked per Week by Volunteer Type (Observed)</title>
       <statement>
@@ -390,7 +375,7 @@ The table contains expected (<m>E</m>) values (data).</p>
         <p><m>df</m> = (3 columns – 1)(3 rows – 1) = (2)(2) = 4</p>
         <p>Graph</p>
         <figure xml:id="fs-idm32439392">
-          <image source="media/fig-ch11_05_01N.jpg" width="76%"/>
+          <image source="media/fig-ch11_05_01N.jpg" width="76%" />
         </figure>
         <p>Probability statement: <m>p</m>-value = <m>P</m>(<em>χ^{2}</em> &gt; 12.99) = 0.0113</p>
         <p>Compare <m>α</m> and the <m>p</m>-value: Since no <m>α</m> is given, assume <m>α</m> = 0.05. <m>p</m>-value = 0.0113. <m>α</m> &gt; <m>p</m>-value.</p>
@@ -402,20 +387,17 @@ The table contains expected (<m>E</m>) values (data).</p>
         </note>
       </solution>
     </example>
-    <note xml:id="fs-idm24618832">
-      <title>Try It</title>
-      <exercise xml:id="eip-685">
-        <statement>
+    <exercise xml:id="eip-685">
+        <title>Try It</title><statement>
           <p>The Bureau of Labor Statistics gathers data about employment in the United States. A sample is taken to calculate the number of U.S. citizens working in one of several industry sectors over time.  shows the results:</p>
           <p>We want to know if the change in the number of jobs is independent of the change in years. State the null and alternative hypotheses and the degrees of freedom.</p>
         </statement>
         <solution>
           <p><m>H</m>_{0} : The number of jobs is independent of the year.</p>
-          <p><em>H_{a}</em> : The number of jobs is dependent on the year.<nbsp/><m>df</m> = 12</p>
+          <p><em>H_{a}</em> : The number of jobs is dependent on the year.<nbsp /><m>df</m> = 12</p>
           <p>Press the <c>MATRX</c> key and arrow over to <c>EDIT</c>. Press <c>1:[A]</c>. Press <c>3 ENTER 3 ENTER</c>. Enter the table values by row. Press <c>ENTER</c> after each. Press <c>2nd QUIT</c>. Press <c>STAT</c> and arrow over to <c>TESTS</c>. Arrow down to <c>C:χ2-TEST</c>. Press <c>ENTER</c>. You should see <c>Observed:[A] and Expected:[B]</c>. Arrow down to <c>Calculate</c>. Press <c>ENTER</c>. The test statistic is 227.73 and the <m>p</m>−value = 5.90E - 42 = 0. Do the procedure a second time but arrow down to <c>Draw</c> instead of <c>calculate</c>.</p>
         </solution>
       </exercise>
-    </note>
     <example xml:id="element-505">
       <title>Need to Succeed in School vs. Anxiety Level</title>
       <statement>
@@ -424,20 +406,17 @@ The table contains expected (<m>E</m>) values (data).</p>
       <solution>
         <p>a. The column total for a high anxiety level is 57. The row total for high need to succeed in school is 155. The sample size or total surveyed is 400.</p>
         <p><m>E=\frac{(row total)(column total)}{total surveyed}=\frac{155⋅57}{400}=22.09</m></p>
-        <p>The expected number of students who have a high anxiety level and a high need to succeed in school is about 22.<nbsp/><nbsp/></p>
+        <p>The expected number of students who have a high anxiety level and a high need to succeed in school is about 22.<nbsp /><nbsp /></p>
       </solution>
     </example>
-    <note xml:id="fs-idm15185536">
-      <title>Try It</title>
-      <exercise xml:id="eip-358">
-        <statement>
+    <exercise xml:id="eip-358">
+        <title>Try It</title><statement>
           <p>Refer back to the information in . How many services-providing jobs are there expected to be in 2020? How many nonagriculture wage and salary jobs are there expected to be in 2020?</p>
         </statement>
         <solution>
           <p>12,727, 14,965</p>
         </solution>
       </exercise>
-    </note>
   </section>
 
   <section xml:id="sec-test-homogeneity">
@@ -448,8 +427,8 @@ The table contains expected (<m>E</m>) values (data).</p>
       <title>Note</title>
       <p>The expected value for each cell needs to be at least five for you to use this test.</p>
     </note>
-    <p>Hypotheses<nbsp/><em>H_{0}</em>: The distributions of the two populations are the same.<nbsp/>
-    <nbsp/><em>H_{a}</em>:  The distributions of the two populations are not the same.</p>
+    <p>Hypotheses<nbsp /><em>H_{0}</em>: The distributions of the two populations are the same.<nbsp />
+    <nbsp /><em>H_{a}</em>:  The distributions of the two populations are not the same.</p>
     <p>Test StatisticUse a <m>\chi^{2}</m>  test statistic. It is computed in the same way as the test for independence.</p>
     <p>Degrees of freedom (<m>df</m>)<m>df</m> = (number of columns – 1)(number of rows – 1)</p>
     <p>RequirementsAll values in the table must be greater than or equal to five.</p>
@@ -460,34 +439,31 @@ The table contains expected (<m>E</m>) values (data).</p>
         <p>Do male and female college students have the same distribution of living arrangements?  Use a level of significance of 0.05. Suppose that 250 randomly selected male college students and 300 randomly selected female college students were asked about their living arrangements: dormitory, apartment, with parents, other. The results are shown in . Do male and female college students have the same distribution of living arrangements?</p>
       </statement>
       <solution>
-        <p><em>H_{0}</em>: The distribution of living arrangements for male college students is the same as the distribution of living arrangements for female college students.<nbsp/>
-    <nbsp/><em>H_{a}</em>: The distribution of living arrangements for male college students is not the same as the distribution of living arrangements for female college students.<nbsp/><nbsp/>
-    Degrees of freedom (<m>df</m>):<nbsp/> <m>df</m> = (number of columns – 1)(number of rows – 1) = (4 – 1)(2– 1) = 3 <nbsp/><nbsp/>  Distribution for the test: <m>\chi_{3}^{2}</m><nbsp/><nbsp/>
-    Calculate the test statistic: <m>χ</m>^{2} = 10.1287 (calculator or computer)  <nbsp/><nbsp/> Probability statement: <m>p</m>-value = <m>P</m>(<m>χ</m>^{2} &gt;10.1287) = 0.0175</p>
+        <p><em>H_{0}</em>: The distribution of living arrangements for male college students is the same as the distribution of living arrangements for female college students.<nbsp />
+    <nbsp /><em>H_{a}</em>: The distribution of living arrangements for male college students is not the same as the distribution of living arrangements for female college students.<nbsp /><nbsp />
+    Degrees of freedom (<m>df</m>):<nbsp /> <m>df</m> = (number of columns – 1)(number of rows – 1) = (4 – 1)(2– 1) = 3 <nbsp /><nbsp />  Distribution for the test: <m>\chi_{3}^{2}</m><nbsp /><nbsp />
+    Calculate the test statistic: <m>χ</m>^{2} = 10.1287 (calculator or computer)  <nbsp /><nbsp /> Probability statement: <m>p</m>-value = <m>P</m>(<m>χ</m>^{2} &gt;10.1287) = 0.0175</p>
         <note xml:id="fs-idm46378784">
         </note>
-        <p><nbsp/>Compare <m>α</m> and the <m>p</m>-value: Since no <m>α</m> is given, assume <m>α</m> = 0.05. <m>p</m>-value = 0.0175. <m>α</m> &gt; <m>p</m>-value. <nbsp/><nbsp/> Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{0}</em>. This means that the distributions are not the same. <nbsp/><nbsp/> Conclusion: At a 5 percent level of significance, from the data, there is sufficient evidence to conclude that the distributions of living arrangements for male and female college students are not the same.<nbsp/><nbsp/> Notice that the conclusion is only that the distributions are not the same. We cannot use the test for homogeneity to draw any conclusions about how they differ.</p>
+        <p><nbsp />Compare <m>α</m> and the <m>p</m>-value: Since no <m>α</m> is given, assume <m>α</m> = 0.05. <m>p</m>-value = 0.0175. <m>α</m> &gt; <m>p</m>-value. <nbsp /><nbsp /> Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{0}</em>. This means that the distributions are not the same. <nbsp /><nbsp /> Conclusion: At a 5 percent level of significance, from the data, there is sufficient evidence to conclude that the distributions of living arrangements for male and female college students are not the same.<nbsp /><nbsp /> Notice that the conclusion is only that the distributions are not the same. We cannot use the test for homogeneity to draw any conclusions about how they differ.</p>
       </solution>
     </example>
-    <note xml:id="fs-idp99198384">
-      <title>Try It</title>
-      <exercise xml:id="eip-976">
-        <statement>
+    <exercise xml:id="eip-976">
+        <title>Try It</title><statement>
           <p>Do families and singles have the same distribution of cars? Suppose that 100 randomly selected families and 200 randomly selected singles were asked what type of car they drove: sport, sedan, hatchback, truck, van/SUV. The results are shown in . Do families and singles have the same distribution of cars? Test at a level of significance of 0.05.</p>
         </statement>
         <solution>
           <p>With a <m>p</m>-value of almost zero, we reject the null hypothesis. The data show that the distribution of cars is not the same for families and singles.</p>
         </solution>
       </exercise>
-    </note>
     <example xml:id="eip-151">
       <statement>
         <p>Both before and after a recent earthquake, surveys were conducted asking voters which of the three candidates they planned on voting for in the upcoming city council election. Has there been a change since the earthquake? Use a level of significance of 0.05.  shows the results of the survey. Has there been a change in the distribution of voter preferences since the earthquake?</p>
       </statement>
       <solution>
-        <p><em>H_{0}</em>: The distribution of voter preferences was the same before and after the earthquake. <nbsp/><nbsp/> <em>H_{a}</em>: The distribution of voter preferences was not the same before and after the earthquake. <nbsp/><nbsp/> Degrees of freedom (<m>df</m>):<nbsp/> <m>df</m> = (number of columns – 1)(number of rows – 1) = (3 – 1)(2 – 1) = 2 <nbsp/><nbsp/>  Distribution for the test:  <m>\chi_{2}^{2}</m>
-<nbsp/><nbsp/>Calculate the test statistic: <em>χ^{2}</em> = 3.2603 (calculator or computer)
-<nbsp/><nbsp/>Probability statement: <m>p</m>-value=<m>P</m>(<em>χ^{2}</em> &gt; 3.2603) = 0.1959</p>
+        <p><em>H_{0}</em>: The distribution of voter preferences was the same before and after the earthquake. <nbsp /><nbsp /> <em>H_{a}</em>: The distribution of voter preferences was not the same before and after the earthquake. <nbsp /><nbsp /> Degrees of freedom (<m>df</m>):<nbsp /> <m>df</m> = (number of columns – 1)(number of rows – 1) = (3 – 1)(2 – 1) = 2 <nbsp /><nbsp />  Distribution for the test:  <m>\chi_{2}^{2}</m>
+<nbsp /><nbsp />Calculate the test statistic: <em>χ^{2}</em> = 3.2603 (calculator or computer)
+<nbsp /><nbsp />Probability statement: <m>p</m>-value=<m>P</m>(<em>χ^{2}</em> &gt; 3.2603) = 0.1959</p>
         <note xml:id="fs-idp99944704">
           <p>Press the <c>MATRX</c> key and arrow over to <c>EDIT</c>. Press <c>1:[A]</c>. Press <c>2 ENTER 3 ENTER</c>. Enter the table values by row. Press <c>ENTER</c> after each. Press <c>2nd QUIT</c>. Press <c>STAT</c> and arrow over to <c>TESTS</c>. Arrow down to <c>C:χ2-TEST</c>. Press <c>ENTER</c>. You should see <c>Observed:[A]</c> and <c>Expected:[B]</c>. Arrow down to <c>Calculate</c>. Press <c>ENTER</c>. The test statistic is 3.2603 and the <m>p</m>-value = 0.1959. Do the procedure a second time but arrow down to <c>Draw</c> instead of <c>Calculate</c>.</p>
         </note>
@@ -496,27 +472,24 @@ The table contains expected (<m>E</m>) values (data).</p>
         <p>Conclusion: At a 5 percent level of significance, from the data, there is insufficient evidence to  conclude that the distribution of voter preferences was not the same before and after the earthquake.</p>
       </solution>
     </example>
-    <note xml:id="fs-idm61233888">
-      <title>Try It</title>
-      <exercise xml:id="eip-680">
-        <statement>
+    <exercise xml:id="eip-680">
+        <title>Try It</title><statement>
           <p>Ivy League schools receive many applications, but only some can be accepted. At the schools listed in , two types of applications are accepted: regular and early decision.</p>
           <p>We want to know if the number of regular applications accepted follows the same distribution as the number of early applications accepted. State the null and alternative hypotheses, the degrees of freedom and the test statistic, sketch the graph of the <m>p</m>-value, and draw a conclusion about the test of homogeneity.</p>
         </statement>
         <solution>
           <p><em>H_{0}</em> : The distribution of regular applications accepted is the same as the distribution of early applications accepted.</p>
           <p><em>H_{a}</em> : The distribution of regular applications accepted is not the same as the distribution of early applications accepted.
-<nbsp/><m>df</m> = 5
-<nbsp/><em>χ^{2}</em> test statistic = 430.06</p>
+<nbsp /><m>df</m> = 5
+<nbsp /><em>χ^{2}</em> test statistic = 430.06</p>
           <figure xml:id="fs-idp12140192">
-            <image source="media/CNX_Stats_C11_M06_tryit001.jpg" width="76%"/>
+            <image source="media/CNX_Stats_C11_M06_tryit001.jpg" width="76%" />
           </figure>
           <note xml:id="fs-idp12880128">
             <p>Press the <c>MATRX</c> key and arrow over to <c>EDIT</c>. Press <c>1:[A]</c>. Press <c>3 ENTER 3 ENTER</c>. Enter the table values by row. Press <c>ENTER</c> after each. Press <c>2nd QUIT</c>. Press <c>STAT</c> and arrow over to <c>TESTS</c>. Arrow down to<c>C:χ2-TEST</c>. Press <c>ENTER</c>. You should see <c>Observed:[A]</c> and <c>Expected:[B]</c>. Arrow down to <c>Calculate</c>. Press <c>ENTER</c>. The test statistic is 430.06 and the <m>p</m>-value = 9.80E-91. Do the procedure a second time but arrow down to <c>Draw</c> instead of <c>Calculate</c>.</p>
           </note>
         </solution>
       </exercise>
-    </note>
   </section>
 
   <section xml:id="sec-comparison-chi-square-tests">
@@ -525,14 +498,14 @@ The table contains expected (<m>E</m>) values (data).</p>
     <p>You have seen the <m>χ</m>^{2} test statistic used in three different circumstances. The following bulleted list is a summary that will help you decide which <m>χ</m>^{2} test is the appropriate one to use.</p>
     <ul>
       <li>Goodness-of-Fit: Use the goodness-of-fit test to decide whether a population with an unknown distribution <em>fits</em> a known distribution. In this case there will be a single qualitative survey question or a single outcome of an experiment from a single population. Goodness-of-fit is typically used to see if the population is uniform (all outcomes occur with equal frequency), the population is normal, or the population is the same as another population with a known distribution. The null and alternative hypotheses are as follows:
-<nbsp/><em>H_{0}</em>: The population fits the given distribution.
-<nbsp/><em>H_{a}</em>: The population does not fit the given distribution.</li>
+<nbsp /><em>H_{0}</em>: The population fits the given distribution.
+<nbsp /><em>H_{a}</em>: The population does not fit the given distribution.</li>
       <li>Independence: Use the test for independence to decide whether two variables (factors) are independent or dependent. In this case there will be two qualitative survey questions or experiments and a contingency table will be constructed. The goal is to see if the two variables are unrelated/independent or related/dependent. The null and alternative hypotheses are as follows:
-<nbsp/><em>H_{0}</em>: The two variables (factors) are independent.
-<nbsp/><em>H_{a}</em>: The two variables (factors) are dependent.</li>
+<nbsp /><em>H_{0}</em>: The two variables (factors) are independent.
+<nbsp /><em>H_{a}</em>: The two variables (factors) are dependent.</li>
       <li>Homogeneity: Use the test for homogeneity to decide if two populations with unknown distributions have the same distribution. In this case there will be a single qualitative survey question or experiment given to two different populations. The null and alternative hypotheses are as follows:
-<nbsp/><em>H_{0}</em>: The two populations follow the same distribution.
-<nbsp/><em>H_{a}</em>: The two populations have different distributions.</li>
+<nbsp /><em>H_{0}</em>: The two populations follow the same distribution.
+<nbsp /><em>H_{a}</em>: The two populations have different distributions.</li>
     </ul>
   </section>
 
@@ -562,10 +535,8 @@ best students thinks otherwise. The student claims that the standard deviation i
         </ul>
       </solution>
     </example>
-    <note xml:id="fs-idp75827040">
-      <title>Try It</title>
-      <exercise xml:id="eip-420">
-        <statement>
+    <exercise xml:id="eip-420">
+        <title>Try It</title><statement>
           <p>A scuba instructor wants to record the collective depths each of his students dives during their checkout. He is interested in how the depths vary, even though everyone should have been at the same depth. He believes the standard deviation is three feet. His assistant thinks the standard deviation is less than three feet. If the instructor were to conduct a test, what would the null and alternative hypotheses be?</p>
         </statement>
         <solution>
@@ -573,7 +544,6 @@ best students thinks otherwise. The student claims that the standard deviation i
           <p><em>H_{a}</em>: <m>σ</m>^{2} &lt; 3^{2}</p>
         </solution>
       </exercise>
-    </note>
     <example xml:id="element-28">
       <statement>
         <p>With individual lines at its various windows, a post office finds that the standard deviation for normally distributed waiting times for customers on Friday afternoon is 7.2 minutes. The post office experiments with a single, main waiting line and finds that for a random sample of 25 customers, the waiting times for customers have a standard deviation of 3.5 minutes.</p>
@@ -598,14 +568,14 @@ Let <m>s</m> = standard deviation for the waiting times.</p>
         <p>where <m>n</m> = 25, <m>s</m> = 3.5, and <m>σ</m> = 7.2.</p>
         <p>Graph</p>
         <figure xml:id="fs-idp135015696">
-          <image source="media/figure-ch11_08_01.jpg" width="76%"/>
+          <image source="media/figure-ch11_08_01.jpg" width="76%" />
         </figure>
         <p>Probability statement: <m>p</m>-value = <m>P</m> ( <m>χ</m>^{2} &lt; 5.67) = 0.000042</p>
         <p>Compare <m>α</m> and the <m>p</m>-value:
 
-<nbsp/><m>α</m> = 0.05
-<nbsp/><m>p</m>-value = 0.000042
-<nbsp/><m>α</m> &gt; <m>p</m>-value</p>
+<nbsp /><m>α</m> = 0.05
+<nbsp /><m>p</m>-value = 0.000042
+<nbsp /><m>α</m> &gt; <m>p</m>-value</p>
         <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{0}</em>. This means that you reject <m>σ</m>^{2} = 7.2^{2}. In other words, you do not think the variation in waiting times is 7.2 minutes; you think the variation in waiting times is less.</p>
         <p>Conclusion: At a 5 percent level of significance, from the data, there is sufficient evidence to
 conclude that a single line causes a lower variation among the waiting times <m>or</m> with a single
@@ -617,19 +587,17 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
         </note>
       </solution>
     </example>
-    <note xml:id="fs-idp108749600">
-      <title>Try It</title>
-      <exercise xml:id="eip-209">
-        <statement>
+    <exercise xml:id="eip-209">
+        <title>Try It</title><statement>
           <p>The FCC conducts broadband speed tests to measure how much data per second passes between a consumer’s computer and the internet. As of August 2012, the standard deviation of internet speeds across internet service providers (ISPs) was 12.2 percent. Suppose a sample of 15 ISPs is taken, and the standard deviation is 13.2. An analyst claims that the standard deviation of speeds is more than what was reported. State the null and alternative hypotheses, compute the degrees of freedom, calculate the test statistic, sketch the graph of the <m>p</m>-value, and draw a conclusion. Test at the 1 percent significance level.</p>
         </statement>
         <solution>
           <p><em>H_{0}</em>: <m>σ</m>^{2} = 12.2^{2}</p>
           <p><em>H_{a}</em>: <m>σ</m>^{2} &gt; 12.2^{2}
-<nbsp/><m>df</m> = 14
-<nbsp/>chi^{2} test statistic = 16.39</p>
+<nbsp /><m>df</m> = 14
+<nbsp />chi^{2} test statistic = 16.39</p>
           <figure xml:id="fs-idp135068032">
-            <image source="media/CNX_Stats_C11_M08_tryit001.jpg" width="76%"/>
+            <image source="media/CNX_Stats_C11_M08_tryit001.jpg" width="76%" />
           </figure>
           <p>The <m>p</m>-value is 0.2902, so we decline to reject the null hypothesis. There is not enough evidence to suggest that the variance is greater than 12.2^{2}.</p>
           <note xml:id="eip-idp106427424">
@@ -637,7 +605,6 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
           </note>
         </solution>
       </exercise>
-    </note>
   </section>
 
   <section xml:id="sec-chi-square-lab1">
@@ -649,7 +616,7 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
         <li>The student will evaluate data collected to determine if they fit either the uniform or exponential distributions.</li>
       </ul>
       <p>Collect the DataGo to your local supermarket. Ask 30 people as they leave for the total amount on their grocery receipts. Or, ask 3 cashiers for the last 10 amounts. Be sure to include the express lane, if it is open.</p>
-      <note xml:id="eip-665">
+      <note xml:id="ch11-eip-665">
         <title>Note</title>
       </note>
       <ol>
