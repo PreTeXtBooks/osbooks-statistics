@@ -447,6 +447,12 @@ def main():
     """Main conversion"""
     modules_dir = Path('modules')
     
+    # Check if running from repository root
+    if not modules_dir.exists():
+        print("Error: 'modules' directory not found.")
+        print("Please run this script from the repository root directory.")
+        return 1
+    
     # Convert introduction (m79673)
     print("Converting m79673 (Introduction)...")
     intro_section = convert_module(
@@ -538,6 +544,8 @@ def main():
     
     print(f"\nConversion complete! Written to {output_path}")
     print(f"Total length: {len(output)} characters")
+    return 0
 
 if __name__ == '__main__':
-    main()
+    import sys
+    sys.exit(main())
