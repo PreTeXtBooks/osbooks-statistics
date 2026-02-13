@@ -461,7 +461,7 @@ The table contains expected (<m>E</m>) values (data).</p>
     <p>Common UsesComparing two populations. For example:  men vs. women, before vs. after, east vs. west. The variable is categorical with more than two possible response values.</p>
     <example xml:id="eip-101">
       <statement>
-        <title>Distribution of Living Arragements for College Males and College Females</title>
+        <title>Distribution of Living Arrangements for College Males and College Females</title>
         <p>Do male and female college students have the same distribution of living arrangements?  Use a level of significance of 0.05. Suppose that 250 randomly selected male college students and 300 randomly selected female college students were asked about their living arrangements: dormitory, apartment, with parents, other. The results are shown in . Do male and female college students have the same distribution of living arrangements?</p>
       </statement>
       <solution>
