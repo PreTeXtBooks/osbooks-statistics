@@ -1223,6 +1223,11 @@ average, in 16.43 seconds. (Reject the null hypothesis when the null hypothesis 
 
 For this problem, <m>\overline{x}</m> = 16, <em>μ_{X}</em> = 16.43 from the null hypothesis, <em>σ_{X}</em> = 0.8, and <m>n</m> = 15.) You can find the critical value for <m>α</m> = 0.05 in the normal table (see <xref ref="appendix-h-tables">Appendix H: Tables</xref>). The <m>z</m>-score for an area to the left equal to 0.05 is midway between –1.65 and –1.64 (0.05 is midway between 0.0505 and 0.0495). The <m>z</m>-score is –1.645. Since –1.645 &gt; –2.08 (which demonstrates that α &gt; <m>p</m>-value), reject <em>H_{0}</em>. Traditionally, the decision
 to reject or not reject was done in this way. Today, comparing the two probabilities <m>α</m> and the <m>p</m>-value is very common. For this problem, the <m>p</m>-value, 0.0187, is considerably smaller than <m>α</m>, 0.05. You can be confident about your decision to reject. The graph shows <m>α</m>, the <m>p</m>-value, and the test statistic and the critical value.</p>
+        <figure>
+          <image source="media/fig-ch09_11_02.png" width="80%">
+            <description>Distribution curve comparing the α to the p-value. Values of -2.15 and -1.645 are on the x-axis. Vertical upward lines extend from both of these values to the curve. The p-value is equal to 0.0158 and points to the area to the left of -2.15. α is equal to 0.05 and points to the area between the values of -2.15 and -1.645.</description>
+          </image>
+        </figure>
       </note>
       <exercise xml:id="fs-idp78508304">
         <statement>
@@ -2726,11 +2731,17 @@ At the <m>α</m> = 0.05 level, can it be concluded that the sample mean is highe
           <li>The distribution to use for the test is _______________________.</li>
           <li>Determine the test statistic using your data.</li>
           <li>Draw a graph and label it appropriately. Shade the actual level of significance.
-
-Graph:
-Determine the <m>p</m>-value.</li>
-          <li>Graph:</li>
-          <li>Determine the <m>p</m>-value.</li>
+            <ol>
+              <li>Graph:
+                <figure>
+                  <image source="media/fig-ch09_18_01.png" width="80%">
+                    <description>Blank graph with vertical and horizontal axes.</description>
+                  </image>
+                </figure>
+              </li>
+              <li>Determine the <m>p</m>-value.</li>
+            </ol>
+          </li>
           <li>Do you or do you not reject the null hypothesis? Why?</li>
           <li>Write a clear conclusion using a complete sentence.</li>
         </ol>
@@ -2742,11 +2753,17 @@ Determine the <m>p</m>-value.</li>
           <li>The distribution to use for the test is ________________.</li>
           <li>Determine the test statistic using your data.</li>
           <li>Draw a graph and label it appropriately. Shade the actual level of significance.
-
-Graph:
-Determine the <m>p</m>-value.</li>
-          <li>Graph:</li>
-          <li>Determine the <m>p</m>-value.</li>
+            <ol>
+              <li>Graph:
+                <figure>
+                  <image source="media/fig-ch09_18_02.png" width="80%">
+                    <description>Blank graph with vertical and horizontal axes.</description>
+                  </image>
+                </figure>
+              </li>
+              <li>Determine the <m>p</m>-value.</li>
+            </ol>
+          </li>
           <li>Do you or do you not reject the null hypothesis? Why?</li>
           <li>Write a clear conclusion using a complete sentence.</li>
         </ol>
@@ -2758,11 +2775,17 @@ Determine the <m>p</m>-value.</li>
           <li>The distribution to use for the test is _______________________.</li>
           <li>Determine the test statistic using your data.</li>
           <li>Draw a graph and label it appropriately. Shade the actual level of significance.
-
-Graph:
-Determine  the <m>p</m>-value.</li>
-          <li>Graph:</li>
-          <li>Determine  the <m>p</m>-value.</li>
+            <ol>
+              <li>Graph:
+                <figure>
+                  <image source="media/fig-ch09_18_03.png" width="80%">
+                    <description>Blank graph with vertical and horizontal axes.</description>
+                  </image>
+                </figure>
+              </li>
+              <li>Determine  the <m>p</m>-value.</li>
+            </ol>
+          </li>
           <li>Do you or do you not reject the null hypothesis? Why?</li>
           <li>Write a clear conclusion using a complete sentence.</li>
         </ol>
