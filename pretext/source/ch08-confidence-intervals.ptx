@@ -3624,7 +3624,7 @@ line with the upper and lower limits of the confidence interval and the sample m
           <li>Calculate the confidence interval and the error bound.</li>
           <li>Confidence interval: _____</li>
           <li>Error Bound: _____</li>
-          <li>How much area is in both tails (combined)? α = _____</li>
+          <li>How much area is in both tails (combined)? <m>α</m> = _____</li>
           <li>How much area is in each tail? <m>\frac{α}{2}</m> = _____</li>
           <li>Fill in the blanks on the graph with the area in each section. Then, fill in the number line with the upper and lower limits of the confidence interval and the sample proportion.</li>
         </ol>
