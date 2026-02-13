@@ -1219,7 +1219,7 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
           <p>Identify the potential outlier in the scatter plot. The standard deviation of the residuals, or errors, is approximately 8.6.</p>
           <figure>
             <image source="media/CNX_Stats_C012_M09_item001.png" width="80%">
-              <description>Figure 2 shows a graph that is labeled 0 through 100 on the Y axis going up by 20, and 0 through 14 on the X axis going up by 2. The plotted spots on the graph show (y0,x66)</description>
+              <description>Scatter plot showing data points. The y-axis is labeled 0 through 100 going up by intervals of 20. The x-axis is labeled 0 through 14 going up by intervals of 2. Most points follow a linear trend except for one point at approximately (6, 58) which appears far below the trend line.</description>
             </image>
           </figure>
         </statement>
