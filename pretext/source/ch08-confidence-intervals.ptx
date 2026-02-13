@@ -3529,32 +3529,185 @@ Calculate the following:
 
 </section>
 
-  <section xml:id="sec-confidence-interval-home-costs">
+    <section xml:id="sec-confidence-interval-home-costs">
     <title>Confidence Interval (Home Costs)</title>
-    <p>
-      Content to be added from module m79656.
-    </p>
+
+
+    <subsection xml:id="fs-id1169831738776">
+      <note xml:id="fs-id1167595196093">
+        <title>Confidence Interval (Home Costs)</title>
+        <ul>
+          <li>The student will calculate the 90 percent confidence interval for the mean cost of a home in the area in which this school is located.</li>
+          <li>The student will interpret confidence intervals.</li>
+          <li>The student will determine the effects of changing conditions on the confidence interval.</li>
+        </ul>
+        <p>Collect the Data
+Check the Real Estate section in your local newspaper. Record the sale prices for 35 randomly selected homes recently listed in the county.</p>
+        <ol>
+          <li>
+            <p>Complete the following table:</p>
+            <table xml:id="tableone32">
+              <tabular>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+              </tabular>
+            </table>
+          </li>
+        </ol>
+        <ol>
+          <li>Compute the following:
+
+<m>\overline{x}</m> = _____
+<m>s_{x}</m> = _____
+<m>n</m> = _____</li>
+          <li><m>\overline{x}</m> = _____</li>
+          <li><m>s_{x}</m> = _____</li>
+          <li><m>n</m> = _____</li>
+          <li>In words, define the random variable <m>\overline{X}</m>.</li>
+          <li>State the estimated distribution to use. Use both words and symbols.</li>
+        </ol>
+        <ol>
+          <li>Calculate the confidence interval and the error bound.
+
+Confidence interval: _____
+Error Bound: _____</li>
+          <li>Confidence interval: _____</li>
+          <li>Error Bound: _____</li>
+          <li>How much area is in both tails (combined)? <m>α</m> = _____</li>
+          <li>How much area is in each tail? <m>\frac{α}{2}</m> = _____</li>
+          <li>Fill in the blanks on the graph with the area in each section. Then, fill in the number
+line with the upper and lower limits of the confidence interval and the sample mean.</li>
+          <li>Some students think that a 90 percent confidence interval contains 90 percent of the data. Use the list of data on the first page and count how many of the data values lie within the confidence interval. What percentage is this? Is this percentage close to 90 percent? Explain why this percentage should or should not be close to 90 percent.</li>
+        </ol>
+        <ol>
+          <li>In two to three complete sentences, explain what a confidence interval means (in general), as if you were talking to someone who has not taken statistics.</li>
+          <li>In one to two complete sentences, explain what this confidence interval means for this particular study.</li>
+        </ol>
+        <ol>
+          <li>
+            <p>Using the given information, construct a confidence interval for each confidence level given.</p>
+            <table xml:id="id3675asdffgh75848jhgf538">
+              <tabular>
+                <row><cell>Confidence Level</cell><cell><m>EBM</m>/Error Bound</cell><cell>Confidence Interval</cell></row>
+                <row><cell>50%</cell><cell></cell><cell></cell></row>
+                <row><cell>80%</cell><cell></cell><cell></cell></row>
+                <row><cell>95%</cell><cell></cell><cell></cell></row>
+                <row><cell>99%</cell><cell></cell><cell></cell></row>
+              </tabular>
+            </table>
+          </li>
+          <li>What happens to the <m>EBM</m> as the confidence level increases? Does the width of the confidence interval increase or decrease? Explain why this happens.</li>
+        </ol>
+      </note>
+    </subsection>
+
   </section>
 
-  <section xml:id="sec-confidence-interval-place-birth">
+    <section xml:id="sec-confidence-interval-place-birth">
     <title>Confidence Interval (Place of Birth)</title>
-    <p>
-      Content to be added from module m79657.
-    </p>
+
+
+    <subsection xml:id="fs-id1169827339084">
+      <note xml:id="fs-id1164881012721">
+        <title>Confidence Interval (Place of Birth)</title>
+        <ul>
+          <li>The student will calculate the 90 percent confidence interval of the proportion of students in this school who were born in this state.</li>
+          <li>The student will interpret confidence intervals.</li>
+          <li>The student will determine the effects of changing conditions on the confidence interval.</li>
+        </ul>
+        <ol>
+          <li>Survey the students in your class, asking them whether they were born in this state. Let <m>X</m> = the number who were born in this state.
+
+<m>n</m> = ____________
+<m>x</m> =  ____________</li>
+          <li><m>n</m> = ____________</li>
+          <li><m>x</m> =  ____________</li>
+          <li>In words, define the random variable <m>P′</m>.</li>
+          <li>State the estimated distribution to use.</li>
+        </ol>
+        <ol>
+          <li>Calculate the confidence interval and the error bound.
+
+Confidence interval: _____
+Error Bound: _____</li>
+          <li>Confidence interval: _____</li>
+          <li>Error Bound: _____</li>
+          <li>How much area is in both tails (combined)? α = _____</li>
+          <li>How much area is in each tail? <m>\frac{α}{2}</m> = _____</li>
+          <li>Fill in the blanks on the graph with the area in each section. Then, fill in the number line with the upper and lower limits of the confidence interval and the sample proportion.</li>
+        </ol>
+        <ol>
+          <li>In two to three complete sentences, explain what a confidence interval means (in general), as though you were talking to someone who has not taken statistics.</li>
+          <li>In one to two complete sentences, explain what this confidence interval means for this particular study.</li>
+          <li>
+            <p>Construct a confidence interval for each confidence level given.</p>
+            <table xml:id="id6699poi200">
+              <tabular>
+                <row><cell>Confidence Level</cell><cell><m>EBP</m>/Error Bound</cell><cell>Confidence Interval</cell></row>
+                <row><cell>50%</cell><cell></cell><cell></cell></row>
+                <row><cell>80%</cell><cell></cell><cell></cell></row>
+                <row><cell>95%</cell><cell></cell><cell></cell></row>
+                <row><cell>99%</cell><cell></cell><cell></cell></row>
+              </tabular>
+            </table>
+          </li>
+          <li>What happens to the <m>EBP</m> as the confidence level increases? Does the width of the confidence interval increase or decrease? Explain why this happens.</li>
+        </ol>
+      </note>
+    </subsection>
+
   </section>
 
-  <section xml:id="sec-confidence-intervals-review">
-    <title>Confidence Intervals: Review</title>
-    <p>
-      Content to be added from module m79658.
-    </p>
-  </section>
 
-  <section xml:id="sec-confidence-intervals-practice">
+    <section xml:id="sec-confidence-intervals-practice">
     <title>Confidence Intervals: Practice</title>
-    <p>
-      Content to be added from module m79659.
-    </p>
+
+
+    <subsection xml:id="fs-id1169831939276">
+      <note xml:id="fs-id1164807092370">
+        <title>Confidence Interval (Women's Heights)</title>
+        <ul>
+          <li>The student will calculate a 90 percent confidence interval using the given data.</li>
+          <li>The student will determine the relationship between the confidence level and the percentage of constructed intervals that contain the population mean.</li>
+        </ul>
+        <p>Given:</p>
+        <ol>
+          <li>lists the heights of 100 women. Use a random number generator to select 10 data values randomly.</li>
+          <li>Calculate the sample mean and the sample standard deviation. Assume that the population standard deviation is known to be 3.3 in. With these values, construct a 90 percent confidence interval for your sample of 10 values. Write the confidence interval you obtained in the first space of .</li>
+          <li>
+            <p>Now write your confidence interval on the board. As others in the class write their confidence intervals on the board, copy them into .</p>
+            <table xml:id="element-838">
+              <tabular>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+                <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
+              </tabular>
+            </table>
+          </li>
+        </ol>
+        <ol>
+          <li>The actual population mean for the 100 heights given in  is <m>μ</m> = 63.4. Using the class listing of confidence intervals, count how many of them contain the population mean <m>μ</m>; i.e., for how many intervals does the value of <m>μ</m> lie between the endpoints of the confidence interval?</li>
+          <li>Divide this number by the total number of confidence intervals generated by the class to determine the percentage of confidence intervals that contain the mean <m>μ</m>. Write that percentage here: _____________.</li>
+          <li>Is the percentage of confidence intervals that contain the population mean <m>μ</m> close to 90 percent?</li>
+          <li>Suppose we had generated 100 confidence intervals. What do you think would happen to the percentage of confidence intervals that contained the population mean?</li>
+          <li>When we construct a 90 percent confidence interval, we say that we are <em>90 percent confident that the true population mean lies within the confidence interval. </em>Using complete sentences, explain what we mean by this phrase.</li>
+          <li>Some students think that a 90 percent confidence interval contains 90 percent of the data. Use the list of data given (the heights of women) and count how many of the data values lie within the confidence interval that you generated based on that data. How many of the 100 data values lie within your confidence interval? What percentage is this? Is this percentage close to 90 percent?</li>
+          <li>Explain why it does not make sense to count data values that lie in a confidence interval. Think about the random variable that is being used in the problem.</li>
+          <li>Suppose you obtained the heights of 10 women and calculated a confidence interval from this information. Without knowing the population mean <m>μ</m>, would you have any way of knowing <em>for certain</em> whether your interval actually contained the value of <m>μ</m>? Explain.</li>
+        </ol>
+      </note>
+    </subsection>
+
   </section>
 
   <glossary xml:id="glossary-ch08">
