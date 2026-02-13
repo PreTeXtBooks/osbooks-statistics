@@ -164,8 +164,8 @@ The test of a single variance, which tests variability, such as in the coffee ex
         </solution>
       </exercise>
     <example xml:id="element-962">
-      <title>Day of the Week Employees Were Most Absent</title>
       <statement>
+        <title>Day of the Week Employees Were Most Absent</title>
         <p>Employers want to know which days of the week employees are absent in a five-day work week. Most employers would like to believe that employees are absent equally during the week. Suppose a random sample of 60 managers were asked on which day of the week they had the highest number of employee absences. The results were distributed as in . For the population of employees, do the days for the highest number of absences occur with equal frequencies during a five-day work week? Test at a 5 percent significance level.</p>
       </statement>
       <solution>
@@ -213,8 +213,8 @@ The test of a single variance, which tests variability, such as in the coffee ex
         </solution>
       </exercise>
     <example xml:id="ch11-example3">
-      <title>Note</title>
       <statement>
+        <title>Note</title>
         <p>At the 1 percent significance level, does it appear that the distribution <em>number of televisions</em> of far western U.S. families is different from the distribution for the American population as a whole?</p>
       </statement>
       <solution>
@@ -365,8 +365,8 @@ sure you clear any lists before you start.</p>
         </solution>
       </exercise>
     <example xml:id="element-272">
-      <title>Number of Hours Worked per Week by Volunteer Type (Observed)</title>
       <statement>
+        <title>Number of Hours Worked per Week by Volunteer Type (Observed)</title>
         <p>Is the number of hours volunteered independent of the type of volunteer?</p>
       </statement>
       <solution>
@@ -424,8 +424,8 @@ The table contains expected (<m>E</m>) values (data).</p>
         </solution>
       </exercise>
     <example xml:id="element-505">
-      <title>Need to Succeed in School vs. Anxiety Level</title>
       <statement>
+        <title>Need to Succeed in School vs. Anxiety Level</title>
         <p>a. How many high anxiety level students are expected to have a high need to succeed in school?</p>
       </statement>
       <solution>
@@ -460,8 +460,8 @@ The table contains expected (<m>E</m>) values (data).</p>
     <p>RequirementsAll values in the table must be greater than or equal to five.</p>
     <p>Common UsesComparing two populations. For example:  men vs. women, before vs. after, east vs. west. The variable is categorical with more than two possible response values.</p>
     <example xml:id="eip-101">
-      <title>Distribution of Living Arragements for College Males and College Females</title>
       <statement>
+        <title>Distribution of Living Arrangements for College Males and College Females</title>
         <p>Do male and female college students have the same distribution of living arrangements?  Use a level of significance of 0.05. Suppose that 250 randomly selected male college students and 300 randomly selected female college students were asked about their living arrangements: dormitory, apartment, with parents, other. The results are shown in . Do male and female college students have the same distribution of living arrangements?</p>
       </statement>
       <solution>

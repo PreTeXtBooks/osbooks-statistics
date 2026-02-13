@@ -1246,8 +1246,8 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
       <p>We could guess at outliers by looking at a graph of the scatter plot and best-fit line. However, we would like some guideline regarding how far away a point needs to be to be considered an outlier. <em>As a rough rule of thumb, we can flag as an outlier any point that is located farther than two standard deviations above or below the best-fit line</em>. The standard deviation used is the standard deviation of the residuals or errors.</p>
       <p>We can do this visually in the scatter plot by drawing an extra pair of lines that are two standard deviations above and below the best-fit line. Any data points outside this extra pair of lines are flagged as potential outliers. Or, we can do this numerically by calculating each residual and comparing it with twice the standard deviation. With regard to the TI-83, 83+, or 84+ calculators, the graphical approach is easier. The graphical procedure is shown first, followed by the numerical calculations. You would generally need to use only one of these methods.</p>
       <example xml:id="eip-837">
-        <title>Graphical Identification of Outliers</title>
         <statement>
+          <title>Graphical Identification of Outliers</title>
           <p>In the <url href="m79689">third exam/final exam example</url>, you can determine whether there is an outlier. If there is an outlier, as an exercise, delete it and fit the remaining data to a new line. For this example, the new line ought to fit the remaining data better. This means the SSE (sum of the squared errors) should be smaller and the correlation coefficient ought to be closer to 1 or –1.</p>
         </statement>
         <solution>
@@ -1388,8 +1388,8 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         </solution>
       </exercise>
       <example xml:id="element-986">
-        <title>Note</title>
         <statement>
+          <title>Note</title>
           <ol>
             <li>Draw a scatter plot of the data.</li>
             <li>Calculate the least-squares line. Write the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
