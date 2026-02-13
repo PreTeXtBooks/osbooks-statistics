@@ -1963,6 +1963,9 @@ Twenty student athletes play one sport. Twenty-two student athletes play two spo
       <p>Count the money (bills and change) in your pocket or purse. Your instructor will record the amounts. As a class, construct a histogram displaying the data. Discuss how many intervals you think would be appropriate. You may want to experiment with the number of intervals.</p>
     </project>
 
+    <subsection xml:id="subsec-frequency-polygons">
+      <title>Frequency Polygons</title>
+
     <p>Frequency polygons are analogous to line graphs, and just as line graphs make continuous data visually easy to interpret, so too do frequency polygons.</p>
 
     <p>To construct a frequency polygon, first examine the data and decide on the number of intervals and resulting interval size, for both the <em>x</em>-axis and <em>y</em>-axis. The <em>x</em>-axis will show the lower and upper bound for each interval, containing the data values, whereas the <em>y</em>-axis will represent the frequencies of the values. Each data point represents the frequency for each interval. For example, if an interval has three data values in it, the frequency polygon will show a 3 at the upper endpoint of that interval. After choosing the appropriate intervals, begin plotting the data points. After all the points are plotted, draw line segments to connect them.</p>
@@ -2162,6 +2165,11 @@ that this distribution is skewed because one side of the graph does not mirror t
     <p>Suppose that we want to study the temperature range of a region for an entire month. Every day at noon, we note the temperature and write this down in a log. A variety of statistical studies could be done with these data. We could find the mean or the median temperature for the month. We could construct a histogram displaying the number of days that temperatures reach a certain range of values. However, all of these methods ignore a portion of the data that we have collected.</p>
 
     <p>One feature of the data that we may want to consider is that of time. Since each date is paired with the temperature reading for the day, we don't have to think of the data as being random. We can instead use the times given to impose a chronological order on the data. A graph that recognizes this ordering and displays the changing temperature as the month progresses is called a time series graph.</p>
+
+    </subsection>
+
+    <subsection xml:id="subsec-time-series-graph">
+      <title>Constructing a Time Series Graph</title>
 
     <p>To construct a time series graph, we must look at both pieces of our <term>paired data set</term>. We start with a standard Cartesian coordinate system. The horizontal axis is used to plot the date or time increments, and the vertical axis is used to plot the values of the variable that we are measuring. By using the axes in that way, we make each point on the graph correspond to a date and a measured quantity. The points on the graph are typically connected by straight lines in the order in which they occur.</p>
 
@@ -2463,8 +2471,12 @@ that this distribution is skewed because one side of the graph does not mirror t
       </solution>
     </exercise>
 
+    <subsection xml:id="subsec-time-series-uses">
+      <title>Uses of a Time Series Graph</title>
     <p>Time series graphs are important tools in various applications of statistics. When a researcher records values of the same variable over an extended period of time, it is sometimes difficult for him or her to discern any trend or pattern. However, once the same data points are displayed graphically, some features jump out. Time series graphs make trends easy to spot.</p>
+    </subsection>
 
+  </section>
 
     <p>Bureau of Labor Statistics, U.S. Department of Labor. (n.d.). <em>Consumer price index</em>. Retrieved from https://www.bls.gov/cpi/</p>
 
@@ -3952,6 +3964,9 @@ The percentage of students who own fewer than four sweaters
 </p>
     </project>
 
+    <subsection xml:id="subsec-kth-percentile-formula">
+      <title>A Formula for Finding the <em>k</em>th Percentile</title>
+
     <p>If you were to do a little research, you would find several formulas for calculating the <em>k</em><m>^{th}</m> percentile. Here is one of them.</p>
 
     <p><em>k</em> = the <em>k</em><m>^{th}</m> percentile. It may or may not be part of the data.</p>
@@ -4066,6 +4081,11 @@ Find the percentiles for 47 and 31.</p>
         <p><em>x</em> = 15 and <em>y</em> = 2.<m>\frac{x+0.5y}{n}</m>(100) = <m>\frac{15+0.5(2)}{29}</m>(100) = 31.03. 31 is the 31<m>^{st}</m> percentile.</p>
       </solution>
     </exercise>
+
+    </subsection>
+
+    <subsection xml:id="subsec-interpreting-percentiles">
+      <title>Interpreting Percentiles, Quartiles, and Median</title>
 
     <p>A percentile indicates the relative standing of a data value when data are sorted into numerical order from smallest to largest. Percentages of data values are less than or equal to the <em>p</em>th percentile. For example, 15 percent of data values are less than or equal to the 15<m>^{th}</m> percentile.</p>
 
@@ -4388,6 +4408,8 @@ need more information
         </ol>
       </solution>
     </exercise>
+
+    </subsection>
 
   </section>
 
@@ -4969,7 +4991,15 @@ Find the mode.
       </solution>
     </exercise>
 
+    <subsection xml:id="subsec-law-of-large-numbers">
+      <title>The Law of Large Numbers and the Mean</title>
+
     <p>The Law of Large Numbers says that if you take samples of larger and larger size from any population, then the mean <m>\overline{x}</m> of the sample is very likely to get closer and closer to <em>µ</em>. This law is discussed in more detail later in the text.</p>
+
+    </subsection>
+
+    <subsection xml:id="subsec-sampling-distributions">
+      <title>Sampling Distributions and Statistic of a Sampling Distribution</title>
 
     <p>You can think of a <term>sampling distribution</term> as a <em> relative frequency distribution</em> with a great many samples. See <em>Chapter 1: Sampling and Data</em> for a review of relative frequency. Suppose 30 randomly selected students were asked the number of movies they watched the previous week. The results are in the <em>relative frequency table</em> shown below.</p>
 
