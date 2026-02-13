@@ -2501,7 +2501,7 @@ that this distribution is skewed because one side of the graph does not mirror t
     <exercise xml:id="ch2-eip-341">
       <statement>
         <p>65 randomly selected car salespersons were asked the number of cars they generally sell in one week. 14 people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars. Complete the table.</p>
-        <table>
+        <table xml:id="table001">
           <tabular>
             <row header="yes">
               <cell>Data Value (Number of Cars)</cell>
@@ -2546,7 +2546,7 @@ that this distribution is skewed because one side of the graph does not mirror t
 
     <exercise xml:id="element-625">
       <statement>
-        <p>What does the frequency column in  sum to? Why?</p>
+        <p>What does the frequency column in <xref ref="table001"/> sum to? Why?</p>
       </statement>
       <solution>
         <p>65</p>
@@ -2555,13 +2555,13 @@ that this distribution is skewed because one side of the graph does not mirror t
 
     <exercise xml:id="exerciseone">
       <statement>
-        <p>What does the relative frequency column in  sum to? Why?</p>
+        <p>What does the relative frequency column in <xref ref="table001"/> sum to? Why?</p>
       </statement>
     </exercise>
 
     <exercise xml:id="exercisetwo">
       <statement>
-        <p>What is the difference between relative frequency and frequency for each data value in ?</p>
+        <p>What is the difference between relative frequency and frequency for each data value in <xref ref="table001"/>?</p>
       </statement>
       <solution>
         <p>The relative frequency shows the <em>proportion</em> of data points that have each value. The frequency tells the <em>number</em> of data points that have each value.</p>
@@ -2576,7 +2576,7 @@ that this distribution is skewed because one side of the graph does not mirror t
 
     <exercise xml:id="fs-idp48667136">
       <statement>
-        <p>To construct the histogram for the data in , determine appropriate minimum and maximum <em>x</em>- and <em>y</em>-values and the scaling. Sketch the histogram. Label the horizontal and vertical axes with words. Include numerical scaling.</p>
+        <p>To construct the histogram for the data in <xref ref="table001"/>, determine appropriate minimum and maximum <em>x</em>- and <em>y</em>-values and the scaling. Sketch the histogram. Label the horizontal and vertical axes with words. Include numerical scaling.</p>
         <figure xml:id="eip-idp57691072">
           <image source="media/fig-ch02_11_01.jpg" width="80%"/>
         </figure>
@@ -5627,9 +5627,12 @@ Frequency
       <statement>
         <p>Discuss the mean, median, and mode for each of the following problems. Is there a pattern between the shape and measure of the center?</p>
         <p>a. 
-
-
-</p>
+          <figure xml:id="fs-idp12578240">
+            <image source="media/CNX_Stats_C02_M08_033.png" width="80%">
+              <description>This dot plot matches the supplied data. The plot uses a number line from 0 to 14. It shows two x's over 0, four x's over 1, three x's over 2, one x over 3, two x's over the number 4, 5, 6, and 9, and 1 x each over 10 and 14. There are no x's over the numbers 7, 8, 11, 12, and 13.</description>
+            </image>
+          </figure>
+        </p>
         <p>b.
 
 
@@ -5670,12 +5673,14 @@ The Ages at Which Former U.S. Presidents Died
   
 
 
-
 </p>
         <p>c.
-
-
-</p>
+          <figure xml:id="fs-idp18736080">
+            <image source="media/CNX_Stats_C02_M08_034.png" width="80%">
+              <description>This is a histogram titled Hours Spent Playing Video Games on Weekends. The x-axis shows the number of hours spent playing video games with bars showing values at intervals of 5. The y-axis shows the number of students. The first bar for 0 - 4.99 hours has a height of 2. The second bar from 5 - 9.99 has a height of 3. The third bar from 10 - 14.99 has a height of 4. The fourth bar from 15 - 19.99 has a height of 7. The fifth bar from 20 - 24.99 has a height of 9.</description>
+            </image>
+          </figure>
+        </p>
       </statement>
       <solution>
         <ol>
@@ -6404,8 +6409,8 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
     <p>Just as we could not find the exact mean, neither can we find the exact standard deviation. Remember that standard deviation describes numerically the expected deviation a data value has from the mean. In simple English, the standard deviation allows us to compare how <em>unusual</em> individual data are when compared to the mean.</p>
 
     <example xml:id="fs-idm67331024">
-      <p>Find the standard deviation for the data in .</p>
-      <table>
+      <p>Find the standard deviation for the data in <xref ref="fs-idm67330768"/>.</p>
+      <table xml:id="fs-idm67330768">
         <tabular>
           <row header="yes">
             <cell>Class</cell>
@@ -6477,6 +6482,41 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
 
     <exercise>
       <title>Try It</title>
+      <statement>
+        <p>Find the standard deviation for the data from the previous example:</p>
+        <table xml:id="fs-idm8420544">
+          <tabular>
+            <row header="yes">
+              <cell>Class</cell>
+              <cell>Frequency, <em>f</em></cell>
+            </row>
+            <row>
+              <cell>0–2</cell>
+              <cell>1</cell>
+            </row>
+            <row>
+              <cell>3–5</cell>
+              <cell>6</cell>
+            </row>
+            <row>
+              <cell>6–8</cell>
+              <cell>10</cell>
+            </row>
+            <row>
+              <cell>9–11</cell>
+              <cell>7</cell>
+            </row>
+            <row>
+              <cell>12–14</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>15–17</cell>
+              <cell>2</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
     </exercise>
 
     <p>As explained before, a <em>z</em>-score allows us to compare statistics from different data sets. If the data sets have different means and standard deviations, then comparing the data values directly can be misleading.</p>
