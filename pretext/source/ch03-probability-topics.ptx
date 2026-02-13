@@ -2283,7 +2283,11 @@ Totals
 
   <section xml:id="sec-probability-topics-homework">
     <title>Homework</title>
-    <exercise xml:id="ch03-eip-616">
+    
+    <exercises xml:id="exercises-bringing-it-together-ch03">
+      <title>Bringing It Together</title>
+      
+      <exercise xml:id="ch03-eip-616">
       <statement>
         <p>The graph in  displays the sample sizes and percentages of people in different age and gender groups who were polled concerning their approval of Mayor Ford’s actions in office. The total number in the sample of all the age groups is 1,045.</p>
         <ol>
@@ -2992,6 +2996,7 @@ Totals
         </ol>
       </statement>
     </exercise>
+    </exercises>
   </section>
 
   <conclusion>
