@@ -19,7 +19,7 @@ for prefix, uri in CNXML_NS.items():
     if prefix:
         ET.register_namespace(prefix, uri)
 
-def convert_mathml_to_latex(elem, namespaces=None):
+def convert_mathml_to_latex(elem):
     """Convert MathML to LaTeX"""
     if elem is None:
         return ""

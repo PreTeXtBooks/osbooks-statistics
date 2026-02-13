@@ -85,8 +85,7 @@
       <p>*We will investigate tree diagrams and Venn diagrams in Section 3.5.</p>
       <p>Note—when represented as a set, the sample space is denoted with an uppercase <m>S</m>.</p>
       <p>An event is any combination of outcomes. It is a subset of the sample space, so uppercase letters like <m>A</m> and <m>B</m> are commonly used to represent events. For example, if the experiment is to flip three fair coins, event <m>A</m> might be getting at most one head.</p>
-      <p>The probability of an event <m>A</m> is written <m>P</m>(<m>A</m>), and <m>0\leqP(A)\leq1.P(A)=0</m> means the event <m>A</m> can never happen. <m>P</m>(<m>A</m>) = 1 means the event <m>A</m> always happens. 
-<m>P(A)=0.5</m> means the event <m>A</m> is <alert>equally likely</alert> to occur or not to occur.</p>
+      <p>The probability of an event <m>A</m> is written <m>P(A)</m>, and <m>0 \leq P(A) \leq 1</m>. <m>P(A) = 0</m> means the event <m>A</m> can never happen. <m>P(A) = 1</m> means the event <m>A</m> always happens. <m>P(A)=0.5</m> means the event <m>A</m> is <alert>equally likely</alert> to occur or not to occur.</p>
       <figure xml:id="fs-id1164565359012">
         <image source="media/OSX_HS_Statistics_Figure_03_01_02_05.jpg"/>
       </figure>
@@ -114,8 +113,7 @@
           <p>The sample space <m>S</m> is the whole numbers starting at one and less than 20.</p>
           <p>Let event <m>A</m> = the even numbers and event <m>B</m> = numbers greater than 13.</p>
           <ol>
-            <li><m>S</m> = ________
-Let event <m>A</m> = the even numbers and event <m>B</m> = numbers greater than 13.</li>
+            <li><m>S</m> = ________</li>
             <li><m>A</m> = ________, <m>B</m> = ________</li>
             <li><m>P</m>(<m>A</m>) = ________, <m>P</m>(<m>B</m>) = ________</li>
             <li><m>A</m> AND <m>B</m> = ________, <m>A</m> OR <m>B</m> = ________</li>
