@@ -50,10 +50,22 @@ The test of a single variance, which tests variability, such as in the coffee ex
     <p><m>χ</m>^{2} = (<m>Z</m>_{1})^{2} + (<m>Z</m>_{2})^{2} + ... + (<m>Z</m>_{<m>k</m>})^{2}, where the following are true:</p>
     <ul>
       <li>The curve is nonsymmetrical and skewed to the right.</li>
-      <li>There is a different chi-square curve for each <m>df</m>.</li>
+      <li>There is a different chi-square curve for each <m>df</m>.
+<figure xml:id="chisq_curvedf">
+  <caption>Part (a) shows a chi-square curve with 2 degrees of freedom. It is nonsymmetrical and slopes downward continually. Part (b) shows a chi-square curve with 24 df. This nonsymmetrical curve does have a peak and is skewed to the right. The graphs illustrate that different degrees of freedom produce different chi-square curves.</caption>
+  <image source="media/fig-ch11_03_01.jpg" width="80%">
+    <description>Part (a) shows a chi-square curve with 2 degrees of freedom. It is nonsymmetrical and slopes downward continually. Part (b) shows a chi-square curve with 24 df. This nonsymmetrical curve does have a peak and is skewed to the right. The graphs illustrate that different degrees of freedom produce different chi-square curves.</description>
+  </image>
+</figure></li>
       <li>The test statistic for any test is always greater than or equal to zero.</li>
       <li>When <m>df</m> &gt; 90, the chi-square curve approximates the normal distribution. For <m>X</m> ~ <m>\chi_{1,000}^{2}</m>, the mean, <m>μ</m> = <m>df</m> = 1,000 and the standard deviation, <m>σ</m> = <m>\sqrt{2(1,000)}</m> = 44.7. Therefore, <m>X</m> ~ <m>N</m>(1,000, 44.7), approximately.</li>
-      <li>The mean, <m>μ</m>, is located just to the right of the peak.</li>
+      <li>The mean, <m>μ</m>, is located just to the right of the peak.
+<figure xml:id="chisq_curvedf2">
+  <caption>This is a nonsymmetrical chi-square curve which is skewed to the right. The mean, m, is labeled on the horizontal axis and is located to the right of the curve's peak.</caption>
+  <image source="media/fig-ch11_03_02-02.jpg" width="80%">
+    <description>This is a nonsymmetrical chi-square curve which is skewed to the right. The mean, m, is labeled on the horizontal axis and is located to the right of the curve's peak.</description>
+  </image>
+</figure></li>
     </ul>
   </section>
 
@@ -401,6 +413,11 @@ The table contains expected (<m>E</m>) values (data).</p>
         <solution>
           <p><m>H</m>_{0} : The number of jobs is independent of the year.</p>
           <p><em>H_{a}</em> : The number of jobs is dependent on the year.<nbsp /><m>df</m> = 12</p>
+          <figure xml:id="fs-idp37345056">
+            <image source="media/CNX_Stats_C11_M05_tryit001annoN.jpg" width="76%">
+              <description>The graph is a bell-shaped curve skewed to the right. The horizontal axis is labeled as x squared with two tick marks. Zero is labeled on the far left and 12.99 is labeled on the far right. A vertical line extends to the graph from the horizontal axis from the 12.99 mark and the area to the right is shaded purple. Above the 12.99 tick mark the p-value equals 0.0113.</description>
+            </image>
+          </figure>
           <p>Press the <c>MATRX</c> key and arrow over to <c>EDIT</c>. Press <c>1:[A]</c>. Press <c>3 ENTER 3 ENTER</c>. Enter the table values by row. Press <c>ENTER</c> after each. Press <c>2nd QUIT</c>. Press <c>STAT</c> and arrow over to <c>TESTS</c>. Arrow down to <c>C:χ2-TEST</c>. Press <c>ENTER</c>. You should see <c>Observed:[A] and Expected:[B]</c>. Arrow down to <c>Calculate</c>. Press <c>ENTER</c>. The test statistic is 227.73 and the <m>p</m>−value = 5.90E - 42 = 0. Do the procedure a second time but arrow down to <c>Draw</c> instead of <c>calculate</c>.</p>
         </solution>
       </exercise>
@@ -676,7 +693,12 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
          __________
          __________
          __________</li>
-        <li>Construct a histogram of the data. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.</li>
+        <li>Construct a histogram of the data. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.
+<figure xml:id="id42008923">
+  <image source="media/fig-ch11_15_01.png" width="80%">
+    <description>Blank graph with relative frequency on vertical axis</description>
+  </image>
+</figure></li>
         <li>Calculate the following: <m>\overline{x}</m> = ________
      <m>s</m> = ________
      <m>s</m>^{2} = ________</li>
@@ -743,7 +765,12 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
         <li>Why did you choose this distribution?</li>
         <li>Calculate the test statistic.</li>
         <li>Find the <m>p</m>-value.</li>
-        <li>Sketch a graph of the situation. Label and scale the <m>x</m>-axis. Shade the area corresponding to the <m>p</m>-value.</li>
+        <li>Sketch a graph of the situation. Label and scale the <m>x</m>-axis. Shade the area corresponding to the <m>p</m>-value.
+<figure xml:id="id40469669">
+  <image source="media/fig-ch11_15_02.png" width="80%">
+    <description>Blank graph with vertical and horizontal axes.</description>
+  </image>
+</figure></li>
         <li>State your decision.</li>
         <li>State your conclusion in a complete sentence.</li>
       </ol>
@@ -812,7 +839,12 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
         <li>Why did you choose this distribution?</li>
         <li>Calculate the test statistic.</li>
         <li>Find the <m>p</m>-value.</li>
-        <li>Sketch a graph of the situation. Label and scale the <m>x</m>-axis. Shade the area corresponding to the <m>p</m>-value.</li>
+        <li>Sketch a graph of the situation. Label and scale the <m>x</m>-axis. Shade the area corresponding to the <m>p</m>-value.
+<figure xml:id="id42004364">
+  <image source="media/fig-ch11_15_03.png" width="80%">
+    <description>Blank graph with vertical and horizontal axes.</description>
+  </image>
+</figure></li>
         <li>State your decision.</li>
         <li>State your conclusion in a complete sentence.</li>
       </ol>
@@ -881,7 +913,12 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
         <li>Why did you choose this distribution?</li>
         <li>Calculate the test statistic.</li>
         <li>Find the <m>p</m> value.</li>
-        <li>Sketch a graph of the situation. Label and scale the <m>x</m> axis. Shade the area corresponding to the <m>p</m> value.</li>
+        <li>Sketch a graph of the situation. Label and scale the <m>x</m> axis. Shade the area corresponding to the <m>p</m> value.
+<figure xml:id="id3390530">
+  <image source="media/fig-ch11_16_01.png" width="80%">
+    <description>Blank graph with vertical and horizontal axes.</description>
+  </image>
+</figure></li>
         <li>State your decision.</li>
         <li>State your conclusion in a complete sentence.</li>
       </ol>

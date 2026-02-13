@@ -64,6 +64,11 @@
       <exercise xml:id="eip-46">
         <statement>
           <p>Is the following an example of a linear equation? Why or why not?</p>
+          <figure>
+            <image source="media/CNX_Stats_C012_M02_tryit001.png" width="80%">
+              <description>This is a graph of an equation. The x-axis is labeled in intervals of 2 from 0 - 14; the y-axis is labeled in intervals of 2 from 0 - 12. The equation's graph is a curve that crosses the y-axis at 2 and curves upward and to the right.</description>
+            </image>
+          </figure>
         </statement>
         <solution>
           <p>No, the graph is not a straight line; therefore, it is not a linear equation.</p>
@@ -196,7 +201,12 @@
       </exercise>
       <exercise xml:id="eip-675">
         <statement>
-          <p>Does the graph in  show a linear equation? Why or why not?</p>
+          <p>Does the graph in <xref ref="fig-eip-675-graph"/> show a linear equation? Why or why not?</p>
+          <figure xml:id="fig-eip-675-graph">
+            <image source="media/CNX_Stats_C012_M02_item003.jpg" width="80%">
+              <description>This is a graph of an equation. The x-axis is labeled in intervals of 1 from -5 to 5; the y-axis is labeled in intervals of 1 from 0 - 8. The equation's graph is a parabola, a u-shaped curve that has a minimum value at (0, 0).</description>
+            </image>
+          </figure>
         </statement>
       </exercise>
       <p><em>Use the following information to answer the next exercise.</em>  contains real data for the first two decades of flu reporting.</p>
@@ -377,6 +387,11 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       <p>Thus, the equation can be written as <m>y</m> = 6.9<m>x</m> − 316.3.</p>
       <p>The median–median line may also be found using your graphing calculator. You can enter the <m>x</m> and <m>y</m> values into two separate lists; choose Stat, Calc, Med-Med, and press Enter. The slope, <m>a</m>, and <m>y</m>-intercept, <m>b</m>, will be provided. The calculator shows a slight deviation from the previous manual calculation as a result of rounding. Rounding to the nearest tenth, the calculator gives the median-median line of <m>y=6.9x-315.5\text{.}</m> Each point of data is of the the form (<m>x</m>, <m>y</m>), and each point of the line of best fit using least-squares linear regression has the form (<m>x</m>, <m>ŷ</m>).</p>
       <p>The <m>ŷ</m> is read <em>y hat</em> and is the <em>estimated value of y</em>. It is the value of <m>y</m> obtained using the regression line. It is not generally equal to <m>y</m> from data, but it is still important because it can help make predictions for other values.</p>
+      <figure>
+        <image source="media/fig-ch12_05_02.jpg" width="80%">
+          <description>The scatter plot of exam scores with a line of best fit. One data point is highlighted along with the corresponding point on the line of best fit. Both points have the same x-coordinate. The distance between these two points illustrates how to compute the sum of squared errors.</description>
+        </image>
+      </figure>
       <p>The term <m>y</m>_{0} – <m>ŷ</m>_{0} = <m>ε</m>_{0} is called the <em>error</em> or <em>residual</em>. It is not an error in the sense of a mistake. The <em>absolute value of a residual</em> measures the vertical distance between the actual value of <m>y</m> and the estimated value of <m>y</m>. In other words, it measures the vertical distance between the actual data point and the predicted point on the line, or it measures how far the estimate is from the actual data value.</p>
       <p>If the observed data point lies above the line, the residual is positive and the line underestimates the actual data value for <m>y</m>. If the observed data point lies below the line, the residual is negative and the line overestimates that actual data value for <m>y</m>.</p>
       <p>In , <m>y</m>_{0} – <m>ŷ</m>_{0} = ε_{0} is the residual for the point shown. Here the point lies above the line and the residual is positive.</p>
@@ -454,6 +469,11 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
           <li>Leave the line for <c>RegEQ:</c> blank.</li>
           <li>Highlight <c>Calculate</c> and press <c>ENTER</c>.</li>
         </ol>
+        <figure>
+          <image source="media/fig-ch12_05_04.jpg" width="80%">
+            <description>1. Image of calculator input screen for LinRegTTest with input matching the instructions above. 2. Image of corresponding output calculator output screen for LinRegTTest: Output screen shows: Line 1. LinRegTTest; Line 2. y = a + bx; Line 3. beta does not equal 0 and rho does not equal 0; Line 4. t = 2.657560155; Line 5. df = 9; Line 6. a = 173.513363; Line 7. b = 4.827394209; Line 8. s = 16.41237711; Line 9. r squared = .4396931104; Line 10. r = .663093591</description>
+          </image>
+        </figure>
         <p>The output screen contains a lot of information. For now, let’s focus on a few items from the output and return to the other items later.
 <nbsp/>The second line says <m>y</m> = <m>a</m> + <m>bx</m>. Scroll down to find the values <m>a</m> = –173.513 and <m>b</m> = 4.8273.</p>
         <p>The equation of the best-fit line is <m>ŷ</m> = –173.51 + 4.83<m>x</m>.
@@ -1197,6 +1217,11 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
       <exercise xml:id="eip-365">
         <statement>
           <p>Identify the potential outlier in the scatter plot. The standard deviation of the residuals, or errors, is approximately 8.6.</p>
+          <figure>
+            <image source="media/CNX_Stats_C012_M09_item001.png" width="80%">
+              <description>Scatter plot showing data points. The y-axis is labeled 0 through 100 going up by intervals of 20. The x-axis is labeled 0 through 14 going up by intervals of 2. Most points follow a linear trend except for one point at approximately (6, 58) which appears far below the trend line.</description>
+            </image>
+          </figure>
         </statement>
         <solution>
           <p>The outlier appears to be at (6, 58). The expected <m>y</m> value on the line for the point (6, 58) is approximately 82. Fifty-eight is 24 units from 82. Twenty-four is more than two standard deviations (2<m>s</m> = (2)(8.6) = 17.2 ). So 82 is more than two standard deviations from 58, which makes (6, 58) a potential outlier.</p>
@@ -1355,6 +1380,11 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         <solution>
           <p>a. The independent variable (<m>x</m>) is the year and the dependent variable (<m>y</m>) is the per capita income.</p>
           <p>b.</p>
+          <figure>
+            <image source="media/CNX_Stats_C012_M09_tryit002anno.jpg" width="80%">
+              <description>A graph is shown. The y-axis is labeled PCINC and the x-axis is labeled year. The y-axis has tick marks at 0, 500, 1000, 1500, 2000, and 2500. The x-axis has tick marks at 1860, 1880, 1900, 1920, 1940, 1960, and 1980.</description>
+            </image>
+          </figure>
           <p>c. <m>ŷ</m> = 18.61x – 34574; <m>r</m> = 0.9732</p>
           <p>d. At <m>df</m> = 8, the critical value is 0.632. The <m>r</m>-value is significant because it is greater than the critical value.</p>
           <p>e. There does appear to be a linear relationship between the variables.</p>
@@ -1949,7 +1979,13 @@ Cost of Supplies This Term</li>
           <li>Which variable should be the dependent variable and which should be the independent
 variable? Why?</li>
           <li>Graph <em>distance</em> vs. <em>cost</em>. Plot the points on the graph. Label both axes with
-words. Scale both axes.</li>
+words. Scale both axes.
+            <figure>
+              <image source="media/fig-ch12_14_01.png" width="80%">
+                <description>Blank graph with vertical and horizontal axes.</description>
+              </image>
+            </figure>
+          </li>
         </ol>
         <p>Analyze the DataEnter your data into a calculator or computer. Write the linear equation, rounding to four decimal places.</p>
         <ol>
@@ -1972,7 +2008,13 @@ Is the correlation significant? Why or why not? (Answer in one to three complete
 			For a person who lives 80 miles from campus, predict the total cost of supplies this term.</li>
           <li>For a person who lives eight miles from campus, predict the total cost of supplies this term.</li>
           <li>For a person who lives 80 miles from campus, predict the total cost of supplies this term.</li>
-          <li>Obtain the graph on a calculator or computer. Sketch the regression line.</li>
+          <li>Obtain the graph on a calculator or computer. Sketch the regression line.
+            <figure>
+              <image source="media/fig-ch12_14_02.png" width="80%">
+                <description>Blank graph with vertical and horizontal axes.</description>
+              </image>
+            </figure>
+          </li>
         </ol>
         <ol>
           <li>Answer each question in complete sentences.
@@ -2039,7 +2081,13 @@ For a textbook with 400 pages, predict the cost.
 For a textbook with 600 pages, predict the cost.</li>
           <li>For a textbook with 400 pages, predict the cost.</li>
           <li>For a textbook with 600 pages, predict the cost.</li>
-          <li>Obtain the graph on a calculator or computer. Sketch the regression line.</li>
+          <li>Obtain the graph on a calculator or computer. Sketch the regression line.
+            <figure>
+              <image source="media/fig-ch12_15_01.png" width="80%">
+                <description>Blank graph with vertical and horizontal axes.</description>
+              </image>
+            </figure>
+          </li>
         </ol>
         <ol>
           <li>Answer each question in complete sentences.

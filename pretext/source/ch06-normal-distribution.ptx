@@ -755,9 +755,11 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by 
 <nbsp/>invNorm(0.30, 36.9, 13.9) = 29.6 years
 <nbsp/>Thirty percent of smartphone users 13 to 55+ are at most 29.6 years and 70% are at least 29.6 years.</li>
             <li>Find <m>P</m>(<m>x</m> &lt; 27)
-
-
-
+<figure>
+  <image source="media/CNX_Stats_C06_M03_001b.png" width="80%">
+    <description>This is a normal distribution curve. The peak of the curve coincides with the point 36.9 on the horizontal axis. The point 27 is also labeled. A vertical line extends from 27 to the curve. The area under the curve to the left of 27 is shaded. The shaded area shows that P(x &lt; 27) = 0.2342.</description>
+  </image>
+</figure>
 <nbsp/>normalcdf(0,27,36.9,13.9) = 0.2342
 <nbsp/>(Note that normalcdf(–10^{99},27,36.9,13.9) = 0.2382. The two answers differ only by 0.0040.)</li>
           </ol>
@@ -969,7 +971,12 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         <statement>
           <p><em>Use the following information to answer the next three exercises:</em> The life of Sunshine CD players is normally distributed with a mean of 4.1 years and a standard deviation of 1.3 years. A CD player is guaranteed for three years. We are interested in the length of time a CD player lasts. Find the probability that a CD player will break down during the guarantee period.</p>
           <ol>
-            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.</li>
+            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.
+<figure>
+  <image source="media/fig-ch06_07_01.jpg" width="80%">
+    <description>Empty normal distribution curve.</description>
+  </image>
+</figure></li>
             <li><m>P</m>(0 &lt; <m>x</m> &lt; ____________) = ___________. Use zero for the minimum value of <m>x</m>.</li>
           </ol>
         </statement>
@@ -984,7 +991,12 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         <statement>
           <p>Find the probability that a CD player will last between 2.8 and 6 years.</p>
           <ol>
-            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.</li>
+            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.
+<figure>
+  <image source="media/fig-ch06_07_02.jpg" width="80%">
+    <description>Empty normal distribution curve.</description>
+  </image>
+</figure></li>
             <li><m>P</m>(__________ &lt; <m>x</m> &lt; __________) = __________</li>
           </ol>
         </statement>
@@ -993,7 +1005,12 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         <statement>
           <p>Find the 70^{th} percentile of the distribution for the time a CD player lasts.</p>
           <ol>
-            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the lower 70 percent.</li>
+            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the lower 70 percent.
+<figure>
+  <image source="media/fig-ch06_07_03.jpg" width="80%">
+    <description>Empty normal distribution curve.</description>
+  </image>
+</figure></li>
             <li><m>P</m>(<m>x</m> &lt; <m>k</m>) = __________. Therefore, <m>k</m> = _________.</li>
           </ol>
         </statement>
@@ -1570,7 +1587,12 @@ _______
 _______
 _______
 _______</li>
-          <li>Construct a histogram. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.</li>
+          <li>Construct a histogram. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.
+<figure>
+  <image source="media/fig-ch06_10_01.png" width="80%">
+    <description>Blank graph with relative frequency on the vertical axis and lap time on the horizontal axis.</description>
+  </image>
+</figure></li>
           <li>Calculate the following:
 
 <m>\overline{x}</m> = _______
@@ -1675,7 +1697,12 @@ _______
 _______
 _______
 _______</li>
-          <li>Construct a histogram. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.</li>
+          <li>Construct a histogram. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.
+<figure>
+  <image source="media/fig-ch06_11_01N.png" width="80%">
+    <description>Blank graph with frequency on the vertical axis and length of finger on the horizontal axis.</description>
+  </image>
+</figure></li>
           <li>Calculate the following:
 <m>\overline{x}</m> = _______
 <m>s</m> = _______</li>
