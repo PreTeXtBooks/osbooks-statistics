@@ -39,7 +39,10 @@
     <p>One simple graph, the <em>stem-and-leaf graph</em> or <em>stemplot</em>, comes from the field of exploratory data analysis. It is a good choice when the data sets are small. To create the plot, divide each observation of data into a stem and a leaf. The stem consists of the leading digit(s), while the leaf consists of a <term>final significant digit</term>. For example, 23 has stem two and leaf three. The number 432 has stem 43 and leaf two. Likewise, the number 5,432 has stem 543 and leaf two. The decimal 9.3 has stem nine and leaf three. Write the stems in a vertical line from smallest to largest. Draw a vertical line to the right of the stems. Then write the leaves in increasing order next to their corresponding stem. Make sure the leaves show a space between values, so that the exact data values may be easily determined. The frequency of data values for each stem provides information about the shape of the distribution.</p>
 
     <example xml:id="element-696">
-      <p>For Susan Dean's spring precalculus class, scores for the first exam were as follows (smallest to largest):
+
+      <statement>
+
+        <p>For Susan Dean's spring precalculus class, scores for the first exam were as follows (smallest to largest):
 
 
  33, 42, 49, 49, 53, 55, 55, 61, 63, 67, 68, 68, 69, 69, 72, 73, 74, 78, 80, 83, 88, 88, 88, 90, 92, 94, 94, 94, 94, 96, 100</p>
@@ -85,6 +88,9 @@
         </tabular>
       </table>
       <p>The stemplot shows that most scores fell in the 60s, 70s, 80s, and 90s. Eight out of the 31 scores or approximately 26 percent <m>(\frac{8}{31})</m> were in the 90s or 100, a fairly high number of As.</p>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -806,7 +812,10 @@ Construct a stemplot for the data.</p>
     <p>Another type of graph that is useful for specific data values is a <em>line graph</em>. In the particular line graph shown in , the <em><em>x</em>-axis</em> (horizontal axis) consists of <em>data values</em> and the <em><em>y</em>-axis</em> (vertical axis) consists of <em>frequency points</em>. The frequency points are connected  using line segments.</p>
 
     <example xml:id="example4">
-      <p>In a survey, 40 mothers were asked how many times per week a teenager must be reminded to do his or her chores. The results are shown in  and in .</p>
+
+      <statement>
+
+        <p>In a survey, 40 mothers were asked how many times per week a teenager must be reminded to do his or her chores. The results are shown in  and in .</p>
       <table>
         <tabular>
           <row header="yes">
@@ -843,6 +852,9 @@ Teenager Is Reminded</cell>
       <figure xml:id="M01_Ch02_fig001">
         <image source="media/fig-ch_02_03_01.jpg" width="80%"/>
       </figure>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -1712,7 +1724,10 @@ n
     <p><em>To construct a histogram</em>, first decide how many <em>bars</em> or <em>intervals</em>, also called classes, represent the data. Many histograms consist of five to 15 bars or classes for clarity. The width of each bar is also referred to as the bin size, which may be calculated by dividing the range of the data values by the desired number of bins (or bars). There is not a set procedure for determining the number of bars or bar width/bin size; however, consistency is key when determining which data values to place inside each interval.</p>
 
     <example xml:id="exampid1">
-      <p>The following data are the heights (in inches to the nearest half inch) of 100 male semiprofessional soccer players. The heights are <em>continuous</em> data since height is measured.
+
+      <statement>
+
+        <p>The following data are the heights (in inches to the nearest half inch) of 100 male semiprofessional soccer players. The heights are <em>continuous</em> data since height is measured.
 
 60, 60.5, 61, 61, 61.5,
 
@@ -1752,6 +1767,9 @@ n
       <figure xml:id="eip-idm88475792">
         <image source="media/fig-ch_02_04_01.jpg" width="80%"/>
       </figure>
+
+      </statement>
+
     </example>
 
     <table>
@@ -1968,7 +1986,10 @@ Twenty student athletes play one sport. Twenty-two student athletes play two spo
     <p>To construct a frequency polygon, first examine the data and decide on the number of intervals and resulting interval size, for both the <em>x</em>-axis and <em>y</em>-axis. The <em>x</em>-axis will show the lower and upper bound for each interval, containing the data values, whereas the <em>y</em>-axis will represent the frequencies of the values. Each data point represents the frequency for each interval. For example, if an interval has three data values in it, the frequency polygon will show a 3 at the upper endpoint of that interval. After choosing the appropriate intervals, begin plotting the data points. After all the points are plotted, draw line segments to connect them.</p>
 
     <example xml:id="example4-2">
-      <p>A frequency polygon was constructed from the frequency table below.</p>
+
+      <statement>
+
+        <p>A frequency polygon was constructed from the frequency table below.</p>
       <table>
         <tabular>
           <row header="yes">
@@ -2017,6 +2038,9 @@ Twenty student athletes play one sport. Twenty-two student athletes play two spo
       </figure>
       <p>Notice that each point represents frequency for a particular interval. These points are located halfway between the lower bound and upper bound. In fact, the horizontal axis, or <em>x</em>-axis, shows only these midpoint values. For the interval 49.5–59.5 the value 54.5 is represented by a point, showing the correct frequency of 5. For the interval occurring before 49.5–59.5, (as well as 39.5–49.5), the value of the midpoint, or 44.5, is represented by a point, showing a frequency of 0, since we do not have any values in that range. The same idea applies to the last interval of 99.5–109.5, which has a midpoint of 104.5 and correctly shows a point representing a frequency of 0. Looking at the graph, we say
 that this distribution is skewed because one side of the graph does not mirror the other side.</p>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -2067,7 +2091,10 @@ that this distribution is skewed because one side of the graph does not mirror t
     <p>Frequency polygons are useful for comparing distributions. This comparison is achieved by overlaying the frequency polygons drawn for different data sets.</p>
 
     <example xml:id="fs-idp21707856">
-      <p>We will construct an overlay frequency polygon comparing the scores from  with the students’ final numeric grades.</p>
+
+      <statement>
+
+        <p>We will construct an overlay frequency polygon comparing the scores from  with the students’ final numeric grades.</p>
       <table>
         <tabular>
           <row header="yes">
@@ -2157,6 +2184,9 @@ that this distribution is skewed because one side of the graph does not mirror t
       <figure xml:id="eip-id1165746871888">
         <image source="media/CNX_Stats_C02_M05a_002N.jpg" width="80%"/>
       </figure>
+
+      </statement>
+
     </example>
 
     <p>Suppose that we want to study the temperature range of a region for an entire month. Every day at noon, we note the temperature and write this down in a log. A variety of statistical studies could be done with these data. We could find the mean or the median temperature for the month. We could construct a histogram displaying the number of days that temperatures reach a certain range of values. However, all of these methods ignore a portion of the data that we have collected.</p>
@@ -3799,7 +3829,10 @@ Test Scores for Class <em>B</em>:
     </exercise>
 
     <example xml:id="element-84">
-      <p>Fifty statistics students were asked how much sleep they get per school night (rounded to the nearest hour). The results were as follows:</p>
+
+      <statement>
+
+        <p>Fifty statistics students were asked how much sleep they get per school night (rounded to the nearest hour). The results were as follows:</p>
       <table>
         <tabular>
           <row header="yes">
@@ -3855,6 +3888,9 @@ Test Scores for Class <em>B</em>:
       <p><em>Find the 28<m>^{th}</m> percentile</em>. Notice the .28 in the Cumulative Relative Frequency column. Twenty-eight percent of 50 data values is 14 values. There are 14 values less than the 28<m>^{th}</m> percentile. They include the two 4s, the five 5s, and the seven 6s. The 28<m>^{th}</m> percentile is between the last six and the first seven. <em>The 28<m>^{th}</m> percentile is 6.5.</em></p>
       <p><em>Find the median</em>. Look again at the Cumulative Relative Frequency column and find .52. The median is the 50<m>^{th}</m> percentile or the second quartile. Fifty percent of 50 is 25. There are 25 values less than the median. They include the two 4s, the five 5s, the seven 6s, and 11 of the 7s. The median or 50<m>^{th}</m> percentile is between the 25<m>^{th}</m>, or seven, and 26<m>^{th}</m>, or seven, values. <em>The median is seven.</em></p>
       <p><em>Find the third quartile</em>. The third quartile is the same as the 75<m>^{th}</m> percentile. You can <em>eyeball</em> this answer. If you look at the Cumulative Relative Frequency column, you find .52 and .80. When you have all the fours, fives, sixes, and sevens, you have 52 percent of the data. When you include all the 8s, you have 80 percent of the data. <em>The 75<m>^{th}</m> percentile, then, must be an eight</em>. Another way to look at the problem is to find 75 percent of 50, which is 37.5, and round up to 38. The third quartile, <em>Q</em><m>_{3}</m>, is the 38<m>^{th}</m> value, which is an eight. You can check this answer by counting the values. There are 37 values below the third quartile and 12 values above.</p>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -4426,7 +4462,10 @@ need more information
     </note>
 
     <example xml:id="ch02-element-32">
-      <p>The following data are the heights of 40 students in a statistics class:</p>
+
+      <statement>
+
+        <p>The following data are the heights of 40 students in a statistics class:</p>
       <p>59, 60, 61, 62, 62, 63, 63, 64, 64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 66, 66, 67, 67, 68, 68, 69, 70, 70, 70, 70, 70, 71, 71, 72, 72, 73, 74, 74, 75, 77.</p>
       <p>Construct a box plot with the following properties. Calculator instructions for finding the five number summary follow this example:</p>
       <ul>
@@ -4447,6 +4486,9 @@ need more information
         <li><p>The interval 59–65 has more than 25 percent of the data, so it has more data in it than the interval 66–70, which has 25 percent of the data.</p></li>
         <li><p>The middle 50 percent (middle half) of the data has a range of 5.5 inches.</p></li>
       </ol>
+
+      </statement>
+
     </example>
 
     <note xml:id="fs-idp87772032">
@@ -4566,7 +4608,10 @@ Construct a box plot using a graphing calculator for each data set, and state wh
     </exercise>
 
     <example xml:id="fs-idm38612912">
-      <p>Graph a box-and-whisker plot for the following data values shown:</p>
+
+      <statement>
+
+        <p>Graph a box-and-whisker plot for the following data values shown:</p>
       <p>10, 10, 10, 15, 35, 75, 90, 95, 100, 175, 420, 490, 515, 515, 790</p>
       <p>The five numbers used to create a box-and-whisker plot are as follows:</p>
       <ul>
@@ -4580,6 +4625,9 @@ Construct a box plot using a graphing calculator for each data set, and state wh
       <figure xml:id="fs-idm67197680">
         <image source="media/CNX_Stats_C02_M05_015.jpg" width="85%"/>
       </figure>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -4950,13 +4998,19 @@ Find the mode.
     </exercise>
 
     <example xml:id="element-725">
-      <p>Five real estate exam scores are 430, 430, 480, 480, 495. The data set is bimodal because the scores 430 and 480 each occur twice.</p>
+
+      <statement>
+
+        <p>Five real estate exam scores are 430, 430, 480, 480, 495. The data set is bimodal because the scores 430 and 480 each occur twice.</p>
       <p>When is the mode the best measure of the <em>center</em>? Consider a weight loss program that advertises a mean weight loss of six pounds the first week of the program. The mode might indicate that most people lose two pounds the first week, making the program less appealing.</p>
       <note xml:id="eip-146">
         <title>NOTE</title>
         <p>The mode can be calculated for qualitative data as well as for quantitative data. For example, if the data set is red, red, red, green, green, yellow, purple, black, blue, the mode is red.</p>
       </note>
       <p>Statistical software will easily calculate the mean, the median, and the mode. Some graphing calculators can also make these calculations. In the real world, people make these calculations using software.</p>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -6352,7 +6406,10 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
     <p>Just as we could not find the exact mean, neither can we find the exact standard deviation. Remember that standard deviation describes numerically the expected deviation a data value has from the mean. In simple English, the standard deviation allows us to compare how <em>unusual</em> individual data are when compared to the mean.</p>
 
     <example xml:id="fs-idm67331024">
-      <p>Find the standard deviation for the data in .</p>
+
+      <statement>
+
+        <p>Find the standard deviation for the data in .</p>
       <table>
         <tabular>
           <row header="yes">
@@ -6421,6 +6478,9 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
         </tabular>
       </table>
       <p>For this data set, we have the mean, <m>\overline{x}</m> = 7.58, and the standard deviation, <em>s<m>_{x}</m></em> = 3.5. This means that a randomly selected data value would be expected to be 3.5 units from the mean. If we look at the first class, we see that the class midpoint is equal to one. This is almost two full standard deviations from the mean since 7.58 – 3.5 – 3.5 = .58. While the formula for calculating the standard deviation is not complicated, <m>s_{x}=\sqrt{\frac{f(m−\overline{x})^{2}}{n−1}}\text{,}</m> where <em>s<m>_{x}</m></em> = sample standard deviation, <m>\overline{x}</m> = sample mean; the calculations are tedious. It is usually best to use technology when performing the calculations.</p>
+
+      </statement>
+
     </example>
 
     <exercise>
