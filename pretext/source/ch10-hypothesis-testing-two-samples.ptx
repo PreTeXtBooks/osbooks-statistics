@@ -202,13 +202,14 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
           <li><em>H_{0}</em>: <em>μ_{1}</em> = <em>μ_{2}</em> Null hypothesis: The means of the final exam scores are equal for the online and face-to-face statistics classes.</li>
           <li><em>H_{a}</em>: <em>μ_{1}</em> &lt; <em>μ_{2}</em> Alternative hypothesis: The mean of the final exam scores of the online class is less than the mean of the final exam scores of the face-to-face class.</li>
           <li>left-tailed</li>
-          <li><m>p</m>-value = 0.0011
+          <li><m>p</m>-value = 0.0011</li>
+        </ol>
         <figure>
           <image source="media/CNX_Stats_C10_M02_002annoN.jpg" width="80%">
             <description>This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.0011.</description>
           </image>
         </figure>
-          </li>
+        <ol>
           <li>Reject the null hypothesis.</li>
           <li>The professor was correct. The evidence shows that the mean of the final exam scores for the online class is lower than that of the face-to-face class.
 <nbsp/>At the 5 percent level of significance, from the sample data, there is (is/is not) sufficient evidence to conclude that the mean of the final exam scores for the online class is less than the mean of final exam scores of the face-to-face class.</li>
@@ -265,13 +266,14 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
             <li><m>H</m>_{0} : <m>μ</m>_{1} = <m>μ</m>_{2}, null hypothesis: the means of the weighted alphas are equal.</li>
             <li><m>H</m>_{a} :  <m>μ</m>_{1} ≠ <m>μ</m>_{2}, alternative hypothesis: the means of the weighted alphas are not equal.</li>
             <li>two-tailed</li>
-            <li><m>p</m>-value = 0.8787
+            <li><m>p</m>-value = 0.8787</li>
+          </ol>
         <figure>
           <image source="media/CNX_Stats_C10_M02_003annoN.jpg" width="80%">
             <description>This is a normal distribution curve with mean equal to zero. Both the right and left tails of the curve are shaded. Each tail represents 1/2(p-value) = 0.4394.</description>
           </image>
         </figure>
-            </li>
+          <ol>
             <li>Do not reject the null hypothesis.</li>
             <li>This indicates that the trends in stocks are about the same in the top 30 banks in each region.
       
@@ -352,7 +354,7 @@ significance.</p>
         <p>Graph:</p>
         <figure>
           <image source="media/CNX_Stats_C10_M03_001n.jpg" width="80%">
-            <description>This is a normal distribution curve with mean equal to zero. A vertical line to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded representing p-value = 0.4955.</description>
+            <description>This is a normal distribution curve with mean equal to zero. A vertical line to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded representing p-value = 0.4040.</description>
           </image>
         </figure>
         <p>Compare <m>α</m> and the <m>p</m> value: <m>α</m> = 0.05 and <m>p</m> value = 0.4040. Therefore, <m>α</m> &lt; <m>p</m> value.</p>
