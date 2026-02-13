@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<chapter xml:id="ch09-hypothesis-testing-one-sample" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version='1.0' encoding='utf-8'?>
+<chapter xml:id="ch09-hypothesis-testing-one-sample">
   <title>Hypothesis Testing with One Sample</title>
 
   <introduction>
     <figure xml:id="fs-idm165993648">
       <caption>You can use a hypothesis test to decide if a dog breeder’s claim that every Dalmatian has 35 spots is statistically sound. (credit: Robert Neff)</caption>
-      <image source="media/CNX_Stats_C09_CO.jpg" width="76%"/>
+      <image source="media/CNX_Stats_C09_CO.jpg" width="76%" />
     </figure>
     <objectives xml:id="fs-idp21504400">
       <title>Chapter Objectives</title>
@@ -63,7 +63,7 @@ There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if
       <example xml:id="element-183">
         <statement>
           <p><em>H_{0}</em>: No more than 30 percent of the registered voters in Santa Clara County voted in the primary election. <m>p</m> ≤ 30
-<nbsp/><em>H_{a}</em>: More than 30 percent of the registered voters in Santa Clara County voted in the primary election. <m>p</m> &gt; 30</p>
+<nbsp /><em>H_{a}</em>: More than 30 percent of the registered voters in Santa Clara County voted in the primary election. <m>p</m> &gt; 30</p>
         </statement>
       </example>
       <exercise xml:id="eip-665">
@@ -78,8 +78,8 @@ There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if
       <example xml:id="element-641">
         <statement>
           <p>We want to test whether the mean GPA of students in American colleges is different from 2.0 (out of 4.0). The null and alternative hypotheses are the following:
-<nbsp/><em>H_{0}</em>: <m>μ</m> = 2.0
-<nbsp/><em>H_{a}</em>: <m>μ</m> ≠ 2.0</p>
+<nbsp /><em>H_{0}</em>: <m>μ</m> = 2.0
+<nbsp /><em>H_{a}</em>: <m>μ</m> ≠ 2.0</p>
         </statement>
       </example>
       <exercise xml:id="fs-idm576512">
@@ -102,8 +102,8 @@ There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if
       <example xml:id="element-296">
         <statement>
           <p>We want to test if college students take fewer than five years to graduate from college, on the average. The null and alternative hypotheses are the following:
-<nbsp/><em>H_{0}</em>: <m>μ</m> ≥ 5
-<nbsp/><em>H_{a}</em>: <m>μ</m> &lt; 5</p>
+<nbsp /><em>H_{0}</em>: <m>μ</m> ≥ 5
+<nbsp /><em>H_{a}</em>: <m>μ</m> &lt; 5</p>
         </statement>
       </example>
       <exercise xml:id="fs-idm2856320">
@@ -126,8 +126,8 @@ There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if
       <example xml:id="element-410">
         <statement>
           <p>An article on school standards stated that about half of all students in France, Germany, and Israel take advanced placement exams and a third of the students pass. The same article stated that 6.6 percent of U.S. students take advanced placement exams and 4.4 percent pass. Test if the percentage of U.S. students who take advanced placement exams is more than 6.6 percent. State the null and alternative hypotheses.
-<nbsp/><em>H_{0}</em>: <m>p</m> ≤ 0.066
-<nbsp/><em>H_{a}</em>: <m>p</m> &gt; 0.066</p>
+<nbsp /><em>H_{0}</em>: <m>p</m> ≤ 0.066
+<nbsp /><em>H_{a}</em>: <m>p</m> &gt; 0.066</p>
         </statement>
       </example>
       <exercise xml:id="fs-idm126344352">
@@ -359,7 +359,7 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
       <table xml:id="ch9-element-689">
         <tabular>
           <row><cell>ACTION</cell><cell><em>H_{0}</em> IS ACTUALLY</cell><cell>...</cell></row>
-          <row><cell></cell><cell>True</cell><cell>False</cell></row>
+          <row><cell /><cell>True</cell><cell>False</cell></row>
           <row><cell>Do not reject <em>H_{0}</em></cell><cell>Correct outcome</cell><cell>Type II error</cell></row>
           <row><cell>Reject <em>H_{0}</em></cell><cell>Type I error</cell><cell>Correct outcome</cell></row>
         </tabular>
@@ -759,7 +759,7 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
           <p>You are performing a hypothesis test of a single population proportion. The data come from which distribution?</p>
         </statement>
         <solution>
-          <p>binomial distribution<nbsp/></p>
+          <p>binomial distribution<nbsp /></p>
         </solution>
       </exercise>
     </subsection>
@@ -811,7 +811,7 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
           <p>Suppose the null hypothesis is true (which is that the mean height of the loaves is no more than 15 cm). Then is the mean height (17 cm) calculated from the sample unexpectedly large? The hypothesis test works by asking the question how <em>unlikely</em> the sample mean would be if the null hypothesis were true. The graph shows how far out the sample mean is on the normal curve. The <m>p</m>-value is the probability that, if we were to take other samples, any other sample mean would fall at least as far out as 17 cm.</p>
           <p><em>The <m>p</m>-value, then, is the probability that a sample mean is the same or greater than 17 cm when the population mean is, in fact, 15 cm.</em> We can calculate this probability using the normal distribution for means. In , the <m>p</m>-value is the area under the normal curve to the right of 17. Using a normal distribution table or a calculator, we can compute that this probability is practically zero.</p>
           <figure xml:id="fs-idm112264608">
-            <image source="media/fig-ch09_07_01N.jpg" width="76%"/>
+            <image source="media/fig-ch09_07_01N.jpg" width="76%" />
           </figure>
           <p><m>p</m>-value = <m>P</m>(<m>\overline{x}</m> &gt; 17), which is approximately zero.</p>
           <p>Because the <m>p</m>-value is almost 0, we conclude that obtaining a sample height of 17 cm or higher from 10 loaves of bread is very unlikely if the true mean height is 15 cm. We reject the null hypothesis and conclude that there is sufficient evidence to claim that the true population mean height of the baker’s loaves of bread is higher than 15 cm.</p>
@@ -821,14 +821,14 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
         <statement>
           <p>A normal distribution has a standard deviation of 1. We want to verify a claim that the mean is greater than 12. A sample of 36 is taken with a sample mean of 12.5.</p>
           <p><em>H_{0}</em>: <m>μ</m> ≤ 12
-<nbsp/><em>H_{a}</em>: <m>μ</m> &gt; 12
-<nbsp/>The <m>p</m>-value is 0.0013.
-<nbsp/>Draw a graph that shows the <m>p</m>-value.</p>
+<nbsp /><em>H_{a}</em>: <m>μ</m> &gt; 12
+<nbsp />The <m>p</m>-value is 0.0013.
+<nbsp />Draw a graph that shows the <m>p</m>-value.</p>
         </statement>
         <solution>
           <p><m>p</m>-value = 0.0013</p>
           <figure xml:id="fs-idp32175632">
-            <image source="media/CNX_Stats_C09_M07_tryit001anno.jpg" width="76%"/>
+            <image source="media/CNX_Stats_C09_M07_tryit001anno.jpg" width="76%" />
           </figure>
         </solution>
       </exercise>
@@ -902,8 +902,8 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </statement>
         <solution>
           <p><em>H_{0}</em>: <m>μ</m> &gt; = 73
-<nbsp/><em>H_{a}</em>: <m>μ</m> &lt; 73
-<nbsp/>The <m>p</m>-value is almost zero, which means there is sufficient data to conclude that the mean height of high school students who play basketball on the school team is less than 73 inches at the 5 percent level. The data do support the claim.</p>
+<nbsp /><em>H_{a}</em>: <m>μ</m> &lt; 73
+<nbsp />The <m>p</m>-value is almost zero, which means there is sufficient data to conclude that the mean height of high school students who play basketball on the school team is less than 73 inches at the 5 percent level. The data do support the claim.</p>
         </solution>
       </exercise>
       <exercise xml:id="fs-idp139727497515136">
@@ -937,7 +937,7 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
           <p>If you do not reject the null hypothesis, then it must be true. Is that statement correct? State why or why not in complete sentences.</p>
         </statement>
       </exercise>
-      <p><nbsp/><em>Use the following information to answer the next seven exercises:</em> Suppose that a recent article stated that the mean time students spend doing homework each week is  2.5 hours. A study was then done to see if the mean time has increased in the new century. A random sample of 26 students was taken. The mean length of time they did homework each week was  three hours with a standard deviation of 1.8 hours. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of time doing  homework each week has increased. Assume the distribution of homework times is approximately normal.</p>
+      <p><nbsp /><em>Use the following information to answer the next seven exercises:</em> Suppose that a recent article stated that the mean time students spend doing homework each week is  2.5 hours. A study was then done to see if the mean time has increased in the new century. A random sample of 26 students was taken. The mean length of time they did homework each week was  three hours with a standard deviation of 1.8 hours. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of time doing  homework each week has increased. Assume the distribution of homework times is approximately normal.</p>
       <exercise xml:id="eip-714">
         <statement>
           <p>Is this a test of means or proportions?</p>
@@ -997,7 +997,7 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
           <p>State the distribution to use for the hypothesis test.</p>
         </statement>
         <solution>
-          <p><m>\overline{X}\simN(2.5,\frac{1.5}{\sqrt{26}})</m><nbsp/></p>
+          <p><m>\overline{X}\simN(2.5,\frac{1.5}{\sqrt{26}})</m><nbsp /></p>
         </solution>
       </exercise>
       <exercise xml:id="fs-idm67684880">
@@ -1006,7 +1006,7 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
           <ol>
             <li>Is this a test of one mean or proportion?</li>
             <li>State the null and alternative hypotheses.
-    <nbsp/><em>H_{0}</em>: ____________________ <em>H_{a}</em> :  ____________________</li>
+    <nbsp /><em>H_{0}</em>: ____________________ <em>H_{a}</em> :  ____________________</li>
             <li>Is this a right-tailed, left-tailed, or two-tailed test?</li>
             <li>What symbol represents the random variable for this test?</li>
             <li>In words, define the random variable for this test.</li>
@@ -1053,7 +1053,7 @@ Conclusion (write out in a complete sentence):</li>
           <ol>
             <li>Is this a test of one mean or proportion?</li>
             <li>State the null and alternative hypotheses.
-<nbsp/><em>H_{0}</em>: ____________________  <em>H_{a}</em>:  ____________________</li>
+<nbsp /><em>H_{0}</em>: ____________________  <em>H_{a}</em>:  ____________________</li>
             <li>Is this a right-tailed, left-tailed, or two-tailed test?</li>
             <li>What symbol represents the random variable for this test?</li>
             <li>In words, define the random variable for this test.</li>
@@ -1113,7 +1113,7 @@ Conclusion (write out in a complete sentence):</li>
           <p><em>H_{0}</em>: <m>μ</m> = 5   <em>H_{a}</em>: <m>μ</m> &lt; 5</p>
           <p>Test of a single population mean. <em>H_{a}</em> tells you the test is left-tailed. The picture of the <m>p</m>-value is as follows:</p>
           <figure xml:id="fs-idm151356816">
-            <image source="media/fig-ch09_09_01-02.jpg" width="76%"/>
+            <image source="media/fig-ch09_09_01-02.jpg" width="76%" />
           </figure>
         </statement>
       </example>
@@ -1125,7 +1125,7 @@ Conclusion (write out in a complete sentence):</li>
         <solution>
           <p>left-tailed test</p>
           <figure xml:id="fs-idm70716944">
-            <image source="media/CNX_Stats_C09_M09_tryit002annoN.jpg" width="76%"/>
+            <image source="media/CNX_Stats_C09_M09_tryit002annoN.jpg" width="76%" />
           </figure>
         </solution>
       </exercise>
@@ -1134,7 +1134,7 @@ Conclusion (write out in a complete sentence):</li>
           <p><em>H_{0}</em>: <m>p</m> ≤ 0.2  <em>H_{a}</em>: <m>p</m> &gt; 0.2</p>
           <p>This is a test of a single population proportion. <em>H_{a}</em> tells you the test is right-tailed. The picture of the <m>p</m>-value is as follows:</p>
           <figure xml:id="fs-idm2304848">
-            <image source="media/fig-ch09_09_02a.jpg" width="76%"/>
+            <image source="media/fig-ch09_09_02a.jpg" width="76%" />
           </figure>
         </statement>
       </example>
@@ -1146,7 +1146,7 @@ Conclusion (write out in a complete sentence):</li>
         <solution>
           <p>right-tailed test</p>
           <figure xml:id="fs-idm53526160">
-            <image source="media/CNX_Stats_C09_M09_tryit001annoN.jpg" width="76%"/>
+            <image source="media/CNX_Stats_C09_M09_tryit001annoN.jpg" width="76%" />
           </figure>
         </solution>
       </exercise>
@@ -1155,7 +1155,7 @@ Conclusion (write out in a complete sentence):</li>
           <p><em>H_{0}</em>: <m>p</m> = 50  <em>H_{a}</em>: <m>p</m> ≠ 50</p>
           <p>This is a test of a single population mean. <em>H_{a}</em> tells you the test is two-tailed. The picture of the <m>p</m>-value is as follows.</p>
           <figure xml:id="fs-idm117972816">
-            <image source="media/fig-ch09_09_03N.jpg" width="76%"/>
+            <image source="media/fig-ch09_09_03N.jpg" width="76%" />
           </figure>
         </statement>
       </example>
@@ -1167,7 +1167,7 @@ Conclusion (write out in a complete sentence):</li>
         <solution>
           <p>two-tailed test</p>
           <figure xml:id="fs-idm126590640">
-            <image source="media/CNX_Stats_C09_M09_tryit003annoN.jpg" width="76%"/>
+            <image source="media/CNX_Stats_C09_M09_tryit003annoN.jpg" width="76%" />
           </figure>
         </solution>
       </exercise>
@@ -1212,7 +1212,7 @@ less than 16.43 seconds when, in fact, he actually swims the 25-yard freestyle, 
 average, in 16.43 seconds. (Reject the null hypothesis when the null hypothesis is true.)</p>
           <p>The Type II error is that there is not evidence to conclude that Jeffrey swims the 25-yard freestyle, on average, in less than 16.43 seconds when, in fact, he actually does swim the 25-yard freestyle, on average, in less than 16.43 seconds. (Do not reject the null hypothesis when the null hypothesis is false.)</p>
           <figure xml:id="hyptest11_ex1">
-            <image source="media/fig-ch09_11_01N.jpg" width="76%"/>
+            <image source="media/fig-ch09_11_01N.jpg" width="76%" />
           </figure>
         </solution>
       </example>
@@ -1241,7 +1241,7 @@ to reject or not reject was done in this way. Today, comparing the two probabili
           <p><em>H_{a}</em> : <m>μ</m> &gt; 40</p>
           <p><m>p</m> = 0.0062</p>
           <figure xml:id="fs-idm152825344">
-            <image source="media/CNX_Stats_C09_M11_tryit001annoN.jpg" width="76%"/>
+            <image source="media/CNX_Stats_C09_M11_tryit001annoN.jpg" width="76%" />
           </figure>
           <p>Because <m>p</m> &lt; <m>α</m>, we reject the null hypothesis. There is sufficient evidence to suggest that the change in grip improved Marco’s throwing distance.</p>
         </solution>
@@ -1299,7 +1299,7 @@ different weights were (frequencies are in parentheses)
         <p>First, we compute the sample mean:</p>
         <p>Next, we compute the <m>z</m>-test:</p>
         <p>Finally, the <m>p</m>-value is the probability to the right tail of the <m>z</m>-test, which we can compute from the table of <m>z</m>-scores as 0.5 - 0.36650 = 0.1335.</p>
-        <p><m>p\text{-value}=P(\overline{x}>286.2)=0.1323</m></p>
+        <p><m>p\text{-value}=P(\overline{x}&gt;286.2)=0.1323</m></p>
         <p>Interpretation of the <m>p</m>-value: If <em>H_{0}</em> is true, then there is a 0.1331 probability, 13.23 percent, that the football players can lift a mean weight of 286.2 pounds or more. Because a 13.23 percent chance is large enough, a mean weight lift of 286.2 pounds or more is not a rare event.</p>
         <p>Compare <m>α</m> and the <m>p</m>-value:</p>
         <p>Make a decision: Since <m>α</m> &lt; <m>p</m>-value, do not reject <em>H_{0}</em>.</p>
@@ -1308,11 +1308,11 @@ different weights were (frequencies are in parentheses)
         <p>Put the data and frequencies into lists. Press <c>STAT</c> and arrow over to <c>TESTS</c>. Press <c>1:<m>z</m>-Test</c>. Arrow over to <c>Data</c> and press <c>ENTER</c>. Arrow down and enter 275 for <em>μ_{0}</em>, 55 for <m>σ</m>, the name of the list where you put the data, and the name of the list where you put the frequencies. Arrow down to <m>μ:</m> and arrow over to &gt; <em>μ_{0}</em>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. The calculator not only calculates the <m>p</m>-value (<m>p</m> = 0.1331, a little different from the previous calculation—in it we used the sample mean rounded to one decimal place instead of the data), but also the test statistic (<m>z</m>-score) for the sample mean, the sample mean, and the sample standard deviation. <m>μ</m> &gt; 275 is the alternative hypothesis. Do this set of instructions again except arrow to <c>Draw</c> (instead of <c>Calculate</c>). Press <c>ENTER</c>. A shaded graph appears with <m>z</m> = 1.112 (test statistic) and <m>p</m> = 0.1331 (<m>p</m>-value). Make sure when you use <c>Draw</c> that no other equations are highlighted in <m>Y</m> = and the plots are turned off.</p>
         <me>x=\frac{205+205+205+215+⋯+385}{30}=286.2.</me>
         <me>z\text{-test}=\frac{286.2-275}{\frac{55}{\sqrt{30}}}=1.115362</me>
-        <me>p\text{-value}=P(\overline{x}>286.2)=0.1323</me>
+        <me>p\text{-value}=P(\overline{x}&gt;286.2)=0.1323</me>
         <me>α\text{= 0}\text{.025}</me>
         <me>p\text{-value = 0}\text{.1323}</me>
         <figure xml:id="hyptest11_ex3">
-          <image source="media/fig-ch09_11_03N.jpg" width="76%"/>
+          <image source="media/fig-ch09_11_03N.jpg" width="76%" />
         </figure>
       </solution>
     </example>
@@ -1370,7 +1370,7 @@ probability (3.96 percent) that the sample mean is 65 or more.</p>
         <me>\overline{x}=\frac{65+65+⋯+71}{10}=67.</me>
         <me>t\text{-test}=\frac{\overline{x}-\mu_{X}}{\frac{s_{X}}{\sqrt{n}}}=\frac{67-65}{\frac{\text{3}\text{.12}}{\sqrt{10}}}\approx\text{1}\text{.98}\text{.}</me>
         <figure xml:id="hyptest11_ex4">
-          <image source="media/fig-ch09_11_04N.jpg" width="76%"/>
+          <image source="media/fig-ch09_11_04N.jpg" width="76%" />
         </figure>
       </solution>
     </example>
@@ -1400,11 +1400,11 @@ probability (3.96 percent) that the sample mean is 65 or more.</p>
         <p>Random variable: <m>P′</m> = the percentage of first-time brides who are younger than their grooms.</p>
         <p>Distribution for the test: The problem contains no mention of a mean. The information is given in terms of percentages. Use the distribution for <m>P′</m>, the estimated proportion.</p>
         <p><m>P′</m> follows a normal distribution with mean value <m>\mu=p,</m> and standard error <m>\sigma=\sqrt{\frac{p⋅q}{n}.}</m></p>
-        <p>In our example, <m>p</m> = <m>q</m> = 0.5, and <m>n</m> = 100, <nbsp/>where <m>p</m> = 0.50, <m>q</m> = 1 – <m>p</m> = 0.50, and <m>n</m> = 100.</p>
+        <p>In our example, <m>p</m> = <m>q</m> = 0.5, and <m>n</m> = 100, <nbsp />where <m>p</m> = 0.50, <m>q</m> = 1 – <m>p</m> = 0.50, and <m>n</m> = 100.</p>
         <p>Calculate the <m>p</m>-value using the normal distribution for proportions:</p>
         <p>First, we compute the sample proportion as <m>p=\frac{53}{100}=0.53.</m></p>
         <p>Next, the <m>z</m>-test is given by</p>
-        <p>Since the <m>z</m>-test is positive, we compute the area to the right tail of 0.6 in a normal distribution, <m>P(Z>0.6)=\text{0}\text{.2742531}\text{.}</m> Finally, because this is a two-sided test of significance, we multiply this probability times two to account for the left tail, and obtain <m>p\text{-value}=2\times0.2742531=0.5485062</m></p>
+        <p>Since the <m>z</m>-test is positive, we compute the area to the right tail of 0.6 in a normal distribution, <m>P(Z&gt;0.6)=\text{0}\text{.2742531}\text{.}</m> Finally, because this is a two-sided test of significance, we multiply this probability times two to account for the left tail, and obtain <m>p\text{-value}=2\times0.2742531=0.5485062</m></p>
         <p>where <m>x</m> = 53, <m>p′</m> = <m>\frac{x}{n}\text{=}\frac{\text{53}}{\text{100}}</m> = 0.53.</p>
         <p>Interpretation of the <m>p</m>-value: If the null hypothesis is true, there is 0.5485 probability,
 (54.85 percent) that the sample (estimated) proportion <m>p′</m> is 0.53 or more OR 0.47 or less (see
@@ -1423,7 +1423,7 @@ the graph in ).</p>
         <me>z\text{-test}=\frac{p-p}{\sqrt{\frac{p⋅q}{n}}}=\frac{0.53-0.50}{\sqrt{\frac{0.50\times0.50}{100}}}=0.6\text{.}</me>
         <me>p\text{-value}=2\times0.2742531=0.5485062</me>
         <figure xml:id="hyptest11_ex5">
-          <image source="media/fig-ch09_11_05N.jpg" width="76%"/>
+          <image source="media/fig-ch09_11_05N.jpg" width="76%" />
         </figure>
       </solution>
     </example>
@@ -1438,7 +1438,7 @@ the graph in ).</p>
         <p><em>H_{a}</em>: <m>p</m> ≠ 0.85</p>
         <p><m>p</m> = 0.7554</p>
         <figure xml:id="fs-idp11874016">
-          <image source="media/CNX_Stats_C09_M11_tryit002annoN.jpg" width="76%"/>
+          <image source="media/CNX_Stats_C09_M11_tryit002annoN.jpg" width="76%" />
         </figure>
         <p>Because <m>p</m> &gt; <m>α</m>, we fail to reject the null hypothesis. There is not sufficient evidence to suggest that the proportion of students that want to go to the zoo is not 85 percent.</p>
       </solution>
@@ -1450,13 +1450,13 @@ the graph in ).</p>
 The value that helps determine the <m>p</m>-value is <m>p′</m>. Calculate <m>p′</m>.
 What is a <em>success</em> for this problem?
 What is the level of significance?
-Draw the graph for this problem. Draw the horizontal axis. Label and shade appropriately.<nbsp/>Calculate the <m>p</m>-value.
+Draw the graph for this problem. Draw the horizontal axis. Label and shade appropriately.<nbsp />Calculate the <m>p</m>-value.
 Make a decision. _____________(Reject/Do not reject) <em>H_{0}</em> because____________.</p>
         <ol>
           <li>The value that helps determine the <m>p</m>-value is <m>p′</m>. Calculate <m>p′</m>.</li>
           <li>What is a <em>success</em> for this problem?</li>
           <li>What is the level of significance?</li>
-          <li>Draw the graph for this problem. Draw the horizontal axis. Label and shade appropriately.<nbsp/>Calculate the <m>p</m>-value.</li>
+          <li>Draw the graph for this problem. Draw the horizontal axis. Label and shade appropriately.<nbsp />Calculate the <m>p</m>-value.</li>
           <li>Make a decision. _____________(Reject/Do not reject) <em>H_{0}</em> because____________.</li>
         </ol>
       </statement>
@@ -1503,32 +1503,32 @@ Next, the <m>z</m>-test is given by
     <example xml:id="element-837">
       <title>Note</title>
       <statement>
-        <p>My dog has so many fleas,<nbsp/>
-They do not come off with ease.<nbsp/>
-As for shampoo, I have tried many types<nbsp/>
-Even one called Bubble Hype,<nbsp/>
-Which only killed 25 percent of the fleas,<nbsp/>
-Unfortunately I was not pleased.<nbsp/><nbsp/>
-I've used all kinds of soap,<nbsp/>
-Until I had given up hope<nbsp/>
-Until one day I saw<nbsp/>
-An ad that put me in awe.<nbsp/><nbsp/>
-A shampoo used for dogs<nbsp/>
-Called GOOD ENOUGH to Clean a Hog<nbsp/>
-Guaranteed to kill more fleas.<nbsp/><nbsp/>
-I gave Fido a bath<nbsp/>
-And after doing the math<nbsp/>
-His number of fleas<nbsp/>
-Started dropping by 3's!<nbsp/><nbsp/>
-Before his shampoo<nbsp/>
-I counted 42.<nbsp/>
-At the end of his bath,<nbsp/>
-I redid the math<nbsp/>
-And the new shampoo had killed 17 fleas.<nbsp/>
-So now I was pleased.<nbsp/><nbsp/>
-Now it is time for you to have some fun<nbsp/>
-With the level of significance being .01,<nbsp/>
-You must help me figure out<nbsp/>
+        <p>My dog has so many fleas,<nbsp />
+They do not come off with ease.<nbsp />
+As for shampoo, I have tried many types<nbsp />
+Even one called Bubble Hype,<nbsp />
+Which only killed 25 percent of the fleas,<nbsp />
+Unfortunately I was not pleased.<nbsp /><nbsp />
+I've used all kinds of soap,<nbsp />
+Until I had given up hope<nbsp />
+Until one day I saw<nbsp />
+An ad that put me in awe.<nbsp /><nbsp />
+A shampoo used for dogs<nbsp />
+Called GOOD ENOUGH to Clean a Hog<nbsp />
+Guaranteed to kill more fleas.<nbsp /><nbsp />
+I gave Fido a bath<nbsp />
+And after doing the math<nbsp />
+His number of fleas<nbsp />
+Started dropping by 3's!<nbsp /><nbsp />
+Before his shampoo<nbsp />
+I counted 42.<nbsp />
+At the end of his bath,<nbsp />
+I redid the math<nbsp />
+And the new shampoo had killed 17 fleas.<nbsp />
+So now I was pleased.<nbsp /><nbsp />
+Now it is time for you to have some fun<nbsp />
+With the level of significance being .01,<nbsp />
+You must help me figure out<nbsp />
 Use the new shampoo or go without?</p>
       </statement>
       <solution>
@@ -1540,7 +1540,7 @@ Use the new shampoo or go without?</p>
         <p>State the distribution to use for the test.</p>
         <p>Normal:</p>
         <p>The <m>z</m>-test is given by</p>
-        <p>Because this is a hypothesis test one-sided to the right, we compute the  <m>p</m>-value as the area to the right tail of the <m>z</m>-test in a standard normal distribution, <m>P(Z>3.32)\approx\text{0}\text{.0103}\text{.}</m></p>
+        <p>Because this is a hypothesis test one-sided to the right, we compute the  <m>p</m>-value as the area to the right tail of the <m>z</m>-test in a standard normal distribution, <m>P(Z&gt;3.32)\approx\text{0}\text{.0103}\text{.}</m></p>
         <p>In one to two complete sentences, explain what the <m>p</m>-value means for this problem.</p>
         <p>If the null hypothesis is true (the proportion is 0.25), then there is a 0.0103 probability that the sample (estimated) proportion is 0.4048 <m>(\frac{17}{42})</m> or more.</p>
         <p>Use the previous information to sketch a picture of this situation. <em>Clearly</em> label and scale the horizontal axis and
@@ -1555,10 +1555,10 @@ Label the point estimate and the lower and upper bounds of the confidence interv
         <me>N(0.25,\sqrt{\frac{(0.25)(1-0.25)}{42}})</me>
         <me>z\text{-test}=\frac{\overline{p}-p}{\sqrt{\frac{p⋅q}{n}}}=\frac{0.4048-0.25}{\sqrt{42}}\approx2.316834\text{.}</me>
         <figure xml:id="hyptest11_ex6">
-          <image source="media/fig-ch09_11_06.jpg" width="76%"/>
+          <image source="media/fig-ch09_11_06.jpg" width="76%" />
         </figure>
         <figure xml:id="hyptest11_ex7">
-          <image source="media/fig-ch09_11_07.jpg" width="76%"/>
+          <image source="media/fig-ch09_11_07.jpg" width="76%" />
         </figure>
       </solution>
     </example>
@@ -1609,16 +1609,16 @@ State the conclusions: Since the <m>p</m>-value (<m>p</m> = 0.036) is less than 
           <li><em>H_{a}</em>: <m>μ</m> &gt; 1</li>
         </ol>
         <figure xml:id="eip-idp122053552">
-          <image source="media/CNX_Stats_C09_M09_001a.jpg" width="50%"/>
+          <image source="media/CNX_Stats_C09_M09_001a.jpg" width="50%" />
         </figure>
         <figure xml:id="eip-idp29927184">
-          <image source="media/CNX_Stats_C09_M09_001b.jpg" width="50%"/>
+          <image source="media/CNX_Stats_C09_M09_001b.jpg" width="50%" />
         </figure>
         <figure xml:id="eip-idp126675984">
-          <image source="media/CNX_Stats_C09_M09_001c.jpg" width="50%"/>
+          <image source="media/CNX_Stats_C09_M09_001c.jpg" width="50%" />
         </figure>
         <figure xml:id="eip-idp154420944">
-          <image source="media/CNX_Stats_C09_M09_001d.jpg" width="50%"/>
+          <image source="media/CNX_Stats_C09_M09_001d.jpg" width="50%" />
         </figure>
       </solution>
     </example>
@@ -1638,7 +1638,7 @@ If we commit a Type I error, we are essentially accepting a false claim. Since t
           <li><em>H_{a}</em>: <m>p</m> &gt; 0.00034</li>
           <li>We will be testing a sample proportion with <m>x</m> = 172 and <m>n</m> = 420,019. The sample is sufficiently large because we have <m>np</m> = 420,019(0.00034) = 142.8, <m>nq</m> = 420,019(0.99966) = 419,876.2, two independent outcomes, and a fixed probability of success <m>p</m> = 0.00034. Thus we will be able to generalize our results to the population.</li>
           <li>The associated TI results are shown in the following figures.
-<nbsp/></li>
+<nbsp /></li>
           <li>Since the <m>p</m>-value = 0.0073 is greater than our alpha value = 0.005, we cannot reject the null. Therefore, we conclude that there is not enough evidence to support the claim of higher brain cancer rates for the cell phone users.</li>
         </ol>
         <ol>
@@ -1646,10 +1646,10 @@ If we commit a Type I error, we are essentially accepting a false claim. Since t
           <li><em>H_{a}</em>: <m>p</m> &gt; 0.00034</li>
         </ol>
         <figure xml:id="fs-idm80776672">
-          <image source="media/CNX_Stats_C09_M09_002a.jpg" width="50%"/>
+          <image source="media/CNX_Stats_C09_M09_002a.jpg" width="50%" />
         </figure>
         <figure xml:id="eip-idp38098208">
-          <image source="media/CNX_Stats_C09_M09_002b.jpg" width="50%"/>
+          <image source="media/CNX_Stats_C09_M09_002b.jpg" width="50%" />
         </figure>
       </solution>
     </example>
@@ -1699,7 +1699,7 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
         </statement>
         <solution>
           <figure xml:id="fs-idm149132800">
-            <image source="media/CNX_Stats_C09_M09_item002annoN.jpg" width="76%"/>
+            <image source="media/CNX_Stats_C09_M09_item002annoN.jpg" width="76%" />
           </figure>
         </solution>
       </exercise>
@@ -1896,7 +1896,7 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
             <li>Decision: Do not reject the null hypothesis.</li>
             <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
             <li>Conclusion: There is insufficient evidence to conclude that less than 60 percent of her students feel more enriched.</li>
-            <li>Confidence interval: (0.409,  0.654)<nbsp/>The “plus-4s” confidence interval is (0.411, 0.648)</li>
+            <li>Confidence interval: (0.409,  0.654)<nbsp />The “plus-4s” confidence interval is (0.411, 0.648)</li>
           </ol>
         </solution>
       </exercise>
@@ -1956,7 +1956,7 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
             <li>Decision: Reject the null hypothesis.</li>
             <li>Reason for decision: The <m>p</m>-value is less than 0.05.</li>
             <li>Conclusion: There is sufficient evidence to conclude that the percentage of Americans who have been diagnosed with the disease is less than 13 percent.</li>
-            <li>(0, 0.0623).<nbsp/>
+            <li>(0, 0.0623).<nbsp />
       The <em>plus-4s</em> confidence interval is (0.0022, 0.0978)</li>
           </ol>
         </solution>
@@ -1964,9 +1964,9 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
       <exercise xml:id="element-53">
         <statement>
           <p>The mean work week for engineers in a start-up company is believed to be about 60 hours. A newly hired engineer hopes that it’s shorter. She asks 10 engineering friends in start-ups for the lengths of their mean work weeks. Based on the results that follow, should she count on the mean work week to be shorter than 60 hours?</p>
-          <p>Data (length of mean work week): 70, 45, 55, 60, 65, 55, 55, 60, 50, 55.</p>
-        </statement>
-      </exercise>
+          </statement>
+      <solution><p>Data (length of mean work week): 70, 45, 55, 60, 65, 55, 55, 60, 50, 55.</p>
+        </solution></exercise>
       <exercise xml:id="element-761">
         <statement>
           <p>Use the <em>Lap time</em> data for Lap 4 (see <xref ref="appendix-c-data-sets">Appendix C: Data Sets</xref>) to test the claim that Terri finishes Lap 4, on average, in less than 129 seconds. Use all 20 races given.</p>
@@ -2063,19 +2063,19 @@ Conclusion: At the 5 percent significance level, there is sufficient evidence to
           <p>Studying stats just made me tense,</p>
           <p>I had to find some sane defense.</p>
           <p>Some light and lifting simple play</p>
-          <p>To float my math anxiety away.<nbsp/></p>
+          <p>To float my math anxiety away.<nbsp /></p>
           <p>Blowing bubbles lifts me high</p>
           <p>Takes my troubles to the sky.</p>
           <p>POIK! They're gone, with all my stress</p>
-          <p>Bubble therapy is the best.<nbsp/></p>
+          <p>Bubble therapy is the best.<nbsp /></p>
           <p>The label said each time I blew</p>
           <p>The average number of bubbles would be at least 22.</p>
           <p>I blew and blew and this I found</p>
-          <p>From 64 blows, they all are round!<nbsp/></p>
+          <p>From 64 blows, they all are round!<nbsp /></p>
           <p>But the number of bubbles in 64 blows</p>
           <p>Varied widely, this I know.</p>
           <p>20 per blow became the mean</p>
-          <p>They deviated by 6, and not 16.<nbsp/></p>
+          <p>They deviated by 6, and not 16.<nbsp /></p>
           <p>From counting bubbles, I sure did relax</p>
           <p>But now I give to you your task.</p>
           <p>Was 22 a reasonable guess?</p>
@@ -2109,36 +2109,36 @@ Conclusion: There is sufficient evidence to conclude that the mean number of bub
           <p>Bred puppies with numerous freckles</p>
           <p>The Dalmatians he sought</p>
           <p>Possessed spot upon spot</p>
-          <p>The more spots, he thought, the more shekels.<nbsp/></p>
+          <p>The more spots, he thought, the more shekels.<nbsp /></p>
           <p>His competitors did not agree</p>
           <p>That freckles would increase the fee.</p>
           <p>They said, “Spots are quite nice</p>
           <p>But they don't affect price;</p>
-          <p>One should breed for improved pedigree.”<nbsp/></p>
+          <p>One should breed for improved pedigree.”<nbsp /></p>
           <p>The breeders decided to prove</p>
           <p>This strategy was a wrong move.</p>
           <p>Breeding only for spots</p>
           <p>Would wreak havoc, they thought.</p>
-          <p>His theory they want to disprove.<nbsp/></p>
+          <p>His theory they want to disprove.<nbsp /></p>
           <p>They proposed a contest to Spreckles</p>
           <p>Comparing dog prices to freckles.</p>
           <p>In records they looked up</p>
           <p>One hundred one pups:</p>
-          <p>Dalmatians that fetched the most shekels.<nbsp/></p>
+          <p>Dalmatians that fetched the most shekels.<nbsp /></p>
           <p>They asked Mr. Spreckles to name</p>
           <p>An average spot count he'd claim</p>
           <p>To bring in big bucks.</p>
           <p>Said Spreckles, “Well, shucks,</p>
-          <p>It's for one hundred one that I aim.”<nbsp/></p>
+          <p>It's for one hundred one that I aim.”<nbsp /></p>
           <p>Said an amateur statistician</p>
           <p>Who wanted to help with this mission.</p>
           <p>“Twenty-one for the sample</p>
-          <p>Standard deviation's ample.”<nbsp/></p>
+          <p>Standard deviation's ample.”<nbsp /></p>
           <p>They examined one hundred and one</p>
           <p>Dalmatians that fetched a good sum.</p>
           <p>They counted each spot,</p>
           <p>Mark, freckle, and dot</p>
-          <p>And tallied up every one.<nbsp/></p>
+          <p>And tallied up every one.<nbsp /></p>
           <p>Instead of one hundred one spots</p>
           <p>They averaged ninety-six dots</p>
           <p>Can they muzzle Spreckles’</p>
@@ -2237,7 +2237,7 @@ Conclusion: At the 5 percent significance level, there is sufficient evidence to
             <li>Decision: Reject the null hypothesis.</li>
             <li>Reason for decision: The <m>p</m>-value is less than 0.05.</li>
             <li>Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of errors generated is more than 0.01.</li>
-            <li>Confidence interval: (0, 0.094).<nbsp/>The <em>plus-4s</em> confidence interval is (0.004, 0.144).</li>
+            <li>Confidence interval: (0, 0.094).<nbsp />The <em>plus-4s</em> confidence interval is (0.004, 0.144).</li>
           </ol>
         </solution>
       </exercise>
@@ -2316,27 +2316,27 @@ Conclusion: There is sufficient evidence to support the claim that less than 50 
           <p>In stats class I was weak and weary.</p>
           <p>Pondering over last night’s homework</p>
           <p>Whose answers were now on the board</p>
-          <p>This I did and nothing more.<nbsp/></p>
+          <p>This I did and nothing more.<nbsp /></p>
           <p>While I nodded nearly napping</p>
           <p>Suddenly, there came a tapping.</p>
           <p>As someone gently rapping,</p>
           <p>Rapping my head as I snore.</p>
-          <p>Quoth the teacher, “Sleep no more.”<nbsp/></p>
+          <p>Quoth the teacher, “Sleep no more.”<nbsp /></p>
           <p>“In every class you fall asleep,”</p>
           <p>The teacher said, his voice was deep.</p>
           <p>“So a tally I’ve begun to keep</p>
           <p>Of every class you nap and snore.</p>
-          <p>The percentage being forty-four.”<nbsp/></p>
+          <p>The percentage being forty-four.”<nbsp /></p>
           <p>“My dear teacher I must confess,</p>
           <p>While sleeping is what I do best.</p>
           <p>The percentage, I think, must be less,</p>
           <p>A percentage less than forty-four.”</p>
-          <p>This I said and nothing more.<nbsp/></p>
+          <p>This I said and nothing more.<nbsp /></p>
           <p>“We’ll see,” he said and walked away,</p>
           <p>And fifty classes from that day</p>
           <p>He counted till the month of May</p>
           <p>The classes in which I napped and snored.</p>
-          <p>The number he found was twenty-four.<nbsp/></p>
+          <p>The number he found was twenty-four.<nbsp /></p>
           <p>At a significance level of 0.05,</p>
           <p>Please tell me am I still alive?</p>
           <p>Or did my grade just take a dive</p>
@@ -2457,7 +2457,7 @@ Conclusion: At the 5 percent significance level, there is sufficient evidence to
       <exercise xml:id="exer14">
         <statement>
           <p>A statistics instructor believes that fewer than 20 percent of Evergreen Valley College (EVC) students attended the opening night midnight showing of the latest Harry Potter movie. She surveys 84 of her students and finds that 11 of them attended the midnight showing.
-<nbsp/>At a 1 percent level of significance, what is an appropriate conclusion?</p>
+<nbsp />At a 1 percent level of significance, what is an appropriate conclusion?</p>
           <ol>
             <li>There is insufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Harry Potter is less than 20 percent.</li>
             <li>There is sufficient evidence to conclude that the  percent of EVC students who attended the midnight showing of Harry Potter is more than 20 percent.</li>
@@ -2469,7 +2469,7 @@ Conclusion: At the 5 percent significance level, there is sufficient evidence to
       <exercise xml:id="exer19">
         <statement>
           <p>Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test.
-<nbsp/>At a significance level of
+<nbsp />At a significance level of
 <m>a</m> = 0.05, what is the correct conclusion?</p>
           <ol>
             <li>There is enough evidence to conclude that the mean number of hours is more than 4.75.</li>
@@ -2558,7 +2558,7 @@ Conclusion: At the 5 percent significance level, there is sufficient evidence to
       </exercise>
       <exercise xml:id="ch9-eip-192">
         <statement>
-          <p>A report by the Gallup Poll found that a woman visits her doctor, on average, at most 5.8 times each year. A random sample of 20 women results in these yearly visit totals:<nbsp/>
+          <p>A report by the Gallup Poll found that a woman visits her doctor, on average, at most 5.8 times each year. A random sample of 20 women results in these yearly visit totals:<nbsp />
 3
 2
 1
@@ -2579,7 +2579,7 @@ Conclusion: At the 5 percent significance level, there is sufficient evidence to
 3
 4
 1
-<nbsp/>
+<nbsp />
 At the <m>α</m> = 0.05 level, can it be concluded that the sample mean is higher than 5.8 visits per year?</p>
           <ul>
             <li>3</li>
@@ -2617,7 +2617,7 @@ At the <m>α</m> = 0.05 level, can it be concluded that the sample mean is highe
       <exercise xml:id="eip-677">
         <statement>
           <p>According to the <em>New York Times Almanac</em> the mean family size in the United States is 3.18. A sample of a college math class resulted in the following family sizes:
-<nbsp/>
+<nbsp />
 
 5
 4
@@ -2644,7 +2644,7 @@ At the <m>α</m> = 0.05 level, can it be concluded that the sample mean is highe
 3
 2
 
-<nbsp/>At <m>α</m> = 0.05, is the class’s mean family size greater than the national average? Does the <em>Almanac</em> result remain valid? Why?</p>
+<nbsp />At <m>α</m> = 0.05, is the class’s mean family size greater than the national average? Does the <em>Almanac</em> result remain valid? Why?</p>
           <ul>
             <li>5</li>
             <li>4</li>
@@ -2799,7 +2799,7 @@ At the <m>α</m> = 0.05 level, can it be concluded that the sample mean is highe
 
     <figure xml:id="ch9-fs-idp119584608">
       <caption>If you want to test a claim that involves two groups (the types of breakfasts eaten east and west of the Mississippi River), you can use a slightly different technique when conducting a hypothesis test. (credit: Chloe Lim)</caption>
-      <image source="media/CNX_Stats_C10_CO.jpg" width="76%"/>
+      <image source="media/CNX_Stats_C10_CO.jpg" width="76%" />
     </figure>
     <note xml:id="ch9-fs-idm64219152">
       <title>Chapter Objectives</title>
@@ -2820,7 +2820,7 @@ At the <m>α</m> = 0.05 level, can it be concluded that the sample mean is highe
       <title>NOTE</title>
       <p>This chapter relies on either a calculator or a computer to calculate the degrees of freedom, the test statistics, and <m>p</m> values. TI-83+ and TI-84 instructions are included, as well as the test statistic formulas. When using a TI-83+ or TI-84 calculator, we do not need to separate two population means, independent groups, or population variances unknown into large and small sample sizes. However, most statistical computer software has the ability to differentiate these tests.</p>
     </note>
-    <p><nbsp/>This chapter deals with the following hypothesis tests:</p>
+    <p><nbsp />This chapter deals with the following hypothesis tests:</p>
     <ul>
       <li>Independent groups (samples are independent)
 Test of two population means
