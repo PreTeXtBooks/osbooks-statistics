@@ -57,41 +57,2727 @@
     </activity>
   </introduction>
 
+
   <section xml:id="sec-terminology">
     <title>Terminology</title>
-    <p>
-      Content to be added from module m79611.
-    </p>
+
+
+    <subsection xml:id="fs-id1164565663984">
+      <p><term>Probability</term> is a measure that is associated with how certain we are of results, or outcomes, of a particular activity. When the activity is a planned operation carried out under controlled conditions, it is called an <alert>experiment</alert>. If the result is <em>not</em> predetermined, then the experiment is said to be a chance experiment. Each time the experiment is attempted is called a trial.</p>
+      <p>Examples of chance experiments include the following:</p>
+      <ul>
+        <li>flipping a fair coin,</li>
+        <li>spinning a spinner,</li>
+        <li>drawing a marble at random from a bag, and</li>
+        <li>rolling a pair of dice.</li>
+      </ul>
+      <p>A result of an experiment is called an <alert>outcome</alert>. The <alert>sample space</alert> of an experiment is the set, or collection, of all possible outcomes.</p>
+      <p>There are four main ways to represent a sample space:</p>
+      <table xml:id="fs-id1164565591567">
+        <tabular>
+          <row><cell></cell><cell>Flipping a Fair Coin</cell><cell>Flipping Two Fair Coins</cell></row>
+          <row><cell>Systematic List of Outcomes</cell><cell>heads (H)<nbsp/>tails (T)</cell><cell>HH<nbsp/>HT<nbsp/>TH<nbsp/>TT</cell></row>
+          <row><cell>Tree Diagram*</cell><cell></cell><cell></cell></row>
+          <row><cell>Venn Diagram*</cell><cell></cell><cell></cell></row>
+          <row><cell>Set Notation</cell><cell><m>S={H,T}</m></cell><cell><m>S={HH,HT,TH,TT}</m></cell></row>
+        </tabular>
+      </table>
+      <p>*We will investigate tree diagrams and Venn diagrams in Section 3.5.</p>
+      <p>Note—when represented as a set, the sample space is denoted with an uppercase <m>S</m>.</p>
+      <p>An event is any combination of outcomes. It is a subset of the sample space, so uppercase letters like <m>A</m> and <m>B</m> are commonly used to represent events. For example, if the experiment is to flip three fair coins, event <m>A</m> might be getting at most one head.</p>
+      <p>The probability of an event <m>A</m> is written <m>P(A)</m>, and <m>0 \leq P(A) \leq 1</m>. <m>P(A) = 0</m> means the event <m>A</m> can never happen. <m>P(A) = 1</m> means the event <m>A</m> always happens. <m>P(A)=0.5</m> means the event <m>A</m> is <alert>equally likely</alert> to occur or not to occur.</p>
+      <figure xml:id="fs-id1164565359012">
+        <image source="media/OSX_HS_Statistics_Figure_03_01_02_05.jpg"/>
+      </figure>
+      <p>If two outcomes or events are equally likely, then they have equal probability. For example, if you toss a fair, six-sided die, each face (1, 2, 3, 4, 5, or 6) is as likely to occur as any other face. If you toss a fair coin, a Head (<m>H</m>) and a Tail (<m>T</m>) are equally likely to occur. If you randomly guess the answer to a true/false question on an exam, you are equally likely to select a correct answer or an incorrect answer.</p>
+      <p>To calculate the probability of an event <m>A</m> when all outcomes in the sample space are equally likely, count the number of outcomes for event <m>A</m> and divide by the total number of outcomes in the sample space. This is known as the theoretical probability of <m>A</m>.</p>
+      <p><term>Theoretical Probability of Event A</term></p>
+      <me>P(A)=\frac{\text{Number of outcomes in event A}}{\text{Total number of possible outcomes.}}</me>
+      <p>For example, if you toss a fair dime and a fair nickel, the sample space is {<em>HH, TH, HT, TT</em>} where <m>T</m> = tails and <m>H</m> = heads. The sample space has four outcomes. Let <m>A</m> represent the outcome <em>getting one head.</em> There are two outcomes that meet this condition {<em>HT, TH</em>}, so <m>P(A)=\frac{2}{4}=\frac{1}{2}=.5.</m></p>
+      <p>Theoretical probability is not sufficient in all situations, however. Suppose we want to calculate the probability that a randomly selected car will run a red light at a given intersection. In this case, we need to look at events that <em>have</em> occurred, not theoretical possibilities. We could install a traffic camera and count the number of times that cars failed to stop when the light was red and the total number of cars that passed through the intersection for a period of time. These data will allow us to calculate the experimental, or empirical, probability that a car runs the red light.</p>
+      <p><term>Experimental Probability of Event A</term></p>
+      <me>P(A)=\frac{\text{Number of times event A occurs.}}{\text{Total number of trials}}</me>
+      <p>While theoretical and experimental methods provide two different ways to calculate probability, these methods are closely related. If you flip one fair coin, there is one way to obtain heads and two possible outcomes. So, the theoretical probability of heads is <m>\frac{1}{2}</m>. Probability does not predict short-term results, however. If an experiment involves flipping a coin 10 times, you should not expect exactly five heads and five tails. The probability of any outcome measures the long-term relative frequency of that outcome. If you continue to flip the coin (from 20 to 2,000 to 20,000 times) the relative frequency of heads approaches .5 (the probability of heads).This important characteristic of probability experiments is known as the law of large numbers, which states that as the number of repetitions of an experiment is increased, the relative frequency obtained in the experiment tends to become closer and closer to the theoretical probability. Even though the outcomes do not happen according to any set pattern or order, overall, the long-term observed, or empirical, relative frequency will approach the theoretical probability.</p>
+      <p>Suppose you roll one fair, six-sided die with the numbers {1, 2, 3, 4, 5, 6} on its faces. Let event <m>E</m> = rolling a number that is at least five. There are two outcomes {5, 6}. <m>P(E)=\frac{2}{6}.</m> If you were to roll the die only a few times, you would not be surprised if your observed results did not match the probability. If you were to roll the die a very large number of times, you would expect that, overall, <m>\frac{2}{6}</m> of the rolls would result in an outcome of <em>at least five</em>. You would not expect exactly <m>\frac{2}{6}</m>, but the long-term relative frequency of obtaining this result would approach the theoretical probability of <m>\frac{2}{6}</m> as the number of repetitions grows larger and larger.</p>
+      <p>It is important to realize that in many situations, the outcomes are not equally likely. A coin or die may be <term>unfair</term>, or biased. Two math professors in Europe had their statistics students test the Belgian one-euro coin and discovered that in 250 trials, a head was obtained 56 percent of the time and a tail was obtained 44 percent of the time. The data seem to show that the coin is not a fair coin; more repetitions would be helpful to draw a more accurate conclusion about such bias. Some dice may be biased. Look at the dice in a game you have at home; the spots on each face are usually small holes carved out and then painted to make the spots visible. Your dice may or may not be biased; it is possible that the outcomes may be affected by the slight weight differences due to the different numbers of holes in the faces. Gambling casinos make a lot of money depending on outcomes from rolling dice, so casino dice are made differently to eliminate bias. Casino dice have flat faces; the holes are completely filled with paint having the same density as the material that the dice are made out of so that each face is equally likely to occur. Later we will learn techniques to use to work with probabilities for events that are not equally likely.<nbsp/><nbsp/></p>
+      <p>OR EventAn outcome is in the event <m>A</m> OR <m>B</m> if the outcome is in <m>A</m> or is in <m>B</m> or is in both <m>A</m> and <m>B</m>. For example, let <m>A</m> = {1, 2, 3, 4, 5} and <m>B</m> = {4, 5, 6, 7, 8}. <m>A</m> OR <m>B</m> = {1, 2, 3, 4, 5, 6, 7, 8}. Notice that 4 and 5 are <alert>not</alert> listed twice.<nbsp/><nbsp/></p>
+      <p>AND EventAn outcome is in the event <m>A</m> AND <m>B</m> if the outcome is in both <m>A</m> and <m>B</m> at the same time. For example, let <m>A</m> and <m>B</m> be <nbsp/>{1, 2, 3, 4, 5} and {4, 5, 6, 7, 8}, respectively. Then <m>A</m> AND <m>B</m> = {4, 5}.</p>
+      <p>The <term>complement</term> of event <m>A</m> is denoted <m>A′</m> (read "<m>A</m> prime"). <m>A′</m> consists of all outcomes that are <alert>not</alert> in <m>A</m>. Notice that <nbsp/><m>P</m>(<m>A</m>) + <m>P</m>(<m>A′</m>) = 1. For example, let <m>S</m> = {1, 2, 3, 4, 5, 6} and let <m>A</m> = {1, 2, 3, 4}. Then, <m>A′</m> = {5, 6}. <m>P</m>(<m>A</m>) = <m>\frac{4}{6}</m>, <m>P</m>(<m>A′</m>) = <m>\frac{2}{6}</m>, and <m>P</m>(<m>A</m>) + <m>P</m>(<m>A′</m>) = <m>\frac{4}{6}+\frac{2}{6}</m> = 1.</p>
+      <p>The <term>conditional probability</term> of <m>A</m> given <m>B</m> is written <m>P</m>(<m>A</m>|<m>B</m>), read "the probability of <m>A</m>, given <m>B</m>." <m>P</m>(<m>A</m>|<m>B</m>) is the probability that event <m>A</m> will occur given that the event <m>B</m> has already occurred. A conditional probability reduces the sample space. We calculate the probability of <m>A</m> from the reduced sample space <m>B</m>. The formula to calculate <m>P</m>(<m>A</m>|<m>B</m>) is <m>P</m>(<m>A</m>|<m>B</m>) = <m>\frac{P(A\text{AND}B)}{P(B)}</m> where <m>P</m>(<m>B</m>) is greater than zero.</p>
+      <p>For example, suppose we toss one fair, six-sided die. The sample space <m>S</m> = {1, 2, 3, 4, 5, 6}. Let <m>A</m> = {2, 3} and <m>B</m> = {2, 4, 6}. <m>P</m>(<m>A</m>|<m>B</m>) represents the probability that a randomly selected outcome is in <em>A given that</em> it is in <m>B</m>. We know that the outcome must lie in <m>B</m>, so there are three possible outcomes. There is only one outcome in <m>B</m> that also lies in <m>A</m>, so <m>P</m>(<m>A</m>|<m>B</m>) = <m>\frac{1}{3}</m>.</p>
+      <p>We get the same result by using the formula. Remember that <m>S</m> has six outcomes.</p>
+      <p><m>P</m>(<m>A</m>|<m>B</m>) = <m>\frac{P(A\text{AND}B)}{P(B)}=\frac{\frac{(\text{the number of outcomes that are 2 or 3 and even in}S)}{6}}{\frac{(\text{the number of outcomes that are even in}S)}{6}}=\frac{\frac{1}{6}}{\frac{3}{6}}=\frac{1}{3}</m></p>
+      <p>Understanding Terminology and SymbolsIt is important to read each problem carefully to think about and understand what the events are. Understanding the wording is the first very important step in solving probability problems. Reread the problem several times if necessary. Clearly identify the event of interest. Determine whether there is a condition stated in the wording that would indicate that the probability is conditional; carefully identify the condition, if any.</p>
+      <example xml:id="fs-idp18139744">
+        <statement>
+          <p>The sample space <m>S</m> is the whole numbers starting at one and less than 20.</p>
+          <p>Let event <m>A</m> = the even numbers and event <m>B</m> = numbers greater than 13.</p>
+          <ol>
+            <li><m>S</m> = ________</li>
+            <li><m>A</m> = ________, <m>B</m> = ________</li>
+            <li><m>P</m>(<m>A</m>) = ________, <m>P</m>(<m>B</m>) = ________</li>
+            <li><m>A</m> AND <m>B</m> = ________, <m>A</m> OR <m>B</m> = ________</li>
+            <li><m>P</m>(<m>A</m> AND <m>B</m>) = ________, <m>P</m>(<m>A</m> OR <m>B</m>) = ________</li>
+            <li><m>A′</m> = ________, <m>P</m>(<m>A′</m>) = ________</li>
+            <li><m>P</m>(<m>A</m>) + <m>P</m>(<m>A′</m>) = ________</li>
+            <li><m>P</m>(<m>A</m>|<m>B</m>) = ________, <m>P</m>(<m>B</m>|<m>A</m>) = ________; are the probabilities equal?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>S</m> = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}</li>
+            <li><m>A</m> = {2, 4, 6, 8, 10, 12, 14, 16, 18}, <m>B</m> = {14, 15, 16, 17, 18, 19}</li>
+            <li><m>P</m>(<m>A</m>) = <m>\frac{\text{number of outcomes in}A}{\text{number of outcomes in}S}</m>
+ = <m>\frac{9}{19}</m>, <m>P</m>(<m>B</m>) = <m>\frac{\text{number of outcomes in}B}{\text{number of outcomes in}S}</m> = <m>\frac{6}{19}</m></li>
+            <li>The set <m>A</m> AND <m>B</m> contains all outcomes that lie in both sets <m>A</m> and <m>B</m>, so <m>A</m> AND <m>B</m> = {14,16,18}, The set <m>A</m> OR <m>B</m> contains all outcomes that lie either of the sets <m>A</m> or <m>B</m>, so <m>A</m> OR <m>B</m> = {2, 4, 6, 8, 10, 12, 14, 15, 16, 17, 18, 19}.</li>
+            <li><m>P</m>(<m>A</m> AND <m>B</m>) = <m>\frac{3}{19}\text{,}</m> <m>P</m>(<m>A</m> OR <m>B</m>) = <m>\frac{12}{19}</m></li>
+            <li><m>A'</m> consists of all outcomes in the sample space, <m>S</m>, that DO NOT lie in <m>A</m>, so <m>A′</m> = 1, 3, 5, 7, 9, 11, 13, 15, 17, 19; <m>P</m>(<m>A′</m>) = <m>\frac{10}{19}</m>.</li>
+            <li><m>P</m>(<m>A</m>) + <m>P</m>(<m>A′</m>) = <m>\frac{9}{19}</m> + <m>\frac{10}{19}</m> = 1</li>
+            <li><m>P</m>(<m>A</m>|<m>B</m>) = <m>\frac{P(A\text{AND}B)}{P(B)}</m>
+<m>=\frac{\frac{3}{19}}{\frac{6}{19}}</m>
+= <m>\frac{3}{6}</m>, <m>P</m>(<m>B</m>|<m>A</m>) = <m>\frac{P(A\text{AND}B)}{P(A)}</m>
+<m>=\frac{\frac{3}{19}}{\frac{9}{19}}</m>
+ = <m>\frac{3}{9}</m>, No, the probabilities are not equal.</li>
+          </ol>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp18521824">
+        <statement>
+          <p>The sample space <m>S</m> is all the ordered pairs of two whole numbers, the first from one to three and the second from one to four (Example: (1, 4)).<nbsp/><nbsp/></p>
+          <ol>
+            <li><m>S</m> = ________
+<nbsp/><nbsp/>Let event <m>A</m> = the sum is even and event <m>B</m> = the first number is prime.</li>
+            <li><m>A</m> = ________, <m>B</m> = ________</li>
+            <li><m>P</m>(<m>A</m>) = ________, <m>P</m>(<m>B</m>) = ________</li>
+            <li><m>A</m> AND <m>B</m> = ________, <m>A</m> OR <m>B</m> = ________</li>
+            <li><m>P</m>(<m>A</m> AND <m>B</m>) = ________, <m>P</m>(<m>A</m> OR <m>B</m>) = ________</li>
+            <li><m>B′</m> = ________, <m>P</m>(<m>B′</m>) = ________</li>
+            <li><m>P</m>(<m>A</m>) + <m>P</m>(<m>A′</m>) = ________</li>
+            <li><m>P</m>(<m>A</m>|<m>B</m>) = ________, <m>P</m>(<m>B</m>|<m>A</m>) = ________; are the probabilities equal?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>S</m> = {(1,1), (1,2), (1,3), (1,4), (2,1), (2,2), (2,3), (2,4), (3,1), (3,2), (3,3), (3,4)}</li>
+            <li><m>A</m> = {(1,1), (1,3), (2,2), (2,4), (3,1), (3,3)}
+<nbsp/><nbsp/><m>B</m> = {(2,1), (2,2), (2,3), (2,4), (3,1), (3,2), (3,3), (3,4)}</li>
+            <li><m>P</m>(<m>A</m>) = <m>\frac{1}{2}</m>, <m>P</m>(<m>B</m>) = <m>\frac{2}{3}</m></li>
+            <li><m>A</m> AND <m>B</m> = {(2,2), (2,4), (3,1), (3,3)}
+<nbsp/><nbsp/> <m>A</m> OR <m>B</m> = {(1,1), (1,3), (2,1), (2,2), (2,3), (2,4), (3,1), (3,2), (3,3), (3,4)}</li>
+            <li><m>P</m>(<m>A</m> AND <m>B</m>) = <m>\frac{1}{3}</m>, <m>P</m>(<m>A</m> OR <m>B</m>) = <m>\frac{5}{6}</m></li>
+            <li><m>B′</m> = {(1,1), (1,2), (1,3), (1,4)}, <m>P</m>(<m>B′</m>) = <m>\frac{1}{3}</m></li>
+            <li><m>P</m>(<m>B</m>) + <m>P</m>(<m>B′</m>) = 1</li>
+            <li><m>P</m>(<m>A</m>|<m>B</m>) = <m>\frac{P\text{(}A\text{AND}B\text{)}}{P\text{(}B\text{)}}\text{=}\frac{1}{2}</m>, <m>P</m>(<m>B</m>|<m>A</m>) = <m>\frac{P\text{(}A\text{AND}B\text{)}}{P\text{(}B\text{)}}\text{=}\frac{2}{3}</m>, No.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idp58540864">
+        <statement>
+          <p>A fair, six-sided die is rolled. The sample space, <m>S</m>, is {1, 2, 3, 4, 5, 6}. Describe each event and calculate its probability.</p>
+          <ol>
+            <li>Event <m>T</m> = the outcome is two.</li>
+            <li>Event <m>A</m> = the outcome is an even number.</li>
+            <li>Event <m>B</m> = the outcome is less than four.</li>
+            <li>The complement of <m>A</m></li>
+            <li><m>A</m> GIVEN <m>B</m></li>
+            <li><m>B</m> GIVEN <m>A</m></li>
+            <li><m>A</m> AND <m>B</m></li>
+            <li><m>A</m> OR <m>B</m></li>
+            <li><m>A</m> OR <m>B′</m></li>
+            <li>Event <m>N</m> = the outcome is a prime number.</li>
+            <li>Event <m>I</m> = the outcome is seven.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>T</m> = {2}, <m>P</m>(<m>T</m>) = <m>\frac{\text{number of outcomes in}T}{\text{number of outcomes in}S}</m> = <m>\frac{1}{6}</m></li>
+            <li><m>A</m> = {2, 4, 6}, <m>P</m>(<m>A</m>) = <m>\frac{3}{6}</m> = <m>\frac{1}{2}</m></li>
+            <li><m>B</m> = {1, 2, 3}, <m>P</m>(<m>B</m>) = <m>\frac{3}{6}</m> = <m>\frac{1}{2}</m></li>
+            <li><m>A′</m> = {1, 3, 5}, <m>P</m>(<m>A′</m>) = <m>\frac{3}{6}</m> = <m>\frac{1}{2}</m></li>
+            <li><m>A</m>|<m>B</m> = {2}, There are three outcomes in <m>B</m>, and only 1 of these lies in <m>A</m>, so <m>P</m>(<m>A</m>|<m>B</m>) = <m>\frac{1}{3}</m></li>
+            <li><m>B</m>|<m>A</m> = {2}, There are three outcomes in <m>A</m>, and only 1 of these lies in <m>B</m>, so <m>P</m>(<m>B</m>|<m>A</m>) = <m>\frac{1}{3}</m></li>
+            <li><m>A</m> AND <m>B</m> = {2}, <m>P</m>(<m>A</m> AND <m>B</m>) = <m>\frac{1}{6}</m></li>
+            <li><m>A</m> OR <m>B</m> = {1, 2, 3, 4, 6}, <m>P</m>(<m>A</m> OR <m>B</m>) = <m>\frac{5}{6}</m></li>
+            <li><m>A</m> OR <m>B′</m> = {2, 4, 5, 6}, <m>P</m>(<m>A</m> OR <m>B′</m>) = <m>\frac{4}{6}</m> = <m>\frac{2}{3}</m></li>
+            <li><m>N</m> = {2, 3, 5}, <m>P</m>(<m>N</m>) = <m>\frac{1}{2}</m></li>
+            <li>It is impossible to roll a die and get an outcome of 7, so <m>P</m>(7) = 0.</li>
+          </ol>
+        </solution>
+      </example>
+      <example xml:id="fs-idp6753008">
+        <statement>
+          <p>Let’s denote the events <m>M</m> = the subject is male, <m>F</m> = the subject is female, <m>R</m> = the subject is right-handed, <m>L</m> = the subject is left-handed. Compute the following probabilities:</p>
+          <ol>
+            <li><m>P</m>(<m>M</m>)</li>
+            <li><m>P</m>(<m>F</m>)</li>
+            <li><m>P</m>(<m>R</m>)</li>
+            <li><m>P</m>(<m>L</m>)</li>
+            <li><m>P</m>(<m>M</m> AND <m>R</m>)</li>
+            <li><m>P</m>(<m>F</m> AND <m>L</m>)</li>
+            <li><m>P</m>(<m>M</m> OR <m>F</m>)</li>
+            <li><m>P</m>(<m>M</m> OR <m>R</m>)</li>
+            <li><m>P</m>(<m>F</m> OR <m>L</m>)</li>
+            <li><m>P</m>(<m>M'</m>)</li>
+            <li><m>P</m>(<m>R</m>|<m>M</m>)</li>
+            <li><m>P</m>(<m>F</m>|<m>L</m>)</li>
+            <li><m>P</m>(<m>L</m>|<m>F</m>)</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P(M)=\frac{\text{number of males}}{\text{total number of subjects}}=\frac{43+9}{43+9+44+4}=\frac{52}{100}=.52</m></li>
+            <li><m>P(F)=\frac{\text{number of females}}{\text{total number of subjects}}=\frac{44+4}{43+9+44+4}=\frac{48}{100}=.48</m></li>
+            <li><m>P(R)=\frac{\text{number of right-handed subjects}}{\text{total number of subjects}}=\frac{43+44}{43+9+44+4}=\frac{87}{100}=.87</m></li>
+            <li><m>P(L)=\frac{\text{number of left-handed subjects}}{\text{total number of subjects}}=\frac{9+4}{43+9+44+4}=\frac{13}{100}=.13</m></li>
+            <li><m>P(M\text{and}R)=\frac{\text{number of male, right-handed subjects}}{\text{total number of subjects}}=\frac{43}{100}=.43</m></li>
+            <li><m>P(F\text{and}L)=\frac{\text{number of female, left-handed subjects}}{\text{total number of subjects}}=\frac{4}{100}=.04</m></li>
+            <li><m>P(M\text{or}F)=\frac{\text{number of subjects that are male or female}}{\text{total number of subjects}}=\frac{52+48}{100}=\frac{100}{100}=1</m></li>
+            <li><m>P(M\text{or}R)=\frac{\text{number of subjects that are male or right-handed}}{\text{total number of subjects}}=\frac{43+9+44}{100}=\frac{96}{100}=.96</m></li>
+            <li><m>P(F\text{or}L)=\frac{\text{number of subjects that are female or left-handed}}{\text{total number of subjects}}=\frac{44+4+9}{100}=\frac{57}{100}=.57</m></li>
+            <li><m>P(M^{'})=\frac{\text{number of subjects who are not male}}{\text{total number of subjects}}=\frac{44+4}{43+9+44+4}=\frac{48}{100}=.48</m></li>
+            <li><m>P(R|M)=\frac{P(R\text{and}M)}{P(M)}=\frac{0.43}{0.52}˜=.8269</m> (rounded to four decimal places)</li>
+            <li><m>P(F|L)=\frac{P(F\text{and}L)}{P(L)}=\frac{0.04}{0.13}˜=.3077</m> (rounded to four decimal places)</li>
+            <li><m>P(L|F)=\frac{P(L\text{and}F)}{P(F)}=\frac{0.04}{0.48}˜=.0833</m> (rounded to four decimal places)</li>
+          </ol>
+        </solution>
+      </example>
+    </subsection>
+
+    <subsection xml:id="fs-idp2299568">
+      <title>References</title>
+      <p>Worldatlas. (2013). <em>Countries list by continent</em>. Retrieved from http://www.worldatlas.com/cntycont.htm</p>
+    </subsection>
+
+    <subsection xml:id="fs-idp18168192">
+      <title>Chapter Review</title>
+      <p>In this module we learned the basic terminology of probability. The set of all possible outcomes of an experiment is called the sample space. Events are subsets of the sample space, and they are assigned a probability that is a number between zero and one, inclusive.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idp22008272">
+      <title>Formula Review</title>
+      <p><m>A</m> and <m>B</m> are events</p>
+      <p><m>P</m>(<m>S</m>) = 1 where <m>S</m> is the sample space</p>
+      <p>0 ≤ <m>P</m>(<m>A</m>) ≤ 1</p>
+      <p><m>P</m>(<m>A</m>|<m>B</m>) = <m>\frac{P\text{(}A\text{AND}B\text{)}}{P\text{(}B\text{)}}</m></p>
+    </subsection>
+
+    <subsection xml:id="ch03-eip-99">
+      <exercise xml:id="ch03-eip-396">
+        <statement>
+          <p>In a particular college class, there are male and female students. Some students have long hair and some students have short hair. Write the symbols for the probabilities of the events for parts A through J of this question. Note that you cannot find numerical answers here. You were not given enough information to find any probability values yet; concentrate on understanding the symbols.</p>
+          <ul>
+            <li>Let <m>F</m> be the event that a student is female.</li>
+            <li>Let <m>M</m> be the event that a student is male.</li>
+            <li>Let <m>S</m> be the event that a student has short hair.</li>
+            <li>Let <m>L</m> be the event that a student has long hair.</li>
+          </ul>
+          <ol>
+            <li>The probability that a student does not have long hair.</li>
+            <li>The probability that a student is male or has short hair.</li>
+            <li>The probability that a student is female and has long hair.</li>
+            <li>The probability that a student is male, given that the student has long hair.</li>
+            <li>The probability that a student has long hair, given that the student is male.</li>
+            <li>Of all female students, the probability that a student has short hair.</li>
+            <li>Of all students with long hair, the probability that a student is female.</li>
+            <li>The probability that a student is female or has long hair.</li>
+            <li>The probability that a randomly selected student is a male student with short hair.</li>
+            <li>The probability that a student is female.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(<m>L′</m>) = <m>P</m>(<m>S</m>)</li>
+            <li><m>P</m>(<m>M</m> OR <m>S</m>)</li>
+            <li><m>P</m>(<m>F</m> AND <m>L</m>)</li>
+            <li><m>P</m>(<m>M</m>|<m>L</m>)</li>
+            <li><m>P</m>(<m>L</m>|<m>M</m>)</li>
+            <li><m>P</m>(<m>S</m>|<m>F</m>)</li>
+            <li><m>P</m>(<m>F</m>|<m>L</m>)</li>
+            <li><m>P</m>(<m>F</m> OR <m>L</m>)</li>
+            <li><m>P</m>(<m>M</m> AND <m>S</m>)</li>
+            <li><m>P</m>(<m>F</m>)</li>
+          </ol>
+        </solution>
+      </exercise>
+      <p><em>Use the following information to answer the next four exercises.</em> A box is filled with several party favors. It contains 12 hats, 15 noisemakers, 10 finger traps, and five bags of confetti.
+<nbsp/>Let <m>H</m> = the event of getting a hat.
+<nbsp/>Let <m>N</m> = the event of getting a noisemaker.
+<nbsp/>Let <m>F</m> = the event of getting a finger trap.
+<nbsp/>Let <m>C</m> = the event of getting a bag of confetti.</p>
+      <exercise xml:id="fs-idm23159776">
+        <statement>
+          <p>Find <m>P</m>(<m>H</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm49682256">
+        <statement>
+          <p>Find <m>P</m>(<m>N</m>).</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>N</m>) = <m>\frac{15}{42}</m> = <m>\frac{5}{14}</m> = .36</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm10330672">
+        <statement>
+          <p>Find <m>P</m>(<m>F</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm119514368">
+        <statement>
+          <p>Find <m>P</m>(<m>C</m>).</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>C</m>) = <m>\frac{5}{42}</m> = .12</p>
+        </solution>
+      </exercise>
+      <p><nbsp/><em>Use the following information to answer the next six exercises.</em> A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange.
+<nbsp/>Let <m>B</m> = the event of getting a blue jelly bean
+<nbsp/>Let <m>G</m> = the event of getting a green jelly bean.
+<nbsp/>Let <m>O</m> = the event of getting an orange jelly bean.
+<nbsp/>Let <m>P</m> = the event of getting a purple jelly bean.
+<nbsp/>Let <m>R</m> = the event of getting a red jelly bean.
+<nbsp/>Let <m>Y</m> = the event of getting a yellow jelly bean.</p>
+      <exercise xml:id="fs-idm75082368">
+        <statement>
+          <p>Find <m>P</m>(<m>B</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm80518976">
+        <statement>
+          <p>Find <m>P</m>(<m>G</m>).</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>G</m>) = <m>\frac{20}{150}</m> = <m>\frac{2}{15}</m> = .13</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm68528784">
+        <statement>
+          <p>Find <m>P</m>(<m>P</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm48493856">
+        <statement>
+          <p>Find <m>P</m>(<m>R</m>).</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>R</m>) = <m>\frac{22}{150}</m> = <m>\frac{11}{75}</m> = .15</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm3176768">
+        <statement>
+          <p>Find <m>P</m>(<m>Y</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm53901776">
+        <statement>
+          <p>Find <m>P</m>(<m>O</m>).</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>O</m>) = <m>\frac{150-22-38-20-28-26}{150}</m> = <m>\frac{16}{150}</m> = <m>\frac{8}{75}</m> = .11</p>
+        </solution>
+      </exercise>
+      <p><nbsp/><em>Use the following information to answer the next six exercises.</em> There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 countries in Oceania (Pacific Ocean region).
+<nbsp/>Let <m>A</m> = the event that a country is in Asia.
+<nbsp/>Let <m>E</m> = the event that a country is in Europe.
+<nbsp/>Let <m>F</m> = the event that a country is in Africa.
+<nbsp/>Let <m>N</m> = the event that a country is in North America.
+<nbsp/>Let <m>O</m> = the event that a country is in Oceania.
+<nbsp/>Let <m>S</m> = the event that a country is in South America.</p>
+      <exercise xml:id="fs-idm3484896">
+        <statement>
+          <p>Find <m>P</m>(<m>A</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm9492064">
+        <statement>
+          <p>Find <m>P</m>(<m>E</m>).</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>E</m>) = <m>\frac{47}{194}</m> = .24</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm79250496">
+        <statement>
+          <p>Find <m>P</m>(<m>F</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm3781600">
+        <statement>
+          <p>Find <m>P</m>(<m>N</m>).</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>N</m>) = <m>\frac{23}{194}</m> = .12</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm121890336">
+        <statement>
+          <p>Find <m>P</m>(<m>O</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp14140208">
+        <statement>
+          <p>Find <m>P</m>(<m>S</m>).</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>S</m>) = <m>\frac{12}{194}</m> = <m>\frac{6}{97}</m> = .06</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm24247104">
+        <statement>
+          <p>What is the probability of drawing a red card in a standard deck of 52 cards?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm28330400">
+        <statement>
+          <p>What is the probability of drawing a club in a standard deck of 52 cards?</p>
+        </statement>
+        <solution>
+          <p><m>\frac{13}{52}</m> = <m>\frac{1}{4}</m> = .25</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm3623360">
+        <statement>
+          <p>What is the probability of rolling an even number of dots with a fair, six-sided die numbered one through six?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm61066160">
+        <statement>
+          <p>What is the probability of rolling a prime number of dots with a fair, six-sided die numbered one through six?</p>
+        </statement>
+        <solution>
+          <p><m>\frac{3}{6}</m> = <m>\frac{1}{2}</m> = .5</p>
+        </solution>
+      </exercise>
+      <p><nbsp/><em>Use the following information to answer the next two exercises.</em> You see a game at a local fair. You have to throw a dart at a color wheel. Each section on the color wheel is equal in area.
+
+
+
+<nbsp/>Let <m>B</m> = the event of landing on blue.
+<nbsp/>Let <m>R</m> = the event of landing on red.
+<nbsp/>Let <m>G</m> = the event of landing on green.
+<nbsp/>Let <m>Y</m> = the event of landing on yellow.</p>
+      <exercise xml:id="fs-idm87354368">
+        <statement>
+          <p>If you land on <m>Y</m>, you get the biggest prize. Find <m>P</m>(<m>Y</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm87415968">
+        <statement>
+          <p>If you land on red, you don’t get a prize. What is <m>P</m>(<m>R</m>)?</p>
+        </statement>
+        <solution>
+          <p><m>P(R)=\frac{4}{8}=.5</m></p>
+        </solution>
+      </exercise>
+      <p><nbsp/><em>Use the following information to answer the next 10 exercises.</em> On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.
+<nbsp/>Let <m>I</m> = the event that a player in an infielder.
+<nbsp/>Let <m>O</m> = the event that a player is an outfielder.
+<nbsp/>Let <m>H</m> = the event that a player is a great hitter.
+<nbsp/>Let <m>N</m> = the event that a player is not a great hitter.</p>
+      <exercise xml:id="ch03-eip-386">
+        <statement>
+          <p>Write the symbols for the probability that a player is not an outfielder.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-432">
+        <statement>
+          <p>Write the symbols for the probability that a player is an outfielder or is a great hitter.</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>O</m> OR <m>H</m>)</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-863">
+        <statement>
+          <p>Write the symbols for the probability that a player is an infielder and is not a great hitter.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-94">
+        <statement>
+          <p>Write the symbols for the probability that a player is a great hitter, given that the player is an infielder.</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>H</m>|<m>I</m>)</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-16">
+        <statement>
+          <p>Write the symbols for the probability that a player is an infielder, given that the player is a great hitter.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-680">
+        <statement>
+          <p>Write the symbols for the probability that of all the outfielders, a player is not a great hitter.</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>N</m>|<m>O</m>)</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-266">
+        <statement>
+          <p>Write the symbols for the probability that of all the great hitters, a player is an outfielder.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-542">
+        <statement>
+          <p>Write the symbols for the probability that a player is an infielder or is not a great hitter.</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>I</m> OR <m>N</m>)</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-355">
+        <statement>
+          <p>Write the symbols for the probability that a player is an outfielder and is a great hitter.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-311">
+        <statement>
+          <p>Write the symbols for the probability that a player is an infielder.</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>I</m>)</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-731">
+        <statement>
+          <p>What is the word for the set of all possible outcomes?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-289">
+        <statement>
+          <p>What is conditional probability?</p>
+        </statement>
+        <solution>
+          <p>The likelihood that an event will occur given that another event has already occurred.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-752">
+        <statement>
+          <p>A shelf holds 12 books. Eight are fiction and the rest are nonfiction. Each is a different book with a unique title. The fiction books are numbered one to eight. The nonfiction books are numbered one to four. Randomly select one book
+<nbsp/>Let <m>F</m> = event that book is fiction
+<nbsp/>Let <m>N</m> = event that book is nonfiction
+<nbsp/>What is the sample space?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-848">
+        <statement>
+          <p>What is the sum of the probabilities of an event and its complement?</p>
+        </statement>
+        <solution>
+          <p>1</p>
+        </solution>
+      </exercise>
+      <p><nbsp/><em>Use the following information to answer the next two exercises.</em> You are rolling a fair, six-sided number cube. Let <m>E</m> = the event that it lands on an even number. Let <m>M</m> = the event that it lands on a multiple of three.</p>
+      <exercise xml:id="ch03-eip-460">
+        <statement>
+          <p>What does <m>P</m>(<m>E</m>|<m>M</m>) mean in words?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-185">
+        <statement>
+          <p>What does <m>P</m>(<m>E</m> OR <m>M</m>) mean in words?</p>
+        </statement>
+        <solution>
+          <p>the probability of landing on an even number or a multiple of three</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm3746928">
+      <title>Homework</title>
+      <exercise xml:id="ch03-eip-616">
+        <statement>
+          <p>The graph in  displays the sample sizes and percentages of people in different age and gender groups who were polled concerning their approval of Mayor Ford’s actions in office. The total number in the sample of all the age groups is 1,045.</p>
+          <ol>
+            <li>Define three events in the graph.</li>
+            <li>Describe in words what the entry 40 means.</li>
+            <li>Describe in words the complement of the entry in the previous question.</li>
+            <li>Describe in words what the entry 30 means.</li>
+            <li>Out of the males and females, what percent are males?</li>
+            <li>Out of the females, what percent disapprove of Mayor Ford?</li>
+            <li>Out of all the age groups, what percent approve of Mayor Ford?</li>
+            <li>Find <m>P</m>(Approve|Male).</li>
+            <li>Out of the age groups, what percent are more than 44 years old?</li>
+            <li>Find <m>P</m>(Approve|Age &lt; 35).</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-858">
+        <statement>
+          <p>Explain what is wrong with the following statements. Use complete sentences.</p>
+          <ol>
+            <li>If there is a 60 percent chance of rain on Saturday and a 70 percent chance of rain on Sunday, then there is a 130 percent chance of rain over the weekend.</li>
+            <li>The probability that a baseball player hits a home run is greater than the probability that he gets a successful hit.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>You can't calculate the joint probability knowing the probability of both events occurring, which is not in the information given; the probabilities should be multiplied, not added; and probability is never greater than 100 percent</li>
+            <li>A home run by definition is a successful hit, so he has to have at least as many successful hits as home runs.</li>
+          </ol>
+        </solution>
+      </exercise>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-independent-mutually-exclusive">
     <title>Independent and Mutually Exclusive Events</title>
-    <p>
-      Content to be added from module m79612.
-    </p>
+
+
+    <subsection xml:id="fs-id1164567126552">
+      <p>Independent and mutually exclusive do not mean the same thing.</p>
+    </subsection>
+
+    <subsection xml:id="ch03-element-20">
+      <title>Independent Events</title>
+      <p>Two events are independent if the following are true:</p>
+      <ul>
+        <li><m>P</m>(<m>A</m>|<m>B</m>) = <m>P</m>(<m>A</m>)</li>
+        <li><m>P</m>(<m>B</m>|<m>A</m>) = <m>P</m>(<m>B</m>)</li>
+        <li><m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>)</li>
+      </ul>
+      <p>Two events <m>A</m> and <m>B</m> are <term>independent events</term> if the knowledge that one occurred does not affect the chance the other occurs. For example, the outcomes of two roles of a fair die are independent events. The outcome of the first roll does not change the probability for the outcome of the second roll. To show two events are independent, you must show only one of the above conditions. If two events are <alert>not</alert> independent, then we say that they are dependent events.</p>
+      <p>Sampling may be done with <term>replacement</term> or without replacement.</p>
+      <ul>
+        <li>With replacement: If each member of a population is replaced after it is picked, then that member has the possibility of being chosen more than once. When sampling is done with replacement, then events are considered to be independent, meaning the result of the first pick will not change the probabilities for the second pick.</li>
+      </ul>
+      <p>A bag contains four blue and three white marbles. James draws one marble from the bag at random, records the color, and replaces the marble. The probability of drawing blue is <m>\frac{4}{7}</m>. When James draws a marble from the bag a second time, the probability of drawing blue is still <m>\frac{4}{7}</m>. James replaced the marble after the first draw, so there are still four blue and three white marbles.</p>
+      <figure xml:id="fs-id1164565492567">
+        <image source="media/OSX_HS_Statistics_Figure_03_02_01_01.jpg"/>
+      </figure>
+      <ul>
+        <li>Without replacement: When sampling is done without replacement, each member of a population may be chosen only once. In this case, the probabilities for the second pick are affected by the result of the first pick. The events are considered to be dependent or not independent.</li>
+      </ul>
+      <p>The bag still contains four blue and three white marbles. Maria draws one marble from the bag at random, records the color, and sets the marble aside. The probability of drawing blue on the first draw is <m>\frac{4}{7}</m>. Suppose Maria draws a blue marble and sets it aside. When she draws a marble from the bag a second time, there are now <em>three</em> blue and three white marbles. So, the probability of drawing blue is now <m>\frac{3}{6}=\frac{1}{2}</m>. Removing the first marble without replacing it influences the probabilities on the second draw.</p>
+      <figure xml:id="fs-id1164565980547">
+        <image source="media/OSX_HS_Statistics_Figure_03_02_02_01.jpg"/>
+      </figure>
+      <p>If it is not known whether <m>A</m> and <m>B</m> are independent or dependent, assume they are dependent until you can show otherwise.</p>
+      <example xml:id="fs-idm1963392">
+        <statement>
+          <p>You have a fair, well-shuffled deck of 52 cards. It consists of four suits. The suits are clubs, diamonds, hearts, and spades. Clubs and spades are black, while diamonds and hearts are red cards. There are 13 cards in each suit consisting of <m>A</m> (ace), 2, 3, 4, 5, 6, 7, 8, 9, 10, <m>J</m> (jack), <m>Q</m> (queen), <m>K</m> (king) of that suit.</p>
+          <figure xml:id="fs-id1164567398986">
+            <image source="media/OSX_HS_Statistics_Figure_03_02_03_01.jpg"/>
+          </figure>
+          <p>a. Sampling with replacement
+<nbsp/>Suppose you pick three cards with replacement. The first card you pick out of the 52 cards is the <m>Q</m> of spades. You put this card back, reshuffle the cards and pick a second card from the 52-card deck. It is the 10 of clubs. You put this card back, reshuffle the cards and pick a third card from the 52-card deck. This time, the card is the <m>Q</m> of spades again. Your picks are {<m>Q</m> of spades, 10 of clubs, <m>Q</m> of spades}. You have picked the <m>Q</m> of spades twice. You pick each card from the 52-card deck.</p>
+          <p>b. Sampling without replacement
+<nbsp/>Suppose you pick three cards without replacement. The first card you pick out of the 52 cards is the <m>K</m> of hearts. You put this card aside and pick the second card from the 51 cards remaining in the deck. It is the three of diamonds. You put this card aside and pick the third card from the remaining 50 cards in the deck. The third card is the <m>J</m> of spades. Your picks are {<m>K</m> of hearts, three of diamonds, <m>J</m> of spades}. Because you have picked the cards without replacement, you cannot pick the same card twice.</p>
+        </statement>
+      </example>
+      <exercise xml:id="fs-idm1262752">
+        <statement>
+          <p>You have a fair, well-shuffled deck of 52 cards. It consists of four suits. The suits are clubs, diamonds, hearts and spades. There are 13 cards in each suit consisting of 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, <m>J</m> (jack), <m>Q</m> (queen), <m>K</m> (king) of that suit. Three cards are picked at random.</p>
+          <ol>
+            <li>Suppose you know that the picked cards are <m>Q</m> of spades, <m>K</m> of hearts and <m>Q</m> of spades. Can you decide if the sampling was with or without replacement?</li>
+            <li>Suppose you know that the picked cards are <m>Q</m> of spades, <m>K</m> of hearts, and <m>J</m> of spades. Can you decide if the sampling was with or without replacement?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>With replacement</li>
+            <li>No</li>
+          </ol>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idm1468672">
+        <statement>
+          <p>You have a fair, well-shuffled deck of 52 cards. It consists of four suits. The suits are clubs, diamonds, hearts, and spades. There are 13 cards in each suit consisting of 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, <m>J</m> (jack), <m>Q</m> (queen), and <m>K</m> (king) of that suit. <m>S</m> = spades, <m>H</m> = Hearts, <m>D</m> = Diamonds, <m>C</m> = Clubs.</p>
+          <p>Which of a. or b. did you sample with replacement and which did you sample without replacement?</p>
+          <ol>
+            <li>Suppose you pick four cards, but do not put any cards back into the deck. Your cards are <m>QS</m>, 1<m>D</m>, 1<m>C</m>, <m>QD</m>.</li>
+            <li>Suppose you pick four cards and put each card back before you pick the next card. Your cards are <m>KH</m>, 7<m>D</m>, 6<m>D</m>, <m>KH</m>.</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>a. Because you do not put any cards back, the deck changes after each draw. These events are dependent, and this is sampling without replacement; b. Because you put each card back before picking the next one, the deck never changes. These events are independent, so this is sampling with replacement.</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm1421520">
+        <statement>
+          <p>You have a fair, well-shuffled deck of 52 cards. It consists of four suits. The suits are clubs, diamonds, hearts, and spades. There are 13 cards in each suit consisting of 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, <m>J</m> (jack), <m>Q</m> (queen), and <m>K</m> (king) of that suit. <m>S</m> = spades, <m>H</m> = Hearts, <m>D</m> = Diamonds, <m>C</m> = Clubs. Suppose that you sample four cards without replacement. Which of the following outcomes are possible? Answer the same question for sampling with replacement.</p>
+          <ol>
+            <li><m>QS</m>, 1<m>D</m>, 1<m>C</m>, <m>QD</m></li>
+            <li><m>KH</m>, 7<m>D</m>, 6<m>D</m>, <m>KH</m></li>
+            <li><m>QS</m>, 7<m>D</m>, 6<m>D</m>, <m>KS</m></li>
+          </ol>
+        </statement>
+        <solution>
+          <p>without replacement: 1. Possible; 2. Impossible, 3. Possible</p>
+          <p>with replacement: 1. Possible; 2. Possible, 3. Possible</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="ch03-element-462">
+      <title>Mutually Exclusive Events</title>
+      <p><m>A</m> and <m>B</m> are <term>mutually exclusive</term> events if they cannot occur at the same time. This means that <m>A</m> and <m>B</m> do not share any outcomes and <m>P</m>(<m>A</m> AND <m>B</m>) = 0.</p>
+      <p>For example, suppose the sample space <m>S</m> = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}. Let <m>A</m> = {1, 2, 3, 4, 5}, <m>B</m> = {4, 5, 6, 7, 8}, and <m>C</m> = {7, 9}. <m>A</m> AND <m>B</m> = {4, 5}. <m>P</m>(<m>A</m> AND <m>B</m>) = <m>\frac{2}{10}</m> and is not equal to zero. Therefore, <m>A</m> and <m>B</m> are not mutually exclusive. <nbsp/><m>A</m> and <m>C</m> do not have any numbers in common so <m>P</m>(<m>A</m> AND <m>C</m>) = 0. Therefore, <m>A</m> and <m>C</m> are mutually exclusive.</p>
+      <p>If it is not known whether <m>A</m> and <m>B</m> are mutually exclusive, assume they are not until you can show otherwise. The following examples illustrate these definitions and terms.</p>
+      <example xml:id="ch03-element-931">
+        <statement>
+          <p>Flip two fair coins. This is an experiment.</p>
+          <p>The sample space is {<m>HH</m>, <m>HT</m>, <m>TH</m>, <m>TT</m>}, where <m>T</m> = tails and <m>H</m> = heads. The outcomes are <m>HH</m>, <m>HT</m>, <m>TH</m>, and <m>TT</m>. The outcomes <m>HT</m> and <m>TH</m> are different. The <m>HT</m> means that the first coin showed heads and the second coin showed tails. The <m>TH</m> means that the first coin showed tails and the second coin showed heads.</p>
+          <ul>
+            <li>Let <m>A</m> = the event of getting at most one tail. At most one tail means zero or one tail. Then <m>A</m> can be written as {<m>HH</m>, <m>HT</m>, <m>TH</m>}. The outcome <m>HH</m> shows zero tails. <m>HT</m> and <m>TH</m> each show one tail.</li>
+            <li>Let <m>B</m> = the event of getting all tails. <m>B</m> can be written as {<m>TT</m>}. <m>B</m> is the complement event of <m>A</m>, so <m>B</m> = <m>A′</m>. Also, <m>P</m>(<m>A</m>) + <m>P</m>(<m>B</m>) = <m>P</m>(<m>A</m>) + <m>P</m>(<m>A′</m>) = 1.</li>
+            <li>The probabilities for <m>A</m> and for <m>B</m> are <m>P</m>(<m>A</m>) = <m>\frac{3}{4}</m> and <m>P</m>(<m>B</m>) = <m>\frac{1}{4}</m>.</li>
+            <li>Let <m>C</m> = the event of getting all heads. <m>C</m> = {<m>HH</m>}. Since <m>B</m> = {<m>TT</m>}, <m>P</m>(<m>B</m> AND <m>C</m>) = 0. <m>B</m> and <m>C</m> are mutually exclusive. (<m>B</m> and <m>C</m> have no members in common because you cannot have all tails and all heads at the same time.)</li>
+            <li>Let <m>D</m> = event of getting more than one tail. <m>D</m> = {<m>TT</m>}. <m>P</m>(<m>D</m>) = <m>\frac{1}{4}\text{.}</m></li>
+            <li>Let <m>E</m> = event of getting a head on the first roll. This implies you can get either a head or tail on the second roll. <m>E</m> = {<m>HT</m>, <m>HH</m>}. <m>P</m>(<m>E</m>) = <m>\frac{2}{4}\text{.}</m></li>
+            <li>Find the probability of getting at least one (one or two) tail in two flips. Let <m>F</m> = event of getting at least one tail in two flips. <m>F</m> = {<m>HT</m>, <m>TH</m>, <m>TT</m>}. <m>P</m>(<m>F</m>) = <m>\frac{3}{4}\text{.}</m></li>
+          </ul>
+        </statement>
+      </example>
+      <exercise xml:id="fs-idp250992">
+        <title>Try It Solutions</title>
+        <statement>
+          <p>Draw two cards from a standard 52-card deck with replacement. Find the probability of getting at least one black card.</p>
+        </statement>
+        <solution>
+          <p>The sample space of drawing two cards with replacement from a standard 52-card deck with respect to color is {<m>BB</m>, <m>BR</m>, <m>RB</m>, <m>RR</m>}.</p>
+          <p>Event <m>A</m> = Getting at least one black card = {<m>BB</m>, <m>BR</m>, <m>RB</m>}</p>
+          <p><m>P</m>(<m>A</m>) = <m>\frac{3}{4}</m> =  0.75</p>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idm3420000">
+        <statement>
+          <p>Flip two fair coins. Find the probabilities of the events.</p>
+          <ol>
+            <li>Let <m>F</m> = the event of getting at most one tail (zero or one tail).</li>
+            <li>Let <m>G</m> = the event of getting two faces that are the same.</li>
+            <li>Let <m>H</m> = the event of getting a head on the first flip followed by a head or tail on the second flip.</li>
+            <li>Are <m>F</m> and <m>G</m> mutually exclusive?</li>
+            <li>Let <m>J</m> = the event of getting all tails. Are <m>J</m> and <m>H</m> mutually exclusive?</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>Look at the sample space in .</p>
+          <p><m>J</m> and <m>H</m> have nothing in common so <m>P</m>(<m>J</m> AND <m>H</m>) = 0. <m>J</m> and <m>H</m> are mutually exclusive.</p>
+          <ol>
+            <li>Zero (0) or one (1) tails occur when the outcomes <m>HH</m>, <m>TH</m>, <m>HT</m> show up. <m>P</m>(<m>F</m>) = <m>\frac{3}{4}\text{.}</m></li>
+            <li>Two faces are the same if <m>HH</m> or <m>TT</m> show up. <m>P</m>(<m>G</m>) = <m>\frac{2}{4}\text{.}</m></li>
+            <li>A head on the first flip followed by a head or tail on the second flip occurs when <m>HH</m> or <m>HT</m> show up. <nbsp/><m>P</m>(<m>H</m>) = <m>\frac{2}{4}\text{.}</m></li>
+            <li><m>F</m> and <m>G</m> share <m>HH</m> so <m>P</m>(<m>F</m> AND <m>G</m>) is not equal to zero (0). <m>F</m> and <m>G</m> are not mutually exclusive.</li>
+            <li>Getting all tails occurs when tails shows up on both coins (<m>TT</m>). <m>H</m>’s outcomes are <m>HH</m> and <m>HT</m>.</li>
+          </ol>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm3945968">
+        <statement>
+          <p>A box has two balls, one white and one red. We select one ball, put it back in the box, and select a second ball (sampling with replacement). Find the probability of the following events:</p>
+          <ol>
+            <li>Let <m>F</m> = the event of getting the white ball twice.</li>
+            <li>Let <m>G</m> = the event of getting two balls of different colors.</li>
+            <li>Let <m>H</m> = the event of getting white on the first pick.</li>
+            <li>Are <m>F</m> and <m>G</m> mutually exclusive?</li>
+            <li>Are <m>G</m> and <m>H</m> mutually exclusive?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(<m>F</m>) = <m>\frac{1}{4}</m></li>
+            <li><m>P</m>(<m>G</m>) = <m>\frac{1}{2}</m></li>
+            <li><m>P</m>(<m>H</m>) = <m>\frac{1}{2}</m></li>
+            <li>Yes</li>
+            <li>No</li>
+          </ol>
+        </solution>
+      </exercise>
+      <example xml:id="ch03-element-56">
+        <statement>
+          <p>Are <m>C</m> and <m>E</m> mutually exclusive events? Answer yes or no. Why or why not?</p>
+        </statement>
+        <solution>
+          <p>No. <m>C</m> = {3, 5} and <m>E</m> = {1, 2, 3, 4}. <m>P</m>(<m>C</m> AND <m>E</m>) = <m>\frac{1}{6}</m>. To be mutually exclusive, <m>P</m>(<m>C</m> AND <m>E</m>) must be zero.</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm3558336">
+        <statement>
+          <p>Let event <m>A</m> = learning Spanish. Let event <m>B</m> = learning German. Then <m>A</m> AND <m>B</m> = learning Spanish and German. Suppose <m>P</m>(<m>A</m>) = 0.4 and <m>P</m>(<m>B</m>) = .2. <m>P</m>(<m>A</m> AND <m>B</m>) = .08. Are events <m>A</m> and <m>B</m> independent? Hint—You must show <alert>one</alert> of the following:</p>
+          <ul>
+            <li><m>P</m>(<m>A</m>|<m>B</m>) = <m>P</m>(<m>A</m>)</li>
+            <li><m>P</m>(<m>B</m>|<m>A</m>) = <m>P</m>(<m>B</m>)</li>
+            <li><m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>)</li>
+          </ul>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>A</m>|<m>B</m>) = <m>\frac{P(A\text{AND}B)}{P(B)}\text{=}\frac{0.\text{08}}{0.2}\text{= 0}\text{.4 =}P(A)</m></p>
+          <p>The events are independent because <m>P</m>(<m>A</m>|<m>B</m>) = <m>P</m>(<m>A</m>).</p>
+        </solution>
+      </exercise>
+      <example xml:id="ch03-element-579">
+        <title>NOTE</title>
+        <statement>
+          <p>a. Show that <m>P</m>(<m>G</m>|<m>H</m>) = <m>P</m>(<m>G</m>).</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>G</m>|<m>H</m>) = <m>\frac{P\text{(}G\text{AND}H\text{)}}{P\text{(}H\text{)}}</m> = <m>\frac{\text{.3}}{\text{.5}}</m> = .6 = <m>P</m>(<m>G</m>)</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm4055200">
+        <statement>
+          <p>In a bag, there are six red marbles and four green marbles. The red marbles are marked with the numbers 1, 2, 3, 4, 5, and 6. The green marbles are marked with the numbers 1, 2, 3, and 4.</p>
+          <p><m>S</m> has 10 outcomes. What is <m>P</m>(<m>G</m> AND <m>O</m>)?</p>
+          <ul>
+            <li><m>R</m> = a red marble</li>
+            <li><m>G</m> = a  green marble</li>
+            <li><m>O</m> = an odd-numbered marble</li>
+            <li>The sample space is <m>S</m> = {<m>R</m>1, <m>R</m>2, <m>R</m>3, <m>R</m>4, <m>R</m>5, <m>R</m>6, <m>G</m>1, <m>G</m>2, <m>G</m>3, <m>G</m>4}.</li>
+          </ul>
+        </statement>
+        <solution>
+          <p>Event <m>G</m> and <m>O</m> = {<m>G</m>1, <m>G</m>3}</p>
+          <p><m>P</m>(<m>G</m> and <m>O</m>) = <m>\frac{2}{\text{10}}</m> = 0.2</p>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idm793920">
+        <statement>
+          <p>Let event <m>C</m> = taking an English class. Let event <m>D</m> = taking a speech class.</p>
+          <p>Suppose <m>P</m>(<m>C</m>) = .75, <m>P</m>(<m>D</m>) = .3, <m>P</m>(<m>C</m>|<m>D</m>) = .75 and <m>P</m>(<m>C</m> AND <m>D</m>) = .225.</p>
+          <p>Justify your answers to the following questions numerically.</p>
+          <ol>
+            <li>Are <m>C</m> and <m>D</m> independent?</li>
+            <li>Are <m>C</m> and <m>D</m> mutually exclusive?</li>
+            <li>What is <m>P</m>(<m>D</m>|<m>C</m>)?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>Yes, because <m>P</m>(<m>C</m>|<m>D</m>) = .75 = <m>P</m>(<m>C</m>).</li>
+            <li>No, because <m>P</m>(<m>C</m> AND <m>D</m>) is not equal to zero.</li>
+            <li><m>P</m>(<m>D</m>|<m>C</m>) = <m>\frac{P\text{(}C\text{AND}D\text{)}}{P\text{(}C\text{)}}</m> = <m>\frac{\text{0}\text{.225}}{.75}</m> = .3</li>
+          </ol>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm3333552">
+        <statement>
+          <p>A student goes to the library. Let events <m>B</m> = the student checks out a book and <m>D</m> = the student checks out a DVD. Suppose that <m>P</m>(<m>B</m>) = .40, <m>P</m>(<m>D</m>) = .30 and <m>P</m>(<m>B</m> AND <m>D</m>) = .20.</p>
+          <ol>
+            <li>Find <m>P</m>(<m>B</m>|<m>D</m>).</li>
+            <li>Find <m>P</m>(<m>D</m>|<m>B</m>).</li>
+            <li>Are <m>B</m> and <m>D</m> independent?</li>
+            <li>Are <m>B</m> and <m>D</m> mutually exclusive?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(<m>B</m>|<m>D</m>) = 0.6667</li>
+            <li><m>P</m>(<m>D</m>|<m>B</m>) = 0.5</li>
+            <li>No</li>
+            <li>No</li>
+          </ol>
+        </solution>
+      </exercise>
+      <example xml:id="ch03-element-184">
+        <statement>
+          <p>In a box there are three red cards and five blue cards. The red cards are marked with the numbers 1, 2, and 3, and the blue cards are marked with the numbers 1, 2, 3, 4, and 5. The cards are well-shuffled. You reach into the box (you cannot see into it) and draw one card.</p>
+          <p>Let <m>R</m> = red card is drawn, <m>B</m> = blue card is drawn, <m>E</m> = even-numbered card is drawn.</p>
+          <p>The sample space <m>S</m> = <m>R</m>1, <m>R</m>2, <m>R</m>3, <m>B</m>1, <m>B</m>2, <m>B</m>3, <m>B</m>4, <m>B</m>5. <m>S</m> has eight outcomes.</p>
+          <ul>
+            <li><m>P</m>(<m>R</m>) = <m>\frac{3}{8}</m>. <m>P</m>(<m>B</m>) = <m>\frac{5}{8}</m>. <m>P</m>(<m>R</m> AND <m>B</m>) = 0. You cannot draw one card that is both red and blue.</li>
+            <li><m>P</m>(<m>E</m>) = <m>\frac{3}{8}</m>. There are three even-numbered cards, <m>R</m>2, <m>B</m>2, and <m>B</m>4.</li>
+            <li><m>P</m>(<m>E</m>|<m>B</m> = <m>\frac{2}{5}</m>. There are five blue cards: <m>B</m>1, <m>B</m>2, <m>B</m>3, <m>B</m>4, and <m>B</m>5. Out of the blue cards, there are two even cards; <m>B</m>2 and <m>B</m>4.</li>
+            <li><m>P</m>(<m>B</m>|<m>E</m>) = <m>\frac{2}{3}</m>. There are three even-numbered cards: <m>R</m>2, <m>B</m>2, and <m>B</m>4. Out of the even-numbered cards, two are blue; <m>B</m>2 and <m>B</m>4.</li>
+            <li>The events <m>R</m> and <m>B</m> are mutually exclusive because <m>P</m>(<m>R</m> AND <m>B</m>) = 0.</li>
+            <li>Let <m>G</m> = card with a number greater than 3. <m>G</m> = {<m>B</m>4, <m>B</m>5}. <m>P</m>(<m>G</m>) = <m>\frac{2}{8}</m>. Let <m>H</m> = blue card numbered between one and four, inclusive. <m>H</m> = {<m>B</m>1, <m>B</m>2, <m>B</m>3, <m>B</m>4}. <m>P</m>(<m>G</m>|<m>H</m>) = <m>\frac{1}{4}</m>. The only card in <m>H</m> that has a number greater than three is <m>B</m>4. Since <m>\frac{2}{8}</m> = <m>\frac{1}{4}</m>, <m>P</m>(<m>G</m>) = <m>P</m>(<m>G</m>|<m>H</m>), which means that <m>G</m> and <m>H</m> are independent.</li>
+          </ul>
+        </statement>
+      </example>
+      <exercise xml:id="fs-idm4149344">
+        <statement>
+          <p>In a basketball arena,</p>
+          <p>Let <m>A</m> be the event that a fan is rooting for the away team.
+<nbsp/>Let <m>B</m> be the event that a fan is wearing blue.
+<nbsp/>Are the events of rooting for the away team and wearing blue independent? Are they mutually exclusive?</p>
+          <ul>
+            <li>70 percent of the fans are rooting for the home team,</li>
+            <li>25 percent of the fans are wearing blue,</li>
+            <li>20 percent of the fans are wearing blue and are rooting for the away team, and</li>
+            <li>Of the fans rooting for the away team, 67 percent are wearing blue.</li>
+          </ul>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>B</m>|<m>A</m>) = 0.67</p>
+          <p><m>P</m>(<m>B</m>) = 0.25</p>
+          <p>So <m>P</m>(<m>B</m>) does not equal <m>P</m>(<m>B</m>|<m>A</m>) which means that <m>B</m> and <m>A</m> are not independent (wearing blue and rooting for the away team are not independent). They are also not mutually exclusive, because <m>P</m>(B AND <m>A</m>) = 0.20, not 0.</p>
+        </solution>
+      </exercise>
+      <example xml:id="ch03-eip-31">
+        <title>NOTE</title>
+        <statement>
+          <p>In a particular class, 60 percent of the students are female. Fifty percent of all students in the class have long hair. Forty-five percent of the students are female and have long hair. Of the female students, 75 percent have long hair. Let <m>F</m> be the event that a student is female. Let <m>L</m> be the event that a student has long hair. One student is picked randomly. Are the events of being female and having long hair independent?</p>
+          <p>The following probabilities are given in this example:</p>
+          <ul>
+            <li><m>P</m>(<m>F</m>) = 0.60; <m>P</m>(<m>L</m>) = 0.50</li>
+            <li><m>P</m>(<m>F</m> AND <m>L</m>) = 0.45</li>
+            <li><m>P</m>(<m>L</m>|<m>F</m>) = 0.75</li>
+          </ul>
+          <p>Solution 1Check whether <m>P</m>(<m>F</m> AND <m>L</m>) = <m>P</m>(<m>F</m>)<m>P</m>(<m>L</m>). We are given that <m>P</m>(<m>F</m> AND <m>L</m>) = 0.45, but <m>P</m>(<m>F</m>)<m>P</m>(<m>L</m>) = (.60)(.50) = .30. The events of being female and having long hair are not independent because <m>P</m>(<m>F</m> AND <m>L</m>) does not equal <m>P</m>(<m>F</m>)<m>P</m>(<m>L</m>).</p>
+          <p>Solution 2Check whether <m>P</m>(<m>L</m>|<m>F</m>) equals <m>P</m>(<m>L</m>). We are given that <m>P</m>(<m>L</m>|<m>F</m>) = .75, but <m>P</m>(<m>L</m>) = .50; they are not equal. The events of being female and having long hair are not independent.</p>
+          <p>Interpretation of ResultsThe events of being female and having long hair are not independent; knowing that a student is female changes the probability that a student has long hair.</p>
+        </statement>
+      </example>
+      <exercise xml:id="fs-idm4091904">
+        <statement>
+          <p>Mark is deciding which route to take to work. His choices are <m>I</m> = the Interstate and <m>F</m> = Fifth Street.</p>
+          <p>What is the probability of <m>P</m>(<m>I</m> OR <m>F</m>)?</p>
+          <ul>
+            <li><m>P</m>(<m>I</m>) = .44 and <m>P</m>(<m>F</m>) = .55</li>
+            <li><m>P</m>(<m>I</m> AND <m>F</m>) = 0 because Mark will take only one route to work.</li>
+          </ul>
+        </statement>
+        <solution>
+          <p>Because <m>P</m>(<m>I</m> AND <m>F</m>) = 0,</p>
+          <p><m>P</m>(<m>I</m> OR <m>F</m>) = <m>P</m>(<m>I</m>) + <m>P</m>(<m>F</m>) - <m>P</m>(<m>I</m> AND <m>F</m>) = 0.44 + 0.56 - 0 = 1</p>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idm4667408">
+        <statement>
+          <ol>
+            <li>Toss one fair coin (the coin has two sides, <m>H</m> and <m>T</m>). The outcomes are ________. Count the outcomes. There are ________ outcomes.</li>
+            <li>Toss one fair, six-sided die (the die has 1, 2, 3, 4, 5, or 6 dots on a side). The outcomes are ________. Count the outcomes. There are ________ outcomes.</li>
+            <li>Multiply the two numbers of outcomes. The answer is ________.</li>
+            <li>If you flip one fair coin and follow it with the toss of one fair, six-sided die, the answer in Part c is the number of outcomes (size of the sample space). List the outcomes. Hint—Two of the outcomes are <m>H</m>1 and <m>T</m>6.</li>
+            <li>Event <m>A</m> = heads (<m>H</m>) on the coin followed by an even number (2, 4, 6) on the die.
+<nbsp/><m>A</m> = {________}. Find <m>P</m>(<m>A</m>).</li>
+            <li>Event <m>B</m> = heads on the coin followed by a three on the die. <m>B</m> = {________}. Find <m>P</m>(<m>B</m>).</li>
+            <li>Are <m>A</m> and <m>B</m> mutually exclusive? Hint—What is <m>P</m>(<m>A</m> AND <m>B</m>)? If <m>P</m>(<m>A</m> AND <m>B</m>) = 0, then <m>A</m> and <m>B</m> are mutually exclusive.</li>
+            <li>Are <m>A</m> and <m>B</m> independent? Hint—Is <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>)? If <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>), then <m>A</m> and <m>B</m> are independent. If not, then they are dependent.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>H</m> and <m>T</m>; 2</li>
+            <li>1, 2, 3, 4, 5, 6; 6</li>
+            <li>2(6) = 12</li>
+            <li>Make a systematic list of possible outcomes. Start by listing all possible outcomes when the coin shows tails (<m>T</m>). Then list the outcomes that are possible when the coin shows heads (<m>H</m>): <m>T</m>1, <m>T</m>2, <m>T</m>3, <m>T</m>4, <m>T</m>5, <m>T</m>6, <m>H</m>1, <m>H</m>2, <m>H</m>3, <m>H</m>4, <m>H</m>5, <m>H</m>6</li>
+            <li><m>A</m> = {<m>H</m>2, <m>H</m>4, <m>H</m>6}; <m>P</m>(<m>A</m>) =
+<m>\frac{\text{number of outcomes in}A}{\text{number of possible outcomes}}</m> = <m>\frac{3}{12}</m></li>
+            <li><m>B</m> = {<m>H</m>3}; <m>P</m>(<m>B</m>) = <m>\frac{1}{12}</m></li>
+            <li>Yes, because <m>P</m>(<m>A</m> AND <m>B</m>) = 0</li>
+            <li><m>P</m>(<m>A</m> AND <m>B</m>) = 0. <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>) = <m>(\frac{3}{12})</m><m>(\frac{1}{12})</m>. <m>P</m>(<m>A</m> AND <m>B</m>) does not equal <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>), so <m>A</m> and <m>B</m> are dependent.</li>
+          </ol>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm5094416">
+        <statement>
+          <p>A box has two balls, one white and one red. We select one ball, put it back in the box, and select a second ball (sampling with replacement). Let <m>T</m> be the event of getting the white ball twice, <m>F</m> the event of picking the white ball first, and <m>S</m> the event of picking the white ball in the second drawing.</p>
+          <ol>
+            <li>Compute <m>P</m>(<m>T</m>).</li>
+            <li>Compute <m>P</m>(<m>T</m>|<m>F</m>).</li>
+            <li>Are <m>T</m> and <m>F</m> independent?</li>
+            <li>Are <m>F</m> and <m>S</m> mutually exclusive?</li>
+            <li>Are <m>F</m> and <m>S</m> independent?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(<m>T</m>) = <m>\frac{1}{4}</m></li>
+            <li><m>P</m>(<m>T</m>|<m>F</m>) = <m>\frac{1}{2}</m></li>
+            <li>No</li>
+            <li>No</li>
+            <li>Yes</li>
+          </ol>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm73253936">
+      <title>References</title>
+      <p>Gallup. (n.d.). Retrieved from www.gallup.com/</p>
+      <p>Lopez, S., and Sidhu, P. (2013, March 28). U.S. teachers love their lives, but struggle in the workplace. <em>Gallup Wellbeing</em>. http://www.gallup.com/poll/161516/teachers-love-lives-struggle-workplace.aspx</p>
+    </subsection>
+
+    <subsection xml:id="fs-idm1912144">
+      <title>Chapter Review</title>
+      <p>Two events <m>A</m> and <m>B</m> are independent if the knowledge that one occurred does not affect the chance the other occurs. If two events are not independent, then we say that they are dependent</p>
+      <p>In sampling with replacement, each member of a population is replaced after it is picked, so that member has the possibility of being chosen more than once, and the events are considered to be independent. In sampling without replacement, each member of a population may be chosen only once, and the events are considered not to be independent. When events do not share outcomes, they are mutually exclusive of each other.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idm4116704">
+      <title>Formula Review</title>
+      <p>If <m>A</m> and <m>B</m> are independent, <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>), <m>P</m>(<m>A</m>|<m>B</m>) = <m>P</m>(<m>A</m>), and <m>P</m>(<m>B</m>|<m>A</m>) = <m>P</m>(<m>B</m>).</p>
+      <p>If <m>A</m> and <m>B</m> are mutually exclusive, <m>P</m>(<m>A</m> OR <m>B</m>) = <m>P</m>(<m>A</m>) + <m>P</m>(<m>B</m>) and <m>P</m>(<m>A</m> AND <m>B</m>) = 0.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idp62639840">
+      <exercise xml:id="ch03-element-863">
+        <statement>
+          <p><m>E</m> and <m>F</m> are mutually exclusive events. <m>P</m>(<m>E</m>) =  .4; <m>P</m>(<m>F</m>) = .5. Find <m>P</m>(<m>E</m>∣<m>F</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-867">
+        <statement>
+          <p><m>J</m> and <m>K</m> are independent events. <m>P</m>(<m>J</m>|<m>K</m>) = .3. Find <m>P</m>(<m>J</m>).</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>J</m>) = .3</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-element-588">
+        <statement>
+          <p><m>U</m> and <m>V</m> are mutually exclusive events. <m>P</m>(<m>U</m>) = .26; <m>P</m>(<m>V</m>) = .37. Find the following:</p>
+          <ol>
+            <li><m>P</m>(<m>U</m> AND <m>V</m>) =</li>
+            <li><m>P</m>(<m>U</m>|<m>V</m>) =</li>
+            <li><m>P</m>(<m>U</m> OR <m>V</m>) =</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-930">
+        <statement>
+          <p><m>Q</m> and <m>R</m> are independent events. <m>P</m>(<m>Q</m>) = .4 and <m>P</m>(<m>Q</m> AND <m>R</m>) = .1. Find <m>P</m>(<m>R</m>).</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>Q</m> AND <m>R</m>) = <m>P</m>(<m>Q</m>)<m>P</m>(<m>R</m>)</p>
+          <p>.1 = (.4)<m>P</m>(<m>R</m>)</p>
+          <p><m>P</m>(<m>R</m>) = .25</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm88736">
+      <title>Homework</title>
+      <p><em>Use the following information to answer the next 12 exercises.</em> The graph shown is based on more than 170,000 interviews that took place from January through December 2012. The sample consists of employed Americans 18 years of age or older. The Health Index Scores are the sample space. We randomly sample one type of Health Index Score, the emotional well-being score.</p>
+      <figure xml:id="eip-id1171405227589">
+        <image source="media/CNX_Stats_C03_RWP_001.jpg" width="100%"/>
+      </figure>
+      <exercise xml:id="ch03-eip-807">
+        <statement>
+          <p>Find the probability that a Health Index Score is 82.7.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-790">
+        <statement>
+          <p>Find the probability that a Health Index Score is 81.0.</p>
+        </statement>
+        <solution>
+          <p>0</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-538">
+        <statement>
+          <p>Find the probability that a Health Index Score is more than 81.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-42">
+        <statement>
+          <p>Find the probability that a Health Index Score is between 80.5 and 82.</p>
+        </statement>
+        <solution>
+          <p>.3571</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-44">
+        <statement>
+          <p>If we know a Health Index Score is 81.5 or more, what is the probability that it is 82.7?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-347">
+        <statement>
+          <p>What is the probability that a Health Index Score is 80.7 or 82.7?</p>
+        </statement>
+        <solution>
+          <p>.2142</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-197">
+        <statement>
+          <p>What is the probability that a Health Index Score is less than 80.2 given that it is already less than 81?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-545">
+        <statement>
+          <p>What occupation has the highest Health Index Score?</p>
+        </statement>
+        <solution>
+          <p>Physician (83.7)</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-904">
+        <statement>
+          <p>What occupation has the lowest emotional index score?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-386-2">
+        <statement>
+          <p>What is the range of the data?</p>
+        </statement>
+        <solution>
+          <p>83.7 − 79.6 = 4.1</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-221">
+        <statement>
+          <p>Compute the average Health Index Score.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-743">
+        <statement>
+          <p>If all occupations are equally likely for a certain individual, what is the probability that he or she will have an occupation with lower than average Health Index Score?</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(Occupation &lt; 81.3) = .5</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm4259888">
+      <title>Bringing It Together</title>
+      <exercise xml:id="ch03-element-738">
+        <statement>
+          <p>A previous year, the weights of the members of a California football team and a Texas football team were published in a newspaper The factual data are compiled into .</p>
+          <p>For the following, suppose that you randomly select one player from the California team or the Texas team.</p>
+          <p>If having a shirt number from one to 33 and weighing at most 210 pounds were independent events, then what should be true about <m>P</m>(Shirt# 1–33|≤ 210 pounds)?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-750">
+        <statement>
+          <p>The probability that a male develops some form of cancer in his lifetime is .4567. The probability that a male has at least one false-positive test result, meaning the test comes back for cancer when the man does not have it, is .51. Some of the following questions do not have enough information for you to answer them. Write <em>not enough information</em> for those answers. Let <m>C</m> = a man develops cancer in his lifetime and <m>P</m> = a man has at least one false-positive.
+<m>P</m>(<m>C</m>) = ______
+<m>P</m>(<m>P</m>|<m>C</m>) = ______
+<m>P</m>(<m>P</m>|<m>C'</m>) = ______
+If a test comes up positive, based upon numerical values, can you assume that man has cancer? Justify numerically and explain why or why not.</p>
+          <ol>
+            <li><m>P</m>(<m>C</m>) = ______</li>
+            <li><m>P</m>(<m>P</m>|<m>C</m>) = ______</li>
+            <li><m>P</m>(<m>P</m>|<m>C'</m>) = ______</li>
+            <li>If a test comes up positive, based upon numerical values, can you assume that man has cancer? Justify numerically and explain why or why not.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(<m>C</m>) = .4567</li>
+            <li>not enough information</li>
+            <li>not enough information</li>
+            <li>no, because over half (0.51) of men have at least one false-positive text</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-959">
+        <statement>
+          <p>Given events <m>G</m> and <m>H</m>: <m>P</m>(<m>G</m>) = .43; <m>P</m>(<m>H</m>) = .26; <m>P</m>(<m>H</m> AND <m>G</m>) = .14</p>
+          <ol>
+            <li>Find <m>P</m>(<m>H</m> OR <m>G</m>).</li>
+            <li>Find the probability of the complement of event (<m>H</m> AND <m>G</m>).</li>
+            <li>Find the probability of the complement of event (<m>H</m> OR <m>G</m>).</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-278">
+        <statement>
+          <p>Given events <m>J</m> and <m>K</m>: <m>P</m>(<m>J</m>) = .18; <m>P</m>(<m>K</m>) = .37; <m>P</m>(<m>J</m> OR <m>K</m>) = .45</p>
+          <ol>
+            <li>Find <m>P</m>(<m>J</m> AND <m>K</m>).</li>
+            <li>Find the probability of the complement of event (<m>J</m> AND <m>K</m>).</li>
+            <li>Find the probability of the complement of event (<m>J</m> OR <m>K</m>).</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(<m>J</m> OR <m>K</m>) = <m>P</m>(<m>J</m>) + <m>P</m>(<m>K</m>) − <m>P</m>(<m>J</m> AND <m>K</m>); .45 = .18 + .37 – <m>P</m>(<m>J</m> AND <m>K</m>); solve to find <m>P</m>(<m>J</m> AND <m>K</m>) = .10</li>
+            <li><m>P</m>(NOT (<m>J</m> AND <m>K</m>)) = 1 – <m>P</m>(<m>J</m> AND <m>K</m>) = 1 – 010 = .90</li>
+            <li><m>P</m>(NOT (<m>J</m> OR <m>K</m>)) = 1 – <m>P</m>(<m>J</m> OR <m>K</m>) = 1 – .45 = .55</li>
+          </ol>
+        </solution>
+      </exercise>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-two-basic-rules">
     <title>Two Basic Rules of Probability</title>
-    <p>
-      Content to be added from module m79614.
-    </p>
+
+
+    <subsection xml:id="fs-id1164564782747">
+      <p>In calculating probability, there are two rules to consider when you are determining if two events are independent or dependent and if they are mutually exclusive or not.</p>
+    </subsection>
+
+    <subsection xml:id="ch03-element-860">
+      <title>The Multiplication Rule</title>
+      <p>If <m>A</m> and <m>B</m> are two events defined on a <term>sample space</term>, then <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>B</m>)<m>P</m>(<m>A</m>|<m>B</m>).</p>
+      <p>This equation can be rewritten as <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>B</m>)<m>P</m>(<m>A</m>|<m>B</m>), the multiplication rule.</p>
+      <p>If <m>A</m> and <m>B</m> are <term>independent</term>, then <m>P</m>(<m>A</m>|<m>B</m>) = <m>P</m>(<m>A</m>). In this special case, <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>|<m>B</m>)<m>P</m>(<m>B</m>) becomes <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>).</p>
+      <p>A bag contains four green marbles, three red marbles, and two yellow marbles. Mark draws two marbles from the bag without replacement. The probability that he draws a yellow marble and then a green marble is</p>
+      <me>P(\text{yellow and green})=P(\text{yellow})⋅P(\text{green | yellow}) \\  \\ =\frac{2}{9}⋅\frac{4}{8} \\ =\frac{1}{9}</me>
+      <p>Notice that <m>P(\text{green | yellow})=\frac{4}{8}</m>. After the yellow marble is drawn, there are four green marbles in the bag and eight marbles in all.</p>
+    </subsection>
+
+    <subsection xml:id="ch03-element-56-2">
+      <title>The Addition Rule</title>
+      <p>If <m>A</m> and <m>B</m> are defined on a sample space, then <m>P</m>(<m>A</m> OR <m>B</m>) = <m>P</m>(<m>A</m>) + <m>P</m>(<m>B</m>) − <m>P</m>(<m>A</m> AND <m>B</m>).</p>
+      <p>Draw one card from a standard deck of playing cards. Let <m>H</m> = the card is a heart, and let <m>J</m> = the card is a jack. These events are not mutually exclusive because a card can be both a heart and a jack.</p>
+      <me>P(H\text{or}J)=P(H)+P(J)-P(H\text{and}J) \\  \\ =\frac{13}{52}+\frac{4}{52}-\frac{1}{52} \\ =\frac{16}{52} \\ =\frac{4}{13} \\ \approx.3077</me>
+      <p>If <m>A</m> and <m>B</m> are <term>mutually exclusive</term>, then <m>P</m>(<m>A</m> AND <m>B</m>) = 0. Then <m>P</m>(<m>A</m> OR <m>B</m>) = <m>P</m>(<m>A</m>) + <m>P</m>(<m>B</m>) − <m>P</m>(<m>A</m> AND <m>B</m>) becomes <nbsp/><m>P</m>(<m>A</m> OR <m>B</m>) = <m>P</m>(<m>A</m>) + <m>P</m>(<m>B</m>).</p>
+      <p>Draw one card from a standard deck of playing cards. Let <m>H</m> = the card is a heart and <m>S</m> = the card is a spade. These events are mutually exclusive because a card cannot be a heart and a spade at the same time. The probability that the card is a heart or a spade is</p>
+      <me>P(H\text{or}S)=P(H)+P(S) \\  \\ =\frac{13}{52}+\frac{13}{52} \\ =\frac{26}{52} \\ =\frac{1}{2} \\ =.5</me>
+      <example xml:id="ch03-element-898">
+        <statement>
+          <p>Klaus is trying to choose where to go on vacation. His two choices are: <m>A</m> = New Zealand and <m>B</m> = Alaska.</p>
+          <ul>
+            <li>Klaus can only afford one vacation. The probability that he chooses <m>A</m> is <m>P</m>(<m>A</m>) = .6 and the probability that he chooses <m>B</m> is <m>P</m>(<m>B</m>) = .35.</li>
+            <li><m>P</m>(<m>A</m> AND <m>B</m>) = 0 because Klaus can only afford to take one vacation.</li>
+            <li>Therefore, the probability that he chooses either New Zealand or Alaska is <m>P</m>(<m>A</m> OR <m>B</m>) = <m>P</m>(<m>A</m>) + <m>P</m>(<m>B</m>) = .6 + .35 = .95. Note that the probability that he does not choose to go anywhere on vacation must be .05.</li>
+          </ul>
+        </statement>
+      </example>
+      <example xml:id="ch03-element-83">
+        <statement>
+          <p>a. What is the probability that he makes both goals?</p>
+        </statement>
+        <solution>
+          <p>a. The problem is asking you to find <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>B</m> AND <m>A</m>). Since <m>P</m>(<m>B</m>|<m>A</m>) = .90: <m>P</m>(<m>B</m> AND <m>A</m>) = <m>P</m>(<m>B</m>|<m>A</m>) <m>P</m>(<m>A</m>) = (.90)(.65) = .585.</p>
+          <p>Carlos makes the first and second goals with probability .585.<nbsp/><nbsp/></p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm50677584">
+        <statement>
+          <p>Helen plays basketball. For free throws, she makes the shot 75 percent of the time. Helen must now attempt two free throws. <m>C</m> = the event that Helen makes the first shot. <nbsp/><m>P</m>(<m>C</m>) = .75. <m>D</m> = the event Helen makes the second shot. <m>P</m>(<m>D</m>) = .75. The probability that Helen makes the second free throw given that she made the first is .85. What is the probability that Helen makes both free throws?</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>D</m>|<m>C</m>) = 0.85</p>
+          <p><m>P</m>(<m>C</m> AND <m>D</m>) = <m>P</m>(<m>D</m> AND <m>C</m>)
+<nbsp/><m>P</m>(<m>D</m> AND <m>C</m>) = <m>P</m>(<m>D</m>|<m>C</m>)<m>P</m>(<m>C</m>) = (0.85)(0.75) = 0.6375
+<nbsp/>Helen makes the first and second free throws with probability 0.6375.</p>
+        </solution>
+      </exercise>
+      <example xml:id="ch03-element-572">
+        <statement>
+          <p>a. What is the probability that the member is a novice swimmer?</p>
+        </statement>
+        <solution>
+          <p>a. There are 150 members; 75 of these are advanced, and 47 of these are intermediate swimmers. So there are 150 − 75 − 47 = 28 novice swimmers. The probability that a randomly selected swimmer is a novice is <m>\frac{28}{150}\text{.}</m><nbsp/><nbsp/></p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm36460112">
+        <statement>
+          <p>A school has 200 seniors of whom 140 will be going to college next year. Forty will be going directly to work. The remainder are taking a gap year. Fifty of the seniors going to college are on their school's sports teams. Thirty of the seniors going directly to work are on their school's sports teams. Five of the seniors taking a gap year are on their schools sports teams. What is the probability that a senior is taking a gap year?</p>
+        </statement>
+        <solution>
+          <p><m>P=\frac{200-140-40}{200}=\frac{20}{200}=0.1</m></p>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idm15085168">
+        <statement>
+          <ol>
+            <li>What is the probability that Felicity enrolls in math and speech?
+<nbsp/>Find <m>P</m>(<m>M</m> AND <m>S</m>) = <m>P</m>(<m>M</m>|<m>S</m>)<m>P</m>(<m>S</m>).</li>
+            <li>What is the probability that Felicity enrolls in math or speech classes?
+<nbsp/>Find <m>P</m>(<m>M</m> OR <m>S</m>) = <m>P</m>(<m>M</m>) + <m>P</m>(<m>S</m>) − <m>P</m>(<m>M</m> AND <m>S</m>).</li>
+            <li>Are <m>M</m> and <m>S</m> independent? Is <m>P</m>(<m>M</m>|<m>S</m>) = <m>P</m>(<m>M</m>)?</li>
+            <li>Are <m>M</m> and <m>S</m> mutually exclusive? Is <m>P</m>(<m>M</m> AND <m>S</m>) = 0?</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>a. <m>P</m>(<m>M</m> AND <m>S</m>) = <m>P</m>(<m>M</m>|<m>S</m>)<m>P</m>(<m>S</m>) = .25(.65) = .1625</p>
+          <p>b. <m>P</m>(<m>M</m> OR <m>S</m>) = <m>P</m>(<m>M</m>) + <m>P</m>(<m>S</m>) − <m>P</m>(<m>M</m> AND <m>S</m>) = .2 + .65 − .1625 = .6875</p>
+          <p>c. No, <m>P</m>(<m>M</m>|<m>S</m>) = .25 and <m>P</m>(<m>M</m>) = .2.</p>
+          <p>d. No, <m>P</m>(<m>M</m> AND <m>S</m>) = .1625.</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm68914864">
+        <statement>
+          <p>A student goes to the library. Let events <m>B</m> = the student checks out a book and <m>D</m> = the student checks out a DVD. Suppose that <m>P</m>(<m>B</m>) = .40, <m>P</m>(<m>D</m>) = .30, and <m>P</m>(<m>D</m>|<m>B</m>) = .5.</p>
+          <ol>
+            <li>Find <m>P</m>(<m>B</m> AND <m>D</m>).</li>
+            <li>Find <m>P</m>(<m>B</m> OR <m>D</m>).</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(<m>B</m> AND <m>D</m>) = <m>P</m>(<m>D</m>|<m>B</m>)<m>P</m>(<m>B</m>) = (0.5)(0.4) = 0.20.</li>
+            <li><m>P</m>(<m>B</m> OR <m>D</m>) = <m>P</m>(<m>B</m>) + <m>P</m>(<m>D</m>) − <m>P</m>(<m>B</m> AND <m>D</m>) = 0.40 + 0.30 − 0.20 = 0.50</li>
+          </ol>
+        </solution>
+      </exercise>
+      <example xml:id="ch03-example5">
+        <statement>
+          <p>a. What is the probability that the woman develops the disease? What is the probability that woman tests negative?</p>
+        </statement>
+        <solution>
+          <p>a. <m>P</m>(<m>B</m>) = .143; <m>P</m>(<m>N</m>) = .85<nbsp/><nbsp/></p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm57543872">
+        <statement>
+          <p>A school has 200 seniors of whom 140 will be going to college next year. Forty will be going directly to work. The remainder are taking a gap year. Fifty of the seniors going to college are on their school's sports teams. Thirty of the seniors going directly to work are on their school's sports teams. Five of the seniors taking a gap year are on their school's sports teams. What is the probability that a senior is going to college and plays sports?</p>
+        </statement>
+        <solution>
+          <p>Let <m>A</m> = student is a senior going to college.</p>
+          <p>Let <m>B</m> = student plays sports.</p>
+          <p><m>P</m>(<m>B</m>) = <m>\frac{140}{200}</m></p>
+          <p><m>P</m>(<m>B</m>|<m>A</m>) = <m>\frac{50}{140}</m></p>
+          <p><m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>B</m>|<m>A</m>)<m>P</m>(<m>A</m>)</p>
+          <p><m>P</m>(<m>A</m> AND <m>B</m>) = <m>(\frac{140}{200})(\frac{50}{140})</m> = <m>\frac{1}{4}</m></p>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idp15189248">
+        <statement>
+          <p>Refer to the information in . <m>P</m> = tests positive.</p>
+          <ol>
+            <li>Given that a woman develops the disease, what is the probability that she tests positive? Find <m>P</m>(<m>P</m>|<m>B</m>) = 1 − <m>P</m>(<m>N</m>|<m>B</m>).</li>
+            <li>What is the probability that a woman develops the disease and tests positive? Find <m>P</m>(<m>B</m> AND <m>P</m>) = <m>P</m>(<m>P</m>|<m>B</m>)<m>P</m>(<m>B</m>).</li>
+            <li>What is the probability that a woman does not develop the disease? Find <m>P</m>(<m>B′</m>) = 1 − <m>P</m>(<m>B</m>).</li>
+            <li>What is the probability that a woman tests positive for the disease? Find <m>P</m>(<m>P</m>) = 1 − <m>P</m>(<m>N</m>).</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>a. <m>P</m>(<m>P</m>|<m>B</m>) = 1 − <m>P</m>(<m>N</m>|<m>B</m>) = 1 − .02 = .98</p>
+          <p>b. <m>P</m>(<m>B</m> AND <m>P</m>) = <m>P</m>(<m>P</m>|<m>B</m>)<m>P</m>(<m>B</m>) = .98(.143) = .1401</p>
+          <p>c. <m>P</m>(<m>B'</m>) = 1 − <m>P</m>(<m>B</m>) = 1 − .143 = .857</p>
+          <p>d. <m>P</m>(<m>P</m>) = 1 − <m>P</m>(<m>N</m>) = 1 − .85 = .15</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp6951808">
+        <statement>
+          <p>A student goes to the library. Let events <m>B</m> = the student checks out a book and <m>D</m> = the student checks out a DVD. Suppose that <m>P</m>(<m>B</m>) = .40, <m>P</m>(<m>D</m>) = .30, and <m>P</m>(<m>D</m>|<m>B</m>) = .5.</p>
+          <ol>
+            <li>Find <m>P</m>(<m>B′</m>).</li>
+            <li>Find <m>P</m>(<m>D</m> AND <m>B</m>).</li>
+            <li>Find <m>P</m>(<m>B</m>|<m>D</m>).</li>
+            <li>Find <m>P</m>(<m>D</m> AND <m>B′</m>).</li>
+            <li>Find <m>P</m>(<m>D</m>|<m>B′</m>).</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(<m>B′</m>) = 0.60</li>
+            <li><m>P</m>(<m>D</m> AND <m>B</m>) = <m>P</m>(<m>D</m>|<m>B</m>)<m>P</m>(<m>B</m>) = 0.20</li>
+            <li><m>P</m>(<m>B</m>|<m>D</m>) = <m>\frac{P\text{(}B\text{AND}D\text{)}}{P\text{(}D\text{)}}</m> = <m>\frac{(0.20)}{\text{(0}\text{.30)}}</m> = 0.66</li>
+            <li><m>P</m>(<m>D</m> AND <m>B′</m>) = <m>P</m>(<m>D</m>) - <m>P</m>(<m>D</m> AND <m>B</m>) = 0.30 - 0.20 = 0.10</li>
+            <li><m>P</m>(<m>D</m>|<m>B′</m>) = <m>P</m>(<m>D</m> AND <m>B′</m>)<m>P</m>(<m>B′</m>) = (<m>P</m>(<m>D</m>) - <m>P</m>(<m>D</m> AND <m>B</m>))(0.60) = (0.10)(0.60) = 0.06</li>
+          </ol>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm107103536">
+      <title>References</title>
+      <p>Baseball Almanac. (2013). Retrieved from www.baseball-almanac.com</p>
+      <p>DiCamillo, Mark, and Field, M. The file poll. <em>Field Research Corporation</em>. Retrieved from http://www.field.com/fieldpollonline/subscribers/Rls2443.pdf</p>
+      <p>Field Research Corporation. (n.d.). Retrieved from www.field.com/fieldpollonline</p>
+      <p>Forum Research. (n.d.). <em>Mayors approval down</em>. Retrieved from http://www.forumresearch.com/forms/News Archives/News Releases/74209_TO_Issues_-_Mayoral_Approval_%28Forum_Research%29%2820130320%29.pdf</p>
+      <p>Rider, D. (2011, Sept. 14). Ford support plummeting, poll suggests. <em>The Star</em>. Retrieved from http://www.thestar.com/news/gta/2011/09/14/ford_support_plummeting_poll_suggests.html</p>
+      <p>Shin, H. B., and Kominski, R. A. (2010 April). Language use in the United States: 2007 (American Community Survey Reports, ACS-12). Washington, DC: United States Census Bureau. Retrieved from http://www.census.gov/hhes/socdemo/language/data/acs/ACS-12.pdf</p>
+      <p>The Roper Center for Public Opinion Research. (n.d.). <em>Archives</em>. Retrieved from http://www.ropercenter.uconn.edu/</p>
+      <p><em>The Wall Street Journal</em>. (n.d.). Retrieved from https://www.wsj.com/</p>
+      <p>U.S. Census Bureau. (n.d.). Retrieved from https://www.census.gov/</p>
+      <p>Wikipedia. (n.d.). <em>Roulette</em>. Retrieved from http://en.wikipedia.org/wiki/Roulette</p>
+    </subsection>
+
+    <subsection xml:id="fs-idp34842048">
+      <title>Chapter Review</title>
+      <p>The multiplication rule and the addition rule are used for computing the probability of <m>A</m> and <m>B</m>, as well as the probability of <m>A</m> or <m>B</m> for two given events <m>A</m>, <m>B</m> defined on the sample space. In sampling with replacement, each member of a population is replaced after it is picked, so that member has the possibility of being chosen more than once, and the events are considered to be independent. In sampling without replacement, each member of a population may be chosen only once, and the events are considered to be not independent. The events <m>A</m> and <m>B</m> are mutually exclusive events when they do not have any outcomes in common.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idp67099248">
+      <title>Formula Review</title>
+      <p><alert>The multiplication rule</alert>—<m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>|<m>B</m>)<m>P</m>(<m>B</m>)</p>
+      <p><alert>The addition rule</alert>—<m>P</m>(<m>A</m> OR <m>B</m>) = <m>P</m>(<m>A</m>) + <m>P</m>(<m>B</m>) − <m>P</m>(<m>A</m> AND <m>B</m>)</p>
+    </subsection>
+
+    <subsection xml:id="fs-idm40455392">
+      <p><em>Use the following information to answer the next 10 exercises.</em> Forty-eight percent of all voters of a certain state prefer life in prison without parole over the death penalty for a person convicted of first-degree murder. Among Latino registered voters in this state, 55 percent prefer life in prison without parole over the death penalty for a person convicted of first-degree murder. Of all citizens in this state, 37.6 percent are Latino.</p>
+      <p>In this problem, let
+<m>C</m> = citizens of a certain state (registered voters) preferring life in prison without parole over the death penalty for a person convicted of first-degree murder.
+<m>L</m> = registered voters  of the state who are Latino.</p>
+      <p>Suppose that one citizen is randomly selected.</p>
+      <exercise xml:id="ch03-exercise1">
+        <statement>
+          <p>Find <m>P</m>(<m>C</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-exercise2">
+        <statement>
+          <p>Find <m>P</m>(<m>L</m>).</p>
+        </statement>
+        <solution>
+          <p>0.376</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-exercise3">
+        <statement>
+          <p>Find <m>P</m>(<m>C</m>|<m>L</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-exercise4">
+        <statement>
+          <p>In words, what is <m>C</m>|<m>L</m>?</p>
+        </statement>
+        <solution>
+          <p><m>C</m>|<m>L</m> means, given the person chosen is a Latino Californian, the person is a registered voter who prefers life in prison without parole for a person convicted of first degree murder.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-exercise5">
+        <statement>
+          <p>Find <m>P</m>(<m>L</m> AND <m>C</m>).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-exercise6">
+        <statement>
+          <p>In words, what is <m>L</m> AND <m>C</m>?</p>
+        </statement>
+        <solution>
+          <p><m>L</m> AND <m>C</m> is the event that the person chosen is a voter of the ethnicity in question who prefers life without parole over the death penalty for a person convicted of first degree murder.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-exercise7">
+        <statement>
+          <p>Are <m>L</m> and <m>C</m> independent events? Show why or why not.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-exercise8">
+        <statement>
+          <p>Find <m>P</m>(<m>L</m> OR <m>C</m>).</p>
+        </statement>
+        <solution>
+          <p>.6492</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-exercise9">
+        <statement>
+          <p>In words, what is <m>L</m> OR <m>C</m>?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-exercise10">
+        <statement>
+          <p>Are <m>L</m> and <m>C</m> mutually exclusive events? Show why or why not.</p>
+        </statement>
+        <solution>
+          <p>No, because <m>P</m>(<m>L</m> AND <m>C</m>) does not equal 0.</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm12466720">
+      <title>Homework</title>
+      <exercise xml:id="ch03-eip-265">
+        <statement>
+          <p>On February 28, 2013, a Field Poll Survey reported that 61 percent of California registered voters approved of a law that was about to be passed. Among 18- to 39-year olds (California registered voters), the approval rating was 78 percent. Six in 10 California registered voters said that the upcoming Supreme Courts ruling about the constitutionality of the law  was either very or somewhat important to them. Out of those registered voters who supported the law, 75 percent say the ruling is important to them.</p>
+          <p>In this problem, let</p>
+          <ul>
+            <li><m>C</m> = California registered voters who supported the law,</li>
+            <li><m>B</m> = California registered voters who say the Supreme Courts ruling about the law  is very or somewhat important to them, and</li>
+            <li><m>A</m> = California registered voters who are 18 to 39 years old.</li>
+          </ul>
+          <ol>
+            <li>Find <m>P</m>(<m>C</m>).</li>
+            <li>Find <m>P</m>(<m>B</m>).</li>
+            <li>Find <m>P</m>(<m>C</m>|<m>A</m>).</li>
+            <li>Find <m>P</m>(<m>B</m>|<m>C</m>).</li>
+            <li>In words, what is <m>C</m>|<m>A</m>?</li>
+            <li>In words, what is <m>B</m>|<m>C</m>?</li>
+            <li>Find <m>P</m>(<m>C</m> AND <m>B</m>).</li>
+            <li>In words, what is <m>C</m> AND <m>B</m>?</li>
+            <li>Find <m>P</m>(<m>C</m> OR <m>B</m>).</li>
+            <li>Are <m>C</m> and <m>B</m> mutually exclusive events? Show why or why not.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-803">
+        <statement>
+          <p>After a mayor of a major Canadian city announced his plans to cut budget costs in late 2011, researchers polled 1,046 people to measure the mayor’s popularity. Everyone polled expressed either approval or disapproval. These are the results their poll produced:</p>
+          <ul>
+            <li>In early 2011, 60 percent of the population approved of the mayor's actions in office.</li>
+            <li>In mid-2011, 57 percent of the population approved of his actions.</li>
+            <li>In late 2011, the percentage of popular approval was measured at 42 percent.</li>
+          </ul>
+          <ol>
+            <li>What is the sample size for this study?</li>
+            <li>What proportion in the poll disapproved of the mayor, according to the results from late 2011?</li>
+            <li>How many people polled responded that they approved of the mayor in late 2011?</li>
+            <li>What is the probability that a person supported the mayor, based on the data collected in mid-2011?</li>
+            <li>What is the probability that a person supported the mayor, based on the data collected in early 2011?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>The Forum Research surveyed 1,046 Torontonians.</li>
+            <li>58 percent</li>
+            <li>42 percent of 1,046 = 439 (rounding to the nearest integer)</li>
+            <li>.57</li>
+            <li>.60.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <p><term><em>Use the following information to answer the next three exercises</em></term>. A local restaurant sells pork chops and chicken breasts. The given values below are the weights (in ounces) of pork chops and chicken breasts listed on the menu. Your server will randomly select one piece of meat (pork chop or chicken breast) that you will be served.</p>
+      <table xml:id="fs-id1170309442421">
+        <tabular>
+          <row><cell>Pork Chops</cell><cell>17</cell><cell>20</cell><cell>21</cell><cell>18</cell><cell>20</cell><cell>20</cell><cell>20</cell><cell>18</cell><cell>19</cell><cell>19</cell></row>
+          <row><cell>20</cell><cell>19</cell><cell>21</cell><cell>20</cell><cell>18</cell><cell>20</cell><cell>20</cell><cell>19</cell><cell>18</cell><cell>19</cell></row>
+          <row><cell>Chicken Breasts</cell><cell>17</cell><cell>19</cell><cell>17</cell><cell>21</cell><cell>17</cell><cell>21</cell><cell>18</cell><cell>21</cell><cell>19</cell><cell>21</cell></row>
+          <row><cell>20</cell><cell>17</cell><cell>20</cell><cell>18</cell><cell>19</cell><cell>20</cell><cell>20</cell><cell>17</cell><cell>21</cell><cell>20</cell></row>
+        </tabular>
+      </table>
+      <exercise xml:id="fs-id1170309366538">
+        <statement>
+          <ol>
+            <li>List the sample space of the possible items that are on the menu.</li>
+            <li>Find <m>P</m>(you will get a 17-oz. piece of meat).</li>
+            <li>Find <m>P</m>(you will get a pork chop).</li>
+            <li>Find <m>P</m>(you will get a 17-oz. pork chop).</li>
+            <li>Is getting a pork chop the complement of getting a chicken breast?  Why?</li>
+            <li>Find two mutually exclusive events.</li>
+            <li>Are the events <em>getting 17 oz. of meat</em> and <em>getting a pork chop</em> independent?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>yes; <m>P</m>(getting a pork chop) = <m>P</m>(not getting a chicken breast)</li>
+            <li>getting a pork chop and getting a chicken breast</li>
+            <li>no</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-id1170307042252">
+        <statement>
+          <p>Compute the probabilities.</p>
+          <ol>
+            <li><m>P</m>(you will get a chicken breast)</li>
+            <li><m>P</m>(you will get a 17-oz. chicken breast)</li>
+            <li><m>P</m>(you will get a chicken breast <term>or</term> you will not get a 17-oz. pork chop)</li>
+            <li><m>P</m>(you will not get a chicken breast <term>and</term> you will get an 18-oz. pork chop)</li>
+            <li><m>P</m>(you will get a piece of meat that is not 21 oz.)</li>
+            <li><m>P</m>(you will get a piece of chicken that is not 21 oz.)</li>
+            <li><m>P</m>(you will not get a chicken breast <term>and</term> you will not get a pork chop)</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>20/40 = 1/2</li>
+            <li>5/40 = 1/8</li>
+            <li>39/40</li>
+            <li>4/40 = 1/10</li>
+            <li>33/40</li>
+            <li>15/40 = 3/8</li>
+            <li>0/40 = 0</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-id1170309434914">
+        <statement>
+          <p>Compute the probabilities:</p>
+          <ol>
+            <li><m>P</m>(you will not get a pork chop)</li>
+            <li><m>P</m>(you will get a 20-oz. pork chop)</li>
+            <li><m>P</m>(you will not get a chicken breast <term>or</term> you will not get an 18-oz. pork chop)</li>
+            <li><m>P</m>(you will not get a chicken breast <term>and</term> you will not get an 18-oz. pork chop)</li>
+            <li><m>P</m>(you will get a pork chop that is not 21 oz.)</li>
+            <li><m>P</m>(you will not get a chicken breast <term>or</term> you will not get a pork chop)</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>Compute the probabilities.</p>
+          <ol>
+            <li>20/40 = 1/2</li>
+            <li>8/40 = 1/5</li>
+            <li>40/40 = 1</li>
+            <li>16/40 = 2/5</li>
+            <li>18/40 = 9/20</li>
+            <li>40/40 = 1</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-element-555">
+        <statement>
+          <p>Suppose that you have eight cards. Five are green and three are yellow. The five green cards are numbered 1, 2, 3, 4, and 5. The three yellow cards are numbered 1, 2, and 3. The cards are well shuffled. You randomly draw one card.</p>
+          <ul>
+            <li><m>G</m> = card drawn is green</li>
+            <li><m>E</m> = card drawn is even-numbered
+List the sample space.
+<m>P</m>(<m>G</m>) = ________
+<m>P</m>(<m>G</m>|<m>E</m>) = ________
+<m>P</m>(<m>G</m> AND <m>E</m>) = ________
+<m>P</m>(<m>G</m> OR <m>E</m>) = ________
+Are <m>G</m> and <m>E</m> mutually exclusive? Justify your answer numerically.</li>
+            <li>List the sample space.</li>
+            <li><m>P</m>(<m>G</m>) = ________</li>
+            <li><m>P</m>(<m>G</m>|<m>E</m>) = ________</li>
+            <li><m>P</m>(<m>G</m> AND <m>E</m>) = ________</li>
+            <li><m>P</m>(<m>G</m> OR <m>E</m>) = ________</li>
+            <li>Are <m>G</m> and <m>E</m> mutually exclusive? Justify your answer numerically.</li>
+          </ul>
+          <ol>
+            <li>List the sample space.</li>
+            <li><m>P</m>(<m>G</m>) = ________</li>
+            <li><m>P</m>(<m>G</m>|<m>E</m>) = ________</li>
+            <li><m>P</m>(<m>G</m> AND <m>E</m>) = ________</li>
+            <li><m>P</m>(<m>G</m> OR <m>E</m>) = ________</li>
+            <li>Are <m>G</m> and <m>E</m> mutually exclusive? Justify your answer numerically.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>{<m>G</m>1, <m>G</m>2, <m>G</m>3, <m>G</m>4, <m>G</m>5, <m>Y</m>1, <m>Y</m>2, <m>Y</m>3}</li>
+            <li><m>\frac{5}{8}</m></li>
+            <li><m>\frac{2}{3}</m></li>
+            <li><m>\frac{2}{8}</m></li>
+            <li><m>\frac{6}{8}</m></li>
+            <li>No, because <m>P</m>(<m>G</m> AND <m>E</m>) does not equal 0.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-element-81">
+        <statement>
+          <p>Roll two fair dice separately. Each die has six faces.</p>
+          <ol>
+            <li>List the sample space.</li>
+            <li>Let <m>A</m> be the event that either a three or four is rolled first, followed by an even number. Find <m>P</m>(<m>A</m>).</li>
+            <li>Let <m>B</m> be the event that the sum of the two rolls is at most seven. Find <m>P</m>(<m>B</m>).</li>
+            <li>In words, explain what <m>P</m>(<m>A</m>|<m>B</m>) represents. Find <m>P</m>(<m>A</m>|<m>B</m>).</li>
+            <li>Are <m>A</m> and <m>B</m> mutually exclusive events? Explain your answer in one to three complete sentences, including numerical justification.</li>
+            <li>Are <m>A</m> and <m>B</m> independent events? Explain your answer in one to three complete sentences, including numerical justification.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-874">
+        <title>NOTE</title>
+        <statement>
+          <p>A special deck of cards has 10 cards. Four are green, three are blue, and three are red. When a card is picked, its color is recorded. An experiment consists of first picking a card and then tossing a coin.</p>
+          <ol>
+            <li>List the sample space.</li>
+            <li>Let <m>A</m> be the event that a blue card is picked first, followed by landing a head on the coin toss. Find <m>P</m>(<m>A</m>).</li>
+            <li>Let <m>B</m> be the event that a red or green is picked, followed by landing a head on the coin toss. Are the events <m>A</m> and <m>B</m> mutually exclusive? Explain your answer in one to three complete sentences, including numerical justification.</li>
+            <li>Let <m>C</m> be the event that a red or blue is picked, followed by landing a head on the coin toss. Are the events <m>A</m> and <m>C</m> mutually exclusive? Explain your answer in one to three complete sentences, including numerical justification.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>{(<m>G</m>,<m>H</m>) (<m>G</m>,<m>T</m>) (<m>B</m>,<m>H</m>) (<m>B</m>,<m>T</m>) (<m>R</m>,<m>H</m>) (<m>R</m>,<m>T</m>)}</li>
+            <li><m>P</m>(<m>A</m>) = <m>P</m>(blue)<m>P</m>(head) = <m>(\frac{3}{10})</m><m>(\frac{1}{2})</m>
+= <m>\frac{3}{20}</m></li>
+            <li>Yes, <m>A</m> and <m>B</m> are mutually exclusive because they cannot happen at the same time; you cannot pick a card that is both blue and also (red or green). <m>P</m>(<m>A</m> AND <m>B</m>) = 0.</li>
+            <li>No, <m>A</m> and <m>C</m> are not mutually exclusive because they can occur at the same time. In fact, <m>C</m> includes all of the outcomes of <m>A</m>; if the card chosen is blue it is also (red or blue). <m>P</m>(<m>A</m> AND <m>C</m>) = <m>P</m>(<m>A</m>) = <m>\frac{3}{20\text{.}}</m></li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-element-52">
+        <statement>
+          <p>An experiment consists of first rolling a die and then tossing a coin.</p>
+          <ol>
+            <li>List the sample space.</li>
+            <li>Let <m>A</m> be the event that either a three or a four is rolled first, followed by landing a head on the coin toss. Find <m>P</m>(<m>A</m>).</li>
+            <li>Let <m>B</m> be the event that the first and second tosses land on heads. Are the events <m>A</m> and <m>B</m> mutually exclusive? Explain your answer in one to three complete sentences, including numerical justification.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-982">
+        <statement>
+          <p>An experiment consists of tossing a nickel, a dime, and a quarter. Of interest is the side the coin lands on.</p>
+          <ol>
+            <li>List the sample space.</li>
+            <li>Let <m>A</m> be the event that there are at least two tails. Find <m>P</m>(<m>A</m>).</li>
+            <li>Let <m>B</m> be the event that the first and second tosses land on heads. Are the events <m>A</m> and <m>B</m> mutually exclusive? Explain your answer in one to three complete sentences, including justification.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>S</m> = {(<em>HHH</em>), (<em>HHT</em>), (<em>HTH</em>), (<em>HTT</em>), (<em>THH</em>), (<em>THT</em>), (<em>TTH</em>), (<em>TTT</em>)}</li>
+            <li><m>\frac{4}{8}</m></li>
+            <li>Yes, because if <m>A</m> has occurred, it is impossible to obtain two tails. In other words, <m>P</m>(<m>A</m> AND <m>B</m>) = 0.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-element-317">
+        <statement>
+          <p>Consider the following scenario:
+<nbsp/>Let <m>P</m>(<m>C</m>) = .4.
+<nbsp/>Let <m>P</m>(<m>D</m>) = .5.
+<nbsp/>Let <m>P</m>(<m>C</m>|<m>D</m>) = .6.
+
+Find <m>P</m>(<m>C</m> AND <m>D</m>).
+Are <m>C</m> and <m>D</m> mutually exclusive? Why or why not?
+Are <m>C</m> and <m>D</m> independent events? Why or why not?
+Find <m>P</m>(<m>C</m> OR <m>D</m>).
+Find <m>P</m>(<m>D</m>|<m>C</m>).</p>
+          <ol>
+            <li>Find <m>P</m>(<m>C</m> AND <m>D</m>).</li>
+            <li>Are <m>C</m> and <m>D</m> mutually exclusive? Why or why not?</li>
+            <li>Are <m>C</m> and <m>D</m> independent events? Why or why not?</li>
+            <li>Find <m>P</m>(<m>C</m> OR <m>D</m>).</li>
+            <li>Find <m>P</m>(<m>D</m>|<m>C</m>).</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-134">
+        <statement>
+          <p><m>Y</m> and <m>Z</m> are independent events.</p>
+          <ol>
+            <li>Rewrite the basic Addition Rule <m>P</m>(<m>Y</m> OR <m>Z</m>) = <m>P</m>(<m>Y</m>) + <m>P</m>(<m>Z</m>) - <m>P</m>(<m>Y</m> AND <m>Z</m>) using the information that <m>Y</m> and <m>Z</m> are independent events.</li>
+            <li>Use the rewritten rule to find <m>P</m>(<m>Z</m>) if <m>P</m>(<m>Y</m> OR <m>Z</m>) = .71 and <m>P</m>(<m>Y</m>) = .42.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>If <m>Y</m> and <m>Z</m> are independent, then <m>P</m>(<m>Y</m> AND <m>Z</m>) = <m>P</m>(<m>Y</m>)<m>P</m>(<m>Z</m>), so <m>P</m>(<m>Y</m> OR <m>Z</m>) = <m>P</m>(<m>Y</m>) + <m>P</m>(<m>Z</m>) – <m>P</m>(<m>Y</m>)<m>P</m>(<m>Z</m>).</li>
+            <li>.5</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-element-15">
+        <statement>
+          <p><m>G</m> and <m>H</m> are mutually exclusive events. <m>P</m>(<m>G</m>) = .5 <m>P</m>(<m>H</m>) = .3</p>
+          <ol>
+            <li>Explain why the following statement MUST be false: <m>P</m>(<m>H</m>|<m>G</m>) = .4.</li>
+            <li>Find <m>P</m>(<m>H</m> OR <m>G</m>).</li>
+            <li>Are <m>G</m> and <m>H</m> independent or dependent events? Explain in a complete sentence.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp11038848">
+        <statement>
+          <p>Approximately 281,000,000 people over age five live in the United States. Of these people, 55,000,000 speak a language other than English at home. Of those who speak another language at home, 62.3 percent speak Spanish.</p>
+          <p>Let <m>E</m> = speaks English at home; <m>E′</m> = speaks another language at home; and <m>S</m> = speaks Spanish.</p>
+          <p>Finish each probability statement by matching the correct answer.</p>
+        </statement>
+        <solution>
+          <p>iii
+i
+iv
+ii</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-element-143">
+        <statement>
+          <p>In 1994, the U.S. government held a lottery to issue 55,000 licenses of a certain type. Renate Deutsch, from Germany, was one of approximately 6.5 million people who entered this lottery. Let <m>G</m> = won license.</p>
+          <ol>
+            <li>What was Renate’s chance of winning one of the licenses? Write your answer as a probability statement.</li>
+            <li>In the summer of 1994, Renate received a letter stating she was one of 110,000 finalists chosen. Once the finalists were chosen, assuming that each finalist had an equal chance to win, what was Renate’s chance of winning one of the licenses? Write your answer as a conditional probability statement. Let <m>F</m> = was a finalist.</li>
+            <li>Are <m>G</m> and <m>F</m> independent or dependent events? Justify your answer numerically and also explain why.</li>
+            <li>Are <m>G</m> and <m>F</m> mutually exclusive events? Justify your answer numerically and explain why.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-652">
+        <statement>
+          <p>Three professors at George Washington University did an experiment to determine if economists are more likely to return found money than other people. They dropped 64 stamped, addressed envelopes with $10 cash in different classrooms on the George Washington campus. Forty-four  percent were returned overall. From the economics classes 56 percent of the envelopes were returned. From the business, psychology, and history classes 31 percent were returned.</p>
+          <p>Let <m>R</m> = money returned; <m>E</m> = economics classes; and <m>O</m> = other classes.</p>
+          <ol>
+            <li>Write a probability statement for the overall percentage of money returned.</li>
+            <li>Write a probability statement for the percentage of money returned out of the economics classes.</li>
+            <li>Write a probability statement for the percentage of money returned out of the other classes.</li>
+            <li>Is money being returned independent of the class? Justify your answer numerically and explain it.</li>
+            <li>Based upon this study, do you think that economists are more selfish than other people? Explain why or why not. Include numbers to justify your answer.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(<m>R</m>) = .44</li>
+            <li><m>P</m>(<m>R</m>|<m>E</m>) = .56</li>
+            <li><m>P</m>(<m>R</m>|<m>O</m>) = .31</li>
+            <li>No, whether the money is returned is not independent of which class the money was placed in. There are several ways to justify this mathematically, but one is that the money placed in economics classes is not returned at the same overall rate; <m>P</m>(<m>R</m>|<m>E</m>) ≠ <m>P</m>(<m>R</m>).</li>
+            <li>No, this study definitely does not support that notion; in fact, it suggests the opposite. The money placed in the economics classrooms was returned at a higher rate than the money place in all classes collectively; <m>P</m>(<m>R</m>|<m>E</m>) &gt; <m>P</m>(<m>R</m>).</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm127904">
+        <statement>
+          <p>The following table of data obtained from www.baseball-almanac.com shows hit information for four players. Suppose that one hit from the table is randomly selected.</p>
+          <p>Are <em>the hit being made by Hank Aaron</em> and <em>the hit being a double</em> independent events?</p>
+          <ol>
+            <li>Yes, because <m>P</m>(hit by Hank Aaron|hit is a double) = <m>P</m>(hit by Hank Aaron)</li>
+            <li>No, because <m>P</m>(hit by Hank Aaron|hit is a double) ≠ <m>P</m>(hit is a double)</li>
+            <li>No, because <m>P</m>(hit is by Hank Aaron|hit is a double) ≠ <m>P</m>(hit by Hank Aaron)</li>
+            <li>Yes, because <m>P</m>(hit is by Hank Aaron|hit is a double) = <m>P</m>(hit is a double)</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-8">
+        <statement>
+          <p>United Blood Services is a blood bank that serves more than 500 hospitals in 18 states. According to their website, a person with type O blood and a negative Rh factor (Rh–) can donate blood to any person with any bloodtype. Their data show that 43 percent of people have type O blood and 15 percent of people have Rh– factor; 52 percent of people have type O or Rh– factor.</p>
+          <ol>
+            <li>Find the probability that a person has both type O blood and the Rh– factor.</li>
+            <li>Find the probability that a person does <alert>not</alert> have both type O blood and the Rh– factor.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(type O OR Rh–) = <m>P</m>(type O) + <m>P</m>(Rh–) – <m>P</m>(type O AND Rh–)
+0.52 = 0.43 + 0.15 – <m>P</m>(type O AND Rh–); solve to find <m>P</m>(type O AND Rh–) = .06
+6 percent of people have type O, Rh– blood</li>
+            <li><m>P</m>(NOT(type O AND Rh–)) = 1 – <m>P</m>(type O AND Rh–) = 1 – .06 = .94
+94 percent of people do not have type O, Rh– blood</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-203">
+        <statement>
+          <p>At a college, 72 percent of courses have final exams and 46 percent of courses require research papers. Suppose that 32 percent of courses have a research paper and a final exam. Let <m>F</m> be the event that a course has a final exam. Let <m>R</m> be the event that a course requires a research paper.</p>
+          <ol>
+            <li>Find the probability that a course has a final exam or a research project.</li>
+            <li>Find the probability that a course has neither of these two requirements.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-913">
+        <statement>
+          <p>In a box of assorted cookies, 36 percent contain chocolate and 12 percent contain nuts. Of those, 8 percent contain both chocolate and nuts. Sean is allergic to both chocolate and nuts.</p>
+          <ol>
+            <li>Find the probability that a cookie contains chocolate or nuts (he can't eat it).</li>
+            <li>Find the probability that a cookie does not contain chocolate or nuts (he can eat it).</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>Let <m>C</m> = be the event that the cookie contains chocolate. Let <m>N</m> = the event that the cookie contains nuts.</li>
+            <li><m>P</m>(<m>C</m> OR <m>N</m>) = <m>P</m>(<m>C</m>) + <m>P</m>(<m>N</m>) – <m>P</m>(<m>C</m> AND <m>N</m>) = .36 + .12 – .08 = .40</li>
+            <li><m>P</m>(NEITHER chocolate NOR nuts)  = 1 – <m>P</m>(<m>C</m> OR <m>N</m>) = 1 – .40 = .60</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-126">
+        <statement>
+          <p>A college finds that 10 percent of students have taken a distance learning class and that 40 percent of students are part-time students. Of the part-time students, 20 percent have taken a distance learning class. Let <m>D</m> = event that a student takes a distance learning class and <m>E</m> = event that a student is a part-time student.</p>
+          <ol>
+            <li>Find <m>P</m>(<m>D</m> AND <m>E</m>).</li>
+            <li>Find <m>P</m>(<m>E</m>|<m>D</m>).</li>
+            <li>Find <m>P</m>(<m>D</m> OR <m>E</m>).</li>
+            <li>Using an appropriate test, show whether <m>D</m> and <m>E</m> are independent.</li>
+            <li>Using an appropriate test, show whether <m>D</m> and <m>E</m> are mutually exclusive.</li>
+          </ol>
+        </statement>
+      </exercise>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-contingency-tables">
     <title>Contingency Tables</title>
-    <p>
-      Content to be added from module m79616.
-    </p>
+
+
+    <subsection xml:id="fs-id1164567287600">
+      <p>A <term>two-way table</term> provides a way of portraying data that can facilitate calculating probabilities. When used to calculate probabilities, a two-way table is often called a <term>contingency table</term>. The table helps in determining conditional probabilities quite easily. The table displays sample values in relation to two different variables that may be dependent or contingent on one another. We used two-way tables in Chapters 1 and 2 to calculate marginal and conditional distributions. These tables organize data in a way that supports the calculation of relative frequency and, therefore, experimental (empirical) probability. Later on, we will use contingency tables again, but in another manner.</p>
+      <example xml:id="ch03-element-775">
+        <statement>
+          <ol>
+            <li>Find <m>P</m>(Person uses a cell phone while driving).</li>
+            <li>Find <m>P</m>(Person had no violation in the last year).</li>
+            <li>Find <m>P</m>(Person had no violation in the last year <em>and</em> uses a cell phone while driving).</li>
+            <li>Find <m>P</m>(Person uses a cell phone while driving <m>or</m> person had no violation in the last year).</li>
+            <li>Find <m>P</m>(Person uses a cell phone while driving <em>given</em> person had a violation in the last year).</li>
+            <li>Find <m>P</m>(Person had no violation last year <em>given</em> person does not use a cell phone while driving).</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>a. This is the same as the marginal distribution (<url href="m79594">Section 1.2</url>).</p>
+          <p>b. The marginal distribution is</p>
+          <p>c. Find the number of participants who satisfy <em>both</em> conditions.</p>
+          <p>d. To find this probability, you need to identify how many participants use a cell phone while driving OR have no violation in the past year OR both.</p>
+          <p><m>P(\text{Person uses a cell phone while driving}OR\text{had no violation in the last year})=\frac{25+405+280}{755}</m></p>
+          <p>e. This is a conditional probability. You are <em>given</em> that the person had no violation in the last year, so you need only consider the values in that column of data.</p>
+          <p>f. For this conditional probability, consider only values in the row labeled Does not use a cell phone while driving.</p>
+          <me>P(\text{Person uses a cell phone while driving})=\frac{\text{number who use cell phones while driving}}{\text{number in study}}=\frac{305}{755}\approx.4040</me>
+          <me>P(\text{Person had no violation in the last year})=\frac{\text{number who had no violation}}{\text{number in study}}=\frac{685}{755}\approx.9073\text{.}</me>
+          <me>P(\text{Person had no violation in the last year AND uses a cell phone while driving})=\frac{\text{number who had no violation AND uses cell phone while driving}}{\text{number in study}} \\ =\frac{280}{755} \\ \approx.3709</me>
+          <me>=\frac{710}{755} \\ \approx.9404 \\ </me>
+          <me>P(\text{Person uses a cell phone while driving GIVEN the person had a violation in the last year})=\frac{\text{number who used cell phone AND had a violation}}{\text{number in study who had a violation in the last year}} \\ =\frac{25}{70} \\ \approx.3571</me>
+          <me>P(\text{Person had no violation last year}\text{GIVEN}\text{person does not use cell phone while driving})=\frac{405}{450}=.9</me>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm7340080">
+        <statement>
+          <p>shows the number of athletes who stretch before exercising and how many had injuries within the past year.</p>
+          <table xml:id="M05_ch03-tbl002">
+            <tabular>
+              <row><cell></cell><cell>Injury in Past Year</cell><cell>No Injury in Past Year</cell><cell>Total</cell></row>
+              <row><cell>Stretches</cell><cell>55</cell><cell>295</cell><cell>350</cell></row>
+              <row><cell>Does not stretch</cell><cell>231</cell><cell>219</cell><cell>450</cell></row>
+              <row><cell>Total</cell><cell>286</cell><cell>514</cell><cell>800</cell></row>
+            </tabular>
+          </table>
+          <ol>
+            <li>What is <m>P</m>(Athlete stretches before exercising)?</li>
+            <li>What is <m>P</m>(Athlete stretches before exercising|no injury in the last year)?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(Athlete stretches before exercising) = <m>\frac{350}{800}</m> = 0.4375</li>
+            <li><m>P</m>(Athlete stretches before exercising|no injury in the last year) = <m>\frac{295}{514}</m> = 0.5739</li>
+          </ol>
+        </solution>
+      </exercise>
+      <example xml:id="ch03-element-511">
+        <title>Hiking Area Preference</title>
+        <statement>
+          <p>a. Complete the table.</p>
+        </statement>
+        <solution>
+          <p>a. There are 45 females in the sample; 18 prefer the coastline and 16 prefer hiking near lakes and streams. So, we know there are 45 − 18 − 16 = 11 female students who prefer hiking on mountain peaks.</p>
+          <p>Continue reasoning in this way to complete the table.</p>
+          <table xml:id="ch03-element-850s">
+            <tabular>
+              <row><cell>Sex</cell><cell>The Coastline</cell><cell>Near Lakes and Streams</cell><cell>On Mountain Peaks</cell><cell>Total</cell></row>
+              <row><cell>Female</cell><cell>18</cell><cell>16</cell><cell>11</cell><cell>45</cell></row>
+              <row><cell>Male</cell><cell>16</cell><cell>25</cell><cell>14</cell><cell>55</cell></row>
+              <row><cell>Total</cell><cell>34</cell><cell>41</cell><cell>25</cell><cell>100</cell></row>
+            </tabular>
+          </table>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp7366752">
+        <statement>
+          <p>shows a random sample of 200 cyclists and the routes they prefer. Let <m>M</m> = males and <m>H</m> = hilly path.</p>
+          <table xml:id="M05_ch03-tbl005">
+            <tabular>
+              <row><cell>Gender</cell><cell>Lake Path</cell><cell>Hilly Path</cell><cell>Wooded Path</cell><cell>Total</cell></row>
+              <row><cell>Female</cell><cell>45</cell><cell>38</cell><cell>27</cell><cell>110</cell></row>
+              <row><cell>Male</cell><cell>26</cell><cell>52</cell><cell>12</cell><cell>90</cell></row>
+              <row><cell>Total</cell><cell>71</cell><cell>90</cell><cell>39</cell><cell>200</cell></row>
+            </tabular>
+          </table>
+          <ol>
+            <li>Out of the males, what is the probability that the cyclist prefers a hilly path?</li>
+            <li>Are the events <em>being male</em> and <em>preferring the hilly path</em> independent events?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(<m>H</m>|<m>M</m>) = <m>\frac{52}{90}</m> = 0.5778</li>
+            <li>For <m>M</m> and <m>H</m> to be independent, show <m>P</m>(<m>H</m>|<m>M</m>) = <m>P</m>(<m>H</m>)
+<nbsp/><nbsp/><m>P</m>(<m>H</m>|<m>M</m>) = 0.5778, <m>P</m>(<m>H</m>) = <m>\frac{90}{200}</m> = 0.45
+<nbsp/><nbsp/><m>P</m>(<m>H</m>|<m>M</m>) does not equal <m>P</m>(<m>H</m>) so <m>M</m> and <m>H</m> are NOT independent.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <example xml:id="ch03-element-883">
+        <title>Door Choice</title>
+        <statement>
+          <p>a. Complete the probability contingency table. Calculate the entries for the totals. Verify that the lower-right corner entry is 1.</p>
+        </statement>
+        <solution>
+          <p>a.</p>
+          <table xml:id="ch03-element-6166">
+            <tabular>
+              <row><cell>Caught or Not</cell><cell>Door One</cell><cell>Door Two</cell><cell>Door Three</cell><cell>Total</cell></row>
+              <row><cell>Caught</cell><cell><m>\frac{1}{15}</m></cell><cell><m>\frac{1}{12}</m></cell><cell><m>\frac{1}{6}</m></cell><cell><m>\frac{19}{60}</m></cell></row>
+              <row><cell>Not Caught</cell><cell><m>\frac{4}{15}</m></cell><cell><m>\frac{3}{12}</m></cell><cell><m>\frac{1}{6}</m></cell><cell><m>\frac{41}{60}</m></cell></row>
+              <row><cell>Total</cell><cell><m>\frac{5}{15}</m></cell><cell><m>\frac{4}{12}</m></cell><cell><m>\frac{2}{6}</m></cell><cell>1</cell></row>
+            </tabular>
+          </table>
+        </solution>
+      </example>
+      <example xml:id="fs-idm73418960">
+        <title>U.S. Crime Index Rates Per 100,000 Inhabitants 2008–2011</title>
+        <statement>
+          <p>TOTAL each column and each row. Total data = 4,520.7.</p>
+          <ol>
+            <li>Find <m>P</m>(2009 AND Crime A).</li>
+            <li>Find <m>P</m>(2010 AND Crime B).</li>
+            <li>Find <m>P</m>(2010 OR Crime B).</li>
+            <li>Find <m>P</m>(2011|Crime A).</li>
+            <li>Find <m>P</m>(Crime D|2008).</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>a. <m>\frac{\text{133}\text{.1}}{\text{4,520}\text{.7}}</m> = .0294, b. <m>\frac{\text{701}}{\text{4,520}\text{.7}}</m> = .1551, c. <m>P</m>(2010 OR Crime B) = <m>P</m>(2010) + <m>P</m>(Crime B) – <m>P</m>(2010 AND Crime B) = <m>\frac{\text{1,087}\text{.1}}{\text{4,520}\text{.7}}</m> + <m>\frac{\text{2,852}\text{.9}}{\text{4,520}\text{.7}}</m> − <m>\frac{\text{701}}{\text{4,520}\text{.7}}</m> = .7165, d. <m>\frac{\text{113}\text{.7}}{\text{511}\text{.8}}</m> = .2222, e. <m>\frac{\text{314}\text{.7}}{\text{1,222}\text{.2}}</m> = .2575</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm30200592">
+        <statement>
+          <p>relates the weights and heights of a group of individuals participating in an observational study.</p>
+          <ol>
+            <li>Find the total for each row and column.</li>
+            <li>Find the probability that a randomly chosen individual from this group is tall.</li>
+            <li>Find the probability that a randomly chosen individual from this group is Under 18 and tall.</li>
+            <li>Find the probability that a randomly chosen individual from this group is tall given that the individual is Under 18.</li>
+            <li>Find the probability that a randomly chosen individual from this group is Under 18 given that the individual is tall.</li>
+            <li>Find the probability a randomly chosen individual from this group is tall and age 51+.</li>
+            <li>Are the events under 18 and tall independent?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>Row Totals: 60, 99, 46. Column totals: 50, 104, 51.</li>
+            <li><m>P</m>(Tall) = <m>\frac{50}{205}</m> = 0.244</li>
+            <li><m>P</m>(Obese AND Tall) = <m>\frac{18}{205}</m> = 0.088</li>
+            <li><m>P</m>(Tall|Obese) = <m>\frac{18}{60}</m> = 0.3</li>
+            <li><m>P</m>(Obese|Tall) = <m>\frac{18}{50}</m> = 0.36</li>
+            <li><m>P</m>(Tall AND Underweight = <m>\frac{12}{205}</m> = 0.0585</li>
+            <li>No. <m>P</m>(Tall) does not equal <m>P</m>(Tall|Obese).</li>
+          </ol>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm122777312">
+      <title>References</title>
+      <p>American Red Cross. (2013). Blood Types. Retrieved from http://www.redcrossblood.org/learn-about-blood/bloodtypes</p>
+      <p>Centers for Disease Control and Prevention/National Center for Health Statistics, United States Department of Health and Human Services. (n.d.). Retrieved from https://www.cdc.gov/nchs/</p>
+      <p>Haiman, C. A., et al. (2006, Jan. 26). Ethnic and racial differences in the smoking-related risk of lung cancer. <em>The New England Journal of Medicine</em>. Retrieved from http://www.nejm.org/doi/full/10.1056/NEJMoa033250</p>
+      <p>Samuels, T. M. (2013). Strange facts about RH negative blood. <em>eHow Health</em>. Retrieved from http://www.ehow.com/facts_5552003_strange-rh-negative-blood.html</p>
+      <p>The Disaster Center Crime Pages. (n.d.). <em>United States: Uniform crime report  state statistics from 19602011</em>. Retrieved from http://www.disastercenter.com/crime/</p>
+      <p>United Blood Services. (2011). <em>Human blood types</em>. Retrieved from http://www.unitedbloodservices.org/learnMore.aspx</p>
+      <p>United States Senate. (n.d.). Retrieved from www.senate.gov</p>
+    </subsection>
+
+    <subsection xml:id="fs-idm68934880">
+      <title>Chapter Review</title>
+      <p>There are several tools you can use to help organize and sort data when calculating probabilities. Contingency tables, also known as two-way tables, help display data and are particularly useful when calculating probabilites that have multiple dependent variables.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idp46156576">
+      <p><em>Use the following information to answer the next four exercises.</em>  shows a random sample of musicians and how they learned to play their instruments.</p>
+      <table xml:id="M05_ch03-tbl011">
+        <tabular>
+          <row><cell>Gender</cell><cell>Self-Taught</cell><cell>Studied in School</cell><cell>Private Instruction</cell><cell>Total</cell></row>
+          <row><cell>Female</cell><cell>12</cell><cell>38</cell><cell>22</cell><cell>72</cell></row>
+          <row><cell>Male</cell><cell>19</cell><cell>24</cell><cell>15</cell><cell>58</cell></row>
+          <row><cell>Total</cell><cell>31</cell><cell>62</cell><cell>37</cell><cell>130</cell></row>
+        </tabular>
+      </table>
+      <exercise xml:id="ch03-eip-976">
+        <statement>
+          <p>Find <m>P</m>(musician is a female).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-388">
+        <statement>
+          <p>Find <m>P</m>(musician is a male AND had private instruction).</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(musician is a male AND had private instruction) = <m>\frac{15}{130}</m> = <m>\frac{3}{26}</m> = .12</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-631">
+        <statement>
+          <p>Find <m>P</m>(musician is a female OR is self taught).</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-350">
+        <statement>
+          <p>Are the events <em>being a female musician</em> and <em>learning music in school</em> mutually exclusive events?</p>
+        </statement>
+        <solution>
+          <p><m>P</m>(being a female musician AND learning music in school) = <m>\frac{38}{130}</m> = <m>\frac{19}{65}</m> = .29</p>
+          <p><m>P</m>(being a female musician)<m>P</m>(learning music in school) = <m>(\frac{72}{130})(\frac{62}{130})</m> = <m>\frac{4,464}{16,900}</m> = <m>\frac{1,116}{4,225}</m> = .26</p>
+          <p>No, they are not independent because <m>P</m>(being a female musician AND learning music in school) is not equal to <m>P</m>(being a female musician)<m>P</m>(learning music in school).</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm32828224">
+      <title>Bringing It Together</title>
+      <p>Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of people who use a product in California and Hawaii. In one part of the report, the self-reported ethnicity and using the product levels per day were given. Of the people using the product at most 10 times a day, there were 9,886 African Americans, 2,745 Native Hawaiians, 12,831 Latinos, 8,378 Japanese Americans, and 7,650 whites. Of the people using the product 11 to 20 times per day, there were 6,514 African Americans, 3,062 Native Hawaiians, 4,932 Latinos, 10,680 Japanese Americans, and 9,877 whites. Of the people using the product 21 to 30 times per day, there were 1,671 African Americans, 1,419 Native Hawaiians, 1,406 Latinos, 4,715 Japanese Americans, and 6,062 Whites. Of the people using the product at least 31 times per day, there were 759 African Americans, 788 Native Hawaiians, 800 Latinos, 2,305 Japanese Americans, and 3,970 whites.</p>
+      <exercise xml:id="ch03-element-841">
+        <title>Product Use by Ethnicity</title>
+        <statement>
+          <p>Complete the table using the data provided. Suppose that one person from the study is randomly selected. Find the probability that person used the product 11 to 20 times a day.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-892">
+        <statement>
+          <p>Suppose that one person from the study is randomly selected. Find the probability that the person used the product 11 to 20 times per day.</p>
+        </statement>
+        <solution>
+          <p><m>\frac{35,065}{100,450}</m></p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-element-120">
+        <statement>
+          <p>Find the probability that the person was Latino.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="exercise-124">
+        <statement>
+          <p>In words, explain what it means to pick one person from the study who is Japanese American AND uses the product 21 to 30 times per day. Also, find the probability.</p>
+        </statement>
+        <solution>
+          <p>To pick one person from the study who is Japanese American AND uses the product 21 to 30 times a day means that the person has to meet both criteria: both Japanese American and uses the product 21 to 30 times a day. The sample space should include everyone in the study. The probability is <m>\frac{4,715}{100,450}</m>.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="exercise-125">
+        <statement>
+          <p>In words, explain what it means to pick one person from the study who is Japanese American OR uses the product 21 to 30 times per day. Also, find the probability.</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="exercise-126">
+        <statement>
+          <p>In words, explain what it means to pick one person from the study who is Japanese American GIVEN that the person uses the product 21 to 30 times per day. Also, find the probability.</p>
+        </statement>
+        <solution>
+          <p>To pick one person from the study who is Japanese American given that person uses the product 21 to 30 times a day, means that the person must fulfill both criteria and the sample space is reduced to those who uses the product 21 to 30 times a day. The probability is <m>\frac{4715}{15,273}</m>.</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="exercise-127">
+        <statement>
+          <p>Prove that product use/day and ethnicity are dependent events.</p>
+        </statement>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idp18062160">
+      <title>Homework</title>
+      <p><em>Use the information in the  to answer the next eight exercises.</em> The table shows the political party affiliation of each of 67 members of the U.S. Senate in June 2012, and when they would next be up for reelection.</p>
+      <table xml:id="M05_ch03-tbl13">
+        <tabular>
+          <row><cell>Up for Reelection:</cell><cell>Democratic Party</cell><cell>Republican Party</cell><cell>Other</cell><cell>Total</cell></row>
+          <row><cell>November 2014</cell><cell>20</cell><cell>13</cell><cell>0</cell><cell></cell></row>
+          <row><cell>November 2016</cell><cell>10</cell><cell>24</cell><cell>0</cell><cell></cell></row>
+          <row><cell>Total</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
+        </tabular>
+      </table>
+      <exercise xml:id="ch03-eip-157">
+        <statement>
+          <p>What is the probability that a randomly selected senator had an <em>Other</em> affiliation?</p>
+        </statement>
+        <solution>
+          <p>0</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-714">
+        <statement>
+          <p>What is the probability that a randomly selected senator would be up for reelection in November 2016?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-381">
+        <statement>
+          <p>What is the probability that a randomly selected senator was a Democrat and was up for reelection in November 2016?</p>
+        </statement>
+        <solution>
+          <p><m>\frac{10}{67}</m></p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-331">
+        <statement>
+          <p>What is the probability that a randomly selected senator was a Republican or was up for reelection in November 2014?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-367">
+        <statement>
+          <p>Suppose that a member of the U.S. Senate is randomly selected. Given that the randomly selected senator was up for reelection in November 2016, what is the probability that this senator was a Democrat?</p>
+        </statement>
+        <solution>
+          <p><m>\frac{10}{34}</m></p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-164">
+        <statement>
+          <p>Suppose that a member of the U.S. Senate is randomly selected. What is the probability that the senator was up for reelection in November 2014, knowing that this senator was a Republican?</p>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-eip-88">
+        <statement>
+          <p>The events <em>Republican</em> and <em>Up for reelection in 2016</em> are ________.</p>
+          <ol>
+            <li>mutually exclusive</li>
+            <li>independent</li>
+            <li>both mutually exclusive and independent</li>
+            <li>neither mutually exclusive nor independent</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>d</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-165">
+        <statement>
+          <p>The events <em>Other</em> and <em>Up for reelection in November 2016</em> are ________.</p>
+          <ol>
+            <li>mutually exclusive</li>
+            <li>independent</li>
+            <li>both mutually exclusive and independent</li>
+            <li>neither mutually exclusive nor independent</li>
+          </ol>
+        </statement>
+      </exercise>
+      <p><em>Use the following information to answer the next two exercises.</em> The table of data obtained from www.baseball-almanac.com shows hit information for four well-known baseball players. Suppose that one hit from the table is randomly selected.</p>
+      <table xml:id="ch03-element-695">
+        <tabular>
+          <row><cell>Name</cell><cell>Single</cell><cell>Double</cell><cell>Triple</cell><cell>Home Run</cell><cell>Total Hits</cell></row>
+          <row><cell>Babe Ruth</cell><cell>1,517</cell><cell>506</cell><cell>136</cell><cell>714</cell><cell>2,873</cell></row>
+          <row><cell>Jackie Robinson</cell><cell>1,054</cell><cell>273</cell><cell>54</cell><cell>137</cell><cell>1,518</cell></row>
+          <row><cell>Ty Cobb</cell><cell>3,603</cell><cell>174</cell><cell>295</cell><cell>114</cell><cell>4,189</cell></row>
+          <row><cell>Hank Aaron</cell><cell>2,294</cell><cell>624</cell><cell>98</cell><cell>755</cell><cell>3,771</cell></row>
+          <row><cell>TOTAL</cell><cell>8,471</cell><cell>1,577</cell><cell>583</cell><cell>1,720</cell><cell>12,351</cell></row>
+        </tabular>
+      </table>
+      <exercise xml:id="ch03-element-680">
+        <statement>
+          <p>Find <m>P</m>(Hit was made by Babe Ruth).</p>
+          <ol>
+            <li><m>\frac{1,518}{2,873}</m></li>
+            <li><m>\frac{2,873}{12,351}</m></li>
+            <li><m>\frac{583}{12,351}</m></li>
+            <li><m>\frac{4,189}{12,351}</m></li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-940">
+        <statement>
+          <p>Find <m>P</m>(Hit was made by Ty Cobb|The hit was a Home Run).</p>
+          <ol>
+            <li><m>\frac{4,189}{12,351}</m></li>
+            <li><m>\frac{114}{1,720}</m></li>
+            <li><m>\frac{1,720}{4,189}</m></li>
+            <li><m>\frac{114}{12,351}</m></li>
+          </ol>
+        </statement>
+        <solution>
+          <p>b</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-element-782">
+        <statement>
+          <p>identifies a group of children by one of four hair colors, and by type of hair.</p>
+          <table xml:id="M05_ch03-tbl021">
+            <tabular>
+              <row><cell>Hair Type</cell><cell>Brown</cell><cell>Blond</cell><cell>Black</cell><cell>Red</cell><cell>Totals</cell></row>
+              <row><cell>Wavy</cell><cell>20</cell><cell></cell><cell>15</cell><cell>3</cell><cell>43</cell></row>
+              <row><cell>Straight</cell><cell>80</cell><cell>15</cell><cell></cell><cell>12</cell><cell></cell></row>
+              <row><cell>Totals</cell><cell></cell><cell>20</cell><cell></cell><cell></cell><cell>215</cell></row>
+            </tabular>
+          </table>
+          <ol>
+            <li>Complete the table.</li>
+            <li>What is the probability that a randomly selected child will have wavy hair?</li>
+            <li>What is the probability that a randomly selected child will have either brown or blond hair?</li>
+            <li>What is the probability that a randomly selected child will have wavy brown hair?</li>
+            <li>What is the probability that a randomly selected child will have red hair, given that he or she has straight hair?</li>
+            <li>If <m>B</m> is the event of a child having brown hair, find the probability of the complement of <m>B</m>.</li>
+            <li>In words, what does the complement of <m>B</m> represent?</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-738-2">
+        <statement>
+          <p>In a previous year, the weights of the members of a California football team and a Texas football team were published in a newspaper. The factual data were compiled into the following table. The weights in the column headings are in pounds.</p>
+          <table xml:id="ch03-element-13">
+            <tabular>
+              <row><cell>Shirt #</cell><cell>≤ 210</cell><cell>211–250</cell><cell>251–290</cell><cell>&gt; 290</cell></row>
+              <row><cell>1–33</cell><cell>21</cell><cell>5</cell><cell>0</cell><cell>0</cell></row>
+              <row><cell>34–66</cell><cell>6</cell><cell>18</cell><cell>7</cell><cell>4</cell></row>
+              <row><cell>66–99</cell><cell>6</cell><cell>12</cell><cell>22</cell><cell>5</cell></row>
+            </tabular>
+          </table>
+          <p>For the following, suppose that you randomly select one player from the California team or the Texas team.
+
+Find the probability that his shirt number is from 1 to 33.
+Find the probability that he weighs at most 210 pounds.
+Find the probability that his shirt number is from 1 to 33 AND he weighs at most 210 pounds.
+Find the probability that his shirt number is from 1 to 33 OR he weighs at most 210 pounds.
+Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs at most 210 pounds.</p>
+          <ol>
+            <li>Find the probability that his shirt number is from 1 to 33.</li>
+            <li>Find the probability that he weighs at most 210 pounds.</li>
+            <li>Find the probability that his shirt number is from 1 to 33 AND he weighs at most 210 pounds.</li>
+            <li>Find the probability that his shirt number is from 1 to 33 OR he weighs at most 210 pounds.</li>
+            <li>Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs at most 210 pounds.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>\frac{26}{106}</m></li>
+            <li><m>\frac{33}{106}</m></li>
+            <li><m>\frac{21}{106}</m></li>
+            <li><m>(\frac{26}{106})</m> + <m>(\frac{33}{106})</m> – <m>(\frac{21}{106})</m> = <m>(\frac{38}{106})</m></li>
+            <li><m>\frac{21}{33}</m></li>
+          </ol>
+        </solution>
+      </exercise>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-tree-venn-diagrams">
     <title>Tree and Venn Diagrams</title>
-    <p>
-      Content to be added from module m79617.
-    </p>
-  </section>
 
+
+    <subsection xml:id="fs-id1164566834358">
+      <p>Sometimes, when the probability problems are complex, it can be helpful to graph the situation. Tree diagrams and Venn diagrams are two tools that can be used to visualize and solve conditional probabilities.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idp113760352">
+      <title>Tree Diagrams</title>
+      <p>A <term>tree diagram</term> is a special type of graph used to determine the outcomes of an experiment. It consists of <em>branches</em> that are labeled with either frequencies or probabilities. Tree diagrams can make some probability problems easier to visualize and solve. The following example illustrates how to use a tree diagram:</p>
+      <example xml:id="ch03-element-192">
+        <statement>
+          <p>a. List the 24 <m>BR</m> outcomes: <m>B</m>1<m>R</m>1, <m>B</m>1<m>R</m>2, <m>B</m>1<m>R</m>3, . . .</p>
+        </statement>
+        <solution>
+          <p>a. We know that there will be 24 different possible outcomes because there are eight ways to draw blue and three ways to draw red. Make a systematic list of possible outcomes that consist of a blue marble on the first draw and a red marble on the second draw.<nbsp/><nbsp/></p>
+          <p><m>B</m>1<m>R</m>1, <m>B</m>1<m>R</m>2, <m>B</m>1<m>R</m>3<nbsp/>
+<m>B</m>2<m>R</m>1, <m>B</m>2<m>R</m>2, <m>B</m>2<m>R</m>3<nbsp/>
+<m>B</m>3<m>R</m>1, <m>B</m>3<m>R</m>2, <m>B</m>3<m>R</m>3<nbsp/>
+<m>B</m>4<m>R</m>1, <m>B</m>4<m>R</m>2, <m>B</m>4<m>R</m>3<nbsp/>
+<m>B</m>5<m>R</m>1, <m>B</m>5<m>R</m>2, <m>B</m>5<m>R</m>3<nbsp/>
+<m>B</m>6<m>R</m>1, <m>B</m>6<m>R</m>2, <m>B</m>6<m>R</m>3<nbsp/>
+<m>B</m>7<m>R</m>1, <m>B</m>7<m>R</m>2, <m>B</m>7<m>R</m>3<nbsp/>
+<m>B</m>8<m>R</m>1, <m>B</m>8<m>R</m>2, <m>B</m>8<m>R</m>3<nbsp/><nbsp/></p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm22506096">
+        <statement>
+          <p>In a standard deck, there are 52 cards. Twelve cards are face cards (event <m>F</m>) and 40 cards are not face cards (event <m>N</m>). Draw two cards, one at a time, with replacement. All possible outcomes are shown in the tree diagram as frequencies. Using the tree diagram, calculate <m>P</m>(<m>FF</m>).</p>
+        </statement>
+        <solution>
+          <p>Total number of outcomes is 144 + 480 + 480 + 1600 = 2,704.</p>
+          <p><m>P</m>(<m>FF</m>) = <m>\frac{144}{\text{144 + 480 + 480 + 1,600}}=\frac{144}{2,704}=\frac{9}{169}</m></p>
+        </solution>
+      </exercise>
+      <example xml:id="ch03-element-841-2">
+        <title>NOTE</title>
+        <statement>
+          <p>a. <m>P</m>(<m>RR</m>) = ________</p>
+        </statement>
+        <solution>
+          <p>a. <m>P</m>(<m>RR</m>) = <m>(\frac{3}{11})(\frac{2}{10})=\frac{6}{110}</m><nbsp/><nbsp/></p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp40630704">
+        <statement>
+          <p>In a standard deck, there are 52 cards. Twelve cards are face cards (<m>F</m>) and 40 cards are not face cards (<m>N</m>). Draw two cards, one at a time, without replacement. The tree diagram is labeled with all possible probabilities.</p>
+          <ol>
+            <li>Find <m>P</m>(<m>FN</m> OR <m>NF</m>).</li>
+            <li>Find <m>P</m>(<m>N</m>|<m>F</m>).</li>
+            <li>Find <m>P</m>(at most one face card).
+<nbsp/>Hint: <em>At most one face card</em> means zero or one face card.</li>
+            <li>Find <m>P</m>(at least one face card).
+<nbsp/>Hint: <em>At least one face card</em> means one or two face cards.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li><m>P</m>(<m>FN</m> OR <m>NF</m>) = <m>\frac{\text{480}}{\text{2,652}}\text{+}\frac{\text{480}}{\text{2,652}}\text{=}\frac{\text{960}}{\text{2,652}}\text{=}\frac{\text{80}}{\text{221}}</m></li>
+            <li><m>P</m>(<m>N</m>|<m>F</m>) = <m>\frac{40}{51}</m></li>
+            <li><m>P</m>(at most one face card) = <m>\frac{\text{(480  +  480  +  1,560)}}{\text{2,652}}</m> = <m>\frac{2,520}{2,652}</m></li>
+            <li><m>P</m>(at least one face card) = <m>\frac{\text{(132 + 480 + 480)}}{\text{2,652}}</m> = <m>\frac{\text{1,092}}{\text{2,652}}</m></li>
+          </ol>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idp72039056">
+        <statement>
+          <ol>
+            <li>Which shows the probability that both kittens are tabby?
+<nbsp/><nbsp/><m>\text{a.}(\frac{1}{2})(\frac{1}{2})</m>      <m>\text{b.}(\frac{4}{9})(\frac{4}{9})</m>      <m>\text{c.}(\frac{4}{9})(\frac{3}{8})</m>      <m>\text{d.}(\frac{4}{9})(\frac{5}{9})</m></li>
+            <li>What is the probability that one kitten of each coloring is selected?
+<nbsp/><nbsp/><m>\text{a.}(\frac{4}{9})(\frac{5}{9})</m>      <m>\text{b.}(\frac{4}{9})(\frac{5}{8})</m>      <m>\text{c.}(\frac{4}{9})(\frac{5}{9})+(\frac{5}{9})(\frac{4}{9})</m>      <m>\text{d.}(\frac{4}{9})(\frac{5}{8})+(\frac{5}{9})(\frac{4}{8})</m></li>
+            <li>What is the probability that a tabby is chosen as the second kitten when a black kitten was chosen as the first?</li>
+            <li>What is the probability of choosing two kittens of the same color?</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>a. <m>(\frac{4}{9})(\frac{3}{8})</m>, b. <m>(\frac{4}{9})(\frac{5}{8})+(\frac{5}{9})(\frac{4}{8})</m>, c. <m>\frac{4}{8}</m>, d. <m>\frac{32}{72}</m></p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idm62426848">
+        <statement>
+          <p>Suppose there are four red balls and three yellow balls in a box. Three balls are drawn from the box without replacement. What is the probability that one ball of each coloring is selected?</p>
+        </statement>
+        <solution>
+          <p><m>(\frac{4}{7})(\frac{3}{6})</m> + <m>(\frac{3}{7})(\frac{4}{6})</m></p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="ch03-eip-922">
+      <title>Venn Diagram</title>
+      <p>A <term>Venn diagram</term> is a picture that represents the outcomes of an experiment. It generally consists of a box that represents the sample space <m>S</m> together with circles or ovals. The circles or ovals represent events.</p>
+      <example xml:id="ch03-element-513">
+        <statement>
+          <p>Suppose an experiment has the outcomes 1, 2, 3, . . . , 12 where each outcome has an equal chance of occurring. Let event <m>A</m> = {1, 2, 3, 4, 5, 6} and event <m>B</m> = {6, 7, 8, 9}. Then <m>A</m> AND <m>B</m> = {6} and <m>A</m> OR <m>B</m> = {1, 2, 3, 4, 5, 6, 7, 8, 9}. The Venn diagram is as follows:</p>
+          <figure xml:id="eip-idm17287840">
+            <image source="media/fig-ch03_06_01.jpg" width="76%"/>
+          </figure>
+        </statement>
+      </example>
+      <exercise xml:id="fs-idp129832272">
+        <statement>
+          <p>Suppose an experiment has outcomes black, white, red, orange, yellow, green, blue, and purple, where each outcome has an equal chance of occurring. Let event <m>C</m> = {green, blue, purple} and event <m>P</m> = {red, yellow, blue}. Then <m>C</m> AND <m>P</m> = {blue} and <m>C</m> OR <m>P</m> = {green, blue, purple, red, yellow}. Draw a Venn diagram representing this situation.</p>
+        </statement>
+        <solution>
+          <figure xml:id="eip-idp39366912">
+            <image source="media/CNX_Stats_C03_M06_tryit001.jpg" width="80%"/>
+          </figure>
+        </solution>
+      </exercise>
+      <example xml:id="ch03-element-872">
+        <statement>
+          <p>Flip two fair coins. Let <m>A</m> = tails on the first coin. Let <m>B</m> = tails on the second coin. Then <m>A</m> = {<m>TT</m>, <m>TH</m>} and <m>B</m> = {<m>TT</m>, <m>HT</m>}. Therefore, <m>A</m> AND <m>B</m> = {<m>TT</m>}. <m>A</m> OR <m>B</m> =  {<m>TH</m>, <m>TT</m>, <m>HT</m>}.</p>
+          <p>The sample space when you flip two fair coins is <m>X</m> = {<m>HH</m>, <m>HT</m>, <m>TH</m>, <m>TT</m>}. The outcome <m>HH</m> is in NEITHER <m>A</m> NOR <m>B</m>. The Venn diagram is as follows:</p>
+          <figure xml:id="eip-idm154602320">
+            <image source="media/fig-ch03_06_02.jpg" width="80%"/>
+          </figure>
+        </statement>
+      </example>
+      <exercise xml:id="eip-idm77418224">
+        <statement>
+          <p>Roll a fair, six-sided die. Let <m>A</m> = a prime number of dots is rolled. Let <m>B</m> = an odd number of dots is rolled. Then <m>A</m> = {2, 3, 5} and <m>B</m> = {1, 3, 5}. Therefore, <m>A</m> AND <m>B</m> = {3, 5}. <m>A</m> OR <m>B</m> = {1, 2, 3, 5}. The sample space for rolling a fair die is <m>S</m> = {1, 2, 3, 4, 5, 6}. Draw a Venn diagram representing this situation.</p>
+        </statement>
+        <solution>
+          <figure xml:id="eip-idm11530608">
+            <image source="media/CNX_Stats_C03_M06_tryit002.jpg" width="80%"/>
+          </figure>
+        </solution>
+      </exercise>
+      <example xml:id="ch03-element-554">
+        <statement>
+          <p>Forty percent of the students at a local college belong to a club and 50 percent work part time. Five percent of the students work part time and belong to a club. Draw a Venn diagram showing the relationships. Let <m>C</m> = student belongs to a club and <m>PT</m> = student works part time.</p>
+          <p>Start by drawing a rectangle to represent the sample space. Then draw two circles or ovals inside the rectangle to represent the events of interest: belonging to a club (<m>C</m>) and working part time (<m>PT</m>). Always draw overlapping shapes to represent outcomes that are in both events.</p>
+          <p>Label each piece of the diagram clearly and note the probability or frequency of each part. Start by labeling the overlapping section first. Note that the probabilities in <m>C</m> total 0.40 and the sum of the probabilities in <m>PT</m> is 0.50. The total of all probabilities displayed must be 1, representing 100 percent of the sample space.</p>
+          <p>If a student is selected at random, find the following:</p>
+          <ol>
+            <li>the probability that the student belongs to a club.</li>
+            <li>the probability that the student works part time.</li>
+            <li>the probability that the student belongs to a club AND works part time.</li>
+            <li>the probability that the student belongs to a club given that the student works part time.</li>
+            <li>the probability that the student belongs to a club OR works part time.</li>
+          </ol>
+          <figure xml:id="fs-idp1123328">
+            <image source="media/fig-ch03_06_03N.jpg" width="80%"/>
+          </figure>
+        </statement>
+        <solution>
+          <p><m>P</m>(<m>C</m>) = .40</p>
+          <p><m>P</m>(<m>PT</m>) = .50</p>
+          <p><m>P</m>(<m>C</m> AND <m>PT</m>) = .05</p>
+          <p><m>P\text{(}C\text{|}PT\text{)}=\frac{P\text{(}C\text{AND}PT\text{)}}{P\text{(}PT\text{)}}=\frac{.05}{.50}=.1</m></p>
+          <p><m>P</m>(<m>C</m> OR <m>PT</m>) = <m>P</m>(<m>C</m>) + <m>P</m>(<m>PT</m>) − <m>P</m>(<m>C</m> AND <m>PT</m>) = .40 + .50 − .05 = .85</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp89579120">
+        <statement>
+          <p>Fifty percent of the workers at a factory work a second job, 25 percent have a spouse who also works, and 5 percent work a second job and have a spouse who also works. Draw a Venn diagram showing the relationships. Let <m>W</m> = works a second job and <m>S</m> = spouse also works.</p>
+        </statement>
+        <solution>
+          <figure xml:id="fs-idp77159920">
+            <image source="media/CNX_Stats_C03_M06_tryit003.jpg" width="80%"/>
+          </figure>
+        </solution>
+      </exercise>
+      <example xml:id="fs-idp87467600">
+        <statement>
+          <p>A person with type O blood and a negative Rh factor (Rh–) can donate blood to any person with any blood type. Four percent of African Americans have type O blood and a negative Rh factor, 5−10 percent of African Americans have the Rh– factor, and 51 percent have type O blood.</p>
+          <p>The “O” circle represents the African Americans with type O blood. The “Rh–" oval represents the African Americans with the Rh– factor.</p>
+          <p>We will use the average of 5 percent and 10 percent, 7.5 percent, as the percentage of African Americans who have the Rh– factor. Let <m>O</m> = African American with Type O blood and <m>R</m> = African American with Rh– factor.</p>
+          <ol>
+            <li><m>P</m>(<m>O</m>) = ___________</li>
+            <li><m>P</m>(<m>R</m>) = ___________</li>
+            <li><m>P</m>(<m>O</m> AND <m>R</m>) = ___________</li>
+            <li><m>P</m>(<m>O</m> OR <m>R</m>) = ____________</li>
+            <li>In the Venn Diagram, describe the overlapping area using a complete sentence.</li>
+            <li>In the Venn Diagram, describe the area in the rectangle but outside both the circle and the oval using a complete sentence.</li>
+          </ol>
+          <figure xml:id="fs-idp143600032">
+            <image source="media/CNX_Stats_C03_M06_001f.jpg" width="80%"/>
+          </figure>
+        </statement>
+        <solution>
+          <p>a. <m>P</m>(<m>O</m>) = .51</p>
+          <p>b. <m>P</m>(<m>R</m>) = .075 because an average of 7.5 percent of African Americans have the Rh– factor.</p>
+          <p>c. <m>P</m>(<m>O</m> AND <m>R</m>) = 0.04 because 4 percent of African Americans have both Type O blood and the Rh– factor.</p>
+          <p>d. <m>P</m>(<m>O</m> OR <m>R</m>) = <m>P</m>(<m>O</m>) + <m>P</m>(<m>R</m>) - <m>P</m>(<m>O</m> AND <m>R</m>) = .51 + .075 − .04 = .545</p>
+          <p>e. The area represents the African Americans that have type O blood and the Rh– factor.</p>
+          <p>f. The area represents the African Americans that have neither type O blood nor the Rh– factor.</p>
+        </solution>
+      </example>
+      <exercise xml:id="fs-idp85340096">
+        <statement>
+          <p>In a bookstore, the probability that the customer buys a novel is .6, and the probability that the customer buys a nonfiction book is .4. Suppose that the probability that the customer buys both is .2.</p>
+          <ol>
+            <li>Draw a Venn diagram representing the situation.</li>
+            <li>Find the probability that the customer buys either a novel or a nonfiction book.</li>
+            <li>In the Venn diagram, describe the overlapping area using a complete sentence.</li>
+            <li>Suppose that some customers buy only compact disks. Draw an oval in your Venn diagram representing this event.</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>a. and d. In the following Venn diagram below, the blue oval represent customers buying a novel, the red oval represents customer buying non-fiction, and the yellow oval customer who buy compact disks.</p>
+          <figure xml:id="fs-idp187403440">
+            <image source="media/CNX_Stats_C03_M06_002f.jpg" width="80%"/>
+          </figure>
+          <p>b. <m>P</m>(novel or non-fiction) = <m>P</m>(Blue OR Red) = <m>P</m>(Blue) + <m>P</m>(Red) - <m>P</m>(Blue AND Red) = 0.6 + 0.4 - 0.2 = 0.8.
+<nbsp/>c. The overlapping area of the blue oval and red oval represents the customers buying both a novel and a nonfiction book.</p>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idp43368080">
+      <title>References</title>
+      <p>American Cancer Society. (n.d.). Retrieved from https://www.cancer.org/</p>
+      <p>Clara County Public Health Department. (n.d.). Retrieved from https://www.sccgov.org/sites/sccphd/en-us/pages/phd.aspx</p>
+      <p>Federal Highway Administration, U.S. Department of Transportation. (n.d.). Retrieved from https://www.fhwa.dot.gov/</p>
+      <p>The Data and Story Library. (1996). Retrieved from http://lib.stat.cmu.edu/DASL/</p>
+      <p>The Roper Center for Public Opinion Research. (2013). <em>Search for datasets</em>. Retrieved from http://www.ropercenter.uconn.edu/data_access/data/search_for_datasets.html</p>
+      <p><em>USA Today</em>. (n.d.). Retrieved from https://www.usatoday.com/</p>
+      <p>U.S. Census Bureau. (n.d.). Retrieved from https://www.census.gov/</p>
+      <p>World Bank Group. (2013). <em>Environment</em>. Available online at http://data.worldbank.org/topic/environment</p>
+    </subsection>
+
+    <subsection xml:id="fs-idp73675888">
+      <title>Chapter Review</title>
+      <p>A tree diagram uses branches to show the different outcomes of experiments and makes complex probability questions easy to visualize.</p>
+      <p>A Venn diagram is a picture that represents the outcomes of an experiment. It generally consists of a box that represents the sample space <m>S</m> together with circles or ovals. The circles or ovals represent events. A Venn diagram is especially helpful for visualizing the OR event, the AND event, and the complement of an event and for understanding conditional probabilities.</p>
+    </subsection>
+
+    <subsection xml:id="fs-idp14696688">
+      <exercise xml:id="ch03-element-750-2">
+        <statement>
+          <p>The probability that a man develops some form of cancer in his lifetime is 0.4567. The probability that a man has at least one false-positive test result, meaning the test comes back for cancer when the man does not have it, is .51. Let <m>C</m> = a man develops cancer in his lifetime; <m>P</m> = a man has at least one false-positive test. Construct a tree diagram of the situation.</p>
+        </statement>
+        <solution>
+          <figure xml:id="eip-idm83918928">
+            <image source="media/CNX_Stats_C03_M07_101N.jpg" width="76%"/>
+          </figure>
+        </solution>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idp43118896">
+      <title>Homework</title>
+      <p><em>Use the following information to answer the next two exercises.</em> This tree diagram shows the tossing of an unfair coin followed by drawing one bead from a cup containing three red (<m>R</m>), four yellow (<m>Y</m>), and five blue (<m>B</m>) beads. For the coin, <m>P</m>(<m>H</m>) = <m>\frac{2}{3}</m> and <m>P</m>(<m>T</m>) = <m>\frac{1}{3}</m> where <m>H</m> is heads and <m>T</m> is tails.</p>
+      <figure xml:id="id43573084">
+        <image source="media/fig-ch03_11_01N.jpg" width="36%"/>
+      </figure>
+      <exercise xml:id="ch03-element-92">
+        <statement>
+          <p>Find <m>P</m>(tossing a head on the coin AND a red bead).</p>
+          <ol>
+            <li><m>\frac{2}{3}</m></li>
+            <li><m>\frac{5}{15}</m></li>
+            <li><m>\frac{6}{36}</m></li>
+            <li><m>\frac{5}{36}</m></li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-684">
+        <statement>
+          <p>Find <m>P</m>(blue bead).</p>
+          <ol>
+            <li><m>\frac{15}{36}</m></li>
+            <li><m>\frac{10}{36}</m></li>
+            <li><m>\frac{10}{12}</m></li>
+            <li><m>\frac{6}{36}</m></li>
+          </ol>
+        </statement>
+        <solution>
+          <p>a</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-346">
+        <statement>
+          <p>A box of cookies contains three chocolate and seven butter cookies. Miguel randomly selects a cookie and eats it. Then he randomly selects another cookie and eats it. How many cookies did he take?</p>
+          <ol>
+            <li>Draw the tree that represents the possibilities for the cookie selections. Write the probabilities along each branch of the tree.</li>
+            <li>Are the probabilities for the flavor of the second cookie that Miguel selects independent of his first selection? Explain.</li>
+            <li>For each complete path through the tree, write the event it represents and find the probabilities.</li>
+            <li>Let <m>S</m> be the event that both cookies selected were the same flavor. Find <m>P</m>(<m>S</m>).</li>
+            <li>Let <m>T</m> be the event that the cookies selected were different flavors. Find <m>P</m>(<m>T</m>) by two different methods by using the complement rule and by using the branches of the tree. Your answers should be the same with both methods.</li>
+            <li>Let <m>U</m> be the event that the second cookie selected is a butter cookie. Find <m>P</m>(<m>U</m>).</li>
+          </ol>
+        </statement>
+      </exercise>
+    </subsection>
+
+    <subsection xml:id="fs-idm72330096">
+      <title>Bringing It Together</title>
+      <p><em>Use the following information to answer the next two exercises.</em> Suppose that you have eight cards. Five are green and three are yellow. The cards are well shuffled.</p>
+      <exercise xml:id="ch03-element-194">
+        <statement>
+          <p>Suppose that you randomly draw two cards, one at a time, with replacement.
+<nbsp/>Let <m>G</m>_{1} = first card is green
+<nbsp/>Let <m>G</m>_{2} = second card is green</p>
+          <ol>
+            <li>Draw a tree diagram of the situation.</li>
+            <li>Find <m>P</m>(<m>G</m>_{1} AND <m>G</m>_{2}).</li>
+            <li>Find <m>P</m>(at least one green).</li>
+            <li>Find <m>P</m>(<m>G</m>_{2}|<m>G</m>_{1}).</li>
+            <li>Are <m>G</m>_{2} and <m>G</m>_{1} independent events?  Explain why or why not.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li></li>
+            <li><m>P</m>(<m>GG</m>) = <m>(\frac{5}{8})(\frac{5}{8})</m> = <m>\frac{25}{64}</m></li>
+            <li><m>P</m>(at least one green) = <m>P</m>(<m>GG</m>) + <m>P</m>(<m>GY</m>) + <m>P</m>(<m>YG</m>) = <m>\frac{25}{64}</m> + <m>\frac{15}{64}</m> + <m>\frac{15}{64}</m> = <m>\frac{55}{64}</m></li>
+            <li><m>P</m>(<m>G</m>|<m>G</m>) = <m>\frac{5}{8}</m></li>
+            <li>Yes, they are independent because the first card is placed back in the bag before the second card is drawn. The composition of cards in the bag remains the same from draw one to draw two.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-element-606">
+        <statement>
+          <p>Suppose that you randomly draw two cards, one at a time, without replacement.
+<nbsp/><em>G_{1}</em> = first card is green
+<nbsp/><em>G_{2}</em> = second card is green</p>
+          <ol>
+            <li>Draw a tree diagram of the situation.</li>
+            <li>Find <m>P</m>(<em>G_{1}</em> AND <em>G_{2}</em>).</li>
+            <li>Find <m>P</m>(at least one green).</li>
+            <li>Find <m>P</m>(<em>G_{2}</em>|<em>G_{1}</em>).</li>
+            <li>Are <em>G_{2}</em> and <em>G_{1}</em> independent events? Explain why or why not.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <p><em>Use the following information to answer the next two exercises.</em> The percent of licensed U.S. drivers (from a recent year) who are female is 48.60. Of the females, 5.03 percent are age 19 and under; 81.36 percent are age 20–64; 13.61 percent are age 65 or over. Of the licensed U.S. male drivers, 5.04 percent are age 19 and under; 81.43 percent are age 20–64; 13.53 percent are age 65 or over.</p>
+      <exercise xml:id="ch03-element-950">
+        <statement>
+          <p>Complete the following:</p>
+          <ol>
+            <li>Construct a table or a tree diagram of the situation.</li>
+            <li>Find <m>P</m>(driver is female).</li>
+            <li>Find <m>P</m>(driver is age 65 or over|driver is female).</li>
+            <li>Find <m>P</m>(driver is age 65 or over AND female).</li>
+            <li>In words, explain the difference between the probabilities in Part c and Part d.</li>
+            <li>Find <m>P</m>(driver is age 65 or over).</li>
+            <li>Are being age 65 or over and being female mutually exclusive events? How do you know?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>&lt;2020–64&gt;64Totals
+
+
+
+Female
+.0244
+.3954
+.0661
+.486
+
+
+Male
+.0259
+.4186
+.0695
+.514
+
+
+Totals
+.0503
+.8140
+.1356
+1</li>
+            <li><m>P</m>(<m>F</m>) = .486</li>
+            <li><m>P</m>(&gt;64|<m>F</m>) = .1361</li>
+            <li><m>P</m>(&gt;64 and <m>F</m>) = <m>P</m>(<m>F</m>) <m>P</m>(&gt;64|<m>F</m>) = (.486)(.1361) = .0661</li>
+            <li><m>P</m>(&gt;64|<m>F</m>) is the percentage of female drivers who are 65 or older and <m>P</m>(&gt;64 and <m>F</m>) is the percentage of drivers who are female and 65 or older.</li>
+            <li><m>P</m>(&gt;<m>64</m>) = <m>P</m>(&gt;64 and <m>F</m>) + <m>P</m>(&gt;64 and <m>M</m>) = .1356</li>
+            <li>No, being female and 65 or older are not mutually exclusive because they can occur at the same time  P(&gt;64 and <m>F</m>) = .0661.</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-element-175">
+        <statement>
+          <p>Suppose that 10,000 U.S. licensed drivers are randomly selected.</p>
+          <ol>
+            <li>How many would you expect to be male?</li>
+            <li>Using the table or tree diagram, construct a contingency table of gender versus age group.</li>
+            <li>Using the contingency table, find the probability that out of the age 20–64 group, a randomly selected driver is female.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-974">
+        <statement>
+          <p>Approximately 86.5 percent of Americans commute to work by car, truck, or van. Out of that group, 84.6 percent drive alone and 15.4 percent drive in a carpool. Approximately 3.9 percent walk to work and approximately 5.3 percent take public transportation.</p>
+          <ol>
+            <li>Construct a table or a tree diagram of the situation. Include a branch for all other modes of transportation to work.</li>
+            <li>Assuming that the walkers walk alone, what percent of all commuters travel alone to work?</li>
+            <li>Suppose that 1,000 workers are randomly selected. How many would you expect to travel alone to work?</li>
+            <li>Suppose that 1,000 workers are randomly selected. How many would you expect to drive in a carpool?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol>
+            <li>Car, Truck or Van
+Walk
+Public Transportation
+Other
+Totals
+
+
+
+Alone
+.7318
+
+
+
+
+
+
+Not Alone
+.1332
+
+
+
+
+
+
+Totals
+.8650
+.0390
+.0530
+.0430
+1</li>
+            <li>If we assume that all walkers are alone and that none from the other two groups travel alone (which is a big assumption) we have:  <m>P</m>(Alone) = .7318 + .0390 = .7708.</li>
+            <li>Make the same assumptions as in (b) we have: (.7708)(1,000) = 771</li>
+            <li>(.1332)(1,000) = 133</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-eip-272">
+        <statement>
+          <p>When the euro coin was introduced in 2002, two math professors had their statistics students test whether the Belgian one euro-coin was a fair coin. They spun the coin rather than tossing it and found that out of 250 spins, 140 showed a head (event <m>H</m>) while 110 showed a tail (event <m>T</m>). On that basis, they claimed that it is not a fair coin.</p>
+          <ol>
+            <li>Based on the given data, find <m>P</m>(<m>H</m>) and <m>P</m>(<m>T</m>).</li>
+            <li>Use a tree to find the probabilities of each possible outcome for the experiment of spinning the coin twice.</li>
+            <li>Use the tree to find the probability of obtaining exactly one head in two spins of the coin.</li>
+            <li>Use the tree to find the probability of obtaining at least one head.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="ch03-element-456">
+        <statement>
+          <p><em>Use the following information to answer the next two exercises.</em> The following are real data from Santa Clara County, California. As of a certain time, there had been a total of 3,059 documented cases of a disease in the county. They were grouped into the following categories, with risk factors of becoming ill with the disease labeled as Methods A, B, and C and Other:</p>
+          <table xml:id="ch03-element-436">
+            <tabular>
+              <row><cell></cell><cell>Method A</cell><cell>Method B</cell><cell>Method C</cell><cell>Other</cell><cell>Totals</cell></row>
+              <row><cell>Female</cell><cell>0</cell><cell>70</cell><cell>136</cell><cell>49</cell><cell>____</cell></row>
+              <row><cell>Male</cell><cell>2,146</cell><cell>463</cell><cell>60</cell><cell>135</cell><cell>____</cell></row>
+              <row><cell>Totals</cell><cell>____</cell><cell>____</cell><cell>____</cell><cell>____</cell><cell>____</cell></row>
+            </tabular>
+          </table>
+          <p>Suppose a person with a disease in Santa Clara County is randomly selected.</p>
+          <ol>
+            <li>Find <m>P</m>(Person is female).</li>
+            <li>Find <m>P</m>(Person has a risk factor of method C).</li>
+            <li>Find <m>P</m>(Person is female OR has a risk factor of method B).</li>
+            <li>Find <m>P</m>(Person is female AND has a risk factor of method A).</li>
+            <li>Find <m>P</m>(Person is male AND has a risk factor of method B).</li>
+            <li>Find <m>P</m>(Person is female GIVEN person got the disease from method C).</li>
+            <li>Construct a Venn diagram. Make one group females and the other group method C.</li>
+          </ol>
+        </statement>
+        <solution>
+          <p>The completed contingency table is as follows:</p>
+          <ol>
+            <li><m>\frac{255}{3059}</m></li>
+            <li><m>\frac{196}{3059}</m></li>
+            <li><m>\frac{718}{3059}</m></li>
+            <li>0</li>
+            <li><m>\frac{463}{3059}</m></li>
+            <li><m>\frac{136}{196}</m></li>
+            <li></li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="ch03-element-148s">
+        <statement>
+          <p>Answer these questions using probability rules. Do NOT use the contingency table. Three thousand fifty-nine cases of a disease had been reported in Santa Clara County, California, through a certain date. Those cases will be our population. Of those cases, 6.4 percent obtained the disease through method C and 7.4 percent are female. Out of the females with the disease, 53.3 percent got the disease from method C.</p>
+          <ol>
+            <li>Find <m>P</m>(Person is female).</li>
+            <li>Find <m>P</m>(Person obtained the disease through method C).</li>
+            <li>Find <m>P</m>(Person is female GIVEN person got the disease from method C)</li>
+            <li>Construct a Venn diagram representing this situation. Make one group females and the other group method C. Fill in all values as probabilities.</li>
+          </ol>
+        </statement>
+      </exercise>
+    </subsection>
+
+  </section>
   <section xml:id="sec-probability-topics-practice">
     <title>Probability Topics: Practice</title>
     
