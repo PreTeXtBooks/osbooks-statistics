@@ -262,7 +262,7 @@
     </subsection>
 
     <subsection xml:id="eip-99">
-      <exercise xml:id="eip-396">
+      <exercise xml:id="ch03-eip-396">
         <statement>
           <p>In a particular college class, there are male and female students. Some students have long hair and some students have short hair. Write the symbols for the probabilities of the events for parts A through J of this question. Note that you cannot find numerical answers here. You were not given enough information to find any probability values yet; concentrate on understanding the symbols.</p>
           <ul>
@@ -474,7 +474,7 @@
 <nbsp/>Let <m>O</m> = the event that a player is an outfielder.
 <nbsp/>Let <m>H</m> = the event that a player is a great hitter.
 <nbsp/>Let <m>N</m> = the event that a player is not a great hitter.</p>
-      <exercise xml:id="eip-386">
+      <exercise xml:id="ch03-eip-386">
         <statement>
           <p>Write the symbols for the probability that a player is not an outfielder.</p>
         </statement>
@@ -505,7 +505,7 @@
           <p>Write the symbols for the probability that a player is an infielder, given that the player is a great hitter.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-680">
+      <exercise xml:id="ch03-eip-680">
         <statement>
           <p>Write the symbols for the probability that of all the outfielders, a player is not a great hitter.</p>
         </statement>
@@ -539,12 +539,12 @@
           <p><m>P</m>(<m>I</m>)</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-731">
+      <exercise xml:id="ch03-eip-731">
         <statement>
           <p>What is the word for the set of all possible outcomes?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-289">
+      <exercise xml:id="ch03-eip-289">
         <statement>
           <p>What is conditional probability?</p>
         </statement>
@@ -552,7 +552,7 @@
           <p>The likelihood that an event will occur given that another event has already occurred.</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-752">
+      <exercise xml:id="ch03-eip-752">
         <statement>
           <p>A shelf holds 12 books. Eight are fiction and the rest are nonfiction. Each is a different book with a unique title. The fiction books are numbered one to eight. The nonfiction books are numbered one to four. Randomly select one book
 <nbsp/>Let <m>F</m> = event that book is fiction
@@ -786,7 +786,7 @@
           </ol>
         </solution>
       </exercise>
-      <example xml:id="element-56">
+      <example xml:id="ch03-element-56">
         <statement>
           <p>Are <m>C</m> and <m>E</m> mutually exclusive events? Answer yes or no. Why or why not?</p>
         </statement>
@@ -905,7 +905,7 @@
           <p>So <m>P</m>(<m>B</m>) does not equal <m>P</m>(<m>B</m>|<m>A</m>) which means that <m>B</m> and <m>A</m> are not independent (wearing blue and rooting for the away team are not independent). They are also not mutually exclusive, because <m>P</m>(B AND <m>A</m>) = 0.20, not 0.</p>
         </solution>
       </exercise>
-      <example xml:id="eip-31">
+      <example xml:id="ch03-eip-31">
         <title>NOTE</title>
         <statement>
           <p>In a particular class, 60 percent of the students are female. Fifty percent of all students in the class have long hair. Forty-five percent of the students are female and have long hair. Of the female students, 75 percent have long hair. Let <m>F</m> be the event that a student is female. Let <m>L</m> be the event that a student has long hair. One student is picked randomly. Are the events of being female and having long hair independent?</p>
@@ -1009,7 +1009,7 @@
           <p><m>E</m> and <m>F</m> are mutually exclusive events. <m>P</m>(<m>E</m>) =  .4; <m>P</m>(<m>F</m>) = .5. Find <m>P</m>(<m>E</m>∣<m>F</m>).</p>
         </statement>
       </exercise>
-      <exercise xml:id="element-867">
+      <exercise xml:id="ch03-element-867">
         <statement>
           <p><m>J</m> and <m>K</m> are independent events. <m>P</m>(<m>J</m>|<m>K</m>) = .3. Find <m>P</m>(<m>J</m>).</p>
         </statement>
@@ -1045,7 +1045,7 @@
       <figure xml:id="eip-id1171405227589">
         <image source="media/CNX_Stats_C03_RWP_001.jpg" width="100%"/>
       </figure>
-      <exercise xml:id="eip-807">
+      <exercise xml:id="ch03-eip-807">
         <statement>
           <p>Find the probability that a Health Index Score is 82.7.</p>
         </statement>
@@ -1102,7 +1102,7 @@
           <p>What occupation has the lowest emotional index score?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-386">
+      <exercise xml:id="ch03-eip-386">
         <statement>
           <p>What is the range of the data?</p>
         </statement>
@@ -1127,14 +1127,14 @@
 
     <subsection xml:id="fs-idm4259888">
       <title>Bringing It Together</title>
-      <exercise xml:id="element-738">
+      <exercise xml:id="ch03-element-738">
         <statement>
           <p>A previous year, the weights of the members of a California football team and a Texas football team were published in a newspaper The factual data are compiled into .</p>
           <p>For the following, suppose that you randomly select one player from the California team or the Texas team.</p>
           <p>If having a shirt number from one to 33 and weighing at most 210 pounds were independent events, then what should be true about <m>P</m>(Shirt# 1–33|≤ 210 pounds)?</p>
         </statement>
       </exercise>
-      <exercise xml:id="element-750">
+      <exercise xml:id="ch03-element-750">
         <statement>
           <p>The probability that a male develops some form of cancer in his lifetime is .4567. The probability that a male has at least one false-positive test result, meaning the test comes back for cancer when the man does not have it, is .51. Some of the following questions do not have enough information for you to answer them. Write <em>not enough information</em> for those answers. Let <m>C</m> = a man develops cancer in his lifetime and <m>P</m> = a man has at least one false-positive.
 <m>P</m>(<m>C</m>) = ______
@@ -1157,7 +1157,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="eip-959">
+      <exercise xml:id="ch03-eip-959">
         <statement>
           <p>Given events <m>G</m> and <m>H</m>: <m>P</m>(<m>G</m>) = .43; <m>P</m>(<m>H</m>) = .26; <m>P</m>(<m>H</m> AND <m>G</m>) = .14</p>
           <ol>
@@ -1206,7 +1206,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
       <p>Notice that <m>P(\text{green | yellow})=\frac{4}{8}</m>. After the yellow marble is drawn, there are four green marbles in the bag and eight marbles in all.</p>
     </subsection>
 
-    <subsection xml:id="element-56">
+    <subsection xml:id="ch03-element-56">
       <title>The Addition Rule</title>
       <p>If <m>A</m> and <m>B</m> are defined on a sample space, then <m>P</m>(<m>A</m> OR <m>B</m>) = <m>P</m>(<m>A</m>) + <m>P</m>(<m>B</m>) − <m>P</m>(<m>A</m> AND <m>B</m>).</p>
       <p>Draw one card from a standard deck of playing cards. Let <m>H</m> = the card is a heart, and let <m>J</m> = the card is a jack. These events are not mutually exclusive because a card can be both a heart and a jack.</p>
@@ -1244,7 +1244,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
 <nbsp/>Helen makes the first and second free throws with probability 0.6375.</p>
         </solution>
       </exercise>
-      <example xml:id="element-572">
+      <example xml:id="ch03-element-572">
         <statement>
           <p>a. What is the probability that the member is a novice swimmer?</p>
         </statement>
@@ -1293,7 +1293,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           </ol>
         </solution>
       </exercise>
-      <example xml:id="example5">
+      <example xml:id="ch03-example5">
         <statement>
           <p>a. What is the probability that the woman develops the disease? What is the probability that woman tests negative?</p>
         </statement>
@@ -1429,7 +1429,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           <p>Are <m>L</m> and <m>C</m> independent events? Show why or why not.</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercise8">
+      <exercise xml:id="ch03-exercise8">
         <statement>
           <p>Find <m>P</m>(<m>L</m> OR <m>C</m>).</p>
         </statement>
@@ -1442,7 +1442,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           <p>In words, what is <m>L</m> OR <m>C</m>?</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercise10">
+      <exercise xml:id="ch03-exercise10">
         <statement>
           <p>Are <m>L</m> and <m>C</m> mutually exclusive events? Show why or why not.</p>
         </statement>
@@ -1454,7 +1454,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
 
     <subsection xml:id="fs-idm12466720">
       <title>Homework</title>
-      <exercise xml:id="eip-265">
+      <exercise xml:id="ch03-eip-265">
         <statement>
           <p>On February 28, 2013, a Field Poll Survey reported that 61 percent of California registered voters approved of a law that was about to be passed. Among 18- to 39-year olds (California registered voters), the approval rating was 78 percent. Six in 10 California registered voters said that the upcoming Supreme Courts ruling about the constitutionality of the law  was either very or somewhat important to them. Out of those registered voters who supported the law, 75 percent say the ruling is important to them.</p>
           <p>In this problem, let</p>
@@ -1633,7 +1633,7 @@ Are <m>G</m> and <m>E</m> mutually exclusive? Justify your answer numerically.</
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-874">
+      <exercise xml:id="ch03-element-874">
         <title>NOTE</title>
         <statement>
           <p>A special deck of cards has 10 cards. Four are green, three are blue, and three are red. When a card is picked, its color is recorded. An experiment consists of first picking a card and then tossing a coin.</p>
@@ -2029,7 +2029,7 @@ ii</p>
           <row><cell>Total</cell><cell>31</cell><cell>62</cell><cell>37</cell><cell>130</cell></row>
         </tabular>
       </table>
-      <exercise xml:id="eip-976">
+      <exercise xml:id="ch03-eip-976">
         <statement>
           <p>Find <m>P</m>(musician is a female).</p>
         </statement>
@@ -2047,7 +2047,7 @@ ii</p>
           <p>Find <m>P</m>(musician is a female OR is self taught).</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-350">
+      <exercise xml:id="ch03-eip-350">
         <statement>
           <p>Are the events <em>being a female musician</em> and <em>learning music in school</em> mutually exclusive events?</p>
         </statement>
@@ -2062,7 +2062,7 @@ ii</p>
     <subsection xml:id="fs-idm32828224">
       <title>Bringing It Together</title>
       <p>Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of people who use a product in California and Hawaii. In one part of the report, the self-reported ethnicity and using the product levels per day were given. Of the people using the product at most 10 times a day, there were 9,886 African Americans, 2,745 Native Hawaiians, 12,831 Latinos, 8,378 Japanese Americans, and 7,650 whites. Of the people using the product 11 to 20 times per day, there were 6,514 African Americans, 3,062 Native Hawaiians, 4,932 Latinos, 10,680 Japanese Americans, and 9,877 whites. Of the people using the product 21 to 30 times per day, there were 1,671 African Americans, 1,419 Native Hawaiians, 1,406 Latinos, 4,715 Japanese Americans, and 6,062 Whites. Of the people using the product at least 31 times per day, there were 759 African Americans, 788 Native Hawaiians, 800 Latinos, 2,305 Japanese Americans, and 3,970 whites.</p>
-      <exercise xml:id="element-841">
+      <exercise xml:id="ch03-element-841">
         <title>Product Use by Ethnicity</title>
         <statement>
           <p>Complete the table using the data provided. Suppose that one person from the study is randomly selected. Find the probability that person used the product 11 to 20 times a day.</p>
@@ -2128,7 +2128,7 @@ ii</p>
           <p>0</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-714">
+      <exercise xml:id="ch03-eip-714">
         <statement>
           <p>What is the probability that a randomly selected senator would be up for reelection in November 2016?</p>
         </statement>
@@ -2141,12 +2141,12 @@ ii</p>
           <p><m>\frac{10}{67}</m></p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-331">
+      <exercise xml:id="ch03-eip-331">
         <statement>
           <p>What is the probability that a randomly selected senator was a Republican or was up for reelection in November 2014?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-367">
+      <exercise xml:id="ch03-eip-367">
         <statement>
           <p>Suppose that a member of the U.S. Senate is randomly selected. Given that the randomly selected senator was up for reelection in November 2016, what is the probability that this senator was a Democrat?</p>
         </statement>
@@ -2159,7 +2159,7 @@ ii</p>
           <p>Suppose that a member of the U.S. Senate is randomly selected. What is the probability that the senator was up for reelection in November 2014, knowing that this senator was a Republican?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-88">
+      <exercise xml:id="ch03-eip-88">
         <statement>
           <p>The events <em>Republican</em> and <em>Up for reelection in 2016</em> are ________.</p>
           <ol>
@@ -2173,7 +2173,7 @@ ii</p>
           <p>d</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-165">
+      <exercise xml:id="ch03-eip-165">
         <statement>
           <p>The events <em>Other</em> and <em>Up for reelection in November 2016</em> are ________.</p>
           <ol>
@@ -2206,7 +2206,7 @@ ii</p>
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-940">
+      <exercise xml:id="ch03-element-940">
         <statement>
           <p>Find <m>P</m>(Hit was made by Ty Cobb|The hit was a Home Run).</p>
           <ol>
@@ -2220,7 +2220,7 @@ ii</p>
           <p>b</p>
         </solution>
       </exercise>
-      <exercise xml:id="element-782">
+      <exercise xml:id="ch03-element-782">
         <statement>
           <p>identifies a group of children by one of four hair colors, and by type of hair.</p>
           <table xml:id="M05_ch03-tbl021">
@@ -2242,7 +2242,7 @@ ii</p>
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-738">
+      <exercise xml:id="ch03-element-738">
         <statement>
           <p>In a previous year, the weights of the members of a California football team and a Texas football team were published in a newspaper. The factual data were compiled into the following table. The weights in the column headings are in pounds.</p>
           <table xml:id="element-13">
@@ -2318,7 +2318,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
           <p><m>P</m>(<m>FF</m>) = <m>\frac{144}{\text{144 + 480 + 480 + 1,600}}=\frac{144}{2,704}=\frac{9}{169}</m></p>
         </solution>
       </exercise>
-      <example xml:id="element-841">
+      <example xml:id="ch03-element-841">
         <title>NOTE</title>
         <statement>
           <p>a. <m>P</m>(<m>RR</m>) = ________</p>
@@ -2376,7 +2376,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
     <subsection xml:id="eip-922">
       <title>Venn Diagram</title>
       <p>A <term>Venn diagram</term> is a picture that represents the outcomes of an experiment. It generally consists of a box that represents the sample space <m>S</m> together with circles or ovals. The circles or ovals represent events.</p>
-      <example xml:id="element-513">
+      <example xml:id="ch03-element-513">
         <statement>
           <p>Suppose an experiment has the outcomes 1, 2, 3, . . . , 12 where each outcome has an equal chance of occurring. Let event <m>A</m> = {1, 2, 3, 4, 5, 6} and event <m>B</m> = {6, 7, 8, 9}. Then <m>A</m> AND <m>B</m> = {6} and <m>A</m> OR <m>B</m> = {1, 2, 3, 4, 5, 6, 7, 8, 9}. The Venn diagram is as follows:</p>
           <figure xml:id="eip-idm17287840">
@@ -2514,7 +2514,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
     </subsection>
 
     <subsection xml:id="fs-idp14696688">
-      <exercise xml:id="element-750">
+      <exercise xml:id="ch03-element-750">
         <statement>
           <p>The probability that a man develops some form of cancer in his lifetime is 0.4567. The probability that a man has at least one false-positive test result, meaning the test comes back for cancer when the man does not have it, is .51. Let <m>C</m> = a man develops cancer in his lifetime; <m>P</m> = a man has at least one false-positive test. Construct a tree diagram of the situation.</p>
         </statement>
@@ -2598,7 +2598,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-606">
+      <exercise xml:id="ch03-element-606">
         <statement>
           <p>Suppose that you randomly draw two cards, one at a time, without replacement.
 <nbsp/><em>G_{1}</em> = first card is green
@@ -2613,7 +2613,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
         </statement>
       </exercise>
       <p><em>Use the following information to answer the next two exercises.</em> The percent of licensed U.S. drivers (from a recent year) who are female is 48.60. Of the females, 5.03 percent are age 19 and under; 81.36 percent are age 20–64; 13.61 percent are age 65 or over. Of the licensed U.S. male drivers, 5.04 percent are age 19 and under; 81.43 percent are age 20–64; 13.53 percent are age 65 or over.</p>
-      <exercise xml:id="element-950">
+      <exercise xml:id="ch03-element-950">
         <statement>
           <p>Complete the following:</p>
           <ol>
@@ -2660,7 +2660,7 @@ Totals
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-175">
+      <exercise xml:id="ch03-element-175">
         <statement>
           <p>Suppose that 10,000 U.S. licensed drivers are randomly selected.</p>
           <ol>
