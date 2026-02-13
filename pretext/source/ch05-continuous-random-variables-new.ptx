@@ -364,31 +364,6 @@
         </solution>
       </exercise>
     </subsection>
-
-    <subsection xml:id="subsec-homework-continuous">
-      <title>Homework</title>
-
-      <p><em>For each probability and percentile problem, draw the picture.</em></p>
-
-      <exercise xml:id="ex-homework-01">
-        <statement>
-          <p>Consider the following experiment. You are one of 100 people enlisted to take part in a study to determine percentage of nurses in America with an R.N. (registered nurse) degree. You ask nurses if they have an R.N. degree. The nurses answer yes or no. You then calculate the percentage of nurses with an R.N. degree. You give that percentage to your supervisor.</p>
-          <ol>
-            <li>What part of the experiment will yield discrete data?</li>
-            <li>What part of the experiment will yield continuous data?</li>
-          </ol>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="ex-homework-02">
-        <statement>
-          <p>When age is rounded to the nearest year, do the data stay continuous, or do they become discrete? Why?</p>
-        </statement>
-        <solution>
-          <p>Age is a measurement, regardless of the accuracy used.</p>
-        </solution>
-      </exercise>
-    </subsection>
   </section>
 
 <section xml:id="sec-uniform-distribution" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -2689,6 +2664,31 @@ Therefore, <em>m</em> = <m>
       <li>Suppose that the number of values generated was 500, not 50. How would that affect what you would expect the empirical data to be and the shape of its graph to look like?</li>
     </ol>
   </note>
+</section>
+
+<section xml:id="sec-continuous-random-variables-homework">
+  <title>Homework</title>
+
+  <p><em>For each probability and percentile problem, draw the picture.</em></p>
+
+  <exercise xml:id="ex-homework-01">
+    <statement>
+      <p>Consider the following experiment. You are one of 100 people enlisted to take part in a study to determine percentage of nurses in America with an R.N. (registered nurse) degree. You ask nurses if they have an R.N. degree. The nurses answer yes or no. You then calculate the percentage of nurses with an R.N. degree. You give that percentage to your supervisor.</p>
+      <ol>
+        <li>What part of the experiment will yield discrete data?</li>
+        <li>What part of the experiment will yield continuous data?</li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="ex-homework-02">
+    <statement>
+      <p>When age is rounded to the nearest year, do the data stay continuous, or do they become discrete? Why?</p>
+    </statement>
+    <solution>
+      <p>Age is a measurement, regardless of the accuracy used.</p>
+    </solution>
+  </exercise>
 </section>
 
 </chapter>
