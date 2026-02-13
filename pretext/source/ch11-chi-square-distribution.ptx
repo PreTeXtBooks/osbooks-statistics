@@ -338,21 +338,23 @@ sure you clear any lists before you start.</p>
       <p>The expected value for each cell needs to be at least five for you to use this test.</p>
     </note>
     <example xml:id="element-54">
-      <p>Suppose <m>A</m> = a speeding violation in the last year and <m>B</m> = a cell phone user while driving. If <m>A</m> and <m>B</m> are independent, then <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>). <m>A</m> AND <m>B</m> is the event that a driver received a speeding violation last year and also used a cell phone while driving. Suppose, in a study of drivers who received speeding violations in the last year, and who used cell phones while driving, that 755 people were surveyed. Out of the 755, 70 had a speeding violation and 685 did not; 305 used cell phones while driving and 450 did not.</p>
-      <p>Let <m>y</m> = expected number of drivers who used a cell phone while driving and received speeding violations.</p>
-      <p>If <m>A</m> and <m>B</m> are independent, then <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>). By substitution,</p>
-      <p><m>\frac{y}{755}=(\frac{70}{755})(\frac{305}{755})\text{.}</m></p>
-      <p>Solve for <m>y</m>: <m>y</m> = <m>\frac{(70)(305)}{755}=28.3\text{.}</m></p>
-      <p>About 28 people from the sample are expected to use cell phones while driving and to receive speeding violations.</p>
-      <p>In a test of independence, we state the null and alternative hypotheses in words. Since the contingency table consists of two factors, the null hypothesis states that the factors are independent and the alternative hypothesis states that they are not independent (dependent). If we do a test of independence using the example, then the null hypothesis is the following:</p>
-      <p><em>H_{0}</em>: Being a cell phone user while driving and receiving a speeding violation are independent events.</p>
-      <p>If the null hypothesis were true, we would expect about 28 people to use cell phones while driving and to receive a speeding violation.</p>
-      <p>The test of independence is always right-tailed because of the calculation of the test statistic. If the expected and observed values are not close together, then the test statistic is very large and way out in the right tail of the chi-square curve, as it is in a goodness-of-fit.</p>
-      <p>The number of degrees of freedom for the test of independence is</p>
-      <p><m>df</m> = (number of columns – 1)(number of rows – 1).</p>
-      <p>The following formula calculates the expected number (<m>E</m>):</p>
-      <p><m>E=\frac{(row total)(column total)}{total number surveyed}</m></p>
-    </example>
+        <statement>
+          <p>Suppose <m>A</m> = a speeding violation in the last year and <m>B</m> = a cell phone user while driving. If <m>A</m> and <m>B</m> are independent, then <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>). <m>A</m> AND <m>B</m> is the event that a driver received a speeding violation last year and also used a cell phone while driving. Suppose, in a study of drivers who received speeding violations in the last year, and who used cell phones while driving, that 755 people were surveyed. Out of the 755, 70 had a speeding violation and 685 did not; 305 used cell phones while driving and 450 did not.</p>
+          <p>Let <m>y</m> = expected number of drivers who used a cell phone while driving and received speeding violations.</p>
+          <p>If <m>A</m> and <m>B</m> are independent, then <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>A</m>)<m>P</m>(<m>B</m>). By substitution,</p>
+          <p><m>\frac{y}{755}=(\frac{70}{755})(\frac{305}{755})\text{.}</m></p>
+          <p>Solve for <m>y</m>: <m>y</m> = <m>\frac{(70)(305)}{755}=28.3\text{.}</m></p>
+          <p>About 28 people from the sample are expected to use cell phones while driving and to receive speeding violations.</p>
+          <p>In a test of independence, we state the null and alternative hypotheses in words. Since the contingency table consists of two factors, the null hypothesis states that the factors are independent and the alternative hypothesis states that they are not independent (dependent). If we do a test of independence using the example, then the null hypothesis is the following:</p>
+          <p><em>H_{0}</em>: Being a cell phone user while driving and receiving a speeding violation are independent events.</p>
+          <p>If the null hypothesis were true, we would expect about 28 people to use cell phones while driving and to receive a speeding violation.</p>
+          <p>The test of independence is always right-tailed because of the calculation of the test statistic. If the expected and observed values are not close together, then the test statistic is very large and way out in the right tail of the chi-square curve, as it is in a goodness-of-fit.</p>
+          <p>The number of degrees of freedom for the test of independence is</p>
+          <p><m>df</m> = (number of columns – 1)(number of rows – 1).</p>
+          <p>The following formula calculates the expected number (<m>E</m>):</p>
+          <p><m>E=\frac{(row total)(column total)}{total number surveyed}</m></p>
+        </statement>
+      </example>
     <exercise xml:id="ch11-eip-298">
       <title>Try It</title>
       <statement>

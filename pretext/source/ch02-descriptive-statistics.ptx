@@ -39,7 +39,10 @@
     <p>One simple graph, the <em>stem-and-leaf graph</em> or <em>stemplot</em>, comes from the field of exploratory data analysis. It is a good choice when the data sets are small. To create the plot, divide each observation of data into a stem and a leaf. The stem consists of the leading digit(s), while the leaf consists of a <term>final significant digit</term>. For example, 23 has stem two and leaf three. The number 432 has stem 43 and leaf two. Likewise, the number 5,432 has stem 543 and leaf two. The decimal 9.3 has stem nine and leaf three. Write the stems in a vertical line from smallest to largest. Draw a vertical line to the right of the stems. Then write the leaves in increasing order next to their corresponding stem. Make sure the leaves show a space between values, so that the exact data values may be easily determined. The frequency of data values for each stem provides information about the shape of the distribution.</p>
 
     <example xml:id="element-696">
-      <p>For Susan Dean's spring precalculus class, scores for the first exam were as follows (smallest to largest):
+
+      <statement>
+
+        <p>For Susan Dean's spring precalculus class, scores for the first exam were as follows (smallest to largest):
 
 
  33, 42, 49, 49, 53, 55, 55, 61, 63, 67, 68, 68, 69, 69, 72, 73, 74, 78, 80, 83, 88, 88, 88, 90, 92, 94, 94, 94, 94, 96, 100</p>
@@ -85,6 +88,9 @@
         </tabular>
       </table>
       <p>The stemplot shows that most scores fell in the 60s, 70s, 80s, and 90s. Eight out of the 31 scores or approximately 26 percent <m>(\frac{8}{31})</m> were in the 90s or 100, a fairly high number of As.</p>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -128,77 +134,79 @@ Construct a stemplot for the data.</p>
     <p>The stemplot is a quick way to graph data and gives an exact picture of the data. You want to look for an overall pattern and any outliers. An <term>outlier</term> is an observation of data that does not fit the rest of the data. It is sometimes called an <em>extreme value.</em> When you graph an outlier, it will appear not to fit the pattern of the graph. Some outliers are due to mistakes, for example, writing 50 instead of 500, while others may indicate that something unusual is happening. It takes some background information to explain outliers, so we will cover them in more detail later.</p>
 
     <example xml:id="element-798">
-      <p>The data are the distances (in kilometers) from a home to local supermarkets. Create a stemplot using the data.
+        <statement>
+<p>The data are the distances (in kilometers) from a home to local supermarkets. Create a stemplot using the data.
 
 1.1, 1.5, 2.3, 2.5, 2.7, 3.2, 3.3, 3.3, 3.5, 3.8, 4.0, 4.2, 4.5, 4.5, 4.7, 4.8, 5.5, 5.6, 6.5, 6.7, 12.3</p>
-      <task xml:id="element-6923">
-        <statement>
-          <p>Do the data seem to have any concentration of values?</p>
-          <hint>
-            <p>The leaves are to the right of the decimal.</p>
-          </hint>
+          <task xml:id="element-6923">
+            <statement>
+              <p>Do the data seem to have any concentration of values?</p>
+              <hint>
+                <p>The leaves are to the right of the decimal.</p>
+              </hint>
+            </statement>
+            <solution>
+              <p>The value 12.3 may be an outlier. Values appear to concentrate at 3 and 4 kilometers.</p>
+              <table>
+                <tabular>
+                  <row header="yes">
+                    <cell>Stem</cell>
+                    <cell>Leaf</cell>
+                  </row>
+                  <row>
+                    <cell>1</cell>
+                    <cell>1 5</cell>
+                  </row>
+                  <row>
+                    <cell>2</cell>
+                    <cell>3 5 7</cell>
+                  </row>
+                  <row>
+                    <cell>3</cell>
+                    <cell>2 3 3 5 8</cell>
+                  </row>
+                  <row>
+                    <cell>4</cell>
+                    <cell>0 2 5 5 7 8</cell>
+                  </row>
+                  <row>
+                    <cell>5</cell>
+                    <cell>5 6</cell>
+                  </row>
+                  <row>
+                    <cell>6</cell>
+                    <cell>5 7</cell>
+                  </row>
+                  <row>
+                    <cell>7</cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>8</cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>9</cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>10</cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>11</cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>12</cell>
+                    <cell>3</cell>
+                  </row>
+                </tabular>
+              </table>
+            </solution>
+          </task>
         </statement>
-        <solution>
-          <p>The value 12.3 may be an outlier. Values appear to concentrate at 3 and 4 kilometers.</p>
-          <table>
-            <tabular>
-              <row header="yes">
-                <cell>Stem</cell>
-                <cell>Leaf</cell>
-              </row>
-              <row>
-                <cell>1</cell>
-                <cell>1 5</cell>
-              </row>
-              <row>
-                <cell>2</cell>
-                <cell>3 5 7</cell>
-              </row>
-              <row>
-                <cell>3</cell>
-                <cell>2 3 3 5 8</cell>
-              </row>
-              <row>
-                <cell>4</cell>
-                <cell>0 2 5 5 7 8</cell>
-              </row>
-              <row>
-                <cell>5</cell>
-                <cell>5 6</cell>
-              </row>
-              <row>
-                <cell>6</cell>
-                <cell>5 7</cell>
-              </row>
-              <row>
-                <cell>7</cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>8</cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>9</cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>10</cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>11</cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>12</cell>
-                <cell>3</cell>
-              </row>
-            </tabular>
-          </table>
-        </solution>
-      </task>
-    </example>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -257,320 +265,322 @@ Construct a stemplot for the data.</p>
     </exercise>
 
     <example xml:id="fs-idp11879648">
-      <task xml:id="fs-idp161531440">
         <statement>
-          <p>A <em>side-by-side stem-and-leaf plot</em> allows a comparison of the two data sets in two columns. In a side-by-side stem-and-leaf plot, two sets of leaves share the same stem. The leaves are to the left and the right of the stems.  and  show the ages of presidents at their inauguration and at their death. Construct a side-by-side stem-and-leaf plot using these data.</p>
-          <table>
-            <title>Presidential Ages at Inauguration</title>
-            <tabular>
-              <row header="yes">
-                <cell>President</cell>
-                <cell>Age</cell>
-                <cell>President</cell>
-                <cell>Age</cell>
-                <cell>President</cell>
-                <cell>Age</cell>
-              </row>
-              <row>
-                <cell>Washington</cell>
-                <cell>57</cell>
-                <cell>Lincoln</cell>
-                <cell>52</cell>
-                <cell>Hoover</cell>
-                <cell>54</cell>
-              </row>
-              <row>
-                <cell>J. Adams</cell>
-                <cell>61</cell>
-                <cell>A. Johnson</cell>
-                <cell>56</cell>
-                <cell>F. Roosevelt</cell>
-                <cell>51</cell>
-              </row>
-              <row>
-                <cell>Jefferson</cell>
-                <cell>57</cell>
-                <cell>Grant</cell>
-                <cell>46</cell>
-                <cell>Truman</cell>
-                <cell>60</cell>
-              </row>
-              <row>
-                <cell>Madison</cell>
-                <cell>57</cell>
-                <cell>Hayes</cell>
-                <cell>54</cell>
-                <cell>Eisenhower</cell>
-                <cell>62</cell>
-              </row>
-              <row>
-                <cell>Monroe</cell>
-                <cell>58</cell>
-                <cell>Garfield</cell>
-                <cell>49</cell>
-                <cell>Kennedy</cell>
-                <cell>43</cell>
-              </row>
-              <row>
-                <cell>J. Q. Adams</cell>
-                <cell>57</cell>
-                <cell>Arthur</cell>
-                <cell>51</cell>
-                <cell>L. Johnson</cell>
-                <cell>55</cell>
-              </row>
-              <row>
-                <cell>Jackson</cell>
-                <cell>61</cell>
-                <cell>Cleveland</cell>
-                <cell>47</cell>
-                <cell>Nixon</cell>
-                <cell>56</cell>
-              </row>
-              <row>
-                <cell>Van Buren</cell>
-                <cell>54</cell>
-                <cell>B. Harrison</cell>
-                <cell>55</cell>
-                <cell>Ford</cell>
-                <cell>61</cell>
-              </row>
-              <row>
-                <cell>W. H. Harrison</cell>
-                <cell>68</cell>
-                <cell>Cleveland</cell>
-                <cell>55</cell>
-                <cell>Carter</cell>
-                <cell>52</cell>
-              </row>
-              <row>
-                <cell>Tyler</cell>
-                <cell>51</cell>
-                <cell>McKinley</cell>
-                <cell>54</cell>
-                <cell>Reagan</cell>
-                <cell>69</cell>
-              </row>
-              <row>
-                <cell>Polk</cell>
-                <cell>49</cell>
-                <cell>T. Roosevelt</cell>
-                <cell>42</cell>
-                <cell>G.H.W. Bush</cell>
-                <cell>64</cell>
-              </row>
-              <row>
-                <cell>Taylor</cell>
-                <cell>64</cell>
-                <cell>Taft</cell>
-                <cell>51</cell>
-                <cell>Clinton</cell>
-                <cell>47</cell>
-              </row>
-              <row>
-                <cell>Fillmore</cell>
-                <cell>50</cell>
-                <cell>Wilson</cell>
-                <cell>56</cell>
-                <cell>G. W. Bush</cell>
-                <cell>54</cell>
-              </row>
-              <row>
-                <cell>Pierce</cell>
-                <cell>48</cell>
-                <cell>Harding</cell>
-                <cell>55</cell>
-                <cell>Obama</cell>
-                <cell>47</cell>
-              </row>
-              <row>
-                <cell>Buchanan</cell>
-                <cell>65</cell>
-                <cell>Coolidge</cell>
-                <cell>51</cell>
-                <cell></cell>
-                <cell></cell>
-              </row>
-            </tabular>
-          </table>
-          <table>
-            <title>Presidential Age at Death</title>
-            <tabular>
-              <row header="yes">
-                <cell>President</cell>
-                <cell>Age</cell>
-                <cell>President</cell>
-                <cell>Age</cell>
-                <cell>President</cell>
-                <cell>Age</cell>
-              </row>
-              <row>
-                <cell>Washington</cell>
-                <cell>67</cell>
-                <cell>Lincoln</cell>
-                <cell>56</cell>
-                <cell>Hoover</cell>
-                <cell>90</cell>
-              </row>
-              <row>
-                <cell>J. Adams</cell>
-                <cell>90</cell>
-                <cell>A. Johnson</cell>
-                <cell>66</cell>
-                <cell>F. Roosevelt</cell>
-                <cell>63</cell>
-              </row>
-              <row>
-                <cell>Jefferson</cell>
-                <cell>83</cell>
-                <cell>Grant</cell>
-                <cell>63</cell>
-                <cell>Truman</cell>
-                <cell>88</cell>
-              </row>
-              <row>
-                <cell>Madison</cell>
-                <cell>85</cell>
-                <cell>Hayes</cell>
-                <cell>70</cell>
-                <cell>Eisenhower</cell>
-                <cell>78</cell>
-              </row>
-              <row>
-                <cell>Monroe</cell>
-                <cell>73</cell>
-                <cell>Garfield</cell>
-                <cell>49</cell>
-                <cell>Kennedy</cell>
-                <cell>46</cell>
-              </row>
-              <row>
-                <cell>J. Q. Adams</cell>
-                <cell>80</cell>
-                <cell>Arthur</cell>
-                <cell>56</cell>
-                <cell>L. Johnson</cell>
-                <cell>64</cell>
-              </row>
-              <row>
-                <cell>Jackson</cell>
-                <cell>78</cell>
-                <cell>Cleveland</cell>
-                <cell>71</cell>
-                <cell>Nixon</cell>
-                <cell>81</cell>
-              </row>
-              <row>
-                <cell>Van Buren</cell>
-                <cell>79</cell>
-                <cell>B. Harrison</cell>
-                <cell>67</cell>
-                <cell>Ford</cell>
-                <cell>93</cell>
-              </row>
-              <row>
-                <cell>W. H. Harrison</cell>
-                <cell>68</cell>
-                <cell>Cleveland</cell>
-                <cell>71</cell>
-                <cell>Reagan</cell>
-                <cell>93</cell>
-              </row>
-              <row>
-                <cell>Tyler</cell>
-                <cell>71</cell>
-                <cell>McKinley</cell>
-                <cell>58</cell>
-                <cell></cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>Polk</cell>
-                <cell>53</cell>
-                <cell>T. Roosevelt</cell>
-                <cell>60</cell>
-                <cell></cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>Taylor</cell>
-                <cell>65</cell>
-                <cell>Taft</cell>
-                <cell>72</cell>
-                <cell></cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>Fillmore</cell>
-                <cell>74</cell>
-                <cell>Wilson</cell>
-                <cell>67</cell>
-                <cell></cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>Pierce</cell>
-                <cell>64</cell>
-                <cell>Harding</cell>
-                <cell>57</cell>
-                <cell></cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>Buchanan</cell>
-                <cell>77</cell>
-                <cell>Coolidge</cell>
-                <cell>60</cell>
-                <cell></cell>
-                <cell></cell>
-              </row>
-            </tabular>
-          </table>
+          <task xml:id="fs-idp161531440">
+            <statement>
+              <p>A <em>side-by-side stem-and-leaf plot</em> allows a comparison of the two data sets in two columns. In a side-by-side stem-and-leaf plot, two sets of leaves share the same stem. The leaves are to the left and the right of the stems.  and  show the ages of presidents at their inauguration and at their death. Construct a side-by-side stem-and-leaf plot using these data.</p>
+              <table>
+                <title>Presidential Ages at Inauguration</title>
+                <tabular>
+                  <row header="yes">
+                    <cell>President</cell>
+                    <cell>Age</cell>
+                    <cell>President</cell>
+                    <cell>Age</cell>
+                    <cell>President</cell>
+                    <cell>Age</cell>
+                  </row>
+                  <row>
+                    <cell>Washington</cell>
+                    <cell>57</cell>
+                    <cell>Lincoln</cell>
+                    <cell>52</cell>
+                    <cell>Hoover</cell>
+                    <cell>54</cell>
+                  </row>
+                  <row>
+                    <cell>J. Adams</cell>
+                    <cell>61</cell>
+                    <cell>A. Johnson</cell>
+                    <cell>56</cell>
+                    <cell>F. Roosevelt</cell>
+                    <cell>51</cell>
+                  </row>
+                  <row>
+                    <cell>Jefferson</cell>
+                    <cell>57</cell>
+                    <cell>Grant</cell>
+                    <cell>46</cell>
+                    <cell>Truman</cell>
+                    <cell>60</cell>
+                  </row>
+                  <row>
+                    <cell>Madison</cell>
+                    <cell>57</cell>
+                    <cell>Hayes</cell>
+                    <cell>54</cell>
+                    <cell>Eisenhower</cell>
+                    <cell>62</cell>
+                  </row>
+                  <row>
+                    <cell>Monroe</cell>
+                    <cell>58</cell>
+                    <cell>Garfield</cell>
+                    <cell>49</cell>
+                    <cell>Kennedy</cell>
+                    <cell>43</cell>
+                  </row>
+                  <row>
+                    <cell>J. Q. Adams</cell>
+                    <cell>57</cell>
+                    <cell>Arthur</cell>
+                    <cell>51</cell>
+                    <cell>L. Johnson</cell>
+                    <cell>55</cell>
+                  </row>
+                  <row>
+                    <cell>Jackson</cell>
+                    <cell>61</cell>
+                    <cell>Cleveland</cell>
+                    <cell>47</cell>
+                    <cell>Nixon</cell>
+                    <cell>56</cell>
+                  </row>
+                  <row>
+                    <cell>Van Buren</cell>
+                    <cell>54</cell>
+                    <cell>B. Harrison</cell>
+                    <cell>55</cell>
+                    <cell>Ford</cell>
+                    <cell>61</cell>
+                  </row>
+                  <row>
+                    <cell>W. H. Harrison</cell>
+                    <cell>68</cell>
+                    <cell>Cleveland</cell>
+                    <cell>55</cell>
+                    <cell>Carter</cell>
+                    <cell>52</cell>
+                  </row>
+                  <row>
+                    <cell>Tyler</cell>
+                    <cell>51</cell>
+                    <cell>McKinley</cell>
+                    <cell>54</cell>
+                    <cell>Reagan</cell>
+                    <cell>69</cell>
+                  </row>
+                  <row>
+                    <cell>Polk</cell>
+                    <cell>49</cell>
+                    <cell>T. Roosevelt</cell>
+                    <cell>42</cell>
+                    <cell>G.H.W. Bush</cell>
+                    <cell>64</cell>
+                  </row>
+                  <row>
+                    <cell>Taylor</cell>
+                    <cell>64</cell>
+                    <cell>Taft</cell>
+                    <cell>51</cell>
+                    <cell>Clinton</cell>
+                    <cell>47</cell>
+                  </row>
+                  <row>
+                    <cell>Fillmore</cell>
+                    <cell>50</cell>
+                    <cell>Wilson</cell>
+                    <cell>56</cell>
+                    <cell>G. W. Bush</cell>
+                    <cell>54</cell>
+                  </row>
+                  <row>
+                    <cell>Pierce</cell>
+                    <cell>48</cell>
+                    <cell>Harding</cell>
+                    <cell>55</cell>
+                    <cell>Obama</cell>
+                    <cell>47</cell>
+                  </row>
+                  <row>
+                    <cell>Buchanan</cell>
+                    <cell>65</cell>
+                    <cell>Coolidge</cell>
+                    <cell>51</cell>
+                    <cell></cell>
+                    <cell></cell>
+                  </row>
+                </tabular>
+              </table>
+              <table>
+                <title>Presidential Age at Death</title>
+                <tabular>
+                  <row header="yes">
+                    <cell>President</cell>
+                    <cell>Age</cell>
+                    <cell>President</cell>
+                    <cell>Age</cell>
+                    <cell>President</cell>
+                    <cell>Age</cell>
+                  </row>
+                  <row>
+                    <cell>Washington</cell>
+                    <cell>67</cell>
+                    <cell>Lincoln</cell>
+                    <cell>56</cell>
+                    <cell>Hoover</cell>
+                    <cell>90</cell>
+                  </row>
+                  <row>
+                    <cell>J. Adams</cell>
+                    <cell>90</cell>
+                    <cell>A. Johnson</cell>
+                    <cell>66</cell>
+                    <cell>F. Roosevelt</cell>
+                    <cell>63</cell>
+                  </row>
+                  <row>
+                    <cell>Jefferson</cell>
+                    <cell>83</cell>
+                    <cell>Grant</cell>
+                    <cell>63</cell>
+                    <cell>Truman</cell>
+                    <cell>88</cell>
+                  </row>
+                  <row>
+                    <cell>Madison</cell>
+                    <cell>85</cell>
+                    <cell>Hayes</cell>
+                    <cell>70</cell>
+                    <cell>Eisenhower</cell>
+                    <cell>78</cell>
+                  </row>
+                  <row>
+                    <cell>Monroe</cell>
+                    <cell>73</cell>
+                    <cell>Garfield</cell>
+                    <cell>49</cell>
+                    <cell>Kennedy</cell>
+                    <cell>46</cell>
+                  </row>
+                  <row>
+                    <cell>J. Q. Adams</cell>
+                    <cell>80</cell>
+                    <cell>Arthur</cell>
+                    <cell>56</cell>
+                    <cell>L. Johnson</cell>
+                    <cell>64</cell>
+                  </row>
+                  <row>
+                    <cell>Jackson</cell>
+                    <cell>78</cell>
+                    <cell>Cleveland</cell>
+                    <cell>71</cell>
+                    <cell>Nixon</cell>
+                    <cell>81</cell>
+                  </row>
+                  <row>
+                    <cell>Van Buren</cell>
+                    <cell>79</cell>
+                    <cell>B. Harrison</cell>
+                    <cell>67</cell>
+                    <cell>Ford</cell>
+                    <cell>93</cell>
+                  </row>
+                  <row>
+                    <cell>W. H. Harrison</cell>
+                    <cell>68</cell>
+                    <cell>Cleveland</cell>
+                    <cell>71</cell>
+                    <cell>Reagan</cell>
+                    <cell>93</cell>
+                  </row>
+                  <row>
+                    <cell>Tyler</cell>
+                    <cell>71</cell>
+                    <cell>McKinley</cell>
+                    <cell>58</cell>
+                    <cell></cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>Polk</cell>
+                    <cell>53</cell>
+                    <cell>T. Roosevelt</cell>
+                    <cell>60</cell>
+                    <cell></cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>Taylor</cell>
+                    <cell>65</cell>
+                    <cell>Taft</cell>
+                    <cell>72</cell>
+                    <cell></cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>Fillmore</cell>
+                    <cell>74</cell>
+                    <cell>Wilson</cell>
+                    <cell>67</cell>
+                    <cell></cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>Pierce</cell>
+                    <cell>64</cell>
+                    <cell>Harding</cell>
+                    <cell>57</cell>
+                    <cell></cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>Buchanan</cell>
+                    <cell>77</cell>
+                    <cell>Coolidge</cell>
+                    <cell>60</cell>
+                    <cell></cell>
+                    <cell></cell>
+                  </row>
+                </tabular>
+              </table>
+            </statement>
+            <solution>
+              <table>
+                <tabular>
+                  <row header="yes">
+                    <cell>Ages at Inauguration</cell>
+                    <cell></cell>
+                    <cell>Ages at Death</cell>
+                  </row>
+                  <row>
+                    <cell>9 9 8 7 7 7 6 3 2</cell>
+                    <cell>4</cell>
+                    <cell>6 9</cell>
+                  </row>
+                  <row>
+                    <cell>8 7 7 7 7 6 6 6 5 5 5 5 4 4 4 4 4 2 1 1 1 1 1 0</cell>
+                    <cell>5</cell>
+                    <cell>3 6 6 7 7 8</cell>
+                  </row>
+                  <row>
+                    <cell>9 5 4 4 2 1 1 1 0</cell>
+                    <cell>6</cell>
+                    <cell>0 0 3 3 4 4 5 6 7 7 7 8</cell>
+                  </row>
+                  <row>
+                    <cell></cell>
+                    <cell>7</cell>
+                    <cell>0 0 1 1 1 4 7 8 8 9</cell>
+                  </row>
+                  <row>
+                    <cell></cell>
+                    <cell>8</cell>
+                    <cell>0 1 3 5 8</cell>
+                  </row>
+                  <row>
+                    <cell></cell>
+                    <cell>9</cell>
+                    <cell>0 0 3 3</cell>
+                  </row>
+                </tabular>
+              </table>
+              <p>Notice that the leaf values increase in order, from right to left, for leaves shown to the left of the stem, while the leaf values increase in order from left to right, for leaves shown to the right of the stem.</p>
+            </solution>
+          </task>
         </statement>
-        <solution>
-          <table>
-            <tabular>
-              <row header="yes">
-                <cell>Ages at Inauguration</cell>
-                <cell></cell>
-                <cell>Ages at Death</cell>
-              </row>
-              <row>
-                <cell>9 9 8 7 7 7 6 3 2</cell>
-                <cell>4</cell>
-                <cell>6 9</cell>
-              </row>
-              <row>
-                <cell>8 7 7 7 7 6 6 6 5 5 5 5 4 4 4 4 4 2 1 1 1 1 1 0</cell>
-                <cell>5</cell>
-                <cell>3 6 6 7 7 8</cell>
-              </row>
-              <row>
-                <cell>9 5 4 4 2 1 1 1 0</cell>
-                <cell>6</cell>
-                <cell>0 0 3 3 4 4 5 6 7 7 7 8</cell>
-              </row>
-              <row>
-                <cell></cell>
-                <cell>7</cell>
-                <cell>0 0 1 1 1 4 7 8 8 9</cell>
-              </row>
-              <row>
-                <cell></cell>
-                <cell>8</cell>
-                <cell>0 1 3 5 8</cell>
-              </row>
-              <row>
-                <cell></cell>
-                <cell>9</cell>
-                <cell>0 0 3 3</cell>
-              </row>
-            </tabular>
-          </table>
-          <p>Notice that the leaf values increase in order, from right to left, for leaves shown to the left of the stem, while the leaf values increase in order from left to right, for leaves shown to the right of the stem.</p>
-        </solution>
-      </task>
-    </example>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -806,7 +816,10 @@ Construct a stemplot for the data.</p>
     <p>Another type of graph that is useful for specific data values is a <em>line graph</em>. In the particular line graph shown in , the <em><em>x</em>-axis</em> (horizontal axis) consists of <em>data values</em> and the <em><em>y</em>-axis</em> (vertical axis) consists of <em>frequency points</em>. The frequency points are connected  using line segments.</p>
 
     <example xml:id="example4">
-      <p>In a survey, 40 mothers were asked how many times per week a teenager must be reminded to do his or her chores. The results are shown in  and in .</p>
+
+      <statement>
+
+        <p>In a survey, 40 mothers were asked how many times per week a teenager must be reminded to do his or her chores. The results are shown in  and in .</p>
       <table>
         <tabular>
           <row header="yes">
@@ -843,6 +856,9 @@ Teenager Is Reminded</cell>
       <figure xml:id="M01_Ch02_fig001">
         <image source="media/fig-ch_02_03_01.jpg" width="80%"/>
       </figure>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -884,41 +900,43 @@ Teenager Is Reminded</cell>
     <p><em>Bar graphs</em> consist of bars that are separated from each other. The bars can be rectangles, or they can be rectangular boxes, used in three-dimensional plots, and they can be vertical or horizontal. The <em>bar graph</em> shown in  has age-groups represented on the <em><em>x</em>-axis</em> and proportions on the <em><em>y</em>-axis</em>.</p>
 
     <example xml:id="example5">
-      <task xml:id="fs-idm7260336">
         <statement>
-          <p>By the end of 2011, a social media site had more than 146 million users in the United States.  shows three age-groups, the number of users in each age-group, and the proportion (percentage) of users in each age-group. Construct a bar graph using this data.</p>
-          <table>
-            <tabular>
-              <row header="yes">
-                <cell>Age-Groups</cell>
-                <cell>Number of Site Users</cell>
-                <cell>Proportion (%) of Site Users</cell>
-              </row>
-              <row>
-                <cell>13–25</cell>
-                <cell>65,082,280</cell>
-                <cell>45%</cell>
-              </row>
-              <row>
-                <cell>26–44</cell>
-                <cell>53,300,200</cell>
-                <cell>36%</cell>
-              </row>
-              <row>
-                <cell>45–64</cell>
-                <cell>27,885,100</cell>
-                <cell>19%</cell>
-              </row>
-            </tabular>
-          </table>
+          <task xml:id="fs-idm7260336">
+            <statement>
+              <p>By the end of 2011, a social media site had more than 146 million users in the United States.  shows three age-groups, the number of users in each age-group, and the proportion (percentage) of users in each age-group. Construct a bar graph using this data.</p>
+              <table>
+                <tabular>
+                  <row header="yes">
+                    <cell>Age-Groups</cell>
+                    <cell>Number of Site Users</cell>
+                    <cell>Proportion (%) of Site Users</cell>
+                  </row>
+                  <row>
+                    <cell>13–25</cell>
+                    <cell>65,082,280</cell>
+                    <cell>45%</cell>
+                  </row>
+                  <row>
+                    <cell>26–44</cell>
+                    <cell>53,300,200</cell>
+                    <cell>36%</cell>
+                  </row>
+                  <row>
+                    <cell>45–64</cell>
+                    <cell>27,885,100</cell>
+                    <cell>19%</cell>
+                  </row>
+                </tabular>
+              </table>
+            </statement>
+            <solution>
+              <figure xml:id="fs-idm25485824">
+                <image source="media/fig-ch02_03_02.jpg" width="80%"/>
+              </figure>
+            </solution>
+          </task>
         </statement>
-        <solution>
-          <figure xml:id="fs-idm25485824">
-            <image source="media/fig-ch02_03_02.jpg" width="80%"/>
-          </figure>
-        </solution>
-      </task>
-    </example>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -957,56 +975,58 @@ Teenager Is Reminded</cell>
     </exercise>
 
     <example xml:id="eip-708">
-      <task xml:id="fs-idm25526448">
         <statement>
-          <p>The columns in  contain the race or ethnicity of students in U.S. public schools for the class of 2011, percentages for the Advanced Placement (AP) examinee population for that class, and percentages for the overall student population. Create a bar graph with the student race or ethnicity (qualitative data) on the <em>x</em>-axis and the AP examinee population percentages on the <em>y</em>-axis.</p>
-          <table>
-            <tabular>
-              <row header="yes">
-                <cell>Race/Ethnicity</cell>
-                <cell>AP Examinee Population</cell>
-                <cell>Overall Student Population</cell>
-              </row>
-              <row>
-                <cell>1 = Asian, Asian American, or Pacific Islander</cell>
-                <cell>10.3%</cell>
-                <cell>5.7%</cell>
-              </row>
-              <row>
-                <cell>2 = Black or African American</cell>
-                <cell>9.0%</cell>
-                <cell>14.7%</cell>
-              </row>
-              <row>
-                <cell>3 = Hispanic or Latino</cell>
-                <cell>17.0%</cell>
-                <cell>17.6%</cell>
-              </row>
-              <row>
-                <cell>4 = American Indian or Alaska Native</cell>
-                <cell>0.6%</cell>
-                <cell>1.1%</cell>
-              </row>
-              <row>
-                <cell>5 = White</cell>
-                <cell>57.1%</cell>
-                <cell>59.2%</cell>
-              </row>
-              <row>
-                <cell>6 = Not reported/other</cell>
-                <cell>6.0%</cell>
-                <cell>1.7%</cell>
-              </row>
-            </tabular>
-          </table>
+          <task xml:id="fs-idm25526448">
+            <statement>
+              <p>The columns in  contain the race or ethnicity of students in U.S. public schools for the class of 2011, percentages for the Advanced Placement (AP) examinee population for that class, and percentages for the overall student population. Create a bar graph with the student race or ethnicity (qualitative data) on the <em>x</em>-axis and the AP examinee population percentages on the <em>y</em>-axis.</p>
+              <table>
+                <tabular>
+                  <row header="yes">
+                    <cell>Race/Ethnicity</cell>
+                    <cell>AP Examinee Population</cell>
+                    <cell>Overall Student Population</cell>
+                  </row>
+                  <row>
+                    <cell>1 = Asian, Asian American, or Pacific Islander</cell>
+                    <cell>10.3%</cell>
+                    <cell>5.7%</cell>
+                  </row>
+                  <row>
+                    <cell>2 = Black or African American</cell>
+                    <cell>9.0%</cell>
+                    <cell>14.7%</cell>
+                  </row>
+                  <row>
+                    <cell>3 = Hispanic or Latino</cell>
+                    <cell>17.0%</cell>
+                    <cell>17.6%</cell>
+                  </row>
+                  <row>
+                    <cell>4 = American Indian or Alaska Native</cell>
+                    <cell>0.6%</cell>
+                    <cell>1.1%</cell>
+                  </row>
+                  <row>
+                    <cell>5 = White</cell>
+                    <cell>57.1%</cell>
+                    <cell>59.2%</cell>
+                  </row>
+                  <row>
+                    <cell>6 = Not reported/other</cell>
+                    <cell>6.0%</cell>
+                    <cell>1.7%</cell>
+                  </row>
+                </tabular>
+              </table>
+            </statement>
+            <solution>
+              <figure xml:id="M01_Ch02_fig003">
+                <image source="media/fig-ch02_03_03.jpg" width="80%"/>
+              </figure>
+            </solution>
+          </task>
         </statement>
-        <solution>
-          <figure xml:id="M01_Ch02_fig003">
-            <image source="media/fig-ch02_03_03.jpg" width="80%"/>
-          </figure>
-        </solution>
-      </task>
-    </example>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -1060,104 +1080,108 @@ Teenager Is Reminded</cell>
     </exercise>
 
     <example xml:id="fs-id1170309417897">
-      <task xml:id="fs-id1170309302796">
         <statement>
-          <p> is a two-way table showing the types of pets owned by men and women.</p>
-          <table>
-            <tabular>
-              <row header="yes">
-                <cell></cell>
-                <cell>Dogs</cell>
-                <cell>Cats</cell>
-                <cell>Fish</cell>
-                <cell>Total</cell>
-              </row>
-              <row>
-                <cell>Men</cell>
-                <cell>4</cell>
-                <cell>2</cell>
-                <cell>2</cell>
-                <cell>8</cell>
-              </row>
-              <row>
-                <cell>Women</cell>
-                <cell>4</cell>
-                <cell>6</cell>
-                <cell>2</cell>
-                <cell>12</cell>
-              </row>
-              <row>
-                <cell>Total</cell>
-                <cell>8</cell>
-                <cell>8</cell>
-                <cell>4</cell>
-                <cell>20</cell>
-              </row>
-            </tabular>
-          </table>
-          <p>Given these data, calculate the marginal distributions of pets for the people surveyed.</p>
+          <task xml:id="fs-id1170309302796">
+            <statement>
+              <p> is a two-way table showing the types of pets owned by men and women.</p>
+              <table>
+                <tabular>
+                  <row header="yes">
+                    <cell></cell>
+                    <cell>Dogs</cell>
+                    <cell>Cats</cell>
+                    <cell>Fish</cell>
+                    <cell>Total</cell>
+                  </row>
+                  <row>
+                    <cell>Men</cell>
+                    <cell>4</cell>
+                    <cell>2</cell>
+                    <cell>2</cell>
+                    <cell>8</cell>
+                  </row>
+                  <row>
+                    <cell>Women</cell>
+                    <cell>4</cell>
+                    <cell>6</cell>
+                    <cell>2</cell>
+                    <cell>12</cell>
+                  </row>
+                  <row>
+                    <cell>Total</cell>
+                    <cell>8</cell>
+                    <cell>8</cell>
+                    <cell>4</cell>
+                    <cell>20</cell>
+                  </row>
+                </tabular>
+              </table>
+              <p>Given these data, calculate the marginal distributions of pets for the people surveyed.</p>
+            </statement>
+            <solution>
+              <p><m>\text{Dogs = 8/20 = }\text{0.4}</m>
+</p>
+              <p><m>\text{Cats = 8/20 = }\text{0.4}</m>
+</p>
+              <p><m>\text{Fish = 4/20 = }\text{0.2}</m>
+</p>
+              <p>Note—The sum of all the marginal distributions must equal one. In this case, <m>0.4\text{ }+\text{ }0.4\text{ }+\text{ }0.2\text{ }=\text{ }1;</m> therefore, the solution <em>checks</em>.</p>
+            </solution>
+          </task>
         </statement>
-        <solution>
-          <p><m>\text{Dogs = 8/20 = }\text{0.4}</m>
-</p>
-          <p><m>\text{Cats = 8/20 = }\text{0.4}</m>
-</p>
-          <p><m>\text{Fish = 4/20 = }\text{0.2}</m>
-</p>
-          <p>Note—The sum of all the marginal distributions must equal one. In this case, <m>0.4\text{ }+\text{ }0.4\text{ }+\text{ }0.2\text{ }=\text{ }1;</m> therefore, the solution <em>checks</em>.</p>
-        </solution>
-      </task>
-    </example>
+      </example>
 
     <example xml:id="fs-id1170309344760">
-      <task xml:id="fs-id1170309371933">
         <statement>
-          <p> is a two-way table showing the types of pets owned by men and women.</p>
-          <table>
-            <tabular>
-              <row header="yes">
-                <cell></cell>
-                <cell>Dogs</cell>
-                <cell>Cats</cell>
-                <cell>Fish</cell>
-                <cell>Total</cell>
-              </row>
-              <row>
-                <cell>Men</cell>
-                <cell>4</cell>
-                <cell>2</cell>
-                <cell>2</cell>
-                <cell>8</cell>
-              </row>
-              <row>
-                <cell>Women</cell>
-                <cell>4</cell>
-                <cell>6</cell>
-                <cell>2</cell>
-                <cell>12</cell>
-              </row>
-              <row>
-                <cell>Total</cell>
-                <cell>8</cell>
-                <cell>8</cell>
-                <cell>4</cell>
-                <cell>20</cell>
-              </row>
-            </tabular>
-          </table>
-          <p>Given these data, calculate the conditional distributions for the subpopulation of men who own each pet type.</p>
+          <task xml:id="fs-id1170309371933">
+            <statement>
+              <p> is a two-way table showing the types of pets owned by men and women.</p>
+              <table>
+                <tabular>
+                  <row header="yes">
+                    <cell></cell>
+                    <cell>Dogs</cell>
+                    <cell>Cats</cell>
+                    <cell>Fish</cell>
+                    <cell>Total</cell>
+                  </row>
+                  <row>
+                    <cell>Men</cell>
+                    <cell>4</cell>
+                    <cell>2</cell>
+                    <cell>2</cell>
+                    <cell>8</cell>
+                  </row>
+                  <row>
+                    <cell>Women</cell>
+                    <cell>4</cell>
+                    <cell>6</cell>
+                    <cell>2</cell>
+                    <cell>12</cell>
+                  </row>
+                  <row>
+                    <cell>Total</cell>
+                    <cell>8</cell>
+                    <cell>8</cell>
+                    <cell>4</cell>
+                    <cell>20</cell>
+                  </row>
+                </tabular>
+              </table>
+              <p>Given these data, calculate the conditional distributions for the subpopulation of men who own each pet type.</p>
+            </statement>
+            <solution>
+              <p><m>\text{Men who own dogs = 4/8 = }\text{0.5}</m>
+</p>
+              <p><m>\text{Men who own cats = 2/8 = }\text{0.25}</m>
+</p>
+              <p><m>\text{Men who own fish = 2/8 = }\text{0.25}</m>
+</p>
+              <p>Note—The sum of all the conditional distributions must equal one. In this case, <m>0.5\text{ }+\text{ }0.25\text{ }+\text{ }0.25\text{ }=\text{ }1;</m> therefore, the solution <em>checks</em>.</p>
+            </solution>
+          </task>
         </statement>
-        <solution>
-          <p><m>\text{Men who own dogs = 4/8 = }\text{0.5}</m>
-</p>
-          <p><m>\text{Men who own cats = 2/8 = }\text{0.25}</m>
-</p>
-          <p><m>\text{Men who own fish = 2/8 = }\text{0.25}</m>
-</p>
-          <p>Note—The sum of all the conditional distributions must equal one. In this case, <m>0.5\text{ }+\text{ }0.25\text{ }+\text{ }0.25\text{ }=\text{ }1;</m> therefore, the solution <em>checks</em>.</p>
-        </solution>
-      </task>
-    </example>
+      </example>
 
     <p>Burbary, K. (2011, March 7). Facebook demographics revisited – 2001 statistics. <em>Social Media Today</em>. Retrieved from http://www.kenburbary.com/2011/03/facebook-demographics-revisited-2011-statistics-2/</p>
 
@@ -1712,7 +1736,10 @@ n
     <p><em>To construct a histogram</em>, first decide how many <em>bars</em> or <em>intervals</em>, also called classes, represent the data. Many histograms consist of five to 15 bars or classes for clarity. The width of each bar is also referred to as the bin size, which may be calculated by dividing the range of the data values by the desired number of bins (or bars). There is not a set procedure for determining the number of bars or bar width/bin size; however, consistency is key when determining which data values to place inside each interval.</p>
 
     <example xml:id="exampid1">
-      <p>The following data are the heights (in inches to the nearest half inch) of 100 male semiprofessional soccer players. The heights are <em>continuous</em> data since height is measured.
+
+      <statement>
+
+        <p>The following data are the heights (in inches to the nearest half inch) of 100 male semiprofessional soccer players. The heights are <em>continuous</em> data since height is measured.
 
 60, 60.5, 61, 61, 61.5,
 
@@ -1752,6 +1779,9 @@ n
       <figure xml:id="eip-idm88475792">
         <image source="media/fig-ch_02_04_01.jpg" width="80%"/>
       </figure>
+
+      </statement>
+
     </example>
 
     <table>
@@ -1826,33 +1856,36 @@ n
     </exercise>
 
     <example xml:id="exampid2">
-      <p>The following data are the number of books bought by 50 part-time college students at ABC College. The number of books is <em>discrete data</em> since books are counted.
+      <statement>
+        <p>The following data are the number of books bought by 50 part-time college students at ABC College. The number of books is <em>discrete data</em> since books are counted.
 
-1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+  1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
 
-2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+  2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
 
-3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+  3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
 
-4, 4, 4, 4, 4, 4,
+  4, 4, 4, 4, 4, 4,
 
-5, 5, 5, 5, 5,
+  5, 5, 5, 5, 5,
 
-6, 6</p>
-      <p>Eleven students buy one book. Ten students buy two books. Sixteen students buy three books. Six students buy four books. Five students buy five books. Two students buy six books.</p>
-      <task xml:id="fs-id1164564502878">
-        <statement>
-          <p>Calculate the width of each bar/bin size/interval size.</p>
-        </statement>
-        <solution>
-          <p>The smallest data value is 1, and the largest data value is 6. To make sure each is included in an interval, we can use 0.5 as the smallest value and 6.5 as the largest value by subtracting and adding 0.5 to these values. We have a small range here of 6 (6.5 – 0.5), so we will want a fewer number of bins; let's say six this time. So, six divided by six bins gives a bin size (or interval size) of one.</p>
-        </solution>
-      </task>
-      <p>Notice that we may choose different rational numbers to add to, or subtract from, our maximum and minimum values when calculating bin size. In the previous example, we added and subtracted .05, while this time, we added and subtracted .5. Given a data set, you will be able to determine what is appropriate and reasonable.</p>
-      <p>The following histogram displays the number of books on the <em>x</em>-axis and the frequency on the <em>y</em>-axis.</p>
-      <figure xml:id="eip-idp35221648">
-        <image source="media/fig-ch_02_04_02.jpg" width="80%"/>
-      </figure>
+  6, 6</p>
+        <p>Eleven students buy one book. Ten students buy two books. Sixteen students buy three books. Six students buy four books. Five students buy five books. Two students buy six books.</p>
+        <task xml:id="fs-id1164564502878">
+          <statement>
+            <p>Calculate the width of each bar/bin size/interval size.</p>
+          </statement>
+          <solution>
+            <p>The smallest data value is 1, and the largest data value is 6. To make sure each is included in an interval, we can use 0.5 as the smallest value and 6.5 as the largest value by subtracting and adding 0.5 to these values. We have a small range here of 6 (6.5 – 0.5), so we will want a fewer number of bins; let's say six this time. So, six divided by six bins gives a bin size (or interval size) of one.</p>
+          </solution>
+        </task>
+        <p>Notice that we may choose different rational numbers to add to, or subtract from, our maximum and minimum values when calculating bin size. In the previous example, we added and subtracted .05, while this time, we added and subtracted .5. Given a data set, you will be able to determine what is appropriate and reasonable.</p>
+        <p>The following histogram displays the number of books on the <em>x</em>-axis and the frequency on the <em>y</em>-axis.</p>
+        <figure xml:id="eip-idp35221648">
+          <image source="media/fig-ch_02_04_02.jpg" width="80%"/>
+        </figure>
+
+      </statement>
     </example>
 
     <note xml:id="fs-idm25803056">
@@ -1893,60 +1926,62 @@ Twenty student athletes play one sport. Twenty-two student athletes play two spo
     </exercise>
 
     <example xml:id="fs-idp46234048">
-      <task xml:id="fs-idm61675872">
         <statement>
-          <p>Using this data set, construct a histogram.</p>
-          <table>
-            <tabular>
-              <row header="yes">
-                <cell>Number of Hours My Classmates Spent Playing Video Games on Weekends</cell>
-              </row>
-              <row>
-                <cell>9.95</cell>
-                <cell>10</cell>
-                <cell>2.25</cell>
-                <cell>16.75</cell>
-                <cell>0</cell>
-              </row>
-              <row>
-                <cell>19.5</cell>
-                <cell>22.5</cell>
-                <cell>7.5</cell>
-                <cell>15</cell>
-                <cell>12.75</cell>
-              </row>
-              <row>
-                <cell>5.5</cell>
-                <cell>11</cell>
-                <cell>10</cell>
-                <cell>20.75</cell>
-                <cell>17.5</cell>
-              </row>
-              <row>
-                <cell>23</cell>
-                <cell>21.9</cell>
-                <cell>24</cell>
-                <cell>23.75</cell>
-                <cell>18</cell>
-              </row>
-              <row>
-                <cell>20</cell>
-                <cell>15</cell>
-                <cell>22.9</cell>
-                <cell>18.8</cell>
-                <cell>20.5</cell>
-              </row>
-            </tabular>
-          </table>
+          <task xml:id="fs-idm61675872">
+            <statement>
+              <p>Using this data set, construct a histogram.</p>
+              <table>
+                <tabular>
+                  <row header="yes">
+                    <cell>Number of Hours My Classmates Spent Playing Video Games on Weekends</cell>
+                  </row>
+                  <row>
+                    <cell>9.95</cell>
+                    <cell>10</cell>
+                    <cell>2.25</cell>
+                    <cell>16.75</cell>
+                    <cell>0</cell>
+                  </row>
+                  <row>
+                    <cell>19.5</cell>
+                    <cell>22.5</cell>
+                    <cell>7.5</cell>
+                    <cell>15</cell>
+                    <cell>12.75</cell>
+                  </row>
+                  <row>
+                    <cell>5.5</cell>
+                    <cell>11</cell>
+                    <cell>10</cell>
+                    <cell>20.75</cell>
+                    <cell>17.5</cell>
+                  </row>
+                  <row>
+                    <cell>23</cell>
+                    <cell>21.9</cell>
+                    <cell>24</cell>
+                    <cell>23.75</cell>
+                    <cell>18</cell>
+                  </row>
+                  <row>
+                    <cell>20</cell>
+                    <cell>15</cell>
+                    <cell>22.9</cell>
+                    <cell>18.8</cell>
+                    <cell>20.5</cell>
+                  </row>
+                </tabular>
+              </table>
+            </statement>
+            <solution>
+              <figure xml:id="fs-idp72238816">
+                <image source="media/CNX_Stats_C02_M04_020.jpg" width="85%"/>
+              </figure>
+              <p>Some values in this data set fall on boundaries for the class intervals. A value is counted in a class interval if it falls on the left boundary but not if it falls on the right boundary. Different researchers may set up histograms for the same data in different ways. There is more than one correct way to set up a histogram.</p>
+            </solution>
+          </task>
         </statement>
-        <solution>
-          <figure xml:id="fs-idp72238816">
-            <image source="media/CNX_Stats_C02_M04_020.jpg" width="85%"/>
-          </figure>
-          <p>Some values in this data set fall on boundaries for the class intervals. A value is counted in a class interval if it falls on the left boundary but not if it falls on the right boundary. Different researchers may set up histograms for the same data in different ways. There is more than one correct way to set up a histogram.</p>
-        </solution>
-      </task>
-    </example>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -1968,7 +2003,10 @@ Twenty student athletes play one sport. Twenty-two student athletes play two spo
     <p>To construct a frequency polygon, first examine the data and decide on the number of intervals and resulting interval size, for both the <em>x</em>-axis and <em>y</em>-axis. The <em>x</em>-axis will show the lower and upper bound for each interval, containing the data values, whereas the <em>y</em>-axis will represent the frequencies of the values. Each data point represents the frequency for each interval. For example, if an interval has three data values in it, the frequency polygon will show a 3 at the upper endpoint of that interval. After choosing the appropriate intervals, begin plotting the data points. After all the points are plotted, draw line segments to connect them.</p>
 
     <example xml:id="example4-2">
-      <p>A frequency polygon was constructed from the frequency table below.</p>
+
+      <statement>
+
+        <p>A frequency polygon was constructed from the frequency table below.</p>
       <table>
         <tabular>
           <row header="yes">
@@ -2017,6 +2055,9 @@ Twenty student athletes play one sport. Twenty-two student athletes play two spo
       </figure>
       <p>Notice that each point represents frequency for a particular interval. These points are located halfway between the lower bound and upper bound. In fact, the horizontal axis, or <em>x</em>-axis, shows only these midpoint values. For the interval 49.5–59.5 the value 54.5 is represented by a point, showing the correct frequency of 5. For the interval occurring before 49.5–59.5, (as well as 39.5–49.5), the value of the midpoint, or 44.5, is represented by a point, showing a frequency of 0, since we do not have any values in that range. The same idea applies to the last interval of 99.5–109.5, which has a midpoint of 104.5 and correctly shows a point representing a frequency of 0. Looking at the graph, we say
 that this distribution is skewed because one side of the graph does not mirror the other side.</p>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -2067,7 +2108,10 @@ that this distribution is skewed because one side of the graph does not mirror t
     <p>Frequency polygons are useful for comparing distributions. This comparison is achieved by overlaying the frequency polygons drawn for different data sets.</p>
 
     <example xml:id="fs-idp21707856">
-      <p>We will construct an overlay frequency polygon comparing the scores from  with the students’ final numeric grades.</p>
+
+      <statement>
+
+        <p>We will construct an overlay frequency polygon comparing the scores from  with the students’ final numeric grades.</p>
       <table>
         <tabular>
           <row header="yes">
@@ -2157,6 +2201,9 @@ that this distribution is skewed because one side of the graph does not mirror t
       <figure xml:id="eip-id1165746871888">
         <image source="media/CNX_Stats_C02_M05a_002N.jpg" width="80%"/>
       </figure>
+
+      </statement>
+
     </example>
 
     <p>Suppose that we want to study the temperature range of a region for an entire month. Every day at noon, we note the temperature and write this down in a log. A variety of statistical studies could be done with these data. We could find the mean or the median temperature for the month. We could construct a histogram displaying the number of days that temperatures reach a certain range of values. However, all of these methods ignore a portion of the data that we have collected.</p>
@@ -2166,235 +2213,237 @@ that this distribution is skewed because one side of the graph does not mirror t
     <p>To construct a time series graph, we must look at both pieces of our <term>paired data set</term>. We start with a standard Cartesian coordinate system. The horizontal axis is used to plot the date or time increments, and the vertical axis is used to plot the values of the variable that we are measuring. By using the axes in that way, we make each point on the graph correspond to a date and a measured quantity. The points on the graph are typically connected by straight lines in the order in which they occur.</p>
 
     <example xml:id="fs-idp7658080">
-      <task xml:id="fs-idp4161680">
         <statement>
-          <p>The following data show the Annual Consumer Price Index each month for 10 years. Construct a time series graph for the Annual Consumer Price Index data only.</p>
-          <table>
-            <tabular>
-              <row header="yes">
-                <cell>Year</cell>
-                <cell>Jan</cell>
-                <cell>Feb</cell>
-                <cell>Mar</cell>
-                <cell>Apr</cell>
-                <cell>May</cell>
-                <cell>Jun</cell>
-                <cell>Jul</cell>
-              </row>
-              <row>
-                <cell><term>2003</term></cell>
-                <cell>181.7</cell>
-                <cell>183.1</cell>
-                <cell>184.2</cell>
-                <cell>183.8</cell>
-                <cell>183.5</cell>
-                <cell>183.7</cell>
-                <cell>183.9</cell>
-              </row>
-              <row>
-                <cell><term>2004</term></cell>
-                <cell>185.2</cell>
-                <cell>186.2</cell>
-                <cell>187.4</cell>
-                <cell>188.0</cell>
-                <cell>189.1</cell>
-                <cell>189.7</cell>
-                <cell>189.4</cell>
-              </row>
-              <row>
-                <cell><term>2005</term></cell>
-                <cell>190.7</cell>
-                <cell>191.8</cell>
-                <cell>193.3</cell>
-                <cell>194.6</cell>
-                <cell>194.4</cell>
-                <cell>194.5</cell>
-                <cell>195.4</cell>
-              </row>
-              <row>
-                <cell><term>2006</term></cell>
-                <cell>198.3</cell>
-                <cell>198.7</cell>
-                <cell>199.8</cell>
-                <cell>201.5</cell>
-                <cell>202.5</cell>
-                <cell>202.9</cell>
-                <cell>203.5</cell>
-              </row>
-              <row>
-                <cell><term>2007</term></cell>
-                <cell>202.416</cell>
-                <cell>203.499</cell>
-                <cell>205.352</cell>
-                <cell>206.686</cell>
-                <cell>207.949</cell>
-                <cell>208.352</cell>
-                <cell>208.299</cell>
-              </row>
-              <row>
-                <cell><term>2008</term></cell>
-                <cell>211.080</cell>
-                <cell>211.693</cell>
-                <cell>213.528</cell>
-                <cell>214.823</cell>
-                <cell>216.632</cell>
-                <cell>218.815</cell>
-                <cell>219.964</cell>
-              </row>
-              <row>
-                <cell><term>2009</term></cell>
-                <cell>211.143</cell>
-                <cell>212.193</cell>
-                <cell>212.709</cell>
-                <cell>213.240</cell>
-                <cell>213.856</cell>
-                <cell>215.693</cell>
-                <cell>215.351</cell>
-              </row>
-              <row>
-                <cell><term>2010</term></cell>
-                <cell>216.687</cell>
-                <cell>216.741</cell>
-                <cell>217.631</cell>
-                <cell>218.009</cell>
-                <cell>218.178</cell>
-                <cell>217.965</cell>
-                <cell>218.011</cell>
-              </row>
-              <row>
-                <cell><term>2011</term></cell>
-                <cell>220.223</cell>
-                <cell>221.309</cell>
-                <cell>223.467</cell>
-                <cell>224.906</cell>
-                <cell>225.964</cell>
-                <cell>225.722</cell>
-                <cell>225.922</cell>
-              </row>
-              <row>
-                <cell><term>2012</term></cell>
-                <cell>226.665</cell>
-                <cell>227.663</cell>
-                <cell>229.392</cell>
-                <cell>230.085</cell>
-                <cell>229.815</cell>
-                <cell>229.478</cell>
-                <cell>229.104</cell>
-              </row>
-            </tabular>
-          </table>
-          <table>
-            <tabular>
-              <row header="yes">
-                <cell>Year</cell>
-                <cell>Aug</cell>
-                <cell>Sep</cell>
-                <cell>Oct</cell>
-                <cell>Nov</cell>
-                <cell>Dec</cell>
-                <cell>Annual</cell>
-              </row>
-              <row>
-                <cell><term>2003</term></cell>
-                <cell>184.6</cell>
-                <cell>185.2</cell>
-                <cell>185.0</cell>
-                <cell>184.5</cell>
-                <cell>184.3</cell>
-                <cell>184.0</cell>
-              </row>
-              <row>
-                <cell><term>2004</term></cell>
-                <cell>189.5</cell>
-                <cell>189.9</cell>
-                <cell>190.9</cell>
-                <cell>191.0</cell>
-                <cell>190.3</cell>
-                <cell>188.9</cell>
-              </row>
-              <row>
-                <cell><term>2005</term></cell>
-                <cell>196.4</cell>
-                <cell>198.8</cell>
-                <cell>199.2</cell>
-                <cell>197.6</cell>
-                <cell>196.8</cell>
-                <cell>195.3</cell>
-              </row>
-              <row>
-                <cell><term>2006</term></cell>
-                <cell>203.9</cell>
-                <cell>202.9</cell>
-                <cell>201.8</cell>
-                <cell>201.5</cell>
-                <cell>201.8</cell>
-                <cell>201.6</cell>
-              </row>
-              <row>
-                <cell><term>2007</term></cell>
-                <cell>207.917</cell>
-                <cell>208.490</cell>
-                <cell>208.936</cell>
-                <cell>210.177</cell>
-                <cell>210.036</cell>
-                <cell>207.342</cell>
-              </row>
-              <row>
-                <cell><term>2008</term></cell>
-                <cell>219.086</cell>
-                <cell>218.783</cell>
-                <cell>216.573</cell>
-                <cell>212.425</cell>
-                <cell>210.228</cell>
-                <cell>215.303</cell>
-              </row>
-              <row>
-                <cell><term>2009</term></cell>
-                <cell>215.834</cell>
-                <cell>215.969</cell>
-                <cell>216.177</cell>
-                <cell>216.330</cell>
-                <cell>215.949</cell>
-                <cell>214.537</cell>
-              </row>
-              <row>
-                <cell><term>2010</term></cell>
-                <cell>218.312</cell>
-                <cell>218.439</cell>
-                <cell>218.711</cell>
-                <cell>218.803</cell>
-                <cell>219.179</cell>
-                <cell>218.056</cell>
-              </row>
-              <row>
-                <cell><term>2011</term></cell>
-                <cell>226.545</cell>
-                <cell>226.889</cell>
-                <cell>226.421</cell>
-                <cell>226.230</cell>
-                <cell>225.672</cell>
-                <cell>224.939</cell>
-              </row>
-              <row>
-                <cell><term>2012</term></cell>
-                <cell>230.379</cell>
-                <cell>231.407</cell>
-                <cell>231.317</cell>
-                <cell>230.221</cell>
-                <cell>229.601</cell>
-                <cell>229.594</cell>
-              </row>
-            </tabular>
-          </table>
+          <task xml:id="fs-idp4161680">
+            <statement>
+              <p>The following data show the Annual Consumer Price Index each month for 10 years. Construct a time series graph for the Annual Consumer Price Index data only.</p>
+              <table>
+                <tabular>
+                  <row header="yes">
+                    <cell>Year</cell>
+                    <cell>Jan</cell>
+                    <cell>Feb</cell>
+                    <cell>Mar</cell>
+                    <cell>Apr</cell>
+                    <cell>May</cell>
+                    <cell>Jun</cell>
+                    <cell>Jul</cell>
+                  </row>
+                  <row>
+                    <cell><term>2003</term></cell>
+                    <cell>181.7</cell>
+                    <cell>183.1</cell>
+                    <cell>184.2</cell>
+                    <cell>183.8</cell>
+                    <cell>183.5</cell>
+                    <cell>183.7</cell>
+                    <cell>183.9</cell>
+                  </row>
+                  <row>
+                    <cell><term>2004</term></cell>
+                    <cell>185.2</cell>
+                    <cell>186.2</cell>
+                    <cell>187.4</cell>
+                    <cell>188.0</cell>
+                    <cell>189.1</cell>
+                    <cell>189.7</cell>
+                    <cell>189.4</cell>
+                  </row>
+                  <row>
+                    <cell><term>2005</term></cell>
+                    <cell>190.7</cell>
+                    <cell>191.8</cell>
+                    <cell>193.3</cell>
+                    <cell>194.6</cell>
+                    <cell>194.4</cell>
+                    <cell>194.5</cell>
+                    <cell>195.4</cell>
+                  </row>
+                  <row>
+                    <cell><term>2006</term></cell>
+                    <cell>198.3</cell>
+                    <cell>198.7</cell>
+                    <cell>199.8</cell>
+                    <cell>201.5</cell>
+                    <cell>202.5</cell>
+                    <cell>202.9</cell>
+                    <cell>203.5</cell>
+                  </row>
+                  <row>
+                    <cell><term>2007</term></cell>
+                    <cell>202.416</cell>
+                    <cell>203.499</cell>
+                    <cell>205.352</cell>
+                    <cell>206.686</cell>
+                    <cell>207.949</cell>
+                    <cell>208.352</cell>
+                    <cell>208.299</cell>
+                  </row>
+                  <row>
+                    <cell><term>2008</term></cell>
+                    <cell>211.080</cell>
+                    <cell>211.693</cell>
+                    <cell>213.528</cell>
+                    <cell>214.823</cell>
+                    <cell>216.632</cell>
+                    <cell>218.815</cell>
+                    <cell>219.964</cell>
+                  </row>
+                  <row>
+                    <cell><term>2009</term></cell>
+                    <cell>211.143</cell>
+                    <cell>212.193</cell>
+                    <cell>212.709</cell>
+                    <cell>213.240</cell>
+                    <cell>213.856</cell>
+                    <cell>215.693</cell>
+                    <cell>215.351</cell>
+                  </row>
+                  <row>
+                    <cell><term>2010</term></cell>
+                    <cell>216.687</cell>
+                    <cell>216.741</cell>
+                    <cell>217.631</cell>
+                    <cell>218.009</cell>
+                    <cell>218.178</cell>
+                    <cell>217.965</cell>
+                    <cell>218.011</cell>
+                  </row>
+                  <row>
+                    <cell><term>2011</term></cell>
+                    <cell>220.223</cell>
+                    <cell>221.309</cell>
+                    <cell>223.467</cell>
+                    <cell>224.906</cell>
+                    <cell>225.964</cell>
+                    <cell>225.722</cell>
+                    <cell>225.922</cell>
+                  </row>
+                  <row>
+                    <cell><term>2012</term></cell>
+                    <cell>226.665</cell>
+                    <cell>227.663</cell>
+                    <cell>229.392</cell>
+                    <cell>230.085</cell>
+                    <cell>229.815</cell>
+                    <cell>229.478</cell>
+                    <cell>229.104</cell>
+                  </row>
+                </tabular>
+              </table>
+              <table>
+                <tabular>
+                  <row header="yes">
+                    <cell>Year</cell>
+                    <cell>Aug</cell>
+                    <cell>Sep</cell>
+                    <cell>Oct</cell>
+                    <cell>Nov</cell>
+                    <cell>Dec</cell>
+                    <cell>Annual</cell>
+                  </row>
+                  <row>
+                    <cell><term>2003</term></cell>
+                    <cell>184.6</cell>
+                    <cell>185.2</cell>
+                    <cell>185.0</cell>
+                    <cell>184.5</cell>
+                    <cell>184.3</cell>
+                    <cell>184.0</cell>
+                  </row>
+                  <row>
+                    <cell><term>2004</term></cell>
+                    <cell>189.5</cell>
+                    <cell>189.9</cell>
+                    <cell>190.9</cell>
+                    <cell>191.0</cell>
+                    <cell>190.3</cell>
+                    <cell>188.9</cell>
+                  </row>
+                  <row>
+                    <cell><term>2005</term></cell>
+                    <cell>196.4</cell>
+                    <cell>198.8</cell>
+                    <cell>199.2</cell>
+                    <cell>197.6</cell>
+                    <cell>196.8</cell>
+                    <cell>195.3</cell>
+                  </row>
+                  <row>
+                    <cell><term>2006</term></cell>
+                    <cell>203.9</cell>
+                    <cell>202.9</cell>
+                    <cell>201.8</cell>
+                    <cell>201.5</cell>
+                    <cell>201.8</cell>
+                    <cell>201.6</cell>
+                  </row>
+                  <row>
+                    <cell><term>2007</term></cell>
+                    <cell>207.917</cell>
+                    <cell>208.490</cell>
+                    <cell>208.936</cell>
+                    <cell>210.177</cell>
+                    <cell>210.036</cell>
+                    <cell>207.342</cell>
+                  </row>
+                  <row>
+                    <cell><term>2008</term></cell>
+                    <cell>219.086</cell>
+                    <cell>218.783</cell>
+                    <cell>216.573</cell>
+                    <cell>212.425</cell>
+                    <cell>210.228</cell>
+                    <cell>215.303</cell>
+                  </row>
+                  <row>
+                    <cell><term>2009</term></cell>
+                    <cell>215.834</cell>
+                    <cell>215.969</cell>
+                    <cell>216.177</cell>
+                    <cell>216.330</cell>
+                    <cell>215.949</cell>
+                    <cell>214.537</cell>
+                  </row>
+                  <row>
+                    <cell><term>2010</term></cell>
+                    <cell>218.312</cell>
+                    <cell>218.439</cell>
+                    <cell>218.711</cell>
+                    <cell>218.803</cell>
+                    <cell>219.179</cell>
+                    <cell>218.056</cell>
+                  </row>
+                  <row>
+                    <cell><term>2011</term></cell>
+                    <cell>226.545</cell>
+                    <cell>226.889</cell>
+                    <cell>226.421</cell>
+                    <cell>226.230</cell>
+                    <cell>225.672</cell>
+                    <cell>224.939</cell>
+                  </row>
+                  <row>
+                    <cell><term>2012</term></cell>
+                    <cell>230.379</cell>
+                    <cell>231.407</cell>
+                    <cell>231.317</cell>
+                    <cell>230.221</cell>
+                    <cell>229.601</cell>
+                    <cell>229.594</cell>
+                  </row>
+                </tabular>
+              </table>
+            </statement>
+            <solution>
+              <figure xml:id="eip-idm68714544">
+                <image source="media/CNX_Stats_C02_M05a_026annoN.jpg" width="85%"/>
+                <caption>The annual amounts are plotted for each year. Then, consecutive points are connected with a line.</caption>
+              </figure>
+            </solution>
+          </task>
         </statement>
-        <solution>
-          <figure xml:id="eip-idm68714544">
-            <image source="media/CNX_Stats_C02_M05a_026annoN.jpg" width="85%"/>
-            <caption>The annual amounts are plotted for each year. Then, consecutive points are connected with a line.</caption>
-          </figure>
-        </solution>
-      </task>
-    </example>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -3693,28 +3742,30 @@ Ordered from smallest to largest:
     </note>
 
     <example xml:id="element-826">
-      <task xml:id="ch2-exer5">
         <statement>
-          <p>For the following 13 real estate prices, calculate the <em>IQR</em> and determine if any prices are potential outliers. Prices are in dollars.
+          <task xml:id="ch2-exer5">
+            <statement>
+              <p>For the following 13 real estate prices, calculate the <em>IQR</em> and determine if any prices are potential outliers. Prices are in dollars.
 
 389,950; 230,500; 158,000; 479,000; 639,000; 114,950; 5,500,000; 387,000; 659,000; 529,000; 575,000; 488,800; 1,095,000</p>
-        </statement>
-        <solution>
-          <p>Order the following data from smallest to largest:
+            </statement>
+            <solution>
+              <p>Order the following data from smallest to largest:
 
 114,950; 158,000; 230,500; 387,000; 389,950; 479,000; 488,800; 529,000; 575,000; 639,000; 659,000; 1,095,000; 5,500,000</p>
-          <p><em>M</em> = 488,800</p>
-          <p><em>Q</em><m>_{1}</m> = <m>\frac{\text{230,500 + 387,000}}{2}</m> = 308,750</p>
-          <p><em>Q</em><m>_{3}</m> =
+              <p><em>M</em> = 488,800</p>
+              <p><em>Q</em><m>_{1}</m> = <m>\frac{\text{230,500 + 387,000}}{2}</m> = 308,750</p>
+              <p><em>Q</em><m>_{3}</m> =
 <m>\frac{\text{639,000 + 659,000}}{2}</m> = 649,000</p>
-          <p><em>IQR</em> = 649,000 – 308,750 = 340,250</p>
-          <p>(1.5)(<em>IQR</em>) = (1.5)(340,250) = 510,375</p>
-          <p><em>Q</em><m>_{1}</m> – (1.5)(<em>IQR</em>) = 308,750 – 510,375 = –201,625</p>
-          <p><em>Q</em><m>_{3}</m> + (1.5)(<em>IQR</em>) = 649,000 + 510,375 = 1,159,375</p>
-          <p>No house price is less than –201,625. However, 5,500,000 is more than 1,159,375. Therefore, 5,500,000 is a potential <term>outlier</term>.</p>
-        </solution>
-      </task>
-    </example>
+              <p><em>IQR</em> = 649,000 – 308,750 = 340,250</p>
+              <p>(1.5)(<em>IQR</em>) = (1.5)(340,250) = 510,375</p>
+              <p><em>Q</em><m>_{1}</m> – (1.5)(<em>IQR</em>) = 308,750 – 510,375 = –201,625</p>
+              <p><em>Q</em><m>_{3}</m> + (1.5)(<em>IQR</em>) = 649,000 + 510,375 = 1,159,375</p>
+              <p>No house price is less than –201,625. However, 5,500,000 is more than 1,159,375. Therefore, 5,500,000 is a potential <term>outlier</term>.</p>
+            </solution>
+          </task>
+        </statement>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -3799,7 +3850,10 @@ Test Scores for Class <em>B</em>:
     </exercise>
 
     <example xml:id="element-84">
-      <p>Fifty statistics students were asked how much sleep they get per school night (rounded to the nearest hour). The results were as follows:</p>
+
+      <statement>
+
+        <p>Fifty statistics students were asked how much sleep they get per school night (rounded to the nearest hour). The results were as follows:</p>
       <table>
         <tabular>
           <row header="yes">
@@ -3855,6 +3909,9 @@ Test Scores for Class <em>B</em>:
       <p><em>Find the 28<m>^{th}</m> percentile</em>. Notice the .28 in the Cumulative Relative Frequency column. Twenty-eight percent of 50 data values is 14 values. There are 14 values less than the 28<m>^{th}</m> percentile. They include the two 4s, the five 5s, and the seven 6s. The 28<m>^{th}</m> percentile is between the last six and the first seven. <em>The 28<m>^{th}</m> percentile is 6.5.</em></p>
       <p><em>Find the median</em>. Look again at the Cumulative Relative Frequency column and find .52. The median is the 50<m>^{th}</m> percentile or the second quartile. Fifty percent of 50 is 25. There are 25 values less than the median. They include the two 4s, the five 5s, the seven 6s, and 11 of the 7s. The median or 50<m>^{th}</m> percentile is between the 25<m>^{th}</m>, or seven, and 26<m>^{th}</m>, or seven, values. <em>The median is seven.</em></p>
       <p><em>Find the third quartile</em>. The third quartile is the same as the 75<m>^{th}</m> percentile. You can <em>eyeball</em> this answer. If you look at the Cumulative Relative Frequency column, you find .52 and .80. When you have all the fours, fives, sixes, and sevens, you have 52 percent of the data. When you include all the 8s, you have 80 percent of the data. <em>The 75<m>^{th}</m> percentile, then, must be an eight</em>. Another way to look at the problem is to find 75 percent of 50, which is 37.5, and round up to 38. The third quartile, <em>Q</em><m>_{3}</m>, is the 38<m>^{th}</m> value, which is an eight. You can check this answer by counting the values. There are 37 values below the third quartile and 12 values above.</p>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -3903,26 +3960,28 @@ Test Scores for Class <em>B</em>:
     </exercise>
 
     <example xml:id="element-572">
-      <task xml:id="element-2353">
         <statement>
-          <p>Using :</p>
-          <ol>
-            <li><p>Find the 80<m>^{th}</m> percentile.</p></li>
-            <li><p>Find the 90<m>^{th}</m> percentile.</p></li>
-            <li><p>Find the first quartile. What is another name for the first quartile?</p></li>
-          </ol>
-        </statement>
-        <solution>
-          <p>Using the data from the frequency table, we have the following:</p>
-          <ol>
-            <li><p>The 80<m>^{th}</m> percentile is between the last eight and the first nine in the table (between the 40<m>^{th}</m> and 41<m>^{st}</m> values). Therefore, we need to take the mean of the 40<m>^{th}</m> an 41<m>^{st}</m> values. The 80<m>^{th}</m> percentile <m>=\frac{8+9}{2}=8.5\text{.}</m>
+          <task xml:id="element-2353">
+            <statement>
+              <p>Using :</p>
+              <ol>
+                <li><p>Find the 80<m>^{th}</m> percentile.</p></li>
+                <li><p>Find the 90<m>^{th}</m> percentile.</p></li>
+                <li><p>Find the first quartile. What is another name for the first quartile?</p></li>
+              </ol>
+            </statement>
+            <solution>
+              <p>Using the data from the frequency table, we have the following:</p>
+              <ol>
+                <li><p>The 80<m>^{th}</m> percentile is between the last eight and the first nine in the table (between the 40<m>^{th}</m> and 41<m>^{st}</m> values). Therefore, we need to take the mean of the 40<m>^{th}</m> an 41<m>^{st}</m> values. The 80<m>^{th}</m> percentile <m>=\frac{8+9}{2}=8.5\text{.}</m>
 </p></li>
-            <li><p>The 90<m>^{th}</m> percentile will be the 45<m>^{th}</m> data value (location is 0.90(50) = 45), and the 45<m>^{th}</m> data value is nine.</p></li>
-            <li><p><em>Q</em><m>_{1}</m> is also the 25<m>^{th}</m> percentile. The 25<m>^{th}</m> percentile location calculation: <em>P</em><m>_{25}</m> = .25(50) = 12.5 ≈ 13, the 13<m>^{th}</m> data value. Thus, the 25<m>^{th}</m> percentile is six.</p></li>
-          </ol>
-        </solution>
-      </task>
-    </example>
+                <li><p>The 90<m>^{th}</m> percentile will be the 45<m>^{th}</m> data value (location is 0.90(50) = 45), and the 45<m>^{th}</m> data value is nine.</p></li>
+                <li><p><em>Q</em><m>_{1}</m> is also the 25<m>^{th}</m> percentile. The 25<m>^{th}</m> percentile location calculation: <em>P</em><m>_{25}</m> = .25(50) = 12.5 ≈ 13, the 13<m>^{th}</m> data value. Thus, the 25<m>^{th}</m> percentile is six.</p></li>
+              </ol>
+            </solution>
+          </task>
+        </statement>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -3968,36 +4027,38 @@ The percentage of students who own fewer than four sweaters
     </ul>
 
     <example xml:id="fs-idm4569232">
-      <task xml:id="fs-idm105708208">
         <statement>
-          <p>Listed are 29 ages for Academy Award-winning best actors <em>in order from smallest to largest:</em>
+          <task xml:id="fs-idm105708208">
+            <statement>
+              <p>Listed are 29 ages for Academy Award-winning best actors <em>in order from smallest to largest:</em>
 
 18, 21, 22, 25, 26, 27, 29, 30, 31, 33, 36, 37, 41, 42, 47, 52, 55, 57, 58, 62, 64, 67, 69, 71, 72, 73, 74, 76, 77</p>
-          <ol>
-            <li><p>Find the 70<m>^{th}</m> percentile.</p></li>
-            <li><p>Find the 83<m>^{rd}</m> percentile.</p></li>
-          </ol>
-        </statement>
-        <solution>
-          <ol>
-            <li><p>
+              <ol>
+                <li><p>Find the 70<m>^{th}</m> percentile.</p></li>
+                <li><p>Find the 83<m>^{rd}</m> percentile.</p></li>
+              </ol>
+            </statement>
+            <solution>
+              <ol>
+                <li><p>
 
 <em>k</em> = 70
 <em>i</em> = the index
 <em>n</em> = 29
 
 <em>i</em> = <m>\frac{k}{100}</m> (<em>n</em> + 1) = (<m>\frac{70}{100}</m>)(29 + 1) = 21. This equation tells us that <em>i</em>, or the position of the data value in the data set, is 21. So, we will count over to the 21<m>^{st}</m> position, which shows a data value of 64.</p></li>
-            <li><p>
+                <li><p>
 
 <em>k</em> = 83<m>^{rd}</m> percentile
 <em>i</em> = the index
 <em>n</em> = 29
 
 <em>i</em>  = <m>\frac{k}{100}</m> (<em>n</em> + 1) = (<m>\frac{83}{100}</m>)(29 + 1) = 24.9, which is <em>not</em> an integer. Round it down to 24 and up to 25. The age in the 24<m>^{th}</m> position is 71, and the age in the 25<m>^{th}</m> position is 72. Average 71 and 72. The 83<m>^{rd}</m> percentile is 71.5 years.</p></li>
-          </ol>
-        </solution>
-      </task>
-    </example>
+              </ol>
+            </solution>
+          </task>
+        </statement>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -4027,29 +4088,31 @@ Calculate the 20<m>^{th}</m> percentile and the 55<m>^{th}</m> percentile.</p>
     </ul>
 
     <example xml:id="fs-idm3849664">
-      <task xml:id="fs-idp28609648">
         <statement>
-          <p>Listed are 29 ages for Academy Award-winning best actors <em>in order from smallest to largest:</em>
+          <task xml:id="fs-idp28609648">
+            <statement>
+              <p>Listed are 29 ages for Academy Award-winning best actors <em>in order from smallest to largest:</em>
 
 18, 21, 22, 25, 26, 27, 29, 30, 31, 33, 36, 37, 41, 42, 47, 52, 55, 57, 58, 62, 64, 67, 69, 71, 72, 73, 74, 76, 77</p>
-          <ol>
-            <li><p>Find the percentile for 58.</p></li>
-            <li><p>Find the percentile for 25.</p></li>
-          </ol>
-        </statement>
-        <solution>
-          <ol>
-            <li><p>Counting from the bottom of the list, there are 18 data values less than 58. There is one value of 58.
+              <ol>
+                <li><p>Find the percentile for 58.</p></li>
+                <li><p>Find the percentile for 25.</p></li>
+              </ol>
+            </statement>
+            <solution>
+              <ol>
+                <li><p>Counting from the bottom of the list, there are 18 data values less than 58. There is one value of 58.
 <em>x</em> = 18 and <em>y</em> = 1.<m>\frac{x+.5y}{n}</m>(100) = <m>\frac{18+.5(1)}{29}</m>(100) = 63.80. Fifty-eight is the 64<m>^{th}</m> percentile.
 </p></li>
-            <li><p>
+                <li><p>
 Counting from the bottom of the list, there are three data values less than 25. There is one value of 25.
 <em>x</em> = 3 and <em>y</em> = 1.<m>\frac{x+.5y}{n}</m>(100) = <m>\frac{3+.5(1)}{29}</m>(100) = 12.07. Twenty-five is the 12<m>^{th}</m> percentile.
 </p></li>
-          </ol>
-        </solution>
-      </task>
-    </example>
+              </ol>
+            </solution>
+          </task>
+        </statement>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -4426,7 +4489,10 @@ need more information
     </note>
 
     <example xml:id="ch02-element-32">
-      <p>The following data are the heights of 40 students in a statistics class:</p>
+
+      <statement>
+
+        <p>The following data are the heights of 40 students in a statistics class:</p>
       <p>59, 60, 61, 62, 62, 63, 63, 64, 64, 64, 65, 65, 65, 65, 65, 65, 65, 65, 65, 66, 66, 67, 67, 68, 68, 69, 70, 70, 70, 70, 70, 71, 71, 72, 72, 73, 74, 74, 75, 77.</p>
       <p>Construct a box plot with the following properties. Calculator instructions for finding the five number summary follow this example:</p>
       <ul>
@@ -4447,6 +4513,9 @@ need more information
         <li><p>The interval 59–65 has more than 25 percent of the data, so it has more data in it than the interval 66–70, which has 25 percent of the data.</p></li>
         <li><p>The middle 50 percent (middle half) of the data has a range of 5.5 inches.</p></li>
       </ol>
+
+      </statement>
+
     </example>
 
     <note xml:id="fs-idp87772032">
@@ -4495,52 +4564,97 @@ need more information
     <p>In this case, at least 25 percent of the values are equal to one. Twenty-five percent of the values are between one and five, inclusive. At least 25 percent of the values are equal to five. The top 25 percent of the values fall between five and seven, inclusive.</p>
 
     <example xml:id="element-583">
-      <p>Test scores for Mr. Ramirez's class held during the day are as follows:</p>
-      <p>99, 56, 78, 55.5, 32, 90, 80, 81, 56, 59, 45, 77, 84.5, 84, 70, 72, 68, 32, 79, 90.</p>
-      <p>Test scores for Ms. Park's class held during the evening are as follows:</p>
-      <p>98, 78, 68, 83, 81, 89, 88, 76, 65, 45, 98, 90, 80, 84.5, 85, 79, 78, 98, 90, 79, 81, 25.5.
-</p>
-      <task xml:id="element-23526">
+
+      <statement>
+
+
+        <p>Test scores for Mr. Ramirez's class held during the day are as follows:</p>
+
+        <p>99, 56, 78, 55.5, 32, 90, 80, 81, 56, 59, 45, 77, 84.5, 84, 70, 72, 68, 32, 79, 90.</p>
+
+        <p>Test scores for Ms. Park's class held during the evening are as follows:</p>
+
+        <p>98, 78, 68, 83, 81, 89, 88, 76, 65, 45, 98, 90, 80, 84.5, 85, 79, 78, 98, 90, 79, 81, 25.5.
+
+        </p>
+
+        <task xml:id="element-23526">
+
         <statement>
-          <ol>
-            <li><p>Find the smallest and largest values, the median, and the first and third quartile for Mr. Ramirez's class.</p></li>
-            <li><p>Find the smallest and largest values, the median, and the first and third quartile for Ms. Park's class.</p></li>
-            <li><p>For each data set, what percentage of the data is between the smallest value and the first quartile? the first quartile and the median? the median and the third quartile? the third quartile and the largest value? What percentage of the data is between the first quartile and the largest value?</p></li>
-            <li><p>Create a box plot for each set of data. Use one number line for both box plots.</p></li>
-            <li><p>Which box plot has the widest spread for the middle 50 percent of the data,the data between the first and third quartiles? What does this mean for that set of data in comparison to the other set of data?</p></li>
-          </ol>
+
+        <ol>
+
+        <li><p>Find the smallest and largest values, the median, and the first and third quartile for Mr. Ramirez's class.</p></li>
+
+        <li><p>Find the smallest and largest values, the median, and the first and third quartile for Ms. Park's class.</p></li>
+
+        <li><p>For each data set, what percentage of the data is between the smallest value and the first quartile? the first quartile and the median? the median and the third quartile? the third quartile and the largest value? What percentage of the data is between the first quartile and the largest value?</p></li>
+
+        <li><p>Create a box plot for each set of data. Use one number line for both box plots.</p></li>
+
+        <li><p>Which box plot has the widest spread for the middle 50 percent of the data,the data between the first and third quartiles? What does this mean for that set of data in comparison to the other set of data?</p></li>
+
+        </ol>
+
         </statement>
+
         <solution>
-          <ol>
-            <li><p>
 
-Min = 32
-<em>Q</em><m>_{1}</m> = 56
-<em>M</em> = 74.5
-<em>Q</em><m>_{3}</m> = 82.5
-Max = 99
+        <ol>
+
+        <li><p>
 
 
-</p></li>
-            <li><p>
+        Min = 32
 
+        <em>Q</em><m>_{1}</m> = 56
 
-Min = 25.5
-<em>Q</em><m>_{1}</m> = 78
-<em>M</em> = 81
-<em>Q</em><m>_{3}</m> = 89
-Max = 98
-</p></li>
-            <li><p>Mr. Ramirez's class: There are six data values ranging from 32 to 56: 30 percent. There are six data values ranging from 56 to 74.5: 30 percent. There are five data values ranging from 74.5 to 82.5: 25 percent. There are five data values ranging from 82.5 to 99: 25 percent. There are 16 data values between the first quartile, 56, and the largest value, 99: 80 percent. Ms. Park’s class: There are seven data values ranging from 25.5 to 78: 32 percent. There are seven data values ranging from 78 through 32 percent. There are seven data values ranging 81 to 89: 32 percent. There are six data values ranging from 89 to 98: 27 percent. There are 17 values between the first quartile, 78, and the largest value, 98: 77 percent.</p></li>
-            <li><p>
+        <em>M</em> = 74.5
+
+        <em>Q</em><m>_{3}</m> = 82.5
+
+        Max = 99
 
 
 
-</p></li>
-            <li><p>The first data set has the wider spread for the middle 50 percent of the data. The <em>IQR</em> for the first data set is greater than the <em>IQR</em> for the second set. This means that there is more variability in the middle 50 percent of the first data set.</p></li>
-          </ol>
+        </p></li>
+
+        <li><p>
+
+
+
+        Min = 25.5
+
+        <em>Q</em><m>_{1}</m> = 78
+
+        <em>M</em> = 81
+
+        <em>Q</em><m>_{3}</m> = 89
+
+        Max = 98
+
+        </p></li>
+
+        <li><p>Mr. Ramirez's class: There are six data values ranging from 32 to 56: 30 percent. There are six data values ranging from 56 to 74.5: 30 percent. There are five data values ranging from 74.5 to 82.5: 25 percent. There are five data values ranging from 82.5 to 99: 25 percent. There are 16 data values between the first quartile, 56, and the largest value, 99: 80 percent. Ms. Park’s class: There are seven data values ranging from 25.5 to 78: 32 percent. There are seven data values ranging from 78 through 32 percent. There are seven data values ranging 81 to 89: 32 percent. There are six data values ranging from 89 to 98: 27 percent. There are 17 values between the first quartile, 78, and the largest value, 98: 77 percent.</p></li>
+
+        <li><p>
+
+
+
+
+        </p></li>
+
+        <li><p>The first data set has the wider spread for the middle 50 percent of the data. The <em>IQR</em> for the first data set is greater than the <em>IQR</em> for the second set. This means that there is more variability in the middle 50 percent of the first data set.</p></li>
+
+        </ol>
+
         </solution>
-      </task>
+
+        </task>
+
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -4566,7 +4680,10 @@ Construct a box plot using a graphing calculator for each data set, and state wh
     </exercise>
 
     <example xml:id="fs-idm38612912">
-      <p>Graph a box-and-whisker plot for the following data values shown:</p>
+
+      <statement>
+
+        <p>Graph a box-and-whisker plot for the following data values shown:</p>
       <p>10, 10, 10, 15, 35, 75, 90, 95, 100, 175, 420, 490, 515, 515, 790</p>
       <p>The five numbers used to create a box-and-whisker plot are as follows:</p>
       <ul>
@@ -4580,6 +4697,9 @@ Construct a box plot using a graphing calculator for each data set, and state wh
       <figure xml:id="fs-idm67197680">
         <image source="media/CNX_Stats_C02_M05_015.jpg" width="85%"/>
       </figure>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -4835,17 +4955,18 @@ The two most widely used measures of the <em>center</em> of the data are the <te
 <m>\frac{100+1}{2}</m> = 50.5. The median occurs midway between the 50<m>^{th}</m> and 51<m>^{st}</m> values. The location of the median and the value of the median are <em>not</em> the same. The uppercase letter <em>M</em> is often used to represent the median. The next example illustrates the location of the median and the value of the median.</p>
 
     <example xml:id="element-3">
-      <task xml:id="ch2-exer4">
         <statement>
-          <p>Data indicating the number of months a patient with a specific disease lives after taking a new antibody drug are as follows (smallest to largest):
+          <task xml:id="ch2-exer4">
+            <statement>
+              <p>Data indicating the number of months a patient with a specific disease lives after taking a new antibody drug are as follows (smallest to largest):
 
 3, 4, 8, 8, 10, 11, 12, 13, 14, 15, 15, 16, 16, 17, 17, 18, 21, 22, 22, 24, 24, 25, 26, 26, 27, 27, 29, 29, 31, 32, 33, 33, 34, 34, 35, 37, 40, 44, 44, 47
 
 Calculate the mean and the median.</p>
-        </statement>
-        <solution>
-          <p>The calculation for the mean is</p>
-          <p><m>\begin{array}{c}
+            </statement>
+            <solution>
+              <p>The calculation for the mean is</p>
+              <p><m>\begin{array}{c}
 
      \overline{x}
      =[3+4+(8)(2)+10+11+12+13+14+(15)(2)+(16)(2)+(17)(2)+18+21+(22)(2)+(24)(2)+25+(26)(2)
@@ -4862,11 +4983,12 @@ To find the median, <em>M</em>, first use the formula for the location. The loca
 Start from the smallest value and count up; the median is located between the 20<m>^{th}</m> and 21<m>^{st}</m> values (the two 24s):
 
 3, 4, 8, 8, 10, 11, 12, 13, 14, 15, 15, 16, 16, 17, 17, 18, 21, 22, 22, 24, 24, 25, 26, 26, 27, 27, 29, 29, 31, 32, 33, 33, 34, 34, 35, 37, 40, 44, 44, 47</p>
-          <p><m>M=\frac{24+24}{2}=24</m>
+              <p><m>M=\frac{24+24}{2}=24</m>
 </p>
-        </solution>
-      </task>
-    </example>
+            </solution>
+          </task>
+        </statement>
+      </example>
 
     <note xml:id="fs-idp50763088">
       <p>To find the mean and the median:</p>
@@ -4895,19 +5017,21 @@ Median: Starting at the smallest value, the median is the 20<m>^{th}</m> term, w
     </exercise>
 
     <example xml:id="ch2-element-231">
-      <task xml:id="ch2-exer6">
         <statement>
-          <p>Suppose that in a small town of 50 people, one person earns $5,000,000 per year and the other 49 each earn $30,000. Which is the better measure of the <em>center</em>: the mean or the median?</p>
-        </statement>
-        <solution>
-          <p><m>\overline{x}=\frac{5,000,000+49(30,000)}{50}=129,400</m></p>
-          <p><em>M</em> = 30,000
+          <task xml:id="ch2-exer6">
+            <statement>
+              <p>Suppose that in a small town of 50 people, one person earns $5,000,000 per year and the other 49 each earn $30,000. Which is the better measure of the <em>center</em>: the mean or the median?</p>
+            </statement>
+            <solution>
+              <p><m>\overline{x}=\frac{5,000,000+49(30,000)}{50}=129,400</m></p>
+              <p><em>M</em> = 30,000
 </p>
-          <p>There are 49 people who earn $30,000 and one person who earns $5,000,000.</p>
-          <p>The median is a better measure of the <em>center</em> than the mean because 49 of  the values are 30,000 and one is 5,000,000. The 5,000,000 is an outlier. The 30,000 gives us a better sense of the middle of the data.</p>
-        </solution>
-      </task>
-    </example>
+              <p>There are 49 people who earn $30,000 and one person who earns $5,000,000.</p>
+              <p>The median is a better measure of the <em>center</em> than the mean because 49 of  the values are 30,000 and one is 5,000,000. The 5,000,000 is an outlier. The 30,000 gives us a better sense of the middle of the data.</p>
+            </solution>
+          </task>
+        </statement>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -4922,17 +5046,35 @@ Median: Starting at the smallest value, the median is the 20<m>^{th}</m> term, w
     <p>Another measure of the center is the mode. The <term>mode</term> is the most frequent value. There can be more than one mode in a data set as long as those values have the same frequency and that frequency is the highest. A data set with two modes is called bimodal.</p>
 
     <example xml:id="element-114">
-      <p>Statistics exam scores for 20 students are as follows:</p>
-      <p>50, 53, 59, 59, 63, 63, 72, 72, 72, 72, 72, 76, 78, 81, 83, 84, 84, 84, 90, 93
-</p>
-      <task xml:id="exer3">
+
+      <statement>
+
+
+        <p>Statistics exam scores for 20 students are as follows:</p>
+
+        <p>50, 53, 59, 59, 63, 63, 72, 72, 72, 72, 72, 76, 78, 81, 83, 84, 84, 84, 90, 93
+
+        </p>
+
+        <task xml:id="exer3">
+
         <statement>
-          <p>Find the mode.</p>
+
+        <p>Find the mode.</p>
+
         </statement>
+
         <solution>
-          <p>The most frequent score is 72, which occurs five times. Mode  =  72.</p>
+
+        <p>The most frequent score is 72, which occurs five times. Mode  =  72.</p>
+
         </solution>
-      </task>
+
+        </task>
+
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -4950,13 +5092,19 @@ Find the mode.
     </exercise>
 
     <example xml:id="element-725">
-      <p>Five real estate exam scores are 430, 430, 480, 480, 495. The data set is bimodal because the scores 430 and 480 each occur twice.</p>
+
+      <statement>
+
+        <p>Five real estate exam scores are 430, 430, 480, 480, 495. The data set is bimodal because the scores 430 and 480 each occur twice.</p>
       <p>When is the mode the best measure of the <em>center</em>? Consider a weight loss program that advertises a mean weight loss of six pounds the first week of the program. The mode might indicate that most people lose two pounds the first week, making the program less appealing.</p>
       <note xml:id="eip-146">
         <title>NOTE</title>
         <p>The mode can be calculated for qualitative data as well as for quantitative data. For example, if the data set is red, red, red, green, green, yellow, purple, black, blue, the mode is red.</p>
       </note>
       <p>Statistical software will easily calculate the mean, the median, and the mode. Some graphing calculators can also make these calculations. In the real world, people make these calculations using software.</p>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -5020,107 +5168,109 @@ Find the mode.
      }\text{,}</m> where <em>f</em> = the frequency of the interval, <em>m</em> = the midpoint of the interval, and sigma (∑) is read as "sigma" and means to sum up. So this formula says that we will sum the products of each midpoint and the corresponding frequency and divide by the sum of all of the frequencies.</p>
 
     <example xml:id="fs-idp59127680">
-      <task xml:id="fs-idp61839840">
         <statement>
-          <p>A frequency table displaying Professor Blount’s last statistic test is shown. Find the best estimate of the class mean.</p>
-          <table>
-            <tabular>
-              <row header="yes">
-                <cell>Grade Interval</cell>
-                <cell>Number of Students</cell>
-              </row>
-              <row>
-                <cell>50–56.5</cell>
-                <cell>1</cell>
-              </row>
-              <row>
-                <cell>56.5–62.5</cell>
-                <cell>0</cell>
-              </row>
-              <row>
-                <cell>62.5–68.5</cell>
-                <cell>4</cell>
-              </row>
-              <row>
-                <cell>68.5–74.5</cell>
-                <cell>4</cell>
-              </row>
-              <row>
-                <cell>74.5–80.5</cell>
-                <cell>2</cell>
-              </row>
-              <row>
-                <cell>80.5–86.5</cell>
-                <cell>3</cell>
-              </row>
-              <row>
-                <cell>86.5–92.5</cell>
-                <cell>4</cell>
-              </row>
-              <row>
-                <cell>92.5–98.5</cell>
-                <cell>1</cell>
-              </row>
-            </tabular>
-          </table>
-        </statement>
-        <solution>
-          <ul>
-            <li><p>Find the midpoints for all intervals.</p></li>
-          </ul>
-          <table>
-            <tabular>
-              <row header="yes">
-                <cell>Grade Interval</cell>
-                <cell>Midpoint</cell>
-              </row>
-              <row>
-                <cell>50–56.5</cell>
-                <cell>53.25</cell>
-              </row>
-              <row>
-                <cell>56.5–62.5</cell>
-                <cell>59.5</cell>
-              </row>
-              <row>
-                <cell>62.5–68.5</cell>
-                <cell>65.5</cell>
-              </row>
-              <row>
-                <cell>68.5–74.5</cell>
-                <cell>71.5</cell>
-              </row>
-              <row>
-                <cell>74.5–80.5</cell>
-                <cell>77.5</cell>
-              </row>
-              <row>
-                <cell>80.5–86.5</cell>
-                <cell>83.5</cell>
-              </row>
-              <row>
-                <cell>86.5–92.5</cell>
-                <cell>89.5</cell>
-              </row>
-              <row>
-                <cell>92.5–98.5</cell>
-                <cell>95.5</cell>
-              </row>
-            </tabular>
-          </table>
-          <ul>
-            <li><p>Calculate the sum of the product of each interval frequency and midpoint.<m>\sum^{\text{​}}fm</m>
+          <task xml:id="fs-idp61839840">
+            <statement>
+              <p>A frequency table displaying Professor Blount’s last statistic test is shown. Find the best estimate of the class mean.</p>
+              <table>
+                <tabular>
+                  <row header="yes">
+                    <cell>Grade Interval</cell>
+                    <cell>Number of Students</cell>
+                  </row>
+                  <row>
+                    <cell>50–56.5</cell>
+                    <cell>1</cell>
+                  </row>
+                  <row>
+                    <cell>56.5–62.5</cell>
+                    <cell>0</cell>
+                  </row>
+                  <row>
+                    <cell>62.5–68.5</cell>
+                    <cell>4</cell>
+                  </row>
+                  <row>
+                    <cell>68.5–74.5</cell>
+                    <cell>4</cell>
+                  </row>
+                  <row>
+                    <cell>74.5–80.5</cell>
+                    <cell>2</cell>
+                  </row>
+                  <row>
+                    <cell>80.5–86.5</cell>
+                    <cell>3</cell>
+                  </row>
+                  <row>
+                    <cell>86.5–92.5</cell>
+                    <cell>4</cell>
+                  </row>
+                  <row>
+                    <cell>92.5–98.5</cell>
+                    <cell>1</cell>
+                  </row>
+                </tabular>
+              </table>
+            </statement>
+            <solution>
+              <ul>
+                <li><p>Find the midpoints for all intervals.</p></li>
+              </ul>
+              <table>
+                <tabular>
+                  <row header="yes">
+                    <cell>Grade Interval</cell>
+                    <cell>Midpoint</cell>
+                  </row>
+                  <row>
+                    <cell>50–56.5</cell>
+                    <cell>53.25</cell>
+                  </row>
+                  <row>
+                    <cell>56.5–62.5</cell>
+                    <cell>59.5</cell>
+                  </row>
+                  <row>
+                    <cell>62.5–68.5</cell>
+                    <cell>65.5</cell>
+                  </row>
+                  <row>
+                    <cell>68.5–74.5</cell>
+                    <cell>71.5</cell>
+                  </row>
+                  <row>
+                    <cell>74.5–80.5</cell>
+                    <cell>77.5</cell>
+                  </row>
+                  <row>
+                    <cell>80.5–86.5</cell>
+                    <cell>83.5</cell>
+                  </row>
+                  <row>
+                    <cell>86.5–92.5</cell>
+                    <cell>89.5</cell>
+                  </row>
+                  <row>
+                    <cell>92.5–98.5</cell>
+                    <cell>95.5</cell>
+                  </row>
+                </tabular>
+              </table>
+              <ul>
+                <li><p>Calculate the sum of the product of each interval frequency and midpoint.<m>\sum^{\text{​}}fm</m>
 
 <m>53.25(1)+59.5(0)+65.5(4)+71.5(4)+77.5(2)+83.5(3)+89.5(4)+95.5(1)=1460.25</m></p></li>
-            <li><p><m>μ=\frac{
-      \sum fm
+                <li><p><m>μ=\frac{
+          \sum fm
      }{
-      \sum f
+          \sum f
      }=\frac{1460.25}{19}=76.86</m></p></li>
-          </ul>
-        </solution>
-      </task>
-    </example>
+              </ul>
+            </solution>
+          </task>
+        </statement>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -5553,42 +5703,44 @@ Frequency
     <p>Skewness and symmetry become important when we discuss probability distributions in later chapters. </p>
 
     <example xml:id="fs-idp17640608">
-      <task xml:id="eip-idp68426064">
         <statement>
-          <p>Statistics are used to compare and sometimes identify authors. The following lists show a simple random sample that compares the letter counts for three authors.</p>
-          <p>Terry: 7, 9, 3, 3, 3, 4, 1, 3, 2, 2</p>
-          <p>Davis: 3, 3, 3, 4, 1, 4, 3, 2, 3, 1</p>
-          <p>Maris: 2, 3, 4, 4, 4, 6, 6, 6, 8, 3</p>
-          <ol>
-            <li><p>Make a dot plot for the three authors and compare the shapes.</p></li>
-            <li><p>Calculate the mean for each.</p></li>
-            <li><p>Calculate the median for each.</p></li>
-            <li><p>Describe any pattern you notice between the shape and the measures of center.</p></li>
-          </ol>
-        </statement>
-        <solution>
-          <ol>
-            <li><p>
+          <task xml:id="eip-idp68426064">
+            <statement>
+              <p>Statistics are used to compare and sometimes identify authors. The following lists show a simple random sample that compares the letter counts for three authors.</p>
+              <p>Terry: 7, 9, 3, 3, 3, 4, 1, 3, 2, 2</p>
+              <p>Davis: 3, 3, 3, 4, 1, 4, 3, 2, 3, 1</p>
+              <p>Maris: 2, 3, 4, 4, 4, 6, 6, 6, 8, 3</p>
+              <ol>
+                <li><p>Make a dot plot for the three authors and compare the shapes.</p></li>
+                <li><p>Calculate the mean for each.</p></li>
+                <li><p>Calculate the median for each.</p></li>
+                <li><p>Describe any pattern you notice between the shape and the measures of center.</p></li>
+              </ol>
+            </statement>
+            <solution>
+              <ol>
+                <li><p>
 
     
 
     Terry’s distribution has a right (positive) skew.
 
 
-        
-    
-        Davis’s distribution has a left (negative) skew.
             
-        
-            Maris’s distribution is symmetrically shaped.
+    
+            Davis’s distribution has a left (negative) skew.
+                
+            
+                Maris’s distribution is symmetrically shaped.
     </p></li>
-            <li><p>Terry’s mean is 3.7, Davis’s mean is 2.7, and Maris’s mean is 4.6.</p></li>
-            <li><p>Terry’s median is 3, Davis’s median is 3, and Maris’s median is four. It would be helpful to manually calculate these descriptive statistics, using the given data sets and then compare to the graphs.</p></li>
-            <li><p>It appears that the median is always closest to the high point (the mode), while the mean tends to be farther out on the tail. In a symmetrical distribution, the mean and the median are both centrally located close to the high point of the distribution.</p></li>
-          </ol>
-        </solution>
-      </task>
-    </example>
+                <li><p>Terry’s mean is 3.7, Davis’s mean is 2.7, and Maris’s mean is 4.6.</p></li>
+                <li><p>Terry’s median is 3, Davis’s median is 3, and Maris’s median is four. It would be helpful to manually calculate these descriptive statistics, using the given data sets and then compare to the graphs.</p></li>
+                <li><p>It appears that the median is always closest to the high point (the mode), while the mean tends to be farther out on the tail. In a symmetrical distribution, the mean and the median are both centrally located close to the high point of the distribution.</p></li>
+              </ol>
+            </solution>
+          </task>
+        </statement>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -6001,120 +6153,238 @@ The symbol <m>
     </note>
 
     <example xml:id="element-655">
-      <p>In a fifth-grade class, the teacher was interested in the average age and the sample standard deviation of the ages of her students. The following data are the ages for a SAMPLE of <em>n</em> = 20 fifth-grade students. The ages are rounded to the nearest half year.</p>
-      <p>9, 9.5, 9.5, 10, 10, 10, 10, 10.5, 10.5, 10.5, 10.5, 11, 11, 11, 11, 11, 11, 11.5, 11.5, 11.5</p>
-      <p>The average age is 10.53 years, rounded to two places.</p>
-      <p>The variance may be calculated by using a table. Then the standard deviation is calculated by taking the square root of the variance. We will explain the parts of the table after calculating <em>s</em>.</p>
-      <table>
+
+      <statement>
+
+
+        <p>In a fifth-grade class, the teacher was interested in the average age and the sample standard deviation of the ages of her students. The following data are the ages for a SAMPLE of <em>n</em> = 20 fifth-grade students. The ages are rounded to the nearest half year.</p>
+
+        <p>9, 9.5, 9.5, 10, 10, 10, 10, 10.5, 10.5, 10.5, 10.5, 11, 11, 11, 11, 11, 11, 11.5, 11.5, 11.5</p>
+
+        <p>The average age is 10.53 years, rounded to two places.</p>
+
+        <p>The variance may be calculated by using a table. Then the standard deviation is calculated by taking the square root of the variance. We will explain the parts of the table after calculating <em>s</em>.</p>
+
+        <table>
+
         <tabular>
-          <row header="yes">
-            <cell>Data</cell>
-            <cell>Frequency</cell>
-            <cell>Deviations</cell>
-            <cell><em>Deviations</em><m>^{2}</m></cell>
-            <cell>(Frequency)(<em>Deviations</em><m>^{2}</m>)</cell>
-          </row>
-          <row>
-            <cell><em>x</em></cell>
-            <cell><em>f</em></cell>
-            <cell>(<em>x</em> – <m>\overline{x}</m>)</cell>
-            <cell>(<em>x</em> – <m>\overline{x}</m>)<m>^{2}</m></cell>
-            <cell>(<em>f</em>)(<em>x</em> – <m>\overline{x}</m>)<m>^{2}</m></cell>
-          </row>
-          <row>
-            <cell>9</cell>
-            <cell>1</cell>
-            <cell>9 – 10.525 = –1.525</cell>
-            <cell>(–1.525)<m>^{2}</m> = 2.325625</cell>
-            <cell>1 × 2.325625 = 2.325625</cell>
-          </row>
-          <row>
-            <cell>9.5</cell>
-            <cell>2</cell>
-            <cell>9.5 – 10.525 = –1.025</cell>
-            <cell>(–1.025)<m>^{2}</m> = 1.050625</cell>
-            <cell>2 × 1.050625 = 2.101250</cell>
-          </row>
-          <row>
-            <cell>10</cell>
-            <cell>4</cell>
-            <cell>10 – 10.525 = –.525</cell>
-            <cell>(–.525)<m>^{2}</m> = .275625</cell>
-            <cell>4 × .275625 = 1.1025</cell>
-          </row>
-          <row>
-            <cell>10.5</cell>
-            <cell>4</cell>
-            <cell>10.5 – 10.525 = –.025</cell>
-            <cell>(–.025)<m>^{2}</m> = .000625</cell>
-            <cell>4 × .000625 = .0025</cell>
-          </row>
-          <row>
-            <cell>11</cell>
-            <cell>6</cell>
-            <cell>11 – 10.525 = .475</cell>
-            <cell>(.475)<m>^{2}</m> = .225625</cell>
-            <cell>6 × .225625 = 1.35375</cell>
-          </row>
-          <row>
-            <cell>11.5</cell>
-            <cell>3</cell>
-            <cell>11.5 – 10.525 = .975</cell>
-            <cell>(.975)<m>^{2}</m> = .950625</cell>
-            <cell>3 × .950625 = 2.851875</cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell>The total is 9.7375.</cell>
-          </row>
+
+        <row header="yes">
+
+        <cell>Data</cell>
+
+        <cell>Frequency</cell>
+
+        <cell>Deviations</cell>
+
+        <cell><em>Deviations</em><m>^{2}</m></cell>
+
+        <cell>(Frequency)(<em>Deviations</em><m>^{2}</m>)</cell>
+
+        </row>
+
+        <row>
+
+        <cell><em>x</em></cell>
+
+        <cell><em>f</em></cell>
+
+        <cell>(<em>x</em> – <m>\overline{x}</m>)</cell>
+
+        <cell>(<em>x</em> – <m>\overline{x}</m>)<m>^{2}</m></cell>
+
+        <cell>(<em>f</em>)(<em>x</em> – <m>\overline{x}</m>)<m>^{2}</m></cell>
+
+        </row>
+
+        <row>
+
+        <cell>9</cell>
+
+        <cell>1</cell>
+
+        <cell>9 – 10.525 = –1.525</cell>
+
+        <cell>(–1.525)<m>^{2}</m> = 2.325625</cell>
+
+        <cell>1 × 2.325625 = 2.325625</cell>
+
+        </row>
+
+        <row>
+
+        <cell>9.5</cell>
+
+        <cell>2</cell>
+
+        <cell>9.5 – 10.525 = –1.025</cell>
+
+        <cell>(–1.025)<m>^{2}</m> = 1.050625</cell>
+
+        <cell>2 × 1.050625 = 2.101250</cell>
+
+        </row>
+
+        <row>
+
+        <cell>10</cell>
+
+        <cell>4</cell>
+
+        <cell>10 – 10.525 = –.525</cell>
+
+        <cell>(–.525)<m>^{2}</m> = .275625</cell>
+
+        <cell>4 × .275625 = 1.1025</cell>
+
+        </row>
+
+        <row>
+
+        <cell>10.5</cell>
+
+        <cell>4</cell>
+
+        <cell>10.5 – 10.525 = –.025</cell>
+
+        <cell>(–.025)<m>^{2}</m> = .000625</cell>
+
+        <cell>4 × .000625 = .0025</cell>
+
+        </row>
+
+        <row>
+
+        <cell>11</cell>
+
+        <cell>6</cell>
+
+        <cell>11 – 10.525 = .475</cell>
+
+        <cell>(.475)<m>^{2}</m> = .225625</cell>
+
+        <cell>6 × .225625 = 1.35375</cell>
+
+        </row>
+
+        <row>
+
+        <cell>11.5</cell>
+
+        <cell>3</cell>
+
+        <cell>11.5 – 10.525 = .975</cell>
+
+        <cell>(.975)<m>^{2}</m> = .950625</cell>
+
+        <cell>3 × .950625 = 2.851875</cell>
+
+        </row>
+
+        <row>
+
+        <cell></cell>
+
+        <cell></cell>
+
+        <cell></cell>
+
+        <cell></cell>
+
+        <cell>The total is 9.7375.</cell>
+
+        </row>
+
         </tabular>
-      </table>
-      <p>The last column simply multiplies each squared deviation by the frequency for the corresponding data value.</p>
-      <p>The sample variance, <em>s</em><m>^{2}</m>, is equal to the sum of the last column (9.7375) divided by the total number of data values minus one (20 – 1):</p>
-      <p>The <em>sample standard deviation</em> <em>s</em> is equal to the square root of the sample variance:</p>
-      <p><m>s=\sqrt{.5125}=.715891,</m> which is rounded to two decimal places, <em>s</em> = .72.</p>
-      <p><em>Typically, you do the calculation for the standard deviation on your calculator or computer</em>. The intermediate results are not rounded. This is done for accuracy.</p>
-      <task xml:id="element-397">
+
+        </table>
+
+        <p>The last column simply multiplies each squared deviation by the frequency for the corresponding data value.</p>
+
+        <p>The sample variance, <em>s</em><m>^{2}</m>, is equal to the sum of the last column (9.7375) divided by the total number of data values minus one (20 – 1):</p>
+
+        <p>The <em>sample standard deviation</em> <em>s</em> is equal to the square root of the sample variance:</p>
+
+        <p><m>s=\sqrt{.5125}=.715891,</m> which is rounded to two decimal places, <em>s</em> = .72.</p>
+
+        <p><em>Typically, you do the calculation for the standard deviation on your calculator or computer</em>. The intermediate results are not rounded. This is done for accuracy.</p>
+
+        <task xml:id="element-397">
+
         <statement>
-          <p>
-    For the following problems, recall that <em>value = mean + (#ofSTDEVs)(standard deviation)</em>. Verify the mean and standard deviation on a calculator or computer. Note that these formulas are derived by algebraically manipulating the <em>z</em>-score formulas, given either parameters or statistics.
-      For a sample: <em>x</em> = <m>\overline{x}</m> + (#ofSTDEVs)(<em>s</em>)
-      For a population: <em>x</em> = <em>μ</em> + (#ofSTDEVs)(<em>σ</em>)
-      For this example, use <em>x</em> = <m>\overline{x}</m> + (#ofSTDEVs)(<em>s</em>) because the data is from a sample
-    </p>
-          <ol>
-            <li><p>Verify the mean and standard deviation on your calculator or computer.</p></li>
-            <li><p>Find the value that is one standard deviation above the mean. Find (<m>\overline{x}</m> + 1<em>s</em>).</p></li>
-            <li><p>Find the value that is two standard deviations below the mean. Find (<m>\overline{x}</m> – 2<em>s</em>).</p></li>
-            <li><p>Find the values that are 1.5 standard deviations <em>from</em> (below and above) the mean.</p></li>
-          </ol>
+
+        <p>
+
+        For the following problems, recall that <em>value = mean + (#ofSTDEVs)(standard deviation)</em>. Verify the mean and standard deviation on a calculator or computer. Note that these formulas are derived by algebraically manipulating the <em>z</em>-score formulas, given either parameters or statistics.
+
+        For a sample: <em>x</em> = <m>\overline{x}</m> + (#ofSTDEVs)(<em>s</em>)
+
+        For a population: <em>x</em> = <em>μ</em> + (#ofSTDEVs)(<em>σ</em>)
+
+        For this example, use <em>x</em> = <m>\overline{x}</m> + (#ofSTDEVs)(<em>s</em>) because the data is from a sample
+
+        </p>
+
+        <ol>
+
+        <li><p>Verify the mean and standard deviation on your calculator or computer.</p></li>
+
+        <li><p>Find the value that is one standard deviation above the mean. Find (<m>\overline{x}</m> + 1<em>s</em>).</p></li>
+
+        <li><p>Find the value that is two standard deviations below the mean. Find (<m>\overline{x}</m> – 2<em>s</em>).</p></li>
+
+        <li><p>Find the values that are 1.5 standard deviations <em>from</em> (below and above) the mean.</p></li>
+
+        </ol>
+
         </statement>
+
         <solution>
-          <ol>
-            <li><p>
-        
-          Clear lists L1 and L2. Press STAT 4:ClrList. Enter 2<m>^{nd}</m> 1 for L1, the comma (,), and
-            2<m>^{nd}</m> 2 for L2.
-          Enter data into the list editor. Press STAT 1:EDIT. If necessary, clear the lists by
-            arrowing up into the name. Press CLEAR and arrow down.
-          Put the data values (9, 9.5, 10, 10.5, 11, 11.5) into list L1 and the frequencies (1, 2, 4, 4, 6, 3) into list L2. Use the arrow keys to move around.
-          Press STAT and arrow to CALC. Press 1:1-VarStats and enter L1 (2<m>^{nd}</m> 1), L2 (2<m>^{nd}</m> 2). Do not forget the comma. Press ENTER.
-          <m>\overline{x}</m> = 10.525.
-          Use Sx because this is sample data (not a population): Sx=.715891.
-        
-      </p></li>
-            <li><p>(<m>\overline{x}</m> + 1<em>s</em>) = 10.53 + (1)(.72) = 11.25</p></li>
-            <li><p>(<m>\overline{x}</m> – 2<em>s</em>) = 10.53 – (2)(.72) = 9.09</p></li>
-            <li><p>(<m>\overline{x}</m> – 1.5<em>s</em>) = 10.53 – (1.5)(.72) = 9.45
+
+        <ol>
+
+        <li><p>
+
+
+        Clear lists L1 and L2. Press STAT 4:ClrList. Enter 2<m>^{nd}</m> 1 for L1, the comma (,), and
+
+        2<m>^{nd}</m> 2 for L2.
+
+        Enter data into the list editor. Press STAT 1:EDIT. If necessary, clear the lists by
+
+        arrowing up into the name. Press CLEAR and arrow down.
+
+        Put the data values (9, 9.5, 10, 10.5, 11, 11.5) into list L1 and the frequencies (1, 2, 4, 4, 6, 3) into list L2. Use the arrow keys to move around.
+
+        Press STAT and arrow to CALC. Press 1:1-VarStats and enter L1 (2<m>^{nd}</m> 1), L2 (2<m>^{nd}</m> 2). Do not forget the comma. Press ENTER.
+
+        <m>\overline{x}</m> = 10.525.
+
+        Use Sx because this is sample data (not a population): Sx=.715891.
+
+
+        </p></li>
+
+        <li><p>(<m>\overline{x}</m> + 1<em>s</em>) = 10.53 + (1)(.72) = 11.25</p></li>
+
+        <li><p>(<m>\overline{x}</m> – 2<em>s</em>) = 10.53 – (2)(.72) = 9.09</p></li>
+
+        <li><p>(<m>\overline{x}</m> – 1.5<em>s</em>) = 10.53 – (1.5)(.72) = 9.45
+
         (<m>\overline{x}</m> + 1.5<em>s</em>) = 10.53 + (1.5)(.72) = 11.61
-      
-      </p></li>
-          </ol>
+
+
+        </p></li>
+
+        </ol>
+
         </solution>
-      </task>
+
+        </task>
+
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -6150,13 +6420,14 @@ Use your calculator or computer to find the mean and standard deviation. Then fi
     <p>The standard deviation, when first presented, can seem unclear. By graphing your data, you can get a better <em>feel</em> for the deviations and the standard deviation. You will find that in symmetrical distributions, the standard deviation can be very helpful, but in skewed distributions, the standard deviation may not be much help. The reason is that the two sides of a skewed distribution have different spreads. In a skewed distribution, it is better to look at the first quartile, the median, the third quartile, the smallest value, and the largest value. Because numbers can be confusing, <em>always graph your data</em>. Display your data in a histogram or a box plot.</p>
 
     <example xml:id="element-649">
-      <task xml:id="exer2">
         <statement>
-          <p>Use the following data (first exam scores) from Susan Dean's spring precalculus class:</p>
-          <p>33, 42, 49, 49, 53, 55, 55, 61, 63, 67, 68, 68, 69, 69, 72, 73, 74, 78, 80, 83, 88, 88, 88, 90, 92, 94, 94, 94, 94, 96, 100</p>
-          <ol>
-            <li><p>Create a chart containing the data, frequencies, relative frequencies, and cumulative relative frequencies to three decimal places.</p></li>
-            <li><p>Calculate the following to one decimal place using a TI-83+ or TI-84 calculator:
+          <task xml:id="exer2">
+            <statement>
+              <p>Use the following data (first exam scores) from Susan Dean's spring precalculus class:</p>
+              <p>33, 42, 49, 49, 53, 55, 55, 61, 63, 67, 68, 68, 69, 69, 72, 73, 74, 78, 80, 83, 88, 88, 88, 90, 92, 94, 94, 94, 94, 96, 100</p>
+              <ol>
+                <li><p>Create a chart containing the data, frequencies, relative frequencies, and cumulative relative frequencies to three decimal places.</p></li>
+                <li><p>Calculate the following to one decimal place using a TI-83+ or TI-84 calculator:
 The sample mean
 
 The sample standard deviation
@@ -6165,22 +6436,23 @@ The first quartile
 The third quartile
 <em>IQR</em>
 </p></li>
-            <li><p>Construct a box plot and a histogram on the same set of axes. Make comments about the box plot, the histogram, and the chart.</p></li>
-          </ol>
+                <li><p>Construct a box plot and a histogram on the same set of axes. Make comments about the box plot, the histogram, and the chart.</p></li>
+              </ol>
+            </statement>
+            <solution>
+              <ol>
+                <li><p>See .</p></li>
+                <li><p>Entering the data values into a list in your graphing calculator and then selecting Stat, Calc, and 1-Var Stats will produce the one-variable statistics  you need.</p></li>
+                <li><p>The <em>x</em>-axis goes from 32.5 to 100.5; the <em>y</em>-axis goes from –2.4 to 15 for the histogram. The number of intervals is 5, so the width of an interval is (100.5 – 32.5) divided by 5, equal to 13.6. Endpoints of the intervals are as follows: the starting point is 32.5, 32.5 + 13.6 = 46.1, 46.1 + 13.6 = 59.7, 59.7 + 13.6 = 73.3, 73.3 + 13.6 = 86.9, 86.9 + 13.6 = 100.5 = the ending value; no data values fall on an interval boundary.</p></li>
+              </ol>
+              <figure xml:id="id6380826">
+                <image source="media/fig-ch02_09_02.jpg" width="80%"/>
+              </figure>
+            </solution>
+          </task>
+          <p>The long left whisker in the box plot is reflected in the left side of the histogram. The spread of the exam scores in the lower 50 percent is greater (73 – 33 = 40) than the spread in the upper 50 percent (100 – 73 = 27). The histogram, box plot, and chart all reflect this. There are a substantial number of A and B grades (80s, 90s, and 100). The histogram clearly shows this. The box plot shows us that the middle 50 percent of the exam scores  (<em>IQR</em> = 29) are Ds, Cs, and Bs. The box plot also shows us that the lower 25 percent of the exam scores are Ds and Fs.</p>
         </statement>
-        <solution>
-          <ol>
-            <li><p>See .</p></li>
-            <li><p>Entering the data values into a list in your graphing calculator and then selecting Stat, Calc, and 1-Var Stats will produce the one-variable statistics  you need.</p></li>
-            <li><p>The <em>x</em>-axis goes from 32.5 to 100.5; the <em>y</em>-axis goes from –2.4 to 15 for the histogram. The number of intervals is 5, so the width of an interval is (100.5 – 32.5) divided by 5, equal to 13.6. Endpoints of the intervals are as follows: the starting point is 32.5, 32.5 + 13.6 = 46.1, 46.1 + 13.6 = 59.7, 59.7 + 13.6 = 73.3, 73.3 + 13.6 = 86.9, 86.9 + 13.6 = 100.5 = the ending value; no data values fall on an interval boundary.</p></li>
-          </ol>
-          <figure xml:id="id6380826">
-            <image source="media/fig-ch02_09_02.jpg" width="80%"/>
-          </figure>
-        </solution>
-      </task>
-      <p>The long left whisker in the box plot is reflected in the left side of the histogram. The spread of the exam scores in the lower 50 percent is greater (73 – 33 = 40) than the spread in the upper 50 percent (100 – 73 = 27). The histogram, box plot, and chart all reflect this. There are a substantial number of A and B grades (80s, 90s, and 100). The histogram clearly shows this. The box plot shows us that the middle 50 percent of the exam scores  (<em>IQR</em> = 29) are Ds, Cs, and Bs. The box plot also shows us that the lower 25 percent of the exam scores are Ds and Fs.</p>
-    </example>
+      </example>
 
     <table>
       <tabular>
@@ -6352,7 +6624,10 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
     <p>Just as we could not find the exact mean, neither can we find the exact standard deviation. Remember that standard deviation describes numerically the expected deviation a data value has from the mean. In simple English, the standard deviation allows us to compare how <em>unusual</em> individual data are when compared to the mean.</p>
 
     <example xml:id="fs-idm67331024">
-      <p>Find the standard deviation for the data in .</p>
+
+      <statement>
+
+        <p>Find the standard deviation for the data in .</p>
       <table>
         <tabular>
           <row header="yes">
@@ -6421,6 +6696,9 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
         </tabular>
       </table>
       <p>For this data set, we have the mean, <m>\overline{x}</m> = 7.58, and the standard deviation, <em>s<m>_{x}</m></em> = 3.5. This means that a randomly selected data value would be expected to be 3.5 units from the mean. If we look at the first class, we see that the class midpoint is equal to one. This is almost two full standard deviations from the mean since 7.58 – 3.5 – 3.5 = .58. While the formula for calculating the standard deviation is not complicated, <m>s_{x}=\sqrt{\frac{f(m−\overline{x})^{2}}{n−1}}\text{,}</m> where <em>s<m>_{x}</m></em> = sample standard deviation, <m>\overline{x}</m> = sample mean; the calculations are tedious. It is usually best to use technology when performing the calculations.</p>
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -6455,9 +6733,10 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
     <p>As shown in the table, when only a sample mean and sample standard deviation are given, the top formula is used. When the population mean and population standard deviation are given, the bottom formula is used.</p>
 
     <example xml:id="element-387">
-      <task xml:id="exer1">
         <statement>
-          <p>Two students, John and Ali, from different high schools, wanted to find out who had the highest GPA when compared to his school. Which student had the highest GPA when compared to his school?
+          <task xml:id="exer1">
+            <statement>
+              <p>Two students, John and Ali, from different high schools, wanted to find out who had the highest GPA when compared to his school. Which student had the highest GPA when compared to his school?
 
 
 
@@ -6486,20 +6765,21 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
 
 
 </p>
+            </statement>
+            <solution>
+              <p>For each student, determine how many standard deviations (#ofSTDEVs) his GPA is away from the average, for his school. Pay careful attention to signs when comparing and interpreting the answer.</p>
+              <p><m>z=# of STDEVs=\frac{\text{value }–\text{mean}}{\text{standard deviation}}=\frac{x+μ}{σ}</m>
+</p>
+              <p>For John, <m>z=#ofSTDEVs=\frac{2.85–3.0}{.7}=−0.21</m>
+</p>
+              <p>For Ali, <m>z=#ofSTDEVs=\frac{77−80}{10}=−0.3</m>
+</p>
+              <p>John has the better GPA when compared to his school because his GPA is 0.21 standard deviations <em>below</em> his school's mean, while Ali's GPA is .3 standard deviations <em>below</em> his school's mean.</p>
+              <p>John's <em>z</em>-score of –.21 is higher than Ali's <em>z</em>-score of –.3. For GPA, higher values are  better, so we conclude that John has the better GPA when compared to his school. The <em>z</em>-score representing John's score does not fall as far below the mean as the <em>z</em>-score representing Ali's score.</p>
+            </solution>
+          </task>
         </statement>
-        <solution>
-          <p>For each student, determine how many standard deviations (#ofSTDEVs) his GPA is away from the average, for his school. Pay careful attention to signs when comparing and interpreting the answer.</p>
-          <p><m>z=# of STDEVs=\frac{\text{value }–\text{mean}}{\text{standard deviation}}=\frac{x+μ}{σ}</m>
-</p>
-          <p>For John, <m>z=#ofSTDEVs=\frac{2.85–3.0}{.7}=−0.21</m>
-</p>
-          <p>For Ali, <m>z=#ofSTDEVs=\frac{77−80}{10}=−0.3</m>
-</p>
-          <p>John has the better GPA when compared to his school because his GPA is 0.21 standard deviations <em>below</em> his school's mean, while Ali's GPA is .3 standard deviations <em>below</em> his school's mean.</p>
-          <p>John's <em>z</em>-score of –.21 is higher than Ali's <em>z</em>-score of –.3. For GPA, higher values are  better, so we conclude that John has the better GPA when compared to his school. The <em>z</em>-score representing John's score does not fall as far below the mean as the <em>z</em>-score representing Ali's score.</p>
-        </solution>
-      </task>
-    </example>
+      </example>
 
     <exercise>
       <title>Try It</title>

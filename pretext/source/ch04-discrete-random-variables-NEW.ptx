@@ -112,55 +112,57 @@
     </p>
 
     <example xml:id="example-ch04-pdf-1">
-      <p>A child psychologist is interested in the number of times a newborn baby's crying wakes its mother after midnight. For a random sample of 50 mothers, the following information was obtained. Let <em>X</em> = the number of times per week a newborn baby's crying wakes its mother after midnight. For this example, <em>x</em> = 0, 1, 2, 3, 4, 5.</p>
+        <statement>
+          <p>A child psychologist is interested in the number of times a newborn baby's crying wakes its mother after midnight. For a random sample of 50 mothers, the following information was obtained. Let <em>X</em> = the number of times per week a newborn baby's crying wakes its mother after midnight. For this example, <em>x</em> = 0, 1, 2, 3, 4, 5.</p>
 
-      <p><em>P</em>(<em>x</em>) = probability that <em>X</em> takes on a value <em>x</em>.</p>
+          <p><em>P</em>(<em>x</em>) = probability that <em>X</em> takes on a value <em>x</em>.</p>
 
-      <table xml:id="tbl-ch04-pdf-example-1">
-        <title>PDF for Newborn Waking Mother</title>
-        <tabular>
-          <row header="yes">
-            <cell><em>x</em></cell>
-            <cell><em>P</em>(<em>x</em>)</cell>
-          </row>
-          <row>
-            <cell>0</cell>
-            <cell><em>P</em>(<em>x</em> = 0) = <m>\frac{2}{50}</m></cell>
-          </row>
-          <row>
-            <cell>1</cell>
-            <cell><em>P</em>(<em>x</em> = 1) = <m>\frac{11}{50}</m></cell>
-          </row>
-          <row>
-            <cell>2</cell>
-            <cell><em>P</em>(<em>x</em> = 2) = <m>\frac{23}{50}</m></cell>
-          </row>
-          <row>
-            <cell>3</cell>
-            <cell><em>P</em>(<em>x</em> = 3) = <m>\frac{9}{50}</m></cell>
-          </row>
-          <row>
-            <cell>4</cell>
-            <cell><em>P</em>(<em>x</em> = 4) = <m>\frac{4}{50}</m></cell>
-          </row>
-          <row>
-            <cell>5</cell>
-            <cell><em>P</em>(<em>x</em> = 5) = <m>\frac{1}{50}</m></cell>
-          </row>
-        </tabular>
-      </table>
+          <table xml:id="tbl-ch04-pdf-example-1">
+            <title>PDF for Newborn Waking Mother</title>
+            <tabular>
+              <row header="yes">
+                <cell><em>x</em></cell>
+                <cell><em>P</em>(<em>x</em>)</cell>
+              </row>
+              <row>
+                <cell>0</cell>
+                <cell><em>P</em>(<em>x</em> = 0) = <m>\frac{2}{50}</m></cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell><em>P</em>(<em>x</em> = 1) = <m>\frac{11}{50}</m></cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell><em>P</em>(<em>x</em> = 2) = <m>\frac{23}{50}</m></cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell><em>P</em>(<em>x</em> = 3) = <m>\frac{9}{50}</m></cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell><em>P</em>(<em>x</em> = 4) = <m>\frac{4}{50}</m></cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell><em>P</em>(<em>x</em> = 5) = <m>\frac{1}{50}</m></cell>
+              </row>
+            </tabular>
+          </table>
 
-      <p><em>X</em> takes on the values 0, 1, 2, 3, 4, 5. This is a discrete PDF because we can count the number of values of <em>x</em> and also because of the following two reasons:</p>
+          <p><em>X</em> takes on the values 0, 1, 2, 3, 4, 5. This is a discrete PDF because we can count the number of values of <em>x</em> and also because of the following two reasons:</p>
 
-      <p>
-        <ol marker="a">
-          <li>Each <em>P</em>(<em>x</em>) is between zero and one, therefore inclusive</li>
-          <li>The sum of the probabilities is one, that is,</li>
-        </ol>
-      </p>
+          <p>
+            <ol marker="a">
+              <li>Each <em>P</em>(<em>x</em>) is between zero and one, therefore inclusive</li>
+              <li>The sum of the probabilities is one, that is,</li>
+            </ol>
+          </p>
 
-      <me>\frac{2}{50} + \frac{11}{50} + \frac{23}{50} + \frac{9}{50} + \frac{4}{50} + \frac{1}{50} = 1</me>
-    </example>
+          <me>\frac{2}{50} + \frac{11}{50} + \frac{23}{50} + \frac{9}{50} + \frac{4}{50} + \frac{1}{50} = 1</me>
+        </statement>
+      </example>
 
     <exercise xml:id="try-it-ch04-pdf-1">
       <title>Try It</title>
@@ -206,58 +208,60 @@
     </exercise>
 
     <example xml:id="example-ch04-nancy">
-      <p>Suppose Nancy has classes <alert>three days</alert> a week. She attends classes three days a week <alert>80 percent</alert> of the time, <alert>two days 15 percent</alert> of the time, <alert>one day 4 percent</alert> of the time, and <alert>no days 1 percent</alert> of the time. Suppose one week is randomly selected.</p>
+        <statement>
+          <p>Suppose Nancy has classes <alert>three days</alert> a week. She attends classes three days a week <alert>80 percent</alert> of the time, <alert>two days 15 percent</alert> of the time, <alert>one day 4 percent</alert> of the time, and <alert>no days 1 percent</alert> of the time. Suppose one week is randomly selected.</p>
 
-      <statement>
-        <p>a. Describe the random variable in words. Let <em>X</em> = the number of days Nancy ________.</p>
-      </statement>
-      
-      <solution>
-        <p>a. Let <em>X</em> = the number of days Nancy attends class per week.</p>
-      </solution>
+          <statement>
+            <p>a. Describe the random variable in words. Let <em>X</em> = the number of days Nancy ________.</p>
+          </statement>
+          
+          <solution>
+            <p>a. Let <em>X</em> = the number of days Nancy attends class per week.</p>
+          </solution>
 
-      <statement>
-        <p>b. In this example, what are possible values of <em>X</em>?</p>
-      </statement>
-      
-      <solution>
-        <p>b. 0, 1, 2, and 3</p>
-      </solution>
+          <statement>
+            <p>b. In this example, what are possible values of <em>X</em>?</p>
+          </statement>
+          
+          <solution>
+            <p>b. 0, 1, 2, and 3</p>
+          </solution>
 
-      <statement>
-        <p>c. Suppose one week is randomly chosen. Construct a probability distribution table (called a PDF table) like the one in <xref ref="example-ch04-pdf-1"/>. The table should have two columns labeled <em>x</em> and <em>P</em>(<em>x</em>).</p>
-      </statement>
-      
-      <solution>
-        <p>c.</p>
-        <table xml:id="tbl-ch04-nancy-pdf">
-          <title>Nancy's Class Attendance PDF</title>
-          <tabular>
-            <row header="yes">
-              <cell><em>x</em></cell>
-              <cell><em>P</em>(<em>x</em>)</cell>
-            </row>
-            <row>
-              <cell>0</cell>
-              <cell>.01</cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>.04</cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>.15</cell>
-            </row>
-            <row>
-              <cell>3</cell>
-              <cell>.80</cell>
-            </row>
-          </tabular>
-        </table>
-        <p>The sum of the <em>P</em>(<em>x</em>) column is 0.01+0.04+0.15+0.80 = 1.00.</p>
-      </solution>
-    </example>
+          <statement>
+            <p>c. Suppose one week is randomly chosen. Construct a probability distribution table (called a PDF table) like the one in <xref ref="example-ch04-pdf-1"/>. The table should have two columns labeled <em>x</em> and <em>P</em>(<em>x</em>).</p>
+          </statement>
+          
+          <solution>
+            <p>c.</p>
+            <table xml:id="tbl-ch04-nancy-pdf">
+              <title>Nancy's Class Attendance PDF</title>
+              <tabular>
+                <row header="yes">
+                  <cell><em>x</em></cell>
+                  <cell><em>P</em>(<em>x</em>)</cell>
+                </row>
+                <row>
+                  <cell>0</cell>
+                  <cell>.01</cell>
+                </row>
+                <row>
+                  <cell>1</cell>
+                  <cell>.04</cell>
+                </row>
+                <row>
+                  <cell>2</cell>
+                  <cell>.15</cell>
+                </row>
+                <row>
+                  <cell>3</cell>
+                  <cell>.80</cell>
+                </row>
+              </tabular>
+            </table>
+            <p>The sum of the <em>P</em>(<em>x</em>) column is 0.01+0.04+0.15+0.80 = 1.00.</p>
+          </solution>
+        </statement>
+      </example>
 
     <exercise xml:id="try-it-ch04-jeremiah">
       <title>Try It</title>
@@ -574,75 +578,77 @@
       </p>
     </note>
     <example xml:id="fs-idp56252608">
-      <p xml:id="fs-idm190895152">
-        A men's soccer team plays soccer zero, one, or two days a week. The probability that they play zero days is .2, the probability that they play one day is .5, and the probability that they play two days is .3. Find the long-term average or expected value, 
-        <em>μ</em>
-        , of the number of days per week the men's soccer team plays soccer.
-      </p>
-      <p xml:id="element-126">
-        To do the problem, first let the random variable 
-        <em>X</em>
-         = the number of days the men's soccer team plays soccer per week. 
-        <em>X</em>
-         takes on the values 0, 1, 2. Construct a PDF table adding a column 
-        <em>x*P(x)</em>
-        , the product of the value 
-        <em>x</em>
-         with the corresponding probability 
-        <em>P(x)</em>
-        . In this column, you will multiply each 
-        <em>x</em>
-         value by its probability.
-      </p>
-      <table xml:id="element-749">
-        <title>Expected Value Table</title>
-        <tabular>
-          <row header="yes">
-            <cell>
-              <em>x</em>
-            </cell>
-            <cell>
-              <em>P</em>
-              (
-              <em>x</em>
-              )
-            </cell>
-            <cell>
-              <em>x</em>
-              *
-              <em>P</em>
-              (
-              <em>x</em>
-              )
-            </cell>
-          </row>
-          <row>
-            <cell>0</cell>
-            <cell>.2</cell>
-            <cell>(0)(.2) = 0</cell>
-          </row>
-          <row>
-            <cell>1</cell>
-            <cell>.5</cell>
-            <cell>(1)(.5) = .5</cell>
-          </row>
-          <row>
-            <cell>2</cell>
-            <cell>.3</cell>
-            <cell>(2)(.3) = .6</cell>
-          </row>
-        </tabular>
-      </table>
-      <p xml:id="fs-id1164564181939">
-        Add the last column 
-        <m>x*P(x)</m>
-         to get the expected value/mean of the random variable 
-        <em>X</em>
-        .
-      </p>
-      <me>E(X)=μ=\sumxP(x)=0+.5+.6=1.1</me>
-      <p xml:id="element-353">The expected value/mean is 1.1. The men's soccer team would, on the average, expect to play soccer 1.1 days per week. The number 1.1 is the long-term average or expected value if the men's soccer team plays soccer week after week after week.</p>
-    </example>
+        <statement>
+          <p xml:id="fs-idm190895152">
+            A men's soccer team plays soccer zero, one, or two days a week. The probability that they play zero days is .2, the probability that they play one day is .5, and the probability that they play two days is .3. Find the long-term average or expected value, 
+            <em>μ</em>
+            , of the number of days per week the men's soccer team plays soccer.
+          </p>
+          <p xml:id="element-126">
+            To do the problem, first let the random variable 
+            <em>X</em>
+             = the number of days the men's soccer team plays soccer per week. 
+            <em>X</em>
+             takes on the values 0, 1, 2. Construct a PDF table adding a column 
+            <em>x*P(x)</em>
+            , the product of the value 
+            <em>x</em>
+             with the corresponding probability 
+            <em>P(x)</em>
+            . In this column, you will multiply each 
+            <em>x</em>
+             value by its probability.
+          </p>
+          <table xml:id="element-749">
+            <title>Expected Value Table</title>
+            <tabular>
+              <row header="yes">
+                <cell>
+                  <em>x</em>
+                </cell>
+                <cell>
+                  <em>P</em>
+                  (
+                  <em>x</em>
+                  )
+                </cell>
+                <cell>
+                  <em>x</em>
+                  *
+                  <em>P</em>
+                  (
+                  <em>x</em>
+                  )
+                </cell>
+              </row>
+              <row>
+                <cell>0</cell>
+                <cell>.2</cell>
+                <cell>(0)(.2) = 0</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>.5</cell>
+                <cell>(1)(.5) = .5</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>.3</cell>
+                <cell>(2)(.3) = .6</cell>
+              </row>
+            </tabular>
+          </table>
+          <p xml:id="fs-id1164564181939">
+            Add the last column 
+            <m>x*P(x)</m>
+             to get the expected value/mean of the random variable 
+            <em>X</em>
+            .
+          </p>
+          <me>E(X)=μ=\sumxP(x)=0+.5+.6=1.1</me>
+          <p xml:id="element-353">The expected value/mean is 1.1. The men's soccer team would, on the average, expect to play soccer 1.1 days per week. The number 1.1 is the long-term average or expected value if the men's soccer team plays soccer week after week after week.</p>
+        </statement>
+      </example>
     <p xml:id="fs-id1164567592732">
       As you learned in 
       <xref ref="ch03-probability-topics">Chapter 3</xref>
@@ -707,276 +713,278 @@
       <me>σ=\sqrt{σ^{2}}=\sqrt{\sum((x−μ))^{2}P(x)}</me>
     </note>
     <example xml:id="fs-idm82770544">
-      <p xml:id="fs-id1164567289766">A researcher conducted a study to investigate how a newborn babys crying after midnight affects the sleep of the baby's mother. The researcher randomly selected 50 new mothers and asked how many times they were awakened by their newborn baby's crying after midnight per week. Two mothers were awakened zero times, 11 mothers were awakened one time, 23 mothers were awakened two times, nine mothers were awakened three times, four mothers were awakened four times, and one mother was awakened five times. Find the expected value of the number of times a newborn baby's crying wakes its mother after midnight per week. Calculate the standard deviation of the variable as well.</p>
-      <p xml:id="fs-id1164567389383">
-        To do the problem, first let the random variable 
-        <em>X</em>
-         = the number of times a mother is awakened by her newborns crying after midnight per week. 
-        <em>X</em>
-         takes on the values 0, 1, 2, 3, 4, 5. Construct a PDF table as below. The column of 
-        <em>P</em>
-        (
-        <em>x</em>
-        )  gives the experimental probability of each 
-        <em>x</em>
-         value. We will use the relative frequency to get the probability. For example, the probability that a mother wakes up zero times is 
-        <m>\frac{2}{50}</m>
-         since there are two mothers out of 50 who were awakened zero times. The third column of the table is the product of a value and its probability, 
-        <em>x</em>
-        <em>P</em>
-        (
-        <em>x</em>
-        ).
-      </p>
-      <table xml:id="fs-id1164567284598">
-        <tabular>
-          <row header="yes">
-            <cell>
-              <em>x</em>
-            </cell>
-            <cell>
-              <em>P</em>
-              (
-              <em>x</em>
-              )
-            </cell>
-            <cell>
-              <em>x</em>
-              <em>P</em>
-              (
-              <em>x</em>
-              )
-            </cell>
-          </row>
-          <row>
-            <cell>0</cell>
-            <cell>
-              <m>P(x = 0) =\frac{2}{50}</m>
-              
+        <statement>
+          <p xml:id="fs-id1164567289766">A researcher conducted a study to investigate how a newborn babys crying after midnight affects the sleep of the baby's mother. The researcher randomly selected 50 new mothers and asked how many times they were awakened by their newborn baby's crying after midnight per week. Two mothers were awakened zero times, 11 mothers were awakened one time, 23 mothers were awakened two times, nine mothers were awakened three times, four mothers were awakened four times, and one mother was awakened five times. Find the expected value of the number of times a newborn baby's crying wakes its mother after midnight per week. Calculate the standard deviation of the variable as well.</p>
+          <p xml:id="fs-id1164567389383">
+            To do the problem, first let the random variable 
+            <em>X</em>
+             = the number of times a mother is awakened by her newborns crying after midnight per week. 
+            <em>X</em>
+             takes on the values 0, 1, 2, 3, 4, 5. Construct a PDF table as below. The column of 
+            <em>P</em>
+            (
+            <em>x</em>
+            )  gives the experimental probability of each 
+            <em>x</em>
+             value. We will use the relative frequency to get the probability. For example, the probability that a mother wakes up zero times is 
+            <m>\frac{2}{50}</m>
+             since there are two mothers out of 50 who were awakened zero times. The third column of the table is the product of a value and its probability, 
+            <em>x</em>
+            <em>P</em>
+            (
+            <em>x</em>
+            ).
+          </p>
+          <table xml:id="fs-id1164567284598">
+            <tabular>
+              <row header="yes">
+                <cell>
+                  <em>x</em>
+                </cell>
+                <cell>
+                  <em>P</em>
+                  (
+                  <em>x</em>
+                  )
+                </cell>
+                <cell>
+                  <em>x</em>
+                  <em>P</em>
+                  (
+                  <em>x</em>
+                  )
+                </cell>
+              </row>
+              <row>
+                <cell>0</cell>
+                <cell>
+                  <m>P(x = 0) =\frac{2}{50}</m>
+                  
 
-            </cell>
-            <cell>
-              <m>(0)(\frac{2}{50})=0</m>
-            </cell>
-          </row>
-          <row>
-            <cell>1</cell>
-            <cell>
-              <m>P(x = 1) =\frac{11}{50}</m>
-            </cell>
-            <cell>
-              <m>(1)(\frac{11}{50})=\frac{11}{50}</m>
-            </cell>
-          </row>
-          <row>
-            <cell>2</cell>
-            <cell>
-              <m>P(x = 2) =\frac{23}{50}</m>
-              
+                </cell>
+                <cell>
+                  <m>(0)(\frac{2}{50})=0</m>
+                </cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>
+                  <m>P(x = 1) =\frac{11}{50}</m>
+                </cell>
+                <cell>
+                  <m>(1)(\frac{11}{50})=\frac{11}{50}</m>
+                </cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>
+                  <m>P(x = 2) =\frac{23}{50}</m>
+                  
 
-            </cell>
-            <cell>
-              <m>(2)(\frac{23}{50})=\frac{46}{50}</m>
-            </cell>
-          </row>
-          <row>
-            <cell>3</cell>
-            <cell>
-              <m>P(x = 3) =\frac{9}{50}</m>
-            </cell>
-            <cell>
-              <m>(3)(\frac{9}{50})=\frac{27}{50}</m>
-              
+                </cell>
+                <cell>
+                  <m>(2)(\frac{23}{50})=\frac{46}{50}</m>
+                </cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>
+                  <m>P(x = 3) =\frac{9}{50}</m>
+                </cell>
+                <cell>
+                  <m>(3)(\frac{9}{50})=\frac{27}{50}</m>
+                  
 
-            </cell>
-          </row>
-          <row>
-            <cell>4</cell>
-            <cell>
-              <m>P(x =\text{ 4}) =\frac{4}{50}</m>
-            </cell>
-            <cell>
-              <m>(4)(\frac{4}{50})=\frac{16}{50}</m>
-            </cell>
-          </row>
-          <row>
-            <cell>5</cell>
-            <cell>
-              <m>P(x = 5) =\frac{1}{50}</m>
-              
+                </cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell>
+                  <m>P(x =\text{ 4}) =\frac{4}{50}</m>
+                </cell>
+                <cell>
+                  <m>(4)(\frac{4}{50})=\frac{16}{50}</m>
+                </cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell>
+                  <m>P(x = 5) =\frac{1}{50}</m>
+                  
 
-            </cell>
-            <cell>
-              <m>(5)(\frac{1}{50})=\frac{5}{50}</m>
-            </cell>
-          </row>
-        </tabular>
-      </table>
-      <p xml:id="fs-id1164565545501">
-        We then add all the products in the third column to get the mean/expected value of 
-        <em>X</em>
-        .
-      </p>
-      <men xml:id="fs-id1164567354993">E(X)=μ=\sumxP(x)=0+\frac{11}{50}+\frac{46}{50}+\frac{27}{50}+\frac{16}{50}+\frac{5}{50}=\frac{105}{50}=2.1</men>
-      <p xml:id="fs-id1164567577800">Therefore, we expect a newborn to wake its mother after midnight 2.1 times per week, on the average.</p>
-      <p xml:id="fs-id1164567878100">
-        To calculate the standard deviation 
-        <em>σ</em>
-        , we add the fourth column (
-        <em>x-μ</em>
-        )^{2} and the fifth column 
-        <m>((x-μ))^{2}∙P(x)</m>
-         to get the following table:
-      </p>
-      <table xml:id="fs-id1164567849065">
-        <tabular>
-          <row header="yes">
-            <cell>
-              <em>x</em>
-            </cell>
-            <cell>
-              <em>P</em>
-              (
-              <em>x</em>
-              )
-            </cell>
-            <cell>
-              <em>x</em>
-              <em>P</em>
-              (
-              <em>x</em>
-              )
-            </cell>
-            <cell>
-              (
-              <em>x-µ</em>
-              )^{2}
-            </cell>
-            <cell>
-              (
-              <em>x-µ</em>
-              )^{2}•
-              <em>P</em>
-              (
-              <em>x</em>
-              )
-            </cell>
-          </row>
-          <row>
-            <cell>0</cell>
-            <cell>
-              <m>P(x = 0) =\frac{2}{50}</m>
-            </cell>
-            <cell>
-              <m>(0)(\frac{2}{50})=0</m>
-            </cell>
-            <cell>
-              <m>((0−2.1))^{2}=4.41</m>
-              
+                </cell>
+                <cell>
+                  <m>(5)(\frac{1}{50})=\frac{5}{50}</m>
+                </cell>
+              </row>
+            </tabular>
+          </table>
+          <p xml:id="fs-id1164565545501">
+            We then add all the products in the third column to get the mean/expected value of 
+            <em>X</em>
+            .
+          </p>
+          <men xml:id="fs-id1164567354993">E(X)=μ=\sumxP(x)=0+\frac{11}{50}+\frac{46}{50}+\frac{27}{50}+\frac{16}{50}+\frac{5}{50}=\frac{105}{50}=2.1</men>
+          <p xml:id="fs-id1164567577800">Therefore, we expect a newborn to wake its mother after midnight 2.1 times per week, on the average.</p>
+          <p xml:id="fs-id1164567878100">
+            To calculate the standard deviation 
+            <em>σ</em>
+            , we add the fourth column (
+            <em>x-μ</em>
+            )^{2} and the fifth column 
+            <m>((x-μ))^{2}∙P(x)</m>
+             to get the following table:
+          </p>
+          <table xml:id="fs-id1164567849065">
+            <tabular>
+              <row header="yes">
+                <cell>
+                  <em>x</em>
+                </cell>
+                <cell>
+                  <em>P</em>
+                  (
+                  <em>x</em>
+                  )
+                </cell>
+                <cell>
+                  <em>x</em>
+                  <em>P</em>
+                  (
+                  <em>x</em>
+                  )
+                </cell>
+                <cell>
+                  (
+                  <em>x-µ</em>
+                  )^{2}
+                </cell>
+                <cell>
+                  (
+                  <em>x-µ</em>
+                  )^{2}•
+                  <em>P</em>
+                  (
+                  <em>x</em>
+                  )
+                </cell>
+              </row>
+              <row>
+                <cell>0</cell>
+                <cell>
+                  <m>P(x = 0) =\frac{2}{50}</m>
+                </cell>
+                <cell>
+                  <m>(0)(\frac{2}{50})=0</m>
+                </cell>
+                <cell>
+                  <m>((0−2.1))^{2}=4.41</m>
+                  
 
-            </cell>
-            <cell>
-              <m>4.41•\frac{2}{50}=.1764</m>
-            </cell>
-          </row>
-          <row>
-            <cell>1</cell>
-            <cell>
-              <m>P(x = 1) =\frac{11}{50}</m>
-            </cell>
-            <cell>
-              <m>(1)(\frac{11}{50})=\frac{11}{50}</m>
-              
+                </cell>
+                <cell>
+                  <m>4.41•\frac{2}{50}=.1764</m>
+                </cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>
+                  <m>P(x = 1) =\frac{11}{50}</m>
+                </cell>
+                <cell>
+                  <m>(1)(\frac{11}{50})=\frac{11}{50}</m>
+                  
 
-            </cell>
-            <cell>
-              <m>((1−2.1))^{2}=1.21</m>
-              
+                </cell>
+                <cell>
+                  <m>((1−2.1))^{2}=1.21</m>
+                  
 
-            </cell>
-            <cell>
-              <m>1.21•\frac{11}{50}=.2662</m>
-            </cell>
-          </row>
-          <row>
-            <cell>2</cell>
-            <cell>
-              <m>P(x = 2) =\frac{23}{50}</m>
-            </cell>
-            <cell>
-              <m>(2)(\frac{23}{50})=\frac{46}{50}</m>
-              
+                </cell>
+                <cell>
+                  <m>1.21•\frac{11}{50}=.2662</m>
+                </cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>
+                  <m>P(x = 2) =\frac{23}{50}</m>
+                </cell>
+                <cell>
+                  <m>(2)(\frac{23}{50})=\frac{46}{50}</m>
+                  
 
-            </cell>
-            <cell>
-              <m>((2−2.1))^{2}=.01</m>
-            </cell>
-            <cell>
-              <m>.01•\frac{23}{50}=.0046</m>
-            </cell>
-          </row>
-          <row>
-            <cell>3</cell>
-            <cell>
-              <m>P(x = 3) =\frac{9}{50}</m>
-            </cell>
-            <cell>
-              <m>(3)(\frac{9}{50})=\frac{27}{50}</m>
-            </cell>
-            <cell>
-              <m>((3−2.1))^{2}=.81</m>
-            </cell>
-            <cell>
-              <m>.81•\frac{9}{50}=.1458</m>
-            </cell>
-          </row>
-          <row>
-            <cell>4</cell>
-            <cell>
-              <m>P(x = 4) =\frac{4}{50}</m>
-            </cell>
-            <cell>
-              <m>(4)(\frac{4}{50})=\frac{16}{50}</m>
-            </cell>
-            <cell>
-              <m>((4−2.1))^{2}=3.61</m>
-            </cell>
-            <cell>
-              <m>3.61•\frac{4}{50}=.2888</m>
-            </cell>
-          </row>
-          <row>
-            <cell>5</cell>
-            <cell>
-              <m>P(x = 5) =\frac{1}{50}</m>
-            </cell>
-            <cell>
-              <m>(5)(\frac{1}{50})=\frac{5}{50}</m>
-            </cell>
-            <cell>
-              <m>((5−2.1))^{2}=8.41</m>
-            </cell>
-            <cell>
-              <m>8.41•\frac{1}{50}=.1682</m>
-            </cell>
-          </row>
-        </tabular>
-      </table>
-      <p xml:id="fs-id1164567469151">
-        We then add all the products in the 5^{th} column to get the variance of 
-        <em>X</em>
-        .
-      </p>
-      <men xml:id="fs-id1164567289888">σ^{2}=.1764+.2662+.0046+.1458+.2888+.1682=1.05</men>
-      <p xml:id="fs-id1164567233541">
-        To get the standard deviation 
-        <em>σ</em>
-        , we simply take the square root of variance 
-        <em>σ</em>
-        ^{2}.
-      </p>
-      <men xml:id="fs-id1164567558892">σ=\sqrt{σ^{2}}=\sqrt{1.05}\approx1.0247</men>
-    </example>
+                </cell>
+                <cell>
+                  <m>((2−2.1))^{2}=.01</m>
+                </cell>
+                <cell>
+                  <m>.01•\frac{23}{50}=.0046</m>
+                </cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>
+                  <m>P(x = 3) =\frac{9}{50}</m>
+                </cell>
+                <cell>
+                  <m>(3)(\frac{9}{50})=\frac{27}{50}</m>
+                </cell>
+                <cell>
+                  <m>((3−2.1))^{2}=.81</m>
+                </cell>
+                <cell>
+                  <m>.81•\frac{9}{50}=.1458</m>
+                </cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell>
+                  <m>P(x = 4) =\frac{4}{50}</m>
+                </cell>
+                <cell>
+                  <m>(4)(\frac{4}{50})=\frac{16}{50}</m>
+                </cell>
+                <cell>
+                  <m>((4−2.1))^{2}=3.61</m>
+                </cell>
+                <cell>
+                  <m>3.61•\frac{4}{50}=.2888</m>
+                </cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell>
+                  <m>P(x = 5) =\frac{1}{50}</m>
+                </cell>
+                <cell>
+                  <m>(5)(\frac{1}{50})=\frac{5}{50}</m>
+                </cell>
+                <cell>
+                  <m>((5−2.1))^{2}=8.41</m>
+                </cell>
+                <cell>
+                  <m>8.41•\frac{1}{50}=.1682</m>
+                </cell>
+              </row>
+            </tabular>
+          </table>
+          <p xml:id="fs-id1164567469151">
+            We then add all the products in the 5^{th} column to get the variance of 
+            <em>X</em>
+            .
+          </p>
+          <men xml:id="fs-id1164567289888">σ^{2}=.1764+.2662+.0046+.1458+.2888+.1682=1.05</men>
+          <p xml:id="fs-id1164567233541">
+            To get the standard deviation 
+            <em>σ</em>
+            , we simply take the square root of variance 
+            <em>σ</em>
+            ^{2}.
+          </p>
+          <men xml:id="fs-id1164567558892">σ=\sqrt{σ^{2}}=\sqrt{1.05}\approx1.0247</men>
+        </statement>
+      </example>
     <exercise xml:id="fs-idm80414512">
       <title>Try It</title>
       <statement>
@@ -1101,99 +1109,101 @@
       </statement>
     </exercise>
     <example xml:id="element-116">
-      <p xml:id="element-117">
-        Suppose you play a game of chance in which five numbers are chosen from 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. A computer randomly selects five numbers from zero to nine with replacement. You pay $2 to play and could profit $100,000 if you match all five numbers in order (you get your $2 back plus $100,000). Over the long term, what is your 
-        <em>expected</em>
-         profit of playing the game?
-      </p>
-      <p xml:id="fs-id1164564484850">To do this problem, set up a PDF table for the amount of money you can profit.</p>
-      <p xml:id="fs-id1164567242944">
-        Let 
-        <em>X</em>
-         = the amount of money you profit. If your five numbers match in order, you will win the game and will get your $2 back plus $100,000. That means your profit is $100,000. If your five numbers do not match in order, you will lose the game and lose your $2. That means your profit is -$2. Therefore, X takes on the values $100,000 and –$2. That is the second column 
-        <em>x</em>
-         in the PDF table below.
-      </p>
-      <p xml:id="fs-id1164567272570">
-        To win, you must get all five numbers correct, in order. The probability of choosing the correct first number is 
-        <m>\frac{1}{10}</m>
-        
+        <statement>
+          <p xml:id="element-117">
+            Suppose you play a game of chance in which five numbers are chosen from 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. A computer randomly selects five numbers from zero to nine with replacement. You pay $2 to play and could profit $100,000 if you match all five numbers in order (you get your $2 back plus $100,000). Over the long term, what is your 
+            <em>expected</em>
+             profit of playing the game?
+          </p>
+          <p xml:id="fs-id1164564484850">To do this problem, set up a PDF table for the amount of money you can profit.</p>
+          <p xml:id="fs-id1164567242944">
+            Let 
+            <em>X</em>
+             = the amount of money you profit. If your five numbers match in order, you will win the game and will get your $2 back plus $100,000. That means your profit is $100,000. If your five numbers do not match in order, you will lose the game and lose your $2. That means your profit is -$2. Therefore, X takes on the values $100,000 and –$2. That is the second column 
+            <em>x</em>
+             in the PDF table below.
+          </p>
+          <p xml:id="fs-id1164567272570">
+            To win, you must get all five numbers correct, in order. The probability of choosing the correct first number is 
+            <m>\frac{1}{10}</m>
+            
  because there are 10 numbers (from zero to nine) and only one of them is correct. The probability of choosing the correct second number is also 
-        <m>\frac{1}{10}</m>
-        
+            <m>\frac{1}{10}</m>
+            
  because the selection is done with replacement and there are still 10 numbers (from zero to nine) for you to choose. Due to the same reason, the probability of choosing the correct third number, the correct fourth number, and the correct fifth number are also 
-        <m>\frac{1}{10}</m>
-        
+            <m>\frac{1}{10}</m>
+            
 . The selection of one number does not affect the selection of another number. That means the five selections are independent. The probability of choosing all five correct numbers and in order is equal to the product of the probabilities of choosing each number correctly. 
-      </p>
-      <me>\begin{matrix} \text{P}(\text{choosing all five numbers correctly})•\text{P}(\text{choosing 1st number correctly})• \\ \text{ P}(\text{choosing 2nd number correctly})•\text{ P}(\text{choosing 5th number correctly}) \\ =(\frac{1}{10})•(\frac{1}{10})•(\frac{1}{10})•(\frac{1}{10})•(\frac{1}{10}) \\ =.00001 \end{matrix}</me>
-      <p xml:id="fs-id1164564477521">
-        Therefore, the probability of winning is .00001 and the probability of losing is 1 − .00001 = .99999. That is how we get the third column 
-        <em>P</em>
-        (
-        <em>x</em>
-        ) in the PDF table below.
-      </p>
-      <p xml:id="fs-id1164565764618">
-        To get the fourth column 
-        <em>x</em>
-        <em>P</em>
-        (
-        <em>x</em>
-        ) in the table, we simply multiply the value 
-        <em>x</em>
-         with the corresponding probability 
-        <em>P</em>
-        (
-        <em>x</em>
-        ).
-      </p>
-      <p xml:id="fs-id1164565532486">The PDF table is as follows:</p>
-      <table xml:id="element-480">
-        <title/>
-        <tabular>
-          <row header="yes">
-            <cell/>
-            <cell>
-              <em>x</em>
-            </cell>
-            <cell>
-              <em>P</em>
-              (
-              <em>x</em>
-              )
-            </cell>
-            <cell>
-              <em>x</em>
-              *
-              <em>P</em>
-              (
-              <em>x</em>
-              )
-            </cell>
-          </row>
-          <row>
-            <cell>Loss</cell>
-            <cell>–2</cell>
-            <cell>.99999</cell>
-            <cell>(–2)(.99999) = –1.99998</cell>
-          </row>
-          <row>
-            <cell>Profit</cell>
-            <cell>100,000</cell>
-            <cell>.00001</cell>
-            <cell>(100000)(.00001) = 1</cell>
-          </row>
-        </tabular>
-      </table>
-      <p xml:id="fs-id1164566177364">
-        We then add all the products in the last column to get the mean/expected value of 
-        <em>X</em>
-        .
-      </p>
-      <me> E(X)=μ=\sumxP(x)=−1.99998+1=−.9998\text{.}</me>
-      <p xml:id="element-406">Since –.99998 is about –1, you would, on average, expect to lose approximately $1 for each game you play. However, each time you play, you either lose $2 or profit $100,000. The $1 is the average or expected loss</p>
-    </example>
+          </p>
+          <me>\begin{matrix} \text{P}(\text{choosing all five numbers correctly})•\text{P}(\text{choosing 1st number correctly})• \\ \text{ P}(\text{choosing 2nd number correctly})•\text{ P}(\text{choosing 5th number correctly}) \\ =(\frac{1}{10})•(\frac{1}{10})•(\frac{1}{10})•(\frac{1}{10})•(\frac{1}{10}) \\ =.00001 \end{matrix}</me>
+          <p xml:id="fs-id1164564477521">
+            Therefore, the probability of winning is .00001 and the probability of losing is 1 − .00001 = .99999. That is how we get the third column 
+            <em>P</em>
+            (
+            <em>x</em>
+            ) in the PDF table below.
+          </p>
+          <p xml:id="fs-id1164565764618">
+            To get the fourth column 
+            <em>x</em>
+            <em>P</em>
+            (
+            <em>x</em>
+            ) in the table, we simply multiply the value 
+            <em>x</em>
+             with the corresponding probability 
+            <em>P</em>
+            (
+            <em>x</em>
+            ).
+          </p>
+          <p xml:id="fs-id1164565532486">The PDF table is as follows:</p>
+          <table xml:id="element-480">
+            <title/>
+            <tabular>
+              <row header="yes">
+                <cell/>
+                <cell>
+                  <em>x</em>
+                </cell>
+                <cell>
+                  <em>P</em>
+                  (
+                  <em>x</em>
+                  )
+                </cell>
+                <cell>
+                  <em>x</em>
+                  *
+                  <em>P</em>
+                  (
+                  <em>x</em>
+                  )
+                </cell>
+              </row>
+              <row>
+                <cell>Loss</cell>
+                <cell>–2</cell>
+                <cell>.99999</cell>
+                <cell>(–2)(.99999) = –1.99998</cell>
+              </row>
+              <row>
+                <cell>Profit</cell>
+                <cell>100,000</cell>
+                <cell>.00001</cell>
+                <cell>(100000)(.00001) = 1</cell>
+              </row>
+            </tabular>
+          </table>
+          <p xml:id="fs-id1164566177364">
+            We then add all the products in the last column to get the mean/expected value of 
+            <em>X</em>
+            .
+          </p>
+          <me> E(X)=μ=\sumxP(x)=−1.99998+1=−.9998\text{.}</me>
+          <p xml:id="element-406">Since –.99998 is about –1, you would, on average, expect to lose approximately $1 for each game you play. However, each time you play, you either lose $2 or profit $100,000. The $1 is the average or expected loss</p>
+        </statement>
+      </example>
     <exercise xml:id="fs-idm7487840">
       <title>Try It</title>
       <statement>
