@@ -137,6 +137,9 @@ def extract_text(elem, namespaces):
         
         if tag == 'math':
             latex = convert_mathml_to_latex(child)
+            # Escape < and > in LaTeX for XML safety - must be done before placing in XML
+            latex = latex.replace('<', '&lt;')
+            latex = latex.replace('>', '&gt;')
             parts.append(f'<m>{latex}</m>')
         elif tag == 'emphasis':
             effect = child.get('effect', '')

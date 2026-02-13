@@ -1085,7 +1085,7 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
         <solution>
           <p>Let 1 and 2 be the subscripts that indicate the first and second instructor, respectively.</p>
           <p><m>n</m>_{1} = <m>n</m>_{2} = 30.</p>
-          <p><em>H_{0}</em>: <m>\sigma12=\sigma22</m> and <em>H_{a}</em>: <m>\sigma12\text{<}\sigma22</m>.</p>
+          <p><em>H_{0}</em>: <m>\sigma12=\sigma22</m> and <em>H_{a}</em>: <m>\sigma12\text{&lt;}\sigma22</m>.</p>
           <p>Calculate the test statistic: By the null hypothesis <m>\text{(}\sigma\text{1}\text{2}\text{=}\sigma\text{2}\text{2}\text{)}</m>, the <m>F</m> statistic is</p>
           <p><m>F=\frac{[\frac{(s_{1})^{2}}{(\sigma_{1})^{2}}]}{[\frac{(s_{2})^{2}}{(\sigma_{2})^{2}}]}=\frac{(s_{1})^{2}}{(s_{2})^{2}}=\frac{52.3}{89.9}=0.5818.</m></p>
           <p>Distribution for the test: <m>F</m>_{29,29} where <m>n</m>_{1} – 1 = 29 and <m>n</m>_{2} – 1 = 29.</p>
@@ -1164,7 +1164,7 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           <p><em>H_{a}</em>: σ_{1} &lt; σ_{2}</p>
           <p>or</p>
           <p><em>H_{0}</em>: <m>\sigma\text{1}\text{2}\text{=}\sigma\text{2}\text{2}</m></p>
-          <p><em>H_{a}</em>: <m>\sigma12<\sigma22</m></p>
+          <p><em>H_{a}</em>: <m>\sigma12&lt;\sigma22</m></p>
         </solution>
       </exercise>
       <exercise xml:id="eip-113">
