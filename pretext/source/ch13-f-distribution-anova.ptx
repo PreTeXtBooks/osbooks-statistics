@@ -6,11 +6,11 @@
   <section xml:id="sec-ch13-introduction">
     <title>Introduction</title>
 
-    <figure xml:id="fs-idm12990704">
+    <figure xml:id="ch13-m79701-fs-idm12990704">
       <caption>One-way ANOVA is used to measure information from several groups.</caption>
       <image source="media/CNX_Stats_C13_CO.jpg" width="76%"/>
     </figure>
-    <note xml:id="fs-idp90615904">
+    <note xml:id="ch13-m79701-fs-idp90615904">
       <title>Chapter Objectives</title>
       <p>By the end of this chapter, the student should be able to do the following:</p>
       <ul>
@@ -29,7 +29,7 @@
     <title>One-Way ANOVA</title>
 
 
-    <subsection xml:id="fs-id1164565456340">
+    <subsection xml:id="ch13-m79703-fs-id1164565456340">
       <p>The purpose of a one-way ANOVA test is to determine the existence of a statistically significant difference among several group means. The test uses <term>variances</term> to help determine if the means are equal or not. To perform a one-way ANOVA test, there are five basic assumptions to be fulfilled:</p>
       <ul>
         <li>Each population from which a sample is taken is assumed to be normal.</li>
@@ -40,20 +40,20 @@
       </ul>
     </subsection>
 
-    <subsection xml:id="fs-idm3483088">
+    <subsection xml:id="ch13-m79703-fs-idm3483088">
       <title>The Null and Alternative Hypotheses</title>
       <p>The null hypothesis is that all the group population means are the same. The alternative hypothesis is that at least one pair of means is different. For example, if there are <m>k</m> groups</p>
       <p><em>H_{0}</em>: <m>μ</m>_{1} = <m>μ</m>_{2} = <m>μ</m>_{3} = ... = <em>μ_{k}</em></p>
       <p><em>H_{a}</em>: At least two of the group means <m>μ</m>_{1}, <m>μ</m>_{2}, <m>μ</m>_{3}, ..., <em>μ_{k}</em> are not equal. That is, <em>μ_{i}</em> ≠ <em>μ_{j}</em> for some <m>i</m> ≠ <m>j</m>.</p>
       <p>The graphs, a set of box plots representing the distribution of values with the group means indicated by a horizontal line through the box, help in the understanding of the hypothesis test. In the first graph (red box plots), <em>H_{0}</em>: <em>μ_{1}</em> = <em>μ_{2}</em> = <em>μ_{3}</em> and the three populations have the same distribution if the null hypothesis is true. The variance of the combined data is approximately the same as the variance of each of the populations.</p>
       <p>If the null hypothesis is false, then the variance of the combined data is larger, which is caused by the different means as shown in the second graph (green box plots).</p>
-      <figure xml:id="fs-idp110803872">
+      <figure xml:id="ch13-m79703-fs-idp110803872">
         <caption>(a) We fail to reject <em>H_{0}</em> as it may be true. All the means are about the same; the differences may be due to random variation. (b) We reject <em>H_{0}</em> as all the means are not the same; the differences are too large to be due to random variation.</caption>
         <image source="media/CNX_Stats_C13_M02_001n.jpg" width="76%"/>
       </figure>
     </subsection>
 
-    <subsection xml:id="eip-60">
+    <subsection xml:id="ch13-m79703-eip-60">
       <title>Chapter Review</title>
       <p>Analysis of variance extends the comparison of two groups to several, each a level of a categorical variable (factor). Samples from each group are independent and must be randomly selected from normal populations with equal variances. We test the null hypothesis of equal means of the response in every group versus the alternative hypothesis of one or more group means being different from the others. A one-way ANOVA hypothesis test determines if several population means are equal. The distribution for the test is the <m>F</m> distribution with two different degrees of freedom.</p>
       <ul>
@@ -63,9 +63,9 @@
       </ul>
     </subsection>
 
-    <subsection xml:id="fs-idm135442768">
+    <subsection xml:id="ch13-m79703-fs-idm135442768">
       <p><em>Use the following information to answer the next five exercises.</em> There are five basic assumptions that must be fulfilled to perform a one-way ANOVA test. What are they?</p>
-      <exercise xml:id="eip-555">
+      <exercise xml:id="ch13-m79703-eip-555">
         <statement>
           <p>Write one assumption.</p>
         </statement>
@@ -73,12 +73,12 @@
           <p>Each population from which a sample is taken is assumed to be normal.</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-191">
+      <exercise xml:id="ch13-m79703-eip-191">
         <statement>
           <p>Write another assumption.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-194">
+      <exercise xml:id="ch13-m79703-eip-194">
         <statement>
           <p>Write a third assumption.</p>
         </statement>
@@ -86,12 +86,12 @@
           <p>The populations are assumed to have equal standard deviations (or variances).</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-396">
+      <exercise xml:id="ch13-m79703-eip-396">
         <statement>
           <p>Write a fourth assumption.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-922">
+      <exercise xml:id="ch13-m79703-eip-922">
         <statement>
           <p>Write the final assumption.</p>
         </statement>
@@ -99,12 +99,12 @@
           <p>The response is a numerical value.</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-550">
+      <exercise xml:id="ch13-m79703-eip-550">
         <statement>
           <p>State the null hypothesis for a one-way ANOVA test if there are four groups.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-417">
+      <exercise xml:id="ch13-m79703-eip-417">
         <statement>
           <p>State the alternative hypothesis for a one-way ANOVA test if there are three groups.</p>
         </statement>
@@ -112,19 +112,19 @@
           <p><em>H_{a}</em>: At least two of the group means <em>μ_{1}</em>, <em>μ_{2}</em>, <em>μ_{3}</em> are not equal.</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-983">
+      <exercise xml:id="ch13-m79703-eip-983">
         <statement>
           <p>When do you use an ANOVA test?</p>
         </statement>
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idm25046720">
+    <subsection xml:id="ch13-m79703-fs-idm25046720">
       <title>Homework</title>
-      <exercise xml:id="eip-213">
+      <exercise xml:id="ch13-m79703-eip-213">
         <statement>
           <p>Three different traffic routes are tested for mean driving time. The entries in the  are the driving times in minutes on the three different routes.</p>
-          <table xml:id="eip-24">
+          <table xml:id="ch13-m79703-eip-24">
             <tabular>
               <row><cell>Route 1</cell><cell>Route 2</cell><cell>Route 3</cell></row>
               <row><cell>30</cell><cell>27</cell><cell>16</cell></row>
@@ -141,7 +141,7 @@
 <nbsp/><m>F</m> = 0.2653</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-230">
+      <exercise xml:id="ch13-m79703-eip-230">
         <statement>
           <p>Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country. Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.</p>
           <p>State the hypotheses.</p>
@@ -157,10 +157,10 @@
     <title>The F Distribution and the F Ratio</title>
 
 
-    <subsection xml:id="fs-id1164562208836">
+    <subsection xml:id="ch13-m79704-fs-id1164562208836">
       <p>The distribution used for the hypothesis test is a new one. It is called the <term><m>F</m> distribution</term>, named after Sir Ronald Fisher, an English statistician. The <m>F</m> statistic is a ratio (a fraction). There are two sets of degrees of freedom: one for the numerator and one for the denominator.</p>
       <p>For example, if <m>F</m> follows an <m>F</m> distribution and the number of degrees of freedom for the numerator is 4, and the number of degrees of freedom for the denominator is 10, then <m>F</m> ~ <em>F_{4,10}</em>.</p>
-      <note xml:id="eip-261">
+      <note xml:id="ch13-m79704-eip-261">
         <title>Note</title>
         <p>The <m>F</m> distribution is derived from the Student’s <m>t</m>-distribution. The values of the <m>F</m> distribution are squares of the corresponding values of the <m>t</m>-distribution. One-way ANOVA expands the <m>t</m>-test for comparing more than two groups. The scope of that derivation is beyond the level of this course. It is preferable to use ANOVA when there are more than two groups instead of performing pairwise <m>t</m>-tests because performing multiple tests introduces the likelihood of making a Type 1 error.</p>
       </note>
@@ -200,7 +200,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
       </ul>
       <p>The one-way ANOVA test depends on the fact that <m>MS</m>_{between} can be influenced by population differences among means of the several groups. Since <m>MS</m>_{within} compares values of each group to its own group mean, the fact that group means might be different does not affect <m>MS</m>_{within}.</p>
       <p>The null hypothesis says that all groups are samples from populations having the same normal distribution. The alternate hypothesis says that at least two of the sample groups come from populations with different normal distributions. If the null hypothesis is true, <m>MS</m>_{between} and <m>MS</m>_{within} should both estimate the same value.</p>
-      <note xml:id="eip-82">
+      <note xml:id="ch13-m79704-eip-82">
         <title>Note</title>
         <p>The null hypothesis says that all the group population means are equal. The hypothesis of equal means implies that the populations have the same normal distribution because it is assumed that the populations are normal and that they have equal variances.</p>
       </note>
@@ -217,7 +217,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
         <li><m>s_{x¯}^{2}</m>  = the variance of the sample means</li>
       </ul>
       <p>Data is typically put into a table for easy viewing. One-way ANOVA results are often displayed in this manner by computer software.</p>
-      <table xml:id="eip-id1172021872456">
+      <table xml:id="ch13-m79704-eip-id1172021872456">
         <tabular>
           <row><cell>Source of Variation</cell><cell>Sum of Squares (<m>SS</m>)</cell><cell>Degrees of Freedom (<m>df</m>)</cell><cell>Mean Square (<m>MS</m>)</cell><cell><m>F</m></cell></row>
           <row><cell>Factor <nbsp/>(Between)</cell><cell><m>SS</m>(Factor)</cell><cell><m>k</m> – 1</cell><cell><m>MS</m>(Factor) = <m>SS</m>(Factor)/(<m>k</m> – 1)</cell><cell><m>F</m> = <m>MS</m>(Factor)/<m>MS</m>(Error)</cell></row>
@@ -225,7 +225,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
           <row><cell>Total</cell><cell><m>SS</m>(Total)</cell><cell><m>n</m> – 1</cell><cell></cell><cell></cell></row>
         </tabular>
       </table>
-      <example xml:id="eip-546">
+      <example xml:id="ch13-m79704-eip-546">
         <statement>
           <p>Three different diet plans are to be tested for mean weight loss. The entries in the table are the weight losses for the different plans. The one-way ANOVA results are shown in .</p>
           <p><m>s</m>_{1} = 16.5, <m>s</m>_{2} = 15, <m>s</m>_{3} = 15.5</p>
@@ -245,30 +245,30 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
           <me>SS(within)=20.8542</me>
         </statement>
       </example>
-      <note xml:id="fs-idp19091024">
+      <note xml:id="ch13-m79704-fs-idp19091024">
         <title>Try It</title>
       </note>
     </subsection>
     <p>The one-way ANOVA hypothesis test is always right-tailed because larger <m>F</m> values are way out in the right tail of the <m>F</m> distribution curve and tend to make us reject <em>H_{0}</em>.</p>
 
-    <subsection xml:id="element-628">
+    <subsection xml:id="ch13-m79704-element-628">
       <title>Notation</title>
       <p>The notation for the <m>F</m> distribution is <m>F</m> ~ <m>F</m>_{<m>df</m>(<em>num</em>),<m>df</m>(<em>denom</em>)},</p>
       <p>where <m>df</m>(<em>num</em>) = <m>df</m>_{between} and <m>df</m>(<em>denom</em>) = <m>df</m>_{within}.</p>
       <p>The mean for the <m>F</m> distribution is  <m>\mu=\frac{df(\text{denom})}{df(\text{denom})-2}.</m></p>
     </subsection>
 
-    <subsection xml:id="eip-957">
+    <subsection xml:id="ch13-m79704-eip-957">
       <title>References</title>
       <p>Marist College School of Science. (n.d.). <em>Tomato data</em> (Unpublished student research). Marist College School of Science, Poughkeepsie, NY.</p>
     </subsection>
 
-    <subsection xml:id="fs-idp65787616">
+    <subsection xml:id="ch13-m79704-fs-idp65787616">
       <title>Chapter Review</title>
       <p>Analysis of variance compares the means of a response variable for several groups. ANOVA compares the variation within each group to the variation of the mean of each group. The ratio of these two is the <m>F</m> statistic from an <m>F</m> distribution with (number of groups – 1) as the numerator degrees of freedom and (number of observations – number of groups) as the denominator degrees of freedom. These statistics are summarized in the ANOVA table.</p>
     </subsection>
 
-    <subsection xml:id="fs-idm69171152">
+    <subsection xml:id="ch13-m79704-fs-idm69171152">
       <title>Formula Review</title>
       <p><m>SS_{\text{between}}=∑^{​}[\frac{(s_{j})^{2}}{n_{j}}]-\frac{(∑^{​}s_{j})^{2}}{n}</m></p>
       <p><m>SS_{\text{total}}=∑^{​}x^{2}-\frac{(∑^{​}x)^{2}}{n}</m></p>
@@ -291,9 +291,9 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
 = the mean of the sample variances (pooled variance)</p>
     </subsection>
 
-    <subsection xml:id="fs-idm89796288">
+    <subsection xml:id="ch13-m79704-fs-idm89796288">
       <p><em>Use the following information to answer the next seven exercises.</em> Groups of men from three different areas of the country are to be tested for mean weight. The entries in  are the weights for the different groups.</p>
-      <table xml:id="eip-556">
+      <table xml:id="ch13-m79704-eip-556">
         <tabular>
           <row><cell>Group 1</cell><cell>Group 2</cell><cell>Group 3</cell></row>
           <row><cell>216</cell><cell>202</cell><cell>170</cell></row>
@@ -303,7 +303,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
           <row><cell>176</cell><cell>210</cell><cell>201</cell></row>
         </tabular>
       </table>
-      <exercise xml:id="eip-317">
+      <exercise xml:id="ch13-m79704-eip-317">
         <statement>
           <p>What is the sum of squares factor?</p>
         </statement>
@@ -311,12 +311,12 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
           <p>4,939.2</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-394">
+      <exercise xml:id="ch13-m79704-eip-394">
         <statement>
           <p>What is the sum of squares error?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-617">
+      <exercise xml:id="ch13-m79704-eip-617">
         <statement>
           <p>What is the <m>df</m> for the numerator?</p>
         </statement>
@@ -324,12 +324,12 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
           <p>2</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-920">
+      <exercise xml:id="ch13-m79704-eip-920">
         <statement>
           <p>What is the <m>df</m> for the denominator?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-297">
+      <exercise xml:id="ch13-m79704-eip-297">
         <statement>
           <p>What is the mean square factor?</p>
         </statement>
@@ -337,12 +337,12 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
           <p>2,469.6</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-869">
+      <exercise xml:id="ch13-m79704-eip-869">
         <statement>
           <p>What is the mean square error?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-485">
+      <exercise xml:id="ch13-m79704-eip-485">
         <statement>
           <p>What is the <m>F</m> statistic?</p>
         </statement>
@@ -351,7 +351,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
         </solution>
       </exercise>
       <p><nbsp/><em>Use the following information to answer the next eight exercises.</em> Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in  are the goals per game for the different teams.</p>
-      <table xml:id="eip-461">
+      <table xml:id="ch13-m79704-eip-461">
         <tabular>
           <row><cell>Team 1</cell><cell>Team 2</cell><cell>Team 3</cell><cell>Team 4</cell></row>
           <row><cell>1</cell><cell>2</cell><cell>0</cell><cell>3</cell></row>
@@ -361,12 +361,12 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
           <row><cell>2</cell><cell>4</cell><cell>0</cell><cell>2</cell></row>
         </tabular>
       </table>
-      <exercise xml:id="eip-380">
+      <exercise xml:id="ch13-m79704-eip-380">
         <statement>
           <p>What is <em>SS_{between}</em>?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-332">
+      <exercise xml:id="ch13-m79704-eip-332">
         <statement>
           <p>What is the <m>df</m> for the numerator?</p>
         </statement>
@@ -374,12 +374,12 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
           <p>3</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-361">
+      <exercise xml:id="ch13-m79704-eip-361">
         <statement>
           <p>What is <em>MS_{between}</em>?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-543">
+      <exercise xml:id="ch13-m79704-eip-543">
         <statement>
           <p>What is <em>SS_{within}</em>?</p>
         </statement>
@@ -387,12 +387,12 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
           <p>13.2</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-200">
+      <exercise xml:id="ch13-m79704-eip-200">
         <statement>
           <p>What is the <m>df</m> for the denominator?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-91">
+      <exercise xml:id="ch13-m79704-eip-91">
         <statement>
           <p>What is <em>MS_{within}</em>?</p>
         </statement>
@@ -400,12 +400,12 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
           <p>0.825</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-501">
+      <exercise xml:id="ch13-m79704-eip-501">
         <statement>
           <p>What is the <m>F</m> statistic?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-23">
+      <exercise xml:id="ch13-m79704-eip-23">
         <statement>
           <p>Judging by the <m>F</m> statistic, do you think it is likely or unlikely that you will reject the null hypothesis?</p>
         </statement>
@@ -415,11 +415,11 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
       </exercise>
     </subsection>
 
-    <subsection xml:id="eip-103">
+    <subsection xml:id="ch13-m79704-eip-103">
       <title>Homework</title>
       <p><em>Use the following information to answer the next three exercises.</em> Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.
 Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.</p>
-      <table xml:id="eip-idp64551440">
+      <table xml:id="ch13-m79704-eip-idp64551440">
         <tabular>
           <row><cell></cell><cell>Northeast</cell><cell>South</cell><cell>West</cell><cell>Central</cell><cell>East</cell></row>
           <row><cell></cell><cell>16.3</cell><cell>16.9</cell><cell>16.4</cell><cell>16.2</cell><cell>17.1</cell></row>
@@ -432,12 +432,12 @@ Suppose that the following data are randomly collected from five teenagers in ea
       </table>
       <p><em>H_{0}</em>: <m>µ</m>_{1} = <m>µ</m>_{2} = <m>µ</m>_{3} = <m>µ</m>_{4} = <m>µ</m>_{5}</p>
       <p><m>Hα</m>: At least any two of the group means <m>µ</m>_{1}, <m>µ</m>_{2}, …, <m>µ</m>_{5} are not equal.</p>
-      <exercise xml:id="fs-idm50760160">
+      <exercise xml:id="ch13-m79704-fs-idm50760160">
         <statement>
           <p>degrees of freedom – numerator: <m>df</m>(<em>num</em>) = _________</p>
         </statement>
       </exercise>
-      <exercise xml:id="fs-idp124948560">
+      <exercise xml:id="ch13-m79704-fs-idp124948560">
         <statement>
           <p>degrees of freedom – denominator: <m>df</m>(<em>denom</em>) = ________</p>
         </statement>
@@ -445,7 +445,7 @@ Suppose that the following data are randomly collected from five teenagers in ea
           <p><m>df</m>(<em>denom</em>) = 15</p>
         </solution>
       </exercise>
-      <exercise xml:id="element-115">
+      <exercise xml:id="ch13-m79704-element-115">
         <statement>
           <p><m>F</m> statistic = ________</p>
         </statement>
@@ -458,7 +458,7 @@ Suppose that the following data are randomly collected from five teenagers in ea
     <title>Facts About the F Distribution</title>
 
 
-    <subsection xml:id="fs-id1164565548862">
+    <subsection xml:id="ch13-m79705-fs-id1164565548862">
       <p>The following are facts about the <m>F</m> distribution:</p>
       <ul>
         <li>The curve is not symmetrical but skewed to the right.</li>
@@ -467,10 +467,10 @@ Suppose that the following data are randomly collected from five teenagers in ea
         <li>As the degrees of freedom for the numerator and for the denominator get larger, the curve approximates the normal.</li>
         <li>Other uses for the <m>F</m> distribution include comparing two variances and two-way analysis of variance. Two-way analysis is beyond the scope of this chapter.</li>
       </ul>
-      <figure xml:id="fs-idm71247456">
+      <figure xml:id="ch13-m79705-fs-idm71247456">
         <image source="media/OSX_Spec_StatisticsTEA_Figure_13_03_01.jpg" width="90%"/>
       </figure>
-      <example xml:id="eip-353">
+      <example xml:id="ch13-m79705-eip-353">
         <statement>
           <p>Let’s return to the slicing tomato exercise in <url href="m79704"></url>. The means of the tomato yields under the five mulching conditions are represented by <m>μ</m>_{1}, <m>μ</m>_{2}, <m>μ</m>_{3}, <m>μ</m>_{4}, <m>μ</m>_{5}. We will conduct a hypothesis test to determine if all means are the same or at least one is different. Using a significance level of 5 percent, test the null hypothesis that there is no difference in mean yields among the five groups against the alternative hypothesis that at least one mean is different from the rest.</p>
         </statement>
@@ -501,12 +501,12 @@ Suppose that the following data are randomly collected from five teenagers in ea
 <nbsp/><m>df</m> = 10
 <nbsp/><m>SS</m> = 20446726
 <nbsp/><m>MS</m> = 2044672.6</p>
-          <figure xml:id="fs-idm71243968">
+          <figure xml:id="ch13-m79705-fs-idm71243968">
             <image source="media/CNX_Stats_C13_M04_001.jpg" width="76%"/>
           </figure>
         </solution>
       </example>
-      <exercise xml:id="eip-746">
+      <exercise xml:id="ch13-m79705-eip-746">
         <statement>
           <p>MRSA, or <em>Staphylococcus aureus</em>, can cause serious bacterial infections in hospital patients.  shows various colony counts from different patients who may or may not have MRSA. The data from the table is plotted in .</p>
           <p>Plot of the data for the different concentrations:</p>
@@ -518,7 +518,7 @@ Suppose that the following data are randomly collected from five teenagers in ea
           <p><em>H_{0}</em> : <m>μ</m>_{1} = <m>μ</m>_{2} = <m>μ</m>_{3} = <m>μ</m>_{4} = <m>μ</m>_{5}</p>
           <p><em>H_{a}</em>: <em>μ^{i}</em> ≠ <em>μ^{j}</em> some <m>i</m> ≠ <m>j</m></p>
           <p>The one-way ANOVA table results are shown in .</p>
-          <figure xml:id="fig000">
+          <figure xml:id="ch13-m79705-fig000">
             <image source="media/CNX_Stats_C13_M04_004.jpg" width="76%"/>
           </figure>
           <p>Distribution for the test: <m>F</m>_{4,10}</p>
@@ -528,7 +528,7 @@ Suppose that the following data are randomly collected from five teenagers in ea
           <p>Conclusion: At the 5% significance level, there is insufficient evidence from these data that different levels of tryptone will cause a significant difference in the mean number of bacterial colonies formed.</p>
         </solution>
       </exercise>
-      <example xml:id="element-810">
+      <example xml:id="ch13-m79705-element-810">
         <title>Mean Grades for Four Sororities</title>
         <statement>
           <p>Using a significance level of 1 percent, is there a difference in mean grades among the
@@ -562,12 +562,12 @@ sororities?</p>
 <nbsp/><m>df</m> = 16
 <nbsp/><m>SS</m> = 6.9044
 <nbsp/><m>MS</m> = 0.431525</p>
-          <figure xml:id="fs-idm73326896">
+          <figure xml:id="ch13-m79705-fs-idm73326896">
             <image source="media/fig-ch13_04_02N.jpg" width="76%"/>
           </figure>
         </solution>
       </example>
-      <exercise xml:id="eip-935">
+      <exercise xml:id="ch13-m79705-eip-935">
         <title>GPAs for four sports teams</title>
         <statement>
           <p>Four sports teams took a random sample of players regarding their GPAs for the last year. The results are shown in .</p>
@@ -577,7 +577,7 @@ sororities?</p>
           <p>With a <m>p</m>-value of 0.9271, we do not reject the null hypothesis. There is not sufficient evidence to conclude that there is a difference among the GPAs for the sports teams.</p>
         </solution>
       </exercise>
-      <example xml:id="element-349">
+      <example xml:id="ch13-m79705-element-349">
         <statement>
           <p>Does it appear that the three soils in which the bean plants were grown produce the same mean height? Test at a 3 percent level of significance.</p>
         </statement>
@@ -603,7 +603,7 @@ sororities?</p>
           <p>The <m>p</m>-value is 0.8759.</p>
         </solution>
       </example>
-      <exercise xml:id="element-3252">
+      <exercise xml:id="ch13-m79705-element-3252">
         <statement>
           <p>Another fourth grader also grew bean plants, but in a jelly-like mass. The heights were (in inches) 24, 28, 25, 30, and 32. Do a one-way ANOVA test on the four groups. Are the heights of the bean plants different? Use the same method as shown in .</p>
         </statement>
@@ -615,12 +615,12 @@ sororities?</p>
           <p>From the sample data, the evidence is not sufficient to conclude that the mean heights of the bean plants are  different.</p>
         </solution>
       </exercise>
-      <note xml:id="element-866">
+      <note xml:id="ch13-m79705-element-866">
         <p>From the class, create four groups of the same size as follows: men under 22, men at least 22, women under 22, women at least 22. Have each member of each group record the number of states in the United States he or she has visited. Run an ANOVA test to determine if the average number of states visited in the four groups are the same. Test at a 1 percent level of significance. Use one of the solution sheets in <url href="m79714">Appendix E</url>.</p>
       </note>
     </subsection>
 
-    <subsection xml:id="eip-712">
+    <subsection xml:id="ch13-m79705-eip-712">
       <title>References</title>
       <p>ESPN. (2012). <em>MLB standings  2012.</em> Retrieved from http://espn.go.com/mlb/standings/_/year/2012.</p>
       <p>Hand, D. J. et al. (1994). <em>A Handbook of Small Datasets: Data for Fruitfly Fecundity.</em> London: Chapman &amp; Hall.</p>
@@ -630,19 +630,19 @@ sororities?</p>
       <p>Private K12 school in San Jose, CA. (1994). <em>Data from a fourth grade classroom.</em></p>
     </subsection>
 
-    <subsection xml:id="fs-idm51047200">
+    <subsection xml:id="ch13-m79705-fs-idm51047200">
       <title>Chapter Review</title>
       <p>The graph of the <m>F</m> distribution is always positive and skewed right, though the shape can be mounded or exponential depending on the combination of numerator and denominator degrees of freedom. The <m>F</m> statistic is the ratio of a measure of the variation in the group means to a similar measure of the variation within the groups. If the null hypothesis is correct, then the numerator should be small compared to the denominator. A small <m>F</m> statistic will result, and the area under the <m>F</m> curve to the right will be large, representing a large <m>p</m>-value. When the null hypothesis of equal group means is incorrect, then the numerator should be large compared to the denominator, giving a large <m>F</m> statistic and a small area (small <m>p</m>-value) to the right of the statistic under the <m>F</m> curve.</p>
       <p>When the data have unequal group sizes (unbalanced data), then techniques from <url href="m79704">The F Distribution and the F Ratio</url> need to be used for hand calculations. In the case of balanced data, where the groups are the same size, simplified calculations based on group means and variances may be used. In practice, software is usually employed in the analysis. As in any analysis, graphs of various sorts should be used in conjunction with numerical techniques. Always look at your data!</p>
     </subsection>
 
-    <subsection xml:id="fs-idp110212080">
-      <exercise xml:id="eip-388">
+    <subsection xml:id="ch13-m79705-fs-idp110212080">
+      <exercise xml:id="ch13-m79705-eip-388">
         <statement>
           <p>An <m>F</m> statistic can have what values?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-707">
+      <exercise xml:id="ch13-m79705-eip-707">
         <statement>
           <p>What happens to the curves as the degrees of freedom for the numerator and the denominator get larger?</p>
         </statement>
@@ -651,7 +651,7 @@ sororities?</p>
         </solution>
       </exercise>
       <p><em>Use the following information to answer the next seven exercises.</em> Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in .</p>
-      <table xml:id="eip-497">
+      <table xml:id="ch13-m79705-eip-497">
         <tabular>
           <row><cell>Team 1</cell><cell>Team 2</cell><cell>Team 3</cell><cell>Team 4</cell><cell>Team 5</cell></row>
           <row><cell>36</cell><cell>32</cell><cell>48</cell><cell>38</cell><cell>41</cell></row>
@@ -659,12 +659,12 @@ sororities?</p>
           <row><cell>51</cell><cell>38</cell><cell>39</cell><cell>46</cell><cell>40</cell></row>
         </tabular>
       </table>
-      <exercise xml:id="eip-535">
+      <exercise xml:id="ch13-m79705-eip-535">
         <statement>
           <p>What is the <em>df(num)</em>?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-162">
+      <exercise xml:id="ch13-m79705-eip-162">
         <statement>
           <p>What is the <em>df(denom)</em>?</p>
         </statement>
@@ -672,12 +672,12 @@ sororities?</p>
           <p>10</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-984">
+      <exercise xml:id="ch13-m79705-eip-984">
         <statement>
           <p>What are the sum of squares and mean squares factors?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-213">
+      <exercise xml:id="ch13-m79705-eip-213">
         <statement>
           <p>What are the sum of squares and mean squares errors?</p>
         </statement>
@@ -685,12 +685,12 @@ sororities?</p>
           <p><m>SS</m> = 237.33; <m>MS</m> = 23.73</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-79">
+      <exercise xml:id="ch13-m79705-eip-79">
         <statement>
           <p>What is the <m>F</m> statistic?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-155">
+      <exercise xml:id="ch13-m79705-eip-155">
         <statement>
           <p>What is the <m>p</m>-value?</p>
         </statement>
@@ -698,13 +698,13 @@ sororities?</p>
           <p>0.1614</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-773">
+      <exercise xml:id="ch13-m79705-eip-773">
         <statement>
           <p>At the 5 percent significance level, is there a difference in the mean jump heights among the teams?</p>
         </statement>
       </exercise>
       <p><nbsp/><em>Use the following information to answer the next seven exercises.</em> A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in .</p>
-      <table xml:id="eip-546">
+      <table xml:id="ch13-m79705-eip-546">
         <tabular>
           <row><cell>Group A</cell><cell>Group B</cell><cell>Group C</cell></row>
           <row><cell>101</cell><cell>151</cell><cell>101</cell></row>
@@ -714,7 +714,7 @@ sororities?</p>
           <row><cell>111</cell><cell>126</cell><cell>160</cell></row>
         </tabular>
       </table>
-      <exercise xml:id="eip-602">
+      <exercise xml:id="ch13-m79705-eip-602">
         <statement>
           <p>What is the <em>df(num)</em>?</p>
         </statement>
@@ -722,12 +722,12 @@ sororities?</p>
           <p>two</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-99">
+      <exercise xml:id="ch13-m79705-eip-99">
         <statement>
           <p>What is the <em>df(denom)</em>?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-944">
+      <exercise xml:id="ch13-m79705-eip-944">
         <statement>
           <p>What are the <em>SS_{between}</em> and <em>MS_{between}</em>?</p>
         </statement>
@@ -736,12 +736,12 @@ sororities?</p>
           <p><m>MS</m> = 2,850.2</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-264">
+      <exercise xml:id="ch13-m79705-eip-264">
         <statement>
           <p>What are the <em>SS_{within}</em> and <em>MS_{within}</em>?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-105">
+      <exercise xml:id="ch13-m79705-eip-105">
         <statement>
           <p>What is the <m>F</m> Statistic?</p>
         </statement>
@@ -749,12 +749,12 @@ sororities?</p>
           <p>3.6101</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-56">
+      <exercise xml:id="ch13-m79705-eip-56">
         <statement>
           <p>What is the <m>p</m>-value?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-920">
+      <exercise xml:id="ch13-m79705-eip-920">
         <statement>
           <p>At the 10 percent significance level, are the scores among the different groups different?</p>
         </statement>
@@ -763,7 +763,7 @@ sororities?</p>
         </solution>
       </exercise>
       <p><nbsp/><em>Use the following information to answer the next three exercises.</em> Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country. Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.</p>
-      <table xml:id="element-25">
+      <table xml:id="ch13-m79705-element-25">
         <tabular>
           <row><cell></cell><cell>Northeast</cell><cell>South</cell><cell>West</cell><cell>Central</cell><cell>East</cell></row>
           <row><cell></cell><cell>16.3</cell><cell>16.9</cell><cell>16.4</cell><cell>16.2</cell><cell>17.1</cell></row>
@@ -775,20 +775,20 @@ sororities?</p>
         </tabular>
       </table>
       <p>Enter the data into your calculator or computer.</p>
-      <exercise xml:id="fs-idm77454416">
+      <exercise xml:id="ch13-m79705-fs-idm77454416">
         <statement>
           <p><m>p</m>-value = ______</p>
         </statement>
       </exercise>
       <p><em>State the decisions and conclusions (in complete sentences) for the following preconceived levels of α</em>.</p>
-      <exercise xml:id="fs-idm138666704">
+      <exercise xml:id="ch13-m79705-fs-idm138666704">
         <statement>
           <p><m>α</m> = 0.05</p>
           <p>a. Decision: ____________________________</p>
           <p>b. Conclusion: ____________________________</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercisemern">
+      <exercise xml:id="ch13-m79705-exercisemern">
         <statement>
           <p><m>α</m> = 0.01</p>
           <p>a. Decision: ____________________________</p>
@@ -797,16 +797,16 @@ sororities?</p>
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idp159138080">
+    <subsection xml:id="ch13-m79705-fs-idp159138080">
       <title>Homework</title>
-      <note xml:id="fs-idm3376448">
+      <note xml:id="ch13-m79705-fs-idm3376448">
         <title>DIRECTIONS</title>
         <p>Use a solution sheet to conduct the following hypothesis tests. The solution sheet can be found in <url href="m79714">Appendix E</url>.</p>
       </note>
-      <exercise xml:id="element-240">
+      <exercise xml:id="ch13-m79705-element-240">
         <statement>
           <p>Three students, Linda, Tuan, and Javier, are given five laboratory rats each for a nutritional experiment. Each rat’s weight is recorded in grams. Linda feeds her rats Formula A, Tuan feeds his rats Formula B, and Javier feeds his rats Formula C. At the end of a specified time period, each rat is weighed again, and the net gain in grams is recorded. Using a significance level of 10 percent, test the hypothesis that the three formulas produce the same mean weight gain.</p>
-          <table xml:id="id348a5492">
+          <table xml:id="ch13-m79705-id348a5492">
             <tabular>
               <row><cell>Linda’s Rats (g)</cell><cell>Tuan’s Rats (g)</cell><cell>Javier’s Rats (g)</cell></row>
               <row><cell>43.5</cell><cell>47.0</cell><cell>51.2</cell></row>
@@ -831,10 +831,10 @@ sororities?</p>
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-60">
+      <exercise xml:id="ch13-m79705-element-60">
         <statement>
           <p>A grassroots group opposed to a proposed increase in the gas tax claimed that the increase would hurt working-class people the most since they commute the farthest to work. Suppose that the group randomly surveyed 24 individuals and asked them their daily one-way commuting mileage. The results are in . Using a 5 percent significance level, test the hypothesis that the three mean commuting mileages are the same.</p>
-          <table xml:id="idgh7333173">
+          <table xml:id="ch13-m79705-idgh7333173">
             <tabular>
               <row><cell>Working-Class</cell><cell>Professional (middle incomes)</cell><cell>Professional (wealthy)</cell></row>
               <row><cell>17.8</cell><cell>16.5</cell><cell>8.5</cell></row>
@@ -850,7 +850,7 @@ sororities?</p>
         </statement>
       </exercise>
       <p><em>Use the following information to answer the next two exercises.</em>  lists the number of pages in four different types of magazines.</p>
-      <table xml:id="id7236751">
+      <table xml:id="ch13-m79705-id7236751">
         <tabular>
           <row><cell>Home Decorating</cell><cell>News</cell><cell>Health</cell><cell>Computer</cell></row>
           <row><cell>172</cell><cell>87</cell><cell>82</cell><cell>104</cell></row>
@@ -860,12 +860,12 @@ sororities?</p>
           <row><cell>197</cell><cell>101</cell><cell>96</cell><cell>146</cell></row>
         </tabular>
       </table>
-      <exercise xml:id="element-781">
+      <exercise xml:id="ch13-m79705-element-781">
         <statement>
           <p>Using a significance level of 5 percent, test the hypothesis that the four magazine types have the same mean length.</p>
         </statement>
       </exercise>
-      <exercise xml:id="element-219">
+      <exercise xml:id="ch13-m79705-element-219">
         <statement>
           <p>Eliminate one magazine type that you now feel has a mean length different from the others. Redo the hypothesis test, testing that the remaining three means are statistically the same. Use a new solution sheet. Based on this test, are the mean lengths for the remaining three magazines statistically the same?</p>
         </statement>
@@ -889,13 +889,13 @@ Conclusion: There is sufficient evidence to conclude that the mean lengths of th
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="eip-431">
+      <exercise xml:id="ch13-m79705-eip-431">
         <statement>
           <p>A researcher wants to know if the mean times (in minutes) that people watch their favorite news station are the same. Suppose that  shows the results of a study.</p>
           <p>Assume that all distributions are normal, the four population standard deviations are approximately the same, and the data were collected independently and randomly. Use a level of significance of 0.05.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-1000">
+      <exercise xml:id="ch13-m79705-eip-1000">
         <statement>
           <p>Are the means for the final exams the same for all statistics class delivery types?  shows the scores on final exams from several randomly selected classes that used the different delivery types.</p>
           <p>Assume that all distributions are normal, the four population standard deviations are approximately the same, and the data were collected independently and randomly. Use a level of significance of 0.05.</p>
@@ -920,13 +920,13 @@ Conclusion: The mean scores of different class delivery are not different.</li>
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="fs-idm81211824">
+      <exercise xml:id="ch13-m79705-fs-idm81211824">
         <statement>
           <p>Are the mean number of times a month a person eats out the same for whites, blacks, Hispanics, and Asians? Suppose that  shows the results of a study.</p>
           <p>Assume that all distributions are normal, the four population standard deviations are approximately the same, and the data were collected independently and randomly. Use a level of significance of 0.05.</p>
         </statement>
       </exercise>
-      <exercise xml:id="fs-idp113565584">
+      <exercise xml:id="ch13-m79705-fs-idp113565584">
         <statement>
           <p>Are the mean numbers of daily visitors to a ski resort the same for the three types of snow conditions? Suppose that  shows the results of a study.</p>
           <p>Assume that all distributions are normal, the four population standard deviations are approximately the same, and the data were collected independently and randomly. Use a level of significance of 0.05.</p>
@@ -951,7 +951,7 @@ Conclusion: There is not sufficient evidence  to conclude that the mean numbers 
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="eip-88">
+      <exercise xml:id="ch13-m79705-eip-88">
         <statement>
           <p>Sanjay made identical paper airplanes out of three different weights of paper: light, medium, and heavy. He made four airplanes from each of the weights and launched them himself across the room. Here are the distances (in meters) that his planes flew.</p>
           <ol>
@@ -1002,11 +1002,11 @@ Conclusion: _______________________________________________________________</li>
           </ul>
         </statement>
       </exercise>
-      <exercise xml:id="eip-137">
+      <exercise xml:id="ch13-m79705-eip-137">
         <statement>
           <p>DDT is a pesticide that has been banned from use in the United States and most other areas of the world. It is quite effective but persisted in the environment and over time proved to be harmful to higher-level organisms. Famously, egg shells of eagles and other raptors were believed to be thinner and prone to breakage in the nest because of ingestion of DDT in the food chain of the birds.</p>
           <p>An experiment was conducted on the number of eggs (fecundity) laid by female fruit flies. There are three groups of flies. One group was bred to be resistant to DDT (the RS group). Another was bred to be especially susceptible to DDT (SS). The third group was a control line of nonselected or typical fruit flies (NS). Here are the data:</p>
-          <table xml:id="eip-180">
+          <table xml:id="ch13-m79705-eip-180">
             <tabular>
               <row><cell>RS</cell><cell>SS</cell><cell>NS</cell><cell>RS</cell><cell>SS</cell><cell>NS</cell></row>
               <row><cell>12.8</cell><cell>38.4</cell><cell>35.4</cell><cell>22.4</cell><cell>23.1</cell><cell>22.6</cell></row>
@@ -1034,7 +1034,7 @@ Conclusion: _______________________________________________________________</li>
           <p>Define <m>μ</m>_{1}, <m>μ</m>_{2}, <m>μ</m>_{3}, as the population mean number of eggs laid by the three groups of fruitflies.</p>
           <p><m>F</m> statistic = 8.6657</p>
           <p><m>p</m>-value = 0.0004</p>
-          <figure xml:id="fs-idm155800880">
+          <figure xml:id="ch13-m79705-fs-idm155800880">
             <image source="media/CNX_Stats_C13_M04_008.jpg" width="76%"/>
           </figure>
           <p>Decision:  Since the <m>p</m>-value is less than the level of significance of 0.01, we reject the null hypothesis.</p>
@@ -1042,7 +1042,7 @@ Conclusion: _______________________________________________________________</li>
           <p>Interestingly, if you perform a two sample <m>t</m> test to compare the RS and NS groups they are significantly different (<m>p</m> = 0.0013). Similarly, SS and NS are significantly different (<m>p</m> = 0.0006). However, the two selected groups, RS and SS are <em>not</em> significantly different (<m>p</m> = 0.5176). Thus we appear to have good evidence that selection either for resistance or for susceptibility involves a reduced rate of egg production (for these specific strains) as compared to flies that were not selected for resistance or susceptibility to DDT. Here, genetic selection has apparently involved a loss of fecundity.</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-178">
+      <exercise xml:id="ch13-m79705-eip-178">
         <statement>
           <p>The data shown is the recorded body temperatures of 130 subjects as estimated from available histograms.</p>
           <p>Traditionally, we are taught that the normal human body temperature is 98.6 °F. This is not quite correct for everyone. Are the mean temperatures among the four groups different?</p>
@@ -1057,7 +1057,7 @@ Conclusion: _______________________________________________________________</li>
     <title>Test of Two Variances</title>
 
 
-    <subsection xml:id="fs-id1164563512922">
+    <subsection xml:id="ch13-m79706-fs-id1164563512922">
       <p>Another use of the <m>F</m> distribution is testing two variances. It is often desirable to compare two variances rather than two averages. For instance, college administrators would like two college professors grading exams to have the same variation in their grading. For a lid to fit a container, the variation in the lid and the container should be the same. A supermarket might be interested in the variability of check-out times for two checkers.</p>
       <p>To perform a <m>F</m> test of two variances, it is important that the following are true:
 
@@ -1070,7 +1070,7 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
       <p><m>F</m> has the distribution <m>F</m> ~ <m>F</m>(<m>n</m>_{1} – 1, <m>n</m>_{2} – 1),</p>
       <p>where <m>n</m>_{1} – 1 are the degrees of freedom for the numerator and <m>n</m>_{2} – 1 are the degrees of freedom for the denominator.</p>
       <p>If the null hypothesis is <m>\sigma12=\sigma22</m>, then the <m>F</m> ratio becomes <m>F=\frac{[\frac{(s_{1})^{2}}{(\sigma_{1})^{2}}]}{[\frac{(s_{2})^{2}}{(\sigma_{2})^{2}}]}=\frac{(s_{1})^{2}}{(s_{2})^{2}}</m>.</p>
-      <note xml:id="eip-545">
+      <note xml:id="ch13-m79706-eip-545">
         <title>Note</title>
         <p>The <m>F</m> ratio could also be <m>\frac{(s_{2})^{2}}{(s_{1})^{2}}</m>.
 
@@ -1078,7 +1078,7 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
       </note>
       <p>If the two populations have equal variances, then <m>s12</m> and <m>s22</m> are close in value and <m>F=\frac{(s_{1})^{2}}{(s_{2})^{2}}</m> is close to 1. But if the two population variances are very different, <m>s12</m> and <m>s22</m> tend to be very different, too. Choosing <m>s12</m> as the larger sample variance causes the ratio <m>\frac{(s_{1})^{2}}{(s_{2})^{2}}</m> to be greater than 1. If <m>s12</m> and <m>s22</m> are far apart, then <m>F=\frac{(s_{1})^{2}}{(s_{2})^{2}}</m> is a large number.</p>
       <p>Therefore, if <m>F</m> is close to 1, the evidence favors the null hypothesis (the two population variances are equal). But if <m>F</m> is much larger than 1, then the evidence is against the null hypothesis. A test of two variances may be left-tailed, right-tailed, or two-tailed.</p>
-      <example xml:id="element-315">
+      <example xml:id="ch13-m79706-element-315">
         <statement>
           <p>Two college instructors are interested in whethe there is any variation in the way they grade math exams. They each grade the same set of 30 exams. The first instructor’s grades have a variance of 52.3. The second instructor’s grades have a variance of 89.9. Test the claim that the first instructor’s variance is smaller. In most colleges, it is desirable for the variances of exam grades to be nearly the same among instructors. The level of significance is 10 percent.</p>
         </statement>
@@ -1096,12 +1096,12 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{0}</em>.</p>
           <p>Conclusion: With a 10 percent level of significance from the data, there is sufficient evidence to conclude that the variance in grades for the first instructor is smaller.</p>
           <p>Press <c>STAT</c> and arrow over to <c>TESTS</c>. Arrow down to <c>D:2-SampFTest</c>. Press <c>ENTER</c>. Arrow to <c>Stats</c> and press <c>ENTER</c>. For <c>Sx1</c>, <c>n1</c>, <c>Sx2</c>, and <c>n2</c>, enter <c><m>\sqrt{(}</m></c>, <c>30</c>, <c><m>\sqrt{(}</m></c>, and <c>30</c>. Press <c>ENTER</c> after each. Arrow to <c>σ1:</c> and <c><m></m>σ2</c>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. <m>F</m> = 0.5818 and <m>p</m>-value = 0.0753. Do the procedure again and try <c>Draw</c> instead of <c>Calculate</c>.</p>
-          <figure xml:id="anova_twotests">
+          <figure xml:id="ch13-m79706-anova_twotests">
             <image source="media/fig-ch13_05_01N.jpg" width="76%"/>
           </figure>
         </solution>
       </example>
-      <exercise xml:id="fs-idp56175568">
+      <exercise xml:id="ch13-m79706-fs-idp56175568">
         <statement>
           <p>The New York Choral Society divides male singers into four categories from highest voices to lowest: Tenor1, Tenor2, Bass1, and Bass2. In the table are heights of the men in the Tenor1 and Bass2 groups. One suspects that taller men will have lower voices, and that the variance of height may go up with the lower voices as well. Do we have good evidence that the variance of the heights of singers in each of these two groups (Tenor1 and Bass2) are different?</p>
         </statement>
@@ -1118,12 +1118,12 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
       </exercise>
     </subsection>
 
-    <subsection xml:id="eip-873">
+    <subsection xml:id="ch13-m79706-eip-873">
       <title>References</title>
       <p>ESPN. (2012). <em>MLB standings  2012.</em> Retrieved from http://espn.go.com/mlb/standings/_/year/2012/type/vs-division/order/true.</p>
     </subsection>
 
-    <subsection xml:id="fs-idm88248672">
+    <subsection xml:id="ch13-m79706-fs-idm88248672">
       <title>Chapter Review</title>
       <p>The <m>F</m> test for the equality of two variances rests heavily on the assumption of normal distributions. The test is unreliable if this assumption is not met. If both distributions are normal, then the ratio of the two sample variances is distributed as an <m>F</m> statistic, with numerator and denominator degrees of freedom that are one less than the samples sizes of the corresponding two groups. A <em>test of two variances</em> hypothesis test determines if two variances are the same. The distribution for the hypothesis test is the <m>F</m> distribution with two different degrees of freedom.</p>
       <ul>
@@ -1132,16 +1132,16 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
       </ul>
     </subsection>
 
-    <subsection xml:id="fs-idm61020880">
+    <subsection xml:id="ch13-m79706-fs-idm61020880">
       <title>Formula Review</title>
       <p><m>F</m> has the distribution <m>F</m> ~ <m>F</m>(<m>n</m>_{1} – 1, <m>n</m>_{2} – 1)</p>
       <p><m>F</m> = <m>\frac{\frac{s12}{\sigma12}}{\frac{s22}{\sigma22}}</m></p>
       <p>If <m>σ</m>_{1} = <m>σ</m>_{2}, then <m>F</m> = <m>\frac{s_{1}^{2}}{s_{2}^{2}}</m></p>
     </subsection>
 
-    <subsection xml:id="fs-idp71959552">
+    <subsection xml:id="ch13-m79706-fs-idp71959552">
       <p><em>Use the following information to answer the next two exercises.</em> There are two assumptions that must be true to perform an <m>F</m> test of two variances.</p>
-      <exercise xml:id="eip-801">
+      <exercise xml:id="ch13-m79706-eip-801">
         <statement>
           <p>Name one assumption that must be true.</p>
         </statement>
@@ -1149,13 +1149,13 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           <p>The populations from which the two samples are drawn are normally distributed.</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-417">
+      <exercise xml:id="ch13-m79706-eip-417">
         <statement>
           <p>What is the other assumption that must be true?</p>
         </statement>
       </exercise>
       <p><em>Use the following information to answer the next seven exercises.</em> Two coworkers commute from the same building. They are interested in whether there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10 percent level. Assume that commute times are normally distributed.</p>
-      <exercise xml:id="eip-119">
+      <exercise xml:id="ch13-m79706-eip-119">
         <statement>
           <p>State the null and alternative hypotheses.</p>
         </statement>
@@ -1167,12 +1167,12 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           <p><em>H_{a}</em>: <m>\sigma12&lt;\sigma22</m></p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-113">
+      <exercise xml:id="ch13-m79706-eip-113">
         <statement>
           <p>What is <m>s</m>_{1} in this problem?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-941">
+      <exercise xml:id="ch13-m79706-eip-941">
         <statement>
           <p>What is <m>s</m>_{2} in this problem?</p>
         </statement>
@@ -1180,12 +1180,12 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           <p>4.11</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-646">
+      <exercise xml:id="ch13-m79706-eip-646">
         <statement>
           <p>What is <m>n</m>?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-416">
+      <exercise xml:id="ch13-m79706-eip-416">
         <statement>
           <p>What is the <m>F</m> statistic?</p>
         </statement>
@@ -1193,12 +1193,12 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           <p>0.7159</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-249">
+      <exercise xml:id="ch13-m79706-eip-249">
         <statement>
           <p>What is the <m>p</m>-value?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-464">
+      <exercise xml:id="ch13-m79706-eip-464">
         <statement>
           <p>Is the claim accurate?</p>
         </statement>
@@ -1207,12 +1207,12 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
         </solution>
       </exercise>
       <p><em>Use the following information to answer the next four exercises.</em> Two students are interested in whether there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent.</p>
-      <exercise xml:id="eip-292">
+      <exercise xml:id="ch13-m79706-eip-292">
         <statement>
           <p>State the null and alternative hypotheses.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-932">
+      <exercise xml:id="ch13-m79706-eip-932">
         <statement>
           <p>What is the <m>F</m> statistic?</p>
         </statement>
@@ -1220,12 +1220,12 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           <p>2.8674</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-694">
+      <exercise xml:id="ch13-m79706-eip-694">
         <statement>
           <p>What is the <m>p</m>-value?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-792">
+      <exercise xml:id="ch13-m79706-eip-792">
         <statement>
           <p>At the 5 percent significance level, do we reject the null hypothesis?</p>
         </statement>
@@ -1234,12 +1234,12 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
         </solution>
       </exercise>
       <p><nbsp/><em>Use the following information to answer the next three exercises.</em> Two cyclists are comparing the variances of their overall paces going uphill. Each cyclist records his or her speeds going up 35 hills. The first cyclist has a variance of 23.8, and the second cyclist has a variance of 32.1. The cyclists want to see if their variances are the same or different. Assume that speeds are normally distributed.</p>
-      <exercise xml:id="eip-827">
+      <exercise xml:id="ch13-m79706-eip-827">
         <statement>
           <p>State the null and alternative hypotheses.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-366">
+      <exercise xml:id="ch13-m79706-eip-366">
         <statement>
           <p>What is the <m>F</m> statistic?</p>
         </statement>
@@ -1247,16 +1247,16 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           <p>0.7414</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-146">
+      <exercise xml:id="ch13-m79706-eip-146">
         <statement>
           <p>At the 5 percent significance level, what can we say about the cyclists’ variances?</p>
         </statement>
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idp94808464">
+    <subsection xml:id="ch13-m79706-fs-idp94808464">
       <title>Homework</title>
-      <exercise xml:id="element-721">
+      <exercise xml:id="ch13-m79706-element-721">
         <statement>
           <p>Three students, Linda, Tuan, and Javier, are given five laboratory rats each for a nutritional experiment. Each rat’s weight is recorded in grams. Linda feeds her rats Formula A, Tuan feeds his rats Formula B, and Javier feeds his rats Formula C. At the end of a specified time period, each rat is weighed again and the net gain in grams is recorded.</p>
           <p>Determine whether the variance in weight gain is statistically the same between Javier’s and Linda’s rats. Test at a significance level of 10 percent.</p>
@@ -1275,14 +1275,14 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-958">
+      <exercise xml:id="ch13-m79706-element-958">
         <statement>
           <p>A grassroots group opposed to a proposed increase in the gas tax claimed that the increase would hurt working-class people the most since they commute the farthest to work. Suppose that the group randomly surveyed 24 individuals and asked them their daily one-way commuting mileage. The results are as follows.</p>
           <p>Determine whether the variance in mileage driven is statistically the same between the working class and professional (middle income) groups. Use a 5 percent significance level.</p>
         </statement>
       </exercise>
       <p><em>Use the following information to answer the next two exercises.</em> The following table lists the number of pages in four different types of magazines.</p>
-      <table xml:id="id7236751">
+      <table xml:id="ch13-m79706-id7236751">
         <tabular>
           <row><cell>Home Decorating</cell><cell>News</cell><cell>Health</cell><cell>Computer</cell></row>
           <row><cell>172</cell><cell>87</cell><cell>82</cell><cell>104</cell></row>
@@ -1292,12 +1292,12 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           <row><cell>197</cell><cell>101</cell><cell>96</cell><cell>146</cell></row>
         </tabular>
       </table>
-      <exercise xml:id="element-54">
+      <exercise xml:id="ch13-m79706-element-54">
         <statement>
           <p>Which two magazine types do you think have the same variance in length?</p>
         </statement>
       </exercise>
-      <exercise xml:id="element-577">
+      <exercise xml:id="ch13-m79706-element-577">
         <statement>
           <p>Which two magazine types do you think have different variances in length?</p>
         </statement>
@@ -1305,10 +1305,10 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           <p>The answers may vary. Sample answer: Home decorating magazines and news magazines have different variances.</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-743">
+      <exercise xml:id="ch13-m79706-eip-743">
         <statement>
           <p>Is the variance for the amount of money, in dollars, that shoppers spend on Saturdays at the mall the same as the variance for the amount of money that shoppers spend on Sundays at the mall? Suppose that  shows the results of a study.</p>
-          <table xml:id="eip-id1164421796243">
+          <table xml:id="ch13-m79706-eip-id1164421796243">
             <tabular>
               <row><cell>Saturday</cell><cell>Sunday</cell><cell>Saturday</cell><cell>Sunday</cell></row>
               <row><cell>75</cell><cell>44</cell><cell>62</cell><cell>137</cell></row>
@@ -1322,7 +1322,7 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           </table>
         </statement>
       </exercise>
-      <exercise xml:id="eip-578">
+      <exercise xml:id="ch13-m79706-eip-578">
         <statement>
           <p>Are the variances for incomes on the East Coast and the West Coast the same? Suppose that  shows the results of a study. Income is shown in thousands of dollars. Assume that both distributions are normal. Use a level of significance of 0.05.</p>
         </statement>
@@ -1346,13 +1346,13 @@ Conclusion: There is not sufficient evidence to conclude that the variances are 
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="eip-965">
+      <exercise xml:id="ch13-m79706-eip-965">
         <statement>
           <p>Thirty men in college were taught a method of finger tapping. They were randomly assigned to three groups of 10, with each receiving one of three doses of caffeine: 0 mg, 100 mg, or 200 mg. This is approximately the amount in zero, one, or two cups of coffee. Two hours after ingesting the caffeine, the men had the rate of finger tapping per minute recorded. The experiment was double blind, so neither the recorders nor the students knew which group they were in. Does caffeine affect the rate of tapping, and if so how?</p>
           <p>Here are the data:</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-262">
+      <exercise xml:id="ch13-m79706-eip-262">
         <statement>
           <p>King Manuel I Komnenos ruled the Byzantine Empire from Constantinople (Istanbul) during the years A.D. 1145–1170. The empire was very powerful during his reign but declined significantly afterward. Coins minted during his era were found in Cyprus, an island in the eastern Mediterranean Sea. Nine coins were from his first coinage, seven from the second, four from the third, and seven from the fourth. These spanned most of his reign. We have data on the silver content of the coins:</p>
           <p>Did the silver content of the coins change over the course of Manuel’s reign?</p>
@@ -1360,7 +1360,7 @@ Conclusion: There is not sufficient evidence to conclude that the variances are 
         </statement>
         <solution>
           <p>Here is a strip chart of the silver content of the coins:</p>
-          <figure xml:id="fs-idp18676192">
+          <figure xml:id="ch13-m79706-fs-idp18676192">
             <image source="media/CNX_Stats_C13_M05_005anno.jpg" width="76%"/>
           </figure>
           <p>While there are differences in spread, it is not unreasonable to use ANOVA techniques. Here is the completed ANOVA table:</p>
@@ -1368,13 +1368,13 @@ Conclusion: There is not sufficient evidence to conclude that the variances are 
           <p>Reject the null hypothesis for any alpha. There is sufficient evidence to conclude that the mean silver content among the four coinages are different. From the strip chart, it appears that the first and second coinages had higher silver contents than the third and fourth.</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-273">
+      <exercise xml:id="ch13-m79706-eip-273">
         <statement>
           <p>The American League and the National League of Major League Baseball are each divided into three divisions: East, Central, and West. Many years, fans talk about some divisions being stronger (having better teams) than other divisions. This may have consequences for the postseason. For instance, in 2012 Tampa Bay won 90 games and did not play in the postseason, while Detroit won only 88 and did play in the postseason. This may have been an oddity, but is there good evidence that in the 2012 season, the American League divisions were significantly different in overall records? Use the following data to test whether the mean number of wins per team in the three American League divisions were the same. Note that the data are not balanced, as two divisions had five teams, while one had only four.</p>
         </statement>
         <solution>
           <p>Here is a stripchart of the number of wins for the 14 teams in the AL for the 2012 season.</p>
-          <figure xml:id="fs-idm154004704">
+          <figure xml:id="ch13-m79706-fs-idm154004704">
             <image source="media/CNX_Stats_C13_M05_007anno.jpg" width="76%"/>
           </figure>
           <p>While the spread seems similar, there may be some question about the normality of the data, given the wide gaps in the middle near the 0.500 mark of 82 games (teams play 162 games each season in MLB). However, one-way ANOVA is robust.</p>
@@ -1391,8 +1391,8 @@ Conclusion: There is not sufficient evidence to conclude that the variances are 
     <title>Lab: One-Way ANOVA</title>
 
 
-    <subsection xml:id="fs-id1164565008077">
-      <note xml:id="fs-id1164890505043">
+    <subsection xml:id="ch13-m79708-fs-id1164565008077">
+      <note xml:id="ch13-m79708-fs-id1164890505043">
         <title>One-Way ANOVA</title>
         <ul>
           <li>The student will conduct a simple one-way ANOVA test involving three variables.</li>

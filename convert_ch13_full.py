@@ -120,6 +120,21 @@ def xml_escape(text):
     text = text.replace('>', '&gt;')
     return text
 
+# Global variable to track current module for unique ID generation
+_current_module = ''
+
+def set_current_module(module_name):
+    """Set the current module name for ID prefixing"""
+    global _current_module
+    _current_module = module_name
+
+def make_unique_id(original_id):
+    """Add ch13-<module>- prefix to make IDs unique across the book"""
+    if not original_id:
+        return ''
+    # Add ch13-<module>- prefix to avoid conflicts
+    return f'ch13-{_current_module}-{original_id}'
+
 def extract_text(elem, namespaces):
     """Extract text with inline markup conversion"""
     if elem is None:
@@ -263,7 +278,7 @@ def process_equation(eq, namespaces, indent='    '):
 
 def process_table(table_elem, namespaces, indent='    '):
     """Convert table element"""
-    table_id = table_elem.get('id', '')
+    table_id = make_unique_id(table_elem.get('id', ''))
     summary = table_elem.get('summary', '')
     
     result = f'{indent}<table'
@@ -315,7 +330,7 @@ def process_table(table_elem, namespaces, indent='    '):
 
 def process_figure(fig, namespaces, indent='    '):
     """Convert figure"""
-    fig_id = fig.get('id', '')
+    fig_id = make_unique_id(fig.get('id', ''))
     
     result = f'{indent}<figure'
     if fig_id:
@@ -349,7 +364,7 @@ def process_figure(fig, namespaces, indent='    '):
 
 def process_note(note, namespaces, indent='    '):
     """Convert note element"""
-    note_id = note.get('id', '')
+    note_id = make_unique_id(note.get('id', ''))
     note_class = note.get('class', '')
     
     # Determine note type
@@ -383,7 +398,7 @@ def process_note(note, namespaces, indent='    '):
 
 def process_example(ex, namespaces, indent='    '):
     """Convert example"""
-    ex_id = ex.get('id', '')
+    ex_id = make_unique_id(ex.get('id', ''))
     
     result = f'{indent}<example'
     if ex_id:
@@ -445,7 +460,7 @@ def process_example(ex, namespaces, indent='    '):
 
 def process_exercise(ex, namespaces, indent='    '):
     """Convert exercise (Try It)"""
-    ex_id = ex.get('id', '')
+    ex_id = make_unique_id(ex.get('id', ''))
     
     result = f'{indent}<exercise'
     if ex_id:
@@ -542,7 +557,7 @@ def convert_module(filepath, section_id, section_title):
         
         if tag == 'section':
             # Nested section becomes subsection
-            section_id_nested = child.get('id', '')
+            section_id_nested = make_unique_id(child.get('id', ''))
             section_class = child.get('class', '')
             
             # Determine if this should be a special section
@@ -576,6 +591,7 @@ def main():
     
     # Convert each section
     print("Converting m79701 (Introduction)...")
+    set_current_module('m79701')
     section1 = convert_module(
         modules_dir / 'm79701' / 'index.cnxml',
         'sec-ch13-introduction',
@@ -583,6 +599,7 @@ def main():
     )
     
     print("Converting m79703 (One-Way ANOVA)...")
+    set_current_module('m79703')
     section2 = convert_module(
         modules_dir / 'm79703' / 'index.cnxml',
         'sec-one-way-anova',
@@ -590,6 +607,7 @@ def main():
     )
     
     print("Converting m79704 (The F Distribution and the F Ratio)...")
+    set_current_module('m79704')
     section3 = convert_module(
         modules_dir / 'm79704' / 'index.cnxml',
         'sec-f-distribution',
@@ -597,6 +615,7 @@ def main():
     )
     
     print("Converting m79705 (Facts About the F Distribution)...")
+    set_current_module('m79705')
     section4 = convert_module(
         modules_dir / 'm79705' / 'index.cnxml',
         'sec-facts-f-distribution',
@@ -604,6 +623,7 @@ def main():
     )
     
     print("Converting m79706 (Test of Two Variances)...")
+    set_current_module('m79706')
     section5 = convert_module(
         modules_dir / 'm79706' / 'index.cnxml',
         'sec-test-two-variances',
@@ -611,6 +631,7 @@ def main():
     )
     
     print("Converting m79708 (Lab: One-Way ANOVA)...")
+    set_current_module('m79708')
     section6 = convert_module(
         modules_dir / 'm79708' / 'index.cnxml',
         'sec-anova-lab',
