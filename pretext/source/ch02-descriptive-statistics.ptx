@@ -5546,6 +5546,8 @@ Frequency
       </solution>
     </exercise>
 
+    </subsection>
+
   </section>
 
   <section xml:id="sec-skewness-mean-median-mode">
@@ -5884,12 +5886,21 @@ The Ages at Which Former U.S. Presidents Died
 
   <section xml:id="sec-measures-spread">
     <title>Measures of the Spread of the Data</title>
+
+    <subsection xml:id="subsec-the-standard-deviation">
+      <title>The standard deviation</title>
+
     <p>An important characteristic of any set of data is the variation in the data. In some data sets, the data values are concentrated closely near the mean; in other data sets, the data values are more widely spread out from the mean. The most common measure of variation, or spread, is the standard deviation. The <term>standard deviation</term> is a number that measures how far data values are from their mean.</p>
 
     <ul>
       <li><p>provides a numerical measure of the overall amount of variation in a data set and</p></li>
       <li><p>can be used to determine whether a particular data value is close to or far from the mean.</p></li>
     </ul>
+
+    </subsection>
+
+    <subsection xml:id="subsec-std-dev-variation">
+      <title>The standard deviation provides a measure of the overall variation in a data set.</title>
 
     <p>The standard deviation is always positive or zero. The standard deviation is small when all the data are concentrated close to the mean, exhibiting little variation or spread. The standard deviation is larger when the data values are more spread out from the mean, exhibiting more variation.</p>
 
@@ -5971,7 +5982,12 @@ The symbol <m>
 <m>μ</m> is the population mean.</p>
 
 
-    <p>If <em>x</em> is a number, then the difference <em>x – mean</em> is called its <em>deviation</em>. In a data set, there are as many deviations as there are items in the data set. The deviations are used to calculate the standard deviation. If the numbers belong to a population, in symbols, a deviation is <em>x</em> – <em>μ</em>. For sample data, in symbols, a deviation is <em>x</em> – <m>\overline{x}</m>.</p>
+      <p>If <em>x</em> is a number, then the difference <em>x – mean</em> is called its <em>deviation</em>. In a data set, there are as many deviations as there are items in the data set. The deviations are used to calculate the standard deviation. If the numbers belong to a population, in symbols, a deviation is <em>x</em> – <em>μ</em>. For sample data, in symbols, a deviation is <em>x</em> – <m>\overline{x}</m>.</p>
+
+    </subsection>
+
+    <subsection xml:id="subsec-calculating-standard-deviation">
+      <title>Calculating the Standard Deviation</title>
 
     <p>The procedure to calculate the standard deviation depends on whether the numbers are the entire population or are data from a sample. The calculations are similar but not identical. Therefore, the symbol used to represent the standard deviation depends on whether it is calculated from a population or a sample. The lowercase letter <em>s</em> represents the sample standard deviation and the Greek letter <em>σ</em> (lowercase sigma) represents the population standard deviation. If the sample has the same characteristics as the population, then <em>s</em> should be a good estimate of <em>σ</em>.</p>
 
@@ -5995,6 +6011,10 @@ The symbol <m>
 
     <p>In these formulas, <em>f</em> represents the frequency with which a value appears. For example, if a value appears once, <em>f</em> is one. If a value appears three times in the data set or population, <em>f</em> is three.</p>
 
+    </subsection>
+
+    <subsection xml:id="subsec-types-of-variability">
+      <title>Types of Variability in Samples</title>
 
     <p>When researchers study a population, they often use a sample, either for convenience or because it is not possible to access the entire population. <em>Variability</em> is the term used to describe the differences that may occur in these outcomes. Common types of variability include the following:</p>
 
@@ -6024,6 +6044,8 @@ The symbol <m>
     <p>Sample variability occurs when multiple random samples are taken from the same population. For example, if I conduct four surveys of 50 people randomly selected from a given population, the differences in outcomes may be affected by sample variability.</p>
 
     <p>The statistic of a sampling distribution was discussed in <xref ref="ch02-descriptive-statistics">Descriptive Statistics: Measures of the Center of the Data</xref>. How much the statistic varies from one sample to another is known as the  <term>sampling variability of a statistic</term>. You typically measure the sampling variability of a statistic by its standard error. The <em>standard error of the mean</em> is an example of a standard error. The standard error is the standard deviation of the sampling distribution. In other words, it is the average standard deviation that results from repeated sampling. You will cover the standard error of the mean in the chapter <xref ref="ch07-central-limit-theorem">The Central Limit Theorem</xref> (not now). The notation for the standard error of the mean is <m>\frac{σ}{\sqrt{n}}</m>, where <em>σ</em> is the standard deviation of the population and <em>n</em> is the size of the sample.</p>
+
+    </subsection>
 
     <note xml:id="id7166567">
       <title>NOTE</title>
