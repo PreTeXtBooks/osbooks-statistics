@@ -87,8 +87,8 @@ where <m>s_{1}</m> and <m>s_{2}</m>, the sample standard deviations, are estimat
       <p>It is not necessary to compute this by hand. A calculator or computer easily computes it.</p>
     </note>
     <example xml:id="element-208">
-      <title>Independent groups</title>
       <statement>
+        <title>Independent groups</title>
         <p>Is there a difference in the mean amount of time boys and girls aged 7 to 11 play sports each day? Test at the 5 percent level of significance.</p>
       </statement>
       <solution>
@@ -161,8 +161,8 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
         </solution>
       </exercise>
     <example xml:id="fs-idm22935408">
-      <title>Online Class</title>
       <statement>
+        <title>Online Class</title>
         <p>Is the mean of the final exam scores of the online class lower than the mean of the final exam scores of the face-to-face class? Test at a 5 percent significance level. Answer the following questions:</p>
         <ol>
           <li>Is this a test of two means or two proportions?</li>
@@ -382,8 +382,8 @@ significance.</p>
     <p>The test statistic (<m>z</m>-score) is</p>
     <me>z=\frac{(p′_{A}-p′_{B})-(p_{A}-p_{B})}{\sqrt{p_{c}(1-p_{c})(\frac{1}{n_{A}}+\frac{1}{n_{B}})}}.</me>
     <example xml:id="element-944">
-      <title>Random Variable:</title>
       <statement>
+        <title>Random Variable:</title>
         <p>Two types of medication for hives are being tested to determine if there is a difference in the proportions of adult patient reactions. Twenty out of a random sample of 200 adults given Medication A still had hives 30 minutes after taking the medication. Twelve out of another random sample of 200 adults given Medication B still had hives 30 minutes after taking the medication. Test at a 1 percent level of significance.</p>
       </statement>
       <solution>
@@ -431,8 +431,8 @@ and <c>200</c> for n2. Arrow down to <c>p1</c>: and arrow to <c>not equal p2</c>
       </exercise>
 
     <example xml:id="fs-idp34418816">
-      <title>Random variable:</title>
       <statement>
+        <title>Random variable:</title>
         <p>A research study was conducted about gender differences in texting. The researcher believed that the proportion of girls involved in texting is less than the proportion of boys involved. The data collected in spring 2010 among a random sample of middle and high school students in a large school district in the southern United States is summarized in . Is the proportion of girls sending texts less than the proportion of boys texting? Test at a 1 percent level of significance.</p>
       </statement>
       <solution>
@@ -469,8 +469,8 @@ and <c>200</c> for n2. Arrow down to <c>p1</c>: and arrow to <c>not equal p2</c>
       </solution>
     </example>
     <example xml:id="fs-idp9035712">
-      <title>Random variable:</title>
       <statement>
+        <title>Random variable:</title>
         <p>Researchers conducted a study of smartphone use (Phone A versus Phone B) among adults. A cell phone company claimed that Phone B smartphones are more popular with whites (non-Hispanic) than with African Americans. The results of the survey indicate that of the 232 African American cell phone owners randomly sampled, 5 percent own Phone B. Of the 1,343 white cell phone owners randomly sampled, 10 percent own Phone B. Test at the 5 percent level of significance. Is the proportion of white Phone B owners greater than the proportion of African American Phone B owners?</p>
       </statement>
       <solution>
@@ -589,8 +589,8 @@ Estimated proportion for group B: 0.05</p>
     <p>The test statistic (<m>t</m>-score) is</p>
     <me>t=\frac{x¯_{d}-\mu_{d}}{(\frac{s_{d}}{\sqrt{n}})}\text{.}</me>
     <example xml:id="element-457">
-      <title>Note</title>
       <statement>
+        <title>Note</title>
         <p>A study was conducted to investigate the effectiveness of pain-reducing medication. Results for randomly selected subjects are shown in . A lower score indicates less pain. The <em>before</em> value is matched to an <em>after</em> value, and the differences are calculated. The differences have a normal distribution. Are the sensory measurements, on average, lower after the medication? Test at a 5 percent significance level.</p>
       </statement>
       <solution>
@@ -631,7 +631,8 @@ Estimated proportion for group B: 0.05</p>
       </exercise>
 
     <example xml:id="element-752">
-      <title>Note</title>
+      <statement>
+        <title>Note</title>
       <p>A college football coach was interested in whether the college’s strength development class increased his players’ maximum lift (in pounds) on the bench press exercise. He asked four of his players to participate in a study. The amount of weight they could each lift was recorded before they took the strength development class. After completing the class, the amount of weight they could each lift was again measured. The data are as follows:</p>
       <p>The coach wants to know if the strength development class makes his players stronger, on average.
 <nbsp/>Record the <em>differences</em> data. Calculate the differences by subtracting the amount of weight lifted prior to the class from the weight lifted after completing the class. The data for the differences are: {90, 11, -8, -8}. Assume the differences have a normal distribution.</p>
@@ -653,6 +654,7 @@ Estimated proportion for group B: 0.05</p>
       <p>Decision: If the level of significance is 5 percent, the decision is not to reject the null hypothesis, because <m>α</m> &lt; <m>p</m>-value.</p>
       <p>What is the conclusion?</p>
       <p>At a 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the strength development class helped make the players stronger, on average.</p>
+      </statement>
     </example>
     <exercise xml:id="fs-idp4946544">
       <title>Try It</title>

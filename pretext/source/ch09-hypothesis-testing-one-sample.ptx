@@ -1566,8 +1566,8 @@ Next, the <m>z</m>-test is given by
     </exercise>
     <p>The next example is a poem written by a statistics student named Nicole Hart. The solution to the problem follows the poem. Notice that the hypothesis test is for a single population proportion. This means that the null and alternate hypotheses use the parameter <m>p</m>. The distribution for the test is normal. The estimated proportion <m>p</m>′ is the proportion of fleas killed to the total fleas found on Fido. This is sample information. The problem gives a preconceived <m>α</m> = 0.01, for comparison, and a 95 percent confidence interval computation. The poem is clever and humorous, so please enjoy it!</p>
     <example xml:id="element-837">
-      <title>Note</title>
       <statement>
+        <title>Note</title>
         <p>My dog has so many fleas,<nbsp />
 They do not come off with ease.<nbsp />
 As for shampoo, I have tried many types<nbsp />

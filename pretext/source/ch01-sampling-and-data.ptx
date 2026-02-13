@@ -180,8 +180,10 @@
       <p xml:id="id9750754">All data that are the result of counting are called <term>quantitative discrete data</term>. These data take on only certain numerical values. If you count the number of phone calls you receive for each day of the week, you might get values such as zero, one, two, or three.</p>
       <p xml:id="id5023881">Data that are not only made up of counting numbers, but that may include fractions, decimals, or irrational numbers, are called <term>quantitative continuous data</term>. Continuous data are often  the results of measurements like lengths, weights, or times. A list of the lengths in minutes for all the phone calls that you make in a week, with numbers like 2.4, 7.5, or 11.0, would be quantitative continuous data.</p>
       <example xml:id="fs-idm37037280">
-        <title>Data Sample of Quantitative Discrete Data</title>
-        <p xml:id="id3406867">The data are the number of books students carry in their backpacks. You sample five students. Two students carry three books, one student carries four books, one student carries two books, and one student carries one book. The numbers of books, 3, 4, 2, and 1, are the quantitative discrete data.</p>
+        <statement>
+          <title>Data Sample of Quantitative Discrete Data</title>
+          <p xml:id="id3406867">The data are the number of books students carry in their backpacks. You sample five students. Two students carry three books, one student carries four books, one student carries two books, and one student carries one book. The numbers of books, 3, 4, 2, and 1, are the quantitative discrete data.</p>
+        </statement>
       </example>
       <exercise xml:id="fs-idp82396944">
         <title>Try It</title>
@@ -196,8 +198,10 @@
         </solution>
       </exercise>
       <example xml:id="fs-idm43599584">
-        <title>Data Sample of Quantitative Continuous Data</title>
-        <p xml:id="id3944554">The data are the weights of backpacks with books in them. You sample the same five students. The weights, in pounds, of their backpacks are 6.2, 7, 6.8, 9.1, 4.3. Notice that backpacks carrying three books can have different weights. Weights are quantitative continuous data.</p>
+        <statement>
+          <title>Data Sample of Quantitative Continuous Data</title>
+          <p xml:id="id3944554">The data are the weights of backpacks with books in them. You sample the same five students. The weights, in pounds, of their backpacks are 6.2, 7, 6.8, 9.1, 4.3. Notice that backpacks carrying three books can have different weights. Weights are quantitative continuous data.</p>
+        </statement>
       </example>
       <exercise xml:id="fs-idp29656272">
         <title>Try It</title>
