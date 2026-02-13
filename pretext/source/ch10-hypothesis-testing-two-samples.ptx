@@ -665,24 +665,26 @@ Estimated proportion for group B: 0.05</p>
       </exercise>
 
     <example xml:id="element-241">
-      <p>Seven eighth-graders at Kennedy Middle School measured how far they could push the shot put with their dominant (writing) hand and their weaker (nonwriting) hand. They thought that they could push equal distances with both hands. The data are collected and recorded in .</p>
-      <p>Conduct a hypothesis test to determine whether the mean difference in distances between the children’s dominant versus weaker hands is significant.</p>
-      <p>Record the <em>differences</em> data. Calculate the differences by subtracting the distances with the weaker hand from the distances with the dominant hand. The data for the differences are: {2, 12, 7, –1, 2, 0, 4}. The differences have a normal distribution.</p>
-      <p>Using the differences data, calculate the sample mean and the sample standard deviation. <m>x¯_{d}</m> = 3.71, <m>s_{d}</m> = 4.5.</p>
-      <p>Random variable: <m>X¯_{d}</m> = mean difference in the distances between the hands.</p>
-      <p>Distribution for the hypothesis test: <em>t_{6}</em></p>
-      <p><m>H</m>_{0}: <em>μ_{d}</em> = 0 <m>H</m><em>_{a}</em>: <m>μ</m><em>_{d}</em> ≠ 0</p>
-      <p>Graph:</p>
-      <figure>
+        <statement>
+          <p>Seven eighth-graders at Kennedy Middle School measured how far they could push the shot put with their dominant (writing) hand and their weaker (nonwriting) hand. They thought that they could push equal distances with both hands. The data are collected and recorded in .</p>
+          <p>Conduct a hypothesis test to determine whether the mean difference in distances between the children’s dominant versus weaker hands is significant.</p>
+          <p>Record the <em>differences</em> data. Calculate the differences by subtracting the distances with the weaker hand from the distances with the dominant hand. The data for the differences are: {2, 12, 7, –1, 2, 0, 4}. The differences have a normal distribution.</p>
+          <p>Using the differences data, calculate the sample mean and the sample standard deviation. <m>x¯_{d}</m> = 3.71, <m>s_{d}</m> = 4.5.</p>
+          <p>Random variable: <m>X¯_{d}</m> = mean difference in the distances between the hands.</p>
+          <p>Distribution for the hypothesis test: <em>t_{6}</em></p>
+          <p><m>H</m>_{0}: <em>μ_{d}</em> = 0 <m>H</m><em>_{a}</em>: <m>μ</m><em>_{d}</em> ≠ 0</p>
+          <p>Graph:</p>
+            <figure>
         <image source="media/CNX_Stats_C10_M05_001N.jpg" width="80%">
           <description>This is a normal distribution curve with mean equal to zero. Both the right and left tails of the curve are shaded. Each tail represents 1/2(p-value) = 0.0358.</description>
         </image>
       </figure>
-      <p>Calculate the <m>p</m>-value: The <m>p</m>-value is 0.0716 (using the data directly).</p>
-      <p>Test statistic = 2.18. <m>p</m>-value = 0.0719 using <m>(x¯_{d}=3.71,s_{d}=4.5)</m>.</p>
-      <p>Decision: Assume <m>α</m> = 0.05. Since <m>α</m> &lt; <m>p</m>-value, do not reject <em>H_{0}</em>.</p>
-      <p>Conclusion:  At the 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that there is a difference in the children’s weaker and dominant hands to push the shot put.</p>
-    </example>
+          <p>Calculate the <m>p</m>-value: The <m>p</m>-value is 0.0716 (using the data directly).</p>
+          <p>Test statistic = 2.18. <m>p</m>-value = 0.0719 using <m>(x¯_{d}=3.71,s_{d}=4.5)</m>.</p>
+          <p>Decision: Assume <m>α</m> = 0.05. Since <m>α</m> &lt; <m>p</m>-value, do not reject <em>H_{0}</em>.</p>
+          <p>Conclusion:  At the 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that there is a difference in the children’s weaker and dominant hands to push the shot put.</p>
+        </statement>
+      </example>
     <exercise xml:id="fs-idm3639952">
       <title>Try It</title>
       <statement>
