@@ -284,124 +284,6 @@
       </p>
     </subsection>
 
-    <subsection xml:id="subsec-ch04-pdf-practice">
-      <title>Practice</title>
-      <p><em>Use the following information to answer the next five exercises:</em> A company wants to evaluate its attrition rate, or in other words, how long new hires stay with the company. Over the years, the company has established the following probability distribution:</p>
-
-      <p>Let <em>X</em> = the number of years a new hire will stay with the company.</p>
-
-      <p>Let <em>P</em>(<em>x</em>) = the probability that a new hire will stay with the company <em>x</em> years.</p>
-
-      <exercise xml:id="exercise-ch04-pdf-practice-1">
-        <statement>
-          <p>Complete the table using the data provided.</p>
-          <table xml:id="tbl-ch04-practice-attrition">
-            <tabular>
-              <row header="yes">
-                <cell><em>x</em></cell>
-                <cell><em>P</em>(<em>x</em>)</cell>
-              </row>
-              <row>
-                <cell>0</cell>
-                <cell>.12</cell>
-              </row>
-              <row>
-                <cell>1</cell>
-                <cell>.18</cell>
-              </row>
-              <row>
-                <cell>2</cell>
-                <cell>.30</cell>
-              </row>
-              <row>
-                <cell>3</cell>
-                <cell>.15</cell>
-              </row>
-              <row>
-                <cell>4</cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>5</cell>
-                <cell>.10</cell>
-              </row>
-              <row>
-                <cell>6</cell>
-                <cell>.05</cell>
-              </row>
-            </tabular>
-          </table>
-        </statement>
-        <solution>
-          <table xml:id="tbl-ch04-practice-attrition-solution">
-            <tabular halign="center">
-              <row header="yes">
-                <cell><em>x</em></cell>
-                <cell><em>P</em>(<em>x</em>)</cell>
-              </row>
-              <row>
-                <cell>0</cell>
-                <cell>.12</cell>
-              </row>
-              <row>
-                <cell>1</cell>
-                <cell>.18</cell>
-              </row>
-              <row>
-                <cell>2</cell>
-                <cell>.30</cell>
-              </row>
-              <row>
-                <cell>3</cell>
-                <cell>.15</cell>
-              </row>
-              <row>
-                <cell>4</cell>
-                <cell>.10</cell>
-              </row>
-              <row>
-                <cell>5</cell>
-                <cell>.10</cell>
-              </row>
-              <row>
-                <cell>6</cell>
-                <cell>.05</cell>
-              </row>
-            </tabular>
-          </table>
-        </solution>
-      </exercise>
-
-      <exercise xml:id="exercise-ch04-pdf-practice-2">
-        <statement>
-          <p><em>P</em>(<em>x</em> = 4) = ________</p>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="exercise-ch04-pdf-practice-3">
-        <statement>
-          <p><em>P</em>(<em>x</em> ≥ 5) = ________</p>
-        </statement>
-        <solution>
-          <p>.10 + .05 = .15</p>
-        </solution>
-      </exercise>
-
-      <exercise xml:id="exercise-ch04-pdf-practice-4">
-        <statement>
-          <p>On average, how long would you expect a new hire to stay with the company?</p>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="exercise-ch04-pdf-practice-5">
-        <statement>
-          <p>What does the column <q><em>P</em>(<em>x</em>)</q> sum to?</p>
-        </statement>
-        <solution>
-          <p>1</p>
-        </solution>
-      </exercise>
-    </subsection>
 
     <subsection xml:id="subsec-ch04-pdf-glossary">
       <title>Glossary</title>
@@ -2627,7 +2509,6 @@ It doesn’t matter. I expect to break even.
 </section>
 
 
-<?xml version="1.0" encoding="UTF-8"?>
 <section xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="sec-binomial-distribution">
   <title>Binomial Distribution</title>
 
@@ -3153,8 +3034,935 @@ It doesn’t matter. I expect to break even.
     </p>
   </subsection>
 
-  <subsection xml:id="fs-idp75382928">
-    <title>Practice</title>
+
+
+  <subsection xml:id="glossary">
+    <title>Glossary</title>
+    <definition xml:id="fs-idm523840">
+      <statement>
+        <p>
+          <term>binomial experiment</term>
+        </p>
+        <ol marker="1.">
+          <li>
+            <p>There are a fixed number of trials, <em>n</em></p>
+          </li>
+          <li>
+            <p>There are only two possible outcomes, called <em>success</em> and, <em>failure</em>, for each trial; the letter <em>p</em> denotes the probability of a success on one trial, and <em>q</em> denotes the probability of a failure on one trial</p>
+          </li>
+          <li>
+            <p>The <em>n</em> trials are independent and are repeated using identical conditions</p>
+          </li>
+        </ol>
+      </statement>
+    </definition>
+    <definition xml:id="bernoullitr">
+      <statement>
+        <p>
+          <term>Bernoulli trials</term>
+        </p>
+        <ol marker="1.">
+          <li>
+            <p>There are only two possible outcomes called <em>success</em> and <em>failure</em> for each trial</p>
+          </li>
+          <li>
+            <p>The probability <em>p</em> of a success is the same for any trial (so the probability <em>q</em> = 1 − <em>p</em> of a failure is the same for any trial)</p>
+          </li>
+        </ol>
+      </statement>
+    </definition>
+    <definition xml:id="bidist">
+      <statement>
+        <p>
+          <term>binomial probability distribution</term>
+        </p>
+        <p>
+          a discrete random variable (RV) that arises from Bernoulli trials; there are a fixed number, <em>n</em>, of independent trials
+
+ <em>Independent</em> means that the result of any trial (for example, trial one) does not affect the results of the following trials, and all trials are conducted under the same conditions. Under these circumstances the binomial RV <em>X</em> is defined as the number of successes in <em>n</em> trials. The notation is: <em>X</em> ~ <em>B</em>(<em>n</em>, <em>p</em>). The mean is <em>μ</em> = <em>np</em> and the standard deviation is <em>σ</em> = <m>\sqrt{npq}</m>. The probability of the following exactly <em>x</em> successes in <em>n</em> trials is  <em>P</em>(<em>X</em> = <em>x</em>) = <m>(\binom{
+      n
+     }{
+      x
+     })</m><em>p</em><sup>x</sup><em>q</em><sup>n − x</sup>
+        </p>
+      </statement>
+    </definition>
+  </subsection>
+
+</section>
+
+  <section xml:id="sec-discrete-random-variables-homework">
+    <title>Homework</title>
+    
+    <exercises xml:id="exercises-bringing-it-together-ch04">
+      <title>Bringing It Together</title>
+      
+      <exercise xml:id="eip-idm67916816">
+        <statement>
+          <p>
+            According to a recent article the average number of babies born with significant hearing loss (deafness) is approximately two per 1,000 babies in a healthy baby nursery. The number climbs to an average of 30 per 1,000 babies in an intensive care nursery.
+          </p>
+          <p>
+            Suppose that 1,000 babies from healthy baby nurseries were randomly surveyed. Find the probability that exactly two babies were born deaf.
+          </p>
+        </statement>
+      </exercise>
+      <p>
+        <em>Use the following information to answer the next four exercises</em>: Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that he or she truly has the flu (and not just a nasty cold) is only about 4 percent. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.
+      </p>
+      <exercise xml:id="eip-idm71407792">
+        <statement>
+          <p>
+            Define the random variable and list its possible values.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            <em>X</em> = the number of patients calling in claiming to have the flu, who actually have the flu.
+          </p>
+          <p>
+            <em>X</em> = 0, 1, 2, ...25
+          </p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-idm5233360">
+        <statement>
+          <p>
+            State the distribution of <em>X</em>.
+          </p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-idm142417552">
+        <statement>
+          <p>
+            Find the probability that at least four of the 25 patients actually have the flu.
+          </p>
+        </statement>
+        <solution>
+          <p>
+            .0165
+          </p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-idm188197216">
+        <statement>
+          <p>
+            On average, for every 25 patients calling in, how many do you expect to have the flu?
+          </p>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp24682912">
+        <statement>
+          <p>
+            People visiting video rental stores often rent more than one DVD at a time. The probability distribution for DVD rentals per customer at Video to Go is given <url href=""></url>. There is a five-video limit per customer at this store, so nobody ever rents more than five DVDs.
+          </p>
+          <table xml:id="M04_Ch04_tbl005">
+            <tabular>
+              <row header="yes">
+                <cell><em>x</em></cell>
+                <cell><em>P</em>(<em>x</em>)</cell>
+              </row>
+              <row>
+                <cell>0</cell>
+                <cell>.03</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>.50</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>.24</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell>.07</cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell>.04</cell>
+              </row>
+            </tabular>
+          </table>
+          <ol marker="a.">
+            <li>
+              <p>Describe the random variable <em>X</em> in words.</p>
+            </li>
+            <li>
+              <p>Find the probability that a customer rents three DVDs.</p>
+            </li>
+            <li>
+              <p>Find the probability that a customer rents at least four DVDs.</p>
+            </li>
+            <li>
+              <p>Find the probability that a customer rents at most two DVDs.</p>
+            </li>
+          </ol>
+        </statement>
+        <solution>
+          <ol marker="a.">
+            <li>
+              <p><em>X</em> = the number of DVDs a Video to Go customer rents</p>
+            </li>
+            <li>
+              <p>.12</p>
+            </li>
+            <li>
+              <p>.11</p>
+            </li>
+            <li>
+              <p>.77</p>
+            </li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-885">
+        <statement>
+          <p>
+            A school newspaper reporter decides to randomly survey 12 students to see if they will attend Tet (Vietnamese New Year) festivities this year. Based on past years, she knows that 18 percent of students attend Tet festivities. We are interested in the number of students who will attend the festivities.
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>In words, define the random variable <em>X</em>.</p>
+            </li>
+            <li>
+              <p>List the values that <em>X</em> may take on.</p>
+            </li>
+            <li>
+              <p>Give the distribution of <em>X</em>. <em>X ~ _____</em>(_____,_____)</p>
+            </li>
+            <li>
+              <p>How many of the 12 students do we expect to attend the festivities?</p>
+            </li>
+            <li>
+              <p>Find the probability that at most four students will attend.</p>
+            </li>
+            <li>
+              <p>Find the probability that more than two students will attend.</p>
+            </li>
+          </ol>
+        </statement>
+      </exercise>
+      <p>
+        <em>Use the following information to answer the next three exercises:</em> The probability that a local hockey team will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.
+      </p>
+      <exercise xml:id="eip-514">
+        <statement>
+          <p>
+            What is the expected number of wins for that upcoming month?
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>1.67</p>
+            </li>
+            <li>
+              <p>12</p>
+            </li>
+            <li>
+              <p><m>\frac{382}{1043}</m></p>
+            </li>
+            <li>
+              <p>4.43</p>
+            </li>
+          </ol>
+        </statement>
+        <solution>
+          <p>
+            d. 4.43
+          </p>
+        </solution>
+      </exercise>
+      <p>
+        Let <em>X</em> = the number of games won in that upcoming month.
+      </p>
+      <exercise xml:id="element-861">
+        <statement>
+          <p>
+            What is the probability that the team wins six games in that upcoming month?
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>.1476</p>
+            </li>
+            <li>
+              <p>.2336</p>
+            </li>
+            <li>
+              <p>.7664</p>
+            </li>
+            <li>
+              <p>.8903</p>
+            </li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-408">
+        <statement>
+          <p>
+            What is the probability that the team wins at least five games in that upcoming month
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>.3694</p>
+            </li>
+            <li>
+              <p>.5266</p>
+            </li>
+            <li>
+              <p>.4734</p>
+            </li>
+            <li>
+              <p>.2305</p>
+            </li>
+          </ol>
+        </statement>
+        <solution>
+          <p>
+            c
+          </p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-122">
+        <statement>
+          <p>
+            A student takes a 10-question true-false quiz, but did not study and randomly guesses each answer. Find the probability that the student passes the quiz with a grade of at least 70 percent of the questions correct.
+          </p>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-421">
+        <statement>
+          <p>
+            A student takes a 32-question multiple choice exam, but did not study and randomly guesses each answer. Each question has three possible choices for the answer. Find the probability that the student guesses <term xml:id="term-more-than">more than</term> 75 percent of the questions correctly.
+          </p>
+        </statement>
+        <solution>
+          <ul>
+            <li>
+              <p><em>X</em> = number of questions answered correctly</p>
+            </li>
+            <li>
+              <p><em>X</em> ~ <em>B</em><m>(\text{32, }\frac{\text{1}}{\text{3}})</m></p>
+            </li>
+            <li>
+              <p>We are interested in MORE THAN 75 percent of 32 questions correct. 75 percent of 32 is 24. We want to find <em>P</em>(<em>x</em> > 24). The event <em>more than 24</em> is the complement of <em>less than or equal to 24</em>.</p>
+            </li>
+            <li>
+              <p>Using your calculator's distribution menu: 1 – binomcdf<m>(\text{32, }\frac{\text{1}}{\text{3}},\text{ 24})</m></p>
+            </li>
+            <li>
+              <p><em>P</em>(<em>x</em> > 24) = 0</p>
+            </li>
+            <li>
+              <p>The probability of getting more than 75 percent of the 32 questions correct when randomly guessing is very small and practically zero.</p>
+            </li>
+          </ul>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-300">
+        <statement>
+          <p>
+            Six different colored dice are rolled. Of interest is the number of dice that show a one.
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>In words, define the random variable <em>X</em>.</p>
+            </li>
+            <li>
+              <p>List the values that <em>X</em> may take on.</p>
+            </li>
+            <li>
+              <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
+            </li>
+            <li>
+              <p>On average, how many dice would you expect to show a one?</p>
+            </li>
+            <li>
+              <p>Find the probability that all six dice show a one.</p>
+            </li>
+            <li>
+              <p>Is it more likely that three or that four dice will show a one? Use numbers to justify your answer numerically.</p>
+            </li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-120">
+        <statement>
+          <p>
+            More than 96 percent of the very largest colleges and universities (more than 15,000 total enrollments) have some online offerings. Suppose you randomly pick 13 such institutions. We are interested in the number that offer distance learning courses.
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>In words, define the random variable <em>X</em>.</p>
+            </li>
+            <li>
+              <p>List the values that <em>X</em> may take on.</p>
+            </li>
+            <li>
+              <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
+            </li>
+            <li>
+              <p>On average, how many schools would you expect to offer such courses?</p>
+            </li>
+            <li>
+              <p>Find the probability that at most 10 offer such courses.</p>
+            </li>
+            <li>
+              <p>Is it more likely that 12 or that 13 will offer such courses? Use numbers to justify your answer numerically and answer in a complete sentence.</p>
+            </li>
+          </ol>
+        </statement>
+        <solution>
+          <ol marker="a.">
+            <li>
+              <p><em>X</em> = the number of college and universities that offer online offerings.</p>
+            </li>
+            <li>
+              <p>0, 1, 2, …, 13</p>
+            </li>
+            <li>
+              <p><em>X</em> ~ <em>B</em>(13, 0.96)</p>
+            </li>
+            <li>
+              <p>12.48</p>
+            </li>
+            <li>
+              <p>.0135</p>
+            </li>
+            <li>
+              <p><em>P</em>(<em>x</em> = 12) = .3186  <em>P</em>(<em>x</em> = 13) = 0.5882 More likely to get 13.</p>
+            </li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-387">
+        <statement>
+          <p>
+            Suppose that about 85 percent of graduating students attend their graduation. A group of 22 graduating students is randomly chosen.
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>In words, define the random variable <em>X</em>.</p>
+            </li>
+            <li>
+              <p>List the values that <em>X</em> may take on.</p>
+            </li>
+            <li>
+              <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
+            </li>
+            <li>
+              <p>How many are expected to attend their graduation?</p>
+            </li>
+            <li>
+              <p>Find the probability that 17 or 18 attend.</p>
+            </li>
+            <li>
+              <p>Based on numerical values, would you be surprised if all 22 attended graduation? Justify your answer numerically.</p>
+            </li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-742">
+        <statement>
+          <p>
+            At the Fencing Center, 60 percent of the fencers use the foil as their main weapon. We randomly survey 25 fencers at the Fencing Center. We are interested in the number of fencers who do <term xml:id="term-not">not</term> use the foil as their main weapon.
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>In words, define the random variable <em>X</em>.</p>
+            </li>
+            <li>
+              <p>List the values that <em>X</em> may take on.</p>
+            </li>
+            <li>
+              <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
+            </li>
+            <li>
+              <p>How many are expected to <term xml:id="term-not">not</term> to use the foil as their main weapon?</p>
+            </li>
+            <li>
+              <p>Find the probability that six do <term xml:id="term-not">not</term> use the foil as their main weapon.</p>
+            </li>
+            <li>
+              <p>Based on numerical values, would you be surprised if all 25 did <term xml:id="term-not">not</term> use foil as their main weapon? Justify your answer numerically.</p>
+            </li>
+          </ol>
+        </statement>
+        <solution>
+          <ol marker="a.">
+            <li>
+              <p><em>X</em> = the number of fencers who do <em>not</em> use the foil as their main weapon</p>
+            </li>
+            <li>
+              <p>0, 1, 2, 3,... 25</p>
+            </li>
+            <li>
+              <p><em>X</em> ~ <em>B</em>(25,.40)</p>
+            </li>
+            <li>
+              <p>10</p>
+            </li>
+            <li>
+              <p>.0442</p>
+            </li>
+            <li>
+              <p>The probability that all 25 not use the foil is almost zero. Therefore, it would be very surprising.</p>
+            </li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-816">
+        <statement>
+          <p>
+            Approximately 8 percent of students at a local high school participate in after-school sports all four years of high school. A group of 60 seniors is randomly chosen. Of interest is the number who participated in after-school sports all four years of high school.
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>In words, define the random variable <em>X</em>.</p>
+            </li>
+            <li>
+              <p>List the values that <em>X</em> may take on.</p>
+            </li>
+            <li>
+              <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
+            </li>
+            <li>
+              <p>How many seniors are expected to have participated in after-school sports all four years of high school?</p>
+            </li>
+            <li>
+              <p>Based on numerical values, would you be surprised if none of the seniors participated in after-school sports all four years of high school? Justify your answer numerically.</p>
+            </li>
+            <li>
+              <p>Based upon numerical values, is it more likely that four or that five of the seniors participated in after-school sports all four years of high school? Justify your answer numerically.</p>
+            </li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-1">
+        <statement>
+          <p>
+            The chance of an IRS audit for a tax return reporting more than $25,000 in income is about 2 percent per year. We are interested in the expected number of audits a person with that income has in a 20-year period. Assume each year is independent.
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>In words, define the random variable <em>X</em>.</p>
+            </li>
+            <li>
+              <p>List the values that <em>X</em> may take on.</p>
+            </li>
+            <li>
+              <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
+            </li>
+            <li>
+              <p>How many audits are expected in a 20-year period?</p>
+            </li>
+            <li>
+              <p>Find the probability that a person is not audited at all.</p>
+            </li>
+            <li>
+              <p>Find the probability that a person is audited more than twice.</p>
+            </li>
+          </ol>
+        </statement>
+        <solution>
+          <ol marker="a.">
+            <li>
+              <p><em>X</em> = the number of audits in a 20-year period</p>
+            </li>
+            <li>
+              <p>0, 1, 2, …, 20</p>
+            </li>
+            <li>
+              <p><em>X</em> ~ <em>B</em>(20, .02)</p>
+            </li>
+            <li>
+              <p>.4</p>
+            </li>
+            <li>
+              <p>.6676</p>
+            </li>
+            <li>
+              <p>.0071</p>
+            </li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="element-962">
+        <statement>
+          <p>
+            It has been estimated that only about 30 percent of California residents have adequate earthquake supplies. Suppose you randomly survey 11 California residents. We are interested in the number who have adequate earthquake supplies.
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>In words, define the random variable <em>X</em>.</p>
+            </li>
+            <li>
+              <p>List the values that <em>X</em> may take on.</p>
+            </li>
+            <li>
+              <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
+            </li>
+            <li>
+              <p>What is the probability that at least eight have adequate earthquake supplies?</p>
+            </li>
+            <li>
+              <p>Is it more likely that none or that all of the residents surveyed will have adequate earthquake supplies? Why?</p>
+            </li>
+            <li>
+              <p>How many residents do you expect will have adequate earthquake supplies?</p>
+            </li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="element-650">
+        <statement>
+          <p>
+            There are two similar games played for Chinese New Year and Vietnamese New Year. In the Chinese version, fair dice with numbers 1, 2, 3, 4, 5, and 6 are used, along with a board with those numbers. In the Vietnamese version, fair dice with pictures of a gourd, fish, rooster, crab, crayfish, and deer are used. The board has those six objects on it, also. We will play with bets being $1. The player places a bet on a number or object. The <em>house</em> rolls three dice. If none of the dice show the number or object that was bet, the house keeps the $1 bet. If one of the dice shows the number or object bet (and the other two do not show it), the player gets back his or her $1 bet, plus $1 profit. If two of the dice show the number or object bet (and the third die does not show it), the player gets back his or her $1 bet, plus $2 profit. If all three dice show the number or object bet, the player gets back his or her $1 bet, plus $3 profit. Let <em>X</em> = number of matches and <em>Y</em> = profit per game.
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>In words, define the random variable <em>X</em>.</p>
+            </li>
+            <li>
+              <p>List the values that <em>X</em> may take on.</p>
+            </li>
+            <li>
+              <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
+            </li>
+            <li>
+              <p>List the values that <em>Y</em> may take on. Then, construct one PDF table that includes both <em>X</em> and <em>Y</em> and their probabilities.</p>
+            </li>
+            <li>
+              <p>Calculate the average expected matches over the long run of playing this game for the player.</p>
+            </li>
+            <li>
+              <p>Calculate the average expected earnings over the long run of playing this game for the player.</p>
+            </li>
+            <li>
+              <p>Determine who has the advantage, the player or the house.</p>
+            </li>
+          </ol>
+        </statement>
+        <solution>
+          <ol marker="1.">
+            <li>
+              <p><em>X</em> = the number of matches</p>
+            </li>
+            <li>
+              <p>0, 1, 2, 3</p>
+            </li>
+            <li>
+              <p><em>X</em> ~ <em>B</em><m>(3,\frac{1}{6})</m></p>
+            </li>
+            <li>
+              <p>In dollars: −1, 1, 2, 3</p>
+            </li>
+            <li>
+              <p><m>\frac{1}{2}</m></p>
+            </li>
+            <li>
+              <p>Multiply each <em>Y</em> value by the corresponding <em>X</em> probability from the PDF table. The answer is −.0787. You lose about eight cents, on average, per game.</p>
+            </li>
+            <li>
+              <p>The house has the advantage.</p>
+            </li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idm40828128">
+        <statement>
+          <p>
+            According to the World Bank, only 9 percent of the population of Uganda had access to electricity as of 2009. Suppose we randomly sample 150 people in Uganda. Let <em>X</em> = the number of people who have access to electricity.
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>What is the probability distribution for <em>X</em>?</p>
+            </li>
+            <li>
+              <p>Using the formulas, calculate the mean and standard deviation of <em>X</em>.</p>
+            </li>
+            <li>
+              <p>Use your calculator to find the probability that 15 people in the sample have access to electricity.</p>
+            </li>
+            <li>
+              <p>Find the probability that at most 10 people in the sample have access to electricity.</p>
+            </li>
+            <li>
+              <p>Find the probability that more than 25 people in the sample have access to electricity.</p>
+            </li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm104093808">
+        <statement>
+          <p>
+            The literacy rate for a nation measures the proportion of people age 15 and over who can read and write. The literacy rate in Afghanistan is 28.1 percent. Suppose you choose 15 people in Afghanistan at random. Let <em>X</em> = the number of people who are literate.
+          </p>
+          <ol marker="a.">
+            <li>
+              <p>Sketch a graph of the probability distribution of <em>X</em>.</p>
+            </li>
+            <li>
+              <p>Using the formulas, calculate the (i) mean and (ii) standard deviation of <em>X</em>.</p>
+            </li>
+            <li>
+              <p>Find the probability that more than five people in the sample are literate. Is it more likely that three people or four people are literate?</p>
+            </li>
+          </ol>
+        </statement>
+        <solution>
+          <ol marker="a.">
+            <li>
+              <p><em>X</em> ~ <em>B</em>(15, .281)</p>
+            </li>
+            <li>
+              <ol marker="1.">
+                <li>
+                  <p>Mean = <em>μ</em> = <em>np</em> = 15(.281) = 4.215</p>
+                </li>
+                <li>
+                  <p>Standard Deviation = <em>σ</em> = <m>\sqrt{npq}</m> = <m>\sqrt{15(.281)(.719)}</m> = 1.7409</p>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <p><em>P</em>(<em>x</em> > 5) = 1 – <em>P</em>(<em>x</em> ≤ 5) = 1 – binomcdf(15, .281, 5) = 1 – 0.7754 = .2246
+   <em>P</em>(<em>x</em> = 3) = binompdf(15, .281, 3) = .1927
+   <em>P</em>(<em>x</em> = 4) = binompdf(15, .281, 4) = .2259
+   It is more likely that four people are literate than three people are.</p>
+            </li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="exercise-ch04-pdf-hw-1">
+        <statement>
+          <p>A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.</p>
+  
+          <table xml:id="tbl-ch04-hw-baker">
+            <tabular halign="center">
+              <row header="yes">
+                <cell><em>x</em></cell>
+                <cell><em>P</em>(<em>x</em>)</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>.15</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>.35</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>.40</cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell>.10</cell>
+              </row>
+            </tabular>
+          </table>
+  
+          <p>
+            <ol marker="a">
+              <li>Define the random variable <em>X</em>.</li>
+              <li>What is the probability the baker will sell more than one batch? <em>P</em>(<em>x</em> > 1) = ________</li>
+              <li>What is the probability the baker will sell exactly one batch? <em>P</em>(<em>x</em> = 1) = ________</li>
+              <li>On average, how many batches should the baker make?</li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+  
+      <exercise xml:id="exercise-ch04-pdf-hw-2">
+        <statement>
+          <p>Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random. What values does <em>X</em> take on?</p>
+        </statement>
+        <solution>
+          <p>0, 1, 2, and 3</p>
+        </solution>
+      </exercise>
+  
+      <exercise xml:id="exercise-ch04-pdf-hw-3">
+        <statement>
+          <p>The World Bank records the prevalence of HIV in countries around the world. According to their data, <q>Prevalence of HIV refers to the percentage of people ages 15 to 49 who are infected with HIV.</q><fn>World Bank, World Development Indicators, <url href="http://data.worldbank.org/data-catalog/world-development-indicators">http://data.worldbank.org/data-catalog/world-development-indicators</url>.</fn> In South Africa, the prevalence of HIV is 17.3%. Let <em>X</em> = the number of people you test until you find a person infected with HIV.</p>
+  
+          <p>
+            <ol marker="a">
+              <li>Sketch a graph of the distribution of the discrete random variable <em>X</em>.</li>
+              <li>What is the probability that you must test 30 people to find one with HIV?</li>
+              <li>What is the probability that you must ask ten people?</li>
+              <li>Find the expected value <em>μ</em> = ________.</li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+  
+      <exercise xml:id="exercise-ch04-pdf-bs-degree">
+        <statement>
+          <p>Suppose that the PDF for the number of years it takes to earn a bachelor of science (B.S.) degree is given in the table below.</p>
+          <table xml:id="table-ch04-pdf-bs-degree">
+            <tabular>
+              <row header="yes">
+                <cell><em>x</em></cell>
+                <cell><em>P</em>(<em>x</em>)</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>.05</cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell>.40</cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell>.30</cell>
+              </row>
+              <row>
+                <cell>6</cell>
+                <cell>.15</cell>
+              </row>
+              <row>
+                <cell>7</cell>
+                <cell>.10</cell>
+              </row>
+            </tabular>
+          </table>
+          <p>
+            <ol marker="a.">
+              <li>In words, define the random variable <em>X</em>.</li>
+              <li>What does it mean that the values 0, 1, and 2 are not included for <em>x</em> in the PDF?</li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+    </exercises>
+  </section>
+
+
+  <section xml:id="sec-discrete-random-variables-practice">
+    <title>Discrete Distribution: Practice</title>
+    
+      <p><em>Use the following information to answer the next five exercises:</em> A company wants to evaluate its attrition rate, or in other words, how long new hires stay with the company. Over the years, the company has established the following probability distribution:</p>
+
+      <p>Let <em>X</em> = the number of years a new hire will stay with the company.</p>
+
+      <p>Let <em>P</em>(<em>x</em>) = the probability that a new hire will stay with the company <em>x</em> years.</p>
+
+      <exercise xml:id="exercise-ch04-pdf-practice-1">
+        <statement>
+          <p>Complete the table using the data provided.</p>
+          <table xml:id="tbl-ch04-practice-attrition">
+            <tabular>
+              <row header="yes">
+                <cell><em>x</em></cell>
+                <cell><em>P</em>(<em>x</em>)</cell>
+              </row>
+              <row>
+                <cell>0</cell>
+                <cell>.12</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>.18</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>.30</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>.15</cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell>.10</cell>
+              </row>
+              <row>
+                <cell>6</cell>
+                <cell>.05</cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
+        <solution>
+          <table xml:id="tbl-ch04-practice-attrition-solution">
+            <tabular halign="center">
+              <row header="yes">
+                <cell><em>x</em></cell>
+                <cell><em>P</em>(<em>x</em>)</cell>
+              </row>
+              <row>
+                <cell>0</cell>
+                <cell>.12</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>.18</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>.30</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>.15</cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell>.10</cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell>.10</cell>
+              </row>
+              <row>
+                <cell>6</cell>
+                <cell>.05</cell>
+              </row>
+            </tabular>
+          </table>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="exercise-ch04-pdf-practice-2">
+        <statement>
+          <p><em>P</em>(<em>x</em> = 4) = ________</p>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="exercise-ch04-pdf-practice-3">
+        <statement>
+          <p><em>P</em>(<em>x</em> ≥ 5) = ________</p>
+        </statement>
+        <solution>
+          <p>.10 + .05 = .15</p>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="exercise-ch04-pdf-practice-4">
+        <statement>
+          <p>On average, how long would you expect a new hire to stay with the company?</p>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="exercise-ch04-pdf-practice-5">
+        <statement>
+          <p>What does the column <q><em>P</em>(<em>x</em>)</q> sum to?</p>
+        </statement>
+        <solution>
+          <p>1</p>
+        </solution>
+      </exercise>
+
     <p>
       <em>Use the following information to answer the next eight exercises:</em> Researchers collected data from 203,967 incoming first-time, full-time freshmen from 270 four-year colleges and universities in the United States. Of those students, 71.3 percent replied that, yes, they agreed with a recent federal law that was passed.
     </p>
@@ -3278,813 +4086,6 @@ It doesn’t matter. I expect to break even.
       <statement>
         <p>
           What is the probability that at least two of the freshmen reply yes?
-        </p>
-      </statement>
-    </exercise>
-  </subsection>
-
-  <subsection xml:id="fs-idp12065056">
-    <title>Homework</title>
-    <exercise xml:id="eip-idm67916816">
-      <statement>
-        <p>
-          According to a recent article the average number of babies born with significant hearing loss (deafness) is approximately two per 1,000 babies in a healthy baby nursery. The number climbs to an average of 30 per 1,000 babies in an intensive care nursery.
-        </p>
-        <p>
-          Suppose that 1,000 babies from healthy baby nurseries were randomly surveyed. Find the probability that exactly two babies were born deaf.
-        </p>
-      </statement>
-    </exercise>
-    <p>
-      <em>Use the following information to answer the next four exercises</em>: Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that he or she truly has the flu (and not just a nasty cold) is only about 4 percent. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.
-    </p>
-    <exercise xml:id="eip-idm71407792">
-      <statement>
-        <p>
-          Define the random variable and list its possible values.
-        </p>
-      </statement>
-      <solution>
-        <p>
-          <em>X</em> = the number of patients calling in claiming to have the flu, who actually have the flu.
-        </p>
-        <p>
-          <em>X</em> = 0, 1, 2, ...25
-        </p>
-      </solution>
-    </exercise>
-    <exercise xml:id="eip-idm5233360">
-      <statement>
-        <p>
-          State the distribution of <em>X</em>.
-        </p>
-      </statement>
-    </exercise>
-    <exercise xml:id="eip-idm142417552">
-      <statement>
-        <p>
-          Find the probability that at least four of the 25 patients actually have the flu.
-        </p>
-      </statement>
-      <solution>
-        <p>
-          .0165
-        </p>
-      </solution>
-    </exercise>
-    <exercise xml:id="eip-idm188197216">
-      <statement>
-        <p>
-          On average, for every 25 patients calling in, how many do you expect to have the flu?
-        </p>
-      </statement>
-    </exercise>
-    <exercise xml:id="fs-idp24682912">
-      <statement>
-        <p>
-          People visiting video rental stores often rent more than one DVD at a time. The probability distribution for DVD rentals per customer at Video to Go is given <url href=""></url>. There is a five-video limit per customer at this store, so nobody ever rents more than five DVDs.
-        </p>
-        <table xml:id="M04_Ch04_tbl005">
-          <tabular>
-            <row header="yes">
-              <cell><em>x</em></cell>
-              <cell><em>P</em>(<em>x</em>)</cell>
-            </row>
-            <row>
-              <cell>0</cell>
-              <cell>.03</cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>.50</cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>.24</cell>
-            </row>
-            <row>
-              <cell>3</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>4</cell>
-              <cell>.07</cell>
-            </row>
-            <row>
-              <cell>5</cell>
-              <cell>.04</cell>
-            </row>
-          </tabular>
-        </table>
-        <ol marker="a.">
-          <li>
-            <p>Describe the random variable <em>X</em> in words.</p>
-          </li>
-          <li>
-            <p>Find the probability that a customer rents three DVDs.</p>
-          </li>
-          <li>
-            <p>Find the probability that a customer rents at least four DVDs.</p>
-          </li>
-          <li>
-            <p>Find the probability that a customer rents at most two DVDs.</p>
-          </li>
-        </ol>
-      </statement>
-      <solution>
-        <ol marker="a.">
-          <li>
-            <p><em>X</em> = the number of DVDs a Video to Go customer rents</p>
-          </li>
-          <li>
-            <p>.12</p>
-          </li>
-          <li>
-            <p>.11</p>
-          </li>
-          <li>
-            <p>.77</p>
-          </li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="element-885">
-      <statement>
-        <p>
-          A school newspaper reporter decides to randomly survey 12 students to see if they will attend Tet (Vietnamese New Year) festivities this year. Based on past years, she knows that 18 percent of students attend Tet festivities. We are interested in the number of students who will attend the festivities.
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>In words, define the random variable <em>X</em>.</p>
-          </li>
-          <li>
-            <p>List the values that <em>X</em> may take on.</p>
-          </li>
-          <li>
-            <p>Give the distribution of <em>X</em>. <em>X ~ _____</em>(_____,_____)</p>
-          </li>
-          <li>
-            <p>How many of the 12 students do we expect to attend the festivities?</p>
-          </li>
-          <li>
-            <p>Find the probability that at most four students will attend.</p>
-          </li>
-          <li>
-            <p>Find the probability that more than two students will attend.</p>
-          </li>
-        </ol>
-      </statement>
-    </exercise>
-    <p>
-      <em>Use the following information to answer the next three exercises:</em> The probability that a local hockey team will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.
-    </p>
-    <exercise xml:id="eip-514">
-      <statement>
-        <p>
-          What is the expected number of wins for that upcoming month?
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>1.67</p>
-          </li>
-          <li>
-            <p>12</p>
-          </li>
-          <li>
-            <p><m>\frac{382}{1043}</m></p>
-          </li>
-          <li>
-            <p>4.43</p>
-          </li>
-        </ol>
-      </statement>
-      <solution>
-        <p>
-          d. 4.43
-        </p>
-      </solution>
-    </exercise>
-    <p>
-      Let <em>X</em> = the number of games won in that upcoming month.
-    </p>
-    <exercise xml:id="element-861">
-      <statement>
-        <p>
-          What is the probability that the team wins six games in that upcoming month?
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>.1476</p>
-          </li>
-          <li>
-            <p>.2336</p>
-          </li>
-          <li>
-            <p>.7664</p>
-          </li>
-          <li>
-            <p>.8903</p>
-          </li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="element-408">
-      <statement>
-        <p>
-          What is the probability that the team wins at least five games in that upcoming month
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>.3694</p>
-          </li>
-          <li>
-            <p>.5266</p>
-          </li>
-          <li>
-            <p>.4734</p>
-          </li>
-          <li>
-            <p>.2305</p>
-          </li>
-        </ol>
-      </statement>
-      <solution>
-        <p>
-          c
-        </p>
-      </solution>
-    </exercise>
-    <exercise xml:id="eip-122">
-      <statement>
-        <p>
-          A student takes a 10-question true-false quiz, but did not study and randomly guesses each answer. Find the probability that the student passes the quiz with a grade of at least 70 percent of the questions correct.
-        </p>
-      </statement>
-    </exercise>
-    <exercise xml:id="eip-421">
-      <statement>
-        <p>
-          A student takes a 32-question multiple choice exam, but did not study and randomly guesses each answer. Each question has three possible choices for the answer. Find the probability that the student guesses <term xml:id="term-more-than">more than</term> 75 percent of the questions correctly.
-        </p>
-      </statement>
-      <solution>
-        <ul>
-          <li>
-            <p><em>X</em> = number of questions answered correctly</p>
-          </li>
-          <li>
-            <p><em>X</em> ~ <em>B</em><m>(\text{32, }\frac{\text{1}}{\text{3}})</m></p>
-          </li>
-          <li>
-            <p>We are interested in MORE THAN 75 percent of 32 questions correct. 75 percent of 32 is 24. We want to find <em>P</em>(<em>x</em> > 24). The event <em>more than 24</em> is the complement of <em>less than or equal to 24</em>.</p>
-          </li>
-          <li>
-            <p>Using your calculator's distribution menu: 1 – binomcdf<m>(\text{32, }\frac{\text{1}}{\text{3}},\text{ 24})</m></p>
-          </li>
-          <li>
-            <p><em>P</em>(<em>x</em> > 24) = 0</p>
-          </li>
-          <li>
-            <p>The probability of getting more than 75 percent of the 32 questions correct when randomly guessing is very small and practically zero.</p>
-          </li>
-        </ul>
-      </solution>
-    </exercise>
-    <exercise xml:id="element-300">
-      <statement>
-        <p>
-          Six different colored dice are rolled. Of interest is the number of dice that show a one.
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>In words, define the random variable <em>X</em>.</p>
-          </li>
-          <li>
-            <p>List the values that <em>X</em> may take on.</p>
-          </li>
-          <li>
-            <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
-          </li>
-          <li>
-            <p>On average, how many dice would you expect to show a one?</p>
-          </li>
-          <li>
-            <p>Find the probability that all six dice show a one.</p>
-          </li>
-          <li>
-            <p>Is it more likely that three or that four dice will show a one? Use numbers to justify your answer numerically.</p>
-          </li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="element-120">
-      <statement>
-        <p>
-          More than 96 percent of the very largest colleges and universities (more than 15,000 total enrollments) have some online offerings. Suppose you randomly pick 13 such institutions. We are interested in the number that offer distance learning courses.
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>In words, define the random variable <em>X</em>.</p>
-          </li>
-          <li>
-            <p>List the values that <em>X</em> may take on.</p>
-          </li>
-          <li>
-            <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
-          </li>
-          <li>
-            <p>On average, how many schools would you expect to offer such courses?</p>
-          </li>
-          <li>
-            <p>Find the probability that at most 10 offer such courses.</p>
-          </li>
-          <li>
-            <p>Is it more likely that 12 or that 13 will offer such courses? Use numbers to justify your answer numerically and answer in a complete sentence.</p>
-          </li>
-        </ol>
-      </statement>
-      <solution>
-        <ol marker="a.">
-          <li>
-            <p><em>X</em> = the number of college and universities that offer online offerings.</p>
-          </li>
-          <li>
-            <p>0, 1, 2, …, 13</p>
-          </li>
-          <li>
-            <p><em>X</em> ~ <em>B</em>(13, 0.96)</p>
-          </li>
-          <li>
-            <p>12.48</p>
-          </li>
-          <li>
-            <p>.0135</p>
-          </li>
-          <li>
-            <p><em>P</em>(<em>x</em> = 12) = .3186  <em>P</em>(<em>x</em> = 13) = 0.5882 More likely to get 13.</p>
-          </li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="element-387">
-      <statement>
-        <p>
-          Suppose that about 85 percent of graduating students attend their graduation. A group of 22 graduating students is randomly chosen.
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>In words, define the random variable <em>X</em>.</p>
-          </li>
-          <li>
-            <p>List the values that <em>X</em> may take on.</p>
-          </li>
-          <li>
-            <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
-          </li>
-          <li>
-            <p>How many are expected to attend their graduation?</p>
-          </li>
-          <li>
-            <p>Find the probability that 17 or 18 attend.</p>
-          </li>
-          <li>
-            <p>Based on numerical values, would you be surprised if all 22 attended graduation? Justify your answer numerically.</p>
-          </li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="element-742">
-      <statement>
-        <p>
-          At the Fencing Center, 60 percent of the fencers use the foil as their main weapon. We randomly survey 25 fencers at the Fencing Center. We are interested in the number of fencers who do <term xml:id="term-not">not</term> use the foil as their main weapon.
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>In words, define the random variable <em>X</em>.</p>
-          </li>
-          <li>
-            <p>List the values that <em>X</em> may take on.</p>
-          </li>
-          <li>
-            <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
-          </li>
-          <li>
-            <p>How many are expected to <term xml:id="term-not">not</term> to use the foil as their main weapon?</p>
-          </li>
-          <li>
-            <p>Find the probability that six do <term xml:id="term-not">not</term> use the foil as their main weapon.</p>
-          </li>
-          <li>
-            <p>Based on numerical values, would you be surprised if all 25 did <term xml:id="term-not">not</term> use foil as their main weapon? Justify your answer numerically.</p>
-          </li>
-        </ol>
-      </statement>
-      <solution>
-        <ol marker="a.">
-          <li>
-            <p><em>X</em> = the number of fencers who do <em>not</em> use the foil as their main weapon</p>
-          </li>
-          <li>
-            <p>0, 1, 2, 3,... 25</p>
-          </li>
-          <li>
-            <p><em>X</em> ~ <em>B</em>(25,.40)</p>
-          </li>
-          <li>
-            <p>10</p>
-          </li>
-          <li>
-            <p>.0442</p>
-          </li>
-          <li>
-            <p>The probability that all 25 not use the foil is almost zero. Therefore, it would be very surprising.</p>
-          </li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="element-816">
-      <statement>
-        <p>
-          Approximately 8 percent of students at a local high school participate in after-school sports all four years of high school. A group of 60 seniors is randomly chosen. Of interest is the number who participated in after-school sports all four years of high school.
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>In words, define the random variable <em>X</em>.</p>
-          </li>
-          <li>
-            <p>List the values that <em>X</em> may take on.</p>
-          </li>
-          <li>
-            <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
-          </li>
-          <li>
-            <p>How many seniors are expected to have participated in after-school sports all four years of high school?</p>
-          </li>
-          <li>
-            <p>Based on numerical values, would you be surprised if none of the seniors participated in after-school sports all four years of high school? Justify your answer numerically.</p>
-          </li>
-          <li>
-            <p>Based upon numerical values, is it more likely that four or that five of the seniors participated in after-school sports all four years of high school? Justify your answer numerically.</p>
-          </li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="element-1">
-      <statement>
-        <p>
-          The chance of an IRS audit for a tax return reporting more than $25,000 in income is about 2 percent per year. We are interested in the expected number of audits a person with that income has in a 20-year period. Assume each year is independent.
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>In words, define the random variable <em>X</em>.</p>
-          </li>
-          <li>
-            <p>List the values that <em>X</em> may take on.</p>
-          </li>
-          <li>
-            <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
-          </li>
-          <li>
-            <p>How many audits are expected in a 20-year period?</p>
-          </li>
-          <li>
-            <p>Find the probability that a person is not audited at all.</p>
-          </li>
-          <li>
-            <p>Find the probability that a person is audited more than twice.</p>
-          </li>
-        </ol>
-      </statement>
-      <solution>
-        <ol marker="a.">
-          <li>
-            <p><em>X</em> = the number of audits in a 20-year period</p>
-          </li>
-          <li>
-            <p>0, 1, 2, …, 20</p>
-          </li>
-          <li>
-            <p><em>X</em> ~ <em>B</em>(20, .02)</p>
-          </li>
-          <li>
-            <p>.4</p>
-          </li>
-          <li>
-            <p>.6676</p>
-          </li>
-          <li>
-            <p>.0071</p>
-          </li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="element-962">
-      <statement>
-        <p>
-          It has been estimated that only about 30 percent of California residents have adequate earthquake supplies. Suppose you randomly survey 11 California residents. We are interested in the number who have adequate earthquake supplies.
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>In words, define the random variable <em>X</em>.</p>
-          </li>
-          <li>
-            <p>List the values that <em>X</em> may take on.</p>
-          </li>
-          <li>
-            <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
-          </li>
-          <li>
-            <p>What is the probability that at least eight have adequate earthquake supplies?</p>
-          </li>
-          <li>
-            <p>Is it more likely that none or that all of the residents surveyed will have adequate earthquake supplies? Why?</p>
-          </li>
-          <li>
-            <p>How many residents do you expect will have adequate earthquake supplies?</p>
-          </li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="element-650">
-      <statement>
-        <p>
-          There are two similar games played for Chinese New Year and Vietnamese New Year. In the Chinese version, fair dice with numbers 1, 2, 3, 4, 5, and 6 are used, along with a board with those numbers. In the Vietnamese version, fair dice with pictures of a gourd, fish, rooster, crab, crayfish, and deer are used. The board has those six objects on it, also. We will play with bets being $1. The player places a bet on a number or object. The <em>house</em> rolls three dice. If none of the dice show the number or object that was bet, the house keeps the $1 bet. If one of the dice shows the number or object bet (and the other two do not show it), the player gets back his or her $1 bet, plus $1 profit. If two of the dice show the number or object bet (and the third die does not show it), the player gets back his or her $1 bet, plus $2 profit. If all three dice show the number or object bet, the player gets back his or her $1 bet, plus $3 profit. Let <em>X</em> = number of matches and <em>Y</em> = profit per game.
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>In words, define the random variable <em>X</em>.</p>
-          </li>
-          <li>
-            <p>List the values that <em>X</em> may take on.</p>
-          </li>
-          <li>
-            <p>Give the distribution of <em>X</em>. <em>X</em> ~ _____(_____,_____)</p>
-          </li>
-          <li>
-            <p>List the values that <em>Y</em> may take on. Then, construct one PDF table that includes both <em>X</em> and <em>Y</em> and their probabilities.</p>
-          </li>
-          <li>
-            <p>Calculate the average expected matches over the long run of playing this game for the player.</p>
-          </li>
-          <li>
-            <p>Calculate the average expected earnings over the long run of playing this game for the player.</p>
-          </li>
-          <li>
-            <p>Determine who has the advantage, the player or the house.</p>
-          </li>
-        </ol>
-      </statement>
-      <solution>
-        <ol marker="1.">
-          <li>
-            <p><em>X</em> = the number of matches</p>
-          </li>
-          <li>
-            <p>0, 1, 2, 3</p>
-          </li>
-          <li>
-            <p><em>X</em> ~ <em>B</em><m>(3,\frac{1}{6})</m></p>
-          </li>
-          <li>
-            <p>In dollars: −1, 1, 2, 3</p>
-          </li>
-          <li>
-            <p><m>\frac{1}{2}</m></p>
-          </li>
-          <li>
-            <p>Multiply each <em>Y</em> value by the corresponding <em>X</em> probability from the PDF table. The answer is −.0787. You lose about eight cents, on average, per game.</p>
-          </li>
-          <li>
-            <p>The house has the advantage.</p>
-          </li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="fs-idm40828128">
-      <statement>
-        <p>
-          According to the World Bank, only 9 percent of the population of Uganda had access to electricity as of 2009. Suppose we randomly sample 150 people in Uganda. Let <em>X</em> = the number of people who have access to electricity.
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>What is the probability distribution for <em>X</em>?</p>
-          </li>
-          <li>
-            <p>Using the formulas, calculate the mean and standard deviation of <em>X</em>.</p>
-          </li>
-          <li>
-            <p>Use your calculator to find the probability that 15 people in the sample have access to electricity.</p>
-          </li>
-          <li>
-            <p>Find the probability that at most 10 people in the sample have access to electricity.</p>
-          </li>
-          <li>
-            <p>Find the probability that more than 25 people in the sample have access to electricity.</p>
-          </li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="fs-idm104093808">
-      <statement>
-        <p>
-          The literacy rate for a nation measures the proportion of people age 15 and over who can read and write. The literacy rate in Afghanistan is 28.1 percent. Suppose you choose 15 people in Afghanistan at random. Let <em>X</em> = the number of people who are literate.
-        </p>
-        <ol marker="a.">
-          <li>
-            <p>Sketch a graph of the probability distribution of <em>X</em>.</p>
-          </li>
-          <li>
-            <p>Using the formulas, calculate the (i) mean and (ii) standard deviation of <em>X</em>.</p>
-          </li>
-          <li>
-            <p>Find the probability that more than five people in the sample are literate. Is it more likely that three people or four people are literate?</p>
-          </li>
-        </ol>
-      </statement>
-      <solution>
-        <ol marker="a.">
-          <li>
-            <p><em>X</em> ~ <em>B</em>(15, .281)</p>
-          </li>
-          <li>
-            <ol marker="1.">
-              <li>
-                <p>Mean = <em>μ</em> = <em>np</em> = 15(.281) = 4.215</p>
-              </li>
-              <li>
-                <p>Standard Deviation = <em>σ</em> = <m>\sqrt{npq}</m> = <m>\sqrt{15(.281)(.719)}</m> = 1.7409</p>
-              </li>
-            </ol>
-          </li>
-          <li>
-            <p><em>P</em>(<em>x</em> > 5) = 1 – <em>P</em>(<em>x</em> ≤ 5) = 1 – binomcdf(15, .281, 5) = 1 – 0.7754 = .2246
- <em>P</em>(<em>x</em> = 3) = binompdf(15, .281, 3) = .1927
- <em>P</em>(<em>x</em> = 4) = binompdf(15, .281, 4) = .2259
- It is more likely that four people are literate than three people are.</p>
-          </li>
-        </ol>
-      </solution>
-    </exercise>
-  </subsection>
-
-  <subsection xml:id="glossary">
-    <title>Glossary</title>
-    <definition xml:id="fs-idm523840">
-      <statement>
-        <p>
-          <term>binomial experiment</term>
-        </p>
-        <ol marker="1.">
-          <li>
-            <p>There are a fixed number of trials, <em>n</em></p>
-          </li>
-          <li>
-            <p>There are only two possible outcomes, called <em>success</em> and, <em>failure</em>, for each trial; the letter <em>p</em> denotes the probability of a success on one trial, and <em>q</em> denotes the probability of a failure on one trial</p>
-          </li>
-          <li>
-            <p>The <em>n</em> trials are independent and are repeated using identical conditions</p>
-          </li>
-        </ol>
-      </statement>
-    </definition>
-    <definition xml:id="bernoullitr">
-      <statement>
-        <p>
-          <term>Bernoulli trials</term>
-        </p>
-        <ol marker="1.">
-          <li>
-            <p>There are only two possible outcomes called <em>success</em> and <em>failure</em> for each trial</p>
-          </li>
-          <li>
-            <p>The probability <em>p</em> of a success is the same for any trial (so the probability <em>q</em> = 1 − <em>p</em> of a failure is the same for any trial)</p>
-          </li>
-        </ol>
-      </statement>
-    </definition>
-    <definition xml:id="bidist">
-      <statement>
-        <p>
-          <term>binomial probability distribution</term>
-        </p>
-        <p>
-          a discrete random variable (RV) that arises from Bernoulli trials; there are a fixed number, <em>n</em>, of independent trials
-
- <em>Independent</em> means that the result of any trial (for example, trial one) does not affect the results of the following trials, and all trials are conducted under the same conditions. Under these circumstances the binomial RV <em>X</em> is defined as the number of successes in <em>n</em> trials. The notation is: <em>X</em> ~ <em>B</em>(<em>n</em>, <em>p</em>). The mean is <em>μ</em> = <em>np</em> and the standard deviation is <em>σ</em> = <m>\sqrt{npq}</m>. The probability of the following exactly <em>x</em> successes in <em>n</em> trials is  <em>P</em>(<em>X</em> = <em>x</em>) = <m>(\binom{
-      n
-     }{
-      x
-     })</m><em>p</em><sup>x</sup><em>q</em><sup>n − x</sup>
-        </p>
-      </statement>
-    </definition>
-  </subsection>
-
-</section>
-
-  <section xml:id="sec-discrete-random-variables-homework">
-    <title>Homework</title>
-    
-    <exercise xml:id="exercise-ch04-pdf-hw-1">
-      <statement>
-        <p>A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.</p>
-
-        <table xml:id="tbl-ch04-hw-baker">
-          <tabular halign="center">
-            <row header="yes">
-              <cell><em>x</em></cell>
-              <cell><em>P</em>(<em>x</em>)</cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>.15</cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>.35</cell>
-            </row>
-            <row>
-              <cell>3</cell>
-              <cell>.40</cell>
-            </row>
-            <row>
-              <cell>4</cell>
-              <cell>.10</cell>
-            </row>
-          </tabular>
-        </table>
-
-        <p>
-          <ol marker="a">
-            <li>Define the random variable <em>X</em>.</li>
-            <li>What is the probability the baker will sell more than one batch? <em>P</em>(<em>x</em> > 1) = ________</li>
-            <li>What is the probability the baker will sell exactly one batch? <em>P</em>(<em>x</em> = 1) = ________</li>
-            <li>On average, how many batches should the baker make?</li>
-          </ol>
-        </p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="exercise-ch04-pdf-hw-2">
-      <statement>
-        <p>Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random. What values does <em>X</em> take on?</p>
-      </statement>
-      <solution>
-        <p>0, 1, 2, and 3</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="exercise-ch04-pdf-hw-3">
-      <statement>
-        <p>The World Bank records the prevalence of HIV in countries around the world. According to their data, <q>Prevalence of HIV refers to the percentage of people ages 15 to 49 who are infected with HIV.</q><fn>World Bank, World Development Indicators, <url href="http://data.worldbank.org/data-catalog/world-development-indicators">http://data.worldbank.org/data-catalog/world-development-indicators</url>.</fn> In South Africa, the prevalence of HIV is 17.3%. Let <em>X</em> = the number of people you test until you find a person infected with HIV.</p>
-
-        <p>
-          <ol marker="a">
-            <li>Sketch a graph of the distribution of the discrete random variable <em>X</em>.</li>
-            <li>What is the probability that you must test 30 people to find one with HIV?</li>
-            <li>What is the probability that you must ask ten people?</li>
-            <li>Find the expected value <em>μ</em> = ________.</li>
-          </ol>
-        </p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="exercise-ch04-pdf-bs-degree">
-      <statement>
-        <p>Suppose that the PDF for the number of years it takes to earn a bachelor of science (B.S.) degree is given in the table below.</p>
-        <table xml:id="table-ch04-pdf-bs-degree">
-          <tabular>
-            <row header="yes">
-              <cell><em>x</em></cell>
-              <cell><em>P</em>(<em>x</em>)</cell>
-            </row>
-            <row>
-              <cell>3</cell>
-              <cell>.05</cell>
-            </row>
-            <row>
-              <cell>4</cell>
-              <cell>.40</cell>
-            </row>
-            <row>
-              <cell>5</cell>
-              <cell>.30</cell>
-            </row>
-            <row>
-              <cell>6</cell>
-              <cell>.15</cell>
-            </row>
-            <row>
-              <cell>7</cell>
-              <cell>.10</cell>
-            </row>
-          </tabular>
-        </table>
-        <p>
-          <ol marker="a.">
-            <li>In words, define the random variable <em>X</em>.</li>
-            <li>What does it mean that the values 0, 1, and 2 are not included for <em>x</em> in the PDF?</li>
-          </ol>
         </p>
       </statement>
     </exercise>
