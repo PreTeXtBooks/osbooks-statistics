@@ -67,7 +67,8 @@ There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if
         </statement>
       </example>
       <exercise xml:id="eip-665">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A medical trial is conducted to test whether or not a new medicine reduces cholesterol by 25 percent. State the null and alternative hypotheses.</p>
         </statement>
         <solution>
@@ -83,7 +84,8 @@ There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if
         </statement>
       </example>
       <exercise xml:id="fs-idm576512">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>We want to test whether the mean height of eighth graders is 66 inches. State the null and alternative hypotheses. Fill in the correct symbol (=, ≠, ≥, &lt;, ≤, &gt;) for the null and alternative hypotheses.
 <em>H_{0}</em>: <m>μ</m> __ 66
 <em>H_{a}</em>: <m>μ</m> __ 66</p>
@@ -107,7 +109,8 @@ There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if
         </statement>
       </example>
       <exercise xml:id="fs-idm2856320">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>We want to test if it takes fewer than 45 minutes to teach a lesson plan. State the null and alternative hypotheses. Fill in the correct symbol ( =, ≠, ≥, &lt;, ≤, &gt;) for the null and alternative hypotheses.
 <em>H_{0}</em>: <m>μ</m> __ 45
 <em>H_{a}</em>: <m>μ</m> __ 45</p>
@@ -131,7 +134,8 @@ There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if
         </statement>
       </example>
       <exercise xml:id="fs-idm126344352">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>On a state driver’s test, about 40 percent pass the test on the first try. We want to test if more than 40 percent pass on the first try. Fill in the correct symbol (=, ≠, ≥, &lt;, ≤, &gt;) for the null and alternative hypotheses.
 
 <em>H_{0}</em>: <m>p</m> __ 0.40
@@ -183,7 +187,8 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
 
     <subsection xml:id="fs-idm15064784">
       <exercise xml:id="eip-350">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>You are testing that the mean speed of your cable internet connection is more than three megabits per second. What is the random variable? Describe it in words.</p>
         </statement>
         <solution>
@@ -191,12 +196,14 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
         </solution>
       </exercise>
       <exercise xml:id="eip-411">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>You are testing that the mean speed of your cable internet connection is more than three megabits per second. State the null and alternative hypotheses.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-629">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The American family has an average of two children. What is the random variable? Describe in words.</p>
         </statement>
         <solution>
@@ -204,12 +211,14 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
         </solution>
       </exercise>
       <exercise xml:id="eip-692">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The mean entry level salary of an employee at a company is $58,000. You believe it is higher for IT professionals in the company. State the null and alternative hypotheses.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-334">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A sociologist claims the probability that a person picked at random in Times Square in New York City is visiting the area is 0.83. You want to test to see if the proportion is actually less. What is the random variable? Describe in words.</p>
         </statement>
         <solution>
@@ -217,12 +226,14 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
         </solution>
       </exercise>
       <exercise xml:id="eip-235">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A sociologist claims the probability that a person picked at random in Times Square in New York City is visiting the area is 0.83. You want to test to see if the claim is correct. State the null and alternative hypotheses.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-75">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>In a population of fish, approximately 42 percent are female. A test is conducted to see if, in fact, the proportion is less. State the null and alternative hypotheses.</p>
         </statement>
         <solution>
@@ -231,7 +242,8 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
         </solution>
       </exercise>
       <exercise xml:id="element-242">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose that a recent article stated that the mean time students spend doing homework each week is 2.5 hours. A study was then done to see if the mean time has increased in the new century. A random sample of 26 students. The mean length of time the students spent on homework was 3 hours with a standard deviation of 1.8 hours. Suppose that it is somehow known that the population standard deviation is 1.5. If you were conducting a hypothesis test to determine if the mean length of homework has increased, what would the null and alternative hypotheses be? The distribution of the population is normal.
 <em>H_{0}</em>: ________
 
@@ -243,7 +255,8 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
         </statement>
       </exercise>
       <exercise xml:id="element-422">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A random survey of 75 long-term marathon runners  revealed that the mean length of time they've been running  is 17.4 years with a standard deviation of 6.3 years. If you were conducting a hypothesis test to determine if the population mean time for these runners could likely be 15 years, what would the null and alternative hypotheses be?</p>
           <ol>
             <li><em>H_{0}</em>: __________</li>
@@ -258,7 +271,8 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
         </solution>
       </exercise>
       <exercise xml:id="element-818">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Researchers published an article stating that in any one-year period, approximately 9.5 percent of American adults suffer from a particular type of disease. Suppose that in a survey of 100 people in a certain town, seven of them suffered from this disease. If you were conducting a hypothesis test to determine if the true proportion of people in that town suffering from this disease is lower than the percentage in the general adult American population, what would the null and alternative hypotheses be?
 <em>H_{0}</em>: ________
 <em>H_{a}</em>: ________</p>
@@ -388,7 +402,8 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
         </statement>
       </example>
       <exercise xml:id="eip-808">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose the null hypothesis, <em>H_{0}</em>, is: the blood cultures contain no traces of pathogen <m>X</m>. State the Type I and Type II errors.</p>
         </statement>
         <solution>
@@ -407,7 +422,8 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
         </statement>
       </example>
       <exercise xml:id="eip-200">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose the null hypothesis, <em>H_{0}</em>, is: a patient is not sick. Which type of error has the greater consequence, Type I or Type II?</p>
         </statement>
         <solution>
@@ -423,7 +439,8 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
         </statement>
       </example>
       <exercise xml:id="eip-idp106437392">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p><em>Red tide</em> is a bloom of poison-producing algae—a few different species of a class of plankton called dinoflagellates. When the weather and water conditions cause these blooms, shellfish such as clams living in the area develop dangerous levels of a paralysis-inducing toxin. In Massachusetts, the Division of Marine Fisheries  montors levels of the toxin in shellfish by regular sampling of shellfish along the coastline. If the mean level of toxin in clams exceeds 800 μg (micrograms) of toxin per kilogram of clam meat in any area, clam harvesting is banned there until the bloom is over and levels of toxin in clams subside. Describe both a Type I and a Type II error in this context, and state which error has the greater consequence.</p>
         </statement>
         <solution>
@@ -442,7 +459,8 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
         </statement>
       </example>
       <exercise xml:id="eip-856">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Identify the Type I and Type II errors from these four possible choices.
           Not to reject the null hypothesis that the percentage of adults who have jobs is at least 88 percent when that percentage is actually less than 88 percent
 Not to reject the null hypothesis that the percentage of adults who have jobs is at least 88 percent when the percentage is actually at least 88 percent
@@ -476,7 +494,8 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
 
     <subsection xml:id="eip-832">
       <exercise xml:id="eip-308">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The mean price of mid-sized cars in a region is $32,000. A test is conducted to see if the claim is true. State the Type I and Type II errors in complete sentences.</p>
         </statement>
         <solution>
@@ -485,12 +504,14 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
         </solution>
       </exercise>
       <exercise xml:id="eip-611">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A sleeping bag is tested to withstand temperatures of –15 °F. You think the bag cannot stand temperatures that low. State the Type I and Type II errors in complete sentences.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-655">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>For Exercise 9.12, what are <m>α</m> and <m>β</m> in words?</p>
         </statement>
         <solution>
@@ -499,12 +520,14 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
         </solution>
       </exercise>
       <exercise xml:id="eip-106">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>In words, describe 1 – <m>β</m> for Exercise 9.12.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-861">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A group of doctors is deciding whether or not to perform an operation. Suppose the null hypothesis, <em>H_{0}</em>, is: the surgical procedure will go well. State the Type I and Type II errors in complete sentences.</p>
         </statement>
         <solution>
@@ -513,12 +536,14 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
         </solution>
       </exercise>
       <exercise xml:id="eip-496">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A group of doctors is deciding whether or not to perform an operation. Suppose the null hypothesis, <em>H_{0}</em>, is: the surgical procedure will go well. Which is the error with the greater consequence?</p>
         </statement>
       </exercise>
       <exercise xml:id="ch9-eip-404">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The power of a test is 0.981. What is the probability of a Type II error?</p>
         </statement>
         <solution>
@@ -526,12 +551,14 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
         </solution>
       </exercise>
       <exercise xml:id="eip-331">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A group of divers is exploring an old sunken ship. Suppose the null hypothesis, <em>H_{0}</em>, is the sunken ship does not contain buried treasure. State the Type I and Type II errors in complete sentences.</p>
         </statement>
       </exercise>
       <exercise xml:id="ch09-eip-967">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A microbiologist is testing a water sample for E. coli. Suppose the null hypothesis, <em>H_{0}</em>, is the sample does not contain E. coli. The probability that the sample does not contain E. coli, but the microbiologist thinks it does is 0.012. The probability that the sample does contain E. coli, but the microbiologist thinks it does not is 0.002. What is the power of this test?</p>
         </statement>
         <solution>
@@ -539,7 +566,8 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
         </solution>
       </exercise>
       <exercise xml:id="eip-424">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A microbiologist is testing a water sample for E. coli. Suppose the null hypothesis, <em>H_{0}</em>, is the sample contains E-coli. Which is the error with the greater consequence?</p>
         </statement>
       </exercise>
@@ -690,7 +718,8 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
 
     <subsection xml:id="eip-496-subsection">
       <exercise xml:id="eip-176">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Which two distributions can you use for hypothesis testing for this chapter?</p>
         </statement>
         <solution>
@@ -698,12 +727,14 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
         </solution>
       </exercise>
       <exercise xml:id="eip-492">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Which distribution do you use when the standard deviation is not known? Assume sample size is large.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-579">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Which distribution do you use when the standard deviation is not known and you are testing one population mean? Assume sample size is large.</p>
         </statement>
         <solution>
@@ -711,12 +742,14 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
         </solution>
       </exercise>
       <exercise xml:id="eip-692-ex2">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A population mean is 13. The sample mean is 12.8, and the sample standard deviation is two. The sample size is 20. What distribution should you use to perform a hypothesis test? Assume the underlying population is normal.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-917">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A population has a mean of 25 and a standard deviation of five. The sample mean is 24, and the sample size is 108. What distribution should you use to perform a hypothesis test?</p>
         </statement>
         <solution>
@@ -724,12 +757,14 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
         </solution>
       </exercise>
       <exercise xml:id="eip-138">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>It is thought that 42 percent of respondents in a taste test would prefer Brand <m>A</m>. In a particular test of 100 people, 39 percent preferred Brand <m>A</m>. What distribution should you use to perform a hypothesis test?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-637">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>You are performing a hypothesis test of a single population mean using a Student’s <m>t</m>-distribution. What must you assume about the distribution of the data?</p>
         </statement>
         <solution>
@@ -737,12 +772,14 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
         </solution>
       </exercise>
       <exercise xml:id="eip-315">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>You are performing a hypothesis test of a single population mean using a Student’s <m>t</m>-distribution. The data are not from a simple random sample. Can you accurately perform the hypothesis test?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-254">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>You are performing a hypothesis test of a single population proportion. What must be true about the quantities of <m>np</m> and <m>nq</m>?</p>
         </statement>
         <solution>
@@ -750,12 +787,14 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
         </solution>
       </exercise>
       <exercise xml:id="eip-354">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>You are performing a hypothesis test of a single population proportion. You find out that <m>np</m> is less than five. What must you do to be able to perform a valid hypothesis test?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp17688688">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>You are performing a hypothesis test of a single population proportion. The data come from which distribution?</p>
         </statement>
         <solution>
@@ -818,7 +857,8 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
         </statement>
       </example>
       <exercise xml:id="ch9-eip-440">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A normal distribution has a standard deviation of 1. We want to verify a claim that the mean is greater than 12. A sample of 36 is taken with a sample mean of 12.5.</p>
           <p><em>H_{0}</em>: <m>μ</m> ≤ 12
 <nbsp /><em>H_{a}</em>: <m>μ</m> &gt; 12
@@ -857,7 +897,8 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </example>
       <exercise xml:id="eip-437">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>It’s a Boy Genetics Labs, a genetics company, claims their procedures improve the chances of a boy being born. The results for a test of a single population proportion are as follows:</p>
           <p><em>H_{0}</em>: <m>p</m> = 0.50, <em>H_{a}</em>: <m>p</m> &gt; 0.50</p>
           <p><m>α</m> = 0.01</p>
@@ -879,12 +920,14 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
 
     <subsection xml:id="fs-idp139727500224832">
       <exercise xml:id="fs-idp139727497512736">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>When do you reject the null hypothesis?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp139727506576944">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The probability of winning the grand prize at a particular carnival game is 0.005. Is the outcome of winning very likely or very unlikely?</p>
         </statement>
         <solution>
@@ -892,12 +935,14 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="fs-idp139727500342720">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The probability of winning the grand prize at a particular carnival game is 0.005. Michele wins the grand prize. Is this considered a rare or common event? Why?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp139727500456320">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>It is believed that the mean height of high school students who play basketball on the school team is 73 inches with a standard deviation of 1.8 inches. A random sample of 40 players is chosen. The sample mean was 71 inches, and the sample standard deviation was 1.5 inches. Do the data support the claim that the mean height is less than 73 inches? The <m>p</m>-value is almost zero. State the null and alternative hypotheses and interpret the <m>p</m>-value.</p>
         </statement>
         <solution>
@@ -907,12 +952,14 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="fs-idp139727497515136">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The mean age of graduate students at a university is at most 31 years with a standard deviation of two years. A random sample of 15 graduate students is taken. The sample mean is 32 years and the sample standard deviation is three years. Are the data significant at the 1 percent level? The <m>p</m>-value is 0.0264. State the null and alternative hypotheses and interpret the <m>p</m>-value.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp139727497492608">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Does the shaded region represent a low or a high <m>p</m>-value compared to a level of significance of 1 percent?</p>
         </statement>
         <solution>
@@ -920,12 +967,14 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="fs-idp139727500213504">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What should you do when <m>α</m> &gt; <m>p</m>-value?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp139727500288288">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What should you do if <m>α</m> = <m>p</m>-value?</p>
         </statement>
         <solution>
@@ -933,13 +982,15 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="fs-idp139727500315024">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>If you do not reject the null hypothesis, then it must be true. Is that statement correct? State why or why not in complete sentences.</p>
         </statement>
       </exercise>
       <p><nbsp /><em>Use the following information to answer the next seven exercises:</em> Suppose that a recent article stated that the mean time students spend doing homework each week is  2.5 hours. A study was then done to see if the mean time has increased in the new century. A random sample of 26 students was taken. The mean length of time they did homework each week was  three hours with a standard deviation of 1.8 hours. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of time doing  homework each week has increased. Assume the distribution of homework times is approximately normal.</p>
       <exercise xml:id="eip-714">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Is this a test of means or proportions?</p>
         </statement>
         <solution>
@@ -947,12 +998,14 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="element-173">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What symbol represents the random variable for this test?</p>
         </statement>
       </exercise>
       <exercise xml:id="element-126">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>In words, define the random variable for this test.</p>
         </statement>
         <solution>
@@ -960,12 +1013,14 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="element-797">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Is <m>σ</m> known and, if so, what is it?</p>
         </statement>
       </exercise>
       <exercise xml:id="element-877">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Calculate the following:
       <m>\overline{x}</m> _______
         <m>σ</m> _______
@@ -988,12 +1043,14 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="element-95">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Since both σ and <m>s_{x}</m> are given, which should be used? In one to two complete sentences, explain why.</p>
         </statement>
       </exercise>
       <exercise xml:id="element-121">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>State the distribution to use for the hypothesis test.</p>
         </statement>
         <solution>
@@ -1001,7 +1058,8 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="fs-idm67684880">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A random survey of 75 long-term marathon runners revealed that the mean length of time they have been running is 17.4 years with a standard deviation of 6.3 years. Conduct a hypothesis test to determine if the population mean time is likely to be 15 years.</p>
           <ol>
             <li>Is this a test of one mean or proportion?</li>
@@ -1118,7 +1176,8 @@ Conclusion (write out in a complete sentence):</li>
         </statement>
       </example>
       <exercise xml:id="fs-idp67352928">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p><em>H_{0}</em>: <m>μ</m> = 10   <em>H_{a}</em>: <m>μ</m> &lt; 10</p>
           <p>Assume the <m>p</m>-value is 0.0935. What type of test is this? Draw the picture of the <m>p</m>-value.</p>
         </statement>
@@ -1139,7 +1198,8 @@ Conclusion (write out in a complete sentence):</li>
         </statement>
       </example>
       <exercise xml:id="eip-417">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p><em>H_{0}</em>: <m>μ</m> ≤ 1   <em>H_{a}</em>: <m>μ</m> &gt; 1</p>
           <p>Assume the <m>p</m>-value is 0.1243. What type of test is this? Draw the picture of the <m>p</m>-value.</p>
         </statement>
@@ -1160,7 +1220,8 @@ Conclusion (write out in a complete sentence):</li>
         </statement>
       </example>
       <exercise xml:id="eip-335">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p><em>H_{0}</em>: <m>p</m> = 0.5   <em>H_{a}</em>: <m>p</m> ≠ 0.5</p>
           <p>Assume the <m>p</m>-value is 0.2564. What type of test is this? Draw the picture of the <m>p</m>-value.</p>
         </statement>
@@ -1230,7 +1291,8 @@ to reject or not reject was done in this way. Today, comparing the two probabili
         </figure>
       </note>
       <exercise xml:id="fs-idp78508304">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The mean throwing distance of a football by Marco, a high school freshman quarterback, is 40 yards, with a standard deviation of two yards. The team coach tells Marco to adjust his grip to get more distance. The coach records the distances for 20 throws. For the 20 throws, Marco’s mean distance was 45 yards. The coach thought the different grip helped Marco throw farther than 40 yards. Conduct a hypothesis test using a preset <m>α</m> = 0.05. Assume the throw distances for footballs are normal.</p>
           <p>First, determine what type of test this is, set up the hypothesis test, find the <m>p</m>-value, sketch the graph, and state your conclusion.</p>
           <p>Press <c>STAT</c> and arrow over to <c>TESTS</c>. Press <c>1: <m>z</m>-Test</c>. Arrow over to <c>Stats</c> and press <c>ENTER</c>. Arrow down and enter 40 for <c><m>μ</m>_{0}</c> (null hypothesis), 2 for <c><m>σ</m></c>, 45 for the sample mean, and 20 for <m>n</m>. Arrow down to <c><m>μ</m>:</c> (alternative hypothesis) and set it either as <c>&lt;</c>, <c>≠</c>, or <c>&gt;</c>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. The calculator not only calculates the <m>p</m>-value but it also calculates the test statistic (<m>z</m>-score) for the sample mean. Select <c>&lt;</c>, <c>≠</c>, or <c>&gt;</c> for the alternative hypothesis. Do this set of instructions again except arrow to <c>Draw</c> (instead of <c>Calculate</c>). Press <c>ENTER</c>. A shaded graph appears with test statistic and <m>p</m>-value. Make sure when you use <c>Draw</c> that no other equations are highlighted in <c><m>Y</m> = </c>and the plots are turned off.</p>
@@ -1375,7 +1437,8 @@ probability (3.96 percent) that the sample mean is 65 or more.</p>
       </solution>
     </example>
     <exercise xml:id="eip-454">
-      <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
         <p>It is believed that a stock price for a particular company will grow at a rate of $5 per week with a standard deviation of $1. An investor believes the stock won’t grow as quickly. The changes in stock price are recorded for 10 weeks and are as follows: $4, $3, $2, $3, $1, $7, $2, $1, $1, $2. Perform a hypothesis test using a 5 percent level of significance. State the null and alternative hypotheses, find the <m>p</m>-value, state your conclusion, and identify the Type I and Type II errors.</p>
       </statement>
       <solution>
@@ -1428,7 +1491,8 @@ the graph in ).</p>
       </solution>
     </example>
     <exercise xml:id="eip-466">
-      <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
         <p>A teacher believes that 85 percent of students in the class will want to go on a field trip to the local zoo. She performs a hypothesis test to determine if the percentage is the same or different from 85 percent. The teacher samples 50 students and 39 reply that they would want to go to the zoo. For the hypothesis test, use a 1 percent level of significance.</p>
         <p>First, determine what type of test this is, set up the hypothesis test, find the <m>p</m>-value, sketch the graph, and state your conclusion.</p>
       </statement>
@@ -1487,7 +1551,8 @@ Next, the <m>z</m>-test is given by
       </solution>
     </example>
     <exercise xml:id="ch9-eip-341">
-      <title>Try It</title><statement>
+      <title>Try It</title>
+      <statement>
         <p>Marketers believe that 92 percent of adults in the United States own a cell phone. A cell phone manufacturer believes that number is actually lower. Two hundred American adults are surveyed, of which 174 report having cell phones. Use a 5 percent level of significance. State the null and alternative hypotheses, find the <m>p</m>-value, state your conclusion, and identify the Type I and Type II errors.</p>
       </statement>
       <solution>
@@ -1668,7 +1733,8 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
 
     <subsection xml:id="eip-213">
       <exercise xml:id="ch9-eip-750">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Assume <em>H_{0}</em>: <m>μ</m> = 9 and <em>H_{a}</em>: <m>μ</m> &lt; 9. Is this a left-tailed, right-tailed, or two-tailed test?</p>
         </statement>
         <solution>
@@ -1676,12 +1742,14 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
         </solution>
       </exercise>
       <exercise xml:id="eip-815">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Assume <em>H_{0}</em>: <m>μ</m> ≤ 6 and <em>H_{a}</em>: <m>μ</m> &gt; 6. Is this a left-tailed, right-tailed, or two-tailed test?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp45725152">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Assume <em>H_{0}</em>: <m>p</m> = 0.25 and <em>H_{a}</em>: <m>p</m> ≠ 0.25. Is this a left-tailed, right-tailed, or two-tailed test?</p>
         </statement>
         <solution>
@@ -1689,12 +1757,14 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
         </solution>
       </exercise>
       <exercise xml:id="eip-155">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Draw the general graph of a left-tailed test.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-18">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Draw the graph of a two-tailed test.</p>
         </statement>
         <solution>
@@ -1704,12 +1774,14 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
         </solution>
       </exercise>
       <exercise xml:id="eip-709">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A bottle of water is labeled as containing 16 fluid ounces of water. You believe it is less than that. What type of test would you use?</p>
         </statement>
       </exercise>
       <exercise xml:id="ch9-eip-34">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Your friend claims that his mean golf score is 63. You want to show that it is higher than that. What type of test would you use?</p>
         </statement>
         <solution>
@@ -1717,12 +1789,14 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
         </solution>
       </exercise>
       <exercise xml:id="eip-729">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A bathroom scale claims to be able to identify correctly any weight within a pound. You think that it cannot be that accurate. What type of test would you use?</p>
         </statement>
       </exercise>
       <exercise xml:id="ch9-eip-71">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>You flip a coin and record whether it shows heads or tails. You know the probability of getting heads is 50 percent, but you think it is less for this particular coin. What type of test would you use?</p>
         </statement>
         <solution>
@@ -1730,12 +1804,14 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
         </solution>
       </exercise>
       <exercise xml:id="eip-384">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>If the alternative hypothesis has a not equals ( ≠ ) symbol, you know to use which type of test?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-504">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Assume the null hypothesis states that the mean is at least 18. Is this a left-tailed, right-tailed, or two-tailed test?</p>
         </statement>
         <solution>
@@ -1743,12 +1819,14 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
         </solution>
       </exercise>
       <exercise xml:id="eip-320">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Assume the null hypothesis states that the mean is at most 12. Is this a left-tailed, right-tailed, or two-tailed test?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-115">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Assume the null hypothesis states that the mean is equal to 88. The alternative hypothesis states that the mean is not equal to 88. Is this a left-tailed, right-tailed, or two-tailed test?</p>
         </statement>
         <solution>

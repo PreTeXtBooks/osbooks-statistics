@@ -44,7 +44,8 @@
         </statement>
       </example>
       <exercise xml:id="ch12-eip-279">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Is the following an example of a linear equation?</p>
           <p><m>y</m> = –0.125 – 3.5<m>x</m></p>
         </statement>
@@ -62,7 +63,8 @@
         </statement>
       </example>
       <exercise xml:id="eip-46">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Is the following an example of a linear equation? Why or why not?</p>
           <figure>
             <image source="media/CNX_Stats_C012_M02_tryit001.png" width="80%">
@@ -85,7 +87,8 @@
         </solution>
       </example>
       <exercise xml:id="eip-977">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Emma’s Extreme Sports hires hang-gliding instructors and pays them a fee of $50 per class, as well as $20 per student in the class. The total cost Emma pays depends on the number of students in a class. Find the equation that expresses the total cost in terms of the number of students in a class.</p>
         </statement>
         <solution>
@@ -112,7 +115,8 @@
         </solution>
       </example>
       <exercise xml:id="eip-972">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Ethan repairs household appliances such as dishwashers and refrigerators. For each visit, he charges $25 plus $20 per hour of work. A linear equation that expresses the total amount of money Ethan earns per visit is <m>y</m> = 25 + 20<m>x</m>.</p>
           <p>What are the independent and dependent variables? What is the <m>y</m>-intercept, and what is the slope? Interpret them using complete sentences.</p>
         </statement>
@@ -143,7 +147,8 @@
     <subsection xml:id="eip-178">
       <p><em>Use the following information to answer the next three exercises</em>. A vacation resort rents scuba equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour.</p>
       <exercise xml:id="ch12-eip-510">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What are the dependent and independent variables?</p>
         </statement>
         <solution>
@@ -152,12 +157,14 @@
         </solution>
       </exercise>
       <exercise xml:id="eip-683">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Find the equation that expresses the total fee in terms of the number of hours the equipment is rented.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-325">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Graph the equation from .</p>
         </statement>
         <solution>
@@ -168,12 +175,14 @@
       </exercise>
       <p><nbsp /><em>Use the following information to answer the next two exercises</em>. A credit card company charges $10 when a payment is late and $5 a day each day the payment remains unpaid.</p>
       <exercise xml:id="ch12-eip-23">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Find the equation that expresses the total fee in terms of the number of days the payment is late.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-22">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Graph the equation from .</p>
         </statement>
         <solution>
@@ -183,12 +192,14 @@
         </solution>
       </exercise>
       <exercise xml:id="eip-337">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Is the equation <m>y</m> = 10 + 5<m>x</m> – 3<m>x</m>^{2} linear? Why or why not?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-740">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Which of the following equations are linear?</p>
           <p>a. <m>y</m> = 6<m>x</m> + 8</p>
           <p>b. <m>y</m> + 7 = 3<m>x</m></p>
@@ -200,7 +211,8 @@
         </solution>
       </exercise>
       <exercise xml:id="eip-675">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Does the graph in <xref ref="fig-eip-675-graph" /> show a linear equation? Why or why not?</p>
           <figure xml:id="fig-eip-675-graph">
             <image source="media/CNX_Stats_C012_M02_item003.jpg" width="80%">
@@ -240,7 +252,8 @@
         </tabular>
       </table>
       <exercise xml:id="element-352">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Use the columns <em>Year</em> and <em>Number of Flu Cases Diagnosed</em>. Why is year the independent variable and number of flu cases diagnosed the dependent variable (instead of the reverse)?</p>
         </statement>
         <solution>
@@ -249,12 +262,14 @@
       </exercise>
       <p><nbsp /><em>Use the following information to answer the next two exercises</em>. A specialty cleaning company charges an equipment fee and an hourly labor fee. A linear equation that expresses the total amount of the fee the company charges for each session is <m>y</m> = 50 + 100<m>x</m>.</p>
       <exercise xml:id="ch12-eip-177">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What are the independent and dependent variables?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-188">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the <m>y</m>-intercept, and what is the slope? Interpret them using complete sentences.</p>
         </statement>
         <solution>
@@ -263,12 +278,14 @@
       </exercise>
       <p><nbsp /><em>Use the following information to answer the next three questions</em>. As a result of erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is <m>y</m> = 12,000<m>x</m>.</p>
       <exercise xml:id="eip-364">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What are the independent and dependent variables?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-160">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>How many pounds of soil does the shoreline lose in a year?</p>
         </statement>
         <solution>
@@ -276,13 +293,15 @@
         </solution>
       </exercise>
       <exercise xml:id="ch12-eip-67">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the <m>y</m>-intercept? Interpret its meaning.</p>
         </statement>
       </exercise>
       <p><nbsp /><em>Use the following information to answer the next two exercises</em>. The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is <m>y</m> = 15 – 1.5<m>x</m>, where <m>x</m> is the number of hours passed in an eight-hour day of trading.</p>
       <exercise xml:id="ch12-eip-761">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What are the slope and <m>y</m>-intercept? Interpret their meaning.</p>
         </statement>
         <solution>
@@ -290,7 +309,8 @@
         </solution>
       </exercise>
       <exercise xml:id="eip-227">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>If you owned this stock, would you want a positive or negative slope? Why?</p>
         </statement>
       </exercise>
@@ -555,7 +575,8 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
 
     <subsection xml:id="eip-234">
       <exercise xml:id="fs-id1170308315959">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Table 12.16 below represents the relationship between the number of hours spent studying and final exam grades.</p>
           <p>Fill in the following chart as a first step in finding the line of best fit, using the median–median approach.</p>
         </statement>
@@ -574,12 +595,14 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
         </tabular>
       </table>
       <exercise xml:id="eip-405">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Draw a scatter plot of the data.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-141">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Use regression to find the equation for the line of best fit.</p>
         </statement>
         <solution>
@@ -587,12 +610,14 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
         </solution>
       </exercise>
       <exercise xml:id="eip-88">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Draw the line of best fit on the scatter plot.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-247">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the slope of the line of best fit? What does it represent?</p>
         </statement>
         <solution>
@@ -600,12 +625,14 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
         </solution>
       </exercise>
       <exercise>
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the <m>y</m>-intercept of the line of best fit? What does it represent?</p>
         </statement>
       </exercise>
       <exercise>
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What does an <m>r</m> value of zero mean?</p>
         </statement>
         <solution>
@@ -613,12 +640,14 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
         </solution>
       </exercise>
       <exercise xml:id="eip-339">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>When <m>n</m> = 2 and <m>r</m> = 1, are the data significant? Explain.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-270">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>When <m>n</m> = 100 and <m>r</m> = –0.89, is there a significant correlation? Explain.</p>
         </statement>
         <solution>
@@ -762,7 +791,8 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </statement>
       </example>
       <exercise xml:id="eip-316">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>For a given line of best fit, you compute that <m>r</m> = 0 using <m>n</m> = 100 data points. Can the line be used for prediction? Why or why not?</p>
         </statement>
         <solution>
@@ -814,12 +844,14 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
 
     <subsection xml:id="eip-142">
       <exercise xml:id="eip-552">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>When testing the significance of the correlation coefficient, what is the null hypothesis?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-592">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>When testing the significance of the correlation coefficient, what is the alternative hypothesis?</p>
         </statement>
         <solution>
@@ -827,7 +859,8 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </solution>
       </exercise>
       <exercise xml:id="ch12-eip-59">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>If the level of significance is 0.05 and the <m>p</m>-value is 0.04, what conclusion can you draw?</p>
         </statement>
       </exercise>
@@ -854,7 +887,8 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </solution>
       </example>
       <exercise xml:id="eip-375">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Data are collected on the relationship between the number of hours per week practicing a musical instrument and scores on a math test. The line of best fit is as follows:</p>
           <p><m>ŷ</m> = 72.5 + 2.8<m>x.</m>
 <nbsp />What would you predict the score on a math test will be for a student who practices a musical instrument for five hours a week?</p>
@@ -881,7 +915,8 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
     <subsection>
       <p><em>Use the following information to answer the next two exercises</em>. An electronics retailer used regression to find a simple model to predict sales growth in the first quarter of the new year (January through March). The model is good for 90 days, where <m>x</m> is the day. The model can be written as <m>ŷ</m> = 101.32 + 2.48<m>x</m>, where <m>ŷ</m> is in thousands of dollars.</p>
       <exercise xml:id="eip-673">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What would you predict the sales to be on day 60?</p>
         </statement>
         <solution>
@@ -889,13 +924,15 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </solution>
       </exercise>
       <exercise xml:id="eip-439">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What would you predict the sales to be on day 90?</p>
         </statement>
       </exercise>
       <p><nbsp /><em>Use the following information to answer the next three exercises</em>. A landscaping company is hired to mow the grass for several large properties. The total area of the properties is 1,345 acres. The rate at which one person can mow is <m>ŷ</m> = 1350 – 1.2<m>x</m>, where <m>x</m> is the number of hours and <m>ŷ</m> represents the number of acres left to mow.</p>
       <exercise xml:id="eip-584">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>How many acres are left to mow after 20 hours of work?</p>
         </statement>
         <solution>
@@ -903,12 +940,14 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </solution>
       </exercise>
       <exercise xml:id="eip-309">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>How many acres are left to mow after 100 hours of work?</p>
         </statement>
       </exercise>
       <exercise xml:id="ch12-eip-159">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>How many hours does it take to mow all the lawns, or when is <m>ŷ</m> = 0?</p>
         </statement>
         <solution>
@@ -946,12 +985,14 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </tabular>
       </table>
       <exercise xml:id="fs-idm41333104">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Graph year versus number of flu cases diagnosed (plot the scatter plot). Do not include pre-1981 data.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp60770720">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Perform a linear regression. What is the linear equation?  Round to the nearest whole number. Find the following:<nbsp /></p>
           <p><em>Write the equations:</em></p>
           <ul>
@@ -967,7 +1008,8 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </solution>
       </exercise>
       <exercise xml:id="element-578">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Solve.
 When <m>x</m> = 1985, <m>ŷ</m> = _____.
 When <m>x</m> = 1990, <m>ŷ</m> = _____.
@@ -985,12 +1027,14 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="fs-idp123707680">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Does the line seem to fit the data? Why or why not?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp46020944">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What does the correlation imply about the relationship between time (years) and the number of diagnosed flu cases reported in the United States?</p>
         </statement>
         <solution>
@@ -998,7 +1042,8 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="fs-id1164567881521">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Plot the two points on the graph. Then, connect the two points to form the regression line.</p>
         </statement>
         <solution>
@@ -1006,7 +1051,8 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="element-537">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Write the equation: <m>ŷ</m> = ____________.</p>
         </statement>
         <solution>
@@ -1014,12 +1060,14 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="element-593">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Hand-draw a smooth curve on the graph that shows the flow of the data.</p>
         </statement>
       </exercise>
       <exercise xml:id="element-508">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Does the line seem to fit the data? Why or why not?</p>
         </statement>
         <solution>
@@ -1027,12 +1075,14 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="element-717">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Do you think a linear fit is best? Why or why not?</p>
         </statement>
       </exercise>
       <exercise xml:id="ch12-element-658">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What does the correlation imply about the relationship between time (years) and the number of diagnosed flu cases reported in the United States?</p>
         </statement>
         <solution>
@@ -1040,12 +1090,14 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="fs-idp87876464">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Graph <em>year</em> vs. <em>number flu cases diagnosed</em>. Do not include pre-1981. Label both axes with words. Scale both axes.</p>
         </statement>
       </exercise>
       <exercise>
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Enter your data into your calculator or computer. The pre-1981 data should not be included. Why is that so?</p>
           <p>Write the linear equation, rounding to four decimal places.</p>
         </statement>
@@ -1055,7 +1107,8 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="fs-id1164565598834">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p><em>Calculate the following:</em></p>
           <ul>
             <li><em>a =</em> _____</li>
@@ -1214,7 +1267,8 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </example>
       <exercise xml:id="eip-365">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Identify the potential outlier in the scatter plot. The standard deviation of the residuals, or errors, is approximately 8.6.</p>
           <figure>
             <image source="media/CNX_Stats_C012_M09_item001.png" width="80%">
@@ -1330,7 +1384,8 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         </solution>
       </example>
       <exercise xml:id="eip-846">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The data points for the graph from the <url href="m79689">third exam/final exam example</url> are as follows: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), and (7, 21). Remove the outlier and recalculate the line of best fit. Find the value of <m>ŷ</m> when <m>x</m> = 10.</p>
         </statement>
         <solution>
@@ -1362,7 +1417,8 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         </solution>
       </example>
       <exercise xml:id="ch12-eip-298">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The following table shows economic development measured in per capita income (PCINC).</p>
           <ol>
             <li>What are the independent and dependent variables?</li>
@@ -1461,7 +1517,8 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
 
     <subsection xml:id="eip-319">
       <exercise xml:id="fs-id1170308842407">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Marcus states that all outliers are influential points. Is he correct? Explain.</p>
         </statement>
         <solution>
@@ -1473,7 +1530,8 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         <image source="media/CNX_Stats_C012_M09_item001.jpg" width="70%" />
       </figure>
       <exercise xml:id="eip-984">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Do there appear to be any outliers?</p>
         </statement>
         <solution>
@@ -1481,12 +1539,14 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         </solution>
       </exercise>
       <exercise xml:id="eip-237">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>A point is removed and the line of best fit is recalculated. The new correlation coefficient is 0.98. Does the point appear to have been an outlier? Why?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-430">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>What effect did the potential outlier have on the line of best fit?</p>
         </statement>
         <solution>
@@ -1494,12 +1554,14 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         </solution>
       </exercise>
       <exercise xml:id="eip-955">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>Are you more or less confident in the predictive ability of the new line of best fit?</p>
         </statement>
       </exercise>
       <exercise xml:id="ch12-eip-930">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The sum of squared errors (SSE) for a data set of 18 numbers is 49. What is the standard deviation?</p>
         </statement>
         <solution>
@@ -1507,7 +1569,8 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         </solution>
       </exercise>
       <exercise xml:id="ch12-eip-7">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The standard deviation for the SSE for a data set is 9.8. What is the cutoff for the vertical distance that a point can be from the line of best fit to be considered an outlier?</p>
         </statement>
       </exercise>
@@ -1637,7 +1700,8 @@ The coefficient of determination, <m>r</m>^{2}</li>
     <subsection xml:id="fs-idm85401472">
       <title>Bring It Together</title>
       <exercise xml:id="element-793">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The average number of people in a family who attended college for various years is given in .</p>
           <ol>
             <li>Using <em>year</em> as the independent variable and <em>number of family members attending college</em> as the dependent variable, draw a scatter plot of the data.</li>
@@ -1657,7 +1721,8 @@ The coefficient of determination, <m>r</m>^{2}</li>
         </solution>
       </exercise>
       <exercise xml:id="element-402">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The percent of female wage and salary workers who are paid hourly rates is given in  for the years 1979 to 1992.</p>
           <ol>
             <li>Using <em>year</em> as the independent variable and <em>percent of workers paid hourly rates</em> as the dependent variable, draw a scatter plot of the data.</li>
@@ -1698,7 +1763,8 @@ The coefficient of determination, <m>r</m>^{2}</li>
         </tabular>
       </table>
       <exercise xml:id="element-454">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <ol>
             <li>Using <em>size</em> as the independent variable and <em>cost</em> as the dependent variable, draw a scatter plot.</li>
             <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
@@ -1714,7 +1780,8 @@ The coefficient of determination, <m>r</m>^{2}</li>
         </statement>
       </exercise>
       <exercise xml:id="ch12-element-952">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <ol>
             <li>Complete  for the cost per ounce of the different sizes of laundry detergent.</li>
             <li>Using <em>size</em> as the independent variable and <em>cost per ounce</em> as the dependent variable, draw a scatter plot of the data.</li>
@@ -1770,7 +1837,8 @@ Cost per ounce
         </solution>
       </exercise>
       <exercise xml:id="element-574">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>According to a flyer published by Prudential Insurance Company, the costs of approximate probate fees and taxes for selected net taxable estates are as follows:</p>
           <ol>
             <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
@@ -1787,7 +1855,8 @@ Cost per ounce
         </statement>
       </exercise>
       <exercise xml:id="element-911">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>The following are advertised sale prices of color televisions at Anderson’s:</p>
           <ol>
             <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
@@ -1816,7 +1885,8 @@ Cost per ounce
         </solution>
       </exercise>
       <exercise xml:id="element-188">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>shows the average heights for American boys in 1990.</p>
           <ol>
             <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
@@ -1833,7 +1903,8 @@ Cost per ounce
         </statement>
       </exercise>
       <exercise xml:id="element-133">
-        <title>Try It</title><statement>
+        <title>Try It</title>
+      <statement>
           <p>We are interested in whether there is a relationship between the ranking of a state and the area of the state.</p>
           <ol>
             <li>What are the independent and dependent variables?</li>
