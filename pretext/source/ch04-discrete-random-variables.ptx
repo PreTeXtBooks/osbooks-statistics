@@ -26,14 +26,15 @@
     <p>Small companies might be interested in the number of long-distance phone calls their employees make during the peak time of the day. Suppose the average is 20 calls. What is the probability that the employees make more than 20 long-distance phone calls during the peak time?</p>
     <p>These two examples illustrate two different types of probability problems involving discrete random variables. Recall that discrete data are data that you can count. A random variable is a variable whose values are numerical outcome of a probability experiment. We always describe a random variable in words and its values in numbers. The values of a random variable can vary with each repetition of an experiment.</p>
 
-    <subsection xml:id="randvarnot">
-      <title>Random Variable Notation</title>
-      <p>Uppercase letters such as <m>X</m> or <m>Y</m> denote a random variable. Lowercase letters like <m>x</m> or <m>y</m> denote the value of a random variable. If  <m>X</m> is a random variable, then <m>X</m> is written in words, and <m>x</m> is given as a number.</p>
-      <p>The following are examples of random variables:</p>
-      <p>Example 1: Suppose a jar contains three marbles, one blue, one red, and one white. Randomly draw one marble from the jar. Let <m>X</m> = the possible number of red marbles to be drawn. The sample space for the drawing is red, white, and blue. Then, <m>x</m> = 0,1. If the marble we draw is red, then <m>x</m> = 1; otherwise, <m>x</m> = 0.</p>
-      <p>Example 2: Let <m>X</m> = the number of female children in a randomly selected family with only two kids. Here we are only interested in families with two kids, not families with one kid or more than two kids. The sample space for the genders of two-kid families is <em>MM, MF, FM, FF</em>. Here the first letter represents the gender of the older child and the second letter represents the gender of the younger child. F represents a female child and M represents a male child. For example, FM represents that the older child is a girl and the younger child is a boy, while MF represents that the older child is a boy and the younger child is a girl. Then, <m>x</m> = 0,1,2. A family has 0 female children if it has two boys (MM), a family has one female child if it has one boy and one girl (MF or FM), and a family has two female children if both kids are girls (FF).</p>
-      <p>Example 3: Let <m>X</m> = the number of heads you get when you toss three fair coins. The sample space for the toss of three fair coins is <em>TTT, THH, HTH, HHT, HTT, THT, TTH, HHH</em>. Here the first letter represents the result of the first toss, the second letter represents the result of the second toss, and the third letter represents the result of the third toss. T represents a tail and H represents a head. For example, THH means we get a tail in the first toss but a head in the second and third toss, while HHT means we get a head in the first and second toss but a tail in the third toss. Then, <m>x</m> = 0, 1, 2, 3. There are 0 heads if the result is TTT, one head if the result is THT, TTH, or HTT, two heads if the result is THH, HTH, or HHT, and three heads if the result is HHH.</p>
-    </subsection>
+  </introduction>
+
+  <section xml:id="randvarnot">
+    <title>Random Variable Notation</title>
+    <p>Uppercase letters such as <m>X</m> or <m>Y</m> denote a random variable. Lowercase letters like <m>x</m> or <m>y</m> denote the value of a random variable. If  <m>X</m> is a random variable, then <m>X</m> is written in words, and <m>x</m> is given as a number.</p>
+    <p>The following are examples of random variables:</p>
+    <p>Example 1: Suppose a jar contains three marbles, one blue, one red, and one white. Randomly draw one marble from the jar. Let <m>X</m> = the possible number of red marbles to be drawn. The sample space for the drawing is red, white, and blue. Then, <m>x</m> = 0,1. If the marble we draw is red, then <m>x</m> = 1; otherwise, <m>x</m> = 0.</p>
+    <p>Example 2: Let <m>X</m> = the number of female children in a randomly selected family with only two kids. Here we are only interested in families with two kids, not families with one kid or more than two kids. The sample space for the genders of two-kid families is <em>MM, MF, FM, FF</em>. Here the first letter represents the gender of the older child and the second letter represents the gender of the younger child. F represents a female child and M represents a male child. For example, FM represents that the older child is a girl and the younger child is a boy, while MF represents that the older child is a boy and the younger child is a girl. Then, <m>x</m> = 0,1,2. A family has 0 female children if it has two boys (MM), a family has one female child if it has one boy and one girl (MF or FM), and a family has two female children if both kids are girls (FF).</p>
+    <p>Example 3: Let <m>X</m> = the number of heads you get when you toss three fair coins. The sample space for the toss of three fair coins is <em>TTT, THH, HTH, HHT, HTT, THT, TTH, HHH</em>. Here the first letter represents the result of the first toss, the second letter represents the result of the second toss, and the third letter represents the result of the third toss. T represents a tail and H represents a head. For example, THH means we get a tail in the first toss but a head in the second and third toss, while HHT means we get a head in the first and second toss but a tail in the third toss. Then, <m>x</m> = 0, 1, 2, 3. There are 0 heads if the result is TTT, one head if the result is THT, TTH, or HTT, two heads if the result is THH, HTH, or HHT, and three heads if the result is HHH.</p>
     <note xml:id="fs-idp37582368">
       <p>Toss a coin 10 times and record the number of heads. After all members of the class have completed the experiment (tossed a coin 10 times and counted the number of heads), fill in . Let <m>X</m> = the number of heads in 10 tosses of the coin.</p>
       <ol>
@@ -42,8 +43,7 @@
         <li>What does the relative frequency column sum to?</li>
       </ol>
     </note>
-
-  </introduction>
+  </section>
 
   <section xml:id="sec-probability-distribution-function">
     <title>Probability Distribution Function (PDF) for a Discrete Random Variable</title>
@@ -330,7 +330,7 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
           <p>(0.0039)256 + (0.9961)(–1) = 0.9984 + (–0.9961) = 0.0023 or 0.23 cents.</p>
         </solution>
       </exercise>
-      <example xml:id="element-341">
+      <example xml:id="ch04-element-341-8">
         <statement>
           <p>a. Define a random variable <m>X</m>.</p>
         </statement>
@@ -466,7 +466,7 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
           <p>Complete  using the data provided.</p>
         </statement>
       </exercise>
-      <exercise xml:id="exerciseone">
+      <exercise xml:id="ch04-exerciseone-12">
         <statement>
           <p>In words, define the random variable <m>X</m>.</p>
         </statement>
@@ -474,12 +474,12 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
           <p><m>X</m> is the number of years a student studies ballet with the teacher.</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisetwo">
+      <exercise xml:id="ch04-exercisetwo-12">
         <statement>
           <p><m>P</m>(<m>x</m> = 4) = ________</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercisethree">
+      <exercise xml:id="ch04-exercisethree-12">
         <statement>
           <p><m>P</m>(<m>x</m> &lt; 4) = ________</p>
         </statement>
@@ -487,12 +487,12 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
           <p>.10 + .05 + .10 = .25</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisefour">
+      <exercise xml:id="ch04-exercisefour-12">
         <statement>
           <p>On average, how many years would you expect a child to study ballet with this teacher?</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercisefive">
+      <exercise xml:id="ch04-exercisefive-12">
         <statement>
           <p>What does the column <m>P</m>(<m>x</m>) sum to and why?</p>
         </statement>
@@ -500,7 +500,7 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
           <p>The sum of the probabilities sum to one because it is a probability distribution.</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisesix">
+      <exercise xml:id="ch04-exercisesix-12">
         <statement>
           <p>What does the column <m>x</m>*<m>P</m>(<m>x</m>) sum to and why?</p>
         </statement>
@@ -534,7 +534,7 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="eip-254">
+      <exercise xml:id="ch04-eip-254-13">
         <statement>
           <p>A game involves selecting a card from a regular 52-card deck and tossing a coin. The coin is a fair coin and is equally likely to land on heads or tails.</p>
           <ul>
@@ -593,7 +593,7 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-725">
+      <exercise xml:id="ch04-element-725-13">
         <statement>
           <p>A venture capitalist, willing to invest $1,000,000, has three investments to choose from: The first investment, a software company, has a 10 percent chance of returning $5,000,000 profit, a 30 percent chance of returning $1,000,000 profit, and a 60 percent chance of losing the million dollars. The second company, a hardware company, has a 20 percent chance of returning $3,000,000 profit, a 40 percent chance of returning $1,000,000 profit, and a 40 percent chance of losing the million dollars. The third company, a biotech firm, has a 10 percent chance of returning $6,000,000 profit, a 70 percent of no profit or loss, and a 20 percent chance of losing the million dollars.</p>
           <ol>
@@ -814,7 +814,7 @@ It doesn’t matter. I expect to break even.</p>
       <p>There are shortcut formulas for calculating mean <m>μ</m>, variance <m>σ</m>^{2}, and standard deviation <m>σ</m> of a binomial probability distribution. The formulas are given as below. The deriving of these formulas will not be discussed in this book.</p>
       <me>\mu=np,\sigma^{2}=npq,\sigma=\sqrt{npq}\text{.}</me>
       <p>Here <m>n</m> is the number of trials, <m>p</m> is the probability of a success, and <m>q</m> is the probability of a failure.</p>
-      <example xml:id="element-375">
+      <example xml:id="ch04-element-375-15">
         <statement>
           <p>At ABC High School, the withdrawal rate from an elementary physics course is 30 percent for any given term. This implies that, for any given term, 70 percent of the students stay in the class for the entire term. The random variable <m>X</m> = the number of students who withdraw from the randomly selected elementary physics class. Since we are measuring the number of students who withdrew, a <em>success</em> is defined as an individual who withdrew.</p>
         </statement>
@@ -879,7 +879,7 @@ It doesn’t matter. I expect to break even.</p>
       <p><m>X</m> ~ <m>B</m>(<m>n</m>, <m>p</m>)</p>
       <p>Read this as <em>X is a random variable with a binomial distribution</em>. The parameters are <m>n</m> and <m>p</m>: <m>n</m> = number of trials, <m>p</m> = probability of a success on each trial.</p>
     </subsection>
-    <example xml:id="example5">
+    <example xml:id="ch04-example5-16">
       <title>NOTE</title>
       <statement>
         <p>It has been stated that about 41 percent of adult workers have a high school diploma but do not pursue any further education. If 20 adult workers are randomly selected, find the probability that at most 12 of them have a high school diploma but do not pursue any further education. How many adult workers do you expect to have a high school diploma but do not pursue any further education?</p>
@@ -1089,7 +1089,7 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
     <subsection xml:id="fs-idp75382928">
       <p><em>Use the following information to answer the next eight exercises:</em> Researchers collected data from 203,967 incoming first-time, full-time freshmen from 270 four-year colleges and universities in the United States. Of those students, 71.3 percent replied that, yes, they agreed with a recent federal law that was passed.</p>
       <p>Suppose that you randomly pick eight first-time, full-time freshmen from the survey. You are interested in the number who agreed with that law.</p>
-      <exercise xml:id="exerciseone">
+      <exercise xml:id="ch04-exerciseone-20">
         <statement>
           <p>In words, define the random variable <m>X</m>.</p>
         </statement>
@@ -1097,12 +1097,12 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
           <p><m>X</m> = the number that reply <em>yes</em></p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisetwo">
+      <exercise xml:id="ch04-exercisetwo-20">
         <statement>
           <p><m>X</m> ~ _____(_____,_____)</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercisethree">
+      <exercise xml:id="ch04-exercisethree-20">
         <statement>
           <p>What values does the random variable <m>X</m> take on?</p>
         </statement>
@@ -1110,12 +1110,12 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
           <p>0, 1, 2, 3, 4, 5, 6, 7, 8</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisefour">
+      <exercise xml:id="ch04-exercisefour-20">
         <statement>
           <p>Construct the probability distribution function (PDF).</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercisefive">
+      <exercise xml:id="ch04-exercisefive-20">
         <statement>
           <p>On average (<m>μ</m>), how many would you expect to answer yes?</p>
         </statement>
@@ -1123,7 +1123,7 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
           <p>5.7</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisesix">
+      <exercise xml:id="ch04-exercisesix-20">
         <statement>
           <p>What is the standard deviation (<m>σ</m>)?</p>
         </statement>
@@ -1136,7 +1136,7 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
           <p>.4151</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisenine">
+      <exercise xml:id="ch04-exercisenine-20">
         <statement>
           <p>What is the probability that at least two of the freshmen reply yes?</p>
         </statement>
@@ -1212,7 +1212,7 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
         </statement>
       </exercise>
       <p><em>Use the following information to answer the next three exercises:</em> The probability that a local hockey team will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.</p>
-      <exercise xml:id="eip-514">
+      <exercise xml:id="ch04-eip-514-21">
         <statement>
           <p>What is the expected number of wins for that upcoming month?</p>
           <ol>
@@ -1227,7 +1227,7 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
         </solution>
       </exercise>
       <p>Let <m>X</m> = the number of games won in that upcoming month.</p>
-      <exercise xml:id="element-861">
+      <exercise xml:id="ch04-element-861-21">
         <statement>
           <p>What is the probability that the team wins six games in that upcoming month?</p>
           <ol>
@@ -1238,7 +1238,7 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-408">
+      <exercise xml:id="ch04-element-408-21">
         <statement>
           <p>What is the probability that the team wins at least five games in that upcoming month</p>
           <ol>
@@ -1308,7 +1308,7 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-387">
+      <exercise xml:id="ch04-element-387-21">
         <statement>
           <p>Suppose that about 85 percent of graduating students attend their graduation. A group of 22 graduating students is randomly chosen.</p>
           <ol>
@@ -1344,7 +1344,7 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-816">
+      <exercise xml:id="ch04-element-816-21">
         <statement>
           <p>Approximately 8 percent of students at a local high school participate in after-school sports all four years of high school. A group of 60 seniors is randomly chosen. Of interest is the number who participated in after-school sports all four years of high school.</p>
           <ol>
@@ -1380,7 +1380,7 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-962">
+      <exercise xml:id="ch04-element-962-21">
         <statement>
           <p>It has been estimated that only about 30 percent of California residents have adequate earthquake supplies. Suppose you randomly survey 11 California residents. We are interested in the number who have adequate earthquake supplies.</p>
           <ol>
@@ -1625,7 +1625,7 @@ Standard Deviation = <m>σ</m> = <m>\sqrt{\frac{\text{1}-p}{p^{2}}}</m> = <m>\s
 
     <subsection xml:id="fs-idm146411072">
       <p><em>Use the following information to answer the next six exercises:</em> Researchers collected data from 203,967 incoming first-time, full-time freshmen from 270 four-year colleges and universities in the United States. Of those students, 71.3 percent replied that, yes, they agree with a recent law that was passed. Suppose that you randomly select freshman from the study until you find one who replies yes. You are interested in the number of freshmen you must ask.</p>
-      <exercise xml:id="exerciseone">
+      <exercise xml:id="ch04-exerciseone-28">
         <statement>
           <p>In words, define the random variable <m>X</m>.</p>
         </statement>
@@ -1633,12 +1633,12 @@ Standard Deviation = <m>σ</m> = <m>\sqrt{\frac{\text{1}-p}{p^{2}}}</m> = <m>\s
           <p><m>X</m> = the number of freshmen selected from the study until one replied <em>yes</em> to the law that was passed.</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisetwo">
+      <exercise xml:id="ch04-exercisetwo-28">
         <statement>
           <p><m>X</m> ~ _____(_____,_____)</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercisethree">
+      <exercise xml:id="ch04-exercisethree-28">
         <statement>
           <p>What values does the random variable <m>X</m> take on?</p>
         </statement>
@@ -1646,12 +1646,12 @@ Standard Deviation = <m>σ</m> = <m>\sqrt{\frac{\text{1}-p}{p^{2}}}</m> = <m>\s
           <p>1,2,…</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisefour">
+      <exercise xml:id="ch04-exercisefour-28">
         <statement>
           <p>Construct the probability distribution function (PDF). Stop at <m>x</m> = 6.</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercisefive">
+      <exercise xml:id="ch04-exercisefive-28">
         <statement>
           <p>On average (<m>μ</m>), how many freshmen would you expect to have to ask until you found one who replies yes?</p>
         </statement>
@@ -1659,7 +1659,7 @@ Standard Deviation = <m>σ</m> = <m>\sqrt{\frac{\text{1}-p}{p^{2}}}</m> = <m>\s
           <p>1.4</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisesix">
+      <exercise xml:id="ch04-exercisesix-28">
         <statement>
           <p>What is the probability that you will need to ask fewer than three freshmen?</p>
         </statement>
@@ -1822,7 +1822,7 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
         <li>You are not dealing with Bernoulli trials.</li>
       </ol>
       <p>The outcomes of a hypergeometric experiment fit a <term>hypergeometric probability</term> distribution. The random variable <m>X</m> = the number of items from the group of interest.</p>
-      <example xml:id="element-84">
+      <example xml:id="ch04-element-84-31">
         <statement>
           <p>A candy dish contains 100 jelly beans and 80 gumdrops. Fifty candies are picked at random. What is the probability that 35 of the 50 are gumdrops? The two groups are jelly beans and gumdrops. Since the probability question asks for the probability of picking gumdrops, the group of interest (first group) is gumdrops. The size of the group of interest (first group) is 80. The size of the second group is 100. The size of the sample is 50 (jelly beans or gumdrops). Let <m>X</m> = the number of gumdrops in the sample of 50. <m>X</m> takes on the values <m>x</m> = 0, 1, 2, . . . , 50. What is the probability statement written mathematically?</p>
         </statement>
@@ -1838,7 +1838,7 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
           <p>The group of interest is the vowel letter tiles. The size of the group of interest is 44. The size of the sample is seven.</p>
         </solution>
       </exercise>
-      <example xml:id="element-968">
+      <example xml:id="ch04-element-968-31">
         <statement>
           <p>Suppose a shipment of 100 DVD players is known to have 10 defective players. An inspector randomly chooses 12 for inspection. He is interested in determining the probability that, among the 12 players, at most two are defective. The two groups are the 90 non-defective DVD players and the 10 defective DVD players. The group of interest (first group) is the defective group because the probability question asks for the probability of at most two defective DVD players. The size of the sample is 12 DVD players. They may be non-defective or defective. Let <m>X</m> = the number of defective DVD players in the sample of 12. <m>X</m> takes on the values 0, 1, 2, . . . , 10. <m>X</m> may not take on the values 11 or 12. The sample size is 12, but there are only 10 defective DVD players. Write the probability statement mathematically.</p>
         </statement>
@@ -1854,7 +1854,7 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
           <p>Let <m>X</m> = the number of cracked eggs in the sample of 15. <m>X</m> takes on the values 0, 1, 2, …, 12.</p>
         </solution>
       </exercise>
-      <example xml:id="element-582">
+      <example xml:id="ch04-element-582-31">
         <statement>
           <p>a. Are you choosing with or without replacement?</p>
         </statement>
@@ -1932,7 +1932,7 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
 
     <subsection xml:id="fs-idp90772672">
       <p><em>Use the following information to answer the next five exercises:</em> Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.</p>
-      <exercise xml:id="exerciseone">
+      <exercise xml:id="ch04-exerciseone-35">
         <statement>
           <p>In words, define the random variable <m>X</m>.</p>
         </statement>
@@ -1940,12 +1940,12 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
           <p><m>X</m> = the number of business majors in the sample.</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisetwo">
+      <exercise xml:id="ch04-exercisetwo-35">
         <statement>
           <p><m>X</m> ~ _____(_____,_____)</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercisethree">
+      <exercise xml:id="ch04-exercisethree-35">
         <statement>
           <p>What values does <m>X</m> take on?</p>
         </statement>
@@ -1953,7 +1953,7 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
           <p>2, 3, 4, 5, 6, 7, 8, 9</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisefour">
+      <exercise xml:id="ch04-exercisefour-35">
         <statement>
           <p>Find the standard deviation.</p>
         </statement>
@@ -2015,7 +2015,7 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-755">
+      <exercise xml:id="ch04-element-755-36">
         <statement>
           <p>Suppose that nine Massachusetts athletes are scheduled to appear at a charity benefit. The nine are randomly chosen from eight volunteers from the local basketball team and four volunteers from the local football team. We are interested in the number of football players picked.</p>
           <ol>
@@ -2187,7 +2187,7 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
         </ol>
       </solution>
     </example>
-    <exercise xml:id="eip-693">
+    <exercise xml:id="ch04-eip-693-39">
       <statement>
         <p>Scientists recently researched the busiest airport in the world. On average, there are 2,500 arrivals and departures each day.</p>
         <ol>
@@ -2319,7 +2319,7 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
         </statement>
       </exercise>
       <p><nbsp/><em>Use the following information to answer the next six exercises:</em> On average, eight teens in the United States die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.</p>
-      <exercise xml:id="exerciseone">
+      <exercise xml:id="ch04-exerciseone-43">
         <statement>
           <p>Assume the event occurs independently in any given day. In words, define the random variable <m>X</m>.</p>
         </statement>
@@ -2327,12 +2327,12 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
           <p><m>X</m> = the number of United States teens who die from motor vehicle injuries per day.</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisetwo">
+      <exercise xml:id="ch04-exercisetwo-43">
         <statement>
           <p><m>X</m> ~ _____(_____,_____)</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercisethree">
+      <exercise xml:id="ch04-exercisethree-43">
         <statement>
           <p>What values does <m>X</m> take on?</p>
         </statement>
@@ -2340,12 +2340,12 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
           <p>0, 1, 2, 3, 4, ...</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisefour">
+      <exercise xml:id="ch04-exercisefour-43">
         <statement>
           <p>For the given values of the random variable <m>X</m>, fill in the corresponding probabilities.</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercisefive">
+      <exercise xml:id="ch04-exercisefive-43">
         <statement>
           <p>Is it likely that there will be no teens killed from motor vehicle injuries on any given day in the United States? Justify your answer numerically.</p>
         </statement>
@@ -2353,7 +2353,7 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
           <p>no</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercisesix">
+      <exercise xml:id="ch04-exercisesix-43">
         <statement>
           <p>Is it likely that there will be more than 20 teens killed from motor vehicle injuries on any given day in the United States? Justify your answer numerically.</p>
         </statement>
@@ -2411,7 +2411,7 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
           <p>The Poisson approximation is very good—the difference between the probabilities is only .0026.</p>
         </solution>
       </exercise>
-      <exercise xml:id="element-484">
+      <exercise xml:id="ch04-element-484-44">
         <statement>
           <p>The average number of children a Japanese woman has in her lifetime is 1.37. Suppose that one Japanese woman is randomly chosen.</p>
           <ol>
@@ -2424,7 +2424,7 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-625">
+      <exercise xml:id="ch04-element-625-44">
         <statement>
           <p>The average number of children a Spanish woman has in her lifetime is 1.47. Suppose that one Spanish woman is randomly chosen.</p>
           <ol>
