@@ -423,7 +423,7 @@
       </statement>
     </example>
   <note xml:id="fs-idp70845248" class="statistics try">
-    <exercise xml:id="fs-idp158465216">
+    <task xml:id="fs-idp158465216">
       <title>Try It</title>
       <statement>
         <p xml:id="fs-idp116051680">The data that follow are the number of passengers on 35 different charter fishing boats. The sample mean = 7.9 and the sample standard deviation = 4.33. The data follow a uniform distribution where all values between and including zero and 14 are equally likely. State the values of <em>a</em> and <em>b</em>. Write the distribution in proper notation, and calculate the theoretical mean and standard deviation.</p>
@@ -441,11 +441,11 @@
       <solution>
         <p xml:id="fs-idp111364752"><em>a</em> is zero, <em>b</em> is 14, <em>X</em> ~ <em>U</em> (0, 14), <em>μ</em> = 7 passengers, <em>σ</em> = 4.04 passengers</p>
       </solution>
-    </exercise>
+    </task>
   </note>
   <example xml:id="example-170">
       <statement>
-        <exercise xml:id="element-156">
+        <task xml:id="element-156">
           <title>Try It</title>
           <statement>
             <p xml:id="element-170">a. Refer to <xref ref="element-229"/>. What is the probability that a randomly chosen eight-week-old baby smiles between two and 18 seconds?</p>
@@ -453,8 +453,8 @@
           <solution>
             <p xml:id="element-178"><em>P</em>(2 &lt; <em>x</em> &lt; 18) = (base)(height) = (18 – 2)<m>(\frac{1}{23})</m> = <m>\frac{16}{23}</m></p>
           </solution>
-        </exercise>
-        <exercise xml:id="element-329">
+        </task>
+        <task xml:id="element-329">
           <title>Try It</title>
           <statement>
             <p xml:id="element-483">b. Find the 90<sup>th</sup> percentile for an eight-week-old baby's smiling time.</p>
@@ -466,8 +466,8 @@
             <men xml:id="fs-id1164562298387">(k-0)(\frac{1}{23})=0.90</men>
             <men xml:id="fs-id1164566922548">k=(23)(0.90)=20.7</men>
           </solution>
-        </exercise>
-        <exercise xml:id="element-412">
+        </task>
+        <task xml:id="element-412">
           <title>Try It</title>
           <statement>
             <p xml:id="element-503">c. Find the probability that a random eight-week-old baby smiles more than 12 seconds <em>knowing</em> that the baby smiles <em>more than eight seconds</em>.</p>
@@ -483,11 +483,11 @@
             <p xml:id="fs-idp12091856">For this problem, <em>A</em> is (<em>x</em> &gt; 12) and <em>B</em> is (<em>x</em> &gt; 8).</p>
             <p xml:id="element-613">So, <em>P</em>(<em>x</em> &gt; <em>12</em>|<em>x</em> &gt; 8) = <m>\frac{(x&gt;12ANDx&gt;8)}{P(x&gt;8)}=\frac{P(x&gt;12)}{P(x&gt;8)}=\frac{\frac{11}{23}}{\frac{15}{23}}=\frac{11}{15}</m></p>
           </solution>
-        </exercise>
+        </task>
       </statement>
     </example>
   <note xml:id="fs-idp61080304" class="statistics try">
-    <exercise xml:id="fs-idp178484384">
+    <task xml:id="fs-idp178484384">
       <title>Try It</title>
       <statement>
         <p xml:id="fs-idp10982640">A distribution is given as <em>X</em> ~ <em>U</em>(0, 20). What is <em>P</em>(2 &lt; <em>x</em> &lt; 18)? Find the 90<sup>th</sup> percentile.</p>
@@ -495,12 +495,12 @@
       <solution>
         <p xml:id="fs-idp3862896"><em>P</em>(2 &lt; <em>x</em> &lt; 18) = 0.8, 90<sup>th</sup> percentile = 18</p>
       </solution>
-    </exercise>
+    </task>
   </note>
   <example xml:id="element-158">
       <statement>
         <p xml:id="element-697">The amount of time, in minutes, that a person must wait for a bus is uniformly distributed between zero and 15 minutes, inclusive.</p>
-        <exercise xml:id="element-351">
+        <task xml:id="element-351">
           <title>Try It</title>
           <statement>
             <p xml:id="element-447">a. What is the probability that a person waits fewer than 12.5 minutes?</p>
@@ -517,8 +517,8 @@ for 0 ≤ <em>x</em> ≤ 15.</p>
               </image>
             </figure>
           </solution>
-        </exercise>
-        <exercise xml:id="element-786">
+        </task>
+        <task xml:id="element-786">
           <title>Try It</title>
           <statement>
             <p xml:id="element-1323">b. On the average, how long must a person wait? Find the mean, <em>μ</em>, and the standard deviation, <em>σ</em>.</p>
@@ -533,8 +533,8 @@ for 0 ≤ <em>x</em> ≤ 15.</p>
 
 <em>σ</em> = <m>\sqrt{\frac{(b-a)^{2}}{12}}=\sqrt{\frac{(15-0)^{2}}{12}}</m> = 4.3. The standard deviation is 4.3 minutes.</p>
           </solution>
-        </exercise>
-        <exercise xml:id="ch05-element-375">
+        </task>
+        <task xml:id="ch05-element-375">
           <title>Try It</title>
           <statement>
             <p xml:id="ch05-element-44">c. Ninety percent of the time, the minutes a person must wait falls below what value?</p>
@@ -564,11 +564,11 @@ for 0 ≤ <em>x</em> ≤ 15.</p>
 
 The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a person must wait at most 13.5 minutes.</p>
           </solution>
-        </exercise>
+        </task>
       </statement>
     </example>
   <note xml:id="fs-idp13010016" class="statistics try">
-    <exercise xml:id="fs-idp51205632">
+    <task xml:id="fs-idp51205632">
       <title>Try It</title>
       <statement>
         <p xml:id="fs-idp80584752">The total duration of baseball games in the major league in the 2011 season is uniformly distributed between 447  hours and 521 hours inclusive.</p>
@@ -589,12 +589,12 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
           <li>65<sup>th</sup> percentile is 495.1 hours.</li>
         </ol>
       </solution>
-    </exercise>
+    </task>
   </note>
   <example xml:id="ch05-element-321">
       <statement>
         <p xml:id="element-637">Suppose the time it takes a nine-year old to eat a donut is between 0.5 and 4 minutes, inclusive. Let <em>X</em> = the time, in minutes, it takes a nine-year-old child to eat a doughnut. Then <em>X</em> ~ <em>U</em>(0.5, 4).</p>
-        <exercise xml:id="eip-idp102263568">
+        <task xml:id="eip-idp102263568">
           <title>Try It</title>
           <statement>
             <p xml:id="eip-idp95256304">a. The probability that a randomly selected nine-year-old child eats a doughnut in at least two minutes is _______.</p>
@@ -602,8 +602,8 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
           <solution>
             <p xml:id="eip-idp95257200">a. 0.5714</p>
           </solution>
-        </exercise>
-        <exercise xml:id="eip-idp95257840">
+        </task>
+        <task xml:id="eip-idp95257840">
           <title>Try It</title>
           <statement>
             <p xml:id="element-546">b. Find the probability that a different nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes.</p>
@@ -616,14 +616,14 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
           <solution>
             <p xml:id="eip-idp15120208">b. <m>\frac{4}{5}</m></p>
           </solution>
-        </exercise>
+        </task>
         <p xml:id="eip-idm70960944">The probability that a nine-year-old child eats a donut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes is <m>\frac{4}{5}</m>.</p>
         <p xml:id="eip-idm39713200"><em>Second way:</em> Draw the original graph for <em>X</em> ~ <em>U</em>(0.5, 4). Use the conditional formula</p>
         <men xml:id="fs-id1164566947548">P(x&gt;2|x&gt;1.5)=\frac{P(x&gt;2ANDx&gt;1.5)}{P(x&gt;1.5)}=\frac{P(x&gt;2)}{P(x&gt;1.5)}=\frac{\frac{2}{3.5}}{\frac{2.5}{3.5}}=0.8=\frac{4}{5}</men>
       </statement>
     </example>
   <note xml:id="fs-idp42235264" class="statistics try">
-    <exercise xml:id="fs-idp177663840">
+    <task xml:id="fs-idp177663840">
       <title>Try It</title>
       <statement>
         <p xml:id="fs-idp125513712">Suppose the time it takes a student to finish a quiz is uniformly distributed between six and 15 minutes, inclusive. Let <em>X</em> = the time, in minutes, it takes a student to finish a quiz. Then <em>X</em> ~ <em>U</em>(6, 15).</p>
@@ -633,12 +633,12 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         <p xml:id="fs-idp80578768"><em>P</em> (<em>x</em> &gt; 8) = 0.7778</p>
         <p xml:id="fs-idp63181504"><em>P</em> (<em>x</em> &gt; 8 | x &gt; 7) = 0.875</p>
       </solution>
-    </exercise>
+    </task>
   </note>
   <example xml:id="eip-323">
       <statement>
         <p xml:id="eip-id1170213489898">Ace Heating and Air Conditioning Service finds that the amount of time a repairman needs to fix a furnace is uniformly distributed between 1.5 and four hours. Let <em>x</em> = the time needed to fix a furnace. Then <em>x</em> ~ <em>U</em>(1.5, 4).</p>
-        <exercise xml:id="eip-idm8252240">
+        <task xml:id="eip-idm8252240">
           <title>Try It</title>
           <statement>
             <ol marker="a">
@@ -658,11 +658,11 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
               </image>
             </figure>
           </solution>
-        </exercise>
+        </task>
       </statement>
     </example>
   <note xml:id="fs-idm9097392" class="statistics try">
-    <exercise xml:id="fs-idp8673008">
+    <task xml:id="fs-idp8673008">
       <title>Try It</title>
       <statement>
         <p xml:id="fs-idp28489760">The amount of time a service technician needs to change the oil in a car is uniformly distributed between 11 and 21 minutes. Let <em>X</em> = the time needed to change the oil on a car.</p>
@@ -683,7 +683,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
           <li>the 50<sup>th</sup> percentile is 16 minutes.</li>
         </ol>
       </solution>
-    </exercise>
+    </task>
   </note>
   <subsection xml:id="fs-idp87344528">
     <title>Chapter Review</title>
