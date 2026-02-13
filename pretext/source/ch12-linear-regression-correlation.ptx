@@ -2235,4 +2235,50 @@ weight of a car? Is this what you expected?</li>
   </exercises>
 </section>
 
+
+  <glossary xml:id="glossary-ch12">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-coefficient-of-determination">
+      <title>coefficient of determination</title>
+      <p>the square of the correlation coefficient, r²; measures the proportion of the variance in the dependent variable that is predictable from the independent variable</p>
+    </gi>
+
+    <gi xml:id="gi-correlation-coefficient">
+      <title>correlation coefficient</title>
+      <p>a measure of the strength and direction of the linear relationship between two variables; notation: r; ranges from -1 to 1</p>
+    </gi>
+
+    <gi xml:id="gi-influential-point">
+      <title>influential point</title>
+      <p>a point that, if removed, would significantly change the regression line</p>
+    </gi>
+
+    <gi xml:id="gi-least-squares-line">
+      <title>least-squares regression line</title>
+      <p>the line that minimizes the sum of the squared vertical distances from the data points to the line; the line of best fit</p>
+    </gi>
+
+    <gi xml:id="gi-outlier-regression">
+      <title>outlier</title>
+      <p>an observation that does not fit the pattern of the rest of the data</p>
+    </gi>
+
+    <gi xml:id="gi-residual">
+      <title>residual</title>
+      <p>the difference between the observed value and the predicted value; residual = observed y - predicted y</p>
+    </gi>
+
+    <gi xml:id="gi-slope">
+      <title>slope</title>
+      <p>the rate of change of the regression line; the amount y changes for each one-unit change in x</p>
+    </gi>
+
+    <gi xml:id="gi-y-intercept">
+      <title>y-intercept</title>
+      <p>the value of y when x = 0; where the regression line crosses the y-axis</p>
+    </gi>
+
+  </glossary>
+
 </chapter>

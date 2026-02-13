@@ -2907,4 +2907,45 @@ Test of the two population proportions by testing one population mean of differe
   </exercises>
 </section>
 
+
+  <glossary xml:id="glossary-ch09">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-alternative-hypothesis">
+      <title>alternative hypothesis</title>
+      <p>the hypothesis that is accepted if the null hypothesis is rejected; notation: H_a or H_1</p>
+    </gi>
+
+    <gi xml:id="gi-level-of-significance">
+      <title>level of significance</title>
+      <p>the probability of rejecting the null hypothesis when it is true; notation: α (alpha); commonly set at 0.05 or 0.01</p>
+    </gi>
+
+    <gi xml:id="gi-null-hypothesis">
+      <title>null hypothesis</title>
+      <p>the hypothesis being tested; usually a statement of no effect or no difference; notation: H_0</p>
+    </gi>
+
+    <gi xml:id="gi-p-value">
+      <title>p-value</title>
+      <p>the probability of obtaining a test statistic at least as extreme as the one observed, assuming the null hypothesis is true</p>
+    </gi>
+
+    <gi xml:id="gi-test-statistic">
+      <title>test statistic</title>
+      <p>a value calculated from sample data that is used to determine whether to reject the null hypothesis; examples include z-scores and t-scores</p>
+    </gi>
+
+    <gi xml:id="gi-type-i-error">
+      <title>Type I error</title>
+      <p>the decision to reject the null hypothesis when it is actually true</p>
+    </gi>
+
+    <gi xml:id="gi-type-ii-error">
+      <title>Type II error</title>
+      <p>the decision not to reject the null hypothesis when it is actually false</p>
+    </gi>
+
+  </glossary>
+
 </chapter>

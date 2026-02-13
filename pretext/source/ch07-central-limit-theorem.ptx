@@ -2814,4 +2814,25 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
 </exercise>
 </section>
 
+
+  <glossary xml:id="glossary-ch07">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-central-limit-theorem">
+      <title>central limit theorem</title>
+      <p>given a random variable (RV) with known mean μ and standard deviation σ, as the sample size n increases, the sampling distribution of the sample mean approaches a normal distribution; specifically, when n is sufficiently large, the sampling distribution of <m>\bar{x}</m> is approximately N(μ, σ/√n)</p>
+    </gi>
+
+    <gi xml:id="gi-sampling-distribution">
+      <title>sampling distribution</title>
+      <p>the probability distribution of a sample statistic such as the sample mean; given random samples of size n from a population, the sampling distribution is the distribution of the sample statistics from all possible samples</p>
+    </gi>
+
+    <gi xml:id="gi-standard-error-mean">
+      <title>standard error of the mean</title>
+      <p>the standard deviation of the sampling distribution of the sample mean; calculated as σ/√n where σ is the population standard deviation and n is the sample size</p>
+    </gi>
+
+  </glossary>
+
 </chapter>
