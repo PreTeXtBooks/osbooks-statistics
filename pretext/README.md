@@ -75,6 +75,10 @@ pretext build pdf
 pretext view html
 ```
 
+### Media Files
+
+The `pretext/media` directory is a symbolic link to the `../media` directory at the repository root, which contains all images and media files. This allows PreTeXt to access the images during the build process. The `publication.ptx` file is configured to look for external media in the `../media` directory relative to the `source/` directory.
+
 ## Chapter Structure
 
 Each chapter follows this structure:
