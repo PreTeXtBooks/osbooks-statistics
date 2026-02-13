@@ -420,216 +420,6 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </exercise>
 </subsection>
 
-<subsection xml:id="ch7-fs-idp66376176">
-<title>Homework</title>
-
-<exercise xml:id="ch7-element-475">
-<statement>
-<p>Previously, De Anza's statistics students estimated that the amount of change daytime statistics students carry is exponentially distributed with a mean of $0.88. Suppose that we randomly pick 25 daytime statistics students.</p>
-
-<ol>
-<li>In words, <em>Χ</em> = ____________.</li>
-<li><em>Χ</em> ~ _____(_____, _____)</li>
-<li>In words, <m>\overline{X}</m> = ____________.</li>
-<li><m>\overline{X}</m> ~ ______ (______, ______)</li>
-<li>Find the probability that an individual had between $0.80 and $1.00. Graph the situation, and shade in the area to be determined.</li>
-<li>Find the probability that the average amount of change of the 25 students was between $0.80 and $1.00. Graph the situation, and shade in the area to be determined.</li>
-<li>Explain why there is a difference in part (e) and part (f).</li>
-</ol>
-</statement>
-
-<solution>
-<ol>
-<li><em>Χ</em> = amount of change students carry</li>
-<li><em>Χ</em> ~ <em>Exp</em>(1/0.88) or approximately <em>Χ</em> ~ <em>Exp</em>(1.1364)</li>
-<li><m>\overline{X}</m> = average amount of change carried by a sample of 25 students.</li>
-<li><m>\overline{X}</m> ~ <em>N</em>(0.88, 0.176)</li>
-<li>0.0819</li>
-<li>0.4276</li>
-<li>The probability in part (e) represents the probability of an individual value. In part (f), the probability describes the mean of a sample of 25. Part (f) relies on the central limit theorem, so the distributions are different. Part (e) is exponential and part (f) is normal.</li>
-</ol>
-</solution>
-</exercise>
-
-<exercise xml:id="ch7-element-51">
-<statement>
-<p>Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet. We randomly sample 49 fly balls.</p>
-
-<ol>
-<li>If <m>\overline{X}</m> = average distance in feet for 49 fly balls, then <m>\overline{X}</m> ~ _______(_______, _______).</li>
-<li>What is the probability that the 49 balls traveled an average of less than 240 feet? Sketch the graph. Scale the horizontal axis for <m>\overline{X}</m>. Shade the region corresponding to the probability. Find the probability.</li>
-<li>Find the 80<m>^{th}</m> percentile of the distribution of the average of 49 fly balls.</li>
-</ol>
-</statement>
-</exercise>
-
-<exercise xml:id="ch7-element-820">
-<statement>
-<p>According to the Internal Revenue Service, the average length of time for an individual to complete (keep records for, learn, prepare, copy, assemble, and send) IRS Form 1040 is 10.53 hours (without any attached schedules). The distribution is unknown. Let us assume that the standard deviation is two hours. Suppose we randomly sample 36 taxpayers.</p>
-
-<ol>
-<li>In words, <em>Χ</em> = _____________.</li>
-<li>In words, <m>\overline{X}</m> = _____________.</li>
-<li><m>\overline{X}</m> ~ _____(_____, _____)</li>
-<li>Would you be surprised if the 36 taxpayers finished their Form 1040s in an average of more than 12 hours? Explain why or why not in complete sentences.</li>
-<li>Would you be surprised if one taxpayer finished his or her Form 1040 in more than 12 hours? In a complete sentence, explain why.</li>
-</ol>
-</statement>
-
-<solution>
-<ol>
-<li>length of time for an individual to complete IRS form 1040, in hours</li>
-<li>mean length of time for a sample of 36 taxpayers to complete IRS form 1040, in hours</li>
-<li><em>N</em><m>\left(10.53, \frac{1}{3}\right)</m></li>
-<li>Yes, I would be surprised, because the probability is almost 0.</li>
-<li>No, I would not be totally surprised because the probability is 0.2312.</li>
-</ol>
-</solution>
-</exercise>
-
-<exercise xml:id="ch7-element-133">
-<statement>
-<p>Suppose that a category of world-class runners are known to run a marathon (26 miles) in an average of 145 minutes with a standard deviation of 14 minutes. Consider 49 of the races. Let <m>\overline{X}</m> be the average of the 49 races.</p>
-
-<ol>
-<li><m>\overline{X}</m> ~ _____(_____, _____)</li>
-<li>Find the probability that the runner will average between 142 and 146 minutes in these 49 marathons.</li>
-<li>Find the 80<m>^{th}</m> percentile for the average of these 49 marathons.</li>
-<li>Find the median of the average running times.</li>
-</ol>
-</statement>
-</exercise>
-
-<exercise xml:id="ch7-element-848">
-<statement>
-<p>The length of songs in a collector's online album collection is uniformly distributed from 2 to 3.5 minutes. Suppose we randomly pick five albums from the collection. There are a total of 43 songs on the five albums.</p>
-
-<ol>
-<li>In words, <em>Χ</em> = _________.</li>
-<li><em>Χ</em> ~ _____________</li>
-<li>In words, <m>\overline{X}</m> = _____________.</li>
-<li><m>\overline{X}</m> ~ _____(_____, _____)</li>
-<li>Find the first quartile for the average song length.</li>
-<li>The IQR for the average song length is _______–_______.</li>
-</ol>
-</statement>
-
-<solution>
-<ol>
-<li>the length of a song, in minutes, in the collection</li>
-<li><em>U</em>(2, 3.5)</li>
-<li>the average length, in minutes, of the songs from a sample of five albums from the collection</li>
-<li><em>N</em>(2.75, 0.0220)</li>
-<li>2.74 minutes</li>
-<li>0.03 minutes</li>
-</ol>
-</solution>
-</exercise>
-
-<exercise xml:id="ch7-element-424">
-<statement>
-<p>In 1940, the average size of a U.S. farm was 174 acres. Let's say that the standard deviation was 55 acres. Suppose we randomly survey 38 farmers from 1940.</p>
-
-<ol>
-<li>In words, <em>Χ</em> = _____________.</li>
-<li>In words, <m>\overline{X}</m> = _____________.</li>
-<li><m>\overline{X}</m> ~ _____(_____, _____)</li>
-<li>The IQR for <m>\overline{X}</m> is from _______ acres to _______ acres.</li>
-</ol>
-</statement>
-</exercise>
-
-<exercise xml:id="ch7-element-371">
-<statement>
-<p>Determine which of the following are true and which are false. Then, in complete sentences, justify your answers.</p>
-
-<ol>
-<li>When the sample size is large, the mean of <m>\overline{X}</m> is approximately equal to the mean of <em>Χ</em>.</li>
-<li>When the sample size is large, <m>\overline{X}</m> is approximately normally distributed.</li>
-<li>When the sample size is large, the standard deviation of <m>\overline{X}</m> is approximately the same as the standard deviation of <em>Χ</em>.</li>
-</ol>
-</statement>
-
-<solution>
-<ol>
-<li>True. The mean of a sampling distribution of the means is approximately the mean of the data distribution.</li>
-<li>True. According to the central limit theorem, the larger the sample, the closer the sampling distribution of the means becomes normal.</li>
-<li>The standard deviation of the sampling distribution of the means will decrease, making it approximately the same as the standard deviation of X as the sample size increases.</li>
-</ol>
-</solution>
-</exercise>
-
-<exercise xml:id="ch7-element-169">
-<statement>
-<p>The percentage of fat calories that a person in America consumes each day is normally distributed with a mean of about 36 and a standard deviation of about ten. Suppose that 16 individuals are randomly chosen. Let <m>\overline{X}</m> = average percentage of fat calories.</p>
-
-<ol>
-<li><m>\overline{X}</m> ~ ______(______, ______)</li>
-<li>For the group of 16, find the probability that the average percentage of fat calories consumed is more than five. Graph the situation and shade in the area to be determined.</li>
-<li>Find the first quartile for the average percentage of fat calories.</li>
-</ol>
-</statement>
-</exercise>
-
-<exercise xml:id="ch7-element-795">
-<statement>
-<p>The distribution of income in some economically developing countries is considered wedge shaped (many very poor people, very few middle income people, and even fewer wealthy people). Suppose we pick a country with a wedge-shaped distribution. Let the average salary be $2,000 per year with a standard deviation of $8,000. We randomly survey 1,000 residents of that country.</p>
-
-<ol>
-<li>In words, <em>Χ</em> = _____________.</li>
-<li>In words, <m>\overline{X}</m> = _____________.</li>
-<li><m>\overline{X}</m> ~ _____(_____, _____)</li>
-<li>How is it possible for the standard deviation to be greater than the average?</li>
-<li>Why is it more likely that the average salary of the 1,000 residents will be from $2,000 to $2,100 than from $2,100 to $2,200?</li>
-</ol>
-</statement>
-
-<solution>
-<ol>
-<li><em>X</em> = the yearly income of someone in a Third World country</li>
-<li>the average salary from samples of 1,000 residents of a Third World country</li>
-<li><m>\overline{X}</m> ∼ <em>N</em><m>\left(2,000, \frac{8,000}{\sqrt{1,000}}\right)</m></li>
-<li>Very wide differences in data values can have averages smaller than standard deviations.</li>
-<li>The distribution of the sample mean will have higher probabilities closer to the population mean.
-
-<em>P</em>(2,000 &lt; <m>\overline{X}</m> &lt; 2,100) = 0.1537
-
-<em>P</em>(2,100 &lt; <m>\overline{X}</m> &lt; 2,200) = 0.1317</li>
-</ol>
-</solution>
-</exercise>
-
-<exercise xml:id="ch7-element-338">
-<statement>
-<p>Which of the following is NOT true about the distribution for averages?</p>
-
-<ol>
-<li>The mean, median, and mode are equal.</li>
-<li>The area under the curve is 1.</li>
-<li>The curve never touches the <em>x</em>-axis.</li>
-<li>The curve is skewed to the right.</li>
-</ol>
-</statement>
-</exercise>
-
-<exercise xml:id="ch7-element-680">
-<statement>
-<p>The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations. The distribution to use for the average cost of gasoline for the 16 gas stations is:</p>
-
-<ol>
-<li><m>\overline{X}</m> ~ <em>N</em>(4.59, 0.10)</li>
-<li><m>\overline{X}</m> ~ <em>N</em><m>\left(4.59, \frac{0.10}{\sqrt{16}}\right)</m></li>
-<li><m>\overline{X}</m> ~ <em>N</em><m>\left(4.59, \frac{16}{0.10}\right)</m></li>
-<li><m>\overline{X}</m> ~ <em>N</em><m>\left(4.59, \frac{\sqrt{16}}{0.10}\right)</m></li>
-</ol>
-</statement>
-
-<solution>
-<p>b</p>
-</solution>
-</exercise>
-</subsection>
-
 </section>
 <section xml:id="ch7-fs-id1164562341127">
 <title>The Central Limit Theorem for Sums</title>
@@ -1079,86 +869,6 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 <statement>
 <p>What is <em>P</em>(<em>Σx</em> &gt; 9000)?</p>
 </statement>
-</exercise>
-</section>
-
-<section xml:id="ch7-fs-idm107340336">
-<title>Homework</title>
-
-<exercise xml:id="ch7-fs-idm54402176">
-<statement>
-<p>Which of the following is NOT true about the theoretical distribution of sums?</p>
-<ol>
-<li>The mean, median, and mode are equal.</li>
-<li>The area under the curve is one.</li>
-<li>The curve never touches the <em>x</em>-axis.</li>
-<li>The curve is skewed to the right.</li>
-</ol>
-</statement>
-</exercise>
-
-<exercise xml:id="ch7-element-119">
-<statement>
-<p>Suppose that the duration of a particular type of criminal trial is known to have a mean of 21 days and a standard deviation of seven days. We randomly sample nine trials.</p>
-<ol>
-<li>In words, <em>ΣX</em> = ______________.</li>
-<li><em>ΣX</em> ~ _____(_____, _____)</li>
-<li>Find the probability that the total length of the nine trials is at least 225 days.</li>
-<li>Ninety percent of the total of nine of these types of trials will last at least how long?</li>
-</ol>
-</statement>
-<solution>
-<ol>
-<li>the total length of time for nine criminal trials</li>
-<li><em>N</em>(189, 21)</li>
-<li>0.0432</li>
-<li>162.09; 90 percent of the total nine trials of this type will last 162 days or more.</li>
-</ol>
-</solution>
-</exercise>
-
-<exercise xml:id="ch7-element-797">
-<statement>
-<p>Suppose that the weight of open boxes of cereal in a home with children is uniformly distributed from two to six pounds with a mean of four pounds and standard deviation of 1.1547. We randomly survey 64 homes with children.</p>
-<ol>
-<li>In words, <em>X</em> = _____________.</li>
-<li>The distribution is _______.</li>
-<li>In words, <em>ΣX</em> = _______________.</li>
-<li><em>ΣX</em> ~ _____(_____, _____)</li>
-<li>Find the probability that the total weight of the open boxes is less than 250 pounds.</li>
-<li>Find the 35<m>^{th}</m> percentile for the total weight of open boxes of cereal.</li>
-</ol>
-</statement>
-</exercise>
-
-<exercise xml:id="ch7-element-138-1">
-<statement>
-<p>Salaries for entry-level managers at a restaurant chain are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey 10 managers from these restaurants.</p>
-<ol>
-<li>In words, <em>X</em> = ______________.</li>
-<li><em>X</em> ~ _____(_____, _____)</li>
-<li>In words, <em>ΣX</em> = _____________.</li>
-<li><em>ΣX</em> ~ _____(_____, _____)</li>
-<li>Find the probability that the managers earn a total of over $400,000.</li>
-<li>Find the 90<m>^{th}</m> percentile for an individual manager's salary.</li>
-<li>Find the 90<m>^{th}</m> percentile for the sum of ten managers' salary.</li>
-<li>If we surveyed 70 managers instead of ten, graphically, how would that change the distribution in part (d)?</li>
-<li>If each of the 70 managers received a $3,000 raise, graphically, how would that change the distribution in part (b)?</li>
-</ol>
-</statement>
-<solution>
-<ol>
-<li><em>X</em> = the salary of one elementary school teacher in the district</li>
-<li><em>X</em> ~ <em>N</em>(44000, 6500)</li>
-<li><em>ΣX</em> ~ sum of the salaries of 10 elementary school teachers in the sample</li>
-<li><em>ΣX</em> ~ <em>N</em>(44,000, 20,554.80)</li>
-<li>0.9742</li>
-<li>$52,330.09</li>
-<li>466,342.04</li>
-<li>Sampling 70 teachers instead of 10 would cause the distribution to be more spread out. It would be a more symmetrical normal curve.</li>
-<li>If every teacher received a $3,000 raise, the distribution of <em>X</em> would shift to the right by $3,000. In other words, it would have a mean of $47,000.</li>
-</ol>
-</solution>
 </exercise>
 </section>
 
@@ -1660,426 +1370,6 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       <statement>
         <p>Find the 80<m>^{th}</m> percentile for the sums.</p>
       </statement>
-    </exercise>
-  </subsection>
-  <subsection xml:id="ch7-fs-idm47834016">
-    <title>Homework</title>
-    <exercise xml:id="ch7-element-941">
-      <statement>
-        <p>The attention span of a two-year-old is exponentially distributed with a mean of about eight minutes. Suppose we randomly survey 60 two-year-olds.</p>
-        <ol>
-          <li>In words, <em>Χ</em> = _______.</li>
-          <li><em>Χ</em> ~  _____(_____, _____)</li>
-          <li>In words, <m>\overline{X}</m> = ____________.</li>
-          <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
-          <li>Before doing any calculations, which do you think will be higher? Explain why.
-
-The probability that an individual attention span is less than 10 minutes.
-The probability that the average attention span for the 60 children is less than 10 minutes.
-
-</li>
-          <li>Calculate the probabilities in part (e).</li>
-          <li>Explain why the distribution for <m>\overline{X}</m> is not exponential.</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch7-element-897">
-      <statement>
-        <p>The closing stock prices of 35 U.S. semiconductor manufacturers are given as follows:</p>
-        <table xml:id="ch7-fs-id1169831699204">
-          <tabular>
-            <row header="yes"><cell>Company</cell> <cell>Closing Stock Prices</cell></row>
-            <row><cell>1</cell> <cell>8.625</cell></row>
-            <row><cell>2</cell> <cell>30.25</cell></row>
-            <row><cell>3</cell> <cell>27.625</cell></row>
-            <row><cell>4</cell> <cell>46.75</cell></row>
-            <row><cell>5</cell> <cell>32.875</cell></row>
-            <row><cell>6</cell> <cell>18.25</cell></row>
-            <row><cell>7</cell> <cell>5</cell></row>
-            <row><cell>8</cell> <cell>0.125</cell></row>
-            <row><cell>9</cell> <cell>2.9375</cell></row>
-            <row><cell>10</cell> <cell>6.875</cell></row>
-            <row><cell>11</cell> <cell>28.25</cell></row>
-            <row><cell>12</cell> <cell>24.25</cell></row>
-            <row><cell>13</cell> <cell>21</cell></row>
-            <row><cell>14</cell> <cell>1.5</cell></row>
-            <row><cell>15</cell> <cell>30.25</cell></row>
-            <row><cell>16</cell> <cell>71</cell></row>
-            <row><cell>17</cell> <cell>43.5</cell></row>
-            <row><cell>18</cell> <cell>49.25</cell></row>
-            <row><cell>19</cell> <cell>2.5625</cell></row>
-            <row><cell>20</cell> <cell>31</cell></row>
-            <row><cell>21</cell> <cell>16.5</cell></row>
-            <row><cell>22</cell> <cell>9.5</cell></row>
-            <row><cell>23</cell> <cell>18.5</cell></row>
-            <row><cell>24</cell> <cell>18</cell></row>
-            <row><cell>25</cell> <cell>9</cell></row>
-            <row><cell>26</cell> <cell>10.5</cell></row>
-            <row><cell>27</cell> <cell>16.625</cell></row>
-            <row><cell>28</cell> <cell>1.25</cell></row>
-            <row><cell>29</cell> <cell>18</cell></row>
-            <row><cell>30</cell> <cell>12.87</cell></row>
-            <row><cell>31</cell> <cell>7</cell></row>
-            <row><cell>32</cell> <cell>12.875</cell></row>
-            <row><cell>33</cell> <cell>2.875</cell></row>
-            <row><cell>34</cell> <cell>60.25</cell></row>
-            <row><cell>35</cell> <cell>29.25</cell></row>
-          </tabular>
-        </table>
-        <ol>
-          <li>In words, <em>Χ</em> = ______________.</li>
-          <li>
-<m>\overline{x}</m> = _____
-<em>s<m>_{x}</m></em> = _____
-<em>n</em> = _____
-
-</li>
-          <li>Construct a histogram of the distribution of the averages. Start at <em>x</em> = –0.0005. Use bar widths of 10.</li>
-          <li>In words, describe the distribution of the stock prices.</li>
-          <li>Randomly average five stock prices together. (Use a random number generator.) Continue averaging five prices together until you have 10 averages. List those 10 averages.</li>
-          <li>Use the 10 averages from part (e) to calculate the following:
-<m>\overline{x}</m> = _____
-<em>s<m>_{x}</m></em> = _____
-</li>
-          <li>Construct a histogram of the distribution of the averages. Start at <em>x</em> = –0.0005. Use bar widths of 10.</li>
-          <li>Does this histogram look like the graph in Part (c)?</li>
-          <li>In one or two complete sentences, explain why the graphs either look the same or look different.</li>
-          <li>Based on the theory of the central limit theorem, <m>\overline{X}</m> ~ _____(_____, ____).</li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li><em>X</em> = the closing stock prices for U.S. semiconductor manufacturers</li>
-          <li>i. $20.71, ii. $17.31, iii. 35</li>
-          <li />
-          <li>exponential distribution, <em>Χ ~ Exp</em><m>(\frac{1}{20.71})</m></li>
-          <li>Answers will vary.</li>
-          <li>i. $20.71, ii. $11.14</li>
-          <li>Answers will vary.</li>
-          <li>Answers will vary.</li>
-          <li>Answers will vary.</li>
-          <li><em>N</em><m>(\text{20}\text{.71, }\frac{17.31}{\sqrt{5}})</m></li>
-        </ol>
-      </solution>
-    </exercise>
-    <p><em>Use the following information to answer the next three exercises:</em> Richard’s Furniture Company delivers furniture from 10 a.m. to 2 p.m. continuously and uniformly. We are interested in how long (in hours) past the 10 a.m. start time that individuals wait for their delivery.</p>
-    <exercise xml:id="ch7-element-725">
-      <statement>
-        <p><em>Χ</em> ~ _____(_____, _____)</p>
-        <ol>
-          <li><em>U</em>(0, 4)</li>
-          <li><em>U</em>(10, 2)</li>
-          <li><em>Eχp</em>(2)</li>
-          <li><em>N</em>(2, 1)</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch7-element-407">
-      <statement>
-        <p>The average wait time is:</p>
-        <ol>
-          <li>one hour</li>
-          <li>two hours</li>
-          <li>two and a half hours</li>
-          <li>four hours</li>
-        </ol>
-      </statement>
-      <solution>
-        <p>b</p>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch7-element-191">
-      <statement>
-        <p>Suppose that it is now past noon on a delivery day. The probability that a person must wait at least one and a half more hours is</p>
-        <ol>
-          <li><m>\frac{1}{4}</m></li>
-          <li><m>\frac{1}{2}</m>
-</li>
-          <li><m>\frac{3}{4}</m>
-</li>
-          <li><m>\frac{3}{8}</m>
-</li>
-        </ol>
-      </statement>
-    </exercise>
-    <p><em>Use the following information to answer the next two exercises:</em> The time to wait for a particular rural bus is distributed uniformly from zero to 75 minutes. One hundred riders are randomly sampled to learn how long they waited.</p>
-    <exercise xml:id="ch7-element-620">
-      <statement>
-        <p>The 90<m>^{th}</m> percentile sample average wait time (in minutes) for a sample of 100 riders is:</p>
-        <ol>
-          <li>315.0</li>
-          <li>40.3	</li>
-          <li>38.5	</li>
-          <li>65.2</li>
-        </ol>
-      </statement>
-      <solution>
-        <p>b</p>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch7-element-339">
-      <statement>
-        <p>Would you be surprised, based on numerical calculations, if the sample average wait time (in minutes) for 100 riders was less than 30 minutes?</p>
-        <ol>
-          <li>yes</li>
-          <li>no</li>
-          <li>There is not enough information.	</li>
-        </ol>
-      </statement>
-    </exercise>
-    <p><em>Use the following to answer the next two exercises:</em> The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.</p>
-    <exercise xml:id="ch7-element-644">
-      <statement>
-        <p>What's the approximate probability that the average price for 16 gas stations is more than $4.69?</p>
-        <ol>
-          <li>almost zero</li>
-          <li>0.1587</li>
-          <li>0.0943</li>
-          <li>unknown</li>
-        </ol>
-      </statement>
-      <solution>
-        <p>a</p>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch7-eip--415">
-      <statement>
-        <p>Find the probability that the average price for 30 gas stations is less than $4.55.</p>
-        <ol>
-          <li>0.6554</li>
-          <li>0.3446</li>
-          <li>0.0142</li>
-          <li>0.9858</li>
-          <li>0</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch7-eip--786">
-      <statement>
-        <p>Suppose in a local kindergarten through 12<m>^{th}</m> grade (K12) school district, 53 percent of the population favor a charter school for grades K through five. A simple random sample of 300 is surveyed. Calculate the following using the normal approximation to the binomial distribtion.</p>
-        <ol>
-          <li>Find the probability that less than 100 favor a charter school for grades K through 5.</li>
-          <li>Find the probability that 170 or more favor a charter school for grades K through 5.</li>
-          <li>Find the probability that no more than 140 favor a charter school for grades K through 5.</li>
-          <li>Find the probability that there are fewer than 130 that favor a charter school for grades K through 5.</li>
-          <li>Find the probability that exactly 150 favor a charter school for grades K through 5.</li>
-        </ol>
-        <p>If you have access to an appropriate calculator or computer software, try calculating these probabilities using the technology.</p>
-      </statement>
-      <solution>
-        <ol>
-          <li>0</li>
-          <li>0.1123</li>
-          <li>0.0162</li>
-          <li>0.0003</li>
-          <li>0.0268</li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch7-eip--140">
-      <statement>
-        <p>Four friends, Janice, Barbara, Kathy, and Roberta, decided to carpool together to get to school. Each day the driver would be chosen by randomly selecting one of the four names. They carpool to school for 96 days. Use the normal approximation to the binomial to calculate the following probabilities. Round the standard deviation to four decimal places.</p>
-        <ol>
-          <li>Find the probability that Janice is the driver at most 20 days.</li>
-          <li>Find the probability that Roberta is the driver more than 16 days.</li>
-          <li>Find the probability that Barbara drives exactly 24 of those 96 days.</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch7-element-440">
-      <statement>
-        <p><em>X</em> ~ <em>N</em>(60, 9). Suppose that you form random samples of 25 from this distribution. Let <m>\overline{X}</m> be the random variable of averages. Let <em>ΣX</em> be the random variable of sums. For parts (c) through (f), sketch the graph, shade the region, label and scale the horizontal axis for <m>\overline{X}</m>, and find the probability.</p>
-        <ol>
-          <li>Sketch the distributions of <em>X</em> and
-<m>\overline{X}</m> on the same graph.</li>
-          <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
-          <li><em>P</em>(<m>\overline{x}</m> &lt; 60) = _____</li>
-          <li>Find the 30<m>^{th}</m> percentile for the mean.</li>
-          <li><em>P</em>(56 &lt; <m>\overline{x}</m> &lt; 62) = _____</li>
-          <li><em>P</em>(18 &lt; <m>\overline{x}</m> &lt; 58) = _____</li>
-          <li><em>Σx</em> ~ _____(_____, _____)</li>
-          <li>Find the minimum value for the upper quartile for the sum.</li>
-          <li><em>P</em>(1400 &lt; <em>Σx</em> &lt; 1550) = _____</li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li>Check student’s solution.</li>
-          <li><m>\overline{X}</m> ~ <em>N</em><m>(\text{60, }\frac{9}{\sqrt{25}})</m></li>
-          <li>0.5000</li>
-          <li>59.06</li>
-          <li>0.8536</li>
-          <li>0.1333</li>
-          <li> <em>N</em>(1500, 45)</li>
-          <li>1530.35</li>
-          <li>0.6877
-</li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch7-element-666">
-      <statement>
-        <p>Suppose that the length of research papers is uniformly distributed from 10 to 25 pages. We survey a class in which 55 research papers were turned in to a professor. The 55 research papers are considered a random collection of all papers. We are interested in the average length of the research papers.</p>
-        <ol>
-          <li>In words, <em>X</em> = _____________.</li>
-          <li><em>X</em> ~ _____(_____, _____)</li>
-          <li><em>μ<m>_{x}</m></em> = _____</li>
-          <li><em>σ<m>_{x}</m></em> = _____</li>
-          <li>In words, <m>\overline{X}</m> = ______________.</li>
-          <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
-          <li>In words, <em>ΣX</em> = _____________.</li>
-          <li><em>ΣX</em> ~ _____(_____, _____)</li>
-          <li>Without doing any calculations, do you think that it’s likely the professor will need to read a total of more than 1,050 pages? Why?</li>
-          <li>Calculate the probability that the professor will need to read a total of more than 1,050 pages.</li>
-          <li>Why is it so unlikely that the average length of the papers will be less than 12 pages?</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch7-element-138">
-      <statement>
-        <p>Salaries for managers in a restaurant chain are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey 10 managers from that district.</p>
-        <ol>
-          <li>Find the 90<m>^{th}</m> percentile for an individual manager's salary.</li>
-          <li>Find the 90<m>^{th}</m> percentile for the average manager's salary.</li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li>$52,330</li>
-          <li>$46,634</li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch7-element-566">
-      <statement>
-        <p>The average length of a maternity stay in a U.S. hospital is said to be 2.4 days with a standard deviation of 0.9 days. We randomly survey 80 women who recently bore children in a U.S. hospital.</p>
-        <ol>
-          <li>In words, <em>X</em> = _____________.</li>
-          <li>In words, <m>\overline{X}</m> = ___________________.</li>
-          <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
-          <li>In words, <em>ΣX</em> = _______________.</li>
-          <li><em>ΣX</em> ~ _____(_____, _____)</li>
-          <li>Is it likely that an individual stayed more than five days in the hospital? Why or why not?</li>
-          <li>Is it likely that the average stay for the 80 women was more than five days? Why or why not?</li>
-          <li>Which is more likely:
-
-An individual stayed more than five days.
-The average stay of 80 women was more than five days.</li>
-          <li>If we were to sum up the women’s stays, is it likely that collectively, they spent more than a year in the hospital? Why or why not?</li>
-        </ol>
-      </statement>
-    </exercise>
-    <p><em>For each problem, wherever possible, provide graphs and use a calculator.</em></p>
-    <exercise xml:id="ch7-fs-idm4142208">
-      <statement>
-        <p>NeverReady batteries has engineered a newer, longer-lasting AAA battery. The company claims this battery has an average life span of 17 hours with a standard deviation of 0.8 hours. Your statistics class questions this claim. As a class, you randomly select 30 batteries and find that the sample mean life span is 16.7 hours. If the process is working properly, what is the probability of getting a random sample of 30 batteries in which the sample mean life span is 16.7 hours or less? Is the company’s claim reasonable?</p>
-      </statement>
-      <solution>
-        <ul>
-          <li>We have <em>μ</em> = 17, σ = 0.8, <m>\overline{x}</m> = 16.7, and <em>n</em> = 30. To calculate the probability, we use <c>normalcdf</c>(lower, upper, <em>μ</em>, <m>\frac{\sigma}{\sqrt{n}}</m>) = <c>normalcdf</c><m>(E-\text{99,16}\text{.7,17,}\frac{0.\text{8}}{\sqrt{\text{30}}})</m> = 0.0200.</li>
-          <li>If the process is working properly, then the probability that a sample of 30 batteries would have at most 16.7 life span hours is only 2%. Therefore, the class was justified to question the claim.</li>
-        </ul>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch7-fs-idm165833488">
-      <statement>
-        <p>Men have an average weight of 172 pounds with a standard deviation of 29 pounds.</p>
-        <ol>
-          <li>Find the probability that 20 randomly selected men will have a sum weight greater than 3,600 pounds.</li>
-          <li>If 20 men have a sum weight greater than 3,500 pounds, then their total weight exceeds the safety limits for water taxis. Based on (a), is this a safety concern? Explain.</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch7-fs-idp87424832">
-      <statement>
-        <p>Large bags of a brand of  multicolored candies have a claimed net weight of 396.9 g. The standard deviation for the weight of the individual candies is 0.017 g. The following table is from a stats experiment conducted by a statistics class.</p>
-        <table xml:id="ch7-fs-idm55488384">
-          <tabular>
-            <row header="yes"><cell>Red (g)</cell> <cell>Orange (g)</cell> <cell>Yellow (g)</cell> <cell>Brown (g)</cell> <cell>Blue (g)</cell> <cell>Green (g)</cell></row>
-            <row><cell>0.751</cell> <cell>0.735</cell> <cell>0.883</cell> <cell>0.696</cell> <cell>0.881</cell> <cell>0.925</cell></row>
-            <row><cell>0.841</cell> <cell>0.895</cell> <cell>0.769</cell> <cell>0.876</cell> <cell>0.863</cell> <cell>0.914</cell></row>
-            <row><cell>0.856</cell> <cell>0.865</cell> <cell>0.859</cell> <cell>0.855</cell> <cell>0.775</cell> <cell>0.881</cell></row>
-            <row><cell>0.799</cell> <cell>0.864</cell> <cell>0.784</cell> <cell>0.806</cell> <cell>0.854</cell> <cell>0.865</cell></row>
-            <row><cell>0.966</cell> <cell>0.852</cell> <cell>0.824</cell> <cell>0.840</cell> <cell>0.810</cell> <cell>0.865</cell></row>
-            <row><cell>0.859</cell> <cell>0.866</cell> <cell>0.858</cell> <cell>0.868</cell> <cell>0.858</cell> <cell>1.015</cell></row>
-            <row><cell>0.857</cell> <cell>0.859</cell> <cell>0.848</cell> <cell>0.859</cell> <cell>0.818</cell> <cell>0.876</cell></row>
-            <row><cell>0.942</cell> <cell>0.838</cell> <cell>0.851</cell> <cell>0.982</cell> <cell>0.868</cell> <cell>0.809</cell></row>
-            <row><cell>0.873</cell> <cell>0.863</cell> <cell /> <cell /> <cell>0.803</cell> <cell>0.865</cell></row>
-            <row><cell>0.809</cell> <cell>0.888</cell> <cell /> <cell /> <cell>0.932</cell> <cell>0.848</cell></row>
-            <row><cell>0.890</cell> <cell>0.925</cell> <cell /> <cell /> <cell>0.842</cell> <cell>0.940</cell></row>
-            <row><cell>0.878</cell> <cell>0.793</cell> <cell /> <cell /> <cell>0.832</cell> <cell>0.833</cell></row>
-            <row><cell>0.905</cell> <cell>0.977</cell> <cell /> <cell /> <cell>0.807</cell> <cell>0.845</cell></row>
-            <row><cell /> <cell>0.850</cell> <cell /> <cell /> <cell>0.841</cell> <cell>0.852</cell></row>
-            <row><cell /> <cell>0.830</cell> <cell /> <cell /> <cell>0.932</cell> <cell>0.778</cell></row>
-            <row><cell /> <cell>0.856</cell> <cell /> <cell /> <cell>0.833</cell> <cell>0.814</cell></row>
-            <row><cell /> <cell>0.842</cell> <cell /> <cell /> <cell>0.881</cell> <cell>0.791</cell></row>
-            <row><cell /> <cell>0.778</cell> <cell /> <cell /> <cell>0.818</cell> <cell>0.810</cell></row>
-            <row><cell /> <cell>0.786</cell> <cell /> <cell /> <cell>0.864</cell> <cell>0.881</cell></row>
-            <row><cell /> <cell>0.853</cell> <cell /> <cell /> <cell>0.825</cell> <cell /></row>
-            <row><cell /> <cell>0.864</cell> <cell /> <cell /> <cell>0.855</cell> <cell /></row>
-            <row><cell /> <cell>0.873</cell> <cell /> <cell /> <cell>0.942</cell> <cell /></row>
-            <row><cell /> <cell>0.880</cell> <cell /> <cell /> <cell>0.825</cell> <cell /></row>
-            <row><cell /> <cell>0.882</cell> <cell /> <cell /> <cell>0.869</cell> <cell /></row>
-            <row><cell /> <cell>0.931</cell> <cell /> <cell /> <cell>0.912</cell> <cell /></row>
-            <row><cell /> <cell /> <cell /> <cell /> <cell>0.887</cell> <cell /></row>
-          </tabular>
-        </table>
-        <p>The bag contained 465 candies and the listed weights in the table came from randomly selected candies. Count the weights.</p>
-        <ol>
-          <li>Find the mean sample weight and the standard deviation of the sample weights of candies in the table.</li>
-          <li>Find the sum of the sample weights in the table and the standard deviation of the sum of the weights.</li>
-          <li>If 465 candies are randomly selected, find the probability that their weights sum to at least 396.9 g.</li>
-          <li>Is the candy company's labeling accurate?</li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li>For the sample, we have <em>n</em> = 100, <m>\overline{x}</m> = 0.862, and <em>s</em> = 0.05.</li>
-          <li><m>\Sigma\overline{x}</m> = 85.65, <em>Σs</em> = 5.18</li>
-          <li><c>normalcdf</c>(396.9,<em>E</em>99,(465)(0.8565),(0.05)(<m>\sqrt{465}</m>)) ≈ 1</li>
-          <li>Because the probability of a sample of size of 465 having at least a mean sum of 396.9 is appproximately 1, we can conclude that the company is correctly labeling their candy packages.</li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch7-fs-idp89909664">
-      <statement>
-        <p>The Screw Right Company claims their <m>\frac{3}{4}</m>inch screws are within ±0.23 of the claimed mean diameter of 0.750 inches with a standard deviation of 0.115 inches. The following data were recorded.</p>
-        <table xml:id="ch7-fs-idm10579216">
-          <tabular>
-            <row><cell>0.757</cell> <cell>0.723</cell> <cell>0.754</cell> <cell>0.737</cell> <cell>0.757</cell> <cell>0.741</cell> <cell>0.722</cell> <cell>0.741</cell> <cell>0.743</cell> <cell>0.742</cell></row>
-            <row><cell>0.740</cell> <cell>0.758</cell> <cell>0.724</cell> <cell>0.739</cell> <cell>0.736</cell> <cell>0.735</cell> <cell>0.760</cell> <cell>0.750</cell> <cell>0.759</cell> <cell>0.754</cell></row>
-            <row><cell>0.744</cell> <cell>0.758</cell> <cell>0.765</cell> <cell>0.756</cell> <cell>0.738</cell> <cell>0.742</cell> <cell>0.758</cell> <cell>0.757</cell> <cell>0.724</cell> <cell>0.757</cell></row>
-            <row><cell>0.744</cell> <cell>0.738</cell> <cell>0.763</cell> <cell>0.756</cell> <cell>0.760</cell> <cell>0.768</cell> <cell>0.761</cell> <cell>0.742</cell> <cell>0.734</cell> <cell>0.754</cell></row>
-            <row><cell>0.758</cell> <cell>0.735</cell> <cell>0.740</cell> <cell>0.743</cell> <cell>0.737</cell> <cell>0.737</cell> <cell>0.725</cell> <cell>0.761</cell> <cell>0.758</cell> <cell>0.756</cell></row>
-          </tabular>
-        </table>
-        <p>The screws were randomly selected from the local home repair store.</p>
-        <ol>
-          <li>Find the mean diameter and standard deviation for the sample.</li>
-          <li>Find the probability that 50 randomly selected screws will be within the stated tolerance levels. Is the company’s diameter claim plausible?</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch7-fs-idm3642992">
-      <statement>
-        <p>Your company has a contract to perform preventive maintenance on thousands of air conditioners in a large city. Based on service records from previous years, the time that a technician spends servicing a unit averages one hour with a standard deviation of one hour. In the coming week, your company will service a simple random sample of 70 units in the city. You plan to budget an average of 1.1 hours per technician to complete the work. Will this be enough time?</p>
-      </statement>
-      <solution>
-        <p>Use <c>normalcdf</c><m>(E-\text{99,1}\text{.1,1,}\frac{1}{\sqrt{\text{70}}})</m> = 0.7986. This means that there is an 80 percent chance that the service time will be less than 1.1 hours. It may be wise to schedule more time because there is an associated 20 percent chance that the maintenance time will be greater than 1.1 hours.</p>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch7-fs-idm37303792">
-      <statement>
-        <p>A typical adult has an average IQ score of 105 with a standard deviation of 20. If 20 randomly selected adults are given an IQ test, what is the probability that the sample mean scores will be between 85 and 125 points?</p>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch7-fs-idm31585616">
-      <statement>
-        <p>Certain coins have an average weight of 5.201 g with a standard deviation of 0.065 g. If a vending machine is designed to accept coins whose weights range from 5.111 g to 5.291 g, what is the expected number of rejected coins when 280 randomly selected coins are inserted into the machine?</p>
-      </statement>
-      <solution>
-        <p>Because we have <c>normalcdf</c><m>(5.\text{111,5}\text{.291,5}\text{.201,}\frac{0.\text{065}}{\sqrt{\text{280}}})</m> ≈ 1, we can  conclude that practically all the coins are within the limits; therefore, there should be no rejected coins out of a well-selected sample size of 280.</p>
-      </solution>
     </exercise>
   </subsection>
 </section><section xml:id="m79651">
@@ -2815,6 +2105,710 @@ The average stay of 80 women was more than five days.</li>
   </exploration>
   
 </section>
+  <section xml:id="sec-central-limit-theorem-homework">
+    <title>Homework</title>
+
+<exercise xml:id="ch7-element-475">
+<statement>
+<p>Previously, De Anza's statistics students estimated that the amount of change daytime statistics students carry is exponentially distributed with a mean of $0.88. Suppose that we randomly pick 25 daytime statistics students.</p>
+
+<ol>
+<li>In words, <em>Χ</em> = ____________.</li>
+<li><em>Χ</em> ~ _____(_____, _____)</li>
+<li>In words, <m>\overline{X}</m> = ____________.</li>
+<li><m>\overline{X}</m> ~ ______ (______, ______)</li>
+<li>Find the probability that an individual had between $0.80 and $1.00. Graph the situation, and shade in the area to be determined.</li>
+<li>Find the probability that the average amount of change of the 25 students was between $0.80 and $1.00. Graph the situation, and shade in the area to be determined.</li>
+<li>Explain why there is a difference in part (e) and part (f).</li>
+</ol>
+</statement>
+
+<solution>
+<ol>
+<li><em>Χ</em> = amount of change students carry</li>
+<li><em>Χ</em> ~ <em>Exp</em>(1/0.88) or approximately <em>Χ</em> ~ <em>Exp</em>(1.1364)</li>
+<li><m>\overline{X}</m> = average amount of change carried by a sample of 25 students.</li>
+<li><m>\overline{X}</m> ~ <em>N</em>(0.88, 0.176)</li>
+<li>0.0819</li>
+<li>0.4276</li>
+<li>The probability in part (e) represents the probability of an individual value. In part (f), the probability describes the mean of a sample of 25. Part (f) relies on the central limit theorem, so the distributions are different. Part (e) is exponential and part (f) is normal.</li>
+</ol>
+</solution>
+</exercise>
+
+<exercise xml:id="ch7-element-51">
+<statement>
+<p>Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet. We randomly sample 49 fly balls.</p>
+
+<ol>
+<li>If <m>\overline{X}</m> = average distance in feet for 49 fly balls, then <m>\overline{X}</m> ~ _______(_______, _______).</li>
+<li>What is the probability that the 49 balls traveled an average of less than 240 feet? Sketch the graph. Scale the horizontal axis for <m>\overline{X}</m>. Shade the region corresponding to the probability. Find the probability.</li>
+<li>Find the 80<m>^{th}</m> percentile of the distribution of the average of 49 fly balls.</li>
+</ol>
+</statement>
+</exercise>
+
+<exercise xml:id="ch7-element-820">
+<statement>
+<p>According to the Internal Revenue Service, the average length of time for an individual to complete (keep records for, learn, prepare, copy, assemble, and send) IRS Form 1040 is 10.53 hours (without any attached schedules). The distribution is unknown. Let us assume that the standard deviation is two hours. Suppose we randomly sample 36 taxpayers.</p>
+
+<ol>
+<li>In words, <em>Χ</em> = _____________.</li>
+<li>In words, <m>\overline{X}</m> = _____________.</li>
+<li><m>\overline{X}</m> ~ _____(_____, _____)</li>
+<li>Would you be surprised if the 36 taxpayers finished their Form 1040s in an average of more than 12 hours? Explain why or why not in complete sentences.</li>
+<li>Would you be surprised if one taxpayer finished his or her Form 1040 in more than 12 hours? In a complete sentence, explain why.</li>
+</ol>
+</statement>
+
+<solution>
+<ol>
+<li>length of time for an individual to complete IRS form 1040, in hours</li>
+<li>mean length of time for a sample of 36 taxpayers to complete IRS form 1040, in hours</li>
+<li><em>N</em><m>\left(10.53, \frac{1}{3}\right)</m></li>
+<li>Yes, I would be surprised, because the probability is almost 0.</li>
+<li>No, I would not be totally surprised because the probability is 0.2312.</li>
+</ol>
+</solution>
+</exercise>
+
+<exercise xml:id="ch7-element-133">
+<statement>
+<p>Suppose that a category of world-class runners are known to run a marathon (26 miles) in an average of 145 minutes with a standard deviation of 14 minutes. Consider 49 of the races. Let <m>\overline{X}</m> be the average of the 49 races.</p>
+
+<ol>
+<li><m>\overline{X}</m> ~ _____(_____, _____)</li>
+<li>Find the probability that the runner will average between 142 and 146 minutes in these 49 marathons.</li>
+<li>Find the 80<m>^{th}</m> percentile for the average of these 49 marathons.</li>
+<li>Find the median of the average running times.</li>
+</ol>
+</statement>
+</exercise>
+
+<exercise xml:id="ch7-element-848">
+<statement>
+<p>The length of songs in a collector's online album collection is uniformly distributed from 2 to 3.5 minutes. Suppose we randomly pick five albums from the collection. There are a total of 43 songs on the five albums.</p>
+
+<ol>
+<li>In words, <em>Χ</em> = _________.</li>
+<li><em>Χ</em> ~ _____________</li>
+<li>In words, <m>\overline{X}</m> = _____________.</li>
+<li><m>\overline{X}</m> ~ _____(_____, _____)</li>
+<li>Find the first quartile for the average song length.</li>
+<li>The IQR for the average song length is _______–_______.</li>
+</ol>
+</statement>
+
+<solution>
+<ol>
+<li>the length of a song, in minutes, in the collection</li>
+<li><em>U</em>(2, 3.5)</li>
+<li>the average length, in minutes, of the songs from a sample of five albums from the collection</li>
+<li><em>N</em>(2.75, 0.0220)</li>
+<li>2.74 minutes</li>
+<li>0.03 minutes</li>
+</ol>
+</solution>
+</exercise>
+
+<exercise xml:id="ch7-element-424">
+<statement>
+<p>In 1940, the average size of a U.S. farm was 174 acres. Let's say that the standard deviation was 55 acres. Suppose we randomly survey 38 farmers from 1940.</p>
+
+<ol>
+<li>In words, <em>Χ</em> = _____________.</li>
+<li>In words, <m>\overline{X}</m> = _____________.</li>
+<li><m>\overline{X}</m> ~ _____(_____, _____)</li>
+<li>The IQR for <m>\overline{X}</m> is from _______ acres to _______ acres.</li>
+</ol>
+</statement>
+</exercise>
+
+<exercise xml:id="ch7-element-371">
+<statement>
+<p>Determine which of the following are true and which are false. Then, in complete sentences, justify your answers.</p>
+
+<ol>
+<li>When the sample size is large, the mean of <m>\overline{X}</m> is approximately equal to the mean of <em>Χ</em>.</li>
+<li>When the sample size is large, <m>\overline{X}</m> is approximately normally distributed.</li>
+<li>When the sample size is large, the standard deviation of <m>\overline{X}</m> is approximately the same as the standard deviation of <em>Χ</em>.</li>
+</ol>
+</statement>
+
+<solution>
+<ol>
+<li>True. The mean of a sampling distribution of the means is approximately the mean of the data distribution.</li>
+<li>True. According to the central limit theorem, the larger the sample, the closer the sampling distribution of the means becomes normal.</li>
+<li>The standard deviation of the sampling distribution of the means will decrease, making it approximately the same as the standard deviation of X as the sample size increases.</li>
+</ol>
+</solution>
+</exercise>
+
+<exercise xml:id="ch7-element-169">
+<statement>
+<p>The percentage of fat calories that a person in America consumes each day is normally distributed with a mean of about 36 and a standard deviation of about ten. Suppose that 16 individuals are randomly chosen. Let <m>\overline{X}</m> = average percentage of fat calories.</p>
+
+<ol>
+<li><m>\overline{X}</m> ~ ______(______, ______)</li>
+<li>For the group of 16, find the probability that the average percentage of fat calories consumed is more than five. Graph the situation and shade in the area to be determined.</li>
+<li>Find the first quartile for the average percentage of fat calories.</li>
+</ol>
+</statement>
+</exercise>
+
+<exercise xml:id="ch7-element-795">
+<statement>
+<p>The distribution of income in some economically developing countries is considered wedge shaped (many very poor people, very few middle income people, and even fewer wealthy people). Suppose we pick a country with a wedge-shaped distribution. Let the average salary be $2,000 per year with a standard deviation of $8,000. We randomly survey 1,000 residents of that country.</p>
+
+<ol>
+<li>In words, <em>Χ</em> = _____________.</li>
+<li>In words, <m>\overline{X}</m> = _____________.</li>
+<li><m>\overline{X}</m> ~ _____(_____, _____)</li>
+<li>How is it possible for the standard deviation to be greater than the average?</li>
+<li>Why is it more likely that the average salary of the 1,000 residents will be from $2,000 to $2,100 than from $2,100 to $2,200?</li>
+</ol>
+</statement>
+
+<solution>
+<ol>
+<li><em>X</em> = the yearly income of someone in a Third World country</li>
+<li>the average salary from samples of 1,000 residents of a Third World country</li>
+<li><m>\overline{X}</m> ∼ <em>N</em><m>\left(2,000, \frac{8,000}{\sqrt{1,000}}\right)</m></li>
+<li>Very wide differences in data values can have averages smaller than standard deviations.</li>
+<li>The distribution of the sample mean will have higher probabilities closer to the population mean.
+
+<em>P</em>(2,000 &lt; <m>\overline{X}</m> &lt; 2,100) = 0.1537
+
+<em>P</em>(2,100 &lt; <m>\overline{X}</m> &lt; 2,200) = 0.1317</li>
+</ol>
+</solution>
+</exercise>
+
+<exercise xml:id="ch7-element-338">
+<statement>
+<p>Which of the following is NOT true about the distribution for averages?</p>
+
+<ol>
+<li>The mean, median, and mode are equal.</li>
+<li>The area under the curve is 1.</li>
+<li>The curve never touches the <em>x</em>-axis.</li>
+<li>The curve is skewed to the right.</li>
+</ol>
+</statement>
+</exercise>
+
+<exercise xml:id="ch7-element-680">
+<statement>
+<p>The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations. The distribution to use for the average cost of gasoline for the 16 gas stations is:</p>
+
+<ol>
+<li><m>\overline{X}</m> ~ <em>N</em>(4.59, 0.10)</li>
+<li><m>\overline{X}</m> ~ <em>N</em><m>\left(4.59, \frac{0.10}{\sqrt{16}}\right)</m></li>
+<li><m>\overline{X}</m> ~ <em>N</em><m>\left(4.59, \frac{16}{0.10}\right)</m></li>
+<li><m>\overline{X}</m> ~ <em>N</em><m>\left(4.59, \frac{\sqrt{16}}{0.10}\right)</m></li>
+</ol>
+</statement>
+
+<solution>
+<p>b</p>
+</solution>
+</exercise>
+
+<exercise xml:id="ch7-fs-idm54402176">
+<statement>
+<p>Which of the following is NOT true about the theoretical distribution of sums?</p>
+<ol>
+<li>The mean, median, and mode are equal.</li>
+<li>The area under the curve is one.</li>
+<li>The curve never touches the <em>x</em>-axis.</li>
+<li>The curve is skewed to the right.</li>
+</ol>
+</statement>
+</exercise>
+
+<exercise xml:id="ch7-element-119">
+<statement>
+<p>Suppose that the duration of a particular type of criminal trial is known to have a mean of 21 days and a standard deviation of seven days. We randomly sample nine trials.</p>
+<ol>
+<li>In words, <em>ΣX</em> = ______________.</li>
+<li><em>ΣX</em> ~ _____(_____, _____)</li>
+<li>Find the probability that the total length of the nine trials is at least 225 days.</li>
+<li>Ninety percent of the total of nine of these types of trials will last at least how long?</li>
+</ol>
+</statement>
+<solution>
+<ol>
+<li>the total length of time for nine criminal trials</li>
+<li><em>N</em>(189, 21)</li>
+<li>0.0432</li>
+<li>162.09; 90 percent of the total nine trials of this type will last 162 days or more.</li>
+</ol>
+</solution>
+</exercise>
+
+<exercise xml:id="ch7-element-797">
+<statement>
+<p>Suppose that the weight of open boxes of cereal in a home with children is uniformly distributed from two to six pounds with a mean of four pounds and standard deviation of 1.1547. We randomly survey 64 homes with children.</p>
+<ol>
+<li>In words, <em>X</em> = _____________.</li>
+<li>The distribution is _______.</li>
+<li>In words, <em>ΣX</em> = _______________.</li>
+<li><em>ΣX</em> ~ _____(_____, _____)</li>
+<li>Find the probability that the total weight of the open boxes is less than 250 pounds.</li>
+<li>Find the 35<m>^{th}</m> percentile for the total weight of open boxes of cereal.</li>
+</ol>
+</statement>
+</exercise>
+
+<exercise xml:id="ch7-element-138-1">
+<statement>
+<p>Salaries for entry-level managers at a restaurant chain are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey 10 managers from these restaurants.</p>
+<ol>
+<li>In words, <em>X</em> = ______________.</li>
+<li><em>X</em> ~ _____(_____, _____)</li>
+<li>In words, <em>ΣX</em> = _____________.</li>
+<li><em>ΣX</em> ~ _____(_____, _____)</li>
+<li>Find the probability that the managers earn a total of over $400,000.</li>
+<li>Find the 90<m>^{th}</m> percentile for an individual manager's salary.</li>
+<li>Find the 90<m>^{th}</m> percentile for the sum of ten managers' salary.</li>
+<li>If we surveyed 70 managers instead of ten, graphically, how would that change the distribution in part (d)?</li>
+<li>If each of the 70 managers received a $3,000 raise, graphically, how would that change the distribution in part (b)?</li>
+</ol>
+</statement>
+<solution>
+<ol>
+<li><em>X</em> = the salary of one elementary school teacher in the district</li>
+<li><em>X</em> ~ <em>N</em>(44000, 6500)</li>
+<li><em>ΣX</em> ~ sum of the salaries of 10 elementary school teachers in the sample</li>
+<li><em>ΣX</em> ~ <em>N</em>(44,000, 20,554.80)</li>
+<li>0.9742</li>
+<li>$52,330.09</li>
+<li>466,342.04</li>
+<li>Sampling 70 teachers instead of 10 would cause the distribution to be more spread out. It would be a more symmetrical normal curve.</li>
+<li>If every teacher received a $3,000 raise, the distribution of <em>X</em> would shift to the right by $3,000. In other words, it would have a mean of $47,000.</li>
+</ol>
+</solution>
+</exercise>
+
+<exercise xml:id="ch7-element-941">
+      <statement>
+        <p>The attention span of a two-year-old is exponentially distributed with a mean of about eight minutes. Suppose we randomly survey 60 two-year-olds.</p>
+        <ol>
+          <li>In words, <em>Χ</em> = _______.</li>
+          <li><em>Χ</em> ~  _____(_____, _____)</li>
+          <li>In words, <m>\overline{X}</m> = ____________.</li>
+          <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
+          <li>Before doing any calculations, which do you think will be higher? Explain why.
+
+The probability that an individual attention span is less than 10 minutes.
+The probability that the average attention span for the 60 children is less than 10 minutes.
+
+</li>
+          <li>Calculate the probabilities in part (e).</li>
+          <li>Explain why the distribution for <m>\overline{X}</m> is not exponential.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch7-element-897">
+      <statement>
+        <p>The closing stock prices of 35 U.S. semiconductor manufacturers are given as follows:</p>
+        <table xml:id="ch7-fs-id1169831699204">
+          <tabular>
+            <row header="yes"><cell>Company</cell> <cell>Closing Stock Prices</cell></row>
+            <row><cell>1</cell> <cell>8.625</cell></row>
+            <row><cell>2</cell> <cell>30.25</cell></row>
+            <row><cell>3</cell> <cell>27.625</cell></row>
+            <row><cell>4</cell> <cell>46.75</cell></row>
+            <row><cell>5</cell> <cell>32.875</cell></row>
+            <row><cell>6</cell> <cell>18.25</cell></row>
+            <row><cell>7</cell> <cell>5</cell></row>
+            <row><cell>8</cell> <cell>0.125</cell></row>
+            <row><cell>9</cell> <cell>2.9375</cell></row>
+            <row><cell>10</cell> <cell>6.875</cell></row>
+            <row><cell>11</cell> <cell>28.25</cell></row>
+            <row><cell>12</cell> <cell>24.25</cell></row>
+            <row><cell>13</cell> <cell>21</cell></row>
+            <row><cell>14</cell> <cell>1.5</cell></row>
+            <row><cell>15</cell> <cell>30.25</cell></row>
+            <row><cell>16</cell> <cell>71</cell></row>
+            <row><cell>17</cell> <cell>43.5</cell></row>
+            <row><cell>18</cell> <cell>49.25</cell></row>
+            <row><cell>19</cell> <cell>2.5625</cell></row>
+            <row><cell>20</cell> <cell>31</cell></row>
+            <row><cell>21</cell> <cell>16.5</cell></row>
+            <row><cell>22</cell> <cell>9.5</cell></row>
+            <row><cell>23</cell> <cell>18.5</cell></row>
+            <row><cell>24</cell> <cell>18</cell></row>
+            <row><cell>25</cell> <cell>9</cell></row>
+            <row><cell>26</cell> <cell>10.5</cell></row>
+            <row><cell>27</cell> <cell>16.625</cell></row>
+            <row><cell>28</cell> <cell>1.25</cell></row>
+            <row><cell>29</cell> <cell>18</cell></row>
+            <row><cell>30</cell> <cell>12.87</cell></row>
+            <row><cell>31</cell> <cell>7</cell></row>
+            <row><cell>32</cell> <cell>12.875</cell></row>
+            <row><cell>33</cell> <cell>2.875</cell></row>
+            <row><cell>34</cell> <cell>60.25</cell></row>
+            <row><cell>35</cell> <cell>29.25</cell></row>
+          </tabular>
+        </table>
+        <ol>
+          <li>In words, <em>Χ</em> = ______________.</li>
+          <li>
+<m>\overline{x}</m> = _____
+<em>s<m>_{x}</m></em> = _____
+<em>n</em> = _____
+
+</li>
+          <li>Construct a histogram of the distribution of the averages. Start at <em>x</em> = –0.0005. Use bar widths of 10.</li>
+          <li>In words, describe the distribution of the stock prices.</li>
+          <li>Randomly average five stock prices together. (Use a random number generator.) Continue averaging five prices together until you have 10 averages. List those 10 averages.</li>
+          <li>Use the 10 averages from part (e) to calculate the following:
+<m>\overline{x}</m> = _____
+<em>s<m>_{x}</m></em> = _____
+</li>
+          <li>Construct a histogram of the distribution of the averages. Start at <em>x</em> = –0.0005. Use bar widths of 10.</li>
+          <li>Does this histogram look like the graph in Part (c)?</li>
+          <li>In one or two complete sentences, explain why the graphs either look the same or look different.</li>
+          <li>Based on the theory of the central limit theorem, <m>\overline{X}</m> ~ _____(_____, ____).</li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li><em>X</em> = the closing stock prices for U.S. semiconductor manufacturers</li>
+          <li>i. $20.71, ii. $17.31, iii. 35</li>
+          <li />
+          <li>exponential distribution, <em>Χ ~ Exp</em><m>(\frac{1}{20.71})</m></li>
+          <li>Answers will vary.</li>
+          <li>i. $20.71, ii. $11.14</li>
+          <li>Answers will vary.</li>
+          <li>Answers will vary.</li>
+          <li>Answers will vary.</li>
+          <li><em>N</em><m>(\text{20}\text{.71, }\frac{17.31}{\sqrt{5}})</m></li>
+        </ol>
+      </solution>
+    </exercise>
+    <p><em>Use the following information to answer the next three exercises:</em> Richard's Furniture Company delivers furniture from 10 a.m. to 2 p.m. continuously and uniformly. We are interested in how long (in hours) past the 10 a.m. start time that individuals wait for their delivery.</p>
+    <exercise xml:id="ch7-element-725">
+      <statement>
+        <p><em>Χ</em> ~ _____(_____, _____)</p>
+        <ol>
+          <li><em>U</em>(0, 4)</li>
+          <li><em>U</em>(10, 2)</li>
+          <li><em>Eχp</em>(2)</li>
+          <li><em>N</em>(2, 1)</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch7-element-407">
+      <statement>
+        <p>The average wait time is:</p>
+        <ol>
+          <li>one hour</li>
+          <li>two hours</li>
+          <li>two and a half hours</li>
+          <li>four hours</li>
+        </ol>
+      </statement>
+      <solution>
+        <p>b</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch7-element-191">
+      <statement>
+        <p>Suppose that it is now past noon on a delivery day. The probability that a person must wait at least one and a half more hours is</p>
+        <ol>
+          <li><m>\frac{1}{4}</m></li>
+          <li><m>\frac{1}{2}</m>
+</li>
+          <li><m>\frac{3}{4}</m>
+</li>
+          <li><m>\frac{3}{8}</m>
+</li>
+        </ol>
+      </statement>
+    </exercise>
+    <p><em>Use the following information to answer the next two exercises:</em> The time to wait for a particular rural bus is distributed uniformly from zero to 75 minutes. One hundred riders are randomly sampled to learn how long they waited.</p>
+    <exercise xml:id="ch7-element-620">
+      <statement>
+        <p>The 90<m>^{th}</m> percentile sample average wait time (in minutes) for a sample of 100 riders is:</p>
+        <ol>
+          <li>315.0</li>
+          <li>40.3</li>
+          <li>38.5</li>
+          <li>65.2</li>
+        </ol>
+      </statement>
+      <solution>
+        <p>b</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch7-element-339">
+      <statement>
+        <p>Would you be surprised, based on numerical calculations, if the sample average wait time (in minutes) for 100 riders was less than 30 minutes?</p>
+        <ol>
+          <li>yes</li>
+          <li>no</li>
+          <li>There is not enough information.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <p><em>Use the following to answer the next two exercises:</em> The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.</p>
+    <exercise xml:id="ch7-element-644">
+      <statement>
+        <p>What's the approximate probability that the average price for 16 gas stations is more than $4.69?</p>
+        <ol>
+          <li>almost zero</li>
+          <li>0.1587</li>
+          <li>0.0943</li>
+          <li>unknown</li>
+        </ol>
+      </statement>
+      <solution>
+        <p>a</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch7-eip--415">
+      <statement>
+        <p>Find the probability that the average price for 30 gas stations is less than $4.55.</p>
+        <ol>
+          <li>0.6554</li>
+          <li>0.3446</li>
+          <li>0.0142</li>
+          <li>0.9858</li>
+          <li>0</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch7-eip--786">
+      <statement>
+        <p>Suppose in a local kindergarten through 12<m>^{th}</m> grade (K12) school district, 53 percent of the population favor a charter school for grades K through five. A simple random sample of 300 is surveyed. Calculate the following using the normal approximation to the binomial distribtion.</p>
+        <ol>
+          <li>Find the probability that less than 100 favor a charter school for grades K through 5.</li>
+          <li>Find the probability that 170 or more favor a charter school for grades K through 5.</li>
+          <li>Find the probability that no more than 140 favor a charter school for grades K through 5.</li>
+          <li>Find the probability that there are fewer than 130 that favor a charter school for grades K through 5.</li>
+          <li>Find the probability that exactly 150 favor a charter school for grades K through 5.</li>
+        </ol>
+        <p>If you have access to an appropriate calculator or computer software, try calculating these probabilities using the technology.</p>
+      </statement>
+      <solution>
+        <ol>
+          <li>0</li>
+          <li>0.1123</li>
+          <li>0.0162</li>
+          <li>0.0003</li>
+          <li>0.0268</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch7-eip--140">
+      <statement>
+        <p>Four friends, Janice, Barbara, Kathy, and Roberta, decided to carpool together to get to school. Each day the driver would be chosen by randomly selecting one of the four names. They carpool to school for 96 days. Use the normal approximation to the binomial to calculate the following probabilities. Round the standard deviation to four decimal places.</p>
+        <ol>
+          <li>Find the probability that Janice is the driver at most 20 days.</li>
+          <li>Find the probability that Roberta is the driver more than 16 days.</li>
+          <li>Find the probability that Barbara drives exactly 24 of those 96 days.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch7-element-440">
+      <statement>
+        <p><em>X</em> ~ <em>N</em>(60, 9). Suppose that you form random samples of 25 from this distribution. Let <m>\overline{X}</m> be the random variable of averages. Let <em>ΣX</em> be the random variable of sums. For parts (c) through (f), sketch the graph, shade the region, label and scale the horizontal axis for <m>\overline{X}</m>, and find the probability.</p>
+        <ol>
+          <li>Sketch the distributions of <em>X</em> and
+<m>\overline{X}</m> on the same graph.</li>
+          <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
+          <li><em>P</em>(<m>\overline{x}</m> &lt; 60) = _____</li>
+          <li>Find the 30<m>^{th}</m> percentile for the mean.</li>
+          <li><em>P</em>(56 &lt; <m>\overline{x}</m> &lt; 62) = _____</li>
+          <li><em>P</em>(18 &lt; <m>\overline{x}</m> &lt; 58) = _____</li>
+          <li><em>Σx</em> ~ _____(_____, _____)</li>
+          <li>Find the minimum value for the upper quartile for the sum.</li>
+          <li><em>P</em>(1400 &lt; <em>Σx</em> &lt; 1550) = _____</li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li>Check student's solution.</li>
+          <li><m>\overline{X}</m> ~ <em>N</em><m>(\text{60, }\frac{9}{\sqrt{25}})</m></li>
+          <li>0.5000</li>
+          <li>59.06</li>
+          <li>0.8536</li>
+          <li>0.1333</li>
+          <li> <em>N</em>(1500, 45)</li>
+          <li>1530.35</li>
+          <li>0.6877
+</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch7-element-666">
+      <statement>
+        <p>Suppose that the length of research papers is uniformly distributed from 10 to 25 pages. We survey a class in which 55 research papers were turned in to a professor. The 55 research papers are considered a random collection of all papers. We are interested in the average length of the research papers.</p>
+        <ol>
+          <li>In words, <em>X</em> = _____________.</li>
+          <li><em>X</em> ~ _____(_____, _____)</li>
+          <li><em>μ<m>_{x}</m></em> = _____</li>
+          <li><em>σ<m>_{x}</m></em> = _____</li>
+          <li>In words, <m>\overline{X}</m> = ______________.</li>
+          <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
+          <li>In words, <em>ΣX</em> = _____________.</li>
+          <li><em>ΣX</em> ~ _____(_____, _____)</li>
+          <li>Without doing any calculations, do you think that it's likely the professor will need to read a total of more than 1,050 pages? Why?</li>
+          <li>Calculate the probability that the professor will need to read a total of more than 1,050 pages.</li>
+          <li>Why is it so unlikely that the average length of the papers will be less than 12 pages?</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch7-element-138">
+      <statement>
+        <p>Salaries for managers in a restaurant chain are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey 10 managers from that district.</p>
+        <ol>
+          <li>Find the 90<m>^{th}</m> percentile for an individual manager's salary.</li>
+          <li>Find the 90<m>^{th}</m> percentile for the average manager's salary.</li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li>$52,330</li>
+          <li>$46,634</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch7-element-566">
+      <statement>
+        <p>The average length of a maternity stay in a U.S. hospital is said to be 2.4 days with a standard deviation of 0.9 days. We randomly survey 80 women who recently bore children in a U.S. hospital.</p>
+        <ol>
+          <li>In words, <em>X</em> = _____________.</li>
+          <li>In words, <m>\overline{X}</m> = ___________________.</li>
+          <li><m>\overline{X}</m> ~ _____(_____, _____)</li>
+          <li>In words, <em>ΣX</em> = _______________.</li>
+          <li><em>ΣX</em> ~ _____(_____, _____)</li>
+          <li>Is it likely that an individual stayed more than five days in the hospital? Why or why not?</li>
+          <li>Is it likely that the average stay for the 80 women was more than five days? Why or why not?</li>
+          <li>Which is more likely:
+
+An individual stayed more than five days.
+The average stay of 80 women was more than five days.</li>
+          <li>If we were to sum up the women's stays, is it likely that collectively, they spent more than a year in the hospital? Why or why not?</li>
+        </ol>
+      </statement>
+    </exercise>
+    <p><em>For each problem, wherever possible, provide graphs and use a calculator.</em></p>
+    <exercise xml:id="ch7-fs-idm4142208">
+      <statement>
+        <p>NeverReady batteries has engineered a newer, longer-lasting AAA battery. The company claims this battery has an average life span of 17 hours with a standard deviation of 0.8 hours. Your statistics class questions this claim. As a class, you randomly select 30 batteries and find that the sample mean life span is 16.7 hours. If the process is working properly, what is the probability of getting a random sample of 30 batteries in which the sample mean life span is 16.7 hours or less? Is the company's claim reasonable?</p>
+      </statement>
+      <solution>
+        <ul>
+          <li>We have <em>μ</em> = 17, σ = 0.8, <m>\overline{x}</m> = 16.7, and <em>n</em> = 30. To calculate the probability, we use <c>normalcdf</c>(lower, upper, <em>μ</em>, <m>\frac{\sigma}{\sqrt{n}}</m>) = <c>normalcdf</c><m>(E-\text{99,16}\text{.7,17,}\frac{0.\text{8}}{\sqrt{\text{30}}})</m> = 0.0200.</li>
+          <li>If the process is working properly, then the probability that a sample of 30 batteries would have at most 16.7 life span hours is only 2%. Therefore, the class was justified to question the claim.</li>
+        </ul>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch7-fs-idm165833488">
+      <statement>
+        <p>Men have an average weight of 172 pounds with a standard deviation of 29 pounds.</p>
+        <ol>
+          <li>Find the probability that 20 randomly selected men will have a sum weight greater than 3,600 pounds.</li>
+          <li>If 20 men have a sum weight greater than 3,500 pounds, then their total weight exceeds the safety limits for water taxis. Based on (a), is this a safety concern? Explain.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch7-fs-idp87424832">
+      <statement>
+        <p>Large bags of a brand of  multicolored candies have a claimed net weight of 396.9 g. The standard deviation for the weight of the individual candies is 0.017 g. The following table is from a stats experiment conducted by a statistics class.</p>
+        <table xml:id="ch7-fs-idm55488384">
+          <tabular>
+            <row header="yes"><cell>Red (g)</cell> <cell>Orange (g)</cell> <cell>Yellow (g)</cell> <cell>Brown (g)</cell> <cell>Blue (g)</cell> <cell>Green (g)</cell></row>
+            <row><cell>0.751</cell> <cell>0.735</cell> <cell>0.883</cell> <cell>0.696</cell> <cell>0.881</cell> <cell>0.925</cell></row>
+            <row><cell>0.841</cell> <cell>0.895</cell> <cell>0.769</cell> <cell>0.876</cell> <cell>0.863</cell> <cell>0.914</cell></row>
+            <row><cell>0.856</cell> <cell>0.865</cell> <cell>0.859</cell> <cell>0.855</cell> <cell>0.775</cell> <cell>0.881</cell></row>
+            <row><cell>0.799</cell> <cell>0.864</cell> <cell>0.784</cell> <cell>0.806</cell> <cell>0.854</cell> <cell>0.865</cell></row>
+            <row><cell>0.966</cell> <cell>0.852</cell> <cell>0.824</cell> <cell>0.840</cell> <cell>0.810</cell> <cell>0.865</cell></row>
+            <row><cell>0.859</cell> <cell>0.866</cell> <cell>0.858</cell> <cell>0.868</cell> <cell>0.858</cell> <cell>1.015</cell></row>
+            <row><cell>0.857</cell> <cell>0.859</cell> <cell>0.848</cell> <cell>0.859</cell> <cell>0.818</cell> <cell>0.876</cell></row>
+            <row><cell>0.942</cell> <cell>0.838</cell> <cell>0.851</cell> <cell>0.982</cell> <cell>0.868</cell> <cell>0.809</cell></row>
+            <row><cell>0.873</cell> <cell>0.863</cell> <cell /> <cell /> <cell>0.803</cell> <cell>0.865</cell></row>
+            <row><cell>0.809</cell> <cell>0.888</cell> <cell /> <cell /> <cell>0.932</cell> <cell>0.848</cell></row>
+            <row><cell>0.890</cell> <cell>0.925</cell> <cell /> <cell /> <cell>0.842</cell> <cell>0.940</cell></row>
+            <row><cell>0.878</cell> <cell>0.793</cell> <cell /> <cell /> <cell>0.832</cell> <cell>0.833</cell></row>
+            <row><cell>0.905</cell> <cell>0.977</cell> <cell /> <cell /> <cell>0.807</cell> <cell>0.845</cell></row>
+            <row><cell /> <cell>0.850</cell> <cell /> <cell /> <cell>0.841</cell> <cell>0.852</cell></row>
+            <row><cell /> <cell>0.830</cell> <cell /> <cell /> <cell>0.932</cell> <cell>0.778</cell></row>
+            <row><cell /> <cell>0.856</cell> <cell /> <cell /> <cell>0.833</cell> <cell>0.814</cell></row>
+            <row><cell /> <cell>0.842</cell> <cell /> <cell /> <cell>0.881</cell> <cell>0.791</cell></row>
+            <row><cell /> <cell>0.778</cell> <cell /> <cell /> <cell>0.818</cell> <cell>0.810</cell></row>
+            <row><cell /> <cell>0.786</cell> <cell /> <cell /> <cell>0.864</cell> <cell>0.881</cell></row>
+            <row><cell /> <cell>0.853</cell> <cell /> <cell /> <cell>0.825</cell> <cell /></row>
+            <row><cell /> <cell>0.864</cell> <cell /> <cell /> <cell>0.855</cell> <cell /></row>
+            <row><cell /> <cell>0.873</cell> <cell /> <cell /> <cell>0.942</cell> <cell /></row>
+            <row><cell /> <cell>0.880</cell> <cell /> <cell /> <cell>0.825</cell> <cell /></row>
+            <row><cell /> <cell>0.882</cell> <cell /> <cell /> <cell>0.869</cell> <cell /></row>
+            <row><cell /> <cell>0.931</cell> <cell /> <cell /> <cell>0.912</cell> <cell /></row>
+            <row><cell /> <cell /> <cell /> <cell /> <cell>0.887</cell> <cell /></row>
+          </tabular>
+        </table>
+        <p>The bag contained 465 candies and the listed weights in the table came from randomly selected candies. Count the weights.</p>
+        <ol>
+          <li>Find the mean sample weight and the standard deviation of the sample weights of candies in the table.</li>
+          <li>Find the sum of the sample weights in the table and the standard deviation of the sum of the weights.</li>
+          <li>If 465 candies are randomly selected, find the probability that their weights sum to at least 396.9 g.</li>
+          <li>Is the candy company's labeling accurate?</li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li>For the sample, we have <em>n</em> = 100, <m>\overline{x}</m> = 0.862, and <em>s</em> = 0.05.</li>
+          <li><m>\Sigma\overline{x}</m> = 85.65, <em>Σs</em> = 5.18</li>
+          <li><c>normalcdf</c>(396.9,<em>E</em>99,(465)(0.8565),(0.05)(<m>\sqrt{465}</m>)) ≈ 1</li>
+          <li>Because the probability of a sample of size of 465 having at least a mean sum of 396.9 is appproximately 1, we can conclude that the company is correctly labeling their candy packages.</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch7-fs-idp89909664">
+      <statement>
+        <p>The Screw Right Company claims their <m>\frac{3}{4}</m>inch screws are within ±0.23 of the claimed mean diameter of 0.750 inches with a standard deviation of 0.115 inches. The following data were recorded.</p>
+        <table xml:id="ch7-fs-idm10579216">
+          <tabular>
+            <row><cell>0.757</cell> <cell>0.723</cell> <cell>0.754</cell> <cell>0.737</cell> <cell>0.757</cell> <cell>0.741</cell> <cell>0.722</cell> <cell>0.741</cell> <cell>0.743</cell> <cell>0.742</cell></row>
+            <row><cell>0.740</cell> <cell>0.758</cell> <cell>0.724</cell> <cell>0.739</cell> <cell>0.736</cell> <cell>0.735</cell> <cell>0.760</cell> <cell>0.750</cell> <cell>0.759</cell> <cell>0.754</cell></row>
+            <row><cell>0.744</cell> <cell>0.758</cell> <cell>0.765</cell> <cell>0.756</cell> <cell>0.738</cell> <cell>0.742</cell> <cell>0.758</cell> <cell>0.757</cell> <cell>0.724</cell> <cell>0.757</cell></row>
+            <row><cell>0.744</cell> <cell>0.738</cell> <cell>0.763</cell> <cell>0.756</cell> <cell>0.760</cell> <cell>0.768</cell> <cell>0.761</cell> <cell>0.742</cell> <cell>0.734</cell> <cell>0.754</cell></row>
+            <row><cell>0.758</cell> <cell>0.735</cell> <cell>0.740</cell> <cell>0.743</cell> <cell>0.737</cell> <cell>0.737</cell> <cell>0.725</cell> <cell>0.761</cell> <cell>0.758</cell> <cell>0.756</cell></row>
+          </tabular>
+        </table>
+        <p>The screws were randomly selected from the local home repair store.</p>
+        <ol>
+          <li>Find the mean diameter and standard deviation for the sample.</li>
+          <li>Find the probability that 50 randomly selected screws will be within the stated tolerance levels. Is the company's diameter claim plausible?</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch7-fs-idm3642992">
+      <statement>
+        <p>Your company has a contract to perform preventive maintenance on thousands of air conditioners in a large city. Based on service records from previous years, the time that a technician spends servicing a unit averages one hour with a standard deviation of one hour. In the coming week, your company will service a simple random sample of 70 units in the city. You plan to budget an average of 1.1 hours per technician to complete the work. Will this be enough time?</p>
+      </statement>
+      <solution>
+        <p>Use <c>normalcdf</c><m>(E-\text{99,1}\text{.1,1,}\frac{1}{\sqrt{\text{70}}})</m> = 0.7986. This means that there is an 80 percent chance that the service time will be less than 1.1 hours. It may be wise to schedule more time because there is an associated 20 percent chance that the maintenance time will be greater than 1.1 hours.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch7-fs-idm37303792">
+      <statement>
+        <p>A typical adult has an average IQ score of 105 with a standard deviation of 20. If 20 randomly selected adults are given an IQ test, what is the probability that the sample mean scores will be between 85 and 125 points?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch7-fs-idm31585616">
+      <statement>
+        <p>Certain coins have an average weight of 5.201 g with a standard deviation of 0.065 g. If a vending machine is designed to accept coins whose weights range from 5.111 g to 5.291 g, what is the expected number of rejected coins when 280 randomly selected coins are inserted into the machine?</p>
+      </statement>
+      <solution>
+        <p>Because we have <c>normalcdf</c><m>(5.\text{111,5}\text{.291,5}\text{.201,}\frac{0.\text{065}}{\sqrt{\text{280}}})</m> ≈ 1, we can  conclude that practically all the coins are within the limits; therefore, there should be no rejected coins out of a well-selected sample size of 280.</p>
+      </solution>
+    </exercise>
+  </section>
+
   <glossary>
     <title>Glossary</title>
     
