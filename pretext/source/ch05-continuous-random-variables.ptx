@@ -409,7 +409,7 @@
         </table>
         <p xml:id="element-817">The sample mean = 11.49 and the sample standard deviation = 6.23.</p>
         <p xml:id="element-60">We will assume that the smiling times, in seconds, follow a uniform distribution between zero and 23 seconds, inclusive. This means that any smiling time from zero to and including 23 seconds is <em>equally likely</em>. The histogram that could be constructed from the sample is an empirical distribution that closely matches the theoretical uniform distribution.</p>
-        <p xml:id="element-804">Let <em>X</em> = length, in seconds, of an eight-week-old baby's smile.</p>
+        <p xml:id="ch05-element-804">Let <em>X</em> = length, in seconds, of an eight-week-old baby's smile.</p>
         <p xml:id="element-13">The notation for the uniform distribution is</p>
         <p xml:id="element-746"><em>X</em> ~ <em>U</em>(<em>a</em>, <em>b</em>) where <em>a</em> = the lowest value of <em>x</em> and <em>b</em> = the highest value of <em>x</em>.</p>
         <p xml:id="eip-720">The probability density function is
@@ -419,7 +419,7 @@
         <men xml:id="fs-id1164563448999">μ=\frac{a+b}{2} \text{ and } σ=\sqrt{\frac{(b-a)^{2}}{12}}</men>
         <p xml:id="element-729">For this problem, the theoretical mean and standard deviation are</p>
         <men xml:id="fs-id1164563492190">μ=\frac{0+23}{2}= 11.50 \text{ seconds and } σ=\sqrt{\frac{(23-0)^{2}}{12}}= 6.64 \text{ seconds.}</men>
-        <p xml:id="element-919">Notice that the theoretical mean and standard deviation are close to the sample mean and standard deviation in this example.</p>
+        <p xml:id="ch05-element-919">Notice that the theoretical mean and standard deviation are close to the sample mean and standard deviation in this example.</p>
       </statement>
     </example>
   <note xml:id="fs-idp70845248" class="statistics try">
@@ -460,7 +460,7 @@
             <p xml:id="element-483">b. Find the 90<sup>th</sup> percentile for an eight-week-old baby's smiling time.</p>
           </statement>
           <solution>
-            <p xml:id="element-6">b. Ninety percent of the smiling times fall below the 90<sup>th</sup> percentile, <em>k</em>, so <em>P</em>(<em>x</em> &lt; <em>k</em>) = 0.90.</p>
+            <p xml:id="ch05-element-6">b. Ninety percent of the smiling times fall below the 90<sup>th</sup> percentile, <em>k</em>, so <em>P</em>(<em>x</em> &lt; <em>k</em>) = 0.90.</p>
             <men xml:id="fs-id1164563350100">P(x&lt;k)=0.90</men>
             <men xml:id="fs-id1164563073310">(base)(height)=0.90</men>
             <men xml:id="fs-id1164562298387">(k-0)(\frac{1}{23})=0.90</men>
@@ -476,9 +476,9 @@
             <p xml:id="fs-idp106518000">c. This probability question is a conditional. You are asked to find the probability that an eight-week-old baby smiles more than 12 seconds when you <em>already know</em> the baby has smiled for more than eight seconds.</p>
             <p xml:id="element-836">Find <em>P</em>(<em>x</em> &gt; 12|<em>x</em> &gt; 8) There are two ways to do the problem. <em>For the first way</em>, use the fact that this is a conditional and changes the sample space. The graph illustrates the new sample space. You already know the baby smiled more than eight seconds.</p>
             <p xml:id="element-838">for 8 &lt; <em>x</em> &lt; 23</p>
-            <p xml:id="element-837"><em>Write a new</em> <em>f</em>(<em>x</em>): <em>f</em>(<em>x</em>) = <m>\frac{1}{23-8}</m> = <m>\frac{1}{15}</m>  for 8 &lt; <em>x</em> &lt; 23.</p>
+            <p xml:id="ch05-element-837"><em>Write a new</em> <em>f</em>(<em>x</em>): <em>f</em>(<em>x</em>) = <m>\frac{1}{23-8}</m> = <m>\frac{1}{15}</m>  for 8 &lt; <em>x</em> &lt; 23.</p>
             <p xml:id="element-400"><em>P</em>(<em>x</em> &gt; 12|<em>x</em> &gt; 8) = (23 − 12)<m>(\frac{1}{15})</m> = <m>\frac{11}{15}</m></p>
-            <p xml:id="element-961"><em>For the second way</em>, use the conditional formula from Probability Topics with the original distribution.</p>
+            <p xml:id="ch05-element-961"><em>For the second way</em>, use the conditional formula from Probability Topics with the original distribution.</p>
             <p xml:id="element-445"><em>P</em>(<em>A</em>|<em>B</em>) = <m>\frac{P(AANDB)}{P(B)}</m></p>
             <p xml:id="fs-idp12091856">For this problem, <em>A</em> is (<em>x</em> &gt; 12) and <em>B</em> is (<em>x</em> &gt; 8).</p>
             <p xml:id="element-613">So, <em>P</em>(<em>x</em> &gt; <em>12</em>|<em>x</em> &gt; 8) = <m>\frac{(x&gt;12ANDx&gt;8)}{P(x&gt;8)}=\frac{P(x&gt;12)}{P(x&gt;8)}=\frac{\frac{11}{23}}{\frac{15}{23}}=\frac{11}{15}</m></p>
@@ -506,7 +506,7 @@
             <p xml:id="element-447">a. What is the probability that a person waits fewer than 12.5 minutes?</p>
           </statement>
           <solution>
-            <p xml:id="element-438">a. Let <em>X</em> = the number of minutes a person must wait for a bus. <em>a</em> = 0 and <em>b</em> = 15.
+            <p xml:id="ch05-element-438">a. Let <em>X</em> = the number of minutes a person must wait for a bus. <em>a</em> = 0 and <em>b</em> = 15.
 <em>X</em> ~ <em>U</em>(0, 15). Write the probability density function. <em>f</em> (<em>x</em>) = <m>\frac{1}{15-0}</m> = <m>\frac{1}{15}</m>
 for 0 ≤ <em>x</em> ≤ 15.</p>
             <p xml:id="ch5-element-577">Find <em>P</em> (<em>x</em> &lt; 12.5). Draw a graph.</p>
@@ -534,10 +534,10 @@ for 0 ≤ <em>x</em> ≤ 15.</p>
 <em>σ</em> = <m>\sqrt{\frac{(b-a)^{2}}{12}}=\sqrt{\frac{(15-0)^{2}}{12}}</m> = 4.3. The standard deviation is 4.3 minutes.</p>
           </solution>
         </exercise>
-        <exercise xml:id="element-375">
+        <exercise xml:id="ch05-element-375">
           <title>Try It</title>
           <statement>
-            <p xml:id="element-44">c. Ninety percent of the time, the minutes a person must wait falls below what value?</p>
+            <p xml:id="ch05-element-44">c. Ninety percent of the time, the minutes a person must wait falls below what value?</p>
           </statement>
           <solution>
             <p xml:id="element-12">c. Find the 90<sup>th</sup> percentile. Draw a graph. Let <em>k</em> = the 90<sup>th</sup> percentile.
@@ -591,7 +591,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
       </solution>
     </exercise>
   </note>
-  <example xml:id="element-321">
+  <example xml:id="ch05-element-321">
       <statement>
         <p xml:id="element-637">Suppose the time it takes a nine-year old to eat a donut is between 0.5 and 4 minutes, inclusive. Let <em>X</em> = the time, in minutes, it takes a nine-year-old child to eat a doughnut. Then <em>X</em> ~ <em>U</em>(0.5, 4).</p>
         <exercise xml:id="eip-idp102263568">
@@ -607,7 +607,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
           <title>Try It</title>
           <statement>
             <p xml:id="element-546">b. Find the probability that a different nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes.</p>
-            <p xml:id="element-938">The second question has a <term xml:id="term-00001">conditional probability</term>. You are asked to find the probability that a nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes. Solve the problem two different ways (see <xref ref="example-170"/>). You must reduce the sample space. <em>First way</em>: Since you know the child has already been eating the doughnut for more than 1.5 minutes, you are no longer starting at <em>a</em> = 0.5 minutes. Your starting point is 1.5 minutes.</p>
+            <p xml:id="element-938">The second question has a <term xml:id="ch05-term-00001">conditional probability</term>. You are asked to find the probability that a nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes. Solve the problem two different ways (see <xref ref="example-170"/>). You must reduce the sample space. <em>First way</em>: Since you know the child has already been eating the doughnut for more than 1.5 minutes, you are no longer starting at <em>a</em> = 0.5 minutes. Your starting point is 1.5 minutes.</p>
             <p xml:id="element-69">Write a new <em>f</em>(<em>x</em>):</p>
             <men xml:id="fs-id1164566880095">f(x)=\frac{1}{4-1.5}=\frac{2}{5}for 1.5\leqx\leq4.</men>
             <p xml:id="eip-idm60988032">Find <em>P</em>(<em>x</em> &gt; 2|<em>x</em> &gt; 1.5). Draw a graph.</p>
@@ -703,7 +703,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
     <p xml:id="element-104">Probability density function:
 <m>f(x)=\frac{1}{b-a}</m> for <m>a \leq x \leq b</m></p>
     <p xml:id="element-636">Area to the left of <em>x</em>: <em>P</em>(<em>X</em> &lt; <em>x</em>) = (<em>x</em> – <em>a</em>)<m>(\frac{1}{b-a})</m></p>
-    <p xml:id="element-84">Area to the right of <em>x</em>: <em>P</em>(<em>X</em> &gt; <em>x</em>) = (<em>b</em> – <em>x</em>)<m>(\frac{1}{b-a})</m></p>
+    <p xml:id="ch05-element-84">Area to the right of <em>x</em>: <em>P</em>(<em>X</em> &gt; <em>x</em>) = (<em>b</em> – <em>x</em>)<m>(\frac{1}{b-a})</m></p>
     <p xml:id="element-315">Area between <em>c</em> and <em>d</em>: <em>P</em>(<em>c</em> &lt; <em>x</em> &lt; <em>d</em>) = (base)(height) = (<em>d</em> – <em>c</em>)<m>(\frac{1}{b-a})</m></p>
     <p xml:id="fs-idp10903536">Uniform: <em>X</em> ~ <em>U</em>(<em>a</em>, <em>b</em>) where <em>a</em> &lt; <em>x</em> &lt; <em>b</em></p>
     <ul>
@@ -716,6 +716,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
     </ul>
   </subsection>
   <subsection xml:id="fs-idp174729104">
+    <title>Practice</title>
     <p xml:id="fs-idp8065584"><em>Use the following information to answer the next 10 questions.</em> The data that follow are the square footage (in 1,000 feet squared) of 28 homes:</p>
     <table xml:id="fs-idp58203216">
       <title>A table with 7 columns and four rows is shown. Row one contains the following values: 1.5, 2.4, 3.6, 2.6, 1.6, 2.4, and 2.0. Row two contains the following values: 3.5, 2.5, 1.8, 2.4, 2.5, 3.5, and 4.0. Row three contains the following values: 2.6, 1.6, 2.2, 1.8, 3.8, 2.5, and 1.5. Row four contains the following values: 2.8, 1.8, 4.5, 1.9, 1.9, 3.1, and 1.6.</title>
@@ -803,7 +804,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         <p xml:id="fs-idp131464880">0.6</p>
       </solution>
     </exercise>
-    <p xml:id="eip-358"><em>Use the following information to answer the next eight exercises.</em> A distribution is given as <em>X</em> ~ <em>U</em>(0, 12).</p>
+    <p xml:id="ch05-eip-358"><em>Use the following information to answer the next eight exercises.</em> A distribution is given as <em>X</em> ~ <em>U</em>(0, 12).</p>
     <exercise xml:id="fs-idm886512">
       <title>Try It</title>
       <statement>
@@ -949,7 +950,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         </ol>
       </statement>
     </exercise>
-    <exercise xml:id="eip-709">
+    <exercise xml:id="ch05-eip-709">
       <title>Try It</title>
       <statement>
         <p xml:id="fs-idp87748944">Considering only the cars less than 7.5 years old, find the probability that a randomly chosen car in the lot was less than four years old.</p>
@@ -1059,7 +1060,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         </ol>
       </statement>
     </exercise>
-    <exercise xml:id="eip-106">
+    <exercise xml:id="ch05-eip-106">
       <title>Try It</title>
       <statement>
         <p xml:id="fs-idp116074240">A subway train arrives every eight minutes during rush hour. We are interested in the length of time a commuter must wait for a train to arrive. The time follows a uniform distribution.</p>
@@ -1106,7 +1107,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
       </statement>
     </exercise>
     <p xml:id="ch5-eip-192"><em>Use the following information to answer the next three exercises.</em> The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution.</p>
-    <exercise xml:id="eip-518">
+    <exercise xml:id="ch05-eip-518">
       <title>Try It</title>
       <statement>
         <p xml:id="fs-idp114358400">What is the average waiting time (in minutes)?</p>
@@ -1229,7 +1230,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
   </subsection>
 </section>
 <section xml:id="sec-exponential-distribution">
-<p xml:id="fs-idm32858512">The <term xml:id="term-00001">exponential distribution</term> is often concerned with the amount of time until some specific event occurs. For example, the amount of time (beginning now) until an earthquake occurs has an exponential distribution. Other examples include the length, in minutes, of long-distance business telephone calls, and the amount of time, in months, a car battery lasts. It can be shown, too, that the value of the change that you have in your pocket or purse approximately follows an exponential distribution.</p>
+<p xml:id="fs-idm32858512">The <term xml:id="ch05-term-00001">exponential distribution</term> is often concerned with the amount of time until some specific event occurs. For example, the amount of time (beginning now) until an earthquake occurs has an exponential distribution. Other examples include the length, in minutes, of long-distance business telephone calls, and the amount of time, in months, a car battery lasts. It can be shown, too, that the value of the change that you have in your pocket or purse approximately follows an exponential distribution.</p>
 <p xml:id="fs-idp21035296">Values for an exponential random variable occur in the following way. There are fewer large values and more small values. For example, the amount of money customers spend in one trip to the supermarket follows an exponential distribution. There are more people who spend small amounts of money and fewer people who spend large amounts of money.</p>
 <p xml:id="fs-idp25761408">Exponential distributions are commonly used in calculations of product reliability, or the length of time a product lasts.</p>
 <example xml:id="fs-idp58220144">
