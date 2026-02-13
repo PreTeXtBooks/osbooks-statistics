@@ -1231,344 +1231,6 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
 
     </subsection>
 
-    <subsection xml:id="ch8-eip-673">
-      <title>Homework</title>
-
-      <exercise xml:id="ch8-exer1">
-        <statement>
-          <p>Among various ethnic groups, the standard deviation of heights is known to be approximately three inches. We wish to construct a 95 percent confidence interval for the mean height of male Swedes. 48 male Swedes are surveyed. The sample mean is 71 inches. The sample standard deviation is 2.8 in. <m>\bar{x}</m> =________ <em>σ</em> =________ <em>n</em> =________ In words, define the random variables <em>X</em> and <m>\bar{X}</m>. Which distribution should you use for this problem? Explain your choice. Construct a 95 percent confidence interval for the population mean height of male Swedes. State the confidence interval. Sketch the graph. Calculate the error bound. What will happen to the level of confidence obtained if 1,000 male Swedes are surveyed instead of 48? Why?</p>
-        </statement>
-      <solution>
-        <p>71 3 48 <em>X</em> is the height of a Swedish male, and is the mean height from a sample of 48 Swedish males. Normal. We know the standard deviation for the population, and the sample size is greater than 30. CI: (70.151, 71.49) EBM = 0.849 The confidence interval will decrease in size, because the sample size increased. Recall, when all factors remain unchanged, an increase in sample size decreases variability. Thus, we do not need as large an interval to capture the true population mean.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="ch8-exer8">
-      <statement>
-        <p>Announcements for 84 upcoming engineering conferences were randomly picked from a stack of <em>IEEE Spectrum</em> magazines. The mean length of the conferences was 3.94 days, with a standard deviation of 1.28 days. Assume the underlying population is normal.</p>
-        <ol>
-          <li>
-            <p>In words, define the random variables <em>X</em> and <m>\bar{X}</m>.</p>
-          </li>
-          <li>
-            <p>Which distribution should you use for this problem? Explain your choice.</p>
-          </li>
-          <li>
-            <p>Construct a 95 percent confidence interval for the population mean length of engineering conferences.
-            
-              State the confidence interval. 
-          Sketch the graph.
-        Calculate the error bound.
-            
-          </p>
-          </li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="ch8-exer6">
-      <statement>
-        <p>Suppose that an accounting firm does a study to determine the time needed to complete one person’s tax forms. It randomly surveys 100 people. The sample mean is 23.6 hours. There is a known standard deviation of 7.0 hours. The population distribution is assumed to be normal.</p>
-        <ol>
-          <li>
-            <p>
-          
-            <m>\bar{x}</m> =________
-    <em>σ</em> =________
-            <em>n</em> =________
-          
-          </p>
-          </li>
-          <li>
-            <p>In words, define the random variables <em>X</em> and <m>\bar{X}</m>.</p>
-          </li>
-          <li>
-            <p>Which distribution should you use for this problem? Explain your choice.</p>
-          </li>
-          <li>
-            <p>Construct a 90 percent confidence interval for the population mean time to complete the tax forms.
-          
-            State the confidence interval.
-           Sketch the graph.
-           Calculate the error bound.
-          
-        </p>
-          </li>
-          <li>
-            <p>If the firm wished to increase its level of confidence and keep the error bound the same by taking another survey, which changes should it make?</p>
-          </li>
-          <li>
-            <p>If the firm did another survey, kept the error bound the same, and only surveyed 49 people, what would happen to the level of confidence? Why?</p>
-          </li>
-          <li>
-            <p>Suppose that the firm decided that it needed to be at least 96 percent confident of the population mean length of time to within one hour. How would the number of people the firm surveys change? Why?</p>
-          </li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li>
-            <p>
-
-<m>\bar{x}</m> = 23.6
-<m>σ</m> =  7
-n =  100
-</p>
-          </li>
-          <li>
-            <p><em>X</em> is the time needed to complete an individual tax form. <m>\bar{X}</m> is the mean time to complete tax forms from a sample of 100 customers.</p>
-          </li>
-          <li>
-            <p><m>N(23.6,\frac{7}{\sqrt{100}})</m> because we know sigma.</p>
-          </li>
-          <li>
-            <p>
-
-(22.228, 24.972)
-
-
-
-<em>EBM</em> = 1.372
-
-</p>
-          </li>
-          <li>
-            <p>It will need to change the sample size. The firm needs to determine what the confidence level should be and then apply the error bound formula to determine the necessary sample size.</p>
-          </li>
-          <li>
-            <p>The confidence level would increase as a result of a larger interval. Smaller sample sizes result in more variability. To capture the true population mean, we need to have a larger interval.</p>
-          </li>
-          <li>
-            <p>According to the error bound formula, the firm needs to survey 206 people. Because we increase the confidence level, we need to increase either our error bound or the sample size.</p>
-          </li>
-        </ol>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="exer9">
-      <statement>
-        <p>A sample of 16 small bags of the same brand of candies was selected. Assume that the population distribution of bag weights is normal. The weight of each bag was then recorded. The mean weight was two ounces with a standard deviation of 0.12 ounces. The population standard deviation is known to be 0.1 ounce.</p>
-        <ol>
-          <li>
-            <p>
-        <m>\bar{x}</m> =________
-          
-          <em>σ</em> =________
-          <em>s<sub>x</sub></em> =________
-        
-        </p>
-          </li>
-          <li>
-            <p>In words, define the random variable <em>X</em>.</p>
-          </li>
-          <li>
-            <p>In words, define the random variable <m>\bar{X}</m>.</p>
-          </li>
-          <li>
-            <p>Which distribution should you use for this problem? Explain your choice.</p>
-          </li>
-          <li>
-            <p>Construct a 90 percent confidence interval for the population mean weight of the candies.
-           
-             State the confidence interval. 
-    Sketch the graph.
-    Calculate the error bound.
-         </p>
-          </li>
-          <li>
-            <p>Construct a 98 percent confidence interval for the population mean weight of the candies.
-            
-              State the confidence interval.
-    Sketch the graph.
-    Calculate the error bound.</p>
-          </li>
-          <li>
-            <p>In complete sentences, explain why the confidence interval in Part f is larger than the confidence interval in Part e.</p>
-          </li>
-          <li>
-            <p>In complete sentences, give an interpretation of what the interval in Part f means.</p>
-          </li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="exerci">
-      <statement>
-        <p>A camp director is interested in the mean number of letters each child sends during his or her camp session. The population standard deviation is known to be 2.5. A survey of 20 campers is taken. The mean from the sample is 7.9, with a sample standard deviation of 2.8.</p>
-        <ol>
-          <li>
-            <p>
-        
-          <m>\bar{x}</m> =________
-          <em>σ</em> =________
-          <em>n</em> =________
-        
-          </p>
-          </li>
-          <li>
-            <p>Define the random variables <em>X</em> and <m>\bar{X}</m> in words.</p>
-          </li>
-          <li>
-            <p>Which distribution should you use for this problem? Explain your choice.</p>
-          </li>
-          <li>
-            <p>Construct a 90 percent confidence interval for the population mean number of letters campers send home.
-      
-        State the confidence interval. 
-        Sketch the graph.
-    Calculate the error bound.
-      
-    </p>
-          </li>
-          <li>
-            <p>What will happen to the error bound and confidence interval if 500 campers are surveyed? Why?</p>
-          </li>
-        </ol>
-      </statement>
-      <solution>
-        <p>7.9 2.5 20 <em>X</em> is the number of letters a single camper will send home. <m>\bar{X}</m> is the mean number of letters sent home from a sample of 20 campers. <em>N</em> <m>7.9(\frac{2.5}{\sqrt{20}})</m> CI: (6.98, 8.82) <em>EBM</em>: 0.92 The error bound and confidence interval will decrease.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="exercising">
-      <statement>
-        <p>What is meant by the term <em>90 percent confident</em> when constructing a confidence interval for a mean?</p>
-        <ol>
-          <li>
-            <p>If we took repeated samples, approximately 90 percent of the samples would produce the same confidence interval.</p>
-          </li>
-          <li>
-            <p>If we took repeated samples, approximately 90 percent of the confidence intervals calculated from those samples would contain the sample mean.</p>
-          </li>
-          <li>
-            <p>If we took repeated samples, approximately 90 percent of the confidence intervals calculated from those samples would contain the true value of the population mean.</p>
-          </li>
-          <li>
-            <p>If we took repeated samples, the sample mean would equal the population mean in approximately 90 percent of the samples.</p>
-          </li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="ch8-eip-217">
-      <statement>
-        <p>The Federal Election Commission collects information about campaign contributions and disbursements for candidates and political committees during each election cycle. During the 2012 campaign season, there were 1,619 candidates for the House of Representatives across the United States who received contributions from individuals. <xref ref="M02_CH08-tbl003" /> shows the total receipts from individuals for a random selection of 40 House candidates rounded to the nearest $100. The standard deviation for this data to the nearest hundred is <em>σ</em> = $909,200.</p>
-        <table xml:id="M02_CH08-tbl003">
-          <tabular halign="l l l l l">
-            <row>
-              <cell>$3,600</cell>
-              <cell>$1,243,900</cell>
-              <cell>$10,900</cell>
-              <cell>$385,200</cell>
-              <cell>$581,500</cell>
-            </row>
-            <row>
-              <cell>$7,400</cell>
-              <cell>$2,900</cell>
-              <cell>$400</cell>
-              <cell>$3,714,500</cell>
-              <cell>$632,500</cell>
-            </row>
-            <row>
-              <cell>$391,000</cell>
-              <cell>$467,400</cell>
-              <cell>$56,800</cell>
-              <cell>$5,800</cell>
-              <cell>$405,200</cell>
-            </row>
-            <row>
-              <cell>$733,200</cell>
-              <cell>$8,000</cell>
-              <cell>$468,700</cell>
-              <cell>$75,200</cell>
-              <cell>$41,000</cell>
-            </row>
-            <row>
-              <cell>$13,300</cell>
-              <cell>$9,500</cell>
-              <cell>$953,800</cell>
-              <cell>$1,113,500</cell>
-              <cell>$1,109,300</cell>
-            </row>
-            <row>
-              <cell>$353,900</cell>
-              <cell>$986,100</cell>
-              <cell>$88,600</cell>
-              <cell>$378,200</cell>
-              <cell>$13,200</cell>
-            </row>
-            <row>
-              <cell>$3,800</cell>
-              <cell>$745,100</cell>
-              <cell>$5,800</cell>
-              <cell>$3,072,100</cell>
-              <cell>$1,626,700</cell>
-            </row>
-            <row>
-              <cell>$512,900</cell>
-              <cell>$2,309,200</cell>
-              <cell>$6,600</cell>
-              <cell>$202,400</cell>
-              <cell>$15,800</cell>
-            </row>
-          </tabular>
-        </table>
-        <ol>
-          <li>
-            <p>Find the point estimate for the population mean.</p>
-          </li>
-          <li>
-            <p>Using 95 percent confidence, calculate the error bound.</p>
-          </li>
-          <li>
-            <p>Create a 95 percent confidence interval for the mean total individual contributions.</p>
-          </li>
-          <li>
-            <p>Interpret the confidence interval in the context of the problem.</p>
-          </li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li>
-            <p><m>\bar{x}</m> = $568,873</p>
-          </li>
-          <li>
-            <p><em>CL</em> = 0.95, <em>α</em> = 1 – 0.95 = 0.05, <m>z_{\frac{α}{2}}</m> = 1.96
-    
-      <em>EBM</em> = <m>z_{0.025}\frac{σ}{\sqrt{n}}</m> = 1.96 <m>\frac{909200}{\sqrt{40}}</m> = $281,764</p>
-          </li>
-          <li>
-            <p>Alternate solution:</p>
-          </li>
-          <li>
-            <p>We estimate with 95 percent confidence that the mean amount of contributions received from all individuals by House candidates is between $287,109 and $850,637.</p>
-          </li>
-        </ol>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="ch8-eip-806">
-      <statement>
-        <p>The American Community Survey (ACS), part of the U.S. Census Bureau, conducts a yearly census similar to the one taken every 10 years, but with a smaller percentage of participants. The most recent survey estimates with 90 percent confidence that the mean household income in the United States falls between $69,720 and $69,922. Find the point estimate for mean U.S. household income and the error bound for mean U.S. household income.</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="ch8-eip-580">
-      <statement>
-        <p>The average height of young adult males has a normal distribution with standard deviation of 2.5 in. You want to estimate the mean height of students at your college or university to within 1 in. with 93 percent confidence. How many male students must you measure?</p>
-      </statement>
-      <solution>
-        <p>Use the formula for <em>EBM</em>, solved for <em>n</em>: <m>n= \frac{z^{2}σ^{2}}{EBM^{2}}</m></p>
-        <p>From the statement of the problem, you know that <em>σ</em> = 2.5, and you need <em>EBM</em> = 1.</p>
-        <p><em>z</em> = <em>z</em><sub>0.035</sub> = 1.812.</p>
-        <p>(This is the value of <em>z</em> for which the area under the density curve to the <em>right</em> of <em>z</em> is 0.035.)</p>
-        <p><m>n= \frac{z^{2}σ^{2}}{EBM^{2}}=\frac{1.812^{2}2.5^{2}}{1^{2}} \approx 20.52.</m></p>
-        <p>You need to measure at least 21 male students to achieve your goal.</p>
-      </solution>
-    </exercise>
-
-    </subsection>
 
   </section>
 
@@ -2171,459 +1833,6 @@ Calculate the following:
     </exercise>
   </subsection>
 
-  <subsection xml:id="ch8-fs-idp293092128">
-    <title>Homework</title>
-    <exercise xml:id="ch8-exer2">
-      <statement>
-        <p>In six packages of multicolored fruit snacks, there were five red snack pieces. The total number of snack pieces in the six bags was 68. We wish to calculate a 96 percent confidence interval for the population proportion of red snack pieces.</p>
-        <ol>
-          <li>Define the random variables <em>X</em> and
-   <em>P</em>′ in words.</li>
-          <li>Which distribution should you use for this problem? Explain your choice.</li>
-          <li>Calculate <em>p</em>′.</li>
-          <li>
-            <ol>
-              <li>State the confidence interval.</li>
-              <li>Sketch the graph.</li>
-              <li>Calculate the error bound.</li>
-            </ol>
-          </li>
-          <li>Do you think that six packages of fruit snacks yield enough data to give accurate results? Why or why not?</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch8-exer3">
-      <statement>
-        <p>A random survey of enrollment at 35 community colleges across the United States yielded the following figures: 6,414, 1,550, 2,109, 9,350, 21,828, 4,300, 5,944, 5,722, 2,825, 2,044, 5,481, 5,200, 5,853, 2,750, 10,012, 6,357, 27,000, 9,414, 7,681, 3,200, 17,500, 9,200, 7,380, 18,314, 6,557, 13,713, 17,768, 7,493, 2,771, 2,861, 1,263, 7,285, 28,165, 5,080, 11,622. Assume the underlying population is normal.
- 
- 
-  
-   <m>\bar{x}</m> = __________
-   <m>s_{x}</m> = __________
-   <em>n</em> = __________
-   <em>n</em> – 1 = __________
-  
-  
-   Define the random variables <m>X</m> and <m>\bar{X}</m> in words.
-      Which distribution should you use for this problem? Explain your choice.
-      Construct a 95 percent confidence interval for the population mean enrollment at community colleges in the United States.
-       
-        State the confidence interval.
-      Sketch the graph.
-    Calculate the error bound.
-       
-      
-    What will happen to the error bound and confidence interval if 500 community colleges are surveyed? Why?
- 
-</p>
-      </statement>
-      <solution>
-        <ol>
-          <li>
-            <ol>
-              <li>8,629</li>
-              <li>6,944</li>
-              <li>35</li>
-              <li>34</li>
-            </ol>
-          </li>
-          <li><m>t_{34}</m>
-  </li>
-          <li>
-            <ol>
-              <li>CI: (6244, 11,014)</li>
-              <li />
-              <li>EB = 2385</li>
-            </ol>
-          </li>
-          <li>It will become smaller.</li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch8-exer5">
-      <statement>
-        <p>Suppose that a committee is studying whether there is wasted time in our judicial system. It is interested in the mean amount of time individuals waste at the courthouse waiting to be called for jury duty. The committee randomly surveyed 81 people who recently served as jurors. The sample mean wait time was 8 hr, with a sample standard deviation of 4 hr.</p>
-        <ol>
-          <li>
-            <ol>
-              <li><m>\bar{x}</m> = __________</li>
-              <li><m>s_{x}</m> = __________</li>
-              <li><em>n</em> = __________</li>
-              <li><em>n</em> – 1 = __________</li>
-            </ol>
-          </li>
-          <li>Define the random variables <m>X</m> and <m>\bar{X}</m> in words.</li>
-          <li>Which distribution should you use for this problem? Explain your choice.</li>
-          <li>
-            <ol>
-              <li>State the confidence interval.</li>
-              <li>Sketch the graph.</li>
-              <li>Calculate the error bound.</li>
-            </ol>
-          </li>
-          <li>Explain in a complete sentence what the confidence interval means.</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch8-exer10">
-      <statement>
-        <p>A pharmaceutical company makes a drug used during surgery. It is assumed that the distribution for the length of time the drug lasts is approximately normal. Researchers in a hospital used the drug on a random sample of nine patients. The effective period of the antibiotic drug for each patient (in hours) was as follows: 2.7, 2.8, 3.0, 2.3, 2.3, 2.2, 2.8, 2.1, and 2.4.</p>
-        <ol>
-          <li>
-            <ol>
-              <li><m>\bar{x}</m> = __________</li>
-              <li><m>s_{x}</m> = __________</li>
-              <li><em>n</em> = __________</li>
-              <li><em>n</em> – 1 = __________</li>
-            </ol>
-          </li>
-          <li>Define the random variable <m>X</m> in words.</li>
-          <li>Define the random variable <m>\bar{X}</m> in words.</li>
-          <li>Which distribution should you use for this problem? Explain your choice.</li>
-          <li>
-            <ol>
-              <li>State the confidence interval.</li>
-              <li>Sketch the graph.</li>
-              <li>Calculate the error bound.</li>
-            </ol>
-          </li>
-          <li>What does it mean to be  <em>95 percent confident</em> in this problem?</li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li>
-            <ol>
-              <li><m>\bar{x}</m> = 2.51</li>
-              <li><m>s_{x}</m> = 0.318</li>
-              <li><em>n</em> = 9</li>
-              <li><em>n</em> - 1 = 8 </li>
-            </ol>
-          </li>
-          <li>The effective length of time for a tranquilizer</li>
-          <li>The mean effective length of time of tranquilizers from a sample of nine patients</li>
-          <li>We need to use a Student’s <em>t</em>-distribution, because we do not know the population standard deviation.</li>
-          <li>
-            <ol>
-              <li>CI: (2.27, 2.76)</li>
-              <li>Check student's solution.</li>
-              <li><em>EBM</em>: 0.25</li>
-            </ol>
-          </li>
-          <li>If we were to sample many groups of nine patients, 95 percent of the samples would contain the true population mean length of time.</li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch8-exer11">
-      <statement>
-        <p>Suppose that 14 children who were learning to ride two-wheel bikes were surveyed to determine how long they had to use training wheels. It was revealed that they used them an average of six months, with a sample standard deviation of three months. Assume that the underlying population distribution is normal.</p>
-        <ol>
-          <li>
-            <ol>
-              <li><m>\bar{x}</m> = __________</li>
-              <li><m>s_{x}</m> = __________</li>
-              <li><em>n</em> = __________</li>
-              <li><em>n</em> – 1 = __________</li>
-            </ol>
-          </li>
-          <li>Define the random variable <m>X</m> in words.</li>
-          <li>Define the random variable <m>\bar{X}</m> in words.</li>
-          <li>Which distribution should you use for this problem? Explain your choice.</li>
-          <li>
-            <ol>
-              <li>State the confidence interval.</li>
-              <li>Sketch the graph.</li>
-              <li>Calculate the error bound.</li>
-            </ol>
-          </li>
-          <li>Why would the error bound change if the confidence level were lowered to 90 percent?</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch8-eip-390">
-      <statement>
-        <p>The Federal Election Commission (FEC) collects information about campaign contributions and disbursements for candidates and political committees during each election cycle. A political action committee (PAC) is a committee formed to raise money for candidates and campaigns. A Leadership PAC is a PAC formed by a federal politician (senator or representative) to raise money to help other candidates’ campaigns.</p>
-        <p>The FEC has reported financial information for 556 Leadership PACs that operated during the 2011–2012 election cycle. The following table shows the total receipts during this cycle for a random selection of 20 Leadership PACs.</p>
-        <table xml:id="ch8-eip-146">
-          <tabular>
-            <row>
-              <cell>$46,500.00</cell>
-              <cell>$0</cell>
-              <cell>$40,966.50</cell>
-              <cell>$105,887.20</cell>
-              <cell>$5,175.00</cell>
-            </row>
-            <row>
-              <cell>$29,050.00</cell>
-              <cell>$19,500.00</cell>
-              <cell>$181,557.20</cell>
-              <cell>$31,500.00</cell>
-              <cell>$149,970.80</cell>
-            </row>
-            <row>
-              <cell>$2,555,363.20</cell>
-              <cell>$12,025.00</cell>
-              <cell>$409,000.00</cell>
-              <cell>$60,521.70</cell>
-              <cell>$18,000.00</cell>
-            </row>
-            <row>
-              <cell>$61,810.20</cell>
-              <cell>$76,530.80</cell>
-              <cell>$119,459.20</cell>
-              <cell>$0</cell>
-              <cell>$63,520.00</cell>
-            </row>
-            <row>
-              <cell>$6,500.00</cell>
-              <cell>$502,578.00</cell>
-              <cell>$705,061.10</cell>
-              <cell>$708,258.90</cell>
-              <cell>$135,810.00</cell>
-            </row>
-            <row>
-              <cell>$2,000.00</cell>
-              <cell>$2,000.00</cell>
-              <cell>$0</cell>
-              <cell>$1,287,933.80</cell>
-              <cell>$219,148.30</cell>
-            </row>
-          </tabular>
-        </table>
-        <p>
-<m>\bar{x}=$251,854.23</m>
-</p>
-        <p>
-<m>s=\text{ }$521,130.41</m>
-</p>
-        <p>Use the sample data to construct a 96 percent confidence interval for the mean amount of money raised by all Leadership PACs during the 2011–2012 election cycle. Use the Student's <em>t</em>-distribution.</p>
-      </statement>
-      <solution>
-        <p>
-<m>\bar{x}=$251,854.23\text{;}</m>
-</p>
-        <p>
-<m>s=\text{ }$521,130.41\text{.}</m>
-</p>
-        <p>Note that we are not given the population standard deviation, only the standard deviation of the sample.</p>
-        <p>There are 30 measures in the sample, so <em>n</em> = 30, and <em>df</em> = 30 - 1 = 29.</p>
-        <p><em>CL</em> = 0.96, so <em>α</em> = 1 - <em>CL</em> = 1 - 0.96 = 0.04.</p>
-        <p><m>\frac{\alpha}{2}=0.02t_{\frac{\alpha}{2}}=t_{0.02}</m>
- = 2.150.</p>
-        <p><m>EBM=t_{\frac{\alpha}{2}}(\frac{s}{\sqrt{n}})=2.150(\frac{521,130.41}{\sqrt{30}}) ~ $204,561.66\text{.}</m>
-</p>
-        <p><m>\bar{x}</m> - <em>EBM</em> = $251,854.23 - $204,561.66 = $47,292.57.</p>
-        <p><m>\bar{x}</m> + <em>EBM</em> = $251,854.23 + $204,561.66 = $456,415.89.</p>
-        <p>We estimate with 96 percent confidence that the mean amount of money raised by all Leadership PACs during the 2011–2012 election cycle lies between $47,292.57 and $456,415.89.
-</p>
-        <p>Alternate Solution</p>
-        <note xml:id="ch8-fs-idm33267104">
-        </note>
-        <p>The difference between solutions arises from rounding differences.</p>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch8-eip-217-2">
-      <statement>
-        <p>A major business magazine published data on the best small firms in 2012. These were firms that have been publicly traded for at least a year, have a stock price of at least $5 per share, and have reported annual revenue between $5 million and $1 billion. <xref ref="ch8-eip-884" /> shows the ages of the corporate CEOs for a random sample of these firms.
-  </p>
-        <table xml:id="ch8-eip-884">
-          <tabular>
-            <row>
-              <cell>48</cell>
-              <cell>58</cell>
-              <cell>51</cell>
-              <cell>61</cell>
-              <cell>56</cell>
-            </row>
-            <row>
-              <cell>59</cell>
-              <cell>74</cell>
-              <cell>63</cell>
-              <cell>53</cell>
-              <cell>50</cell>
-            </row>
-            <row>
-              <cell>59</cell>
-              <cell>60</cell>
-              <cell>60</cell>
-              <cell>57</cell>
-              <cell>46</cell>
-            </row>
-            <row>
-              <cell>55</cell>
-              <cell>63</cell>
-              <cell>57</cell>
-              <cell>47</cell>
-              <cell>55</cell>
-            </row>
-            <row>
-              <cell>57</cell>
-              <cell>43</cell>
-              <cell>61</cell>
-              <cell>62</cell>
-              <cell>49</cell>
-            </row>
-            <row>
-              <cell>67</cell>
-              <cell>67</cell>
-              <cell>55</cell>
-              <cell>55</cell>
-              <cell>49</cell>
-            </row>
-          </tabular>
-        </table>
-        <p>Use the sample data to construct a 90 percent confidence interval for the mean age of CEOs for these top small firms. Use the Student's <em>t</em>-distribution.</p>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch8-eip-392">
-      <statement>
-        <p>Unoccupied seats on flights cause airlines to lose revenue. Suppose a large airline wants to estimate its mean number of unoccupied seats per flight over the past year. To accomplish this, the records of 225 flights are randomly selected, and the number of unoccupied seats is noted for each of the sampled flights. The sample mean is 11.6 seats, and the sample standard deviation is 4.1 seats.</p>
-        <ol>
-          <li>
-            <ol>
-              <li><m>\bar{x}</m> = __________
-  </li>
-              <li><m>s_{x}</m> = __________</li>
-              <li><em>n</em> = __________</li>
-              <li><em>n</em>  1 = __________</li>
-            </ol>
-          </li>
-          <li>Define the random variables <m>X</m> and <m>\bar{X}</m> in words.</li>
-          <li>Which distribution should you use for this problem? Explain your choice.</li>
-          <li>
-            <ol>
-              <li>State the confidence interval.</li>
-              <li>Sketch the graph.</li>
-              <li>Calculate the error bound.</li>
-            </ol>
-          </li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li>
-            <ol>
-              <li><m>\bar{x}</m> = </li>
-              <li><m>s_{x}</m> = </li>
-              <li><em>n</em> = </li>
-              <li><em>n</em> - 1 = </li>
-            </ol>
-          </li>
-          <li><em>X</em> is the number of unoccupied seats on a single flight. <m>\bar{X}</m> is the mean number of unoccupied seats from a sample of 225 flights.</li>
-          <li>We will use a Student’s t-distribution, because we do not know the population standard deviation.</li>
-          <li>
-            <ol>
-              <li>CI: (11.12 , 12.08)</li>
-              <li>Check student's solution.</li>
-              <li><em>EBM</em>: 0.48</li>
-            </ol>
-          </li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch8-eip-848">
-      <statement>
-        <p>In a recent sample of 84 used car sales costs, the sample mean was $6,425, with a standard deviation of $3,156. Assume the underlying distribution is approximately normal.</p>
-        <ol>
-          <li>Which distribution should you use for this problem? Explain your choice.</li>
-          <li>Define the random variable <m>\bar{X}</m> in words.</li>
-          <li>
-            <ol>
-              <li>State the confidence interval.</li>
-              <li>Sketch the graph.</li>
-              <li>Calculate the error bound.</li>
-            </ol>
-          </li>
-          <li>Explain what a <em>95 percent confidence interval</em> means for this study.</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="ch8-eip-789">
-      <statement>
-        <p>Six different national brands of chocolate chip cookies were randomly selected at the supermarket. The grams of fat per serving are as follows: 8, 8, 10, 7, 9, 9. Assume the underlying distribution is approximately normal.</p>
-        <ol>
-          <li>
-            <ol>
-              <li>State the confidence interval.</li>
-              <li>Sketch the graph.</li>
-              <li>Calculate the error bound.</li>
-            </ol>
-          </li>
-          <li>If you wanted a smaller error bound while keeping the same level of confidence, what should have been changed in the study before it was done?</li>
-          <li>Go to the store and record the grams of fat per serving of six brands of chocolate chip cookies.</li>
-          <li>Calculate the mean.</li>
-          <li>Is the mean within the interval you calculated in Part a? Did you expect it to be? Why or why not?</li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li>
-            <ol>
-              <li>CI: (7.64, 9.36)</li>
-              <li />
-              <li><em>EBM</em>: 0.86</li>
-            </ol>
-          </li>
-          <li>The sample should have been increased.</li>
-          <li>Answers will vary.</li>
-          <li>Answers will vary.</li>
-          <li>Answers will vary.</li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="ch8-fs-idm170967312">
-      <statement>
-        <p>A survey of the mean number of cents off given by coupons was conducted by randomly surveying one coupon per page from the coupons section of a local newspaper. The following data were collected: 20¢, 75¢, 50¢, 65¢, 30¢, 55¢, 40¢, 40¢, 30¢, 55¢, $1.50, 40¢, 65¢, 40¢. Assume the underlying distribution is approximately normal.</p>
-        <ol>
-          <li>
-            <ol>
-              <li><m>\bar{x}</m> = __________</li>
-              <li><m>s_{x}</m> = __________</li>
-              <li><em>n</em> = __________</li>
-              <li><em>n</em>  1 = __________</li>
-            </ol>
-          </li>
-          <li>Define the random variables <m>X</m> and <m>\bar{X}</m> in words.</li>
-          <li>Which distribution should you use for this problem? Explain your choice.</li>
-          <li>
-            <ol>
-              <li>State the confidence interval.</li>
-              <li>Sketch the graph.</li>
-              <li>Calculate the error bound.</li>
-            </ol>
-          </li>
-          <li>If many random samples were collected with 14 samples as the size, which percentage of the confidence intervals constructed should contain the population mean worth of coupons? Explain why.</li>
-        </ol>
-      </statement>
-    </exercise>
-    <p>
-<em>Use the following information to answer the next two exercises:</em> A quality control specialist for a restaurant chain takes a random sample of size 12 to check the amount of soda served in the 16-oz serving size. The sample mean is 13.30, with a sample standard deviation of 1.55. Assume the underlying population is normally distributed.</p>
-    <exercise xml:id="eeeeeeeeeeeeeeex">
-      <statement>
-        <p>Find the 95 percent confidence interval for the true population mean for the amount of soda served.</p>
-        <ol>
-          <li>(12.42, 14.18)</li>
-          <li>(12.32, 14.29)</li>
-          <li>(12.50, 14.10)</li>
-          <li>Impossible to determine</li>
-        </ol>
-      </statement>
-      <solution>
-        <p>b</p>
-      </solution>
-    </exercise>
-    <exercise xml:id="exxxx">
-      <statement>
-        <p>Which of the following is the error bound?</p>
-        <ol>
-          <li>0.87</li>
-          <li>1.98</li>
-          <li>0.99</li>
-          <li>1.74</li>
-        </ol>
-      </statement>
-    </exercise>
-  </subsection>
 </section>
 <section xml:id="sec-population-proportion">
   <title>A Population Proportion</title>
@@ -3224,9 +2433,845 @@ Calculate the following:
     </exercise>
   </exercises>
 
-  <exercises xml:id="ch8-fs-idm34727072">
+
+</section>
+
+  <section xml:id="sec-confidence-interval-home-costs">
+    <title>Confidence Interval (Home Costs)</title>
+    <p>
+      Content to be added from module m79656.
+    </p>
+  </section>
+
+  <section xml:id="sec-confidence-interval-place-birth">
+    <title>Confidence Interval (Place of Birth)</title>
+    <p>
+      Content to be added from module m79657.
+    </p>
+  </section>
+
+  <section xml:id="sec-confidence-intervals-review">
+    <title>Confidence Intervals: Review</title>
+    <p>
+      Content to be added from module m79658.
+    </p>
+  </section>
+
+  <section xml:id="sec-confidence-intervals-practice">
+    <title>Confidence Intervals: Practice</title>
+    <p>
+      Content to be added from module m79659.
+    </p>
+  </section>
+
+  <glossary xml:id="glossary-ch08">
+    <title>Glossary</title>
+    
+    <gi xml:id="coninter">
+      <title>confidence interval (CI)</title>
+      <p>an interval estimate for an unknown population parameter. This depends on the following:</p>
+      <ul>
+        <li><p>the desired confidence level,</p></li>
+        <li><p>information that is known about the distribution (for example, known standard deviation), and</p></li>
+        <li><p>the sample and its size.</p></li>
+      </ul>
+    </gi>
+    
+    <gi xml:id="infrstats">
+      <title>inferential statistics</title>
+      <p>also called statistical inference or inductive statistics; this facet of statistics deals with estimating a population parameter based on a sample statistic. For example, if four out of the 100 calculators sampled are defective, we might infer that 4 percent of the production is defective.</p>
+    </gi>
+    
+    <gi xml:id="parameter">
+      <title>parameter</title>
+      <p>a numerical characteristic of a population</p>
+    </gi>
+    
+    <gi xml:id="pointest">
+      <title>point estimate</title>
+      <p>a single number computed from a sample and used to estimate a population parameter</p>
+    </gi>
+  </glossary>
+
+  <section xml:id="sec-confidence-intervals-homework">
     <title>Homework</title>
-    <exercise xml:id="ch8-eip-77">
+
+      <exercise xml:id="ch8-exer1">
+        <statement>
+          <p>Among various ethnic groups, the standard deviation of heights is known to be approximately three inches. We wish to construct a 95 percent confidence interval for the mean height of male Swedes. 48 male Swedes are surveyed. The sample mean is 71 inches. The sample standard deviation is 2.8 in. <m>\bar{x}</m> =________ <em>σ</em> =________ <em>n</em> =________ In words, define the random variables <em>X</em> and <m>\bar{X}</m>. Which distribution should you use for this problem? Explain your choice. Construct a 95 percent confidence interval for the population mean height of male Swedes. State the confidence interval. Sketch the graph. Calculate the error bound. What will happen to the level of confidence obtained if 1,000 male Swedes are surveyed instead of 48? Why?</p>
+        </statement>
+      <solution>
+        <p>71 3 48 <em>X</em> is the height of a Swedish male, and is the mean height from a sample of 48 Swedish males. Normal. We know the standard deviation for the population, and the sample size is greater than 30. CI: (70.151, 71.49) EBM = 0.849 The confidence interval will decrease in size, because the sample size increased. Recall, when all factors remain unchanged, an increase in sample size decreases variability. Thus, we do not need as large an interval to capture the true population mean.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch8-exer8">
+      <statement>
+        <p>Announcements for 84 upcoming engineering conferences were randomly picked from a stack of <em>IEEE Spectrum</em> magazines. The mean length of the conferences was 3.94 days, with a standard deviation of 1.28 days. Assume the underlying population is normal.</p>
+        <ol>
+          <li>
+            <p>In words, define the random variables <em>X</em> and <m>\bar{X}</m>.</p>
+          </li>
+          <li>
+            <p>Which distribution should you use for this problem? Explain your choice.</p>
+          </li>
+          <li>
+            <p>Construct a 95 percent confidence interval for the population mean length of engineering conferences.
+            
+              State the confidence interval. 
+          Sketch the graph.
+        Calculate the error bound.
+            
+          </p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch8-exer6">
+      <statement>
+        <p>Suppose that an accounting firm does a study to determine the time needed to complete one person’s tax forms. It randomly surveys 100 people. The sample mean is 23.6 hours. There is a known standard deviation of 7.0 hours. The population distribution is assumed to be normal.</p>
+        <ol>
+          <li>
+            <p>
+          
+            <m>\bar{x}</m> =________
+    <em>σ</em> =________
+            <em>n</em> =________
+          
+          </p>
+          </li>
+          <li>
+            <p>In words, define the random variables <em>X</em> and <m>\bar{X}</m>.</p>
+          </li>
+          <li>
+            <p>Which distribution should you use for this problem? Explain your choice.</p>
+          </li>
+          <li>
+            <p>Construct a 90 percent confidence interval for the population mean time to complete the tax forms.
+          
+            State the confidence interval.
+           Sketch the graph.
+           Calculate the error bound.
+          
+        </p>
+          </li>
+          <li>
+            <p>If the firm wished to increase its level of confidence and keep the error bound the same by taking another survey, which changes should it make?</p>
+          </li>
+          <li>
+            <p>If the firm did another survey, kept the error bound the same, and only surveyed 49 people, what would happen to the level of confidence? Why?</p>
+          </li>
+          <li>
+            <p>Suppose that the firm decided that it needed to be at least 96 percent confident of the population mean length of time to within one hour. How would the number of people the firm surveys change? Why?</p>
+          </li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li>
+            <p>
+
+<m>\bar{x}</m> = 23.6
+<m>σ</m> =  7
+n =  100
+</p>
+          </li>
+          <li>
+            <p><em>X</em> is the time needed to complete an individual tax form. <m>\bar{X}</m> is the mean time to complete tax forms from a sample of 100 customers.</p>
+          </li>
+          <li>
+            <p><m>N(23.6,\frac{7}{\sqrt{100}})</m> because we know sigma.</p>
+          </li>
+          <li>
+            <p>
+
+(22.228, 24.972)
+
+
+
+<em>EBM</em> = 1.372
+
+</p>
+          </li>
+          <li>
+            <p>It will need to change the sample size. The firm needs to determine what the confidence level should be and then apply the error bound formula to determine the necessary sample size.</p>
+          </li>
+          <li>
+            <p>The confidence level would increase as a result of a larger interval. Smaller sample sizes result in more variability. To capture the true population mean, we need to have a larger interval.</p>
+          </li>
+          <li>
+            <p>According to the error bound formula, the firm needs to survey 206 people. Because we increase the confidence level, we need to increase either our error bound or the sample size.</p>
+          </li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="exer9">
+      <statement>
+        <p>A sample of 16 small bags of the same brand of candies was selected. Assume that the population distribution of bag weights is normal. The weight of each bag was then recorded. The mean weight was two ounces with a standard deviation of 0.12 ounces. The population standard deviation is known to be 0.1 ounce.</p>
+        <ol>
+          <li>
+            <p>
+        <m>\bar{x}</m> =________
+          
+          <em>σ</em> =________
+          <em>s<sub>x</sub></em> =________
+        
+        </p>
+          </li>
+          <li>
+            <p>In words, define the random variable <em>X</em>.</p>
+          </li>
+          <li>
+            <p>In words, define the random variable <m>\bar{X}</m>.</p>
+          </li>
+          <li>
+            <p>Which distribution should you use for this problem? Explain your choice.</p>
+          </li>
+          <li>
+            <p>Construct a 90 percent confidence interval for the population mean weight of the candies.
+           
+             State the confidence interval. 
+    Sketch the graph.
+    Calculate the error bound.
+         </p>
+          </li>
+          <li>
+            <p>Construct a 98 percent confidence interval for the population mean weight of the candies.
+            
+              State the confidence interval.
+    Sketch the graph.
+    Calculate the error bound.</p>
+          </li>
+          <li>
+            <p>In complete sentences, explain why the confidence interval in Part f is larger than the confidence interval in Part e.</p>
+          </li>
+          <li>
+            <p>In complete sentences, give an interpretation of what the interval in Part f means.</p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="exerci">
+      <statement>
+        <p>A camp director is interested in the mean number of letters each child sends during his or her camp session. The population standard deviation is known to be 2.5. A survey of 20 campers is taken. The mean from the sample is 7.9, with a sample standard deviation of 2.8.</p>
+        <ol>
+          <li>
+            <p>
+        
+          <m>\bar{x}</m> =________
+          <em>σ</em> =________
+          <em>n</em> =________
+        
+          </p>
+          </li>
+          <li>
+            <p>Define the random variables <em>X</em> and <m>\bar{X}</m> in words.</p>
+          </li>
+          <li>
+            <p>Which distribution should you use for this problem? Explain your choice.</p>
+          </li>
+          <li>
+            <p>Construct a 90 percent confidence interval for the population mean number of letters campers send home.
+      
+        State the confidence interval. 
+        Sketch the graph.
+    Calculate the error bound.
+      
+    </p>
+          </li>
+          <li>
+            <p>What will happen to the error bound and confidence interval if 500 campers are surveyed? Why?</p>
+          </li>
+        </ol>
+      </statement>
+      <solution>
+        <p>7.9 2.5 20 <em>X</em> is the number of letters a single camper will send home. <m>\bar{X}</m> is the mean number of letters sent home from a sample of 20 campers. <em>N</em> <m>7.9(\frac{2.5}{\sqrt{20}})</m> CI: (6.98, 8.82) <em>EBM</em>: 0.92 The error bound and confidence interval will decrease.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="exercising">
+      <statement>
+        <p>What is meant by the term <em>90 percent confident</em> when constructing a confidence interval for a mean?</p>
+        <ol>
+          <li>
+            <p>If we took repeated samples, approximately 90 percent of the samples would produce the same confidence interval.</p>
+          </li>
+          <li>
+            <p>If we took repeated samples, approximately 90 percent of the confidence intervals calculated from those samples would contain the sample mean.</p>
+          </li>
+          <li>
+            <p>If we took repeated samples, approximately 90 percent of the confidence intervals calculated from those samples would contain the true value of the population mean.</p>
+          </li>
+          <li>
+            <p>If we took repeated samples, the sample mean would equal the population mean in approximately 90 percent of the samples.</p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch8-eip-217">
+      <statement>
+        <p>The Federal Election Commission collects information about campaign contributions and disbursements for candidates and political committees during each election cycle. During the 2012 campaign season, there were 1,619 candidates for the House of Representatives across the United States who received contributions from individuals. <xref ref="M02_CH08-tbl003" /> shows the total receipts from individuals for a random selection of 40 House candidates rounded to the nearest $100. The standard deviation for this data to the nearest hundred is <em>σ</em> = $909,200.</p>
+        <table xml:id="M02_CH08-tbl003">
+          <tabular halign="l l l l l">
+            <row>
+              <cell>$3,600</cell>
+              <cell>$1,243,900</cell>
+              <cell>$10,900</cell>
+              <cell>$385,200</cell>
+              <cell>$581,500</cell>
+            </row>
+            <row>
+              <cell>$7,400</cell>
+              <cell>$2,900</cell>
+              <cell>$400</cell>
+              <cell>$3,714,500</cell>
+              <cell>$632,500</cell>
+            </row>
+            <row>
+              <cell>$391,000</cell>
+              <cell>$467,400</cell>
+              <cell>$56,800</cell>
+              <cell>$5,800</cell>
+              <cell>$405,200</cell>
+            </row>
+            <row>
+              <cell>$733,200</cell>
+              <cell>$8,000</cell>
+              <cell>$468,700</cell>
+              <cell>$75,200</cell>
+              <cell>$41,000</cell>
+            </row>
+            <row>
+              <cell>$13,300</cell>
+              <cell>$9,500</cell>
+              <cell>$953,800</cell>
+              <cell>$1,113,500</cell>
+              <cell>$1,109,300</cell>
+            </row>
+            <row>
+              <cell>$353,900</cell>
+              <cell>$986,100</cell>
+              <cell>$88,600</cell>
+              <cell>$378,200</cell>
+              <cell>$13,200</cell>
+            </row>
+            <row>
+              <cell>$3,800</cell>
+              <cell>$745,100</cell>
+              <cell>$5,800</cell>
+              <cell>$3,072,100</cell>
+              <cell>$1,626,700</cell>
+            </row>
+            <row>
+              <cell>$512,900</cell>
+              <cell>$2,309,200</cell>
+              <cell>$6,600</cell>
+              <cell>$202,400</cell>
+              <cell>$15,800</cell>
+            </row>
+          </tabular>
+        </table>
+        <ol>
+          <li>
+            <p>Find the point estimate for the population mean.</p>
+          </li>
+          <li>
+            <p>Using 95 percent confidence, calculate the error bound.</p>
+          </li>
+          <li>
+            <p>Create a 95 percent confidence interval for the mean total individual contributions.</p>
+          </li>
+          <li>
+            <p>Interpret the confidence interval in the context of the problem.</p>
+          </li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li>
+            <p><m>\bar{x}</m> = $568,873</p>
+          </li>
+          <li>
+            <p><em>CL</em> = 0.95, <em>α</em> = 1 – 0.95 = 0.05, <m>z_{\frac{α}{2}}</m> = 1.96
+    
+      <em>EBM</em> = <m>z_{0.025}\frac{σ}{\sqrt{n}}</m> = 1.96 <m>\frac{909200}{\sqrt{40}}</m> = $281,764</p>
+          </li>
+          <li>
+            <p>Alternate solution:</p>
+          </li>
+          <li>
+            <p>We estimate with 95 percent confidence that the mean amount of contributions received from all individuals by House candidates is between $287,109 and $850,637.</p>
+          </li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch8-eip-806">
+      <statement>
+        <p>The American Community Survey (ACS), part of the U.S. Census Bureau, conducts a yearly census similar to the one taken every 10 years, but with a smaller percentage of participants. The most recent survey estimates with 90 percent confidence that the mean household income in the United States falls between $69,720 and $69,922. Find the point estimate for mean U.S. household income and the error bound for mean U.S. household income.</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch8-eip-580">
+      <statement>
+        <p>The average height of young adult males has a normal distribution with standard deviation of 2.5 in. You want to estimate the mean height of students at your college or university to within 1 in. with 93 percent confidence. How many male students must you measure?</p>
+      </statement>
+      <solution>
+        <p>Use the formula for <em>EBM</em>, solved for <em>n</em>: <m>n= \frac{z^{2}σ^{2}}{EBM^{2}}</m></p>
+        <p>From the statement of the problem, you know that <em>σ</em> = 2.5, and you need <em>EBM</em> = 1.</p>
+        <p><em>z</em> = <em>z</em><sub>0.035</sub> = 1.812.</p>
+        <p>(This is the value of <em>z</em> for which the area under the density curve to the <em>right</em> of <em>z</em> is 0.035.)</p>
+        <p><m>n= \frac{z^{2}σ^{2}}{EBM^{2}}=\frac{1.812^{2}2.5^{2}}{1^{2}} \approx 20.52.</m></p>
+        <p>You need to measure at least 21 male students to achieve your goal.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="ch8-exer2">
+      <statement>
+        <p>In six packages of multicolored fruit snacks, there were five red snack pieces. The total number of snack pieces in the six bags was 68. We wish to calculate a 96 percent confidence interval for the population proportion of red snack pieces.</p>
+        <ol>
+          <li>Define the random variables <em>X</em> and
+   <em>P</em>′ in words.</li>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>Calculate <em>p</em>′.</li>
+          <li>
+            <ol>
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>Do you think that six packages of fruit snacks yield enough data to give accurate results? Why or why not?</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch8-exer3">
+      <statement>
+        <p>A random survey of enrollment at 35 community colleges across the United States yielded the following figures: 6,414, 1,550, 2,109, 9,350, 21,828, 4,300, 5,944, 5,722, 2,825, 2,044, 5,481, 5,200, 5,853, 2,750, 10,012, 6,357, 27,000, 9,414, 7,681, 3,200, 17,500, 9,200, 7,380, 18,314, 6,557, 13,713, 17,768, 7,493, 2,771, 2,861, 1,263, 7,285, 28,165, 5,080, 11,622. Assume the underlying population is normal.
+ 
+ 
+  
+   <m>\bar{x}</m> = __________
+   <m>s_{x}</m> = __________
+   <em>n</em> = __________
+   <em>n</em> – 1 = __________
+  
+  
+   Define the random variables <m>X</m> and <m>\bar{X}</m> in words.
+      Which distribution should you use for this problem? Explain your choice.
+      Construct a 95 percent confidence interval for the population mean enrollment at community colleges in the United States.
+       
+        State the confidence interval.
+      Sketch the graph.
+    Calculate the error bound.
+       
+      
+    What will happen to the error bound and confidence interval if 500 community colleges are surveyed? Why?
+ 
+</p>
+      </statement>
+      <solution>
+        <ol>
+          <li>
+            <ol>
+              <li>8,629</li>
+              <li>6,944</li>
+              <li>35</li>
+              <li>34</li>
+            </ol>
+          </li>
+          <li><m>t_{34}</m>
+  </li>
+          <li>
+            <ol>
+              <li>CI: (6244, 11,014)</li>
+              <li />
+              <li>EB = 2385</li>
+            </ol>
+          </li>
+          <li>It will become smaller.</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch8-exer5">
+      <statement>
+        <p>Suppose that a committee is studying whether there is wasted time in our judicial system. It is interested in the mean amount of time individuals waste at the courthouse waiting to be called for jury duty. The committee randomly surveyed 81 people who recently served as jurors. The sample mean wait time was 8 hr, with a sample standard deviation of 4 hr.</p>
+        <ol>
+          <li>
+            <ol>
+              <li><m>\bar{x}</m> = __________</li>
+              <li><m>s_{x}</m> = __________</li>
+              <li><em>n</em> = __________</li>
+              <li><em>n</em> – 1 = __________</li>
+            </ol>
+          </li>
+          <li>Define the random variables <m>X</m> and <m>\bar{X}</m> in words.</li>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>
+            <ol>
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>Explain in a complete sentence what the confidence interval means.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch8-exer10">
+      <statement>
+        <p>A pharmaceutical company makes a drug used during surgery. It is assumed that the distribution for the length of time the drug lasts is approximately normal. Researchers in a hospital used the drug on a random sample of nine patients. The effective period of the antibiotic drug for each patient (in hours) was as follows: 2.7, 2.8, 3.0, 2.3, 2.3, 2.2, 2.8, 2.1, and 2.4.</p>
+        <ol>
+          <li>
+            <ol>
+              <li><m>\bar{x}</m> = __________</li>
+              <li><m>s_{x}</m> = __________</li>
+              <li><em>n</em> = __________</li>
+              <li><em>n</em> – 1 = __________</li>
+            </ol>
+          </li>
+          <li>Define the random variable <m>X</m> in words.</li>
+          <li>Define the random variable <m>\bar{X}</m> in words.</li>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>
+            <ol>
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>What does it mean to be  <em>95 percent confident</em> in this problem?</li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li>
+            <ol>
+              <li><m>\bar{x}</m> = 2.51</li>
+              <li><m>s_{x}</m> = 0.318</li>
+              <li><em>n</em> = 9</li>
+              <li><em>n</em> - 1 = 8 </li>
+            </ol>
+          </li>
+          <li>The effective length of time for a tranquilizer</li>
+          <li>The mean effective length of time of tranquilizers from a sample of nine patients</li>
+          <li>We need to use a Student’s <em>t</em>-distribution, because we do not know the population standard deviation.</li>
+          <li>
+            <ol>
+              <li>CI: (2.27, 2.76)</li>
+              <li>Check student's solution.</li>
+              <li><em>EBM</em>: 0.25</li>
+            </ol>
+          </li>
+          <li>If we were to sample many groups of nine patients, 95 percent of the samples would contain the true population mean length of time.</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch8-exer11">
+      <statement>
+        <p>Suppose that 14 children who were learning to ride two-wheel bikes were surveyed to determine how long they had to use training wheels. It was revealed that they used them an average of six months, with a sample standard deviation of three months. Assume that the underlying population distribution is normal.</p>
+        <ol>
+          <li>
+            <ol>
+              <li><m>\bar{x}</m> = __________</li>
+              <li><m>s_{x}</m> = __________</li>
+              <li><em>n</em> = __________</li>
+              <li><em>n</em> – 1 = __________</li>
+            </ol>
+          </li>
+          <li>Define the random variable <m>X</m> in words.</li>
+          <li>Define the random variable <m>\bar{X}</m> in words.</li>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>
+            <ol>
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>Why would the error bound change if the confidence level were lowered to 90 percent?</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch8-eip-390">
+      <statement>
+        <p>The Federal Election Commission (FEC) collects information about campaign contributions and disbursements for candidates and political committees during each election cycle. A political action committee (PAC) is a committee formed to raise money for candidates and campaigns. A Leadership PAC is a PAC formed by a federal politician (senator or representative) to raise money to help other candidates’ campaigns.</p>
+        <p>The FEC has reported financial information for 556 Leadership PACs that operated during the 2011–2012 election cycle. The following table shows the total receipts during this cycle for a random selection of 20 Leadership PACs.</p>
+        <table xml:id="ch8-eip-146">
+          <tabular>
+            <row>
+              <cell>$46,500.00</cell>
+              <cell>$0</cell>
+              <cell>$40,966.50</cell>
+              <cell>$105,887.20</cell>
+              <cell>$5,175.00</cell>
+            </row>
+            <row>
+              <cell>$29,050.00</cell>
+              <cell>$19,500.00</cell>
+              <cell>$181,557.20</cell>
+              <cell>$31,500.00</cell>
+              <cell>$149,970.80</cell>
+            </row>
+            <row>
+              <cell>$2,555,363.20</cell>
+              <cell>$12,025.00</cell>
+              <cell>$409,000.00</cell>
+              <cell>$60,521.70</cell>
+              <cell>$18,000.00</cell>
+            </row>
+            <row>
+              <cell>$61,810.20</cell>
+              <cell>$76,530.80</cell>
+              <cell>$119,459.20</cell>
+              <cell>$0</cell>
+              <cell>$63,520.00</cell>
+            </row>
+            <row>
+              <cell>$6,500.00</cell>
+              <cell>$502,578.00</cell>
+              <cell>$705,061.10</cell>
+              <cell>$708,258.90</cell>
+              <cell>$135,810.00</cell>
+            </row>
+            <row>
+              <cell>$2,000.00</cell>
+              <cell>$2,000.00</cell>
+              <cell>$0</cell>
+              <cell>$1,287,933.80</cell>
+              <cell>$219,148.30</cell>
+            </row>
+          </tabular>
+        </table>
+        <p>
+<m>\bar{x}=$251,854.23</m>
+</p>
+        <p>
+<m>s=\text{ }$521,130.41</m>
+</p>
+        <p>Use the sample data to construct a 96 percent confidence interval for the mean amount of money raised by all Leadership PACs during the 2011–2012 election cycle. Use the Student's <em>t</em>-distribution.</p>
+      </statement>
+      <solution>
+        <p>
+<m>\bar{x}=$251,854.23\text{;}</m>
+</p>
+        <p>
+<m>s=\text{ }$521,130.41\text{.}</m>
+</p>
+        <p>Note that we are not given the population standard deviation, only the standard deviation of the sample.</p>
+        <p>There are 30 measures in the sample, so <em>n</em> = 30, and <em>df</em> = 30 - 1 = 29.</p>
+        <p><em>CL</em> = 0.96, so <em>α</em> = 1 - <em>CL</em> = 1 - 0.96 = 0.04.</p>
+        <p><m>\frac{\alpha}{2}=0.02t_{\frac{\alpha}{2}}=t_{0.02}</m>
+ = 2.150.</p>
+        <p><m>EBM=t_{\frac{\alpha}{2}}(\frac{s}{\sqrt{n}})=2.150(\frac{521,130.41}{\sqrt{30}}) ~ $204,561.66\text{.}</m>
+</p>
+        <p><m>\bar{x}</m> - <em>EBM</em> = $251,854.23 - $204,561.66 = $47,292.57.</p>
+        <p><m>\bar{x}</m> + <em>EBM</em> = $251,854.23 + $204,561.66 = $456,415.89.</p>
+        <p>We estimate with 96 percent confidence that the mean amount of money raised by all Leadership PACs during the 2011–2012 election cycle lies between $47,292.57 and $456,415.89.
+</p>
+        <p>Alternate Solution</p>
+        <note xml:id="ch8-fs-idm33267104">
+        </note>
+        <p>The difference between solutions arises from rounding differences.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch8-eip-217-2">
+      <statement>
+        <p>A major business magazine published data on the best small firms in 2012. These were firms that have been publicly traded for at least a year, have a stock price of at least $5 per share, and have reported annual revenue between $5 million and $1 billion. <xref ref="ch8-eip-884" /> shows the ages of the corporate CEOs for a random sample of these firms.
+  </p>
+        <table xml:id="ch8-eip-884">
+          <tabular>
+            <row>
+              <cell>48</cell>
+              <cell>58</cell>
+              <cell>51</cell>
+              <cell>61</cell>
+              <cell>56</cell>
+            </row>
+            <row>
+              <cell>59</cell>
+              <cell>74</cell>
+              <cell>63</cell>
+              <cell>53</cell>
+              <cell>50</cell>
+            </row>
+            <row>
+              <cell>59</cell>
+              <cell>60</cell>
+              <cell>60</cell>
+              <cell>57</cell>
+              <cell>46</cell>
+            </row>
+            <row>
+              <cell>55</cell>
+              <cell>63</cell>
+              <cell>57</cell>
+              <cell>47</cell>
+              <cell>55</cell>
+            </row>
+            <row>
+              <cell>57</cell>
+              <cell>43</cell>
+              <cell>61</cell>
+              <cell>62</cell>
+              <cell>49</cell>
+            </row>
+            <row>
+              <cell>67</cell>
+              <cell>67</cell>
+              <cell>55</cell>
+              <cell>55</cell>
+              <cell>49</cell>
+            </row>
+          </tabular>
+        </table>
+        <p>Use the sample data to construct a 90 percent confidence interval for the mean age of CEOs for these top small firms. Use the Student's <em>t</em>-distribution.</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch8-eip-392">
+      <statement>
+        <p>Unoccupied seats on flights cause airlines to lose revenue. Suppose a large airline wants to estimate its mean number of unoccupied seats per flight over the past year. To accomplish this, the records of 225 flights are randomly selected, and the number of unoccupied seats is noted for each of the sampled flights. The sample mean is 11.6 seats, and the sample standard deviation is 4.1 seats.</p>
+        <ol>
+          <li>
+            <ol>
+              <li><m>\bar{x}</m> = __________
+  </li>
+              <li><m>s_{x}</m> = __________</li>
+              <li><em>n</em> = __________</li>
+              <li><em>n</em>  1 = __________</li>
+            </ol>
+          </li>
+          <li>Define the random variables <m>X</m> and <m>\bar{X}</m> in words.</li>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>
+            <ol>
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li>
+            <ol>
+              <li><m>\bar{x}</m> = </li>
+              <li><m>s_{x}</m> = </li>
+              <li><em>n</em> = </li>
+              <li><em>n</em> - 1 = </li>
+            </ol>
+          </li>
+          <li><em>X</em> is the number of unoccupied seats on a single flight. <m>\bar{X}</m> is the mean number of unoccupied seats from a sample of 225 flights.</li>
+          <li>We will use a Student’s t-distribution, because we do not know the population standard deviation.</li>
+          <li>
+            <ol>
+              <li>CI: (11.12 , 12.08)</li>
+              <li>Check student's solution.</li>
+              <li><em>EBM</em>: 0.48</li>
+            </ol>
+          </li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch8-eip-848">
+      <statement>
+        <p>In a recent sample of 84 used car sales costs, the sample mean was $6,425, with a standard deviation of $3,156. Assume the underlying distribution is approximately normal.</p>
+        <ol>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>Define the random variable <m>\bar{X}</m> in words.</li>
+          <li>
+            <ol>
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>Explain what a <em>95 percent confidence interval</em> means for this study.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch8-eip-789">
+      <statement>
+        <p>Six different national brands of chocolate chip cookies were randomly selected at the supermarket. The grams of fat per serving are as follows: 8, 8, 10, 7, 9, 9. Assume the underlying distribution is approximately normal.</p>
+        <ol>
+          <li>
+            <ol>
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>If you wanted a smaller error bound while keeping the same level of confidence, what should have been changed in the study before it was done?</li>
+          <li>Go to the store and record the grams of fat per serving of six brands of chocolate chip cookies.</li>
+          <li>Calculate the mean.</li>
+          <li>Is the mean within the interval you calculated in Part a? Did you expect it to be? Why or why not?</li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li>
+            <ol>
+              <li>CI: (7.64, 9.36)</li>
+              <li />
+              <li><em>EBM</em>: 0.86</li>
+            </ol>
+          </li>
+          <li>The sample should have been increased.</li>
+          <li>Answers will vary.</li>
+          <li>Answers will vary.</li>
+          <li>Answers will vary.</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch8-fs-idm170967312">
+      <statement>
+        <p>A survey of the mean number of cents off given by coupons was conducted by randomly surveying one coupon per page from the coupons section of a local newspaper. The following data were collected: 20¢, 75¢, 50¢, 65¢, 30¢, 55¢, 40¢, 40¢, 30¢, 55¢, $1.50, 40¢, 65¢, 40¢. Assume the underlying distribution is approximately normal.</p>
+        <ol>
+          <li>
+            <ol>
+              <li><m>\bar{x}</m> = __________</li>
+              <li><m>s_{x}</m> = __________</li>
+              <li><em>n</em> = __________</li>
+              <li><em>n</em>  1 = __________</li>
+            </ol>
+          </li>
+          <li>Define the random variables <m>X</m> and <m>\bar{X}</m> in words.</li>
+          <li>Which distribution should you use for this problem? Explain your choice.</li>
+          <li>
+            <ol>
+              <li>State the confidence interval.</li>
+              <li>Sketch the graph.</li>
+              <li>Calculate the error bound.</li>
+            </ol>
+          </li>
+          <li>If many random samples were collected with 14 samples as the size, which percentage of the confidence intervals constructed should contain the population mean worth of coupons? Explain why.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="eeeeeeeeeeeeeeex">
+      <statement>
+        <p>Find the 95 percent confidence interval for the true population mean for the amount of soda served.</p>
+        <ol>
+          <li>(12.42, 14.18)</li>
+          <li>(12.32, 14.29)</li>
+          <li>(12.50, 14.10)</li>
+          <li>Impossible to determine</li>
+        </ol>
+      </statement>
+      <solution>
+        <p>b</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="exxxx">
+      <statement>
+        <p>Which of the following is the error bound?</p>
+        <ol>
+          <li>0.87</li>
+          <li>1.98</li>
+          <li>0.99</li>
+          <li>1.74</li>
+        </ol>
+      </statement>
+    </exercise>
+
+  <exercise xml:id="ch8-eip-77">
       <title>Try It</title>
       <statement>
         <p>
@@ -3381,10 +3426,6 @@ Calculate the following:
         </ol>
       </statement>
     </exercise>
-    <p>
-</p>
-    <p />
-    <p><em>Use the following information to answer the next three exercises:</em> According to a Field Poll, 79 percent of California adults (actual results are 400 out of 506 surveyed) believe that <em>education and our schools</em> is one of the top issues facing California. We wish to construct a 90 percent confidence interval for the true proportion of California adults who believe that education and the schools is one of the top issues facing California.</p>
     <exercise xml:id="exercise3289720">
       <title>Try It</title>
       <statement>
@@ -3427,7 +3468,6 @@ Calculate the following:
         <p>d</p>
       </solution>
     </exercise>
-    <p><em>Use the following information to answer the next two exercises:</em> Five hundred eleven (511) homes in a certain southern California community are randomly surveyed to determine whether they meet minimal earthquake preparedness recommendations. One hundred seventy-three (173) of the homes surveyed meet the minimum recommendations for earthquake preparedness, and 338 do not.</p>
     <exercise xml:id="exercising1">
       <title>Try It</title>
       <statement>
@@ -3525,66 +3565,8 @@ Calculate the following:
         <p>In a recent poll, 9 of 48 respondents rated the likelihood of a certain event occurring in their community as <em>likely</em> or <em>very likely</em>. Use the plus-four method to create a 97 percent confidence interval for the proportion of American adults who believe that the event is likely or very likely. Explain what this confidence interval means in the context of the problem. A local poll in a New England town found that nine of 48 households think winter-proofing their cars is <em>very important</em>. Use the plus-four method to create a 97 percent confidence interval for the proportion of town residents who think winter-proofing their cars is <em>very important</em>. Explain what this confidence interval means in the context of this scenario.</p>
       </statement>
     </exercise>
-  </exercises>
 
-</section>
-
-  <section xml:id="sec-confidence-interval-home-costs">
-    <title>Confidence Interval (Home Costs)</title>
-    <p>
-      Content to be added from module m79656.
-    </p>
   </section>
-
-  <section xml:id="sec-confidence-interval-place-birth">
-    <title>Confidence Interval (Place of Birth)</title>
-    <p>
-      Content to be added from module m79657.
-    </p>
-  </section>
-
-  <section xml:id="sec-confidence-intervals-review">
-    <title>Confidence Intervals: Review</title>
-    <p>
-      Content to be added from module m79658.
-    </p>
-  </section>
-
-  <section xml:id="sec-confidence-intervals-practice">
-    <title>Confidence Intervals: Practice</title>
-    <p>
-      Content to be added from module m79659.
-    </p>
-  </section>
-
-  <glossary xml:id="glossary-ch08">
-    <title>Glossary</title>
-    
-    <gi xml:id="coninter">
-      <title>confidence interval (CI)</title>
-      <p>an interval estimate for an unknown population parameter. This depends on the following:</p>
-      <ul>
-        <li><p>the desired confidence level,</p></li>
-        <li><p>information that is known about the distribution (for example, known standard deviation), and</p></li>
-        <li><p>the sample and its size.</p></li>
-      </ul>
-    </gi>
-    
-    <gi xml:id="infrstats">
-      <title>inferential statistics</title>
-      <p>also called statistical inference or inductive statistics; this facet of statistics deals with estimating a population parameter based on a sample statistic. For example, if four out of the 100 calculators sampled are defective, we might infer that 4 percent of the production is defective.</p>
-    </gi>
-    
-    <gi xml:id="parameter">
-      <title>parameter</title>
-      <p>a numerical characteristic of a population</p>
-    </gi>
-    
-    <gi xml:id="pointest">
-      <title>point estimate</title>
-      <p>a single number computed from a sample and used to estimate a population parameter</p>
-    </gi>
-  </glossary>
 
   <conclusion>
     <p>
