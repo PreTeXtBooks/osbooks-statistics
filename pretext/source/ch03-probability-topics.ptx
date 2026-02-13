@@ -261,7 +261,7 @@
       <p><m>P</m>(<m>A</m>|<m>B</m>) = <m>\frac{P\text{(}A\text{AND}B\text{)}}{P\text{(}B\text{)}}</m></p>
     </subsection>
 
-    <subsection xml:id="eip-99">
+    <subsection xml:id="ch03-eip-99">
       <exercise xml:id="ch03-eip-396">
         <statement>
           <p>In a particular college class, there are male and female students. Some students have long hair and some students have short hair. Write the symbols for the probabilities of the events for parts A through J of this question. Note that you cannot find numerical answers here. You were not given enough information to find any probability values yet; concentrate on understanding the symbols.</p>
@@ -479,7 +479,7 @@
           <p>Write the symbols for the probability that a player is not an outfielder.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-432">
+      <exercise xml:id="ch03-eip-432">
         <statement>
           <p>Write the symbols for the probability that a player is an outfielder or is a great hitter.</p>
         </statement>
@@ -487,12 +487,12 @@
           <p><m>P</m>(<m>O</m> OR <m>H</m>)</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-863">
+      <exercise xml:id="ch03-eip-863">
         <statement>
           <p>Write the symbols for the probability that a player is an infielder and is not a great hitter.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-94">
+      <exercise xml:id="ch03-eip-94">
         <statement>
           <p>Write the symbols for the probability that a player is a great hitter, given that the player is an infielder.</p>
         </statement>
@@ -500,7 +500,7 @@
           <p><m>P</m>(<m>H</m>|<m>I</m>)</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-16">
+      <exercise xml:id="ch03-eip-16">
         <statement>
           <p>Write the symbols for the probability that a player is an infielder, given that the player is a great hitter.</p>
         </statement>
@@ -513,12 +513,12 @@
           <p><m>P</m>(<m>N</m>|<m>O</m>)</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-266">
+      <exercise xml:id="ch03-eip-266">
         <statement>
           <p>Write the symbols for the probability that of all the great hitters, a player is an outfielder.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-542">
+      <exercise xml:id="ch03-eip-542">
         <statement>
           <p>Write the symbols for the probability that a player is an infielder or is not a great hitter.</p>
         </statement>
@@ -526,12 +526,12 @@
           <p><m>P</m>(<m>I</m> OR <m>N</m>)</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-355">
+      <exercise xml:id="ch03-eip-355">
         <statement>
           <p>Write the symbols for the probability that a player is an outfielder and is a great hitter.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-311">
+      <exercise xml:id="ch03-eip-311">
         <statement>
           <p>Write the symbols for the probability that a player is an infielder.</p>
         </statement>
@@ -560,7 +560,7 @@
 <nbsp/>What is the sample space?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-848">
+      <exercise xml:id="ch03-eip-848">
         <statement>
           <p>What is the sum of the probabilities of an event and its complement?</p>
         </statement>
@@ -569,12 +569,12 @@
         </solution>
       </exercise>
       <p><nbsp/><em>Use the following information to answer the next two exercises.</em> You are rolling a fair, six-sided number cube. Let <m>E</m> = the event that it lands on an even number. Let <m>M</m> = the event that it lands on a multiple of three.</p>
-      <exercise xml:id="eip-460">
+      <exercise xml:id="ch03-eip-460">
         <statement>
           <p>What does <m>P</m>(<m>E</m>|<m>M</m>) mean in words?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-185">
+      <exercise xml:id="ch03-eip-185">
         <statement>
           <p>What does <m>P</m>(<m>E</m> OR <m>M</m>) mean in words?</p>
         </statement>
@@ -586,7 +586,7 @@
 
     <subsection xml:id="fs-idm3746928">
       <title>Homework</title>
-      <exercise xml:id="eip-616">
+      <exercise xml:id="ch03-eip-616">
         <statement>
           <p>The graph in  displays the sample sizes and percentages of people in different age and gender groups who were polled concerning their approval of Mayor Ford’s actions in office. The total number in the sample of all the age groups is 1,045.</p>
           <ol>
@@ -603,7 +603,7 @@
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-858">
+      <exercise xml:id="ch03-element-858">
         <statement>
           <p>Explain what is wrong with the following statements. Use complete sentences.</p>
           <ol>
@@ -630,7 +630,7 @@
       <p>Independent and mutually exclusive do not mean the same thing.</p>
     </subsection>
 
-    <subsection xml:id="element-20">
+    <subsection xml:id="ch03-element-20">
       <title>Independent Events</title>
       <p>Two events are independent if the following are true:</p>
       <ul>
@@ -711,12 +711,12 @@
       </exercise>
     </subsection>
 
-    <subsection xml:id="element-462">
+    <subsection xml:id="ch03-element-462">
       <title>Mutually Exclusive Events</title>
       <p><m>A</m> and <m>B</m> are <term>mutually exclusive</term> events if they cannot occur at the same time. This means that <m>A</m> and <m>B</m> do not share any outcomes and <m>P</m>(<m>A</m> AND <m>B</m>) = 0.</p>
       <p>For example, suppose the sample space <m>S</m> = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}. Let <m>A</m> = {1, 2, 3, 4, 5}, <m>B</m> = {4, 5, 6, 7, 8}, and <m>C</m> = {7, 9}. <m>A</m> AND <m>B</m> = {4, 5}. <m>P</m>(<m>A</m> AND <m>B</m>) = <m>\frac{2}{10}</m> and is not equal to zero. Therefore, <m>A</m> and <m>B</m> are not mutually exclusive. <nbsp/><m>A</m> and <m>C</m> do not have any numbers in common so <m>P</m>(<m>A</m> AND <m>C</m>) = 0. Therefore, <m>A</m> and <m>C</m> are mutually exclusive.</p>
       <p>If it is not known whether <m>A</m> and <m>B</m> are mutually exclusive, assume they are not until you can show otherwise. The following examples illustrate these definitions and terms.</p>
-      <example xml:id="element-931">
+      <example xml:id="ch03-element-931">
         <statement>
           <p>Flip two fair coins. This is an experiment.</p>
           <p>The sample space is {<m>HH</m>, <m>HT</m>, <m>TH</m>, <m>TT</m>}, where <m>T</m> = tails and <m>H</m> = heads. The outcomes are <m>HH</m>, <m>HT</m>, <m>TH</m>, and <m>TT</m>. The outcomes <m>HT</m> and <m>TH</m> are different. The <m>HT</m> means that the first coin showed heads and the second coin showed tails. The <m>TH</m> means that the first coin showed tails and the second coin showed heads.</p>
@@ -808,7 +808,7 @@
           <p>The events are independent because <m>P</m>(<m>A</m>|<m>B</m>) = <m>P</m>(<m>A</m>).</p>
         </solution>
       </exercise>
-      <example xml:id="element-579">
+      <example xml:id="ch03-element-579">
         <title>NOTE</title>
         <statement>
           <p>a. Show that <m>P</m>(<m>G</m>|<m>H</m>) = <m>P</m>(<m>G</m>).</p>
@@ -871,7 +871,7 @@
           </ol>
         </solution>
       </exercise>
-      <example xml:id="element-184">
+      <example xml:id="ch03-element-184">
         <statement>
           <p>In a box there are three red cards and five blue cards. The red cards are marked with the numbers 1, 2, and 3, and the blue cards are marked with the numbers 1, 2, 3, 4, and 5. The cards are well-shuffled. You reach into the box (you cannot see into it) and draw one card.</p>
           <p>Let <m>R</m> = red card is drawn, <m>B</m> = blue card is drawn, <m>E</m> = even-numbered card is drawn.</p>
@@ -1004,7 +1004,7 @@
     </subsection>
 
     <subsection xml:id="fs-idp62639840">
-      <exercise xml:id="element-863">
+      <exercise xml:id="ch03-element-863">
         <statement>
           <p><m>E</m> and <m>F</m> are mutually exclusive events. <m>P</m>(<m>E</m>) =  .4; <m>P</m>(<m>F</m>) = .5. Find <m>P</m>(<m>E</m>∣<m>F</m>).</p>
         </statement>
@@ -1017,7 +1017,7 @@
           <p><m>P</m>(<m>J</m>) = .3</p>
         </solution>
       </exercise>
-      <exercise xml:id="element-588">
+      <exercise xml:id="ch03-element-588">
         <statement>
           <p><m>U</m> and <m>V</m> are mutually exclusive events. <m>P</m>(<m>U</m>) = .26; <m>P</m>(<m>V</m>) = .37. Find the following:</p>
           <ol>
@@ -1027,7 +1027,7 @@
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-930">
+      <exercise xml:id="ch03-element-930">
         <statement>
           <p><m>Q</m> and <m>R</m> are independent events. <m>P</m>(<m>Q</m>) = .4 and <m>P</m>(<m>Q</m> AND <m>R</m>) = .1. Find <m>P</m>(<m>R</m>).</p>
         </statement>
@@ -1050,7 +1050,7 @@
           <p>Find the probability that a Health Index Score is 82.7.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-790">
+      <exercise xml:id="ch03-eip-790">
         <statement>
           <p>Find the probability that a Health Index Score is 81.0.</p>
         </statement>
@@ -1058,12 +1058,12 @@
           <p>0</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-538">
+      <exercise xml:id="ch03-eip-538">
         <statement>
           <p>Find the probability that a Health Index Score is more than 81.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-42">
+      <exercise xml:id="ch03-eip-42">
         <statement>
           <p>Find the probability that a Health Index Score is between 80.5 and 82.</p>
         </statement>
@@ -1071,12 +1071,12 @@
           <p>.3571</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-44">
+      <exercise xml:id="ch03-eip-44">
         <statement>
           <p>If we know a Health Index Score is 81.5 or more, what is the probability that it is 82.7?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-347">
+      <exercise xml:id="ch03-eip-347">
         <statement>
           <p>What is the probability that a Health Index Score is 80.7 or 82.7?</p>
         </statement>
@@ -1084,12 +1084,12 @@
           <p>.2142</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-197">
+      <exercise xml:id="ch03-eip-197">
         <statement>
           <p>What is the probability that a Health Index Score is less than 80.2 given that it is already less than 81?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-545">
+      <exercise xml:id="ch03-eip-545">
         <statement>
           <p>What occupation has the highest Health Index Score?</p>
         </statement>
@@ -1097,12 +1097,12 @@
           <p>Physician (83.7)</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-904">
+      <exercise xml:id="ch03-eip-904">
         <statement>
           <p>What occupation has the lowest emotional index score?</p>
         </statement>
       </exercise>
-      <exercise xml:id="ch03-eip-386">
+      <exercise xml:id="ch03-eip-386-2">
         <statement>
           <p>What is the range of the data?</p>
         </statement>
@@ -1110,12 +1110,12 @@
           <p>83.7 − 79.6 = 4.1</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-221">
+      <exercise xml:id="ch03-eip-221">
         <statement>
           <p>Compute the average Health Index Score.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-743">
+      <exercise xml:id="ch03-eip-743">
         <statement>
           <p>If all occupations are equally likely for a certain individual, what is the probability that he or she will have an occupation with lower than average Health Index Score?</p>
         </statement>
@@ -1167,7 +1167,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="eip-278">
+      <exercise xml:id="ch03-eip-278">
         <statement>
           <p>Given events <m>J</m> and <m>K</m>: <m>P</m>(<m>J</m>) = .18; <m>P</m>(<m>K</m>) = .37; <m>P</m>(<m>J</m> OR <m>K</m>) = .45</p>
           <ol>
@@ -1196,7 +1196,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
       <p>In calculating probability, there are two rules to consider when you are determining if two events are independent or dependent and if they are mutually exclusive or not.</p>
     </subsection>
 
-    <subsection xml:id="element-860">
+    <subsection xml:id="ch03-element-860">
       <title>The Multiplication Rule</title>
       <p>If <m>A</m> and <m>B</m> are two events defined on a <term>sample space</term>, then <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>B</m>)<m>P</m>(<m>A</m>|<m>B</m>).</p>
       <p>This equation can be rewritten as <m>P</m>(<m>A</m> AND <m>B</m>) = <m>P</m>(<m>B</m>)<m>P</m>(<m>A</m>|<m>B</m>), the multiplication rule.</p>
@@ -1206,7 +1206,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
       <p>Notice that <m>P(\text{green | yellow})=\frac{4}{8}</m>. After the yellow marble is drawn, there are four green marbles in the bag and eight marbles in all.</p>
     </subsection>
 
-    <subsection xml:id="ch03-element-56">
+    <subsection xml:id="ch03-element-56-2">
       <title>The Addition Rule</title>
       <p>If <m>A</m> and <m>B</m> are defined on a sample space, then <m>P</m>(<m>A</m> OR <m>B</m>) = <m>P</m>(<m>A</m>) + <m>P</m>(<m>B</m>) − <m>P</m>(<m>A</m> AND <m>B</m>).</p>
       <p>Draw one card from a standard deck of playing cards. Let <m>H</m> = the card is a heart, and let <m>J</m> = the card is a jack. These events are not mutually exclusive because a card can be both a heart and a jack.</p>
@@ -1214,7 +1214,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
       <p>If <m>A</m> and <m>B</m> are <term>mutually exclusive</term>, then <m>P</m>(<m>A</m> AND <m>B</m>) = 0. Then <m>P</m>(<m>A</m> OR <m>B</m>) = <m>P</m>(<m>A</m>) + <m>P</m>(<m>B</m>) − <m>P</m>(<m>A</m> AND <m>B</m>) becomes <nbsp/><m>P</m>(<m>A</m> OR <m>B</m>) = <m>P</m>(<m>A</m>) + <m>P</m>(<m>B</m>).</p>
       <p>Draw one card from a standard deck of playing cards. Let <m>H</m> = the card is a heart and <m>S</m> = the card is a spade. These events are mutually exclusive because a card cannot be a heart and a spade at the same time. The probability that the card is a heart or a spade is</p>
       <me>P(H\text{or}S)=P(H)+P(S) \\  \\ =\frac{13}{52}+\frac{13}{52} \\ =\frac{26}{52} \\ =\frac{1}{2} \\ =.5</me>
-      <example xml:id="element-898">
+      <example xml:id="ch03-element-898">
         <statement>
           <p>Klaus is trying to choose where to go on vacation. His two choices are: <m>A</m> = New Zealand and <m>B</m> = Alaska.</p>
           <ul>
@@ -1224,7 +1224,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           </ul>
         </statement>
       </example>
-      <example xml:id="element-83">
+      <example xml:id="ch03-element-83">
         <statement>
           <p>a. What is the probability that he makes both goals?</p>
         </statement>
@@ -1385,12 +1385,12 @@ If a test comes up positive, based upon numerical values, can you assume that ma
 <m>C</m> = citizens of a certain state (registered voters) preferring life in prison without parole over the death penalty for a person convicted of first-degree murder.
 <m>L</m> = registered voters  of the state who are Latino.</p>
       <p>Suppose that one citizen is randomly selected.</p>
-      <exercise xml:id="exercise1">
+      <exercise xml:id="ch03-exercise1">
         <statement>
           <p>Find <m>P</m>(<m>C</m>).</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercise2">
+      <exercise xml:id="ch03-exercise2">
         <statement>
           <p>Find <m>P</m>(<m>L</m>).</p>
         </statement>
@@ -1398,12 +1398,12 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           <p>0.376</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercise3">
+      <exercise xml:id="ch03-exercise3">
         <statement>
           <p>Find <m>P</m>(<m>C</m>|<m>L</m>).</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercise4">
+      <exercise xml:id="ch03-exercise4">
         <statement>
           <p>In words, what is <m>C</m>|<m>L</m>?</p>
         </statement>
@@ -1411,12 +1411,12 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           <p><m>C</m>|<m>L</m> means, given the person chosen is a Latino Californian, the person is a registered voter who prefers life in prison without parole for a person convicted of first degree murder.</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercise5">
+      <exercise xml:id="ch03-exercise5">
         <statement>
           <p>Find <m>P</m>(<m>L</m> AND <m>C</m>).</p>
         </statement>
       </exercise>
-      <exercise xml:id="exercise6">
+      <exercise xml:id="ch03-exercise6">
         <statement>
           <p>In words, what is <m>L</m> AND <m>C</m>?</p>
         </statement>
@@ -1424,7 +1424,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           <p><m>L</m> AND <m>C</m> is the event that the person chosen is a voter of the ethnicity in question who prefers life without parole over the death penalty for a person convicted of first degree murder.</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercise7">
+      <exercise xml:id="ch03-exercise7">
         <statement>
           <p>Are <m>L</m> and <m>C</m> independent events? Show why or why not.</p>
         </statement>
@@ -1437,7 +1437,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           <p>.6492</p>
         </solution>
       </exercise>
-      <exercise xml:id="exercise9">
+      <exercise xml:id="ch03-exercise9">
         <statement>
           <p>In words, what is <m>L</m> OR <m>C</m>?</p>
         </statement>
@@ -1477,7 +1477,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="eip-803">
+      <exercise xml:id="ch03-eip-803">
         <statement>
           <p>After a mayor of a major Canadian city announced his plans to cut budget costs in late 2011, researchers polled 1,046 people to measure the mayor’s popularity. Everyone polled expressed either approval or disapproval. These are the results their poll produced:</p>
           <ul>
@@ -1581,7 +1581,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-555">
+      <exercise xml:id="ch03-element-555">
         <statement>
           <p>Suppose that you have eight cards. Five are green and three are yellow. The five green cards are numbered 1, 2, 3, 4, and 5. The three yellow cards are numbered 1, 2, and 3. The cards are well shuffled. You randomly draw one card.</p>
           <ul>
@@ -1620,7 +1620,7 @@ Are <m>G</m> and <m>E</m> mutually exclusive? Justify your answer numerically.</
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-81">
+      <exercise xml:id="ch03-element-81">
         <statement>
           <p>Roll two fair dice separately. Each die has six faces.</p>
           <ol>
@@ -1654,7 +1654,7 @@ Are <m>G</m> and <m>E</m> mutually exclusive? Justify your answer numerically.</
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-52">
+      <exercise xml:id="ch03-element-52">
         <statement>
           <p>An experiment consists of first rolling a die and then tossing a coin.</p>
           <ol>
@@ -1664,7 +1664,7 @@ Are <m>G</m> and <m>E</m> mutually exclusive? Justify your answer numerically.</
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-982">
+      <exercise xml:id="ch03-element-982">
         <statement>
           <p>An experiment consists of tossing a nickel, a dime, and a quarter. Of interest is the side the coin lands on.</p>
           <ol>
@@ -1681,7 +1681,7 @@ Are <m>G</m> and <m>E</m> mutually exclusive? Justify your answer numerically.</
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-317">
+      <exercise xml:id="ch03-element-317">
         <statement>
           <p>Consider the following scenario:
 <nbsp/>Let <m>P</m>(<m>C</m>) = .4.
@@ -1702,7 +1702,7 @@ Find <m>P</m>(<m>D</m>|<m>C</m>).</p>
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-134">
+      <exercise xml:id="ch03-element-134">
         <statement>
           <p><m>Y</m> and <m>Z</m> are independent events.</p>
           <ol>
@@ -1717,7 +1717,7 @@ Find <m>P</m>(<m>D</m>|<m>C</m>).</p>
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-15">
+      <exercise xml:id="ch03-element-15">
         <statement>
           <p><m>G</m> and <m>H</m> are mutually exclusive events. <m>P</m>(<m>G</m>) = .5 <m>P</m>(<m>H</m>) = .3</p>
           <ol>
@@ -1740,7 +1740,7 @@ iv
 ii</p>
         </solution>
       </exercise>
-      <exercise xml:id="element-143">
+      <exercise xml:id="ch03-element-143">
         <statement>
           <p>In 1994, the U.S. government held a lottery to issue 55,000 licenses of a certain type. Renate Deutsch, from Germany, was one of approximately 6.5 million people who entered this lottery. Let <m>G</m> = won license.</p>
           <ol>
@@ -1751,7 +1751,7 @@ ii</p>
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-652">
+      <exercise xml:id="ch03-element-652">
         <statement>
           <p>Three professors at George Washington University did an experiment to determine if economists are more likely to return found money than other people. They dropped 64 stamped, addressed envelopes with $10 cash in different classrooms on the George Washington campus. Forty-four  percent were returned overall. From the economics classes 56 percent of the envelopes were returned. From the business, psychology, and history classes 31 percent were returned.</p>
           <p>Let <m>R</m> = money returned; <m>E</m> = economics classes; and <m>O</m> = other classes.</p>
@@ -1785,7 +1785,7 @@ ii</p>
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="eip-8">
+      <exercise xml:id="ch03-eip-8">
         <statement>
           <p>United Blood Services is a blood bank that serves more than 500 hospitals in 18 states. According to their website, a person with type O blood and a negative Rh factor (Rh–) can donate blood to any person with any bloodtype. Their data show that 43 percent of people have type O blood and 15 percent of people have Rh– factor; 52 percent of people have type O or Rh– factor.</p>
           <ol>
@@ -1803,7 +1803,7 @@ ii</p>
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="eip-203">
+      <exercise xml:id="ch03-eip-203">
         <statement>
           <p>At a college, 72 percent of courses have final exams and 46 percent of courses require research papers. Suppose that 32 percent of courses have a research paper and a final exam. Let <m>F</m> be the event that a course has a final exam. Let <m>R</m> be the event that a course requires a research paper.</p>
           <ol>
@@ -1812,7 +1812,7 @@ ii</p>
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="eip-913">
+      <exercise xml:id="ch03-eip-913">
         <statement>
           <p>In a box of assorted cookies, 36 percent contain chocolate and 12 percent contain nuts. Of those, 8 percent contain both chocolate and nuts. Sean is allergic to both chocolate and nuts.</p>
           <ol>
@@ -1828,7 +1828,7 @@ ii</p>
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="eip-126">
+      <exercise xml:id="ch03-eip-126">
         <statement>
           <p>A college finds that 10 percent of students have taken a distance learning class and that 40 percent of students are part-time students. Of the part-time students, 20 percent have taken a distance learning class. Let <m>D</m> = event that a student takes a distance learning class and <m>E</m> = event that a student is a part-time student.</p>
           <ol>
@@ -1850,7 +1850,7 @@ ii</p>
 
     <subsection xml:id="fs-id1164567287600">
       <p>A <term>two-way table</term> provides a way of portraying data that can facilitate calculating probabilities. When used to calculate probabilities, a two-way table is often called a <term>contingency table</term>. The table helps in determining conditional probabilities quite easily. The table displays sample values in relation to two different variables that may be dependent or contingent on one another. We used two-way tables in Chapters 1 and 2 to calculate marginal and conditional distributions. These tables organize data in a way that supports the calculation of relative frequency and, therefore, experimental (empirical) probability. Later on, we will use contingency tables again, but in another manner.</p>
-      <example xml:id="element-775">
+      <example xml:id="ch03-element-775">
         <statement>
           <ol>
             <li>Find <m>P</m>(Person uses a cell phone while driving).</li>
@@ -1900,7 +1900,7 @@ ii</p>
           </ol>
         </solution>
       </exercise>
-      <example xml:id="element-511">
+      <example xml:id="ch03-element-511">
         <title>Hiking Area Preference</title>
         <statement>
           <p>a. Complete the table.</p>
@@ -1908,7 +1908,7 @@ ii</p>
         <solution>
           <p>a. There are 45 females in the sample; 18 prefer the coastline and 16 prefer hiking near lakes and streams. So, we know there are 45 − 18 − 16 = 11 female students who prefer hiking on mountain peaks.</p>
           <p>Continue reasoning in this way to complete the table.</p>
-          <table xml:id="element-850s">
+          <table xml:id="ch03-element-850s">
             <tabular>
               <row><cell>Sex</cell><cell>The Coastline</cell><cell>Near Lakes and Streams</cell><cell>On Mountain Peaks</cell><cell>Total</cell></row>
               <row><cell>Female</cell><cell>18</cell><cell>16</cell><cell>11</cell><cell>45</cell></row>
@@ -1943,14 +1943,14 @@ ii</p>
           </ol>
         </solution>
       </exercise>
-      <example xml:id="element-883">
+      <example xml:id="ch03-element-883">
         <title>Door Choice</title>
         <statement>
           <p>a. Complete the probability contingency table. Calculate the entries for the totals. Verify that the lower-right corner entry is 1.</p>
         </statement>
         <solution>
           <p>a.</p>
-          <table xml:id="element-6166">
+          <table xml:id="ch03-element-6166">
             <tabular>
               <row><cell>Caught or Not</cell><cell>Door One</cell><cell>Door Two</cell><cell>Door Three</cell><cell>Total</cell></row>
               <row><cell>Caught</cell><cell><m>\frac{1}{15}</m></cell><cell><m>\frac{1}{12}</m></cell><cell><m>\frac{1}{6}</m></cell><cell><m>\frac{19}{60}</m></cell></row>
@@ -2034,7 +2034,7 @@ ii</p>
           <p>Find <m>P</m>(musician is a female).</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-388">
+      <exercise xml:id="ch03-eip-388">
         <statement>
           <p>Find <m>P</m>(musician is a male AND had private instruction).</p>
         </statement>
@@ -2042,7 +2042,7 @@ ii</p>
           <p><m>P</m>(musician is a male AND had private instruction) = <m>\frac{15}{130}</m> = <m>\frac{3}{26}</m> = .12</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-631">
+      <exercise xml:id="ch03-eip-631">
         <statement>
           <p>Find <m>P</m>(musician is a female OR is self taught).</p>
         </statement>
@@ -2068,7 +2068,7 @@ ii</p>
           <p>Complete the table using the data provided. Suppose that one person from the study is randomly selected. Find the probability that person used the product 11 to 20 times a day.</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-892">
+      <exercise xml:id="ch03-eip-892">
         <statement>
           <p>Suppose that one person from the study is randomly selected. Find the probability that the person used the product 11 to 20 times per day.</p>
         </statement>
@@ -2076,7 +2076,7 @@ ii</p>
           <p><m>\frac{35,065}{100,450}</m></p>
         </solution>
       </exercise>
-      <exercise xml:id="element-120">
+      <exercise xml:id="ch03-element-120">
         <statement>
           <p>Find the probability that the person was Latino.</p>
         </statement>
@@ -2120,7 +2120,7 @@ ii</p>
           <row><cell>Total</cell><cell></cell><cell></cell><cell></cell><cell></cell></row>
         </tabular>
       </table>
-      <exercise xml:id="eip-157">
+      <exercise xml:id="ch03-eip-157">
         <statement>
           <p>What is the probability that a randomly selected senator had an <em>Other</em> affiliation?</p>
         </statement>
@@ -2133,7 +2133,7 @@ ii</p>
           <p>What is the probability that a randomly selected senator would be up for reelection in November 2016?</p>
         </statement>
       </exercise>
-      <exercise xml:id="eip-381">
+      <exercise xml:id="ch03-eip-381">
         <statement>
           <p>What is the probability that a randomly selected senator was a Democrat and was up for reelection in November 2016?</p>
         </statement>
@@ -2154,7 +2154,7 @@ ii</p>
           <p><m>\frac{10}{34}</m></p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-164">
+      <exercise xml:id="ch03-eip-164">
         <statement>
           <p>Suppose that a member of the U.S. Senate is randomly selected. What is the probability that the senator was up for reelection in November 2014, knowing that this senator was a Republican?</p>
         </statement>
@@ -2185,7 +2185,7 @@ ii</p>
         </statement>
       </exercise>
       <p><em>Use the following information to answer the next two exercises.</em> The table of data obtained from www.baseball-almanac.com shows hit information for four well-known baseball players. Suppose that one hit from the table is randomly selected.</p>
-      <table xml:id="element-695">
+      <table xml:id="ch03-element-695">
         <tabular>
           <row><cell>Name</cell><cell>Single</cell><cell>Double</cell><cell>Triple</cell><cell>Home Run</cell><cell>Total Hits</cell></row>
           <row><cell>Babe Ruth</cell><cell>1,517</cell><cell>506</cell><cell>136</cell><cell>714</cell><cell>2,873</cell></row>
@@ -2195,7 +2195,7 @@ ii</p>
           <row><cell>TOTAL</cell><cell>8,471</cell><cell>1,577</cell><cell>583</cell><cell>1,720</cell><cell>12,351</cell></row>
         </tabular>
       </table>
-      <exercise xml:id="element-680">
+      <exercise xml:id="ch03-element-680">
         <statement>
           <p>Find <m>P</m>(Hit was made by Babe Ruth).</p>
           <ol>
@@ -2242,10 +2242,10 @@ ii</p>
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="ch03-element-738">
+      <exercise xml:id="ch03-element-738-2">
         <statement>
           <p>In a previous year, the weights of the members of a California football team and a Texas football team were published in a newspaper. The factual data were compiled into the following table. The weights in the column headings are in pounds.</p>
-          <table xml:id="element-13">
+          <table xml:id="ch03-element-13">
             <tabular>
               <row><cell>Shirt #</cell><cell>≤ 210</cell><cell>211–250</cell><cell>251–290</cell><cell>&gt; 290</cell></row>
               <row><cell>1–33</cell><cell>21</cell><cell>5</cell><cell>0</cell><cell>0</cell></row>
@@ -2293,7 +2293,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
     <subsection xml:id="fs-idp113760352">
       <title>Tree Diagrams</title>
       <p>A <term>tree diagram</term> is a special type of graph used to determine the outcomes of an experiment. It consists of <em>branches</em> that are labeled with either frequencies or probabilities. Tree diagrams can make some probability problems easier to visualize and solve. The following example illustrates how to use a tree diagram:</p>
-      <example xml:id="element-192">
+      <example xml:id="ch03-element-192">
         <statement>
           <p>a. List the 24 <m>BR</m> outcomes: <m>B</m>1<m>R</m>1, <m>B</m>1<m>R</m>2, <m>B</m>1<m>R</m>3, . . .</p>
         </statement>
@@ -2318,7 +2318,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
           <p><m>P</m>(<m>FF</m>) = <m>\frac{144}{\text{144 + 480 + 480 + 1,600}}=\frac{144}{2,704}=\frac{9}{169}</m></p>
         </solution>
       </exercise>
-      <example xml:id="ch03-element-841">
+      <example xml:id="ch03-element-841-2">
         <title>NOTE</title>
         <statement>
           <p>a. <m>P</m>(<m>RR</m>) = ________</p>
@@ -2373,7 +2373,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
       </exercise>
     </subsection>
 
-    <subsection xml:id="eip-922">
+    <subsection xml:id="ch03-eip-922">
       <title>Venn Diagram</title>
       <p>A <term>Venn diagram</term> is a picture that represents the outcomes of an experiment. It generally consists of a box that represents the sample space <m>S</m> together with circles or ovals. The circles or ovals represent events.</p>
       <example xml:id="ch03-element-513">
@@ -2394,7 +2394,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
           </figure>
         </solution>
       </exercise>
-      <example xml:id="element-872">
+      <example xml:id="ch03-element-872">
         <statement>
           <p>Flip two fair coins. Let <m>A</m> = tails on the first coin. Let <m>B</m> = tails on the second coin. Then <m>A</m> = {<m>TT</m>, <m>TH</m>} and <m>B</m> = {<m>TT</m>, <m>HT</m>}. Therefore, <m>A</m> AND <m>B</m> = {<m>TT</m>}. <m>A</m> OR <m>B</m> =  {<m>TH</m>, <m>TT</m>, <m>HT</m>}.</p>
           <p>The sample space when you flip two fair coins is <m>X</m> = {<m>HH</m>, <m>HT</m>, <m>TH</m>, <m>TT</m>}. The outcome <m>HH</m> is in NEITHER <m>A</m> NOR <m>B</m>. The Venn diagram is as follows:</p>
@@ -2413,7 +2413,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
           </figure>
         </solution>
       </exercise>
-      <example xml:id="element-554">
+      <example xml:id="ch03-element-554">
         <statement>
           <p>Forty percent of the students at a local college belong to a club and 50 percent work part time. Five percent of the students work part time and belong to a club. Draw a Venn diagram showing the relationships. Let <m>C</m> = student belongs to a club and <m>PT</m> = student works part time.</p>
           <p>Start by drawing a rectangle to represent the sample space. Then draw two circles or ovals inside the rectangle to represent the events of interest: belonging to a club (<m>C</m>) and working part time (<m>PT</m>). Always draw overlapping shapes to represent outcomes that are in both events.</p>
@@ -2514,7 +2514,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
     </subsection>
 
     <subsection xml:id="fs-idp14696688">
-      <exercise xml:id="ch03-element-750">
+      <exercise xml:id="ch03-element-750-2">
         <statement>
           <p>The probability that a man develops some form of cancer in his lifetime is 0.4567. The probability that a man has at least one false-positive test result, meaning the test comes back for cancer when the man does not have it, is .51. Let <m>C</m> = a man develops cancer in his lifetime; <m>P</m> = a man has at least one false-positive test. Construct a tree diagram of the situation.</p>
         </statement>
@@ -2532,7 +2532,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
       <figure xml:id="id43573084">
         <image source="media/fig-ch03_11_01N.jpg" width="36%"/>
       </figure>
-      <exercise xml:id="element-92">
+      <exercise xml:id="ch03-element-92">
         <statement>
           <p>Find <m>P</m>(tossing a head on the coin AND a red bead).</p>
           <ol>
@@ -2543,7 +2543,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-684">
+      <exercise xml:id="ch03-element-684">
         <statement>
           <p>Find <m>P</m>(blue bead).</p>
           <ol>
@@ -2557,7 +2557,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
           <p>a</p>
         </solution>
       </exercise>
-      <exercise xml:id="eip-346">
+      <exercise xml:id="ch03-eip-346">
         <statement>
           <p>A box of cookies contains three chocolate and seven butter cookies. Miguel randomly selects a cookie and eats it. Then he randomly selects another cookie and eats it. How many cookies did he take?</p>
           <ol>
@@ -2575,7 +2575,7 @@ Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs 
     <subsection xml:id="fs-idm72330096">
       <title>Bringing It Together</title>
       <p><em>Use the following information to answer the next two exercises.</em> Suppose that you have eight cards. Five are green and three are yellow. The cards are well shuffled.</p>
-      <exercise xml:id="element-194">
+      <exercise xml:id="ch03-element-194">
         <statement>
           <p>Suppose that you randomly draw two cards, one at a time, with replacement.
 <nbsp/>Let <m>G</m>_{1} = first card is green
@@ -2670,7 +2670,7 @@ Totals
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-974">
+      <exercise xml:id="ch03-element-974">
         <statement>
           <p>Approximately 86.5 percent of Americans commute to work by car, truck, or van. Out of that group, 84.6 percent drive alone and 15.4 percent drive in a carpool. Approximately 3.9 percent walk to work and approximately 5.3 percent take public transportation.</p>
           <ol>
@@ -2718,7 +2718,7 @@ Totals
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="eip-272">
+      <exercise xml:id="ch03-eip-272">
         <statement>
           <p>When the euro coin was introduced in 2002, two math professors had their statistics students test whether the Belgian one euro-coin was a fair coin. They spun the coin rather than tossing it and found that out of 250 spins, 140 showed a head (event <m>H</m>) while 110 showed a tail (event <m>T</m>). On that basis, they claimed that it is not a fair coin.</p>
           <ol>
@@ -2729,10 +2729,10 @@ Totals
           </ol>
         </statement>
       </exercise>
-      <exercise xml:id="element-456">
+      <exercise xml:id="ch03-element-456">
         <statement>
           <p><em>Use the following information to answer the next two exercises.</em> The following are real data from Santa Clara County, California. As of a certain time, there had been a total of 3,059 documented cases of a disease in the county. They were grouped into the following categories, with risk factors of becoming ill with the disease labeled as Methods A, B, and C and Other:</p>
-          <table xml:id="element-436">
+          <table xml:id="ch03-element-436">
             <tabular>
               <row><cell></cell><cell>Method A</cell><cell>Method B</cell><cell>Method C</cell><cell>Other</cell><cell>Totals</cell></row>
               <row><cell>Female</cell><cell>0</cell><cell>70</cell><cell>136</cell><cell>49</cell><cell>____</cell></row>
@@ -2764,7 +2764,7 @@ Totals
           </ol>
         </solution>
       </exercise>
-      <exercise xml:id="element-148s">
+      <exercise xml:id="ch03-element-148s">
         <statement>
           <p>Answer these questions using probability rules. Do NOT use the contingency table. Three thousand fifty-nine cases of a disease had been reported in Santa Clara County, California, through a certain date. Those cases will be our population. Of those cases, 6.4 percent obtained the disease through method C and 7.4 percent are female. Out of the females with the disease, 53.3 percent got the disease from method C.</p>
           <ol>

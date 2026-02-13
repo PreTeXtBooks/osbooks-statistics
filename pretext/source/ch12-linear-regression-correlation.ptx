@@ -908,7 +908,7 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
       <p>After determining the presence of a strong correlation coefficient and calculating the line of best fit, you can use the least-squares regression line to make predictions about your data.</p>
     </subsection>
 
-    <subsection xml:id="ch12-eip-160">
+    <subsection xml:id="ch12-eip-160-2">
       <p><em>Use the following information to answer the next two exercises</em>. An electronics retailer used regression to find a simple model to predict sales growth in the first quarter of the new year (January through March). The model is good for 90 days, where <m>x</m> is the day. The model can be written as <m>ŷ</m> = 101.32 + 2.48<m>x</m>, where <m>ŷ</m> is in thousands of dollars.</p>
       <exercise xml:id="eip-673">
         <title>Try It</title>
@@ -951,7 +951,7 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </solution>
       </exercise>
       <p><em>Use the following information to answer the next 14 exercises</em>.  contains real data for the first two decades of flu reporting.</p>
-      <table xml:id="ch12-element-806">
+      <table xml:id="ch12-element-806-2">
         <tabular>
           <row><cell>Year</cell><cell>Number of Flu Cases Diagnosed</cell><cell>Number of Flu Deaths</cell></row>
           <row><cell>Pre-1981</cell><cell>91</cell><cell>29</cell></row>
