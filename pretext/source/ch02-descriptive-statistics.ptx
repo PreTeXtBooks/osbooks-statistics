@@ -2547,6 +2547,9 @@ that this distribution is skewed because one side of the graph does not mirror t
 
     <p>A <em>histogram</em> is a graphic version of a frequency distribution. The graph consists of bars of equal width drawn adjacent to each other. The horizontal scale represents classes of quantitative data values, and the vertical scale represents frequencies. The heights of the bars correspond to frequency values. Histograms are typically used for large, continuous, quantitative data sets. A frequency polygon can also be used when graphing large data sets with data points that repeat. The data usually go on the <em>y</em>-axis with the frequency being graphed on the <em>x</em>-axis. Time series graphs can be helpful when looking at large amounts of data for one variable over a period of time.</p>
 
+    <subsection xml:id="subsec-histograms-practice">
+      <title>Practice</title>
+
     <exercise xml:id="ch2-eip-341">
       <statement>
         <p>65 randomly selected car salespersons were asked the number of cars they generally sell in one week. 14 people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars. Complete the table.</p>
@@ -3034,6 +3037,11 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
         </ol>
       </statement>
     </exercise>
+
+    </subsection>
+
+    <subsection xml:id="subsec-histograms-homework">
+      <title>Homework</title>
 
     <exercise xml:id="fs-idp53668112">
       <statement>
@@ -3698,6 +3706,8 @@ Overall, are the graphs more similar or different?
       </solution>
     </exercise>
 
+    </subsection>
+
   </section>
 
   <section xml:id="sec-measures-location">
@@ -4195,6 +4205,11 @@ Find the percentiles for 47 and 31.</p>
 
     <p><em>n</em> = total number of data.</p>
 
+    </subsection>
+
+    <subsection xml:id="subsec-measures-location-practice">
+      <title>Practice</title>
+
     <exercise xml:id="fs-idm1110784">
       <statement>
         <p>Listed are 29 ages for Academy Award-winning best actors <em>in order from smallest to largest:</em></p>
@@ -4353,6 +4368,11 @@ Find the percentiles for 47 and 31.</p>
         <p>6</p>
       </solution>
     </exercise>
+
+    </subsection>
+
+    <subsection xml:id="subsec-measures-location-homework">
+      <title>Homework</title>
 
     <exercise xml:id="fs-idp61512400">
       <statement>
