@@ -100,18 +100,20 @@
     <p>Another probability, which is called alpha <m>(α)</m> is related to the confidence level, <em>CL</em>. Alpha is the probability that the confidence interval does not contain the unknown population parameter. Mathematically, alpha can be computed as <m>α=1−CL</m>.</p>
 
     <example xml:id="ch8-eip-id1171253594561">
-      <ul>
-        <li>
-          <p>Suppose we have collected data from a sample. We know the sample mean, but we do not know the mean for the entire population.</p>
-        </li>
-        <li>
-          <p>The sample mean is seven, and the error bound for the mean is 2.5.</p>
-        </li>
-      </ul>
-      <me>\bar{x}\text{and}EBM= 2.5.</me>
-      <p>The confidence interval is (7 – 2.5, 7 + 2.5), and calculating the values gives (4.5, 9.5).</p>
-      <p>If the confidence level is 95 percent, then we say, "We estimate with 95 percent confidence that the true value of the population mean is between 4.5 and 9.5."</p>
-    </example>
+        <statement>
+          <ul>
+            <li>
+              <p>Suppose we have collected data from a sample. We know the sample mean, but we do not know the mean for the entire population.</p>
+            </li>
+            <li>
+              <p>The sample mean is seven, and the error bound for the mean is 2.5.</p>
+            </li>
+          </ul>
+          <me>\bar{x}\text{and}EBM= 2.5.</me>
+          <p>The confidence interval is (7 – 2.5, 7 + 2.5), and calculating the values gives (4.5, 9.5).</p>
+          <p>If the confidence level is 95 percent, then we say, "We estimate with 95 percent confidence that the true value of the population mean is between 4.5 and 9.5."</p>
+        </statement>
+      </example>
 
     <exercise xml:id="ch8-eip-273">
       <title>Try It</title>
@@ -236,8 +238,10 @@
       <p>The interpretation should clearly state the confidence level (<em>CL</em>), explain which population parameter is being estimated (here, a population mean), and state the confidence interval (both endpoints): "We estimate with ___percent confidence that the true population mean (include the context of the problem) is between ___ and ___ (include appropriate units)."</p>
 
       <example xml:id="ch8-eip-id1171257291379">
-        <p>Suppose scores on exams in statistics are normally distributed with an unknown population mean and a population standard deviation of three points. A random sample of 36 scores is taken and gives a sample mean (sample mean score) of 68. Find a confidence interval estimate for the population mean exam score (the mean score on all exams).</p>
-      </example>
+          <statement>
+            <p>Suppose scores on exams in statistics are normally distributed with an unknown population mean and a population standard deviation of three points. A random sample of 36 scores is taken and gives a sample mean (sample mean score) of 68. Find a confidence interval estimate for the population mean exam score (the mean score on all exams).</p>
+          </statement>
+        </example>
       
       <exercise xml:id="ch8-eip-id1171264272125">
         <title>Try It</title>
@@ -302,100 +306,102 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
         </exercise>
 
       <example xml:id="example3">
-        <p>The specific absorption rate (SAR) for a cell phone measures the amount of radio frequency (RF) energy absorbed by the user’s body when using the handset. Every cell phone emits RF energy. Different phone models have different SAR measures. For certification from the Federal Communications Commission for sale in the United States, the SAR level for a cell phone must be no more than 1.6 watts per kilogram. <xref ref="M02_CH08-tbl001"></xref> shows the highest SAR level for a random selection of cell phone models of a random cell phone company.</p>
-        <table xml:id="M02_CH08-tbl001">
-          <tabular>
-            <row header="yes">
-              <cell>Phone Model #</cell>
-              <cell>SAR</cell>
-              <cell>Phone Model #</cell>
-              <cell>SAR</cell>
-              <cell>Phone Model #</cell>
-              <cell>SAR</cell>
-            </row>
-            <row>
-              <cell>800</cell>
-              <cell>1.11</cell>
-              <cell>1800</cell>
-              <cell>1.36</cell>
-              <cell>2800</cell>
-              <cell>0.74</cell>
-            </row>
-            <row>
-              <cell>900</cell>
-              <cell>1.48</cell>
-              <cell>1900</cell>
-              <cell>1.34</cell>
-              <cell>2900</cell>
-              <cell>0.5</cell>
-            </row>
-            <row>
-              <cell>1000</cell>
-              <cell>1.43</cell>
-              <cell>2000</cell>
-              <cell>1.18</cell>
-              <cell>3000</cell>
-              <cell>0.4</cell>
-            </row>
-            <row>
-              <cell>1100</cell>
-              <cell>1.3</cell>
-              <cell>2100</cell>
-              <cell>1.3</cell>
-              <cell>3100</cell>
-              <cell>0.867</cell>
-            </row>
-            <row>
-              <cell>1200</cell>
-              <cell>1.09</cell>
-              <cell>2200</cell>
-              <cell>1.26</cell>
-              <cell>3200</cell>
-              <cell>0.68</cell>
-            </row>
-            <row>
-              <cell>1300</cell>
-              <cell>0.455</cell>
-              <cell>2300</cell>
-              <cell>1.29</cell>
-              <cell>3300</cell>
-              <cell>0.51</cell>
-            </row>
-            <row>
-              <cell>1400</cell>
-              <cell>1.41</cell>
-              <cell>2400</cell>
-              <cell>0.36</cell>
-              <cell>3400</cell>
-              <cell>1.13</cell>
-            </row>
-            <row>
-              <cell>1500</cell>
-              <cell>0.82</cell>
-              <cell>2500</cell>
-              <cell>0.52</cell>
-              <cell>3500</cell>
-              <cell>0.3</cell>
-            </row>
-            <row>
-              <cell>1600</cell>
-              <cell>0.78</cell>
-              <cell>2600</cell>
-              <cell>1.6</cell>
-              <cell>3600</cell>
-              <cell>1.48</cell>
-            </row>
-            <row>
-              <cell>1700</cell>
-              <cell>1.25</cell>
-              <cell>2700</cell>
-              <cell>1.39</cell>
-              <cell>3700</cell>
-              <cell>1.38</cell>
-            </row>
-          </tabular>
-        </table>
-      </example>
+          <statement>
+            <p>The specific absorption rate (SAR) for a cell phone measures the amount of radio frequency (RF) energy absorbed by the user’s body when using the handset. Every cell phone emits RF energy. Different phone models have different SAR measures. For certification from the Federal Communications Commission for sale in the United States, the SAR level for a cell phone must be no more than 1.6 watts per kilogram. <xref ref="M02_CH08-tbl001"></xref> shows the highest SAR level for a random selection of cell phone models of a random cell phone company.</p>
+            <table xml:id="M02_CH08-tbl001">
+              <tabular>
+                <row header="yes">
+                  <cell>Phone Model #</cell>
+                  <cell>SAR</cell>
+                  <cell>Phone Model #</cell>
+                  <cell>SAR</cell>
+                  <cell>Phone Model #</cell>
+                  <cell>SAR</cell>
+                </row>
+                <row>
+                  <cell>800</cell>
+                  <cell>1.11</cell>
+                  <cell>1800</cell>
+                  <cell>1.36</cell>
+                  <cell>2800</cell>
+                  <cell>0.74</cell>
+                </row>
+                <row>
+                  <cell>900</cell>
+                  <cell>1.48</cell>
+                  <cell>1900</cell>
+                  <cell>1.34</cell>
+                  <cell>2900</cell>
+                  <cell>0.5</cell>
+                </row>
+                <row>
+                  <cell>1000</cell>
+                  <cell>1.43</cell>
+                  <cell>2000</cell>
+                  <cell>1.18</cell>
+                  <cell>3000</cell>
+                  <cell>0.4</cell>
+                </row>
+                <row>
+                  <cell>1100</cell>
+                  <cell>1.3</cell>
+                  <cell>2100</cell>
+                  <cell>1.3</cell>
+                  <cell>3100</cell>
+                  <cell>0.867</cell>
+                </row>
+                <row>
+                  <cell>1200</cell>
+                  <cell>1.09</cell>
+                  <cell>2200</cell>
+                  <cell>1.26</cell>
+                  <cell>3200</cell>
+                  <cell>0.68</cell>
+                </row>
+                <row>
+                  <cell>1300</cell>
+                  <cell>0.455</cell>
+                  <cell>2300</cell>
+                  <cell>1.29</cell>
+                  <cell>3300</cell>
+                  <cell>0.51</cell>
+                </row>
+                <row>
+                  <cell>1400</cell>
+                  <cell>1.41</cell>
+                  <cell>2400</cell>
+                  <cell>0.36</cell>
+                  <cell>3400</cell>
+                  <cell>1.13</cell>
+                </row>
+                <row>
+                  <cell>1500</cell>
+                  <cell>0.82</cell>
+                  <cell>2500</cell>
+                  <cell>0.52</cell>
+                  <cell>3500</cell>
+                  <cell>0.3</cell>
+                </row>
+                <row>
+                  <cell>1600</cell>
+                  <cell>0.78</cell>
+                  <cell>2600</cell>
+                  <cell>1.6</cell>
+                  <cell>3600</cell>
+                  <cell>1.48</cell>
+                </row>
+                <row>
+                  <cell>1700</cell>
+                  <cell>1.25</cell>
+                  <cell>2700</cell>
+                  <cell>1.39</cell>
+                  <cell>3700</cell>
+                  <cell>1.38</cell>
+                </row>
+              </tabular>
+            </table>
+          </statement>
+        </example>
       
       <exercise xml:id="ch8-eip-377">
         <title>Try It</title>
@@ -605,8 +611,10 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
     </subsection>
 
     <example xml:id="ch8-element-542">
-      <p>Suppose we change the original problem in <xref ref="ch8-eip-id1171257291379"></xref> to see what happens to the error bound if the sample size is changed.</p>
-    </example>
+        <statement>
+          <p>Suppose we change the original problem in <xref ref="ch8-eip-id1171257291379"></xref> to see what happens to the error bound if the sample size is changed.</p>
+        </statement>
+      </example>
     
     <exercise xml:id="ch8-element-442">
       <title>Try It</title>
@@ -674,27 +682,29 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
     <p>Notice that there are two methods to perform each calculation. You can choose the method that is easier to use with the information you know.</p>
 
     <example xml:id="ch8-eip-209">
-      <p>Suppose we know that a confidence interval is (67.18, 68.82) and we want to find the error bound. We may know that the sample mean is 68, or perhaps our source only gives the confidence interval and does not tell us the value of the sample mean.</p>
-      <ul>
-        <title>Calculate the error bound:</title>
-        <li>
-          <p>If we know that the sample mean is 68, <em>EBM</em> = 68.82 – 68 = 0.82.</p>
-        </li>
-        <li>
-          <p>If we do not know the sample mean, <em>EBM</em> = <m>\frac{(68.82−67.18)}{2}</m> = 0.82. The margin of error is the quantity that we add and subtract from the sample mean to obtain the confidence interval. Therefore, the margin of error is half of the length of the interval.</p>
-        </li>
-      </ul>
-      <ul>
-        <title>Calculate the sample mean:</title>
-        <li>
-          <p>If we know the error bound,
+        <statement>
+          <p>Suppose we know that a confidence interval is (67.18, 68.82) and we want to find the error bound. We may know that the sample mean is 68, or perhaps our source only gives the confidence interval and does not tell us the value of the sample mean.</p>
+          <ul>
+            <title>Calculate the error bound:</title>
+            <li>
+              <p>If we know that the sample mean is 68, <em>EBM</em> = 68.82 – 68 = 0.82.</p>
+            </li>
+            <li>
+              <p>If we do not know the sample mean, <em>EBM</em> = <m>\frac{(68.82−67.18)}{2}</m> = 0.82. The margin of error is the quantity that we add and subtract from the sample mean to obtain the confidence interval. Therefore, the margin of error is half of the length of the interval.</p>
+            </li>
+          </ul>
+          <ul>
+            <title>Calculate the sample mean:</title>
+            <li>
+              <p>If we know the error bound,
     <m>\bar{x}</m> = 68.82 – 0.82 = 68.</p>
-        </li>
-        <li>
-          <p>If we do not know the error bound, <m>\bar{x}</m> = <m>\frac{(67.18+68.82)}{2}</m> = 68.</p>
-        </li>
-      </ul>
-    </example>
+            </li>
+            <li>
+              <p>If we do not know the error bound, <m>\bar{x}</m> = <m>\frac{(67.18+68.82)}{2}</m> = 68.</p>
+            </li>
+          </ul>
+        </statement>
+      </example>
 
     <exercise xml:id="ch8-eip-998">
       <title>Try It</title>
@@ -718,25 +728,27 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
     <p>In this formula, <em>z</em> is the critical value <m>z_{\frac{α}{2}}</m>, corresponding to the desired confidence level. A researcher planning a study who wants a specified confidence level and error bound can use this formula to calculate the size of the sample needed for the study.</p>
 
     <example xml:id="ch8-eip-324">
-      <p>The population standard deviation for the age of Foothill College students is 15 years. If we want to be 95 percent confident that the sample mean age is within two years of the true population mean age of Foothill College students, how many randomly selected Foothill College students must be surveyed?</p>
-      <ul>
-        <li>
-          <p>From the problem, we know that <em>σ</em> = 15 and <em>EBM</em> = 2.</p>
-        </li>
-        <li>
-          <p><em>z</em> = <em>z</em><sub>0.025</sub> = 1.96, because the confidence level is 95 percent.</p>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <p><em>n</em> = <m>\frac{z^{2}σ^{2}}{EBM^{2}}</m> = <m>\frac{(1.96)^{2}(15)^{2}}{2^{2}}</m> = 216.09 using the sample size equation.</p>
-        </li>
-        <li>
-          <p> Use <em>n</em> = 217. Always round the answer up to the next higher integer to ensure that the sample size is large enough.</p>
-        </li>
-      </ul>
-      <p>Therefore, 217 Foothill College students should be surveyed in order to be 95 percent confident that we are within two years of the true population mean age of Foothill College students.</p>
-    </example>
+        <statement>
+          <p>The population standard deviation for the age of Foothill College students is 15 years. If we want to be 95 percent confident that the sample mean age is within two years of the true population mean age of Foothill College students, how many randomly selected Foothill College students must be surveyed?</p>
+          <ul>
+            <li>
+              <p>From the problem, we know that <em>σ</em> = 15 and <em>EBM</em> = 2.</p>
+            </li>
+            <li>
+              <p><em>z</em> = <em>z</em><sub>0.025</sub> = 1.96, because the confidence level is 95 percent.</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p><em>n</em> = <m>\frac{z^{2}σ^{2}}{EBM^{2}}</m> = <m>\frac{(1.96)^{2}(15)^{2}}{2^{2}}</m> = 216.09 using the sample size equation.</p>
+            </li>
+            <li>
+              <p> Use <em>n</em> = 217. Always round the answer up to the next higher integer to ensure that the sample size is large enough.</p>
+            </li>
+          </ul>
+          <p>Therefore, 217 Foothill College students should be surveyed in order to be 95 percent confident that we are within two years of the true population mean age of Foothill College students.</p>
+        </statement>
+      </example>
 
     <exercise xml:id="ch8-eip-669-ex">
       <title>Try It</title>

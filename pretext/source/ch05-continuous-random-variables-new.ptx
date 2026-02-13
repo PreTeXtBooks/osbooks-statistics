@@ -395,31 +395,33 @@
   <title>The Uniform Distribution</title>
   <p xml:id="eip-957">The uniform distribution is a continuous probability distribution and is concerned with events that are equally likely to occur. When working out problems that have a uniform distribution, be careful to note if the data are inclusive or exclusive of endpoints.</p>
   <example xml:id="element-229">
-    <p xml:id="element-444">The data in <xref ref="element-41"/> are 55 smiling times, in seconds, of an eight-week-old baby.</p>
-    <table xml:id="element-41">
-      <title>A table with 11 columns and 5 rows is shown. The first row contains the following values: 10.4, 19.6, 18.8, 13.9, 17.8, 16.8, 21.6, 17.9, 12.5, 11.1, 4.9. The second row contains the following values: 12.8, 14.8, 22.8, 20.0, 15.9, 16.3, 13.4, 17.1, 14.5, 19.0, 22.8. The third row contains the following values: 1.3, 0.7, 8.9, 11.9, 10.9, 7.3, 5.9, 3.7, 17.9, 19.2, 9.8.. The fourth row contains the following: 5.8, 6.9, 2.6, 5.8, 21.7, 11.8, 3.4, 2.1, 4.5, 6.3, 10.7. The fifth row contains the following: 8.9, 9.4, 9.4, 7.6, 10.0, 3.3, 6.7, 7.8, 11.6, 13.8, 18.6.</title>
-      <tabular>
-        <row><cell>10.4</cell><cell>19.6</cell><cell>18.8</cell><cell>13.9</cell><cell>17.8</cell><cell>16.8</cell><cell>21.6</cell><cell>17.9</cell><cell>12.5</cell><cell>11.1</cell><cell>4.9</cell></row>
-        <row><cell>12.8</cell><cell>14.8</cell><cell>22.8</cell><cell>20.0</cell><cell>15.9</cell><cell>16.3</cell><cell>13.4</cell><cell>17.1</cell><cell>14.5</cell><cell>19.0</cell><cell>22.8</cell></row>
-        <row><cell>1.3</cell><cell>0.7</cell><cell>8.9</cell><cell>11.9</cell><cell>10.9</cell><cell>7.3</cell><cell>5.9</cell><cell>3.7</cell><cell>17.9</cell><cell>19.2</cell><cell>9.8</cell></row>
-        <row><cell>5.8</cell><cell>6.9</cell><cell>2.6</cell><cell>5.8</cell><cell>21.7</cell><cell>11.8</cell><cell>3.4</cell><cell>2.1</cell><cell>4.5</cell><cell>6.3</cell><cell>10.7</cell></row>
-        <row><cell>8.9</cell><cell>9.4</cell><cell>9.4</cell><cell>7.6</cell><cell>10.0</cell><cell>3.3</cell><cell>6.7</cell><cell>7.8</cell><cell>11.6</cell><cell>13.8</cell><cell>18.6</cell></row>
-      </tabular>
-    </table>
-    <p xml:id="element-817">The sample mean = 11.49 and the sample standard deviation = 6.23.</p>
-    <p xml:id="element-60">We will assume that the smiling times, in seconds, follow a uniform distribution between zero and 23 seconds, inclusive. This means that any smiling time from zero to and including 23 seconds is <em>equally likely</em>. The histogram that could be constructed from the sample is an empirical distribution that closely matches the theoretical uniform distribution.</p>
-    <p xml:id="element-804">Let <em>X</em> = length, in seconds, of an eight-week-old baby's smile.</p>
-    <p xml:id="element-13">The notation for the uniform distribution is</p>
-    <p xml:id="element-746"><em>X</em> ~ <em>U</em>(<em>a</em>, <em>b</em>) where <em>a</em> = the lowest value of <em>x</em> and <em>b</em> = the highest value of <em>x</em>.</p>
-    <p xml:id="eip-720">The probability density function is
+      <statement>
+        <p xml:id="element-444">The data in <xref ref="element-41"/> are 55 smiling times, in seconds, of an eight-week-old baby.</p>
+        <table xml:id="element-41">
+          <title>A table with 11 columns and 5 rows is shown. The first row contains the following values: 10.4, 19.6, 18.8, 13.9, 17.8, 16.8, 21.6, 17.9, 12.5, 11.1, 4.9. The second row contains the following values: 12.8, 14.8, 22.8, 20.0, 15.9, 16.3, 13.4, 17.1, 14.5, 19.0, 22.8. The third row contains the following values: 1.3, 0.7, 8.9, 11.9, 10.9, 7.3, 5.9, 3.7, 17.9, 19.2, 9.8.. The fourth row contains the following: 5.8, 6.9, 2.6, 5.8, 21.7, 11.8, 3.4, 2.1, 4.5, 6.3, 10.7. The fifth row contains the following: 8.9, 9.4, 9.4, 7.6, 10.0, 3.3, 6.7, 7.8, 11.6, 13.8, 18.6.</title>
+          <tabular>
+            <row><cell>10.4</cell><cell>19.6</cell><cell>18.8</cell><cell>13.9</cell><cell>17.8</cell><cell>16.8</cell><cell>21.6</cell><cell>17.9</cell><cell>12.5</cell><cell>11.1</cell><cell>4.9</cell></row>
+            <row><cell>12.8</cell><cell>14.8</cell><cell>22.8</cell><cell>20.0</cell><cell>15.9</cell><cell>16.3</cell><cell>13.4</cell><cell>17.1</cell><cell>14.5</cell><cell>19.0</cell><cell>22.8</cell></row>
+            <row><cell>1.3</cell><cell>0.7</cell><cell>8.9</cell><cell>11.9</cell><cell>10.9</cell><cell>7.3</cell><cell>5.9</cell><cell>3.7</cell><cell>17.9</cell><cell>19.2</cell><cell>9.8</cell></row>
+            <row><cell>5.8</cell><cell>6.9</cell><cell>2.6</cell><cell>5.8</cell><cell>21.7</cell><cell>11.8</cell><cell>3.4</cell><cell>2.1</cell><cell>4.5</cell><cell>6.3</cell><cell>10.7</cell></row>
+            <row><cell>8.9</cell><cell>9.4</cell><cell>9.4</cell><cell>7.6</cell><cell>10.0</cell><cell>3.3</cell><cell>6.7</cell><cell>7.8</cell><cell>11.6</cell><cell>13.8</cell><cell>18.6</cell></row>
+          </tabular>
+        </table>
+        <p xml:id="element-817">The sample mean = 11.49 and the sample standard deviation = 6.23.</p>
+        <p xml:id="element-60">We will assume that the smiling times, in seconds, follow a uniform distribution between zero and 23 seconds, inclusive. This means that any smiling time from zero to and including 23 seconds is <em>equally likely</em>. The histogram that could be constructed from the sample is an empirical distribution that closely matches the theoretical uniform distribution.</p>
+        <p xml:id="element-804">Let <em>X</em> = length, in seconds, of an eight-week-old baby's smile.</p>
+        <p xml:id="element-13">The notation for the uniform distribution is</p>
+        <p xml:id="element-746"><em>X</em> ~ <em>U</em>(<em>a</em>, <em>b</em>) where <em>a</em> = the lowest value of <em>x</em> and <em>b</em> = the highest value of <em>x</em>.</p>
+        <p xml:id="eip-720">The probability density function is
 <em>f</em>(<em>x</em>) =  <m>\frac{1}{b-a}</m> for <em>a</em> ≤ <em>x</em> ≤ <em>b</em>, and <em>f</em>(<em>x</em>) = 0 otherwise.</p>
-    <p xml:id="element-500">For this example, <em>X</em> ~ <em>U</em>(0, 23) and <em>f</em>(<em>x</em>) = <m>\frac{1}{23-0}</m> for 0 ≤ <em>X</em> ≤ 23.</p>
-    <p xml:id="element-771">Formulas for the theoretical mean and standard deviation are</p>
-    <men xml:id="fs-id1164563448999">μ=\frac{a+b}{2} \text{ and } σ=\sqrt{\frac{(b-a)^{2}}{12}}</men>
-    <p xml:id="element-729">For this problem, the theoretical mean and standard deviation are</p>
-    <men xml:id="fs-id1164563492190">μ=\frac{0+23}{2}= 11.50 \text{ seconds and } σ=\sqrt{\frac{(23-0)^{2}}{12}}= 6.64 \text{ seconds.}</men>
-    <p xml:id="element-919">Notice that the theoretical mean and standard deviation are close to the sample mean and standard deviation in this example.</p>
-  </example>
+        <p xml:id="element-500">For this example, <em>X</em> ~ <em>U</em>(0, 23) and <em>f</em>(<em>x</em>) = <m>\frac{1}{23-0}</m> for 0 ≤ <em>X</em> ≤ 23.</p>
+        <p xml:id="element-771">Formulas for the theoretical mean and standard deviation are</p>
+        <men xml:id="fs-id1164563448999">μ=\frac{a+b}{2} \text{ and } σ=\sqrt{\frac{(b-a)^{2}}{12}}</men>
+        <p xml:id="element-729">For this problem, the theoretical mean and standard deviation are</p>
+        <men xml:id="fs-id1164563492190">μ=\frac{0+23}{2}= 11.50 \text{ seconds and } σ=\sqrt{\frac{(23-0)^{2}}{12}}= 6.64 \text{ seconds.}</men>
+        <p xml:id="element-919">Notice that the theoretical mean and standard deviation are close to the sample mean and standard deviation in this example.</p>
+      </statement>
+    </example>
   <note xml:id="fs-idp70845248" class="statistics try">
     <exercise xml:id="fs-idp158465216">
       <title>Try It</title>
@@ -442,46 +444,48 @@
     </exercise>
   </note>
   <example xml:id="example-170">
-    <exercise xml:id="element-156">
-      <title>Try It</title>
       <statement>
-        <p xml:id="element-170">a. Refer to <xref ref="element-229"/>. What is the probability that a randomly chosen eight-week-old baby smiles between two and 18 seconds?</p>
+        <exercise xml:id="element-156">
+          <title>Try It</title>
+          <statement>
+            <p xml:id="element-170">a. Refer to <xref ref="element-229"/>. What is the probability that a randomly chosen eight-week-old baby smiles between two and 18 seconds?</p>
+          </statement>
+          <solution>
+            <p xml:id="element-178"><em>P</em>(2 &lt; <em>x</em> &lt; 18) = (base)(height) = (18 – 2)<m>(\frac{1}{23})</m> = <m>\frac{16}{23}</m></p>
+          </solution>
+        </exercise>
+        <exercise xml:id="element-329">
+          <title>Try It</title>
+          <statement>
+            <p xml:id="element-483">b. Find the 90<sup>th</sup> percentile for an eight-week-old baby's smiling time.</p>
+          </statement>
+          <solution>
+            <p xml:id="element-6">b. Ninety percent of the smiling times fall below the 90<sup>th</sup> percentile, <em>k</em>, so <em>P</em>(<em>x</em> &lt; <em>k</em>) = 0.90.</p>
+            <men xml:id="fs-id1164563350100">P(x&lt;k)=0.90</men>
+            <men xml:id="fs-id1164563073310">(base)(height)=0.90</men>
+            <men xml:id="fs-id1164562298387">(k-0)(\frac{1}{23})=0.90</men>
+            <men xml:id="fs-id1164566922548">k=(23)(0.90)=20.7</men>
+          </solution>
+        </exercise>
+        <exercise xml:id="element-412">
+          <title>Try It</title>
+          <statement>
+            <p xml:id="element-503">c. Find the probability that a random eight-week-old baby smiles more than 12 seconds <em>knowing</em> that the baby smiles <em>more than eight seconds</em>.</p>
+          </statement>
+          <solution>
+            <p xml:id="fs-idp106518000">c. This probability question is a conditional. You are asked to find the probability that an eight-week-old baby smiles more than 12 seconds when you <em>already know</em> the baby has smiled for more than eight seconds.</p>
+            <p xml:id="element-836">Find <em>P</em>(<em>x</em> &gt; 12|<em>x</em> &gt; 8) There are two ways to do the problem. <em>For the first way</em>, use the fact that this is a conditional and changes the sample space. The graph illustrates the new sample space. You already know the baby smiled more than eight seconds.</p>
+            <p xml:id="element-838">for 8 &lt; <em>x</em> &lt; 23</p>
+            <p xml:id="element-837"><em>Write a new</em> <em>f</em>(<em>x</em>): <em>f</em>(<em>x</em>) = <m>\frac{1}{23-8}</m> = <m>\frac{1}{15}</m>  for 8 &lt; <em>x</em> &lt; 23.</p>
+            <p xml:id="element-400"><em>P</em>(<em>x</em> &gt; 12|<em>x</em> &gt; 8) = (23 − 12)<m>(\frac{1}{15})</m> = <m>\frac{11}{15}</m></p>
+            <p xml:id="element-961"><em>For the second way</em>, use the conditional formula from Probability Topics with the original distribution.</p>
+            <p xml:id="element-445"><em>P</em>(<em>A</em>|<em>B</em>) = <m>\frac{P(AANDB)}{P(B)}</m></p>
+            <p xml:id="fs-idp12091856">For this problem, <em>A</em> is (<em>x</em> &gt; 12) and <em>B</em> is (<em>x</em> &gt; 8).</p>
+            <p xml:id="element-613">So, <em>P</em>(<em>x</em> &gt; <em>12</em>|<em>x</em> &gt; 8) = <m>\frac{(x&gt;12ANDx&gt;8)}{P(x&gt;8)}=\frac{P(x&gt;12)}{P(x&gt;8)}=\frac{\frac{11}{23}}{\frac{15}{23}}=\frac{11}{15}</m></p>
+          </solution>
+        </exercise>
       </statement>
-      <solution>
-        <p xml:id="element-178"><em>P</em>(2 &lt; <em>x</em> &lt; 18) = (base)(height) = (18 – 2)<m>(\frac{1}{23})</m> = <m>\frac{16}{23}</m></p>
-      </solution>
-    </exercise>
-    <exercise xml:id="element-329">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="element-483">b. Find the 90<sup>th</sup> percentile for an eight-week-old baby's smiling time.</p>
-      </statement>
-      <solution>
-        <p xml:id="element-6">b. Ninety percent of the smiling times fall below the 90<sup>th</sup> percentile, <em>k</em>, so <em>P</em>(<em>x</em> &lt; <em>k</em>) = 0.90.</p>
-        <men xml:id="fs-id1164563350100">P(x&lt;k)=0.90</men>
-        <men xml:id="fs-id1164563073310">(base)(height)=0.90</men>
-        <men xml:id="fs-id1164562298387">(k-0)(\frac{1}{23})=0.90</men>
-        <men xml:id="fs-id1164566922548">k=(23)(0.90)=20.7</men>
-      </solution>
-    </exercise>
-    <exercise xml:id="element-412">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="element-503">c. Find the probability that a random eight-week-old baby smiles more than 12 seconds <em>knowing</em> that the baby smiles <em>more than eight seconds</em>.</p>
-      </statement>
-      <solution>
-        <p xml:id="fs-idp106518000">c. This probability question is a conditional. You are asked to find the probability that an eight-week-old baby smiles more than 12 seconds when you <em>already know</em> the baby has smiled for more than eight seconds.</p>
-        <p xml:id="element-836">Find <em>P</em>(<em>x</em> &gt; 12|<em>x</em> &gt; 8) There are two ways to do the problem. <em>For the first way</em>, use the fact that this is a conditional and changes the sample space. The graph illustrates the new sample space. You already know the baby smiled more than eight seconds.</p>
-        <p xml:id="element-838">for 8 &lt; <em>x</em> &lt; 23</p>
-        <p xml:id="element-837"><em>Write a new</em> <em>f</em>(<em>x</em>): <em>f</em>(<em>x</em>) = <m>\frac{1}{23-8}</m> = <m>\frac{1}{15}</m>  for 8 &lt; <em>x</em> &lt; 23.</p>
-        <p xml:id="element-400"><em>P</em>(<em>x</em> &gt; 12|<em>x</em> &gt; 8) = (23 − 12)<m>(\frac{1}{15})</m> = <m>\frac{11}{15}</m></p>
-        <p xml:id="element-961"><em>For the second way</em>, use the conditional formula from Probability Topics with the original distribution.</p>
-        <p xml:id="element-445"><em>P</em>(<em>A</em>|<em>B</em>) = <m>\frac{P(AANDB)}{P(B)}</m></p>
-        <p xml:id="fs-idp12091856">For this problem, <em>A</em> is (<em>x</em> &gt; 12) and <em>B</em> is (<em>x</em> &gt; 8).</p>
-        <p xml:id="element-613">So, <em>P</em>(<em>x</em> &gt; <em>12</em>|<em>x</em> &gt; 8) = <m>\frac{(x&gt;12ANDx&gt;8)}{P(x&gt;8)}=\frac{P(x&gt;12)}{P(x&gt;8)}=\frac{\frac{11}{23}}{\frac{15}{23}}=\frac{11}{15}</m></p>
-      </solution>
-    </exercise>
-  </example>
+    </example>
   <note xml:id="fs-idp61080304" class="statistics try">
     <exercise xml:id="fs-idp178484384">
       <title>Try It</title>
@@ -494,32 +498,33 @@
     </exercise>
   </note>
   <example xml:id="element-158">
-    <p xml:id="element-697">The amount of time, in minutes, that a person must wait for a bus is uniformly distributed between zero and 15 minutes, inclusive.</p>
-    <exercise xml:id="element-351">
-      <title>Try It</title>
       <statement>
-        <p xml:id="element-447">a. What is the probability that a person waits fewer than 12.5 minutes?</p>
-      </statement>
-      <solution>
-        <p xml:id="element-438">a. Let <em>X</em> = the number of minutes a person must wait for a bus. <em>a</em> = 0 and <em>b</em> = 15.
+        <p xml:id="element-697">The amount of time, in minutes, that a person must wait for a bus is uniformly distributed between zero and 15 minutes, inclusive.</p>
+        <exercise xml:id="element-351">
+          <title>Try It</title>
+          <statement>
+            <p xml:id="element-447">a. What is the probability that a person waits fewer than 12.5 minutes?</p>
+          </statement>
+          <solution>
+            <p xml:id="element-438">a. Let <em>X</em> = the number of minutes a person must wait for a bus. <em>a</em> = 0 and <em>b</em> = 15.
 <em>X</em> ~ <em>U</em>(0, 15). Write the probability density function. <em>f</em> (<em>x</em>) = <m>\frac{1}{15-0}</m> = <m>\frac{1}{15}</m>
 for 0 ≤ <em>x</em> ≤ 15.</p>
-        <p xml:id="ch5-element-577">Find <em>P</em> (<em>x</em> &lt; 12.5). Draw a graph.</p>
-        <men xml:id="fs-id1164559086241">P(x&lt;k)=(base)(height)=(12.5-0)(\frac{1}{15})=0.8333</men>
-        <p xml:id="element-748">The probability a person waits fewer than 12.5 minutes is 0.8333.</p>
-        <figure xml:id="eip-idp99340768">
-          <image source="media/fig-ch05_03_05N.jpg">
-          </image>
-        </figure>
-      </solution>
-    </exercise>
-    <exercise xml:id="element-786">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="element-1323">b. On the average, how long must a person wait? Find the mean, <em>μ</em>, and the standard deviation, <em>σ</em>.</p>
-      </statement>
-      <solution>
-        <p xml:id="element-275">b. <em>μ</em> = <m>\frac{a+b}{2}</m>
+            <p xml:id="ch5-element-577">Find <em>P</em> (<em>x</em> &lt; 12.5). Draw a graph.</p>
+            <men xml:id="fs-id1164559086241">P(x&lt;k)=(base)(height)=(12.5-0)(\frac{1}{15})=0.8333</men>
+            <p xml:id="element-748">The probability a person waits fewer than 12.5 minutes is 0.8333.</p>
+            <figure xml:id="eip-idp99340768">
+              <image source="media/fig-ch05_03_05N.jpg">
+              </image>
+            </figure>
+          </solution>
+        </exercise>
+        <exercise xml:id="element-786">
+          <title>Try It</title>
+          <statement>
+            <p xml:id="element-1323">b. On the average, how long must a person wait? Find the mean, <em>μ</em>, and the standard deviation, <em>σ</em>.</p>
+          </statement>
+          <solution>
+            <p xml:id="element-275">b. <em>μ</em> = <m>\frac{a+b}{2}</m>
 = <m>\frac{15+0}{2}</m>
 = 7.5. On the average, a person must wait 7.5 minutes.
 
@@ -527,15 +532,15 @@ for 0 ≤ <em>x</em> ≤ 15.</p>
 
 
 <em>σ</em> = <m>\sqrt{\frac{(b-a)^{2}}{12}}=\sqrt{\frac{(15-0)^{2}}{12}}</m> = 4.3. The standard deviation is 4.3 minutes.</p>
-      </solution>
-    </exercise>
-    <exercise xml:id="element-375">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="element-44">c. Ninety percent of the time, the minutes a person must wait falls below what value?</p>
-      </statement>
-      <solution>
-        <p xml:id="element-12">c. Find the 90<sup>th</sup> percentile. Draw a graph. Let <em>k</em> = the 90<sup>th</sup> percentile.
+          </solution>
+        </exercise>
+        <exercise xml:id="element-375">
+          <title>Try It</title>
+          <statement>
+            <p xml:id="element-44">c. Ninety percent of the time, the minutes a person must wait falls below what value?</p>
+          </statement>
+          <solution>
+            <p xml:id="element-12">c. Find the 90<sup>th</sup> percentile. Draw a graph. Let <em>k</em> = the 90<sup>th</sup> percentile.
 
 
 
@@ -558,9 +563,10 @@ for 0 ≤ <em>x</em> ≤ 15.</p>
 
 
 The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a person must wait at most 13.5 minutes.</p>
-      </solution>
-    </exercise>
-  </example>
+          </solution>
+        </exercise>
+      </statement>
+    </example>
   <note xml:id="fs-idp13010016" class="statistics try">
     <exercise xml:id="fs-idp51205632">
       <title>Try It</title>
@@ -586,34 +592,36 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
     </exercise>
   </note>
   <example xml:id="element-321">
-    <p xml:id="element-637">Suppose the time it takes a nine-year old to eat a donut is between 0.5 and 4 minutes, inclusive. Let <em>X</em> = the time, in minutes, it takes a nine-year-old child to eat a doughnut. Then <em>X</em> ~ <em>U</em>(0.5, 4).</p>
-    <exercise xml:id="eip-idp102263568">
-      <title>Try It</title>
       <statement>
-        <p xml:id="eip-idp95256304">a. The probability that a randomly selected nine-year-old child eats a doughnut in at least two minutes is _______.</p>
+        <p xml:id="element-637">Suppose the time it takes a nine-year old to eat a donut is between 0.5 and 4 minutes, inclusive. Let <em>X</em> = the time, in minutes, it takes a nine-year-old child to eat a doughnut. Then <em>X</em> ~ <em>U</em>(0.5, 4).</p>
+        <exercise xml:id="eip-idp102263568">
+          <title>Try It</title>
+          <statement>
+            <p xml:id="eip-idp95256304">a. The probability that a randomly selected nine-year-old child eats a doughnut in at least two minutes is _______.</p>
+          </statement>
+          <solution>
+            <p xml:id="eip-idp95257200">a. 0.5714</p>
+          </solution>
+        </exercise>
+        <exercise xml:id="eip-idp95257840">
+          <title>Try It</title>
+          <statement>
+            <p xml:id="element-546">b. Find the probability that a different nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes.</p>
+            <p xml:id="element-938">The second question has a <term xml:id="term-00001">conditional probability</term>. You are asked to find the probability that a nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes. Solve the problem two different ways (see <xref ref="example-170"/>). You must reduce the sample space. <em>First way</em>: Since you know the child has already been eating the doughnut for more than 1.5 minutes, you are no longer starting at <em>a</em> = 0.5 minutes. Your starting point is 1.5 minutes.</p>
+            <p xml:id="element-69">Write a new <em>f</em>(<em>x</em>):</p>
+            <men xml:id="fs-id1164566880095">f(x)=\frac{1}{4-1.5}=\frac{2}{5}for 1.5\leqx\leq4.</men>
+            <p xml:id="eip-idm60988032">Find <em>P</em>(<em>x</em> &gt; 2|<em>x</em> &gt; 1.5). Draw a graph.</p>
+            <men xml:id="fs-id1164564967560">P(x&gt;2|x&gt;1.5)= (base)(new height) = (4 – 2)(\frac{2}{5})=\frac{4}{5}</men>
+          </statement>
+          <solution>
+            <p xml:id="eip-idp15120208">b. <m>\frac{4}{5}</m></p>
+          </solution>
+        </exercise>
+        <p xml:id="eip-idm70960944">The probability that a nine-year-old child eats a donut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes is <m>\frac{4}{5}</m>.</p>
+        <p xml:id="eip-idm39713200"><em>Second way:</em> Draw the original graph for <em>X</em> ~ <em>U</em>(0.5, 4). Use the conditional formula</p>
+        <men xml:id="fs-id1164566947548">P(x&gt;2|x&gt;1.5)=\frac{P(x&gt;2ANDx&gt;1.5)}{P(x&gt;1.5)}=\frac{P(x&gt;2)}{P(x&gt;1.5)}=\frac{\frac{2}{3.5}}{\frac{2.5}{3.5}}=0.8=\frac{4}{5}</men>
       </statement>
-      <solution>
-        <p xml:id="eip-idp95257200">a. 0.5714</p>
-      </solution>
-    </exercise>
-    <exercise xml:id="eip-idp95257840">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="element-546">b. Find the probability that a different nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes.</p>
-        <p xml:id="element-938">The second question has a <term xml:id="term-00001">conditional probability</term>. You are asked to find the probability that a nine-year-old child eats a doughnut in more than two minutes given that the child has already been eating the donut for more than 1.5 minutes. Solve the problem two different ways (see <xref ref="example-170"/>). You must reduce the sample space. <em>First way</em>: Since you know the child has already been eating the doughnut for more than 1.5 minutes, you are no longer starting at <em>a</em> = 0.5 minutes. Your starting point is 1.5 minutes.</p>
-        <p xml:id="element-69">Write a new <em>f</em>(<em>x</em>):</p>
-        <men xml:id="fs-id1164566880095">f(x)=\frac{1}{4-1.5}=\frac{2}{5}for 1.5\leqx\leq4.</men>
-        <p xml:id="eip-idm60988032">Find <em>P</em>(<em>x</em> &gt; 2|<em>x</em> &gt; 1.5). Draw a graph.</p>
-        <men xml:id="fs-id1164564967560">P(x&gt;2|x&gt;1.5)= (base)(new height) = (4 – 2)(\frac{2}{5})=\frac{4}{5}</men>
-      </statement>
-      <solution>
-        <p xml:id="eip-idp15120208">b. <m>\frac{4}{5}</m></p>
-      </solution>
-    </exercise>
-    <p xml:id="eip-idm70960944">The probability that a nine-year-old child eats a donut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes is <m>\frac{4}{5}</m>.</p>
-    <p xml:id="eip-idm39713200"><em>Second way:</em> Draw the original graph for <em>X</em> ~ <em>U</em>(0.5, 4). Use the conditional formula</p>
-    <men xml:id="fs-id1164566947548">P(x&gt;2|x&gt;1.5)=\frac{P(x&gt;2ANDx&gt;1.5)}{P(x&gt;1.5)}=\frac{P(x&gt;2)}{P(x&gt;1.5)}=\frac{\frac{2}{3.5}}{\frac{2.5}{3.5}}=0.8=\frac{4}{5}</men>
-  </example>
+    </example>
   <note xml:id="fs-idp42235264" class="statistics try">
     <exercise xml:id="fs-idp177663840">
       <title>Try It</title>
@@ -628,29 +636,31 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
     </exercise>
   </note>
   <example xml:id="eip-323">
-    <p xml:id="eip-id1170213489898">Ace Heating and Air Conditioning Service finds that the amount of time a repairman needs to fix a furnace is uniformly distributed between 1.5 and four hours. Let <em>x</em> = the time needed to fix a furnace. Then <em>x</em> ~ <em>U</em>(1.5, 4).</p>
-    <exercise xml:id="eip-idm8252240">
-      <title>Try It</title>
       <statement>
-        <ol marker="a">
-          <li>Find the probability that a randomly selected furnace repair requires more than two hours.</li>
-          <li>Find the probability that a randomly selected furnace repair requires less than three hours.</li>
-          <li>Find the 30<sup>th</sup> percentile of furnace repair times.</li>
-          <li>The longest 25 percent of furnace repair times take at least how long? (In other words: find the minimum time for the longest 25 percent of repair times.) What percentile does this represent?</li>
-          <li>Find the mean and standard deviation</li>
-        </ol>
+        <p xml:id="eip-id1170213489898">Ace Heating and Air Conditioning Service finds that the amount of time a repairman needs to fix a furnace is uniformly distributed between 1.5 and four hours. Let <em>x</em> = the time needed to fix a furnace. Then <em>x</em> ~ <em>U</em>(1.5, 4).</p>
+        <exercise xml:id="eip-idm8252240">
+          <title>Try It</title>
+          <statement>
+            <ol marker="a">
+              <li>Find the probability that a randomly selected furnace repair requires more than two hours.</li>
+              <li>Find the probability that a randomly selected furnace repair requires less than three hours.</li>
+              <li>Find the 30<sup>th</sup> percentile of furnace repair times.</li>
+              <li>The longest 25 percent of furnace repair times take at least how long? (In other words: find the minimum time for the longest 25 percent of repair times.) What percentile does this represent?</li>
+              <li>Find the mean and standard deviation</li>
+            </ol>
+          </statement>
+          <solution>
+            <p xml:id="fs-idm59847232">a. To find <em>f</em>(<em>x</em>): <em>f</em> (<em>x</em>) = <m>\frac{1}{4-1.5}</m> = <m>\frac{1}{2.5}</m> so <em>f</em>(<em>x</em>) = 0.4</p>
+            <p xml:id="fs-idm19787408"><em>P</em>(<em>x</em> &gt; 2) = (base)(height) = (4 – 2)(0.4) = 0.8</p>
+            <figure xml:id="fs-idp54235200">
+              <caption>Uniform distribution between 1.5 and four with shaded area between two and four representing the probability that the repair time <em>x</em> is greater than two</caption>
+              <image source="media/fig-ch05_03_08N.jpg">
+              </image>
+            </figure>
+          </solution>
+        </exercise>
       </statement>
-      <solution>
-        <p xml:id="fs-idm59847232">a. To find <em>f</em>(<em>x</em>): <em>f</em> (<em>x</em>) = <m>\frac{1}{4-1.5}</m> = <m>\frac{1}{2.5}</m> so <em>f</em>(<em>x</em>) = 0.4</p>
-        <p xml:id="fs-idm19787408"><em>P</em>(<em>x</em> &gt; 2) = (base)(height) = (4 – 2)(0.4) = 0.8</p>
-        <figure xml:id="fs-idp54235200">
-          <caption>Uniform distribution between 1.5 and four with shaded area between two and four representing the probability that the repair time <em>x</em> is greater than two</caption>
-          <image source="media/fig-ch05_03_08N.jpg">
-          </image>
-        </figure>
-      </solution>
-    </exercise>
-  </example>
+    </example>
   <note xml:id="fs-idm9097392" class="statistics try">
     <exercise xml:id="fs-idp8673008">
       <title>Try It</title>
