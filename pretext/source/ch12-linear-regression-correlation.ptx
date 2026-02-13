@@ -201,8 +201,8 @@
       </exercise>
       <exercise xml:id="eip-675">
         <statement>
-          <p>Does the graph in  show a linear equation? Why or why not?</p>
-          <figure>
+          <p>Does the graph in <xref ref="fig-eip-675-graph"/> show a linear equation? Why or why not?</p>
+          <figure xml:id="fig-eip-675-graph">
             <image source="media/CNX_Stats_C012_M02_item003.jpg" width="80%">
               <description>This is a graph of an equation. The x-axis is labeled in intervals of 1 from -5 to 5; the y-axis is labeled in intervals of 1 from 0 - 8. The equation's graph is a parabola, a u-shaped curve that has a minimum value at (0, 0).</description>
             </image>
@@ -1219,7 +1219,7 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
           <p>Identify the potential outlier in the scatter plot. The standard deviation of the residuals, or errors, is approximately 8.6.</p>
           <figure>
             <image source="media/CNX_Stats_C012_M09_item001.png" width="80%">
-              <description>Figure 2 shows a graph that is labeled 0 through 100 on the Y axis going up by 20, and 0 though 14 on the X axis going up by 2. The plotted spots on the graph show (y0,x66)</description>
+              <description>Figure 2 shows a graph that is labeled 0 through 100 on the Y axis going up by 20, and 0 through 14 on the X axis going up by 2. The plotted spots on the graph show (y0,x66)</description>
             </image>
           </figure>
         </statement>
