@@ -134,77 +134,79 @@ Construct a stemplot for the data.</p>
     <p>The stemplot is a quick way to graph data and gives an exact picture of the data. You want to look for an overall pattern and any outliers. An <term>outlier</term> is an observation of data that does not fit the rest of the data. It is sometimes called an <em>extreme value.</em> When you graph an outlier, it will appear not to fit the pattern of the graph. Some outliers are due to mistakes, for example, writing 50 instead of 500, while others may indicate that something unusual is happening. It takes some background information to explain outliers, so we will cover them in more detail later.</p>
 
     <example xml:id="element-798">
-      <p>The data are the distances (in kilometers) from a home to local supermarkets. Create a stemplot using the data.
+        <statement>
+<p>The data are the distances (in kilometers) from a home to local supermarkets. Create a stemplot using the data.
 
 1.1, 1.5, 2.3, 2.5, 2.7, 3.2, 3.3, 3.3, 3.5, 3.8, 4.0, 4.2, 4.5, 4.5, 4.7, 4.8, 5.5, 5.6, 6.5, 6.7, 12.3</p>
-      <task xml:id="element-6923">
-        <statement>
-          <p>Do the data seem to have any concentration of values?</p>
-          <hint>
-            <p>The leaves are to the right of the decimal.</p>
-          </hint>
+          <task xml:id="element-6923">
+            <statement>
+              <p>Do the data seem to have any concentration of values?</p>
+              <hint>
+                <p>The leaves are to the right of the decimal.</p>
+              </hint>
+            </statement>
+            <solution>
+              <p>The value 12.3 may be an outlier. Values appear to concentrate at 3 and 4 kilometers.</p>
+              <table>
+                <tabular>
+                  <row header="yes">
+                    <cell>Stem</cell>
+                    <cell>Leaf</cell>
+                  </row>
+                  <row>
+                    <cell>1</cell>
+                    <cell>1 5</cell>
+                  </row>
+                  <row>
+                    <cell>2</cell>
+                    <cell>3 5 7</cell>
+                  </row>
+                  <row>
+                    <cell>3</cell>
+                    <cell>2 3 3 5 8</cell>
+                  </row>
+                  <row>
+                    <cell>4</cell>
+                    <cell>0 2 5 5 7 8</cell>
+                  </row>
+                  <row>
+                    <cell>5</cell>
+                    <cell>5 6</cell>
+                  </row>
+                  <row>
+                    <cell>6</cell>
+                    <cell>5 7</cell>
+                  </row>
+                  <row>
+                    <cell>7</cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>8</cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>9</cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>10</cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>11</cell>
+                    <cell></cell>
+                  </row>
+                  <row>
+                    <cell>12</cell>
+                    <cell>3</cell>
+                  </row>
+                </tabular>
+              </table>
+            </solution>
+          </task>
         </statement>
-        <solution>
-          <p>The value 12.3 may be an outlier. Values appear to concentrate at 3 and 4 kilometers.</p>
-          <table>
-            <tabular>
-              <row header="yes">
-                <cell>Stem</cell>
-                <cell>Leaf</cell>
-              </row>
-              <row>
-                <cell>1</cell>
-                <cell>1 5</cell>
-              </row>
-              <row>
-                <cell>2</cell>
-                <cell>3 5 7</cell>
-              </row>
-              <row>
-                <cell>3</cell>
-                <cell>2 3 3 5 8</cell>
-              </row>
-              <row>
-                <cell>4</cell>
-                <cell>0 2 5 5 7 8</cell>
-              </row>
-              <row>
-                <cell>5</cell>
-                <cell>5 6</cell>
-              </row>
-              <row>
-                <cell>6</cell>
-                <cell>5 7</cell>
-              </row>
-              <row>
-                <cell>7</cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>8</cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>9</cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>10</cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>11</cell>
-                <cell></cell>
-              </row>
-              <row>
-                <cell>12</cell>
-                <cell>3</cell>
-              </row>
-            </tabular>
-          </table>
-        </solution>
-      </task>
-    </example>
+      </example>
 
     <exercise>
       <title>Try It</title>
@@ -1844,33 +1846,36 @@ n
     </exercise>
 
     <example xml:id="exampid2">
-      <p>The following data are the number of books bought by 50 part-time college students at ABC College. The number of books is <em>discrete data</em> since books are counted.
+      <statement>
+        <p>The following data are the number of books bought by 50 part-time college students at ABC College. The number of books is <em>discrete data</em> since books are counted.
 
-1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+  1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
 
-2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+  2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
 
-3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+  3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
 
-4, 4, 4, 4, 4, 4,
+  4, 4, 4, 4, 4, 4,
 
-5, 5, 5, 5, 5,
+  5, 5, 5, 5, 5,
 
-6, 6</p>
-      <p>Eleven students buy one book. Ten students buy two books. Sixteen students buy three books. Six students buy four books. Five students buy five books. Two students buy six books.</p>
-      <task xml:id="fs-id1164564502878">
-        <statement>
-          <p>Calculate the width of each bar/bin size/interval size.</p>
-        </statement>
-        <solution>
-          <p>The smallest data value is 1, and the largest data value is 6. To make sure each is included in an interval, we can use 0.5 as the smallest value and 6.5 as the largest value by subtracting and adding 0.5 to these values. We have a small range here of 6 (6.5 – 0.5), so we will want a fewer number of bins; let's say six this time. So, six divided by six bins gives a bin size (or interval size) of one.</p>
-        </solution>
-      </task>
-      <p>Notice that we may choose different rational numbers to add to, or subtract from, our maximum and minimum values when calculating bin size. In the previous example, we added and subtracted .05, while this time, we added and subtracted .5. Given a data set, you will be able to determine what is appropriate and reasonable.</p>
-      <p>The following histogram displays the number of books on the <em>x</em>-axis and the frequency on the <em>y</em>-axis.</p>
-      <figure xml:id="eip-idp35221648">
-        <image source="media/fig-ch_02_04_02.jpg" width="80%"/>
-      </figure>
+  6, 6</p>
+        <p>Eleven students buy one book. Ten students buy two books. Sixteen students buy three books. Six students buy four books. Five students buy five books. Two students buy six books.</p>
+        <task xml:id="fs-id1164564502878">
+          <statement>
+            <p>Calculate the width of each bar/bin size/interval size.</p>
+          </statement>
+          <solution>
+            <p>The smallest data value is 1, and the largest data value is 6. To make sure each is included in an interval, we can use 0.5 as the smallest value and 6.5 as the largest value by subtracting and adding 0.5 to these values. We have a small range here of 6 (6.5 – 0.5), so we will want a fewer number of bins; let's say six this time. So, six divided by six bins gives a bin size (or interval size) of one.</p>
+          </solution>
+        </task>
+        <p>Notice that we may choose different rational numbers to add to, or subtract from, our maximum and minimum values when calculating bin size. In the previous example, we added and subtracted .05, while this time, we added and subtracted .5. Given a data set, you will be able to determine what is appropriate and reasonable.</p>
+        <p>The following histogram displays the number of books on the <em>x</em>-axis and the frequency on the <em>y</em>-axis.</p>
+        <figure xml:id="eip-idp35221648">
+          <image source="media/fig-ch_02_04_02.jpg" width="80%"/>
+        </figure>
+
+      </statement>
     </example>
 
     <note xml:id="fs-idm25803056">
@@ -4537,52 +4542,97 @@ need more information
     <p>In this case, at least 25 percent of the values are equal to one. Twenty-five percent of the values are between one and five, inclusive. At least 25 percent of the values are equal to five. The top 25 percent of the values fall between five and seven, inclusive.</p>
 
     <example xml:id="element-583">
-      <p>Test scores for Mr. Ramirez's class held during the day are as follows:</p>
-      <p>99, 56, 78, 55.5, 32, 90, 80, 81, 56, 59, 45, 77, 84.5, 84, 70, 72, 68, 32, 79, 90.</p>
-      <p>Test scores for Ms. Park's class held during the evening are as follows:</p>
-      <p>98, 78, 68, 83, 81, 89, 88, 76, 65, 45, 98, 90, 80, 84.5, 85, 79, 78, 98, 90, 79, 81, 25.5.
-</p>
-      <task xml:id="element-23526">
+
+      <statement>
+
+
+        <p>Test scores for Mr. Ramirez's class held during the day are as follows:</p>
+
+        <p>99, 56, 78, 55.5, 32, 90, 80, 81, 56, 59, 45, 77, 84.5, 84, 70, 72, 68, 32, 79, 90.</p>
+
+        <p>Test scores for Ms. Park's class held during the evening are as follows:</p>
+
+        <p>98, 78, 68, 83, 81, 89, 88, 76, 65, 45, 98, 90, 80, 84.5, 85, 79, 78, 98, 90, 79, 81, 25.5.
+
+        </p>
+
+        <task xml:id="element-23526">
+
         <statement>
-          <ol>
-            <li><p>Find the smallest and largest values, the median, and the first and third quartile for Mr. Ramirez's class.</p></li>
-            <li><p>Find the smallest and largest values, the median, and the first and third quartile for Ms. Park's class.</p></li>
-            <li><p>For each data set, what percentage of the data is between the smallest value and the first quartile? the first quartile and the median? the median and the third quartile? the third quartile and the largest value? What percentage of the data is between the first quartile and the largest value?</p></li>
-            <li><p>Create a box plot for each set of data. Use one number line for both box plots.</p></li>
-            <li><p>Which box plot has the widest spread for the middle 50 percent of the data,the data between the first and third quartiles? What does this mean for that set of data in comparison to the other set of data?</p></li>
-          </ol>
+
+        <ol>
+
+        <li><p>Find the smallest and largest values, the median, and the first and third quartile for Mr. Ramirez's class.</p></li>
+
+        <li><p>Find the smallest and largest values, the median, and the first and third quartile for Ms. Park's class.</p></li>
+
+        <li><p>For each data set, what percentage of the data is between the smallest value and the first quartile? the first quartile and the median? the median and the third quartile? the third quartile and the largest value? What percentage of the data is between the first quartile and the largest value?</p></li>
+
+        <li><p>Create a box plot for each set of data. Use one number line for both box plots.</p></li>
+
+        <li><p>Which box plot has the widest spread for the middle 50 percent of the data,the data between the first and third quartiles? What does this mean for that set of data in comparison to the other set of data?</p></li>
+
+        </ol>
+
         </statement>
+
         <solution>
-          <ol>
-            <li><p>
 
-Min = 32
-<em>Q</em><m>_{1}</m> = 56
-<em>M</em> = 74.5
-<em>Q</em><m>_{3}</m> = 82.5
-Max = 99
+        <ol>
+
+        <li><p>
 
 
-</p></li>
-            <li><p>
+        Min = 32
 
+        <em>Q</em><m>_{1}</m> = 56
 
-Min = 25.5
-<em>Q</em><m>_{1}</m> = 78
-<em>M</em> = 81
-<em>Q</em><m>_{3}</m> = 89
-Max = 98
-</p></li>
-            <li><p>Mr. Ramirez's class: There are six data values ranging from 32 to 56: 30 percent. There are six data values ranging from 56 to 74.5: 30 percent. There are five data values ranging from 74.5 to 82.5: 25 percent. There are five data values ranging from 82.5 to 99: 25 percent. There are 16 data values between the first quartile, 56, and the largest value, 99: 80 percent. Ms. Park’s class: There are seven data values ranging from 25.5 to 78: 32 percent. There are seven data values ranging from 78 through 32 percent. There are seven data values ranging 81 to 89: 32 percent. There are six data values ranging from 89 to 98: 27 percent. There are 17 values between the first quartile, 78, and the largest value, 98: 77 percent.</p></li>
-            <li><p>
+        <em>M</em> = 74.5
+
+        <em>Q</em><m>_{3}</m> = 82.5
+
+        Max = 99
 
 
 
-</p></li>
-            <li><p>The first data set has the wider spread for the middle 50 percent of the data. The <em>IQR</em> for the first data set is greater than the <em>IQR</em> for the second set. This means that there is more variability in the middle 50 percent of the first data set.</p></li>
-          </ol>
+        </p></li>
+
+        <li><p>
+
+
+
+        Min = 25.5
+
+        <em>Q</em><m>_{1}</m> = 78
+
+        <em>M</em> = 81
+
+        <em>Q</em><m>_{3}</m> = 89
+
+        Max = 98
+
+        </p></li>
+
+        <li><p>Mr. Ramirez's class: There are six data values ranging from 32 to 56: 30 percent. There are six data values ranging from 56 to 74.5: 30 percent. There are five data values ranging from 74.5 to 82.5: 25 percent. There are five data values ranging from 82.5 to 99: 25 percent. There are 16 data values between the first quartile, 56, and the largest value, 99: 80 percent. Ms. Park’s class: There are seven data values ranging from 25.5 to 78: 32 percent. There are seven data values ranging from 78 through 32 percent. There are seven data values ranging 81 to 89: 32 percent. There are six data values ranging from 89 to 98: 27 percent. There are 17 values between the first quartile, 78, and the largest value, 98: 77 percent.</p></li>
+
+        <li><p>
+
+
+
+
+        </p></li>
+
+        <li><p>The first data set has the wider spread for the middle 50 percent of the data. The <em>IQR</em> for the first data set is greater than the <em>IQR</em> for the second set. This means that there is more variability in the middle 50 percent of the first data set.</p></li>
+
+        </ol>
+
         </solution>
-      </task>
+
+        </task>
+
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -4970,17 +5020,35 @@ Median: Starting at the smallest value, the median is the 20<m>^{th}</m> term, w
     <p>Another measure of the center is the mode. The <term>mode</term> is the most frequent value. There can be more than one mode in a data set as long as those values have the same frequency and that frequency is the highest. A data set with two modes is called bimodal.</p>
 
     <example xml:id="element-114">
-      <p>Statistics exam scores for 20 students are as follows:</p>
-      <p>50, 53, 59, 59, 63, 63, 72, 72, 72, 72, 72, 76, 78, 81, 83, 84, 84, 84, 90, 93
-</p>
-      <task xml:id="exer3">
+
+      <statement>
+
+
+        <p>Statistics exam scores for 20 students are as follows:</p>
+
+        <p>50, 53, 59, 59, 63, 63, 72, 72, 72, 72, 72, 76, 78, 81, 83, 84, 84, 84, 90, 93
+
+        </p>
+
+        <task xml:id="exer3">
+
         <statement>
-          <p>Find the mode.</p>
+
+        <p>Find the mode.</p>
+
         </statement>
+
         <solution>
-          <p>The most frequent score is 72, which occurs five times. Mode  =  72.</p>
+
+        <p>The most frequent score is 72, which occurs five times. Mode  =  72.</p>
+
         </solution>
-      </task>
+
+        </task>
+
+
+      </statement>
+
     </example>
 
     <exercise>
@@ -6055,120 +6123,238 @@ The symbol <m>
     </note>
 
     <example xml:id="element-655">
-      <p>In a fifth-grade class, the teacher was interested in the average age and the sample standard deviation of the ages of her students. The following data are the ages for a SAMPLE of <em>n</em> = 20 fifth-grade students. The ages are rounded to the nearest half year.</p>
-      <p>9, 9.5, 9.5, 10, 10, 10, 10, 10.5, 10.5, 10.5, 10.5, 11, 11, 11, 11, 11, 11, 11.5, 11.5, 11.5</p>
-      <p>The average age is 10.53 years, rounded to two places.</p>
-      <p>The variance may be calculated by using a table. Then the standard deviation is calculated by taking the square root of the variance. We will explain the parts of the table after calculating <em>s</em>.</p>
-      <table>
+
+      <statement>
+
+
+        <p>In a fifth-grade class, the teacher was interested in the average age and the sample standard deviation of the ages of her students. The following data are the ages for a SAMPLE of <em>n</em> = 20 fifth-grade students. The ages are rounded to the nearest half year.</p>
+
+        <p>9, 9.5, 9.5, 10, 10, 10, 10, 10.5, 10.5, 10.5, 10.5, 11, 11, 11, 11, 11, 11, 11.5, 11.5, 11.5</p>
+
+        <p>The average age is 10.53 years, rounded to two places.</p>
+
+        <p>The variance may be calculated by using a table. Then the standard deviation is calculated by taking the square root of the variance. We will explain the parts of the table after calculating <em>s</em>.</p>
+
+        <table>
+
         <tabular>
-          <row header="yes">
-            <cell>Data</cell>
-            <cell>Frequency</cell>
-            <cell>Deviations</cell>
-            <cell><em>Deviations</em><m>^{2}</m></cell>
-            <cell>(Frequency)(<em>Deviations</em><m>^{2}</m>)</cell>
-          </row>
-          <row>
-            <cell><em>x</em></cell>
-            <cell><em>f</em></cell>
-            <cell>(<em>x</em> – <m>\overline{x}</m>)</cell>
-            <cell>(<em>x</em> – <m>\overline{x}</m>)<m>^{2}</m></cell>
-            <cell>(<em>f</em>)(<em>x</em> – <m>\overline{x}</m>)<m>^{2}</m></cell>
-          </row>
-          <row>
-            <cell>9</cell>
-            <cell>1</cell>
-            <cell>9 – 10.525 = –1.525</cell>
-            <cell>(–1.525)<m>^{2}</m> = 2.325625</cell>
-            <cell>1 × 2.325625 = 2.325625</cell>
-          </row>
-          <row>
-            <cell>9.5</cell>
-            <cell>2</cell>
-            <cell>9.5 – 10.525 = –1.025</cell>
-            <cell>(–1.025)<m>^{2}</m> = 1.050625</cell>
-            <cell>2 × 1.050625 = 2.101250</cell>
-          </row>
-          <row>
-            <cell>10</cell>
-            <cell>4</cell>
-            <cell>10 – 10.525 = –.525</cell>
-            <cell>(–.525)<m>^{2}</m> = .275625</cell>
-            <cell>4 × .275625 = 1.1025</cell>
-          </row>
-          <row>
-            <cell>10.5</cell>
-            <cell>4</cell>
-            <cell>10.5 – 10.525 = –.025</cell>
-            <cell>(–.025)<m>^{2}</m> = .000625</cell>
-            <cell>4 × .000625 = .0025</cell>
-          </row>
-          <row>
-            <cell>11</cell>
-            <cell>6</cell>
-            <cell>11 – 10.525 = .475</cell>
-            <cell>(.475)<m>^{2}</m> = .225625</cell>
-            <cell>6 × .225625 = 1.35375</cell>
-          </row>
-          <row>
-            <cell>11.5</cell>
-            <cell>3</cell>
-            <cell>11.5 – 10.525 = .975</cell>
-            <cell>(.975)<m>^{2}</m> = .950625</cell>
-            <cell>3 × .950625 = 2.851875</cell>
-          </row>
-          <row>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell></cell>
-            <cell>The total is 9.7375.</cell>
-          </row>
+
+        <row header="yes">
+
+        <cell>Data</cell>
+
+        <cell>Frequency</cell>
+
+        <cell>Deviations</cell>
+
+        <cell><em>Deviations</em><m>^{2}</m></cell>
+
+        <cell>(Frequency)(<em>Deviations</em><m>^{2}</m>)</cell>
+
+        </row>
+
+        <row>
+
+        <cell><em>x</em></cell>
+
+        <cell><em>f</em></cell>
+
+        <cell>(<em>x</em> – <m>\overline{x}</m>)</cell>
+
+        <cell>(<em>x</em> – <m>\overline{x}</m>)<m>^{2}</m></cell>
+
+        <cell>(<em>f</em>)(<em>x</em> – <m>\overline{x}</m>)<m>^{2}</m></cell>
+
+        </row>
+
+        <row>
+
+        <cell>9</cell>
+
+        <cell>1</cell>
+
+        <cell>9 – 10.525 = –1.525</cell>
+
+        <cell>(–1.525)<m>^{2}</m> = 2.325625</cell>
+
+        <cell>1 × 2.325625 = 2.325625</cell>
+
+        </row>
+
+        <row>
+
+        <cell>9.5</cell>
+
+        <cell>2</cell>
+
+        <cell>9.5 – 10.525 = –1.025</cell>
+
+        <cell>(–1.025)<m>^{2}</m> = 1.050625</cell>
+
+        <cell>2 × 1.050625 = 2.101250</cell>
+
+        </row>
+
+        <row>
+
+        <cell>10</cell>
+
+        <cell>4</cell>
+
+        <cell>10 – 10.525 = –.525</cell>
+
+        <cell>(–.525)<m>^{2}</m> = .275625</cell>
+
+        <cell>4 × .275625 = 1.1025</cell>
+
+        </row>
+
+        <row>
+
+        <cell>10.5</cell>
+
+        <cell>4</cell>
+
+        <cell>10.5 – 10.525 = –.025</cell>
+
+        <cell>(–.025)<m>^{2}</m> = .000625</cell>
+
+        <cell>4 × .000625 = .0025</cell>
+
+        </row>
+
+        <row>
+
+        <cell>11</cell>
+
+        <cell>6</cell>
+
+        <cell>11 – 10.525 = .475</cell>
+
+        <cell>(.475)<m>^{2}</m> = .225625</cell>
+
+        <cell>6 × .225625 = 1.35375</cell>
+
+        </row>
+
+        <row>
+
+        <cell>11.5</cell>
+
+        <cell>3</cell>
+
+        <cell>11.5 – 10.525 = .975</cell>
+
+        <cell>(.975)<m>^{2}</m> = .950625</cell>
+
+        <cell>3 × .950625 = 2.851875</cell>
+
+        </row>
+
+        <row>
+
+        <cell></cell>
+
+        <cell></cell>
+
+        <cell></cell>
+
+        <cell></cell>
+
+        <cell>The total is 9.7375.</cell>
+
+        </row>
+
         </tabular>
-      </table>
-      <p>The last column simply multiplies each squared deviation by the frequency for the corresponding data value.</p>
-      <p>The sample variance, <em>s</em><m>^{2}</m>, is equal to the sum of the last column (9.7375) divided by the total number of data values minus one (20 – 1):</p>
-      <p>The <em>sample standard deviation</em> <em>s</em> is equal to the square root of the sample variance:</p>
-      <p><m>s=\sqrt{.5125}=.715891,</m> which is rounded to two decimal places, <em>s</em> = .72.</p>
-      <p><em>Typically, you do the calculation for the standard deviation on your calculator or computer</em>. The intermediate results are not rounded. This is done for accuracy.</p>
-      <task xml:id="element-397">
+
+        </table>
+
+        <p>The last column simply multiplies each squared deviation by the frequency for the corresponding data value.</p>
+
+        <p>The sample variance, <em>s</em><m>^{2}</m>, is equal to the sum of the last column (9.7375) divided by the total number of data values minus one (20 – 1):</p>
+
+        <p>The <em>sample standard deviation</em> <em>s</em> is equal to the square root of the sample variance:</p>
+
+        <p><m>s=\sqrt{.5125}=.715891,</m> which is rounded to two decimal places, <em>s</em> = .72.</p>
+
+        <p><em>Typically, you do the calculation for the standard deviation on your calculator or computer</em>. The intermediate results are not rounded. This is done for accuracy.</p>
+
+        <task xml:id="element-397">
+
         <statement>
-          <p>
-    For the following problems, recall that <em>value = mean + (#ofSTDEVs)(standard deviation)</em>. Verify the mean and standard deviation on a calculator or computer. Note that these formulas are derived by algebraically manipulating the <em>z</em>-score formulas, given either parameters or statistics.
-      For a sample: <em>x</em> = <m>\overline{x}</m> + (#ofSTDEVs)(<em>s</em>)
-      For a population: <em>x</em> = <em>μ</em> + (#ofSTDEVs)(<em>σ</em>)
-      For this example, use <em>x</em> = <m>\overline{x}</m> + (#ofSTDEVs)(<em>s</em>) because the data is from a sample
-    </p>
-          <ol>
-            <li><p>Verify the mean and standard deviation on your calculator or computer.</p></li>
-            <li><p>Find the value that is one standard deviation above the mean. Find (<m>\overline{x}</m> + 1<em>s</em>).</p></li>
-            <li><p>Find the value that is two standard deviations below the mean. Find (<m>\overline{x}</m> – 2<em>s</em>).</p></li>
-            <li><p>Find the values that are 1.5 standard deviations <em>from</em> (below and above) the mean.</p></li>
-          </ol>
+
+        <p>
+
+        For the following problems, recall that <em>value = mean + (#ofSTDEVs)(standard deviation)</em>. Verify the mean and standard deviation on a calculator or computer. Note that these formulas are derived by algebraically manipulating the <em>z</em>-score formulas, given either parameters or statistics.
+
+        For a sample: <em>x</em> = <m>\overline{x}</m> + (#ofSTDEVs)(<em>s</em>)
+
+        For a population: <em>x</em> = <em>μ</em> + (#ofSTDEVs)(<em>σ</em>)
+
+        For this example, use <em>x</em> = <m>\overline{x}</m> + (#ofSTDEVs)(<em>s</em>) because the data is from a sample
+
+        </p>
+
+        <ol>
+
+        <li><p>Verify the mean and standard deviation on your calculator or computer.</p></li>
+
+        <li><p>Find the value that is one standard deviation above the mean. Find (<m>\overline{x}</m> + 1<em>s</em>).</p></li>
+
+        <li><p>Find the value that is two standard deviations below the mean. Find (<m>\overline{x}</m> – 2<em>s</em>).</p></li>
+
+        <li><p>Find the values that are 1.5 standard deviations <em>from</em> (below and above) the mean.</p></li>
+
+        </ol>
+
         </statement>
+
         <solution>
-          <ol>
-            <li><p>
-        
-          Clear lists L1 and L2. Press STAT 4:ClrList. Enter 2<m>^{nd}</m> 1 for L1, the comma (,), and
-            2<m>^{nd}</m> 2 for L2.
-          Enter data into the list editor. Press STAT 1:EDIT. If necessary, clear the lists by
-            arrowing up into the name. Press CLEAR and arrow down.
-          Put the data values (9, 9.5, 10, 10.5, 11, 11.5) into list L1 and the frequencies (1, 2, 4, 4, 6, 3) into list L2. Use the arrow keys to move around.
-          Press STAT and arrow to CALC. Press 1:1-VarStats and enter L1 (2<m>^{nd}</m> 1), L2 (2<m>^{nd}</m> 2). Do not forget the comma. Press ENTER.
-          <m>\overline{x}</m> = 10.525.
-          Use Sx because this is sample data (not a population): Sx=.715891.
-        
-      </p></li>
-            <li><p>(<m>\overline{x}</m> + 1<em>s</em>) = 10.53 + (1)(.72) = 11.25</p></li>
-            <li><p>(<m>\overline{x}</m> – 2<em>s</em>) = 10.53 – (2)(.72) = 9.09</p></li>
-            <li><p>(<m>\overline{x}</m> – 1.5<em>s</em>) = 10.53 – (1.5)(.72) = 9.45
+
+        <ol>
+
+        <li><p>
+
+
+        Clear lists L1 and L2. Press STAT 4:ClrList. Enter 2<m>^{nd}</m> 1 for L1, the comma (,), and
+
+        2<m>^{nd}</m> 2 for L2.
+
+        Enter data into the list editor. Press STAT 1:EDIT. If necessary, clear the lists by
+
+        arrowing up into the name. Press CLEAR and arrow down.
+
+        Put the data values (9, 9.5, 10, 10.5, 11, 11.5) into list L1 and the frequencies (1, 2, 4, 4, 6, 3) into list L2. Use the arrow keys to move around.
+
+        Press STAT and arrow to CALC. Press 1:1-VarStats and enter L1 (2<m>^{nd}</m> 1), L2 (2<m>^{nd}</m> 2). Do not forget the comma. Press ENTER.
+
+        <m>\overline{x}</m> = 10.525.
+
+        Use Sx because this is sample data (not a population): Sx=.715891.
+
+
+        </p></li>
+
+        <li><p>(<m>\overline{x}</m> + 1<em>s</em>) = 10.53 + (1)(.72) = 11.25</p></li>
+
+        <li><p>(<m>\overline{x}</m> – 2<em>s</em>) = 10.53 – (2)(.72) = 9.09</p></li>
+
+        <li><p>(<m>\overline{x}</m> – 1.5<em>s</em>) = 10.53 – (1.5)(.72) = 9.45
+
         (<m>\overline{x}</m> + 1.5<em>s</em>) = 10.53 + (1.5)(.72) = 11.61
-      
-      </p></li>
-          </ol>
+
+
+        </p></li>
+
+        </ol>
+
         </solution>
-      </task>
+
+        </task>
+
+
+      </statement>
+
     </example>
 
     <exercise>
