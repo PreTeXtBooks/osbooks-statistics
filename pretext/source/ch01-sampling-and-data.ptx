@@ -2698,7 +2698,7 @@
     </gi>
 
     <gi xml:id="gi-numerical-variable">
-      <title>numerical Variable</title>
+      <title>numerical variable</title>
       <p>variables that take on values that are indicated by numbers</p>
     </gi>
 
@@ -2834,7 +2834,7 @@
 
     <gi xml:id="gi-validity">
       <title>validity</title>
-      <p>refers to how much a measure or conclusion accurately reflects real world</p>
+      <p>refers to how much a measure or conclusion accurately reflects the real world</p>
     </gi>
 
     <gi xml:id="gi-variable">
