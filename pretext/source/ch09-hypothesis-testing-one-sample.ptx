@@ -1964,9 +1964,9 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
       <exercise xml:id="element-53">
         <statement>
           <p>The mean work week for engineers in a start-up company is believed to be about 60 hours. A newly hired engineer hopes that it’s shorter. She asks 10 engineering friends in start-ups for the lengths of their mean work weeks. Based on the results that follow, should she count on the mean work week to be shorter than 60 hours?</p>
-          </statement>
-      <solution><p>Data (length of mean work week): 70, 45, 55, 60, 65, 55, 55, 60, 50, 55.</p>
-        </solution></exercise>
+          <p>Data (length of mean work week): 70, 45, 55, 60, 65, 55, 55, 60, 50, 55.</p>
+        </statement>
+      </exercise>
       <exercise xml:id="element-761">
         <statement>
           <p>Use the <em>Lap time</em> data for Lap 4 (see <xref ref="appendix-c-data-sets">Appendix C: Data Sets</xref>) to test the claim that Terri finishes Lap 4, on average, in less than 129 seconds. Use all 20 races given.</p>
