@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<chapter xml:id="ch07-central-limit-theorem" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version='1.0' encoding='utf-8'?>
+<chapter xml:id="ch07-central-limit-theorem">
   <title>The Central Limit Theorem</title>
 
   <introduction>
@@ -148,7 +148,7 @@ P(85 &lt; \overline{x} &lt; 92) = 0.6997
 </note>
 
 <exercise xml:id="ch7-element-808">
-<statement>
+<title>Try It</title><statement>
 <p>b. Find the value that is two standard deviations above the expected value, 90, of the sample mean.</p>
 </statement>
 
@@ -170,7 +170,7 @@ value = 90 + 2\left(\frac{15}{\sqrt{25}}\right) = 96.
 </exercise>
 
 <exercise xml:id="ch7-fs-idm18823760">
-<statement>
+<title>Try It</title><statement>
 <p>An unknown distribution has a mean of 45 and a standard deviation of eight. Samples of size <em>n</em> = 30 are drawn randomly from the population. Find the probability that the sample mean is between 42 and 50.</p>
 </statement>
 
@@ -208,7 +208,7 @@ P(1.8 &lt; \overline{x} &lt; 2.3) = 0.9977
 </example>
 
 <exercise xml:id="ch7-fs-idp55734224">
-<statement>
+<title>Try It</title><statement>
 <p>The length of time taken on the SAT exam for a group of students is normally distributed with a mean of 2.5 hours and a standard deviation of 0.25 hours. A sample size of <em>n</em> = 60 is drawn randomly from the population. Find the probability that the sample mean is between two hours and three hours.</p>
 </statement>
 
@@ -254,7 +254,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <li>The central limit theorem states that for large sample sizes (<em>n</em>), the sampling distribution will be approximately normal.</li>
 
-<li>The probability that the sample mean age is more than 30 is given by <em>P</em>(<em>Χ</em> > 30) = <c>normalcdf</c>(30,E99,34,1.5) = 0.9962.</li>
+<li>The probability that the sample mean age is more than 30 is given by <em>P</em>(<em>Χ</em> &gt; 30) = <c>normalcdf</c>(30,E99,34,1.5) = 0.9962.</li>
 
 <li>Let <em>k</em> = the 95<m>^{th}</m> percentile.
 
@@ -264,7 +264,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </example>
 
 <exercise xml:id="ch7-fs-idm62512800">
-<statement>
+<title>Try It</title><statement>
 <p>A gaming marketing gap for men between the ages of 30 to 40 has been identified. You are researching a startup game targeted at the 35-year-old demographic. Your idea is to develop a strategy game that can be played by men from their late 20s through their late 30s. Based on the article's data, industry research shows that the average strategy player is 28 years old with a standard deviation of 4.8 years. You take a sample of 100 randomly selected gamers. If your target market is 29- to 35-year-olds, should you continue with your development strategy?</p>
 </statement>
 
@@ -305,12 +305,12 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </example>
 
 <exercise xml:id="ch7-fs-idp8586512">
-<statement>
+<title>Try It</title><statement>
 <p>Cans of a cola beverage claim to contain 16 ounces. The amounts in a sample are measured and the statistics are <em>n</em> = 34, <m>\overline{x}</m> = 16.01 ounces. If the cans are filled so that <em>μ</em> = 16.00 ounces (as labeled) and <em>σ</em> = 0.143 ounces, find the probability that a sample of 34 cans will have an average amount greater than 16.01 ounces. Do the results suggest that cans are filled with an amount greater than 16 ounces?</p>
 </statement>
 
 <solution>
-<p>We have <em>P</em>(<m>\overline{x}</m> > 16.01) = <c>normalcdf</c><m>\left(16.01,E99,16,\frac{0.143}{\sqrt{34}}\right)</m> = 0.3417. Since there is a 34.17% probability that the average sample weight is greater than 16.01 ounces, we should be skeptical of the company's claimed volume. If I am a consumer, I should be glad that I am probably receiving free cola. If I am the manufacturer, I need to determine if my bottling processes are outside of acceptable limits.</p>
+<p>We have <em>P</em>(<m>\overline{x}</m> &gt; 16.01) = <c>normalcdf</c><m>\left(16.01,E99,16,\frac{0.143}{\sqrt{34}}\right)</m> = 0.3417. Since there is a 34.17% probability that the average sample weight is greater than 16.01 ounces, we should be skeptical of the company's claimed volume. If I am a consumer, I should be glad that I am probably receiving free cola. If I am the manufacturer, I need to determine if my bottling processes are outside of acceptable limits.</p>
 </solution>
 </exercise>
 
@@ -395,7 +395,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <exercise xml:id="ch7-fs-idm42157984">
 <statement>
-<p>What causes the probabilities in <xref ref="ch7-element-446"/> and <xref ref="ch7-element-322"/> to be different?</p>
+<p>What causes the probabilities in <xref ref="ch7-element-446" /> and <xref ref="ch7-element-322" /> to be different?</p>
 </statement>
 
 <solution>
@@ -686,9 +686,9 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 <li>sum of 80 values = <em>Σx</em> = 7500</li>
 </ul>
 
-<p>a. Find <em>P</em>(Σ<em>x</em> > 7500)</p>
+<p>a. Find <em>P</em>(Σ<em>x</em> &gt; 7500)</p>
 
-<p><em>P</em>(Σ<em>x</em> > 7500) = 0.0127</p>
+<p><em>P</em>(Σ<em>x</em> &gt; 7500) = 0.0127</p>
 
 <figure xml:id="ch7-fs-idm54365952">
 <image source="media/fig-ch07_03_01.jpg" width="80%">
@@ -716,7 +716,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </example>
 
 <exercise xml:id="ch7-fs-idm105647824">
-<statement>
+<title>Try It</title><statement>
 <p>An unknown distribution has a mean of 45 and a standard deviation of 8. A sample size of 50 is drawn randomly from the population. Find the probability that the sum of the 50 values is more than 2,400.</p>
 </statement>
 <solution>
@@ -760,7 +760,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </example>
 
 <exercise xml:id="ch7-fs-idm67768928">
-<statement>
+<title>Try It</title><statement>
 <p>In a recent study reported Oct.29, 2012, the mean age of tablet users is 35 years. Suppose the standard deviation is 10 years. The sample size is 39.</p>
 <ol>
 <li>What are the mean and standard deviation for the sum of the ages of tablet users? What is the distribution?</li>
@@ -801,7 +801,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 </example>
 
 <exercise xml:id="ch7-fs-idp7815296">
-<statement>
+<title>Try It</title><statement>
 <p>The mean number of minutes for app engagement by a tablet user is 8.2 minutes. Suppose the standard deviation is one minute. Take a sample size of 70.</p>
 <ol>
 <li>What is the probability that the sum of the sample is between seven hours and 10 hours? What does this mean in context of the problem?</li>
@@ -981,7 +981,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <exercise xml:id="ch7-eip--710">
 <statement>
-<p>What is <em>P</em>(<em>Σx</em> > 290)?</p>
+<p>What is <em>P</em>(<em>Σx</em> &gt; 290)?</p>
 </statement>
 <solution>
 <p>0.9772</p>
@@ -1069,7 +1069,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <exercise xml:id="ch7-eip--899">
 <statement>
-<p>What is <em>P</em>(<em>Σx</em> > 9000)?</p>
+<p>What is <em>P</em>(<em>Σx</em> &gt; 9000)?</p>
 </statement>
 </exercise>
 </section>
@@ -1199,21 +1199,21 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
         </statement>
       </example>
       <exercise xml:id="ch7-element-197">
-        <statement>
+        <title>Try It</title><statement>
           <p>a. Find <em>P</em>(<m>\overline{x}</m> &lt; 2). Draw the graph.</p>
         </statement>
         <solution>
           <p>a. <em>P</em>(<m>\overline{x}</m> &lt; 2) = 0</p>
           <p>The probability that the mean stress score is less than 2 is about zero.</p>
           <figure xml:id="ch7-fs-idm147247216">
-            <image source="media/fig-ch07_04_01.jpg" width="80%"/>
+            <image source="media/fig-ch07_04_01.jpg" width="80%" />
           </figure>
           <p><c>normalcdf</c> <m>(\text{1,2,3,}\frac{\text{1}\text{.15}}{\sqrt{\text{75}}})</m> = 0
 </p>
         </solution>
       </exercise>
       <exercise xml:id="ch7-element-523">
-        <statement>
+        <title>Try It</title><statement>
           <p>b. Find the 90<m>^{th}</m> percentile for the mean of 75 stress scores. Draw a graph.</p>
         </statement>
         <solution>
@@ -1221,7 +1221,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
           <p>Find <em>k</em>, where <em>P</em>(<m>\overline{x}</m> &lt; <em>k</em>) = 0.90.</p>
           <me>k\text{ = 3}\text{.2}</me>
           <figure xml:id="ch7-fs-idm91881776">
-            <image source="media/fig-ch07_04_02.jpg" width="80%"/>
+            <image source="media/fig-ch07_04_02.jpg" width="80%" />
           </figure>
           <p>The 90<m>^{th}</m> percentile for the mean of 75 scores is about 3.2. This tells us that 90 percent of all the means of 75 stress scores are at most 3.2, and that 10 percent are at least 3.2.</p>
           <p><c>invNorm</c><m>(\text{0}\text{.90,3,}\frac{1.15}{\sqrt{75}})</m> = 3.2
@@ -1229,7 +1229,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
         </solution>
       </exercise>
       <exercise xml:id="ch7-element-888">
-        <statement>
+        <title>Try It</title><statement>
           <p>c. Find <em>P</em>(<em>Σx</em> &lt; 200). Draw the graph.</p>
         </statement>
         <solution>
@@ -1237,14 +1237,14 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
           <p>The standard deviation of the sum of 75 stress scores is <m>(\sqrt{75})</m>(1.15) = 9.96.</p>
           <me>P\text{(}\Sigmax &lt;\text{ 200) = 0}</me>
           <figure xml:id="ch7-fs-idm142729648">
-            <image source="media/fig-ch07_04_03.jpg" width="80%"/>
+            <image source="media/fig-ch07_04_03.jpg" width="80%" />
           </figure>
           <p>The probability that the total of 75 scores is less than 200 is about zero.</p>
           <p><c>normalcdf</c> (75,200,(75)(3),<m>(\sqrt{75})</m>(1.15)).</p>
         </solution>
       </exercise>
       <exercise xml:id="ch7-element-681">
-        <statement>
+        <title>Try It</title><statement>
           <p>d. Find the 90<m>^{th}</m> percentile for the total of 75 stress scores. Draw a graph.</p>
         </statement>
         <solution>
@@ -1252,7 +1252,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
           <p>Find <em>k</em> where <em>P</em>(<em>Σx</em> &lt; <em>k</em>) = 0.90.</p>
           <me>k = 237.8</me>
           <figure xml:id="ch7-fs-idm72661520">
-            <image source="media/fig-ch07_04_04.jpg" width="80%"/>
+            <image source="media/fig-ch07_04_04.jpg" width="80%" />
           </figure>
           <p>The 90<m>^{th}</m> percentile for the sum of 75 scores is about 237.8. This tells us that 90 percent of all the sums of 75 scores are no more than 237.8 and 10 percent are no less than 237.8.</p>
           <p><c>invNorm</c>(0.90,(75)(3),<m>(\sqrt{75})</m>(1.15)) = 237.8</p>
@@ -1271,7 +1271,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
         </statement>
       </example>
       <exercise xml:id="ch7-eip--id8136792">
-        <statement>
+        <title>Try It</title><statement>
           <ol>
             <li>Find the probability that the mean excess time used by the 80 customers in the sample is longer than 20 minutes. This is asking us to find <em>P(</em><m>\overline{x}</m> &gt; 20). Draw the graph.</li>
             <li>Suppose that one customer who exceeds the time limit for his cell phone contract is randomly selected. Find the probability that this individual customer's excess time is longer than 20 minutes. This is asking us to find <em>P</em>(<em>x</em> &gt; 20).</li>
@@ -1306,14 +1306,14 @@ When asked to find the probability of an individual value, use the stated distri
         </solution>
       </exercise>
       <exercise xml:id="ch7-eip--id1171180910907">
-        <statement>
+        <title>Try It</title><statement>
           <p><em>Using the clt to find percentiles</em>Find the 95<m>^{th}</m> percentile for the <em>sample mean excess time</em> for a sample of 80 customers who exceed their basic contract time allowances. Draw a graph.</p>
         </statement>
         <solution>
           <p>Let <em>k</em> = the 95<m>^{th}</m> percentile. Find <em>k</em> where <em>P</em>(<m>\overline{x}</m> &lt; <em>k</em>) = 0.95.</p>
           <p><em>k</em> = 26.0 using <c>invNorm</c><m>(\text{0}\text{.95,22},\frac{22}{\sqrt{80}})</m> = 26.0</p>
           <figure xml:id="ch7-fs-idm61807792">
-            <image source="media/fig-ch07_04_06.jpg" width="80%"/>
+            <image source="media/fig-ch07_04_06.jpg" width="80%" />
           </figure>
           <p>The 95<m>^{th}</m> percentile for the <em>sample mean excess time used</em> is about 26.0 minutes for a random sample of 80 customers who exceed their contractual allowed time.</p>
           <p>95 percent of such samples would have means under 26 minutes; only five percent of such samples would have means above 26 minutes.</p>
@@ -1327,7 +1327,7 @@ When asked to find the probability of an individual value, use the stated distri
         </statement>
       </example>
       <exercise xml:id="ch7-fs-idm67039584">
-        <statement>
+        <title>Try It</title><statement>
           <ol>
             <li>Find the median, the first quartile, and the third quartile for the sample mean time of diagnosis in the United States.</li>
             <li>Find the median, the first quartile, and the third quartile for the sum of sample times of diagnosis in the United States.</li>
@@ -1360,7 +1360,7 @@ When asked to find the probability of an individual value, use the stated distri
         </statement>
       </example>
       <exercise xml:id="ch7-fs-idm108732608">
-        <statement>
+        <title>Try It</title><statement>
           <p>A study was done about a medical condition that affects a certain group of people. The age range of the people was 14–61. The mean age was 30.9 years with a standard deviation of nine years.</p>
           <ol>
             <li>In a sample of 25 people, what is the probability that the mean age of the people is less than 35?</li>
@@ -1395,7 +1395,7 @@ When asked to find the probability of an individual value, use the stated distri
         </ul>
         <p>Recall that if <em>X</em> is the binomial random variable, then <em>X</em> ~ <em>B</em>(<em>n, p</em>). The shape of the binomial distribution needs to be
 similar to the shape of the normal distribution. To ensure this, the quantities <em>np</em>
-and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</em> > 5;  the approximation is better if they are both greater than or equal to 10. The product &gt;5 is more or less accepted as the norm here.). This is another accepted rule. So, for whatever value of <em>x</em> we are looking at (the number of successes). We add 0.5 if we are looking for the probability that is less than or equal to that number. We subtract 0.5 if we are looking for the probability that is greater than or equal to that number. Then the binomial can be approximated by the normal distribution with mean <em>μ</em> = <em>np</em> and standard deviation <em>σ</em> = <m>\sqrt{npq}</m>. Remember that <em>q</em> = 1 – <em>p</em>. In order to get the best approximation, add 0.5 to <em>x</em> or subtract 0.5 from <em>x</em> (use <em>x</em> + 0.5 or <em>x</em> – 0.5).</p>
+and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</em> &gt; 5;  the approximation is better if they are both greater than or equal to 10. The product &gt;5 is more or less accepted as the norm here.). This is another accepted rule. So, for whatever value of <em>x</em> we are looking at (the number of successes). We add 0.5 if we are looking for the probability that is less than or equal to that number. We subtract 0.5 if we are looking for the probability that is greater than or equal to that number. Then the binomial can be approximated by the normal distribution with mean <em>μ</em> = <em>np</em> and standard deviation <em>σ</em> = <m>\sqrt{npq}</m>. Remember that <em>q</em> = 1 – <em>p</em>. In order to get the best approximation, add 0.5 to <em>x</em> or subtract 0.5 from <em>x</em> (use <em>x</em> + 0.5 or <em>x</em> – 0.5).</p>
         <p>This is another accepted rule. So, for whatever value of <em>x</em> we are looking at (the number of successes). We add 0.5 if we are looking for the probability that is less than or equal to that number. We subtract 0.5 if we are looking for the probability that is greater than or equal to that number. The number 0.5 is called the continuity correction factor and is used in the following example.</p>
       </note>
       <example>
@@ -1444,7 +1444,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
   <subsection xml:id="ch7-fs-idm65344016">
     <p><em>Use the following information to answer the next 10 exercises:</em> A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely, so the distribution of weights is uniform. A sample of 100 weights is taken.</p>
     <exercise xml:id="ch7-exercise4">
-      <statement>
+      <title>Try It</title><statement>
         <ol>
           <li>What is the distribution for the weights of one 25-pound lifting weight? What are the mean and standard deviation?</li>
           <li>What is the distribution for the mean weight of 100 25-pound lifting weights?</li>
@@ -1460,12 +1460,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </solution>
     </exercise>
     <exercise xml:id="ch7-fs-idm84240544">
-      <statement>
+      <title>Try It</title><statement>
         <p>Draw the graph of .</p>
       </statement>
     </exercise>
     <exercise xml:id="ch7-exercise6">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find the probability that the mean actual weight for the 100 weights is greater than 25.2.</p>
       </statement>
       <solution>
@@ -1473,12 +1473,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </solution>
     </exercise>
     <exercise xml:id="ch7-fs-idm30735600">
-      <statement>
+      <title>Try It</title><statement>
         <p>Draw the graph of .</p>
       </statement>
     </exercise>
     <exercise xml:id="ch7-exercise8">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find the 90<m>^{th}</m> percentile for the mean weight for the 100 weights.</p>
       </statement>
       <solution>
@@ -1486,12 +1486,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </solution>
     </exercise>
     <exercise xml:id="ch7-fs-idm167897040">
-      <statement>
+      <title>Try It</title><statement>
         <p>Draw the graph of .</p>
       </statement>
     </exercise>
     <exercise xml:id="ch7-exercise10">
-      <statement>
+      <title>Try It</title><statement>
         <ol>
           <li>What is the distribution for the sum of the weights of 100 25-pound lifting weights?</li>
           <li>Find <em>P</em>(<em>Σx</em> &lt; 2450).</li>
@@ -1505,12 +1505,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </solution>
     </exercise>
     <exercise xml:id="ch7-exercise11-b">
-      <statement>
+      <title>Try It</title><statement>
         <p>Draw the graph of .</p>
       </statement>
     </exercise>
     <exercise xml:id="ch7-exercise12-b">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find the 90<m>^{th}</m> percentile for the total weight of the 100 weights.</p>
       </statement>
       <solution>
@@ -1518,13 +1518,13 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </solution>
     </exercise>
     <exercise xml:id="ch7-fs-idm54084400">
-      <statement>
+      <title>Try It</title><statement>
         <p>Draw the graph of .</p>
       </statement>
     </exercise>
     <p><em>Use the following information to answer the next five exercises:</em> The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.</p>
     <exercise xml:id="ch7-fs-idm110175696">
-      <statement>
+      <title>Try It</title><statement>
         <ol>
           <li>What is the standard deviation?</li>
           <li>What is the parameter <em>m</em>?</li>
@@ -1538,12 +1538,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </solution>
     </exercise>
     <exercise xml:id="ch7-fs-idm85285856">
-      <statement>
+      <title>Try It</title><statement>
         <p>What is the distribution for the length of time one battery lasts?</p>
       </statement>
     </exercise>
     <exercise xml:id="ch7-fs-idm151129248">
-      <statement>
+      <title>Try It</title><statement>
         <p>What is the distribution for the mean length of time 64 batteries last?</p>
       </statement>
       <solution>
@@ -1551,12 +1551,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </solution>
     </exercise>
     <exercise xml:id="ch7-fs-idm69924752">
-      <statement>
+      <title>Try It</title><statement>
         <p>What is the distribution for the total length of time 64 batteries last?</p>
       </statement>
     </exercise>
     <exercise xml:id="ch7-fs-idm1366160">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find the probability that the sample mean is between 7 and 11.</p>
       </statement>
       <solution>
@@ -1564,12 +1564,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </solution>
     </exercise>
     <exercise xml:id="ch7-fs-idm28939008">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find the 80<m>^{th}</m> percentile for the total length of time 64 batteries last.</p>
       </statement>
     </exercise>
     <exercise xml:id="ch7-fs-idm41589104">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find the interquartile range (IQR) for the mean amount of time 64 batteries last.</p>
       </statement>
       <solution>
@@ -1577,13 +1577,13 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </solution>
     </exercise>
     <exercise xml:id="ch7-fs-idm45108016">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find the middle 80 percent for the total amount of time 64 batteries last.</p>
       </statement>
     </exercise>
     <p><em>Use the following information to answer the next six exercises:</em> A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.</p>
     <exercise xml:id="ch7-fs-idm1612656">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find <em>P</em>(<em>Σx</em> &gt; 420).</p>
       </statement>
       <solution>
@@ -1591,12 +1591,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </solution>
     </exercise>
     <exercise xml:id="ch7-fs-idm48638032">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find the 90<m>^{th}</m> percentile for the sums.</p>
       </statement>
     </exercise>
     <exercise xml:id="ch7-fs-idm53694544">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find the 15<m>^{th}</m> percentile for the sums.</p>
       </statement>
       <solution>
@@ -1604,12 +1604,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </solution>
     </exercise>
     <exercise xml:id="ch7-fs-idm16561168">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find the first quartile for the sums.</p>
       </statement>
     </exercise>
     <exercise xml:id="ch7-fs-idp10404400">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find the third quartile for the sums.</p>
       </statement>
       <solution>
@@ -1617,7 +1617,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </solution>
     </exercise>
     <exercise xml:id="ch7-fs-idm111220240">
-      <statement>
+      <title>Try It</title><statement>
         <p>Find the 80<m>^{th}</m> percentile for the sums.</p>
       </statement>
     </exercise>
@@ -1711,7 +1711,7 @@ The probability that the average attention span for the 60 children is less than
         <ol>
           <li><em>X</em> = the closing stock prices for U.S. semiconductor manufacturers</li>
           <li>i. $20.71, ii. $17.31, iii. 35</li>
-          <li></li>
+          <li />
           <li>exponential distribution, <em>Χ ~ Exp</em><m>(\frac{1}{20.71})</m></li>
           <li>Answers will vary.</li>
           <li>i. $20.71, ii. $11.14</li>
@@ -1964,24 +1964,24 @@ The average stay of 80 women was more than five days.</li>
             <row><cell>0.859</cell> <cell>0.866</cell> <cell>0.858</cell> <cell>0.868</cell> <cell>0.858</cell> <cell>1.015</cell></row>
             <row><cell>0.857</cell> <cell>0.859</cell> <cell>0.848</cell> <cell>0.859</cell> <cell>0.818</cell> <cell>0.876</cell></row>
             <row><cell>0.942</cell> <cell>0.838</cell> <cell>0.851</cell> <cell>0.982</cell> <cell>0.868</cell> <cell>0.809</cell></row>
-            <row><cell>0.873</cell> <cell>0.863</cell> <cell></cell> <cell></cell> <cell>0.803</cell> <cell>0.865</cell></row>
-            <row><cell>0.809</cell> <cell>0.888</cell> <cell></cell> <cell></cell> <cell>0.932</cell> <cell>0.848</cell></row>
-            <row><cell>0.890</cell> <cell>0.925</cell> <cell></cell> <cell></cell> <cell>0.842</cell> <cell>0.940</cell></row>
-            <row><cell>0.878</cell> <cell>0.793</cell> <cell></cell> <cell></cell> <cell>0.832</cell> <cell>0.833</cell></row>
-            <row><cell>0.905</cell> <cell>0.977</cell> <cell></cell> <cell></cell> <cell>0.807</cell> <cell>0.845</cell></row>
-            <row><cell></cell> <cell>0.850</cell> <cell></cell> <cell></cell> <cell>0.841</cell> <cell>0.852</cell></row>
-            <row><cell></cell> <cell>0.830</cell> <cell></cell> <cell></cell> <cell>0.932</cell> <cell>0.778</cell></row>
-            <row><cell></cell> <cell>0.856</cell> <cell></cell> <cell></cell> <cell>0.833</cell> <cell>0.814</cell></row>
-            <row><cell></cell> <cell>0.842</cell> <cell></cell> <cell></cell> <cell>0.881</cell> <cell>0.791</cell></row>
-            <row><cell></cell> <cell>0.778</cell> <cell></cell> <cell></cell> <cell>0.818</cell> <cell>0.810</cell></row>
-            <row><cell></cell> <cell>0.786</cell> <cell></cell> <cell></cell> <cell>0.864</cell> <cell>0.881</cell></row>
-            <row><cell></cell> <cell>0.853</cell> <cell></cell> <cell></cell> <cell>0.825</cell> <cell></cell></row>
-            <row><cell></cell> <cell>0.864</cell> <cell></cell> <cell></cell> <cell>0.855</cell> <cell></cell></row>
-            <row><cell></cell> <cell>0.873</cell> <cell></cell> <cell></cell> <cell>0.942</cell> <cell></cell></row>
-            <row><cell></cell> <cell>0.880</cell> <cell></cell> <cell></cell> <cell>0.825</cell> <cell></cell></row>
-            <row><cell></cell> <cell>0.882</cell> <cell></cell> <cell></cell> <cell>0.869</cell> <cell></cell></row>
-            <row><cell></cell> <cell>0.931</cell> <cell></cell> <cell></cell> <cell>0.912</cell> <cell></cell></row>
-            <row><cell></cell> <cell></cell> <cell></cell> <cell></cell> <cell>0.887</cell> <cell></cell></row>
+            <row><cell>0.873</cell> <cell>0.863</cell> <cell /> <cell /> <cell>0.803</cell> <cell>0.865</cell></row>
+            <row><cell>0.809</cell> <cell>0.888</cell> <cell /> <cell /> <cell>0.932</cell> <cell>0.848</cell></row>
+            <row><cell>0.890</cell> <cell>0.925</cell> <cell /> <cell /> <cell>0.842</cell> <cell>0.940</cell></row>
+            <row><cell>0.878</cell> <cell>0.793</cell> <cell /> <cell /> <cell>0.832</cell> <cell>0.833</cell></row>
+            <row><cell>0.905</cell> <cell>0.977</cell> <cell /> <cell /> <cell>0.807</cell> <cell>0.845</cell></row>
+            <row><cell /> <cell>0.850</cell> <cell /> <cell /> <cell>0.841</cell> <cell>0.852</cell></row>
+            <row><cell /> <cell>0.830</cell> <cell /> <cell /> <cell>0.932</cell> <cell>0.778</cell></row>
+            <row><cell /> <cell>0.856</cell> <cell /> <cell /> <cell>0.833</cell> <cell>0.814</cell></row>
+            <row><cell /> <cell>0.842</cell> <cell /> <cell /> <cell>0.881</cell> <cell>0.791</cell></row>
+            <row><cell /> <cell>0.778</cell> <cell /> <cell /> <cell>0.818</cell> <cell>0.810</cell></row>
+            <row><cell /> <cell>0.786</cell> <cell /> <cell /> <cell>0.864</cell> <cell>0.881</cell></row>
+            <row><cell /> <cell>0.853</cell> <cell /> <cell /> <cell>0.825</cell> <cell /></row>
+            <row><cell /> <cell>0.864</cell> <cell /> <cell /> <cell>0.855</cell> <cell /></row>
+            <row><cell /> <cell>0.873</cell> <cell /> <cell /> <cell>0.942</cell> <cell /></row>
+            <row><cell /> <cell>0.880</cell> <cell /> <cell /> <cell>0.825</cell> <cell /></row>
+            <row><cell /> <cell>0.882</cell> <cell /> <cell /> <cell>0.869</cell> <cell /></row>
+            <row><cell /> <cell>0.931</cell> <cell /> <cell /> <cell>0.912</cell> <cell /></row>
+            <row><cell /> <cell /> <cell /> <cell /> <cell>0.887</cell> <cell /></row>
           </tabular>
         </table>
         <p>The bag contained 465 candies and the listed weights in the table came from randomly selected candies. Count the weights.</p>
@@ -2062,9 +2062,9 @@ The average stay of 80 women was more than five days.</li>
 <title>Collect the Data</title>
 <ol>
 <li>Count the change in your pocket. (Do not include bills.)</li>
-<li>Randomly survey 30 classmates. Record the values of the change in <xref ref="Ch07_lab1_tbl001"/>.
+<li>Randomly survey 30 classmates. Record the values of the change in <xref ref="Ch07_lab1_tbl001" />.
 <table xml:id="Ch07_lab1_tbl001">
-<title/>
+<title />
 <tabular>
 <row>
 <cell>__________</cell>
@@ -2113,7 +2113,7 @@ The average stay of 80 women was more than five days.</li>
 </li>
 <li>Construct a histogram. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.
 <figure xml:id="id17573354">
-<caption/>
+<caption />
 <image source="../../media/fig-ch07_09_01.png" width="50%">
 <description>Blank graph template. The horizontal axis is labeled Value of the change and the vertical axis is labeled Frequency.</description>
 </image>
@@ -2133,9 +2133,9 @@ The average stay of 80 women was more than five days.</li>
 
 <ol>
 <li>Randomly survey 30 <em>pairs</em> of classmates.</li>
-<li>Record the values of the average of their change in <xref ref="Ch07_lab1_tbl002"/>.
+<li>Record the values of the average of their change in <xref ref="Ch07_lab1_tbl002" />.
 <table xml:id="Ch07_lab1_tbl002">
-<title/>
+<title />
 <tabular>
 <row>
 <cell>__________</cell>
@@ -2184,7 +2184,7 @@ The average stay of 80 women was more than five days.</li>
 </li>
 <li>Construct a histogram. Scale the axes using the same scaling you used for the section titled <xref ref="CollectData">Collect the Data</xref>. Sketch the graph using a ruler and a pencil.
 <figure xml:id="id17561753">
-<caption/>
+<caption />
 <image source="../../media/fig-ch07_09_02.png" width="50%">
 <description>This is a blank graph template. The horizontal axis is labeled Value of the change and the vertical axis is labeled Frequency.</description>
 </image>
@@ -2207,7 +2207,7 @@ The average stay of 80 women was more than five days.</li>
 <li>Randomly survey 30 <em>groups of five</em> classmates.</li>
 <li>Record the values of the averages of their change.
 <table xml:id="Ch07_lab1_tbl003">
-<title/>
+<title />
 <tabular>
 <row>
 <cell>__________</cell>
@@ -2256,7 +2256,7 @@ The average stay of 80 women was more than five days.</li>
 </li>
 <li>Construct a histogram. Scale the axes using the same scaling you used for the section titled <xref ref="CollectData">Collect the Data</xref>. Sketch the graph using a ruler and a pencil.
 <figure xml:id="id17563881">
-<caption/>
+<caption />
 <image source="../../media/fig-ch07_09_03.png" width="50%">
 <description>This is a blank graph template. The horizontal axis is labeled Value of the change and the vertical axis is labeled Frequency.</description>
 </image>
@@ -2306,208 +2306,208 @@ The average stay of 80 women was more than five days.</li>
         <row header="yes">
           <cell halign="center">Recipe #</cell>
           <cell halign="center"><em>X</em></cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">Recipe #</cell>
           <cell halign="center"><em>X</em></cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">Recipe #</cell>
           <cell halign="center"><em>X</em></cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">Recipe #</cell>
           <cell halign="center"><em>X</em></cell>
         </row>
         <row>
           <cell halign="center">1</cell>
           <cell halign="center">1</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">16</cell>
           <cell halign="center">2</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">31</cell>
           <cell halign="center">3</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">46</cell>
           <cell halign="center">2</cell>
         </row>
         <row>
           <cell halign="center">2</cell>
           <cell halign="center">5</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">17</cell>
           <cell halign="center">2</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">32</cell>
           <cell halign="center">4</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">47</cell>
           <cell halign="center">2</cell>
         </row>
         <row>
           <cell halign="center">3</cell>
           <cell halign="center">2</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">18</cell>
           <cell halign="center">4</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">33</cell>
           <cell halign="center">5</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">48</cell>
           <cell halign="center">11</cell>
         </row>
         <row>
           <cell halign="center">4</cell>
           <cell halign="center">5</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">19</cell>
           <cell halign="center">6</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">34</cell>
           <cell halign="center">6</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">49</cell>
           <cell halign="center">5</cell>
         </row>
         <row>
           <cell halign="center">5</cell>
           <cell halign="center">6</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">20</cell>
           <cell halign="center">1</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">35</cell>
           <cell halign="center">6</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">50</cell>
           <cell halign="center">5</cell>
         </row>
         <row>
           <cell halign="center">6</cell>
           <cell halign="center">1</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">21</cell>
           <cell halign="center">6</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">36</cell>
           <cell halign="center">1</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">51</cell>
           <cell halign="center">4</cell>
         </row>
         <row>
           <cell halign="center">7</cell>
           <cell halign="center">2</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">22</cell>
           <cell halign="center">5</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">37</cell>
           <cell halign="center">1</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">52</cell>
           <cell halign="center">6</cell>
         </row>
         <row>
           <cell halign="center">8</cell>
           <cell halign="center">6</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">23</cell>
           <cell halign="center">2</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">38</cell>
           <cell halign="center">2</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">53</cell>
           <cell halign="center">5</cell>
         </row>
         <row>
           <cell halign="center">9</cell>
           <cell halign="center">5</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">24</cell>
           <cell halign="center">5</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">39</cell>
           <cell halign="center">1</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">54</cell>
           <cell halign="center">1</cell>
         </row>
         <row>
           <cell halign="center">10</cell>
           <cell halign="center">2</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">25</cell>
           <cell halign="center">1</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">40</cell>
           <cell halign="center">6</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">55</cell>
           <cell halign="center">1</cell>
         </row>
         <row>
           <cell halign="center">11</cell>
           <cell halign="center">5</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">26</cell>
           <cell halign="center">6</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">41</cell>
           <cell halign="center">1</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">56</cell>
           <cell halign="center">2</cell>
         </row>
         <row>
           <cell halign="center">12</cell>
           <cell halign="center">1</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">27</cell>
           <cell halign="center">4</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">42</cell>
           <cell halign="center">6</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">57</cell>
           <cell halign="center">4</cell>
         </row>
         <row>
           <cell halign="center">13</cell>
           <cell halign="center">1</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">28</cell>
           <cell halign="center">1</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">43</cell>
           <cell halign="center">2</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">58</cell>
           <cell halign="center">3</cell>
         </row>
         <row>
           <cell halign="center">14</cell>
           <cell halign="center">3</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">29</cell>
           <cell halign="center">6</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">44</cell>
           <cell halign="center">6</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">59</cell>
           <cell halign="center">6</cell>
         </row>
         <row>
           <cell halign="center">15</cell>
           <cell halign="center">2</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">30</cell>
           <cell halign="center">2</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">45</cell>
           <cell halign="center">2</cell>
-          <cell></cell>
+          <cell />
           <cell halign="center">60</cell>
           <cell halign="center">5</cell>
         </row>
@@ -2524,7 +2524,7 @@ The average stay of 80 women was more than five days.</li>
     
     <p>
       <title>Collect the Data</title>
-      Use a random number generator to randomly select four samples of size <em>n</em> = 5 from the given population. Record your samples in <xref ref="Ch07_lab2_tbl002"/>. Then, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.
+      Use a random number generator to randomly select four samples of size <em>n</em> = 5 from the given population. Record your samples in <xref ref="Ch07_lab2_tbl002" />. Then, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.
     </p>
     
     <ol>
@@ -2534,7 +2534,7 @@ The average stay of 80 women was more than five days.</li>
           <title>Sample Data (n = 5)</title>
           <tabular>
             <row header="yes">
-              <cell></cell>
+              <cell />
               <cell halign="center">Sample 1</cell>
               <cell halign="center">Sample 2</cell>
               <cell halign="center">Sample 3</cell>
@@ -2542,44 +2542,44 @@ The average stay of 80 women was more than five days.</li>
               <cell halign="center">Sample means from other groups:</cell>
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
               <cell halign="center">Means:</cell>
@@ -2587,7 +2587,7 @@ The average stay of 80 women was more than five days.</li>
               <cell halign="center"><m>\bar{x}</m> = ____</cell>
               <cell halign="center"><m>\bar{x}</m> = ____</cell>
               <cell halign="center"><m>\bar{x}</m> = ____</cell>
-              <cell></cell>
+              <cell />
             </row>
           </tabular>
         </table>
@@ -2602,12 +2602,12 @@ The average stay of 80 women was more than five days.</li>
       </li>
       
       <li>
-        Again, use a random number generator to randomly select four samples from the population. This time, make the samples of size <em>n</em> = 10. Record the samples in <xref ref="Ch07_lab2_tbl003"/>. As before, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.
+        Again, use a random number generator to randomly select four samples from the population. This time, make the samples of size <em>n</em> = 10. Record the samples in <xref ref="Ch07_lab2_tbl003" />. As before, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.
         <table xml:id="Ch07_lab2_tbl003">
           <title>Sample Data (n = 10)</title>
           <tabular halign="center">
             <row header="yes">
-              <cell></cell>
+              <cell />
               <cell halign="center">Sample 1</cell>
               <cell halign="center">Sample 2</cell>
               <cell halign="center">Sample 3</cell>
@@ -2615,84 +2615,84 @@ The average stay of 80 women was more than five days.</li>
               <cell halign="center">Sample means from other groups</cell>
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
+              <cell />
             </row>
             <row>
               <cell halign="center">Means:</cell>
@@ -2700,7 +2700,7 @@ The average stay of 80 women was more than five days.</li>
               <cell halign="center"><m>\bar{x}</m> = ____</cell>
               <cell halign="center"><m>\bar{x}</m> = ____</cell>
               <cell halign="center"><m>\bar{x}</m> = ____</cell>
-              <cell></cell>
+              <cell />
             </row>
           </tabular>
         </table>

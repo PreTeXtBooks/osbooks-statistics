@@ -68,7 +68,7 @@
         </statement>
       </example>
       <exercise xml:id="fs-idp69782784">
-        <statement>
+        <title>Try It</title><statement>
           <p>What is the <m>z</m>-score of <m>x</m>, when <m>x</m> = 1 and <m>X</m> ~ <m>N</m>(12, 3)?</p>
           </statement>
       <solution><p><m>z=\frac{1-12}{3}\approx-3.67</m></p>
@@ -82,7 +82,7 @@
         </solution>
       </example>
       <exercise xml:id="fs-idp126867120">
-        <statement>
+        <title>Try It</title><statement>
           <p>Fill in the blanks.</p>
           <p>Jerome averages 16 points a game with a standard deviation of four points. <m>X</m> ~ <m>N</m>(16, 4). Suppose Jerome scores 10 points in a game. The <m>z</m>-score when <m>x</m> = 10 is –1.5. This score tells you that <m>x</m> = 10 is _____ standard deviations to the ______ (right or left) of the mean______ (What is the mean?).</p>
           </statement>
@@ -111,7 +111,7 @@
         </solution>
       </example>
       <exercise xml:id="fs-idp103857616">
-        <statement>
+        <title>Try It</title><statement>
           <p>Use the information in  to answer the following questions:</p>
           <ol>
             <li>Suppose a 15-to 18-year-old male from Chile was 176 cm tall from 20092010. The <m>z</m>-score when <m>x</m> = 176 cm is <m>z</m> = _______. This <m>z</m>-score tells you that <m>x</m> = 176 cm is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</li>
@@ -137,7 +137,7 @@
         </solution>
       </example>
       <exercise xml:id="fs-idp90060128">
-        <statement>
+        <title>Try It</title><statement>
           <p>In 2012, 1,664,479 students took the SAT exam. The distribution of scores in the verbal section of the SAT had a mean <m>µ</m> = 496 and a standard deviation <m>σ</m> = 114. Let <m>X</m> = a SAT exam verbal section score in 2012. Then, <m>X</m> ~ <m>N</m>(496, 114).</p>
           <p>Find the <m>z</m>-scores for <m>x</m>_{1} = 325 and <m>x</m>_{2} = 366.21. Interpret each <m>z</m>-score. What can you say about <m>x</m>_{1} = 325 and <m>x</m>_{2} = 366.21, as they compare to their respective means and standard deviations?</p>
           <p>The <m>z</m>-score for <m>x</m>_{1} = 325 is <m>z</m>_{1} = –1.14.</p>
@@ -156,7 +156,7 @@
         </statement>
       </example>
       <exercise xml:id="fs-idp63750176">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> has a normal distribution with mean 25 and standard deviation five. Between what values of <m>x</m> do 68 percent of the values lie?</p>
           </statement>
       <solution><p>between 20 and 30.</p>
@@ -182,7 +182,7 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </example>
       <exercise xml:id="fs-idp139717168">
-        <statement>
+        <title>Try It</title><statement>
           <p>The scores on a college entrance exam have an approximate normal distribution with mean, <m>µ</m> = 52 points and a standard deviation, <m>σ</m> = 11 points.</p>
           <ol>
             <li>About 68 percent of the <m>y</m> values lie between what two values? These values are ________________. The <m>z</m>-scores are ________________, respectively.</li>
@@ -227,7 +227,7 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
 
     <subsection xml:id="fs-idm124208336">
       <exercise xml:id="fs-idp27962224">
-        <statement>
+        <title>Try It</title><statement>
           <p>A bottle of water contains 12.05 fluid ounces with a standard deviation of 0.01 ounces. Define the random variable <m>X</m> in words. <m>X</m> = ____________.</p>
         </statement>
         <solution>
@@ -235,12 +235,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm114970736">
-        <statement>
+        <title>Try It</title><statement>
           <p>A normal distribution has a mean of 61 and a standard deviation of 15. What is the median?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm121963344">
-        <statement>
+        <title>Try It</title><statement>
           <p><m>X</m> ~ <m>N</m>(1, 2)</p>
           <p><m>σ</m> = _______</p>
         </statement>
@@ -249,12 +249,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm142191456">
-        <statement>
+        <title>Try It</title><statement>
           <p>A company manufactures rubber balls. The mean diameter of a ball is 12 cm with a standard deviation of 0.2 cm. Define the random variable <m>X</m> in words. <m>X</m> = ______________.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm97876640">
-        <statement>
+        <title>Try It</title><statement>
           <p><m>X</m> ~ <m>N</m>(–4, 1)</p>
           <p>What is the median?</p>
         </statement>
@@ -263,13 +263,13 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm102541136">
-        <statement>
+        <title>Try It</title><statement>
           <p><m>X</m> ~ <m>N</m>(3, 5)</p>
           </statement>
       <solution><p><m>σ</m> = _______</p>
         </solution></exercise>
       <exercise xml:id="fs-idm19058720">
-        <statement>
+        <title>Try It</title><statement>
           <p><m>X</m> ~ <m>N</m>(–2, 1)</p>
           <p><m>μ</m> = _______</p>
         </statement>
@@ -278,12 +278,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm122119648">
-        <statement>
+        <title>Try It</title><statement>
           <p>What does a <m>z</m>-score measure?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm63043376">
-        <statement>
+        <title>Try It</title><statement>
           <p>What does standardizing a normal distribution do to the mean?</p>
         </statement>
         <solution>
@@ -291,12 +291,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm126130944">
-        <statement>
+        <title>Try It</title><statement>
           <p>Is <m>X</m> ~ <m>N</m>(0, 1) a standardized normal distribution? Why or why not?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm26153296">
-        <statement>
+        <title>Try It</title><statement>
           <p>What is the <m>z</m>-score of <m>x</m> = 12, if it is two standard deviations to the right of the mean?</p>
         </statement>
         <solution>
@@ -304,12 +304,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm114925552">
-        <statement>
+        <title>Try It</title><statement>
           <p>What is the <m>z</m>-score of <m>x</m> = 9, if it is 1.5 standard deviations to the left of the mean?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm64977712">
-        <statement>
+        <title>Try It</title><statement>
           <p>What is the <m>z</m>-score of <m>x</m> = –2, if it is 2.78 standard deviations to the right of the mean?</p>
         </statement>
         <solution>
@@ -317,12 +317,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm140331968">
-        <statement>
+        <title>Try It</title><statement>
           <p>What is the <m>z</m>-score of <m>x</m> = 7, if it is 0.133 standard deviations to the left of the mean?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm61157328">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(2, 6). What value of <m>x</m> has a <m>z</m>-score of three?</p>
         </statement>
         <solution>
@@ -330,12 +330,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm18781776">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(8, 1). What value of <m>x</m> has a <m>z</m>-score of –2.25?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp23562800">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(9, 5). What value of <m>x</m> has a <m>z</m>-score of –0.5?</p>
         </statement>
         <solution>
@@ -343,12 +343,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm69709296">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(2, 3). What value of <m>x</m> has a <m>z</m>-score of –0.67?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm137634928">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(4, 2). What value of <m>x</m> is 1.5 standard deviations to the left of the mean?</p>
         </statement>
         <solution>
@@ -356,12 +356,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm63053168">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(4, 2). What value of <m>x</m> is two standard deviations to the right of the mean?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm62507744">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(8, 9). What value of <m>x</m> is 0.67 standard deviations to the left of the mean?</p>
         </statement>
         <solution>
@@ -369,12 +369,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm78772448">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(–1, 2). What is the <m>z</m>-score of <m>x</m> = 2?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp21093808">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(12, 6). What is the <m>z</m>-score of <m>x</m> = 2?</p>
         </statement>
         <solution>
@@ -382,12 +382,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idp10811840">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(9, 3). What is the <m>z</m>-score of <m>x</m> = 9?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm74086800">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose a normal distribution has a mean of six and a standard deviation of 1.5. What is the <m>z</m>-score of <m>x</m> = 5.5?</p>
         </statement>
         <solution>
@@ -395,12 +395,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm61163760">
-        <statement>
+        <title>Try It</title><statement>
           <p>In a normal distribution, <m>x</m> = 5 and <m>z</m> = –1.25. This tells you that <m>x</m> = 5 is ____ standard deviations to the ____ (right or left) of the mean.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp37768720">
-        <statement>
+        <title>Try It</title><statement>
           <p>In a normal distribution, <m>x</m> = 3 and <m>z</m> = 0.67. This tells you that <m>x</m> = 3 is ____ standard deviations to the ____ (right or left) of the mean.</p>
         </statement>
         <solution>
@@ -408,12 +408,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm38070992">
-        <statement>
+        <title>Try It</title><statement>
           <p>In a normal distribution, <m>x</m> = –2 and <m>z</m> = 6. This tells you that <m>x</m> = –2 is ____ standard deviations to the ____ (right or left) of the mean.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm122820544">
-        <statement>
+        <title>Try It</title><statement>
           <p>In a normal distribution, <m>x</m> = –5 and <m>z</m> = –3.14. This tells you that <m>x</m> = –5 is ____ standard deviations to the ____ (right or left) of the mean.</p>
         </statement>
         <solution>
@@ -421,12 +421,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm49315712">
-        <statement>
+        <title>Try It</title><statement>
           <p>In a normal distribution, <m>x</m> = 6 and <m>z</m> = –1.7. This tells you that <m>x</m> = 6 is ____ standard deviations to the ____ (right or left) of the mean.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm144883616">
-        <statement>
+        <title>Try It</title><statement>
           <p>About what percent of <m>x</m> values from a normal distribution lie within one standard deviation, left and right, of the mean of that distribution?</p>
         </statement>
         <solution>
@@ -434,12 +434,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm80518368">
-        <statement>
+        <title>Try It</title><statement>
           <p>About what percent of the <m>x</m> values from a normal distribution lie within two standard deviations, left and right, of the mean of that distribution?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm85847520">
-        <statement>
+        <title>Try It</title><statement>
           <p>About what percent of <m>x</m> values lie between the second and third standard deviations, both sides?</p>
         </statement>
         <solution>
@@ -447,12 +447,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm24842144">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(15, 3). Between what <m>x</m> values does 68.27 percent of the data lie? The range of <m>x</m> values is centered at the mean of the distribution (i.e., 15).</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm53172656">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(–3, 1). Between what <m>x</m> values does 95.45 percent of the data lie? The range of <m>x</m> values is centered at the mean of the distribution (i.e., –3).</p>
         </statement>
         <solution>
@@ -460,12 +460,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm113806912">
-        <statement>
+        <title>Try It</title><statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(–3, 1). Between what <m>x</m> values does 34.14 percent of the data lie?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp81343328">
-        <statement>
+        <title>Try It</title><statement>
           <p>About  what percent of <m>x</m> values lie between the mean and three standard deviations?</p>
         </statement>
         <solution>
@@ -473,12 +473,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idp84402208">
-        <statement>
+        <title>Try It</title><statement>
           <p>About what percent of <m>x</m> values lie between the mean and one standard deviation?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp76784880">
-        <statement>
+        <title>Try It</title><statement>
           <p>About what percent of <m>x</m> values lie between the first and second standard deviations from the mean, both sides?</p>
         </statement>
         <solution>
@@ -486,13 +486,13 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idp72804864">
-        <statement>
+        <title>Try It</title><statement>
           <p>About what percent of <m>x</m> values lie between the first and third standard deviations, both sides?</p>
         </statement>
       </exercise>
       <p><em>Use the following information to answer the next two exercises:</em> The life of Sunshine CD players is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A CD player is guaranteed for three years. We are interested in the length of time a CD player lasts.</p>
       <exercise xml:id="fs-idm143086848">
-        <statement>
+        <title>Try It</title><statement>
           <p>Define the random variable <m>X</m> in words. <m>X</m> = _______________.</p>
         </statement>
         <solution>
@@ -500,7 +500,7 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm119601152">
-        <statement>
+        <title>Try It</title><statement>
           <p><m>X</m> ~ _____(_____, _____)</p>
         </statement>
       </exercise>
@@ -659,7 +659,7 @@ Kyles’s systolic blood pressure is 1.75 standard deviations above the average 
         </statement>
       </example>
       <exercise xml:id="fs-idm96786656">
-        <statement>
+        <title>Try It</title><statement>
           <p>If the area to the left of <m>x</m> is 0.012, then what is the area to the right?</p>
           </statement>
       <solution><p>1 − 0.012 = 0.988</p>
@@ -690,7 +690,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by 
         </solution>
       </example>
       <exercise xml:id="fs-idm83435856">
-        <statement>
+        <title>Try It</title><statement>
           <p>The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three.</p>
           <p>Find the probability that a randomly selected golfer scored less than 65.</p>
           </statement>
@@ -715,7 +715,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by 
         </solution>
       </example>
       <exercise xml:id="fs-idm101393328">
-        <statement>
+        <title>Try It</title><statement>
           <p>The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three. Find the probability that a golfer scored between 66 and 70.</p>
           </statement>
       <solution><p>normalcdf(66,70,68,3) = 0.4950</p>
@@ -733,7 +733,7 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by 
         </solution>
       </example>
       <exercise xml:id="fs-idm126739248">
-        <statement>
+        <title>Try It</title><statement>
           <p>Use the information in  to answer the following questions:</p>
           <ol>
             <li>Find the 30^{th} percentile, and interpret it in a complete sentence.</li>
@@ -778,7 +778,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </example>
       <exercise xml:id="fs-idm81547104">
-        <statement>
+        <title>Try It</title><statement>
           <p>Two thousand students took an exam. The scores on the exam have an approximate normal distribution with a mean <m>μ</m> = 81 points and standard deviation <m>σ</m> = 15 points.</p>
           <ol>
             <li>Calculate the first- and third-quartile scores for this exam.</li>
@@ -803,7 +803,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </example>
       <exercise xml:id="fs-idm127937776">
-        <statement>
+        <title>Try It</title><statement>
           <p>Using the information from , answer the following:</p>
           <p>The middle area = 0.40, so each tail has an area of 0.30.</p>
           <p>1 – 0.40 = 0.60</p>
@@ -848,7 +848,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
 
     <subsection xml:id="eip-527">
       <exercise xml:id="fs-idp83652864">
-        <statement>
+        <title>Try It</title><statement>
           <p>How would you represent the area to the left of one in a probability statement?</p>
           <figure xml:id="eip-idp74682384">
             <image source="media/CNX_Stats_C06_M04_item001.jpg" />
@@ -859,7 +859,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="fs-idm18365728">
-        <statement>
+        <title>Try It</title><statement>
           <p>What is the area to the right of one?</p>
           <figure xml:id="eip-idm26567824">
             <image source="media/CNX_Stats_C06_M04_item001.jpg" />
@@ -867,7 +867,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </statement>
       </exercise>
       <exercise xml:id="fs-idp76730048">
-        <statement>
+        <title>Try It</title><statement>
           <p>Is <m>P</m>(<m>x</m> &lt; 1) equal to <m>P</m>(<m>x</m> ≤ 1)? Why or why not?</p>
         </statement>
         <solution>
@@ -875,7 +875,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="fs-idp16475344">
-        <statement>
+        <title>Try It</title><statement>
           <p>How would you represent the area to the left of three in a probability statement?</p>
           <figure xml:id="eip-idm45345808">
             <image source="media/CNX_Stats_C06_M04_item002.jpg" />
@@ -883,7 +883,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </statement>
       </exercise>
       <exercise xml:id="fs-idp103778720">
-        <statement>
+        <title>Try It</title><statement>
           <p>What is the area to the right of three?</p>
           <figure xml:id="eip-idp19359872">
             <image source="media/CNX_Stats_C06_M04_item002.jpg" />
@@ -894,12 +894,12 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="fs-idp880816">
-        <statement>
+        <title>Try It</title><statement>
           <p>If the area to the left of <m>x</m> in a normal distribution is 0.123, what is the area to the right of <m>x</m>?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm33682096">
-        <statement>
+        <title>Try It</title><statement>
           <p>If the area to the right of <m>x</m> in a normal distribution is 0.543, what is the area to the left of <m>x</m>?</p>
         </statement>
         <solution>
@@ -909,12 +909,12 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
       <p><em>Use the following information to answer the next four exercises:</em></p>
       <p><m>X</m> ~ <m>N</m>(54, 8)</p>
       <exercise xml:id="fs-idp83610000">
-        <statement>
+        <title>Try It</title><statement>
           <p>Find the probability that <m>x</m> &gt; 56.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp105059184">
-        <statement>
+        <title>Try It</title><statement>
           <p>Find the probability that <m>x</m> &lt; 30.</p>
         </statement>
         <solution>
@@ -922,12 +922,12 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="fs-idp153118944">
-        <statement>
+        <title>Try It</title><statement>
           <p>Find the 80^{th} percentile.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp49095264">
-        <statement>
+        <title>Try It</title><statement>
           <p>Find the 60^{th} percentile.</p>
         </statement>
         <solution>
@@ -935,13 +935,13 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="fs-idp65259648">
-        <statement>
+        <title>Try It</title><statement>
           <p><m>X</m> ~ <m>N</m>(6, 2)</p>
           <p>Find the probability that <m>x</m> is between three and nine.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp152542352">
-        <statement>
+        <title>Try It</title><statement>
           <p><m>X</m> ~ <m>N</m>(–3, 4)</p>
           <p>Find the probability that <m>x</m> is between one and four.</p>
         </statement>
@@ -950,13 +950,13 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="fs-idp153143568">
-        <statement>
+        <title>Try It</title><statement>
           <p><m>X</m> ~ <m>N</m>(4, 5)</p>
           <p>Find the maximum of <m>x</m> in the bottom quartile.</p>
         </statement>
       </exercise>
       <exercise xml:id="element-942">
-        <statement>
+        <title>Try It</title><statement>
           <p><em>Use the following information to answer the next three exercises:</em> The life of Sunshine CD players is normally distributed with a mean of 4.1 years and a standard deviation of 1.3 years. A CD player is guaranteed for three years. We are interested in the length of time a CD player lasts. Find the probability that a CD player will break down during the guarantee period.</p>
           <ol>
             <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.
@@ -976,7 +976,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="element-893">
-        <statement>
+        <title>Try It</title><statement>
           <p>Find the probability that a CD player will last between 2.8 and 6 years.</p>
           <ol>
             <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.
@@ -990,7 +990,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </statement>
       </exercise>
       <exercise xml:id="ch06-element-889">
-        <statement>
+        <title>Try It</title><statement>
           <p>Find the 70^{th} percentile of the distribution for the time a CD player lasts.</p>
           <ol>
             <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the lower 70 percent.
