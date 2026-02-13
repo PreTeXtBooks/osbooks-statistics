@@ -177,7 +177,7 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
             <description>This is a normal distribution curve with mean equal to 0. A vertical line near the tail of the curve to the right of zero extends from the axis to the curve. The region under the curve to the right of the line is shaded.</description>
           </image>
         </figure>
-        <ol>
+        <ol start="7">
           <li>What is the <m>p</m>-value?</li>
           <li>Do you reject or not reject the null hypothesis?</li>
           <li>At the _____ level of significance, from the sample data, there ______ (is/is not) sufficient evidence to conclude that ______.</li>
@@ -209,7 +209,7 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
             <description>This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.0011.</description>
           </image>
         </figure>
-        <ol>
+        <ol start="6">
           <li>Reject the null hypothesis.</li>
           <li>The professor was correct. The evidence shows that the mean of the final exam scores for the online class is lower than that of the face-to-face class.
 <nbsp/>At the 5 percent level of significance, from the sample data, there is (is/is not) sufficient evidence to conclude that the mean of the final exam scores for the online class is less than the mean of final exam scores of the face-to-face class.</li>
@@ -273,7 +273,7 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
             <description>This is a normal distribution curve with mean equal to zero. Both the right and left tails of the curve are shaded. Each tail represents 1/2(p-value) = 0.4394.</description>
           </image>
         </figure>
-          <ol>
+          <ol start="5">
             <li>Do not reject the null hypothesis.</li>
             <li>This indicates that the trends in stocks are about the same in the top 30 banks in each region.
       
