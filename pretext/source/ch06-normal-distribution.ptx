@@ -68,7 +68,6 @@
         </statement>
       </example>
       <exercise xml:id="fs-idp69782784">
-        <title>Try It</title>
         <statement>
           <p>What is the <m>z</m>-score of <m>x</m>, when <m>x</m> = 1 and <m>X</m> ~ <m>N</m>(12, 3)?</p>
           <p><m>z=\frac{1-12}{3}\approx-3.67</m></p>
@@ -83,7 +82,6 @@
         </solution>
       </example>
       <exercise xml:id="fs-idp126867120">
-        <title>Try It</title>
         <statement>
           <p>Fill in the blanks.</p>
           <p>Jerome averages 16 points a game with a standard deviation of four points. <m>X</m> ~ <m>N</m>(16, 4). Suppose Jerome scores 10 points in a game. The <m>z</m>-score when <m>x</m> = 10 is –1.5. This score tells you that <m>x</m> = 10 is _____ standard deviations to the ______ (right or left) of the mean______ (What is the mean?).</p>
@@ -113,7 +111,6 @@
         </solution>
       </example>
       <exercise xml:id="fs-idp103857616">
-        <title>Try It</title>
         <statement>
           <p>Use the information in  to answer the following questions:</p>
           <p>Solve the equation <m>z</m> = <m>\frac{x-\mu}{\sigma}</m> for <m>x</m>. <m>x</m> = <m>μ</m> + (<m>z</m>)(<m>σ</m>)</p>
@@ -140,7 +137,6 @@
         </solution>
       </example>
       <exercise xml:id="fs-idp90060128">
-        <title>Try It</title>
         <statement>
           <p>In 2012, 1,664,479 students took the SAT exam. The distribution of scores in the verbal section of the SAT had a mean <m>µ</m> = 496 and a standard deviation <m>σ</m> = 114. Let <m>X</m> = a SAT exam verbal section score in 2012. Then, <m>X</m> ~ <m>N</m>(496, 114).</p>
           <p>Find the <m>z</m>-scores for <m>x</m>_{1} = 325 and <m>x</m>_{2} = 366.21. Interpret each <m>z</m>-score. What can you say about <m>x</m>_{1} = 325 and <m>x</m>_{2} = 366.21, as they compare to their respective means and standard deviations?</p>
@@ -160,7 +156,6 @@
         </statement>
       </example>
       <exercise xml:id="fs-idp63750176">
-        <title>Try It</title>
         <statement>
           <p>Suppose <m>X</m> has a normal distribution with mean 25 and standard deviation five. Between what values of <m>x</m> do 68 percent of the values lie?</p>
           <p>between 20 and 30.</p>
@@ -187,7 +182,6 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </example>
       <exercise xml:id="fs-idp139717168">
-        <title>Try It</title>
         <statement>
           <p>The scores on a college entrance exam have an approximate normal distribution with mean, <m>µ</m> = 52 points and a standard deviation, <m>σ</m> = 11 points.</p>
           <ol>
@@ -665,7 +659,6 @@ Kyles’s systolic blood pressure is 1.75 standard deviations above the average 
         </statement>
       </example>
       <exercise xml:id="fs-idm96786656">
-        <title>Try It</title>
         <statement>
           <p>If the area to the left of <m>x</m> is 0.012, then what is the area to the right?</p>
           <p>1 − 0.012 = 0.988</p>
@@ -697,7 +690,6 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by 
         </solution>
       </example>
       <exercise xml:id="fs-idm83435856">
-        <title>Try It</title>
         <statement>
           <p>The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three.</p>
           <p>Find the probability that a randomly selected golfer scored less than 65.</p>
@@ -723,7 +715,6 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by 
         </solution>
       </example>
       <exercise xml:id="fs-idm101393328">
-        <title>Try It</title>
         <statement>
           <p>The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three. Find the probability that a golfer scored between 66 and 70.</p>
           <p>normalcdf(66,70,68,3) = 0.4950</p>
@@ -742,7 +733,6 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by 
         </solution>
       </example>
       <exercise xml:id="fs-idm126739248">
-        <title>Try It</title>
         <statement>
           <p>Use the information in  to answer the following questions:</p>
           <p>Let <m>X</m> = a smart phone user whose age is 13 to 55+. <m>X</m> ~ <m>N</m>(36.9, 13.9)</p>
@@ -788,7 +778,6 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </example>
       <exercise xml:id="fs-idm81547104">
-        <title>Try It</title>
         <statement>
           <p>Two thousand students took an exam. The scores on the exam have an approximate normal distribution with a mean <m>μ</m> = 81 points and standard deviation <m>σ</m> = 15 points.</p>
           <ol>
@@ -814,7 +803,6 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </example>
       <exercise xml:id="fs-idm127937776">
-        <title>Try It</title>
         <statement>
           <p>Using the information from , answer the following:</p>
           <p>The middle area = 0.40, so each tail has an area of 0.30.</p>
