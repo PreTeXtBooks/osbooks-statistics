@@ -403,114 +403,6 @@
       </exercise>
     </subsection>
 
-    <subsection xml:id="subsec-ch04-pdf-homework">
-      <title>Homework</title>
-      
-      <exercise xml:id="exercise-ch04-pdf-hw-1">
-        <statement>
-          <p>A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.</p>
-
-          <table xml:id="tbl-ch04-hw-baker">
-            <tabular halign="center">
-              <row header="yes">
-                <cell><em>x</em></cell>
-                <cell><em>P</em>(<em>x</em>)</cell>
-              </row>
-              <row>
-                <cell>1</cell>
-                <cell>.15</cell>
-              </row>
-              <row>
-                <cell>2</cell>
-                <cell>.35</cell>
-              </row>
-              <row>
-                <cell>3</cell>
-                <cell>.40</cell>
-              </row>
-              <row>
-                <cell>4</cell>
-                <cell>.10</cell>
-              </row>
-            </tabular>
-          </table>
-
-          <p>
-            <ol marker="a">
-              <li>Define the random variable <em>X</em>.</li>
-              <li>What is the probability the baker will sell more than one batch? <em>P</em>(<em>x</em> > 1) = ________</li>
-              <li>What is the probability the baker will sell exactly one batch? <em>P</em>(<em>x</em> = 1) = ________</li>
-              <li>On average, how many batches should the baker make?</li>
-            </ol>
-          </p>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="exercise-ch04-pdf-hw-2">
-        <statement>
-          <p>Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random. What values does <em>X</em> take on?</p>
-        </statement>
-        <solution>
-          <p>0, 1, 2, and 3</p>
-        </solution>
-      </exercise>
-
-      <exercise xml:id="exercise-ch04-pdf-hw-3">
-        <statement>
-          <p>The World Bank records the prevalence of HIV in countries around the world. According to their data, <q>Prevalence of HIV refers to the percentage of people ages 15 to 49 who are infected with HIV.</q><fn>World Bank, World Development Indicators, <url href="http://data.worldbank.org/data-catalog/world-development-indicators">http://data.worldbank.org/data-catalog/world-development-indicators</url>.</fn> In South Africa, the prevalence of HIV is 17.3%. Let <em>X</em> = the number of people you test until you find a person infected with HIV.</p>
-
-          <p>
-            <ol marker="a">
-              <li>Sketch a graph of the distribution of the discrete random variable <em>X</em>.</li>
-              <li>What is the probability that you must test 30 people to find one with HIV?</li>
-              <li>What is the probability that you must ask ten people?</li>
-              <li>Find the expected value <em>μ</em> = ________.</li>
-            </ol>
-          </p>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="exercise-ch04-pdf-bs-degree">
-        <statement>
-          <p>Suppose that the PDF for the number of years it takes to earn a bachelor of science (B.S.) degree is given in the table below.</p>
-          <table xml:id="table-ch04-pdf-bs-degree">
-            <tabular>
-              <row header="yes">
-                <cell><em>x</em></cell>
-                <cell><em>P</em>(<em>x</em>)</cell>
-              </row>
-              <row>
-                <cell>3</cell>
-                <cell>.05</cell>
-              </row>
-              <row>
-                <cell>4</cell>
-                <cell>.40</cell>
-              </row>
-              <row>
-                <cell>5</cell>
-                <cell>.30</cell>
-              </row>
-              <row>
-                <cell>6</cell>
-                <cell>.15</cell>
-              </row>
-              <row>
-                <cell>7</cell>
-                <cell>.10</cell>
-              </row>
-            </tabular>
-          </table>
-          <p>
-            <ol marker="a.">
-              <li>In words, define the random variable <em>X</em>.</li>
-              <li>What does it mean that the values 0, 1, and 2 are not included for <em>x</em> in the PDF?</li>
-            </ol>
-          </p>
-        </statement>
-      </exercise>
-    </subsection>
-
     <subsection xml:id="subsec-ch04-pdf-glossary">
       <title>Glossary</title>
       <p><term xml:id="term-probability-distribution-function">probability distribution function (PDF)</term>: a mathematical description of a discrete random variable (<em>RV</em>), given either in the form of an equation (formula) or in the form of a table listing all the possible outcomes of an experiment and the probability associated with each outcome</p>
@@ -4088,4 +3980,114 @@ It doesn’t matter. I expect to break even.
     </definition>
   </subsection>
 
-</section></chapter>
+</section>
+
+  <section xml:id="sec-discrete-random-variables-homework">
+    <title>Homework</title>
+    
+    <exercise xml:id="exercise-ch04-pdf-hw-1">
+      <statement>
+        <p>A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.</p>
+
+        <table xml:id="tbl-ch04-hw-baker">
+          <tabular halign="center">
+            <row header="yes">
+              <cell><em>x</em></cell>
+              <cell><em>P</em>(<em>x</em>)</cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>.15</cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>.35</cell>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell>.40</cell>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell>.10</cell>
+            </row>
+          </tabular>
+        </table>
+
+        <p>
+          <ol marker="a">
+            <li>Define the random variable <em>X</em>.</li>
+            <li>What is the probability the baker will sell more than one batch? <em>P</em>(<em>x</em> > 1) = ________</li>
+            <li>What is the probability the baker will sell exactly one batch? <em>P</em>(<em>x</em> = 1) = ________</li>
+            <li>On average, how many batches should the baker make?</li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exercise-ch04-pdf-hw-2">
+      <statement>
+        <p>Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random. What values does <em>X</em> take on?</p>
+      </statement>
+      <solution>
+        <p>0, 1, 2, and 3</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="exercise-ch04-pdf-hw-3">
+      <statement>
+        <p>The World Bank records the prevalence of HIV in countries around the world. According to their data, <q>Prevalence of HIV refers to the percentage of people ages 15 to 49 who are infected with HIV.</q><fn>World Bank, World Development Indicators, <url href="http://data.worldbank.org/data-catalog/world-development-indicators">http://data.worldbank.org/data-catalog/world-development-indicators</url>.</fn> In South Africa, the prevalence of HIV is 17.3%. Let <em>X</em> = the number of people you test until you find a person infected with HIV.</p>
+
+        <p>
+          <ol marker="a">
+            <li>Sketch a graph of the distribution of the discrete random variable <em>X</em>.</li>
+            <li>What is the probability that you must test 30 people to find one with HIV?</li>
+            <li>What is the probability that you must ask ten people?</li>
+            <li>Find the expected value <em>μ</em> = ________.</li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exercise-ch04-pdf-bs-degree">
+      <statement>
+        <p>Suppose that the PDF for the number of years it takes to earn a bachelor of science (B.S.) degree is given in the table below.</p>
+        <table xml:id="table-ch04-pdf-bs-degree">
+          <tabular>
+            <row header="yes">
+              <cell><em>x</em></cell>
+              <cell><em>P</em>(<em>x</em>)</cell>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell>.05</cell>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell>.40</cell>
+            </row>
+            <row>
+              <cell>5</cell>
+              <cell>.30</cell>
+            </row>
+            <row>
+              <cell>6</cell>
+              <cell>.15</cell>
+            </row>
+            <row>
+              <cell>7</cell>
+              <cell>.10</cell>
+            </row>
+          </tabular>
+        </table>
+        <p>
+          <ol marker="a.">
+            <li>In words, define the random variable <em>X</em>.</li>
+            <li>What does it mean that the values 0, 1, and 2 are not included for <em>x</em> in the PDF?</li>
+          </ol>
+        </p>
+      </statement>
+    </exercise>
+  </section>
+
+</chapter>
