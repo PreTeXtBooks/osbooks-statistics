@@ -315,36 +315,6 @@
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idm70124224">
-      <title>Homework</title>
-      <exercise xml:id="element-367">
-        <statement>
-          <p>For each of the following situations, state the independent variable and the dependent variable.</p>
-          <ol>
-            <li>A study is done to determine whether elderly drivers are involved in more motor vehicle fatalities than other drivers. The number of fatalities per 100,000 drivers is compared with the age of drivers.</li>
-            <li>A study is done to determine whether the weekly grocery bill changes based on the number of family members.</li>
-            <li>Insurance companies base life insurance premiums partially on the age of the applicant.</li>
-            <li>Utility bills vary according to power consumption.</li>
-            <li>A study is done to determine whether a higher education reduces the crime rate in a population.</li>
-          </ol>
-        </statement>
-        <solution>
-          <ol>
-            <li>independent variable: age; dependent variable: fatalities</li>
-            <li>independent variable: number of family members; dependent variable: grocery bill</li>
-            <li>independent variable: age of applicant; dependent variable: insurance premium</li>
-            <li>independent variable: power consumption; dependent variable: utility</li>
-            <li>independent variable: higher education (years); dependent variable: crime rates</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="fs-idm114941024">
-        <statement>
-          <p>Piece-rate systems are widely debated incentive payment plans. In a recent study of loan officer effectiveness, the following piece-rate system was examined:</p>
-          <p>If a loan officer makes 95 percent of his or her goal, write the linear function that applies based on the incentive plan table. In context, explain the <m>y</m>-intercept and slope.</p>
-        </statement>
-      </exercise>
-    </subsection>
 
   </section>
 
@@ -652,40 +622,6 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
       </exercise>
     </subsection>
 
-    <subsection xml:id="eip-884">
-      <title>Homework</title>
-      <exercise xml:id="eip-idp54658976">
-        <statement>
-          <p>What is the process through which we can calculate a line that goes through a scatter plot with a linear pattern?</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="ch12-eip-71">
-        <statement>
-          <p>Explain what it means when a correlation has an <m>r</m>^{2} value of .72.</p>
-        </statement>
-        <solution>
-          <p>It means that 72 percent of the variation in the dependent variable (<m>y</m>) can be explained by the variation in the independent variable (<m>x</m>).</p>
-        </solution>
-      </exercise>
-      <exercise xml:id="eip-956">
-        <statement>
-          <p>Can a coefficient of determination be negative? Why or why not?</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="fs-id1170308330356">
-        <statement>
-          <p>The table below represents the relationship between SAT scores on the math portion of the test and high school grade point averages (GPAs).</p>
-          <p>Use the median-median line approach to find the equation for the line of best fit.</p>
-        </statement>
-        <solution>
-          <p>We must remember to check the order of the <m>y</m> values within each group as well. We notice that the <m>y</m> values in the second group are not in order from the least value to the greatest value; these values thus must be reordered, meaning the median <m>y</m> value for that group is 70.</p>
-          <p>The ordered pairs are (294.5, 61), (364, 70), and (605.5, 88.5).</p>
-          <p>The slope can be calculated using the formula <m>m=\frac{y_{3}-y_{1}}{x_{3}-x_{1}}\text{.}</m> Substituting the median <m>x</m> and <m>y</m> values, from the first and third groups gives <m>m=\frac{88.5-61}{605.5-294.5}\text{,}</m> which simplifies to <m>m\approx0.09\text{.}</m></p>
-          <p>The y-intercept may be found using the formula <m>b=\frac{∑y-m∑x}{3}\text{.}</m> The sum of the median <m>x</m> values is 1264, and the sum of the median <m>y</m> values is 219.5. Substituting these sums and the slope into the formula gives <m>b=\frac{219.5-0.09(1264)}{3}\text{,}</m> which simplifies to <m>b\approx35.25\text{.}</m></p>
-          <p>The line of best fit is represented as <m>y=mx+b</m>. Thus, the equation can be written as <m>y=0.09x+35.25\text{.}</m></p>
-        </solution>
-      </exercise>
-    </subsection>
 
   </section>
 
@@ -1123,110 +1059,6 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idp66999104">
-      <title>Homework</title>
-      <exercise xml:id="element-401">
-        <statement>
-          <p>Recently, the annual numbers of driver deaths per 100,000 people for the selected age groups are as follows:</p>
-          <ol>
-            <li>For each age group, pick the midpoint of the interval for the <m>x</m> value. For the 75+ group, use 80.</li>
-            <li>Using <em>age</em> as the independent variable and <em>number of driver deaths per 100,000 people</em> as the dependent variable, make a scatter plot of the data.</li>
-            <li>Calculate the least-squares (best–fit) line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
-            <li>Find the correlation coefficient. Is it significant?</li>
-            <li>Predict the number of deaths for ages 40 years and 60 years.</li>
-            <li>Based on the given data, is there a linear relationship between age of a driver and driver fatality rate?</li>
-            <li>What is the slope of the least-squares (best-fit) line?  Interpret the slope.</li>
-          </ol>
-        </statement>
-        <solution>
-          <p>b. Check student solution.<nbsp /><nbsp /></p>
-          <p>c. <m>ŷ</m> = 35.5818045 – 0.19182491<m>x</m><nbsp /><nbsp /></p>
-          <p>d. <m>r</m> = –0.57874<nbsp />For four degrees of freedom and alpha = 0.05, the LinRegTTest gives a <m>p</m> value of 0.2288, so we do not reject the null hypothesis; there is not a significant linear relationship between deaths and age.<nbsp />Using the table of critical values for the correlation coefficient, with four degrees of freedom, the critical value is 0.811. The correlation coefficient <m>r</m> = –0.57874  is not less than –0.811, so we do not reject the null hypothesis.<nbsp /><nbsp /></p>
-          <p>f. There is not a linear relationship between the two variables, as evidenced by a <m>p</m> value greater than 0.05.</p>
-        </solution>
-      </exercise>
-      <exercise xml:id="ch12-element-213">
-        <statement>
-          <p>shows the life expectancy for an individual born in the United States in certain years.</p>
-          <ol>
-            <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
-            <li>Draw a scatter plot of the ordered pairs.</li>
-            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
-            <li>Find the correlation coefficient. Is it significant?</li>
-            <li>Find the estimated life expectancy for an individual born in 1950 and for one born in 1982.</li>
-            <li>Why aren’t the answers to Part E the same as the values in  that correspond to those years?</li>
-            <li>Use the two points in Part E to plot the least-squares line on your graph from Part B.</li>
-            <li>Based on the data, is there a linear relationship between the year of birth and life expectancy?</li>
-            <li>Are there any outliers in the data?</li>
-            <li>Using the least-squares line, find the estimated life expectancy for an individual born in 1850. Does the least-squares line give an accurate estimate for that year? Explain why or why not.</li>
-            <li>What is the slope of the least-squares (best-fit) line? Interpret the slope.</li>
-          </ol>
-        </statement>
-      </exercise>
-      <exercise xml:id="element-682">
-        <statement>
-          <p>The maximum discount value of the Entertainment^{®} card for the <em>Fine Dining</em> section, 10th edition, for various pages is given in .</p>
-          <ol>
-            <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
-            <li>Draw a scatter plot of the ordered pairs.</li>
-            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
-            <li>Find the correlation coefficient. Is it significant?</li>
-            <li>Find the estimated maximum values for the restaurants on page 10 and on page 70.</li>
-            <li>Does it appear that the restaurants giving the maximum value are placed in the beginning of the <em>Fine Dining</em> section? How did you arrive at your answer?</li>
-            <li>Suppose there are 200 pages of restaurants. What do you estimate to be the maximum value for a restaurant listed on page 200?</li>
-            <li>Is the least-squares line valid for page 200? Why or why not?</li>
-            <li>What is the slope of the least-squares (best-fit) line? Interpret the slope.</li>
-          </ol>
-        </statement>
-        <solution>
-          <p>a. We wonder if the better discounts appear earlier in the book, so we select page as <m>x</m> and discount as <m>y</m>.<nbsp /><nbsp /></p>
-          <p>b. Check student solution.<nbsp /><nbsp /></p>
-          <p>c. <m>ŷ</m> = 17.21757 – 0.01412<m>x</m><nbsp /><nbsp /></p>
-          <p>d. <m>r</m> = – 0.2752 <nbsp />For seven degrees of freedom and alpha = 0.05, LinRegTTest  gives a <m>p</m> value = 0.4736,  so we do not reject; there is a not a significant linear relationship between page and discount.<nbsp />Using the table of critical values for the correlation coefficient, with seven  gives degrees of freedom, the critical value is 0.666. The correlation coefficient <m>xi</m> = –0.2752 is not less than 0.666, so we do not reject.<nbsp /><nbsp /></p>
-          <p>f. There is not a significant linear correlation so it appears there is no relationship between the page and the amount of the discount.</p>
-          <p>As the page number increases by one page, the discount decreases by $0.01412.</p>
-        </solution>
-      </exercise>
-      <exercise xml:id="element-263a">
-        <statement>
-          <p>gives the gold medal times for every other Summer Olympics for the women’s 100-meter freestyle in swimming.</p>
-          <ol>
-            <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
-            <li>Draw a scatter plot of the data.</li>
-            <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
-            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
-            <li>Find the correlation coefficient. Is the decrease in times significant?</li>
-            <li>Find the estimated gold medal time for 1932. Find the estimated time for 1984.</li>
-            <li>Why are the answers from Part F different from the chart values?</li>
-            <li>Does it appear that a line is the best way to fit the data? Why or why not?</li>
-            <li>Use the least-squares line to estimate the gold medal time for the next Summer Olympics. Do you think your answer is reasonable? Why or why not?</li>
-          </ol>
-        </statement>
-      </exercise>
-      <exercise xml:id="element-512">
-        <statement>
-          <p>We are interested in whether the number of letters in a state name depends on the year the state entered the Union.</p>
-          <ol>
-            <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
-            <li>Draw a scatter plot of the data.</li>
-            <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
-            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
-            <li>Find the correlation coefficient. What does it imply about the significance of the relationship?</li>
-            <li>Find the estimated number of letters (to the nearest integer) a state name would have if it entered the Union in 1900. Find the estimated number of letters a state name would have if it entered the Union in 1940.</li>
-            <li>Does it appear that a line is the best way to fit the data? Why or why not?</li>
-            <li>Use the least-squares line to estimate the number of letters for a new state that enters the Union this year. Can the least-squares line be used to predict it? Why or why not?</li>
-          </ol>
-        </statement>
-        <solution>
-          <p>a. Year is the independent or <m>x</m> variable; the number of letters is the dependent or <m>y</m> variable.<nbsp /><nbsp /></p>
-          <p>b. Check student’s solution.<nbsp /><nbsp /></p>
-          <p>c. No.<nbsp /><nbsp /></p>
-          <p>d. <m>ŷ</m> = 47.03 – 0.0216<m>x</m><nbsp /><nbsp /></p>
-          <p>e. –0.4280. The <m>r</m> value indicates that there is not a significant correlation between the year the state entered the Union and the number of letters in the name.<nbsp /><nbsp /></p>
-          <p>g. No. The relationship does not appear to be linear; the correlation is not significant.</p>
-        </solution>
-      </exercise>
-    </subsection>
 
   </section>
 
@@ -1571,126 +1403,6 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idm86899200">
-      <title>Homework</title>
-      <exercise xml:id="fs-id1170308387336">
-        <statement>
-          <p>Given the information in Table 12.30, which represents the relationship between final exam math grades and final exam history grades, decide whether point (56, 95) is an influential point. Explain how you arrived at your decision. Show all work.</p>
-        </statement>
-        <solution>
-          <p>Using LinRegTTest, the output for the original least-squares regression line is <m>y=26.14+0.7539x</m> and <m>r=0.6657\text{.}</m></p>
-          <p>The output for the new least-squares regression line, after omitting the outlier of (56, 95), is <m>ŷ=6.36+1.0045x</m> and <m>r=0.9757\text{.}</m></p>
-          <p>The slope of the new line is quite a bit different from the slope of the original least-squares regression line, but the larger change is shown in the <m>r</m>-values, such that the new line has an <m>r</m>-value that has increased to a value that is almost equal to one.</p>
-          <p>Thus, it may be stated that the outlier (56, 95) is also an influential point.</p>
-        </solution>
-      </exercise>
-      <exercise xml:id="element-957">
-        <statement>
-          <p>In Table 12.31, the height (sidewalk to roof) of notable tall buildings in America is compared with the number of stories of the building (beginning at street level).</p>
-          <ol>
-            <li>Using <em>stories</em> as the independent variable and <em>height</em> as the dependent variable, make a scatter plot of the data.</li>
-            <li>Does it appear from inspection that there is a relationship between the variables?</li>
-            <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
-            <li>Find the correlation coefficient. Is it significant?</li>
-            <li>Find the estimated heights for a building that has 32 stories and for a building that has 94 stories.</li>
-            <li>Based on the data in , is there a linear relationship between the number of stories in tall buildings and the height of the buildings?</li>
-            <li>Are there any outliers in the data? If so, which point(s)?</li>
-            <li>What is the estimated height of a building with six stories? Does the least-squares line give an accurate estimate of height? Explain why or why not.</li>
-            <li>Based on the least-squares line, adding an extra story is predicted to add about how many feet to a building?</li>
-            <li>What is the slope of the least-squares (best-fit) line?  Interpret the slope.</li>
-          </ol>
-        </statement>
-      </exercise>
-      <exercise xml:id="fs-idp218993792">
-        <statement>
-          <p>Ornithologists (scientists who study birds) tag sparrow hawks in 13 different colonies to study their population. They gather data for the percentage of new sparrow hawks in each colony and the percentage of those that have returned from migration.</p>
-          <p>Percent return: 74, 66, 81, 52, 73, 62, 52, 45, 62, 46, 60, 46, 38
-<nbsp />Percent new: 5, 6, 8, 11, 12, 15, 16, 17, 18, 18, 19, 20, 20</p>
-          <ol>
-            <li>Enter the data into a calculator and make a scatter plot.</li>
-            <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</li>
-            <li>Explain what the slope and <m>y</m>-intercept of the regression line tell us.</li>
-            <li>How well does the regression line fit the data? Explain your response.</li>
-            <li>Which point has the largest residual? Explain what the residual means in context. Is this point an outlier? An influential point? Explain.</li>
-            <li>An ecologist wants to predict how many birds will join another colony of sparrow hawks to which 70 percent of the adults from the previous year have returned. What is the prediction?</li>
-          </ol>
-        </statement>
-        <solution>
-          <p>a. and b. Check student solution.</p>
-          <p>c. The slope of the regression line is 0.3031 with a <m>y</m>-intercept of 31.93. In context, the <m>y</m>-intercept indicates that when there are no returning sparrow hawks, there will be almost 32 percent new sparrow hawks, which doesn’t make sense, because if there are no returning birds, then the new percentage would have to be 100% (this is an example of why we do not extrapolate). The slope tells us that for each percentage increase in returning birds, the percentage of new birds in the colony decreases by 30.3 percent.</p>
-          <p>d. If we examine <m>r</m>_{2}, we see that only 57.52 percent of the variation in the percentage of new birds is explained by the model and the correlation coefficient, <m>r</m> = .7584 only indicates a somewhat strong correlation between returning and new percentages.</p>
-          <p>e. The ordered pair (66, 6) generates the largest residual of 6.0. This means that when the observed return percentage is 66 percent, our observed new percentage, 6 percent, is almost 6 percent less than the predicted new value of 11.98 percent. If we remove this data pair, we see only an adjusted slope of 0.2789 and an adjusted intercept of 30.9816. In other words, although these data generate the largest residual, it is not an outlier, nor is the data pair an influential point.</p>
-          <p>f. If there are 70 percent returning birds, we would expect to see <m>y</m> = 0.2789(70) + 30.9816 = 0.114 or 11.4 percent new birds in the colony.</p>
-        </solution>
-      </exercise>
-      <exercise xml:id="fs-idp82285104">
-        <statement>
-          <p>The following table shows data on average per capita coffee consumption and death rate from heart disease in a random sample of 10 countries.</p>
-          <ol>
-            <li>Enter the data into a calculator and make a scatter plot.</li>
-            <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</li>
-            <li>Explain what the slope and <m>y</m>-intercept of the regression line tell us.</li>
-            <li>How well does the regression line fit the data? Explain your response.</li>
-            <li>Which point has the largest residual? Explain what the residual means in context. Is this point an outlier? An influential point? Explain.</li>
-            <li>Do the data provide convincing evidence that there is a linear relationship between the amount of coffee consumed and the heart disease death rate? Carry out an appropriate test at a significance level of 0.05 to help answer this question.</li>
-          </ol>
-        </statement>
-      </exercise>
-      <exercise xml:id="fs-idp2751904">
-        <statement>
-          <p>The following table consists of one student athlete’s time (in minutes) to swim 2,000 yards and the student’s heart rate (beats per minute) after swimming on a random sample of 10 days.</p>
-          <ol>
-            <li>Enter the data into a calculator and make a scatter plot.</li>
-            <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</li>
-            <li>Explain what the slope and <m>y</m>-intercept of the regression line tell us.</li>
-            <li>How well does the regression line fit the data? Explain your response.</li>
-            <li>Which point has the largest residual? Explain what the residual means in context. Is this point an outlier? An influential point? Explain.</li>
-          </ol>
-        </statement>
-        <solution>
-          <ol>
-            <li>Check student solution.</li>
-            <li>Check student solution.</li>
-            <li>We have a slope of –1.4946 with a <m>y</m>-intercept of 193.88. The slope, in context, indicates that for each additional minute added to the swim time, the heart rate decreases by 1.5 beats per minute. If the student is not swimming at all, the <m>y</m>-intercept indicates that his heart rate will be 193.88 beats per minute. Although the slope has meaning (the longer it takes to swim 2000 m, the less effort the heart puts out), the <m>y</m>-intercept does not make sense. If the athlete is not swimming (resting), then his heart rate should be very low.</li>
-            <li>Because only 1.5 percent of the heart rate variation is explained by this regression equation, we must conclude that this association is not explained with a linear relationship.</li>
-            <li>Point (34.72, 124) generates the largest residual: –11.82. This means that our observed heart rate is almost 12 beats less than our predicted rate of 136 beats per minute. When this point is removed, the slope becomes 2.953, with the <m>y</m>-intercept changing to 247.1616. Although the linear association is still very weak, we see that the removed data pair can be considered an influential point in the sense that the <m>y</m>-intercept becomes more meaningful.</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="fs-idp111074400">
-        <statement>
-          <p>A researcher is investigating whether population impacts homicide rate. He uses demographic data from Detroit, Michigan, to compare homicide rates and the population.</p>
-          <ol>
-            <li>Use a calculator to construct a scatter plot of the data. What is the independent variable? Why?</li>
-            <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot.</li>
-            <li>Discuss what the following mean in context:
-The slope of the regression equation
-The <m>y</m>-intercept of the regression equation
-The correlation coefficient, <m>r</m>
-The coefficient of determination, <m>r</m>^{2}</li>
-            <li>The slope of the regression equation</li>
-            <li>The <m>y</m>-intercept of the regression equation</li>
-            <li>The correlation coefficient, <m>r</m></li>
-            <li>The coefficient of determination, <m>r</m>^{2}</li>
-            <li>Do the data provide convincing evidence that there is a linear relationship between population size and homicide rate? Carry out an appropriate test at a significance level of 0.05 to help answer this question.</li>
-          </ol>
-          <ol>
-            <li>The slope of the regression equation</li>
-            <li>The <m>y</m>-intercept of the regression equation</li>
-            <li>The correlation coefficient, <m>r</m></li>
-            <li>The coefficient of determination, <m>r</m>^{2}</li>
-          </ol>
-        </statement>
-      </exercise>
-      <exercise xml:id="fs-idm81379472">
-        <statement>
-          <p>Use the data in the Table 12.35 to determine the linear regression line equation with the outliers removed. Is there a linear correlation for the data set with outliers removed? Justify your answer.</p>
-        </statement>
-        <solution>
-          <p>If we remove the two service academies (the tuition is $0.00), we construct a new regression equation of <m>y</m> = –0.0009<m>x</m> + 160, with a correlation coefficient of 0.71397 and a coefficient of determination of 0.50976. This allows us to say there is a fairly strong linear association between tuition costs and salaries if the service academies are removed from the data set.</p>
-        </solution>
-      </exercise>
-    </subsection>
 
     <subsection xml:id="fs-idm85401472">
       <title>Bring It Together</title>
@@ -2236,5 +1948,285 @@ weight of a car? Is this what you expected?</li>
       </note>
     </subsection>
 
+  </section>
+
+  <section xml:id="sec-linear-regression-correlation-homework">
+    <title>Homework</title>
+    <exercise xml:id="element-367">
+      <statement>
+        <p>For each of the following situations, state the independent variable and the dependent variable.</p>
+        <ol>
+          <li>A study is done to determine whether elderly drivers are involved in more motor vehicle fatalities than other drivers. The number of fatalities per 100,000 drivers is compared with the age of drivers.</li>
+          <li>A study is done to determine whether the weekly grocery bill changes based on the number of family members.</li>
+          <li>Insurance companies base life insurance premiums partially on the age of the applicant.</li>
+          <li>Utility bills vary according to power consumption.</li>
+          <li>A study is done to determine whether a higher education reduces the crime rate in a population.</li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li>independent variable: age; dependent variable: fatalities</li>
+          <li>independent variable: number of family members; dependent variable: grocery bill</li>
+          <li>independent variable: age of applicant; dependent variable: insurance premium</li>
+          <li>independent variable: power consumption; dependent variable: utility</li>
+          <li>independent variable: higher education (years); dependent variable: crime rates</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-idm114941024">
+      <statement>
+        <p>Piece-rate systems are widely debated incentive payment plans. In a recent study of loan officer effectiveness, the following piece-rate system was examined:</p>
+        <p>If a loan officer makes 95 percent of his or her goal, write the linear function that applies based on the incentive plan table. In context, explain the <m>y</m>-intercept and slope.</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="eip-idp54658976">
+      <statement>
+        <p>What is the process through which we can calculate a line that goes through a scatter plot with a linear pattern?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="ch12-eip-71">
+      <statement>
+        <p>Explain what it means when a correlation has an <m>r</m>^{2} value of .72.</p>
+      </statement>
+      <solution>
+        <p>It means that 72 percent of the variation in the dependent variable (<m>y</m>) can be explained by the variation in the independent variable (<m>x</m>).</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="eip-956">
+      <statement>
+        <p>Can a coefficient of determination be negative? Why or why not?</p>
+      </statement>
+    </exercise>
+    <exercise xml:id="fs-id1170308330356">
+      <statement>
+        <p>The table below represents the relationship between SAT scores on the math portion of the test and high school grade point averages (GPAs).</p>
+        <p>Use the median-median line approach to find the equation for the line of best fit.</p>
+      </statement>
+      <solution>
+        <p>We must remember to check the order of the <m>y</m> values within each group as well. We notice that the <m>y</m> values in the second group are not in order from the least value to the greatest value; these values thus must be reordered, meaning the median <m>y</m> value for that group is 70.</p>
+        <p>The ordered pairs are (294.5, 61), (364, 70), and (605.5, 88.5).</p>
+        <p>The slope can be calculated using the formula <m>m=\frac{y_{3}-y_{1}}{x_{3}-x_{1}}\text{.}</m> Substituting the median <m>x</m> and <m>y</m> values, from the first and third groups gives <m>m=\frac{88.5-61}{605.5-294.5}\text{,}</m> which simplifies to <m>m\approx0.09\text{.}</m></p>
+        <p>The y-intercept may be found using the formula <m>b=\frac{∑y-m∑x}{3}\text{.}</m> The sum of the median <m>x</m> values is 1264, and the sum of the median <m>y</m> values is 219.5. Substituting these sums and the slope into the formula gives <m>b=\frac{219.5-0.09(1264)}{3}\text{,}</m> which simplifies to <m>b\approx35.25\text{.}</m></p>
+        <p>The line of best fit is represented as <m>y=mx+b</m>. Thus, the equation can be written as <m>y=0.09x+35.25\text{.}</m></p>
+      </solution>
+    </exercise>
+    <exercise xml:id="element-401">
+      <statement>
+        <p>Recently, the annual numbers of driver deaths per 100,000 people for the selected age groups are as follows:</p>
+        <ol>
+          <li>For each age group, pick the midpoint of the interval for the <m>x</m> value. For the 75+ group, use 80.</li>
+          <li>Using <em>age</em> as the independent variable and <em>number of driver deaths per 100,000 people</em> as the dependent variable, make a scatter plot of the data.</li>
+          <li>Calculate the least-squares (best–fit) line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+          <li>Find the correlation coefficient. Is it significant?</li>
+          <li>Predict the number of deaths for ages 40 years and 60 years.</li>
+          <li>Based on the given data, is there a linear relationship between age of a driver and driver fatality rate?</li>
+          <li>What is the slope of the least-squares (best-fit) line?  Interpret the slope.</li>
+        </ol>
+      </statement>
+      <solution>
+        <p>b. Check student solution.<nbsp /><nbsp /></p>
+        <p>c. <m>ŷ</m> = 35.5818045 – 0.19182491<m>x</m><nbsp /><nbsp /></p>
+        <p>d. <m>r</m> = –0.57874<nbsp />For four degrees of freedom and alpha = 0.05, the LinRegTTest gives a <m>p</m> value of 0.2288, so we do not reject the null hypothesis; there is not a significant linear relationship between deaths and age.<nbsp />Using the table of critical values for the correlation coefficient, with four degrees of freedom, the critical value is 0.811. The correlation coefficient <m>r</m> = –0.57874  is not less than –0.811, so we do not reject the null hypothesis.<nbsp /><nbsp /></p>
+        <p>f. There is not a linear relationship between the two variables, as evidenced by a <m>p</m> value greater than 0.05.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="ch12-element-213">
+      <statement>
+        <p>shows the life expectancy for an individual born in the United States in certain years.</p>
+        <ol>
+          <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
+          <li>Draw a scatter plot of the ordered pairs.</li>
+          <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+          <li>Find the correlation coefficient. Is it significant?</li>
+          <li>Find the estimated life expectancy for an individual born in 1950 and for one born in 1982.</li>
+          <li>Why aren’t the answers to Part E the same as the values in  that correspond to those years?</li>
+          <li>Use the two points in Part E to plot the least-squares line on your graph from Part B.</li>
+          <li>Based on the data, is there a linear relationship between the year of birth and life expectancy?</li>
+          <li>Are there any outliers in the data?</li>
+          <li>Using the least-squares line, find the estimated life expectancy for an individual born in 1850. Does the least-squares line give an accurate estimate for that year? Explain why or why not.</li>
+          <li>What is the slope of the least-squares (best-fit) line? Interpret the slope.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="element-682">
+      <statement>
+        <p>The maximum discount value of the Entertainment^{®} card for the <em>Fine Dining</em> section, 10th edition, for various pages is given in .</p>
+        <ol>
+          <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
+          <li>Draw a scatter plot of the ordered pairs.</li>
+          <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+          <li>Find the correlation coefficient. Is it significant?</li>
+          <li>Find the estimated maximum values for the restaurants on page 10 and on page 70.</li>
+          <li>Does it appear that the restaurants giving the maximum value are placed in the beginning of the <em>Fine Dining</em> section? How did you arrive at your answer?</li>
+          <li>Suppose there are 200 pages of restaurants. What do you estimate to be the maximum value for a restaurant listed on page 200?</li>
+          <li>Is the least-squares line valid for page 200? Why or why not?</li>
+          <li>What is the slope of the least-squares (best-fit) line? Interpret the slope.</li>
+        </ol>
+      </statement>
+      <solution>
+        <p>a. We wonder if the better discounts appear earlier in the book, so we select page as <m>x</m> and discount as <m>y</m>.<nbsp /><nbsp /></p>
+        <p>b. Check student solution.<nbsp /><nbsp /></p>
+        <p>c. <m>ŷ</m> = 17.21757 – 0.01412<m>x</m><nbsp /><nbsp /></p>
+        <p>d. <m>r</m> = – 0.2752 <nbsp />For seven degrees of freedom and alpha = 0.05, LinRegTTest  gives a <m>p</m> value = 0.4736,  so we do not reject; there is a not a significant linear relationship between page and discount.<nbsp />Using the table of critical values for the correlation coefficient, with seven  gives degrees of freedom, the critical value is 0.666. The correlation coefficient <m>xi</m> = –0.2752 is not less than 0.666, so we do not reject.<nbsp /><nbsp /></p>
+        <p>f. There is not a significant linear correlation so it appears there is no relationship between the page and the amount of the discount.</p>
+        <p>As the page number increases by one page, the discount decreases by $0.01412.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="element-263a">
+      <statement>
+        <p>gives the gold medal times for every other Summer Olympics for the women’s 100-meter freestyle in swimming.</p>
+        <ol>
+          <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
+          <li>Draw a scatter plot of the data.</li>
+          <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
+          <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+          <li>Find the correlation coefficient. Is the decrease in times significant?</li>
+          <li>Find the estimated gold medal time for 1932. Find the estimated time for 1984.</li>
+          <li>Why are the answers from Part F different from the chart values?</li>
+          <li>Does it appear that a line is the best way to fit the data? Why or why not?</li>
+          <li>Use the least-squares line to estimate the gold medal time for the next Summer Olympics. Do you think your answer is reasonable? Why or why not?</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="element-512">
+      <statement>
+        <p>We are interested in whether the number of letters in a state name depends on the year the state entered the Union.</p>
+        <ol>
+          <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
+          <li>Draw a scatter plot of the data.</li>
+          <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
+          <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+          <li>Find the correlation coefficient. What does it imply about the significance of the relationship?</li>
+          <li>Find the estimated number of letters (to the nearest integer) a state name would have if it entered the Union in 1900. Find the estimated number of letters a state name would have if it entered the Union in 1940.</li>
+          <li>Does it appear that a line is the best way to fit the data? Why or why not?</li>
+          <li>Use the least-squares line to estimate the number of letters for a new state that enters the Union this year. Can the least-squares line be used to predict it? Why or why not?</li>
+        </ol>
+      </statement>
+      <solution>
+        <p>a. Year is the independent or <m>x</m> variable; the number of letters is the dependent or <m>y</m> variable.<nbsp /><nbsp /></p>
+        <p>b. Check student’s solution.<nbsp /><nbsp /></p>
+        <p>c. No.<nbsp /><nbsp /></p>
+        <p>d. <m>ŷ</m> = 47.03 – 0.0216<m>x</m><nbsp /><nbsp /></p>
+        <p>e. –0.4280. The <m>r</m> value indicates that there is not a significant correlation between the year the state entered the Union and the number of letters in the name.<nbsp /><nbsp /></p>
+        <p>g. No. The relationship does not appear to be linear; the correlation is not significant.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-id1170308387336">
+      <statement>
+        <p>Given the information in Table 12.30, which represents the relationship between final exam math grades and final exam history grades, decide whether point (56, 95) is an influential point. Explain how you arrived at your decision. Show all work.</p>
+      </statement>
+      <solution>
+        <p>Using LinRegTTest, the output for the original least-squares regression line is <m>y=26.14+0.7539x</m> and <m>r=0.6657\text{.}</m></p>
+        <p>The output for the new least-squares regression line, after omitting the outlier of (56, 95), is <m>ŷ=6.36+1.0045x</m> and <m>r=0.9757\text{.}</m></p>
+        <p>The slope of the new line is quite a bit different from the slope of the original least-squares regression line, but the larger change is shown in the <m>r</m>-values, such that the new line has an <m>r</m>-value that has increased to a value that is almost equal to one.</p>
+        <p>Thus, it may be stated that the outlier (56, 95) is also an influential point.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="element-957">
+      <statement>
+        <p>In Table 12.31, the height (sidewalk to roof) of notable tall buildings in America is compared with the number of stories of the building (beginning at street level).</p>
+        <ol>
+          <li>Using <em>stories</em> as the independent variable and <em>height</em> as the dependent variable, make a scatter plot of the data.</li>
+          <li>Does it appear from inspection that there is a relationship between the variables?</li>
+          <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
+          <li>Find the correlation coefficient. Is it significant?</li>
+          <li>Find the estimated heights for a building that has 32 stories and for a building that has 94 stories.</li>
+          <li>Based on the data in , is there a linear relationship between the number of stories in tall buildings and the height of the buildings?</li>
+          <li>Are there any outliers in the data? If so, which point(s)?</li>
+          <li>What is the estimated height of a building with six stories? Does the least-squares line give an accurate estimate of height? Explain why or why not.</li>
+          <li>Based on the least-squares line, adding an extra story is predicted to add about how many feet to a building?</li>
+          <li>What is the slope of the least-squares (best-fit) line?  Interpret the slope.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="fs-idp218993792">
+      <statement>
+        <p>Ornithologists (scientists who study birds) tag sparrow hawks in 13 different colonies to study their population. They gather data for the percentage of new sparrow hawks in each colony and the percentage of those that have returned from migration.</p>
+        <p>Percent return: 74, 66, 81, 52, 73, 62, 52, 45, 62, 46, 60, 46, 38
+<nbsp />Percent new: 5, 6, 8, 11, 12, 15, 16, 17, 18, 18, 19, 20, 20</p>
+        <ol>
+          <li>Enter the data into a calculator and make a scatter plot.</li>
+          <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</li>
+          <li>Explain what the slope and <m>y</m>-intercept of the regression line tell us.</li>
+          <li>How well does the regression line fit the data? Explain your response.</li>
+          <li>Which point has the largest residual? Explain what the residual means in context. Is this point an outlier? An influential point? Explain.</li>
+          <li>An ecologist wants to predict how many birds will join another colony of sparrow hawks to which 70 percent of the adults from the previous year have returned. What is the prediction?</li>
+        </ol>
+      </statement>
+      <solution>
+        <p>a. and b. Check student solution.</p>
+        <p>c. The slope of the regression line is 0.3031 with a <m>y</m>-intercept of 31.93. In context, the <m>y</m>-intercept indicates that when there are no returning sparrow hawks, there will be almost 32 percent new sparrow hawks, which doesn’t make sense, because if there are no returning birds, then the new percentage would have to be 100% (this is an example of why we do not extrapolate). The slope tells us that for each percentage increase in returning birds, the percentage of new birds in the colony decreases by 30.3 percent.</p>
+        <p>d. If we examine <m>r</m>_{2}, we see that only 57.52 percent of the variation in the percentage of new birds is explained by the model and the correlation coefficient, <m>r</m> = .7584 only indicates a somewhat strong correlation between returning and new percentages.</p>
+        <p>e. The ordered pair (66, 6) generates the largest residual of 6.0. This means that when the observed return percentage is 66 percent, our observed new percentage, 6 percent, is almost 6 percent less than the predicted new value of 11.98 percent. If we remove this data pair, we see only an adjusted slope of 0.2789 and an adjusted intercept of 30.9816. In other words, although these data generate the largest residual, it is not an outlier, nor is the data pair an influential point.</p>
+        <p>f. If there are 70 percent returning birds, we would expect to see <m>y</m> = 0.2789(70) + 30.9816 = 0.114 or 11.4 percent new birds in the colony.</p>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-idp82285104">
+      <statement>
+        <p>The following table shows data on average per capita coffee consumption and death rate from heart disease in a random sample of 10 countries.</p>
+        <ol>
+          <li>Enter the data into a calculator and make a scatter plot.</li>
+          <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</li>
+          <li>Explain what the slope and <m>y</m>-intercept of the regression line tell us.</li>
+          <li>How well does the regression line fit the data? Explain your response.</li>
+          <li>Which point has the largest residual? Explain what the residual means in context. Is this point an outlier? An influential point? Explain.</li>
+          <li>Do the data provide convincing evidence that there is a linear relationship between the amount of coffee consumed and the heart disease death rate? Carry out an appropriate test at a significance level of 0.05 to help answer this question.</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="fs-idp2751904">
+      <statement>
+        <p>The following table consists of one student athlete’s time (in minutes) to swim 2,000 yards and the student’s heart rate (beats per minute) after swimming on a random sample of 10 days.</p>
+        <ol>
+          <li>Enter the data into a calculator and make a scatter plot.</li>
+          <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</li>
+          <li>Explain what the slope and <m>y</m>-intercept of the regression line tell us.</li>
+          <li>How well does the regression line fit the data? Explain your response.</li>
+          <li>Which point has the largest residual? Explain what the residual means in context. Is this point an outlier? An influential point? Explain.</li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li>Check student solution.</li>
+          <li>Check student solution.</li>
+          <li>We have a slope of –1.4946 with a <m>y</m>-intercept of 193.88. The slope, in context, indicates that for each additional minute added to the swim time, the heart rate decreases by 1.5 beats per minute. If the student is not swimming at all, the <m>y</m>-intercept indicates that his heart rate will be 193.88 beats per minute. Although the slope has meaning (the longer it takes to swim 2000 m, the less effort the heart puts out), the <m>y</m>-intercept does not make sense. If the athlete is not swimming (resting), then his heart rate should be very low.</li>
+          <li>Because only 1.5 percent of the heart rate variation is explained by this regression equation, we must conclude that this association is not explained with a linear relationship.</li>
+          <li>Point (34.72, 124) generates the largest residual: –11.82. This means that our observed heart rate is almost 12 beats less than our predicted rate of 136 beats per minute. When this point is removed, the slope becomes 2.953, with the <m>y</m>-intercept changing to 247.1616. Although the linear association is still very weak, we see that the removed data pair can be considered an influential point in the sense that the <m>y</m>-intercept becomes more meaningful.</li>
+        </ol>
+      </solution>
+    </exercise>
+    <exercise xml:id="fs-idp111074400">
+      <statement>
+        <p>A researcher is investigating whether population impacts homicide rate. He uses demographic data from Detroit, Michigan, to compare homicide rates and the population.</p>
+        <ol>
+          <li>Use a calculator to construct a scatter plot of the data. What is the independent variable? Why?</li>
+          <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot.</li>
+          <li>Discuss what the following mean in context:
+The slope of the regression equation
+The <m>y</m>-intercept of the regression equation
+The correlation coefficient, <m>r</m>
+The coefficient of determination, <m>r</m>^{2}</li>
+          <li>The slope of the regression equation</li>
+          <li>The <m>y</m>-intercept of the regression equation</li>
+          <li>The correlation coefficient, <m>r</m></li>
+          <li>The coefficient of determination, <m>r</m>^{2}</li>
+          <li>Do the data provide convincing evidence that there is a linear relationship between population size and homicide rate? Carry out an appropriate test at a significance level of 0.05 to help answer this question.</li>
+        </ol>
+        <ol>
+          <li>The slope of the regression equation</li>
+          <li>The <m>y</m>-intercept of the regression equation</li>
+          <li>The correlation coefficient, <m>r</m></li>
+          <li>The coefficient of determination, <m>r</m>^{2}</li>
+        </ol>
+      </statement>
+    </exercise>
+    <exercise xml:id="fs-idm81379472">
+      <statement>
+        <p>Use the data in the Table 12.35 to determine the linear regression line equation with the outliers removed. Is there a linear correlation for the data set with outliers removed? Justify your answer.</p>
+      </statement>
+      <solution>
+        <p>If we remove the two service academies (the tuition is $0.00), we construct a new regression equation of <m>y</m> = –0.0009<m>x</m> + 160, with a correlation coefficient of 0.71397 and a coefficient of determination of 0.50976. This allows us to say there is a fairly strong linear association between tuition costs and salaries if the service academies are removed from the data set.</p>
+      </solution>
+    </exercise>
   </section>
 </chapter>
