@@ -1998,6 +1998,9 @@ Twenty student athletes play one sport. Twenty-two student athletes play two spo
       <p>Count the money (bills and change) in your pocket or purse. Your instructor will record the amounts. As a class, construct a histogram displaying the data. Discuss how many intervals you think would be appropriate. You may want to experiment with the number of intervals.</p>
     </project>
 
+    <subsection xml:id="subsec-frequency-polygons">
+      <title>Frequency Polygons</title>
+
     <p>Frequency polygons are analogous to line graphs, and just as line graphs make continuous data visually easy to interpret, so too do frequency polygons.</p>
 
     <p>To construct a frequency polygon, first examine the data and decide on the number of intervals and resulting interval size, for both the <em>x</em>-axis and <em>y</em>-axis. The <em>x</em>-axis will show the lower and upper bound for each interval, containing the data values, whereas the <em>y</em>-axis will represent the frequencies of the values. Each data point represents the frequency for each interval. For example, if an interval has three data values in it, the frequency polygon will show a 3 at the upper endpoint of that interval. After choosing the appropriate intervals, begin plotting the data points. After all the points are plotted, draw line segments to connect them.</p>
@@ -2209,6 +2212,11 @@ that this distribution is skewed because one side of the graph does not mirror t
     <p>Suppose that we want to study the temperature range of a region for an entire month. Every day at noon, we note the temperature and write this down in a log. A variety of statistical studies could be done with these data. We could find the mean or the median temperature for the month. We could construct a histogram displaying the number of days that temperatures reach a certain range of values. However, all of these methods ignore a portion of the data that we have collected.</p>
 
     <p>One feature of the data that we may want to consider is that of time. Since each date is paired with the temperature reading for the day, we don't have to think of the data as being random. We can instead use the times given to impose a chronological order on the data. A graph that recognizes this ordering and displays the changing temperature as the month progresses is called a time series graph.</p>
+
+    </subsection>
+
+    <subsection xml:id="subsec-time-series-graph">
+      <title>Constructing a Time Series Graph</title>
 
     <p>To construct a time series graph, we must look at both pieces of our <term>paired data set</term>. We start with a standard Cartesian coordinate system. The horizontal axis is used to plot the date or time increments, and the vertical axis is used to plot the values of the variable that we are measuring. By using the axes in that way, we make each point on the graph correspond to a date and a measured quantity. The points on the graph are typically connected by straight lines in the order in which they occur.</p>
 
@@ -2512,8 +2520,12 @@ that this distribution is skewed because one side of the graph does not mirror t
       </solution>
     </exercise>
 
-    <p>Time series graphs are important tools in various applications of statistics. When a researcher records values of the same variable over an extended period of time, it is sometimes difficult for him or her to discern any trend or pattern. However, once the same data points are displayed graphically, some features jump out. Time series graphs make trends easy to spot.</p>
+    </subsection>
 
+    <subsection xml:id="subsec-time-series-uses">
+      <title>Uses of a Time Series Graph</title>
+    <p>Time series graphs are important tools in various applications of statistics. When a researcher records values of the same variable over an extended period of time, it is sometimes difficult for him or her to discern any trend or pattern. However, once the same data points are displayed graphically, some features jump out. Time series graphs make trends easy to spot.</p>
+    </subsection>
 
     <p>Bureau of Labor Statistics, U.S. Department of Labor. (n.d.). <em>Consumer price index</em>. Retrieved from https://www.bls.gov/cpi/</p>
 
@@ -2535,10 +2547,13 @@ that this distribution is skewed because one side of the graph does not mirror t
 
     <p>A <em>histogram</em> is a graphic version of a frequency distribution. The graph consists of bars of equal width drawn adjacent to each other. The horizontal scale represents classes of quantitative data values, and the vertical scale represents frequencies. The heights of the bars correspond to frequency values. Histograms are typically used for large, continuous, quantitative data sets. A frequency polygon can also be used when graphing large data sets with data points that repeat. The data usually go on the <em>y</em>-axis with the frequency being graphed on the <em>x</em>-axis. Time series graphs can be helpful when looking at large amounts of data for one variable over a period of time.</p>
 
+    <subsection xml:id="subsec-histograms-practice">
+      <title>Practice</title>
+
     <exercise xml:id="ch2-eip-341">
       <statement>
         <p>65 randomly selected car salespersons were asked the number of cars they generally sell in one week. 14 people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars. Complete the table.</p>
-        <table>
+        <table xml:id="table001">
           <tabular>
             <row header="yes">
               <cell>Data Value (Number of Cars)</cell>
@@ -2583,7 +2598,7 @@ that this distribution is skewed because one side of the graph does not mirror t
 
     <exercise xml:id="element-625">
       <statement>
-        <p>What does the frequency column in  sum to? Why?</p>
+        <p>What does the frequency column in <xref ref="table001"/> sum to? Why?</p>
       </statement>
       <solution>
         <p>65</p>
@@ -2592,13 +2607,13 @@ that this distribution is skewed because one side of the graph does not mirror t
 
     <exercise xml:id="exerciseone">
       <statement>
-        <p>What does the relative frequency column in  sum to? Why?</p>
+        <p>What does the relative frequency column in <xref ref="table001"/> sum to? Why?</p>
       </statement>
     </exercise>
 
     <exercise xml:id="exercisetwo">
       <statement>
-        <p>What is the difference between relative frequency and frequency for each data value in ?</p>
+        <p>What is the difference between relative frequency and frequency for each data value in <xref ref="table001"/>?</p>
       </statement>
       <solution>
         <p>The relative frequency shows the <em>proportion</em> of data points that have each value. The frequency tells the <em>number</em> of data points that have each value.</p>
@@ -2613,7 +2628,7 @@ that this distribution is skewed because one side of the graph does not mirror t
 
     <exercise xml:id="fs-idp48667136">
       <statement>
-        <p>To construct the histogram for the data in , determine appropriate minimum and maximum <em>x</em>- and <em>y</em>-values and the scaling. Sketch the histogram. Label the horizontal and vertical axes with words. Include numerical scaling.</p>
+        <p>To construct the histogram for the data in <xref ref="table001"/>, determine appropriate minimum and maximum <em>x</em>- and <em>y</em>-values and the scaling. Sketch the histogram. Label the horizontal and vertical axes with words. Include numerical scaling.</p>
         <figure xml:id="eip-idp57691072">
           <image source="media/fig-ch02_11_01.jpg" width="80%"/>
         </figure>
@@ -3022,6 +3037,11 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
         </ol>
       </statement>
     </exercise>
+
+    </subsection>
+
+    <subsection xml:id="subsec-histograms-homework">
+      <title>Homework</title>
 
     <exercise xml:id="fs-idp53668112">
       <statement>
@@ -3686,6 +3706,8 @@ Overall, are the graphs more similar or different?
       </solution>
     </exercise>
 
+    </subsection>
+
   </section>
 
   <section xml:id="sec-measures-location">
@@ -4011,6 +4033,9 @@ The percentage of students who own fewer than four sweaters
 </p>
     </project>
 
+    <subsection xml:id="subsec-kth-percentile-formula">
+      <title>A Formula for Finding the <em>k</em>th Percentile</title>
+
     <p>If you were to do a little research, you would find several formulas for calculating the <em>k</em><m>^{th}</m> percentile. Here is one of them.</p>
 
     <p><em>k</em> = the <em>k</em><m>^{th}</m> percentile. It may or may not be part of the data.</p>
@@ -4130,6 +4155,11 @@ Find the percentiles for 47 and 31.</p>
       </solution>
     </exercise>
 
+    </subsection>
+
+    <subsection xml:id="subsec-interpreting-percentiles">
+      <title>Interpreting Percentiles, Quartiles, and Median</title>
+
     <p>A percentile indicates the relative standing of a data value when data are sorted into numerical order from smallest to largest. Percentages of data values are less than or equal to the <em>p</em>th percentile. For example, 15 percent of data values are less than or equal to the 15<m>^{th}</m> percentile.</p>
 
     <ul>
@@ -4174,6 +4204,11 @@ Find the percentiles for 47 and 31.</p>
     <p><em>y</em> = the number of data values equal to the data value for which you want to find the percentile,</p>
 
     <p><em>n</em> = total number of data.</p>
+
+    </subsection>
+
+    <subsection xml:id="subsec-measures-location-practice">
+      <title>Practice</title>
 
     <exercise xml:id="fs-idm1110784">
       <statement>
@@ -4334,6 +4369,11 @@ Find the percentiles for 47 and 31.</p>
       </solution>
     </exercise>
 
+    </subsection>
+
+    <subsection xml:id="subsec-measures-location-homework">
+      <title>Homework</title>
+
     <exercise xml:id="fs-idp61512400">
       <statement>
         <p>The median age for U.S. ethnicity A currently is 30.9 years; for U.S. ethnicity B, it is 42.3 years.
@@ -4451,6 +4491,8 @@ need more information
         </ol>
       </solution>
     </exercise>
+
+    </subsection>
 
   </section>
 
@@ -4727,6 +4769,9 @@ Construct a box plot using a graphing calculator for each data set, and state wh
 
     <p>Box plots are a type of graph that can help visually organize data. Before a box plot can be graphed, the following data points must be calculated: the minimum value, the first quartile, the median, the third quartile, and the maximum value. Once the box plot is graphed, you can display and compare distributions of data.</p>
 
+    <subsection xml:id="subsec-box-plots-practice">
+      <title>Practice</title>
+
     <p>Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars.</p>
 
     <exercise xml:id="fs-idm23427584">
@@ -4743,6 +4788,11 @@ Construct a box plot using a graphing calculator for each data set, and state wh
         <p>More than 25 percent of salespersons sell four cars in a typical week. You can see this concentration in the box plot because the first quartile is equal to the median. The top 25 percent and the bottom 25 percent are spread out evenly; the whiskers have the same length.</p>
       </solution>
     </exercise>
+
+    </subsection>
+
+    <subsection xml:id="subsec-box-plots-homework">
+      <title>Homework</title>
 
     <exercise xml:id="fs-idp68490208">
       <statement>
@@ -4925,6 +4975,8 @@ For <em>Data 1</em>, there are more data values below four than there are above 
         </ol>
       </solution>
     </exercise>
+
+    </subsection>
 
   </section>
 
@@ -5117,7 +5169,15 @@ Find the mode.
       </solution>
     </exercise>
 
+    <subsection xml:id="subsec-law-of-large-numbers">
+      <title>The Law of Large Numbers and the Mean</title>
+
     <p>The Law of Large Numbers says that if you take samples of larger and larger size from any population, then the mean <m>\overline{x}</m> of the sample is very likely to get closer and closer to <em>µ</em>. This law is discussed in more detail later in the text.</p>
+
+    </subsection>
+
+    <subsection xml:id="subsec-sampling-distributions">
+      <title>Sampling Distributions and Statistic of a Sampling Distribution</title>
 
     <p>You can think of a <term>sampling distribution</term> as a <em> relative frequency distribution</em> with a great many samples. See <em>Chapter 1: Sampling and Data</em> for a review of relative frequency. Suppose 30 randomly selected students were asked the number of movies they watched the previous week. The results are in the <em>relative frequency table</em> shown below.</p>
 
@@ -5435,6 +5495,11 @@ Frequency
       </statement>
     </exercise>
 
+    </subsection>
+
+    <subsection xml:id="subsec-measures-center-homework">
+      <title>Homework</title>
+
     <exercise xml:id="eip-735-1">
       <statement>
         <p>Scientists are studying a particular disease. They found that countries that have the highest rates of people who have ever been diagnosed with this disease range from 11.4 percent to 74.6 percent.</p>
@@ -5666,6 +5731,8 @@ Frequency
       </solution>
     </exercise>
 
+    </subsection>
+
   </section>
 
   <section xml:id="sec-skewness-mean-median-mode">
@@ -5747,9 +5814,12 @@ Frequency
       <statement>
         <p>Discuss the mean, median, and mode for each of the following problems. Is there a pattern between the shape and measure of the center?</p>
         <p>a. 
-
-
-</p>
+          <figure xml:id="fs-idp12578240">
+            <image source="media/CNX_Stats_C02_M08_033.png" width="80%">
+              <description>This dot plot matches the supplied data. The plot uses a number line from 0 to 14. It shows two x's over 0, four x's over 1, three x's over 2, one x over 3, two x's over the number 4, 5, 6, and 9, and 1 x each over 10 and 14. There are no x's over the numbers 7, 8, 11, 12, and 13.</description>
+            </image>
+          </figure>
+        </p>
         <p>b.
 
 
@@ -5790,12 +5860,14 @@ The Ages at Which Former U.S. Presidents Died
   
 
 
-
 </p>
         <p>c.
-
-
-</p>
+          <figure xml:id="fs-idp18736080">
+            <image source="media/CNX_Stats_C02_M08_034.png" width="80%">
+              <description>This is a histogram titled Hours Spent Playing Video Games on Weekends. The x-axis shows the number of hours spent playing video games with bars showing values at intervals of 5. The y-axis shows the number of students. The first bar for 0 - 4.99 hours has a height of 2. The second bar from 5 - 9.99 has a height of 3. The third bar from 10 - 14.99 has a height of 4. The fourth bar from 15 - 19.99 has a height of 7. The fifth bar from 20 - 24.99 has a height of 9.</description>
+            </image>
+          </figure>
+        </p>
       </statement>
       <solution>
         <ol>
@@ -5807,6 +5879,9 @@ The Ages at Which Former U.S. Presidents Died
     </exercise>
 
     <p>Looking at the distribution of data can reveal a lot about the relationship between the mean, the median, and the mode. There are three types of distributions. A <term>right (or positive) skewed</term> distribution has a shape like . A <term>left (or negative) skewed</term> distribution has a shape like . A <term>symmetrical</term> distribution looks like .</p>
+
+    <subsection xml:id="subsec-skewness-practice">
+      <title>Practice</title>
 
     <p><em>Use the following information to answer the next three exercises.</em> State whether the data are symmetrical, skewed to the left, or skewed to the right.</p>
 
@@ -6002,16 +6077,27 @@ The Ages at Which Former U.S. Presidents Died
       </statement>
     </exercise>
 
+    </subsection>
+
   </section>
 
   <section xml:id="sec-measures-spread">
     <title>Measures of the Spread of the Data</title>
+
+    <subsection xml:id="subsec-the-standard-deviation">
+      <title>The standard deviation</title>
+
     <p>An important characteristic of any set of data is the variation in the data. In some data sets, the data values are concentrated closely near the mean; in other data sets, the data values are more widely spread out from the mean. The most common measure of variation, or spread, is the standard deviation. The <term>standard deviation</term> is a number that measures how far data values are from their mean.</p>
 
     <ul>
       <li><p>provides a numerical measure of the overall amount of variation in a data set and</p></li>
       <li><p>can be used to determine whether a particular data value is close to or far from the mean.</p></li>
     </ul>
+
+    </subsection>
+
+    <subsection xml:id="subsec-std-dev-variation">
+      <title>The standard deviation provides a measure of the overall variation in a data set.</title>
 
     <p>The standard deviation is always positive or zero. The standard deviation is small when all the data are concentrated close to the mean, exhibiting little variation or spread. The standard deviation is larger when the data values are more spread out from the mean, exhibiting more variation.</p>
 
@@ -6093,7 +6179,12 @@ The symbol <m>
 <m>μ</m> is the population mean.</p>
 
 
-    <p>If <em>x</em> is a number, then the difference <em>x – mean</em> is called its <em>deviation</em>. In a data set, there are as many deviations as there are items in the data set. The deviations are used to calculate the standard deviation. If the numbers belong to a population, in symbols, a deviation is <em>x</em> – <em>μ</em>. For sample data, in symbols, a deviation is <em>x</em> – <m>\overline{x}</m>.</p>
+      <p>If <em>x</em> is a number, then the difference <em>x – mean</em> is called its <em>deviation</em>. In a data set, there are as many deviations as there are items in the data set. The deviations are used to calculate the standard deviation. If the numbers belong to a population, in symbols, a deviation is <em>x</em> – <em>μ</em>. For sample data, in symbols, a deviation is <em>x</em> – <m>\overline{x}</m>.</p>
+
+    </subsection>
+
+    <subsection xml:id="subsec-calculating-standard-deviation">
+      <title>Calculating the Standard Deviation</title>
 
     <p>The procedure to calculate the standard deviation depends on whether the numbers are the entire population or are data from a sample. The calculations are similar but not identical. Therefore, the symbol used to represent the standard deviation depends on whether it is calculated from a population or a sample. The lowercase letter <em>s</em> represents the sample standard deviation and the Greek letter <em>σ</em> (lowercase sigma) represents the population standard deviation. If the sample has the same characteristics as the population, then <em>s</em> should be a good estimate of <em>σ</em>.</p>
 
@@ -6117,6 +6208,10 @@ The symbol <m>
 
     <p>In these formulas, <em>f</em> represents the frequency with which a value appears. For example, if a value appears once, <em>f</em> is one. If a value appears three times in the data set or population, <em>f</em> is three.</p>
 
+    </subsection>
+
+    <subsection xml:id="subsec-types-of-variability">
+      <title>Types of Variability in Samples</title>
 
     <p>When researchers study a population, they often use a sample, either for convenience or because it is not possible to access the entire population. <em>Variability</em> is the term used to describe the differences that may occur in these outcomes. Common types of variability include the following:</p>
 
@@ -6146,6 +6241,8 @@ The symbol <m>
     <p>Sample variability occurs when multiple random samples are taken from the same population. For example, if I conduct four surveys of 50 people randomly selected from a given population, the differences in outcomes may be affected by sample variability.</p>
 
     <p>The statistic of a sampling distribution was discussed in <xref ref="ch02-descriptive-statistics">Descriptive Statistics: Measures of the Center of the Data</xref>. How much the statistic varies from one sample to another is known as the  <term>sampling variability of a statistic</term>. You typically measure the sampling variability of a statistic by its standard error. The <em>standard error of the mean</em> is an example of a standard error. The standard error is the standard deviation of the sampling distribution. In other words, it is the average standard deviation that results from repeated sampling. You will cover the standard error of the mean in the chapter <xref ref="ch07-central-limit-theorem">The Central Limit Theorem</xref> (not now). The notation for the standard error of the mean is <m>\frac{σ}{\sqrt{n}}</m>, where <em>σ</em> is the standard deviation of the population and <em>n</em> is the size of the sample.</p>
+
+    </subsection>
 
     <note xml:id="id7166567">
       <title>NOTE</title>
@@ -6624,11 +6721,9 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
     <p>Just as we could not find the exact mean, neither can we find the exact standard deviation. Remember that standard deviation describes numerically the expected deviation a data value has from the mean. In simple English, the standard deviation allows us to compare how <em>unusual</em> individual data are when compared to the mean.</p>
 
     <example xml:id="fs-idm67331024">
-
       <statement>
-
-        <p>Find the standard deviation for the data in .</p>
-      <table>
+      <p>Find the standard deviation for the data in <xref ref="fs-idm67330768"/>.</p>
+      <table xml:id="fs-idm67330768">
         <tabular>
           <row header="yes">
             <cell>Class</cell>
@@ -6703,6 +6798,41 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
 
     <exercise>
       <title>Try It</title>
+      <statement>
+        <p>Find the standard deviation for the data from the previous example:</p>
+        <table xml:id="fs-idm8420544">
+          <tabular>
+            <row header="yes">
+              <cell>Class</cell>
+              <cell>Frequency, <em>f</em></cell>
+            </row>
+            <row>
+              <cell>0–2</cell>
+              <cell>1</cell>
+            </row>
+            <row>
+              <cell>3–5</cell>
+              <cell>6</cell>
+            </row>
+            <row>
+              <cell>6–8</cell>
+              <cell>10</cell>
+            </row>
+            <row>
+              <cell>9–11</cell>
+              <cell>7</cell>
+            </row>
+            <row>
+              <cell>12–14</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>15–17</cell>
+              <cell>2</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
     </exercise>
 
     <p>As explained before, a <em>z</em>-score allows us to compare statistics from different data sets. If the data sets have different means and standard deviations, then comparing the data values directly can be misleading.</p>
