@@ -4769,6 +4769,9 @@ Construct a box plot using a graphing calculator for each data set, and state wh
 
     <p>Box plots are a type of graph that can help visually organize data. Before a box plot can be graphed, the following data points must be calculated: the minimum value, the first quartile, the median, the third quartile, and the maximum value. Once the box plot is graphed, you can display and compare distributions of data.</p>
 
+    <subsection xml:id="subsec-box-plots-practice">
+      <title>Practice</title>
+
     <p>Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars.</p>
 
     <exercise xml:id="fs-idm23427584">
@@ -4785,6 +4788,11 @@ Construct a box plot using a graphing calculator for each data set, and state wh
         <p>More than 25 percent of salespersons sell four cars in a typical week. You can see this concentration in the box plot because the first quartile is equal to the median. The top 25 percent and the bottom 25 percent are spread out evenly; the whiskers have the same length.</p>
       </solution>
     </exercise>
+
+    </subsection>
+
+    <subsection xml:id="subsec-box-plots-homework">
+      <title>Homework</title>
 
     <exercise xml:id="fs-idp68490208">
       <statement>
@@ -4967,6 +4975,8 @@ For <em>Data 1</em>, there are more data values below four than there are above 
         </ol>
       </solution>
     </exercise>
+
+    </subsection>
 
   </section>
 
@@ -5485,6 +5495,11 @@ Frequency
       </statement>
     </exercise>
 
+    </subsection>
+
+    <subsection xml:id="subsec-measures-center-homework">
+      <title>Homework</title>
+
     <exercise xml:id="eip-735-1">
       <statement>
         <p>Scientists are studying a particular disease. They found that countries that have the highest rates of people who have ever been diagnosed with this disease range from 11.4 percent to 74.6 percent.</p>
@@ -5865,6 +5880,9 @@ The Ages at Which Former U.S. Presidents Died
 
     <p>Looking at the distribution of data can reveal a lot about the relationship between the mean, the median, and the mode. There are three types of distributions. A <term>right (or positive) skewed</term> distribution has a shape like . A <term>left (or negative) skewed</term> distribution has a shape like . A <term>symmetrical</term> distribution looks like .</p>
 
+    <subsection xml:id="subsec-skewness-practice">
+      <title>Practice</title>
+
     <p><em>Use the following information to answer the next three exercises.</em> State whether the data are symmetrical, skewed to the left, or skewed to the right.</p>
 
     <exercise xml:id="fs-idm89697712">
@@ -6058,6 +6076,8 @@ The Ages at Which Former U.S. Presidents Died
         </ol>
       </statement>
     </exercise>
+
+    </subsection>
 
   </section>
 
@@ -7761,6 +7781,8 @@ EnrollmentFrequency
         </ol>
       </statement>
     </exercise>
+
+    </subsection>
 
   </section>
 
