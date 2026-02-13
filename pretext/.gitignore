@@ -1,0 +1,6 @@
+# PreTeXt build outputs
+output/
+generated-assets/
+
+# But keep the media symlink (don't ignore it)
+!media

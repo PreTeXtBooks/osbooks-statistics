@@ -210,23 +210,27 @@
         </solution>
       </exercise>
       <example xml:id="fs-idm68548176">
-        <p xml:id="fs-idm35908224">You go to the supermarket and purchase three cans of soup (19 ounces tomato bisque, 14.1 ounces lentil, and 19 ounces Italian wedding), two packages of nuts (walnuts and peanuts), four different kinds of vegetable (broccoli, cauliflower, spinach, and carrots), and two desserts (16 ounces pistachio ice cream and 32 ounces chocolate chip cookies).</p>
-        <statement>
-          <p xml:id="fs-idp7536032">Name data sets that are quantitative discrete, quantitative continuous, and qualitative.</p>
-        </statement>
-        <solution>
-          <p xml:id="fs-idm84978080">A possible solution</p>
-          <ul xml:id="fs-idp14197904">
-            <li>One example of a quantitative discrete data set would be three cans of soup, two packages of nuts, four kinds of vegetables, and two desserts because you count them.</li>
-            <li>The weights of the soups (19 ounces, 14.1 ounces, 19 ounces) are quantitative continuous data because you measure weights as precisely as possible.</li>
-            <li>Types of soups, nuts, vegetables, and desserts are qualitative data because they are categorical.</li>
-          </ul>
-        </solution>
-        <p xml:id="fs-idm59417696">Try to identify additional data sets in this example.</p>
-      </example>
+          <statement>
+            <p xml:id="fs-idm35908224">You go to the supermarket and purchase three cans of soup (19 ounces tomato bisque, 14.1 ounces lentil, and 19 ounces Italian wedding), two packages of nuts (walnuts and peanuts), four different kinds of vegetable (broccoli, cauliflower, spinach, and carrots), and two desserts (16 ounces pistachio ice cream and 32 ounces chocolate chip cookies).</p>
+            <statement>
+              <p xml:id="fs-idp7536032">Name data sets that are quantitative discrete, quantitative continuous, and qualitative.</p>
+            </statement>
+            <solution>
+              <p xml:id="fs-idm84978080">A possible solution</p>
+              <ul xml:id="fs-idp14197904">
+                <li>One example of a quantitative discrete data set would be three cans of soup, two packages of nuts, four kinds of vegetables, and two desserts because you count them.</li>
+                <li>The weights of the soups (19 ounces, 14.1 ounces, 19 ounces) are quantitative continuous data because you measure weights as precisely as possible.</li>
+                <li>Types of soups, nuts, vegetables, and desserts are qualitative data because they are categorical.</li>
+              </ul>
+            </solution>
+            <p xml:id="fs-idm59417696">Try to identify additional data sets in this example.</p>
+          </statement>
+        </example>
       <example xml:id="fs-idm18169904">
-        <p xml:id="id11979238">The data are the colors of backpacks. Again, you sample the same five students. One student has a red backpack, two students have black backpacks, one student has a green backpack, and one student has a gray backpack. The colors red, black, black, green, and gray are qualitative data.</p>
-      </example>
+          <statement>
+            <p xml:id="id11979238">The data are the colors of backpacks. Again, you sample the same five students. One student has a red backpack, two students have black backpacks, one student has a green backpack, and one student has a gray backpack. The colors red, black, black, green, and gray are qualitative data.</p>
+          </statement>
+        </example>
       <exercise xml:id="fs-idp21253600">
         <title>Try It</title>
     
@@ -958,39 +962,41 @@
       </exercise>
       <p xml:id="id7645179">If we were to examine two samples representing the same population, even if we used random sampling methods for the samples, they would not be exactly the same. Just as there is variation in data, there is variation in samples. As you become accustomed to sampling, the variability will begin to seem natural.</p>
       <example xml:id="element-575">
-        <p xml:id="element-62">
+          <statement>
+            <p xml:id="element-62">
     Suppose ABC college has 10,000 upperclassman (junior and senior level) students (the population). We are interested in the average amount of money an upperclassmen spends on books in the fall term. Asking all 10,000 upperclassmen is an almost impossible task.</p>
-        <p xml:id="element-199">Suppose we take two different samples. </p>
-        <p xml:id="element-499">First, we use convenience sampling and survey ten upperclassman students from a first term organic chemistry class. Many of these students are taking first term calculus in addition to the organic chemistry class. The amount of money they spend on books is as follows:</p>
-        <p xml:id="element-25001">$128, $87, $173, $116, $130, $204, $147, $189, $93, $153.</p>
-        <p xml:id="element-849">The second sample is taken using a list of seniors who take P.E. classes and taking every fifth senior on the list, for a total of ten seniors. They spend the following:</p>
-        <p xml:id="element-25002">$50, $40, $36, $15, $50, $100, $40, $53, $22, $22.
+            <p xml:id="element-199">Suppose we take two different samples. </p>
+            <p xml:id="element-499">First, we use convenience sampling and survey ten upperclassman students from a first term organic chemistry class. Many of these students are taking first term calculus in addition to the organic chemistry class. The amount of money they spend on books is as follows:</p>
+            <p xml:id="element-25001">$128, $87, $173, $116, $130, $204, $147, $189, $93, $153.</p>
+            <p xml:id="element-849">The second sample is taken using a list of seniors who take P.E. classes and taking every fifth senior on the list, for a total of ten seniors. They spend the following:</p>
+            <p xml:id="element-25002">$50, $40, $36, $15, $50, $100, $40, $53, $22, $22.
     </p>
-        <p xml:id="eip-422">It is unlikely that any student is in both samples.</p>
-        <statement>
-          <p xml:id="eip-idp1467504">a. Do you think that either of these samples is representative of (or is characteristic of) the entire 10,000 part-time student population?</p>
-        </statement>
-        <solution>
-          <p xml:id="eip-idp24214256">a. No. The first sample probably consists of science-oriented students. Besides the chemistry course, some of them are also taking first-term calculus. Books for these classes tend to be expensive. Most of these students are, more than likely, paying more than the average part-time student for their books. The second sample is a group of seniors who are, more than likely, taking courses for health and interest. The amount of money they spend on books is probably much less than the average part-time student. Both samples are biased. Also, in both cases, not all students have a chance to be in either sample.</p>
-        </solution>
-        <statement>
-          <p xml:id="eip-idp141882144">b. Since these samples are not representative of the entire population, is it wise to use the results to describe the entire population?</p>
-        </statement>
-        <solution>
-          <p xml:id="eip-idp142060688">b. No. For these samples, each member of the population did not have an equally likely chance of being chosen.</p>
-        </solution>
-        <p xml:id="element-513">Now, suppose we take a third sample. We choose ten different part-time students from the disciplines of chemistry, math, English, psychology, sociology, history, nursing, physical education, art, and early childhood development. We assume that these are the only disciplines in which part-time students at ABC College are enrolled and that an equal number of part-time students are enrolled in each of the disciplines. Each student is chosen using simple random sampling. Using a calculator, random numbers are generated and a student from a particular discipline is selected if he or she has a corresponding number. The students spend the following amounts:</p>
-        <p xml:id="element-25003">$180, $50, $150, $85, $260, $75, $180, $200, $200, $150.
+            <p xml:id="eip-422">It is unlikely that any student is in both samples.</p>
+            <statement>
+              <p xml:id="eip-idp1467504">a. Do you think that either of these samples is representative of (or is characteristic of) the entire 10,000 part-time student population?</p>
+            </statement>
+            <solution>
+              <p xml:id="eip-idp24214256">a. No. The first sample probably consists of science-oriented students. Besides the chemistry course, some of them are also taking first-term calculus. Books for these classes tend to be expensive. Most of these students are, more than likely, paying more than the average part-time student for their books. The second sample is a group of seniors who are, more than likely, taking courses for health and interest. The amount of money they spend on books is probably much less than the average part-time student. Both samples are biased. Also, in both cases, not all students have a chance to be in either sample.</p>
+            </solution>
+            <statement>
+              <p xml:id="eip-idp141882144">b. Since these samples are not representative of the entire population, is it wise to use the results to describe the entire population?</p>
+            </statement>
+            <solution>
+              <p xml:id="eip-idp142060688">b. No. For these samples, each member of the population did not have an equally likely chance of being chosen.</p>
+            </solution>
+            <p xml:id="element-513">Now, suppose we take a third sample. We choose ten different part-time students from the disciplines of chemistry, math, English, psychology, sociology, history, nursing, physical education, art, and early childhood development. We assume that these are the only disciplines in which part-time students at ABC College are enrolled and that an equal number of part-time students are enrolled in each of the disciplines. Each student is chosen using simple random sampling. Using a calculator, random numbers are generated and a student from a particular discipline is selected if he or she has a corresponding number. The students spend the following amounts:</p>
+            <p xml:id="element-25003">$180, $50, $150, $85, $260, $75, $180, $200, $200, $150.
     </p>
-        <statement>
-          <p xml:id="element-666">c. Is the sample biased?
+            <statement>
+              <p xml:id="element-666">c. Is the sample biased?
     </p>
-        </statement>
-        <solution>
-          <p xml:id="element-971">c. The sample is unbiased, but a larger sample would be recommended to increase the likelihood that the sample will be close to  representative of the population. However, for a biased sampling technique, even a large sample runs the risk of not being representative of the population.</p>
-        </solution>
-        <p xml:id="element-577">Students often ask if it is <em>good enough</em> to take a sample, instead of surveying the entire population. If the survey is done well, the answer is yes. </p>
-      </example>
+            </statement>
+            <solution>
+              <p xml:id="element-971">c. The sample is unbiased, but a larger sample would be recommended to increase the likelihood that the sample will be close to  representative of the population. However, for a biased sampling technique, even a large sample runs the risk of not being representative of the population.</p>
+            </solution>
+            <p xml:id="element-577">Students often ask if it is <em>good enough</em> to take a sample, instead of surveying the entire population. If the survey is done well, the answer is yes. </p>
+          </statement>
+        </example>
       <exercise xml:id="fs-idp1075328">
         <title>Try It</title>
     
@@ -1592,97 +1598,99 @@
         </ol>
       </exploration>
       <example xml:id="element-569">
-        <p xml:id="element-755">Nineteen people were asked how many miles, to the nearest mile, they commute to work each day. The data are as follows:
-    2, 5, 7, 3, 2, 10, 18, 15, 20, 7, 10, 18, 5, 12, 13, 12, 4, 5, 10. <xref ref=""></xref> was produced.</p>
-        <table xml:id="id9833287">
-          <tabular>
-            <row header="yes">
-              <cell>DATA</cell>
-              <cell>FREQUENCY</cell>
-              <cell>RELATIVE FREQUENCY</cell>
-              <cell>CUMULATIVE RELATIVE FREQUENCY</cell>
-            </row>
-            <row>
-              <cell><em>3</em></cell>
-              <cell>3</cell>
-              <cell><m>\frac{3}{19}</m></cell>
-              <cell>.1579</cell>
-            </row>
-            <row>
-              <cell><em>4</em></cell>
-              <cell>1</cell>
-              <cell><m>\frac{1}{19}</m></cell>
-              <cell>.2105</cell>
-            </row>
-            <row>
-              <cell><em>5</em></cell>
-              <cell>3</cell>
-              <cell><m>\frac{3}{19}</m></cell>
-              <cell>.1579</cell>
-            </row>
-            <row>
-              <cell><em>7</em></cell>
-              <cell>2</cell>
-              <cell><m>\frac{2}{19}</m></cell>
-              <cell>.2632</cell>
-            </row>
-            <row>
-              <cell><em>10</em></cell>
-              <cell>3</cell>
-              <cell><m>\frac{4}{19}</m></cell>
-              <cell>.4737</cell>
-            </row>
-            <row>
-              <cell><em>12</em></cell>
-              <cell>2</cell>
-              <cell><m>\frac{2}{19}</m></cell>
-              <cell>.7895</cell>
-            </row>
-            <row>
-              <cell><em>13</em></cell>
-              <cell>1</cell>
-              <cell><m>\frac{1}{19}</m></cell>
-              <cell>.8421</cell>
-            </row>
-            <row>
-              <cell><em>15</em></cell>
-              <cell>1</cell>
-              <cell><m>\frac{1}{19}</m></cell>
-              <cell>.8948</cell>
-            </row>
-            <row>
-              <cell><em>18</em></cell>
-              <cell>1</cell>
-              <cell><m>\frac{1}{19}</m></cell>
-              <cell>.9474</cell>
-            </row>
-            <row>
-              <cell><em>20</em></cell>
-              <cell>1</cell>
-              <cell>
+          <statement>
+            <p xml:id="element-755">Nineteen people were asked how many miles, to the nearest mile, they commute to work each day. The data are as follows:
+    2, 5, 7, 3, 2, 10, 18, 15, 20, 7, 10, 18, 5, 12, 13, 12, 4, 5, 10. <xref ref="id9833287"></xref> was produced.</p>
+            <table xml:id="id9833287">
+              <tabular>
+                <row header="yes">
+                  <cell>DATA</cell>
+                  <cell>FREQUENCY</cell>
+                  <cell>RELATIVE FREQUENCY</cell>
+                  <cell>CUMULATIVE RELATIVE FREQUENCY</cell>
+                </row>
+                <row>
+                  <cell><em>3</em></cell>
+                  <cell>3</cell>
+                  <cell><m>\frac{3}{19}</m></cell>
+                  <cell>.1579</cell>
+                </row>
+                <row>
+                  <cell><em>4</em></cell>
+                  <cell>1</cell>
+                  <cell><m>\frac{1}{19}</m></cell>
+                  <cell>.2105</cell>
+                </row>
+                <row>
+                  <cell><em>5</em></cell>
+                  <cell>3</cell>
+                  <cell><m>\frac{3}{19}</m></cell>
+                  <cell>.1579</cell>
+                </row>
+                <row>
+                  <cell><em>7</em></cell>
+                  <cell>2</cell>
+                  <cell><m>\frac{2}{19}</m></cell>
+                  <cell>.2632</cell>
+                </row>
+                <row>
+                  <cell><em>10</em></cell>
+                  <cell>3</cell>
+                  <cell><m>\frac{4}{19}</m></cell>
+                  <cell>.4737</cell>
+                </row>
+                <row>
+                  <cell><em>12</em></cell>
+                  <cell>2</cell>
+                  <cell><m>\frac{2}{19}</m></cell>
+                  <cell>.7895</cell>
+                </row>
+                <row>
+                  <cell><em>13</em></cell>
+                  <cell>1</cell>
+                  <cell><m>\frac{1}{19}</m></cell>
+                  <cell>.8421</cell>
+                </row>
+                <row>
+                  <cell><em>15</em></cell>
+                  <cell>1</cell>
+                  <cell><m>\frac{1}{19}</m></cell>
+                  <cell>.8948</cell>
+                </row>
+                <row>
+                  <cell><em>18</em></cell>
+                  <cell>1</cell>
+                  <cell><m>\frac{1}{19}</m></cell>
+                  <cell>.9474</cell>
+                </row>
+                <row>
+                  <cell><em>20</em></cell>
+                  <cell>1</cell>
+                  <cell>
     <m>\frac{1}{19}</m>
     </cell>
-              <cell>1.0000</cell>
-            </row>
-          </tabular>
-        </table>
-        <statement>
-          <ol xml:id="element-582">
-            <li>Is the table correct? If it is not correct, what is wrong?</li>
-            <li>True or False: Three percent of the people surveyed commute three miles. If the statement is not correct, what should it be? If the table is incorrect, make the corrections.</li>
-            <li>What fraction of the people surveyed commute five or seven miles?</li>
-            <li>What fraction of the people surveyed commute 12 miles or more? Less than 12 miles? Between five and 13 miles (not including five and 13 miles)?</li>
-          </ol>
-        </statement>
-        <solution>
-          <ol xml:id="solution-list-2">
-            <li>No. The frequency column sums to 18, not 19. Not all cumulative relative frequencies are correct. The table entries for data values 2, 3, 10, and 18 are incorrect. This affects cumulative relative frequency for most values.</li>
-            <li>False. The frequency for three miles should be one; for two miles (left out), two. The cumulative relative frequency column should read 1052, .1579, .2105, .3684, .4737, .6316, .7368, .7895, .8421, .9474, 1.0000.</li>
-            <li><m>\frac{5}{19}</m></li>
-            <li><m>\frac{7}{19}</m>, <m>\frac{12}{19}</m>, <m>\frac{7}{19}</m></li>
-          </ol>
-        </solution>
-      </example>
+                  <cell>1.0000</cell>
+                </row>
+              </tabular>
+            </table>
+            <statement>
+              <ol xml:id="element-582">
+                <li>Is the table correct? If it is not correct, what is wrong?</li>
+                <li>True or False: Three percent of the people surveyed commute three miles. If the statement is not correct, what should it be? If the table is incorrect, make the corrections.</li>
+                <li>What fraction of the people surveyed commute five or seven miles?</li>
+                <li>What fraction of the people surveyed commute 12 miles or more? Less than 12 miles? Between five and 13 miles (not including five and 13 miles)?</li>
+              </ol>
+            </statement>
+            <solution>
+              <ol xml:id="solution-list-2">
+                <li>No. The frequency column sums to 18, not 19. Not all cumulative relative frequencies are correct. The table entries for data values 2, 3, 10, and 18 are incorrect. This affects cumulative relative frequency for most values.</li>
+                <li>False. The frequency for three miles should be one; for two miles (left out), two. The cumulative relative frequency column should read 1052, .1579, .2105, .3684, .4737, .6316, .7368, .7895, .8421, .9474, 1.0000.</li>
+                <li><m>\frac{5}{19}</m></li>
+                <li><m>\frac{7}{19}</m>, <m>\frac{12}{19}</m>, <m>\frac{7}{19}</m></li>
+              </ol>
+            </solution>
+          </statement>
+        </example>
       <exercise xml:id="fs-idp46953216">
         <title>Try It</title>
     
@@ -1694,93 +1702,95 @@
         </solution>
       </exercise>
       <example xml:id="fs-idm64477536">
-        <p xml:id="fs-idm39829664"><xref ref="fs-idm52810848"/> contains the total number of deaths worldwide as a result of earthquakes for the period from 2000 to 2012.</p>
-        <table xml:id="fs-idm52810848">
-          <tabular>
-            <row header="yes">
-              <cell>Year</cell>
-              <cell>Total Number of Deaths</cell>
-            </row>
-            <row>
-              <cell>2000</cell>
-              <cell>231</cell>
-            </row>
-            <row>
-              <cell>2001</cell>
-              <cell>21,357</cell>
-            </row>
-            <row>
-              <cell>2002</cell>
-              <cell>11,685</cell>
-            </row>
-            <row>
-              <cell>2003</cell>
-              <cell>33,819</cell>
-            </row>
-            <row>
-              <cell>2004</cell>
-              <cell>228,802</cell>
-            </row>
-            <row>
-              <cell>2005</cell>
-              <cell>88,003</cell>
-            </row>
-            <row>
-              <cell>2006</cell>
-              <cell>6,605</cell>
-            </row>
-            <row>
-              <cell>2007</cell>
-              <cell>712</cell>
-            </row>
-            <row>
-              <cell>2008</cell>
-              <cell>88,011</cell>
-            </row>
-            <row>
-              <cell>2009</cell>
-              <cell>1,790</cell>
-            </row>
-            <row>
-              <cell>2010</cell>
-              <cell>320,120</cell>
-            </row>
-            <row>
-              <cell>2011</cell>
-              <cell>21,953</cell>
-            </row>
-            <row>
-              <cell>2012</cell>
-              <cell>768</cell>
-            </row>
-            <row>
-              <cell>Total</cell>
-              <cell>823,856</cell>
-            </row>
-          </tabular>
-        </table>
-        <statement>
-          <p xml:id="fs-idm38990240">Answer the following questions:</p>
-          <ol xml:id="fs-idm21722256">
-            <li>What is the frequency of deaths measured from 2006 through 2009?</li>
-            <li>What percentage of deaths occurred after 2009?</li>
-            <li>What is the relative frequency of deaths that occurred in 2003 or earlier?</li>
-            <li>What is the percentage of deaths that occurred in 2004?</li>
-            <li>What kind of data are the numbers of deaths? </li>
-            <li>The Richter scale is used to quantify the energy produced by an earthquake. Examples of Richter scale numbers are 2.3, 4.0, 6.1, and 7.0. What kind of data are these numbers?</li>
-          </ol>
-        </statement>
-        <solution>
-          <ol xml:id="fs-idm15442992">
-            <li>97,118 (11.8 percent)</li>
-            <li>41.6 percent</li>
-            <li>67,092/823,356 or 0.081 or 8.1 percent</li>
-            <li>27.8 percent</li>
-            <li>quantitative discrete</li>
-            <li>quantitative continuous</li>
-          </ol>
-        </solution>
-      </example>
+          <statement>
+            <p xml:id="fs-idm39829664"><xref ref="fs-idm52810848"/> contains the total number of deaths worldwide as a result of earthquakes for the period from 2000 to 2012.</p>
+            <table xml:id="fs-idm52810848">
+              <tabular>
+                <row header="yes">
+                  <cell>Year</cell>
+                  <cell>Total Number of Deaths</cell>
+                </row>
+                <row>
+                  <cell>2000</cell>
+                  <cell>231</cell>
+                </row>
+                <row>
+                  <cell>2001</cell>
+                  <cell>21,357</cell>
+                </row>
+                <row>
+                  <cell>2002</cell>
+                  <cell>11,685</cell>
+                </row>
+                <row>
+                  <cell>2003</cell>
+                  <cell>33,819</cell>
+                </row>
+                <row>
+                  <cell>2004</cell>
+                  <cell>228,802</cell>
+                </row>
+                <row>
+                  <cell>2005</cell>
+                  <cell>88,003</cell>
+                </row>
+                <row>
+                  <cell>2006</cell>
+                  <cell>6,605</cell>
+                </row>
+                <row>
+                  <cell>2007</cell>
+                  <cell>712</cell>
+                </row>
+                <row>
+                  <cell>2008</cell>
+                  <cell>88,011</cell>
+                </row>
+                <row>
+                  <cell>2009</cell>
+                  <cell>1,790</cell>
+                </row>
+                <row>
+                  <cell>2010</cell>
+                  <cell>320,120</cell>
+                </row>
+                <row>
+                  <cell>2011</cell>
+                  <cell>21,953</cell>
+                </row>
+                <row>
+                  <cell>2012</cell>
+                  <cell>768</cell>
+                </row>
+                <row>
+                  <cell>Total</cell>
+                  <cell>823,856</cell>
+                </row>
+              </tabular>
+            </table>
+            <statement>
+              <p xml:id="fs-idm38990240">Answer the following questions:</p>
+              <ol xml:id="fs-idm21722256">
+                <li>What is the frequency of deaths measured from 2006 through 2009?</li>
+                <li>What percentage of deaths occurred after 2009?</li>
+                <li>What is the relative frequency of deaths that occurred in 2003 or earlier?</li>
+                <li>What is the percentage of deaths that occurred in 2004?</li>
+                <li>What kind of data are the numbers of deaths? </li>
+                <li>The Richter scale is used to quantify the energy produced by an earthquake. Examples of Richter scale numbers are 2.3, 4.0, 6.1, and 7.0. What kind of data are these numbers?</li>
+              </ol>
+            </statement>
+            <solution>
+              <ol xml:id="fs-idm15442992">
+                <li>97,118 (11.8 percent)</li>
+                <li>41.6 percent</li>
+                <li>67,092/823,356 or 0.081 or 8.1 percent</li>
+                <li>27.8 percent</li>
+                <li>quantitative discrete</li>
+                <li>quantitative continuous</li>
+              </ol>
+            </solution>
+          </statement>
+        </example>
       <exercise xml:id="fs-idm44002848">
         <title>Try It</title>
     
@@ -2150,12 +2160,131 @@
     </subsection>
   </section>
 
-  <section xml:id="sec-sampling-data-review">
-    <title>Sampling and Data: Review</title>
-    <p>
-      Content to be added from module m79598.
-    </p>
+
+<!-- New sections to be added before the conclusion -->
+
+  <section xml:id="sec-sampling-data-chapter-review">
+    <title>Chapter Review</title>
+    
+    <subsection xml:id="subsec-key-terms-review">
+      <title>Key Terms</title>
+      <p>The mathematical theory of statistics is easier to learn when you know the language. This module presents important terms that will be used throughout the text.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-data-sampling-review">
+      <title>Data and Sampling</title>
+      <p>Data are individual items of information that come from a population or sample. Data may be classified as qualitative (categorical), quantitative continuous, or quantitative discrete.</p>
+      <p>Because it is not practical to measure the entire population in a study, researchers use samples to represent the population. A random sample is a representative group from the population chosen by using a method that gives each individual in the population an equal chance of being included in the sample. Random sampling methods include simple random sampling, stratified sampling, cluster sampling, and systematic sampling. Convenience sampling is a nonrandom method of choosing a sample that often produces biased data.</p>
+      <p>Samples that contain different individuals result in different data. This is true even when the samples are well-chosen and representative of the population. When properly selected, larger samples model the population more closely than smaller samples. There are many different potential problems that can affect the reliability of a sample. Statistical data needs to be critically analyzed, not simply accepted.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-frequency-measurement-review">
+      <title>Frequency and Levels of Measurement</title>
+      <p>Some calculations generate numbers that are artificially precise. It is not necessary to report a value to eight decimal places when the measures that generated that value were only accurate to the nearest tenth. Round your final answer to one more decimal place than was present in the original data. This means that if you have data measured to the nearest tenth of a unit, report the final statistic to the nearest hundredth. Expect that some of your answers will vary from the text due to rounding errors.</p>
+      <p>In addition to rounding your answers, you can measure your data using the following four levels of measurement:</p>
+      <ul>
+        <li><p><em>Nominal scale level</em>: data that cannot be ordered nor can it be used in calculations</p></li>
+        <li><p><em>Ordinal scale level</em>: data that can be ordered; the differences cannot be measured</p></li>
+        <li><p><em>Interval scale level</em>: data with a definite ordering but no starting point; the differences can be measured, but there is no such thing as a ratio</p></li>
+        <li><p><em>Ratio scale level</em>: data with a starting point that can be ordered; the differences have meaning and ratios can be calculated</p></li>
+      </ul>
+      <p>When organizing data, it is important to know how many times a value appears. How many statistics students study five hours or more for an exam? What percent of families on our block own two pets? Frequency, relative frequency, and cumulative relative frequency are measures that answer questions like these.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-experimental-design-review">
+      <title>Experimental Design and Ethics</title>
+      <p>A poorly designed study will not produce reliable data. There are certain key components that must be included in every experiment. To eliminate lurking variables, subjects must be assigned randomly to different treatment groups. One of the groups must act as a control group, demonstrating what happens when the active treatment is not applied. Participants in the control group receive a placebo treatment that looks exactly like the active treatments but cannot influence the response variable. To preserve the integrity of the placebo, both researchers and subjects may be blinded. When a study is designed properly, the only difference between treatment groups is the one imposed by the researcher. Therefore, when groups respond differently to different treatments, the difference must be due to the influence of the explanatory variable.</p>
+      <p>An ethics problem arises when you are considering an action that benefits you or some cause you support, hurts or reduces benefits to others, and violates some rule. Ethical violations in statistics are not always easy to spot. Professional associations and federal agencies post guidelines for proper conduct. It is important that you learn basic statistical procedures so that you can recognize proper data analysis.</p>
+    </subsection>
   </section>
+
+
+  <section xml:id="sec-sampling-data-homework">
+    <title>Homework</title>
+    
+    <exercises xml:id="exercises-bringing-it-together">
+      <title>Bringing It Together</title>
+      
+      <exercise xml:id="exercise-lbcc-survey">
+        <statement>
+          <p>Seven hundred and seventy-one distance learning students at Long Beach City College responded to surveys in the 2010–11 academic year. Highlights of the summary report are listed in <xref ref="table-lbcc-survey"/>.</p>
+          
+          <table xml:id="table-lbcc-survey">
+            <title>LBCC Distance Learning Survey Results</title>
+            <tabular>
+              <row header="yes">
+                <cell>Survey Response</cell>
+                <cell>Percentage</cell>
+              </row>
+              <row>
+                <cell>Have computer at home</cell>
+                <cell>96%</cell>
+              </row>
+              <row>
+                <cell>Unable to come to campus for classes</cell>
+                <cell>65%</cell>
+              </row>
+              <row>
+                <cell>Age 41 or over</cell>
+                <cell>24%</cell>
+              </row>
+              <row>
+                <cell>Would like LBCC to offer more DL courses</cell>
+                <cell>95%</cell>
+              </row>
+              <row>
+                <cell>Took DL classes due to a disability</cell>
+                <cell>17%</cell>
+              </row>
+              <row>
+                <cell>Live at least 16 miles from campus</cell>
+                <cell>13%</cell>
+              </row>
+              <row>
+                <cell>Took DL courses to fulfill transfer requirements</cell>
+                <cell>71%</cell>
+              </row>
+            </tabular>
+          </table>
+          
+          <ol marker="a">
+            <li><p>What percent of the students surveyed do not have a computer at home?</p></li>
+            <li><p>About how many students in the survey live at least 16 miles from campus?</p></li>
+            <li><p>If the same survey were done at Great Basin College in Elko, Nevada, do you think the percentages would be the same? Why?</p></li>
+          </ol>
+        </statement>
+      </exercise>
+      
+      <exercise xml:id="exercise-textbook-availability">
+        <statement>
+          <p>Several online textbook retailers advertise that they have lower prices than on-campus bookstores. However, an important factor is whether the Internet retailers actually have the textbooks that students need in stock. Students need to be able to get textbooks promptly at the beginning of the college term. If the book is not available, then a student would not be able to get the textbook at all, or might get a delayed delivery if the book is back ordered.</p>
+          
+          <p>A college newspaper reporter is investigating textbook availability at online retailers. He decides to investigate one textbook for each of the following seven subjects: calculus, biology, chemistry, physics, statistics, geology, and general engineering. He consults textbook industry sales data and selects the most popular nationally used textbook in each of these subjects. He visits websites for a random sample of major online textbook sellers and looks up each of these seven textbooks to see if they are available in stock for quick delivery through these retailers. Based on his investigation, he writes an article in which he draws conclusions about the overall availability of all college textbooks through online textbook retailers.</p>
+          
+          <p>Write an analysis of his study that addresses the following issues: Is his sample representative of the population of all college textbooks? Explain why or why not. Describe some possible sources of bias in this study, and how it might affect the results of the study. Give some suggestions about what could be done to improve the study.</p>
+        </statement>
+        
+        <solution>
+          <p>Answers will vary. Sample answer: The sample is not representative of the population of all college textbooks. Two reasons why it is not representative are that he only sampled seven subjects and he only investigated one textbook in each subject. There are several possible sources of bias in the study. The seven subjects that he investigated are all in mathematics and the sciences; there are many subjects in the humanities, social sciences, and other subject areas, for example: literature, art, history, psychology, sociology, business, that he did not investigate at all. It may be that different subject areas exhibit different patterns of textbook availability, but his sample would not detect such results.</p>
+          
+          <p>He also looked only at the most popular textbook in each of the subjects he investigated. The availability of the most popular textbooks may differ from the availability of other textbooks in one of two ways:</p>
+          <ul>
+            <li><p>The most popular textbooks may be more readily available online, because more new copies are printed, and more students nationwide are selling back their used copies</p></li>
+            <li><p>The most popular textbooks may be harder to find available online, because more student demand exhausts the supply more quickly.</p></li>
+          </ul>
+          
+          <p>In reality, many college students do not use the most popular textbook in their subject, and this study gives no useful information about the situation for those less popular textbooks.</p>
+          
+          <p>He could improve this study by</p>
+          <ul>
+            <li><p>expanding the selection of subjects he investigates so that it is more representative of all subjects studied by college students, and</p></li>
+            <li><p>expanding the selection of textbooks he investigates within each subject to include a mixed representation of both the most popular and less popular textbooks.</p></li>
+          </ul>
+        </solution>
+      </exercise>
+    </exercises>
+  </section>
+
 
   <section xml:id="sec-sampling-data-practice">
     <title>Sampling and Data: Practice</title>
@@ -2455,6 +2584,275 @@
       </project>
     </subsection>
   </section>
+
+  <section xml:id="sec-sampling-data-references">
+    <title>References</title>
+    
+    <p>The Data and Story Library. Retrieved from http://lib.stat.cmu.edu/DASL/Stories/CrashTestDummies.html.</p>
+    
+    <p>Gallup. Retrieved from http://www.well-beingindex.com/.</p>
+    <p>Gallup. Retrieved from http://www.gallup.com/poll/110548/gallup-presidential-election-trialheat-trends-19362004.aspx#4.</p>
+    <p>Gallup. Retrieved from http://www.gallup.com/175196/gallup-healthways-index-methodology.aspx.</p>
+    <p>Data from http://www.bookofodds.com/Relationships-Society/Articles/A0374-How-George-Gallup-Picked-the-President.</p>
+    
+    <p>Levels of Measurement. Retrieved from http://cnx.org/content/m10809/latest/.</p>
+    <p>National Hurricane Center. Retrieved from http://www.nhc.noaa.gov/gifs/table5.gif.</p>
+    <p>ThoughtCo. Retrieved from https://www.thoughtco.com/levels-of-measurement-in-statistics-3126349.</p>
+    <p>U.S. Census Bureau. Retrieved from https://www.census.gov/quickfacts/table/PST045216/00.</p>
+    <p>Levels of measurement. Retrieved from https://www.cos.edu/Faculty/georgew/Tutorial/Data_Levels.htm.</p>
+    
+    <p>Econoclass.com. Retrieved from http://www.econoclass.com/misleadingstats.html.</p>
+    <p>Bloomberg Businessweek. Retrieved from www.businessweek.com.</p>
+    <p>Ethics in statistics. Retrieved from http://cnx.org/content/m15555/latest/.</p>
+    <p>Forbes. Retrieved from www.forbes.com.</p>
+    <p>Forbes. http://www.forbes.com/best-small-companies/list/.</p>
+  </section>
+
+
+  <glossary xml:id="glossary-ch01">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-average">
+      <title>average</title>
+      <p>also called mean; a number that describes the central tendency of the data</p>
+    </gi>
+
+    <gi xml:id="gi-blinding">
+      <title>blinding</title>
+      <p>not telling participants which treatment a subject is receiving</p>
+    </gi>
+
+    <gi xml:id="gi-categorical-variable">
+      <title>categorical variable</title>
+      <p>variables that take on values that are names or labels</p>
+    </gi>
+
+    <gi xml:id="gi-cluster-sampling">
+      <title>cluster sampling</title>
+      <p>a method for selecting a random sample and dividing the population into groups (clusters); use simple random sampling to select a set of clusters; every individual in the chosen clusters is included in the sample</p>
+    </gi>
+
+    <gi xml:id="gi-continuous-random-variable">
+      <title>continuous random variable</title>
+      <p>a random variable (RV) whose outcomes are measured; the height of trees in the forest is a continuous RV</p>
+    </gi>
+
+    <gi xml:id="gi-control-group">
+      <title>control group</title>
+      <p>a group in a randomized experiment that receives an inactive treatment but is otherwise managed exactly as the other groups</p>
+    </gi>
+
+    <gi xml:id="gi-convenience-sampling">
+      <title>convenience sampling</title>
+      <p>a nonrandom method of selecting a sample; this method selects individuals that are easily accessible and may result in biased data</p>
+    </gi>
+
+    <gi xml:id="gi-cumulative-relative-frequency">
+      <title>cumulative relative frequency</title>
+      <p>the term applies to an ordered set of observations from smallest to largest. The cumulative relative frequency is the sum of the relative frequencies for all values that are less than or equal to the given value</p>
+    </gi>
+
+    <gi xml:id="gi-data">
+      <title>data</title>
+      <p>a set of observations (a set of possible outcomes); most data can be put into two groups: qualitative (an attribute whose value is indicated by a label) or quantitative (an attribute whose value is indicated by a number) Quantitative data can be separated into two subgroups: discrete and continuous . Data is discrete if it is the result of counting (such as the number of students of a given ethnic group in a class or the number of books on a shelf). Data is continuous if it is the result of measuring (such as distance traveled or weight of luggage)</p>
+    </gi>
+
+    <gi xml:id="gi-discrete-random-variable">
+      <title>discrete random variable</title>
+      <p>a random variable (RV) whose outcomes are counted</p>
+    </gi>
+
+    <gi xml:id="gi-double-blinding">
+      <title>double-blinding</title>
+      <p>the act of blinding both the subjects of an experiment and the researchers who work with the subjects</p>
+    </gi>
+
+    <gi xml:id="gi-experimental-unit">
+      <title>experimental unit</title>
+      <p>any individual or object to be measured</p>
+    </gi>
+
+    <gi xml:id="gi-explanatory-variable">
+      <title>explanatory variable</title>
+      <p>the independent variable in an experiment; the value controlled by researchers</p>
+    </gi>
+
+    <gi xml:id="gi-frequency">
+      <title>frequency</title>
+      <p>the number of times a value of the data occurs</p>
+    </gi>
+
+    <gi xml:id="gi-informed-consent">
+      <title>informed consent</title>
+      <p>any human subject in a research study must be cognizant of any risks or costs associated with the study; the subject has the right to know the nature of the treatments included in the study, their potential risks, and their potential benefits; consent must be given freely by an informed, fit participant</p>
+    </gi>
+
+    <gi xml:id="gi-institutional-review-board">
+      <title>institutional review board</title>
+      <p>a committee tasked with oversight of research programs that involve human subjects</p>
+    </gi>
+
+    <gi xml:id="gi-lurking-variable">
+      <title>lurking variable</title>
+      <p>a variable that has an effect on a study even though it is neither an explanatory variable nor a response variable</p>
+    </gi>
+
+    <gi xml:id="gi-mathematical-models">
+      <title>mathematical models</title>
+      <p>a description of a phenomenon using mathematical concepts, such as equations, inequalities, distributions, etc.</p>
+    </gi>
+
+    <gi xml:id="gi-nonsampling-error">
+      <title>nonsampling error</title>
+      <p>an issue that affects the reliability of sampling data other than natural variation; it includes a variety of human errors including poor study design, biased sampling methods, inaccurate information provided by study participants, data entry errors, and poor analysis</p>
+    </gi>
+
+    <gi xml:id="gi-numerical-variable">
+      <title>numerical variable</title>
+      <p>variables that take on values that are indicated by numbers</p>
+    </gi>
+
+    <gi xml:id="gi-observational-study">
+      <title>observational study</title>
+      <p>a study in which the independent variable is not manipulated by the researcher</p>
+    </gi>
+
+    <gi xml:id="gi-parameter">
+      <title>parameter</title>
+      <p>a number that is used to represent a population characteristic and that generally cannot be determined easily</p>
+    </gi>
+
+    <gi xml:id="gi-placebo">
+      <title>placebo</title>
+      <p>an inactive treatment that has no real effect on the explanatory variable</p>
+    </gi>
+
+    <gi xml:id="gi-population">
+      <title>population</title>
+      <p>all individuals, objects, or measurements whose properties are being studied</p>
+    </gi>
+
+    <gi xml:id="gi-probability">
+      <title>probability</title>
+      <p>a number between zero and one, inclusive, that gives the likelihood that a specific event will occur</p>
+    </gi>
+
+    <gi xml:id="gi-proportion">
+      <title>proportion</title>
+      <p>the number of successes divided by the total number in the sample</p>
+    </gi>
+
+    <gi xml:id="gi-qualitative-data">
+      <title>qualitative data</title>
+      <p>see data</p>
+    </gi>
+
+    <gi xml:id="gi-quantitative-data">
+      <title>quantitative data</title>
+      <p>see data</p>
+    </gi>
+
+    <gi xml:id="gi-random-assignment">
+      <title>random assignment</title>
+      <p>the act of organizing experimental units into treatment groups using random methods</p>
+    </gi>
+
+    <gi xml:id="gi-random-sampling">
+      <title>random sampling</title>
+      <p>a method of selecting a sample that gives every member of the population an equal chance of being selected</p>
+    </gi>
+
+    <gi xml:id="gi-relative-frequency">
+      <title>relative frequency</title>
+      <p>the ratio of the number of times a value of the data occurs in the set of all outcomes to the number of all outcomes to the total number of outcomes</p>
+    </gi>
+
+    <gi xml:id="gi-reliability">
+      <title>reliability</title>
+      <p>the consistency of a measure; a measure is reliable when the same results are produced given the same circumstances</p>
+    </gi>
+
+    <gi xml:id="gi-representative-sample">
+      <title>representative sample</title>
+      <p>a subset of the population that has the same characteristics as the population</p>
+    </gi>
+
+    <gi xml:id="gi-response-variable">
+      <title>response variable</title>
+      <p>the dependent variable in an experiment; the value that is measured for change at the end of an experiment</p>
+    </gi>
+
+    <gi xml:id="gi-sample">
+      <title>sample</title>
+      <p>a subset of the population studied</p>
+    </gi>
+
+    <gi xml:id="gi-sampling-bias">
+      <title>sampling bias</title>
+      <p>not all members of the population are equally likely to be selected</p>
+    </gi>
+
+    <gi xml:id="gi-sampling-error">
+      <title>sampling error</title>
+      <p>the natural variation that results from selecting a sample to represent a larger population; this variation decreases as the sample size increases, so selecting larger samples reduces sampling error</p>
+    </gi>
+
+    <gi xml:id="gi-sampling-with-replacement">
+      <title>sampling with replacement</title>
+      <p>once a member of the population is selected for inclusion in a sample, that member is returned to the population for the selection of the next individual</p>
+    </gi>
+
+    <gi xml:id="gi-sampling-without-replacement">
+      <title>sampling without replacement</title>
+      <p>a member of the population may be chosen for inclusion in a sample only once; if chosen, the member is not returned to the population before the next selection</p>
+    </gi>
+
+    <gi xml:id="gi-simple-random-sampling">
+      <title>simple random sampling</title>
+      <p>a straightforward method for selecting a random sample; give each member of the population a number Use a random number generator to select a set of labels. These randomly selected labels identify the members of your sample</p>
+    </gi>
+
+    <gi xml:id="gi-statistic">
+      <title>statistic</title>
+      <p>a numerical characteristic of the sample; a statistic estimates the corresponding population parameter</p>
+    </gi>
+
+    <gi xml:id="gi-statistical-models">
+      <title>statistical models</title>
+      <p>a description of a phenomenon using probability distributions that describe the expected behavior of the phenomenon and the variability in the expected observations</p>
+    </gi>
+
+    <gi xml:id="gi-stratified-sampling">
+      <title>stratified sampling</title>
+      <p>a method for selecting a random sample used to ensure that subgroups of the population are represented adequately; divide the population into groups (strata). Use simple random sampling to identify a proportionate number of individuals from each stratum</p>
+    </gi>
+
+    <gi xml:id="gi-survey">
+      <title>survey</title>
+      <p>a study in which data is collected as reported by individuals.</p>
+    </gi>
+
+    <gi xml:id="gi-systematic-sampling">
+      <title>systematic sampling</title>
+      <p>a method for selecting a random sample; list the members of the population Use simple random sampling to select a starting point in the population. Let k = (number of individuals in the population)/(number of individuals needed in the sample). Choose every kth individual in the list starting with the one that was randomly selected. If necessary, return to the beginning of the population list to complete your sample</p>
+    </gi>
+
+    <gi xml:id="gi-treatments">
+      <title>treatments</title>
+      <p>different values or components of the explanatory variable applied in an experiment</p>
+    </gi>
+
+    <gi xml:id="gi-validity">
+      <title>validity</title>
+      <p>refers to how much a measure or conclusion accurately reflects the real world</p>
+    </gi>
+
+    <gi xml:id="gi-variable">
+      <title>variable</title>
+      <p>a characteristic of interest for each person or object in a population</p>
+    </gi>
+
+  </glossary>
 
   <conclusion>
     <p>

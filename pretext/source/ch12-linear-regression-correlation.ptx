@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<chapter xml:id="ch12-linear-regression-correlation" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version='1.0' encoding='utf-8'?>
+<chapter xml:id="ch12-linear-regression-correlation">
   <title>Linear Regression and Correlation</title>
 
 
@@ -8,7 +8,7 @@
 
     <figure xml:id="fs-idm37352640">
       <caption>Linear regression and correlation can help you determine whether an auto mechanic’s salary is related to his work experience. (credit: Joshua Rothhaas)</caption>
-      <image source="media/CNX_Stats_C12_CO.jpg" width="76%"/>
+      <image source="media/CNX_Stats_C12_CO.jpg" width="76%" />
     </figure>
     <note xml:id="fs-idm16563264">
       <title>Chapter Objectives</title>
@@ -34,7 +34,7 @@
     <subsection xml:id="fs-id1164564612243">
       <p>Linear regression for two variables is based on a linear equation with one independent variable. The equation has the form</p>
       <me>y=a+bx</me>
-      <p><nbsp/>where <m>a</m> and <m>b</m> are constant numbers.</p>
+      <p><nbsp />where <m>a</m> and <m>b</m> are constant numbers.</p>
       <p>The variable <m>x</m> is the <em>independent variable</em>; <m>y</m> is the <em>dependent variable</em>. Typically, you choose a value to substitute for the independent variable and then solve for the dependent variable.</p>
       <example xml:id="element-906">
         <statement>
@@ -44,7 +44,8 @@
         </statement>
       </example>
       <exercise xml:id="ch12-eip-279">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Is the following an example of a linear equation?</p>
           <p><m>y</m> = –0.125 – 3.5<m>x</m></p>
         </statement>
@@ -57,13 +58,19 @@
         <statement>
           <p>Graph the equation <m>y</m> = –1 + 2<m>x</m>.</p>
           <figure xml:id="linrgs_lineq1">
-            <image source="media/fig-ch12_02_01.jpg" width="76%"/>
+            <image source="media/fig-ch12_02_01.jpg" width="76%" />
           </figure>
         </statement>
       </example>
       <exercise xml:id="eip-46">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Is the following an example of a linear equation? Why or why not?</p>
+          <figure>
+            <image source="media/CNX_Stats_C012_M02_tryit001.png" width="80%">
+              <description>This is a graph of an equation. The x-axis is labeled in intervals of 2 from 0 - 14; the y-axis is labeled in intervals of 2 from 0 - 12. The equation's graph is a curve that crosses the y-axis at 2 and curves upward and to the right.</description>
+            </image>
+          </figure>
         </statement>
         <solution>
           <p>No, the graph is not a straight line; therefore, it is not a linear equation.</p>
@@ -75,12 +82,13 @@
         </statement>
         <solution>
           <p>Let <m>x</m> = the number of hours it takes to get the job done.
-<nbsp/>Let <m>y</m> = the total cost to the customer.</p>
+<nbsp />Let <m>y</m> = the total cost to the customer.</p>
           <p>The $31.50 is a fixed cost. If it takes <m>x</m> hours to complete the job, then (32)(<m>x</m>) is the cost of the word processing only. The total cost is <m>y</m> = 31.50 + 32<m>x</m>.</p>
         </solution>
       </example>
       <exercise xml:id="eip-977">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Emma’s Extreme Sports hires hang-gliding instructors and pays them a fee of $50 per class, as well as $20 per student in the class. The total cost Emma pays depends on the number of students in a class. Find the equation that expresses the total cost in terms of the number of students in a class.</p>
         </statement>
         <solution>
@@ -95,7 +103,7 @@
       <p>Please note that in previous courses you learned <m>y=mx+b</m> was the slope-intercept form of the equation, where <m>m</m> represented the slope and <m>b</m> represented the <m>y</m>-intercept. In this text, the form <m>y=a+bx</m> is used, where <m>a</m> is the <m>y</m>-intercept and <m>b</m> is the slope. The key is remembering the coefficient of <m>x</m> is the slope, and the constant number is the <m>y</m>-intercept.</p>
       <figure xml:id="linrgs_slope1">
         <caption>Three possible graphs of <m>y</m> = <m>a</m> + <m>bx</m>. (a) If <m>b</m> &gt; 0, the line slopes upward to the right. (b) If <m>b</m> = 0, the line is horizontal. (c) If <m>b</m> &lt; 0, the line slopes downward to the right.</caption>
-        <image source="media/fig-ch12_03_01.jpg" width="96%"/>
+        <image source="media/fig-ch12_03_01.jpg" width="96%" />
       </figure>
       <example xml:id="element-201">
         <statement>
@@ -107,7 +115,8 @@
         </solution>
       </example>
       <exercise xml:id="eip-972">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Ethan repairs household appliances such as dishwashers and refrigerators. For each visit, he charges $25 plus $20 per hour of work. A linear equation that expresses the total amount of money Ethan earns per visit is <m>y</m> = 25 + 20<m>x</m>.</p>
           <p>What are the independent and dependent variables? What is the <m>y</m>-intercept, and what is the slope? Interpret them using complete sentences.</p>
         </statement>
@@ -138,7 +147,8 @@
     <subsection xml:id="eip-178">
       <p><em>Use the following information to answer the next three exercises</em>. A vacation resort rents scuba equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour.</p>
       <exercise xml:id="ch12-eip-510">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What are the dependent and independent variables?</p>
         </statement>
         <solution>
@@ -147,43 +157,49 @@
         </solution>
       </exercise>
       <exercise xml:id="eip-683">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Find the equation that expresses the total fee in terms of the number of hours the equipment is rented.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-325">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Graph the equation from .</p>
         </statement>
         <solution>
           <figure xml:id="fs-idm133416208">
-            <image source="media/CNX_Stats_C012_M02_item001anno.jpg" width="76%"/>
+            <image source="media/CNX_Stats_C012_M02_item001anno.jpg" width="76%" />
           </figure>
         </solution>
       </exercise>
-      <p><nbsp/><em>Use the following information to answer the next two exercises</em>. A credit card company charges $10 when a payment is late and $5 a day each day the payment remains unpaid.</p>
+      <p><nbsp /><em>Use the following information to answer the next two exercises</em>. A credit card company charges $10 when a payment is late and $5 a day each day the payment remains unpaid.</p>
       <exercise xml:id="ch12-eip-23">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Find the equation that expresses the total fee in terms of the number of days the payment is late.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-22">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Graph the equation from .</p>
         </statement>
         <solution>
           <figure xml:id="fs-idp120210480">
-            <image source="media/CNX_Stats_C012_M02_item002anno.jpg" width="76%"/>
+            <image source="media/CNX_Stats_C012_M02_item002anno.jpg" width="76%" />
           </figure>
         </solution>
       </exercise>
       <exercise xml:id="eip-337">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Is the equation <m>y</m> = 10 + 5<m>x</m> – 3<m>x</m>^{2} linear? Why or why not?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-740">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Which of the following equations are linear?</p>
           <p>a. <m>y</m> = 6<m>x</m> + 8</p>
           <p>b. <m>y</m> + 7 = 3<m>x</m></p>
@@ -195,8 +211,14 @@
         </solution>
       </exercise>
       <exercise xml:id="eip-675">
-        <statement>
-          <p>Does the graph in  show a linear equation? Why or why not?</p>
+        <title>Try It</title>
+      <statement>
+          <p>Does the graph in <xref ref="fig-eip-675-graph" /> show a linear equation? Why or why not?</p>
+          <figure xml:id="fig-eip-675-graph">
+            <image source="media/CNX_Stats_C012_M02_item003.jpg" width="80%">
+              <description>This is a graph of an equation. The x-axis is labeled in intervals of 1 from -5 to 5; the y-axis is labeled in intervals of 1 from 0 - 8. The equation's graph is a parabola, a u-shaped curve that has a minimum value at (0, 0).</description>
+            </image>
+          </figure>
         </statement>
       </exercise>
       <p><em>Use the following information to answer the next exercise.</em>  contains real data for the first two decades of flu reporting.</p>
@@ -230,35 +252,39 @@
         </tabular>
       </table>
       <exercise xml:id="element-352">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Use the columns <em>Year</em> and <em>Number of Flu Cases Diagnosed</em>. Why is year the independent variable and number of flu cases diagnosed the dependent variable (instead of the reverse)?</p>
         </statement>
         <solution>
           <p>The number of flu cases depends on the year. Therefore, year becomes the independent variable and the number of flu cases is the dependent variable.</p>
         </solution>
       </exercise>
-      <p><nbsp/><em>Use the following information to answer the next two exercises</em>. A specialty cleaning company charges an equipment fee and an hourly labor fee. A linear equation that expresses the total amount of the fee the company charges for each session is <m>y</m> = 50 + 100<m>x</m>.</p>
+      <p><nbsp /><em>Use the following information to answer the next two exercises</em>. A specialty cleaning company charges an equipment fee and an hourly labor fee. A linear equation that expresses the total amount of the fee the company charges for each session is <m>y</m> = 50 + 100<m>x</m>.</p>
       <exercise xml:id="ch12-eip-177">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What are the independent and dependent variables?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-188">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the <m>y</m>-intercept, and what is the slope? Interpret them using complete sentences.</p>
         </statement>
         <solution>
           <p>The <m>y</m>-intercept is 50 (<m>a</m> = 50). At the start of the cleaning, the company charges a one-time fee of $50 (this is when <m>x</m> = 0). The slope is 100 (<m>b</m> = 100). For each session, the company charges $100 for each hour they clean.</p>
         </solution>
       </exercise>
-      <p><nbsp/><em>Use the following information to answer the next three questions</em>. As a result of erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is <m>y</m> = 12,000<m>x</m>.</p>
+      <p><nbsp /><em>Use the following information to answer the next three questions</em>. As a result of erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is <m>y</m> = 12,000<m>x</m>.</p>
       <exercise xml:id="eip-364">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What are the independent and dependent variables?</p>
         </statement>
       </exercise>
       <exercise xml:id="ch12-eip-160">
-        <statement>
+      <statement>
           <p>How many pounds of soil does the shoreline lose in a year?</p>
         </statement>
         <solution>
@@ -266,13 +292,15 @@
         </solution>
       </exercise>
       <exercise xml:id="ch12-eip-67">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the <m>y</m>-intercept? Interpret its meaning.</p>
         </statement>
       </exercise>
-      <p><nbsp/><em>Use the following information to answer the next two exercises</em>. The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is <m>y</m> = 15 – 1.5<m>x</m>, where <m>x</m> is the number of hours passed in an eight-hour day of trading.</p>
+      <p><nbsp /><em>Use the following information to answer the next two exercises</em>. The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is <m>y</m> = 15 – 1.5<m>x</m>, where <m>x</m> is the number of hours passed in an eight-hour day of trading.</p>
       <exercise xml:id="ch12-eip-761">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What are the slope and <m>y</m>-intercept? Interpret their meaning.</p>
         </statement>
         <solution>
@@ -280,7 +308,8 @@
         </solution>
       </exercise>
       <exercise xml:id="eip-227">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>If you owned this stock, would you want a positive or negative slope? Why?</p>
         </statement>
       </exercise>
@@ -334,12 +363,11 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
           <p>A random sample of 11 statistics students produced the data in , where <m>x</m> is the third exam score out of 80 and <m>y</m> is the final exam score out of 200. Can you predict the final exam score of a random student if you know the third exam score?</p>
           <figure xml:id="linrgs_regeq1">
             <caption>Using the <m>x</m>- and <m>y</m>-coordinates in the table, we plot the points on a graph to create the scatter plot showing the scores on the final exam based on scores from the third exam.</caption>
-            <image source="media/fig-ch12_05_01.jpg" width="76%"/>
+            <image source="media/fig-ch12_05_01.jpg" width="76%" />
           </figure>
         </statement>
       </example>
       <note xml:id="fs-idp122176240">
-        <title>Try It</title>
       </note>
       <p>The third exam score, <m>x</m>, is the independent variable, and the final exam score, <m>y</m>, is the dependent variable. We will plot a regression line that best <em>fits</em> the data. If each of you were to fit a line <em>by eye</em>, you would draw different lines. We can obtain a line of best fit using either the median-median line approach or by calculating the least-squares regression line.</p>
       <p>Let's first find the line of best fit for the relationship between the third exam score and the final exam score using the median-median line approach. Remember that this is the data from  after the ordered pairs have been listed by ordering <m>x</m> values. If multiple data points have the same <m>x</m> values, then they are listed in order from least to greatest <m>x</m> (see data values where <m>x</m> = 71). We first divide our scores into three groups of approximately equal numbers of <m>x</m> values per group. The first and third groups have the same number of <m>x</m> values. We must remember first to put the <m>x</m> values in ascending order. The corresponding <m>y</m> values are then recorded. However, to find the median, we first must rearrange the <m>y</m> values in each group from the least value to the greatest value.  shows the correct ordering of the <m>x</m> values but does not show a reordering of the <m>y</m> values.</p>
@@ -363,9 +391,9 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       <table xml:id="fs-id1170308944039">
         <tabular>
           <row><cell>Group</cell><cell><m>x</m> (third exam score)</cell><cell><m>y</m> (final exam score)</cell><cell>Median <m>x</m> value</cell><cell>Median <m>y</m> value</cell></row>
-          <row><cell>1</cell><cell>65<nbsp/>66<nbsp/>67<nbsp/>67</cell><cell>126<nbsp/>133<nbsp/>153<nbsp/>175</cell><cell>66.5<nbsp/><nbsp/><nbsp/></cell><cell>143<nbsp/><nbsp/><nbsp/></cell></row>
-          <row><cell>2</cell><cell>69<nbsp/>69<nbsp/>70</cell><cell>151<nbsp/>159<nbsp/>163</cell><cell>69</cell><cell>159</cell></row>
-          <row><cell>3</cell><cell>71<nbsp/>71<nbsp/>71<nbsp/>75</cell><cell>159<nbsp/>163<nbsp/>185<nbsp/>198</cell><cell>71</cell><cell>174</cell></row>
+          <row><cell>1</cell><cell>65<nbsp />66<nbsp />67<nbsp />67</cell><cell>126<nbsp />133<nbsp />153<nbsp />175</cell><cell>66.5<nbsp /><nbsp /><nbsp /></cell><cell>143<nbsp /><nbsp /><nbsp /></cell></row>
+          <row><cell>2</cell><cell>69<nbsp />69<nbsp />70</cell><cell>151<nbsp />159<nbsp />163</cell><cell>69</cell><cell>159</cell></row>
+          <row><cell>3</cell><cell>71<nbsp />71<nbsp />71<nbsp />75</cell><cell>159<nbsp />163<nbsp />185<nbsp />198</cell><cell>71</cell><cell>174</cell></row>
         </tabular>
       </table>
       <p>When this is completed, we can write the ordered pairs for the median values. This allows us to find the slope and <m>y</m>-intercept of the median-median line.</p>
@@ -377,6 +405,11 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       <p>Thus, the equation can be written as <m>y</m> = 6.9<m>x</m> − 316.3.</p>
       <p>The median–median line may also be found using your graphing calculator. You can enter the <m>x</m> and <m>y</m> values into two separate lists; choose Stat, Calc, Med-Med, and press Enter. The slope, <m>a</m>, and <m>y</m>-intercept, <m>b</m>, will be provided. The calculator shows a slight deviation from the previous manual calculation as a result of rounding. Rounding to the nearest tenth, the calculator gives the median-median line of <m>y=6.9x-315.5\text{.}</m> Each point of data is of the the form (<m>x</m>, <m>y</m>), and each point of the line of best fit using least-squares linear regression has the form (<m>x</m>, <m>ŷ</m>).</p>
       <p>The <m>ŷ</m> is read <em>y hat</em> and is the <em>estimated value of y</em>. It is the value of <m>y</m> obtained using the regression line. It is not generally equal to <m>y</m> from data, but it is still important because it can help make predictions for other values.</p>
+      <figure>
+        <image source="media/fig-ch12_05_02.jpg" width="80%">
+          <description>The scatter plot of exam scores with a line of best fit. One data point is highlighted along with the corresponding point on the line of best fit. Both points have the same x-coordinate. The distance between these two points illustrates how to compute the sum of squared errors.</description>
+        </image>
+      </figure>
       <p>The term <m>y</m>_{0} – <m>ŷ</m>_{0} = <m>ε</m>_{0} is called the <em>error</em> or <em>residual</em>. It is not an error in the sense of a mistake. The <em>absolute value of a residual</em> measures the vertical distance between the actual value of <m>y</m> and the estimated value of <m>y</m>. In other words, it measures the vertical distance between the actual data point and the predicted point on the line, or it measures how far the estimate is from the actual data value.</p>
       <p>If the observed data point lies above the line, the residual is positive and the line underestimates the actual data value for <m>y</m>. If the observed data point lies below the line, the residual is negative and the line overestimates that actual data value for <m>y</m>.</p>
       <p>In , <m>y</m>_{0} – <m>ŷ</m>_{0} = ε_{0} is the residual for the point shown. Here the point lies above the line and the residual is positive.</p>
@@ -408,7 +441,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       <title>Third Exam vs. Final Exam Example</title>
       <p>The graph of the line of best fit for the third exam/final exam example is as follows:</p>
       <figure xml:id="linrgs_regeq3">
-        <image source="media/fig-ch12_05_03.jpg" width="76%"/>
+        <image source="media/fig-ch12_05_03.jpg" width="76%" />
       </figure>
       <p>The least-squares regression line (best-fit line) for the third exam/final exam example has the equation</p>
       <me>ŷ=−173.51+4.83x\text{.}</me>
@@ -433,7 +466,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       </table>
       <p>The scatter plot  includes the line of best fit.</p>
       <figure xml:id="figure_12_03_01">
-        <image source="media/fig_12_03_01.jpg" width="76%"/>
+        <image source="media/fig_12_03_01.jpg" width="76%" />
       </figure>
       <p>The <m>y</m>-intercept of this line occurs at 0.0226 mAU. This means the assay gives a reading of 0.0226 mAU when there is no protein present. That is, it is the baseline reading that can be attributed to something else, which, in this case, is some other non-protein chemicals that are absorbing light. We can tell that this line of best fit is reasonable because the <m>y</m>-intercept is small, close to zero. When there is no protein present in the sample, we expect the absorbance to be very small, or close to zero, as well.</p>
     </subsection>
@@ -443,7 +476,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       <p>The slope of the line, <m>b</m>, describes how changes in the variables are related. It is important to interpret the slope of the line in the context of the situation represented by the data. You should be able to write a sentence interpreting the slope in plain English.</p>
       <p>Interpretation of the Slope: The slope of the best-fit line tells us how the dependent variable (<m>y</m>) changes for every one unit increase in the independent (<m>x</m>) variable, on average.</p>
       <p>Third Exam vs. Final Exam ExampleSlope: The slope of the line is <m>b</m> = 4.83.
-<nbsp/>Interpretation: For a 1-point increase in the score on the third exam, the final exam score increases by 4.83 points, on average.</p>
+<nbsp />Interpretation: For a 1-point increase in the score on the third exam, the final exam score increases by 4.83 points, on average.</p>
       <note xml:id="fs-idm68284544">
         <p>Using the Linear Regression T Test: <c>LinRegTTest</c></p>
         <ol>
@@ -454,10 +487,15 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
           <li>Leave the line for <c>RegEQ:</c> blank.</li>
           <li>Highlight <c>Calculate</c> and press <c>ENTER</c>.</li>
         </ol>
+        <figure>
+          <image source="media/fig-ch12_05_04.jpg" width="80%">
+            <description>1. Image of calculator input screen for LinRegTTest with input matching the instructions above. 2. Image of corresponding output calculator output screen for LinRegTTest: Output screen shows: Line 1. LinRegTTest; Line 2. y = a + bx; Line 3. beta does not equal 0 and rho does not equal 0; Line 4. t = 2.657560155; Line 5. df = 9; Line 6. a = 173.513363; Line 7. b = 4.827394209; Line 8. s = 16.41237711; Line 9. r squared = .4396931104; Line 10. r = .663093591</description>
+          </image>
+        </figure>
         <p>The output screen contains a lot of information. For now, let’s focus on a few items from the output and return to the other items later.
-<nbsp/>The second line says <m>y</m> = <m>a</m> + <m>bx</m>. Scroll down to find the values <m>a</m> = –173.513 and <m>b</m> = 4.8273.</p>
+<nbsp />The second line says <m>y</m> = <m>a</m> + <m>bx</m>. Scroll down to find the values <m>a</m> = –173.513 and <m>b</m> = 4.8273.</p>
         <p>The equation of the best-fit line is <m>ŷ</m> = –173.51 + 4.83<m>x</m>.
-<nbsp/>The two items at the bottom are <m>r</m>^{2} = .43969 and <m>r</m> = .663. For now, just note where to find these values; we examine them in the next two sections.</p>
+<nbsp />The two items at the bottom are <m>r</m>^{2} = .43969 and <m>r</m> = .663. For now, just note where to find these values; we examine them in the next two sections.</p>
         <p>Graphing the Scatter Plot and Regression Line</p>
         <ol>
           <li>We are assuming the <m>x</m> data are already entered in list <c>L1</c> and the <m>y</m> data are in list <c>L2</c>.</li>
@@ -507,7 +545,7 @@ The sign of <m>r</m> is the same as the sign of the slope, <m>b</m>, of the best
       <p>where <m>n</m> is the number of data points.</p>
       <figure xml:id="linrgs_facts_pics">
         <caption>(a) A scatter plot showing data with a positive correlation: 0 &lt; <m>r</m> &lt; 1. (b) A scatter plot showing data with a negative correlation: –1 &lt; <m>r</m> &lt; 0. (c) A scatter plot showing data with zero correlation: <m>r</m> = 0.</caption>
-        <image source="media/fig-ch12_06_01.jpg" width="76%"/>
+        <image source="media/fig-ch12_06_01.jpg" width="76%" />
       </figure>
     </subsection>
     <p>The formula for <m>r</m> looks formidable. However, computer spreadsheets, statistical software, and many calculators can calculate <m>r</m> quickly. The correlation coefficient, <m>r</m>, is the bottom item in the output screens for the LinRegTTest on the TI-83, TI-83+, or TI-84+ calculator (see previous section for instructions).</p>
@@ -519,11 +557,11 @@ The sign of <m>r</m> is the same as the sign of the slope, <m>b</m>, of the best
         <li><m>r^{2}\text{,}</m> when expressed as a percent, represents the percentage of variation in the dependent (predicted) variable <m>y</m> that can be explained by variation in the independent (explanatory) variable <m>x</m> using the regression (best-fit) line.</li>
         <li>1 – <m>r^{2}\text{,}</m> when expressed as a percentage, represents the percentage of variation in <m>y</m> that is <em>not</em> explained by variation in <m>x</m> using the regression line. This can be seen as the scattering of the observed data points about the regression line.</li>
       </ul>
-      <p>Consider the third exam/final exam example introduced in the previous section.<nbsp/>
+      <p>Consider the third exam/final exam example introduced in the previous section.<nbsp />
 The line of best fit is: <m>ŷ</m> = –173.51 + 4.83<m>x</m>.
  The correlation coefficient is <m>r</m> = .6631.
 The coefficient of determination is <m>r</m>^{2} = .6631^{2} = .4397.</p>
-      <p>Interpret <m>r</m>^{2} in the context of this example.<nbsp/>
+      <p>Interpret <m>r</m>^{2} in the context of this example.<nbsp />
 Approximately 44 percent of the variation (0.4397 is approximately 0.44) in the final exam grades can be explained by the variation in the grades on the third exam, using the best-fit regression line.
 Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the final exam grades cannot be explained by the variation of the grades on the third exam with the best-fit regression line. These are the variation of the points that are not as close to the regression line as others.</p>
     </subsection>
@@ -536,7 +574,8 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
 
     <subsection xml:id="eip-234">
       <exercise xml:id="fs-id1170308315959">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Table 12.16 below represents the relationship between the number of hours spent studying and final exam grades.</p>
           <p>Fill in the following chart as a first step in finding the line of best fit, using the median–median approach.</p>
         </statement>
@@ -555,12 +594,14 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
         </tabular>
       </table>
       <exercise xml:id="eip-405">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Draw a scatter plot of the data.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-141">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Use regression to find the equation for the line of best fit.</p>
         </statement>
         <solution>
@@ -573,7 +614,8 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
         </statement>
       </exercise>
       <exercise xml:id="eip-247">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the slope of the line of best fit? What does it represent?</p>
         </statement>
         <solution>
@@ -594,12 +636,14 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
         </solution>
       </exercise>
       <exercise xml:id="eip-339">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>When <m>n</m> = 2 and <m>r</m> = 1, are the data significant? Explain.</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-270">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>When <m>n</m> = 100 and <m>r</m> = –0.89, is there a significant correlation? Explain.</p>
         </statement>
         <solution>
@@ -722,28 +766,29 @@ The line of best fit is: <m>ŷ</m> = –173.51 + 4.83<m>x</m>, with <m>r</m> = .
         <statement>
           <p>Suppose you computed the following correlation coefficients. Using the table at the end of the chapter, determine whether <m>r</m> is significant and whether the line of best fit associated with each correlation coefficient can be used to predict a <m>y</m> value. If it helps, draw a number line.</p>
           <ol>
-            <li><m>r</m> = 0.567 and the sample size, <m>n</m>, is 19.<nbsp/><nbsp/>
-To solve this problem, first find the degrees of freedom. <m>df</m> = <m>n</m> - 2 = 17.<nbsp/>
-Then, using the table, the critical values are ±0.456.<nbsp/>
-0.567 &lt; 0.456, or you may say that 0.567 is not between the two critical values.<nbsp/>
-<m>r</m> is significant and may be used for predictions.<nbsp/></li>
-            <li><m>r</m> = 0.708 and the sample size, <m>n</m>, is 9.<nbsp/><nbsp/>
-<m>df</m> = <m>n</m> - 2 = 7<nbsp/>
-The critical values are ±0.666.<nbsp/>
-0.708 &gt; 0.666.<nbsp/>
-<m>r</m> is significant and may be used for predictions.<nbsp/></li>
-            <li><m>r</m> = 0.134 and the sample size, <m>n</m>, is 14.<nbsp/><nbsp/>
-<m>df</m> = 14 - 2 = 12.<nbsp/>
-The critical values are ±0.532.<nbsp/>
-0.134 is between 0.532 and 0.532.<nbsp/>
+            <li><m>r</m> = 0.567 and the sample size, <m>n</m>, is 19.<nbsp /><nbsp />
+To solve this problem, first find the degrees of freedom. <m>df</m> = <m>n</m> - 2 = 17.<nbsp />
+Then, using the table, the critical values are ±0.456.<nbsp />
+0.567 &lt; 0.456, or you may say that 0.567 is not between the two critical values.<nbsp />
+<m>r</m> is significant and may be used for predictions.<nbsp /></li>
+            <li><m>r</m> = 0.708 and the sample size, <m>n</m>, is 9.<nbsp /><nbsp />
+<m>df</m> = <m>n</m> - 2 = 7<nbsp />
+The critical values are ±0.666.<nbsp />
+0.708 &gt; 0.666.<nbsp />
+<m>r</m> is significant and may be used for predictions.<nbsp /></li>
+            <li><m>r</m> = 0.134 and the sample size, <m>n</m>, is 14.<nbsp /><nbsp />
+<m>df</m> = 14 - 2 = 12.<nbsp />
+The critical values are ±0.532.<nbsp />
+0.134 is between 0.532 and 0.532.<nbsp />
 <m>r</m> is not significant and may not be used for predictions.</li>
-            <li><m>r</m> = 0 and the sample size, <m>n</m>, is 5.<nbsp/><nbsp/>
+            <li><m>r</m> = 0 and the sample size, <m>n</m>, is 5.<nbsp /><nbsp />
 It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will always be between the two critical values, so <m>r</m> is not significant and may not be used for predictions.</li>
           </ol>
         </statement>
       </example>
       <exercise xml:id="eip-316">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>For a given line of best fit, you compute that <m>r</m> = 0 using <m>n</m> = 100 data points. Can the line be used for prediction? Why or why not?</p>
         </statement>
         <solution>
@@ -765,7 +810,7 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
       </ul>
       <figure xml:id="linrgs_facts_normal">
         <caption>The <m>y</m> values for each <m>x</m> value are normally distributed about the line with the same standard deviation. For each <m>x</m> value, the mean of the <m>y</m> values lies on the regression line. More <m>y</m> values lie near the line than are scattered farther away from the line.</caption>
-        <image source="media/fig-ch12_07_04.jpg" width="76%"/>
+        <image source="media/fig-ch12_07_04.jpg" width="76%" />
       </figure>
     </subsection>
 
@@ -795,12 +840,14 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
 
     <subsection xml:id="eip-142">
       <exercise xml:id="eip-552">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>When testing the significance of the correlation coefficient, what is the null hypothesis?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-592">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>When testing the significance of the correlation coefficient, what is the alternative hypothesis?</p>
         </statement>
         <solution>
@@ -808,7 +855,8 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </solution>
       </exercise>
       <exercise xml:id="ch12-eip-59">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>If the level of significance is 0.05 and the <m>p</m>-value is 0.04, what conclusion can you draw?</p>
         </statement>
       </exercise>
@@ -831,14 +879,15 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
           <p>a. What would you predict the final exam score to be for a student who scored a 66 on the third exam?</p>
         </statement>
         <solution>
-          <p>a. 145.27<nbsp/><nbsp/></p>
+          <p>a. 145.27<nbsp /><nbsp /></p>
         </solution>
       </example>
       <exercise xml:id="eip-375">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Data are collected on the relationship between the number of hours per week practicing a musical instrument and scores on a math test. The line of best fit is as follows:</p>
           <p><m>ŷ</m> = 72.5 + 2.8<m>x.</m>
-<nbsp/>What would you predict the score on a math test will be for a student who practices a musical instrument for five hours a week?</p>
+<nbsp />What would you predict the score on a math test will be for a student who practices a musical instrument for five hours a week?</p>
         </statement>
         <solution>
           <p>86.5</p>
@@ -862,7 +911,8 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
     <subsection xml:id="ch12-eip-160">
       <p><em>Use the following information to answer the next two exercises</em>. An electronics retailer used regression to find a simple model to predict sales growth in the first quarter of the new year (January through March). The model is good for 90 days, where <m>x</m> is the day. The model can be written as <m>ŷ</m> = 101.32 + 2.48<m>x</m>, where <m>ŷ</m> is in thousands of dollars.</p>
       <exercise xml:id="eip-673">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What would you predict the sales to be on day 60?</p>
         </statement>
         <solution>
@@ -870,13 +920,15 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </solution>
       </exercise>
       <exercise xml:id="eip-439">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What would you predict the sales to be on day 90?</p>
         </statement>
       </exercise>
-      <p><nbsp/><em>Use the following information to answer the next three exercises</em>. A landscaping company is hired to mow the grass for several large properties. The total area of the properties is 1,345 acres. The rate at which one person can mow is <m>ŷ</m> = 1350 – 1.2<m>x</m>, where <m>x</m> is the number of hours and <m>ŷ</m> represents the number of acres left to mow.</p>
+      <p><nbsp /><em>Use the following information to answer the next three exercises</em>. A landscaping company is hired to mow the grass for several large properties. The total area of the properties is 1,345 acres. The rate at which one person can mow is <m>ŷ</m> = 1350 – 1.2<m>x</m>, where <m>x</m> is the number of hours and <m>ŷ</m> represents the number of acres left to mow.</p>
       <exercise xml:id="eip-584">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>How many acres are left to mow after 20 hours of work?</p>
         </statement>
         <solution>
@@ -884,12 +936,14 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </solution>
       </exercise>
       <exercise xml:id="eip-309">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>How many acres are left to mow after 100 hours of work?</p>
         </statement>
       </exercise>
       <exercise xml:id="ch12-eip-159">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>How many hours does it take to mow all the lawns, or when is <m>ŷ</m> = 0?</p>
         </statement>
         <solution>
@@ -927,13 +981,15 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </tabular>
       </table>
       <exercise xml:id="fs-idm41333104">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Graph year versus number of flu cases diagnosed (plot the scatter plot). Do not include pre-1981 data.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp60770720">
-        <statement>
-          <p>Perform a linear regression. What is the linear equation?  Round to the nearest whole number. Find the following:<nbsp/></p>
+        <title>Try It</title>
+      <statement>
+          <p>Perform a linear regression. What is the linear equation?  Round to the nearest whole number. Find the following:<nbsp /></p>
           <p><em>Write the equations:</em></p>
           <ul>
             <li><em>Linear equation:</em> __________</li>
@@ -948,7 +1004,8 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
         </solution>
       </exercise>
       <exercise xml:id="element-578">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Solve.
 When <m>x</m> = 1985, <m>ŷ</m> = _____.
 When <m>x</m> = 1990, <m>ŷ</m> = _____.
@@ -966,12 +1023,14 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="fs-idp123707680">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Does the line seem to fit the data? Why or why not?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp46020944">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What does the correlation imply about the relationship between time (years) and the number of diagnosed flu cases reported in the United States?</p>
         </statement>
         <solution>
@@ -979,7 +1038,8 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="fs-id1164567881521">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Plot the two points on the graph. Then, connect the two points to form the regression line.</p>
         </statement>
         <solution>
@@ -987,7 +1047,8 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="element-537">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Write the equation: <m>ŷ</m> = ____________.</p>
         </statement>
         <solution>
@@ -995,12 +1056,14 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="element-593">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Hand-draw a smooth curve on the graph that shows the flow of the data.</p>
         </statement>
       </exercise>
       <exercise xml:id="element-508">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Does the line seem to fit the data? Why or why not?</p>
         </statement>
         <solution>
@@ -1008,12 +1071,14 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="element-717">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Do you think a linear fit is best? Why or why not?</p>
         </statement>
       </exercise>
       <exercise xml:id="ch12-element-658">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What does the correlation imply about the relationship between time (years) and the number of diagnosed flu cases reported in the United States?</p>
         </statement>
         <solution>
@@ -1021,7 +1086,8 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="fs-idp87876464">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Graph <em>year</em> vs. <em>number flu cases diagnosed</em>. Do not include pre-1981. Label both axes with words. Scale both axes.</p>
         </statement>
       </exercise>
@@ -1036,7 +1102,8 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         </solution>
       </exercise>
       <exercise xml:id="fs-id1164565598834">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p><em>Calculate the following:</em></p>
           <ul>
             <li><em>a =</em> _____</li>
@@ -1072,9 +1139,9 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
           </ol>
         </statement>
         <solution>
-          <p>b. Check student solution.<nbsp/><nbsp/></p>
-          <p>c. <m>ŷ</m> = 35.5818045 – 0.19182491<m>x</m><nbsp/><nbsp/></p>
-          <p>d. <m>r</m> = –0.57874<nbsp/>For four degrees of freedom and alpha = 0.05, the LinRegTTest gives a <m>p</m> value of 0.2288, so we do not reject the null hypothesis; there is not a significant linear relationship between deaths and age.<nbsp/>Using the table of critical values for the correlation coefficient, with four degrees of freedom, the critical value is 0.811. The correlation coefficient <m>r</m> = –0.57874  is not less than –0.811, so we do not reject the null hypothesis.<nbsp/><nbsp/></p>
+          <p>b. Check student solution.<nbsp /><nbsp /></p>
+          <p>c. <m>ŷ</m> = 35.5818045 – 0.19182491<m>x</m><nbsp /><nbsp /></p>
+          <p>d. <m>r</m> = –0.57874<nbsp />For four degrees of freedom and alpha = 0.05, the LinRegTTest gives a <m>p</m> value of 0.2288, so we do not reject the null hypothesis; there is not a significant linear relationship between deaths and age.<nbsp />Using the table of critical values for the correlation coefficient, with four degrees of freedom, the critical value is 0.811. The correlation coefficient <m>r</m> = –0.57874  is not less than –0.811, so we do not reject the null hypothesis.<nbsp /><nbsp /></p>
           <p>f. There is not a linear relationship between the two variables, as evidenced by a <m>p</m> value greater than 0.05.</p>
         </solution>
       </exercise>
@@ -1112,10 +1179,10 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
           </ol>
         </statement>
         <solution>
-          <p>a. We wonder if the better discounts appear earlier in the book, so we select page as <m>x</m> and discount as <m>y</m>.<nbsp/><nbsp/></p>
-          <p>b. Check student solution.<nbsp/><nbsp/></p>
-          <p>c. <m>ŷ</m> = 17.21757 – 0.01412<m>x</m><nbsp/><nbsp/></p>
-          <p>d. <m>r</m> = – 0.2752 <nbsp/>For seven degrees of freedom and alpha = 0.05, LinRegTTest  gives a <m>p</m> value = 0.4736,  so we do not reject; there is a not a significant linear relationship between page and discount.<nbsp/>Using the table of critical values for the correlation coefficient, with seven  gives degrees of freedom, the critical value is 0.666. The correlation coefficient <m>xi</m> = –0.2752 is not less than 0.666, so we do not reject.<nbsp/><nbsp/></p>
+          <p>a. We wonder if the better discounts appear earlier in the book, so we select page as <m>x</m> and discount as <m>y</m>.<nbsp /><nbsp /></p>
+          <p>b. Check student solution.<nbsp /><nbsp /></p>
+          <p>c. <m>ŷ</m> = 17.21757 – 0.01412<m>x</m><nbsp /><nbsp /></p>
+          <p>d. <m>r</m> = – 0.2752 <nbsp />For seven degrees of freedom and alpha = 0.05, LinRegTTest  gives a <m>p</m> value = 0.4736,  so we do not reject; there is a not a significant linear relationship between page and discount.<nbsp />Using the table of critical values for the correlation coefficient, with seven  gives degrees of freedom, the critical value is 0.666. The correlation coefficient <m>xi</m> = –0.2752 is not less than 0.666, so we do not reject.<nbsp /><nbsp /></p>
           <p>f. There is not a significant linear correlation so it appears there is no relationship between the page and the amount of the discount.</p>
           <p>As the page number increases by one page, the discount decreases by $0.01412.</p>
         </solution>
@@ -1151,11 +1218,11 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
           </ol>
         </statement>
         <solution>
-          <p>a. Year is the independent or <m>x</m> variable; the number of letters is the dependent or <m>y</m> variable.<nbsp/><nbsp/></p>
-          <p>b. Check student’s solution.<nbsp/><nbsp/></p>
-          <p>c. No.<nbsp/><nbsp/></p>
-          <p>d. <m>ŷ</m> = 47.03 – 0.0216<m>x</m><nbsp/><nbsp/></p>
-          <p>e. –0.4280. The <m>r</m> value indicates that there is not a significant correlation between the year the state entered the Union and the number of letters in the name.<nbsp/><nbsp/></p>
+          <p>a. Year is the independent or <m>x</m> variable; the number of letters is the dependent or <m>y</m> variable.<nbsp /><nbsp /></p>
+          <p>b. Check student’s solution.<nbsp /><nbsp /></p>
+          <p>c. No.<nbsp /><nbsp /></p>
+          <p>d. <m>ŷ</m> = 47.03 – 0.0216<m>x</m><nbsp /><nbsp /></p>
+          <p>e. –0.4280. The <m>r</m> value indicates that there is not a significant correlation between the year the state entered the Union and the number of letters in the name.<nbsp /><nbsp /></p>
           <p>g. No. The relationship does not appear to be linear; the correlation is not significant.</p>
         </solution>
       </exercise>
@@ -1186,17 +1253,23 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         <solution>
           <p>Graphical Identification of OutliersWith the TI-83, 83+, or 84+ graphing calculators, it is easy to  identify the outliers graphically and visually. If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance were equal to 2<m>s</m> or more, then we would consider the data point to be too far from the line of best fit. We need to find and graph the lines that are two standard deviations below and above the regression line. Any points that are outside these two lines are outliers. Let’s call these lines Y2 and Y3.</p>
           <p>As we did with the equation of the regression line and the correlation coefficient, we will use technology to calculate this standard deviation for us. Using the LinRegTTest with these data, scroll down through the output screens to find <m>s</m> = 16.412.</p>
-          <p>Line Y2 = –173.5 + 4.83<m>x</m> – 2(16.4), and line Y3 = –173.5 + 4.83<m>x</m> + 2(16.4),<nbsp/>where <m>ŷ</m> = –173.5 + 4.83<m>x</m> is the line of best fit. Y2 and Y3 have the same slope as the line of best fit.</p>
+          <p>Line Y2 = –173.5 + 4.83<m>x</m> – 2(16.4), and line Y3 = –173.5 + 4.83<m>x</m> + 2(16.4),<nbsp />where <m>ŷ</m> = –173.5 + 4.83<m>x</m> is the line of best fit. Y2 and Y3 have the same slope as the line of best fit.</p>
           <p>Graph the scatter plot with the best-fit line in equation Y1, then enter the two extra lines as Y2 and Y3 in the <m>Y</m>= equation editor. Press ZOOM-9 to get a good view. You will see that the only point that is not between Y2 and Y3 is the point (65, 175). On the calculator screen, it is barely outside these lines, but it is considered an outlier because it is more than two standard deviations away from the best-fit line. The outlier is the student who had a grade of 65 on the third exam and 175 on the final exam.</p>
           <p>Sometimes a point is so close to the lines used to flag outliers on the graph that it is difficult to tell whether the point is between or outside the lines. On a computer, enlarging the graph may help;  on a small calculator screen, zooming in may make the graph clearer. Note that when the graph does not give a clear enough picture, you can use the numerical comparisons to identify outliers.</p>
           <figure xml:id="eip-idp140675136">
-            <image source="media/fig-ch12_09_01.jpg" width="76%"/>
+            <image source="media/fig-ch12_09_01.jpg" width="76%" />
           </figure>
         </solution>
       </example>
       <exercise xml:id="eip-365">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Identify the potential outlier in the scatter plot. The standard deviation of the residuals, or errors, is approximately 8.6.</p>
+          <figure>
+            <image source="media/CNX_Stats_C012_M09_item001.png" width="80%">
+              <description>Scatter plot showing data points. The y-axis is labeled 0 through 100 going up by intervals of 20. The x-axis is labeled 0 through 14 going up by intervals of 2. Most points follow a linear trend except for one point at approximately (6, 58) which appears far below the trend line.</description>
+            </image>
+          </figure>
         </statement>
         <solution>
           <p>The outlier appears to be at (6, 58). The expected <m>y</m> value on the line for the point (6, 58) is approximately 82. Fifty-eight is 24 units from 82. Twenty-four is more than two standard deviations (2<m>s</m> = (2)(8.6) = 17.2 ). So 82 is more than two standard deviations from 58, which makes (6, 58) a potential outlier.</p>
@@ -1253,7 +1326,7 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
       <p>The slope is now 7.39, compared to the previous slope of 4.83. This seems significant, but we need to look at the change in <m>r</m>-values as well. The new line shows <m>r=0.9121</m>, which indicates a stronger correlation than the original line, with <m>r=0.6631\text{,}</m> since <m>r=0.9121</m> is closer to 1. This means the new line is a better fit to the data values. The line can better predict the final exam score given the third exam score. It also means the outlier of (65, 175) was an influential point, since there is a sizeable difference in <m>r</m>-values. We must now decide whether to delete the outlier. If the outlier was recorded erroneously, it should certainly be deleted. Because it produces such a profound effect on the correlation, the new line of best fit allows for better prediction and an overall stronger model.</p>
       <p>You may use Excel to graph the two least-squares regression lines and compare the slopes and fit of the lines to the data, as shown in .</p>
       <figure xml:id="figure_12_06_01">
-        <image source="media/CNX_Stats_figure_12_06_01.jpg" width="76%"/>
+        <image source="media/CNX_Stats_figure_12_06_01.jpg" width="76%" />
       </figure>
       <p>You can see that the second graph shows less deviation from the line of best fit. It is clear that omission of the influential point produced a line of best fit that more closely models the data.</p>
     </subsection>
@@ -1261,7 +1334,7 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
     <subsection xml:id="fs-idm24143888">
       <title>Numerical Identification of Outliers: Calculating</title>
       <p>If you do not have the function LinRegTTest on your calculator, then you must calculate the outlier in the first example by doing the following.
-<nbsp/><nbsp/>
+<nbsp /><nbsp />
 First, square each |<m>y</m> – <m>ŷ</m>|.</p>
       <p>The squares are 
 35^{2}
@@ -1284,8 +1357,8 @@ First, square each |<m>y</m> – <m>ŷ</m>|.</p>
       <p>The calculation is <m>s=\sqrt{\text{SSE}n-2}</m>.</p>
       <p>For the third exam/final exam example, <m>s=\sqrt{244011-2}=16.47.</m></p>
       <p>Next, multiply <m>s</m> by 2:
-<nbsp/>(2)(16.47) = 32.94
-<nbsp/>32.94 is two standard deviations away from the mean of the <m>y</m> – <m>ŷ</m> values.</p>
+<nbsp />(2)(16.47) = 32.94
+<nbsp />32.94 is two standard deviations away from the mean of the <m>y</m> – <m>ŷ</m> values.</p>
       <p>If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance is at least 2<m>s</m>, then we would consider the data point to be too far from the line of best fit. We call that point a <term>potential outlier</term>.</p>
       <p>For the example, if any of the |<m>y</m> – <m>ŷ</m>| values are <em>at least</em> 32.94, the corresponding (<m>x</m>, <m>y</m>) data point is a potential outlier.</p>
       <p>For the third exam/final exam example, all the |<m>y</m> – <m>ŷ</m>| values are less than 31.29 except for the first one, which is 35:</p>
@@ -1293,7 +1366,7 @@ First, square each |<m>y</m> – <m>ŷ</m>|.</p>
       <p>The point that corresponds to |<m>y</m> – <m>ŷ</m>| = 35 is (65, 175). <em>Therefore, the data point (65, 175) is a potential outlier.</em> For this example, we will delete it. (Remember, we do not always delete an outlier.)
 
 Note
-When outliers are deleted, the researcher should either record that data were deleted, and why, or the researcher should provide results both with and without the deleted data. If data are erroneous and the correct values are known (e.g., student 1 actually scored a 70 instead of a 65), then this correction can be made to the data.<nbsp/><nbsp/>The next step is to compute a new best-fit line using the 10 remaining points. The new line of best fit and the correlation coefficient are</p>
+When outliers are deleted, the researcher should either record that data were deleted, and why, or the researcher should provide results both with and without the deleted data. If data are erroneous and the correct values are known (e.g., student 1 actually scored a 70 instead of a 65), then this correction can be made to the data.<nbsp /><nbsp />The next step is to compute a new best-fit line using the 10 remaining points. The new line of best fit and the correlation coefficient are</p>
       <p><m>ŷ</m> = –355.19 + 7.39<m>x</m> and <m>r</m> = .9121.</p>
       <example xml:id="element-824">
         <statement>
@@ -1301,12 +1374,13 @@ When outliers are deleted, the researcher should either record that data were de
         </statement>
         <solution>
           <p>Using the new line of best fit, <m>ŷ</m> = –355.19 + 7.39(73) = 184.28. A student who scored 73 points on the third exam would expect to earn 184 points on the final exam.
-<nbsp/><nbsp/>
+<nbsp /><nbsp />
 The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so the prediction using the new line with the outlier eliminated differs from the original prediction.</p>
         </solution>
       </example>
       <exercise xml:id="eip-846">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>The data points for the graph from the <url href="m79689">third exam/final exam example</url> are as follows: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), and (7, 21). Remove the outlier and recalculate the line of best fit. Find the value of <m>ŷ</m> when <m>x</m> = 10.</p>
         </statement>
         <solution>
@@ -1333,12 +1407,13 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
             <li><m>ŷ</m> = 3204 + 1.662(1990) = 103.4 CPI.</li>
           </ol>
           <figure xml:id="eip-idp35936320">
-            <image source="media/fig-ch12_09_02.jpg" width="76%"/>
+            <image source="media/fig-ch12_09_02.jpg" width="76%" />
           </figure>
         </solution>
       </example>
       <exercise xml:id="ch12-eip-298">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>The following table shows economic development measured in per capita income (PCINC).</p>
           <ol>
             <li>What are the independent and dependent variables?</li>
@@ -1355,6 +1430,11 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         <solution>
           <p>a. The independent variable (<m>x</m>) is the year and the dependent variable (<m>y</m>) is the per capita income.</p>
           <p>b.</p>
+          <figure>
+            <image source="media/CNX_Stats_C012_M09_tryit002anno.jpg" width="80%">
+              <description>A graph is shown. The y-axis is labeled PCINC and the x-axis is labeled year. The y-axis has tick marks at 0, 500, 1000, 1500, 2000, and 2500. The x-axis has tick marks at 1860, 1880, 1900, 1920, 1940, 1960, and 1980.</description>
+            </image>
+          </figure>
           <p>c. <m>ŷ</m> = 18.61x – 34574; <m>r</m> = 0.9732</p>
           <p>d. At <m>df</m> = 8, the critical value is 0.632. The <m>r</m>-value is significant because it is greater than the critical value.</p>
           <p>e. There does appear to be a linear relationship between the variables.</p>
@@ -1423,7 +1503,7 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
       <title>Chapter Review</title>
       <p>To determine whether a point is an outlier, do one of the following:
         Input the following equations into the TI 83, 83+, 84, or 84+ calculator:
-        <nbsp/><m>y_{1}=a+bx \\ y_{2}=a+bx+\text{2}s \\ y_{3}=a+bx-\text{2}s</m>where <m>s</m> is the standard deviation of the residuals.If any point is above <m>y</m>_{2} or below <m>y</m>_{3}, then the point is considered to be an outlier.
+        <nbsp /><m>y_{1}=a+bx \\ y_{2}=a+bx+\text{2}s \\ y_{3}=a+bx-\text{2}s</m>where <m>s</m> is the standard deviation of the residuals.If any point is above <m>y</m>_{2} or below <m>y</m>_{3}, then the point is considered to be an outlier.
 
         Use the residuals and compare their absolute values to 2<m>s</m>, where <m>s</m> is the standard deviation of the residuals. If the absolute value of any residual is greater than or equal to 2<m>s</m>, then the corresponding point is an outlier.
 
@@ -1432,7 +1512,8 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
 
     <subsection xml:id="eip-319">
       <exercise xml:id="fs-id1170308842407">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Marcus states that all outliers are influential points. Is he correct? Explain.</p>
         </statement>
         <solution>
@@ -1441,10 +1522,11 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
       </exercise>
       <p><em>Use the following information to answer the next four exercises.</em> The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.</p>
       <figure xml:id="fs-idp84808448">
-        <image source="media/CNX_Stats_C012_M09_item001.jpg" width="70%"/>
+        <image source="media/CNX_Stats_C012_M09_item001.jpg" width="70%" />
       </figure>
       <exercise xml:id="eip-984">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Do there appear to be any outliers?</p>
         </statement>
         <solution>
@@ -1452,12 +1534,14 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         </solution>
       </exercise>
       <exercise xml:id="eip-237">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>A point is removed and the line of best fit is recalculated. The new correlation coefficient is 0.98. Does the point appear to have been an outlier? Why?</p>
         </statement>
       </exercise>
       <exercise xml:id="eip-430">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What effect did the potential outlier have on the line of best fit?</p>
         </statement>
         <solution>
@@ -1465,12 +1549,14 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         </solution>
       </exercise>
       <exercise xml:id="eip-955">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Are you more or less confident in the predictive ability of the new line of best fit?</p>
         </statement>
       </exercise>
       <exercise xml:id="ch12-eip-930">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>The sum of squared errors (SSE) for a data set of 18 numbers is 49. What is the standard deviation?</p>
         </statement>
         <solution>
@@ -1478,7 +1564,8 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         </solution>
       </exercise>
       <exercise xml:id="ch12-eip-7">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>The standard deviation for the SSE for a data set is 9.8. What is the cutoff for the vertical distance that a point can be from the line of best fit to be considered an outlier?</p>
         </statement>
       </exercise>
@@ -1518,7 +1605,7 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
         <statement>
           <p>Ornithologists (scientists who study birds) tag sparrow hawks in 13 different colonies to study their population. They gather data for the percentage of new sparrow hawks in each colony and the percentage of those that have returned from migration.</p>
           <p>Percent return: 74, 66, 81, 52, 73, 62, 52, 45, 62, 46, 60, 46, 38
-<nbsp/>Percent new: 5, 6, 8, 11, 12, 15, 16, 17, 18, 18, 19, 20, 20</p>
+<nbsp />Percent new: 5, 6, 8, 11, 12, 15, 16, 17, 18, 18, 19, 20, 20</p>
           <ol>
             <li>Enter the data into a calculator and make a scatter plot.</li>
             <li>Use the calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from Part A.</li>
@@ -1608,7 +1695,8 @@ The coefficient of determination, <m>r</m>^{2}</li>
     <subsection xml:id="fs-idm85401472">
       <title>Bring It Together</title>
       <exercise xml:id="element-793">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>The average number of people in a family who attended college for various years is given in .</p>
           <ol>
             <li>Using <em>year</em> as the independent variable and <em>number of family members attending college</em> as the dependent variable, draw a scatter plot of the data.</li>
@@ -1628,7 +1716,8 @@ The coefficient of determination, <m>r</m>^{2}</li>
         </solution>
       </exercise>
       <exercise xml:id="element-402">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>The percent of female wage and salary workers who are paid hourly rates is given in  for the years 1979 to 1992.</p>
           <ol>
             <li>Using <em>year</em> as the independent variable and <em>percent of workers paid hourly rates</em> as the dependent variable, draw a scatter plot of the data.</li>
@@ -1658,18 +1747,19 @@ The coefficient of determination, <m>r</m>^{2}</li>
           </ol>
         </solution>
       </exercise>
-      <p><nbsp/><em>Use the following information to answer the next two exercises.</em> The cost of a leading liquid laundry detergent in different sizes is given in .</p>
+      <p><nbsp /><em>Use the following information to answer the next two exercises.</em> The cost of a leading liquid laundry detergent in different sizes is given in .</p>
       <table xml:id="id10105430">
         <tabular>
           <row><cell>Size (ounces)</cell><cell>Cost ($)</cell><cell>Cost per Ounce</cell></row>
-          <row><cell>16</cell><cell>3.99</cell><cell></cell></row>
-          <row><cell>32</cell><cell>4.99</cell><cell></cell></row>
-          <row><cell>64</cell><cell>5.99</cell><cell></cell></row>
-          <row><cell>200</cell><cell>10.99</cell><cell></cell></row>
+          <row><cell>16</cell><cell>3.99</cell><cell /></row>
+          <row><cell>32</cell><cell>4.99</cell><cell /></row>
+          <row><cell>64</cell><cell>5.99</cell><cell /></row>
+          <row><cell>200</cell><cell>10.99</cell><cell /></row>
         </tabular>
       </table>
       <exercise xml:id="element-454">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <ol>
             <li>Using <em>size</em> as the independent variable and <em>cost</em> as the dependent variable, draw a scatter plot.</li>
             <li>Does it appear from inspection that there is a relationship between the variables? Why or why not?</li>
@@ -1685,7 +1775,8 @@ The coefficient of determination, <m>r</m>^{2}</li>
         </statement>
       </exercise>
       <exercise xml:id="ch12-element-952">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <ol>
             <li>Complete  for the cost per ounce of the different sizes of laundry detergent.</li>
             <li>Using <em>size</em> as the independent variable and <em>cost per ounce</em> as the dependent variable, draw a scatter plot of the data.</li>
@@ -1741,7 +1832,8 @@ Cost per ounce
         </solution>
       </exercise>
       <exercise xml:id="element-574">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>According to a flyer published by Prudential Insurance Company, the costs of approximate probate fees and taxes for selected net taxable estates are as follows:</p>
           <ol>
             <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
@@ -1758,7 +1850,8 @@ Cost per ounce
         </statement>
       </exercise>
       <exercise xml:id="element-911">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>The following are advertised sale prices of color televisions at Anderson’s:</p>
           <ol>
             <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
@@ -1787,7 +1880,8 @@ Cost per ounce
         </solution>
       </exercise>
       <exercise xml:id="element-188">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>shows the average heights for American boys in 1990.</p>
           <ol>
             <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
@@ -1804,7 +1898,8 @@ Cost per ounce
         </statement>
       </exercise>
       <exercise xml:id="element-133">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>We are interested in whether there is a relationship between the ranking of a state and the area of the state.</p>
           <ol>
             <li>What are the independent and dependent variables?</li>
@@ -1949,7 +2044,13 @@ Cost of Supplies This Term</li>
           <li>Which variable should be the dependent variable and which should be the independent
 variable? Why?</li>
           <li>Graph <em>distance</em> vs. <em>cost</em>. Plot the points on the graph. Label both axes with
-words. Scale both axes.</li>
+words. Scale both axes.
+            <figure>
+              <image source="media/fig-ch12_14_01.png" width="80%">
+                <description>Blank graph with vertical and horizontal axes.</description>
+              </image>
+            </figure>
+          </li>
         </ol>
         <p>Analyze the DataEnter your data into a calculator or computer. Write the linear equation, rounding to four decimal places.</p>
         <ol>
@@ -1972,7 +2073,13 @@ Is the correlation significant? Why or why not? (Answer in one to three complete
 			For a person who lives 80 miles from campus, predict the total cost of supplies this term.</li>
           <li>For a person who lives eight miles from campus, predict the total cost of supplies this term.</li>
           <li>For a person who lives 80 miles from campus, predict the total cost of supplies this term.</li>
-          <li>Obtain the graph on a calculator or computer. Sketch the regression line.</li>
+          <li>Obtain the graph on a calculator or computer. Sketch the regression line.
+            <figure>
+              <image source="media/fig-ch12_14_02.png" width="80%">
+                <description>Blank graph with vertical and horizontal axes.</description>
+              </image>
+            </figure>
+          </li>
         </ol>
         <ol>
           <li>Answer each question in complete sentences.
@@ -2039,7 +2146,13 @@ For a textbook with 400 pages, predict the cost.
 For a textbook with 600 pages, predict the cost.</li>
           <li>For a textbook with 400 pages, predict the cost.</li>
           <li>For a textbook with 600 pages, predict the cost.</li>
-          <li>Obtain the graph on a calculator or computer. Sketch the regression line.</li>
+          <li>Obtain the graph on a calculator or computer. Sketch the regression line.
+            <figure>
+              <image source="media/fig-ch12_15_01.png" width="80%">
+                <description>Blank graph with vertical and horizontal axes.</description>
+              </image>
+            </figure>
+          </li>
         </ol>
         <ol>
           <li>Answer each question in complete sentences.

@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<chapter xml:id="ch06-normal-distribution" xmlns:xi="http://www.w3.org/2001/XInclude">
+<?xml version='1.0' encoding='utf-8'?>
+<chapter xml:id="ch06-normal-distribution">
   <title>The Normal Distribution</title>
 
   <introduction>
     <figure xml:id="fs-idp3364000">
       <caption>If you ask enough people about their shoe size, you will find that your graphed data is shaped like a bell curve and can be described as normally distributed. (credit: Ömer Ünlϋ)</caption>
-      <image source="media/CNX_Stats_C06_CON.jpg" width="80%"/>
+      <image source="media/CNX_Stats_C06_CON.jpg" width="80%" />
     </figure>
 
     <objectives>
@@ -69,27 +69,27 @@
       </example>
       <exercise xml:id="fs-idp69782784">
         <title>Try It</title>
-        <statement>
+      <statement>
           <p>What is the <m>z</m>-score of <m>x</m>, when <m>x</m> = 1 and <m>X</m> ~ <m>N</m>(12, 3)?</p>
-          <p><m>z=\frac{1-12}{3}\approx-3.67</m></p>
-        </statement>
-      </exercise>
+          </statement>
+      <solution><p><m>z=\frac{1-12}{3}\approx-3.67</m></p>
+        </solution></exercise>
       <example xml:id="ch06-element-305">
         <statement>
           <p>a. Suppose a person <em>lost</em> 10 pounds in a month. The <m>z</m>-score when <m>x</m> = 10 pounds is <m>z</m> = 2.5 (verify). This <m>z</m>-score tells you that <m>x</m> = 10 is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</p>
         </statement>
         <solution>
-          <p>a. This <m>z</m>-score tells you that <m>x</m> = 10 is 2.5 standard deviations to the <em>right</em> of the mean <em>five</em>.<nbsp/><nbsp/></p>
+          <p>a. This <m>z</m>-score tells you that <m>x</m> = 10 is 2.5 standard deviations to the <em>right</em> of the mean <em>five</em>.<nbsp /><nbsp /></p>
         </solution>
       </example>
       <exercise xml:id="fs-idp126867120">
         <title>Try It</title>
-        <statement>
+      <statement>
           <p>Fill in the blanks.</p>
           <p>Jerome averages 16 points a game with a standard deviation of four points. <m>X</m> ~ <m>N</m>(16, 4). Suppose Jerome scores 10 points in a game. The <m>z</m>-score when <m>x</m> = 10 is –1.5. This score tells you that <m>x</m> = 10 is _____ standard deviations to the ______ (right or left) of the mean______ (What is the mean?).</p>
-          <p>1.5, left, 16</p>
-        </statement>
-      </exercise>
+          </statement>
+      <solution><p>1.5, left, 16</p>
+        </solution></exercise>
       <p>The Empirical Rule If <m>X</m> is a random variable and has a normal distribution with mean <m>µ</m> and standard deviation <m>σ</m>, then the <term>Empirical Rule</term> states the following:</p>
       <ul>
         <li>About 68 percent of the <m>x</m> values lie between –1<m>σ</m> and +1<m>σ</m> of the mean <m>µ</m> (within one standard deviation of the mean).</li>
@@ -102,21 +102,20 @@
       <p>So, in other words, this is that about 68 percent of the values lie between <m>z</m>-scores of –1 and 1, about 95% of the values lie between <m>z</m>-scores of –2 and 2, and about 99.7 percent of the values lie between <m>z</m>-scores of -3 and 3. These facts can be checked, by looking up the mean to <m>z</m> area in a <m>z</m>-table for each positive <m>z</m>-score and multiplying by 2.</p>
       <p>The empirical rule is also known as the <em>68–95–99.7 rule</em>.</p>
       <figure xml:id="fs-id1164562267461">
-        <image source="media/OSX_HS_Statistics_Figure_06_01_02_01.jpg" width="60%"/>
+        <image source="media/OSX_HS_Statistics_Figure_06_01_02_01.jpg" width="60%" />
       </figure>
       <example xml:id="eip-736">
         <statement>
           <p>a. Suppose a 15-to 18-year-old male from Chile was 168 cm tall in 20092010. The <m>z</m>-score when <m>x</m> = 168 cm is <m>z</m> = _______. This <m>z</m>-score tells you that <m>x</m> = 168 is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</p>
         </statement>
         <solution>
-          <p>a. –0.32, 0.32, left, 170<nbsp/><nbsp/></p>
+          <p>a. –0.32, 0.32, left, 170<nbsp /><nbsp /></p>
         </solution>
       </example>
       <exercise xml:id="fs-idp103857616">
         <title>Try It</title>
-        <statement>
+      <statement>
           <p>Use the information in  to answer the following questions:</p>
-          <p>Solve the equation <m>z</m> = <m>\frac{x-\mu}{\sigma}</m> for <m>x</m>. <m>x</m> = <m>μ</m> + (<m>z</m>)(<m>σ</m>)</p>
           <ol>
             <li>Suppose a 15-to 18-year-old male from Chile was 176 cm tall from 20092010. The <m>z</m>-score when <m>x</m> = 176 cm is <m>z</m> = _______. This <m>z</m>-score tells you that <m>x</m> = 176 cm is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).</li>
             <li>Suppose that the height of a 15-to 18-year-old male from Chile in 20092010 has a <m>z</m>-score of <m>z</m> = –2. What is the male’s height? The <m>z</m>-score (<m>z</m> = –2) tells you that the male’s height is ________ standard deviations to the __________ (right or left) of the mean.</li>
@@ -126,7 +125,8 @@
             <li><m>X</m> = 157.44 cm, The  <m>z</m>-score(<m>z</m> = –2) tells you that the male’s height is two standard deviations to the left of the mean.</li>
           </ol>
         </statement>
-      </exercise>
+      <solution><p>Solve the equation <m>z</m> = <m>\frac{x-\mu}{\sigma}</m> for <m>x</m>. <m>x</m> = <m>μ</m> + (<m>z</m>)(<m>σ</m>)</p>
+          </solution></exercise>
       <example xml:id="ch06-eip-953">
         <statement>
           <p>From 1984 to 1985, the mean height of 15-to 18-year-old males from Chile was 172.36 cm, and the standard deviation was 6.34 cm. Let <m>Y</m> = the height of 15-to 18-year-old males from 19841985, and <m>y</m> = the height of one male from this group. Then <m>Y</m> ~ <m>N</m>(172.36, 6.34).</p>
@@ -135,13 +135,13 @@
         </statement>
         <solution>
           <p>The <m>z</m>-score for <m>x</m> = 160.58 cm is <m>z</m> = –1.5.
-<nbsp/>The <m>z</m>-score for <m>y</m> = 162.85 cm is <m>z</m> = –1.5.
-<nbsp/>Both <m>x</m> = 160.58 and <m>y</m> = 162.85 deviate the same number of standard deviations from their respective means and in the same direction.</p>
+<nbsp />The <m>z</m>-score for <m>y</m> = 162.85 cm is <m>z</m> = –1.5.
+<nbsp />Both <m>x</m> = 160.58 and <m>y</m> = 162.85 deviate the same number of standard deviations from their respective means and in the same direction.</p>
         </solution>
       </example>
       <exercise xml:id="fs-idp90060128">
         <title>Try It</title>
-        <statement>
+      <statement>
           <p>In 2012, 1,664,479 students took the SAT exam. The distribution of scores in the verbal section of the SAT had a mean <m>µ</m> = 496 and a standard deviation <m>σ</m> = 114. Let <m>X</m> = a SAT exam verbal section score in 2012. Then, <m>X</m> ~ <m>N</m>(496, 114).</p>
           <p>Find the <m>z</m>-scores for <m>x</m>_{1} = 325 and <m>x</m>_{2} = 366.21. Interpret each <m>z</m>-score. What can you say about <m>x</m>_{1} = 325 and <m>x</m>_{2} = 366.21, as they compare to their respective means and standard deviations?</p>
           <p>The <m>z</m>-score for <m>x</m>_{1} = 325 is <m>z</m>_{1} = –1.14.</p>
@@ -161,11 +161,11 @@
       </example>
       <exercise xml:id="fs-idp63750176">
         <title>Try It</title>
-        <statement>
+      <statement>
           <p>Suppose <m>X</m> has a normal distribution with mean 25 and standard deviation five. Between what values of <m>x</m> do 68 percent of the values lie?</p>
-          <p>between 20 and 30.</p>
-        </statement>
-      </exercise>
+          </statement>
+      <solution><p>between 20 and 30.</p>
+        </solution></exercise>
       <example xml:id="ch06-eip-265">
         <statement>
           <p>From 19841985, the mean height of 15-to 18-year-old males from Chile was 172.36 cm, and the standard deviation was 6.34 cm. Let <m>Y</m> = the height of 15-to 18-year-old males in 19841985. Then <m>Y</m> ~ <m>N</m>(172.36, 6.34).</p>
@@ -188,7 +188,7 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
       </example>
       <exercise xml:id="fs-idp139717168">
         <title>Try It</title>
-        <statement>
+      <statement>
           <p>The scores on a college entrance exam have an approximate normal distribution with mean, <m>µ</m> = 52 points and a standard deviation, <m>σ</m> = 11 points.</p>
           <ol>
             <li>About 68 percent of the <m>y</m> values lie between what two values? These values are ________________. The <m>z</m>-scores are ________________, respectively.</li>
@@ -226,14 +226,15 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
       <p><m>Z</m> ~ <m>N</m>(0, 1)</p>
       <p><m>z</m> = a standardized value (<m>z</m>-score)</p>
       <p>mean = 0, standard deviation = 1</p>
-      <p>To find the <m>k</m>^{th} percentile of <m>X</m> when the <m>z</m>-score is known,<nbsp/><m>k</m> = <m>μ</m> + (<m>z</m>)<m>σ</m></p>
+      <p>To find the <m>k</m>^{th} percentile of <m>X</m> when the <m>z</m>-score is known,<nbsp /><m>k</m> = <m>μ</m> + (<m>z</m>)<m>σ</m></p>
       <p><m>z</m>-score: <m>z</m> = <m>\frac{x\text{–}\mu}{\sigma}</m></p>
       <p><m>Z</m> = the random variable for <m>z</m>-scores</p>
     </subsection>
 
     <subsection xml:id="fs-idm124208336">
       <exercise xml:id="fs-idp27962224">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>A bottle of water contains 12.05 fluid ounces with a standard deviation of 0.01 ounces. Define the random variable <m>X</m> in words. <m>X</m> = ____________.</p>
         </statement>
         <solution>
@@ -241,12 +242,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm114970736">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>A normal distribution has a mean of 61 and a standard deviation of 15. What is the median?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm121963344">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p><m>X</m> ~ <m>N</m>(1, 2)</p>
           <p><m>σ</m> = _______</p>
         </statement>
@@ -255,12 +258,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm142191456">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>A company manufactures rubber balls. The mean diameter of a ball is 12 cm with a standard deviation of 0.2 cm. Define the random variable <m>X</m> in words. <m>X</m> = ______________.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm97876640">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p><m>X</m> ~ <m>N</m>(–4, 1)</p>
           <p>What is the median?</p>
         </statement>
@@ -269,13 +274,15 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm102541136">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p><m>X</m> ~ <m>N</m>(3, 5)</p>
-          <p><m>σ</m> = _______</p>
-        </statement>
-      </exercise>
+          </statement>
+      <solution><p><m>σ</m> = _______</p>
+        </solution></exercise>
       <exercise xml:id="fs-idm19058720">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p><m>X</m> ~ <m>N</m>(–2, 1)</p>
           <p><m>μ</m> = _______</p>
         </statement>
@@ -284,12 +291,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm122119648">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What does a <m>z</m>-score measure?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm63043376">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What does standardizing a normal distribution do to the mean?</p>
         </statement>
         <solution>
@@ -297,12 +306,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm126130944">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Is <m>X</m> ~ <m>N</m>(0, 1) a standardized normal distribution? Why or why not?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm26153296">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the <m>z</m>-score of <m>x</m> = 12, if it is two standard deviations to the right of the mean?</p>
         </statement>
         <solution>
@@ -310,12 +321,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm114925552">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the <m>z</m>-score of <m>x</m> = 9, if it is 1.5 standard deviations to the left of the mean?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm64977712">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the <m>z</m>-score of <m>x</m> = –2, if it is 2.78 standard deviations to the right of the mean?</p>
         </statement>
         <solution>
@@ -323,12 +336,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm140331968">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the <m>z</m>-score of <m>x</m> = 7, if it is 0.133 standard deviations to the left of the mean?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm61157328">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(2, 6). What value of <m>x</m> has a <m>z</m>-score of three?</p>
         </statement>
         <solution>
@@ -336,12 +351,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm18781776">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(8, 1). What value of <m>x</m> has a <m>z</m>-score of –2.25?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp23562800">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(9, 5). What value of <m>x</m> has a <m>z</m>-score of –0.5?</p>
         </statement>
         <solution>
@@ -349,12 +366,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm69709296">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(2, 3). What value of <m>x</m> has a <m>z</m>-score of –0.67?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm137634928">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(4, 2). What value of <m>x</m> is 1.5 standard deviations to the left of the mean?</p>
         </statement>
         <solution>
@@ -362,12 +381,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm63053168">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(4, 2). What value of <m>x</m> is two standard deviations to the right of the mean?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm62507744">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(8, 9). What value of <m>x</m> is 0.67 standard deviations to the left of the mean?</p>
         </statement>
         <solution>
@@ -375,12 +396,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm78772448">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(–1, 2). What is the <m>z</m>-score of <m>x</m> = 2?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp21093808">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(12, 6). What is the <m>z</m>-score of <m>x</m> = 2?</p>
         </statement>
         <solution>
@@ -388,12 +411,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idp10811840">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(9, 3). What is the <m>z</m>-score of <m>x</m> = 9?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm74086800">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose a normal distribution has a mean of six and a standard deviation of 1.5. What is the <m>z</m>-score of <m>x</m> = 5.5?</p>
         </statement>
         <solution>
@@ -401,12 +426,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm61163760">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>In a normal distribution, <m>x</m> = 5 and <m>z</m> = –1.25. This tells you that <m>x</m> = 5 is ____ standard deviations to the ____ (right or left) of the mean.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp37768720">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>In a normal distribution, <m>x</m> = 3 and <m>z</m> = 0.67. This tells you that <m>x</m> = 3 is ____ standard deviations to the ____ (right or left) of the mean.</p>
         </statement>
         <solution>
@@ -414,12 +441,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm38070992">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>In a normal distribution, <m>x</m> = –2 and <m>z</m> = 6. This tells you that <m>x</m> = –2 is ____ standard deviations to the ____ (right or left) of the mean.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm122820544">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>In a normal distribution, <m>x</m> = –5 and <m>z</m> = –3.14. This tells you that <m>x</m> = –5 is ____ standard deviations to the ____ (right or left) of the mean.</p>
         </statement>
         <solution>
@@ -427,12 +456,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm49315712">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>In a normal distribution, <m>x</m> = 6 and <m>z</m> = –1.7. This tells you that <m>x</m> = 6 is ____ standard deviations to the ____ (right or left) of the mean.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm144883616">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>About what percent of <m>x</m> values from a normal distribution lie within one standard deviation, left and right, of the mean of that distribution?</p>
         </statement>
         <solution>
@@ -440,12 +471,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm80518368">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>About what percent of the <m>x</m> values from a normal distribution lie within two standard deviations, left and right, of the mean of that distribution?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm85847520">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>About what percent of <m>x</m> values lie between the second and third standard deviations, both sides?</p>
         </statement>
         <solution>
@@ -453,12 +486,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm24842144">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(15, 3). Between what <m>x</m> values does 68.27 percent of the data lie? The range of <m>x</m> values is centered at the mean of the distribution (i.e., 15).</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm53172656">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(–3, 1). Between what <m>x</m> values does 95.45 percent of the data lie? The range of <m>x</m> values is centered at the mean of the distribution (i.e., –3).</p>
         </statement>
         <solution>
@@ -466,12 +501,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm113806912">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Suppose <m>X</m> ~ <m>N</m>(–3, 1). Between what <m>x</m> values does 34.14 percent of the data lie?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp81343328">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>About  what percent of <m>x</m> values lie between the mean and three standard deviations?</p>
         </statement>
         <solution>
@@ -479,12 +516,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idp84402208">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>About what percent of <m>x</m> values lie between the mean and one standard deviation?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp76784880">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>About what percent of <m>x</m> values lie between the first and second standard deviations from the mean, both sides?</p>
         </statement>
         <solution>
@@ -492,13 +531,15 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idp72804864">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>About what percent of <m>x</m> values lie between the first and third standard deviations, both sides?</p>
         </statement>
       </exercise>
       <p><em>Use the following information to answer the next two exercises:</em> The life of Sunshine CD players is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A CD player is guaranteed for three years. We are interested in the length of time a CD player lasts.</p>
       <exercise xml:id="fs-idm143086848">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Define the random variable <m>X</m> in words. <m>X</m> = _______________.</p>
         </statement>
         <solution>
@@ -506,7 +547,8 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
         </solution>
       </exercise>
       <exercise xml:id="fs-idm119601152">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p><m>X</m> ~ _____(_____, _____)</p>
         </statement>
       </exercise>
@@ -628,7 +670,7 @@ Kyles’s systolic blood pressure is 1.75 standard deviations above the average 
           <p>Let <m>X</m> = an SAT math score and <m>Y</m> = an ACT math score.</p>
           <ol>
             <li><m>X</m> = 720 <m>\frac{\text{720 – 520}}{\text{15}}</m> = 1.74 The exam score of 720 is 1.74 standard deviations above the mean of 520.</li>
-            <li><m>z</m> = 1.5 <nbsp/>The math SAT score is 520 + 1.5(115) ≈ 692.5. The exam score of 692.5 is 1.5 standard deviations above the mean of 520.</li>
+            <li><m>z</m> = 1.5 <nbsp />The math SAT score is 520 + 1.5(115) ≈ 692.5. The exam score of 692.5 is 1.5 standard deviations above the mean of 520.</li>
             <li><m>\frac{X\text{–}\mu}{\sigma}</m> = <m>\frac{\text{700 – 514}}{\text{117}}</m> ≈ 1.59, the <m>z</m>-score for the SAT. <m>\frac{Y\text{–}\mu}{\sigma}</m> = <m>\frac{30\text{–}21}{5.3}</m> ≈ 1.70, the <m>z</m>-scores for the ACT. With respect to the test they took, the person who took the ACT did betterhas the higher <m>z</m>-score).</li>
           </ol>
         </solution>
@@ -644,7 +686,7 @@ Kyles’s systolic blood pressure is 1.75 standard deviations above the average 
     <subsection xml:id="fs-id1164566284231">
       <p>The shaded area in the following graph indicates the area to the left of <m>x</m>. This area could represent the percentage of students scoring less than a particular grade on a final exam. This area is represented by the probability <m>P</m>(<m>X</m> &lt; <m>x</m>). Normal tables, computers, and calculators are used to provide or calculate the probability <m>P</m>(<m>X</m> &lt; <m>x</m>).</p>
       <figure xml:id="fs-idm109348848">
-        <image source="media/fig-ch06_04_01.jpg" width="84%"/>
+        <image source="media/fig-ch06_04_01.jpg" width="84%" />
       </figure>
       <p>The area to the right is then <m>P</m>(<m>X</m> &gt; <m>x</m>) = 1 – <m>P</m>(<m>X</m> &lt; <m>x</m>). Remember, <m>P</m>(<m>X</m> &lt; <m>x</m>) = <em>Area to the left</em> of the vertical line through <m>x</m>. <m>P</m>(<m>X</m> &lt; <m>x</m>) = 1 – <m>P</m>(<m>X</m> &lt; <m>x</m>) = <em>Area to the right</em> of the vertical line through <m>x</m>. <m>P</m>(<m>X</m> &lt; <m>x</m>) is the same as <m>P</m>(<m>X</m> ≤ <m>x</m>) and <m>P</m>(<m>X</m> &gt; <m>x</m>) is the same as <m>P</m>(<m>X</m> ≥ <m>x</m>) for continuous distributions.</p>
       <p>Suppose the graph above were to represent the percentage of students scoring less than 75 on a final exam, with this probability equal to 0.39. This would also indicate that the percentage of students scoring higher than 75 was equal to 1 minus 0.39 or 0.61.</p>
@@ -655,7 +697,7 @@ Kyles’s systolic blood pressure is 1.75 standard deviations above the average 
       <p>Probabilities are calculated using technology. There are instructions given as necessary for the TI-83+ and TI-84 calculators.</p>
       <note xml:id="id1168986691838">
         <title>NOTE</title>
-        <p>To calculate the probability, use the probability tables provided in <xref ref="appendix-h-tables"/> without the use of technology. The tables include instructions for how to use them.</p>
+        <p>To calculate the probability, use the probability tables provided in <xref ref="appendix-h-tables" /> without the use of technology. The tables include instructions for how to use them.</p>
         <p>The probability is represented by the area under the normal curve. To find the probability, calculate the <m>z</m>-score and look up the <m>z</m>-score in the z-table under the <m>z</m>-column. Most <m>z</m>-tables show the area under the normal curve to the left of <m>z</m>. Others show the mean to <m>z</m> area. The method used will be indicated on the table.</p>
         <p>We will discuss the <m>z</m>-table that represents the area under the normal curve to the left of <m>z</m>. Once you have located the <m>z</m>-score, locate the corresponding area. This will be the area under the normal curve, to the left of the <m>z</m>-score. This area can be used to find the area to the right of the <m>z</m>-score, or by subtracting from 1 or the total area under the normal curve. These areas can also be used to determine the area between two <m>z</m>-scores.</p>
       </note>
@@ -666,11 +708,11 @@ Kyles’s systolic blood pressure is 1.75 standard deviations above the average 
       </example>
       <exercise xml:id="fs-idm96786656">
         <title>Try It</title>
-        <statement>
+      <statement>
           <p>If the area to the left of <m>x</m> is 0.012, then what is the area to the right?</p>
-          <p>1 − 0.012 = 0.988</p>
-        </statement>
-      </exercise>
+          </statement>
+      <solution><p>1 − 0.012 = 0.988</p>
+        </solution></exercise>
       <example xml:id="element-961">
         <title>Historical Note</title>
         <statement>
@@ -684,26 +726,26 @@ Kyles’s systolic blood pressure is 1.75 standard deviations above the average 
           <p>Then, find <m>P</m>(<m>x</m> &gt; 65).</p>
           <p>The probability that any student selected at random scores more than 65 is 0.3446.</p>
           <p>Go into <c>2nd DISTR</c>.
-<nbsp/>After pressing <c>2nd DISTR</c>, press <c>2:normalcdf</c>.</p>
+<nbsp />After pressing <c>2nd DISTR</c>, press <c>2:normalcdf</c>.</p>
           <p>The syntax for the instructions is as follows:</p>
           <p>normalcdf(lower value, upper value, mean, standard deviation)
 For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by pressing <c>1</c>, the <c>EE</c> keya 2nd keyand then <c>99</c>. Or, you can enter <c>10^99</c> instead. The number 10^{99} is way out in the right tail of the normal curve. We are calculating the area between 65 and 10^{99}. In some instances, the lower number of the area might be –1E99 (= –10^{99}). The number –10^{99} is way out in the left tail of the normal curve. We chose the exponent of 99 because this produces such a large number that we can reasonably expect all of the values under the curve to fall below it. This is an arbitrary value and one that works well, for our purpose.</p>
           <p>The TI probability program calculates a <m>z</m>-score and then the probability from the <m>z</m>-score. Before technology, the <m>z</m>-score was looked up in a standard normal probability table, also known as a Z-tablethe math involved to find probability is cumbersome. In this example, a standard normal table with area to the left of the <m>z</m>-score was used. You calculate the <m>z</m>-score and look up the area to the left. The probability is the area to the right.</p>
           <me>z=\frac{x-\mu}{\sigma}=\frac{65-63}{5}=\frac{2}{5}=.40</me>
-          <me>P\text{(}x\text{> 65) = 0}\text{.3446}</me>
+          <me>P\text{(}x\text{&gt; 65) = 0}\text{.3446}</me>
           <figure xml:id="fs-idm5159232">
-            <image source="media/fig-ch06_05_01.jpg" width="76%"/>
+            <image source="media/fig-ch06_05_01.jpg" width="76%" />
           </figure>
         </solution>
       </example>
       <exercise xml:id="fs-idm83435856">
         <title>Try It</title>
-        <statement>
+      <statement>
           <p>The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three.</p>
           <p>Find the probability that a randomly selected golfer scored less than 65.</p>
-          <p>normalcdf(10^{99},65,68,3) = 0.1587</p>
-        </statement>
-      </exercise>
+          </statement>
+      <solution><p>normalcdf(10^{99},65,68,3) = 0.1587</p>
+        </solution></exercise>
       <example xml:id="ch06-element-32">
         <statement>
           <p>a. Find the probability that a household personal computer is used for entertainment between 1.8 and 2.75 hours per day.</p>
@@ -716,19 +758,19 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by 
           <p>Now, use the <m>Z</m>-table to locate the area under the normal curve to the left of each of these <m>z</m>-scores.</p>
           <p>The area to the left of the <m>z</m>-score of −0.40 is 0.3446. The area to the left of the <m>z</m>-score of 1.5 is 0.9332. The area between these scores will be the difference in the two areas, or <m>0.9332-0.3446</m>, which equals 0.5886.</p>
           <p>normalcdf(1.8,2.75,2,0.5) = 0.5886</p>
-          <p>The probability that a household personal computer is used between 1.8 and 2.75 hours per day for entertainment is 0.5886.<nbsp/><nbsp/></p>
+          <p>The probability that a household personal computer is used between 1.8 and 2.75 hours per day for entertainment is 0.5886.<nbsp /><nbsp /></p>
           <figure xml:id="fs-idm13004032">
-            <image source="media/fig-ch06_05_03.jpg" width="90%"/>
+            <image source="media/fig-ch06_05_03.jpg" width="90%" />
           </figure>
         </solution>
       </example>
       <exercise xml:id="fs-idm101393328">
         <title>Try It</title>
-        <statement>
+      <statement>
           <p>The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three. Find the probability that a golfer scored between 66 and 70.</p>
-          <p>normalcdf(66,70,68,3) = 0.4950</p>
-        </statement>
-      </exercise>
+          </statement>
+      <solution><p>normalcdf(66,70,68,3) = 0.4950</p>
+        </solution></exercise>
       <example xml:id="eip-562">
         <statement>
           <p>a. Determine the probability that a random smartphone user in the age range 13 to 55+ is between 23 and 64.7 years old.</p>
@@ -743,26 +785,28 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by 
       </example>
       <exercise xml:id="fs-idm126739248">
         <title>Try It</title>
-        <statement>
+      <statement>
           <p>Use the information in  to answer the following questions:</p>
-          <p>Let <m>X</m> = a smart phone user whose age is 13 to 55+. <m>X</m> ~ <m>N</m>(36.9, 13.9)</p>
           <ol>
             <li>Find the 30^{th} percentile, and interpret it in a complete sentence.</li>
             <li>What is the probability that the age of a randomly selected smartphone user in the range 13 to 55+ is less than 27 years old?</li>
           </ol>
           <ol>
             <li>To find the 30^{th} percentile, find <m>k</m> such that  <m>P</m>(<m>x</m> &lt; <m>k</m>) = 0.30.
-<nbsp/>invNorm(0.30, 36.9, 13.9) = 29.6 years
-<nbsp/>Thirty percent of smartphone users 13 to 55+ are at most 29.6 years and 70% are at least 29.6 years.</li>
+<nbsp />invNorm(0.30, 36.9, 13.9) = 29.6 years
+<nbsp />Thirty percent of smartphone users 13 to 55+ are at most 29.6 years and 70% are at least 29.6 years.</li>
             <li>Find <m>P</m>(<m>x</m> &lt; 27)
-
-
-
-<nbsp/>normalcdf(0,27,36.9,13.9) = 0.2342
-<nbsp/>(Note that normalcdf(–10^{99},27,36.9,13.9) = 0.2382. The two answers differ only by 0.0040.)</li>
+<figure>
+  <image source="media/CNX_Stats_C06_M03_001b.png" width="80%">
+    <description>This is a normal distribution curve. The peak of the curve coincides with the point 36.9 on the horizontal axis. The point 27 is also labeled. A vertical line extends from 27 to the curve. The area under the curve to the left of 27 is shaded. The shaded area shows that P(x &lt; 27) = 0.2342.</description>
+  </image>
+</figure>
+<nbsp />normalcdf(0,27,36.9,13.9) = 0.2342
+<nbsp />(Note that normalcdf(–10^{99},27,36.9,13.9) = 0.2382. The two answers differ only by 0.0040.)</li>
           </ol>
         </statement>
-      </exercise>
+      <solution><p>Let <m>X</m> = a smart phone user whose age is 13 to 55+. <m>X</m> ~ <m>N</m>(36.9, 13.9)</p>
+          </solution></exercise>
       <example xml:id="fs-idm50441184">
         <statement>
           <p>a. Calculate the interquartile range (<em>IQR</em>).</p>
@@ -774,7 +818,7 @@ Recall that we can use invNorm to find the <m>k</m>-value. We can use this to fi
 invNorm(0.75,36.9,13.9) = <m>Q</m>_{3} = 46.2754
 invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
 <em>IQR</em> = <m>Q</m>_{3} – <m>Q</m>_{1} = 18.8
-<nbsp/><nbsp/></p>
+<nbsp /><nbsp /></p>
           <ul>
             <li><em>IQR</em> = <m>Q</m>_{3} – <m>Q</m>_{1}</li>
             <li>Calculate <m>Q</m>_{3} = 75^{th} percentile and <m>Q</m>_{1} = 25^{th} percentile.</li>
@@ -787,7 +831,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
       </example>
       <exercise xml:id="fs-idm81547104">
         <title>Try It</title>
-        <statement>
+      <statement>
           <p>Two thousand students took an exam. The scores on the exam have an approximate normal distribution with a mean <m>μ</m> = 81 points and standard deviation <m>σ</m> = 15 points.</p>
           <ol>
             <li>Calculate the first- and third-quartile scores for this exam.</li>
@@ -795,7 +839,7 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
           </ol>
           <ol>
             <li><m>Q</m>_{1} = 25^{th} percentile = invNorm(0.25,81,15) = 70.9
-<nbsp/><m>Q</m>_{3} = 75^{th} percentile = invNorm(0.75,81,15) = 91.9</li>
+<nbsp /><m>Q</m>_{3} = 75^{th} percentile = invNorm(0.75,81,15) = 91.9</li>
             <li>The middle 50% of the scores are between 70.9 and 91.1.</li>
           </ol>
         </statement>
@@ -807,20 +851,19 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         <solution>
           <p>a. normalcdf(6,10^99,5.85,0.24) = 0.2660</p>
           <figure xml:id="eip-idp150275440">
-            <image source="media/CNX_Stats_C06_M03_003a.jpg" width="84%"/>
+            <image source="media/CNX_Stats_C06_M03_003a.jpg" width="84%" />
           </figure>
         </solution>
       </example>
       <exercise xml:id="fs-idm127937776">
         <title>Try It</title>
-        <statement>
+      <statement>
           <p>Using the information from , answer the following:</p>
           <p>The middle area = 0.40, so each tail has an area of 0.30.</p>
           <p>1 – 0.40 = 0.60</p>
           <p>The tails of the graph of the normal distribution each have an area of 0.30.</p>
           <p>Find <m>k1</m>, the 30^{th} percentile and <m>k2</m>, the 70^{th} percentile (0.40 + 0.30 = 0.70).</p>
           <p><m>k1</m> = invNorm(0.30,5.85,0.24) = 5.72 cm</p>
-          <p><m>k2</m> = invNorm(0.70,5.85,0.24) = 5.98 cm</p>
           <ol>
             <li>The middle 45 percent of mandarin oranges from this farm are between ______ and ______.</li>
             <li>Find the 16^{th} percentile, and interpret it in a complete sentence.</li>
@@ -831,7 +874,8 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
             <li>normalcdf(5,1099,5.85,0.24) = 0.9998</li>
           </ol>
         </statement>
-      </exercise>
+      <solution><p><m>k2</m> = invNorm(0.70,5.85,0.24) = 5.98 cm</p>
+          </solution></exercise>
     </subsection>
 
     <subsection xml:id="fs-idm101453488">
@@ -858,10 +902,11 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
 
     <subsection xml:id="eip-527">
       <exercise xml:id="fs-idp83652864">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>How would you represent the area to the left of one in a probability statement?</p>
           <figure xml:id="eip-idp74682384">
-            <image source="media/CNX_Stats_C06_M04_item001.jpg"/>
+            <image source="media/CNX_Stats_C06_M04_item001.jpg" />
           </figure>
         </statement>
         <solution>
@@ -869,15 +914,17 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="fs-idm18365728">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the area to the right of one?</p>
           <figure xml:id="eip-idm26567824">
-            <image source="media/CNX_Stats_C06_M04_item001.jpg"/>
+            <image source="media/CNX_Stats_C06_M04_item001.jpg" />
           </figure>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp76730048">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Is <m>P</m>(<m>x</m> &lt; 1) equal to <m>P</m>(<m>x</m> ≤ 1)? Why or why not?</p>
         </statement>
         <solution>
@@ -885,18 +932,20 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="fs-idp16475344">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>How would you represent the area to the left of three in a probability statement?</p>
           <figure xml:id="eip-idm45345808">
-            <image source="media/CNX_Stats_C06_M04_item002.jpg"/>
+            <image source="media/CNX_Stats_C06_M04_item002.jpg" />
           </figure>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp103778720">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>What is the area to the right of three?</p>
           <figure xml:id="eip-idp19359872">
-            <image source="media/CNX_Stats_C06_M04_item002.jpg"/>
+            <image source="media/CNX_Stats_C06_M04_item002.jpg" />
           </figure>
         </statement>
         <solution>
@@ -904,12 +953,14 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="fs-idp880816">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>If the area to the left of <m>x</m> in a normal distribution is 0.123, what is the area to the right of <m>x</m>?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idm33682096">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>If the area to the right of <m>x</m> in a normal distribution is 0.543, what is the area to the left of <m>x</m>?</p>
         </statement>
         <solution>
@@ -919,12 +970,14 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
       <p><em>Use the following information to answer the next four exercises:</em></p>
       <p><m>X</m> ~ <m>N</m>(54, 8)</p>
       <exercise xml:id="fs-idp83610000">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Find the probability that <m>x</m> &gt; 56.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp105059184">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Find the probability that <m>x</m> &lt; 30.</p>
         </statement>
         <solution>
@@ -932,12 +985,14 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="fs-idp153118944">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Find the 80^{th} percentile.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp49095264">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Find the 60^{th} percentile.</p>
         </statement>
         <solution>
@@ -945,13 +1000,15 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="fs-idp65259648">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p><m>X</m> ~ <m>N</m>(6, 2)</p>
           <p>Find the probability that <m>x</m> is between three and nine.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp152542352">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p><m>X</m> ~ <m>N</m>(–3, 4)</p>
           <p>Find the probability that <m>x</m> is between one and four.</p>
         </statement>
@@ -960,16 +1017,23 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="fs-idp153143568">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p><m>X</m> ~ <m>N</m>(4, 5)</p>
           <p>Find the maximum of <m>x</m> in the bottom quartile.</p>
         </statement>
       </exercise>
       <exercise xml:id="element-942">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p><em>Use the following information to answer the next three exercises:</em> The life of Sunshine CD players is normally distributed with a mean of 4.1 years and a standard deviation of 1.3 years. A CD player is guaranteed for three years. We are interested in the length of time a CD player lasts. Find the probability that a CD player will break down during the guarantee period.</p>
           <ol>
-            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.</li>
+            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.
+<figure>
+  <image source="media/fig-ch06_07_01.jpg" width="80%">
+    <description>Empty normal distribution curve.</description>
+  </image>
+</figure></li>
             <li><m>P</m>(0 &lt; <m>x</m> &lt; ____________) = ___________. Use zero for the minimum value of <m>x</m>.</li>
           </ol>
         </statement>
@@ -981,19 +1045,31 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
         </solution>
       </exercise>
       <exercise xml:id="element-893">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Find the probability that a CD player will last between 2.8 and 6 years.</p>
           <ol>
-            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.</li>
+            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.
+<figure>
+  <image source="media/fig-ch06_07_02.jpg" width="80%">
+    <description>Empty normal distribution curve.</description>
+  </image>
+</figure></li>
             <li><m>P</m>(__________ &lt; <m>x</m> &lt; __________) = __________</li>
           </ol>
         </statement>
       </exercise>
       <exercise xml:id="ch06-element-889">
-        <statement>
+        <title>Try It</title>
+      <statement>
           <p>Find the 70^{th} percentile of the distribution for the time a CD player lasts.</p>
           <ol>
-            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the lower 70 percent.</li>
+            <li>Sketch the situation. Label and scale the axes. Shade the region corresponding to the lower 70 percent.
+<figure>
+  <image source="media/fig-ch06_07_03.jpg" width="80%">
+    <description>Empty normal distribution curve.</description>
+  </image>
+</figure></li>
             <li><m>P</m>(<m>x</m> &lt; <m>k</m>) = __________. Therefore, <m>k</m> = _________.</li>
           </ol>
         </statement>
@@ -1418,7 +1494,7 @@ Why aren’t the answers to part f and part g exactly the same?</p>
         </statement>
         <solution>
           <ol>
-            <li>mean = 60,136<nbsp/>
+            <li>mean = 60,136<nbsp />
 <m>s</m> = 10,468</li>
             <li>Answers will vary</li>
             <li>Answers will vary</li>
@@ -1519,7 +1595,7 @@ Using the theoretical distribution, complete the following statements. You shoul
           <li>The student will compare and contrast empirical data and a theoretical distribution to determine if Terry Vogel's lap times fit a continuous distribution.</li>
         </ul>
         <ul>
-          <li>Use the data from <xref ref="appendix-c-data-sets">Appendix C</xref>. Use a stratified sampling method by lap races 1 to 20 and a random number generator to pick six lap times from each stratum. Record the lap times below for laps two to seven.<nbsp/>
+          <li>Use the data from <xref ref="appendix-c-data-sets">Appendix C</xref>. Use a stratified sampling method by lap races 1 to 20 and a random number generator to pick six lap times from each stratum. Record the lap times below for laps two to seven.<nbsp />
 
 
 
@@ -1570,7 +1646,12 @@ _______
 _______
 _______
 _______</li>
-          <li>Construct a histogram. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.</li>
+          <li>Construct a histogram. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.
+<figure>
+  <image source="media/fig-ch06_10_01.png" width="80%">
+    <description>Blank graph with relative frequency on the vertical axis and lap time on the horizontal axis.</description>
+  </image>
+</figure></li>
           <li>Calculate the following:
 
 <m>\overline{x}</m> = _______
@@ -1630,7 +1711,7 @@ Using the theoretical distribution, complete the following statements. Use a nor
           <li>The student will compare empirical data and a theoretical distribution to determine if data from the experiment follow a continuous distribution.</li>
         </ul>
         <ol>
-          <li>Randomly survey 30 adults for their pinkie finger lengths. Round the lengths to the nearest 0.5 cm.<nbsp/>
+          <li>Randomly survey 30 adults for their pinkie finger lengths. Round the lengths to the nearest 0.5 cm.<nbsp />
 
 
 
@@ -1675,7 +1756,12 @@ _______
 _______
 _______
 _______</li>
-          <li>Construct a histogram. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.</li>
+          <li>Construct a histogram. Make five to six intervals. Sketch the graph using a ruler and pencil. Scale the axes.
+<figure>
+  <image source="media/fig-ch06_11_01N.png" width="80%">
+    <description>Blank graph with frequency on the vertical axis and length of finger on the horizontal axis.</description>
+  </image>
+</figure></li>
           <li>Calculate the following:
 <m>\overline{x}</m> = _______
 <m>s</m> = _______</li>
