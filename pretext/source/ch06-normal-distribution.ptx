@@ -1799,4 +1799,25 @@ _______</li>
   </exercises>
 </section>
 
+
+  <glossary xml:id="glossary-ch06">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-normal-distribution">
+      <title>normal distribution</title>
+      <p>a continuous random variable (RV) with a probability density function that is symmetric and bell-shaped; notation: X ~ N(μ, σ) where μ is the mean and σ is the standard deviation</p>
+    </gi>
+
+    <gi xml:id="gi-standard-normal-distribution">
+      <title>standard normal distribution</title>
+      <p>a normal distribution with mean 0 and standard deviation 1; notation: Z ~ N(0, 1)</p>
+    </gi>
+
+    <gi xml:id="gi-z-score">
+      <title>z-score</title>
+      <p>the number of standard deviations a value is from the mean; for a data value x from a population with mean μ and standard deviation σ, the z-score is calculated as z = (x - μ)/σ</p>
+    </gi>
+
+  </glossary>
+
 </chapter>

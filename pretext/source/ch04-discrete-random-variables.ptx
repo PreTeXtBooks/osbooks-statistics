@@ -3036,4 +3036,55 @@ How do you know? Answer in complete sentences.</li>
     </subsection>
 
   </section>
+
+
+  <glossary xml:id="glossary-ch04">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-binomial-distribution">
+      <title>binomial distribution</title>
+      <p>a discrete random variable (RV) that arises from Bernoulli trials; there are a fixed number n of independent trials, each trial has only two possible outcomes (success or failure), and the probability of success is the same for each trial</p>
+    </gi>
+
+    <gi xml:id="gi-binomial-probability-distribution">
+      <title>binomial probability distribution</title>
+      <p>a discrete probability distribution characterized by the parameters n (number of trials) and p (probability of success); notation: X ~ B(n, p)</p>
+    </gi>
+
+    <gi xml:id="gi-expected-value-mean">
+      <title>expected value</title>
+      <p>the long-term average of many trials of a statistical experiment; also called the mean; notation: μ or E(X)</p>
+    </gi>
+
+    <gi xml:id="gi-geometric-distribution">
+      <title>geometric distribution</title>
+      <p>a discrete random variable (RV) that arises from the Bernoulli trials; the trials are repeated until the first success occurs; notation: X ~ G(p)</p>
+    </gi>
+
+    <gi xml:id="gi-hypergeometric-distribution">
+      <title>hypergeometric distribution</title>
+      <p>a discrete random variable (RV) characterized by: (1) a fixed number of trials; (2) the probability of success is not the same from trial to trial because sampling is without replacement; (3) each trial has only two possible outcomes</p>
+    </gi>
+
+    <gi xml:id="gi-poisson-distribution">
+      <title>Poisson distribution</title>
+      <p>a discrete random variable (RV) that counts the number of times a certain event occurs in a fixed interval of time or space, assuming that occurrences are independent and occur at a constant rate</p>
+    </gi>
+
+    <gi xml:id="gi-probability-distribution-function">
+      <title>probability distribution function (PDF)</title>
+      <p>a mathematical description of a discrete random variable (RV), given either in the form of an equation or in the form of a table listing all possible outcomes and their associated probabilities</p>
+    </gi>
+
+    <gi xml:id="gi-random-variable">
+      <title>random variable (RV)</title>
+      <p>a characteristic of interest in a population being studied; notation: X, Y, Z, etc.; common notation: capital letters are used to represent a random variable, and lowercase letters are used to represent the values of the random variable</p>
+    </gi>
+
+    <gi xml:id="gi-standard-deviation-rv">
+      <title>standard deviation</title>
+      <p>a number that describes the spread of a probability distribution; it is the square root of the variance; notation: σ for population standard deviation and s for sample standard deviation</p>
+    </gi>
+
+  </glossary>
 </chapter>

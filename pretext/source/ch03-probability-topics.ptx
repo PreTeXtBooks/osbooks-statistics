@@ -2999,6 +2999,72 @@ Totals
     </exercises>
   </section>
 
+
+  <glossary xml:id="glossary-ch03">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-complement">
+      <title>complement</title>
+      <p>the set of all outcomes that are NOT in the event; the complement of event A is denoted A′; P(A) + P(A′) = 1</p>
+    </gi>
+
+    <gi xml:id="gi-conditional-probability">
+      <title>conditional probability</title>
+      <p>the likelihood that an event will occur given that another event has already occurred; P(A|B) is read "the probability of A given B"</p>
+    </gi>
+
+    <gi xml:id="gi-contingency-table-prob">
+      <title>contingency table</title>
+      <p>a table that displays sample values for two different factors that may be dependent or contingent on one another</p>
+    </gi>
+
+    <gi xml:id="gi-equally-likely">
+      <title>equally likely</title>
+      <p>each outcome of an experiment has the same probability</p>
+    </gi>
+
+    <gi xml:id="gi-event">
+      <title>event</title>
+      <p>any combination of outcomes; a subset of the sample space</p>
+    </gi>
+
+    <gi xml:id="gi-experiment">
+      <title>experiment</title>
+      <p>a planned activity carried out under controlled conditions</p>
+    </gi>
+
+    <gi xml:id="gi-independent-events">
+      <title>independent events</title>
+      <p>the occurrence of one event has no effect on the probability of the occurrence of another event; events A and B are independent if P(A|B) = P(A) or P(B|A) = P(B) or P(A AND B) = P(A)P(B)</p>
+    </gi>
+
+    <gi xml:id="gi-mutually-exclusive">
+      <title>mutually exclusive</title>
+      <p>two events that cannot occur at the same time; events A and B are mutually exclusive if P(A AND B) = 0</p>
+    </gi>
+
+    <gi xml:id="gi-outcome">
+      <title>outcome</title>
+      <p>a result of an experiment</p>
+    </gi>
+
+    <gi xml:id="gi-sample-space">
+      <title>sample space</title>
+      <p>the set of all possible outcomes of an experiment; often denoted by S</p>
+    </gi>
+
+    <gi xml:id="gi-tree-diagram">
+      <title>tree diagram</title>
+      <p>a visual representation showing all possible outcomes of an experiment using branches</p>
+    </gi>
+
+    <gi xml:id="gi-venn-diagram">
+      <title>Venn diagram</title>
+      <p>a visual representation of the relationships between events using circles or other shapes within a rectangle that represents the sample space</p>
+    </gi>
+
+  </glossary>
+
   <conclusion>
     <p>
       This chapter has covered fundamental probability concepts and calculation methods.

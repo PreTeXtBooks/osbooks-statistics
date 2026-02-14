@@ -2692,4 +2692,44 @@ Therefore, <em>m</em> = <m>
   </note>
 </section>
 
+
+  <section xml:id="sec-continuous-rv-references">
+    <title>References</title>
+    
+    <p>Data from the National Center for Health Statistics. Retrieved from http://www.cdc.gov/nchs.</p>
+    <p>Data from the Bureau of Transportation Statistics. Retrieved from http://www.bts.gov.</p>
+    <p>Data from www.baseball-reference.com (accessed May 1, 2013).</p>
+  </section>
+
+
+  <glossary xml:id="glossary-ch05">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-continuous-probability-distribution">
+      <title>continuous probability distribution</title>
+      <p>a probability distribution for a continuous random variable; the probability is represented by the area under the curve of the probability density function</p>
+    </gi>
+
+    <gi xml:id="gi-exponential-distribution">
+      <title>exponential distribution</title>
+      <p>a continuous random variable (RV) that measures the time between arrivals of a Poisson process; often used to model waiting times; notation: X ~ Exp(m) where m = 1/μ is the decay parameter</p>
+    </gi>
+
+    <gi xml:id="gi-memoryless-property">
+      <title>memoryless property</title>
+      <p>the property that for an exponential distribution, the probability of waiting an additional t units given that one has already waited s units is the same as the probability of waiting t units from the start</p>
+    </gi>
+
+    <gi xml:id="gi-probability-density-function">
+      <title>probability density function (PDF)</title>
+      <p>the function that defines a continuous probability distribution; the probability that a continuous RV takes a value in an interval is equal to the area under the PDF curve over that interval</p>
+    </gi>
+
+    <gi xml:id="gi-uniform-distribution-continuous">
+      <title>uniform distribution</title>
+      <p>a continuous random variable (RV) that has equally likely outcomes over the domain, a ≤ x ≤ b; notation: X ~ U(a, b)</p>
+    </gi>
+
+  </glossary>
+
 </chapter>

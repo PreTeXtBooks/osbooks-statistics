@@ -931,4 +931,92 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
     </note>
   </section>
 
+
+  <section xml:id="sec-chi-square-chapter-review">
+    <title>Chapter Review</title>
+    
+    <subsection xml:id="subsec-chi-square-facts-review">
+      <title>Facts About the Chi-Square Distribution</title>
+      <p>The chi-square distribution is used for many statistical tests including tests of independence, homogeneity, and goodness-of-fit. The notation for the chi-square distribution is χ². The chi-square curve is nonsymmetrical and skewed to the right. There is a different chi-square curve for each degrees of freedom. The degrees of freedom depend on how the chi-square is being used.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-goodness-of-fit-review">
+      <title>Goodness-of-Fit Test</title>
+      <p>To assess whether a data set fits a specific probability distribution, use the goodness-of-fit test. The null hypothesis is that the data fits the given distribution. We compare observed counts to expected counts calculated under the null hypothesis. The test statistic is Σ[(O - E)² / E], where O represents observed values and E represents expected values.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-test-of-independence-review">
+      <title>Test of Independence</title>
+      <p>Tests of independence use a contingency table to determine if two factors are independent or dependent. The null hypothesis states that the two factors are independent. The degrees of freedom equal (number of rows - 1)(number of columns - 1).</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-test-for-homogeneity-review">
+      <title>Test for Homogeneity</title>
+      <p>The test for homogeneity is used to determine if different populations have the same distribution for a categorical variable. While similar to the test of independence, the test for homogeneity starts with separate, distinct populations.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-single-variance-review">
+      <title>Test of a Single Variance</title>
+      <p>To test whether a population variance is equal to a hypothesized value, we use a chi-square test for a single variance. The test statistic is χ² = (n-1)s²/σ₀², where n is the sample size, s² is the sample variance, and σ₀² is the hypothesized population variance.</p>
+    </subsection>
+  </section>
+
+
+  <section xml:id="sec-chi-square-references">
+    <title>References</title>
+    
+    <p>Data from the United States Census Bureau. Retrieved from http://www.census.gov.</p>
+    <p>Data from the Bureau of Labor Statistics. Retrieved from http://www.bls.gov.</p>
+    <p>Data from the National Center for Health Statistics. Retrieved from http://www.cdc.gov/nchs.</p>
+    <p>"Smoking and Health." Retrieved from http://www.cdc.gov/tobacco.</p>
+    <p>Data from www.gallup.com.</p>
+    <p>Data from www.pewresearch.org.</p>
+  </section>
+
+
+  <glossary xml:id="glossary-ch11">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-chi-square-distribution">
+      <title>chi-square distribution</title>
+      <p>a probability distribution used in many hypothesis tests including tests of independence, homogeneity, goodness-of-fit, and variance; the notation is χ² with degrees of freedom df</p>
+    </gi>
+
+    <gi xml:id="gi-contingency-table">
+      <title>contingency table</title>
+      <p>a table presenting data in two categories; used for test of independence and test for homogeneity</p>
+    </gi>
+
+    <gi xml:id="gi-expected-values">
+      <title>expected value</title>
+      <p>the theoretical frequency of an observation; the count that would be expected in a cell of a frequency table if the null hypothesis were true; notation: E</p>
+    </gi>
+
+    <gi xml:id="gi-goodness-of-fit">
+      <title>goodness-of-fit test</title>
+      <p>a test to determine how well a data set fits a specific probability distribution</p>
+    </gi>
+
+    <gi xml:id="gi-observed-values">
+      <title>observed value</title>
+      <p>the actual count from the data; notation: O</p>
+    </gi>
+
+    <gi xml:id="gi-test-of-homogeneity">
+      <title>test for homogeneity</title>
+      <p>a test used to determine if different populations have the same distribution for a categorical variable</p>
+    </gi>
+
+    <gi xml:id="gi-test-of-independence">
+      <title>test of independence</title>
+      <p>a test using a contingency table to determine whether two factors are independent or dependent</p>
+    </gi>
+
+    <gi xml:id="gi-test-of-single-variance">
+      <title>test of a single variance</title>
+      <p>a test to determine if a population variance is equal to a hypothesized value</p>
+    </gi>
+
+  </glossary>
+
 </chapter>

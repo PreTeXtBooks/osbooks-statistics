@@ -7900,6 +7900,168 @@ For <em>Data 1</em>, there are more data values below four than there are above 
     </exercises>
   </section>
 
+
+  <section xml:id="sec-descriptive-statistics-chapter-review">
+    <title>Chapter Review</title>
+    
+    <subsection xml:id="subsec-display-data-review">
+      <title>Displaying Data</title>
+      <p>A stem plot is a quick way to make a sketch of a distribution while showing every individual value in the dataset. Stem plots are especially useful for small to moderate sized data sets. They allow you to see the shape of the distribution and identify outliers. To create a stem plot, each observation is separated into a stem, such as the leftmost digit(s), and a leaf, such as the rightmost digit.</p>
+      <p>A frequency polygon is useful when comparing multiple distributions. It uses points connected by straight lines to depict the frequency of values in a data set.</p>
+      <p>A time series graph is a graph that presents data chronologically. It can be useful in detecting trends over time.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-measures-location-review">
+      <title>Measures of the Location of the Data</title>
+      <p>The values that divide a rank-ordered set of data into 100 equal parts are called percentiles. Percentiles are useful for comparing values. For each data value, it's percentile is the percent of values that are less than or equal to that value. The median is the 50th percentile.</p>
+      <p>Quartiles are numbers that separate the data into quarters. Quartiles may or may not be part of the data. The second quartile, Q₂, is the median of the data. Q₁ is the value so that 25% of the data are less than or equal to Q₁, and Q₃ is the value so that 75% of the data are less than or equal to Q₃.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-box-plots-review">
+      <title>Box Plots</title>
+      <p>Box plots are a type of graph that can help visually organize data. To graph a box plot the following data points must be calculated: the minimum value, the first quartile, the median, the third quartile, and the maximum value. Once the box plot is graphed, you can display and compare distributions of data.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-measures-center-review">
+      <title>Measures of the Center of the Data</title>
+      <p>The mean, median, and mode are measures of the center of a data set. The mean is the arithmetic average. Add all the data values and divide by the number of values in the data set to get the mean. The median is the middle value when the data are ordered. If there is an even number of data values, the median is the average of the two middle values. The mode is the data value (or values) that occurs most frequently.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-skewness-review">
+      <title>Skewness and the Mean, Median, and Mode</title>
+      <p>Looking at the distribution of data can reveal a lot about the relationship between the mean, the median, and the mode. There are three types of distributions. A right (or positively) skewed distribution has a shape with a long tail to the right. A left (or negatively) skewed distribution has a shape with a long tail to the left. A symmetrical distribution has equal proportions on both sides of the center.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-measures-spread-review">
+      <title>Measures of the Spread of the Data</title>
+      <p>Measures of the spread of the data describe how the data are distributed. The range is the difference between the maximum and minimum values. Another measure of spread is the variance. The variance is the average of the squared differences from the mean. The standard deviation is the positive square root of the variance and has the same units as the data.</p>
+      <p>The interquartile range, IQR, is the range of the middle 50 percent of the data values. The IQR is found by subtracting Q₁ from Q₃, and can help determine outliers by using the following two expressions:</p>
+      <ul>
+        <li><p>Q₁ – 1.5(IQR)</p></li>
+        <li><p>Q₃ + 1.5(IQR)</p></li>
+      </ul>
+    </subsection>
+  </section>
+
+
+  <section xml:id="sec-descriptive-statistics-references">
+    <title>References</title>
+    
+    <p>Data from the San Jose Mercury News.</p>
+    <p>Data from <em>The World Almanac and Book of Facts</em>. Retrieved from www.worldalmanac.com.</p>
+    <p>Data from www.businessweek.com (accessed May 1, 2013).</p>
+    <p>Data from www.forbes.com (accessed May 1, 2013).</p>
+    <p>Data from http://www.nba.com (accessed May 1, 2013).</p>
+    <p>Data from http://www.baseball-almanac.com (accessed May 1, 2013).</p>
+    <p>"Demographics: Obesity – adult prevalence rate." Retrieved from www.indexmundi.com.</p>
+    <p>"MLB Standings 2011." Retrieved from http://www.baseball-reference.com.</p>
+    <p>"The College Board." Retrieved from www.collegeboard.org.</p>
+    <p>"NFL.com –  Official Site of the National Football League." Retrieved from http://www.nfl.com.</p>
+    <p>"Overweight and Obesity: Adult Obesity Facts." Retrieved from http://www.cdc.gov.</p>
+    <p>"Wind Chill." Retrieved from http://www.weather.com.</p>
+  </section>
+
+
+  <glossary xml:id="glossary-ch02">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-box-plot">
+      <title>box plot</title>
+      <p>a graph that gives a quick picture of the middle 50% of the data</p>
+    </gi>
+
+    <gi xml:id="gi-first-quartile">
+      <title>first quartile</title>
+      <p>the value that is the median of the lower half of the ordered data set</p>
+    </gi>
+
+    <gi xml:id="gi-frequency-polygon">
+      <title>frequency polygon</title>
+      <p>a graph that displays data using points joined by straight lines</p>
+    </gi>
+
+    <gi xml:id="gi-histogram">
+      <title>histogram</title>
+      <p>a graphical representation in x-y form of the distribution of data in a data set; x represents the data and y represents the frequency, or relative frequency; the graph consists of contiguous rectangles</p>
+    </gi>
+
+    <gi xml:id="gi-interquartile-range">
+      <title>interquartile range</title>
+      <p>the distance between the third quartile (Q₃) and the first quartile (Q₁); IQR = Q₃ – Q₁</p>
+    </gi>
+
+    <gi xml:id="gi-mean">
+      <title>mean</title>
+      <p>a number that measures the central tendency; a common name for mean is average; the term mean is a shortened form of arithmetic mean; the sample mean is denoted by <m>\bar{x}</m></p>
+    </gi>
+
+    <gi xml:id="gi-median">
+      <title>median</title>
+      <p>a number that separates ordered data into halves; half the values are the same number or smaller than the median and half the values are the same number or larger than the median; the median may or may not be part of the data</p>
+    </gi>
+
+    <gi xml:id="gi-mode">
+      <title>mode</title>
+      <p>the value that appears most frequently in a set of data</p>
+    </gi>
+
+    <gi xml:id="gi-outlier">
+      <title>outlier</title>
+      <p>an observation that does not fit the rest of the data</p>
+    </gi>
+
+    <gi xml:id="gi-percentile">
+      <title>percentile</title>
+      <p>a number that divides ordered data into hundredths; percentiles may or may not be part of the data; the median is the 50th percentile</p>
+    </gi>
+
+    <gi xml:id="gi-quartiles">
+      <title>quartiles</title>
+      <p>the numbers that separate the data into quarters; quartiles may or may not be part of the data; the second quartile is the median; the first quartile is the 25th percentile; the third quartile is the 75th percentile</p>
+    </gi>
+
+    <gi xml:id="gi-range">
+      <title>range</title>
+      <p>the difference between the maximum and minimum values in a data set</p>
+    </gi>
+
+    <gi xml:id="gi-skewed">
+      <title>skewed</title>
+      <p>a distribution that is not symmetrical</p>
+    </gi>
+
+    <gi xml:id="gi-standard-deviation">
+      <title>standard deviation</title>
+      <p>a number that is equal to the square root of the variance and measures how far data values are from their mean; notation: s for sample standard deviation and σ for population standard deviation</p>
+    </gi>
+
+    <gi xml:id="gi-stem-and-leaf-graph">
+      <title>stem-and-leaf graph</title>
+      <p>a graph that consists of two columns; the left column contains the stems and the right column contains the leaves; the stems are the first digit(s) and the leaves are the last digit(s)</p>
+    </gi>
+
+    <gi xml:id="gi-symmetric-distribution">
+      <title>symmetric distribution</title>
+      <p>a distribution that is the same on both sides of the center</p>
+    </gi>
+
+    <gi xml:id="gi-third-quartile">
+      <title>third quartile</title>
+      <p>the value that is the median of the upper half of the ordered data set</p>
+    </gi>
+
+    <gi xml:id="gi-time-series-graph">
+      <title>time-series graph</title>
+      <p>a graph that displays data values on the y-axis versus time on the x-axis to show trends in the data over time</p>
+    </gi>
+
+    <gi xml:id="gi-variance">
+      <title>variance</title>
+      <p>mean of the squared deviations from the mean; the square of the standard deviation; for a sample: <m>s^2 = \frac{\sum (x - \bar{x})^2}{n - 1}</m>; for a population: <m>\sigma^2 = \frac{\sum (x - \mu)^2}{N}</m></p>
+    </gi>
+
+  </glossary>
+
   <conclusion>
     <p>
       This chapter has covered various methods for describing and visualizing data distributions.
