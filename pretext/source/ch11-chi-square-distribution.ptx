@@ -30,7 +30,7 @@ The test of independence, which determines if events are independent, such as in
 The test of a single variance, which tests variability, such as in the coffee example</p>
     <note xml:id="id17641525">
       <title>NOTE</title>
-      <p>Though the chi-square distribution depends on calculators or computers for most of the calculations, there is a table available (see <url href="m79717" />). TI-83+ and TI-84 calculator instructions are included in the text.</p>
+      <p>Though the chi-square distribution depends on calculators or computers for most of the calculations, there is a table available (see <xref ref="appendix-h-tables"/>). TI-83+ and TI-84 calculator instructions are included in the text.</p>
     </note>
     <note xml:id="fs-idm94608208">
       <title>Collaborative Classroom Exercise</title>
@@ -332,7 +332,7 @@ sure you clear any lists before you start.</p>
       <li><m>j</m> = the number of columns in the table.</li>
     </ul>
     <p>There are <m>i⋅j</m> terms of the form <m>\frac{(O-E)^{2}}{E}</m>.</p>
-    <p>A test of independence determines whether two factors are independent. You first encountered the term <em>independence</em> in <url href="m79609">Probability Topics</url>. As a review, consider the following example.</p>
+    <p>A test of independence determines whether two factors are independent. You first encountered the term <em>independence</em> in <xref ref="ch03-probability-topics">Probability Topics</xref>. As a review, consider the following example.</p>
     <note xml:id="ch11-eip-155">
       <title>Note</title>
       <p>The expected value for each cell needs to be at least five for you to use this test.</p>

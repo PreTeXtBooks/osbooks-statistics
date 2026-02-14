@@ -1353,7 +1353,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           </ol>
         </statement>
         <solution>
-          <p>a. This is the same as the marginal distribution (<url href="m79594">Section 1.2</url>).</p>
+          <p>a. This is the same as the marginal distribution (<xref ref="sec-data-sampling-variation">Section 1.2</xref>).</p>
           <p>b. The marginal distribution is</p>
           <p>c. Find the number of participants who satisfy <em>both</em> conditions.</p>
           <p>d. To find this probability, you need to identify how many participants use a cell phone while driving OR have no violation in the past year OR both.</p>

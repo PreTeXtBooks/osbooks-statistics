@@ -2817,7 +2817,7 @@ It doesn’t matter. I expect to break even.
             <p><em>X</em> ∼ <em>B</em>(50, 0.6)</p>
           </li>
           <li>
-            <p>Using the TI-83, 83+, 84 calculator with instructions as provided in <url href=""></url>:</p>
+            <p>Using the TI-83, 83+, 84 calculator with instructions as provided in <xref ref="appendix-g-calculator-notes">Appendix G</xref>:</p>
             <ol marker="1.">
               <li>
                 <p><em>P</em>(<em>x</em> = 25) = binompdf(50, 0.6, 25) = 0.0405</p>
@@ -2877,7 +2877,7 @@ It doesn’t matter. I expect to break even.
           </ol>
         </li>
         <li>
-          <p>Using the TI-83, 83+, 84 calculator with instructions as provided in <url href=""></url>:
+          <p>Using the TI-83, 83+, 84 calculator with instructions as provided in <xref ref="appendix-g-calculator-notes">Appendix G</xref>:
  <em>P</em>(<em>x</em> ≤ 8) = binomcdf(200, .0128, 8) = .9988</p>
         </li>
         <li>
@@ -2927,7 +2927,7 @@ It doesn’t matter. I expect to break even.
             </ol>
           </li>
           <li>
-            <p>Using the TI-83, 83+, 84 calculator with instructions as provided in <url href=""></url>:
+            <p>Using the TI-83, 83+, 84 calculator with instructions as provided in <xref ref="appendix-g-calculator-notes">Appendix G</xref>:
  <em>P</em>(<em>x</em> = 60) = binompdf(80, 0.613, 60) = 0.0036</p>
           </li>
           <li>
@@ -3154,7 +3154,7 @@ It doesn’t matter. I expect to break even.
       <exercise xml:id="fs-idp24682912">
         <statement>
           <p>
-            People visiting video rental stores often rent more than one DVD at a time. The probability distribution for DVD rentals per customer at Video to Go is given <url href=""></url>. There is a five-video limit per customer at this store, so nobody ever rents more than five DVDs.
+            People visiting video rental stores often rent more than one DVD at a time. The probability distribution for DVD rentals per customer at Video to Go is given in <xref ref="M04_Ch04_tbl005"/>. There is a five-video limit per customer at this store, so nobody ever rents more than five DVDs.
           </p>
           <table xml:id="M04_Ch04_tbl005">
             <tabular>

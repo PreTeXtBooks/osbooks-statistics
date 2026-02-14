@@ -2045,7 +2045,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
   <exercise xml:id="ch8-eip-375">
     <title>Try It</title>
       <statement>
-        <p>The research group referenced in <url href="" /> talked to teens in smaller focus groups but also interviewed additional teens over the phone. When the study was complete, 588 teens had answered the question about their social media site friends, with 159 saying that they have more than 500 friends. Use the plus-four method to find a 90 percent confidence interval for the true proportion of teens who would report having more than 500 online friends based on this larger sample. Compare the results to those in <url href="" />.
+        <p>The research group referenced in <xref ref="ch8-eip-790"/> talked to teens in smaller focus groups but also interviewed additional teens over the phone. When the study was complete, 588 teens had answered the question about their social media site friends, with 159 saying that they have more than 500 friends. Use the plus-four method to find a 90 percent confidence interval for the true proportion of teens who would report having more than 500 online friends based on this larger sample. Compare the results to those in <xref ref="ch8-eip-790"/>.
      </p>
       </statement>
       <solution>
@@ -3518,7 +3518,7 @@ line with the upper and lower limits of the confidence interval and the sample m
       <exercise xml:id="exe1">
         <title>Try It</title>
         <statement>
-          <p>Refer to  the information in <url href="" />.</p>
+          <p>Refer to the information in <xref ref="ch8-eip-idp49345824"/>.</p>
           <ol>
             <li>Construct three 95 percent confidence intervals:
    
