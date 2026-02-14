@@ -284,77 +284,6 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idm8472096">
-      <title>Homework</title>
-      <exercise xml:id="element-919">
-        <statement>
-          <p>Some of the following statements refer to the null hypothesis, some to the alternate hypothesis.</p>
-          <p>State the null hypothesis, <em>H_{0}</em>, and the alternative hypothesis. <em>H_{a}</em>, in terms of the appropriate parameter (<m>μ</m> or <m>p</m>).</p>
-          <ol>
-            <li>The mean number of years Americans work before retiring is 34.</li>
-            <li>At most 60 percent of Americans vote in presidential elections.</li>
-            <li>The mean starting salary for San Jose State University graduates is at least $100,000 per year.</li>
-            <li>Twenty-nine percent of high school students take physical education daily.</li>
-            <li>Less than 5 percent of adults ride the bus to work in Los Angeles.</li>
-            <li>The mean number of cars a person owns in her lifetime is not more than 10.</li>
-            <li>About half of Americans prefer to live away from cities, given the choice.</li>
-            <li>Europeans have a mean paid vacation each year of six weeks.</li>
-            <li>The chance of developing breast cancer is under 11 percent for women.</li>
-            <li>Private universities' mean tuition cost is more than $20,000 per year.</li>
-          </ol>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>μ</m> = 34; <em>H_{a}</em>: <m>μ</m> ≠ 34</li>
-            <li><em>H_{0}</em>: <m>p</m> ≤ 0.60; <em>H_{a}</em>: <m>p</m> &gt; 0.60</li>
-            <li><em>H_{0}</em>: <m>μ</m> ≥ 100,000; <em>H_{a}</em>: <m>μ</m> &lt; 100,000</li>
-            <li><em>H_{0}</em>: <m>p</m> = 0.29; <em>H_{a}</em>: <m>p</m> ≠ 0.29</li>
-            <li><em>H_{0}</em>: <m>p</m> = 0.05; <em>H_{a}</em>: <m>p</m> &lt; 0.05</li>
-            <li><em>H_{0}</em>: <m>μ</m> ≤ 10; <em>H_{a}</em>: <m>μ</m> &gt; 10</li>
-            <li><em>H_{0}</em>: <m>p</m> = 0.50; <em>H_{a}</em>: <m>p</m> ≠ 0.50</li>
-            <li><em>H_{0}</em>: <m>μ</m> = 6; <em>H_{a}</em>: <m>μ</m> ≠ 6</li>
-            <li><em>H_{0}</em>: <m>p</m> ≥ 0.11; <em>H_{a}</em>: <m>p</m> &lt; 0.11</li>
-            <li><em>H_{0}</em>: <m>μ</m> ≤ 20,000; <em>H_{a}</em>: <m>μ</m> &gt; 20,000</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="ch9-exer11">
-        <statement>
-          <p>A recent survey of 273 randomly selected teens living in Massachusetts asked about social media. Sixty-three said that they routinely use a certain app to share pictures. The researchers want to determine if there is good evidence that more than 30 percent of teens use this app. The alternative hypothesis is as follows:</p>
-          <ol>
-            <li><m>p</m> &lt; 0.30</li>
-            <li><m>p</m> ≤ 0.30</li>
-            <li><m>p</m> ≥ 0.30</li>
-            <li><m>p</m> &gt; 0.30</li>
-          </ol>
-        </statement>
-      </exercise>
-      <exercise xml:id="exer13">
-        <statement>
-          <p>A statistics instructor believes that fewer than 20 percent of Evergreen Valley College (EVC) students attended the opening night midnight showing of the latest Harry Potter movie. She surveys 84 of her students and finds that 11 attended the midnight showing. An appropriate alternative hypothesis is as follows:</p>
-          <ol>
-            <li><m>p</m> = 0.20</li>
-            <li><m>p</m> &gt; 0.20</li>
-            <li><m>p</m> &lt; 0.20</li>
-            <li><m>p</m> ≤ 0.20</li>
-          </ol>
-        </statement>
-        <solution>
-          <p>c</p>
-        </solution>
-      </exercise>
-      <exercise xml:id="exer18">
-        <statement>
-          <p>Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test. The null and alternative hypotheses are as follows:</p>
-          <ol>
-            <li><em>H_{o}</em>: <m>\overline{x}</m> = 4.5, <em>H_{a}</em> : <m>\overline{x}</m> &gt; 4.5</li>
-            <li><em>H_{o}</em>: <m>μ</m> ≥ 4.5, <em>H_{a}</em>: <m>μ</m> &lt; 4.5</li>
-            <li><em>H_{o}</em>: <m>μ</m> = 4.75, <em>H_{a}</em>: <m>μ</m> &gt; 4.75</li>
-            <li><em>H_{o}</em>: <m>μ</m> = 4.5, <em>H_{a}</em>: <m>μ</m> &gt; 4.5</li>
-          </ol>
-        </statement>
-      </exercise>
-    </subsection>
 
     <subsection xml:id="fs-idm48036544">
       <title>References</title>
@@ -573,100 +502,6 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idp36704512">
-      <title>Homework</title>
-      <exercise xml:id="element-612">
-        <statement>
-          <p>State the Type I and Type II errors in complete sentences given the following statements.</p>
-          <ol>
-            <li>The mean number of years Americans work before retiring is 34.</li>
-            <li>At most 60 percent of Americans vote in presidential elections.</li>
-            <li>The mean starting salary for San Jose State University graduates is at least $100,000 per year.</li>
-            <li>29 percent of high school students take physical education every day.</li>
-            <li>Less than 5 percent of adults ride the bus to work in Los Angeles.</li>
-            <li>The mean number of cars a person owns in his or her lifetime is not more than 10.</li>
-            <li>About half of Americans prefer to live away from cities, given the choice.</li>
-            <li>Europeans have a mean paid vacation each year of six weeks.</li>
-            <li>The chance of developing breast cancer is under 11 percent for women.</li>
-            <li>Private universitie' mean tuition cost is more than $20,000 per year.</li>
-          </ol>
-        </statement>
-        <solution>
-          <ol>
-            <li>Type I error: We conclude that the mean is not 34 years, when it really is 34 years. Type II error: We conclude that the mean is 34 years, when in fact it really is not 34 years.</li>
-            <li>Type I error: We conclude that more than 60 percent of Americans vote in presidential elections, when the actual percentage is at most 60 percent.Type II error: We conclude that at most 60 percent of Americans vote in presidential elections when, in fact, more than 60 percent do.</li>
-            <li>Type I error: We conclude that the mean starting salary is less than $100,000, when it really is at least $100,000. Type II error: We conclude that the mean starting salary is at least $100,000 when, in fact, it is less than $100,000.</li>
-            <li>Type I error: We conclude that the proportion of high school seniors who take physical education daily is not 29%, when it really is 29%. Type II error: We conclude that the proportion of high school seniors who take physical education daily is 29% when, in fact, it is not 29%.</li>
-            <li>Type I error: We conclude that fewer than 5 percent of adults ride the bus to work in Los Angeles, when the percentage that do is really 29%. Type II error: We conclude that 29%. or more adults ride the bus to work in Los Angeles when, in fact, fewer that 29% do.</li>
-            <li>Type I error: We conclude that the mean number of cars a person owns in his or her lifetime is more than 10, when in reality it is not more than 10. Type II error: We conclude that the mean number of cars a person owns in his or her lifetime is not more than 10 when, in fact, it is more than 10.</li>
-            <li>Type I error: We conclude that the proportion of Americans who prefer to live away from cities is not about half, though the actual proportion is about half. Type II error: We conclude that the proportion of Americans who prefer to live away from cities is half when, in fact, it is not half.</li>
-            <li>Type I error: We conclude that the duration of paid vacations each year for Europeans is not six weeks, when in fact it is six weeks. Type II error: We conclude that the duration of paid vacations each year for Europeans is six weeks when, in fact, it is not.</li>
-            <li>Type I error: We conclude that the proportion is less than 11 percent, when it is really at least 11 percent. Type II error: We conclude that the proportion of women who develop breast cancer is at least 11 percent, when in fact it is less than 11 percent.</li>
-            <li>Type I error: We conclude that the average tuition cost at private universities is more than $20,000, though in reality it is at most $20,000. Type II error: We conclude that the average tuition cost at private universities is at most $20,000 when, in fact, it is more than $20,000.</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="ch9-element-231">
-        <statement>
-          <p>For Statements A–J in , answer the following in complete sentences.</p>
-          <ol>
-            <li>State a consequence of committing a Type I error.</li>
-            <li>State a consequence of committing a Type II error.</li>
-          </ol>
-        </statement>
-      </exercise>
-      <exercise xml:id="ch9-exer10">
-        <statement>
-          <p>When a new drug is created, the pharmaceutical company must subject it to testing before receiving the necessary permission from the U.S. Food and Drug Administration (FDA) to market the drug. Suppose the null hypothesis is <em>the drug is unsafe</em>. What is the Type II error?</p>
-          <ol>
-            <li>To conclude the drug is safe when, in fact, it is unsafe.</li>
-            <li>Not to conclude the drug is safe when, in fact, it is safe.</li>
-            <li>To conclude the drug is safe when, in fact, it is safe.</li>
-            <li>Not to conclude the drug is unsafe when, in fact, it is unsafe.</li>
-          </ol>
-        </statement>
-        <solution>
-          <p>b</p>
-        </solution>
-      </exercise>
-      <exercise xml:id="exer15">
-        <statement>
-          <p>A statistics instructor believes that fewer than 20 percent of Evergreen Valley College (EVC) students attended the opening midnight showing of the latest Harry Potter movie. She surveys 84 of her students and finds that 11 of them attended the midnight showing. The Type I error is to conclude that the percent of EVC students who attended is ________.</p>
-          <ol>
-            <li>at least 20 percent, when, in fact, it is less than 20 percent.</li>
-            <li>20 percent, when, in fact, it is 20 percent.</li>
-            <li>less than 20 percent, when, in fact, it is at least 20 percent.</li>
-            <li>less than 20 percent, when, in fact, it is less than 20 percent.</li>
-          </ol>
-        </statement>
-      </exercise>
-      <exercise xml:id="exer17">
-        <statement>
-          <p>It is believed that Lake Tahoe Community College (LTCC) Intermediate Algebra students get less than seven hours of sleep per night, on average. A survey of 22 LTCC Intermediate Algebra students generated a mean of 7.24 hours with a standard deviation of 1.93 hours. At a level of significance of 5 percent, do LTCC Intermediate Algebra students get less than seven hours of sleep per night, on average?</p>
-          <p>The Type II error is not to reject that the mean number of hours of sleep LTCC students get per night is at least seven when, in fact, the mean number of hours</p>
-          <ol>
-            <li>is more than seven hours.</li>
-            <li>is at most seven hours.</li>
-            <li>is at least seven hours.</li>
-            <li>is less than seven hours.</li>
-          </ol>
-        </statement>
-        <solution>
-          <p>d</p>
-        </solution>
-      </exercise>
-      <exercise xml:id="exer20">
-        <statement>
-          <p>Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test. The Type I error is</p>
-          <ol>
-            <li>to conclude that the current mean hours per week is higher than 4.5, when, in fact, it is higher.</li>
-            <li>to conclude that the current mean hours per week is higher than 4.5, when, in fact, it is the same.</li>
-            <li>to conclude that the mean hours per week currently is 4.5, when, in fact, it is higher.</li>
-            <li>to conclude that the mean hours per week currently is no higher than 4.5, when, in fact, it is not higher.</li>
-          </ol>
-        </statement>
-      </exercise>
-    </subsection>
 
   </section>
 
@@ -803,23 +638,6 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idm173512608">
-      <title>Homework</title>
-      <exercise xml:id="fs-idm140519760">
-        <statement>
-          <p>It is believed that Lake Tahoe Community College (LTCC) Intermediate Algebra students get less than seven hours of sleep per night, on average. A survey of 22 LTCC Intermediate Algebra students generated a mean of 7.24 hours with a standard deviation of 1.93 hours. At a level of significance of 5 percent, do LTCC Intermediate Algebra students get less than seven hours of sleep per night, on average? The distribution to be used for this test is <m>\overline{X}</m> ~ ________________</p>
-          <ol>
-            <li><m>N(7.24,\frac{1.93}{\sqrt{22}})</m></li>
-            <li><m>N(7.24,1.93)</m></li>
-            <li><m>t</m>_{22}</li>
-            <li><m>t</m>_{21}</li>
-          </ol>
-        </statement>
-        <solution>
-          <p>d</p>
-        </solution>
-      </exercise>
-    </subsection>
 
   </section>
 
@@ -1103,51 +921,6 @@ Conclusion (write out in a complete sentence):</li>
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idp78752032">
-      <title>Homework</title>
-      <exercise xml:id="fs-idp20135424">
-        <statement>
-          <p>The National Institute of Mental Health published an article stating that in any one-year period approximately 9.5 percent of American adults suffer from depression or a depressive illness. Suppose that in a survey of 100 people in a certain town, seven of them suffered from depression or a depressive illness. Conduct a hypothesis test to determine if the true proportion of people in that town suffering from depression or a depressive illness is lower than the percent in the general adult American population.</p>
-          <ol>
-            <li>Is this a test of one mean or proportion?</li>
-            <li>State the null and alternative hypotheses.
-<nbsp /><em>H_{0}</em>: ____________________  <em>H_{a}</em>:  ____________________</li>
-            <li>Is this a right-tailed, left-tailed, or two-tailed test?</li>
-            <li>What symbol represents the random variable for this test?</li>
-            <li>In words, define the random variable for this test.</li>
-            <li>Calculate the following:
-
-<m>x</m> = ________________
-<m>n</m> = ________________
-<m>p^{′}</m> = _____________</li>
-            <li><m>x</m> = ________________</li>
-            <li><m>n</m> = ________________</li>
-            <li><m>p^{′}</m> = _____________</li>
-            <li>Calculate <em>σ_{x}</em> =  __________. Show the formula setup.</li>
-            <li>State the distribution to use for the hypothesis test.</li>
-            <li>Find the <m>p</m>-value.</li>
-            <li>At a pre-conceived <m>α</m> = 0.05, give your answer for each of the following:
-
-Decision:
-Reason for the decision:
-Conclusion (write out in a complete sentence):</li>
-            <li>Decision:</li>
-            <li>Reason for the decision:</li>
-            <li>Conclusion (write out in a complete sentence):</li>
-          </ol>
-          <ol>
-            <li><m>x</m> = ________________</li>
-            <li><m>n</m> = ________________</li>
-            <li><m>p^{′}</m> = _____________</li>
-          </ol>
-          <ol>
-            <li>Decision:</li>
-            <li>Reason for the decision:</li>
-            <li>Conclusion (write out in a complete sentence):</li>
-          </ol>
-        </statement>
-      </exercise>
-    </subsection>
 
   </section>
 
@@ -1566,8 +1339,8 @@ Next, the <m>z</m>-test is given by
     </exercise>
     <p>The next example is a poem written by a statistics student named Nicole Hart. The solution to the problem follows the poem. Notice that the hypothesis test is for a single population proportion. This means that the null and alternate hypotheses use the parameter <m>p</m>. The distribution for the test is normal. The estimated proportion <m>p</m>′ is the proportion of fleas killed to the total fleas found on Fido. This is sample information. The problem gives a preconceived <m>α</m> = 0.01, for comparison, and a 95 percent confidence interval computation. The poem is clever and humorous, so please enjoy it!</p>
     <example xml:id="element-837">
-      <title>Note</title>
       <statement>
+        <title>Note</title>
         <p>My dog has so many fleas,<nbsp />
 They do not come off with ease.<nbsp />
 As for shampoo, I have tried many types<nbsp />
@@ -1835,938 +1608,6 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idp139727497473120">
-      <title>Homework</title>
-      <p><em>For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in <xref ref="appendix-e-solution-sheets">Appendix E, Solution Sheets</xref>. Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.</em></p>
-      <note xml:id="id8395739">
-        <title>Note</title>
-        <p>If you are using a Student's-<m>t</m>-distribution for one of the following homework problems, you may assume that the underlying population is normally distributed. In general, you must first prove that assumption, however.</p>
-      </note>
-      <exercise xml:id="element-816">
-        <statement>
-          <p>A particular brand of tires claims that its deluxe tire averages at least 50,000 miles before it needs to be replaced. From past studies of this tire, the standard deviation is known to be 8,000. A survey of owners of that tire design is conducted. From the 28 tires surveyed, the mean lifespan was 46,500 miles with a standard deviation of 9,800 miles. Using alpha = 0.05, are the data highly inconsistent with the claim?</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>μ</m> ≥ 50,000</li>
-            <li><em>H_{a}</em>: <m>μ</m> &lt; 50,000</li>
-            <li>Let <m>\overline{X}</m> = the average lifespan of a brand of tires.</li>
-            <li>normal distribution</li>
-            <li><m>z</m> = -2.315</li>
-            <li><m>p</m>-value = 0.0103</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-            Decision: Reject the null hypothesis.
-            Reason for decision: The <m>p</m>-value is less than 0.05.
-            Conclusion: There is sufficient evidence to conclude that the mean lifespan of the tires is less than 50,000 miles.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is less than 0.05.</li>
-            <li>Conclusion: There is sufficient evidence to conclude that the mean lifespan of the tires is less than 50,000 miles.</li>
-            <li>(43,537, 49,463)</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="element-809">
-        <statement>
-          <p>In 2009, President Barack Obama announced a new national fuel economy and emissions policy for cars and light trucks. It stated that the combined fleet fuel economy for an auto manufacturer of cars and light trucks will have to average 35.5 mpg or better by 2016. From past studies on fuel economy, it is known that the standard deviation of a typical fleet is 7.6 mpg. An auto manufacturer selects a random sample of 55 cars and light trucks and finds the sample mean fuel economy to be 34.6 mpg with a standard deviation of 10.3 mpg. Can the manufacturer claim that their fleet meets the fuel economy standard in the 2016 policy at the 5 percent level?</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>μ</m> ≥ 35.5</li>
-            <li><em>H_{a}</em>: <m>μ</m> &lt; 35.5</li>
-            <li>Let <m>\overline{x}</m> = the average mpg for the sample of cars and trucks in the fleet</li>
-            <li>normal distribution</li>
-            <li>z = -0.648</li>
-            <li><m>p</m>-value = 0.2578</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-            Decision: Do not reject the null hypothesis.
-            Reason for decision: The p-value is greater than 0.05.
-            Conclusion: There is sufficient evidence to support the claim that the manufacturer’s fleet meets the fuel economy standards in the 2016 policy.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Do not reject the null hypothesis.</li>
-            <li>Reason for decision: The p-value is greater than 0.05.</li>
-            <li>Conclusion: There is sufficient evidence to support the claim that the manufacturer’s fleet meets the fuel economy standards in the 2016 policy.</li>
-            <li>(31.88 mpg, 37.32 mpg)</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="element-635">
-        <statement>
-          <p>The cost of a daily newspaper varies from city to city. However, the variation among prices remains steady with a standard deviation of 20¢. A study was done to test the claim that the mean cost of a daily newspaper is $1.00. Twelve costs yield a mean cost of 95¢ with a standard deviation of 18¢. Do the data support the claim at the 1 percent level?</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>μ</m> = $1.00</li>
-            <li><em>H_{a}</em>: <m>μ</m> ≠ $1.00</li>
-            <li>Let <m>\overline{x}</m>
- = the average cost of a daily newspaper.</li>
-            <li>normal distribution</li>
-            <li><m>z</m> = –0.866</li>
-            <li><m>p</m>-value = 0.3865</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.01
-          Decision: Do not reject the null hypothesis.
-          Reason for decision: The <m>p</m>-value is greater than 0.01.
-          Conclusion: There is sufficient evidence to support the claim that the mean cost of daily papers is $1. The mean cost could be $1.</li>
-            <li>Alpha: 0.01</li>
-            <li>Decision: Do not reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is greater than 0.01.</li>
-            <li>Conclusion: There is sufficient evidence to support the claim that the mean cost of daily papers is $1. The mean cost could be $1.</li>
-            <li>($0.84, $1.06)</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="element-94">
-        <statement>
-          <p>An article in the <em>San Jose Mercury News</em> stated that students in the California state university system take 4.5 years, on average, to finish their undergraduate degrees. Suppose you believe that the mean time is longer. You conduct a survey of 49 students and obtain a sample mean of 5.1 with a sample standard deviation of 1.2. Do the data support your claim at the 1 percent level?</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="element-932a">
-        <statement>
-          <p>The mean number of sick days an employee takes per year is believed to be about 10. Members of a personnel department do not believe this figure. They randomly survey eight employees. The number of sick days they took for the past year are as follows: 12; 4; 15; 3; 11; 8; 6; 8. Let <m>x</m> = the number of sick days they took for the past year. Should the personnel team believe that the mean number is 10?</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>μ</m> = 10</li>
-            <li><em>H_{a}</em>: <m>μ</m> ≠ 10</li>
-            <li>Let <m>\overline{X}</m> = the mean number of sick days an employee takes per year.</li>
-            <li>Student’s <m>t</m>-distribution</li>
-            <li><m>t</m> = –1.12</li>
-            <li><m>p</m>-value = 0.300</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-      Decision: Do not reject the null hypothesis.
-      Reason for decision: The <m>p</m>-value is greater than 0.05.
-      Conclusion: At the 5 percent significance level, there is insufficient evidence to conclude that the mean number of sick days is not 10.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Do not reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
-            <li>Conclusion: At the 5 percent significance level, there is insufficient evidence to conclude that the mean number of sick days is not 10.</li>
-            <li>(4.9443, 11.806)</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="element-950">
-        <statement>
-          <p>In 1955, <em>Life Magazine</em> reported that the 25-year-old mother of three worked, on average, an 80-hour week. Recently, many groups have been studying whether or not the women's movement has, in fact, resulted in an increase in the average work week for women (combining employment and at-home work). Suppose a study was done to determine if the mean work week has increased. Eighty-one women were surveyed with the following results. The sample mean was 83; the sample standard deviation was 10. Does it appear that the mean work week has increased for women at the 5 percent level?</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="element-321">
-        <statement>
-          <p>Your statistics instructor claims that 60 percent of the students who take her Elementary Statistics class go through life feeling more enriched. For some reason that she can't quite figure out, most people don't believe her. You decide to check this out on your own. You randomly survey 64 of her past Elementary Statistics students and find that 34 feel more enriched as a result of her class. Now, what do you think?</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>p</m> ≥ 0.6</li>
-            <li><em>H_{a}</em>: <m>p</m> &lt; 0.6</li>
-            <li>Let <m>P′</m> = the proportion of students who feel more enriched as a result of taking elementary statistics.</li>
-            <li>normal for a single proportion</li>
-            <li>1.12</li>
-            <li><m>p</m>-value =  0.1308</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-      Decision: Do not reject the null hypothesis.
-      Reason for decision: The <m>p</m>-value is greater than 0.05.
-      Conclusion: There is insufficient evidence to conclude that less than 60 percent of her students feel more enriched.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Do not reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
-            <li>Conclusion: There is insufficient evidence to conclude that less than 60 percent of her students feel more enriched.</li>
-            <li>Confidence interval: (0.409,  0.654)<nbsp />The “plus-4s” confidence interval is (0.411, 0.648)</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="element-410-2">
-        <statement>
-          <p>A Nissan Motor Corporation advertisement read, “The average man’s I.Q. is 107. The average brown trout’s I.Q. is 4. So why can’t man catch brown trout?” Suppose you believe that the brown trout’s mean I.Q. is greater than four. You catch 12 brown trout. A fish psychologist determines the I.Q.s as follows: 5, 4, 7, 3, 6, 4, 5, 3, 6, 3, 8, 5. Conduct a hypothesis test of your belief.</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="element-814">
-        <statement>
-          <p>Refer to . Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>μ</m> = 4</li>
-            <li><em>H_{a}</em>: <m>μ</m> ≠ 4</li>
-            <li>Let <m>\overline{X}</m> the average I.Q. of a set of brown trout.</li>
-            <li>two-tailed Student's <m>t</m>-test</li>
-            <li><m>t</m> = 1.95</li>
-            <li><m>p</m>-value = 0.076</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-      Decision: Reject the null hypothesis.
-      Reason for decision: The <m>p</m>-value is greater than 0.05
-      Conclusion: There is insufficient evidence to conclude that the average IQ of brown trout is not four.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is greater than 0.05</li>
-            <li>Conclusion: There is insufficient evidence to conclude that the average IQ of brown trout is not four.</li>
-            <li>(3.8865, 5.9468)</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="element-191">
-        <statement>
-          <p>According to an article in <em>Newsweek</em>, the natural ratio of girls to boys is 100:105. In China, the birth ratio is 100: 114 (46.7 percent girls). Suppose you don’t believe the reported figures of the percentage of girls born in China. You conduct a study. In this study, you count the number of girls and boys born in 150 randomly chosen recent births. There are 60 girls and 90 boys born of the 150. Based on your study, do you believe that the percentage of girls born in China is 46.7?</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="element-658">
-        <statement>
-          <p>A group of researchers research a common contagious disease. A newspaper found that 13 percent of Americans have been diagnosed with the disease in the last year. The researchers doubt that the percentage is really that high. It conducts its own survey. Out of 76 Americans surveyed, only two had been diagnosed with the disease. Would you agree with the newspaper's poll? In complete sentences, give three reasons why polls might give different results.</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>p</m> ≥ 0.13</li>
-            <li><em>H_{a}</em>: <m>p</m> &lt; 0.13</li>
-            <li>Let <m>P′</m> = the proportion of Americans who have the disease</li>
-            <li>normal for a single proportion</li>
-            <li>–2.688</li>
-            <li><m>p</m>-value = 0.0036</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-      Decision: Reject the null hypothesis.
-      Reason for decision: The <m>p</m>-value is less than 0.05.
-      Conclusion: There is sufficient evidence to conclude that the percentage of Americans who have been diagnosed with the disease is less than 13 percent.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is less than 0.05.</li>
-            <li>Conclusion: There is sufficient evidence to conclude that the percentage of Americans who have been diagnosed with the disease is less than 13 percent.</li>
-            <li>(0, 0.0623).<nbsp />
-      The <em>plus-4s</em> confidence interval is (0.0022, 0.0978)</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="element-53">
-        <statement>
-          <p>The mean work week for engineers in a start-up company is believed to be about 60 hours. A newly hired engineer hopes that it’s shorter. She asks 10 engineering friends in start-ups for the lengths of their mean work weeks. Based on the results that follow, should she count on the mean work week to be shorter than 60 hours?</p>
-          <p>Data (length of mean work week): 70, 45, 55, 60, 65, 55, 55, 60, 50, 55.</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="element-761">
-        <statement>
-          <p>Use the <em>Lap time</em> data for Lap 4 (see <xref ref="appendix-c-data-sets">Appendix C: Data Sets</xref>) to test the claim that Terri finishes Lap 4, on average, in less than 129 seconds. Use all 20 races given.</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>μ</m> ≥ 129</li>
-            <li><em>H_{a}</em>: <m>μ</m> &lt; 129</li>
-            <li>Let <m>\overline{X}</m> = the average time in seconds that Terri finishes Lap 4.</li>
-            <li>Student's <m>t</m>-distribution</li>
-            <li><m>t</m> = 1.209</li>
-            <li>0.8792</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-Decision: Do not reject the null hypothesis.
-Reason for decision: The <m>p</m>-value is greater than 0.05.
-Conclusion: There is insufficient evidence to conclude that Terri’s mean lap time is less than 129 seconds.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Do not reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
-            <li>Conclusion: There is insufficient evidence to conclude that Terri’s mean lap time is less than 129 seconds.</li>
-            <li>(128.63, 130.37)</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="fs-idp191961952">
-        <statement>
-          <p>Use the <em>Initial Public Offering</em> data (see <xref ref="appendix-c-data-sets">Appendix C: Data Sets</xref>) to test the claim that the mean offer price was $18 per share. Do not use all the data. Use your random number generator to randomly survey 15 prices.</p>
-        </statement>
-      </exercise>
-      <note xml:id="id9401550">
-        <title>Note</title>
-        <p>The following questions were written by past students. They are excellent problems!</p>
-      </note>
-      <exercise xml:id="ex1">
-        <statement>
-          <p>"Asian Family Reunion," by Chau Nguyen</p>
-          <p>Every two years it comes around.</p>
-          <p>We all get together from different towns.</p>
-          <p>In my honest opinion,</p>
-          <p>It's not a typical family reunion.</p>
-          <p>Not forty, or fifty, or sixty,</p>
-          <p>But how about seventy companions!</p>
-          <p>The kids would play, scream, and shout</p>
-          <p>One minute they're happy, another they'll pout.</p>
-          <p>The teenagers would look, stare, and compare</p>
-          <p>From how they look to what they wear.</p>
-          <p>The men would chat about their business</p>
-          <p>That they make more, but never less.</p>
-          <p>Money is always their subject</p>
-          <p>And there's always talk of more new projects.</p>
-          <p>The women get tired from all of the chats</p>
-          <p>They head to the kitchen to set out the mats.</p>
-          <p>Some would sit and some would stand</p>
-          <p>Eating and talking with plates in their hands.</p>
-          <p>Then come the games and the songs</p>
-          <p>And suddenly, everyone gets along!</p>
-          <p>With all that laughter, it's sad to say</p>
-          <p>That it always ends in the same old way.</p>
-          <p>They hug and kiss and say "good-bye"</p>
-          <p>And then they all begin to cry!</p>
-          <p>I say that 60 percent shed their tears</p>
-          <p>But my mom counted 35 people this year.</p>
-          <p>She said that boys and men will always have their pride,</p>
-          <p>So we won't ever see them cry.</p>
-          <p>I myself don't think she's correct,</p>
-          <p>So could you please try this problem to see if you object?</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.60</li>
-            <li><em>H_{a}</em>: <m>p</m> &lt; 0.60</li>
-            <li>Let <m>P′</m> = the proportion of family members who shed tears at a reunion.</li>
-            <li>normal for a single proportion</li>
-            <li>–1.71</li>
-            <li>0.0438</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-Decision: Reject the null hypothesis.
-Reason for decision: <m>p</m>-value &lt; alpha
-Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the <m>p</m>-value and alpha are quite close, so other tests should be done.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Reject the null hypothesis.</li>
-            <li>Reason for decision: <m>p</m>-value &lt; alpha</li>
-            <li>Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the <m>p</m>-value and alpha are quite close, so other tests should be done.</li>
-            <li>We are 95 percent confident that between 38.29 percent and 61.71 percent of family members will shed tears at a family reunion. (0.3829, 0.6171). The <em>plus-4s</em> confidence interval (see chapter 8) is (0.3861, 0.6139)</li>
-          </ol>
-          <p>Note that here the  <em>large-sample</em> 1 – PropZTest provides the approximate <m>p</m>-value of 0.0438. Whenever a <m>p</m>-value based on a normal approximation is close to the level of significance, the exact <m>p</m>-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course.</p>
-        </solution>
-      </exercise>
-      <exercise xml:id="ch9-exer4">
-        <statement>
-          <p>"Blowing Bubbles," by Sondra Prull</p>
-          <p>Studying stats just made me tense,</p>
-          <p>I had to find some sane defense.</p>
-          <p>Some light and lifting simple play</p>
-          <p>To float my math anxiety away.<nbsp /></p>
-          <p>Blowing bubbles lifts me high</p>
-          <p>Takes my troubles to the sky.</p>
-          <p>POIK! They're gone, with all my stress</p>
-          <p>Bubble therapy is the best.<nbsp /></p>
-          <p>The label said each time I blew</p>
-          <p>The average number of bubbles would be at least 22.</p>
-          <p>I blew and blew and this I found</p>
-          <p>From 64 blows, they all are round!<nbsp /></p>
-          <p>But the number of bubbles in 64 blows</p>
-          <p>Varied widely, this I know.</p>
-          <p>20 per blow became the mean</p>
-          <p>They deviated by 6, and not 16.<nbsp /></p>
-          <p>From counting bubbles, I sure did relax</p>
-          <p>But now I give to you your task.</p>
-          <p>Was 22 a reasonable guess?</p>
-          <p>Find the answer and pass this test!</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>μ</m> ≥ 22</li>
-            <li><em>H_{a}</em>: <m>μ</m> &lt; 22</li>
-            <li>Let <m>\overline{X}</m> = the mean number of bubbles per blow.</li>
-            <li>Student's <m>t</m>-distribution</li>
-            <li>–2.667</li>
-            <li><m>p</m>-value = 0.00486</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-Decision: Reject the null hypothesis.
-Reason for decision: The <m>p</m>-value is less than 0.05.
-Conclusion: There is sufficient evidence to conclude that the mean number of bubbles per blow is less than 22.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is less than 0.05.</li>
-            <li>Conclusion: There is sufficient evidence to conclude that the mean number of bubbles per blow is less than 22.</li>
-            <li>(18.501, 21.499)</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="ex3">
-        <statement>
-          <p>"Dalmatian Darnation," by Kathy Sparling</p>
-          <p>A greedy dog breeder named Spreckles</p>
-          <p>Bred puppies with numerous freckles</p>
-          <p>The Dalmatians he sought</p>
-          <p>Possessed spot upon spot</p>
-          <p>The more spots, he thought, the more shekels.<nbsp /></p>
-          <p>His competitors did not agree</p>
-          <p>That freckles would increase the fee.</p>
-          <p>They said, “Spots are quite nice</p>
-          <p>But they don't affect price;</p>
-          <p>One should breed for improved pedigree.”<nbsp /></p>
-          <p>The breeders decided to prove</p>
-          <p>This strategy was a wrong move.</p>
-          <p>Breeding only for spots</p>
-          <p>Would wreak havoc, they thought.</p>
-          <p>His theory they want to disprove.<nbsp /></p>
-          <p>They proposed a contest to Spreckles</p>
-          <p>Comparing dog prices to freckles.</p>
-          <p>In records they looked up</p>
-          <p>One hundred one pups:</p>
-          <p>Dalmatians that fetched the most shekels.<nbsp /></p>
-          <p>They asked Mr. Spreckles to name</p>
-          <p>An average spot count he'd claim</p>
-          <p>To bring in big bucks.</p>
-          <p>Said Spreckles, “Well, shucks,</p>
-          <p>It's for one hundred one that I aim.”<nbsp /></p>
-          <p>Said an amateur statistician</p>
-          <p>Who wanted to help with this mission.</p>
-          <p>“Twenty-one for the sample</p>
-          <p>Standard deviation's ample.”<nbsp /></p>
-          <p>They examined one hundred and one</p>
-          <p>Dalmatians that fetched a good sum.</p>
-          <p>They counted each spot,</p>
-          <p>Mark, freckle, and dot</p>
-          <p>And tallied up every one.<nbsp /></p>
-          <p>Instead of one hundred one spots</p>
-          <p>They averaged ninety-six dots</p>
-          <p>Can they muzzle Spreckles’</p>
-          <p>Obsession with freckles</p>
-          <p>Based on all the dog data they've got?</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="ch9-exer5">
-        <title>Price per box of Mac and Cheese</title>
-        <statement>
-          <p><em>Macaroni and Cheese, please!!</em> by Nedda Misherghi and Rachelle Hall</p>
-          <p>As a poor starving student I don't have much money to spend for even the bare necessities. So my favorite and main staple food is macaroni and cheese. It's high in taste and low in cost and nutritional value.</p>
-          <p>One day, as I sat down to determine the meaning of life, I got a serious craving for this, oh, so important, food of my life. So I went down the street to Greatway to get a box of macaroni and cheese, but it was SO expensive! $2.02 !!! Can you believe it? It made me stop and think. The world is changing fast. I had thought that the mean cost of a box (the normal size, not some super-gigantic-family-value-pack) was at most $1, but now I wasn't so sure. However, I was determined to find out. I went to 53 of the closest grocery stores and surveyed the prices of macaroni and cheese. Here are the data I wrote in my notebook:</p>
-          <p>I could see that the cost varied but I had to sit down to figure out whether or not I was right. If it does turn out that this mouth-watering dish is at most $1, then I'll throw a big cheesy party in our next statistics lab, with enough macaroni and cheese for just me. After all, as a poor starving student I can't be expected to feed our class of animals!</p>
-          <ul>
-            <li>5 stores @ $2.02</li>
-            <li>15 stores @ $0.25</li>
-            <li>3 stores @ $1.29</li>
-            <li>6 stores @ $0.35</li>
-            <li>4 stores @ $2.27</li>
-            <li>7 stores @ $1.50</li>
-            <li>5 stores @ $1.89</li>
-            <li>8 stores @ $0.75</li>
-          </ul>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>μ</m> ≤ 1</li>
-            <li><em>H_{a}</em>: <m>μ</m> &gt; 1</li>
-            <li>Let <m>\overline{X}</m> = the mean cost in dollars of macaroni and cheese in a certain town.</li>
-            <li>Student's <m>t</m>-distribution</li>
-            <li><m>t</m> = 0.340</li>
-            <li><m>p</m>-value = 0.36756</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-Decision: Do not reject the null hypothesis.
-Reason for decision: The <m>p</m>-value is greater than 0.05
-Conclusion: The mean cost could be $1, or less. At the 5 percent significance level, there is insufficient evidence to conclude that the mean price of a box of macaroni and cheese is more than $1.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Do not reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is greater than 0.05</li>
-            <li>Conclusion: The mean cost could be $1, or less. At the 5 percent significance level, there is insufficient evidence to conclude that the mean price of a box of macaroni and cheese is more than $1.</li>
-            <li>(0.8291, 1.241)</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="ch9-exer8">
-        <title>THE CHARACTERS (in order of appearance):</title>
-        <statement>
-          <p>"William Shakespeare: The Tragedy of Hamlet, Prince of Denmark," by Jacqueline Ghodsi</p>
-          <p>Scene: The great library of the castle, in which Hamlet does his lessons</p>
-          <p>Act I</p>
-          <p>The day is fair, but the face of Hamlet is clouded. He paces the large room. His tutor, Polonius, is reprimanding Hamlet regarding the latter’s recent experience. Horatio is seated at the large table at right stage.</p>
-          <p>POLONIUS: My Lord, how cans’t thou admit that thou hast seen a ghost! It is but a figment of your imagination!</p>
-          <p>HAMLET: I beg to differ; I know of a certainty that five-and-seventy in one hundred of us, condemned to the whips and scorns of time as we are, have gazed upon a spirit of health, or goblin damn’d, be their intents wicked or charitable.</p>
-          <p>POLONIUS: If thou dost insist upon thy wretched vision then let me invest your time; be true to thy work and speak to me through the reason of the null and alternate hypotheses. (He turns to Horatio.) Did not Hamlet himself say, “What a piece of work is man, how noble in reason, how infinite in faculties”? Then let not this foolishness persist. Go, Horatio, make a survey of three-and-sixty and discover what the true proportion be. For my part, I will never succumb to this fantasy, but deem man to be devoid of all reason should thy proposal of at least five-and-seventy in one hundred hold true.</p>
-          <p>HORATIO (to Hamlet): What should we do, my Lord?</p>
-          <p>HAMLET: Go to thy purpose, Horatio.</p>
-          <p>HORATIO: To what end, my Lord?</p>
-          <p>HAMLET: That you must teach me. But let me conjure you by the rights of our fellowship, by the consonance of our youth, but the obligation of our ever-preserved love, be even and direct with me, whether I am right or no.</p>
-          <p>Horatio exits, followed by Polonius, leaving Hamlet to ponder alone.</p>
-          <p>Act II</p>
-          <p>The next day, Hamlet awaits anxiously the presence of his friend, Horatio. Polonius enters and places some books upon the table just a moment before Horatio enters.</p>
-          <p>POLONIUS: So, Horatio, what is it thou didst reveal through thy deliberations?</p>
-          <p>HORATIO: In a random survey, for which purpose thou thyself sent me forth, I did discover that one-and-forty believe fervently that the spirits of the dead walk with us. Before my God, I might not this believe, without the sensible and true avouch of mine own eyes.</p>
-          <p>POLONIUS: Give thine own thoughts no tongue, Horatio. (Polonius turns to Hamlet.) But look to’t I charge you, my Lord. Come Horatio, let us go together, for this is not our test. (Horatio and Polonius leave together.)</p>
-          <p>HAMLET: To reject, or not reject, that is the question: whether ‘tis nobler in the mind to suffer the slings and arrows of outrageous statistics, or to take arms against a sea of data, and, by opposing, end them. (Hamlet resignedly attends to his task.)</p>
-          <p>(Curtain falls)</p>
-          <ul>
-            <li>HAMLET, Prince of Denmark and student of statistics</li>
-            <li>POLONIUS, Hamlet’s tutor</li>
-            <li>HORATIO, friend to Hamlet and fellow student</li>
-          </ul>
-        </statement>
-      </exercise>
-      <exercise xml:id="exer7">
-        <statement>
-          <p>"Untitled," by Stephen Chen</p>
-          <p>I've often wondered how software is released and sold to the public. Ironically, I work for a company that sells products with known problems. Unfortunately, most of the problems are difficult to create, which makes them difficult to fix. I usually use the test program X, which tests the product, to try to create a specific problem. When the test program is run to make an error occur, the likelihood of generating an error is 1 percent.</p>
-          <p>So, armed with this knowledge, I wrote a new test program Y that will generate the same error that test program X creates, but more often. To find out if my test program is better than the original, so that I can convince the management that I'm right, I ran my test program to find out how often I can generate the same error. When I ran my test program 50 times, I generated the error twice. While this may not seem much better, I think that I can convince the management to use my test program instead of the original test program. Am I right?</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.01</li>
-            <li><em>H_{a}</em>: <m>p</m> &gt; 0.01</li>
-            <li>Let <m>P′</m> = the proportion of errors generated</li>
-            <li>Normal for a single proportion</li>
-            <li>2.13</li>
-            <li>0.0165</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-Decision: Reject the null hypothesis.
-Reason for decision: The <m>p</m>-value is less than 0.05.
-Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of errors generated is more than 0.01.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is less than 0.05.</li>
-            <li>Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of errors generated is more than 0.01.</li>
-            <li>Confidence interval: (0, 0.094).<nbsp />The <em>plus-4s</em> confidence interval is (0.004, 0.144).</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="ch9-exer6">
-        <statement>
-          <p>"Japanese Girls’ Names"</p>
-          <p>by Kumi Furuichi</p>
-          <p>It used to be very typical for Japanese girls’ names to end with “ko.” The trend might have started around my grandmothers’ generation and its peak might have been around my mother’s generation. “Ko” means “child” in Chinese characters. Parents would name their daughters with “ko” attaching to other Chinese characters that have meanings that they want their daughters to become, such as Sachiko—happy child, Yoshiko—a good child, Yasuko—a healthy child, and so on.</p>
-          <p>However, I noticed recently that only two out of nine of my Japanese girlfriends at this school have names that end with “ko.” More and more, parents seem to have become creative, modernized, and, sometimes, westernized in naming their children.</p>
-          <p>I have a feeling that, while 70 percent or more of my mother’s generation would have names with “ko” at the end, the proportion has dropped among my peers. I wrote down all my Japanese friends’, ex-classmates’, coworkers’, and acquaintances’ names that I could remember. Following are the names. Some are repeats. Test to see if the proportion has dropped for this generation.</p>
-          <p>Ai, Akemi, Akiko, Ayumi, Chiaki, Chie, Eiko, Eri, Eriko, Fumiko, Harumi, Hitomi, Hiroko, Hiroko, Hidemi, Hisako, Hinako, Izumi, Izumi, Junko, Junko, Kana, Kanako, Kanayo, Kayo, Kayoko, Kazumi, Keiko, Keiko, Kei, Kumi, Kumiko, Kyoko, Kyoko, Madoka, Maho, Mai, Maiko, Maki, Miki, Miki, Mikiko, Mina, Minako, Miyako, Momoko, Nana, Naoko, Naoko, Naoko, Noriko, Rieko, Rika, Rika, Rumiko, Rei, Reiko, Reiko, Sachiko, Sachiko, Sachiyo, Saki, Sayaka, Sayoko, Sayuri, Seiko, Shiho, Shizuka, Sumiko, Takako, Takako, Tomoe, Tomoe, Tomoko, Touko, Yasuko, Yasuko, Yasuyo, Yoko, Yoko, Yoko, Yoshiko, Yoshiko, Yoshiko, Yuka, Yuki, Yuki, Yukiko, Yuko, Yuko.</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="exerrr">
-        <statement>
-          <p>"Phillip’s Wish," by Suzanne Osorio</p>
-          <p>My nephew likes to play</p>
-          <p>Chasing the girls makes his day.</p>
-          <p>He asked his mother</p>
-          <p>If it is okay</p>
-          <p>To get his ear pierced.</p>
-          <p>She said, “No way!”</p>
-          <p>To poke a hole through your ear,</p>
-          <p>Is not what I want for you, dear.</p>
-          <p>He argued his point quite well,</p>
-          <p>Says even my macho pal,  Mel,</p>
-          <p>Has gotten this done.</p>
-          <p>It’s all just for fun.</p>
-          <p>C’mon please, mom, please, what the hell.</p>
-          <p>Again Phillip complained to his mother,</p>
-          <p>Saying half his friends (including their brothers)</p>
-          <p>Are piercing their ears</p>
-          <p>And they have no fears</p>
-          <p>He wants to be like the others.</p>
-          <p>She said, “I think it’s much less.</p>
-          <p>We must do a hypothesis test.</p>
-          <p>And if you are right,</p>
-          <p>I won’t put up a fight.</p>
-          <p>But, if not, then my case will rest.”</p>
-          <p>We proceeded to call fifty guys</p>
-          <p>To see whose prediction would fly.</p>
-          <p>Nineteen of the fifty</p>
-          <p>Said piercing was nifty</p>
-          <p>And earrings they’d occasionally buy.</p>
-          <p>Then there’s the other thirty-one,</p>
-          <p>Who said they’d never have this done.</p>
-          <p>So now this poem’s finished.</p>
-          <p>Will his hopes be diminished,</p>
-          <p>Or will my nephew have his fun?</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.50</li>
-            <li><em>H_{a}</em>: <m>p</m> &lt; 0.50</li>
-            <li>Let <m>P′</m> = the proportion of friends that has a pierced ear.</li>
-            <li>normal for a single proportion</li>
-            <li>–1.70</li>
-            <li><m>p</m>-value = 0.0448</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-Decision: Reject the null hypothesis.
-Reason for decision: The <m>p</m>-value is less than 0.05. (However, they are very close.)
-Conclusion: There is sufficient evidence to support the claim that less than 50 percent of his friends have pierced ears.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is less than 0.05. (However, they are very close.)</li>
-            <li>Conclusion: There is sufficient evidence to support the claim that less than 50 percent of his friends have pierced ears.</li>
-            <li>Confidence interval: (0.245, 0.515): The <em>plus-4s</em> confidence interval is (0.259, 0.519).</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="exercise">
-        <statement>
-          <p>"The Craven," by Mark Salangsang</p>
-          <p>Once upon a morning dreary</p>
-          <p>In stats class I was weak and weary.</p>
-          <p>Pondering over last night’s homework</p>
-          <p>Whose answers were now on the board</p>
-          <p>This I did and nothing more.<nbsp /></p>
-          <p>While I nodded nearly napping</p>
-          <p>Suddenly, there came a tapping.</p>
-          <p>As someone gently rapping,</p>
-          <p>Rapping my head as I snore.</p>
-          <p>Quoth the teacher, “Sleep no more.”<nbsp /></p>
-          <p>“In every class you fall asleep,”</p>
-          <p>The teacher said, his voice was deep.</p>
-          <p>“So a tally I’ve begun to keep</p>
-          <p>Of every class you nap and snore.</p>
-          <p>The percentage being forty-four.”<nbsp /></p>
-          <p>“My dear teacher I must confess,</p>
-          <p>While sleeping is what I do best.</p>
-          <p>The percentage, I think, must be less,</p>
-          <p>A percentage less than forty-four.”</p>
-          <p>This I said and nothing more.<nbsp /></p>
-          <p>“We’ll see,” he said and walked away,</p>
-          <p>And fifty classes from that day</p>
-          <p>He counted till the month of May</p>
-          <p>The classes in which I napped and snored.</p>
-          <p>The number he found was twenty-four.<nbsp /></p>
-          <p>At a significance level of 0.05,</p>
-          <p>Please tell me am I still alive?</p>
-          <p>Or did my grade just take a dive</p>
-          <p>Plunging down beneath the floor?</p>
-          <p>Upon thee I hereby implore.</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="element-378">
-        <statement>
-          <p>Toastmasters International cites a report by Gallup Poll that 40 percent of Americans fear public speaking. A student believes that less than 40 percent of students at her school fear public speaking. She randomly surveys 361 schoolmates and finds that 135 report they fear public speaking. Conduct a hypothesis test to determine if the percentage at her school is less than 40.</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.40</li>
-            <li><em>H_{a}</em>: <m>p</m> &lt; 0.40</li>
-            <li>Let <m>P′</m> = the proportion of schoolmates who fear public speaking.</li>
-            <li>normal for a single proportion</li>
-            <li>–1.01</li>
-            <li><m>p</m>-value = 0.1563</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-Decision: Do not reject the null hypothesis.
-Reason for decision: The <m>p</m>-value is greater than 0.05.
-Conclusion: There is insufficient evidence to support the claim that less than 40 percent of students at the school fear public speaking.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Do not reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
-            <li>Conclusion: There is insufficient evidence to support the claim that less than 40 percent of students at the school fear public speaking.</li>
-            <li>Confidence interval: (0.3241, 0.4240): The <em>plus-4s</em> confidence interval is (0.3257, 0.4250).</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="element-48">
-        <statement>
-          <p>Sixty-eight percent of online courses taught at community colleges nationwide were taught by full-time faculty. To test if 68 percent also represents California’s percent for full-time faculty teaching the online classes, Long Beach City College (LBCC) in California was randomly selected for comparison. In the same year, 34 of the 44 online courses LBCC offered were taught by full-time faculty. Conduct a hypothesis test to determine if 68 percent represents California. Note: For more accurate results, use more California community colleges and this past year's data.</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="element-874">
-        <statement>
-          <p>According to an article in a local poll, a city found that 14 percent of its residents walk for exercise. Suppose that a survey is conducted to determine this years rate. Nine out of 70 randomly chosen city residents replied that they walk for exercise. Conduct a hypothesis test to determine if the rate is still 14 percent or if it has decreased.</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.14</li>
-            <li><em>H_{a}</em>: <m>p</m> &lt; 0.14</li>
-            <li>Let <m>P′</m> = the proportion of nursing home residents that have the disease.</li>
-            <li>normal for a single proportion</li>
-            <li>–0.2756</li>
-            <li><m>p</m>-value = 0.3914</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-Decision: Do not reject the null hypothesis.
-Reason for decision: The <m>p</m>-value is greater than 0.05.
-At the 5 percent significance level, there is insufficient evidence to conclude that the proportion of nursing home residents that have the disease is less than 0.14.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Do not reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
-            <li>At the 5 percent significance level, there is insufficient evidence to conclude that the proportion of nursing home residents that have the disease is less than 0.14.</li>
-            <li>Confidence interval: (0.0502, 0.2070): The <em>plus-4s</em> confidence interval (see chapter 8) is (0.0676, 0.2297).</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="element-767">
-        <statement>
-          <p>The mean age of De Anza College students in a previous term was 26.6 years old. An instructor thinks the mean age for online students is older than 26.6. She randomly surveys 56 online students and finds that the sample mean is 29.4 with a standard deviation of 2.1. Conduct a hypothesis test.</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="element-408">
-        <statement>
-          <p>Registered nurses earned an average annual salary of $69,110. For that same year, a survey was conducted of 41 California registered nurses to determine if the annual salary is higher than $69,110 for California nurses. The sample average was $71,121 with a sample standard deviation of $7,489. Conduct a hypothesis test.</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>μ</m> = 69,110</li>
-            <li><em>H_{a}</em>: <m>μ</m> &gt; 69,110</li>
-            <li>Let <m>\overline{X}</m> = the mean salary in dollars for California registered nurses.</li>
-            <li>Student's <m>t</m>-distribution</li>
-            <li><m>t</m> = 1.719</li>
-            <li><m>p</m>-value: 0.0466</li>
-            <li>Check student’s solution.</li>
-            <li>Alpha: 0.05
-Decision: Reject the null hypothesis.
-Reason for decision: The <m>p</m>-value is less than 0.05.
-Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the mean salary of California registered nurses exceeds $69,110.</li>
-            <li>Alpha: 0.05</li>
-            <li>Decision: Reject the null hypothesis.</li>
-            <li>Reason for decision: The <m>p</m>-value is less than 0.05.</li>
-            <li>Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the mean salary of California registered nurses exceeds $69,110.</li>
-            <li>($68,757, $73,485)</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="element-50">
-        <statement>
-          <p>La Leche League International reports that the mean age of weaning a child from breastfeeding is age four to five worldwide. In America, most nursing mothers wean their children much earlier. Suppose a random survey is conducted of 21 U.S. mothers who recently weaned their children. The mean weaning age was nine months (3/4 year) with a standard deviation of 4 months. Conduct a hypothesis test to determine if the mean weaning age in the United States is less than four years old.</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="exer12">
-        <statement>
-          <p>Harley Davidson motorcycles are the largest selling motorcycle in the United States, with 14 percent of all motorcycles sold in 2012. Interestingly, a random sample of 1,945 stolen motorcycles was selected, and it was found that just 8 percent of them were Harleys. Is there good evidence that the proportion of Harleys among stolen motorcycles is significantly less than their share of all motorcycles?  After conducting the test, what decision and conclusion would you make?</p>
-          <ol>
-            <li>Reject <em>H_{0}</em>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles</li>
-            <li>Do not reject <em>H_{0}</em>: There is not sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles</li>
-            <li>Do not reject <em>H_{0}</em>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly more than their share of all motorcycles</li>
-            <li>Reject <em>H_{0}</em>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly more than their share of all motorcycles</li>
-          </ol>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>p</m> ≥ 0.14, <em>H_{a}</em>: <m>p</m> &lt; 0.14</li>
-            <li><m>p</m>-value &lt; 0.0002</li>
-            <li>Alpha: 0.05</li>
-            <li>Reject the null hypothesis.</li>
-            <li>At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles. (conclusion a)</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="exer14">
-        <statement>
-          <p>A statistics instructor believes that fewer than 20 percent of Evergreen Valley College (EVC) students attended the opening night midnight showing of the latest Harry Potter movie. She surveys 84 of her students and finds that 11 of them attended the midnight showing.
-<nbsp />At a 1 percent level of significance, what is an appropriate conclusion?</p>
-          <ol>
-            <li>There is insufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Harry Potter is less than 20 percent.</li>
-            <li>There is sufficient evidence to conclude that the  percent of EVC students who attended the midnight showing of Harry Potter is more than 20 percent.</li>
-            <li>There is sufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Harry Potter is less than 20 percent.</li>
-            <li>There is insufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Harry Potter is at least 20 percent.</li>
-          </ol>
-        </statement>
-      </exercise>
-      <exercise xml:id="exer19">
-        <statement>
-          <p>Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test.
-<nbsp />At a significance level of
-<m>a</m> = 0.05, what is the correct conclusion?</p>
-          <ol>
-            <li>There is enough evidence to conclude that the mean number of hours is more than 4.75.</li>
-            <li>There is enough evidence to conclude that the mean number of hours is more than 4.5.</li>
-            <li>There is not enough evidence to conclude that the mean number of hours is more than 4.5.</li>
-            <li>There is not enough evidence to conclude that the mean number of hours is more than 4.75.</li>
-          </ol>
-        </statement>
-        <solution>
-          <p>c</p>
-        </solution>
-      </exercise>
-      <p><em>Hypothesis testing</em>: For the following 10 exercises, answer each question.</p>
-      <ol>
-        <li>State the null and alternate hypotheses.</li>
-        <li>State the <m>p</m>-value.</li>
-        <li>State alpha.</li>
-        <li>What is your decision?</li>
-        <li>Write a conclusion.</li>
-        <li>Answer any other questions asked in the problem.</li>
-      </ol>
-      <exercise xml:id="eip-69">
-        <statement>
-          <p>A research group is studying a particular infectious disease. In 2011 at least 18 percent of nursing home residents had the disease. An Introduction to Statistics class in Daviess County, KY, conducted a hypothesis test at the nursing home (approximately 1,200 residents) to determine if the local nursing home's incidence was lower. One hundred fifty residents were chosen at random and surveyed. Of the 150 residents surveyed, 82 have the disease. Use a significance level of 0.05 and, using appropriate statistical evidence, conduct a hypothesis test and state the conclusions.</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="eip-40">
-        <statement>
-          <p>A recent survey in the <em>New York Times Almanac</em> indicated that 48.8 percent of families own stock. A broker wanted to determine if this survey could be valid. He surveyed a random sample of 250 families and found that 142 owned some type of stock. At the 0.05 significance level, can the survey be considered to be accurate?</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.488 <em>H_{a}</em>: <m>p</m> ≠ 0.488</li>
-            <li><m>p</m>-value = 0.0114</li>
-            <li>alpha = 0.05</li>
-            <li>Reject the null hypothesis.</li>
-            <li>At the 5 percent level of significance, there is enough evidence to conclude that 48.8 percent of families own stocks.</li>
-            <li>The survey does not appear to be accurate.</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="eip-59">
-        <statement>
-          <p>Driver error can be listed as the cause of approximately 54 percent of all fatal auto accidents, according to the American Automobile Association. Thirty randomly selected fatal accidents are examined, and it is determined that 14 were caused by driver error. Using α = 0.05, is the AAA proportion accurate?</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="eip-601">
-        <statement>
-          <p>The U.S. Department of Energy reported that 51.7 percent of homes were heated by natural gas. A random sample of 221 homes in Kentucky found that 115 were heated by natural gas. Does the evidence support the claim for Kentucky at the α = 0.05 level? Are the results applicable across the country? Why?</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.517 <em>H_{a}</em>: <m>p</m> ≠ 0.517</li>
-            <li><m>p</m>-value = 0.9203.</li>
-            <li>alpha = 0.05.</li>
-            <li>Do not reject the null hypothesis.</li>
-            <li>At the 5 percent significance level, there is not enough evidence to conclude that the proportion of homes in Kentucky that are heated by natural gas is 0.517.</li>
-            <li>However, we cannot generalize this result to the entire nation. First, the sample’s population is only the state of Kentucky. Second, it is reasonable to assume that homes in the extreme north and south will have extreme high usage and low usage, respectively. We would need to expand our sample base to include these possibilities if we wanted to generalize this claim to the entire nation.</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="eip-835">
-        <statement>
-          <p>For Americans using library services, the American Library Association claims that at most 67 percent of patrons borrow books. The library director in Owensboro, KY, feels this is not true, so she asked a local college statistic class to conduct a survey. The class randomly selected 100 patrons and found that 82 borrowed books. Did the class demonstrate that the percentage was higher in Owensboro, KY?  Use α = 0.01 level of significance. What is the possible proportion of patrons who do borrow books from the Owensboro Library?</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="eip-715">
-        <statement>
-          <p>The Weather Underground reported that the mean amount of summer rainfall for the northeastern United States is at least 11.52 inches. Ten cities in the northeast are randomly selected and the mean rainfall amount is calculated to be 7.42 inches with a standard deviation of 1.3 inches. At the α = 0.05 level, can it be concluded that the mean rainfall was below the reported average? What if α = 0.01? Assume the amount of summer rainfall follows a normal distribution.</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>µ</m> ≥ 11.52  <em>H_{a}</em>: <m>µ</m> &lt; 11.52</li>
-            <li><m>p</m>-value = 0.000002 which is almost 0.</li>
-            <li>alpha = 0.05.</li>
-            <li>Reject the null hypothesis.</li>
-            <li>At the 5 percent significance level, there is enough evidence to conclude that the mean amount of summer rain in the northeaster US is less than 11.52 inches, on average.</li>
-            <li>We would make the same conclusion if alpha was 1 percent because the <m>p</m>-value is almost 0.</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="eip-717">
-        <statement>
-          <p>A survey in the <em>New York Times Almanac</em> finds the mean commute time (one way) is 25.4 minutes for the 15 largest US cities. The Austin, TX, chamber of commerce feels that Austin’s commute time is less and wants to publicize this fact. The mean for 25 randomly selected commuters is 22.1 minutes with a standard deviation of 5.3 minutes. At the α = 0.10 level, is the Austin, TX, commute significantly less than the mean commute time for the 15 largest U.S. cities?</p>
-        </statement>
-      </exercise>
-      <exercise xml:id="ch9-eip-192">
-        <statement>
-          <p>A report by the Gallup Poll found that a woman visits her doctor, on average, at most 5.8 times each year. A random sample of 20 women results in these yearly visit totals:<nbsp />
-3
-2
-1
-3
-7
-2
-9
-4
-6
-6
-8
-0
-5
-6
-4
-2
-1
-3
-4
-1
-<nbsp />
-At the <m>α</m> = 0.05 level, can it be concluded that the sample mean is higher than 5.8 visits per year?</p>
-          <ul>
-            <li>3</li>
-            <li>2</li>
-            <li>1</li>
-            <li>3</li>
-            <li>7</li>
-            <li>2</li>
-            <li>9</li>
-            <li>4</li>
-            <li>6</li>
-            <li>6</li>
-            <li>8</li>
-            <li>0</li>
-            <li>5</li>
-            <li>6</li>
-            <li>4</li>
-            <li>2</li>
-            <li>1</li>
-            <li>3</li>
-            <li>4</li>
-            <li>1</li>
-          </ul>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>µ</m> ≤ 5.8	<em>H_{a}</em>: <m>µ</m> &gt; 5.8</li>
-            <li><m>p</m>-value =  0.9987</li>
-            <li>alpha = 0.05</li>
-            <li>Do not reject the null hypothesis.</li>
-            <li>At the 5 percent level of significance, there is not enough evidence to conclude that a woman visits her doctor, on average, more than 5.8 times a year.</li>
-          </ol>
-        </solution>
-      </exercise>
-      <exercise xml:id="eip-677">
-        <statement>
-          <p>According to the <em>New York Times Almanac</em> the mean family size in the United States is 3.18. A sample of a college math class resulted in the following family sizes:
-<nbsp />
-
-5
-4
-5
-4
-4
-3
-6
-4
-3
-3
-5
-5
-6
-3
-3
-2
-7
-4
-5
-2
-2
-2
-3
-2
-
-<nbsp />At <m>α</m> = 0.05, is the class’s mean family size greater than the national average? Does the <em>Almanac</em> result remain valid? Why?</p>
-          <ul>
-            <li>5</li>
-            <li>4</li>
-            <li>5</li>
-            <li>4</li>
-            <li>4</li>
-            <li>3</li>
-            <li>6</li>
-            <li>4</li>
-            <li>3</li>
-            <li>3</li>
-            <li>5</li>
-            <li>5</li>
-            <li>6</li>
-            <li>3</li>
-            <li>3</li>
-            <li>2</li>
-            <li>7</li>
-            <li>4</li>
-            <li>5</li>
-            <li>2</li>
-            <li>2</li>
-            <li>2</li>
-            <li>3</li>
-            <li>2</li>
-          </ul>
-        </statement>
-      </exercise>
-      <exercise xml:id="eip-551">
-        <statement>
-          <p>The student academic group on a college campus claims that freshman students study at least 2.5 hours per day, on average. One Introduction to Statistics class was skeptical. The class took a random sample of 30 freshman students and found a mean study time of 137 minutes with a standard deviation of 45 minutes. At <m>α</m> = 0.01 level, is the student academic group’s claim correct?</p>
-        </statement>
-        <solution>
-          <ol>
-            <li><em>H_{0}</em>: <m>µ</m> ≥ 150	<em>H_{a}</em>: <m>µ</m> &lt; 150</li>
-            <li><m>p</m>-value = 0.0622</li>
-            <li>alpha = 0.01</li>
-            <li>Do not reject the null hypothesis.</li>
-            <li>At the 1 percent significance level, there is not enough evidence to conclude that freshmen students study less than 2.5 hours per day, on average.</li>
-            <li>The student academic group’s claim appears to be correct.</li>
-          </ol>
-        </solution>
-      </exercise>
-    </subsection>
 
     <subsection xml:id="fs-idp118682672">
       <title>References</title>
@@ -2911,4 +1752,1200 @@ Test of the two population proportions by testing one population mean of differe
     </ul>
 
   </section>
+
+  <section xml:id="sec-hypothesis-testing-one-sample-homework">
+    <title>Homework</title>
+
+  <exercises xml:id="exercises-bringing-it-together-ch09">
+    <title>Bringing It Together</title>
+    
+      <exercise xml:id="element-919">
+        <statement>
+          <p>Some of the following statements refer to the null hypothesis, some to the alternate hypothesis.</p>
+          <p>State the null hypothesis, <em>H_{0}</em>, and the alternative hypothesis. <em>H_{a}</em>, in terms of the appropriate parameter (<m>μ</m> or <m>p</m>).</p>
+          <ol>
+            <li>The mean number of years Americans work before retiring is 34.</li>
+            <li>At most 60 percent of Americans vote in presidential elections.</li>
+            <li>The mean starting salary for San Jose State University graduates is at least $100,000 per year.</li>
+            <li>Twenty-nine percent of high school students take physical education daily.</li>
+            <li>Less than 5 percent of adults ride the bus to work in Los Angeles.</li>
+            <li>The mean number of cars a person owns in her lifetime is not more than 10.</li>
+            <li>About half of Americans prefer to live away from cities, given the choice.</li>
+            <li>Europeans have a mean paid vacation each year of six weeks.</li>
+            <li>The chance of developing breast cancer is under 11 percent for women.</li>
+            <li>Private universities' mean tuition cost is more than $20,000 per year.</li>
+          </ol>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>μ</m> = 34; <em>H_{a}</em>: <m>μ</m> ≠ 34</li>
+            <li><em>H_{0}</em>: <m>p</m> ≤ 0.60; <em>H_{a}</em>: <m>p</m> &gt; 0.60</li>
+            <li><em>H_{0}</em>: <m>μ</m> ≥ 100,000; <em>H_{a}</em>: <m>μ</m> &lt; 100,000</li>
+            <li><em>H_{0}</em>: <m>p</m> = 0.29; <em>H_{a}</em>: <m>p</m> ≠ 0.29</li>
+            <li><em>H_{0}</em>: <m>p</m> = 0.05; <em>H_{a}</em>: <m>p</m> &lt; 0.05</li>
+            <li><em>H_{0}</em>: <m>μ</m> ≤ 10; <em>H_{a}</em>: <m>μ</m> &gt; 10</li>
+            <li><em>H_{0}</em>: <m>p</m> = 0.50; <em>H_{a}</em>: <m>p</m> ≠ 0.50</li>
+            <li><em>H_{0}</em>: <m>μ</m> = 6; <em>H_{a}</em>: <m>μ</m> ≠ 6</li>
+            <li><em>H_{0}</em>: <m>p</m> ≥ 0.11; <em>H_{a}</em>: <m>p</m> &lt; 0.11</li>
+            <li><em>H_{0}</em>: <m>μ</m> ≤ 20,000; <em>H_{a}</em>: <m>μ</m> &gt; 20,000</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="ch9-exer11">
+        <statement>
+          <p>A recent survey of 273 randomly selected teens living in Massachusetts asked about social media. Sixty-three said that they routinely use a certain app to share pictures. The researchers want to determine if there is good evidence that more than 30 percent of teens use this app. The alternative hypothesis is as follows:</p>
+          <ol>
+            <li><m>p</m> &lt; 0.30</li>
+            <li><m>p</m> ≤ 0.30</li>
+            <li><m>p</m> ≥ 0.30</li>
+            <li><m>p</m> &gt; 0.30</li>
+          </ol>
+          </statement>
+        </exercise>
+      <exercise xml:id="exer13">
+        <statement>
+          <p>A statistics instructor believes that fewer than 20 percent of Evergreen Valley College (EVC) students attended the opening night midnight showing of the latest Harry Potter movie. She surveys 84 of her students and finds that 11 attended the midnight showing. An appropriate alternative hypothesis is as follows:</p>
+          <ol>
+            <li><m>p</m> = 0.20</li>
+            <li><m>p</m> &gt; 0.20</li>
+            <li><m>p</m> &lt; 0.20</li>
+            <li><m>p</m> ≤ 0.20</li>
+          </ol>
+          </statement>
+        <solution>
+          <p>c</p>
+          </solution>
+        </exercise>
+      <exercise xml:id="exer18">
+        <statement>
+          <p>Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test. The null and alternative hypotheses are as follows:</p>
+          <ol>
+            <li><em>H_{o}</em>: <m>\overline{x}</m> = 4.5, <em>H_{a}</em> : <m>\overline{x}</m> &gt; 4.5</li>
+            <li><em>H_{o}</em>: <m>μ</m> ≥ 4.5, <em>H_{a}</em>: <m>μ</m> &lt; 4.5</li>
+            <li><em>H_{o}</em>: <m>μ</m> = 4.75, <em>H_{a}</em>: <m>μ</m> &gt; 4.75</li>
+            <li><em>H_{o}</em>: <m>μ</m> = 4.5, <em>H_{a}</em>: <m>μ</m> &gt; 4.5</li>
+          </ol>
+          </statement>
+        </exercise>
+      <exercise xml:id="element-612">
+        <statement>
+          <p>State the Type I and Type II errors in complete sentences given the following statements.</p>
+          <ol>
+            <li>The mean number of years Americans work before retiring is 34.</li>
+            <li>At most 60 percent of Americans vote in presidential elections.</li>
+            <li>The mean starting salary for San Jose State University graduates is at least $100,000 per year.</li>
+            <li>29 percent of high school students take physical education every day.</li>
+            <li>Less than 5 percent of adults ride the bus to work in Los Angeles.</li>
+            <li>The mean number of cars a person owns in his or her lifetime is not more than 10.</li>
+            <li>About half of Americans prefer to live away from cities, given the choice.</li>
+            <li>Europeans have a mean paid vacation each year of six weeks.</li>
+            <li>The chance of developing breast cancer is under 11 percent for women.</li>
+            <li>Private universitie' mean tuition cost is more than $20,000 per year.</li>
+          </ol>
+          </statement>
+        <solution>
+          <ol>
+            <li>Type I error: We conclude that the mean is not 34 years, when it really is 34 years. Type II error: We conclude that the mean is 34 years, when in fact it really is not 34 years.</li>
+            <li>Type I error: We conclude that more than 60 percent of Americans vote in presidential elections, when the actual percentage is at most 60 percent.Type II error: We conclude that at most 60 percent of Americans vote in presidential elections when, in fact, more than 60 percent do.</li>
+            <li>Type I error: We conclude that the mean starting salary is less than $100,000, when it really is at least $100,000. Type II error: We conclude that the mean starting salary is at least $100,000 when, in fact, it is less than $100,000.</li>
+            <li>Type I error: We conclude that the proportion of high school seniors who take physical education daily is not 29%, when it really is 29%. Type II error: We conclude that the proportion of high school seniors who take physical education daily is 29% when, in fact, it is not 29%.</li>
+            <li>Type I error: We conclude that fewer than 5 percent of adults ride the bus to work in Los Angeles, when the percentage that do is really 29%. Type II error: We conclude that 29%. or more adults ride the bus to work in Los Angeles when, in fact, fewer that 29% do.</li>
+            <li>Type I error: We conclude that the mean number of cars a person owns in his or her lifetime is more than 10, when in reality it is not more than 10. Type II error: We conclude that the mean number of cars a person owns in his or her lifetime is not more than 10 when, in fact, it is more than 10.</li>
+            <li>Type I error: We conclude that the proportion of Americans who prefer to live away from cities is not about half, though the actual proportion is about half. Type II error: We conclude that the proportion of Americans who prefer to live away from cities is half when, in fact, it is not half.</li>
+            <li>Type I error: We conclude that the duration of paid vacations each year for Europeans is not six weeks, when in fact it is six weeks. Type II error: We conclude that the duration of paid vacations each year for Europeans is six weeks when, in fact, it is not.</li>
+            <li>Type I error: We conclude that the proportion is less than 11 percent, when it is really at least 11 percent. Type II error: We conclude that the proportion of women who develop breast cancer is at least 11 percent, when in fact it is less than 11 percent.</li>
+            <li>Type I error: We conclude that the average tuition cost at private universities is more than $20,000, though in reality it is at most $20,000. Type II error: We conclude that the average tuition cost at private universities is at most $20,000 when, in fact, it is more than $20,000.</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="ch9-element-231">
+        <statement>
+          <p>For Statements A–J in , answer the following in complete sentences.</p>
+          <ol>
+            <li>State a consequence of committing a Type I error.</li>
+            <li>State a consequence of committing a Type II error.</li>
+          </ol>
+          </statement>
+        </exercise>
+      <exercise xml:id="ch9-exer10">
+        <statement>
+          <p>When a new drug is created, the pharmaceutical company must subject it to testing before receiving the necessary permission from the U.S. Food and Drug Administration (FDA) to market the drug. Suppose the null hypothesis is <em>the drug is unsafe</em>. What is the Type II error?</p>
+          <ol>
+            <li>To conclude the drug is safe when, in fact, it is unsafe.</li>
+            <li>Not to conclude the drug is safe when, in fact, it is safe.</li>
+            <li>To conclude the drug is safe when, in fact, it is safe.</li>
+            <li>Not to conclude the drug is unsafe when, in fact, it is unsafe.</li>
+          </ol>
+          </statement>
+        <solution>
+          <p>b</p>
+          </solution>
+        </exercise>
+      <exercise xml:id="exer15">
+        <statement>
+          <p>A statistics instructor believes that fewer than 20 percent of Evergreen Valley College (EVC) students attended the opening midnight showing of the latest Harry Potter movie. She surveys 84 of her students and finds that 11 of them attended the midnight showing. The Type I error is to conclude that the percent of EVC students who attended is ________.</p>
+          <ol>
+            <li>at least 20 percent, when, in fact, it is less than 20 percent.</li>
+            <li>20 percent, when, in fact, it is 20 percent.</li>
+            <li>less than 20 percent, when, in fact, it is at least 20 percent.</li>
+            <li>less than 20 percent, when, in fact, it is less than 20 percent.</li>
+          </ol>
+          </statement>
+        </exercise>
+      <exercise xml:id="exer17">
+        <statement>
+          <p>It is believed that Lake Tahoe Community College (LTCC) Intermediate Algebra students get less than seven hours of sleep per night, on average. A survey of 22 LTCC Intermediate Algebra students generated a mean of 7.24 hours with a standard deviation of 1.93 hours. At a level of significance of 5 percent, do LTCC Intermediate Algebra students get less than seven hours of sleep per night, on average?</p>
+          <p>The Type II error is not to reject that the mean number of hours of sleep LTCC students get per night is at least seven when, in fact, the mean number of hours</p>
+          <ol>
+            <li>is more than seven hours.</li>
+            <li>is at most seven hours.</li>
+            <li>is at least seven hours.</li>
+            <li>is less than seven hours.</li>
+          </ol>
+          </statement>
+        <solution>
+          <p>d</p>
+          </solution>
+        </exercise>
+      <exercise xml:id="exer20">
+        <statement>
+          <p>Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test. The Type I error is</p>
+          <ol>
+            <li>to conclude that the current mean hours per week is higher than 4.5, when, in fact, it is higher.</li>
+            <li>to conclude that the current mean hours per week is higher than 4.5, when, in fact, it is the same.</li>
+            <li>to conclude that the mean hours per week currently is 4.5, when, in fact, it is higher.</li>
+            <li>to conclude that the mean hours per week currently is no higher than 4.5, when, in fact, it is not higher.</li>
+          </ol>
+          </statement>
+        </exercise>
+      <exercise xml:id="fs-idm140519760">
+        <statement>
+          <p>It is believed that Lake Tahoe Community College (LTCC) Intermediate Algebra students get less than seven hours of sleep per night, on average. A survey of 22 LTCC Intermediate Algebra students generated a mean of 7.24 hours with a standard deviation of 1.93 hours. At a level of significance of 5 percent, do LTCC Intermediate Algebra students get less than seven hours of sleep per night, on average? The distribution to be used for this test is <m>\overline{X}</m> ~ ________________</p>
+          <ol>
+            <li><m>N(7.24,\frac{1.93}{\sqrt{22}})</m></li>
+            <li><m>N(7.24,1.93)</m></li>
+            <li><m>t</m>_{22}</li>
+            <li><m>t</m>_{21}</li>
+          </ol>
+          </statement>
+        <solution>
+          <p>d</p>
+          </solution>
+        </exercise>
+      <exercise xml:id="fs-idp20135424">
+        <statement>
+          <p>The National Institute of Mental Health published an article stating that in any one-year period approximately 9.5 percent of American adults suffer from depression or a depressive illness. Suppose that in a survey of 100 people in a certain town, seven of them suffered from depression or a depressive illness. Conduct a hypothesis test to determine if the true proportion of people in that town suffering from depression or a depressive illness is lower than the percent in the general adult American population.</p>
+          <ol>
+            <li>Is this a test of one mean or proportion?</li>
+            <li>State the null and alternative hypotheses.
+  <nbsp /><em>H_{0}</em>: ____________________  <em>H_{a}</em>:  ____________________</li>
+            <li>Is this a right-tailed, left-tailed, or two-tailed test?</li>
+            <li>What symbol represents the random variable for this test?</li>
+            <li>In words, define the random variable for this test.</li>
+            <li>Calculate the following:
+  
+  <m>x</m> = ________________
+  <m>n</m> = ________________
+  <m>p^{′}</m> = _____________</li>
+            <li><m>x</m> = ________________</li>
+            <li><m>n</m> = ________________</li>
+            <li><m>p^{′}</m> = _____________</li>
+            <li>Calculate <em>σ_{x}</em> =  __________. Show the formula setup.</li>
+            <li>State the distribution to use for the hypothesis test.</li>
+            <li>Find the <m>p</m>-value.</li>
+            <li>At a pre-conceived <m>α</m> = 0.05, give your answer for each of the following:
+  
+  Decision:
+  Reason for the decision:
+  Conclusion (write out in a complete sentence):</li>
+            <li>Decision:</li>
+            <li>Reason for the decision:</li>
+            <li>Conclusion (write out in a complete sentence):</li>
+          </ol>
+          <ol>
+            <li><m>x</m> = ________________</li>
+            <li><m>n</m> = ________________</li>
+            <li><m>p^{′}</m> = _____________</li>
+          </ol>
+          <ol>
+            <li>Decision:</li>
+            <li>Reason for the decision:</li>
+            <li>Conclusion (write out in a complete sentence):</li>
+          </ol>
+          </statement>
+        </exercise>
+          <p><em>For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in <xref ref="appendix-e-solution-sheets">Appendix E, Solution Sheets</xref>. Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.</em></p>
+      <note xml:id="id8395739">
+          <title>Note</title>
+          <p>If you are using a Student's-<m>t</m>-distribution for one of the following homework problems, you may assume that the underlying population is normally distributed. In general, you must first prove that assumption, however.</p>
+        </note>
+      <exercise xml:id="element-816">
+        <statement>
+          <p>A particular brand of tires claims that its deluxe tire averages at least 50,000 miles before it needs to be replaced. From past studies of this tire, the standard deviation is known to be 8,000. A survey of owners of that tire design is conducted. From the 28 tires surveyed, the mean lifespan was 46,500 miles with a standard deviation of 9,800 miles. Using alpha = 0.05, are the data highly inconsistent with the claim?</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>μ</m> ≥ 50,000</li>
+            <li><em>H_{a}</em>: <m>μ</m> &lt; 50,000</li>
+            <li>Let <m>\overline{X}</m> = the average lifespan of a brand of tires.</li>
+            <li>normal distribution</li>
+            <li><m>z</m> = -2.315</li>
+            <li><m>p</m>-value = 0.0103</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+              Decision: Reject the null hypothesis.
+              Reason for decision: The <m>p</m>-value is less than 0.05.
+              Conclusion: There is sufficient evidence to conclude that the mean lifespan of the tires is less than 50,000 miles.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is less than 0.05.</li>
+            <li>Conclusion: There is sufficient evidence to conclude that the mean lifespan of the tires is less than 50,000 miles.</li>
+            <li>(43,537, 49,463)</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="element-809">
+        <statement>
+          <p>In 2009, President Barack Obama announced a new national fuel economy and emissions policy for cars and light trucks. It stated that the combined fleet fuel economy for an auto manufacturer of cars and light trucks will have to average 35.5 mpg or better by 2016. From past studies on fuel economy, it is known that the standard deviation of a typical fleet is 7.6 mpg. An auto manufacturer selects a random sample of 55 cars and light trucks and finds the sample mean fuel economy to be 34.6 mpg with a standard deviation of 10.3 mpg. Can the manufacturer claim that their fleet meets the fuel economy standard in the 2016 policy at the 5 percent level?</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>μ</m> ≥ 35.5</li>
+            <li><em>H_{a}</em>: <m>μ</m> &lt; 35.5</li>
+            <li>Let <m>\overline{x}</m> = the average mpg for the sample of cars and trucks in the fleet</li>
+            <li>normal distribution</li>
+            <li>z = -0.648</li>
+            <li><m>p</m>-value = 0.2578</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+              Decision: Do not reject the null hypothesis.
+              Reason for decision: The p-value is greater than 0.05.
+              Conclusion: There is sufficient evidence to support the claim that the manufacturer’s fleet meets the fuel economy standards in the 2016 policy.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Do not reject the null hypothesis.</li>
+            <li>Reason for decision: The p-value is greater than 0.05.</li>
+            <li>Conclusion: There is sufficient evidence to support the claim that the manufacturer’s fleet meets the fuel economy standards in the 2016 policy.</li>
+            <li>(31.88 mpg, 37.32 mpg)</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="element-635">
+        <statement>
+          <p>The cost of a daily newspaper varies from city to city. However, the variation among prices remains steady with a standard deviation of 20¢. A study was done to test the claim that the mean cost of a daily newspaper is $1.00. Twelve costs yield a mean cost of 95¢ with a standard deviation of 18¢. Do the data support the claim at the 1 percent level?</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>μ</m> = $1.00</li>
+            <li><em>H_{a}</em>: <m>μ</m> ≠ $1.00</li>
+            <li>Let <m>\overline{x}</m>
+   = the average cost of a daily newspaper.</li>
+            <li>normal distribution</li>
+            <li><m>z</m> = –0.866</li>
+            <li><m>p</m>-value = 0.3865</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.01
+            Decision: Do not reject the null hypothesis.
+            Reason for decision: The <m>p</m>-value is greater than 0.01.
+            Conclusion: There is sufficient evidence to support the claim that the mean cost of daily papers is $1. The mean cost could be $1.</li>
+            <li>Alpha: 0.01</li>
+            <li>Decision: Do not reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is greater than 0.01.</li>
+            <li>Conclusion: There is sufficient evidence to support the claim that the mean cost of daily papers is $1. The mean cost could be $1.</li>
+            <li>($0.84, $1.06)</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="element-94">
+        <statement>
+          <p>An article in the <em>San Jose Mercury News</em> stated that students in the California state university system take 4.5 years, on average, to finish their undergraduate degrees. Suppose you believe that the mean time is longer. You conduct a survey of 49 students and obtain a sample mean of 5.1 with a sample standard deviation of 1.2. Do the data support your claim at the 1 percent level?</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="element-932a">
+        <statement>
+          <p>The mean number of sick days an employee takes per year is believed to be about 10. Members of a personnel department do not believe this figure. They randomly survey eight employees. The number of sick days they took for the past year are as follows: 12; 4; 15; 3; 11; 8; 6; 8. Let <m>x</m> = the number of sick days they took for the past year. Should the personnel team believe that the mean number is 10?</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>μ</m> = 10</li>
+            <li><em>H_{a}</em>: <m>μ</m> ≠ 10</li>
+            <li>Let <m>\overline{X}</m> = the mean number of sick days an employee takes per year.</li>
+            <li>Student’s <m>t</m>-distribution</li>
+            <li><m>t</m> = –1.12</li>
+            <li><m>p</m>-value = 0.300</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+        Decision: Do not reject the null hypothesis.
+        Reason for decision: The <m>p</m>-value is greater than 0.05.
+        Conclusion: At the 5 percent significance level, there is insufficient evidence to conclude that the mean number of sick days is not 10.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Do not reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
+            <li>Conclusion: At the 5 percent significance level, there is insufficient evidence to conclude that the mean number of sick days is not 10.</li>
+            <li>(4.9443, 11.806)</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="element-950">
+        <statement>
+          <p>In 1955, <em>Life Magazine</em> reported that the 25-year-old mother of three worked, on average, an 80-hour week. Recently, many groups have been studying whether or not the women's movement has, in fact, resulted in an increase in the average work week for women (combining employment and at-home work). Suppose a study was done to determine if the mean work week has increased. Eighty-one women were surveyed with the following results. The sample mean was 83; the sample standard deviation was 10. Does it appear that the mean work week has increased for women at the 5 percent level?</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="element-321">
+        <statement>
+          <p>Your statistics instructor claims that 60 percent of the students who take her Elementary Statistics class go through life feeling more enriched. For some reason that she can't quite figure out, most people don't believe her. You decide to check this out on your own. You randomly survey 64 of her past Elementary Statistics students and find that 34 feel more enriched as a result of her class. Now, what do you think?</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>p</m> ≥ 0.6</li>
+            <li><em>H_{a}</em>: <m>p</m> &lt; 0.6</li>
+            <li>Let <m>P′</m> = the proportion of students who feel more enriched as a result of taking elementary statistics.</li>
+            <li>normal for a single proportion</li>
+            <li>1.12</li>
+            <li><m>p</m>-value =  0.1308</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+        Decision: Do not reject the null hypothesis.
+        Reason for decision: The <m>p</m>-value is greater than 0.05.
+        Conclusion: There is insufficient evidence to conclude that less than 60 percent of her students feel more enriched.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Do not reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
+            <li>Conclusion: There is insufficient evidence to conclude that less than 60 percent of her students feel more enriched.</li>
+            <li>Confidence interval: (0.409,  0.654)<nbsp />The “plus-4s” confidence interval is (0.411, 0.648)</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="element-410-2">
+        <statement>
+          <p>A Nissan Motor Corporation advertisement read, “The average man’s I.Q. is 107. The average brown trout’s I.Q. is 4. So why can’t man catch brown trout?” Suppose you believe that the brown trout’s mean I.Q. is greater than four. You catch 12 brown trout. A fish psychologist determines the I.Q.s as follows: 5, 4, 7, 3, 6, 4, 5, 3, 6, 3, 8, 5. Conduct a hypothesis test of your belief.</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="element-814">
+        <statement>
+          <p>Refer to . Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>μ</m> = 4</li>
+            <li><em>H_{a}</em>: <m>μ</m> ≠ 4</li>
+            <li>Let <m>\overline{X}</m> the average I.Q. of a set of brown trout.</li>
+            <li>two-tailed Student's <m>t</m>-test</li>
+            <li><m>t</m> = 1.95</li>
+            <li><m>p</m>-value = 0.076</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+        Decision: Reject the null hypothesis.
+        Reason for decision: The <m>p</m>-value is greater than 0.05
+        Conclusion: There is insufficient evidence to conclude that the average IQ of brown trout is not four.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is greater than 0.05</li>
+            <li>Conclusion: There is insufficient evidence to conclude that the average IQ of brown trout is not four.</li>
+            <li>(3.8865, 5.9468)</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="element-191">
+        <statement>
+          <p>According to an article in <em>Newsweek</em>, the natural ratio of girls to boys is 100:105. In China, the birth ratio is 100: 114 (46.7 percent girls). Suppose you don’t believe the reported figures of the percentage of girls born in China. You conduct a study. In this study, you count the number of girls and boys born in 150 randomly chosen recent births. There are 60 girls and 90 boys born of the 150. Based on your study, do you believe that the percentage of girls born in China is 46.7?</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="element-658">
+        <statement>
+          <p>A group of researchers research a common contagious disease. A newspaper found that 13 percent of Americans have been diagnosed with the disease in the last year. The researchers doubt that the percentage is really that high. It conducts its own survey. Out of 76 Americans surveyed, only two had been diagnosed with the disease. Would you agree with the newspaper's poll? In complete sentences, give three reasons why polls might give different results.</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>p</m> ≥ 0.13</li>
+            <li><em>H_{a}</em>: <m>p</m> &lt; 0.13</li>
+            <li>Let <m>P′</m> = the proportion of Americans who have the disease</li>
+            <li>normal for a single proportion</li>
+            <li>–2.688</li>
+            <li><m>p</m>-value = 0.0036</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+        Decision: Reject the null hypothesis.
+        Reason for decision: The <m>p</m>-value is less than 0.05.
+        Conclusion: There is sufficient evidence to conclude that the percentage of Americans who have been diagnosed with the disease is less than 13 percent.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is less than 0.05.</li>
+            <li>Conclusion: There is sufficient evidence to conclude that the percentage of Americans who have been diagnosed with the disease is less than 13 percent.</li>
+            <li>(0, 0.0623).<nbsp />
+        The <em>plus-4s</em> confidence interval is (0.0022, 0.0978)</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="element-53">
+        <statement>
+          <p>The mean work week for engineers in a start-up company is believed to be about 60 hours. A newly hired engineer hopes that it’s shorter. She asks 10 engineering friends in start-ups for the lengths of their mean work weeks. Based on the results that follow, should she count on the mean work week to be shorter than 60 hours?</p>
+          <p>Data (length of mean work week): 70, 45, 55, 60, 65, 55, 55, 60, 50, 55.</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="element-761">
+        <statement>
+          <p>Use the <em>Lap time</em> data for Lap 4 (see <xref ref="appendix-c-data-sets">Appendix C: Data Sets</xref>) to test the claim that Terri finishes Lap 4, on average, in less than 129 seconds. Use all 20 races given.</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>μ</m> ≥ 129</li>
+            <li><em>H_{a}</em>: <m>μ</m> &lt; 129</li>
+            <li>Let <m>\overline{X}</m> = the average time in seconds that Terri finishes Lap 4.</li>
+            <li>Student's <m>t</m>-distribution</li>
+            <li><m>t</m> = 1.209</li>
+            <li>0.8792</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+  Decision: Do not reject the null hypothesis.
+  Reason for decision: The <m>p</m>-value is greater than 0.05.
+  Conclusion: There is insufficient evidence to conclude that Terri’s mean lap time is less than 129 seconds.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Do not reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
+            <li>Conclusion: There is insufficient evidence to conclude that Terri’s mean lap time is less than 129 seconds.</li>
+            <li>(128.63, 130.37)</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="fs-idp191961952">
+        <statement>
+          <p>Use the <em>Initial Public Offering</em> data (see <xref ref="appendix-c-data-sets">Appendix C: Data Sets</xref>) to test the claim that the mean offer price was $18 per share. Do not use all the data. Use your random number generator to randomly survey 15 prices.</p>
+          </statement>
+        </exercise>
+      <note xml:id="id9401550">
+          <title>Note</title>
+          <p>The following questions were written by past students. They are excellent problems!</p>
+        </note>
+      <exercise xml:id="ex1">
+        <statement>
+          <p>"Asian Family Reunion," by Chau Nguyen</p>
+          <p>Every two years it comes around.</p>
+          <p>We all get together from different towns.</p>
+          <p>In my honest opinion,</p>
+          <p>It's not a typical family reunion.</p>
+          <p>Not forty, or fifty, or sixty,</p>
+          <p>But how about seventy companions!</p>
+          <p>The kids would play, scream, and shout</p>
+          <p>One minute they're happy, another they'll pout.</p>
+          <p>The teenagers would look, stare, and compare</p>
+          <p>From how they look to what they wear.</p>
+          <p>The men would chat about their business</p>
+          <p>That they make more, but never less.</p>
+          <p>Money is always their subject</p>
+          <p>And there's always talk of more new projects.</p>
+          <p>The women get tired from all of the chats</p>
+          <p>They head to the kitchen to set out the mats.</p>
+          <p>Some would sit and some would stand</p>
+          <p>Eating and talking with plates in their hands.</p>
+          <p>Then come the games and the songs</p>
+          <p>And suddenly, everyone gets along!</p>
+          <p>With all that laughter, it's sad to say</p>
+          <p>That it always ends in the same old way.</p>
+          <p>They hug and kiss and say "good-bye"</p>
+          <p>And then they all begin to cry!</p>
+          <p>I say that 60 percent shed their tears</p>
+          <p>But my mom counted 35 people this year.</p>
+          <p>She said that boys and men will always have their pride,</p>
+          <p>So we won't ever see them cry.</p>
+          <p>I myself don't think she's correct,</p>
+          <p>So could you please try this problem to see if you object?</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>p</m> = 0.60</li>
+            <li><em>H_{a}</em>: <m>p</m> &lt; 0.60</li>
+            <li>Let <m>P′</m> = the proportion of family members who shed tears at a reunion.</li>
+            <li>normal for a single proportion</li>
+            <li>–1.71</li>
+            <li>0.0438</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+  Decision: Reject the null hypothesis.
+  Reason for decision: <m>p</m>-value &lt; alpha
+  Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the <m>p</m>-value and alpha are quite close, so other tests should be done.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Reject the null hypothesis.</li>
+            <li>Reason for decision: <m>p</m>-value &lt; alpha</li>
+            <li>Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the <m>p</m>-value and alpha are quite close, so other tests should be done.</li>
+            <li>We are 95 percent confident that between 38.29 percent and 61.71 percent of family members will shed tears at a family reunion. (0.3829, 0.6171). The <em>plus-4s</em> confidence interval (see chapter 8) is (0.3861, 0.6139)</li>
+          </ol>
+          <p>Note that here the  <em>large-sample</em> 1 – PropZTest provides the approximate <m>p</m>-value of 0.0438. Whenever a <m>p</m>-value based on a normal approximation is close to the level of significance, the exact <m>p</m>-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course.</p>
+          </solution>
+        </exercise>
+      <exercise xml:id="ch9-exer4">
+        <statement>
+          <p>"Blowing Bubbles," by Sondra Prull</p>
+          <p>Studying stats just made me tense,</p>
+          <p>I had to find some sane defense.</p>
+          <p>Some light and lifting simple play</p>
+          <p>To float my math anxiety away.<nbsp /></p>
+          <p>Blowing bubbles lifts me high</p>
+          <p>Takes my troubles to the sky.</p>
+          <p>POIK! They're gone, with all my stress</p>
+          <p>Bubble therapy is the best.<nbsp /></p>
+          <p>The label said each time I blew</p>
+          <p>The average number of bubbles would be at least 22.</p>
+          <p>I blew and blew and this I found</p>
+          <p>From 64 blows, they all are round!<nbsp /></p>
+          <p>But the number of bubbles in 64 blows</p>
+          <p>Varied widely, this I know.</p>
+          <p>20 per blow became the mean</p>
+          <p>They deviated by 6, and not 16.<nbsp /></p>
+          <p>From counting bubbles, I sure did relax</p>
+          <p>But now I give to you your task.</p>
+          <p>Was 22 a reasonable guess?</p>
+          <p>Find the answer and pass this test!</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>μ</m> ≥ 22</li>
+            <li><em>H_{a}</em>: <m>μ</m> &lt; 22</li>
+            <li>Let <m>\overline{X}</m> = the mean number of bubbles per blow.</li>
+            <li>Student's <m>t</m>-distribution</li>
+            <li>–2.667</li>
+            <li><m>p</m>-value = 0.00486</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+  Decision: Reject the null hypothesis.
+  Reason for decision: The <m>p</m>-value is less than 0.05.
+  Conclusion: There is sufficient evidence to conclude that the mean number of bubbles per blow is less than 22.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is less than 0.05.</li>
+            <li>Conclusion: There is sufficient evidence to conclude that the mean number of bubbles per blow is less than 22.</li>
+            <li>(18.501, 21.499)</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="ex3">
+        <statement>
+          <p>"Dalmatian Darnation," by Kathy Sparling</p>
+          <p>A greedy dog breeder named Spreckles</p>
+          <p>Bred puppies with numerous freckles</p>
+          <p>The Dalmatians he sought</p>
+          <p>Possessed spot upon spot</p>
+          <p>The more spots, he thought, the more shekels.<nbsp /></p>
+          <p>His competitors did not agree</p>
+          <p>That freckles would increase the fee.</p>
+          <p>They said, “Spots are quite nice</p>
+          <p>But they don't affect price;</p>
+          <p>One should breed for improved pedigree.”<nbsp /></p>
+          <p>The breeders decided to prove</p>
+          <p>This strategy was a wrong move.</p>
+          <p>Breeding only for spots</p>
+          <p>Would wreak havoc, they thought.</p>
+          <p>His theory they want to disprove.<nbsp /></p>
+          <p>They proposed a contest to Spreckles</p>
+          <p>Comparing dog prices to freckles.</p>
+          <p>In records they looked up</p>
+          <p>One hundred one pups:</p>
+          <p>Dalmatians that fetched the most shekels.<nbsp /></p>
+          <p>They asked Mr. Spreckles to name</p>
+          <p>An average spot count he'd claim</p>
+          <p>To bring in big bucks.</p>
+          <p>Said Spreckles, “Well, shucks,</p>
+          <p>It's for one hundred one that I aim.”<nbsp /></p>
+          <p>Said an amateur statistician</p>
+          <p>Who wanted to help with this mission.</p>
+          <p>“Twenty-one for the sample</p>
+          <p>Standard deviation's ample.”<nbsp /></p>
+          <p>They examined one hundred and one</p>
+          <p>Dalmatians that fetched a good sum.</p>
+          <p>They counted each spot,</p>
+          <p>Mark, freckle, and dot</p>
+          <p>And tallied up every one.<nbsp /></p>
+          <p>Instead of one hundred one spots</p>
+          <p>They averaged ninety-six dots</p>
+          <p>Can they muzzle Spreckles’</p>
+          <p>Obsession with freckles</p>
+          <p>Based on all the dog data they've got?</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="ch9-exer5">
+          <title>Price per box of Mac and Cheese</title>
+        <statement>
+          <p><em>Macaroni and Cheese, please!!</em> by Nedda Misherghi and Rachelle Hall</p>
+          <p>As a poor starving student I don't have much money to spend for even the bare necessities. So my favorite and main staple food is macaroni and cheese. It's high in taste and low in cost and nutritional value.</p>
+          <p>One day, as I sat down to determine the meaning of life, I got a serious craving for this, oh, so important, food of my life. So I went down the street to Greatway to get a box of macaroni and cheese, but it was SO expensive! $2.02 !!! Can you believe it? It made me stop and think. The world is changing fast. I had thought that the mean cost of a box (the normal size, not some super-gigantic-family-value-pack) was at most $1, but now I wasn't so sure. However, I was determined to find out. I went to 53 of the closest grocery stores and surveyed the prices of macaroni and cheese. Here are the data I wrote in my notebook:</p>
+          <p>I could see that the cost varied but I had to sit down to figure out whether or not I was right. If it does turn out that this mouth-watering dish is at most $1, then I'll throw a big cheesy party in our next statistics lab, with enough macaroni and cheese for just me. After all, as a poor starving student I can't be expected to feed our class of animals!</p>
+            <ul>
+            <li>5 stores @ $2.02</li>
+            <li>15 stores @ $0.25</li>
+            <li>3 stores @ $1.29</li>
+            <li>6 stores @ $0.35</li>
+            <li>4 stores @ $2.27</li>
+            <li>7 stores @ $1.50</li>
+            <li>5 stores @ $1.89</li>
+            <li>8 stores @ $0.75</li>
+            </ul>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>μ</m> ≤ 1</li>
+            <li><em>H_{a}</em>: <m>μ</m> &gt; 1</li>
+            <li>Let <m>\overline{X}</m> = the mean cost in dollars of macaroni and cheese in a certain town.</li>
+            <li>Student's <m>t</m>-distribution</li>
+            <li><m>t</m> = 0.340</li>
+            <li><m>p</m>-value = 0.36756</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+  Decision: Do not reject the null hypothesis.
+  Reason for decision: The <m>p</m>-value is greater than 0.05
+  Conclusion: The mean cost could be $1, or less. At the 5 percent significance level, there is insufficient evidence to conclude that the mean price of a box of macaroni and cheese is more than $1.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Do not reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is greater than 0.05</li>
+            <li>Conclusion: The mean cost could be $1, or less. At the 5 percent significance level, there is insufficient evidence to conclude that the mean price of a box of macaroni and cheese is more than $1.</li>
+            <li>(0.8291, 1.241)</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="ch9-exer8">
+          <title>THE CHARACTERS (in order of appearance):</title>
+        <statement>
+          <p>"William Shakespeare: The Tragedy of Hamlet, Prince of Denmark," by Jacqueline Ghodsi</p>
+          <p>Scene: The great library of the castle, in which Hamlet does his lessons</p>
+          <p>Act I</p>
+          <p>The day is fair, but the face of Hamlet is clouded. He paces the large room. His tutor, Polonius, is reprimanding Hamlet regarding the latter’s recent experience. Horatio is seated at the large table at right stage.</p>
+          <p>POLONIUS: My Lord, how cans’t thou admit that thou hast seen a ghost! It is but a figment of your imagination!</p>
+          <p>HAMLET: I beg to differ; I know of a certainty that five-and-seventy in one hundred of us, condemned to the whips and scorns of time as we are, have gazed upon a spirit of health, or goblin damn’d, be their intents wicked or charitable.</p>
+          <p>POLONIUS: If thou dost insist upon thy wretched vision then let me invest your time; be true to thy work and speak to me through the reason of the null and alternate hypotheses. (He turns to Horatio.) Did not Hamlet himself say, “What a piece of work is man, how noble in reason, how infinite in faculties”? Then let not this foolishness persist. Go, Horatio, make a survey of three-and-sixty and discover what the true proportion be. For my part, I will never succumb to this fantasy, but deem man to be devoid of all reason should thy proposal of at least five-and-seventy in one hundred hold true.</p>
+          <p>HORATIO (to Hamlet): What should we do, my Lord?</p>
+          <p>HAMLET: Go to thy purpose, Horatio.</p>
+          <p>HORATIO: To what end, my Lord?</p>
+          <p>HAMLET: That you must teach me. But let me conjure you by the rights of our fellowship, by the consonance of our youth, but the obligation of our ever-preserved love, be even and direct with me, whether I am right or no.</p>
+          <p>Horatio exits, followed by Polonius, leaving Hamlet to ponder alone.</p>
+          <p>Act II</p>
+          <p>The next day, Hamlet awaits anxiously the presence of his friend, Horatio. Polonius enters and places some books upon the table just a moment before Horatio enters.</p>
+          <p>POLONIUS: So, Horatio, what is it thou didst reveal through thy deliberations?</p>
+          <p>HORATIO: In a random survey, for which purpose thou thyself sent me forth, I did discover that one-and-forty believe fervently that the spirits of the dead walk with us. Before my God, I might not this believe, without the sensible and true avouch of mine own eyes.</p>
+          <p>POLONIUS: Give thine own thoughts no tongue, Horatio. (Polonius turns to Hamlet.) But look to’t I charge you, my Lord. Come Horatio, let us go together, for this is not our test. (Horatio and Polonius leave together.)</p>
+          <p>HAMLET: To reject, or not reject, that is the question: whether ‘tis nobler in the mind to suffer the slings and arrows of outrageous statistics, or to take arms against a sea of data, and, by opposing, end them. (Hamlet resignedly attends to his task.)</p>
+          <p>(Curtain falls)</p>
+            <ul>
+            <li>HAMLET, Prince of Denmark and student of statistics</li>
+            <li>POLONIUS, Hamlet’s tutor</li>
+            <li>HORATIO, friend to Hamlet and fellow student</li>
+            </ul>
+          </statement>
+        </exercise>
+      <exercise xml:id="exer7">
+        <statement>
+          <p>"Untitled," by Stephen Chen</p>
+          <p>I've often wondered how software is released and sold to the public. Ironically, I work for a company that sells products with known problems. Unfortunately, most of the problems are difficult to create, which makes them difficult to fix. I usually use the test program X, which tests the product, to try to create a specific problem. When the test program is run to make an error occur, the likelihood of generating an error is 1 percent.</p>
+          <p>So, armed with this knowledge, I wrote a new test program Y that will generate the same error that test program X creates, but more often. To find out if my test program is better than the original, so that I can convince the management that I'm right, I ran my test program to find out how often I can generate the same error. When I ran my test program 50 times, I generated the error twice. While this may not seem much better, I think that I can convince the management to use my test program instead of the original test program. Am I right?</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>p</m> = 0.01</li>
+            <li><em>H_{a}</em>: <m>p</m> &gt; 0.01</li>
+            <li>Let <m>P′</m> = the proportion of errors generated</li>
+            <li>Normal for a single proportion</li>
+            <li>2.13</li>
+            <li>0.0165</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+  Decision: Reject the null hypothesis.
+  Reason for decision: The <m>p</m>-value is less than 0.05.
+  Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of errors generated is more than 0.01.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is less than 0.05.</li>
+            <li>Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of errors generated is more than 0.01.</li>
+            <li>Confidence interval: (0, 0.094).<nbsp />The <em>plus-4s</em> confidence interval is (0.004, 0.144).</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="ch9-exer6">
+        <statement>
+          <p>"Japanese Girls’ Names"</p>
+          <p>by Kumi Furuichi</p>
+          <p>It used to be very typical for Japanese girls’ names to end with “ko.” The trend might have started around my grandmothers’ generation and its peak might have been around my mother’s generation. “Ko” means “child” in Chinese characters. Parents would name their daughters with “ko” attaching to other Chinese characters that have meanings that they want their daughters to become, such as Sachiko—happy child, Yoshiko—a good child, Yasuko—a healthy child, and so on.</p>
+          <p>However, I noticed recently that only two out of nine of my Japanese girlfriends at this school have names that end with “ko.” More and more, parents seem to have become creative, modernized, and, sometimes, westernized in naming their children.</p>
+          <p>I have a feeling that, while 70 percent or more of my mother’s generation would have names with “ko” at the end, the proportion has dropped among my peers. I wrote down all my Japanese friends’, ex-classmates’, coworkers’, and acquaintances’ names that I could remember. Following are the names. Some are repeats. Test to see if the proportion has dropped for this generation.</p>
+          <p>Ai, Akemi, Akiko, Ayumi, Chiaki, Chie, Eiko, Eri, Eriko, Fumiko, Harumi, Hitomi, Hiroko, Hiroko, Hidemi, Hisako, Hinako, Izumi, Izumi, Junko, Junko, Kana, Kanako, Kanayo, Kayo, Kayoko, Kazumi, Keiko, Keiko, Kei, Kumi, Kumiko, Kyoko, Kyoko, Madoka, Maho, Mai, Maiko, Maki, Miki, Miki, Mikiko, Mina, Minako, Miyako, Momoko, Nana, Naoko, Naoko, Naoko, Noriko, Rieko, Rika, Rika, Rumiko, Rei, Reiko, Reiko, Sachiko, Sachiko, Sachiyo, Saki, Sayaka, Sayoko, Sayuri, Seiko, Shiho, Shizuka, Sumiko, Takako, Takako, Tomoe, Tomoe, Tomoko, Touko, Yasuko, Yasuko, Yasuyo, Yoko, Yoko, Yoko, Yoshiko, Yoshiko, Yoshiko, Yuka, Yuki, Yuki, Yukiko, Yuko, Yuko.</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="exerrr">
+        <statement>
+          <p>"Phillip’s Wish," by Suzanne Osorio</p>
+          <p>My nephew likes to play</p>
+          <p>Chasing the girls makes his day.</p>
+          <p>He asked his mother</p>
+          <p>If it is okay</p>
+          <p>To get his ear pierced.</p>
+          <p>She said, “No way!”</p>
+          <p>To poke a hole through your ear,</p>
+          <p>Is not what I want for you, dear.</p>
+          <p>He argued his point quite well,</p>
+          <p>Says even my macho pal,  Mel,</p>
+          <p>Has gotten this done.</p>
+          <p>It’s all just for fun.</p>
+          <p>C’mon please, mom, please, what the hell.</p>
+          <p>Again Phillip complained to his mother,</p>
+          <p>Saying half his friends (including their brothers)</p>
+          <p>Are piercing their ears</p>
+          <p>And they have no fears</p>
+          <p>He wants to be like the others.</p>
+          <p>She said, “I think it’s much less.</p>
+          <p>We must do a hypothesis test.</p>
+          <p>And if you are right,</p>
+          <p>I won’t put up a fight.</p>
+          <p>But, if not, then my case will rest.”</p>
+          <p>We proceeded to call fifty guys</p>
+          <p>To see whose prediction would fly.</p>
+          <p>Nineteen of the fifty</p>
+          <p>Said piercing was nifty</p>
+          <p>And earrings they’d occasionally buy.</p>
+          <p>Then there’s the other thirty-one,</p>
+          <p>Who said they’d never have this done.</p>
+          <p>So now this poem’s finished.</p>
+          <p>Will his hopes be diminished,</p>
+          <p>Or will my nephew have his fun?</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>p</m> = 0.50</li>
+            <li><em>H_{a}</em>: <m>p</m> &lt; 0.50</li>
+            <li>Let <m>P′</m> = the proportion of friends that has a pierced ear.</li>
+            <li>normal for a single proportion</li>
+            <li>–1.70</li>
+            <li><m>p</m>-value = 0.0448</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+  Decision: Reject the null hypothesis.
+  Reason for decision: The <m>p</m>-value is less than 0.05. (However, they are very close.)
+  Conclusion: There is sufficient evidence to support the claim that less than 50 percent of his friends have pierced ears.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is less than 0.05. (However, they are very close.)</li>
+            <li>Conclusion: There is sufficient evidence to support the claim that less than 50 percent of his friends have pierced ears.</li>
+            <li>Confidence interval: (0.245, 0.515): The <em>plus-4s</em> confidence interval is (0.259, 0.519).</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="exercise">
+        <statement>
+          <p>"The Craven," by Mark Salangsang</p>
+          <p>Once upon a morning dreary</p>
+          <p>In stats class I was weak and weary.</p>
+          <p>Pondering over last night’s homework</p>
+          <p>Whose answers were now on the board</p>
+          <p>This I did and nothing more.<nbsp /></p>
+          <p>While I nodded nearly napping</p>
+          <p>Suddenly, there came a tapping.</p>
+          <p>As someone gently rapping,</p>
+          <p>Rapping my head as I snore.</p>
+          <p>Quoth the teacher, “Sleep no more.”<nbsp /></p>
+          <p>“In every class you fall asleep,”</p>
+          <p>The teacher said, his voice was deep.</p>
+          <p>“So a tally I’ve begun to keep</p>
+          <p>Of every class you nap and snore.</p>
+          <p>The percentage being forty-four.”<nbsp /></p>
+          <p>“My dear teacher I must confess,</p>
+          <p>While sleeping is what I do best.</p>
+          <p>The percentage, I think, must be less,</p>
+          <p>A percentage less than forty-four.”</p>
+          <p>This I said and nothing more.<nbsp /></p>
+          <p>“We’ll see,” he said and walked away,</p>
+          <p>And fifty classes from that day</p>
+          <p>He counted till the month of May</p>
+          <p>The classes in which I napped and snored.</p>
+          <p>The number he found was twenty-four.<nbsp /></p>
+          <p>At a significance level of 0.05,</p>
+          <p>Please tell me am I still alive?</p>
+          <p>Or did my grade just take a dive</p>
+          <p>Plunging down beneath the floor?</p>
+          <p>Upon thee I hereby implore.</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="element-378">
+        <statement>
+          <p>Toastmasters International cites a report by Gallup Poll that 40 percent of Americans fear public speaking. A student believes that less than 40 percent of students at her school fear public speaking. She randomly surveys 361 schoolmates and finds that 135 report they fear public speaking. Conduct a hypothesis test to determine if the percentage at her school is less than 40.</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>p</m> = 0.40</li>
+            <li><em>H_{a}</em>: <m>p</m> &lt; 0.40</li>
+            <li>Let <m>P′</m> = the proportion of schoolmates who fear public speaking.</li>
+            <li>normal for a single proportion</li>
+            <li>–1.01</li>
+            <li><m>p</m>-value = 0.1563</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+  Decision: Do not reject the null hypothesis.
+  Reason for decision: The <m>p</m>-value is greater than 0.05.
+  Conclusion: There is insufficient evidence to support the claim that less than 40 percent of students at the school fear public speaking.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Do not reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
+            <li>Conclusion: There is insufficient evidence to support the claim that less than 40 percent of students at the school fear public speaking.</li>
+            <li>Confidence interval: (0.3241, 0.4240): The <em>plus-4s</em> confidence interval is (0.3257, 0.4250).</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="element-48">
+        <statement>
+          <p>Sixty-eight percent of online courses taught at community colleges nationwide were taught by full-time faculty. To test if 68 percent also represents California’s percent for full-time faculty teaching the online classes, Long Beach City College (LBCC) in California was randomly selected for comparison. In the same year, 34 of the 44 online courses LBCC offered were taught by full-time faculty. Conduct a hypothesis test to determine if 68 percent represents California. Note: For more accurate results, use more California community colleges and this past year's data.</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="element-874">
+        <statement>
+          <p>According to an article in a local poll, a city found that 14 percent of its residents walk for exercise. Suppose that a survey is conducted to determine this years rate. Nine out of 70 randomly chosen city residents replied that they walk for exercise. Conduct a hypothesis test to determine if the rate is still 14 percent or if it has decreased.</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>p</m> = 0.14</li>
+            <li><em>H_{a}</em>: <m>p</m> &lt; 0.14</li>
+            <li>Let <m>P′</m> = the proportion of nursing home residents that have the disease.</li>
+            <li>normal for a single proportion</li>
+            <li>–0.2756</li>
+            <li><m>p</m>-value = 0.3914</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+  Decision: Do not reject the null hypothesis.
+  Reason for decision: The <m>p</m>-value is greater than 0.05.
+  At the 5 percent significance level, there is insufficient evidence to conclude that the proportion of nursing home residents that have the disease is less than 0.14.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Do not reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
+            <li>At the 5 percent significance level, there is insufficient evidence to conclude that the proportion of nursing home residents that have the disease is less than 0.14.</li>
+            <li>Confidence interval: (0.0502, 0.2070): The <em>plus-4s</em> confidence interval (see chapter 8) is (0.0676, 0.2297).</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="element-767">
+        <statement>
+          <p>The mean age of De Anza College students in a previous term was 26.6 years old. An instructor thinks the mean age for online students is older than 26.6. She randomly surveys 56 online students and finds that the sample mean is 29.4 with a standard deviation of 2.1. Conduct a hypothesis test.</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="element-408">
+        <statement>
+          <p>Registered nurses earned an average annual salary of $69,110. For that same year, a survey was conducted of 41 California registered nurses to determine if the annual salary is higher than $69,110 for California nurses. The sample average was $71,121 with a sample standard deviation of $7,489. Conduct a hypothesis test.</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>μ</m> = 69,110</li>
+            <li><em>H_{a}</em>: <m>μ</m> &gt; 69,110</li>
+            <li>Let <m>\overline{X}</m> = the mean salary in dollars for California registered nurses.</li>
+            <li>Student's <m>t</m>-distribution</li>
+            <li><m>t</m> = 1.719</li>
+            <li><m>p</m>-value: 0.0466</li>
+            <li>Check student’s solution.</li>
+            <li>Alpha: 0.05
+  Decision: Reject the null hypothesis.
+  Reason for decision: The <m>p</m>-value is less than 0.05.
+  Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the mean salary of California registered nurses exceeds $69,110.</li>
+            <li>Alpha: 0.05</li>
+            <li>Decision: Reject the null hypothesis.</li>
+            <li>Reason for decision: The <m>p</m>-value is less than 0.05.</li>
+            <li>Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the mean salary of California registered nurses exceeds $69,110.</li>
+            <li>($68,757, $73,485)</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="element-50">
+        <statement>
+          <p>La Leche League International reports that the mean age of weaning a child from breastfeeding is age four to five worldwide. In America, most nursing mothers wean their children much earlier. Suppose a random survey is conducted of 21 U.S. mothers who recently weaned their children. The mean weaning age was nine months (3/4 year) with a standard deviation of 4 months. Conduct a hypothesis test to determine if the mean weaning age in the United States is less than four years old.</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="exer12">
+        <statement>
+          <p>Harley Davidson motorcycles are the largest selling motorcycle in the United States, with 14 percent of all motorcycles sold in 2012. Interestingly, a random sample of 1,945 stolen motorcycles was selected, and it was found that just 8 percent of them were Harleys. Is there good evidence that the proportion of Harleys among stolen motorcycles is significantly less than their share of all motorcycles?  After conducting the test, what decision and conclusion would you make?</p>
+          <ol>
+            <li>Reject <em>H_{0}</em>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles</li>
+            <li>Do not reject <em>H_{0}</em>: There is not sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles</li>
+            <li>Do not reject <em>H_{0}</em>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly more than their share of all motorcycles</li>
+            <li>Reject <em>H_{0}</em>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly more than their share of all motorcycles</li>
+          </ol>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>p</m> ≥ 0.14, <em>H_{a}</em>: <m>p</m> &lt; 0.14</li>
+            <li><m>p</m>-value &lt; 0.0002</li>
+            <li>Alpha: 0.05</li>
+            <li>Reject the null hypothesis.</li>
+            <li>At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles. (conclusion a)</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="exer14">
+        <statement>
+          <p>A statistics instructor believes that fewer than 20 percent of Evergreen Valley College (EVC) students attended the opening night midnight showing of the latest Harry Potter movie. She surveys 84 of her students and finds that 11 of them attended the midnight showing.
+  <nbsp />At a 1 percent level of significance, what is an appropriate conclusion?</p>
+          <ol>
+            <li>There is insufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Harry Potter is less than 20 percent.</li>
+            <li>There is sufficient evidence to conclude that the  percent of EVC students who attended the midnight showing of Harry Potter is more than 20 percent.</li>
+            <li>There is sufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Harry Potter is less than 20 percent.</li>
+            <li>There is insufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Harry Potter is at least 20 percent.</li>
+          </ol>
+          </statement>
+        </exercise>
+      <exercise xml:id="exer19">
+        <statement>
+          <p>Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test.
+  <nbsp />At a significance level of
+  <m>a</m> = 0.05, what is the correct conclusion?</p>
+          <ol>
+            <li>There is enough evidence to conclude that the mean number of hours is more than 4.75.</li>
+            <li>There is enough evidence to conclude that the mean number of hours is more than 4.5.</li>
+            <li>There is not enough evidence to conclude that the mean number of hours is more than 4.5.</li>
+            <li>There is not enough evidence to conclude that the mean number of hours is more than 4.75.</li>
+          </ol>
+          </statement>
+        <solution>
+          <p>c</p>
+          </solution>
+        </exercise>
+          <p><em>Hypothesis testing</em>: For the following 10 exercises, answer each question.</p>
+          <ol>
+            <li>State the null and alternate hypotheses.</li>
+            <li>State the <m>p</m>-value.</li>
+            <li>State alpha.</li>
+            <li>What is your decision?</li>
+            <li>Write a conclusion.</li>
+            <li>Answer any other questions asked in the problem.</li>
+          </ol>
+      <exercise xml:id="eip-69">
+        <statement>
+          <p>A research group is studying a particular infectious disease. In 2011 at least 18 percent of nursing home residents had the disease. An Introduction to Statistics class in Daviess County, KY, conducted a hypothesis test at the nursing home (approximately 1,200 residents) to determine if the local nursing home's incidence was lower. One hundred fifty residents were chosen at random and surveyed. Of the 150 residents surveyed, 82 have the disease. Use a significance level of 0.05 and, using appropriate statistical evidence, conduct a hypothesis test and state the conclusions.</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="eip-40">
+        <statement>
+          <p>A recent survey in the <em>New York Times Almanac</em> indicated that 48.8 percent of families own stock. A broker wanted to determine if this survey could be valid. He surveyed a random sample of 250 families and found that 142 owned some type of stock. At the 0.05 significance level, can the survey be considered to be accurate?</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>p</m> = 0.488 <em>H_{a}</em>: <m>p</m> ≠ 0.488</li>
+            <li><m>p</m>-value = 0.0114</li>
+            <li>alpha = 0.05</li>
+            <li>Reject the null hypothesis.</li>
+            <li>At the 5 percent level of significance, there is enough evidence to conclude that 48.8 percent of families own stocks.</li>
+            <li>The survey does not appear to be accurate.</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="eip-59">
+        <statement>
+          <p>Driver error can be listed as the cause of approximately 54 percent of all fatal auto accidents, according to the American Automobile Association. Thirty randomly selected fatal accidents are examined, and it is determined that 14 were caused by driver error. Using α = 0.05, is the AAA proportion accurate?</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="eip-601">
+        <statement>
+          <p>The U.S. Department of Energy reported that 51.7 percent of homes were heated by natural gas. A random sample of 221 homes in Kentucky found that 115 were heated by natural gas. Does the evidence support the claim for Kentucky at the α = 0.05 level? Are the results applicable across the country? Why?</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>p</m> = 0.517 <em>H_{a}</em>: <m>p</m> ≠ 0.517</li>
+            <li><m>p</m>-value = 0.9203.</li>
+            <li>alpha = 0.05.</li>
+            <li>Do not reject the null hypothesis.</li>
+            <li>At the 5 percent significance level, there is not enough evidence to conclude that the proportion of homes in Kentucky that are heated by natural gas is 0.517.</li>
+            <li>However, we cannot generalize this result to the entire nation. First, the sample’s population is only the state of Kentucky. Second, it is reasonable to assume that homes in the extreme north and south will have extreme high usage and low usage, respectively. We would need to expand our sample base to include these possibilities if we wanted to generalize this claim to the entire nation.</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="eip-835">
+        <statement>
+          <p>For Americans using library services, the American Library Association claims that at most 67 percent of patrons borrow books. The library director in Owensboro, KY, feels this is not true, so she asked a local college statistic class to conduct a survey. The class randomly selected 100 patrons and found that 82 borrowed books. Did the class demonstrate that the percentage was higher in Owensboro, KY?  Use α = 0.01 level of significance. What is the possible proportion of patrons who do borrow books from the Owensboro Library?</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="eip-715">
+        <statement>
+          <p>The Weather Underground reported that the mean amount of summer rainfall for the northeastern United States is at least 11.52 inches. Ten cities in the northeast are randomly selected and the mean rainfall amount is calculated to be 7.42 inches with a standard deviation of 1.3 inches. At the α = 0.05 level, can it be concluded that the mean rainfall was below the reported average? What if α = 0.01? Assume the amount of summer rainfall follows a normal distribution.</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>µ</m> ≥ 11.52  <em>H_{a}</em>: <m>µ</m> &lt; 11.52</li>
+            <li><m>p</m>-value = 0.000002 which is almost 0.</li>
+            <li>alpha = 0.05.</li>
+            <li>Reject the null hypothesis.</li>
+            <li>At the 5 percent significance level, there is enough evidence to conclude that the mean amount of summer rain in the northeaster US is less than 11.52 inches, on average.</li>
+            <li>We would make the same conclusion if alpha was 1 percent because the <m>p</m>-value is almost 0.</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="eip-717">
+        <statement>
+          <p>A survey in the <em>New York Times Almanac</em> finds the mean commute time (one way) is 25.4 minutes for the 15 largest US cities. The Austin, TX, chamber of commerce feels that Austin’s commute time is less and wants to publicize this fact. The mean for 25 randomly selected commuters is 22.1 minutes with a standard deviation of 5.3 minutes. At the α = 0.10 level, is the Austin, TX, commute significantly less than the mean commute time for the 15 largest U.S. cities?</p>
+          </statement>
+        </exercise>
+      <exercise xml:id="ch9-eip-192">
+        <statement>
+          <p>A report by the Gallup Poll found that a woman visits her doctor, on average, at most 5.8 times each year. A random sample of 20 women results in these yearly visit totals:<nbsp />
+  3
+  2
+  1
+  3
+  7
+  2
+  9
+  4
+  6
+  6
+  8
+  0
+  5
+  6
+  4
+  2
+  1
+  3
+  4
+  1
+  <nbsp />
+  At the <m>α</m> = 0.05 level, can it be concluded that the sample mean is higher than 5.8 visits per year?</p>
+            <ul>
+            <li>3</li>
+            <li>2</li>
+            <li>1</li>
+            <li>3</li>
+            <li>7</li>
+            <li>2</li>
+            <li>9</li>
+            <li>4</li>
+            <li>6</li>
+            <li>6</li>
+            <li>8</li>
+            <li>0</li>
+            <li>5</li>
+            <li>6</li>
+            <li>4</li>
+            <li>2</li>
+            <li>1</li>
+            <li>3</li>
+            <li>4</li>
+            <li>1</li>
+            </ul>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>µ</m> ≤ 5.8	<em>H_{a}</em>: <m>µ</m> &gt; 5.8</li>
+            <li><m>p</m>-value =  0.9987</li>
+            <li>alpha = 0.05</li>
+            <li>Do not reject the null hypothesis.</li>
+            <li>At the 5 percent level of significance, there is not enough evidence to conclude that a woman visits her doctor, on average, more than 5.8 times a year.</li>
+          </ol>
+          </solution>
+        </exercise>
+      <exercise xml:id="eip-677">
+        <statement>
+          <p>According to the <em>New York Times Almanac</em> the mean family size in the United States is 3.18. A sample of a college math class resulted in the following family sizes:
+  <nbsp />
+  
+  5
+  4
+  5
+  4
+  4
+  3
+  6
+  4
+  3
+  3
+  5
+  5
+  6
+  3
+  3
+  2
+  7
+  4
+  5
+  2
+  2
+  2
+  3
+  2
+  
+  <nbsp />At <m>α</m> = 0.05, is the class’s mean family size greater than the national average? Does the <em>Almanac</em> result remain valid? Why?</p>
+            <ul>
+            <li>5</li>
+            <li>4</li>
+            <li>5</li>
+            <li>4</li>
+            <li>4</li>
+            <li>3</li>
+            <li>6</li>
+            <li>4</li>
+            <li>3</li>
+            <li>3</li>
+            <li>5</li>
+            <li>5</li>
+            <li>6</li>
+            <li>3</li>
+            <li>3</li>
+            <li>2</li>
+            <li>7</li>
+            <li>4</li>
+            <li>5</li>
+            <li>2</li>
+            <li>2</li>
+            <li>2</li>
+            <li>3</li>
+            <li>2</li>
+            </ul>
+          </statement>
+        </exercise>
+      <exercise xml:id="eip-551">
+        <statement>
+          <p>The student academic group on a college campus claims that freshman students study at least 2.5 hours per day, on average. One Introduction to Statistics class was skeptical. The class took a random sample of 30 freshman students and found a mean study time of 137 minutes with a standard deviation of 45 minutes. At <m>α</m> = 0.01 level, is the student academic group’s claim correct?</p>
+          </statement>
+        <solution>
+          <ol>
+            <li><em>H_{0}</em>: <m>µ</m> ≥ 150	<em>H_{a}</em>: <m>µ</m> &lt; 150</li>
+            <li><m>p</m>-value = 0.0622</li>
+            <li>alpha = 0.01</li>
+            <li>Do not reject the null hypothesis.</li>
+            <li>At the 1 percent significance level, there is not enough evidence to conclude that freshmen students study less than 2.5 hours per day, on average.</li>
+            <li>The student academic group’s claim appears to be correct.</li>
+          </ol>
+          </solution>
+        </exercise>
+  
+  </exercises>
+</section>
+
+
+  <glossary xml:id="glossary-ch09">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-alternative-hypothesis">
+      <title>alternative hypothesis</title>
+      <p>the hypothesis that is accepted if the null hypothesis is rejected; notation: H_a or H_1</p>
+    </gi>
+
+    <gi xml:id="gi-level-of-significance">
+      <title>level of significance</title>
+      <p>the probability of rejecting the null hypothesis when it is true; notation: α (alpha); commonly set at 0.05 or 0.01</p>
+    </gi>
+
+    <gi xml:id="gi-null-hypothesis">
+      <title>null hypothesis</title>
+      <p>the hypothesis being tested; usually a statement of no effect or no difference; notation: H_0</p>
+    </gi>
+
+    <gi xml:id="gi-p-value">
+      <title>p-value</title>
+      <p>the probability of obtaining a test statistic at least as extreme as the one observed, assuming the null hypothesis is true</p>
+    </gi>
+
+    <gi xml:id="gi-test-statistic">
+      <title>test statistic</title>
+      <p>a value calculated from sample data that is used to determine whether to reject the null hypothesis; examples include z-scores and t-scores</p>
+    </gi>
+
+    <gi xml:id="gi-type-i-error">
+      <title>Type I error</title>
+      <p>the decision to reject the null hypothesis when it is actually true</p>
+    </gi>
+
+    <gi xml:id="gi-type-ii-error">
+      <title>Type II error</title>
+      <p>the decision not to reject the null hypothesis when it is actually false</p>
+    </gi>
+
+  </glossary>
+
 </chapter>

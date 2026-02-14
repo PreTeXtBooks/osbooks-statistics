@@ -164,8 +164,8 @@ The test of a single variance, which tests variability, such as in the coffee ex
         </solution>
       </exercise>
     <example xml:id="element-962">
-      <title>Day of the Week Employees Were Most Absent</title>
       <statement>
+        <title>Day of the Week Employees Were Most Absent</title>
         <p>Employers want to know which days of the week employees are absent in a five-day work week. Most employers would like to believe that employees are absent equally during the week. Suppose a random sample of 60 managers were asked on which day of the week they had the highest number of employee absences. The results were distributed as in . For the population of employees, do the days for the highest number of absences occur with equal frequencies during a five-day work week? Test at a 5 percent significance level.</p>
       </statement>
       <solution>
@@ -213,8 +213,8 @@ The test of a single variance, which tests variability, such as in the coffee ex
         </solution>
       </exercise>
     <example xml:id="ch11-example3">
-      <title>Note</title>
       <statement>
+        <title>Note</title>
         <p>At the 1 percent significance level, does it appear that the distribution <em>number of televisions</em> of far western U.S. families is different from the distribution for the American population as a whole?</p>
       </statement>
       <solution>
@@ -365,8 +365,8 @@ sure you clear any lists before you start.</p>
         </solution>
       </exercise>
     <example xml:id="element-272">
-      <title>Number of Hours Worked per Week by Volunteer Type (Observed)</title>
       <statement>
+        <title>Number of Hours Worked per Week by Volunteer Type (Observed)</title>
         <p>Is the number of hours volunteered independent of the type of volunteer?</p>
       </statement>
       <solution>
@@ -424,8 +424,8 @@ The table contains expected (<m>E</m>) values (data).</p>
         </solution>
       </exercise>
     <example xml:id="element-505">
-      <title>Need to Succeed in School vs. Anxiety Level</title>
       <statement>
+        <title>Need to Succeed in School vs. Anxiety Level</title>
         <p>a. How many high anxiety level students are expected to have a high need to succeed in school?</p>
       </statement>
       <solution>
@@ -460,8 +460,8 @@ The table contains expected (<m>E</m>) values (data).</p>
     <p>RequirementsAll values in the table must be greater than or equal to five.</p>
     <p>Common UsesComparing two populations. For example:  men vs. women, before vs. after, east vs. west. The variable is categorical with more than two possible response values.</p>
     <example xml:id="eip-101">
-      <title>Distribution of Living Arragements for College Males and College Females</title>
       <statement>
+        <title>Distribution of Living Arrangements for College Males and College Females</title>
         <p>Do male and female college students have the same distribution of living arrangements?  Use a level of significance of 0.05. Suppose that 250 randomly selected male college students and 300 randomly selected female college students were asked about their living arrangements: dormitory, apartment, with parents, other. The results are shown in . Do male and female college students have the same distribution of living arrangements?</p>
       </statement>
       <solution>
@@ -930,5 +930,93 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
       </ol>
     </note>
   </section>
+
+
+  <section xml:id="sec-chi-square-chapter-review">
+    <title>Chapter Review</title>
+    
+    <subsection xml:id="subsec-chi-square-facts-review">
+      <title>Facts About the Chi-Square Distribution</title>
+      <p>The chi-square distribution is used for many statistical tests including tests of independence, homogeneity, and goodness-of-fit. The notation for the chi-square distribution is χ². The chi-square curve is nonsymmetrical and skewed to the right. There is a different chi-square curve for each degrees of freedom. The degrees of freedom depend on how the chi-square is being used.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-goodness-of-fit-review">
+      <title>Goodness-of-Fit Test</title>
+      <p>To assess whether a data set fits a specific probability distribution, use the goodness-of-fit test. The null hypothesis is that the data fits the given distribution. We compare observed counts to expected counts calculated under the null hypothesis. The test statistic is Σ[(O - E)² / E], where O represents observed values and E represents expected values.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-test-of-independence-review">
+      <title>Test of Independence</title>
+      <p>Tests of independence use a contingency table to determine if two factors are independent or dependent. The null hypothesis states that the two factors are independent. The degrees of freedom equal (number of rows - 1)(number of columns - 1).</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-test-for-homogeneity-review">
+      <title>Test for Homogeneity</title>
+      <p>The test for homogeneity is used to determine if different populations have the same distribution for a categorical variable. While similar to the test of independence, the test for homogeneity starts with separate, distinct populations.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-single-variance-review">
+      <title>Test of a Single Variance</title>
+      <p>To test whether a population variance is equal to a hypothesized value, we use a chi-square test for a single variance. The test statistic is χ² = (n-1)s²/σ₀², where n is the sample size, s² is the sample variance, and σ₀² is the hypothesized population variance.</p>
+    </subsection>
+  </section>
+
+
+  <section xml:id="sec-chi-square-references">
+    <title>References</title>
+    
+    <p>Data from the United States Census Bureau. Retrieved from http://www.census.gov.</p>
+    <p>Data from the Bureau of Labor Statistics. Retrieved from http://www.bls.gov.</p>
+    <p>Data from the National Center for Health Statistics. Retrieved from http://www.cdc.gov/nchs.</p>
+    <p>"Smoking and Health." Retrieved from http://www.cdc.gov/tobacco.</p>
+    <p>Data from www.gallup.com.</p>
+    <p>Data from www.pewresearch.org.</p>
+  </section>
+
+
+  <glossary xml:id="glossary-ch11">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-chi-square-distribution">
+      <title>chi-square distribution</title>
+      <p>a probability distribution used in many hypothesis tests including tests of independence, homogeneity, goodness-of-fit, and variance; the notation is χ² with degrees of freedom df</p>
+    </gi>
+
+    <gi xml:id="gi-contingency-table">
+      <title>contingency table</title>
+      <p>a table presenting data in two categories; used for test of independence and test for homogeneity</p>
+    </gi>
+
+    <gi xml:id="gi-expected-values">
+      <title>expected value</title>
+      <p>the theoretical frequency of an observation; the count that would be expected in a cell of a frequency table if the null hypothesis were true; notation: E</p>
+    </gi>
+
+    <gi xml:id="gi-goodness-of-fit">
+      <title>goodness-of-fit test</title>
+      <p>a test to determine how well a data set fits a specific probability distribution</p>
+    </gi>
+
+    <gi xml:id="gi-observed-values">
+      <title>observed value</title>
+      <p>the actual count from the data; notation: O</p>
+    </gi>
+
+    <gi xml:id="gi-test-of-homogeneity">
+      <title>test for homogeneity</title>
+      <p>a test used to determine if different populations have the same distribution for a categorical variable</p>
+    </gi>
+
+    <gi xml:id="gi-test-of-independence">
+      <title>test of independence</title>
+      <p>a test using a contingency table to determine whether two factors are independent or dependent</p>
+    </gi>
+
+    <gi xml:id="gi-test-of-single-variance">
+      <title>test of a single variance</title>
+      <p>a test to determine if a population variance is equal to a hypothesized value</p>
+    </gi>
+
+  </glossary>
 
 </chapter>

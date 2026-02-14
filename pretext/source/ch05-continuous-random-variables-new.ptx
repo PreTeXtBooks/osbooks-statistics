@@ -207,188 +207,6 @@
       <p>Cumulative distribution function (cdf): <em>P</em>(<em>X</em> ≤ <em>x</em>)</p>
     </subsection>
 
-    <subsection xml:id="subsec-practice-continuous">
-      <title>Practice</title>
-
-      <exercise xml:id="ex-practice-01">
-        <statement>
-          <p>Which type of distribution does the graph illustrate?</p>
-          <figure xml:id="fig-practice-01">
-            <image source="media/CNX_Stats_C05_M01_item001.jpg" width="80%">
-              <description>The horizontal axis ranges from 0 to 10. The distribution is modeled by a rectangle extending from x = 3 to x = 8.</description>
-            </image>
-          </figure>
-        </statement>
-        <solution>
-          <p>Uniform distribution</p>
-        </solution>
-      </exercise>
-
-      <exercise xml:id="ex-practice-02">
-        <statement>
-          <p>Which type of distribution does the graph illustrate?</p>
-          <figure xml:id="fig-practice-02">
-            <image source="media/CNX_Stats_C05_M01_item002.jpg" width="80%">
-              <description>This graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph.</description>
-            </image>
-          </figure>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="ex-practice-03">
-        <statement>
-          <p>Which type of distribution does the graph illustrate?</p>
-          <figure xml:id="fig-practice-03">
-            <image source="media/CNX_Stats_C05_M01_item003.jpg" width="80%">
-              <description>This graph shows a bell-shaped graph. The symmetric graph reaches maximum height at x = 0 and slopes downward gradually to the x-axis on each side of the peak.</description>
-            </image>
-          </figure>
-        </statement>
-        <solution>
-          <p>Normal distribution</p>
-        </solution>
-      </exercise>
-
-      <exercise xml:id="ex-practice-04">
-        <statement>
-          <p>What does the shaded area represent? <em>P</em>(___&lt; <em>x</em> &lt; ___)</p>
-          <figure xml:id="fig-practice-04">
-            <image source="media/CNX_Stats_C05_M01_item004.jpg" width="80%">
-              <description>This graph shows a uniform distribution. The horizontal axis ranges from 0 to 10. The distribution is modeled by a rectangle extending from x = 1 to x = 8. A region from x = 2 to x = 5 is shaded inside the rectangle.</description>
-            </image>
-          </figure>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="ex-practice-05">
-        <statement>
-          <p>What does the shaded area represent? <em>P</em>(___&lt; <em>x</em> &lt; ___)</p>
-          <figure xml:id="fig-practice-05">
-            <image source="media/CNX_Stats_C05_M01_item005.jpg" width="80%">
-              <description>This graph shows an exponential distribution. The graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph. The region under the graph from x = 6 to x = 7 is shaded.</description>
-            </image>
-          </figure>
-        </statement>
-        <solution>
-          <p><em>P</em>(6 &lt; <em>x</em> &lt; 7)</p>
-        </solution>
-      </exercise>
-
-      <exercise xml:id="ex-practice-06">
-        <statement>
-          <p>For a continuous probability distribution, 0 ≤ <em>x</em> ≤ 15. What is <em>P</em>(<em>x</em> > 15)?</p>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="ex-practice-07">
-        <statement>
-          <p>What is the area under <em>f</em>(<em>x</em>) if the function is a continuous probability density function?</p>
-        </statement>
-        <solution>
-          <p>one</p>
-        </solution>
-      </exercise>
-
-      <exercise xml:id="ex-practice-08">
-        <statement>
-          <p>For a continuous probability distribution, 0 ≤ <em>x</em> ≤ 10. What is <em>P</em>(<em>x</em> = 7)?</p>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="ex-practice-09">
-        <statement>
-          <p>A <em>continuous</em> probability function is restricted to the portion between <em>x</em> = 0 and 7. What is <em>P</em>(<em>x</em> = 10)?</p>
-        </statement>
-        <solution>
-          <p>zero</p>
-        </solution>
-      </exercise>
-
-      <exercise xml:id="ex-practice-10">
-        <statement>
-          <p><em>f</em>(<em>x</em>) for a continuous probability function is <m>\frac{1}{5}</m>, and the function is restricted to 0 ≤ <em>x</em> ≤ 5. What is <em>P</em>(<em>x</em> &lt; 0)?</p>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="ex-practice-11">
-        <statement>
-          <p><em>f</em>(<em>x</em>), a continuous probability function, is equal to <m>\frac{1}{12}</m>, and the function is restricted to 0 ≤ <em>x</em> ≤ 12. What is <em>P</em>(0 &lt; <em>x</em> &lt; 12)?</p>
-        </statement>
-        <solution>
-          <p>one</p>
-        </solution>
-      </exercise>
-
-      <exercise xml:id="ex-practice-12">
-        <statement>
-          <p>Find the probability that <em>x</em> falls in the shaded area.</p>
-          <figure xml:id="fig-practice-12">
-            <image source="media/CNX_Stats_C05_M02_item001.jpg" width="80%">
-              <description>A graph is shown. An unlabeled x axis is measured in increments of 1 from 0 to 10. The y-axis has one measurement of 1/9. A box is drawn on the graph, stretching from 0 to 9 on the x axis, and up to the 1/9 measurement on the y axis. The box is shaded blue between the measurements of 6 and 8.</description>
-            </image>
-          </figure>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="ex-practice-13">
-        <statement>
-          <p>Find the probability that <em>x</em> falls in the shaded area.</p>
-          <figure xml:id="fig-practice-13">
-            <image source="media/CNX_Stats_C05_M02_item002.jpg" width="80%">
-              <description>A graph is shown. An unlabeled x axis is measured in increments of 1 from 0 to 10. The y-axis has one measurement of 1/8. A box is drawn on the graph, stretching from 0 to 8.5 on the x axis, and up to the 1/8 measurement on the y axis. The box is shaded between the measurements of 0 and 5.</description>
-            </image>
-          </figure>
-        </statement>
-        <solution>
-          <p>0.625</p>
-        </solution>
-      </exercise>
-
-      <exercise xml:id="ex-practice-14">
-        <statement>
-          <p>Find the probability that <em>x</em> falls in the shaded area.</p>
-          <figure xml:id="fig-practice-14">
-            <image source="media/CNX_Stats_C05_M02_item003.jpg" width="80%">
-              <description>A graph is shown. An unlabeled x axis is measured in increments of 1 from 0 to 10. The y-axis has one measurement of 1/10. A box is drawn on the graph, stretching from 0 to 10 on the x axis, and up to the 1/10 measurement on the y axis. The box is shaded blue between the measurements 2.5 and 5.5.</description>
-            </image>
-          </figure>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="ex-practice-15">
-        <statement>
-          <p><em>f</em>(<em>x</em>), a continuous probability function, is equal to <m>\frac{1}{3}</m> and the function is restricted to 1 ≤ <em>x</em> ≤ 4. Describe <m>P\left(x > \frac{3}{2}\right)</m>.</p>
-        </statement>
-        <solution>
-          <p>The probability is equal to the area from <em>x</em> = <m>\frac{3}{2}</m> to <em>x</em> = 4 above the x-axis and up to <em>f</em>(<em>x</em>) = <m>\frac{1}{3}</m>.</p>
-        </solution>
-      </exercise>
-    </subsection>
-
-    <subsection xml:id="subsec-homework-continuous">
-      <title>Homework</title>
-
-      <p><em>For each probability and percentile problem, draw the picture.</em></p>
-
-      <exercise xml:id="ex-homework-01">
-        <statement>
-          <p>Consider the following experiment. You are one of 100 people enlisted to take part in a study to determine percentage of nurses in America with an R.N. (registered nurse) degree. You ask nurses if they have an R.N. degree. The nurses answer yes or no. You then calculate the percentage of nurses with an R.N. degree. You give that percentage to your supervisor.</p>
-          <ol>
-            <li>What part of the experiment will yield discrete data?</li>
-            <li>What part of the experiment will yield continuous data?</li>
-          </ol>
-        </statement>
-      </exercise>
-
-      <exercise xml:id="ex-homework-02">
-        <statement>
-          <p>When age is rounded to the nearest year, do the data stay continuous, or do they become discrete? Why?</p>
-        </statement>
-        <solution>
-          <p>Age is a measurement, regardless of the accuracy used.</p>
-        </solution>
-      </exercise>
-    </subsection>
   </section>
 
 <section xml:id="sec-uniform-distribution" xmlns:xi="http://www.w3.org/2001/XInclude">
@@ -990,243 +808,6 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
       </solution>
     </exercise>
   </subsection>
-  <subsection xml:id="fs-idp64788688">
-    <title>Homework</title>
-    <p xml:id="eip-902"><em>For each probability and percentile problem, draw the picture.</em></p>
-    <exercise xml:id="fs-idp2934064">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="fs-idp77684160">Births are approximately uniformly distributed between the 52 weeks of the year. They can be said to follow a uniform distribution from one to 53 (spread of 52 weeks).</p>
-        <ol marker="a">
-          <li><em>X</em> ~ _________</li>
-          <li>Graph the probability distribution.</li>
-          <li><em>f</em>(<em>x</em>) = _________</li>
-          <li><em>μ</em> = _________</li>
-          <li>σ = _________</li>
-          <li>Find the probability that a person is born at the exact moment week 19 starts. That is, find <em>P</em>(<em>x</em> = 19) = _________</li>
-          <li><em>P</em>(2 &lt; <em>x</em> &lt; 31) = _________</li>
-          <li>Find the probability that a person is born after week 40.</li>
-          <li><em>P</em>(12 &lt; <em>x</em>|<em>x</em> &lt; 28) = _________</li>
-          <li>Find the 70<sup>th</sup> percentile.</li>
-          <li>Find the minimum for the upper quarter.</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="fs-idp169878048">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="fs-idp81982480">A random number generator picks a number from one to nine in a uniform manner.</p>
-        <ol marker="a">
-          <li><em>X</em> ~ _________</li>
-          <li>Graph the probability distribution.</li>
-          <li><em>f</em>(<em>x</em>) = _________</li>
-          <li><em>μ</em> = _________</li>
-          <li><em>σ</em> = _________</li>
-          <li><em>P</em>(3.5 &lt; <em>x</em> &lt; 7.25) = _________</li>
-          <li><em>P</em>(<em>x</em> &gt; 5.67)</li>
-          <li><em>P</em>(<em>x</em> &gt; 5|<em>x</em> &gt; 3) = _________</li>
-          <li>Find the 90<sup>th</sup> percentile.</li>
-        </ol>
-      </statement>
-      <solution>
-        <ol marker="a">
-          <li><em>X</em> ~ <em>U</em>(1, 9)</li>
-          <li>Check student’s solution</li>
-          <li><m>f(x)=\frac{1}{8}</m> where <m>1 \leq x \leq 9</m></li>
-          <li>five</li>
-          <li>2.3</li>
-          <li><m>\frac{15}{32}</m></li>
-          <li><m>\frac{333}{800}</m></li>
-          <li><m>\frac{2}{3}</m></li>
-          <li>8.2</li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="eip-994">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="fs-idp126144656">According to a study by Dr. John McDougall of his live-in weight loss program, the people who follow his program lose between six and 15 pounds a month until they approach trim body weight. Let’s suppose that the weight loss is uniformly distributed. We are interested in the weight loss of a randomly selected individual following the program for one month.</p>
-        <ol marker="a">
-          <li>Define the random variable. <em>X</em> = _________</li>
-          <li><em>X</em> ~ _________</li>
-          <li>Graph the probability distribution.</li>
-          <li><em>f</em>(<em>x</em>) = _________</li>
-          <li><em>μ</em> = _________</li>
-          <li><em>σ</em> = _________</li>
-          <li>Find the probability that the individual lost more than 10 pounds in a month.</li>
-          <li>Suppose it is known that the individual lost more than 10 pounds in a month. Find the probability that he lost less than 12 pounds in the month.</li>
-          <li><em>P</em>(7 &lt; <em>x</em> &lt; 13|<em>x</em> &gt; 9) = __________. State this result in a probability question, similarly to Parts g and h, draw the picture, and find the probability.</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="eip-106">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="fs-idp116074240">A subway train arrives every eight minutes during rush hour. We are interested in the length of time a commuter must wait for a train to arrive. The time follows a uniform distribution.</p>
-        <ol marker="a">
-          <li>Define the random variable. <em>X</em> = _______</li>
-          <li><em>X</em> ~ _______</li>
-          <li>Graph the probability distribution.</li>
-          <li><em>f</em>(<em>x</em>) = _______</li>
-          <li><em>μ</em> = _______</li>
-          <li><em>σ</em> = _______</li>
-          <li>Find the probability that the commuter waits less than one minute.</li>
-          <li>Find the probability that the commuter waits between three and four minutes.</li>
-          <li>Sixty percent of commuters wait more than how long for the train? State this result in a probability question, similarly to Parts g and h, draw the picture, and find the probability.</li>
-        </ol>
-      </statement>
-      <solution>
-        <ol marker="a">
-          <li><em>X</em> represents the length of time a commuter must wait for a train to arrive on the Red Line.</li>
-          <li><em>X</em> ~ <em>U</em>(0, 8)</li>
-          <li><m>f(x)=\frac{1}{8}</m> where 0 ≤ <em>x</em> ≤ 8</li>
-          <li>four</li>
-          <li>2.31</li>
-          <li><m>\frac{1}{8}</m></li>
-          <li><m>\frac{1}{8}</m></li>
-          <li>3.2</li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="eip-819">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="fs-idp125382704">The age of a first grader on September 1 at Garden Elementary School is uniformly distributed from 5.8 to 6.8 years. We randomly select one first grader from the class.</p>
-        <ol marker="a">
-          <li>Define the random variable. <em>X</em> = _________</li>
-          <li><em>X</em> ~ _________</li>
-          <li>Graph the probability distribution.</li>
-          <li><em>f</em>(<em>x</em>) = _________</li>
-          <li><em>μ</em> = _________</li>
-          <li><em>σ</em> = _________</li>
-          <li>Find the probability that she is over 6.5 years old.</li>
-          <li>Find the probability that she is between four and six years old.</li>
-          <li>Find the 70<sup>th</sup> percentile for the age of first graders on September 1 at Garden Elementary School.</li>
-        </ol>
-      </statement>
-    </exercise>
-    <p xml:id="ch5-eip-192"><em>Use the following information to answer the next three exercises.</em> The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution.</p>
-    <exercise xml:id="eip-518">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="fs-idp114358400">What is the average waiting time (in minutes)?</p>
-        <ol marker="a">
-          <li>zero</li>
-          <li>two</li>
-          <li>three</li>
-          <li>four</li>
-        </ol>
-      </statement>
-      <solution>
-        <p xml:id="fs-idp31654800">d</p>
-      </solution>
-    </exercise>
-    <exercise xml:id="eip-255">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="eip-idp37323248">Find the 30<sup>th</sup> percentile for the waiting times (in minutes).</p>
-        <ol marker="a">
-          <li>two</li>
-          <li>2.4</li>
-          <li>2.75</li>
-          <li>three</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="eip-412">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="fs-idp2555968">The probability of waiting more than seven minutes given a person has waited more than four minutes is?</p>
-        <ol marker="a">
-          <li>0.125</li>
-          <li>0.25</li>
-          <li>0.5</li>
-          <li>0.75</li>
-        </ol>
-      </statement>
-      <solution>
-        <p xml:id="fs-idp94217728">b</p>
-      </solution>
-    </exercise>
-    <exercise xml:id="fs-idp57726432">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="fs-idm12724240">The time (in minutes) until the next bus departs a major bus depot follows a distribution with <em>f</em>(<em>x</em>) = <m>\frac{1}{20}</m> where <em>x</em> goes from 25 to 45 minutes.</p>
-        <ol marker="a">
-          <li>Define the random variable. <em>X</em> = ________</li>
-          <li><em>X</em> ~ ________</li>
-          <li>Graph the probability distribution.</li>
-          <li>The distribution is ______________ (name of distribution). It is _____________ (discrete or continuous).</li>
-          <li><em>μ</em> = ________</li>
-          <li><em>σ</em> = ________</li>
-          <li>Find the probability that the time is at most 30 minutes. Sketch and label a graph of the distribution. Shade the area of interest. Write the answer in a probability statement.</li>
-          <li>Find the probability that the time is between 30 and 40 minutes. Sketch and label a graph of the distribution. Shade the area of interest. Write the answer in a probability statement.</li>
-          <li><em>P</em>(25 &lt; <em>x</em> &lt; 55) = _________. State this result in a probability statement, similarly to Parts g and h, draw the picture, and find the probability.</li>
-          <li>Find the 90<sup>th</sup> percentile. This means that 90 percent of the time, the time is less than _____ minutes.</li>
-          <li>Find the 75<sup>th</sup> percentile. In a complete sentence, state what this means. (See Part j.)</li>
-          <li>Find the probability that the time is more than 40 minutes given (or knowing that) it is at least 30 minutes.</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="fs-idm19928432">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="fs-idm19928048">Suppose that the value of a stock varies each day from $16 to $25 with a uniform distribution.</p>
-        <ol marker="a">
-          <li>Find the probability that the value of the stock is more than $19.</li>
-          <li>Find the probability that the value of the stock between $19 and $22.</li>
-          <li>Find the upper quartile — 25 percent of all days the stock is above what value? Draw the graph.</li>
-          <li>Given that the stock is greater than $18, find the probability that the stock is more than $21.</li>
-        </ol>
-      </statement>
-      <solution>
-        <ol marker="a">
-          <li>The probability density function of <em>X</em> is <m>\frac{1}{25-16}=\frac{1}{9}</m>.
-        
-        <em>P</em>(<em>X</em> &gt; 19) = (25 – 19) <m>(\frac{1}{9})</m>
-         = <m>\frac{6}{9}</m> = <m>\frac{2}{3}</m>.</li>
-          <li><em>P</em>(19 &lt; <em>X</em> &lt; 22) = (22 – 19) <m>(\frac{1}{9})</m> = <m>\frac{3}{9}</m> = <m>\frac{1}{3}</m>.</li>
-          <li>The area must be 0.25, and 0.25 = (width)<m>(\frac{1}{9})</m>, so width = (0.25)(9) = 2.25. Thus, the value is 25 – 2.25 = 22.75.</li>
-          <li>This is a conditional probability question. P(x &gt; 21| x &gt; 18). You can do this two ways:
-            <ul>
-          <li>Draw the graph where a is now 18 and b is still 25. The height is <m>\frac{1}{(25-18)}</m> = <m>\frac{1}{7}</m>
-        So, <em>P</em>(<em>x</em> &gt; 21|<em>x</em> &gt; 18) = (25 – 21)<m>(\frac{1}{7})</m> = 4/7.</li>
-          <li>Use the formula: <em>P</em>(<em>x</em> &gt; 21|<em>x</em> &gt; 18) = <m>\frac{P(x&gt;21ANDx&gt;18)}{P(x&gt;18)}</m>
-        
-        = <m>\frac{P(x&gt;21)}{P(x&gt;18)}</m> = <m>\frac{(25-21)}{(25-18)}</m> = <m>\frac{4}{7}</m>.</li>
-        </ul></li>
-        </ol>
-      </solution>
-    </exercise>
-    <exercise xml:id="fs-idp90929648">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="fs-idp100719504">A fireworks show is designed so that the time between fireworks is between one and five seconds, and follows a uniform distribution.</p>
-        <ol marker="a">
-          <li>Find the average time between fireworks.</li>
-          <li>Find the probability that the time between fireworks is greater than four seconds.</li>
-        </ol>
-      </statement>
-    </exercise>
-    <exercise xml:id="fs-idp96470224">
-      <title>Try It</title>
-      <statement>
-        <p xml:id="fs-idp182386192">The number of miles driven by a truck driver falls between 300 and 700, and follows a uniform distribution.</p>
-        <ol marker="a">
-          <li>Find the probability that the truck driver goes more than 650 miles in a day.</li>
-          <li>Find the probability that the truck driver goes between 400 and 650 miles in a day.</li>
-          <li>At least how many miles does the truck driver travel on the 10 percent of days with the highest mileage?</li>
-        </ol>
-      </statement>
-      <solution>
-        <ol marker="a">
-          <li><em>P</em>(<em>X</em> &gt; 650) = <m>\frac{700-650}{700-300}=\frac{50}{400}=\frac{1}{8}</m> = 0.125.</li>
-          <li><em>P</em>(400 &lt; <em>X</em> &lt; 650) = <m>\frac{650-400}{700-300}=\frac{250}{400}</m> = 0.625</li>
-          <li>0.10 = <m>\frac{width}{700-300}</m>, so width = 400(0.10) = 40. Since 700 – 40 = 660, the drivers travel at least 660 miles on the farthest 10 percent of days.</li>
-        </ol>
-      </solution>
-    </exercise>
-  </subsection>
 </section>
 <section xml:id="sec-exponential-distribution">
 <p xml:id="fs-idm32858512">The <term xml:id="term-00001">exponential distribution</term> is often concerned with the amount of time until some specific event occurs. For example, the amount of time (beginning now) until an earthquake occurs has an exponential distribution. Other examples include the length, in minutes, of long-distance business telephone calls, and the amount of time, in months, a car battery lasts. It can be shown, too, that the value of the change that you have in your pocket or purse approximately follows an exponential distribution.</p>
@@ -1674,8 +1255,1226 @@ k!
 <p xml:id="fs-idp35150608">Suppose <em>X</em> has the Poisson distribution with mean <em>λ</em>. Compute <em>P</em>(<em>X</em> = <em>k</em>) by entering 2<m>^{nd}</m>, VARS(DISTR), C: poissonpdf(<em>λ</em>, <em>k</em>). To compute <em>P</em>(<em>X</em> ≤ <em>k</em>), enter 2<m>^{nd}</m>, VARS (DISTR), D:poissoncdf(<em>λ</em>, <em>k</em>).</p>
 </note>
 </subsection>
-<subsection xml:id="fs-idp88695408">
-<title>Practice</title>
+</section>
+
+<section xml:id="sec-lab-continuous-distribution">
+  <title>Continuous Distribution</title>
+  
+  <note xml:id="note-lab-continuous-distribution" class="statistics lab">
+    <label/>
+    <title>Continuous Distribution</title>
+    
+    <paragraphs>
+      <title>Student Learning Outcomes</title>
+      <ul>
+        <li>The student will compare and contrast empirical data from a random number generator with the uniform distribution.</li>
+      </ul>
+    </paragraphs>
+    
+    <paragraphs xml:id="para-collect-data">
+      <title>Collect the Data</title>
+      <p>Use a random number generator to generate 50 values between zero and one (inclusive). List them in <xref ref="table-random-values"/>. Round the numbers to four decimal places or set the calculator MODE to four places.</p>
+    </paragraphs>
+    
+    <ol>
+      <li>
+        Complete the table.
+        <table xml:id="table-random-values">
+          <title>Random Values</title>
+          <tabular>
+            <row>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+            </row>
+            <row>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+            </row>
+            <row>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+            </row>
+            <row>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+            </row>
+            <row>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+            </row>
+            <row>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+            </row>
+            <row>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+            </row>
+            <row>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+            </row>
+            <row>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+            </row>
+            <row>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+              <cell>__________</cell>
+            </row>
+          </tabular>
+        </table>
+      </li>
+      <li>
+        Calculate the following:
+        <ol marker="a">
+          <li><m>\overline{x} =</m> _______</li>
+          <li><em>s</em> = _______</li>
+          <li>first quartile = _______</li>
+          <li>third quartile = _______</li>
+          <li>median = _______</li>
+        </ol>
+      </li>
+    </ol>
+    
+    <p>
+      <title>Organize the Data</title>
+    </p>
+    <ol>
+      <li>
+        Construct a histogram of the empirical data. Make eight bars.
+        <figure xml:id="figure-histogram-eight-bars">
+          <caption>Histogram with Eight Bars</caption>
+          <image source="media/fig-ch05_06_01.png" width="60%">
+            <description>Blank graph with relative frequency on the vertical axis and X on the horizontal axis.</description>
+          </image>
+        </figure>
+      </li>
+      <li>
+        Construct a histogram of the empirical data. Make five bars.
+        <figure xml:id="figure-histogram-five-bars">
+          <caption>Histogram with Five Bars</caption>
+          <image source="media/fig-ch05_06_01.png" width="60%">
+            <description>Blank graph with relative frequency on the vertical axis and X on the horizontal axis.</description>
+          </image>
+        </figure>
+      </li>
+    </ol>
+    
+    <p>
+      <title>Describe the Data</title>
+    </p>
+    <ol>
+      <li>In two to three complete sentences, describe the shape of each graph. (Keep it simple. Does the graph go straight across, does it have a V shape, does it have a hump in the middle or at either end (and so on). One way to help you determine a shape is to draw a smooth curve roughly through the top of the bars.)</li>
+      <li>Describe how changing the number of bars might change the shape.</li>
+    </ol>
+    
+    <p xml:id="para-theoretical-distribution">
+      <title>Theoretical Distribution</title>
+    </p>
+    <ol>
+      <li>In words, <em>X</em> = _____________________________________.</li>
+      <li>The theoretical distribution of <em>X</em> is <em>X</em> ~ <em>U</em>(0,1).</li>
+      <li>
+        In theory, based upon the distribution <em>X</em> ~ <em>U</em>(0,1), complete the following.
+        <ol marker="a">
+          <li><em>μ</em> = ______</li>
+          <li><em>σ</em> = ______</li>
+          <li>first quartile = ______</li>
+          <li>third quartile = ______</li>
+          <li>median = __________</li>
+        </ol>
+      </li>
+      <li>Are the empirical values (the data) in the section titled <xref ref="para-collect-data">Collect the Data</xref> close to the corresponding theoretical values? Why or why not?</li>
+    </ol>
+    
+    <p>
+      <title>Plot the Data</title>
+    </p>
+    <ol>
+      <li>Construct a box plot of the data. Be sure to use a ruler to scale accurately and draw straight edges.</li>
+      <li>Do you notice any potential outliers? If so, which values are they? Either way, justify your answer numerically. (Recall that any data that are less than <em>Q</em><sub>1</sub> – 1.5(<em>IQR</em>) or more than <em>Q</em><sub>3</sub> + 1.5(<em>IQR</em>) are potential outliers. <em>IQR</em> means interquartile range.)</li>
+    </ol>
+    
+    <p>
+      <title>Compare the Data</title>
+    </p>
+    <ol>
+      <li>
+        For each of the following parts, use a complete sentence to comment on how the value obtained from the data compares to the theoretical value you expected from the distribution in the section titled <xref ref="para-theoretical-distribution">Theoretical Distribution</xref>:
+        <ol marker="a">
+          <li>minimum value: _______</li>
+          <li>first quartile: _______</li>
+          <li>median: _______</li>
+          <li>third quartile: _______</li>
+          <li>maximum value: _______</li>
+          <li>width of <em>IQR</em>: _______</li>
+          <li>overall shape: _______</li>
+        </ol>
+      </li>
+      <li>Based on your comments in the section titled <xref ref="para-collect-data">Collect the Data</xref>, how does the box plot fit or not fit what you would expect of the distribution in the section titled <xref ref="para-theoretical-distribution">Theoretical Distribution</xref>?</li>
+    </ol>
+    
+    <p>
+      <title>Discussion Question</title>
+    </p>
+    <ol>
+      <li>Suppose that the number of values generated was 500, not 50. How would that affect what you would expect the empirical data to be and the shape of its graph to look like?</li>
+    </ol>
+  </note>
+</section>
+
+<section xml:id="sec-continuous-random-variables-homework">
+  <title>Homework</title>
+
+  <exercises xml:id="exercises-bringing-it-together-ch05">
+    <title>Bringing It Together</title>
+    
+      <p xml:id="eip-902"><em>For each probability and percentile problem, draw the picture.</em></p>
+      <exercise xml:id="fs-idp2934064">
+        <title>Try It</title>
+        <statement>
+          <p xml:id="fs-idp77684160">Births are approximately uniformly distributed between the 52 weeks of the year. They can be said to follow a uniform distribution from one to 53 (spread of 52 weeks).</p>
+          <ol marker="a">
+            <li><em>X</em> ~ _________</li>
+            <li>Graph the probability distribution.</li>
+            <li><em>f</em>(<em>x</em>) = _________</li>
+            <li><em>μ</em> = _________</li>
+            <li>σ = _________</li>
+            <li>Find the probability that a person is born at the exact moment week 19 starts. That is, find <em>P</em>(<em>x</em> = 19) = _________</li>
+            <li><em>P</em>(2 &lt; <em>x</em> &lt; 31) = _________</li>
+            <li>Find the probability that a person is born after week 40.</li>
+            <li><em>P</em>(12 &lt; <em>x</em>|<em>x</em> &lt; 28) = _________</li>
+            <li>Find the 70<sup>th</sup> percentile.</li>
+            <li>Find the minimum for the upper quarter.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp169878048">
+        <title>Try It</title>
+        <statement>
+          <p xml:id="fs-idp81982480">A random number generator picks a number from one to nine in a uniform manner.</p>
+          <ol marker="a">
+            <li><em>X</em> ~ _________</li>
+            <li>Graph the probability distribution.</li>
+            <li><em>f</em>(<em>x</em>) = _________</li>
+            <li><em>μ</em> = _________</li>
+            <li><em>σ</em> = _________</li>
+            <li><em>P</em>(3.5 &lt; <em>x</em> &lt; 7.25) = _________</li>
+            <li><em>P</em>(<em>x</em> &gt; 5.67)</li>
+            <li><em>P</em>(<em>x</em> &gt; 5|<em>x</em> &gt; 3) = _________</li>
+            <li>Find the 90<sup>th</sup> percentile.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol marker="a">
+            <li><em>X</em> ~ <em>U</em>(1, 9)</li>
+            <li>Check student’s solution</li>
+            <li><m>f(x)=\frac{1}{8}</m> where <m>1 \leq x \leq 9</m></li>
+            <li>five</li>
+            <li>2.3</li>
+            <li><m>\frac{15}{32}</m></li>
+            <li><m>\frac{333}{800}</m></li>
+            <li><m>\frac{2}{3}</m></li>
+            <li>8.2</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-994">
+        <title>Try It</title>
+        <statement>
+          <p xml:id="fs-idp126144656">According to a study by Dr. John McDougall of his live-in weight loss program, the people who follow his program lose between six and 15 pounds a month until they approach trim body weight. Let’s suppose that the weight loss is uniformly distributed. We are interested in the weight loss of a randomly selected individual following the program for one month.</p>
+          <ol marker="a">
+            <li>Define the random variable. <em>X</em> = _________</li>
+            <li><em>X</em> ~ _________</li>
+            <li>Graph the probability distribution.</li>
+            <li><em>f</em>(<em>x</em>) = _________</li>
+            <li><em>μ</em> = _________</li>
+            <li><em>σ</em> = _________</li>
+            <li>Find the probability that the individual lost more than 10 pounds in a month.</li>
+            <li>Suppose it is known that the individual lost more than 10 pounds in a month. Find the probability that he lost less than 12 pounds in the month.</li>
+            <li><em>P</em>(7 &lt; <em>x</em> &lt; 13|<em>x</em> &gt; 9) = __________. State this result in a probability question, similarly to Parts g and h, draw the picture, and find the probability.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-106">
+        <title>Try It</title>
+        <statement>
+          <p xml:id="fs-idp116074240">A subway train arrives every eight minutes during rush hour. We are interested in the length of time a commuter must wait for a train to arrive. The time follows a uniform distribution.</p>
+          <ol marker="a">
+            <li>Define the random variable. <em>X</em> = _______</li>
+            <li><em>X</em> ~ _______</li>
+            <li>Graph the probability distribution.</li>
+            <li><em>f</em>(<em>x</em>) = _______</li>
+            <li><em>μ</em> = _______</li>
+            <li><em>σ</em> = _______</li>
+            <li>Find the probability that the commuter waits less than one minute.</li>
+            <li>Find the probability that the commuter waits between three and four minutes.</li>
+            <li>Sixty percent of commuters wait more than how long for the train? State this result in a probability question, similarly to Parts g and h, draw the picture, and find the probability.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol marker="a">
+            <li><em>X</em> represents the length of time a commuter must wait for a train to arrive on the Red Line.</li>
+            <li><em>X</em> ~ <em>U</em>(0, 8)</li>
+            <li><m>f(x)=\frac{1}{8}</m> where 0 ≤ <em>x</em> ≤ 8</li>
+            <li>four</li>
+            <li>2.31</li>
+            <li><m>\frac{1}{8}</m></li>
+            <li><m>\frac{1}{8}</m></li>
+            <li>3.2</li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-819">
+        <title>Try It</title>
+        <statement>
+          <p xml:id="fs-idp125382704">The age of a first grader on September 1 at Garden Elementary School is uniformly distributed from 5.8 to 6.8 years. We randomly select one first grader from the class.</p>
+          <ol marker="a">
+            <li>Define the random variable. <em>X</em> = _________</li>
+            <li><em>X</em> ~ _________</li>
+            <li>Graph the probability distribution.</li>
+            <li><em>f</em>(<em>x</em>) = _________</li>
+            <li><em>μ</em> = _________</li>
+            <li><em>σ</em> = _________</li>
+            <li>Find the probability that she is over 6.5 years old.</li>
+            <li>Find the probability that she is between four and six years old.</li>
+            <li>Find the 70<sup>th</sup> percentile for the age of first graders on September 1 at Garden Elementary School.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <p xml:id="ch5-eip-192"><em>Use the following information to answer the next three exercises.</em> The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution.</p>
+      <exercise xml:id="eip-518">
+        <title>Try It</title>
+        <statement>
+          <p xml:id="fs-idp114358400">What is the average waiting time (in minutes)?</p>
+          <ol marker="a">
+            <li>zero</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+          </ol>
+        </statement>
+        <solution>
+          <p xml:id="fs-idp31654800">d</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="eip-255">
+        <title>Try It</title>
+        <statement>
+          <p xml:id="eip-idp37323248">Find the 30<sup>th</sup> percentile for the waiting times (in minutes).</p>
+          <ol marker="a">
+            <li>two</li>
+            <li>2.4</li>
+            <li>2.75</li>
+            <li>three</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="eip-412">
+        <title>Try It</title>
+        <statement>
+          <p xml:id="fs-idp2555968">The probability of waiting more than seven minutes given a person has waited more than four minutes is?</p>
+          <ol marker="a">
+            <li>0.125</li>
+            <li>0.25</li>
+            <li>0.5</li>
+            <li>0.75</li>
+          </ol>
+        </statement>
+        <solution>
+          <p xml:id="fs-idp94217728">b</p>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp57726432">
+        <title>Try It</title>
+        <statement>
+          <p xml:id="fs-idm12724240">The time (in minutes) until the next bus departs a major bus depot follows a distribution with <em>f</em>(<em>x</em>) = <m>\frac{1}{20}</m> where <em>x</em> goes from 25 to 45 minutes.</p>
+          <ol marker="a">
+            <li>Define the random variable. <em>X</em> = ________</li>
+            <li><em>X</em> ~ ________</li>
+            <li>Graph the probability distribution.</li>
+            <li>The distribution is ______________ (name of distribution). It is _____________ (discrete or continuous).</li>
+            <li><em>μ</em> = ________</li>
+            <li><em>σ</em> = ________</li>
+            <li>Find the probability that the time is at most 30 minutes. Sketch and label a graph of the distribution. Shade the area of interest. Write the answer in a probability statement.</li>
+            <li>Find the probability that the time is between 30 and 40 minutes. Sketch and label a graph of the distribution. Shade the area of interest. Write the answer in a probability statement.</li>
+            <li><em>P</em>(25 &lt; <em>x</em> &lt; 55) = _________. State this result in a probability statement, similarly to Parts g and h, draw the picture, and find the probability.</li>
+            <li>Find the 90<sup>th</sup> percentile. This means that 90 percent of the time, the time is less than _____ minutes.</li>
+            <li>Find the 75<sup>th</sup> percentile. In a complete sentence, state what this means. (See Part j.)</li>
+            <li>Find the probability that the time is more than 40 minutes given (or knowing that) it is at least 30 minutes.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idm19928432">
+        <title>Try It</title>
+        <statement>
+          <p xml:id="fs-idm19928048">Suppose that the value of a stock varies each day from $16 to $25 with a uniform distribution.</p>
+          <ol marker="a">
+            <li>Find the probability that the value of the stock is more than $19.</li>
+            <li>Find the probability that the value of the stock between $19 and $22.</li>
+            <li>Find the upper quartile — 25 percent of all days the stock is above what value? Draw the graph.</li>
+            <li>Given that the stock is greater than $18, find the probability that the stock is more than $21.</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol marker="a">
+            <li>The probability density function of <em>X</em> is <m>\frac{1}{25-16}=\frac{1}{9}</m>.
+          
+          <em>P</em>(<em>X</em> &gt; 19) = (25 – 19) <m>(\frac{1}{9})</m>
+           = <m>\frac{6}{9}</m> = <m>\frac{2}{3}</m>.</li>
+            <li><em>P</em>(19 &lt; <em>X</em> &lt; 22) = (22 – 19) <m>(\frac{1}{9})</m> = <m>\frac{3}{9}</m> = <m>\frac{1}{3}</m>.</li>
+            <li>The area must be 0.25, and 0.25 = (width)<m>(\frac{1}{9})</m>, so width = (0.25)(9) = 2.25. Thus, the value is 25 – 2.25 = 22.75.</li>
+            <li>This is a conditional probability question. P(x &gt; 21| x &gt; 18). You can do this two ways:
+              <ul>
+            <li>Draw the graph where a is now 18 and b is still 25. The height is <m>\frac{1}{(25-18)}</m> = <m>\frac{1}{7}</m>
+          So, <em>P</em>(<em>x</em> &gt; 21|<em>x</em> &gt; 18) = (25 – 21)<m>(\frac{1}{7})</m> = 4/7.</li>
+            <li>Use the formula: <em>P</em>(<em>x</em> &gt; 21|<em>x</em> &gt; 18) = <m>\frac{P(x&gt;21ANDx&gt;18)}{P(x&gt;18)}</m>
+          
+          = <m>\frac{P(x&gt;21)}{P(x&gt;18)}</m> = <m>\frac{(25-21)}{(25-18)}</m> = <m>\frac{4}{7}</m>.</li>
+          </ul></li>
+          </ol>
+        </solution>
+      </exercise>
+      <exercise xml:id="fs-idp90929648">
+        <title>Try It</title>
+        <statement>
+          <p xml:id="fs-idp100719504">A fireworks show is designed so that the time between fireworks is between one and five seconds, and follows a uniform distribution.</p>
+          <ol marker="a">
+            <li>Find the average time between fireworks.</li>
+            <li>Find the probability that the time between fireworks is greater than four seconds.</li>
+          </ol>
+        </statement>
+      </exercise>
+      <exercise xml:id="fs-idp96470224">
+        <title>Try It</title>
+        <statement>
+          <p xml:id="fs-idp182386192">The number of miles driven by a truck driver falls between 300 and 700, and follows a uniform distribution.</p>
+          <ol marker="a">
+            <li>Find the probability that the truck driver goes more than 650 miles in a day.</li>
+            <li>Find the probability that the truck driver goes between 400 and 650 miles in a day.</li>
+            <li>At least how many miles does the truck driver travel on the 10 percent of days with the highest mileage?</li>
+          </ol>
+        </statement>
+        <solution>
+          <ol marker="a">
+            <li><em>P</em>(<em>X</em> &gt; 650) = <m>\frac{700-650}{700-300}=\frac{50}{400}=\frac{1}{8}</m> = 0.125.</li>
+            <li><em>P</em>(400 &lt; <em>X</em> &lt; 650) = <m>\frac{650-400}{700-300}=\frac{250}{400}</m> = 0.625</li>
+            <li>0.10 = <m>\frac{width}{700-300}</m>, so width = 400(0.10) = 40. Since 700 – 40 = 660, the drivers travel at least 660 miles on the farthest 10 percent of days.</li>
+          </ol>
+        </solution>
+      </exercise>
+
+  <exercise xml:id="fs-idp106403424">
+  <statement>
+  <p xml:id="fs-idp106403936">Suppose that the length of long-distance phone calls, measured in minutes, is known to have an exponential distribution with the average length of a call equal to eight minutes.</p>
+  <ol xml:id="fs-idp35999984">
+  <li>Define the random variable. <em>X</em> = ________________.</li>
+  <li>Is <em>X</em> continuous or discrete?</li>
+  <li><em>X</em> ~ ________</li>
+  <li><em>μ</em> = ________</li>
+  <li><em>σ</em> = ________</li>
+  <li>Draw a graph of the probability distribution. Label the axes.</li>
+  <li>Find the probability that a phone call lasts less than nine minutes.</li>
+  <li>Find the probability that a phone call lasts more than nine minutes.</li>
+  <li>Find the probability that a phone call lasts between seven and nine minutes.</li>
+  <li>If 25 phone calls are made one after another, on average, what would you expect the total to be? Why?</li>
+  </ol>
+  </statement>
+  </exercise>
+  <exercise xml:id="fs-idp127287888">
+  <statement>
+  <p xml:id="fs-idp127288400">Suppose that the useful life of a particular car battery, measured in months, decays with parameter 0.025. We are interested in the life of the battery.</p>
+  <ol xml:id="fs-idp127288960">
+  <li>Define the random variable. <em>X</em> = _________________________________.</li>
+  <li>Is <em>X</em> continuous or discrete?</li>
+  <li><em>X</em> ~ ________</li>
+  <li>On average, how long would you expect one car battery to last?</li>
+  <li>On average, how long would you expect nine car batteries to last, if they are used one after another?</li>
+  <li>Find the probability that a car battery lasts more than 36 months.</li>
+  <li>Seventy percent of the batteries last at least how long?</li>
+  </ol>
+  </statement>
+  <solution>
+  <ol xml:id="fs-idm47663232">
+  <li><em>X</em> = the useful life of a particular car battery, measured in months.</li>
+  <li><em>X</em> is continuous.</li>
+  <li><em>X</em> ~ <em>Exp</em>(0.025)</li>
+  <li>40 months</li>
+  <li>360 months</li>
+  <li>0.4066</li>
+  <li>14.27</li>
+  </ol>
+  </solution>
+  </exercise>
+  <exercise xml:id="fs-idm20022272">
+  <statement>
+  <p xml:id="fs-idm19086640">The percent of persons (ages five and older) in each state who speak a language at home other than English is approximately exponentially distributed with a mean of 9.848. Suppose we randomly pick a state.</p>
+  <ol xml:id="fs-idm19085984">
+  <li>Define the random variable. <em>X</em> = _________________________________.</li>
+  <li>Is <em>X</em> continuous or discrete?</li>
+  <li><em>X</em> ~ ________</li>
+  <li><em>μ</em> = ________</li>
+  <li><em>σ</em> = ________</li>
+  <li>Draw a graph of the probability distribution. Label the axes.</li>
+  <li>Find the probability that percentage is less than 12.</li>
+  <li>Find the probability that percentage is between eight and 14.</li>
+  <li>The percent of all individuals living in the United States who speak a language at home other than English is 13.8.
+  <ol xml:id="fs-idm34527280">
+  <li>Why is this number different from 9.848 percent?</li>
+  <li>What would make this number higher than 9.848 percent?</li>
+  </ol>
+  </li>
+  </ol>
+  </statement>
+  </exercise>
+  <exercise xml:id="fs-idp23265056">
+  <statement>
+  <p xml:id="fs-idp23265568">The time (in years) after reaching age 60 that it takes an individual to retire is approximately exponentially distributed with a mean of about five years. Suppose we randomly pick one retired individual. We are interested in the time after age 60 to retirement.</p>
+  <ol xml:id="fs-idp112515824">
+  <li>Define the random variable. <em>X</em> = _________________________________.</li>
+  <li>Is <em>X</em> continuous or discrete?</li>
+  <li><em>X</em> ~ = ________</li>
+  <li><em>μ</em> = ________</li>
+  <li><em>σ</em> = ________</li>
+  <li>Draw a graph of the probability distribution. Label the axes.</li>
+  <li>Find the probability that the person retired after age 70.</li>
+  <li>Do more people retire before age 65 or after age 65?</li>
+  <li>In a room of 1,000 people over age 80, how many do you expect will <alert>not</alert> have retired yet?</li>
+  </ol>
+  </statement>
+  <solution>
+  <ol xml:id="fs-idm77893984">
+  <li><em>X</em> = the time (in years) after reaching age 60 that it takes an individual to retire</li>
+  <li><em>X</em> is continuous.</li>
+  <li><em>X</em> ~ <em>Exp</em><m>
+  
+  (
+  
+  \frac{1}{5}
+  
+  )
+  
+  </m>
+  </li>
+  <li>five</li>
+  <li>five</li>
+  <li>Check student’s solution.</li>
+  <li>0.1353</li>
+  <li>before</li>
+  <li>18.3</li>
+  </ol>
+  </solution>
+  </exercise>
+  <exercise xml:id="fs-idp123376336">
+  <statement>
+  <p xml:id="fs-idp123376848">The cost of all maintenance for a car during its first year is approximately exponentially distributed with a mean of $150.</p>
+  <ol xml:id="fs-idp123377376">
+  <li>Define the random variable. <em>X</em> = _________________________________.</li>
+  <li><em>X</em> ~ = ________</li>
+  <li><em>μ</em> = ________</li>
+  <li><em>σ</em> = ________</li>
+  <li>Draw a graph of the probability distribution. Label the axes.</li>
+  <li>Find the probability that a car required over $300 for maintenance during its first year.</li>
+  </ol>
+  </statement>
+  </exercise>
+  <p xml:id="fs-idp25410160"><em>Use the following information to answer the next three exercises.</em> The average lifetime of a certain new cell phone is three years. The manufacturer will replace any cell phone failing within two years of the date of purchase. The lifetime of these cell phones is known to follow an exponential distribution.</p>
+  <exercise xml:id="fs-idp164419184">
+  <statement>
+  <p xml:id="fs-idp164419696">What is the decay rate?</p>
+  <ol xml:id="fs-idp164420080">
+  <li>0.3333</li>
+  <li>0.5000</li>
+  <li>2</li>
+  <li>3</li>
+  </ol>
+  </statement>
+  <solution>
+  <p xml:id="fs-idm2162672">a</p>
+  </solution>
+  </exercise>
+  <exercise xml:id="fs-idp147488160">
+  <statement>
+  <p xml:id="fs-idp147488672">What is the probability that a phone will fail within two years of the date of purchase?</p>
+  <ol xml:id="fs-idp147489168">
+  <li>0.8647</li>
+  <li>0.4866</li>
+  <li>0.2212</li>
+  <li>0.9997</li>
+  </ol>
+  </statement>
+  </exercise>
+  <exercise xml:id="fs-idm3440688">
+  <statement>
+  <p xml:id="fs-idm3440176">What is the median lifetime of these phones (in years)?</p>
+  <ol xml:id="fs-idp138734432">
+  <li>0.1941</li>
+  <li>1.3863</li>
+  <li>2.0794</li>
+  <li>5.5452</li>
+  </ol>
+  </statement>
+  <solution>
+  <p xml:id="fs-idp45849088">c</p>
+  </solution>
+  </exercise>
+  <exercise xml:id="fs-idp45849728">
+  <statement>
+  <p xml:id="fs-idp45850240">Let <em>X</em> ~ <em>Exp</em>(0.1).</p>
+  <ol xml:id="fs-idp51266048">
+  <li>decay rate = ________</li>
+  <li><em>μ</em> = ________</li>
+  <li>Graph the probability distribution function.</li>
+  <li>On the graph, shade the area corresponding to <em>P</em>(<em>x</em> &lt; 6), and find the probability.</li>
+  <li>Sketch a new graph, shade the area corresponding to <em>P</em>(3 &lt; <em>x</em> &lt; 6), and find the probability.</li>
+  <li>Sketch a new graph, shade the area corresponding to <em>P</em>(<em>x</em> &lt; 7), and find the probability.</li>
+  <li>Sketch a new graph, shade the area corresponding to the 40<m>^{th}</m> percentile and find the value.</li>
+  <li>Find the average value of <em>x</em>.</li>
+  </ol>
+  </statement>
+  </exercise>
+  <exercise xml:id="fs-idm5013072">
+  <statement>
+  <p xml:id="fs-idm17726944">Suppose that the longevity of a light bulb is exponential with a mean lifetime of eight years.</p>
+  <ol xml:id="fs-idm17726448">
+  <li>Find the probability that a light bulb lasts less than one year.</li>
+  <li>Find the probability that a light bulb lasts between six and 10 years.</li>
+  <li>Seventy percent of all light bulbs last at least how long?</li>
+  <li>A company decides to offer a warranty to give refunds to light bulbs whose lifetime is among the lowest two percent of all bulbs. To the nearest month, what should be the cutoff lifetime for the warranty to take place?</li>
+  <li>If a light bulb has lasted seven years, what is the probability that it fails within the 8<m>^{th}</m> year?</li>
+  </ol>
+  </statement>
+  <solution>
+  <p xml:id="fs-idm44734928">Let <em>T</em> = the life time of a light bulb.</p>
+  <p xml:id="fs-idp121756864">The decay parameter is <em>m</em> = 1/8, and <em>T</em> ~ Exp(1/8). The cumulative distribution function is <m>
+   
+    P(T&lt;t)=1-e^{
+      -\frac{t}{8}
+  
+     }
+  
+   
+  </m></p>
+  <ol xml:id="fs-idp58814560">
+  <li>Therefore, <em>P</em>(<em>T</em> &lt; 1) = 1 – e<m>^{<m>
+   
+    –\frac{1}{8}
+   
+  </m>}</m> ≈ 0.1175.</li>
+  <li>We want to find <em>P</em>(6 &lt; <em>t</em> &lt; 10).
+      To do this, <em>P</em>(6 &lt; <em>t</em> &lt; 10) – <em>P</em>(<em>t</em> &lt; 6)
+      = <m>(1–e^{–\frac{1}{8}*10})–(
+      1–e^{
+        –\frac{1}{8}
+        *10
+       }
+  
+     
+    )–(
+     
+      1–e^{
+        –\frac{1}{8}
+        *6
+       }
+  
+     
+    )
+   
+  </m> ≈ 0.7135 – 0.5276 = 0.1859
+  
+  
+  
+  </li>
+  <li>We want to find 0.70 <m>
+   
+    =P(T&gt;t)=1–(
+     
+      1–e^{
+        -\frac{t}{8}
+  
+       }
+  
+     
+    )=e^{
+      -\frac{t}{8}
+  
+     }
+    .
+   
+  </m>
+  Solving for <em>t</em>, e<m>^{<m>
+   
+    –\frac{t}{8}
+  
+   
+  </m>}</m> = 0.70, so <m>
+   
+    –\frac{t}{8}
+  
+   
+  </m> = <em>ln</em>(0.70), and <em>t</em> = –8<em>ln</em>(0.70) ≈ 2.85 years
+  Or use <em>t</em> = <m>
+   
+    \frac{
+      ln\text{(area_to_the_right)}
+     }{
+      (–m)
+     }
+    =\frac{
+      ln\text{(0}\text{.70)}
+     }{
+      –\frac{1}{8}
+  
+     }
+    \approx2.\text{85 years}
+   
+  </m>.
+  
+  
+  
+  </li>
+  <li>We want to find 0.02 = <em>P</em>(<em>T</em> &lt; <em>t</em>) = 1 – <em>e</em><m>^{<m>
+   
+    –\frac{t}{8}
+  
+   
+  </m>}</m>.
+  Solving for <em>t</em>, <em>e</em> <m>^{<m>
+   
+    –\frac{t}{8}
+  
+   
+  </m>}</m> = 0.98, so <m>
+   
+    –\frac{t}{8}
+  
+   
+  </m> = <em>ln</em>(0.98), and t = –8<em>ln</em>(0.98) ≈ 0.1616 years, or roughly two months.
+  The warranty should cover light bulbs that last less than 2 months.
+  Or use <m>
+   
+    \frac{
+      ln\text{(area_to_the_right)}
+     }{
+      \text{(}–\text{m)}
+     }
+    =\frac{
+      ln\text{(1}–0.2)
+     }{
+      –\frac{1}{8}
+  
+     }
+  
+   
+  </m> = 0.1616.</li>
+  <li>We must find <em>P</em>(<em>T</em> &lt; 8|<em>T</em> &gt; 7).
+  Notice that by the rule of complement events, <em>P</em>(<em>T</em> &lt; 8|<em>T</em> &gt; 7) = 1 – <em>P</em>(<em>T</em> &gt; 8|<em>T</em> &gt; 7).
+  By the memoryless property (<em>P</em>(<em>X</em> &gt; <em>r</em> + <em>t</em>|<em>X</em> &gt; <em>r</em>) = <em>P</em>(<em>X</em> &gt; <em>t</em>)).
+  So <em>P</em>(<em>T</em> &gt; 8|<em>T</em> &gt; 7) = <em>P</em>(<em>T</em> &gt; 1) = <m>
+   
+    1–(
+     
+      1–e^{
+        –\frac{1}{8}
+  
+       }
+  
+     
+    )=e^{
+      –\frac{1}{8}
+  
+     }
+    \approx0.8825
+   
+  </m>
+  Therefore, <em>P</em>(<em>T</em> &lt; 8|<em>T</em> &gt; 7) = 1 – 0.8825 = 0.1175.</li>
+  </ol>
+  <figure xml:id="fs-idp22135936">
+  <image source="media/soln_04bF.jpg">
+  <description>A line graph is shown. The t axis measures values from 0 to 60 in increments of 20. The y axis measures values from 0 to 0.12 in increments of 0.02. Line starts from t, y coordinates of 0, 0.12, and then takes a steep curve downwards before leveling out at the t,y coordinates of 60, 0. The segment of the graph from 6 to 10 on the t axis is shaded. Text above the graph reads shaded area represents probability P(6&lt;t&lt;10)=0.1859.</description>
+  </image>
+  </figure>
+  <figure xml:id="fs-idp80629056">
+  <image source="media/soln_04cF.jpg">
+  <description>A line graph is shown. The t axis measures values from 0 to 40 in increments of 20. The y axis measures values from 0 to 0.12 in increments of 0.02. Line starts from t, y coordinates of 0, 0.12, and then takes a steep curve downwards before leveling out at the t,y coordinates of 40, 0. The segment of the graph from 2.85 to 40 on the t axis is shaded. Text above the graph reads shaded area represents probability P(t&gt;2.85)=0.70.</description>
+  </image>
+  </figure>
+  </solution>
+  </exercise>
+  <exercise xml:id="fs-idm65827552">
+  <statement>
+  <p xml:id="fs-idp18748912">At a 911 call center, calls come in at an average rate of one call every two minutes. Assume that the time that elapses from one call to the next has the exponential distribution.</p>
+  <ol xml:id="fs-idp91268000">
+  <li>On average, how much time occurs between five consecutive calls?</li>
+  <li>Find the probability that after a call is received, it takes more than three minutes for the next call to occur.</li>
+  <li>Ninety-percent of all calls occur within how many minutes of the previous call?</li>
+  <li>Suppose that two minutes have elapsed since the last call. Find the probability that the next call will occur within the next minute.</li>
+  <li>Find the probability that fewer than 20 calls occur within an hour.</li>
+  </ol>
+  </statement>
+  </exercise>
+  <exercise xml:id="fs-idm6685504">
+  <statement>
+  <p xml:id="fs-idm22064400">In major league baseball, a no-hitter is a game in which a pitcher, or pitchers, doesn't give up any hits throughout the game. No-hitters occur at a rate of about three per season. Assume that the duration of time between no-hitters is exponential.</p>
+  <ol xml:id="fs-idp96967792">
+  <li>What is the probability that an entire season elapses with a single no-hitter?</li>
+  <li>If an entire season elapses without any no-hitters, what is the probability that there are no no-hitters in the following season?</li>
+  <li>What is the probability that there are more than three no-hitters in a single season?</li>
+  </ol>
+  </statement>
+  <solution>
+  <p xml:id="fs-idp98972816">Let <em>X</em> = the number of no-hitters throughout a season. Since the duration of time between no-hitters is exponential, the number of no-hitters per season is Poisson with mean <em>λ</em> = 3.
+  Therefore, (<em>X</em> = 0) = <m>
+   
+    \frac{
+      3^{0}
+      e^{
+        –3
+       }
+  
+     }{
+      0\text{!}
+     }
+  
+   
+  </m> = e<m>^{–3}</m> ≈ 0.0498
+  </p>
+  <p xml:id="fs-idm30929792">You could let <em>T</em> = duration of time between no-hitters. Since the time is exponential and there are three no-hitters per season, then the time between no-hitters is <m>
+   
+    \frac{1}{3}
+  
+   
+  </m> season. For the exponential, <em>µ</em> = <m>
+   
+    \frac{1}{3}
+  
+   
+  </m>.
+  Therefore, <em>m</em> = <m>
+   
+    \frac{1}{μ}
+  
+   
+  </m> = 3 and <em>T</em> ~ <em>Exp</em>(3).</p>
+  <ol xml:id="fs-idm50334880">
+  <li>The desired probability is <em>P</em>(<em>T</em> &gt; 1) = 1 – <em>P</em>(<em>T</em> &lt; 1) = 1 – (1 – e<m>^{–3}</m>) = e<m>^{–3}</m> ≈ 0.0498.</li>
+  <li>Let <em>T</em> = duration of time between no-hitters. We find <em>P</em>(<em>T</em> &gt; 2|<em>T</em> &gt; 1), and by the memoryless property this is simply <em>P</em>(<em>T</em> &gt; 1), which we found to be 0.0498 in part a.</li>
+  <li>Let <em>X</em> = the number of no-hitters is a season. Assume that <em>X</em> is Poisson with mean <em>λ</em> = 3. Then <em>P</em>(<em>X</em> &gt; 3) = 1 – <em>P</em>(<em>X</em> ≤ 3) = 0.3528.</li>
+  </ol>
+  </solution>
+  </exercise>
+  <exercise xml:id="fs-idp62078752">
+  <statement>
+  <p xml:id="fs-idp62079264">During the years 1998–2012, a total of 29 earthquakes of magnitude greater than 6.5 occurred in Papua New Guinea. Assume that the time spent waiting between earthquakes is exponential. Assume that the current year is 2013</p>
+  <ol xml:id="fs-idm42322800">
+  <li>What is the probability that the next earthquake occurs within the next three months?</li>
+  <li>Given that six months has passed without an earthquake in Papua New Guinea, what is the probability that the next three months will be free of earthquakes?</li>
+  <li>What is the probability of zero earthquakes occurring in 2014?</li>
+  <li>What is the probability that at least two earthquakes will occur in 2014?</li>
+  </ol>
+  </statement>
+  </exercise>
+  <exercise xml:id="fs-idp35197296">
+  <statement>
+  <p xml:id="fs-idp68624880">According to the American Red Cross, about one out of nine people in the United States have type B blood. Suppose the blood types of people arriving at a blood drive are independent. In this case, the number of type B blood types that arrive roughly follows the Poisson distribution.</p>
+  <ol xml:id="fs-idm17505088">
+  <li>If 100 people arrive, how many on average would be expected to have type B blood?</li>
+  <li>What is the probability that more than 10 people out of these 100 have type B blood?</li>
+  <li>What is the probability that more than 20 people arrive before a person with type B blood is found?</li>
+  </ol>
+  </statement>
+  <solution>
+  <p xml:id="fs-idm44681536">We could also deduce that each person arriving has a <m>
+   
+    
+     \frac{8}{9}
+  
+    
+   
+  </m>
+   chance of not having type B blood. So the probability that none of the first 20 people arrive have type B blood is <m>
+   
+    
+      (
+       
+        \frac{8}{9}
+  
+       
+      )
+     ^{
+      20
+     }
+    \approx0.0948
+   
+  </m>. (The geometric distribution is more appropriate than the exponential because the number of people between type B people is discrete instead of continuous.)</p>
+  <ol xml:id="fs-idm172048800">
+  <li><m>
+   
+    \frac{
+      100
+     }{9}
+  
+   
+  </m> = 11.11</li>
+  <li><em>P</em>(<em>X</em> &gt; 10) = 1 – <em>P</em>(<em>X</em> ≤ 10) = 1 – Poissoncdf(11.11, 10) ≈ 0.5532.</li>
+  <li>The number of people with Type B blood encountered roughly follows the Poisson distribution, so the number of people <em>X</em> who arrive between successive Type B arrivals is roughly exponential with mean <em>μ</em> = 9 and <em>m</em> = <m>
+   
+    \frac{1}{9}
+  
+   
+  </m>. The cumulative distribution function of <em>X</em> is <m>
+   
+    P(
+     
+      X&lt;x
+     
+    )=1-e^{
+      -\frac{x}{9}
+  
+     }
+  
+   
+  </m>. Thus hus, <em>P</em>(<em>X</em> &gt; 20) = 1 - <em>P</em>(<em>X</em> ≤ 20) = <m>
+   
+    1-(
+     
+      1-e^{
+        -\frac{
+          20
+         }{9}
+  
+       }
+  
+     
+    )\approx0.1084.
+   
+  </m></li>
+  </ol>
+  </solution>
+  </exercise>
+  <exercise xml:id="fs-idm65311088">
+  <statement>
+  <p xml:id="fs-idm65310576">A website experiences traffic during normal working hours at a rate of 12 visits per hour. Assume that the duration between visits has the exponential distribution.</p>
+  <ol xml:id="fs-idp32763856">
+  <li>Find the probability that the duration between two successive visits to the website is more than 10 minutes.</li>
+  <li>The top 25 percent of durations between visits are at least how long?</li>
+  <li>Suppose that 20 minutes have passed since the last visit to the website. What is the probability that the next visit will occur within the next five minutes?</li>
+  <li>Find the probability that fewer than seven visits occur within a one-hour period.</li>
+  </ol>
+  </statement>
+  </exercise>
+  <exercise xml:id="fs-idm90634192">
+  <statement>
+  <p xml:id="fs-idm54069376">At an urgent care facility, patients arrive at an average rate of one patient every seven minutes. Assume that the duration between arrivals is exponentially distributed.</p>
+  <ol xml:id="fs-idm54068800">
+  <li>Find the probability that the time between two successive visits to the urgent care facility is less than two minutes.</li>
+  <li>Find the probability that the time between two successive visits to the urgent care facility is more than 15 minutes.</li>
+  <li>If 10 minutes have passed since the last arrival, what is the probability that the next person will arrive within the next five minutes?</li>
+  <li>Find the probability that more than eight patients arrive during a half-hour period.</li>
+  </ol>
+  </statement>
+  <solution>
+  <p xml:id="fs-idp21955488">Let <em>T</em> = duration (in minutes) between successive visits. Since patients arrive at a rate of one patient every seven minutes, <em>μ</em> = 7 and the decay constant is <em>m</em> = <m>
+   
+    \frac{1}{7}
+  
+   
+  </m>. The cdf is <em>P</em>(<em>T</em> &lt; <em>t</em>) = <m>
+   
+    1-e^{
+      \frac{t}{7}
+  
+     }
+  
+   
+  </m></p>
+  <ol xml:id="fs-idp33483200">
+  <li><em>P</em>(<em>T</em> &lt; 2) = 1 - <m>
+   
+    1-e^{
+      -\frac{2}{7}
+  
+     }
+  
+   
+  </m> ≈ 0.2485.</li>
+  <li><em>P</em>(<em>T</em> &gt; 15) = <m>
+   
+    1-P(
+     
+      T&lt;15
+     
+    )=1-(
+     
+      1-e^{
+        -\frac{
+          15
+         }{7}
+  
+       }
+  
+     
+    )\approxe^{
+      -\frac{
+        15
+       }{7}
+  
+     }
+    \approx0.1173
+   
+  </m>.</li>
+  <li><em>P</em>(<em>T</em> &gt; 15|<em>T</em> &gt; 10) = <em>P</em>(<em>T</em> &gt; 5) = <m>
+   
+    1-(
+     
+      1-e^{
+        -\frac{5}{7}
+  
+       }
+  
+     
+    )=e^{
+      -\frac{5}{7}
+  
+     }
+    \approx0.4895
+   
+  </m>.</li>
+  <li>Let <em>X</em> = # of patients arriving during a half-hour period. Then <em>X</em> has the Poisson distribution with a mean of <m>
+   
+    \frac{
+      30
+     }{7}
+  
+   
+  </m>, <em>X</em> ~ Poisson<m>
+   
+    (
+     
+      \frac{
+        30
+       }{7}
+  
+     
+    )
+   
+  </m>. Find <em>P</em>(<em>X</em> &gt; 8) = 1 – <em>P</em>(<em>X</em> ≤ 8) ≈ 0.0311.</li>
+  </ol>
+  </solution>
+  </exercise>
+    <p><em>For each probability and percentile problem, draw the picture.</em></p>
+  
+    <exercise xml:id="ex-homework-01">
+      <statement>
+        <p>Consider the following experiment. You are one of 100 people enlisted to take part in a study to determine percentage of nurses in America with an R.N. (registered nurse) degree. You ask nurses if they have an R.N. degree. The nurses answer yes or no. You then calculate the percentage of nurses with an R.N. degree. You give that percentage to your supervisor.</p>
+        <ol>
+          <li>What part of the experiment will yield discrete data?</li>
+          <li>What part of the experiment will yield continuous data?</li>
+        </ol>
+      </statement>
+    </exercise>
+  
+    <exercise xml:id="ex-homework-02">
+      <statement>
+        <p>When age is rounded to the nearest year, do the data stay continuous, or do they become discrete? Why?</p>
+      </statement>
+      <solution>
+        <p>Age is a measurement, regardless of the accuracy used.</p>
+      </solution>
+    </exercise>
+  </exercises>
+</section>
+
+
+<section xml:id="sec-continuous-random-variables-practice">
+  <title>Continuous Distribution: Practice</title>
+  
+
+      <exercise xml:id="ex-practice-01">
+        <statement>
+          <p>Which type of distribution does the graph illustrate?</p>
+          <figure xml:id="fig-practice-01">
+            <image source="media/CNX_Stats_C05_M01_item001.jpg" width="80%">
+              <description>The horizontal axis ranges from 0 to 10. The distribution is modeled by a rectangle extending from x = 3 to x = 8.</description>
+            </image>
+          </figure>
+        </statement>
+        <solution>
+          <p>Uniform distribution</p>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="ex-practice-02">
+        <statement>
+          <p>Which type of distribution does the graph illustrate?</p>
+          <figure xml:id="fig-practice-02">
+            <image source="media/CNX_Stats_C05_M01_item002.jpg" width="80%">
+              <description>This graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph.</description>
+            </image>
+          </figure>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="ex-practice-03">
+        <statement>
+          <p>Which type of distribution does the graph illustrate?</p>
+          <figure xml:id="fig-practice-03">
+            <image source="media/CNX_Stats_C05_M01_item003.jpg" width="80%">
+              <description>This graph shows a bell-shaped graph. The symmetric graph reaches maximum height at x = 0 and slopes downward gradually to the x-axis on each side of the peak.</description>
+            </image>
+          </figure>
+        </statement>
+        <solution>
+          <p>Normal distribution</p>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="ex-practice-04">
+        <statement>
+          <p>What does the shaded area represent? <em>P</em>(___&lt; <em>x</em> &lt; ___)</p>
+          <figure xml:id="fig-practice-04">
+            <image source="media/CNX_Stats_C05_M01_item004.jpg" width="80%">
+              <description>This graph shows a uniform distribution. The horizontal axis ranges from 0 to 10. The distribution is modeled by a rectangle extending from x = 1 to x = 8. A region from x = 2 to x = 5 is shaded inside the rectangle.</description>
+            </image>
+          </figure>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="ex-practice-05">
+        <statement>
+          <p>What does the shaded area represent? <em>P</em>(___&lt; <em>x</em> &lt; ___)</p>
+          <figure xml:id="fig-practice-05">
+            <image source="media/CNX_Stats_C05_M01_item005.jpg" width="80%">
+              <description>This graph shows an exponential distribution. The graph slopes downward. It begins at a point on the y-axis and approaches the x-axis at the right edge of the graph. The region under the graph from x = 6 to x = 7 is shaded.</description>
+            </image>
+          </figure>
+        </statement>
+        <solution>
+          <p><em>P</em>(6 &lt; <em>x</em> &lt; 7)</p>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="ex-practice-06">
+        <statement>
+          <p>For a continuous probability distribution, 0 ≤ <em>x</em> ≤ 15. What is <em>P</em>(<em>x</em> > 15)?</p>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="ex-practice-07">
+        <statement>
+          <p>What is the area under <em>f</em>(<em>x</em>) if the function is a continuous probability density function?</p>
+        </statement>
+        <solution>
+          <p>one</p>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="ex-practice-08">
+        <statement>
+          <p>For a continuous probability distribution, 0 ≤ <em>x</em> ≤ 10. What is <em>P</em>(<em>x</em> = 7)?</p>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="ex-practice-09">
+        <statement>
+          <p>A <em>continuous</em> probability function is restricted to the portion between <em>x</em> = 0 and 7. What is <em>P</em>(<em>x</em> = 10)?</p>
+        </statement>
+        <solution>
+          <p>zero</p>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="ex-practice-10">
+        <statement>
+          <p><em>f</em>(<em>x</em>) for a continuous probability function is <m>\frac{1}{5}</m>, and the function is restricted to 0 ≤ <em>x</em> ≤ 5. What is <em>P</em>(<em>x</em> &lt; 0)?</p>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="ex-practice-11">
+        <statement>
+          <p><em>f</em>(<em>x</em>), a continuous probability function, is equal to <m>\frac{1}{12}</m>, and the function is restricted to 0 ≤ <em>x</em> ≤ 12. What is <em>P</em>(0 &lt; <em>x</em> &lt; 12)?</p>
+        </statement>
+        <solution>
+          <p>one</p>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="ex-practice-12">
+        <statement>
+          <p>Find the probability that <em>x</em> falls in the shaded area.</p>
+          <figure xml:id="fig-practice-12">
+            <image source="media/CNX_Stats_C05_M02_item001.jpg" width="80%">
+              <description>A graph is shown. An unlabeled x axis is measured in increments of 1 from 0 to 10. The y-axis has one measurement of 1/9. A box is drawn on the graph, stretching from 0 to 9 on the x axis, and up to the 1/9 measurement on the y axis. The box is shaded blue between the measurements of 6 and 8.</description>
+            </image>
+          </figure>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="ex-practice-13">
+        <statement>
+          <p>Find the probability that <em>x</em> falls in the shaded area.</p>
+          <figure xml:id="fig-practice-13">
+            <image source="media/CNX_Stats_C05_M02_item002.jpg" width="80%">
+              <description>A graph is shown. An unlabeled x axis is measured in increments of 1 from 0 to 10. The y-axis has one measurement of 1/8. A box is drawn on the graph, stretching from 0 to 8.5 on the x axis, and up to the 1/8 measurement on the y axis. The box is shaded between the measurements of 0 and 5.</description>
+            </image>
+          </figure>
+        </statement>
+        <solution>
+          <p>0.625</p>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="ex-practice-14">
+        <statement>
+          <p>Find the probability that <em>x</em> falls in the shaded area.</p>
+          <figure xml:id="fig-practice-14">
+            <image source="media/CNX_Stats_C05_M02_item003.jpg" width="80%">
+              <description>A graph is shown. An unlabeled x axis is measured in increments of 1 from 0 to 10. The y-axis has one measurement of 1/10. A box is drawn on the graph, stretching from 0 to 10 on the x axis, and up to the 1/10 measurement on the y axis. The box is shaded blue between the measurements 2.5 and 5.5.</description>
+            </image>
+          </figure>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="ex-practice-15">
+        <statement>
+          <p><em>f</em>(<em>x</em>), a continuous probability function, is equal to <m>\frac{1}{3}</m> and the function is restricted to 1 ≤ <em>x</em> ≤ 4. Describe <m>P\left(x > \frac{3}{2}\right)</m>.</p>
+        </statement>
+        <solution>
+          <p>The probability is equal to the area from <em>x</em> = <m>\frac{3}{2}</m> to <em>x</em> = 4 above the x-axis and up to <em>f</em>(<em>x</em>) = <m>\frac{1}{3}</m>.</p>
+        </solution>
+      </exercise>
+
 <p xml:id="fs-idm2785536"><em>Use the following information to answer the next 10 exercises.</em> A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: <em>X</em> ~ <em>Exp</em>(0.2)</p>
 <exercise xml:id="fs-idp88695904">
 <statement>
@@ -1890,805 +2689,6 @@ k!
 </ol>
 </solution>
 </exercise>
-</subsection>
-<subsection xml:id="fs-idp106402544">
-<title>Homework</title>
-<exercise xml:id="fs-idp106403424">
-<statement>
-<p xml:id="fs-idp106403936">Suppose that the length of long-distance phone calls, measured in minutes, is known to have an exponential distribution with the average length of a call equal to eight minutes.</p>
-<ol xml:id="fs-idp35999984">
-<li>Define the random variable. <em>X</em> = ________________.</li>
-<li>Is <em>X</em> continuous or discrete?</li>
-<li><em>X</em> ~ ________</li>
-<li><em>μ</em> = ________</li>
-<li><em>σ</em> = ________</li>
-<li>Draw a graph of the probability distribution. Label the axes.</li>
-<li>Find the probability that a phone call lasts less than nine minutes.</li>
-<li>Find the probability that a phone call lasts more than nine minutes.</li>
-<li>Find the probability that a phone call lasts between seven and nine minutes.</li>
-<li>If 25 phone calls are made one after another, on average, what would you expect the total to be? Why?</li>
-</ol>
-</statement>
-</exercise>
-<exercise xml:id="fs-idp127287888">
-<statement>
-<p xml:id="fs-idp127288400">Suppose that the useful life of a particular car battery, measured in months, decays with parameter 0.025. We are interested in the life of the battery.</p>
-<ol xml:id="fs-idp127288960">
-<li>Define the random variable. <em>X</em> = _________________________________.</li>
-<li>Is <em>X</em> continuous or discrete?</li>
-<li><em>X</em> ~ ________</li>
-<li>On average, how long would you expect one car battery to last?</li>
-<li>On average, how long would you expect nine car batteries to last, if they are used one after another?</li>
-<li>Find the probability that a car battery lasts more than 36 months.</li>
-<li>Seventy percent of the batteries last at least how long?</li>
-</ol>
-</statement>
-<solution>
-<ol xml:id="fs-idm47663232">
-<li><em>X</em> = the useful life of a particular car battery, measured in months.</li>
-<li><em>X</em> is continuous.</li>
-<li><em>X</em> ~ <em>Exp</em>(0.025)</li>
-<li>40 months</li>
-<li>360 months</li>
-<li>0.4066</li>
-<li>14.27</li>
-</ol>
-</solution>
-</exercise>
-<exercise xml:id="fs-idm20022272">
-<statement>
-<p xml:id="fs-idm19086640">The percent of persons (ages five and older) in each state who speak a language at home other than English is approximately exponentially distributed with a mean of 9.848. Suppose we randomly pick a state.</p>
-<ol xml:id="fs-idm19085984">
-<li>Define the random variable. <em>X</em> = _________________________________.</li>
-<li>Is <em>X</em> continuous or discrete?</li>
-<li><em>X</em> ~ ________</li>
-<li><em>μ</em> = ________</li>
-<li><em>σ</em> = ________</li>
-<li>Draw a graph of the probability distribution. Label the axes.</li>
-<li>Find the probability that percentage is less than 12.</li>
-<li>Find the probability that percentage is between eight and 14.</li>
-<li>The percent of all individuals living in the United States who speak a language at home other than English is 13.8.
-<ol xml:id="fs-idm34527280">
-<li>Why is this number different from 9.848 percent?</li>
-<li>What would make this number higher than 9.848 percent?</li>
-</ol>
-</li>
-</ol>
-</statement>
-</exercise>
-<exercise xml:id="fs-idp23265056">
-<statement>
-<p xml:id="fs-idp23265568">The time (in years) after reaching age 60 that it takes an individual to retire is approximately exponentially distributed with a mean of about five years. Suppose we randomly pick one retired individual. We are interested in the time after age 60 to retirement.</p>
-<ol xml:id="fs-idp112515824">
-<li>Define the random variable. <em>X</em> = _________________________________.</li>
-<li>Is <em>X</em> continuous or discrete?</li>
-<li><em>X</em> ~ = ________</li>
-<li><em>μ</em> = ________</li>
-<li><em>σ</em> = ________</li>
-<li>Draw a graph of the probability distribution. Label the axes.</li>
-<li>Find the probability that the person retired after age 70.</li>
-<li>Do more people retire before age 65 or after age 65?</li>
-<li>In a room of 1,000 people over age 80, how many do you expect will <alert>not</alert> have retired yet?</li>
-</ol>
-</statement>
-<solution>
-<ol xml:id="fs-idm77893984">
-<li><em>X</em> = the time (in years) after reaching age 60 that it takes an individual to retire</li>
-<li><em>X</em> is continuous.</li>
-<li><em>X</em> ~ <em>Exp</em><m>
-
-(
-
-\frac{1}{5}
-
-)
-
-</m>
-</li>
-<li>five</li>
-<li>five</li>
-<li>Check student’s solution.</li>
-<li>0.1353</li>
-<li>before</li>
-<li>18.3</li>
-</ol>
-</solution>
-</exercise>
-<exercise xml:id="fs-idp123376336">
-<statement>
-<p xml:id="fs-idp123376848">The cost of all maintenance for a car during its first year is approximately exponentially distributed with a mean of $150.</p>
-<ol xml:id="fs-idp123377376">
-<li>Define the random variable. <em>X</em> = _________________________________.</li>
-<li><em>X</em> ~ = ________</li>
-<li><em>μ</em> = ________</li>
-<li><em>σ</em> = ________</li>
-<li>Draw a graph of the probability distribution. Label the axes.</li>
-<li>Find the probability that a car required over $300 for maintenance during its first year.</li>
-</ol>
-</statement>
-</exercise>
-<p xml:id="fs-idp25410160"><em>Use the following information to answer the next three exercises.</em> The average lifetime of a certain new cell phone is three years. The manufacturer will replace any cell phone failing within two years of the date of purchase. The lifetime of these cell phones is known to follow an exponential distribution.</p>
-<exercise xml:id="fs-idp164419184">
-<statement>
-<p xml:id="fs-idp164419696">What is the decay rate?</p>
-<ol xml:id="fs-idp164420080">
-<li>0.3333</li>
-<li>0.5000</li>
-<li>2</li>
-<li>3</li>
-</ol>
-</statement>
-<solution>
-<p xml:id="fs-idm2162672">a</p>
-</solution>
-</exercise>
-<exercise xml:id="fs-idp147488160">
-<statement>
-<p xml:id="fs-idp147488672">What is the probability that a phone will fail within two years of the date of purchase?</p>
-<ol xml:id="fs-idp147489168">
-<li>0.8647</li>
-<li>0.4866</li>
-<li>0.2212</li>
-<li>0.9997</li>
-</ol>
-</statement>
-</exercise>
-<exercise xml:id="fs-idm3440688">
-<statement>
-<p xml:id="fs-idm3440176">What is the median lifetime of these phones (in years)?</p>
-<ol xml:id="fs-idp138734432">
-<li>0.1941</li>
-<li>1.3863</li>
-<li>2.0794</li>
-<li>5.5452</li>
-</ol>
-</statement>
-<solution>
-<p xml:id="fs-idp45849088">c</p>
-</solution>
-</exercise>
-<exercise xml:id="fs-idp45849728">
-<statement>
-<p xml:id="fs-idp45850240">Let <em>X</em> ~ <em>Exp</em>(0.1).</p>
-<ol xml:id="fs-idp51266048">
-<li>decay rate = ________</li>
-<li><em>μ</em> = ________</li>
-<li>Graph the probability distribution function.</li>
-<li>On the graph, shade the area corresponding to <em>P</em>(<em>x</em> &lt; 6), and find the probability.</li>
-<li>Sketch a new graph, shade the area corresponding to <em>P</em>(3 &lt; <em>x</em> &lt; 6), and find the probability.</li>
-<li>Sketch a new graph, shade the area corresponding to <em>P</em>(<em>x</em> &lt; 7), and find the probability.</li>
-<li>Sketch a new graph, shade the area corresponding to the 40<m>^{th}</m> percentile and find the value.</li>
-<li>Find the average value of <em>x</em>.</li>
-</ol>
-</statement>
-</exercise>
-<exercise xml:id="fs-idm5013072">
-<statement>
-<p xml:id="fs-idm17726944">Suppose that the longevity of a light bulb is exponential with a mean lifetime of eight years.</p>
-<ol xml:id="fs-idm17726448">
-<li>Find the probability that a light bulb lasts less than one year.</li>
-<li>Find the probability that a light bulb lasts between six and 10 years.</li>
-<li>Seventy percent of all light bulbs last at least how long?</li>
-<li>A company decides to offer a warranty to give refunds to light bulbs whose lifetime is among the lowest two percent of all bulbs. To the nearest month, what should be the cutoff lifetime for the warranty to take place?</li>
-<li>If a light bulb has lasted seven years, what is the probability that it fails within the 8<m>^{th}</m> year?</li>
-</ol>
-</statement>
-<solution>
-<p xml:id="fs-idm44734928">Let <em>T</em> = the life time of a light bulb.</p>
-<p xml:id="fs-idp121756864">The decay parameter is <em>m</em> = 1/8, and <em>T</em> ~ Exp(1/8). The cumulative distribution function is <m>
- 
-  P(T&lt;t)=1-e^{
-    -\frac{t}{8}
-
-   }
-
- 
-</m></p>
-<ol xml:id="fs-idp58814560">
-<li>Therefore, <em>P</em>(<em>T</em> &lt; 1) = 1 – e<m>^{<m>
- 
-  –\frac{1}{8}
- 
-</m>}</m> ≈ 0.1175.</li>
-<li>We want to find <em>P</em>(6 &lt; <em>t</em> &lt; 10).
-    To do this, <em>P</em>(6 &lt; <em>t</em> &lt; 10) – <em>P</em>(<em>t</em> &lt; 6)
-    = <m>(1–e^{–\frac{1}{8}*10})–(
-    1–e^{
-      –\frac{1}{8}
-      *10
-     }
-
-   
-  )–(
-   
-    1–e^{
-      –\frac{1}{8}
-      *6
-     }
-
-   
-  )
- 
-</m> ≈ 0.7135 – 0.5276 = 0.1859
-
-
-
-</li>
-<li>We want to find 0.70 <m>
- 
-  =P(T&gt;t)=1–(
-   
-    1–e^{
-      -\frac{t}{8}
-
-     }
-
-   
-  )=e^{
-    -\frac{t}{8}
-
-   }
-  .
- 
-</m>
-Solving for <em>t</em>, e<m>^{<m>
- 
-  –\frac{t}{8}
-
- 
-</m>}</m> = 0.70, so <m>
- 
-  –\frac{t}{8}
-
- 
-</m> = <em>ln</em>(0.70), and <em>t</em> = –8<em>ln</em>(0.70) ≈ 2.85 years
-Or use <em>t</em> = <m>
- 
-  \frac{
-    ln\text{(area_to_the_right)}
-   }{
-    (–m)
-   }
-  =\frac{
-    ln\text{(0}\text{.70)}
-   }{
-    –\frac{1}{8}
-
-   }
-  \approx2.\text{85 years}
- 
-</m>.
-
-
-
-</li>
-<li>We want to find 0.02 = <em>P</em>(<em>T</em> &lt; <em>t</em>) = 1 – <em>e</em><m>^{<m>
- 
-  –\frac{t}{8}
-
- 
-</m>}</m>.
-Solving for <em>t</em>, <em>e</em> <m>^{<m>
- 
-  –\frac{t}{8}
-
- 
-</m>}</m> = 0.98, so <m>
- 
-  –\frac{t}{8}
-
- 
-</m> = <em>ln</em>(0.98), and t = –8<em>ln</em>(0.98) ≈ 0.1616 years, or roughly two months.
-The warranty should cover light bulbs that last less than 2 months.
-Or use <m>
- 
-  \frac{
-    ln\text{(area_to_the_right)}
-   }{
-    \text{(}–\text{m)}
-   }
-  =\frac{
-    ln\text{(1}–0.2)
-   }{
-    –\frac{1}{8}
-
-   }
-
- 
-</m> = 0.1616.</li>
-<li>We must find <em>P</em>(<em>T</em> &lt; 8|<em>T</em> &gt; 7).
-Notice that by the rule of complement events, <em>P</em>(<em>T</em> &lt; 8|<em>T</em> &gt; 7) = 1 – <em>P</em>(<em>T</em> &gt; 8|<em>T</em> &gt; 7).
-By the memoryless property (<em>P</em>(<em>X</em> &gt; <em>r</em> + <em>t</em>|<em>X</em> &gt; <em>r</em>) = <em>P</em>(<em>X</em> &gt; <em>t</em>)).
-So <em>P</em>(<em>T</em> &gt; 8|<em>T</em> &gt; 7) = <em>P</em>(<em>T</em> &gt; 1) = <m>
- 
-  1–(
-   
-    1–e^{
-      –\frac{1}{8}
-
-     }
-
-   
-  )=e^{
-    –\frac{1}{8}
-
-   }
-  \approx0.8825
- 
-</m>
-Therefore, <em>P</em>(<em>T</em> &lt; 8|<em>T</em> &gt; 7) = 1 – 0.8825 = 0.1175.</li>
-</ol>
-<figure xml:id="fs-idp22135936">
-<image source="media/soln_04bF.jpg">
-<description>A line graph is shown. The t axis measures values from 0 to 60 in increments of 20. The y axis measures values from 0 to 0.12 in increments of 0.02. Line starts from t, y coordinates of 0, 0.12, and then takes a steep curve downwards before leveling out at the t,y coordinates of 60, 0. The segment of the graph from 6 to 10 on the t axis is shaded. Text above the graph reads shaded area represents probability P(6&lt;t&lt;10)=0.1859.</description>
-</image>
-</figure>
-<figure xml:id="fs-idp80629056">
-<image source="media/soln_04cF.jpg">
-<description>A line graph is shown. The t axis measures values from 0 to 40 in increments of 20. The y axis measures values from 0 to 0.12 in increments of 0.02. Line starts from t, y coordinates of 0, 0.12, and then takes a steep curve downwards before leveling out at the t,y coordinates of 40, 0. The segment of the graph from 2.85 to 40 on the t axis is shaded. Text above the graph reads shaded area represents probability P(t&gt;2.85)=0.70.</description>
-</image>
-</figure>
-</solution>
-</exercise>
-<exercise xml:id="fs-idm65827552">
-<statement>
-<p xml:id="fs-idp18748912">At a 911 call center, calls come in at an average rate of one call every two minutes. Assume that the time that elapses from one call to the next has the exponential distribution.</p>
-<ol xml:id="fs-idp91268000">
-<li>On average, how much time occurs between five consecutive calls?</li>
-<li>Find the probability that after a call is received, it takes more than three minutes for the next call to occur.</li>
-<li>Ninety-percent of all calls occur within how many minutes of the previous call?</li>
-<li>Suppose that two minutes have elapsed since the last call. Find the probability that the next call will occur within the next minute.</li>
-<li>Find the probability that fewer than 20 calls occur within an hour.</li>
-</ol>
-</statement>
-</exercise>
-<exercise xml:id="fs-idm6685504">
-<statement>
-<p xml:id="fs-idm22064400">In major league baseball, a no-hitter is a game in which a pitcher, or pitchers, doesn't give up any hits throughout the game. No-hitters occur at a rate of about three per season. Assume that the duration of time between no-hitters is exponential.</p>
-<ol xml:id="fs-idp96967792">
-<li>What is the probability that an entire season elapses with a single no-hitter?</li>
-<li>If an entire season elapses without any no-hitters, what is the probability that there are no no-hitters in the following season?</li>
-<li>What is the probability that there are more than three no-hitters in a single season?</li>
-</ol>
-</statement>
-<solution>
-<p xml:id="fs-idp98972816">Let <em>X</em> = the number of no-hitters throughout a season. Since the duration of time between no-hitters is exponential, the number of no-hitters per season is Poisson with mean <em>λ</em> = 3.
-Therefore, (<em>X</em> = 0) = <m>
- 
-  \frac{
-    3^{0}
-    e^{
-      –3
-     }
-
-   }{
-    0\text{!}
-   }
-
- 
-</m> = e<m>^{–3}</m> ≈ 0.0498
-</p>
-<p xml:id="fs-idm30929792">You could let <em>T</em> = duration of time between no-hitters. Since the time is exponential and there are three no-hitters per season, then the time between no-hitters is <m>
- 
-  \frac{1}{3}
-
- 
-</m> season. For the exponential, <em>µ</em> = <m>
- 
-  \frac{1}{3}
-
- 
-</m>.
-Therefore, <em>m</em> = <m>
- 
-  \frac{1}{μ}
-
- 
-</m> = 3 and <em>T</em> ~ <em>Exp</em>(3).</p>
-<ol xml:id="fs-idm50334880">
-<li>The desired probability is <em>P</em>(<em>T</em> &gt; 1) = 1 – <em>P</em>(<em>T</em> &lt; 1) = 1 – (1 – e<m>^{–3}</m>) = e<m>^{–3}</m> ≈ 0.0498.</li>
-<li>Let <em>T</em> = duration of time between no-hitters. We find <em>P</em>(<em>T</em> &gt; 2|<em>T</em> &gt; 1), and by the memoryless property this is simply <em>P</em>(<em>T</em> &gt; 1), which we found to be 0.0498 in part a.</li>
-<li>Let <em>X</em> = the number of no-hitters is a season. Assume that <em>X</em> is Poisson with mean <em>λ</em> = 3. Then <em>P</em>(<em>X</em> &gt; 3) = 1 – <em>P</em>(<em>X</em> ≤ 3) = 0.3528.</li>
-</ol>
-</solution>
-</exercise>
-<exercise xml:id="fs-idp62078752">
-<statement>
-<p xml:id="fs-idp62079264">During the years 1998–2012, a total of 29 earthquakes of magnitude greater than 6.5 occurred in Papua New Guinea. Assume that the time spent waiting between earthquakes is exponential. Assume that the current year is 2013</p>
-<ol xml:id="fs-idm42322800">
-<li>What is the probability that the next earthquake occurs within the next three months?</li>
-<li>Given that six months has passed without an earthquake in Papua New Guinea, what is the probability that the next three months will be free of earthquakes?</li>
-<li>What is the probability of zero earthquakes occurring in 2014?</li>
-<li>What is the probability that at least two earthquakes will occur in 2014?</li>
-</ol>
-</statement>
-</exercise>
-<exercise xml:id="fs-idp35197296">
-<statement>
-<p xml:id="fs-idp68624880">According to the American Red Cross, about one out of nine people in the United States have type B blood. Suppose the blood types of people arriving at a blood drive are independent. In this case, the number of type B blood types that arrive roughly follows the Poisson distribution.</p>
-<ol xml:id="fs-idm17505088">
-<li>If 100 people arrive, how many on average would be expected to have type B blood?</li>
-<li>What is the probability that more than 10 people out of these 100 have type B blood?</li>
-<li>What is the probability that more than 20 people arrive before a person with type B blood is found?</li>
-</ol>
-</statement>
-<solution>
-<p xml:id="fs-idm44681536">We could also deduce that each person arriving has a <m>
- 
-  
-   \frac{8}{9}
-
-  
- 
-</m>
- chance of not having type B blood. So the probability that none of the first 20 people arrive have type B blood is <m>
- 
-  
-    (
-     
-      \frac{8}{9}
-
-     
-    )
-   ^{
-    20
-   }
-  \approx0.0948
- 
-</m>. (The geometric distribution is more appropriate than the exponential because the number of people between type B people is discrete instead of continuous.)</p>
-<ol xml:id="fs-idm172048800">
-<li><m>
- 
-  \frac{
-    100
-   }{9}
-
- 
-</m> = 11.11</li>
-<li><em>P</em>(<em>X</em> &gt; 10) = 1 – <em>P</em>(<em>X</em> ≤ 10) = 1 – Poissoncdf(11.11, 10) ≈ 0.5532.</li>
-<li>The number of people with Type B blood encountered roughly follows the Poisson distribution, so the number of people <em>X</em> who arrive between successive Type B arrivals is roughly exponential with mean <em>μ</em> = 9 and <em>m</em> = <m>
- 
-  \frac{1}{9}
-
- 
-</m>. The cumulative distribution function of <em>X</em> is <m>
- 
-  P(
-   
-    X&lt;x
-   
-  )=1-e^{
-    -\frac{x}{9}
-
-   }
-
- 
-</m>. Thus hus, <em>P</em>(<em>X</em> &gt; 20) = 1 - <em>P</em>(<em>X</em> ≤ 20) = <m>
- 
-  1-(
-   
-    1-e^{
-      -\frac{
-        20
-       }{9}
-
-     }
-
-   
-  )\approx0.1084.
- 
-</m></li>
-</ol>
-</solution>
-</exercise>
-<exercise xml:id="fs-idm65311088">
-<statement>
-<p xml:id="fs-idm65310576">A website experiences traffic during normal working hours at a rate of 12 visits per hour. Assume that the duration between visits has the exponential distribution.</p>
-<ol xml:id="fs-idp32763856">
-<li>Find the probability that the duration between two successive visits to the website is more than 10 minutes.</li>
-<li>The top 25 percent of durations between visits are at least how long?</li>
-<li>Suppose that 20 minutes have passed since the last visit to the website. What is the probability that the next visit will occur within the next five minutes?</li>
-<li>Find the probability that fewer than seven visits occur within a one-hour period.</li>
-</ol>
-</statement>
-</exercise>
-<exercise xml:id="fs-idm90634192">
-<statement>
-<p xml:id="fs-idm54069376">At an urgent care facility, patients arrive at an average rate of one patient every seven minutes. Assume that the duration between arrivals is exponentially distributed.</p>
-<ol xml:id="fs-idm54068800">
-<li>Find the probability that the time between two successive visits to the urgent care facility is less than two minutes.</li>
-<li>Find the probability that the time between two successive visits to the urgent care facility is more than 15 minutes.</li>
-<li>If 10 minutes have passed since the last arrival, what is the probability that the next person will arrive within the next five minutes?</li>
-<li>Find the probability that more than eight patients arrive during a half-hour period.</li>
-</ol>
-</statement>
-<solution>
-<p xml:id="fs-idp21955488">Let <em>T</em> = duration (in minutes) between successive visits. Since patients arrive at a rate of one patient every seven minutes, <em>μ</em> = 7 and the decay constant is <em>m</em> = <m>
- 
-  \frac{1}{7}
-
- 
-</m>. The cdf is <em>P</em>(<em>T</em> &lt; <em>t</em>) = <m>
- 
-  1-e^{
-    \frac{t}{7}
-
-   }
-
- 
-</m></p>
-<ol xml:id="fs-idp33483200">
-<li><em>P</em>(<em>T</em> &lt; 2) = 1 - <m>
- 
-  1-e^{
-    -\frac{2}{7}
-
-   }
-
- 
-</m> ≈ 0.2485.</li>
-<li><em>P</em>(<em>T</em> &gt; 15) = <m>
- 
-  1-P(
-   
-    T&lt;15
-   
-  )=1-(
-   
-    1-e^{
-      -\frac{
-        15
-       }{7}
-
-     }
-
-   
-  )\approxe^{
-    -\frac{
-      15
-     }{7}
-
-   }
-  \approx0.1173
- 
-</m>.</li>
-<li><em>P</em>(<em>T</em> &gt; 15|<em>T</em> &gt; 10) = <em>P</em>(<em>T</em> &gt; 5) = <m>
- 
-  1-(
-   
-    1-e^{
-      -\frac{5}{7}
-
-     }
-
-   
-  )=e^{
-    -\frac{5}{7}
-
-   }
-  \approx0.4895
- 
-</m>.</li>
-<li>Let <em>X</em> = # of patients arriving during a half-hour period. Then <em>X</em> has the Poisson distribution with a mean of <m>
- 
-  \frac{
-    30
-   }{7}
-
- 
-</m>, <em>X</em> ~ Poisson<m>
- 
-  (
-   
-    \frac{
-      30
-     }{7}
-
-   
-  )
- 
-</m>. Find <em>P</em>(<em>X</em> &gt; 8) = 1 – <em>P</em>(<em>X</em> ≤ 8) ≈ 0.0311.</li>
-</ol>
-</solution>
-</exercise>
-</subsection>
-</section>
-
-<section xml:id="sec-lab-continuous-distribution">
-  <title>Continuous Distribution</title>
-  
-  <note xml:id="note-lab-continuous-distribution" class="statistics lab">
-    <label/>
-    <title>Continuous Distribution</title>
-    
-    <paragraphs>
-      <title>Student Learning Outcomes</title>
-      <ul>
-        <li>The student will compare and contrast empirical data from a random number generator with the uniform distribution.</li>
-      </ul>
-    </paragraphs>
-    
-    <paragraphs xml:id="para-collect-data">
-      <title>Collect the Data</title>
-      <p>Use a random number generator to generate 50 values between zero and one (inclusive). List them in <xref ref="table-random-values"/>. Round the numbers to four decimal places or set the calculator MODE to four places.</p>
-    </paragraphs>
-    
-    <ol>
-      <li>
-        Complete the table.
-        <table xml:id="table-random-values">
-          <title>Random Values</title>
-          <tabular>
-            <row>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-            </row>
-            <row>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-            </row>
-            <row>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-            </row>
-            <row>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-            </row>
-            <row>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-            </row>
-            <row>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-            </row>
-            <row>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-            </row>
-            <row>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-            </row>
-            <row>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-            </row>
-            <row>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-              <cell>__________</cell>
-            </row>
-          </tabular>
-        </table>
-      </li>
-      <li>
-        Calculate the following:
-        <ol marker="a">
-          <li><m>\overline{x} =</m> _______</li>
-          <li><em>s</em> = _______</li>
-          <li>first quartile = _______</li>
-          <li>third quartile = _______</li>
-          <li>median = _______</li>
-        </ol>
-      </li>
-    </ol>
-    
-    <p>
-      <title>Organize the Data</title>
-    </p>
-    <ol>
-      <li>
-        Construct a histogram of the empirical data. Make eight bars.
-        <figure xml:id="figure-histogram-eight-bars">
-          <caption>Histogram with Eight Bars</caption>
-          <image source="media/fig-ch05_06_01.png" width="60%">
-            <description>Blank graph with relative frequency on the vertical axis and X on the horizontal axis.</description>
-          </image>
-        </figure>
-      </li>
-      <li>
-        Construct a histogram of the empirical data. Make five bars.
-        <figure xml:id="figure-histogram-five-bars">
-          <caption>Histogram with Five Bars</caption>
-          <image source="media/fig-ch05_06_01.png" width="60%">
-            <description>Blank graph with relative frequency on the vertical axis and X on the horizontal axis.</description>
-          </image>
-        </figure>
-      </li>
-    </ol>
-    
-    <p>
-      <title>Describe the Data</title>
-    </p>
-    <ol>
-      <li>In two to three complete sentences, describe the shape of each graph. (Keep it simple. Does the graph go straight across, does it have a V shape, does it have a hump in the middle or at either end (and so on). One way to help you determine a shape is to draw a smooth curve roughly through the top of the bars.)</li>
-      <li>Describe how changing the number of bars might change the shape.</li>
-    </ol>
-    
-    <p xml:id="para-theoretical-distribution">
-      <title>Theoretical Distribution</title>
-    </p>
-    <ol>
-      <li>In words, <em>X</em> = _____________________________________.</li>
-      <li>The theoretical distribution of <em>X</em> is <em>X</em> ~ <em>U</em>(0,1).</li>
-      <li>
-        In theory, based upon the distribution <em>X</em> ~ <em>U</em>(0,1), complete the following.
-        <ol marker="a">
-          <li><em>μ</em> = ______</li>
-          <li><em>σ</em> = ______</li>
-          <li>first quartile = ______</li>
-          <li>third quartile = ______</li>
-          <li>median = __________</li>
-        </ol>
-      </li>
-      <li>Are the empirical values (the data) in the section titled <xref ref="para-collect-data">Collect the Data</xref> close to the corresponding theoretical values? Why or why not?</li>
-    </ol>
-    
-    <p>
-      <title>Plot the Data</title>
-    </p>
-    <ol>
-      <li>Construct a box plot of the data. Be sure to use a ruler to scale accurately and draw straight edges.</li>
-      <li>Do you notice any potential outliers? If so, which values are they? Either way, justify your answer numerically. (Recall that any data that are less than <em>Q</em><sub>1</sub> – 1.5(<em>IQR</em>) or more than <em>Q</em><sub>3</sub> + 1.5(<em>IQR</em>) are potential outliers. <em>IQR</em> means interquartile range.)</li>
-    </ol>
-    
-    <p>
-      <title>Compare the Data</title>
-    </p>
-    <ol>
-      <li>
-        For each of the following parts, use a complete sentence to comment on how the value obtained from the data compares to the theoretical value you expected from the distribution in the section titled <xref ref="para-theoretical-distribution">Theoretical Distribution</xref>:
-        <ol marker="a">
-          <li>minimum value: _______</li>
-          <li>first quartile: _______</li>
-          <li>median: _______</li>
-          <li>third quartile: _______</li>
-          <li>maximum value: _______</li>
-          <li>width of <em>IQR</em>: _______</li>
-          <li>overall shape: _______</li>
-        </ol>
-      </li>
-      <li>Based on your comments in the section titled <xref ref="para-collect-data">Collect the Data</xref>, how does the box plot fit or not fit what you would expect of the distribution in the section titled <xref ref="para-theoretical-distribution">Theoretical Distribution</xref>?</li>
-    </ol>
-    
-    <p>
-      <title>Discussion Question</title>
-    </p>
-    <ol>
-      <li>Suppose that the number of values generated was 500, not 50. How would that affect what you would expect the empirical data to be and the shape of its graph to look like?</li>
-    </ol>
-  </note>
 </section>
 
 </chapter>

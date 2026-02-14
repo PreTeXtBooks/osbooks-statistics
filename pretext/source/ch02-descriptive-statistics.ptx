@@ -2547,1166 +2547,7 @@ that this distribution is skewed because one side of the graph does not mirror t
 
     <p>A <em>histogram</em> is a graphic version of a frequency distribution. The graph consists of bars of equal width drawn adjacent to each other. The horizontal scale represents classes of quantitative data values, and the vertical scale represents frequencies. The heights of the bars correspond to frequency values. Histograms are typically used for large, continuous, quantitative data sets. A frequency polygon can also be used when graphing large data sets with data points that repeat. The data usually go on the <em>y</em>-axis with the frequency being graphed on the <em>x</em>-axis. Time series graphs can be helpful when looking at large amounts of data for one variable over a period of time.</p>
 
-    <subsection xml:id="subsec-histograms-practice">
-      <title>Practice</title>
 
-    <exercise xml:id="ch2-eip-341">
-      <statement>
-        <p>65 randomly selected car salespersons were asked the number of cars they generally sell in one week. 14 people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars. Complete the table.</p>
-        <table xml:id="table001">
-          <tabular>
-            <row header="yes">
-              <cell>Data Value (Number of Cars)</cell>
-              <cell>Frequency</cell>
-              <cell>Relative Frequency</cell>
-              <cell>Cumulative Relative Frequency</cell>
-            </row>
-            <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-              <cell></cell>
-            </row>
-          </tabular>
-        </table>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="element-625">
-      <statement>
-        <p>What does the frequency column in <xref ref="table001"/> sum to? Why?</p>
-      </statement>
-      <solution>
-        <p>65</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="exerciseone">
-      <statement>
-        <p>What does the relative frequency column in <xref ref="table001"/> sum to? Why?</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="exercisetwo">
-      <statement>
-        <p>What is the difference between relative frequency and frequency for each data value in <xref ref="table001"/>?</p>
-      </statement>
-      <solution>
-        <p>The relative frequency shows the <em>proportion</em> of data points that have each value. The frequency tells the <em>number</em> of data points that have each value.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="exercisethree">
-      <statement>
-        <p>What is the difference between cumulative relative frequency and relative frequency for each data value?</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idp48667136">
-      <statement>
-        <p>To construct the histogram for the data in <xref ref="table001"/>, determine appropriate minimum and maximum <em>x</em>- and <em>y</em>-values and the scaling. Sketch the histogram. Label the horizontal and vertical axes with words. Include numerical scaling.</p>
-        <figure xml:id="eip-idp57691072">
-          <image source="media/fig-ch02_11_01.jpg" width="80%"/>
-        </figure>
-      </statement>
-      <solution>
-        <p>Answers will vary. One possible histogram is shown below.</p>
-        <figure xml:id="eip-idp746160">
-          <image source="media/CNX_Stats_C02_M03_101.jpg" width="80%"/>
-        </figure>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idm40930928">
-      <statement>
-        <p>Construct a frequency polygon for the following.</p>
-        <ol>
-          <li><p>
-
-
-Pulse Rates for Women	Frequency
-
-
-60–6912
-70–7914
-80–8911
-90–991
-100–1091
-110–1190
-120–1291
-
-
-</p></li>
-          <li><p>
-
-
-Actual Speed in a 30-MPH Zone	Frequency
-
-
-42–4525
-46–4914
-50–537
-54–573
-58–611
-
-
-</p></li>
-          <li><p>
-
-
-Tar (mg) in Nonfiltered Cigarettes	Frequency
-
-
-10–131
-14–170
-18–2115
-22–257
-26–292
-
-
-</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idp36783568">
-      <statement>
-        <p>Construct a frequency polygon from the frequency distribution for the 50 highest-ranked countries for depth of hunger.</p>
-        <table>
-          <tabular>
-            <row header="yes">
-              <cell>Depth of Hunger</cell>
-              <cell>Frequency</cell>
-            </row>
-            <row>
-              <cell>230–259</cell>
-              <cell>21</cell>
-            </row>
-            <row>
-              <cell>260–289</cell>
-              <cell>13</cell>
-            </row>
-            <row>
-              <cell>290–319</cell>
-              <cell>5</cell>
-            </row>
-            <row>
-              <cell>320–349</cell>
-              <cell>7</cell>
-            </row>
-            <row>
-              <cell>350–379</cell>
-              <cell>1</cell>
-            </row>
-            <row>
-              <cell>380–409</cell>
-              <cell>1</cell>
-            </row>
-            <row>
-              <cell>410–439</cell>
-              <cell>1</cell>
-            </row>
-          </tabular>
-        </table>
-      </statement>
-      <solution>
-        <p>Find the midpoint for each class. These will be graphed on the <em>x</em>-axis. The frequency values will be graphed on the <em>y</em>-axis values.</p>
-        <figure xml:id="eip-idp56723312">
-          <image source="media/CNX_Stats_C02_M05a_024annoN.jpg" width="85%"/>
-        </figure>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idm37056320">
-      <statement>
-        <p>Use the two frequency tables to compare the life expectancy of men and women from 20 randomly selected countries. Include an overlaid frequency polygon and discuss the shapes of the distributions, the center, the spread, and any outliers. What can we conclude about the life expectancy of women compared to men?</p>
-        <table>
-          <tabular>
-            <row header="yes">
-              <cell>Life Expectancy at Birth – Women</cell>
-              <cell>Frequency</cell>
-            </row>
-            <row>
-              <cell>49–55</cell>
-              <cell>3</cell>
-            </row>
-            <row>
-              <cell>56–62</cell>
-              <cell>3</cell>
-            </row>
-            <row>
-              <cell>63–69</cell>
-              <cell>1</cell>
-            </row>
-            <row>
-              <cell>70–76</cell>
-              <cell>3</cell>
-            </row>
-            <row>
-              <cell>77–83</cell>
-              <cell>8</cell>
-            </row>
-            <row>
-              <cell>84–90</cell>
-              <cell>2</cell>
-            </row>
-          </tabular>
-        </table>
-        <table>
-          <tabular>
-            <row header="yes">
-              <cell>Life Expectancy at Birth – Men</cell>
-              <cell>Frequency</cell>
-            </row>
-            <row>
-              <cell>49–55</cell>
-              <cell>3</cell>
-            </row>
-            <row>
-              <cell>56–62</cell>
-              <cell>3</cell>
-            </row>
-            <row>
-              <cell>63–69</cell>
-              <cell>1</cell>
-            </row>
-            <row>
-              <cell>70–76</cell>
-              <cell>1</cell>
-            </row>
-            <row>
-              <cell>77–83</cell>
-              <cell>7</cell>
-            </row>
-            <row>
-              <cell>84–90</cell>
-              <cell>5</cell>
-            </row>
-          </tabular>
-        </table>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="eip-583">
-      <statement>
-        <p>Construct a times series graph for (a) the number of male births, (b) the number of female births, and (c) the total number of births.</p>
-        <table>
-          <tabular>
-            <row>
-              <cell>Sex/Year</cell>
-              <cell>1855</cell>
-              <cell>1856</cell>
-              <cell>1857</cell>
-              <cell>1858</cell>
-              <cell>1859</cell>
-              <cell>1860</cell>
-              <cell>1861</cell>
-            </row>
-            <row>
-              <cell>Female</cell>
-              <cell>45,545</cell>
-              <cell>49,582</cell>
-              <cell>50,257</cell>
-              <cell>50,324</cell>
-              <cell>51,915</cell>
-              <cell>51,220</cell>
-              <cell>52,403</cell>
-            </row>
-            <row>
-              <cell>Male</cell>
-              <cell>47,804</cell>
-              <cell>52,239</cell>
-              <cell>53,158</cell>
-              <cell>53,694</cell>
-              <cell>54,628</cell>
-              <cell>54,409</cell>
-              <cell>54,606</cell>
-            </row>
-            <row>
-              <cell>Total</cell>
-              <cell>93,349</cell>
-              <cell>101,821</cell>
-              <cell>103,415</cell>
-              <cell>104,018</cell>
-              <cell>106,543</cell>
-              <cell>105,629</cell>
-              <cell>107,009</cell>
-            </row>
-          </tabular>
-        </table>
-        <table>
-          <tabular>
-            <row>
-              <cell>Sex/Year</cell>
-              <cell>1862</cell>
-              <cell>1863</cell>
-              <cell>1864</cell>
-              <cell>1865</cell>
-              <cell>1866</cell>
-              <cell>1867</cell>
-              <cell>1868</cell>
-              <cell>1869</cell>
-            </row>
-            <row>
-              <cell>Female</cell>
-              <cell>51,812</cell>
-              <cell>53,115</cell>
-              <cell>54,959</cell>
-              <cell>54,850</cell>
-              <cell>55,307</cell>
-              <cell>55,527</cell>
-              <cell>56,292</cell>
-              <cell>55,033</cell>
-            </row>
-            <row>
-              <cell>Male</cell>
-              <cell>55,257</cell>
-              <cell>56,226</cell>
-              <cell>57,374</cell>
-              <cell>58,220</cell>
-              <cell>58,360</cell>
-              <cell>58,517</cell>
-              <cell>59,222</cell>
-              <cell>58,321</cell>
-            </row>
-            <row>
-              <cell>Total</cell>
-              <cell>107,069</cell>
-              <cell>109,341</cell>
-              <cell>112,333</cell>
-              <cell>113,070</cell>
-              <cell>113,667</cell>
-              <cell>114,044</cell>
-              <cell>115,514</cell>
-              <cell>113,354</cell>
-            </row>
-          </tabular>
-        </table>
-        <table>
-          <tabular>
-            <row>
-              <cell>Sex/Year</cell>
-              <cell>1871</cell>
-              <cell>1870</cell>
-              <cell>1872</cell>
-              <cell>1871</cell>
-              <cell>1872</cell>
-              <cell>1827</cell>
-              <cell>1874</cell>
-              <cell>1875</cell>
-            </row>
-            <row>
-              <cell>Female</cell>
-              <cell>56,099</cell>
-              <cell>56,431</cell>
-              <cell>57,472</cell>
-              <cell>56,099</cell>
-              <cell>57,472</cell>
-              <cell>58,233</cell>
-              <cell>60,109</cell>
-              <cell>60,146</cell>
-            </row>
-            <row>
-              <cell>Male</cell>
-              <cell>60,029</cell>
-              <cell>58,959</cell>
-              <cell>61,293</cell>
-              <cell>60,029</cell>
-              <cell>61,293</cell>
-              <cell>61,467</cell>
-              <cell>63,602</cell>
-              <cell>63,432</cell>
-            </row>
-            <row>
-              <cell>Total</cell>
-              <cell>116,128</cell>
-              <cell>115,390</cell>
-              <cell>118,765</cell>
-              <cell>116,128</cell>
-              <cell>118,765</cell>
-              <cell>119,700</cell>
-              <cell>123,711</cell>
-              <cell>123,578</cell>
-            </row>
-          </tabular>
-        </table>
-      </statement>
-      <solution>
-        <figure xml:id="eip-idp37153376">
-          <image source="media/CNX_Stats_C02_M05a_028anno.jpg" width="85%"/>
-        </figure>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="eip-301">
-      <statement>
-        <p>The following data sets list full-time police per 100,000 citizens along with incidents of a certain crime per 100,000 citizens for the city of Detroit, Michigan, during the period from 1961 to 1973.</p>
-        <table>
-          <tabular>
-            <row>
-              <cell>Year</cell>
-              <cell>1961</cell>
-              <cell>1962</cell>
-              <cell>1963</cell>
-              <cell>1964</cell>
-              <cell>1965</cell>
-              <cell>1966</cell>
-              <cell>1967</cell>
-            </row>
-            <row>
-              <cell>Police</cell>
-              <cell>260.35</cell>
-              <cell>269.8</cell>
-              <cell>272.04</cell>
-              <cell>272.96</cell>
-              <cell>272.51</cell>
-              <cell>261.34</cell>
-              <cell>268.89</cell>
-            </row>
-            <row>
-              <cell>Incidents</cell>
-              <cell>8.6</cell>
-              <cell>8.9</cell>
-              <cell>8.52</cell>
-              <cell>8.89</cell>
-              <cell>13.07</cell>
-              <cell>14.57</cell>
-              <cell>21.36</cell>
-            </row>
-          </tabular>
-        </table>
-        <table>
-          <tabular>
-            <row>
-              <cell>Year</cell>
-              <cell>1968</cell>
-              <cell>1969</cell>
-              <cell>1970</cell>
-              <cell>1971</cell>
-              <cell>1972</cell>
-              <cell>1973</cell>
-            </row>
-            <row>
-              <cell>Police</cell>
-              <cell>295.99</cell>
-              <cell>319.87</cell>
-              <cell>341.43</cell>
-              <cell>356.59</cell>
-              <cell>376.69</cell>
-              <cell>390.19</cell>
-            </row>
-            <row>
-              <cell>Incidents</cell>
-              <cell>28.03</cell>
-              <cell>31.49</cell>
-              <cell>37.39</cell>
-              <cell>46.26</cell>
-              <cell>47.24</cell>
-              <cell>52.33</cell>
-            </row>
-          </tabular>
-        </table>
-        <ol>
-          <li><p>Construct a double time series graph using a common <em>x</em>-axis for both sets of data.</p></li>
-          <li><p>Which variable increased the fastest? Explain.</p></li>
-          <li><p>Did Detroit’s increase in police officers have an impact on the incident rate? Explain.</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    </subsection>
-
-    <subsection xml:id="subsec-histograms-homework">
-      <title>Homework</title>
-
-    <exercise xml:id="fs-idp53668112">
-      <statement>
-        <p>Suppose that three book publishers were interested in the number of fiction paperbacks adult consumers purchase per month. Each publisher conducted a survey. In the survey, adult consumers were asked the number of fiction paperbacks they had purchased the previous month. The results are as follows:</p>
-        <table>
-          <title>Publisher A</title>
-          <tabular>
-            <row header="yes">
-              <cell>Number of Books</cell>
-              <cell>Frequency</cell>
-              <cell>Relative Frequency</cell>
-            </row>
-            <row>
-              <cell>0</cell>
-              <cell>10</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>12</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>16</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>3</cell>
-              <cell>12</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>4</cell>
-              <cell>8</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>5</cell>
-              <cell>6</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>6</cell>
-              <cell>2</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>8</cell>
-              <cell>2</cell>
-              <cell></cell>
-            </row>
-          </tabular>
-        </table>
-        <table>
-          <title>Publisher B</title>
-          <tabular>
-            <row header="yes">
-              <cell>Number of Books</cell>
-              <cell>Frequency</cell>
-              <cell>Relative Frequency</cell>
-            </row>
-            <row>
-              <cell>0</cell>
-              <cell>18</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>1</cell>
-              <cell>24</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>2</cell>
-              <cell>24</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>3</cell>
-              <cell>22</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>4</cell>
-              <cell>15</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>5</cell>
-              <cell>10</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>7</cell>
-              <cell>5</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>9</cell>
-              <cell>1</cell>
-              <cell></cell>
-            </row>
-          </tabular>
-        </table>
-        <table>
-          <title>Publisher C</title>
-          <tabular>
-            <row header="yes">
-              <cell>Number of Books</cell>
-              <cell>Frequency</cell>
-              <cell>Relative Frequency</cell>
-            </row>
-            <row>
-              <cell>0–1</cell>
-              <cell>20</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>2–3</cell>
-              <cell>35</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>4–5</cell>
-              <cell>12</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>6–7</cell>
-              <cell>2</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>8–9</cell>
-              <cell>1</cell>
-              <cell></cell>
-            </row>
-          </tabular>
-        </table>
-        <ol>
-          <li><p>Find the relative frequencies for each survey. Write them in the charts.</p></li>
-          <li><p>Using either a graphing calculator or computer or by hand, use the frequency column to construct a histogram for each publisher's survey. For Publishers A and B, make bar widths of 1. For Publisher C, make bar widths of 2.</p></li>
-          <li><p>In complete sentences, give two reasons why the graphs for Publishers A and B are not identical.</p></li>
-          <li><p>Would you have expected the graph for Publisher C to look like the other two graphs? Why or why not?</p></li>
-          <li><p>Make new histograms for Publisher A and Publisher B. This time, make bar widths of 2.</p></li>
-          <li><p>Now, compare the graph for Publisher C to the new graphs for Publishers A and B. Are the graphs more similar or more different? Explain your answer.</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="eip-457">
-      <statement>
-        <p>Often, cruise ships conduct all onboard transactions, with the exception of souvenirs, on a cashless basis. At the end of the cruise, guests pay one bill that covers all onboard transactions. Suppose that 60 single travelers and 70 couples were surveyed as to their onboard bills for a seven-day cruise from Los Angeles to the Mexican Riviera. Following is a summary of the bills for each group:</p>
-        <table>
-          <title>Singles</title>
-          <tabular>
-            <row header="yes">
-              <cell>Amount ($)</cell>
-              <cell>Frequency</cell>
-              <cell>Relative Frequency</cell>
-            </row>
-            <row>
-              <cell>51–100</cell>
-              <cell>5</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>101–150</cell>
-              <cell>10</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>151–200</cell>
-              <cell>15</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>201–250</cell>
-              <cell>15</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>251–300</cell>
-              <cell>10</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>301–350</cell>
-              <cell>5</cell>
-              <cell></cell>
-            </row>
-          </tabular>
-        </table>
-        <table>
-          <title>Couples</title>
-          <tabular>
-            <row header="yes">
-              <cell>Amount ($)</cell>
-              <cell>Frequency</cell>
-              <cell>Relative Frequency</cell>
-            </row>
-            <row>
-              <cell>100–150</cell>
-              <cell>5</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>201–250</cell>
-              <cell>5</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>251–300</cell>
-              <cell>5</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>301–350</cell>
-              <cell>5</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>351–400</cell>
-              <cell>10</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>401–450</cell>
-              <cell>10</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>451–500</cell>
-              <cell>10</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>501–550</cell>
-              <cell>10</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>551–600</cell>
-              <cell>5</cell>
-              <cell></cell>
-            </row>
-            <row>
-              <cell>601–650</cell>
-              <cell>5</cell>
-              <cell></cell>
-            </row>
-          </tabular>
-        </table>
-        <ol>
-          <li><p>Fill in the relative frequency for each group.</p></li>
-          <li><p>Construct a histogram for the singles group. Scale the <em>x</em>-axis by $50 widths. Use relative frequency on the <em>y</em>-axis.</p></li>
-          <li><p>Construct a histogram for the couples group. Scale the <em>x</em>-axis by $50 widths. Use relative frequency on the <em>y</em>-axis.</p></li>
-          <li><p>Compare the two graphs:
-List two similarities between the graphs.
-List two differences between the graphs.
-Overall, are the graphs more similar or different?
-</p></li>
-          <li><p>Construct a new graph for the couples by hand. Since each couple is paying for two individuals, instead of scaling the <em>x</em>-axis by $50, scale it by $100. Use relative frequency on the <em>y</em>-axis.</p></li>
-          <li><p>Compare the graph for the singles with the new graph for the couples:List two similarities between the graphs.
-Overall, are the graphs more similar or different?
-</p></li>
-          <li><p>How did scaling the couples graph differently change the way you compared it to the singles graph?</p></li>
-          <li><p>Based on the graphs, do you think that individuals spend the same amount, more or less, as singles as they do person by person as a couple? Explain why in one or two complete sentences.</p></li>
-        </ol>
-      </statement>
-      <solution>
-        <table>
-          <title>Singles</title>
-          <tabular>
-            <row header="yes">
-              <cell>Amount($)</cell>
-              <cell>Frequency</cell>
-              <cell>Relative Frequency</cell>
-            </row>
-            <row>
-              <cell>51–100</cell>
-              <cell>5</cell>
-              <cell>.08</cell>
-            </row>
-            <row>
-              <cell>101–150</cell>
-              <cell>10</cell>
-              <cell>.17</cell>
-            </row>
-            <row>
-              <cell>151–200</cell>
-              <cell>15</cell>
-              <cell>.25</cell>
-            </row>
-            <row>
-              <cell>201–250</cell>
-              <cell>15</cell>
-              <cell>.25</cell>
-            </row>
-            <row>
-              <cell>251–300</cell>
-              <cell>10</cell>
-              <cell>.17</cell>
-            </row>
-            <row>
-              <cell>301–350</cell>
-              <cell>5</cell>
-              <cell>.08</cell>
-            </row>
-          </tabular>
-        </table>
-        <table>
-          <title>Couples</title>
-          <tabular>
-            <row header="yes">
-              <cell>Amount ($)</cell>
-              <cell>Frequency</cell>
-              <cell>Relative Frequency</cell>
-            </row>
-            <row>
-              <cell>100–150</cell>
-              <cell>5</cell>
-              <cell>.07</cell>
-            </row>
-            <row>
-              <cell>201–250</cell>
-              <cell>5</cell>
-              <cell>.07</cell>
-            </row>
-            <row>
-              <cell>251–300</cell>
-              <cell>5</cell>
-              <cell>.07</cell>
-            </row>
-            <row>
-              <cell>301–350</cell>
-              <cell>5</cell>
-              <cell>.07</cell>
-            </row>
-            <row>
-              <cell>351–400</cell>
-              <cell>10</cell>
-              <cell>.14</cell>
-            </row>
-            <row>
-              <cell>401–450</cell>
-              <cell>10</cell>
-              <cell>.14</cell>
-            </row>
-            <row>
-              <cell>451–500</cell>
-              <cell>10</cell>
-              <cell>.14</cell>
-            </row>
-            <row>
-              <cell>501–550</cell>
-              <cell>10</cell>
-              <cell>.14</cell>
-            </row>
-            <row>
-              <cell>551–600</cell>
-              <cell>5</cell>
-              <cell>.07</cell>
-            </row>
-            <row>
-              <cell>601–650</cell>
-              <cell>5</cell>
-              <cell>.07</cell>
-            </row>
-          </tabular>
-        </table>
-        <ol>
-          <li><p>See  and .</p></li>
-          <li><p>In the following histogram, data values that fall on the right boundary are counted in the class interval, while values that fall on the left boundary are not counted, with the exception of the first interval, where both boundary values are included.
-
-
-
-
-
-</p></li>
-          <li><p>In the following histogram, the data values that fall on the right boundary are counted in the class interval, while values that fall on the left boundary are not counted, with the exception of the first interval, where values on both boundaries are included.
-
-
-
-
-
-</p></li>
-          <li><p>Compare the two graphs.
-    Answers may vary. Possible answers include the following:
-      
-      Both graphs have a single peak.
-      Both graphs use class intervals with width equal to $50
-      
-    
-    Answers may vary. Possible answers include the following:
-      
-      The couples graph has a class interval with no values
-      It takes almost twice as many class intervals to display the data for couples
-      
-    
-    Answers may vary. Possible answers include the following. The graphs are more similar than different because the overall patterns for the graphs are the same.
-    </p></li>
-          <li><p>Check student's solution.
-
-</p></li>
-          <li><p>Compare the graph for the singles with the new graph for the couples:
-  
-    Both graphs have a single peak
-    Both graphs display six class intervals
-    Both graphs show the same general pattern
-    
-  
-  Answers may vary. Possible answers include the following. Although the width of the class intervals for couples is double that of the class intervals for singles, the graphs are more similar than they are different.
-  </p></li>
-          <li><p>Answers may vary. Possible answers include the following. You are able to compare the graphs interval by interval. It is easier to compare the overall patterns with the new scale on the couples graph. Because a couple represents two individuals, the new scale leads to a more accurate comparison.</p></li>
-          <li><p>Answers may vary. Possible answers include the following. Based on the histograms, it seems that spending does not vary much from singles to individuals who are part of a couple. The overall patterns are the same. The range of spending for couples is approximately double the range for individuals.</p></li>
-        </ol>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idp73179824">
-      <statement>
-        <p>25 randomly selected students were asked the number of movies they watched the previous week. The results are as follows:
-
-
-
- 
-    Number of Movies
-    Frequency
-    Relative Frequency
-    Cumulative Relative Frequency
-  
-
-
-  
-    0
-    5
-   
-   
-  
-  
-    1
-    9
-  
-  
-  
-  
-    2
-    6
-  
-  
-  
-  
-    3
-    4
-   
-  
-  
-  
-    4
-    1
-  
-  
-  
-
-
-
-
-  </p>
-        <ol>
-          <li><p>Construct a histogram of the data.</p></li>
-          <li><p>Complete the columns of the chart.</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <p><em>Use the following information to answer the next two exercises:</em> Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.</p>
-
-    <exercise xml:id="fs-idm24292288">
-      <statement>
-        <p>The percentage of  people who own at most three T-shirts costing more than $19 each is approximately ________.</p>
-        <ol>
-          <li><p>21</p></li>
-          <li><p>59</p></li>
-          <li><p>41</p></li>
-          <li><p>cannot be determined</p></li>
-        </ol>
-      </statement>
-      <solution>
-        <p>c</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="element-195">
-      <statement>
-        <p>If the data were collected by asking the first 111 people who entered the store, then the type of sampling is ________.</p>
-        <ol>
-          <li><p>cluster</p></li>
-          <li><p>simple random</p></li>
-          <li><p>stratified</p></li>
-          <li><p>convenience</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idp13768528">
-      <statement>
-        <p>Following are the 2010 obesity rates by U.S. states and Washington, DC.</p>
-        <table>
-          <tabular>
-            <row header="yes">
-              <cell>State</cell>
-              <cell>Percent (%)</cell>
-              <cell>State</cell>
-              <cell>Percent (%)</cell>
-              <cell>State</cell>
-              <cell>Percent (%)</cell>
-            </row>
-            <row>
-              <cell>Alabama</cell>
-              <cell>32.2</cell>
-              <cell>Kentucky</cell>
-              <cell>31.3</cell>
-              <cell>North Dakota</cell>
-              <cell>27.2</cell>
-            </row>
-            <row>
-              <cell>Alaska</cell>
-              <cell>24.5</cell>
-              <cell>Louisiana</cell>
-              <cell>31.0</cell>
-              <cell>Ohio</cell>
-              <cell>29.2</cell>
-            </row>
-            <row>
-              <cell>Arizona</cell>
-              <cell>24.3</cell>
-              <cell>Maine</cell>
-              <cell>26.8</cell>
-              <cell>Oklahoma</cell>
-              <cell>30.4</cell>
-            </row>
-            <row>
-              <cell>Arkansas</cell>
-              <cell>30.1</cell>
-              <cell>Maryland</cell>
-              <cell>27.1</cell>
-              <cell>Oregon</cell>
-              <cell>26.8</cell>
-            </row>
-            <row>
-              <cell>California</cell>
-              <cell>24.0</cell>
-              <cell>Massachusetts</cell>
-              <cell>23.0</cell>
-              <cell>Pennsylvania</cell>
-              <cell>28.6</cell>
-            </row>
-            <row>
-              <cell>Colorado</cell>
-              <cell>21.0</cell>
-              <cell>Michigan</cell>
-              <cell>30.9</cell>
-              <cell>Rhode Island</cell>
-              <cell>25.5</cell>
-            </row>
-            <row>
-              <cell>Connecticut</cell>
-              <cell>22.5</cell>
-              <cell>Minnesota</cell>
-              <cell>24.8</cell>
-              <cell>South Carolina</cell>
-              <cell>31.5</cell>
-            </row>
-            <row>
-              <cell>Delaware</cell>
-              <cell>28.0</cell>
-              <cell>Mississippi</cell>
-              <cell>34.0</cell>
-              <cell>South Dakota</cell>
-              <cell>27.3</cell>
-            </row>
-            <row>
-              <cell>Washington, DC</cell>
-              <cell>22.2</cell>
-              <cell>Missouri</cell>
-              <cell>30.5</cell>
-              <cell>Tennessee</cell>
-              <cell>30.8</cell>
-            </row>
-            <row>
-              <cell>Florida</cell>
-              <cell>26.6</cell>
-              <cell>Montana</cell>
-              <cell>23.0</cell>
-              <cell>Texas</cell>
-              <cell>31.0</cell>
-            </row>
-            <row>
-              <cell>Georgia</cell>
-              <cell>29.6</cell>
-              <cell>Nebraska</cell>
-              <cell>26.9</cell>
-              <cell>Utah</cell>
-              <cell>22.5</cell>
-            </row>
-            <row>
-              <cell>Hawaii</cell>
-              <cell>22.7</cell>
-              <cell>Nevada</cell>
-              <cell>22.4</cell>
-              <cell>Vermont</cell>
-              <cell>23.2</cell>
-            </row>
-            <row>
-              <cell>Idaho</cell>
-              <cell>26.5</cell>
-              <cell>New Hampshire</cell>
-              <cell>25.0</cell>
-              <cell>Virginia</cell>
-              <cell>26.0</cell>
-            </row>
-            <row>
-              <cell>Illinois</cell>
-              <cell>28.2</cell>
-              <cell>New Jersey</cell>
-              <cell>23.8</cell>
-              <cell>Washington</cell>
-              <cell>25.5</cell>
-            </row>
-            <row>
-              <cell>Indiana</cell>
-              <cell>29.6</cell>
-              <cell>New Mexico</cell>
-              <cell>25.1</cell>
-              <cell>West Virginia</cell>
-              <cell>32.5</cell>
-            </row>
-            <row>
-              <cell>Iowa</cell>
-              <cell>28.4</cell>
-              <cell>New York</cell>
-              <cell>23.9</cell>
-              <cell>Wisconsin</cell>
-              <cell>26.3</cell>
-            </row>
-            <row>
-              <cell>Kansas</cell>
-              <cell>29.4</cell>
-              <cell>North Carolina</cell>
-              <cell>27.8</cell>
-              <cell>Wyoming</cell>
-              <cell>25.1</cell>
-            </row>
-          </tabular>
-        </table>
-        <p>Construct a bar graph of obesity rates of your state and the four states closest to your state. Hint—Label the <em>x</em>-axis with the states.</p>
-      </statement>
-      <solution>
-        <p>Answers will vary.
-</p>
-      </solution>
-    </exercise>
-
-    </subsection>
 
   </section>
 
@@ -4207,292 +3048,7 @@ Find the percentiles for 47 and 31.</p>
 
     </subsection>
 
-    <subsection xml:id="subsec-measures-location-practice">
-      <title>Practice</title>
 
-    <exercise xml:id="fs-idm1110784">
-      <statement>
-        <p>Listed are 29 ages for Academy Award-winning best actors <em>in order from smallest to largest:</em></p>
-        <p>18, 21, 22, 25, 26, 27, 29, 30, 31, 33, 36, 37, 41, 42, 47, 52, 55, 57, 58, 62, 64, 67, 69, 71, 72, 73, 74, 76, 77</p>
-        <ol>
-          <li><p>Find the 40<m>^{th}</m> percentile.</p></li>
-          <li><p>Find the 78<m>^{th}</m> percentile.</p></li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li><p>The 40<m>^{th}</m> percentile is 37 years.</p></li>
-          <li><p>The 78<m>^{th}</m> percentile is 70 years.</p></li>
-        </ol>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idm4719584">
-      <statement>
-        <p>Listed are 32 ages for Academy Award-winning best actors <em>in order from smallest to largest:</em></p>
-        <p>18, 18, 21, 22, 25, 26, 27, 29, 30, 31, 31, 33, 36, 37, 37, 41, 42, 47, 52, 55, 57, 58, 62, 64, 67, 69, 71, 72, 73, 74, 76, 77</p>
-        <ol>
-          <li><p>Find the percentile of 37.</p></li>
-          <li><p>Find the percentile of 72.</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idp30887728">
-      <statement>
-        <p>Jesse was ranked 37<m>^{th}</m> in his graduating class of 180 students. At what percentile is Jesse’s ranking?</p>
-      </statement>
-      <solution>
-        <p>Jesse graduated 37<m>^{th}</m> out of a class of 180 students. There are 180 – 37 = 143 students ranked below Jesse. There is one rank of 37.</p>
-        <p><em>x</em> = 143 and <em>y</em> = 1. <m>\frac{x+.5y}{n}</m>(100) = <m>\frac{143+.5(1)}{180}</m>(100) = 79.72. Jesse’s rank of 37 puts him at the 80<m>^{th}</m> percentile.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="eip-id1168182229232">
-      <statement>
-        <ol>
-          <li><p>For runners in a race, a low time means a faster run. The winners in a race have the shortest running times. Is it more desirable to have a finish time with a high or a low percentile when running a race?</p></li>
-          <li><p>The 20<m>^{th}</m> percentile of run times in a particular race is 5.2 minutes. Write a sentence interpreting the 20<m>^{th}</m> percentile in the context of the situation.</p></li>
-          <li><p>A bicyclist in the 90<m>^{th}</m> percentile of a bicycle race completed the race in 1 hour and 12 minutes. Is he among the fastest or slowest cyclists in the race? Write a sentence interpreting the 90<m>^{th}</m> percentile in the context of the situation.</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="eip-id1168182273864">
-      <statement>
-        <ol>
-          <li><p>For runners in a race, a higher speed means a faster run. Is it more desirable to have a speed with a high or a low percentile when running a race?</p></li>
-          <li><p>The 40<m>^{th}</m> percentile of speeds in a particular race is 7.5 miles per hour. Write a sentence interpreting the 40<m>^{th}</m> percentile in the context of the situation.</p></li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li><p>For runners in a race, it is more desirable to have a high percentile for speed. A high percentile means a higher speed, which is faster.</p></li>
-          <li><p>40 percent of runners ran at speeds of 7.5 miles per hour or less (slower), and 60 percent of runners ran at speeds of 7.5 miles per hour or more (faster).</p></li>
-        </ol>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="eip-id1168217995987">
-      <statement>
-        <p>On an exam, would it be more desirable to earn a grade with a high or a low percentile? Explain.</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="eip-id1168183173702">
-      <statement>
-        <p>Mina is waiting in line at the Department of Motor Vehicles. Her wait time of 32 minutes is the 85<m>^{th}</m> percentile of wait times. Is that good or bad? Write a sentence interpreting the 85<m>^{th}</m> percentile in the context of this situation.</p>
-      </statement>
-      <solution>
-        <p>When waiting in line at the DMV, the 85<m>^{th}</m> percentile would be a long wait time compared to the other people waiting. 85 percent of people had shorter wait times than Mina. In this context, Mina would prefer a wait time corresponding to a lower percentile. 85 percent of people at the DMV waited 32 minutes or less. 15 percent of people at the DMV waited 32 minutes or longer.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="eip-id1168213546999">
-      <statement>
-        <p>In a survey collecting data about the salaries earned by recent college graduates, Li found that her salary was in the 78<m>^{th}</m> percentile. Should Li be pleased or upset by this result? Explain.</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="eip-id1168214876383">
-      <statement>
-        <p>In a study collecting data about the repair costs of damage to automobiles in a certain type of crash tests, a certain model of car had $1,700 in damage and was in the 90<m>^{th}</m> percentile. Should the manufacturer and the consumer be pleased or upset by this result? Explain and write a sentence that interprets the 90<m>^{th}</m> percentile in the context of this problem.</p>
-      </statement>
-      <solution>
-        <p>The manufacturer and the consumer would be upset. This is a large repair cost for the damages, compared to the other cars in the sample. INTERPRETATION: 90 percent of the crash-tested cars had damage repair costs of $1,700 or less; only 10 percent had damage repair costs of $1,700 or more.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="eip-id1168195852900">
-      <statement>
-        <p>The University of California has two criteria used to set admission standards for freshman to be admitted to a college in the UC system:</p>
-        <ol>
-          <li><p>Students' GPAs and scores on standardized tests (SATs and ACTs) are entered into a formula that calculates an <em>admissions index</em> score. The admissions index score is used to set eligibility standards intended to meet the goal of admitting the top 12 percent of high school students in the state. In this context, what percentile does the top 12 percent represent?</p></li>
-          <li><p>Students whose GPAs are at or above the 96<m>^{th}</m> percentile of all students at their high school are eligible, called eligible in the local context, even if they are not in the top 12 percent of all students in the state. What percentage of students from each high school are <em>eligible in the local context</em>?</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="eip-id1168223160542">
-      <statement>
-        <p>Suppose that you are buying a house. You and your real estate agent have determined that the most expensive house you can afford is the 34<m>^{th}</m> percentile. The 34<m>^{th}</m> percentile of housing prices is $240,000 in the town you want to move to. In this town, can you afford 34 percent of the houses or 66 percent of the houses?</p>
-      </statement>
-      <solution>
-        <p>You can afford 34 percent of houses. 66 percent of the houses are too expensive for your budget. INTERPRETATION: 34 percent of houses cost $240,000 or less; 66 percent of houses cost $240,000 or more.</p>
-      </solution>
-    </exercise>
-
-    <p>Use  to calculate the following values.</p>
-
-    <exercise xml:id="exercisenine">
-      <statement>
-        <p>First quartile = ________</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="exerciseten">
-      <statement>
-        <p>Second quartile = median = 50<m>^{th}</m> percentile = ________</p>
-      </statement>
-      <solution>
-        <p>4</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="exerciseeleven">
-      <statement>
-        <p>Third quartile = ________</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="exercisetwelve">
-      <statement>
-        <p>Interquartile range (<em>IQR</em>) = ________ – ________ = ________</p>
-      </statement>
-      <solution>
-        <p>6 – 4 = 2</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="exercisethirteen">
-      <statement>
-        <p>10<m>^{th}</m> percentile = ________</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="exercisefourteen">
-      <statement>
-        <p>70<m>^{th}</m> percentile = ________</p>
-      </statement>
-      <solution>
-        <p>6</p>
-      </solution>
-    </exercise>
-
-    </subsection>
-
-    <subsection xml:id="subsec-measures-location-homework">
-      <title>Homework</title>
-
-    <exercise xml:id="fs-idp61512400">
-      <statement>
-        <p>The median age for U.S. ethnicity A currently is 30.9 years; for U.S. ethnicity B, it is 42.3 years.
-
-Based on this information, give two reasons why ethnicity A median age could be lower than the ethnicity B median age.
-Does the lower median age for ethnicity A necessarily mean that ethnicity A die younger than ethnicity B? Why or why not?
-How might it be possible for ethnicity A and ethnicity B to die at approximately the same age but for the median age for ethnicity B to be higher?
-</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="element-927">
-      <statement>
-        <p>Six hundred adult Americans were asked by telephone poll, "What do you think constitutes a middle-class income?" The results are in . Also, include the left endpoint but not the right endpoint.</p>
-        <table>
-          <tabular>
-            <row header="yes">
-              <cell>Salary ($)</cell>
-              <cell>Relative Frequency</cell>
-            </row>
-            <row>
-              <cell>&lt; 20,000</cell>
-              <cell>.02</cell>
-            </row>
-            <row>
-              <cell>20,000–25,000</cell>
-              <cell>.09</cell>
-            </row>
-            <row>
-              <cell>25,000–30,000</cell>
-              <cell>.19</cell>
-            </row>
-            <row>
-              <cell>30,000–40,000</cell>
-              <cell>.26</cell>
-            </row>
-            <row>
-              <cell>40,000–50,000</cell>
-              <cell>.18</cell>
-            </row>
-            <row>
-              <cell>50,000–75,000</cell>
-              <cell>.17</cell>
-            </row>
-            <row>
-              <cell>75,000–99,999</cell>
-              <cell>.02</cell>
-            </row>
-            <row>
-              <cell>100,000+</cell>
-              <cell>.01</cell>
-            </row>
-          </tabular>
-        </table>
-        <ol>
-          <li><p>What percentage of the survey answered "not sure"?</p></li>
-          <li><p>What percentage think that middle class is from $25,000 to $50,000?</p></li>
-          <li><p>Construct a histogram of the data.
-Should all bars have the same width, based on the data? Why or why not?
-How should the &lt; 20,000 and the 100,000+ intervals be handled? Why?
-</p></li>
-          <li><p>Find the 40<m>^{th}</m> and 80<m>^{th}</m> percentiles.</p></li>
-          <li><p>Construct a bar graph of the data.</p></li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li><p>1 – (.02+.09+.19+.26+.18+.17+.02+.01) = .06</p></li>
-          <li><p>.19+.26+.18 = .63</p></li>
-          <li><p>Check student’s solution.</p></li>
-          <li><p>40<m>^{th}</m> percentile will fall between 30,000 and 40,000
-80<m>^{th}</m> percentile will fall between 50,000 and 75,000</p></li>
-          <li><p>Check student’s solution.</p></li>
-        </ol>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idp35930608">
-      <statement>
-        <p>Given the following box plot, answer the questions.</p>
-        <figure xml:id="fs-idm476896">
-          <image source="media/fig-ch02_13_02.jpg" width="85%"/>
-        </figure>
-        <ol>
-          <li><p>Which quarter has the smallest spread of data? What is that spread?</p></li>
-          <li><p>Which quarter has the largest spread of data? What is that spread?</p></li>
-          <li><p>Find the interquartile range (<em>IQR</em>).</p></li>
-          <li><p>Are there more data in the interval 5–10 or in the interval 10–13? How do you know this?</p></li>
-          <li><p>Which interval has the fewest data in it? How do you know this?
-0–2
-2–4
-10–12
-12–13
-need more information
-</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="element-284">
-      <statement>
-        <p>The following box plot shows the ages of the U.S. population for 1990, the latest available year:</p>
-        <figure xml:id="fs-idm132205520">
-          <image source="media/fig-ch02_13_08.jpg" width="85%"/>
-        </figure>
-        <ol>
-          <li><p>Are there fewer or more children (age 17 and under) than senior citizens (age 65 and over)? How do you know?</p></li>
-          <li><p>12.6 percent are age 65 and over. Approximately what percentage of the population are working-age adults (above age 17 to age 65)?</p></li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li><p>more children; the left whisker shows that 25 percent of the population are children 17 and younger; the right whisker shows that 25 percent of the population are adults 50 and older, so adults 65 and over represent less than 25 percent</p></li>
-          <li><p>62.4 percent</p></li>
-        </ol>
-      </solution>
-    </exercise>
-
-    </subsection>
 
   </section>
 
@@ -4769,214 +3325,7 @@ Construct a box plot using a graphing calculator for each data set, and state wh
 
     <p>Box plots are a type of graph that can help visually organize data. Before a box plot can be graphed, the following data points must be calculated: the minimum value, the first quartile, the median, the third quartile, and the maximum value. Once the box plot is graphed, you can display and compare distributions of data.</p>
 
-    <subsection xml:id="subsec-box-plots-practice">
-      <title>Practice</title>
 
-    <p>Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars.</p>
-
-    <exercise xml:id="fs-idm23427584">
-      <statement>
-        <p>Construct a box plot below. Use a ruler to measure and scale accurately.</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idm39140224">
-      <statement>
-        <p>Looking at your box plot, does it appear that the data are concentrated together, spread out evenly, or concentrated in some areas but not in others? How can you tell?</p>
-      </statement>
-      <solution>
-        <p>More than 25 percent of salespersons sell four cars in a typical week. You can see this concentration in the box plot because the first quartile is equal to the median. The top 25 percent and the bottom 25 percent are spread out evenly; the whiskers have the same length.</p>
-      </solution>
-    </exercise>
-
-    </subsection>
-
-    <subsection xml:id="subsec-box-plots-homework">
-      <title>Homework</title>
-
-    <exercise xml:id="fs-idp68490208">
-      <statement>
-        <p>In a survey of 20-year-olds in China, Germany, and the United States, people were asked the number of foreign countries they had visited in their lifetime. The following box plots display the results:</p>
-        <figure xml:id="fs-idm75185920">
-          <image source="media/fig-ch02_13_01_rev.jpg" width="85%"/>
-        </figure>
-        <ol>
-          <li><p>In complete sentences, describe what the shape of each box plot implies about the distribution of the data collected.</p></li>
-          <li><p>Have more Americans or more Germans surveyed been to more than eight foreign countries?</p></li>
-          <li><p>Compare the three box plots. What do they imply about the foreign travel of 20-year-old residents of the three countries when compared to each other?</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="element-606">
-      <statement>
-        <p>Given the following box plot, answer the questions.</p>
-        <figure xml:id="fs-idp53170192">
-          <image source="media/fig-ch02_13_03.jpg" width="85%"/>
-        </figure>
-        <ol>
-          <li><p>Think of an example (in words) where the data might fit into the above box plot. In two to five sentences, write down the example.</p></li>
-          <li><p>What does it mean to have the first and second quartiles so close together, while the second to third quartiles are far apart?</p></li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li><p>Answers will vary. Possible answer: State University conducted a survey to see how involved its students are in community service. The box plot shows the number of community service hours logged by participants over the past year.</p></li>
-          <li><p>Because the first and second quartiles are close, the data in this quarter is very similar. There is not much variation in the values. The data in the third quarter is much more variable, or spread out. This is clear because the second quartile is so far away from the third quartile.</p></li>
-        </ol>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="element-990">
-      <statement>
-        <p>Given the following box plots, answer the questions.</p>
-        <figure xml:id="fs-idm76469696">
-          <image source="media/fig-ch02_13_06.jpg" width="85%"/>
-        </figure>
-        <ol>
-          <li><p>In complete sentences, explain why each statement is false.
-<em>Data 1</em> has more data values above two than <em>Data 2</em> has above two.
-The data sets cannot have the same mode.
-For <em>Data 1</em>, there are more data values below four than there are above four.
-</p></li>
-          <li><p>For which group, Data 1 or Data 2, is the value of 7 more likely to be an outlier? Explain why in complete sentences.</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idp23710160">
-      <statement>
-        <p>A survey was conducted of 130 purchasers of new black sports cars, 130 purchasers of new red sports cars, and 130 purchasers of new white sports cars. In it, people were asked the age they were when they purchased their car. The following box plots display the results:</p>
-        <figure xml:id="fs-idm78146976">
-          <image source="media/fig-ch02_13_07.jpg" width="85%"/>
-        </figure>
-        <ol>
-          <li><p>In complete sentences, describe what the shape of each box plot implies about the distribution of the data collected for that car series.</p></li>
-          <li><p>Which group is most likely to have an outlier? Explain how you determined that.</p></li>
-          <li><p>Compare the three box plots. What do they imply about the age of purchasing a sports car from the series when compared to each other?</p></li>
-          <li><p>Look at the red sports cars. Which quarter has the smallest spread of data? What is the spread?</p></li>
-          <li><p>Look at the red sports cars. Which quarter has the largest spread of data? What is the spread?</p></li>
-          <li><p>Look at the red sports cars. Estimate the interquartile range (<em>IQR</em>).</p></li>
-          <li><p>Look at the red sports cars. Are there more data in the interval 31–38 or in the interval 45–55? How do you know this?</p></li>
-          <li><p>Look at the red sports cars. Which interval has the fewest data in it? How do you know this?
-31–35
-38–41
-41–64
-</p></li>
-        </ol>
-      </statement>
-      <solution>
-        <ol>
-          <li><p>Each box plot is spread out more in the greater values. Each plot is skewed to the right, so the ages of the top 50 percent of buyers are more variable than the ages of the lower 50 percent.</p></li>
-          <li><p>The black sports car is most likely to have an outlier. It has the longest whisker.</p></li>
-          <li><p>Comparing the median ages, younger people tend to buy the black sports car, while older people tend to buy the white sports car. However, this is not a rule, because there is so much variability in each data set.</p></li>
-          <li><p>The second quarter has the smallest spread. There seems to be only a three-year difference between the first quartile and the median.</p></li>
-          <li><p>The third quarter has the largest spread. There seems to be approximately a 14-year difference between the median and the third quartile.</p></li>
-          <li><p><em>IQR</em> ~ 17 years</p></li>
-          <li><p>There is not enough information to tell. Each interval lies within a quarter, so we cannot tell exactly where the data in that quarter is are concentrated.</p></li>
-          <li><p>The interval from 31 to 35 years has the fewest data values. Twenty-five percent of the values fall in the interval 38 to 41, and 25 percent fall between 41 and 64. Since 25 percent of values fall between 31 and 38, we know that fewer than 25 percent fall between 31 and 35.</p></li>
-        </ol>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="element-833">
-      <statement>
-        <p>Twenty-five randomly selected students were asked the number of movies they watched the previous week. The results are as follows:
-
-
- 
-    Number of Movies
-    Frequency
-  
-
-
-  
-    0
-    5
-  
-  
-    1
-    9
-  
-  
-    2
-    6
-  
-  
-    3
-    4
-  
-  
-    4
-    1
-  
-
-
-
-</p>
-        <p>Construct a box plot of the data. </p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idp67679120">
-      <statement>
-        <p>Santa Clara County, California, has approximately 27,873 Japanese Americans.  shows their ages by group and each age-group's percentage of the Japanese American community.
-</p>
-        <table>
-          <tabular>
-            <row header="yes">
-              <cell>Age-Group</cell>
-              <cell>Percentage of Community</cell>
-            </row>
-            <row>
-              <cell>0–17</cell>
-              <cell>18.9</cell>
-            </row>
-            <row>
-              <cell>18–24</cell>
-              <cell>8.0</cell>
-            </row>
-            <row>
-              <cell>25–34</cell>
-              <cell>22.8</cell>
-            </row>
-            <row>
-              <cell>35–44</cell>
-              <cell>15.0</cell>
-            </row>
-            <row>
-              <cell>45–54</cell>
-              <cell>13.1</cell>
-            </row>
-            <row>
-              <cell>55–64</cell>
-              <cell>11.9</cell>
-            </row>
-            <row>
-              <cell>65+</cell>
-              <cell>10.3</cell>
-            </row>
-          </tabular>
-        </table>
-        <ol>
-          <li><p>Construct a histogram of the Japanese American community in Santa Clara County. The bars will <em>not</em> be the same width for this example. Why not? What impact does this have on the reliability of the graph?</p></li>
-          <li><p>What percentage of the community is under age 35?</p></li>
-          <li><p>Which box plot most resembles the information above?</p></li>
-        </ol>
-        <figure xml:id="fs-idm2636592">
-          <image source="media/fig-ch02_13_04.jpg" width="90%"/>
-        </figure>
-      </statement>
-      <solution>
-        <ol>
-          <li><p>For graph, check student's solution. </p></li>
-          <li><p>49.7 percent of the community is under the age of 35</p></li>
-          <li><p>Based on the information in the table, graph (a) most closely represents the data.</p></li>
-        </ol>
-      </solution>
-    </exercise>
-
-    </subsection>
 
   </section>
 
@@ -5497,241 +3846,6 @@ Frequency
 
     </subsection>
 
-    <subsection xml:id="subsec-measures-center-homework">
-      <title>Homework</title>
-
-    <exercise xml:id="eip-735-1">
-      <statement>
-        <p>Scientists are studying a particular disease. They found that countries that have the highest rates of people who have ever been diagnosed with this disease range from 11.4 percent to 74.6 percent.</p>
-        <table>
-          <tabular>
-            <row header="yes">
-              <cell>Percentage of Population Diagnosed</cell>
-              <cell>Number of Countries</cell>
-            </row>
-            <row>
-              <cell>11.4–20.45</cell>
-              <cell>29</cell>
-            </row>
-            <row>
-              <cell>20.45–29.45</cell>
-              <cell>13</cell>
-            </row>
-            <row>
-              <cell>29.45–38.45</cell>
-              <cell>4</cell>
-            </row>
-            <row>
-              <cell>38.45–47.45</cell>
-              <cell>0</cell>
-            </row>
-            <row>
-              <cell>47.45–56.45</cell>
-              <cell>2</cell>
-            </row>
-            <row>
-              <cell>56.45–65.45</cell>
-              <cell>1</cell>
-            </row>
-            <row>
-              <cell>65.45–74.45</cell>
-              <cell>0</cell>
-            </row>
-            <row>
-              <cell>74.45–83.45</cell>
-              <cell>1</cell>
-            </row>
-          </tabular>
-        </table>
-        <ol>
-          <li><p>What is the best estimate of the average percentage affected by the disease for these countries?</p></li>
-          <li><p>The United States has an average disease rate of 33.9 percent. Is this rate above average or below?</p></li>
-          <li><p>How does the United States compare to other countries?</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="eip-17">
-      <statement>
-        <p> gives the percentage of children under age five have been diagnosed with a medical condition. What is the best estimate for the mean percentage of children with the condition?</p>
-        <table>
-          <tabular>
-            <row header="yes">
-              <cell>Percentage of Children with the Condition</cell>
-              <cell>Number of Countries</cell>
-            </row>
-            <row>
-              <cell>16–21.45</cell>
-              <cell>23</cell>
-            </row>
-            <row>
-              <cell>21.45–26.9</cell>
-              <cell>4</cell>
-            </row>
-            <row>
-              <cell>26.9–32.35</cell>
-              <cell>9</cell>
-            </row>
-            <row>
-              <cell>32.35–37.8</cell>
-              <cell>7</cell>
-            </row>
-            <row>
-              <cell>37.8–43.25</cell>
-              <cell>6</cell>
-            </row>
-            <row>
-              <cell>43.25–48.7</cell>
-              <cell>1</cell>
-            </row>
-          </tabular>
-        </table>
-      </statement>
-      <solution>
-        <p>
-    the mean percentage, <m>\overline{x}=\frac{1,328.65}{50}=26.75</m>
-  </p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="element-832">
-      <statement>
-        <p>Javier and Ercilia are supervisors at a shopping mall. Each was given the task of estimating the mean distance that shoppers live from the mall. They each randomly surveyed 100 shoppers. The samples yielded the following information.</p>
-        <table>
-          <tabular>
-            <row header="yes">
-              <cell></cell>
-              <cell>Javier</cell>
-              <cell>Ercilia</cell>
-            </row>
-            <row>
-              <cell><m>
-  
-  x
-</m></cell>
-              <cell>6.0 miles</cell>
-              <cell>6.0 miles</cell>
-            </row>
-            <row>
-              <cell><m>s</m></cell>
-              <cell>4.0 miles</cell>
-              <cell>7.0 miles</cell>
-            </row>
-          </tabular>
-        </table>
-        <ol>
-          <li><p>How can you determine which survey was correct?</p></li>
-          <li><p>Explain what the difference in the results of the surveys implies about the data.</p></li>
-          <li><p>If the two histograms depict the distribution of values for each supervisor, which one depicts Ercilia’s sample?  How do you know?
-
-
-</p></li>
-          <li><p>If the two box plots depict the distribution of values for each supervisor, which one depicts Ercilia’s sample?  How do you know?
-
-
-</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <p><em>Use the following information to answer the next three exercises:</em> We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.
-  </p>
-
-    <table>
-      <tabular>
-        <row header="yes">
-          <cell>Number of Years</cell>
-          <cell>Frequency</cell>
-          <cell>Number of Years</cell>
-          <cell>Frequency</cell>
-        </row>
-        <row>
-          <cell>7</cell>
-          <cell>1</cell>
-          <cell>22</cell>
-          <cell>1</cell>
-        </row>
-        <row>
-          <cell>14</cell>
-          <cell>3</cell>
-          <cell>23</cell>
-          <cell>1</cell>
-        </row>
-        <row>
-          <cell>15</cell>
-          <cell>1</cell>
-          <cell>26</cell>
-          <cell>1</cell>
-        </row>
-        <row>
-          <cell>18</cell>
-          <cell>1</cell>
-          <cell>40</cell>
-          <cell>2</cell>
-        </row>
-        <row>
-          <cell>19</cell>
-          <cell>4</cell>
-          <cell>42</cell>
-          <cell>2</cell>
-        </row>
-        <row>
-          <cell>20</cell>
-          <cell>3</cell>
-          <cell></cell>
-          <cell></cell>
-        </row>
-        <row>
-          <cell></cell>
-          <cell></cell>
-          <cell></cell>
-          <cell>Total = 20</cell>
-        </row>
-      </tabular>
-    </table>
-
-    <exercise xml:id="element-84-2">
-      <statement>
-        <p>What is the <em>IQR</em>?</p>
-        <ol>
-          <li><p>8</p></li>
-          <li><p>11</p></li>
-          <li><p>15</p></li>
-          <li><p>35</p></li>
-        </ol>
-      </statement>
-      <solution>
-        <p>a</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="element-720">
-      <statement>
-        <p>What is the mode?</p>
-        <ol>
-          <li><p>19</p></li>
-          <li><p>19.5</p></li>
-          <li><p>14 and 20</p></li>
-          <li><p>22.65</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="element-346">
-      <statement>
-        <p>Is this a sample or the entire population?</p>
-        <ol>
-          <li><p>sample</p></li>
-          <li><p>entire population</p></li>
-          <li><p>neither</p></li>
-        </ol>
-      </statement>
-      <solution>
-        <p>b</p>
-      </solution>
-    </exercise>
-
-    </subsection>
 
   </section>
 
@@ -5880,204 +3994,6 @@ The Ages at Which Former U.S. Presidents Died
 
     <p>Looking at the distribution of data can reveal a lot about the relationship between the mean, the median, and the mode. There are three types of distributions. A <term>right (or positive) skewed</term> distribution has a shape like . A <term>left (or negative) skewed</term> distribution has a shape like . A <term>symmetrical</term> distribution looks like .</p>
 
-    <subsection xml:id="subsec-skewness-practice">
-      <title>Practice</title>
-
-    <p><em>Use the following information to answer the next three exercises.</em> State whether the data are symmetrical, skewed to the left, or skewed to the right.</p>
-
-    <exercise xml:id="fs-idm89697712">
-      <statement>
-        <p>1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5</p>
-      </statement>
-      <solution>
-        <p>The data are symmetrical. The median is 3, and the mean is 2.85. They are close, and the mode lies close to the middle of the data, so the data are symmetrical.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idm125692000">
-      <statement>
-        <p>16, 17, 19, 22, 22, 22, 22, 22, 23</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idm65822528">
-      <statement>
-        <p>87, 87, 87, 87, 87, 88, 89, 89, 90, 91</p>
-      </statement>
-      <solution>
-        <p>The data are skewed right. The median is 87.5, and the mean is 88.2. Even though they are close, the mode lies to the left of the middle of the data, and there are many more instances of 87 than any other number, so the data are skewed right.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idm8768736">
-      <statement>
-        <p>When the data are skewed left, what is the typical relationship between the mean and median?</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idm8813456">
-      <statement>
-        <p>When the data are symmetrical, what is the typical relationship between the mean and median?</p>
-      </statement>
-      <solution>
-        <p>When the data are symmetrical, the mean and median are close or the same.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idm89404448">
-      <statement>
-        <p>What word describes a distribution that has two modes?</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idp18513440">
-      <statement>
-        <p>Describe the shape of this distribution.</p>
-        <figure xml:id="fs-idm14476592">
-          <image source="media/CNX_Stats_C02_M08_007.jpg" width="80%"/>
-        </figure>
-      </statement>
-      <solution>
-        <p>The distribution is skewed right because it looks pulled out to the right.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idp1656096">
-      <statement>
-        <p>Describe the relationship between the mode and the median of this distribution.</p>
-        <figure xml:id="fs-idm155444400">
-          <image source="media/CNX_Stats_C02_M08_007.jpg" width="80%"/>
-        </figure>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idm17924688">
-      <statement>
-        <p>Describe the relationship between the mean and the median of this distribution.</p>
-        <figure xml:id="fs-idm57592704">
-          <image source="media/CNX_Stats_C02_M08_007.jpg" width="80%"/>
-        </figure>
-      </statement>
-      <solution>
-        <p>The mean is 4.1 and is slightly greater than the median, which is 4.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idm17745152">
-      <statement>
-        <p>Describe the shape of this distribution.</p>
-        <figure xml:id="fs-idp20306352">
-          <image source="media/CNX_Stats_C02_M08_010.jpg" width="80%"/>
-        </figure>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idp21637424">
-      <statement>
-        <p>Describe the relationship between the mode and the median of this distribution.</p>
-        <figure xml:id="fs-idm16308016">
-          <image source="media/CNX_Stats_C02_M08_010.jpg" width="80%"/>
-        </figure>
-      </statement>
-      <solution>
-        <p>The mode and the median are the same. In this case, both 5.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idm42189536">
-      <statement>
-        <p>Are the mean and the median the exact same in this distribution? Why or why not?</p>
-        <figure xml:id="fs-idm34380208">
-          <image source="media/CNX_Stats_C02_M08_010.jpg" width="80%"/>
-        </figure>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idm44509184">
-      <statement>
-        <p>Describe the shape of this distribution.</p>
-        <figure xml:id="fs-idp2366192">
-          <image source="media/CNX_Stats_C02_M08_013.jpg" width="80%"/>
-        </figure>
-      </statement>
-      <solution>
-        <p>The distribution is skewed left because it looks pulled out to the left.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idm24266752">
-      <statement>
-        <p>Describe the relationship between the mode and the median of this distribution.</p>
-        <figure xml:id="fs-idp1844976">
-          <image source="media/CNX_Stats_C02_M08_013.jpg" width="80%"/>
-        </figure>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idm56587152">
-      <statement>
-        <p>Describe the relationship between the mean and the median of this distribution.</p>
-        <figure xml:id="fs-idm85728080">
-          <image source="media/CNX_Stats_C02_M08_013.jpg" width="80%"/>
-        </figure>
-      </statement>
-      <solution>
-        <p>Both the mean and the median are 6.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idm53345552">
-      <statement>
-        <p>The mean and median for the data are the same.</p>
-        <p>3, 4, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7</p>
-        <p>Is the data perfectly symmetrical? Why or why not?</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idm106262320">
-      <statement>
-        <p>Which is the greatest, the mean, the mode, or the median of the data set?</p>
-        <p>11, 11, 12, 12, 12, 12, 13, 15, 17, 22, 22, 22</p>
-      </statement>
-      <solution>
-        <p>The mode is 12, the median is 13.5, and the mean is 15.1. The mean is the largest.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idm77708816">
-      <statement>
-        <p>Which is the least, the mean, the mode, and the median of the data set?</p>
-        <p>56, 56, 56, 58, 59, 60, 62, 64, 64, 65, 67</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="fs-idm1767264">
-      <statement>
-        <p>Of the three measures, which tends to reflect skewing the most, the mean, the mode, or the median? Why?</p>
-      </statement>
-      <solution>
-        <p>The mean tends to reflect skewing the most because it is affected the most by outliers.</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="fs-idp5807168">
-      <statement>
-        <p>In a perfectly symmetrical distribution, when would the mode be different from the mean and median?</p>
-      </statement>
-    </exercise>
-
-    <exercise xml:id="element-564">
-      <statement>
-        <p>The median age of the U.S. population in 1980 was 30.0 years. In 1991, the median age was 33.1 years.</p>
-        <ol>
-          <li><p>What does it mean for the median age to rise?</p></li>
-          <li><p>Give two reasons why the median age could rise.</p></li>
-          <li><p>For the median age to rise, is the actual number of children less in 1991 than it was in 1980? Why or why not?</p></li>
-        </ol>
-      </statement>
-    </exercise>
-
-    </subsection>
 
   </section>
 
@@ -7892,7 +5808,2259 @@ below the mean.
       </ol>
     </project>
 
+
+    <subsection xml:id="subsec-histograms-practice">
+      <title>Practice</title>
+
+    <exercise xml:id="ch2-eip-341">
+      <statement>
+        <p>65 randomly selected car salespersons were asked the number of cars they generally sell in one week. 14 people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars. Complete the table.</p>
+        <table xml:id="table001">
+          <tabular>
+            <row header="yes">
+              <cell>Data Value (Number of Cars)</cell>
+              <cell>Frequency</cell>
+              <cell>Relative Frequency</cell>
+              <cell>Cumulative Relative Frequency</cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-625">
+      <statement>
+        <p>What does the frequency column in <xref ref="table001"/> sum to? Why?</p>
+      </statement>
+      <solution>
+        <p>65</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="exerciseone">
+      <statement>
+        <p>What does the relative frequency column in <xref ref="table001"/> sum to? Why?</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exercisetwo">
+      <statement>
+        <p>What is the difference between relative frequency and frequency for each data value in <xref ref="table001"/>?</p>
+      </statement>
+      <solution>
+        <p>The relative frequency shows the <em>proportion</em> of data points that have each value. The frequency tells the <em>number</em> of data points that have each value.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="exercisethree">
+      <statement>
+        <p>What is the difference between cumulative relative frequency and relative frequency for each data value?</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idp48667136">
+      <statement>
+        <p>To construct the histogram for the data in <xref ref="table001"/>, determine appropriate minimum and maximum <em>x</em>- and <em>y</em>-values and the scaling. Sketch the histogram. Label the horizontal and vertical axes with words. Include numerical scaling.</p>
+        <figure xml:id="eip-idp57691072">
+          <image source="media/fig-ch02_11_01.jpg" width="80%"/>
+        </figure>
+      </statement>
+      <solution>
+        <p>Answers will vary. One possible histogram is shown below.</p>
+        <figure xml:id="eip-idp746160">
+          <image source="media/CNX_Stats_C02_M03_101.jpg" width="80%"/>
+        </figure>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm40930928">
+      <statement>
+        <p>Construct a frequency polygon for the following.</p>
+        <ol>
+          <li><p>
+
+
+Pulse Rates for Women	Frequency
+
+
+60–6912
+70–7914
+80–8911
+90–991
+100–1091
+110–1190
+120–1291
+
+
+</p></li>
+          <li><p>
+
+
+Actual Speed in a 30-MPH Zone	Frequency
+
+
+42–4525
+46–4914
+50–537
+54–573
+58–611
+
+
+</p></li>
+          <li><p>
+
+
+Tar (mg) in Nonfiltered Cigarettes	Frequency
+
+
+10–131
+14–170
+18–2115
+22–257
+26–292
+
+
+</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idp36783568">
+      <statement>
+        <p>Construct a frequency polygon from the frequency distribution for the 50 highest-ranked countries for depth of hunger.</p>
+        <table>
+          <tabular>
+            <row header="yes">
+              <cell>Depth of Hunger</cell>
+              <cell>Frequency</cell>
+            </row>
+            <row>
+              <cell>230–259</cell>
+              <cell>21</cell>
+            </row>
+            <row>
+              <cell>260–289</cell>
+              <cell>13</cell>
+            </row>
+            <row>
+              <cell>290–319</cell>
+              <cell>5</cell>
+            </row>
+            <row>
+              <cell>320–349</cell>
+              <cell>7</cell>
+            </row>
+            <row>
+              <cell>350–379</cell>
+              <cell>1</cell>
+            </row>
+            <row>
+              <cell>380–409</cell>
+              <cell>1</cell>
+            </row>
+            <row>
+              <cell>410–439</cell>
+              <cell>1</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <p>Find the midpoint for each class. These will be graphed on the <em>x</em>-axis. The frequency values will be graphed on the <em>y</em>-axis values.</p>
+        <figure xml:id="eip-idp56723312">
+          <image source="media/CNX_Stats_C02_M05a_024annoN.jpg" width="85%"/>
+        </figure>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm37056320">
+      <statement>
+        <p>Use the two frequency tables to compare the life expectancy of men and women from 20 randomly selected countries. Include an overlaid frequency polygon and discuss the shapes of the distributions, the center, the spread, and any outliers. What can we conclude about the life expectancy of women compared to men?</p>
+        <table>
+          <tabular>
+            <row header="yes">
+              <cell>Life Expectancy at Birth – Women</cell>
+              <cell>Frequency</cell>
+            </row>
+            <row>
+              <cell>49–55</cell>
+              <cell>3</cell>
+            </row>
+            <row>
+              <cell>56–62</cell>
+              <cell>3</cell>
+            </row>
+            <row>
+              <cell>63–69</cell>
+              <cell>1</cell>
+            </row>
+            <row>
+              <cell>70–76</cell>
+              <cell>3</cell>
+            </row>
+            <row>
+              <cell>77–83</cell>
+              <cell>8</cell>
+            </row>
+            <row>
+              <cell>84–90</cell>
+              <cell>2</cell>
+            </row>
+          </tabular>
+        </table>
+        <table>
+          <tabular>
+            <row header="yes">
+              <cell>Life Expectancy at Birth – Men</cell>
+              <cell>Frequency</cell>
+            </row>
+            <row>
+              <cell>49–55</cell>
+              <cell>3</cell>
+            </row>
+            <row>
+              <cell>56–62</cell>
+              <cell>3</cell>
+            </row>
+            <row>
+              <cell>63–69</cell>
+              <cell>1</cell>
+            </row>
+            <row>
+              <cell>70–76</cell>
+              <cell>1</cell>
+            </row>
+            <row>
+              <cell>77–83</cell>
+              <cell>7</cell>
+            </row>
+            <row>
+              <cell>84–90</cell>
+              <cell>5</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-583">
+      <statement>
+        <p>Construct a times series graph for (a) the number of male births, (b) the number of female births, and (c) the total number of births.</p>
+        <table>
+          <tabular>
+            <row>
+              <cell>Sex/Year</cell>
+              <cell>1855</cell>
+              <cell>1856</cell>
+              <cell>1857</cell>
+              <cell>1858</cell>
+              <cell>1859</cell>
+              <cell>1860</cell>
+              <cell>1861</cell>
+            </row>
+            <row>
+              <cell>Female</cell>
+              <cell>45,545</cell>
+              <cell>49,582</cell>
+              <cell>50,257</cell>
+              <cell>50,324</cell>
+              <cell>51,915</cell>
+              <cell>51,220</cell>
+              <cell>52,403</cell>
+            </row>
+            <row>
+              <cell>Male</cell>
+              <cell>47,804</cell>
+              <cell>52,239</cell>
+              <cell>53,158</cell>
+              <cell>53,694</cell>
+              <cell>54,628</cell>
+              <cell>54,409</cell>
+              <cell>54,606</cell>
+            </row>
+            <row>
+              <cell>Total</cell>
+              <cell>93,349</cell>
+              <cell>101,821</cell>
+              <cell>103,415</cell>
+              <cell>104,018</cell>
+              <cell>106,543</cell>
+              <cell>105,629</cell>
+              <cell>107,009</cell>
+            </row>
+          </tabular>
+        </table>
+        <table>
+          <tabular>
+            <row>
+              <cell>Sex/Year</cell>
+              <cell>1862</cell>
+              <cell>1863</cell>
+              <cell>1864</cell>
+              <cell>1865</cell>
+              <cell>1866</cell>
+              <cell>1867</cell>
+              <cell>1868</cell>
+              <cell>1869</cell>
+            </row>
+            <row>
+              <cell>Female</cell>
+              <cell>51,812</cell>
+              <cell>53,115</cell>
+              <cell>54,959</cell>
+              <cell>54,850</cell>
+              <cell>55,307</cell>
+              <cell>55,527</cell>
+              <cell>56,292</cell>
+              <cell>55,033</cell>
+            </row>
+            <row>
+              <cell>Male</cell>
+              <cell>55,257</cell>
+              <cell>56,226</cell>
+              <cell>57,374</cell>
+              <cell>58,220</cell>
+              <cell>58,360</cell>
+              <cell>58,517</cell>
+              <cell>59,222</cell>
+              <cell>58,321</cell>
+            </row>
+            <row>
+              <cell>Total</cell>
+              <cell>107,069</cell>
+              <cell>109,341</cell>
+              <cell>112,333</cell>
+              <cell>113,070</cell>
+              <cell>113,667</cell>
+              <cell>114,044</cell>
+              <cell>115,514</cell>
+              <cell>113,354</cell>
+            </row>
+          </tabular>
+        </table>
+        <table>
+          <tabular>
+            <row>
+              <cell>Sex/Year</cell>
+              <cell>1871</cell>
+              <cell>1870</cell>
+              <cell>1872</cell>
+              <cell>1871</cell>
+              <cell>1872</cell>
+              <cell>1827</cell>
+              <cell>1874</cell>
+              <cell>1875</cell>
+            </row>
+            <row>
+              <cell>Female</cell>
+              <cell>56,099</cell>
+              <cell>56,431</cell>
+              <cell>57,472</cell>
+              <cell>56,099</cell>
+              <cell>57,472</cell>
+              <cell>58,233</cell>
+              <cell>60,109</cell>
+              <cell>60,146</cell>
+            </row>
+            <row>
+              <cell>Male</cell>
+              <cell>60,029</cell>
+              <cell>58,959</cell>
+              <cell>61,293</cell>
+              <cell>60,029</cell>
+              <cell>61,293</cell>
+              <cell>61,467</cell>
+              <cell>63,602</cell>
+              <cell>63,432</cell>
+            </row>
+            <row>
+              <cell>Total</cell>
+              <cell>116,128</cell>
+              <cell>115,390</cell>
+              <cell>118,765</cell>
+              <cell>116,128</cell>
+              <cell>118,765</cell>
+              <cell>119,700</cell>
+              <cell>123,711</cell>
+              <cell>123,578</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <figure xml:id="eip-idp37153376">
+          <image source="media/CNX_Stats_C02_M05a_028anno.jpg" width="85%"/>
+        </figure>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-301">
+      <statement>
+        <p>The following data sets list full-time police per 100,000 citizens along with incidents of a certain crime per 100,000 citizens for the city of Detroit, Michigan, during the period from 1961 to 1973.</p>
+        <table>
+          <tabular>
+            <row>
+              <cell>Year</cell>
+              <cell>1961</cell>
+              <cell>1962</cell>
+              <cell>1963</cell>
+              <cell>1964</cell>
+              <cell>1965</cell>
+              <cell>1966</cell>
+              <cell>1967</cell>
+            </row>
+            <row>
+              <cell>Police</cell>
+              <cell>260.35</cell>
+              <cell>269.8</cell>
+              <cell>272.04</cell>
+              <cell>272.96</cell>
+              <cell>272.51</cell>
+              <cell>261.34</cell>
+              <cell>268.89</cell>
+            </row>
+            <row>
+              <cell>Incidents</cell>
+              <cell>8.6</cell>
+              <cell>8.9</cell>
+              <cell>8.52</cell>
+              <cell>8.89</cell>
+              <cell>13.07</cell>
+              <cell>14.57</cell>
+              <cell>21.36</cell>
+            </row>
+          </tabular>
+        </table>
+        <table>
+          <tabular>
+            <row>
+              <cell>Year</cell>
+              <cell>1968</cell>
+              <cell>1969</cell>
+              <cell>1970</cell>
+              <cell>1971</cell>
+              <cell>1972</cell>
+              <cell>1973</cell>
+            </row>
+            <row>
+              <cell>Police</cell>
+              <cell>295.99</cell>
+              <cell>319.87</cell>
+              <cell>341.43</cell>
+              <cell>356.59</cell>
+              <cell>376.69</cell>
+              <cell>390.19</cell>
+            </row>
+            <row>
+              <cell>Incidents</cell>
+              <cell>28.03</cell>
+              <cell>31.49</cell>
+              <cell>37.39</cell>
+              <cell>46.26</cell>
+              <cell>47.24</cell>
+              <cell>52.33</cell>
+            </row>
+          </tabular>
+        </table>
+        <ol>
+          <li><p>Construct a double time series graph using a common <em>x</em>-axis for both sets of data.</p></li>
+          <li><p>Which variable increased the fastest? Explain.</p></li>
+          <li><p>Did Detroit’s increase in police officers have an impact on the incident rate? Explain.</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    </subsection>
+
+    <subsection xml:id="subsec-measures-location-practice">
+      <title>Practice</title>
+
+    <exercise xml:id="fs-idm1110784">
+      <statement>
+        <p>Listed are 29 ages for Academy Award-winning best actors <em>in order from smallest to largest:</em></p>
+        <p>18, 21, 22, 25, 26, 27, 29, 30, 31, 33, 36, 37, 41, 42, 47, 52, 55, 57, 58, 62, 64, 67, 69, 71, 72, 73, 74, 76, 77</p>
+        <ol>
+          <li><p>Find the 40<m>^{th}</m> percentile.</p></li>
+          <li><p>Find the 78<m>^{th}</m> percentile.</p></li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li><p>The 40<m>^{th}</m> percentile is 37 years.</p></li>
+          <li><p>The 78<m>^{th}</m> percentile is 70 years.</p></li>
+        </ol>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm4719584">
+      <statement>
+        <p>Listed are 32 ages for Academy Award-winning best actors <em>in order from smallest to largest:</em></p>
+        <p>18, 18, 21, 22, 25, 26, 27, 29, 30, 31, 31, 33, 36, 37, 37, 41, 42, 47, 52, 55, 57, 58, 62, 64, 67, 69, 71, 72, 73, 74, 76, 77</p>
+        <ol>
+          <li><p>Find the percentile of 37.</p></li>
+          <li><p>Find the percentile of 72.</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idp30887728">
+      <statement>
+        <p>Jesse was ranked 37<m>^{th}</m> in his graduating class of 180 students. At what percentile is Jesse’s ranking?</p>
+      </statement>
+      <solution>
+        <p>Jesse graduated 37<m>^{th}</m> out of a class of 180 students. There are 180 – 37 = 143 students ranked below Jesse. There is one rank of 37.</p>
+        <p><em>x</em> = 143 and <em>y</em> = 1. <m>\frac{x+.5y}{n}</m>(100) = <m>\frac{143+.5(1)}{180}</m>(100) = 79.72. Jesse’s rank of 37 puts him at the 80<m>^{th}</m> percentile.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-id1168182229232">
+      <statement>
+        <ol>
+          <li><p>For runners in a race, a low time means a faster run. The winners in a race have the shortest running times. Is it more desirable to have a finish time with a high or a low percentile when running a race?</p></li>
+          <li><p>The 20<m>^{th}</m> percentile of run times in a particular race is 5.2 minutes. Write a sentence interpreting the 20<m>^{th}</m> percentile in the context of the situation.</p></li>
+          <li><p>A bicyclist in the 90<m>^{th}</m> percentile of a bicycle race completed the race in 1 hour and 12 minutes. Is he among the fastest or slowest cyclists in the race? Write a sentence interpreting the 90<m>^{th}</m> percentile in the context of the situation.</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-id1168182273864">
+      <statement>
+        <ol>
+          <li><p>For runners in a race, a higher speed means a faster run. Is it more desirable to have a speed with a high or a low percentile when running a race?</p></li>
+          <li><p>The 40<m>^{th}</m> percentile of speeds in a particular race is 7.5 miles per hour. Write a sentence interpreting the 40<m>^{th}</m> percentile in the context of the situation.</p></li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li><p>For runners in a race, it is more desirable to have a high percentile for speed. A high percentile means a higher speed, which is faster.</p></li>
+          <li><p>40 percent of runners ran at speeds of 7.5 miles per hour or less (slower), and 60 percent of runners ran at speeds of 7.5 miles per hour or more (faster).</p></li>
+        </ol>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-id1168217995987">
+      <statement>
+        <p>On an exam, would it be more desirable to earn a grade with a high or a low percentile? Explain.</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-id1168183173702">
+      <statement>
+        <p>Mina is waiting in line at the Department of Motor Vehicles. Her wait time of 32 minutes is the 85<m>^{th}</m> percentile of wait times. Is that good or bad? Write a sentence interpreting the 85<m>^{th}</m> percentile in the context of this situation.</p>
+      </statement>
+      <solution>
+        <p>When waiting in line at the DMV, the 85<m>^{th}</m> percentile would be a long wait time compared to the other people waiting. 85 percent of people had shorter wait times than Mina. In this context, Mina would prefer a wait time corresponding to a lower percentile. 85 percent of people at the DMV waited 32 minutes or less. 15 percent of people at the DMV waited 32 minutes or longer.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-id1168213546999">
+      <statement>
+        <p>In a survey collecting data about the salaries earned by recent college graduates, Li found that her salary was in the 78<m>^{th}</m> percentile. Should Li be pleased or upset by this result? Explain.</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-id1168214876383">
+      <statement>
+        <p>In a study collecting data about the repair costs of damage to automobiles in a certain type of crash tests, a certain model of car had $1,700 in damage and was in the 90<m>^{th}</m> percentile. Should the manufacturer and the consumer be pleased or upset by this result? Explain and write a sentence that interprets the 90<m>^{th}</m> percentile in the context of this problem.</p>
+      </statement>
+      <solution>
+        <p>The manufacturer and the consumer would be upset. This is a large repair cost for the damages, compared to the other cars in the sample. INTERPRETATION: 90 percent of the crash-tested cars had damage repair costs of $1,700 or less; only 10 percent had damage repair costs of $1,700 or more.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="eip-id1168195852900">
+      <statement>
+        <p>The University of California has two criteria used to set admission standards for freshman to be admitted to a college in the UC system:</p>
+        <ol>
+          <li><p>Students' GPAs and scores on standardized tests (SATs and ACTs) are entered into a formula that calculates an <em>admissions index</em> score. The admissions index score is used to set eligibility standards intended to meet the goal of admitting the top 12 percent of high school students in the state. In this context, what percentile does the top 12 percent represent?</p></li>
+          <li><p>Students whose GPAs are at or above the 96<m>^{th}</m> percentile of all students at their high school are eligible, called eligible in the local context, even if they are not in the top 12 percent of all students in the state. What percentage of students from each high school are <em>eligible in the local context</em>?</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-id1168223160542">
+      <statement>
+        <p>Suppose that you are buying a house. You and your real estate agent have determined that the most expensive house you can afford is the 34<m>^{th}</m> percentile. The 34<m>^{th}</m> percentile of housing prices is $240,000 in the town you want to move to. In this town, can you afford 34 percent of the houses or 66 percent of the houses?</p>
+      </statement>
+      <solution>
+        <p>You can afford 34 percent of houses. 66 percent of the houses are too expensive for your budget. INTERPRETATION: 34 percent of houses cost $240,000 or less; 66 percent of houses cost $240,000 or more.</p>
+      </solution>
+    </exercise>
+
+    <p>Use  to calculate the following values.</p>
+
+    <exercise xml:id="exercisenine">
+      <statement>
+        <p>First quartile = ________</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exerciseten">
+      <statement>
+        <p>Second quartile = median = 50<m>^{th}</m> percentile = ________</p>
+      </statement>
+      <solution>
+        <p>4</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="exerciseeleven">
+      <statement>
+        <p>Third quartile = ________</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exercisetwelve">
+      <statement>
+        <p>Interquartile range (<em>IQR</em>) = ________ – ________ = ________</p>
+      </statement>
+      <solution>
+        <p>6 – 4 = 2</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="exercisethirteen">
+      <statement>
+        <p>10<m>^{th}</m> percentile = ________</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="exercisefourteen">
+      <statement>
+        <p>70<m>^{th}</m> percentile = ________</p>
+      </statement>
+      <solution>
+        <p>6</p>
+      </solution>
+    </exercise>
+
+    </subsection>
+
+    <subsection xml:id="subsec-box-plots-practice">
+      <title>Practice</title>
+
+    <p>Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars.</p>
+
+    <exercise xml:id="fs-idm23427584">
+      <statement>
+        <p>Construct a box plot below. Use a ruler to measure and scale accurately.</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idm39140224">
+      <statement>
+        <p>Looking at your box plot, does it appear that the data are concentrated together, spread out evenly, or concentrated in some areas but not in others? How can you tell?</p>
+      </statement>
+      <solution>
+        <p>More than 25 percent of salespersons sell four cars in a typical week. You can see this concentration in the box plot because the first quartile is equal to the median. The top 25 percent and the bottom 25 percent are spread out evenly; the whiskers have the same length.</p>
+      </solution>
+    </exercise>
+
+    </subsection>
+
+    <subsection xml:id="subsec-skewness-practice">
+      <title>Practice</title>
+
+    <p><em>Use the following information to answer the next three exercises.</em> State whether the data are symmetrical, skewed to the left, or skewed to the right.</p>
+
+    <exercise xml:id="fs-idm89697712">
+      <statement>
+        <p>1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5</p>
+      </statement>
+      <solution>
+        <p>The data are symmetrical. The median is 3, and the mean is 2.85. They are close, and the mode lies close to the middle of the data, so the data are symmetrical.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm125692000">
+      <statement>
+        <p>16, 17, 19, 22, 22, 22, 22, 22, 23</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idm65822528">
+      <statement>
+        <p>87, 87, 87, 87, 87, 88, 89, 89, 90, 91</p>
+      </statement>
+      <solution>
+        <p>The data are skewed right. The median is 87.5, and the mean is 88.2. Even though they are close, the mode lies to the left of the middle of the data, and there are many more instances of 87 than any other number, so the data are skewed right.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm8768736">
+      <statement>
+        <p>When the data are skewed left, what is the typical relationship between the mean and median?</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idm8813456">
+      <statement>
+        <p>When the data are symmetrical, what is the typical relationship between the mean and median?</p>
+      </statement>
+      <solution>
+        <p>When the data are symmetrical, the mean and median are close or the same.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm89404448">
+      <statement>
+        <p>What word describes a distribution that has two modes?</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idp18513440">
+      <statement>
+        <p>Describe the shape of this distribution.</p>
+        <figure xml:id="fs-idm14476592">
+          <image source="media/CNX_Stats_C02_M08_007.jpg" width="80%"/>
+        </figure>
+      </statement>
+      <solution>
+        <p>The distribution is skewed right because it looks pulled out to the right.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idp1656096">
+      <statement>
+        <p>Describe the relationship between the mode and the median of this distribution.</p>
+        <figure xml:id="fs-idm155444400">
+          <image source="media/CNX_Stats_C02_M08_007.jpg" width="80%"/>
+        </figure>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idm17924688">
+      <statement>
+        <p>Describe the relationship between the mean and the median of this distribution.</p>
+        <figure xml:id="fs-idm57592704">
+          <image source="media/CNX_Stats_C02_M08_007.jpg" width="80%"/>
+        </figure>
+      </statement>
+      <solution>
+        <p>The mean is 4.1 and is slightly greater than the median, which is 4.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm17745152">
+      <statement>
+        <p>Describe the shape of this distribution.</p>
+        <figure xml:id="fs-idp20306352">
+          <image source="media/CNX_Stats_C02_M08_010.jpg" width="80%"/>
+        </figure>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idp21637424">
+      <statement>
+        <p>Describe the relationship between the mode and the median of this distribution.</p>
+        <figure xml:id="fs-idm16308016">
+          <image source="media/CNX_Stats_C02_M08_010.jpg" width="80%"/>
+        </figure>
+      </statement>
+      <solution>
+        <p>The mode and the median are the same. In this case, both 5.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm42189536">
+      <statement>
+        <p>Are the mean and the median the exact same in this distribution? Why or why not?</p>
+        <figure xml:id="fs-idm34380208">
+          <image source="media/CNX_Stats_C02_M08_010.jpg" width="80%"/>
+        </figure>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idm44509184">
+      <statement>
+        <p>Describe the shape of this distribution.</p>
+        <figure xml:id="fs-idp2366192">
+          <image source="media/CNX_Stats_C02_M08_013.jpg" width="80%"/>
+        </figure>
+      </statement>
+      <solution>
+        <p>The distribution is skewed left because it looks pulled out to the left.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm24266752">
+      <statement>
+        <p>Describe the relationship between the mode and the median of this distribution.</p>
+        <figure xml:id="fs-idp1844976">
+          <image source="media/CNX_Stats_C02_M08_013.jpg" width="80%"/>
+        </figure>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idm56587152">
+      <statement>
+        <p>Describe the relationship between the mean and the median of this distribution.</p>
+        <figure xml:id="fs-idm85728080">
+          <image source="media/CNX_Stats_C02_M08_013.jpg" width="80%"/>
+        </figure>
+      </statement>
+      <solution>
+        <p>Both the mean and the median are 6.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm53345552">
+      <statement>
+        <p>The mean and median for the data are the same.</p>
+        <p>3, 4, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 7, 7, 7</p>
+        <p>Is the data perfectly symmetrical? Why or why not?</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idm106262320">
+      <statement>
+        <p>Which is the greatest, the mean, the mode, or the median of the data set?</p>
+        <p>11, 11, 12, 12, 12, 12, 13, 15, 17, 22, 22, 22</p>
+      </statement>
+      <solution>
+        <p>The mode is 12, the median is 13.5, and the mean is 15.1. The mean is the largest.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idm77708816">
+      <statement>
+        <p>Which is the least, the mean, the mode, and the median of the data set?</p>
+        <p>56, 56, 56, 58, 59, 60, 62, 64, 64, 65, 67</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idm1767264">
+      <statement>
+        <p>Of the three measures, which tends to reflect skewing the most, the mean, the mode, or the median? Why?</p>
+      </statement>
+      <solution>
+        <p>The mean tends to reflect skewing the most because it is affected the most by outliers.</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idp5807168">
+      <statement>
+        <p>In a perfectly symmetrical distribution, when would the mode be different from the mean and median?</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-564">
+      <statement>
+        <p>The median age of the U.S. population in 1980 was 30.0 years. In 1991, the median age was 33.1 years.</p>
+        <ol>
+          <li><p>What does it mean for the median age to rise?</p></li>
+          <li><p>Give two reasons why the median age could rise.</p></li>
+          <li><p>For the median age to rise, is the actual number of children less in 1991 than it was in 1980? Why or why not?</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    </subsection>
   </section>
+
+  <section xml:id="sec-descriptive-statistics-homework">
+    <title>Homework</title>
+    
+
+    <exercises xml:id="exercises-bringing-it-together-ch02">
+      <title>Bringing It Together</title>
+      
+    <exercise xml:id="fs-idp53668112">
+      <statement>
+        <p>Suppose that three book publishers were interested in the number of fiction paperbacks adult consumers purchase per month. Each publisher conducted a survey. In the survey, adult consumers were asked the number of fiction paperbacks they had purchased the previous month. The results are as follows:</p>
+        <table>
+          <title>Publisher A</title>
+          <tabular>
+            <row header="yes">
+              <cell>Number of Books</cell>
+              <cell>Frequency</cell>
+              <cell>Relative Frequency</cell>
+            </row>
+            <row>
+              <cell>0</cell>
+              <cell>10</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>12</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>16</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell>12</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell>8</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>5</cell>
+              <cell>6</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>6</cell>
+              <cell>2</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>8</cell>
+              <cell>2</cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+        <table>
+          <title>Publisher B</title>
+          <tabular>
+            <row header="yes">
+              <cell>Number of Books</cell>
+              <cell>Frequency</cell>
+              <cell>Relative Frequency</cell>
+            </row>
+            <row>
+              <cell>0</cell>
+              <cell>18</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell>24</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell>24</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>3</cell>
+              <cell>22</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>4</cell>
+              <cell>15</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>5</cell>
+              <cell>10</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>7</cell>
+              <cell>5</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>9</cell>
+              <cell>1</cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+        <table>
+          <title>Publisher C</title>
+          <tabular>
+            <row header="yes">
+              <cell>Number of Books</cell>
+              <cell>Frequency</cell>
+              <cell>Relative Frequency</cell>
+            </row>
+            <row>
+              <cell>0–1</cell>
+              <cell>20</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>2–3</cell>
+              <cell>35</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>4–5</cell>
+              <cell>12</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>6–7</cell>
+              <cell>2</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>8–9</cell>
+              <cell>1</cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+        <ol>
+          <li><p>Find the relative frequencies for each survey. Write them in the charts.</p></li>
+          <li><p>Using either a graphing calculator or computer or by hand, use the frequency column to construct a histogram for each publisher's survey. For Publishers A and B, make bar widths of 1. For Publisher C, make bar widths of 2.</p></li>
+          <li><p>In complete sentences, give two reasons why the graphs for Publishers A and B are not identical.</p></li>
+          <li><p>Would you have expected the graph for Publisher C to look like the other two graphs? Why or why not?</p></li>
+          <li><p>Make new histograms for Publisher A and Publisher B. This time, make bar widths of 2.</p></li>
+          <li><p>Now, compare the graph for Publisher C to the new graphs for Publishers A and B. Are the graphs more similar or more different? Explain your answer.</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-457">
+      <statement>
+        <p>Often, cruise ships conduct all onboard transactions, with the exception of souvenirs, on a cashless basis. At the end of the cruise, guests pay one bill that covers all onboard transactions. Suppose that 60 single travelers and 70 couples were surveyed as to their onboard bills for a seven-day cruise from Los Angeles to the Mexican Riviera. Following is a summary of the bills for each group:</p>
+        <table>
+          <title>Singles</title>
+          <tabular>
+            <row header="yes">
+              <cell>Amount ($)</cell>
+              <cell>Frequency</cell>
+              <cell>Relative Frequency</cell>
+            </row>
+            <row>
+              <cell>51–100</cell>
+              <cell>5</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>101–150</cell>
+              <cell>10</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>151–200</cell>
+              <cell>15</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>201–250</cell>
+              <cell>15</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>251–300</cell>
+              <cell>10</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>301–350</cell>
+              <cell>5</cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+        <table>
+          <title>Couples</title>
+          <tabular>
+            <row header="yes">
+              <cell>Amount ($)</cell>
+              <cell>Frequency</cell>
+              <cell>Relative Frequency</cell>
+            </row>
+            <row>
+              <cell>100–150</cell>
+              <cell>5</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>201–250</cell>
+              <cell>5</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>251–300</cell>
+              <cell>5</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>301–350</cell>
+              <cell>5</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>351–400</cell>
+              <cell>10</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>401–450</cell>
+              <cell>10</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>451–500</cell>
+              <cell>10</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>501–550</cell>
+              <cell>10</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>551–600</cell>
+              <cell>5</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>601–650</cell>
+              <cell>5</cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </table>
+        <ol>
+          <li><p>Fill in the relative frequency for each group.</p></li>
+          <li><p>Construct a histogram for the singles group. Scale the <em>x</em>-axis by $50 widths. Use relative frequency on the <em>y</em>-axis.</p></li>
+          <li><p>Construct a histogram for the couples group. Scale the <em>x</em>-axis by $50 widths. Use relative frequency on the <em>y</em>-axis.</p></li>
+          <li><p>Compare the two graphs:
+List two similarities between the graphs.
+List two differences between the graphs.
+Overall, are the graphs more similar or different?
+</p></li>
+          <li><p>Construct a new graph for the couples by hand. Since each couple is paying for two individuals, instead of scaling the <em>x</em>-axis by $50, scale it by $100. Use relative frequency on the <em>y</em>-axis.</p></li>
+          <li><p>Compare the graph for the singles with the new graph for the couples:List two similarities between the graphs.
+Overall, are the graphs more similar or different?
+</p></li>
+          <li><p>How did scaling the couples graph differently change the way you compared it to the singles graph?</p></li>
+          <li><p>Based on the graphs, do you think that individuals spend the same amount, more or less, as singles as they do person by person as a couple? Explain why in one or two complete sentences.</p></li>
+        </ol>
+      </statement>
+      <solution>
+        <table>
+          <title>Singles</title>
+          <tabular>
+            <row header="yes">
+              <cell>Amount($)</cell>
+              <cell>Frequency</cell>
+              <cell>Relative Frequency</cell>
+            </row>
+            <row>
+              <cell>51–100</cell>
+              <cell>5</cell>
+              <cell>.08</cell>
+            </row>
+            <row>
+              <cell>101–150</cell>
+              <cell>10</cell>
+              <cell>.17</cell>
+            </row>
+            <row>
+              <cell>151–200</cell>
+              <cell>15</cell>
+              <cell>.25</cell>
+            </row>
+            <row>
+              <cell>201–250</cell>
+              <cell>15</cell>
+              <cell>.25</cell>
+            </row>
+            <row>
+              <cell>251–300</cell>
+              <cell>10</cell>
+              <cell>.17</cell>
+            </row>
+            <row>
+              <cell>301–350</cell>
+              <cell>5</cell>
+              <cell>.08</cell>
+            </row>
+          </tabular>
+        </table>
+        <table>
+          <title>Couples</title>
+          <tabular>
+            <row header="yes">
+              <cell>Amount ($)</cell>
+              <cell>Frequency</cell>
+              <cell>Relative Frequency</cell>
+            </row>
+            <row>
+              <cell>100–150</cell>
+              <cell>5</cell>
+              <cell>.07</cell>
+            </row>
+            <row>
+              <cell>201–250</cell>
+              <cell>5</cell>
+              <cell>.07</cell>
+            </row>
+            <row>
+              <cell>251–300</cell>
+              <cell>5</cell>
+              <cell>.07</cell>
+            </row>
+            <row>
+              <cell>301–350</cell>
+              <cell>5</cell>
+              <cell>.07</cell>
+            </row>
+            <row>
+              <cell>351–400</cell>
+              <cell>10</cell>
+              <cell>.14</cell>
+            </row>
+            <row>
+              <cell>401–450</cell>
+              <cell>10</cell>
+              <cell>.14</cell>
+            </row>
+            <row>
+              <cell>451–500</cell>
+              <cell>10</cell>
+              <cell>.14</cell>
+            </row>
+            <row>
+              <cell>501–550</cell>
+              <cell>10</cell>
+              <cell>.14</cell>
+            </row>
+            <row>
+              <cell>551–600</cell>
+              <cell>5</cell>
+              <cell>.07</cell>
+            </row>
+            <row>
+              <cell>601–650</cell>
+              <cell>5</cell>
+              <cell>.07</cell>
+            </row>
+          </tabular>
+        </table>
+        <ol>
+          <li><p>See  and .</p></li>
+          <li><p>In the following histogram, data values that fall on the right boundary are counted in the class interval, while values that fall on the left boundary are not counted, with the exception of the first interval, where both boundary values are included.
+
+
+
+
+
+</p></li>
+          <li><p>In the following histogram, the data values that fall on the right boundary are counted in the class interval, while values that fall on the left boundary are not counted, with the exception of the first interval, where values on both boundaries are included.
+
+
+
+
+
+</p></li>
+          <li><p>Compare the two graphs.
+    Answers may vary. Possible answers include the following:
+      
+      Both graphs have a single peak.
+      Both graphs use class intervals with width equal to $50
+      
+    
+    Answers may vary. Possible answers include the following:
+      
+      The couples graph has a class interval with no values
+      It takes almost twice as many class intervals to display the data for couples
+      
+    
+    Answers may vary. Possible answers include the following. The graphs are more similar than different because the overall patterns for the graphs are the same.
+    </p></li>
+          <li><p>Check student's solution.
+
+</p></li>
+          <li><p>Compare the graph for the singles with the new graph for the couples:
+  
+    Both graphs have a single peak
+    Both graphs display six class intervals
+    Both graphs show the same general pattern
+    
+  
+  Answers may vary. Possible answers include the following. Although the width of the class intervals for couples is double that of the class intervals for singles, the graphs are more similar than they are different.
+  </p></li>
+          <li><p>Answers may vary. Possible answers include the following. You are able to compare the graphs interval by interval. It is easier to compare the overall patterns with the new scale on the couples graph. Because a couple represents two individuals, the new scale leads to a more accurate comparison.</p></li>
+          <li><p>Answers may vary. Possible answers include the following. Based on the histograms, it seems that spending does not vary much from singles to individuals who are part of a couple. The overall patterns are the same. The range of spending for couples is approximately double the range for individuals.</p></li>
+        </ol>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idp73179824">
+      <statement>
+        <p>25 randomly selected students were asked the number of movies they watched the previous week. The results are as follows:
+
+
+
+ 
+    Number of Movies
+    Frequency
+    Relative Frequency
+    Cumulative Relative Frequency
+  
+
+
+  
+    0
+    5
+   
+   
+  
+  
+    1
+    9
+  
+  
+  
+  
+    2
+    6
+  
+  
+  
+  
+    3
+    4
+   
+  
+  
+  
+    4
+    1
+  
+  
+  
+
+
+
+
+  </p>
+        <ol>
+          <li><p>Construct a histogram of the data.</p></li>
+          <li><p>Complete the columns of the chart.</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <p><em>Use the following information to answer the next two exercises:</em> Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.</p>
+
+    <exercise xml:id="fs-idm24292288">
+      <statement>
+        <p>The percentage of  people who own at most three T-shirts costing more than $19 each is approximately ________.</p>
+        <ol>
+          <li><p>21</p></li>
+          <li><p>59</p></li>
+          <li><p>41</p></li>
+          <li><p>cannot be determined</p></li>
+        </ol>
+      </statement>
+      <solution>
+        <p>c</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="element-195">
+      <statement>
+        <p>If the data were collected by asking the first 111 people who entered the store, then the type of sampling is ________.</p>
+        <ol>
+          <li><p>cluster</p></li>
+          <li><p>simple random</p></li>
+          <li><p>stratified</p></li>
+          <li><p>convenience</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idp13768528">
+      <statement>
+        <p>Following are the 2010 obesity rates by U.S. states and Washington, DC.</p>
+        <table>
+          <tabular>
+            <row header="yes">
+              <cell>State</cell>
+              <cell>Percent (%)</cell>
+              <cell>State</cell>
+              <cell>Percent (%)</cell>
+              <cell>State</cell>
+              <cell>Percent (%)</cell>
+            </row>
+            <row>
+              <cell>Alabama</cell>
+              <cell>32.2</cell>
+              <cell>Kentucky</cell>
+              <cell>31.3</cell>
+              <cell>North Dakota</cell>
+              <cell>27.2</cell>
+            </row>
+            <row>
+              <cell>Alaska</cell>
+              <cell>24.5</cell>
+              <cell>Louisiana</cell>
+              <cell>31.0</cell>
+              <cell>Ohio</cell>
+              <cell>29.2</cell>
+            </row>
+            <row>
+              <cell>Arizona</cell>
+              <cell>24.3</cell>
+              <cell>Maine</cell>
+              <cell>26.8</cell>
+              <cell>Oklahoma</cell>
+              <cell>30.4</cell>
+            </row>
+            <row>
+              <cell>Arkansas</cell>
+              <cell>30.1</cell>
+              <cell>Maryland</cell>
+              <cell>27.1</cell>
+              <cell>Oregon</cell>
+              <cell>26.8</cell>
+            </row>
+            <row>
+              <cell>California</cell>
+              <cell>24.0</cell>
+              <cell>Massachusetts</cell>
+              <cell>23.0</cell>
+              <cell>Pennsylvania</cell>
+              <cell>28.6</cell>
+            </row>
+            <row>
+              <cell>Colorado</cell>
+              <cell>21.0</cell>
+              <cell>Michigan</cell>
+              <cell>30.9</cell>
+              <cell>Rhode Island</cell>
+              <cell>25.5</cell>
+            </row>
+            <row>
+              <cell>Connecticut</cell>
+              <cell>22.5</cell>
+              <cell>Minnesota</cell>
+              <cell>24.8</cell>
+              <cell>South Carolina</cell>
+              <cell>31.5</cell>
+            </row>
+            <row>
+              <cell>Delaware</cell>
+              <cell>28.0</cell>
+              <cell>Mississippi</cell>
+              <cell>34.0</cell>
+              <cell>South Dakota</cell>
+              <cell>27.3</cell>
+            </row>
+            <row>
+              <cell>Washington, DC</cell>
+              <cell>22.2</cell>
+              <cell>Missouri</cell>
+              <cell>30.5</cell>
+              <cell>Tennessee</cell>
+              <cell>30.8</cell>
+            </row>
+            <row>
+              <cell>Florida</cell>
+              <cell>26.6</cell>
+              <cell>Montana</cell>
+              <cell>23.0</cell>
+              <cell>Texas</cell>
+              <cell>31.0</cell>
+            </row>
+            <row>
+              <cell>Georgia</cell>
+              <cell>29.6</cell>
+              <cell>Nebraska</cell>
+              <cell>26.9</cell>
+              <cell>Utah</cell>
+              <cell>22.5</cell>
+            </row>
+            <row>
+              <cell>Hawaii</cell>
+              <cell>22.7</cell>
+              <cell>Nevada</cell>
+              <cell>22.4</cell>
+              <cell>Vermont</cell>
+              <cell>23.2</cell>
+            </row>
+            <row>
+              <cell>Idaho</cell>
+              <cell>26.5</cell>
+              <cell>New Hampshire</cell>
+              <cell>25.0</cell>
+              <cell>Virginia</cell>
+              <cell>26.0</cell>
+            </row>
+            <row>
+              <cell>Illinois</cell>
+              <cell>28.2</cell>
+              <cell>New Jersey</cell>
+              <cell>23.8</cell>
+              <cell>Washington</cell>
+              <cell>25.5</cell>
+            </row>
+            <row>
+              <cell>Indiana</cell>
+              <cell>29.6</cell>
+              <cell>New Mexico</cell>
+              <cell>25.1</cell>
+              <cell>West Virginia</cell>
+              <cell>32.5</cell>
+            </row>
+            <row>
+              <cell>Iowa</cell>
+              <cell>28.4</cell>
+              <cell>New York</cell>
+              <cell>23.9</cell>
+              <cell>Wisconsin</cell>
+              <cell>26.3</cell>
+            </row>
+            <row>
+              <cell>Kansas</cell>
+              <cell>29.4</cell>
+              <cell>North Carolina</cell>
+              <cell>27.8</cell>
+              <cell>Wyoming</cell>
+              <cell>25.1</cell>
+            </row>
+          </tabular>
+        </table>
+        <p>Construct a bar graph of obesity rates of your state and the four states closest to your state. Hint—Label the <em>x</em>-axis with the states.</p>
+      </statement>
+      <solution>
+        <p>Answers will vary.
+</p>
+      </solution>
+    </exercise>
+
+
+
+    <exercise xml:id="fs-idp61512400">
+      <statement>
+        <p>The median age for U.S. ethnicity A currently is 30.9 years; for U.S. ethnicity B, it is 42.3 years.
+
+Based on this information, give two reasons why ethnicity A median age could be lower than the ethnicity B median age.
+Does the lower median age for ethnicity A necessarily mean that ethnicity A die younger than ethnicity B? Why or why not?
+How might it be possible for ethnicity A and ethnicity B to die at approximately the same age but for the median age for ethnicity B to be higher?
+</p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-927">
+      <statement>
+        <p>Six hundred adult Americans were asked by telephone poll, "What do you think constitutes a middle-class income?" The results are in . Also, include the left endpoint but not the right endpoint.</p>
+        <table>
+          <tabular>
+            <row header="yes">
+              <cell>Salary ($)</cell>
+              <cell>Relative Frequency</cell>
+            </row>
+            <row>
+              <cell>&lt; 20,000</cell>
+              <cell>.02</cell>
+            </row>
+            <row>
+              <cell>20,000–25,000</cell>
+              <cell>.09</cell>
+            </row>
+            <row>
+              <cell>25,000–30,000</cell>
+              <cell>.19</cell>
+            </row>
+            <row>
+              <cell>30,000–40,000</cell>
+              <cell>.26</cell>
+            </row>
+            <row>
+              <cell>40,000–50,000</cell>
+              <cell>.18</cell>
+            </row>
+            <row>
+              <cell>50,000–75,000</cell>
+              <cell>.17</cell>
+            </row>
+            <row>
+              <cell>75,000–99,999</cell>
+              <cell>.02</cell>
+            </row>
+            <row>
+              <cell>100,000+</cell>
+              <cell>.01</cell>
+            </row>
+          </tabular>
+        </table>
+        <ol>
+          <li><p>What percentage of the survey answered "not sure"?</p></li>
+          <li><p>What percentage think that middle class is from $25,000 to $50,000?</p></li>
+          <li><p>Construct a histogram of the data.
+Should all bars have the same width, based on the data? Why or why not?
+How should the &lt; 20,000 and the 100,000+ intervals be handled? Why?
+</p></li>
+          <li><p>Find the 40<m>^{th}</m> and 80<m>^{th}</m> percentiles.</p></li>
+          <li><p>Construct a bar graph of the data.</p></li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li><p>1 – (.02+.09+.19+.26+.18+.17+.02+.01) = .06</p></li>
+          <li><p>.19+.26+.18 = .63</p></li>
+          <li><p>Check student’s solution.</p></li>
+          <li><p>40<m>^{th}</m> percentile will fall between 30,000 and 40,000
+80<m>^{th}</m> percentile will fall between 50,000 and 75,000</p></li>
+          <li><p>Check student’s solution.</p></li>
+        </ol>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="fs-idp35930608">
+      <statement>
+        <p>Given the following box plot, answer the questions.</p>
+        <figure xml:id="fs-idm476896">
+          <image source="media/fig-ch02_13_02.jpg" width="85%"/>
+        </figure>
+        <ol>
+          <li><p>Which quarter has the smallest spread of data? What is that spread?</p></li>
+          <li><p>Which quarter has the largest spread of data? What is that spread?</p></li>
+          <li><p>Find the interquartile range (<em>IQR</em>).</p></li>
+          <li><p>Are there more data in the interval 5–10 or in the interval 10–13? How do you know this?</p></li>
+          <li><p>Which interval has the fewest data in it? How do you know this?
+0–2
+2–4
+10–12
+12–13
+need more information
+</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-284">
+      <statement>
+        <p>The following box plot shows the ages of the U.S. population for 1990, the latest available year:</p>
+        <figure xml:id="fs-idm132205520">
+          <image source="media/fig-ch02_13_08.jpg" width="85%"/>
+        </figure>
+        <ol>
+          <li><p>Are there fewer or more children (age 17 and under) than senior citizens (age 65 and over)? How do you know?</p></li>
+          <li><p>12.6 percent are age 65 and over. Approximately what percentage of the population are working-age adults (above age 17 to age 65)?</p></li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li><p>more children; the left whisker shows that 25 percent of the population are children 17 and younger; the right whisker shows that 25 percent of the population are adults 50 and older, so adults 65 and over represent less than 25 percent</p></li>
+          <li><p>62.4 percent</p></li>
+        </ol>
+      </solution>
+    </exercise>
+
+
+
+    <exercise xml:id="fs-idp68490208">
+      <statement>
+        <p>In a survey of 20-year-olds in China, Germany, and the United States, people were asked the number of foreign countries they had visited in their lifetime. The following box plots display the results:</p>
+        <figure xml:id="fs-idm75185920">
+          <image source="media/fig-ch02_13_01_rev.jpg" width="85%"/>
+        </figure>
+        <ol>
+          <li><p>In complete sentences, describe what the shape of each box plot implies about the distribution of the data collected.</p></li>
+          <li><p>Have more Americans or more Germans surveyed been to more than eight foreign countries?</p></li>
+          <li><p>Compare the three box plots. What do they imply about the foreign travel of 20-year-old residents of the three countries when compared to each other?</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-606">
+      <statement>
+        <p>Given the following box plot, answer the questions.</p>
+        <figure xml:id="fs-idp53170192">
+          <image source="media/fig-ch02_13_03.jpg" width="85%"/>
+        </figure>
+        <ol>
+          <li><p>Think of an example (in words) where the data might fit into the above box plot. In two to five sentences, write down the example.</p></li>
+          <li><p>What does it mean to have the first and second quartiles so close together, while the second to third quartiles are far apart?</p></li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li><p>Answers will vary. Possible answer: State University conducted a survey to see how involved its students are in community service. The box plot shows the number of community service hours logged by participants over the past year.</p></li>
+          <li><p>Because the first and second quartiles are close, the data in this quarter is very similar. There is not much variation in the values. The data in the third quarter is much more variable, or spread out. This is clear because the second quartile is so far away from the third quartile.</p></li>
+        </ol>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="element-990">
+      <statement>
+        <p>Given the following box plots, answer the questions.</p>
+        <figure xml:id="fs-idm76469696">
+          <image source="media/fig-ch02_13_06.jpg" width="85%"/>
+        </figure>
+        <ol>
+          <li><p>In complete sentences, explain why each statement is false.
+<em>Data 1</em> has more data values above two than <em>Data 2</em> has above two.
+The data sets cannot have the same mode.
+For <em>Data 1</em>, there are more data values below four than there are above four.
+</p></li>
+          <li><p>For which group, Data 1 or Data 2, is the value of 7 more likely to be an outlier? Explain why in complete sentences.</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idp23710160">
+      <statement>
+        <p>A survey was conducted of 130 purchasers of new black sports cars, 130 purchasers of new red sports cars, and 130 purchasers of new white sports cars. In it, people were asked the age they were when they purchased their car. The following box plots display the results:</p>
+        <figure xml:id="fs-idm78146976">
+          <image source="media/fig-ch02_13_07.jpg" width="85%"/>
+        </figure>
+        <ol>
+          <li><p>In complete sentences, describe what the shape of each box plot implies about the distribution of the data collected for that car series.</p></li>
+          <li><p>Which group is most likely to have an outlier? Explain how you determined that.</p></li>
+          <li><p>Compare the three box plots. What do they imply about the age of purchasing a sports car from the series when compared to each other?</p></li>
+          <li><p>Look at the red sports cars. Which quarter has the smallest spread of data? What is the spread?</p></li>
+          <li><p>Look at the red sports cars. Which quarter has the largest spread of data? What is the spread?</p></li>
+          <li><p>Look at the red sports cars. Estimate the interquartile range (<em>IQR</em>).</p></li>
+          <li><p>Look at the red sports cars. Are there more data in the interval 31–38 or in the interval 45–55? How do you know this?</p></li>
+          <li><p>Look at the red sports cars. Which interval has the fewest data in it? How do you know this?
+31–35
+38–41
+41–64
+</p></li>
+        </ol>
+      </statement>
+      <solution>
+        <ol>
+          <li><p>Each box plot is spread out more in the greater values. Each plot is skewed to the right, so the ages of the top 50 percent of buyers are more variable than the ages of the lower 50 percent.</p></li>
+          <li><p>The black sports car is most likely to have an outlier. It has the longest whisker.</p></li>
+          <li><p>Comparing the median ages, younger people tend to buy the black sports car, while older people tend to buy the white sports car. However, this is not a rule, because there is so much variability in each data set.</p></li>
+          <li><p>The second quarter has the smallest spread. There seems to be only a three-year difference between the first quartile and the median.</p></li>
+          <li><p>The third quarter has the largest spread. There seems to be approximately a 14-year difference between the median and the third quartile.</p></li>
+          <li><p><em>IQR</em> ~ 17 years</p></li>
+          <li><p>There is not enough information to tell. Each interval lies within a quarter, so we cannot tell exactly where the data in that quarter is are concentrated.</p></li>
+          <li><p>The interval from 31 to 35 years has the fewest data values. Twenty-five percent of the values fall in the interval 38 to 41, and 25 percent fall between 41 and 64. Since 25 percent of values fall between 31 and 38, we know that fewer than 25 percent fall between 31 and 35.</p></li>
+        </ol>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="element-833">
+      <statement>
+        <p>Twenty-five randomly selected students were asked the number of movies they watched the previous week. The results are as follows:
+
+
+ 
+    Number of Movies
+    Frequency
+  
+
+
+  
+    0
+    5
+  
+  
+    1
+    9
+  
+  
+    2
+    6
+  
+  
+    3
+    4
+  
+  
+    4
+    1
+  
+
+
+
+</p>
+        <p>Construct a box plot of the data. </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="fs-idp67679120">
+      <statement>
+        <p>Santa Clara County, California, has approximately 27,873 Japanese Americans.  shows their ages by group and each age-group's percentage of the Japanese American community.
+</p>
+        <table>
+          <tabular>
+            <row header="yes">
+              <cell>Age-Group</cell>
+              <cell>Percentage of Community</cell>
+            </row>
+            <row>
+              <cell>0–17</cell>
+              <cell>18.9</cell>
+            </row>
+            <row>
+              <cell>18–24</cell>
+              <cell>8.0</cell>
+            </row>
+            <row>
+              <cell>25–34</cell>
+              <cell>22.8</cell>
+            </row>
+            <row>
+              <cell>35–44</cell>
+              <cell>15.0</cell>
+            </row>
+            <row>
+              <cell>45–54</cell>
+              <cell>13.1</cell>
+            </row>
+            <row>
+              <cell>55–64</cell>
+              <cell>11.9</cell>
+            </row>
+            <row>
+              <cell>65+</cell>
+              <cell>10.3</cell>
+            </row>
+          </tabular>
+        </table>
+        <ol>
+          <li><p>Construct a histogram of the Japanese American community in Santa Clara County. The bars will <em>not</em> be the same width for this example. Why not? What impact does this have on the reliability of the graph?</p></li>
+          <li><p>What percentage of the community is under age 35?</p></li>
+          <li><p>Which box plot most resembles the information above?</p></li>
+        </ol>
+        <figure xml:id="fs-idm2636592">
+          <image source="media/fig-ch02_13_04.jpg" width="90%"/>
+        </figure>
+      </statement>
+      <solution>
+        <ol>
+          <li><p>For graph, check student's solution. </p></li>
+          <li><p>49.7 percent of the community is under the age of 35</p></li>
+          <li><p>Based on the information in the table, graph (a) most closely represents the data.</p></li>
+        </ol>
+      </solution>
+    </exercise>
+
+
+
+    <exercise xml:id="eip-735-1">
+      <statement>
+        <p>Scientists are studying a particular disease. They found that countries that have the highest rates of people who have ever been diagnosed with this disease range from 11.4 percent to 74.6 percent.</p>
+        <table>
+          <tabular>
+            <row header="yes">
+              <cell>Percentage of Population Diagnosed</cell>
+              <cell>Number of Countries</cell>
+            </row>
+            <row>
+              <cell>11.4–20.45</cell>
+              <cell>29</cell>
+            </row>
+            <row>
+              <cell>20.45–29.45</cell>
+              <cell>13</cell>
+            </row>
+            <row>
+              <cell>29.45–38.45</cell>
+              <cell>4</cell>
+            </row>
+            <row>
+              <cell>38.45–47.45</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>47.45–56.45</cell>
+              <cell>2</cell>
+            </row>
+            <row>
+              <cell>56.45–65.45</cell>
+              <cell>1</cell>
+            </row>
+            <row>
+              <cell>65.45–74.45</cell>
+              <cell>0</cell>
+            </row>
+            <row>
+              <cell>74.45–83.45</cell>
+              <cell>1</cell>
+            </row>
+          </tabular>
+        </table>
+        <ol>
+          <li><p>What is the best estimate of the average percentage affected by the disease for these countries?</p></li>
+          <li><p>The United States has an average disease rate of 33.9 percent. Is this rate above average or below?</p></li>
+          <li><p>How does the United States compare to other countries?</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="eip-17">
+      <statement>
+        <p> gives the percentage of children under age five have been diagnosed with a medical condition. What is the best estimate for the mean percentage of children with the condition?</p>
+        <table>
+          <tabular>
+            <row header="yes">
+              <cell>Percentage of Children with the Condition</cell>
+              <cell>Number of Countries</cell>
+            </row>
+            <row>
+              <cell>16–21.45</cell>
+              <cell>23</cell>
+            </row>
+            <row>
+              <cell>21.45–26.9</cell>
+              <cell>4</cell>
+            </row>
+            <row>
+              <cell>26.9–32.35</cell>
+              <cell>9</cell>
+            </row>
+            <row>
+              <cell>32.35–37.8</cell>
+              <cell>7</cell>
+            </row>
+            <row>
+              <cell>37.8–43.25</cell>
+              <cell>6</cell>
+            </row>
+            <row>
+              <cell>43.25–48.7</cell>
+              <cell>1</cell>
+            </row>
+          </tabular>
+        </table>
+      </statement>
+      <solution>
+        <p>
+    the mean percentage, <m>\overline{x}=\frac{1,328.65}{50}=26.75</m>
+  </p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="element-832">
+      <statement>
+        <p>Javier and Ercilia are supervisors at a shopping mall. Each was given the task of estimating the mean distance that shoppers live from the mall. They each randomly surveyed 100 shoppers. The samples yielded the following information.</p>
+        <table>
+          <tabular>
+            <row header="yes">
+              <cell></cell>
+              <cell>Javier</cell>
+              <cell>Ercilia</cell>
+            </row>
+            <row>
+              <cell><m>
+  
+  x
+</m></cell>
+              <cell>6.0 miles</cell>
+              <cell>6.0 miles</cell>
+            </row>
+            <row>
+              <cell><m>s</m></cell>
+              <cell>4.0 miles</cell>
+              <cell>7.0 miles</cell>
+            </row>
+          </tabular>
+        </table>
+        <ol>
+          <li><p>How can you determine which survey was correct?</p></li>
+          <li><p>Explain what the difference in the results of the surveys implies about the data.</p></li>
+          <li><p>If the two histograms depict the distribution of values for each supervisor, which one depicts Ercilia’s sample?  How do you know?
+
+
+</p></li>
+          <li><p>If the two box plots depict the distribution of values for each supervisor, which one depicts Ercilia’s sample?  How do you know?
+
+
+</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <p><em>Use the following information to answer the next three exercises:</em> We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.
+  </p>
+
+    <table>
+      <tabular>
+        <row header="yes">
+          <cell>Number of Years</cell>
+          <cell>Frequency</cell>
+          <cell>Number of Years</cell>
+          <cell>Frequency</cell>
+        </row>
+        <row>
+          <cell>7</cell>
+          <cell>1</cell>
+          <cell>22</cell>
+          <cell>1</cell>
+        </row>
+        <row>
+          <cell>14</cell>
+          <cell>3</cell>
+          <cell>23</cell>
+          <cell>1</cell>
+        </row>
+        <row>
+          <cell>15</cell>
+          <cell>1</cell>
+          <cell>26</cell>
+          <cell>1</cell>
+        </row>
+        <row>
+          <cell>18</cell>
+          <cell>1</cell>
+          <cell>40</cell>
+          <cell>2</cell>
+        </row>
+        <row>
+          <cell>19</cell>
+          <cell>4</cell>
+          <cell>42</cell>
+          <cell>2</cell>
+        </row>
+        <row>
+          <cell>20</cell>
+          <cell>3</cell>
+          <cell></cell>
+          <cell></cell>
+        </row>
+        <row>
+          <cell></cell>
+          <cell></cell>
+          <cell></cell>
+          <cell>Total = 20</cell>
+        </row>
+      </tabular>
+    </table>
+
+    <exercise xml:id="element-84-2">
+      <statement>
+        <p>What is the <em>IQR</em>?</p>
+        <ol>
+          <li><p>8</p></li>
+          <li><p>11</p></li>
+          <li><p>15</p></li>
+          <li><p>35</p></li>
+        </ol>
+      </statement>
+      <solution>
+        <p>a</p>
+      </solution>
+    </exercise>
+
+    <exercise xml:id="element-720">
+      <statement>
+        <p>What is the mode?</p>
+        <ol>
+          <li><p>19</p></li>
+          <li><p>19.5</p></li>
+          <li><p>14 and 20</p></li>
+          <li><p>22.65</p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="element-346">
+      <statement>
+        <p>Is this a sample or the entire population?</p>
+        <ol>
+          <li><p>sample</p></li>
+          <li><p>entire population</p></li>
+          <li><p>neither</p></li>
+        </ol>
+      </statement>
+      <solution>
+        <p>b</p>
+      </solution>
+    </exercise>
+
+
+
+    </exercises>
+  </section>
+
+
+  <section xml:id="sec-descriptive-statistics-chapter-review">
+    <title>Chapter Review</title>
+    
+    <subsection xml:id="subsec-display-data-review">
+      <title>Displaying Data</title>
+      <p>A stem plot is a quick way to make a sketch of a distribution while showing every individual value in the dataset. Stem plots are especially useful for small to moderate sized data sets. They allow you to see the shape of the distribution and identify outliers. To create a stem plot, each observation is separated into a stem, such as the leftmost digit(s), and a leaf, such as the rightmost digit.</p>
+      <p>A frequency polygon is useful when comparing multiple distributions. It uses points connected by straight lines to depict the frequency of values in a data set.</p>
+      <p>A time series graph is a graph that presents data chronologically. It can be useful in detecting trends over time.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-measures-location-review">
+      <title>Measures of the Location of the Data</title>
+      <p>The values that divide a rank-ordered set of data into 100 equal parts are called percentiles. Percentiles are useful for comparing values. For each data value, it's percentile is the percent of values that are less than or equal to that value. The median is the 50th percentile.</p>
+      <p>Quartiles are numbers that separate the data into quarters. Quartiles may or may not be part of the data. The second quartile, Q₂, is the median of the data. Q₁ is the value so that 25% of the data are less than or equal to Q₁, and Q₃ is the value so that 75% of the data are less than or equal to Q₃.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-box-plots-review">
+      <title>Box Plots</title>
+      <p>Box plots are a type of graph that can help visually organize data. To graph a box plot the following data points must be calculated: the minimum value, the first quartile, the median, the third quartile, and the maximum value. Once the box plot is graphed, you can display and compare distributions of data.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-measures-center-review">
+      <title>Measures of the Center of the Data</title>
+      <p>The mean, median, and mode are measures of the center of a data set. The mean is the arithmetic average. Add all the data values and divide by the number of values in the data set to get the mean. The median is the middle value when the data are ordered. If there is an even number of data values, the median is the average of the two middle values. The mode is the data value (or values) that occurs most frequently.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-skewness-review">
+      <title>Skewness and the Mean, Median, and Mode</title>
+      <p>Looking at the distribution of data can reveal a lot about the relationship between the mean, the median, and the mode. There are three types of distributions. A right (or positively) skewed distribution has a shape with a long tail to the right. A left (or negatively) skewed distribution has a shape with a long tail to the left. A symmetrical distribution has equal proportions on both sides of the center.</p>
+    </subsection>
+    
+    <subsection xml:id="subsec-measures-spread-review">
+      <title>Measures of the Spread of the Data</title>
+      <p>Measures of the spread of the data describe how the data are distributed. The range is the difference between the maximum and minimum values. Another measure of spread is the variance. The variance is the average of the squared differences from the mean. The standard deviation is the positive square root of the variance and has the same units as the data.</p>
+      <p>The interquartile range, IQR, is the range of the middle 50 percent of the data values. The IQR is found by subtracting Q₁ from Q₃, and can help determine outliers by using the following two expressions:</p>
+      <ul>
+        <li><p>Q₁ – 1.5(IQR)</p></li>
+        <li><p>Q₃ + 1.5(IQR)</p></li>
+      </ul>
+    </subsection>
+  </section>
+
+
+  <section xml:id="sec-descriptive-statistics-references">
+    <title>References</title>
+    
+    <p>Data from the San Jose Mercury News.</p>
+    <p>Data from <em>The World Almanac and Book of Facts</em>. Retrieved from www.worldalmanac.com.</p>
+    <p>Data from www.businessweek.com (accessed May 1, 2013).</p>
+    <p>Data from www.forbes.com (accessed May 1, 2013).</p>
+    <p>Data from http://www.nba.com (accessed May 1, 2013).</p>
+    <p>Data from http://www.baseball-almanac.com (accessed May 1, 2013).</p>
+    <p>"Demographics: Obesity – adult prevalence rate." Retrieved from www.indexmundi.com.</p>
+    <p>"MLB Standings 2011." Retrieved from http://www.baseball-reference.com.</p>
+    <p>"The College Board." Retrieved from www.collegeboard.org.</p>
+    <p>"NFL.com –  Official Site of the National Football League." Retrieved from http://www.nfl.com.</p>
+    <p>"Overweight and Obesity: Adult Obesity Facts." Retrieved from http://www.cdc.gov.</p>
+    <p>"Wind Chill." Retrieved from http://www.weather.com.</p>
+  </section>
+
+
+  <glossary xml:id="glossary-ch02">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-box-plot">
+      <title>box plot</title>
+      <p>a graph that gives a quick picture of the middle 50% of the data</p>
+    </gi>
+
+    <gi xml:id="gi-first-quartile">
+      <title>first quartile</title>
+      <p>the value that is the median of the lower half of the ordered data set</p>
+    </gi>
+
+    <gi xml:id="gi-frequency-polygon">
+      <title>frequency polygon</title>
+      <p>a graph that displays data using points joined by straight lines</p>
+    </gi>
+
+    <gi xml:id="gi-histogram">
+      <title>histogram</title>
+      <p>a graphical representation in x-y form of the distribution of data in a data set; x represents the data and y represents the frequency, or relative frequency; the graph consists of contiguous rectangles</p>
+    </gi>
+
+    <gi xml:id="gi-interquartile-range">
+      <title>interquartile range</title>
+      <p>the distance between the third quartile (Q₃) and the first quartile (Q₁); IQR = Q₃ – Q₁</p>
+    </gi>
+
+    <gi xml:id="gi-mean">
+      <title>mean</title>
+      <p>a number that measures the central tendency; a common name for mean is average; the term mean is a shortened form of arithmetic mean; the sample mean is denoted by <m>\bar{x}</m></p>
+    </gi>
+
+    <gi xml:id="gi-median">
+      <title>median</title>
+      <p>a number that separates ordered data into halves; half the values are the same number or smaller than the median and half the values are the same number or larger than the median; the median may or may not be part of the data</p>
+    </gi>
+
+    <gi xml:id="gi-mode">
+      <title>mode</title>
+      <p>the value that appears most frequently in a set of data</p>
+    </gi>
+
+    <gi xml:id="gi-outlier">
+      <title>outlier</title>
+      <p>an observation that does not fit the rest of the data</p>
+    </gi>
+
+    <gi xml:id="gi-percentile">
+      <title>percentile</title>
+      <p>a number that divides ordered data into hundredths; percentiles may or may not be part of the data; the median is the 50th percentile</p>
+    </gi>
+
+    <gi xml:id="gi-quartiles">
+      <title>quartiles</title>
+      <p>the numbers that separate the data into quarters; quartiles may or may not be part of the data; the second quartile is the median; the first quartile is the 25th percentile; the third quartile is the 75th percentile</p>
+    </gi>
+
+    <gi xml:id="gi-range">
+      <title>range</title>
+      <p>the difference between the maximum and minimum values in a data set</p>
+    </gi>
+
+    <gi xml:id="gi-skewed">
+      <title>skewed</title>
+      <p>a distribution that is not symmetrical</p>
+    </gi>
+
+    <gi xml:id="gi-standard-deviation">
+      <title>standard deviation</title>
+      <p>a number that is equal to the square root of the variance and measures how far data values are from their mean; notation: s for sample standard deviation and σ for population standard deviation</p>
+    </gi>
+
+    <gi xml:id="gi-stem-and-leaf-graph">
+      <title>stem-and-leaf graph</title>
+      <p>a graph that consists of two columns; the left column contains the stems and the right column contains the leaves; the stems are the first digit(s) and the leaves are the last digit(s)</p>
+    </gi>
+
+    <gi xml:id="gi-symmetric-distribution">
+      <title>symmetric distribution</title>
+      <p>a distribution that is the same on both sides of the center</p>
+    </gi>
+
+    <gi xml:id="gi-third-quartile">
+      <title>third quartile</title>
+      <p>the value that is the median of the upper half of the ordered data set</p>
+    </gi>
+
+    <gi xml:id="gi-time-series-graph">
+      <title>time-series graph</title>
+      <p>a graph that displays data values on the y-axis versus time on the x-axis to show trends in the data over time</p>
+    </gi>
+
+    <gi xml:id="gi-variance">
+      <title>variance</title>
+      <p>mean of the squared deviations from the mean; the square of the standard deviation; for a sample: <m>s^2 = \frac{\sum (x - \bar{x})^2}{n - 1}</m>; for a population: <m>\sigma^2 = \frac{\sum (x - \mu)^2}{N}</m></p>
+    </gi>
+
+  </glossary>
 
   <conclusion>
     <p>

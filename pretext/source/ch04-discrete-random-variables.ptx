@@ -259,8 +259,8 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
         <p>Here <m>x</m> represents values of the random variable <m>X</m>, <m>P</m>(<m>x</m>) represents the corresponding probability, and symbol <m>∑</m> represents the sum of all products <m>x</m><m>P</m>(<m>x</m>). Here we use symbol <m>μ</m> for the mean because it is a parameter. It represents the mean of a population.</p>
       </note>
       <example xml:id="fs-idp56252608">
-        <title>Expected Value Table</title>
         <statement>
+          <title>Expected Value Table</title>
           <p>A men's soccer team plays soccer zero, one, or two days a week. The probability that they play zero days is .2, the probability that they play one day is .5, and the probability that they play two days is .3. Find the long-term average or expected value, <m>μ</m>, of the number of days per week the men's soccer team plays soccer.</p>
           <p>To do the problem, first let the random variable <m>X</m> = the number of days the men's soccer team plays soccer per week. <m>X</m> takes on the values 0, 1, 2. Construct a PDF table adding a column <em>x*P(x)</em>, the product of the value <m>x</m> with the corresponding probability <em>P(x)</em>. In this column, you will multiply each <m>x</m> value by its probability.</p>
           <p>Add the last column <m>x*P(x)</m> to get the expected value/mean of the random variable <m>X</m>.</p>
@@ -880,8 +880,8 @@ It doesn’t matter. I expect to break even.</p>
       <p>Read this as <em>X is a random variable with a binomial distribution</em>. The parameters are <m>n</m> and <m>p</m>: <m>n</m> = number of trials, <m>p</m> = probability of a success on each trial.</p>
     </subsection>
     <example xml:id="ch04-example5-16">
-      <title>NOTE</title>
       <statement>
+        <title>NOTE</title>
         <p>It has been stated that about 41 percent of adult workers have a high school diploma but do not pursue any further education. If 20 adult workers are randomly selected, find the probability that at most 12 of them have a high school diploma but do not pursue any further education. How many adult workers do you expect to have a high school diploma but do not pursue any further education?</p>
         <p>Let <m>X</m> = the number of workers who have a high school diploma but do not pursue any further education.</p>
         <p><m>X</m> takes on the values 0, 1, 2, . . ., 20 where <m>n</m> = 20, <m>p</m> = .41, and <m>q</m> = 1 – .41 = .59. <m>X</m> ~ <m>B</m>(20, .41)</p>
@@ -1884,8 +1884,8 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
       <p>Read this as <em>X is a random variable with a hypergeometric distribution</em>. The parameters are <m>r</m>, <m>b</m>, and <m>n</m>: <m>r</m> = the size of the group of interest (first group), <m>b</m> = the size of the second group, <m>n</m> = the size of the chosen sample.</p>
     </subsection>
     <example xml:id="element-180">
-      <title>NOTE</title>
       <statement>
+        <title>NOTE</title>
         <p>A school site committee is to be chosen randomly from six men and five women. If the committee consists of four members chosen randomly, what is the probability that two of them are men? How many men do you expect to be on the committee?</p>
         <p>Let <m>X</m> = the number of men on the committee of four. The men are the group of interest (first group).</p>
         <p><m>X</m> takes on the values 0, 1, 2, 3, 4, where <em>r = 6</em>, <em>b = 5</em>, and <em>n = 4</em>. <em>X ~ H</em>(6, 5, 4)</p>
@@ -2118,8 +2118,8 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
       <p>Read this as <em>X is a random variable with a Poisson distribution</em>. The parameter is <m>μ</m> (or <m>λ</m>); <m>μ</m> (or <m>λ</m>) = the mean for the interval of interest.</p>
     </subsection>
     <example xml:id="element-784">
-      <title>Note</title>
       <statement>
+        <title>Note</title>
         <p>Leah's answering machine receives about six telephone calls between 8 a.m. and 10 a.m. What is the probability that Leah receives more than one call in the next 15 minutes?</p>
         <p>Let <m>X</m> = the number of calls Leah receives in 15 minutes. The <em>interval of interest</em> is 15 minutes or <m>\frac{1}{4}</m> hour.</p>
         <p><m>x</m> = 0, 1, 2, 3, . . .</p>
@@ -3036,4 +3036,55 @@ How do you know? Answer in complete sentences.</li>
     </subsection>
 
   </section>
+
+
+  <glossary xml:id="glossary-ch04">
+    <title>Glossary</title>
+
+    <gi xml:id="gi-binomial-distribution">
+      <title>binomial distribution</title>
+      <p>a discrete random variable (RV) that arises from Bernoulli trials; there are a fixed number n of independent trials, each trial has only two possible outcomes (success or failure), and the probability of success is the same for each trial</p>
+    </gi>
+
+    <gi xml:id="gi-binomial-probability-distribution">
+      <title>binomial probability distribution</title>
+      <p>a discrete probability distribution characterized by the parameters n (number of trials) and p (probability of success); notation: X ~ B(n, p)</p>
+    </gi>
+
+    <gi xml:id="gi-expected-value-mean">
+      <title>expected value</title>
+      <p>the long-term average of many trials of a statistical experiment; also called the mean; notation: μ or E(X)</p>
+    </gi>
+
+    <gi xml:id="gi-geometric-distribution">
+      <title>geometric distribution</title>
+      <p>a discrete random variable (RV) that arises from the Bernoulli trials; the trials are repeated until the first success occurs; notation: X ~ G(p)</p>
+    </gi>
+
+    <gi xml:id="gi-hypergeometric-distribution">
+      <title>hypergeometric distribution</title>
+      <p>a discrete random variable (RV) characterized by: (1) a fixed number of trials; (2) the probability of success is not the same from trial to trial because sampling is without replacement; (3) each trial has only two possible outcomes</p>
+    </gi>
+
+    <gi xml:id="gi-poisson-distribution">
+      <title>Poisson distribution</title>
+      <p>a discrete random variable (RV) that counts the number of times a certain event occurs in a fixed interval of time or space, assuming that occurrences are independent and occur at a constant rate</p>
+    </gi>
+
+    <gi xml:id="gi-probability-distribution-function">
+      <title>probability distribution function (PDF)</title>
+      <p>a mathematical description of a discrete random variable (RV), given either in the form of an equation or in the form of a table listing all possible outcomes and their associated probabilities</p>
+    </gi>
+
+    <gi xml:id="gi-random-variable">
+      <title>random variable (RV)</title>
+      <p>a characteristic of interest in a population being studied; notation: X, Y, Z, etc.; common notation: capital letters are used to represent a random variable, and lowercase letters are used to represent the values of the random variable</p>
+    </gi>
+
+    <gi xml:id="gi-standard-deviation-rv">
+      <title>standard deviation</title>
+      <p>a number that describes the spread of a probability distribution; it is the square root of the variance; notation: σ for population standard deviation and s for sample standard deviation</p>
+    </gi>
+
+  </glossary>
 </chapter>
