@@ -214,7 +214,7 @@
         <em>9</em> . Fill in the blanks in the table and round your answers to two decimal places for the Relative Frequency and Cumulative Relative Frequency cells.
       </p>
       <table xml:id="fs-idp4987552">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell># of years</cell>
             <cell>Frequency</cell>
@@ -587,7 +587,7 @@
         <em>Use the following information to answer the next three exercises.</em> The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.
       </p>
       <table xml:id="fs-idm22192560">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell></cell>
             <cell>Honor Roll</cell>
@@ -1124,7 +1124,7 @@ P(x)
         <em>13</em> . If <em>X</em> = the number of applications for a job, use this information to fill in the table .
       </p>
       <table xml:id="fs-idm40199072">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell><em>x</em></cell>
             <cell><em>P</em> ( <em>x</em> )</cell>
@@ -2172,7 +2172,7 @@ xP(x)
         <em>74</em> . Fill out the rest of this table.
       </p>
       <table xml:id="fs-idm167551056">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell></cell>
             <cell>Observed ( <em>O</em> )</cell>
@@ -2221,7 +2221,7 @@ xP(x)
         <em>79</em> . Compute the expected values for the cells.
       </p>
       <table xml:id="fs-idp79824896">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell></cell>
             <cell>Cell = Yes</cell>
@@ -2261,7 +2261,7 @@ xP(x)
         <em>84</em> . A 2013 poll in the State of California surveyed people about a tax. The results are presented in the following table, and are classified by ethnic group and response type. Are the poll responses independent of the participants’ ethnic group? Conduct a hypothesis test at the five percent significance level.
       </p>
       <table xml:id="fs-idm112728704">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell>Ethnic Group/Response Type</cell>
             <cell>Favor</cell>
@@ -3463,7 +3463,7 @@ Total
  <em>Use the following information to answer the next two exercises.</em> We are interested in the number of times a teenager must be reminded to do his or her chores each week. A survey of 40 mothers was conducted. the table shows the results of the survey.
     </p>
     <table xml:id="id9905895">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell><em>x</em></cell>
           <cell><em>P</em> ( <em>x</em> )</cell>
@@ -3695,7 +3695,7 @@ Total
       Kia, Alejandra, and Iris are runners on the track teams at three different schools. Their running times, in minutes, and the statistics for the track teams at their respective schools, for a one mile run, are given in the table below:
     </p>
     <table xml:id="id8133007">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell></cell>
           <cell>Running Time</cell>
@@ -4222,7 +4222,7 @@ The results of her survey are summarized in the table below . Number of Days on 
       The number of people living on American farms has declined steadily during the 20 <m>^{th}</m> century. Here are data on the farm population (in millions of persons) from 1935 to 1980.
     </p>
     <table xml:id="fs-idm115840016">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell>Year</cell>
           <cell>1935</cell>
@@ -4331,7 +4331,7 @@ The results of her survey are summarized in the table below . Number of Days on 
  <em>Use the following information to answer the next three exercises.</em> A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.
     </p>
     <table xml:id="id9181210">
-      <title>Does the data suggest that there is a relationship between the gender of students and their choice of major?</title>
+          <title>Data Table</title> <title>Does the data suggest that there is a relationship between the gender of students and their choice of major?</title>
       <tabular>
         <row header="yes">
           <cell></cell>
@@ -4600,7 +4600,7 @@ The results of her survey are summarized in the table below . Number of Days on 
  <em>Use the following information to answer the next two exercises.</em>
     </p>
     <table xml:id="id7687162">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell>value</cell>
           <cell>frequency</cell>
@@ -5175,7 +5175,7 @@ The results of her survey are summarized in the table below . Number of Days on 
       A math exam was given to all the third-grade children attending ABC School. Two random samples of scores were taken.
     </p>
     <table xml:id="id8344093">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell></cell>
           <cell><em>n</em></cell>
@@ -5384,7 +5384,7 @@ The results of her survey are summarized in the table below . Number of Days on 
       Sixty-four backpackers were asked the number of days since their latest backpacking trip. The number of days is given in the table .
     </p>
     <table xml:id="id7898848">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row>
           <cell># of days</cell>
           <cell>1</cell>

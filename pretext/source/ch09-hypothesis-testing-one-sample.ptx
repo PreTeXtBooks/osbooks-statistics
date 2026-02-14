@@ -49,7 +49,7 @@
 There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if the sample information favors the alternative hypothesis or <em>do not reject</em> <em>H_{0}</em> or <em>decline to reject</em> <em>H_{0}</em> if the sample information is insufficient to reject the null hypothesis.</p>
       <p>Mathematical Symbols Used in <em>H_{0}</em> and <em>H_{a}</em>:</p>
       <table xml:id="element-341">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell><em>H_{0}</em></cell><cell><em>H_{a}</em></cell></row>
           <row><cell>equal (=)</cell><cell>not equal (≠) or greater than (&gt;) or less than (&lt;)</cell></row>
           <row><cell>greater than or equal to (≥)</cell><cell>less than (&lt;)</cell></row>
@@ -175,7 +175,7 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
       <title>Formula Review</title>
       <p><em>H_{0}</em> and <em>H_{a}</em> are contradictory.</p>
       <table xml:id="element-377">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>If <em>H_{0}</em> has:</cell><cell>equal (=)</cell><cell>greater than or equal to (≥)</cell><cell>less than or equal to (≤)</cell></row>
           <row><cell>then <em>H_{a}</em> has:</cell><cell>not equal (≠) or greater than (&gt;) or less than (&lt;)</cell><cell>less than (&lt;)</cell><cell>greater than (&gt;)</cell></row>
         </tabular>
@@ -300,7 +300,7 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
     <subsection xml:id="fs-id1164565232863">
       <p>When you perform a hypothesis test, there are four possible outcomes depending on the actual truth, or falseness, of the null hypothesis <em>H_{0}</em> and the decision to reject or not. The outcomes are summarized in the following table:</p>
       <table xml:id="ch9-element-689">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>ACTION</cell><cell><em>H_{0}</em> IS ACTUALLY</cell><cell>...</cell></row>
           <row><cell /><cell>True</cell><cell>False</cell></row>
           <row><cell>Do not reject <em>H_{0}</em></cell><cell>Correct outcome</cell><cell>Type II error</cell></row>

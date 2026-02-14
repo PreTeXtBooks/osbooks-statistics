@@ -122,7 +122,7 @@
           <p xml:id="fs-idm53163856">Determine what the population, sample, parameter, statistic, variable, and data referred to in the following study.</p>
           <p xml:id="fs-idm19702944">As part of a study designed to test the safety of  automobiles, the National Transportation Safety Board collected and reviewed data about the effects of an automobile crash on  test dummies (The Data and Story Library, n.d.). Here is the criterion they used.</p>
           <table xml:id="ch01_mod01_tbl003">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row>
                 <cell>Speed at which Cars Crashed</cell>
                 <cell>Location of <em>Driver</em> (i.e., dummies)</cell>
@@ -310,7 +310,7 @@
       <p xml:id="eip-298">Below are tables comparing the number of part-time and full-time students at De Anza College and Foothill College enrolled for the spring 2010 quarter. The tables display counts, frequencies, and percentages or proportions, relative frequencies. For instance, to calculate the percentage of part time students at De Anza College, divide 9,200/22,496 to get .4089. Round to the nearest thousandth—third decimal place and then multiply by 100 to get the percentage, which is 40.9 percent.</p>
       <p xml:id="fs-id1164563494537">So, the percent columns make comparing the same categories in the colleges easier. Displaying percentages along with the numbers is often helpful, but it is particularly important when comparing sets of data that do not have the same totals, such as the total enrollments for both colleges in this example. Notice how much larger the percentage for part-time students at Foothill College is compared to De Anza College.</p>
       <table xml:id="ch01-eip-953">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell>De Anza College</cell>
             <cell></cell>
@@ -374,7 +374,7 @@
         <p xml:id="eip-613">Sometimes percentages add up to be more than 100 percent (or less than 100 percent). In the graph, the percentages add to more than 100 percent because students can be in more than one category. A bar graph is appropriate to compare the relative size of the categories. A pie chart cannot be used. It also could not be used if the percentages added to less than 100 percent.
     </p>
         <table xml:id="eip-451">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>Characteristic/Category</cell>
               <cell>Percent</cell>
@@ -406,7 +406,7 @@
         <title>Omitting Categories/Missing Data</title>
         <p xml:id="eip-145">The table displays Ethnicity of Students but is missing the <em>Other/Unknown</em> category. This category contains people who did not feel they fit into any of the ethnicity categories or declined to respond. Notice that the frequencies do not add up to the total number of students. In this situation, create a bar graph and not a pie chart.</p>
         <table xml:id="eip-251">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell></cell>
               <cell>Frequency</cell>
@@ -484,7 +484,7 @@
       <title>Marginal Distributions in Two-Way Tables</title>
       <p xml:id="fs-id1170308510698">Below is a <em>two-way table</em>, also called a contingency table, showing the favorite sports for 50 adults: 20 women and 30 men.</p>
       <table xml:id="fs-id1170308143125">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell></cell>
             <cell>Football</cell>
@@ -521,7 +521,7 @@
       <title>Conditional Distributions in Two-Way Tables</title>
       <p xml:id="fs-id1170308142156">The distinction between a marginal distribution and a <em>conditional distribution</em> is that the focus is on only a particular subset of the population (not the entire population). For example, in the table, if we focused only on the subpopulation of women who prefer football, then we could calculate the conditional distributions as shown in the two-way table below.</p>
       <table xml:id="fs-id1170308226956">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell></cell>
             <cell>Football</cell>
@@ -578,7 +578,7 @@
       <title>Sampling</title>
       <p xml:id="id12361474">Gathering information about an entire population often costs too much or is virtually impossible. Instead, we use a sample of the population. <em>A sample should have the same characteristics as the population it is representing.</em> Most statisticians use various methods of random sampling in an attempt to achieve this goal. This section will describe a few of the most common methods. There are several different methods of <em>random sampling</em>. In each form of random sampling, each member of a population initially has an equal chance of being selected for the sample. Each method has pros and cons. The easiest method to describe is called a <em>simple random sample</em>. In a simple random sample, each group has the same chance of being selected. In other words, each sample of the same size has an equal chance of being selected. For example, suppose Lisa wants to form a four-person study group (herself and three other people) from her pre-calculus class, which has 31 members not including Lisa. To choose a simple random sample of size three from the other members of her class, Lisa could put all 31 names in a hat, shake the hat, close her eyes, and pick out three names. A more technological way is for Lisa to first list the last names of the members of her class together with a two-digit number, as in <xref ref="element-621"/>.</p>
       <table xml:id="element-621">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell>ID</cell>
             <cell>Name</cell>
@@ -685,7 +685,7 @@
     could have generated more random numbers.</p>
       <p xml:id="fs-id1164561203583">The table below shows how Lisa reads two-digit numbers from each random number. Each two-digit number in the table would represent each student in the roster above in <xref ref="element-621"/>.</p>
       <table xml:id="fs-id1164561060585">
-        <title>Lisa randomly generated the decimals in the Random Number column. She then used each consecutive number in each decimal to make the numbers she read. Some of the read numbers correspond with the ID numbers given to the students in her class (e.g., 14 = Lundquist in <xref ref="element-621"/>).</title>
+          <title>Data Table</title> <title>Lisa randomly generated the decimals in the Random Number column. She then used each consecutive number in each decimal to make the numbers she read. Some of the read numbers correspond with the ID numbers given to the students in her class (e.g., 14 = Lundquist in <xref ref="element-621"/>).</title>
         <tabular>
           <row header="yes">
             <cell>Random number</cell>
@@ -813,7 +813,7 @@
         <p xml:id="eip-idm101249376">You are going to use the random number generator to generate different types of samples from the data.</p>
         <p xml:id="fs-idm65546768">This table displays six sets of quiz scores (each quiz counts 10 points) for an elementary statistics class.</p>
         <table xml:id="fs-idm49741168">
-          <title>Scores for quizzes #1-6 for 10 students in a statistics class. Each quiz is out of 10 points.</title>
+          <title>Data Table</title> <title>Scores for quizzes #1-6 for 10 students in a statistics class. Each quiz is out of 10 points.</title>
           <tabular>
             <row header="yes">
               <cell>#1</cell>
@@ -1036,7 +1036,7 @@
         <exploration xml:id="fs-idm85528320">
           <p xml:id="fs-idp60280064">Divide into groups of two, three, or four. Your instructor will give each group one six-sided die. Try this experiment twice. Roll one fair die (six-sided) 20 times. Record the number of ones, twos, threes, fours, fives, and sixes you get in <xref ref="element-497"/> and <xref ref="fs-idm76511248"/> (<em>frequency</em> is the number of times a particular face of the die occurs)</p>
           <table xml:id="element-497">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row header="yes">
                 <cell>Face on Die</cell>
                 <cell>Frequency</cell>
@@ -1068,7 +1068,7 @@
             </tabular>
           </table>
           <table xml:id="fs-idm76511248">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row header="yes">
                 <cell>Face on Die</cell>
                 <cell>Frequency</cell>
@@ -1111,7 +1111,7 @@
           <p xml:id="element-740">Seven hundred and seventy-one distance learning students at Long Beach City College responded to surveys in the
     2010–11 academic year. Highlights of the summary report are listed in <xref ref="fs-idp27381216"/>.</p>
           <table xml:id="fs-idp27381216">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row>
                 <cell>Have computer at home</cell>
                 <cell>96%</cell>
@@ -1213,7 +1213,7 @@
       <p xml:id="id7489802">Twenty students were asked how many hours they worked per day. Their responses, in hours, are as follows: 5, 6, 3, 3, 2, 4, 7, 5, 2, 3, 5, 6, 5, 4, 4, 3, 5, 2, 5, 3.</p>
       <p xml:id="id9267444"><xref ref="id10383738"/> lists the different data values in ascending order and their frequencies. </p>
       <table xml:id="id10383738">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell>DATA VALUE</cell>
             <cell>FREQUENCY</cell>
@@ -1247,7 +1247,7 @@
       <p xml:id="element-118">A <term>frequency</term> is the number of times a value of the data occurs. According to <xref ref="id10383738"/>, there are three students who work two hours, five students who work three hours, and so on. The sum of the values in the frequency column, 20, represents the total number of students included in the sample.</p>
       <p xml:id="id8007492">A <term>relative frequency</term> is the ratio (fraction or proportion) of the number of times a value of the data occurs in the set of all outcomes to the total number of outcomes. To find the relative frequencies, divide each frequency by the total number of students in the sample, in this case, 20. Relative frequencies can be written as fractions, percents, or decimals.</p>
       <table xml:id="id11177380">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell>DATA VALUE</cell>
             <cell>FREQUENCY</cell>
@@ -1292,7 +1292,7 @@
     the relative frequency for the current row, as shown in <xref ref="id10564302"/>.</p>
       <p xml:id="fs-id1164565141978">In the first row, the cumulative frequency is simply .15 because it is the only one. In the second row, the relative frequency was .25, so adding that to .15, we get a relative frequency of .40. Continue adding the relative frequencies in each row to get the rest of the column.</p>
       <table xml:id="id10564302">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell>DATA VALUE</cell>
             <cell>FREQUENCY</cell>
@@ -1359,7 +1359,7 @@
       74</p>
       <p xml:id="ch01-element-305"><xref ref="id9703284"/> summarizes the heights in this sample. Since heights are expressed in tenths, the frequency table will use labels measured in hundredths. This ensures that no data value will coincide with the upper or lower limit of an interval.</p>
       <table xml:id="id9703284">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row header="yes">
             <cell>HEIGHTS (INCHES)</cell>
             <cell>FREQUENCY</cell>
@@ -1478,7 +1478,7 @@
         <statement>
           <p xml:id="fs-idm72824256"><xref ref="fs-idm82680048"/> shows the amount, in inches, of annual rainfall in a sample of towns.</p>
           <table xml:id="fs-idm82680048">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row header="yes">
                 <cell>Rainfall (Inches)</cell>
                 <cell>Frequency</cell>
@@ -1606,7 +1606,7 @@
             <p xml:id="element-755">Nineteen people were asked how many miles, to the nearest mile, they commute to work each day. The data are as follows:
     2, 5, 7, 3, 2, 10, 18, 15, 20, 7, 10, 18, 5, 12, 13, 12, 4, 5, 10. <xref ref="id9833287"></xref> was produced.</p>
             <table xml:id="id9833287">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row header="yes">
                   <cell>DATA</cell>
                   <cell>FREQUENCY</cell>
@@ -1709,7 +1709,7 @@
           <statement>
             <p xml:id="fs-idm39829664"><xref ref="fs-idm52810848"/> contains the total number of deaths worldwide as a result of earthquakes for the period from 2000 to 2012.</p>
             <table xml:id="fs-idm52810848">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row header="yes">
                   <cell>Year</cell>
                   <cell>Total Number of Deaths</cell>
@@ -1801,7 +1801,7 @@
         <statement>
           <p xml:id="fs-idm65128336"><xref ref="fs-idm74902768"/> contains the total number of fatal motor vehicle traffic crashes in the United States for the period from 1994–2011.</p>
           <table xml:id="fs-idm74902768">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row header="yes">
                 <cell>Year</cell>
                 <cell>Total Number of Crashes</cell>
@@ -2057,7 +2057,7 @@
         <title>Order the Data</title>
         <p xml:id="element-6">Complete the two relative frequency tables below using your class data.</p>
         <table xml:id="id9610791234">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>Number of Movies</cell>
               <cell>Frequency</cell>
@@ -2115,7 +2115,7 @@
           </tabular>
         </table>
         <table xml:id="id10778923248">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>Number of Movies</cell>
               <cell>Frequency</cell>
@@ -2214,7 +2214,7 @@
           <p>Seven hundred and seventy-one distance learning students at Long Beach City College responded to surveys in the 2010–11 academic year. Highlights of the summary report are listed in <xref ref="table-lbcc-survey"/>.</p>
           
           <table xml:id="table-lbcc-survey">
-            <title>LBCC Distance Learning Survey Results</title>
+          <title>Data Table</title> <title>LBCC Distance Learning Survey Results</title>
             <tabular>
               <row header="yes">
                 <cell>Survey Response</cell>
@@ -2306,7 +2306,7 @@
           <p xml:id="fs-idp40181216">The following section contains restaurants stratified by city into columns and grouped horizontally by entree cost (clusters).</p>
         </note>
         <table xml:id="id9894hh324636">
-          <title>Restaurants Used in Sample</title>
+          <title>Data Table</title> <title>Restaurants Used in Sample</title>
           <tabular>
             <row header="yes">
               <cell>Restaurants Stratified by City and Entree Cost</cell>
@@ -2377,7 +2377,7 @@
             <p>Complete the table with your sample.
     </p>
             <table xml:id="tableone">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row>
                   <cell>1. __________</cell>
                   <cell>6. __________</cell>
@@ -2415,7 +2415,7 @@
             <p>Complete the table with your sample.
     </p>
             <table xml:id="tabletwo">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row>
                   <cell>1. __________</cell>
                   <cell>6. __________</cell>
@@ -2453,7 +2453,7 @@
             <p>Complete the table with your sample.
     </p>
             <table xml:id="tablethree">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row>
                   <cell>1. __________</cell>
                   <cell>6. __________</cell>
@@ -2496,7 +2496,7 @@
             <p>Complete the table with your sample.
     </p>
             <table xml:id="tablefour">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row>
                   <cell>1. __________</cell>
                   <cell>6. __________</cell>
@@ -2545,7 +2545,7 @@
             <p>Complete the table with your sample.
     </p>
             <table xml:id="tablefive">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row>
                   <cell>1. ________</cell>
                   <cell>6. ________</cell>

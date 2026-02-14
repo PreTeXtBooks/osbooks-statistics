@@ -74,7 +74,7 @@
       <p>A result of an experiment is called an <alert>outcome</alert>. The <alert>sample space</alert> of an experiment is the set, or collection, of all possible outcomes.</p>
       <p>There are four main ways to represent a sample space:</p>
       <table xml:id="fs-id1164565591567">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell></cell><cell>Flipping a Fair Coin</cell><cell>Flipping Two Fair Coins</cell></row>
           <row><cell>Systematic List of Outcomes</cell><cell>heads (H)<nbsp/>tails (T)</cell><cell>HH<nbsp/>HT<nbsp/>TH<nbsp/>TT</cell></row>
           <row><cell>Tree Diagram*</cell><cell></cell><cell></cell></row>
@@ -1372,7 +1372,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
         <statement>
           <p>shows the number of athletes who stretch before exercising and how many had injuries within the past year.</p>
           <table xml:id="M05_ch03-tbl002">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell></cell><cell>Injury in Past Year</cell><cell>No Injury in Past Year</cell><cell>Total</cell></row>
               <row><cell>Stretches</cell><cell>55</cell><cell>295</cell><cell>350</cell></row>
               <row><cell>Does not stretch</cell><cell>231</cell><cell>219</cell><cell>450</cell></row>
@@ -1400,7 +1400,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           <p>a. There are 45 females in the sample; 18 prefer the coastline and 16 prefer hiking near lakes and streams. So, we know there are 45 − 18 − 16 = 11 female students who prefer hiking on mountain peaks.</p>
           <p>Continue reasoning in this way to complete the table.</p>
           <table xml:id="ch03-element-850s">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell>Sex</cell><cell>The Coastline</cell><cell>Near Lakes and Streams</cell><cell>On Mountain Peaks</cell><cell>Total</cell></row>
               <row><cell>Female</cell><cell>18</cell><cell>16</cell><cell>11</cell><cell>45</cell></row>
               <row><cell>Male</cell><cell>16</cell><cell>25</cell><cell>14</cell><cell>55</cell></row>
@@ -1413,7 +1413,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
         <statement>
           <p>shows a random sample of 200 cyclists and the routes they prefer. Let <m>M</m> = males and <m>H</m> = hilly path.</p>
           <table xml:id="M05_ch03-tbl005">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell>Gender</cell><cell>Lake Path</cell><cell>Hilly Path</cell><cell>Wooded Path</cell><cell>Total</cell></row>
               <row><cell>Female</cell><cell>45</cell><cell>38</cell><cell>27</cell><cell>110</cell></row>
               <row><cell>Male</cell><cell>26</cell><cell>52</cell><cell>12</cell><cell>90</cell></row>
@@ -1442,7 +1442,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
         <solution>
           <p>a.</p>
           <table xml:id="ch03-element-6166">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell>Caught or Not</cell><cell>Door One</cell><cell>Door Two</cell><cell>Door Three</cell><cell>Total</cell></row>
               <row><cell>Caught</cell><cell><m>\frac{1}{15}</m></cell><cell><m>\frac{1}{12}</m></cell><cell><m>\frac{1}{6}</m></cell><cell><m>\frac{19}{60}</m></cell></row>
               <row><cell>Not Caught</cell><cell><m>\frac{4}{15}</m></cell><cell><m>\frac{3}{12}</m></cell><cell><m>\frac{1}{6}</m></cell><cell><m>\frac{41}{60}</m></cell></row>
@@ -1513,7 +1513,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
     <subsection xml:id="fs-idp46156576">
       <p><em>Use the following information to answer the next four exercises.</em>  shows a random sample of musicians and how they learned to play their instruments.</p>
       <table xml:id="M05_ch03-tbl011">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Gender</cell><cell>Self-Taught</cell><cell>Studied in School</cell><cell>Private Instruction</cell><cell>Total</cell></row>
           <row><cell>Female</cell><cell>12</cell><cell>38</cell><cell>22</cell><cell>72</cell></row>
           <row><cell>Male</cell><cell>19</cell><cell>24</cell><cell>15</cell><cell>58</cell></row>
@@ -2009,7 +2009,7 @@ Totals
         <statement>
           <p><em>Use the following information to answer the next two exercises.</em> The following are real data from Santa Clara County, California. As of a certain time, there had been a total of 3,059 documented cases of a disease in the county. They were grouped into the following categories, with risk factors of becoming ill with the disease labeled as Methods A, B, and C and Other:</p>
           <table xml:id="ch03-element-436">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell></cell><cell>Method A</cell><cell>Method B</cell><cell>Method C</cell><cell>Other</cell><cell>Totals</cell></row>
               <row><cell>Female</cell><cell>0</cell><cell>70</cell><cell>136</cell><cell>49</cell><cell>____</cell></row>
               <row><cell>Male</cell><cell>2,146</cell><cell>463</cell><cell>60</cell><cell>135</cell><cell>____</cell></row>
@@ -2074,7 +2074,7 @@ Totals
         <p>Count out 40 mixed-color candies, which is approximately one small bag's worth. Record the number of each color in <xref ref="table-candy-population"/>. Use the information from this table to complete <xref ref="table-theoretical-probabilities"/>. Next, put the candies in a cup. The experiment is to pick two candies, one at a time. Do <em>not</em> look into the cup as you pick them. The first time through, replace the first candy before picking the second one. Record the results in the With Replacement column of <xref ref="table-empirical-results"/>. Do this 24 times. The second time through, after picking the first candy, do <em>not</em> replace it before picking the second one. Then, pick the second one. Record the results in the Without Replacement column section of <xref ref="table-empirical-probabilities"/>. After you record the pick, put <em>both</em> candies back. Do this a total of 24 times, also. Use the data from <xref ref="table-empirical-probabilities"/> to calculate the empirical probability questions. Leave your answers in unreduced fractional form. Do <em>not</em> multiply out any fractions.</p>
         
         <table xml:id="table-candy-population">
-          <title>Population</title>
+          <title>Data Table</title> <title>Population</title>
           <tabular>
             <row header="yes">
               <cell>Color</cell>
@@ -2108,7 +2108,7 @@ Totals
         </table>
         
         <table xml:id="table-theoretical-probabilities">
-          <title>Theoretical Probabilities</title>
+          <title>Data Table</title> <title>Theoretical Probabilities</title>
           <tabular>
             <row header="yes">
               <cell></cell>
@@ -2158,7 +2158,7 @@ Totals
         </note>
         
         <table xml:id="table-empirical-results">
-          <title>Empirical Results</title>
+          <title>Data Table</title> <title>Empirical Results</title>
           <tabular>
             <row header="yes">
               <cell>With Replacement</cell>
@@ -2216,7 +2216,7 @@ Totals
         </table>
         
         <table xml:id="table-empirical-probabilities">
-          <title>Empirical Probabilities</title>
+          <title>Data Table</title> <title>Empirical Probabilities</title>
           <tabular>
             <row header="yes">
               <cell></cell>
@@ -2452,7 +2452,7 @@ Totals
     </exercise>
     <p><term><em>Use the following information to answer the next three exercises</em></term>. A local restaurant sells pork chops and chicken breasts. The given values below are the weights (in ounces) of pork chops and chicken breasts listed on the menu. Your server will randomly select one piece of meat (pork chop or chicken breast) that you will be served.</p>
     <table xml:id="fs-id1170309442421">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row><cell>Pork Chops</cell><cell>17</cell><cell>20</cell><cell>21</cell><cell>18</cell><cell>20</cell><cell>20</cell><cell>20</cell><cell>18</cell><cell>19</cell><cell>19</cell></row>
         <row><cell>20</cell><cell>19</cell><cell>21</cell><cell>20</cell><cell>18</cell><cell>20</cell><cell>20</cell><cell>19</cell><cell>18</cell><cell>19</cell></row>
         <row><cell>Chicken Breasts</cell><cell>17</cell><cell>19</cell><cell>17</cell><cell>21</cell><cell>17</cell><cell>21</cell><cell>18</cell><cell>21</cell><cell>19</cell><cell>21</cell></row>
@@ -2789,7 +2789,7 @@ Totals
     </exercise>
     <p><em>Use the information in the  to answer the next eight exercises.</em> The table shows the political party affiliation of each of 67 members of the U.S. Senate in June 2012, and when they would next be up for reelection.</p>
     <table xml:id="M05_ch03-tbl13">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row><cell>Up for Reelection:</cell><cell>Democratic Party</cell><cell>Republican Party</cell><cell>Other</cell><cell>Total</cell></row>
         <row><cell>November 2014</cell><cell>20</cell><cell>13</cell><cell>0</cell><cell></cell></row>
         <row><cell>November 2016</cell><cell>10</cell><cell>24</cell><cell>0</cell><cell></cell></row>
@@ -2862,7 +2862,7 @@ Totals
     </exercise>
     <p><em>Use the following information to answer the next two exercises.</em> The table of data obtained from www.baseball-almanac.com shows hit information for four well-known baseball players. Suppose that one hit from the table is randomly selected.</p>
     <table xml:id="ch03-element-695">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row><cell>Name</cell><cell>Single</cell><cell>Double</cell><cell>Triple</cell><cell>Home Run</cell><cell>Total Hits</cell></row>
         <row><cell>Babe Ruth</cell><cell>1,517</cell><cell>506</cell><cell>136</cell><cell>714</cell><cell>2,873</cell></row>
         <row><cell>Jackie Robinson</cell><cell>1,054</cell><cell>273</cell><cell>54</cell><cell>137</cell><cell>1,518</cell></row>
@@ -2900,7 +2900,7 @@ Totals
       <statement>
         <p>identifies a group of children by one of four hair colors, and by type of hair.</p>
         <table xml:id="M05_ch03-tbl021">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row><cell>Hair Type</cell><cell>Brown</cell><cell>Blond</cell><cell>Black</cell><cell>Red</cell><cell>Totals</cell></row>
             <row><cell>Wavy</cell><cell>20</cell><cell></cell><cell>15</cell><cell>3</cell><cell>43</cell></row>
             <row><cell>Straight</cell><cell>80</cell><cell>15</cell><cell></cell><cell>12</cell><cell></cell></row>
@@ -2922,7 +2922,7 @@ Totals
       <statement>
         <p>In a previous year, the weights of the members of a California football team and a Texas football team were published in a newspaper. The factual data were compiled into the following table. The weights in the column headings are in pounds.</p>
         <table xml:id="ch03-element-13">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row><cell>Shirt #</cell><cell>≤ 210</cell><cell>211–250</cell><cell>251–290</cell><cell>&gt; 290</cell></row>
             <row><cell>1–33</cell><cell>21</cell><cell>5</cell><cell>0</cell><cell>0</cell></row>
             <row><cell>34–66</cell><cell>6</cell><cell>18</cell><cell>7</cell><cell>4</cell></row>

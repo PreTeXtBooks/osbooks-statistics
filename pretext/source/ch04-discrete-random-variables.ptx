@@ -142,7 +142,7 @@
       </exercise>
       <p><nbsp/><em>Use the following information to answer the next four exercises:</em> A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.</p>
       <table xml:id="fs-idm43289680">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell><m>x</m></cell><cell><m>P</m>(<m>x</m>)</cell></row>
           <row><cell>1</cell><cell>.15</cell></row>
           <row><cell>2</cell><cell>.35</cell></row>
@@ -412,7 +412,7 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
       </exercise>
       <p><em>Use the following information to answer the next five exercises:</em> A physics professor wants to know what percent of physics majors will spend the next several years doing postgraduate research. He has the following probability distribution:</p>
       <table xml:id="fs-idm82264048">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell><m>x</m></cell><cell><m>P</m>(<m>x</m>)</cell><cell><m>x</m>*<m>P</m>(<m>x</m>)</cell></row>
           <row><cell>1</cell><cell>.35</cell><cell></cell></row>
           <row><cell>2</cell><cell>.20</cell><cell></cell></row>
@@ -665,7 +665,7 @@ Biotech Firm
         <statement>
           <p>Suppose that 20,000 married adults in the United States were randomly surveyed as to the number of children they have. The results are compiled and are used as theoretical probabilities. Let <m>X</m> = the number of children married people have.</p>
           <table xml:id="id48895k006">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell><m>x</m></cell><cell><m>P</m>(<m>x</m>)</cell><cell><m>x</m><m>P</m>(<m>x</m>)</cell></row>
               <row><cell>0</cell><cell>.10</cell><cell></cell></row>
               <row><cell>1</cell><cell>.20</cell><cell></cell></row>
@@ -767,7 +767,7 @@ It doesn’t matter. I expect to break even.</p>
         <solution>
           <p>Let <m>X</m> = the amount of money to be won on a ticket. The following table shows the PDF for <m>X</m>:</p>
           <table xml:id="fs-idm110559056">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell><m>x</m></cell><cell><m>P</m>(<m>x</m>)</cell></row>
               <row><cell>0</cell><cell>.969</cell></row>
               <row><cell>5</cell><cell><m>\frac{\text{250}}{\text{10,000}}</m> = .025</cell></row>

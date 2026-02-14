@@ -223,7 +223,7 @@
       </exercise>
       <p><em>Use the following information to answer the next exercise.</em>  contains real data for the first two decades of flu reporting.</p>
       <table xml:id="ch12-element-806">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Year</cell><cell>Number of Flu Cases Diagnosed</cell><cell>Number of Flu Deaths</cell></row>
           <row><cell>Pre-1981</cell><cell>91</cell><cell>29</cell></row>
           <row><cell>1981</cell><cell>319</cell><cell>121</cell></row>
@@ -342,7 +342,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       <p>The third exam score, <m>x</m>, is the independent variable, and the final exam score, <m>y</m>, is the dependent variable. We will plot a regression line that best <em>fits</em> the data. If each of you were to fit a line <em>by eye</em>, you would draw different lines. We can obtain a line of best fit using either the median-median line approach or by calculating the least-squares regression line.</p>
       <p>Let's first find the line of best fit for the relationship between the third exam score and the final exam score using the median-median line approach. Remember that this is the data from  after the ordered pairs have been listed by ordering <m>x</m> values. If multiple data points have the same <m>x</m> values, then they are listed in order from least to greatest <m>x</m> (see data values where <m>x</m> = 71). We first divide our scores into three groups of approximately equal numbers of <m>x</m> values per group. The first and third groups have the same number of <m>x</m> values. We must remember first to put the <m>x</m> values in ascending order. The corresponding <m>y</m> values are then recorded. However, to find the median, we first must rearrange the <m>y</m> values in each group from the least value to the greatest value.  shows the correct ordering of the <m>x</m> values but does not show a reordering of the <m>y</m> values.</p>
       <table xml:id="fs-id1170308472605">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell><m>x</m> (third exam score)</cell><cell><m>y</m> (final exam score)</cell></row>
           <row><cell>65</cell><cell>175</cell></row>
           <row><cell>66</cell><cell>126</cell></row>
@@ -359,7 +359,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       </table>
       <p>With this set of data, the first and last groups each have four <m>x</m> values and four corresponding <m>y</m> values. The second group has three <m>x</m> values and three corresponding <m>y</m> values. We need to organize the <m>x</m> and <m>y</m> values per group and find the median <m>x</m> and <m>y</m> values for each group. Let’s now write out our <m>y</m> values for each group in ascending order. For group 1, the <m>y</m> values in order are 126, 133, 153, and 175. For group 2, the <m>y</m> values are already in order. For group 3, the <m>y</m> values are also already in order. We can represent these data as shown in , but notice that we have <em>broken</em> the ordered pairs; (65, 126) is not a data point in our original set:</p>
       <table xml:id="fs-id1170308944039">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Group</cell><cell><m>x</m> (third exam score)</cell><cell><m>y</m> (final exam score)</cell><cell>Median <m>x</m> value</cell><cell>Median <m>y</m> value</cell></row>
           <row><cell>1</cell><cell>65<nbsp />66<nbsp />67<nbsp />67</cell><cell>126<nbsp />133<nbsp />153<nbsp />175</cell><cell>66.5<nbsp /><nbsp /><nbsp /></cell><cell>143<nbsp /><nbsp /><nbsp /></cell></row>
           <row><cell>2</cell><cell>69<nbsp />69<nbsp />70</cell><cell>151<nbsp />159<nbsp />163</cell><cell>69</cell><cell>159</cell></row>
@@ -423,7 +423,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       <p>However, the <m>y</m>-intercept is very useful in many cases. For many examples in science, the <m>y</m>-intercept gives the baseline reading when the experimental conditions aren't applied to an experimental system. This baseline indicates how much the experimental condition affects the system. It could also be used to ensure that equipment and measurements are calibrated properly before starting the experiment.</p>
       <p>In biology, the concentration of proteins in a sample can be measured using a chemical assay that changes color depending on how much protein is present. The more protein present, the darker the color. The amount of color can be measured by the absorbance reading.  shows the expected absorbance readings at different protein concentrations. This is called a <em>standard curve</em> for the assay.</p>
       <table xml:id="fs-id1170308505621">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Concentration (mM)</cell><cell>Absorbance (mAU)</cell></row>
           <row><cell>125</cell><cell>0.021</cell></row>
           <row><cell>250</cell><cell>0.023</cell></row>
@@ -554,7 +554,7 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
       </exercise>
       <p><em>Use the following information to answer the next five exercises</em>. A random sample of 10 professional athletes produced the following data, where <m>x</m> is the number of endorsements the player has and <m>y</m> is the amount of money made, in millions of dollars.</p>
       <table xml:id="fs-idm76330016">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell><m>x</m></cell><cell><m>y</m></cell><cell><m>x</m></cell><cell><m>y</m></cell></row>
           <row><cell>0</cell><cell>2</cell><cell>5</cell><cell>12</cell></row>
           <row><cell>3</cell><cell>8</cell><cell>4</cell><cell>9</cell></row>
@@ -888,7 +888,7 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
       </exercise>
       <p><em>Use the following information to answer the next 14 exercises</em>.  contains real data for the first two decades of flu reporting.</p>
       <table xml:id="ch12-element-806-2">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Year</cell><cell>Number of Flu Cases Diagnosed</cell><cell>Number of Flu Deaths</cell></row>
           <row><cell>Pre-1981</cell><cell>91</cell><cell>29</cell></row>
           <row><cell>1981</cell><cell>319</cell><cell>121</cell></row>
@@ -1131,7 +1131,7 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
 –1
 .</p>
       <table xml:id="element-4662">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell><m>x</m></cell><cell><m>y</m></cell><cell><m>ŷ</m></cell><cell><m>y</m> – <m>ŷ</m></cell></row>
           <row><cell>65</cell><cell>175</cell><cell>140</cell><cell>175 – 140 = 35</cell></row>
           <row><cell>67</cell><cell>133</cell><cell>150</cell><cell>133 – 150= –17</cell></row>
@@ -1280,7 +1280,7 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
     <subsection xml:id="eip-518">
       <title>95 Percent Critical Values of the Sample Correlation Coefficient Table</title>
       <table xml:id="eip-idm31993488">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Degrees of Freedom: <m>n</m> – 2</cell><cell>Critical Values: + and –</cell></row>
           <row><cell>1</cell><cell>0.997</cell></row>
           <row><cell>2</cell><cell>0.950</cell></row>
@@ -1461,7 +1461,7 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
       </exercise>
       <p><nbsp /><em>Use the following information to answer the next two exercises.</em> The cost of a leading liquid laundry detergent in different sizes is given in .</p>
       <table xml:id="id10105430">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Size (ounces)</cell><cell>Cost ($)</cell><cell>Cost per Ounce</cell></row>
           <row><cell>16</cell><cell>3.99</cell><cell /></row>
           <row><cell>32</cell><cell>4.99</cell><cell /></row>
