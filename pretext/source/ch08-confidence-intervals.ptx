@@ -3668,7 +3668,7 @@ line with the upper and lower limits of the confidence interval and the sample m
           <li>Calculate the sample mean and the sample standard deviation. Assume that the population standard deviation is known to be 3.3 in. With these values, construct a 90 percent confidence interval for your sample of 10 values. Write the confidence interval you obtained in the first space of .</li>
           <li>
             <p>Now write your confidence interval on the board. As others in the class write their confidence intervals on the board, copy them into .</p>
-            <table xml:id="element-838">
+            <table xml:id="ch8-element-838">
               <tabular>
                 <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
                 <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
