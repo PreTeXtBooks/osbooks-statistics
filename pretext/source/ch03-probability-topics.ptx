@@ -3063,7 +3063,7 @@ Totals
       <p>a result of an experiment</p>
     </gi>
 
-    <gi xml:id="gi-probability">
+    <gi xml:id="gi-probability-ch03">
       <title>probability</title>
       <p>a number between zero and one, inclusive, that gives the likelihood that a specific event will occur; the foundation of statistics is given by three axioms (by A.N. Kolmogorov, 1930s): Let S denote the sample space and A and B are two events in S; then (1) 0 ≤ P(A) ≤ 1, (2) If A and B are any two mutually exclusive events, then P(A OR B) = P(A) + P(B), and (3) P(S) = 1</p>
     </gi>
@@ -3073,12 +3073,12 @@ Totals
       <p>the set of all possible outcomes of an experiment; often denoted by S</p>
     </gi>
 
-    <gi xml:id="gi-sampling-with-replacement">
+    <gi xml:id="gi-sampling-with-replacement-ch03">
       <title>sampling with replacement</title>
       <p>if each member of a population is replaced after it is picked, then that member has the possibility of being chosen more than once</p>
     </gi>
 
-    <gi xml:id="gi-sampling-without-replacement">
+    <gi xml:id="gi-sampling-without-replacement-ch03">
       <title>sampling without replacement</title>
       <p>when sampling is done without replacement, each member of a population may be chosen only once</p>
     </gi>
