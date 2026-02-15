@@ -1820,7 +1820,7 @@ Test of the two population proportions by testing one population mean of differe
         </exercise>
       <exercise xml:id="ch9-element-231">
         <statement>
-          <p>For Statements A–J in <xref ref="element-612">, answer the following in complete sentences.</p>
+          <p>For Statements A–J in <xref ref="element-612">this example</xref>, answer the following in complete sentences.</p>
           <ol>
             <li>State a consequence of committing a Type I error.</li>
             <li>State a consequence of committing a Type II error.</li>
