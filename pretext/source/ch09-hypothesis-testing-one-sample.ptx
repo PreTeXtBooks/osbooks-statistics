@@ -2919,11 +2919,6 @@ Test of the two population proportions by testing one population mean of differe
 
     <gi xml:id="gi-<m>p</m>-value">
       <title><m>p</m>-value</title>
-      <p>the probability of obtaining a test statistic at least as extreme as the one observed, assuming the null hypothesis is true</p>
-    </gi>
-
-    <gi xml:id="gi-p-value-alt">
-      <title>p-value</title>
       <p>the probability that an event will happen purely by chance assuming the null hypothesis is true; the smaller the p-value, the stronger the evidence is against the null hypothesis</p>
     </gi>
 
@@ -2947,19 +2942,9 @@ Test of the two population proportions by testing one population mean of differe
       <p>the decision to reject the null hypothesis when it is actually true</p>
     </gi>
 
-    <gi xml:id="gi-type-1-error">
-      <title>Type 1 error</title>
-      <p>the decision is to reject the null hypothesis when, in fact, the null hypothesis is true</p>
-    </gi>
-
     <gi xml:id="gi-type-ii-error">
       <title>Type II error</title>
       <p>the decision not to reject the null hypothesis when it is actually false</p>
-    </gi>
-
-    <gi xml:id="gi-type-2-error">
-      <title>Type 2 error</title>
-      <p>the decision is not to reject the null hypothesis when, in fact, the null hypothesis is false</p>
     </gi>
 
   </glossary>
