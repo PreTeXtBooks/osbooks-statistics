@@ -373,7 +373,7 @@ sure you clear any lists before you start.</p>
         <p>The observed values and the question at the end of the problem, “Is the number of hours volunteered independent of the type of volunteer?” tell you this is a test of independence. The two factors are <em>number of hours volunteered</em> and <em>type of volunteer</em>. This test is always right-tailed.</p>
         <p><em>H_{0}</em>: The number of hours volunteered is <em>independent</em> of the type of volunteer.</p>
         <p><em>H_{a}</em>: The number of hours volunteered is <em>dependent</em> on the type of volunteer.</p>
-        <p>The expected result are in <xref ref="volunteer-expected-table" />.</p>
+        <p>The expected results are in <xref ref="volunteer-expected-table" />.</p>
         <table xml:id="volunteer-expected-table">
           <title>Number of Hours Worked per Week by Volunteer Type (Expected)</title>
           <tabular>
@@ -426,7 +426,7 @@ sure you clear any lists before you start.</p>
     <exercise xml:id="eip-685">
       <title>Try It</title>
       <statement>
-          <p>The Bureau of Labor Statistics gathers data about employment in the United States. A sample is taken to calculate the number of U.S. citizens working in one of several industry sectors over time.  shows the results in <xref ref="fs-idp61742592" />:</p>
+          <p>The Bureau of Labor Statistics gathers data about employment in the United States. A sample is taken to calculate the number of U.S. citizens working in one of several industry sectors over time. The results are shown in <xref ref="fs-idp61742592" />:</p>
           <table xml:id="fs-idp61742592">
             <title>Employment by Industry Sector</title>
             <tabular>
