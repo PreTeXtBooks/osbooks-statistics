@@ -3008,14 +3008,29 @@ Totals
       <p>the set of all outcomes that are NOT in the event; the complement of event A is denoted A′; P(A) + P(A′) = 1</p>
     </gi>
 
+    <gi xml:id="gi-complement-event">
+      <title>the complement event</title>
+      <p>the complement of event A consists of all outcomes that are NOT in A</p>
+    </gi>
+
     <gi xml:id="gi-conditional-probability">
       <title>conditional probability</title>
       <p>the likelihood that an event will occur given that another event has already occurred; P(A|B) is read "the probability of A given B"</p>
     </gi>
 
+    <gi xml:id="gi-conditional-probability-given">
+      <title>the conditional probability of one event GIVEN another event</title>
+      <p>P(A|B) is the probability that event A will occur given that the event B has already occurred</p>
+    </gi>
+
     <gi xml:id="gi-contingency-table-prob">
       <title>contingency table</title>
       <p>a table that displays sample values for two different factors that may be dependent or contingent on one another</p>
+    </gi>
+
+    <gi xml:id="gi-dependent-events">
+      <title>dependent events</title>
+      <p>if two events are NOT independent, then we say that they are dependent</p>
     </gi>
 
     <gi xml:id="gi-equally-likely">
@@ -3048,9 +3063,39 @@ Totals
       <p>a result of an experiment</p>
     </gi>
 
+    <gi xml:id="gi-probability">
+      <title>probability</title>
+      <p>a number between zero and one, inclusive, that gives the likelihood that a specific event will occur; the foundation of statistics is given by three axioms (by A.N. Kolmogorov, 1930s): Let S denote the sample space and A and B are two events in S; then (1) 0 ≤ P(A) ≤ 1, (2) If A and B are any two mutually exclusive events, then P(A OR B) = P(A) + P(B), and (3) P(S) = 1</p>
+    </gi>
+
     <gi xml:id="gi-sample-space">
       <title>sample space</title>
       <p>the set of all possible outcomes of an experiment; often denoted by S</p>
+    </gi>
+
+    <gi xml:id="gi-sampling-with-replacement">
+      <title>sampling with replacement</title>
+      <p>if each member of a population is replaced after it is picked, then that member has the possibility of being chosen more than once</p>
+    </gi>
+
+    <gi xml:id="gi-sampling-without-replacement">
+      <title>sampling without replacement</title>
+      <p>when sampling is done without replacement, each member of a population may be chosen only once</p>
+    </gi>
+
+    <gi xml:id="gi-the-and-event">
+      <title>the AND event</title>
+      <p>an outcome is in the event A AND B if the outcome is in both A AND B at the same time</p>
+    </gi>
+
+    <gi xml:id="gi-the-or-event">
+      <title>the OR event</title>
+      <p>an outcome is in the event A OR B if the outcome is in A or is in B or is in both A and B</p>
+    </gi>
+
+    <gi xml:id="gi-the-or-of-two-events">
+      <title>the OR of two events</title>
+      <p>an outcome is in the event A OR B if the outcome is in A, is in B, or is in both A and B</p>
     </gi>
 
     <gi xml:id="gi-tree-diagram">

@@ -863,9 +863,19 @@ Calculate the <m>p</m> value.</li>
       <p>the standard deviation of the sampling distribution of a statistic; for the difference between two means, it measures the variability in the difference between sample means</p>
     </gi>
 
+    <gi xml:id="gi-standard-deviation-ch10">
+      <title>standard deviation</title>
+      <p>a number that is equal to the square root of the variance and measures how far data values are from their mean; notation: <m>s</m> for sample standard deviation and <m>\sigma</m> for population standard deviation</p>
+    </gi>
+
     <gi xml:id="gi-two-sample-t-test">
       <title>two-sample t-test</title>
       <p>a hypothesis test used to compare two population means when the population standard deviations are unknown</p>
+    </gi>
+
+    <gi xml:id="gi-variable-random-variable">
+      <title>variable (random variable)</title>
+      <p>a characteristic of interest in a population being studied. Common notation for variables are uppercase Latin letters <m>X, Y, Z, \ldots</m> Common notation for a specific value from the domain (set of all possible values of a variable) are lowercase Latin letters <m>x, y, z, \ldots</m> For example, if <m>X</m> is the number of children in a family, then <m>x</m> represents a specific integer 0, 1, 2, 3, ... Variables in statistics differ from variables in intermediate algebra in two ways: The domain of the random variable (RV) is not necessarily a numerical set; the domain may be expressed in words; for example, if <m>X</m> = hair color, then the domain is {black, blond, gray, green, orange}. We can tell what specific value <m>x</m> of the random variable <m>X</m> takes only after performing the experiment.</p>
     </gi>
 
   </glossary>

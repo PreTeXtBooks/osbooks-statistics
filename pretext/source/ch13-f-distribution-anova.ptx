@@ -1483,6 +1483,11 @@ Based on the results of your study, is there a need to investigate any of the fo
   <glossary xml:id="glossary-ch13">
     <title>Glossary</title>
 
+    <gi xml:id="gi-analysis-of-variance">
+      <title>analysis of variance</title>
+      <p>also referred to as ANOVA; a method of testing whether the means of three or more populations are equal. The method is applicable if: all populations of interest are normally distributed, the populations have equal standard deviations, and samples (not necessarily of the same size) are randomly and independently selected from each population. The test statistic for analysis of variance is the F ratio.</p>
+    </gi>
+
     <gi xml:id="gi-anova">
       <title>ANOVA</title>
       <p>analysis of variance; a statistical method used to test whether three or more population means are equal</p>
@@ -1506,6 +1511,11 @@ Based on the results of your study, is there a need to investigate any of the fo
     <gi xml:id="gi-one-way-anova">
       <title>one-way ANOVA</title>
       <p>a statistical test used to compare the means of three or more groups with respect to one factor</p>
+    </gi>
+
+    <gi xml:id="gi-variance">
+      <title>variance</title>
+      <p>mean of the squared deviations from the mean; the square of the standard deviation. For a set of data, a deviation can be represented as <m>x - \bar{x}</m> where <m>x</m> is a value of the data and <m>\bar{x}</m> is the sample mean. The sample variance is equal to the sum of the squares of the deviations divided by the difference of the sample size and 1.</p>
     </gi>
 
     <gi xml:id="gi-within-group-variability">
