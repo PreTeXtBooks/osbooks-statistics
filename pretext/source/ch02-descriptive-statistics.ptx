@@ -3526,7 +3526,6 @@ Find the mode.
     </subsection>
 
     <exercises xml:id="subsec-sampling-distributions">
-      <title>Sampling Distributions and Statistic of a Sampling Distribution</title>
 
     <p>You can think of a <term>sampling distribution</term> as a <em> relative frequency distribution</em> with a great many samples. See <em>Chapter 1: Sampling and Data</em> for a review of relative frequency. Suppose 30 randomly selected students were asked the number of movies they watched the previous week. The results are in the <em>relative frequency table</em> shown below.</p>
 
@@ -6492,7 +6491,6 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
     </subsection>
 
     <exercises xml:id="subsec-skewness-practice">
-      <title>Practice</title>
 
     <p><em>Use the following information to answer the next three exercises.</em> State whether the data are symmetrical, skewed to the left, or skewed to the right.</p>
 

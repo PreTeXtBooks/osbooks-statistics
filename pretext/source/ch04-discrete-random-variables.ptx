@@ -232,7 +232,6 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
     </subsection>
 
     <exercises xml:id="fs-idp99695744">
-      <title>Homework</title>
       <exercise xml:id="fs-idp971520">
         <statement>
           <p>Suppose that the PDF for the number of years it takes to earn a bachelor of science (B.S.) degree is given in .</p>
@@ -521,7 +520,6 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
     </subsection>
 
     <exercises xml:id="fs-idm60120304">
-      <title>HOMEWORK</title>
       <exercise xml:id="fs-idp10277168">
         <statement>
           <p>A theater group holds a fund-raiser. It sells 100 raffle tickets for $5 apiece. Suppose you purchase four tickets. The prize is two passes to a Broadway show, worth a total of $150.</p>
@@ -1144,7 +1142,6 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
     </subsection>
 
     <exercises xml:id="fs-idp12065056">
-      <title>HOMEWORK</title>
       <exercise xml:id="eip-idm67916816">
         <statement>
           <p>According to a recent article the average number of babies born with significant hearing loss (deafness) is approximately two per 1,000 babies in a healthy baby nursery. The number climbs to an average of 30 per 1,000 babies in an intensive care nursery.</p>
@@ -1667,7 +1664,6 @@ Standard Deviation = <m>σ</m> = <m>\sqrt{\frac{\text{1}-p}{p^{2}}}</m> = <m>\s
     </subsection>
 
     <exercises xml:id="fs-idm13601184">
-      <title>HOMEWORK</title>
       <exercise xml:id="element-589">
         <statement>
           <p>A consumer looking to buy a used red sports car will call dealerships until she finds a dealership that carries the car. She estimates the probability that any independent dealership will have the car will be 28 percent. We are interested in the number of dealerships she must call.</p>
@@ -1969,7 +1965,6 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
     </subsection>
 
     <exercises xml:id="fs-idm62349392">
-      <title>HOMEWORK</title>
       <exercise xml:id="element-194">
         <statement>
           <p>A group of martial arts students is planning on participating in an upcoming demonstration. Six are students of tae kwon do, and seven are students of shotokan karate. Suppose that eight students are randomly picked to be in the first demonstration. We are interested in the number of shotokan karate students in that first demonstration.</p>
@@ -2361,7 +2356,6 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
     </subsection>
 
     <exercises xml:id="fs-idm132424448">
-      <title>HOMEWORK</title>
       <exercise xml:id="fs-idm121525168">
         <statement>
           <p>The switchboard in a Minneapolis law office gets an average of 5.5 incoming phone calls during the noon hour on Mondays. Experience shows that the existing staff can handle up to six calls in an hour. Let <m>X</m> = the number of calls received at noon.</p>
@@ -2862,7 +2856,6 @@ __________</li>
     </subsection>
 
     <exercises xml:id="fs-id1170309339367">
-      <title>HOMEWORK</title>
       <exercise xml:id="fs-id1170309353533">
         <statement>
           <p>Use a programmable calculator to simulate a binomial distribution.</p>

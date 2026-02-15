@@ -56,7 +56,6 @@
       <p xml:id="fs-idm51841168">The theory of probability began with the study of games of chance such as poker. Predictions take the form of probabilities. To predict the likelihood of an earthquake, of rain, or whether you will get an <em>A</em> in this course, we use probabilities. Doctors use probability to determine the chance of a vaccination causing the disease the vaccination is supposed to prevent. A stockbroker uses probability to determine the rate of return on a client's investments.</p>
     </subsection>
     <exercises xml:id="eip-159">
-      <title>Key Terms</title>
       <p xml:id="fs-idm63797184">In statistics, we generally want to study a <term>population</term>. You can think of a population as a collection of persons, things, or objects under study. To study the population, we select a <term>sample</term>. The idea of <term>sampling</term> is to select a portion, or subset, of the larger population and study that portion—the sample—to gain information about the population. Data are the result of sampling from a population.</p>
       <p xml:id="fs-idp7610128">Because it takes a lot of time and money to examine an entire population, sampling is a very practical technique. If you wished to compute the overall grade point average at your school, it would make sense to select a sample of students who attend the school. The data collected from the sample would be the students' grade point averages. In presidential elections, opinion poll samples of 1,000–2,000 people are taken. The opinion poll is supposed to represent the views of the people in the entire country. Manufacturers of canned carbonated drinks take samples to determine if a 16-ounce can contains 16 ounces of carbonated drink.</p>
       <p xml:id="fs-idm52897344">From the sample data, we can calculate a statistic. A <alert>statistic</alert> is a number that represents a property of the sample. For example, if we consider one math class as a sample of the population of <em>all</em> math classes, then the average number of points earned by students in that one math class at the end of the term is an example of a statistic. Since we do not have the data for all math classes, that statistic is our best estimate of the average for the entire population of math classes. If we happen to have data for <em>all</em> math classes, we can find the population parameter. A <alert>parameter</alert> is a numerical characteristic of the whole population that can be estimated by a statistic. Since we considered all math classes to be the population, then the average number of points earned per student over all the math classes is an example of a parameter.</p>
@@ -1105,7 +1104,6 @@
       </subsection>
     </subsection>
     <exercises xml:id="eip-166">
-      <title>Bringing It Together</title>
       <exercise xml:id="eip-219">
         <statement>
           <p xml:id="element-740">Seven hundred and seventy-one distance learning students at Long Beach City College responded to surveys in the
@@ -1209,7 +1207,6 @@
     Ratios can be calculated. The minimum score is 0. So 80 is four times 20. The score of 80 is four times better than the score of 20.</p>
     </subsection>
     <exercises xml:id="eip-959">
-      <title>Frequency</title>
       <p xml:id="id7489802">Twenty students were asked how many hours they worked per day. Their responses, in hours, are as follows: 5, 6, 3, 3, 2, 4, 7, 5, 2, 3, 5, 6, 5, 4, 4, 3, 5, 2, 5, 3.</p>
       <p xml:id="id9267444"><xref ref="id10383738"/> lists the different data values in ascending order and their frequencies. </p>
       <table xml:id="id10383738">
@@ -1973,7 +1970,6 @@
       </exercise>
     </subsection>
     <exercises xml:id="eip-165">
-      <title>Ethics</title>
       <p xml:id="fs-idp69338592">The widespread misuse and misrepresentation of statistical information often gives the field a bad name. Some say that “numbers don’t lie,” but the people who use numbers to support their claims often do.</p>
       <p xml:id="fs-idp63161552">A recent investigation of famous social psychologist, Diederik Stapel, has led to the retraction of his articles from some of the world’s top journals including, <em>Journal of Experimental Social Psychology, Social Psychology, Basic and Applied Social Psychology, British Journal of Social Psychology,</em> and the magazine <em>Science</em>. Diederik Stapel is a former professor at Tilburg University in the Netherlands. Over the past two years, an extensive investigation involving three universities where Stapel has worked concluded that the psychologist is guilty of fraud on a colossal scale. Falsified data taints over 55 papers he authored and 10 Ph.D. dissertations that he supervised.</p>
       <p xml:id="eip-idm40688480"><em>Stapel did not deny that his deceit was driven by ambition. But it was more complicated than that, he told me. He insisted that he loved social psychology but had been frustrated by the messiness of experimental data, which rarely led to clear conclusions. His lifelong obsession with elegance and order, he said, led him to concoct results that journals found attractive. “It was a quest for aesthetics, for beauty—instead of the truth,” he said. He described his behavior as an addiction that drove him to carry out acts of increasingly daring fraud</em>.
