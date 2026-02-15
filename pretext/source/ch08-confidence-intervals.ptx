@@ -2619,7 +2619,7 @@ line with the upper and lower limits of the confidence interval and the sample m
     
     <gi xml:id="plusfour">
       <title>plus-four confidence interval</title>
-      <p>plus-four confidence interval when you add two imaginary successes and two imaginary failures (four overall) to your sample</p>
+      <p>a confidence interval method where you add two imaginary successes and two imaginary failures to your sample</p>
     </gi>
     
     <gi xml:id="stddev">
