@@ -174,7 +174,7 @@
       <em>Use the following information to answer the next two exercises.</em> Thirty people spent two weeks around Mardi Gras in New Orleans. Their two-week weight gain is below. Note—a loss is shown by a negative weight gain.
     </p>
     <table xml:id="fs-idp142908256">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell>Weight Gain</cell>
           <cell>Frequency</cell>
@@ -322,7 +322,7 @@
       <em>Use the following information to answer the next two exercises.</em> An article from the <em>San Jose Mercury News</em> was concerned with the racial mix of the 1,500 students at Prospect High School in Saratoga, CA. The table summarizes the results. Male and female values are approximate. Suppose one Prospect High School student is randomly selected.
     </p>
     <table xml:id="fs-idp74177072">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell>Gender/Ethnic Group</cell>
           <cell>White</cell>
@@ -692,7 +692,7 @@
       <em>Use the following information to answer the next three exercises.</em> the table shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.
     </p>
     <table xml:id="fs-idp29366416">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell>Hair Style/Hair Color</cell>
           <cell>Blond</cell>
@@ -1559,7 +1559,7 @@
       <em>Use the following information to answer the next three exercises.</em> Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let <em>X</em> = the number of estimates.
     </p>
     <table xml:id="fs-idp187952032">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell>x</cell>
           <cell>Relative Frequency</cell>
@@ -1603,7 +1603,7 @@
       <em>Use the following information to answer the next three exercises.</em> Seventy fifth and sixth graders were asked their favorite dinner.
     </p>
     <table xml:id="fs-idp73514720">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell></cell>
           <cell>Pizza</cell>
@@ -1773,7 +1773,7 @@
       <em>Use the following information to answer the next three exercises.</em> In a survey at Kirkwood Ski Resort the following information was recorded.
     </p>
     <table xml:id="fs-idp51990160">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell></cell>
           <cell>0–10</cell>
@@ -2242,7 +2242,7 @@
       <em>Use the following information to answer the next three exercises.</em>
     </p>
     <table xml:id="fs-idp83656832">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell></cell>
           <cell>Apple</cell>
@@ -2314,7 +2314,7 @@
       <em>138.</em> A math exam was given to all the fifth grade children attending Country School. Two random samples of scores were taken. The null hypothesis is that the mean math scores for boys and girls in fifth grade are the same. Conduct a hypothesis test.
     </p>
     <table xml:id="fs-idp61162016">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell></cell>
           <cell><em>n</em></cell>
@@ -2368,7 +2368,7 @@
       <em>Use the following information to answer the next three exercises.</em> One hundred twenty people were surveyed as to their favorite beverage. The results are below.
     </p>
     <table xml:id="fs-idp53311952">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell>Beverage/Age</cell>
           <cell>0–9</cell>

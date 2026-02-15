@@ -309,7 +309,7 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
           <statement>
             <p>The specific absorption rate (SAR) for a cell phone measures the amount of radio frequency (RF) energy absorbed by the user’s body when using the handset. Every cell phone emits RF energy. Different phone models have different SAR measures. For certification from the Federal Communications Commission for sale in the United States, the SAR level for a cell phone must be no more than 1.6 watts per kilogram. <xref ref="M02_CH08-tbl001"></xref> shows the highest SAR level for a random selection of cell phone models of a random cell phone company.</p>
             <table xml:id="M02_CH08-tbl001">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row header="yes">
                   <cell>Phone Model #</cell>
                   <cell>SAR</cell>
@@ -464,7 +464,7 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
       <statement>
             <p><xref ref="M02_CH08-tbl002" /> shows a different random sampling of 20 cell phone models. Use these data to calculate a 93 percent confidence interval for the true mean SAR for cell phones certified for use in the United States. As previously, assume that the population standard deviation is <em>σ</em> = 0.337.</p>
             <table xml:id="M02_CH08-tbl002">
-              <tabular halign="l l l l">
+          <title>Data Table</title><tabular halign="l l l l">
                 <row header="yes">
                   <cell>Phone Model</cell>
                   <cell>SAR</cell>
@@ -1379,7 +1379,7 @@ The 95 percent confidence interval is (7.3006, 9.1527).</p>
       <statement>
         <p>A group of researchers is working to understand the scope of industrial pollution in the human body. Industrial chemicals may enter the body through pollution or as ingredients in consumer products. In October 2008, the scientists tested cord-blood samples for 20 newborn infants in the United States. The cord blood of the <em>in utero/newborn</em> group was tested for 430 industrial compounds, pollutants, and other chemicals, including chemicals linked to brain and nervous-system toxicity, immune-system toxicity, reproductive toxicity, and fertility problems. There are health concerns about the effects of some chemicals on the brain and nervous system. <xref ref="ch8-eip-222" /> shows how many of the targeted chemicals were found in each infant’s cord blood.</p>
         <table xml:id="ch8-eip-222">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row>
               <cell>79</cell>
               <cell>145</cell>
@@ -1464,7 +1464,7 @@ The 90 percent confidence interval is (117.41, 137.49).</p>
       <statement>
         <p>A random sample of statistics students was asked to estimate the total number of hours they spend watching television in an average week. The responses are recorded in <xref ref="ch8-eip-672" />. Use the following sample data to construct a 98 percent confidence interval for the mean number of hours statistics students will spend watching television in one week.</p>
         <table xml:id="ch8-eip-672">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row>
               <cell>0</cell>
               <cell>3</cell>
@@ -1683,7 +1683,7 @@ Arrow to <c>Data</c> and press <c>ENTER</c>.
     <p>
 <em>Use the following information to answer the next 13 exercises:</em> The data in <xref ref="ch8-element-181" /> are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let <em>X</em> = the number of colors on a national flag.</p>
     <table xml:id="ch8-element-181">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell><em>X</em></cell>
           <cell>Freq.</cell>
@@ -2045,7 +2045,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
   <exercise xml:id="ch8-eip-375">
     <title>Try It</title>
       <statement>
-        <p>The research group referenced in <url href="" /> talked to teens in smaller focus groups but also interviewed additional teens over the phone. When the study was complete, 588 teens had answered the question about their social media site friends, with 159 saying that they have more than 500 friends. Use the plus-four method to find a 90 percent confidence interval for the true proportion of teens who would report having more than 500 online friends based on this larger sample. Compare the results to those in <url href="" />.
+        <p>The research group referenced in <xref ref="ch8-eip-790"/> talked to teens in smaller focus groups but also interviewed additional teens over the phone. When the study was complete, 588 teens had answered the question about their social media site friends, with 159 saying that they have more than 500 friends. Use the plus-four method to find a 90 percent confidence interval for the true proportion of teens who would report having more than 500 online friends based on this larger sample. Compare the results to those in <xref ref="ch8-eip-790"/>.
      </p>
       </statement>
       <solution>
@@ -2454,7 +2454,7 @@ Check the Real Estate section in your local newspaper. Record the sale prices fo
           <li>
             <p>Complete the following table:</p>
             <table xml:id="tableone32">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
                 <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
                 <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
@@ -2492,7 +2492,7 @@ line with the upper and lower limits of the confidence interval and the sample m
           <li>
             <p>Using the given information, construct a confidence interval for each confidence level given.</p>
             <table xml:id="id3675asdffgh75848jhgf538">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row><cell>Confidence Level</cell><cell><m>EBM</m>/Error Bound</cell><cell>Confidence Interval</cell></row>
                 <row><cell>50%</cell><cell></cell><cell></cell></row>
                 <row><cell>80%</cell><cell></cell><cell></cell></row>
@@ -2541,7 +2541,7 @@ line with the upper and lower limits of the confidence interval and the sample m
           <li>
             <p>Construct a confidence interval for each confidence level given.</p>
             <table xml:id="id6699poi200">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row><cell>Confidence Level</cell><cell><m>EBP</m>/Error Bound</cell><cell>Confidence Interval</cell></row>
                 <row><cell>50%</cell><cell></cell><cell></cell></row>
                 <row><cell>80%</cell><cell></cell><cell></cell></row>
@@ -2576,7 +2576,7 @@ line with the upper and lower limits of the confidence interval and the sample m
           <li>
             <p>Now write your confidence interval on the board. As others in the class write their confidence intervals on the board, copy them into .</p>
             <table xml:id="ch8-element-838">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
                 <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
                 <row><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell><cell>__________</cell></row>
@@ -2853,7 +2853,7 @@ line with the upper and lower limits of the confidence interval and the sample m
         <statement>
           <p>The Federal Election Commission collects information about campaign contributions and disbursements for candidates and political committees during each election cycle. During the 2012 campaign season, there were 1,619 candidates for the House of Representatives across the United States who received contributions from individuals. <xref ref="M02_CH08-tbl003" /> shows the total receipts from individuals for a random selection of 40 House candidates rounded to the nearest $100. The standard deviation for this data to the nearest hundred is <em>σ</em> = $909,200.</p>
           <table xml:id="M02_CH08-tbl003">
-            <tabular halign="l l l l l">
+          <title>Data Table</title><tabular halign="l l l l l">
               <row>
                 <cell>$3,600</cell>
                 <cell>$1,243,900</cell>
@@ -3137,7 +3137,7 @@ line with the upper and lower limits of the confidence interval and the sample m
           <p>The Federal Election Commission (FEC) collects information about campaign contributions and disbursements for candidates and political committees during each election cycle. A political action committee (PAC) is a committee formed to raise money for candidates and campaigns. A Leadership PAC is a PAC formed by a federal politician (senator or representative) to raise money to help other candidates’ campaigns.</p>
           <p>The FEC has reported financial information for 556 Leadership PACs that operated during the 2011–2012 election cycle. The following table shows the total receipts during this cycle for a random selection of 20 Leadership PACs.</p>
           <table xml:id="ch8-eip-146">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row>
                 <cell>$46,500.00</cell>
                 <cell>$0</cell>
@@ -3220,7 +3220,7 @@ line with the upper and lower limits of the confidence interval and the sample m
     </p>
 
           <table xml:id="ch8-eip-884">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row>
                 <cell>48</cell>
                 <cell>58</cell>
@@ -3518,7 +3518,7 @@ line with the upper and lower limits of the confidence interval and the sample m
       <exercise xml:id="exe1">
         <title>Try It</title>
         <statement>
-          <p>Refer to  the information in <url href="" />.</p>
+          <p>Refer to the information in <xref ref="ch8-eip-idp49345824"/>.</p>
           <ol>
             <li>Construct three 95 percent confidence intervals:
    

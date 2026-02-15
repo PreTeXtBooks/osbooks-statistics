@@ -6,7 +6,7 @@
   <section xml:id="fs-id1168975964661">
     <title>English Phrases Written Mathematically</title>
     <table xml:id="id7514633">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell>When the English says:</cell>
           <cell>Interpret this as:</cell>
@@ -254,7 +254,7 @@
   <section xml:id="eip-663">
     <title>Symbols and Their Meanings</title>
     <table xml:id="id7923354">
-      <title>Symbols and their Meanings</title>
+          <title>Data Table</title> <title>Symbols and their Meanings</title>
       <tabular>
         <row header="yes">
           <cell>Chapter (1st used)</cell>

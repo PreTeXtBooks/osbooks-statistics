@@ -125,7 +125,7 @@
         <statement>
           <p>Three different traffic routes are tested for mean driving time. The entries in the  are the driving times in minutes on the three different routes.</p>
           <table xml:id="ch13-m79703-eip-24">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell>Route 1</cell><cell>Route 2</cell><cell>Route 3</cell></row>
               <row><cell>30</cell><cell>27</cell><cell>16</cell></row>
               <row><cell>32</cell><cell>29</cell><cell>41</cell></row>
@@ -174,7 +174,7 @@
         <li><m>SS</m>_{within} = the sum of squares that represents the variation within samples that is due to chance</li>
       </ul>
       <p>To find a <em>sum of squares</em> mean, add together squared quantities which, in some
-cases, may be weighted. We used sum of squares to calculate the sample variance and the sample standard deviation in <url href="m79599">Descriptive Statistics</url>.</p>
+cases, may be weighted. We used sum of squares to calculate the sample variance and the sample standard deviation in <xref ref="ch02-descriptive-statistics">Descriptive Statistics</xref>.</p>
       <p><m>MS</m> means <em>mean square</em>. <m>MS</m>_{between} is the variance between groups, and <m>MS</m>_{within} is the variance within groups.</p>
       <ul>
         <li><m>k</m> = the number of different groups</li>
@@ -218,7 +218,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
       </ul>
       <p>Data is typically put into a table for easy viewing. One-way ANOVA results are often displayed in this manner by computer software.</p>
       <table xml:id="ch13-m79704-eip-id1172021872456">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Source of Variation</cell><cell>Sum of Squares (<m>SS</m>)</cell><cell>Degrees of Freedom (<m>df</m>)</cell><cell>Mean Square (<m>MS</m>)</cell><cell><m>F</m></cell></row>
           <row><cell>Factor <nbsp/>(Between)</cell><cell><m>SS</m>(Factor)</cell><cell><m>k</m> – 1</cell><cell><m>MS</m>(Factor) = <m>SS</m>(Factor)/(<m>k</m> – 1)</cell><cell><m>F</m> = <m>MS</m>(Factor)/<m>MS</m>(Error)</cell></row>
           <row><cell>Error <nbsp/>(Within)</cell><cell><m>SS</m>(Error)</cell><cell><m>n</m> – <m>k</m></cell><cell><m>MS</m>(Error) = <m>SS</m>(Error)/(<m>n</m> – <m>k</m>)</cell><cell></cell></row>
@@ -294,7 +294,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
     <subsection xml:id="ch13-m79704-fs-idm89796288">
       <p><em>Use the following information to answer the next seven exercises.</em> Groups of men from three different areas of the country are to be tested for mean weight. The entries in  are the weights for the different groups.</p>
       <table xml:id="ch13-m79704-eip-556">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Group 1</cell><cell>Group 2</cell><cell>Group 3</cell></row>
           <row><cell>216</cell><cell>202</cell><cell>170</cell></row>
           <row><cell>198</cell><cell>213</cell><cell>165</cell></row>
@@ -352,7 +352,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
       </exercise>
       <p><nbsp/><em>Use the following information to answer the next eight exercises.</em> Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in  are the goals per game for the different teams.</p>
       <table xml:id="ch13-m79704-eip-461">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Team 1</cell><cell>Team 2</cell><cell>Team 3</cell><cell>Team 4</cell></row>
           <row><cell>1</cell><cell>2</cell><cell>0</cell><cell>3</cell></row>
           <row><cell>2</cell><cell>3</cell><cell>1</cell><cell>4</cell></row>
@@ -420,7 +420,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
       <p><em>Use the following information to answer the next three exercises.</em> Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.
 Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.</p>
       <table xml:id="ch13-m79704-eip-idp64551440">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell></cell><cell>Northeast</cell><cell>South</cell><cell>West</cell><cell>Central</cell><cell>East</cell></row>
           <row><cell></cell><cell>16.3</cell><cell>16.9</cell><cell>16.4</cell><cell>16.2</cell><cell>17.1</cell></row>
           <row><cell></cell><cell>16.1</cell><cell>16.5</cell><cell>16.5</cell><cell>16.6</cell><cell>17.2</cell></row>
@@ -472,7 +472,7 @@ Suppose that the following data are randomly collected from five teenagers in ea
       </figure>
       <example xml:id="ch13-m79705-eip-353">
         <statement>
-          <p>Let’s return to the slicing tomato exercise in <url href="m79704"></url>. The means of the tomato yields under the five mulching conditions are represented by <m>μ</m>_{1}, <m>μ</m>_{2}, <m>μ</m>_{3}, <m>μ</m>_{4}, <m>μ</m>_{5}. We will conduct a hypothesis test to determine if all means are the same or at least one is different. Using a significance level of 5 percent, test the null hypothesis that there is no difference in mean yields among the five groups against the alternative hypothesis that at least one mean is different from the rest.</p>
+          <p>Let’s return to the slicing tomato exercise in <xref ref="sec-f-distribution"/>. The means of the tomato yields under the five mulching conditions are represented by <m>μ</m>_{1}, <m>μ</m>_{2}, <m>μ</m>_{3}, <m>μ</m>_{4}, <m>μ</m>_{5}. We will conduct a hypothesis test to determine if all means are the same or at least one is different. Using a significance level of 5 percent, test the null hypothesis that there is no difference in mean yields among the five groups against the alternative hypothesis that at least one mean is different from the rest.</p>
         </statement>
         <solution>
           <p>The null and alternative hypotheses are  as follows:</p>
@@ -616,7 +616,7 @@ sororities?</p>
         </solution>
       </exercise>
       <note xml:id="ch13-m79705-element-866">
-        <p>From the class, create four groups of the same size as follows: men under 22, men at least 22, women under 22, women at least 22. Have each member of each group record the number of states in the United States he or she has visited. Run an ANOVA test to determine if the average number of states visited in the four groups are the same. Test at a 1 percent level of significance. Use one of the solution sheets in <url href="m79714">Appendix E</url>.</p>
+        <p>From the class, create four groups of the same size as follows: men under 22, men at least 22, women under 22, women at least 22. Have each member of each group record the number of states in the United States he or she has visited. Run an ANOVA test to determine if the average number of states visited in the four groups are the same. Test at a 1 percent level of significance. Use one of the solution sheets in <xref ref="appendix-e-solution-sheets">Appendix E</xref>.</p>
       </note>
     </subsection>
 
@@ -633,7 +633,7 @@ sororities?</p>
     <subsection xml:id="ch13-m79705-fs-idm51047200">
       <title>Chapter Review</title>
       <p>The graph of the <m>F</m> distribution is always positive and skewed right, though the shape can be mounded or exponential depending on the combination of numerator and denominator degrees of freedom. The <m>F</m> statistic is the ratio of a measure of the variation in the group means to a similar measure of the variation within the groups. If the null hypothesis is correct, then the numerator should be small compared to the denominator. A small <m>F</m> statistic will result, and the area under the <m>F</m> curve to the right will be large, representing a large <m>p</m>-value. When the null hypothesis of equal group means is incorrect, then the numerator should be large compared to the denominator, giving a large <m>F</m> statistic and a small area (small <m>p</m>-value) to the right of the statistic under the <m>F</m> curve.</p>
-      <p>When the data have unequal group sizes (unbalanced data), then techniques from <url href="m79704">The F Distribution and the F Ratio</url> need to be used for hand calculations. In the case of balanced data, where the groups are the same size, simplified calculations based on group means and variances may be used. In practice, software is usually employed in the analysis. As in any analysis, graphs of various sorts should be used in conjunction with numerical techniques. Always look at your data!</p>
+      <p>When the data have unequal group sizes (unbalanced data), then techniques from <xref ref="sec-f-distribution">The F Distribution and the F Ratio</xref> need to be used for hand calculations. In the case of balanced data, where the groups are the same size, simplified calculations based on group means and variances may be used. In practice, software is usually employed in the analysis. As in any analysis, graphs of various sorts should be used in conjunction with numerical techniques. Always look at your data!</p>
     </subsection>
 
     <subsection xml:id="ch13-m79705-fs-idp110212080">
@@ -652,7 +652,7 @@ sororities?</p>
       </exercise>
       <p><em>Use the following information to answer the next seven exercises.</em> Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in .</p>
       <table xml:id="ch13-m79705-eip-497">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Team 1</cell><cell>Team 2</cell><cell>Team 3</cell><cell>Team 4</cell><cell>Team 5</cell></row>
           <row><cell>36</cell><cell>32</cell><cell>48</cell><cell>38</cell><cell>41</cell></row>
           <row><cell>42</cell><cell>35</cell><cell>50</cell><cell>44</cell><cell>39</cell></row>
@@ -705,7 +705,7 @@ sororities?</p>
       </exercise>
       <p><nbsp/><em>Use the following information to answer the next seven exercises.</em> A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in .</p>
       <table xml:id="ch13-m79705-eip-546">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Group A</cell><cell>Group B</cell><cell>Group C</cell></row>
           <row><cell>101</cell><cell>151</cell><cell>101</cell></row>
           <row><cell>108</cell><cell>149</cell><cell>109</cell></row>
@@ -764,7 +764,7 @@ sororities?</p>
       </exercise>
       <p><nbsp/><em>Use the following information to answer the next three exercises.</em> Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country. Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.</p>
       <table xml:id="ch13-m79705-element-25">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell></cell><cell>Northeast</cell><cell>South</cell><cell>West</cell><cell>Central</cell><cell>East</cell></row>
           <row><cell></cell><cell>16.3</cell><cell>16.9</cell><cell>16.4</cell><cell>16.2</cell><cell>17.1</cell></row>
           <row><cell></cell><cell>16.1</cell><cell>16.5</cell><cell>16.5</cell><cell>16.6</cell><cell>17.2</cell></row>
@@ -801,13 +801,13 @@ sororities?</p>
       <title>Homework</title>
       <note xml:id="ch13-m79705-fs-idm3376448">
         <title>DIRECTIONS</title>
-        <p>Use a solution sheet to conduct the following hypothesis tests. The solution sheet can be found in <url href="m79714">Appendix E</url>.</p>
+        <p>Use a solution sheet to conduct the following hypothesis tests. The solution sheet can be found in <xref ref="appendix-e-solution-sheets">Appendix E</xref>.</p>
       </note>
       <exercise xml:id="ch13-m79705-element-240">
         <statement>
           <p>Three students, Linda, Tuan, and Javier, are given five laboratory rats each for a nutritional experiment. Each rat’s weight is recorded in grams. Linda feeds her rats Formula A, Tuan feeds his rats Formula B, and Javier feeds his rats Formula C. At the end of a specified time period, each rat is weighed again, and the net gain in grams is recorded. Using a significance level of 10 percent, test the hypothesis that the three formulas produce the same mean weight gain.</p>
           <table xml:id="ch13-m79705-id348a5492">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell>Linda’s Rats (g)</cell><cell>Tuan’s Rats (g)</cell><cell>Javier’s Rats (g)</cell></row>
               <row><cell>43.5</cell><cell>47.0</cell><cell>51.2</cell></row>
               <row><cell>39.4</cell><cell>40.5</cell><cell>40.9</cell></row>
@@ -835,7 +835,7 @@ sororities?</p>
         <statement>
           <p>A grassroots group opposed to a proposed increase in the gas tax claimed that the increase would hurt working-class people the most since they commute the farthest to work. Suppose that the group randomly surveyed 24 individuals and asked them their daily one-way commuting mileage. The results are in . Using a 5 percent significance level, test the hypothesis that the three mean commuting mileages are the same.</p>
           <table xml:id="ch13-m79705-idgh7333173">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell>Working-Class</cell><cell>Professional (middle incomes)</cell><cell>Professional (wealthy)</cell></row>
               <row><cell>17.8</cell><cell>16.5</cell><cell>8.5</cell></row>
               <row><cell>26.7</cell><cell>17.4</cell><cell>6.3</cell></row>
@@ -851,7 +851,7 @@ sororities?</p>
       </exercise>
       <p><em>Use the following information to answer the next two exercises.</em>  lists the number of pages in four different types of magazines.</p>
       <table xml:id="ch13-m79705-id7236751">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Home Decorating</cell><cell>News</cell><cell>Health</cell><cell>Computer</cell></row>
           <row><cell>172</cell><cell>87</cell><cell>82</cell><cell>104</cell></row>
           <row><cell>286</cell><cell>94</cell><cell>153</cell><cell>136</cell></row>
@@ -1007,7 +1007,7 @@ Conclusion: _______________________________________________________________</li>
           <p>DDT is a pesticide that has been banned from use in the United States and most other areas of the world. It is quite effective but persisted in the environment and over time proved to be harmful to higher-level organisms. Famously, egg shells of eagles and other raptors were believed to be thinner and prone to breakage in the nest because of ingestion of DDT in the food chain of the birds.</p>
           <p>An experiment was conducted on the number of eggs (fecundity) laid by female fruit flies. There are three groups of flies. One group was bred to be resistant to DDT (the RS group). Another was bred to be especially susceptible to DDT (SS). The third group was a control line of nonselected or typical fruit flies (NS). Here are the data:</p>
           <table xml:id="ch13-m79705-eip-180">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell>RS</cell><cell>SS</cell><cell>NS</cell><cell>RS</cell><cell>SS</cell><cell>NS</cell></row>
               <row><cell>12.8</cell><cell>38.4</cell><cell>35.4</cell><cell>22.4</cell><cell>23.1</cell><cell>22.6</cell></row>
               <row><cell>21.6</cell><cell>32.9</cell><cell>27.4</cell><cell>27.5</cell><cell>29.4</cell><cell>40.4</cell></row>
@@ -1283,7 +1283,7 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
       </exercise>
       <p><em>Use the following information to answer the next two exercises.</em> The following table lists the number of pages in four different types of magazines.</p>
       <table xml:id="ch13-m79706-id7236751">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Home Decorating</cell><cell>News</cell><cell>Health</cell><cell>Computer</cell></row>
           <row><cell>172</cell><cell>87</cell><cell>82</cell><cell>104</cell></row>
           <row><cell>286</cell><cell>94</cell><cell>153</cell><cell>136</cell></row>
@@ -1309,7 +1309,7 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
         <statement>
           <p>Is the variance for the amount of money, in dollars, that shoppers spend on Saturdays at the mall the same as the variance for the amount of money that shoppers spend on Sundays at the mall? Suppose that  shows the results of a study.</p>
           <table xml:id="ch13-m79706-eip-id1164421796243">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell>Saturday</cell><cell>Sunday</cell><cell>Saturday</cell><cell>Sunday</cell></row>
               <row><cell>75</cell><cell>44</cell><cell>62</cell><cell>137</cell></row>
               <row><cell>18</cell><cell>58</cell><cell>0</cell><cell>82</cell></row>

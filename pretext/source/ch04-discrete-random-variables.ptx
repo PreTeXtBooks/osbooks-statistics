@@ -142,7 +142,7 @@
       </exercise>
       <p><nbsp/><em>Use the following information to answer the next four exercises:</em> A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.</p>
       <table xml:id="fs-idm43289680">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell><m>x</m></cell><cell><m>P</m>(<m>x</m>)</cell></row>
           <row><cell>1</cell><cell>.15</cell></row>
           <row><cell>2</cell><cell>.35</cell></row>
@@ -268,7 +268,7 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
           <p>The expected value/mean is 1.1. The men's soccer team would, on the average, expect to play soccer 1.1 days per week. The number 1.1 is the long-term average or expected value if the men's soccer team plays soccer week after week after week.</p>
         </statement>
       </example>
-      <p>As you learned in <url href="m79609">Chapter 3</url>, if you toss a fair coin, the probability that the result is heads is 0.5. This probability is a theoretical probability, which is what we expect to happen. This probability does not describe the short-term results of an experiment. If you flip a coin two times, the probability does not tell you that these flips will result in one head and one tail. Even if you flip a coin 10 times or 100 times, the probability does not tell you that you will get half tails and half heads. The probability gives information about what can be expected in the long term. To demonstrate this, Karl Pearson once tossed a fair coin 24,000 times! He recorded the results of each toss, obtaining heads 12,012 times. The relative frequency of heads is 12,012/24,000 = .5005, which is very close to the theoretical probability .5. In his experiment, Pearson illustrated the law of large numbers.</p>
+      <p>As you learned in <xref ref="ch03-probability-topics">Chapter 3</xref>, if you toss a fair coin, the probability that the result is heads is 0.5. This probability is a theoretical probability, which is what we expect to happen. This probability does not describe the short-term results of an experiment. If you flip a coin two times, the probability does not tell you that these flips will result in one head and one tail. Even if you flip a coin 10 times or 100 times, the probability does not tell you that you will get half tails and half heads. The probability gives information about what can be expected in the long term. To demonstrate this, Karl Pearson once tossed a fair coin 24,000 times! He recorded the results of each toss, obtaining heads 12,012 times. The relative frequency of heads is 12,012/24,000 = .5005, which is very close to the theoretical probability .5. In his experiment, Pearson illustrated the law of large numbers.</p>
       <p>The law of large numbers states that, as the number of trials in a probability experiment increases, the difference between the theoretical probability of an event and the relative frequency approaches zero (the theoretical probability and the relative frequency get closer and closer together). The relative frequency is also called the experimental probability, a term that means what actually happens.</p>
       <p>In the next example, we will demonstrate how to find the expected value and <term>standard deviation of a discrete probability distribution</term> by using relative frequency.</p>
       <p>Like data, probability distributions have variances and standard deviations. The variance of a probability distribution is symbolized as <m>\sigma^{2}</m> and the standard deviation of a probability distribution is symbolized as <m>σ</m>. Both are parameters since they summarize information about a population. To find the variance <m>\sigma^{2}</m> of a discrete probability distribution, find each deviation from its expected value, square it, multiply it by its probability, and add the products. To find the standard deviation <m>σ</m> of a probability distribution, simply take the square root of variance <m>\sigma^{2}</m>. The formulas are given as below.</p>
@@ -412,7 +412,7 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
       </exercise>
       <p><em>Use the following information to answer the next five exercises:</em> A physics professor wants to know what percent of physics majors will spend the next several years doing postgraduate research. He has the following probability distribution:</p>
       <table xml:id="fs-idm82264048">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell><m>x</m></cell><cell><m>P</m>(<m>x</m>)</cell><cell><m>x</m>*<m>P</m>(<m>x</m>)</cell></row>
           <row><cell>1</cell><cell>.35</cell><cell></cell></row>
           <row><cell>2</cell><cell>.20</cell><cell></cell></row>
@@ -665,7 +665,7 @@ Biotech Firm
         <statement>
           <p>Suppose that 20,000 married adults in the United States were randomly surveyed as to the number of children they have. The results are compiled and are used as theoretical probabilities. Let <m>X</m> = the number of children married people have.</p>
           <table xml:id="id48895k006">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell><m>x</m></cell><cell><m>P</m>(<m>x</m>)</cell><cell><m>x</m><m>P</m>(<m>x</m>)</cell></row>
               <row><cell>0</cell><cell>.10</cell><cell></cell></row>
               <row><cell>1</cell><cell>.20</cell><cell></cell></row>
@@ -767,7 +767,7 @@ It doesn’t matter. I expect to break even.</p>
         <solution>
           <p>Let <m>X</m> = the amount of money to be won on a ticket. The following table shows the PDF for <m>X</m>:</p>
           <table xml:id="fs-idm110559056">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell><m>x</m></cell><cell><m>P</m>(<m>x</m>)</cell></row>
               <row><cell>0</cell><cell>.969</cell></row>
               <row><cell>5</cell><cell><m>\frac{\text{250}}{\text{10,000}}</m> = .025</cell></row>

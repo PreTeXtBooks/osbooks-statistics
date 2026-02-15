@@ -47,7 +47,7 @@
       <p>Toss a coin 10 times and record the number of heads. After all members of the class have completed the experiment (tossed a coin 10 times and counted the number of heads), fill in the table below. Let <em>X</em> = the number of heads in 10 tosses of the coin.</p>
 
       <table xml:id="tbl-ch04-intro-collab">
-        <title>Coin Toss Results</title>
+          <title>Data Table</title> <title>Coin Toss Results</title>
         <tabular>
           <row header="yes">
             <cell><em>x</em></cell>
@@ -118,7 +118,7 @@
           <p><em>P</em>(<em>x</em>) = probability that <em>X</em> takes on a value <em>x</em>.</p>
 
           <table xml:id="tbl-ch04-pdf-example-1">
-            <title>PDF for Newborn Waking Mother</title>
+          <title>Data Table</title> <title>PDF for Newborn Waking Mother</title>
             <tabular>
               <row header="yes">
                 <cell><em>x</em></cell>
@@ -170,7 +170,7 @@
         <p>A hospital researcher is interested in the number of times the average post-op patient will ring the nurse during a 12-hour shift. For a random sample of 50 patients, the following information was obtained. Let <em>X</em> = the number of times a patient rings the nurse during a 12-hour shift. For this exercise, <em>x</em> = 0, 1, 2, 3, 4, 5. <em>P</em>(<em>x</em>) = the probability that <em>X</em> takes on value <em>x</em>. Why is this a discrete probability distribution function (two reasons)?</p>
 
         <table xml:id="tbl-ch04-tryit-1">
-          <tabular halign="center">
+          <title>Data Table</title><tabular halign="center">
             <row header="yes">
               <cell><em>X</em></cell>
               <cell><em>P</em>(<em>x</em>)</cell>
@@ -234,7 +234,7 @@
           <solution>
             <p>c.</p>
             <table xml:id="tbl-ch04-nancy-pdf">
-              <title>Nancy's Class Attendance PDF</title>
+          <title>Data Table</title> <title>Nancy's Class Attendance PDF</title>
               <tabular>
                 <row header="yes">
                   <cell><em>x</em></cell>
@@ -374,7 +374,7 @@
              value by its probability.
           </p>
           <table xml:id="element-749">
-            <title>Expected Value Table</title>
+          <title>Data Table</title> <title>Expected Value Table</title>
             <tabular>
               <row header="yes">
                 <cell>
@@ -510,7 +510,7 @@
             ).
           </p>
           <table xml:id="fs-id1164567284598">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row header="yes">
                 <cell>
                   <em>x</em>
@@ -610,7 +610,7 @@
              to get the following table:
           </p>
           <table xml:id="fs-id1164567849065">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row header="yes">
                 <cell>
                   <em>x</em>
@@ -766,7 +766,7 @@
           <statement>
             <p xml:id="fs-idm86997008">A hospital researcher is interested in the number of times the average post-op patient will ring the nurse during a 12-hour shift. For a random sample of 50 patients, the following information was obtained. What is the expected value?</p>
             <table xml:id="fs-idm56815952">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row header="yes">
                   <cell>
                     <em>x</em>
@@ -933,7 +933,7 @@
           </p>
           <p xml:id="fs-id1164565532486">The PDF table is as follows:</p>
           <table xml:id="element-480">
-            <title/>
+          <title>Data Table</title><title/>
             <tabular>
               <row header="yes">
                 <cell/>
@@ -1044,7 +1044,7 @@
           <statement>
             <p xml:id="element-597">b. Complete the following expected value table.</p>
             <table xml:id="element-644">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row header="yes">
                   <cell/>
                   <cell>
@@ -1075,7 +1075,7 @@
           <solution>
             <p xml:id="fs-idm44109456">b.</p>
             <table xml:id="element-644s">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row header="yes">
                   <cell/>
                   <cell><em>x</em></cell>
@@ -1138,7 +1138,7 @@
               . If you land on red, you pay $10. If you land on blue, you don't pay or win anything. If you land on green, you win $10. Complete the following expected value table.
             </p>
             <table xml:id="fs-idm71508016">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row header="yes">
                   <cell/>
                   <cell>
@@ -1179,7 +1179,7 @@
           </statement>
           <solution>
             <table xml:id="fs-idm141334512">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row header="yes">
                   <cell/>
                   <cell>
@@ -1268,7 +1268,7 @@
           <solution>
             <p xml:id="fs-idm86008592">Tossing one fair six-sided die twice has the same sample space as tossing two fair six-sided dice. The sample space has 36 outcomes.</p>
             <table xml:id="fs-idm21999584">
-              <tabular>
+          <title>Data Table</title><tabular>
                 <row>
                   <cell>(1, 1)</cell>
                   <cell>(1, 2)</cell>
@@ -1321,7 +1321,7 @@
             </table>
             <p xml:id="fs-idm130208640">Use the sample space to complete the following table.</p>
             <table xml:id="fs-idp385088">
-              <title>Calculating μσ</title>
+          <title>Data Table</title> <title>Calculating μσ</title>
               <tabular>
                 <row header="yes">
                   <cell>
@@ -1455,7 +1455,7 @@
       <statement>
         <p xml:id="fs-idm42698096">Complete the expected value table.</p>
         <table xml:id="fs-idp12281248">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>
                 <em>x</em>
@@ -1503,7 +1503,7 @@
       <statement>
         <p xml:id="fs-idp41672272">Find the expected value from the expected value table.</p>
         <table xml:id="fs-idm121788096">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>
                 <em>x</em>
@@ -1554,7 +1554,7 @@
       <statement>
         <p xml:id="fs-idm134246528">Find the standard deviation.</p>
         <table xml:id="fs-idm133091552">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>
                 <em>x</em>
@@ -1617,7 +1617,7 @@
       <statement>
         <p xml:id="fs-idm54877632">Identify the mistake in the probability distribution table.</p>
         <table xml:id="fs-idm39458912">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>
                 <em>x</em>
@@ -1679,7 +1679,7 @@
       <statement>
         <p xml:id="fs-idm15847472">Identify the mistake in the probability distribution table.</p>
         <table xml:id="fs-idp41547808">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>
                 <em>x</em>
@@ -1733,7 +1733,7 @@
        A physics professor wants to know what percent of physics majors will spend the next several years doing postgraduate research. He has the following probability distribution:
     </p>
     <table xml:id="fs-idm82264048">
-      <tabular>
+          <title>Data Table</title><tabular>
         <row header="yes">
           <cell>
             <em>x</em>
@@ -1876,7 +1876,7 @@
            using the data provided.
         </p>
         <table xml:id="M02_Ch04_tbl021">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>
                 <em>x</em>
@@ -2074,7 +2074,7 @@
            to determine the expected value.
         </p>
         <table xml:id="eip-id1164878717794">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>Card Event</cell>
               <cell>
@@ -2136,7 +2136,7 @@
       <statement>
         <p xml:id="element-640">Complete the PDF and answer the questions.</p>
         <table xml:id="id4858kj4983">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>
                 <em>x</em>
@@ -2277,7 +2277,7 @@
           .
         </p>
         <table xml:id="id488jhjhj72479">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>
                 <em>x</em>
@@ -2321,7 +2321,7 @@
       <statement>
         <p xml:id="fs-idp126182848">People visiting video rental stores often rent more than one DVD at a time. The probability distribution for DVD rentals per customer at Video to Go is given in the following table. There is a five-video limit per customer at this store, so nobody ever rents more than five DVDs.</p>
         <table xml:id="fs-idp126183520">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell>
                 <em>x</em>
@@ -2817,7 +2817,7 @@ It doesn’t matter. I expect to break even.
             <p><em>X</em> ∼ <em>B</em>(50, 0.6)</p>
           </li>
           <li>
-            <p>Using the TI-83, 83+, 84 calculator with instructions as provided in <url href=""></url>:</p>
+            <p>Using the TI-83, 83+, 84 calculator with instructions as provided in <xref ref="appendix-g-calculator-notes">Appendix G</xref>:</p>
             <ol marker="1.">
               <li>
                 <p><em>P</em>(<em>x</em> = 25) = binompdf(50, 0.6, 25) = 0.0405</p>
@@ -2877,7 +2877,7 @@ It doesn’t matter. I expect to break even.
           </ol>
         </li>
         <li>
-          <p>Using the TI-83, 83+, 84 calculator with instructions as provided in <url href=""></url>:
+          <p>Using the TI-83, 83+, 84 calculator with instructions as provided in <xref ref="appendix-g-calculator-notes">Appendix G</xref>:
  <em>P</em>(<em>x</em> ≤ 8) = binomcdf(200, .0128, 8) = .9988</p>
         </li>
         <li>
@@ -2927,7 +2927,7 @@ It doesn’t matter. I expect to break even.
             </ol>
           </li>
           <li>
-            <p>Using the TI-83, 83+, 84 calculator with instructions as provided in <url href=""></url>:
+            <p>Using the TI-83, 83+, 84 calculator with instructions as provided in <xref ref="appendix-g-calculator-notes">Appendix G</xref>:
  <em>P</em>(<em>x</em> = 60) = binompdf(80, 0.613, 60) = 0.0036</p>
           </li>
           <li>
@@ -3154,10 +3154,10 @@ It doesn’t matter. I expect to break even.
       <exercise xml:id="fs-idp24682912">
         <statement>
           <p>
-            People visiting video rental stores often rent more than one DVD at a time. The probability distribution for DVD rentals per customer at Video to Go is given <url href=""></url>. There is a five-video limit per customer at this store, so nobody ever rents more than five DVDs.
+            People visiting video rental stores often rent more than one DVD at a time. The probability distribution for DVD rentals per customer at Video to Go is given in <xref ref="M04_Ch04_tbl005"/>. There is a five-video limit per customer at this store, so nobody ever rents more than five DVDs.
           </p>
           <table xml:id="M04_Ch04_tbl005">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row header="yes">
                 <cell><em>x</em></cell>
                 <cell><em>P</em>(<em>x</em>)</cell>
@@ -3742,7 +3742,7 @@ It doesn’t matter. I expect to break even.
           <p>A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.</p>
   
           <table xml:id="tbl-ch04-hw-baker">
-            <tabular halign="center">
+          <title>Data Table</title><tabular halign="center">
               <row header="yes">
                 <cell><em>x</em></cell>
                 <cell><em>P</em>(<em>x</em>)</cell>
@@ -3805,7 +3805,7 @@ It doesn’t matter. I expect to break even.
         <statement>
           <p>Suppose that the PDF for the number of years it takes to earn a bachelor of science (B.S.) degree is given in the table below.</p>
           <table xml:id="table-ch04-pdf-bs-degree">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row header="yes">
                 <cell><em>x</em></cell>
                 <cell><em>P</em>(<em>x</em>)</cell>
@@ -3857,7 +3857,7 @@ It doesn’t matter. I expect to break even.
         <statement>
           <p>Complete the table using the data provided.</p>
           <table xml:id="tbl-ch04-practice-attrition">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row header="yes">
                 <cell><em>x</em></cell>
                 <cell><em>P</em>(<em>x</em>)</cell>
@@ -3895,7 +3895,7 @@ It doesn’t matter. I expect to break even.
         </statement>
         <solution>
           <table xml:id="tbl-ch04-practice-attrition-solution">
-            <tabular halign="center">
+          <title>Data Table</title><tabular halign="center">
               <row header="yes">
                 <cell><em>x</em></cell>
                 <cell><em>P</em>(<em>x</em>)</cell>
@@ -4006,7 +4006,7 @@ It doesn’t matter. I expect to break even.
           Construct the probability distribution function (PDF).
         </p>
         <table xml:id="id7383862">
-          <tabular>
+          <title>Data Table</title><tabular>
             <row header="yes">
               <cell><em>x</em></cell>
               <cell><em>P</em>(<em>x</em>)</cell>

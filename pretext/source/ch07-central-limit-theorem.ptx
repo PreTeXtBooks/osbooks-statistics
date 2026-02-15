@@ -1080,7 +1080,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
 <li>Count the change in your pocket. (Do not include bills.)</li>
 <li>Randomly survey 30 classmates. Record the values of the change in <xref ref="Ch07_lab1_tbl001" />.
 <table xml:id="Ch07_lab1_tbl001">
-<title />
+          <title>Data Table</title><title />
 <tabular>
 <row>
 <cell>__________</cell>
@@ -1151,7 +1151,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
 <li>Randomly survey 30 <em>pairs</em> of classmates.</li>
 <li>Record the values of the average of their change in <xref ref="Ch07_lab1_tbl002" />.
 <table xml:id="Ch07_lab1_tbl002">
-<title />
+          <title>Data Table</title><title />
 <tabular>
 <row>
 <cell>__________</cell>
@@ -1223,7 +1223,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
 <li>Randomly survey 30 <em>groups of five</em> classmates.</li>
 <li>Record the values of the averages of their change.
 <table xml:id="Ch07_lab1_tbl003">
-<title />
+          <title>Data Table</title><title />
 <tabular>
 <row>
 <cell>__________</cell>
@@ -1317,7 +1317,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
     </p>
     
     <table xml:id="tableones23">
-      <title>Recipe Data</title>
+          <title>Data Table</title> <title>Recipe Data</title>
       <tabular>
         <row header="yes">
           <cell halign="center">Recipe #</cell>
@@ -1547,7 +1547,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       <li>
         Complete the following table:
         <table xml:id="Ch07_lab2_tbl002">
-          <title>Sample Data (n = 5)</title>
+          <title>Data Table</title> <title>Sample Data (n = 5)</title>
           <tabular>
             <row header="yes">
               <cell />
@@ -1620,7 +1620,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       <li>
         Again, use a random number generator to randomly select four samples from the population. This time, make the samples of size <em>n</em> = 10. Record the samples in <xref ref="Ch07_lab2_tbl003" />. As before, for each sample, calculate the mean to the nearest tenth. Record them in the spaces provided. Record the sample means for the rest of the class.
         <table xml:id="Ch07_lab2_tbl003">
-          <title>Sample Data (n = 10)</title>
+          <title>Data Table</title> <title>Sample Data (n = 10)</title>
           <tabular halign="center">
             <row header="yes">
               <cell />
@@ -2102,7 +2102,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
         <statement>
           <p>The closing stock prices of 35 U.S. semiconductor manufacturers are given as follows:</p>
           <table xml:id="ch7-fs-id1169831699204">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row header="yes"><cell>Company</cell> <cell>Closing Stock Prices</cell></row>
               <row><cell>1</cell> <cell>8.625</cell></row>
               <row><cell>2</cell> <cell>30.25</cell></row>
@@ -2409,7 +2409,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
         <statement>
           <p>Large bags of a brand of  multicolored candies have a claimed net weight of 396.9 g. The standard deviation for the weight of the individual candies is 0.017 g. The following table is from a stats experiment conducted by a statistics class.</p>
           <table xml:id="ch7-fs-idm55488384">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row header="yes"><cell>Red (g)</cell> <cell>Orange (g)</cell> <cell>Yellow (g)</cell> <cell>Brown (g)</cell> <cell>Blue (g)</cell> <cell>Green (g)</cell></row>
               <row><cell>0.751</cell> <cell>0.735</cell> <cell>0.883</cell> <cell>0.696</cell> <cell>0.881</cell> <cell>0.925</cell></row>
               <row><cell>0.841</cell> <cell>0.895</cell> <cell>0.769</cell> <cell>0.876</cell> <cell>0.863</cell> <cell>0.914</cell></row>
@@ -2460,7 +2460,7 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
         <statement>
           <p>The Screw Right Company claims their <m>\frac{3}{4}</m>inch screws are within ±0.23 of the claimed mean diameter of 0.750 inches with a standard deviation of 0.115 inches. The following data were recorded.</p>
           <table xml:id="ch7-fs-idm10579216">
-            <tabular>
+          <title>Data Table</title><tabular>
               <row><cell>0.757</cell> <cell>0.723</cell> <cell>0.754</cell> <cell>0.737</cell> <cell>0.757</cell> <cell>0.741</cell> <cell>0.722</cell> <cell>0.741</cell> <cell>0.743</cell> <cell>0.742</cell></row>
               <row><cell>0.740</cell> <cell>0.758</cell> <cell>0.724</cell> <cell>0.739</cell> <cell>0.736</cell> <cell>0.735</cell> <cell>0.760</cell> <cell>0.750</cell> <cell>0.759</cell> <cell>0.754</cell></row>
               <row><cell>0.744</cell> <cell>0.758</cell> <cell>0.765</cell> <cell>0.756</cell> <cell>0.738</cell> <cell>0.742</cell> <cell>0.758</cell> <cell>0.757</cell> <cell>0.724</cell> <cell>0.757</cell></row>

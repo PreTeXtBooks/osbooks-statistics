@@ -4640,6 +4640,7 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
       <statement>
       <p>Find the standard deviation for the data in <xref ref="fs-idm67330768"/>.</p>
       <table xml:id="fs-idm67330768">
+        <title>Frequency Distribution for Standard Deviation Calculation</title>
         <tabular>
           <row header="yes">
             <cell>Class</cell>
@@ -4717,6 +4718,7 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
       <statement>
         <p>Find the standard deviation for the data from the previous example:</p>
         <table xml:id="fs-idm8420544">
+          <title>Frequency Distribution</title>
           <tabular>
             <row header="yes">
               <cell>Class</cell>
@@ -5816,6 +5818,7 @@ below the mean.
       <statement>
         <p>65 randomly selected car salespersons were asked the number of cars they generally sell in one week. 14 people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars. Complete the table.</p>
         <table xml:id="table001">
+          <title>Car Sales Data</title>
           <tabular>
             <row header="yes">
               <cell>Data Value (Number of Cars)</cell>

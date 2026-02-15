@@ -223,7 +223,7 @@
       </exercise>
       <p><em>Use the following information to answer the next exercise.</em>  contains real data for the first two decades of flu reporting.</p>
       <table xml:id="ch12-element-806">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Year</cell><cell>Number of Flu Cases Diagnosed</cell><cell>Number of Flu Deaths</cell></row>
           <row><cell>Pre-1981</cell><cell>91</cell><cell>29</cell></row>
           <row><cell>1981</cell><cell>319</cell><cell>121</cell></row>
@@ -342,7 +342,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       <p>The third exam score, <m>x</m>, is the independent variable, and the final exam score, <m>y</m>, is the dependent variable. We will plot a regression line that best <em>fits</em> the data. If each of you were to fit a line <em>by eye</em>, you would draw different lines. We can obtain a line of best fit using either the median-median line approach or by calculating the least-squares regression line.</p>
       <p>Let's first find the line of best fit for the relationship between the third exam score and the final exam score using the median-median line approach. Remember that this is the data from  after the ordered pairs have been listed by ordering <m>x</m> values. If multiple data points have the same <m>x</m> values, then they are listed in order from least to greatest <m>x</m> (see data values where <m>x</m> = 71). We first divide our scores into three groups of approximately equal numbers of <m>x</m> values per group. The first and third groups have the same number of <m>x</m> values. We must remember first to put the <m>x</m> values in ascending order. The corresponding <m>y</m> values are then recorded. However, to find the median, we first must rearrange the <m>y</m> values in each group from the least value to the greatest value.  shows the correct ordering of the <m>x</m> values but does not show a reordering of the <m>y</m> values.</p>
       <table xml:id="fs-id1170308472605">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell><m>x</m> (third exam score)</cell><cell><m>y</m> (final exam score)</cell></row>
           <row><cell>65</cell><cell>175</cell></row>
           <row><cell>66</cell><cell>126</cell></row>
@@ -359,7 +359,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       </table>
       <p>With this set of data, the first and last groups each have four <m>x</m> values and four corresponding <m>y</m> values. The second group has three <m>x</m> values and three corresponding <m>y</m> values. We need to organize the <m>x</m> and <m>y</m> values per group and find the median <m>x</m> and <m>y</m> values for each group. Let’s now write out our <m>y</m> values for each group in ascending order. For group 1, the <m>y</m> values in order are 126, 133, 153, and 175. For group 2, the <m>y</m> values are already in order. For group 3, the <m>y</m> values are also already in order. We can represent these data as shown in , but notice that we have <em>broken</em> the ordered pairs; (65, 126) is not a data point in our original set:</p>
       <table xml:id="fs-id1170308944039">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Group</cell><cell><m>x</m> (third exam score)</cell><cell><m>y</m> (final exam score)</cell><cell>Median <m>x</m> value</cell><cell>Median <m>y</m> value</cell></row>
           <row><cell>1</cell><cell>65<nbsp />66<nbsp />67<nbsp />67</cell><cell>126<nbsp />133<nbsp />153<nbsp />175</cell><cell>66.5<nbsp /><nbsp /><nbsp /></cell><cell>143<nbsp /><nbsp /><nbsp /></cell></row>
           <row><cell>2</cell><cell>69<nbsp />69<nbsp />70</cell><cell>151<nbsp />159<nbsp />163</cell><cell>69</cell><cell>159</cell></row>
@@ -423,7 +423,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       <p>However, the <m>y</m>-intercept is very useful in many cases. For many examples in science, the <m>y</m>-intercept gives the baseline reading when the experimental conditions aren't applied to an experimental system. This baseline indicates how much the experimental condition affects the system. It could also be used to ensure that equipment and measurements are calibrated properly before starting the experiment.</p>
       <p>In biology, the concentration of proteins in a sample can be measured using a chemical assay that changes color depending on how much protein is present. The more protein present, the darker the color. The amount of color can be measured by the absorbance reading.  shows the expected absorbance readings at different protein concentrations. This is called a <em>standard curve</em> for the assay.</p>
       <table xml:id="fs-id1170308505621">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Concentration (mM)</cell><cell>Absorbance (mAU)</cell></row>
           <row><cell>125</cell><cell>0.021</cell></row>
           <row><cell>250</cell><cell>0.023</cell></row>
@@ -554,7 +554,7 @@ Therefore, the rest of the variation (1 – 0.44 = 0.56 or 56 percent) in the fi
       </exercise>
       <p><em>Use the following information to answer the next five exercises</em>. A random sample of 10 professional athletes produced the following data, where <m>x</m> is the number of endorsements the player has and <m>y</m> is the amount of money made, in millions of dollars.</p>
       <table xml:id="fs-idm76330016">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell><m>x</m></cell><cell><m>y</m></cell><cell><m>x</m></cell><cell><m>y</m></cell></row>
           <row><cell>0</cell><cell>2</cell><cell>5</cell><cell>12</cell></row>
           <row><cell>3</cell><cell>8</cell><cell>4</cell><cell>9</cell></row>
@@ -683,7 +683,7 @@ What the conclusion means: There is not a significant linear relationship betwee
 
     <subsection xml:id="fs-idm89842304">
       <title>Third Exam vs. Final Exam Example: Critical Value Method</title>
-      <p>Consider the <url href="m79689">third exam/final exam example</url>.
+      <p>Consider the <xref ref="element-22" text="custom">third exam/final exam example</xref>.
 The line of best fit is: <m>ŷ</m> = –173.51 + 4.83<m>x</m>, with <m>r</m> = .6631, and there are <m>n</m> = 11 data points. Can the regression line be used for prediction? Given a third exam score (<m>x</m> value), can we use the line to predict the final exam score (predicted <m>y</m> value)?</p>
       <ul>
         <li><m>H</m>_{0}: <m>ρ</m> = 0</li>
@@ -805,7 +805,7 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
 
 
     <subsection xml:id="fs-id1164563515442">
-      <p>Recall the <url href="m79689">third exam/final exam example</url>.</p>
+      <p>Recall the <xref ref="element-22" text="custom">third exam/final exam example</xref>.</p>
       <p>We found the equation of the best-fit line for the final exam grade as a function of the grade on the third exam. We can now use the least-squares regression line for prediction.</p>
       <p>Suppose you want to estimate, or predict, the mean final exam score of statistics students who received a 73 on the third exam. The exam scores (<m>x</m> values) range from 65 to 75. Since 73 is between the <m>x</m> values 65 and 75, substitute <m>x</m> = 73 into the equation. Then,</p>
       <me>y=-173.51+4.83(73)=179.08\text{.}</me>
@@ -888,7 +888,7 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
       </exercise>
       <p><em>Use the following information to answer the next 14 exercises</em>.  contains real data for the first two decades of flu reporting.</p>
       <table xml:id="ch12-element-806-2">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Year</cell><cell>Number of Flu Cases Diagnosed</cell><cell>Number of Flu Deaths</cell></row>
           <row><cell>Pre-1981</cell><cell>91</cell><cell>29</cell></row>
           <row><cell>1981</cell><cell>319</cell><cell>121</cell></row>
@@ -1080,7 +1080,7 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
       <example xml:id="eip-837">
         <statement>
           <title>Graphical Identification of Outliers</title>
-          <p>In the <url href="m79689">third exam/final exam example</url>, you can determine whether there is an outlier. If there is an outlier, as an exercise, delete it and fit the remaining data to a new line. For this example, the new line ought to fit the remaining data better. This means the SSE (sum of the squared errors) should be smaller and the correlation coefficient ought to be closer to 1 or –1.</p>
+          <p>In the <xref ref="element-22" text="custom">third exam/final exam example</xref>, you can determine whether there is an outlier. If there is an outlier, as an exercise, delete it and fit the remaining data to a new line. For this example, the new line ought to fit the remaining data better. This means the SSE (sum of the squared errors) should be smaller and the correlation coefficient ought to be closer to 1 or –1.</p>
         </statement>
         <solution>
           <p>Graphical Identification of OutliersWith the TI-83, 83+, or 84+ graphing calculators, it is easy to  identify the outliers graphically and visually. If we were to measure the vertical distance from any data point to the corresponding point on the line of best fit and that distance were equal to 2<m>s</m> or more, then we would consider the data point to be too far from the line of best fit. We need to find and graph the lines that are two standard deviations below and above the regression line. Any points that are outside these two lines are outliers. Let’s call these lines Y2 and Y3.</p>
@@ -1131,7 +1131,7 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
 –1
 .</p>
       <table xml:id="element-4662">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell><m>x</m></cell><cell><m>y</m></cell><cell><m>ŷ</m></cell><cell><m>y</m> – <m>ŷ</m></cell></row>
           <row><cell>65</cell><cell>175</cell><cell>140</cell><cell>175 – 140 = 35</cell></row>
           <row><cell>67</cell><cell>133</cell><cell>150</cell><cell>133 – 150= –17</cell></row>
@@ -1202,7 +1202,7 @@ When outliers are deleted, the researcher should either record that data were de
       <p><m>ŷ</m> = –355.19 + 7.39<m>x</m> and <m>r</m> = .9121.</p>
       <example xml:id="element-824">
         <statement>
-          <p>Using this new line of best fit (based on the remaining 10 data points  in the <url href="m79689">third exam/final exam example</url>), what would a student who receives a 73 on the third exam expect to receive on the final exam? Is this the same as the prediction made using the original line?</p>
+          <p>Using this new line of best fit (based on the remaining 10 data points in the <xref ref="element-22" text="custom">third exam/final exam example</xref>), what would a student who receives a 73 on the third exam expect to receive on the final exam? Is this the same as the prediction made using the original line?</p>
         </statement>
         <solution>
           <p>Using the new line of best fit, <m>ŷ</m> = –355.19 + 7.39(73) = 184.28. A student who scored 73 points on the third exam would expect to earn 184 points on the final exam.
@@ -1213,7 +1213,7 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
       <exercise xml:id="eip-846">
         <title>Try It</title>
       <statement>
-          <p>The data points for the graph from the <url href="m79689">third exam/final exam example</url> are as follows: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), and (7, 21). Remove the outlier and recalculate the line of best fit. Find the value of <m>ŷ</m> when <m>x</m> = 10.</p>
+          <p>The data points for the graph from the <xref ref="element-22" text="custom">third exam/final exam example</xref> are as follows: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), and (7, 21). Remove the outlier and recalculate the line of best fit. Find the value of <m>ŷ</m> when <m>x</m> = 10.</p>
         </statement>
         <solution>
           <p><m>ŷ</m> = 1.04 + 2.96<m>x</m> = 30.64.</p>
@@ -1280,7 +1280,7 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
     <subsection xml:id="eip-518">
       <title>95 Percent Critical Values of the Sample Correlation Coefficient Table</title>
       <table xml:id="eip-idm31993488">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Degrees of Freedom: <m>n</m> – 2</cell><cell>Critical Values: + and –</cell></row>
           <row><cell>1</cell><cell>0.997</cell></row>
           <row><cell>2</cell><cell>0.950</cell></row>
@@ -1461,7 +1461,7 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
       </exercise>
       <p><nbsp /><em>Use the following information to answer the next two exercises.</em> The cost of a leading liquid laundry detergent in different sizes is given in .</p>
       <table xml:id="id10105430">
-        <tabular>
+          <title>Data Table</title><tabular>
           <row><cell>Size (ounces)</cell><cell>Cost ($)</cell><cell>Cost per Ounce</cell></row>
           <row><cell>16</cell><cell>3.99</cell><cell /></row>
           <row><cell>32</cell><cell>4.99</cell><cell /></row>
