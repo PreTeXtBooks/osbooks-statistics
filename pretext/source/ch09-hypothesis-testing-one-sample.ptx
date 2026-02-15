@@ -38,19 +38,16 @@
 
   <section xml:id="sec-null-alternative-hypotheses">
     <title>Null and Alternative Hypotheses</title>
-
-
-    <subsection xml:id="fs-id1164566387137">
       <p>The actual test begins by considering two <term>hypotheses</term>. They are called the <term>null hypothesis</term> and the <term>alternative hypothesis</term>. These hypotheses contain opposing viewpoints.</p>
-      <p><em>H_{0}</em>, the null hypothesis: a statement of no difference between sample means or proportions or no difference between a sample mean or proportion and a population mean or proportion. In other words, the difference equals 0.</p>
-      <p><em>H_{a}</em>, the alternative hypothesis: a claim about the population that is contradictory to <em>H_{0}</em> and what we conclude when we reject <em>H_{0}</em>.</p>
+      <p><m>H_0</m>, the null hypothesis: a statement of no difference between sample means or proportions or no difference between a sample mean or proportion and a population mean or proportion. In other words, the difference equals 0.</p>
+      <p><m>H_a</m>, the alternative hypothesis: a claim about the population that is contradictory to <m>H_0</m> and what we conclude when we reject <m>H_0</m>.</p>
       <p>Since the null and alternative hypotheses are contradictory, you must examine evidence to decide if you have enough evidence to reject the null hypothesis or not. The evidence is in the form of sample data.</p>
       <p>After you have determined which hypothesis the sample supports, you make a decision.
-There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if the sample information favors the alternative hypothesis or <em>do not reject</em> <em>H_{0}</em> or <em>decline to reject</em> <em>H_{0}</em> if the sample information is insufficient to reject the null hypothesis.</p>
-      <p>Mathematical Symbols Used in <em>H_{0}</em> and <em>H_{a}</em>:</p>
+There are two options for a decision. They are <em>reject</em> <m>H_0</m> if the sample information favors the alternative hypothesis or <em>do not reject</em> <m>H_0</m> or <em>decline to reject</em> <m>H_0</m> if the sample information is insufficient to reject the null hypothesis.</p>
+      <p>Mathematical Symbols Used in <m>H_0</m> and <m>H_a</m>:</p>
       <table xml:id="element-341">
           <title>Data Table</title><tabular>
-          <row><cell><em>H_{0}</em></cell><cell><em>H_{a}</em></cell></row>
+          <row><cell><m>H_0</m></cell><cell><m>H_a</m></cell></row>
           <row><cell>equal (=)</cell><cell>not equal (≠) or greater than (&gt;) or less than (&lt;)</cell></row>
           <row><cell>greater than or equal to (≥)</cell><cell>less than (&lt;)</cell></row>
           <row><cell>less than or equal to (≤)</cell><cell>more than (&gt;)</cell></row>
@@ -58,12 +55,12 @@ There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if
       </table>
       <note xml:id="id1168218302693">
         <title>Note</title>
-        <p><em>H_{0}</em> always has a symbol with an equal in it. <em>H_{a}</em> never has a symbol with an equal in it. The choice of symbol depends on the wording of the hypothesis test. However, be aware that many researchers use = in the null hypothesis, even with &gt; or &lt; as the symbol in the alternative hypothesis. This practice is acceptable because we only make the decision to reject or not reject the null hypothesis.</p>
+        <p><m>H_0</m> always has a symbol with an equal in it. <m>H_a</m> never has a symbol with an equal in it. The choice of symbol depends on the wording of the hypothesis test. However, be aware that many researchers use = in the null hypothesis, even with &gt; or &lt; as the symbol in the alternative hypothesis. This practice is acceptable because we only make the decision to reject or not reject the null hypothesis.</p>
       </note>
       <example xml:id="element-183">
         <statement>
-          <p><em>H_{0}</em>: No more than 30 percent of the registered voters in Santa Clara County voted in the primary election. <m>p</m> ≤ 30
-<nbsp /><em>H_{a}</em>: More than 30 percent of the registered voters in Santa Clara County voted in the primary election. <m>p</m> &gt; 30</p>
+          <p><m>H_0</m>: No more than 30 percent of the registered voters in Santa Clara County voted in the primary election. <m>p</m> ≤ 30
+<nbsp /><m>H_a</m>: More than 30 percent of the registered voters in Santa Clara County voted in the primary election. <m>p</m> &gt; 30</p>
         </statement>
       </example>
       <exercise xml:id="eip-665">
@@ -72,65 +69,65 @@ There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if
           <p>A medical trial is conducted to test whether or not a new medicine reduces cholesterol by 25 percent. State the null and alternative hypotheses.</p>
         </statement>
         <solution>
-          <p><em>H_{0}</em> : The drug reduces cholesterol by 25 percent. <m>p</m> = 0.25</p>
-          <p><em>H_{a}</em> : The drug does not reduce cholesterol by 25 percent. <m>p</m> ≠ 0.25</p>
+          <p><m>H_0</m> : The drug reduces cholesterol by 25 percent. <m>p</m> = 0.25</p>
+          <p><m>H_a</m> : The drug does not reduce cholesterol by 25 percent. <m>p</m> ≠ 0.25</p>
         </solution>
       </exercise>
       <example xml:id="element-641">
         <statement>
           <p>We want to test whether the mean GPA of students in American colleges is different from 2.0 (out of 4.0). The null and alternative hypotheses are the following:
-<nbsp /><em>H_{0}</em>: <m>μ</m> = 2.0
-<nbsp /><em>H_{a}</em>: <m>μ</m> ≠ 2.0</p>
+<nbsp /><m>H_0</m>: <m>μ</m> = 2.0
+<nbsp /><m>H_a</m>: <m>μ</m> ≠ 2.0</p>
         </statement>
       </example>
       <exercise xml:id="fs-idm576512">
         <title>Try It</title>
       <statement>
           <p>We want to test whether the mean height of eighth graders is 66 inches. State the null and alternative hypotheses. Fill in the correct symbol (=, ≠, ≥, &lt;, ≤, &gt;) for the null and alternative hypotheses.
-<em>H_{0}</em>: <m>μ</m> __ 66
-<em>H_{a}</em>: <m>μ</m> __ 66</p>
+<m>H_0</m>: <m>μ</m> __ 66
+<m>H_a</m>: <m>μ</m> __ 66</p>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> __ 66</li>
-            <li><em>H_{a}</em>: <m>μ</m> __ 66</li>
+            <li><m>H_0</m>: <m>μ</m> __ 66</li>
+            <li><m>H_a</m>: <m>μ</m> __ 66</li>
           </ol>
         </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em> : <m>μ</m> = 66</li>
-            <li><em>H_{a}</em> : <m>μ</m> ≠ 66</li>
+            <li><m>H_0</m> : <m>μ</m> = 66</li>
+            <li><m>H_a</m> : <m>μ</m> ≠ 66</li>
           </ol>
         </solution>
       </exercise>
       <example xml:id="element-296">
         <statement>
           <p>We want to test if college students take fewer than five years to graduate from college, on the average. The null and alternative hypotheses are the following:
-<nbsp /><em>H_{0}</em>: <m>μ</m> ≥ 5
-<nbsp /><em>H_{a}</em>: <m>μ</m> &lt; 5</p>
+<nbsp /><m>H_0</m>: <m>μ</m> ≥ 5
+<nbsp /><m>H_a</m>: <m>μ</m> &lt; 5</p>
         </statement>
       </example>
       <exercise xml:id="fs-idm2856320">
         <title>Try It</title>
       <statement>
           <p>We want to test if it takes fewer than 45 minutes to teach a lesson plan. State the null and alternative hypotheses. Fill in the correct symbol ( =, ≠, ≥, &lt;, ≤, &gt;) for the null and alternative hypotheses.
-<em>H_{0}</em>: <m>μ</m> __ 45
-<em>H_{a}</em>: <m>μ</m> __ 45</p>
+<m>H_0</m>: <m>μ</m> __ 45
+<m>H_a</m>: <m>μ</m> __ 45</p>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> __ 45</li>
-            <li><em>H_{a}</em>: <m>μ</m> __ 45</li>
+            <li><m>H_0</m>: <m>μ</m> __ 45</li>
+            <li><m>H_a</m>: <m>μ</m> __ 45</li>
           </ol>
         </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> ≥ 45</li>
-            <li><em>H_{a}</em>: <m>μ</m> &lt; 45</li>
+            <li><m>H_0</m>: <m>μ</m> ≥ 45</li>
+            <li><m>H_a</m>: <m>μ</m> &lt; 45</li>
           </ol>
         </solution>
       </exercise>
       <example xml:id="element-410">
         <statement>
           <p>An article on school standards stated that about half of all students in France, Germany, and Israel take advanced placement exams and a third of the students pass. The same article stated that 6.6 percent of U.S. students take advanced placement exams and 4.4 percent pass. Test if the percentage of U.S. students who take advanced placement exams is more than 6.6 percent. State the null and alternative hypotheses.
-<nbsp /><em>H_{0}</em>: <m>p</m> ≤ 0.066
-<nbsp /><em>H_{a}</em>: <m>p</m> &gt; 0.066</p>
+<nbsp /><m>H_0</m>: <m>p</m> ≤ 0.066
+<nbsp /><m>H_a</m>: <m>p</m> &gt; 0.066</p>
         </statement>
       </example>
       <exercise xml:id="fs-idm126344352">
@@ -138,21 +135,20 @@ There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if
       <statement>
           <p>On a state driver’s test, about 40 percent pass the test on the first try. We want to test if more than 40 percent pass on the first try. Fill in the correct symbol (=, ≠, ≥, &lt;, ≤, &gt;) for the null and alternative hypotheses.
 
-<em>H_{0}</em>: <m>p</m> __ 0.40
-<em>H_{a}</em>: <m>p</m> __ 0.40</p>
+<m>H_0</m>: <m>p</m> __ 0.40
+<m>H_a</m>: <m>p</m> __ 0.40</p>
           <ol>
-            <li><em>H_{0}</em>: <m>p</m> __ 0.40</li>
-            <li><em>H_{a}</em>: <m>p</m> __ 0.40</li>
+            <li><m>H_0</m>: <m>p</m> __ 0.40</li>
+            <li><m>H_a</m>: <m>p</m> __ 0.40</li>
           </ol>
         </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.40</li>
-            <li><em>H_{a}</em>: <m>p</m> &gt; 0.40</li>
+            <li><m>H_0</m>: <m>p</m> = 0.40</li>
+            <li><m>H_a</m>: <m>p</m> &gt; 0.40</li>
           </ol>
         </solution>
       </exercise>
-    </subsection>
     <note xml:id="fs-idm73791920">
       <p>Bring to class a newspaper, some news magazines, and some internet articles. In groups, find articles from which your group can write null and alternative hypotheses. Discuss your hypotheses with the rest of the class.</p>
     </note>
@@ -162,9 +158,9 @@ There are two options for a decision. They are <em>reject</em> <em>H_{0}</em> if
       <p>In a hypothesis test, sample data are evaluated in order to arrive at a decision about some type of claim. If certain conditions about the sample are satisfied, then the claim can be evaluated for a population. In a hypothesis test, we do the following:
 
 
-Evaluate the null hypothesis, typically denoted with <em>H_{0}</em>. The null is not rejected unless the hypothesis test shows otherwise. The null statement must always contain some form of equality (=, ≤, or ≥).
+Evaluate the null hypothesis, typically denoted with <m>H_0</m>. The null is not rejected unless the hypothesis test shows otherwise. The null statement must always contain some form of equality (=, ≤, or ≥).
 
-Always write the alternative hypothesis, typically denoted with <em>H_{a}</em> or <em>H_{1}</em>, using less than, greater than, or not equals symbols, i.e., (≠, &gt;, or &lt;).
+Always write the alternative hypothesis, typically denoted with <m>H_a</m> or <em>H_{1}</em>, using less than, greater than, or not equals symbols, i.e., (≠, &gt;, or &lt;).
 
 If we reject the null hypothesis, then we can assume there is enough evidence to support the alternative hypothesis.
 
@@ -173,19 +169,19 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
 
     <subsection xml:id="fs-idm23881072">
       <title>Formula Review</title>
-      <p><em>H_{0}</em> and <em>H_{a}</em> are contradictory.</p>
+      <p><m>H_0</m> and <m>H_a</m> are contradictory.</p>
       <table xml:id="element-377">
           <title>Data Table</title><tabular>
-          <row><cell>If <em>H_{0}</em> has:</cell><cell>equal (=)</cell><cell>greater than or equal to (≥)</cell><cell>less than or equal to (≤)</cell></row>
-          <row><cell>then <em>H_{a}</em> has:</cell><cell>not equal (≠) or greater than (&gt;) or less than (&lt;)</cell><cell>less than (&lt;)</cell><cell>greater than (&gt;)</cell></row>
+          <row><cell>If <m>H_0</m> has:</cell><cell>equal (=)</cell><cell>greater than or equal to (≥)</cell><cell>less than or equal to (≤)</cell></row>
+          <row><cell>then <m>H_a</m> has:</cell><cell>not equal (≠) or greater than (&gt;) or less than (&lt;)</cell><cell>less than (&lt;)</cell><cell>greater than (&gt;)</cell></row>
         </tabular>
       </table>
-      <p>If <m>α</m> ≤ <m>p</m>-value, then do not reject <em>H_{0}</em>.</p>
-      <p>If <m>α</m> &gt; <m>p</m>-value, then reject <em>H_{0}</em>.</p>
+      <p>If <m>α</m> ≤ <m>p</m>-value, then do not reject <m>H_0</m>.</p>
+      <p>If <m>α</m> &gt; <m>p</m>-value, then reject <m>H_0</m>.</p>
       <p><m>α</m> is preconceived. Its value is set before the hypothesis test starts. The <m>p</m>-value is calculated from the data.</p>
     </subsection>
 
-    <subsection xml:id="fs-idm15064784">
+    <exercises xml:id="fs-idm15064784">
       <exercise xml:id="eip-350">
         <title>Try It</title>
       <statement>
@@ -237,20 +233,20 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
           <p>In a population of fish, approximately 42 percent are female. A test is conducted to see if, in fact, the proportion is less. State the null and alternative hypotheses.</p>
         </statement>
         <solution>
-          <p><em>H_{0}</em>: <m>p</m> = 0.42
-<em>H_{a}</em>: <m>p</m> &lt; 0.42</p>
+          <p><m>H_0</m>: <m>p</m> = 0.42
+<m>H_a</m>: <m>p</m> &lt; 0.42</p>
         </solution>
       </exercise>
       <exercise xml:id="element-242">
         <title>Try It</title>
       <statement>
           <p>Suppose that a recent article stated that the mean time students spend doing homework each week is 2.5 hours. A study was then done to see if the mean time has increased in the new century. A random sample of 26 students. The mean length of time the students spent on homework was 3 hours with a standard deviation of 1.8 hours. Suppose that it is somehow known that the population standard deviation is 1.5. If you were conducting a hypothesis test to determine if the mean length of homework has increased, what would the null and alternative hypotheses be? The distribution of the population is normal.
-<em>H_{0}</em>: ________
+<m>H_0</m>: ________
 
-<em>H_{a}</em>: ________</p>
+<m>H_a</m>: ________</p>
           <ol>
-            <li><em>H_{0}</em>: ________</li>
-            <li><em>H_{a}</em>: ________</li>
+            <li><m>H_0</m>: ________</li>
+            <li><m>H_a</m>: ________</li>
           </ol>
         </statement>
       </exercise>
@@ -259,14 +255,14 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
       <statement>
           <p>A random survey of 75 long-term marathon runners  revealed that the mean length of time they've been running  is 17.4 years with a standard deviation of 6.3 years. If you were conducting a hypothesis test to determine if the population mean time for these runners could likely be 15 years, what would the null and alternative hypotheses be?</p>
           <ol>
-            <li><em>H_{0}</em>: __________</li>
-            <li><em>H_{a}</em>: __________</li>
+            <li><m>H_0</m>: __________</li>
+            <li><m>H_a</m>: __________</li>
           </ol>
         </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> = 15</li>
-            <li><em>H_{a}</em>: <m>μ</m> ≠ 15</li>
+            <li><m>H_0</m>: <m>μ</m> = 15</li>
+            <li><m>H_a</m>: <m>μ</m> ≠ 15</li>
           </ol>
         </solution>
       </exercise>
@@ -274,15 +270,15 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
         <title>Try It</title>
       <statement>
           <p>Researchers published an article stating that in any one-year period, approximately 9.5 percent of American adults suffer from a particular type of disease. Suppose that in a survey of 100 people in a certain town, seven of them suffered from this disease. If you were conducting a hypothesis test to determine if the true proportion of people in that town suffering from this disease is lower than the percentage in the general adult American population, what would the null and alternative hypotheses be?
-<em>H_{0}</em>: ________
-<em>H_{a}</em>: ________</p>
+<m>H_0</m>: ________
+<m>H_a</m>: ________</p>
           <ol>
-            <li><em>H_{0}</em>: ________</li>
-            <li><em>H_{a}</em>: ________</li>
+            <li><m>H_0</m>: ________</li>
+            <li><m>H_a</m>: ________</li>
           </ol>
         </statement>
       </exercise>
-    </subsection>
+    </exercises>
 
 
     <subsection xml:id="fs-idm48036544">
@@ -295,26 +291,23 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
 
   <section xml:id="sec-outcomes-type-errors">
     <title>Outcomes and the Type I and Type II Errors</title>
-
-
-    <subsection xml:id="fs-id1164565232863">
-      <p>When you perform a hypothesis test, there are four possible outcomes depending on the actual truth, or falseness, of the null hypothesis <em>H_{0}</em> and the decision to reject or not. The outcomes are summarized in the following table:</p>
+      <p>When you perform a hypothesis test, there are four possible outcomes depending on the actual truth, or falseness, of the null hypothesis <m>H_0</m> and the decision to reject or not. The outcomes are summarized in the following table:</p>
       <table xml:id="ch9-element-689">
           <title>Data Table</title><tabular>
-          <row><cell>ACTION</cell><cell><em>H_{0}</em> IS ACTUALLY</cell><cell>...</cell></row>
+          <row><cell>ACTION</cell><cell><m>H_0</m> IS ACTUALLY</cell><cell>...</cell></row>
           <row><cell /><cell>True</cell><cell>False</cell></row>
-          <row><cell>Do not reject <em>H_{0}</em></cell><cell>Correct outcome</cell><cell>Type II error</cell></row>
-          <row><cell>Reject <em>H_{0}</em></cell><cell>Type I error</cell><cell>Correct outcome</cell></row>
+          <row><cell>Do not reject <m>H_0</m></cell><cell>Correct outcome</cell><cell>Type II error</cell></row>
+          <row><cell>Reject <m>H_0</m></cell><cell>Type I error</cell><cell>Correct outcome</cell></row>
         </tabular>
       </table>
       <p>The four possible outcomes in the table are as follows:
-    The decision is <em>not to reject <em>H_{0}</em></em> when <em>H_{0}</em> is true (correct decision).
+    The decision is <em>not to reject <m>H_0</m></em> when <m>H_0</m> is true (correct decision).
 
-      The decision is to <em>reject <em>H_{0}</em></em> when, in fact, <em><em>H_{0}</em> is true</em> (incorrect decision known as a <term>Type I error</term>).
+      The decision is to <em>reject <m>H_0</m></em> when, in fact, <em><m>H_0</m> is true</em> (incorrect decision known as a <term>Type I error</term>).
 
-      The decision is <em>not to reject <em>H_{0}</em></em> when, in fact, <em>H_{0}</em> is false (incorrect decision known as a <term>Type II error</term>).
+      The decision is <em>not to reject <m>H_0</m></em> when, in fact, <m>H_0</m> is false (incorrect decision known as a <term>Type II error</term>).
 
-      The decision is to <em>reject <em>H_{0}</em></em> when <em>H_{0}</em> is false (correct decision whose probability is called the Power of the Test).</p>
+      The decision is to <em>reject <m>H_0</m></em> when <m>H_0</m> is false (correct decision whose probability is called the Power of the Test).</p>
       <p>Each of the errors occurs with a particular probability. The Greek letters <m>α</m> and <m>β</m> represent the probabilities.</p>
       <p><m>α</m> = probability of a Type I error = <m>P</m>(Type I error) = probability of rejecting the null hypothesis when the null hypothesis is true.</p>
       <p><m>β</m> = probability of a Type II error = <m>P</m>(Type II error) = probability of not rejecting the null hypothesis when the null hypothesis is false.</p>
@@ -323,7 +316,7 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
       <p>The following are examples of Type I and Type II errors.</p>
       <example xml:id="element-484">
         <statement>
-          <p>Suppose the null hypothesis, <em>H_{0}</em>, is: Frank's rock climbing equipment is safe.</p>
+          <p>Suppose the null hypothesis, <m>H_0</m>, is: Frank's rock climbing equipment is safe.</p>
           <p>Type I error: Frank does not go rock climbing because he considers that the equipment is not safe, when in fact, the equipment is really safe. Frank is making the mistake of rejecting the null hypothesis, when the equipment is actually safe!</p>
           <p>Type II error: Frank goes climbing, thinking that his equipment is safe, but this is a mistake, and he painfully realizes that his equipment is not as safe as it should have been. Frank assumed that the null hypothesis was true, when it was not.</p>
           <p><em>α = probability</em> that Frank thinks his rock climbing equipment may not be safe when, in fact, it really is safe. <em>β = probability</em> that Frank thinks his rock climbing equipment may be safe when, in fact, it is not safe.</p>
@@ -333,7 +326,7 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
       <exercise xml:id="eip-808">
         <title>Try It</title>
       <statement>
-          <p>Suppose the null hypothesis, <em>H_{0}</em>, is: the blood cultures contain no traces of pathogen <m>X</m>. State the Type I and Type II errors.</p>
+          <p>Suppose the null hypothesis, <m>H_0</m>, is: the blood cultures contain no traces of pathogen <m>X</m>. State the Type I and Type II errors.</p>
         </statement>
         <solution>
           <p>Type I error: The researcher thinks the blood cultures do contain traces of pathogen <m>X</m>, when in fact, they do not.</p>
@@ -342,7 +335,7 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
       </exercise>
       <example xml:id="element-449">
         <statement>
-          <p>Suppose the null hypothesis, <em>H_{0}</em>, is: a tomato plant is alive when a class visits the school garden.</p>
+          <p>Suppose the null hypothesis, <m>H_0</m>, is: a tomato plant is alive when a class visits the school garden.</p>
           <p>Type I error: The null hypothesis claims that the tomato plant is alive, and it is true, but the students make the mistake of thinking that the plant is already dead.</p>
           <p>Type II error: The tomato plant is already dead (the null hypothesis is false), but the students do not notice it, and believe that the tomato plant is alive.</p>
           <p><em>α = probability</em> that the class thinks the tomato plant is dead when, in fact, it is alive = <m>P</m>(Type I error).
@@ -353,7 +346,7 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
       <exercise xml:id="eip-200">
         <title>Try It</title>
       <statement>
-          <p>Suppose the null hypothesis, <em>H_{0}</em>, is: a patient is not sick. Which type of error has the greater consequence, Type I or Type II?</p>
+          <p>Suppose the null hypothesis, <m>H_0</m>, is: a patient is not sick. Which type of error has the greater consequence, Type I or Type II?</p>
         </statement>
         <solution>
           <p>The error with the greater consequence is the Type II error: the patient will be thought well when, in fact, he is sick, so he will not get treatment.</p>
@@ -361,7 +354,7 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
       </exercise>
       <example xml:id="eip-550">
         <statement>
-          <p>It’s a Boy Genetic Labs, a genetics company, claims to be able to increase the likelihood that a pregnancy will result in a boy being born. Statisticians want to test the claim. Suppose that the null hypothesis, <em>H_{0}</em>, is: It’s a Boy Genetic Labs has no effect on gender outcome.</p>
+          <p>It’s a Boy Genetic Labs, a genetics company, claims to be able to increase the likelihood that a pregnancy will result in a boy being born. Statisticians want to test the claim. Suppose that the null hypothesis, <m>H_0</m>, is: It’s a Boy Genetic Labs has no effect on gender outcome.</p>
           <p>Type I error: This error results when a true null hypothesis is rejected. In the context of this scenario, we would state that we believe that It’s a Boy Genetic Labs influences the gender outcome, when in fact it has no effect. The probability of this error occurring is denoted by the Greek letter alpha, <m>α</m>.</p>
           <p>Type II error: This error results when we fail to reject a false null hypothesis. In context, we would state that It’s a Boy Genetic Labs does not influence the gender outcome of a pregnancy when, in fact, it does. The probability of this error occurring is denoted by the Greek letter beta, <m>β</m>.</p>
           <p>The error with the greater consequence would be the Type I error since couples would use the It’s a Boy Genetic Labs product in hopes of increasing the chances of having a boy.</p>
@@ -373,7 +366,7 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
           <p><em>Red tide</em> is a bloom of poison-producing algae—a few different species of a class of plankton called dinoflagellates. When the weather and water conditions cause these blooms, shellfish such as clams living in the area develop dangerous levels of a paralysis-inducing toxin. In Massachusetts, the Division of Marine Fisheries  montors levels of the toxin in shellfish by regular sampling of shellfish along the coastline. If the mean level of toxin in clams exceeds 800 μg (micrograms) of toxin per kilogram of clam meat in any area, clam harvesting is banned there until the bloom is over and levels of toxin in clams subside. Describe both a Type I and a Type II error in this context, and state which error has the greater consequence.</p>
         </statement>
         <solution>
-          <p>In this scenario, an appropriate null hypothesis would be <em>H_{0}</em>: the mean level of toxins is at most 800 <m>μ</m>g,  <em>H_{0}</em> : <m>μ</m>_{0} ≤ 800 <m>μ</m>g.</p>
+          <p>In this scenario, an appropriate null hypothesis would be <m>H_0</m>: the mean level of toxins is at most 800 <m>μ</m>g,  <m>H_0</m> : <m>μ</m>_{0} ≤ 800 <m>μ</m>g.</p>
           <p>Type I error: The DMF believes that toxin levels are still too high when, in fact, toxin levels are at most 800 <m>μ</m>g. The DMF continues the harvesting ban.</p>
           <p>Type II error: The DMF believes that toxin levels are within acceptable levels (are at least 800 <m>μ</m>g) when, in fact, toxin levels are still too high (more than 800 <m>μ</m>g). The DMF lifts the harvesting ban. This error could be the most serious. If the ban is lifted and clams are still toxic, consumers could possibly eat tainted food.</p>
           <p>In summary, the more dangerous error would be to commit a Type II error, because this error involves the availability of tainted clams for consumption.</p>
@@ -407,7 +400,6 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
           <p>Type I error: b</p>
         </solution>
       </exercise>
-    </subsection>
 
     <subsection xml:id="eip-566">
       <title>Chapter Review</title>
@@ -421,7 +413,7 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
       <p><m>β</m> = probability of a Type II error = <m>P</m>(Type II error) = probability of not rejecting the null hypothesis when the null hypothesis is false.</p>
     </subsection>
 
-    <subsection xml:id="eip-832">
+    <exercises xml:id="eip-832">
       <exercise xml:id="eip-308">
         <title>Try It</title>
       <statement>
@@ -457,7 +449,7 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
       <exercise xml:id="eip-861">
         <title>Try It</title>
       <statement>
-          <p>A group of doctors is deciding whether or not to perform an operation. Suppose the null hypothesis, <em>H_{0}</em>, is: the surgical procedure will go well. State the Type I and Type II errors in complete sentences.</p>
+          <p>A group of doctors is deciding whether or not to perform an operation. Suppose the null hypothesis, <m>H_0</m>, is: the surgical procedure will go well. State the Type I and Type II errors in complete sentences.</p>
         </statement>
         <solution>
           <p>Type I: The procedure will go well, but the doctors think it will not.</p>
@@ -467,7 +459,7 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
       <exercise xml:id="eip-496">
         <title>Try It</title>
       <statement>
-          <p>A group of doctors is deciding whether or not to perform an operation. Suppose the null hypothesis, <em>H_{0}</em>, is: the surgical procedure will go well. Which is the error with the greater consequence?</p>
+          <p>A group of doctors is deciding whether or not to perform an operation. Suppose the null hypothesis, <m>H_0</m>, is: the surgical procedure will go well. Which is the error with the greater consequence?</p>
         </statement>
       </exercise>
       <exercise xml:id="ch9-eip-404">
@@ -482,13 +474,13 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
       <exercise xml:id="eip-331">
         <title>Try It</title>
       <statement>
-          <p>A group of divers is exploring an old sunken ship. Suppose the null hypothesis, <em>H_{0}</em>, is the sunken ship does not contain buried treasure. State the Type I and Type II errors in complete sentences.</p>
+          <p>A group of divers is exploring an old sunken ship. Suppose the null hypothesis, <m>H_0</m>, is the sunken ship does not contain buried treasure. State the Type I and Type II errors in complete sentences.</p>
         </statement>
       </exercise>
       <exercise xml:id="ch09-eip-967">
         <title>Try It</title>
       <statement>
-          <p>A microbiologist is testing a water sample for E. coli. Suppose the null hypothesis, <em>H_{0}</em>, is the sample does not contain E. coli. The probability that the sample does not contain E. coli, but the microbiologist thinks it does is 0.012. The probability that the sample does contain E. coli, but the microbiologist thinks it does not is 0.002. What is the power of this test?</p>
+          <p>A microbiologist is testing a water sample for E. coli. Suppose the null hypothesis, <m>H_0</m>, is the sample does not contain E. coli. The probability that the sample does not contain E. coli, but the microbiologist thinks it does is 0.012. The probability that the sample does contain E. coli, but the microbiologist thinks it does not is 0.002. What is the power of this test?</p>
         </statement>
         <solution>
           <p>0.998</p>
@@ -497,21 +489,15 @@ Reject the null hypothesis that the percentage of adults who have jobs is at lea
       <exercise xml:id="eip-424">
         <title>Try It</title>
       <statement>
-          <p>A microbiologist is testing a water sample for E. coli. Suppose the null hypothesis, <em>H_{0}</em>, is the sample contains E-coli. Which is the error with the greater consequence?</p>
+          <p>A microbiologist is testing a water sample for E. coli. Suppose the null hypothesis, <m>H_0</m>, is the sample contains E-coli. Which is the error with the greater consequence?</p>
         </statement>
       </exercise>
-    </subsection>
-
-
+    </exercises>
   </section>
 
   <section xml:id="sec-distribution-test-statistics">
     <title>Distribution Needed for Hypothesis Testing</title>
-
-
-    <subsection xml:id="fs-id1164564493277">
       <p>Earlier in the course, we discussed sampling distributions. <em>Particular distributions are associated with hypothesis testing.</em> Perform tests of a population mean using a <term>normal distribution</term> or a <term>Student's <m>t</m>-distribution</term>. (Remember, use a Student's <m>t</m>-distribution when the population <term>standard deviation</term> is unknown and the distribution of the sample mean is approximately normal.) We perform tests of a population proportion using a normal distribution (usually <m>n</m> is large).</p>
-    </subsection>
 
     <subsection xml:id="fs-idp38268576">
       <title>Assumptions</title>
@@ -551,7 +537,7 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
       </ul>
     </subsection>
 
-    <subsection xml:id="eip-496-subsection">
+    <exercises xml:id="eip-496-subsection">
       <exercise xml:id="eip-176">
         <title>Try It</title>
       <statement>
@@ -636,18 +622,12 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
           <p>binomial distribution<nbsp /></p>
         </solution>
       </exercise>
-    </subsection>
-
-
+    </exercises>
   </section>
 
   <section xml:id="sec-rare-events">
     <title>Rare Events, the Sample, Decision and Conclusion</title>
-
-
-    <subsection xml:id="fs-id1164557692228">
       <p>Establishing the type of distribution, sample size, and known or unknown standard deviation can help you figure out how to go about a hypothesis test. However, there are several other factors you should consider when working out a hypothesis test.</p>
-    </subsection>
 
     <subsection xml:id="fs-idm88599200">
       <title>Rare Events</title>
@@ -662,7 +642,7 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
       <example xml:id="element-804">
         <statement>
           <p>Suppose a baker claims that his bread height is more than 15 cm, on average. Several of his customers do not believe him. To persuade his customers that he is right, the baker decides to do a hypothesis test. He bakes 10 loaves of bread. The mean height of the sample loaves is 17 cm. The baker knows from baking hundreds of loaves of bread that the <term>standard deviation</term> for the height is 0.5 cm and the distribution of heights is normal.</p>
-          <p>The null hypothesis could be <em>H_{0}</em>: <m>μ</m> ≤ 15. The alternate hypothesis is <em>H_{a}</em>: <m>μ</m> &gt; 15.</p>
+          <p>The null hypothesis could be <m>H_0</m>: <m>μ</m> ≤ 15. The alternate hypothesis is <m>H_a</m>: <m>μ</m> &gt; 15.</p>
           <p>The words <em>is more than</em> translates as a "&gt;" so "<m>μ</m> &gt; 15" goes into the alternate hypothesis. The null hypothesis must contradict the alternate hypothesis.</p>
           <p>Since <em>σ is known</em> (<m>σ</m> = 0.5 cm), the distribution for the population is known to be normal with mean <m>μ</m> = 15 and standard deviation <m>\frac{\sigma}{\sqrt{n}}=\frac{0.5}{\sqrt{10}}=0.16</m>.</p>
           <p>Suppose the null hypothesis is true (which is that the mean height of the loaves is no more than 15 cm). Then is the mean height (17 cm) calculated from the sample unexpectedly large? The hypothesis test works by asking the question how <em>unlikely</em> the sample mean would be if the null hypothesis were true. The graph shows how far out the sample mean is on the normal curve. The <m>p</m>-value is the probability that, if we were to take other samples, any other sample mean would fall at least as far out as 17 cm.</p>
@@ -678,8 +658,8 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
         <title>Try It</title>
       <statement>
           <p>A normal distribution has a standard deviation of 1. We want to verify a claim that the mean is greater than 12. A sample of 36 is taken with a sample mean of 12.5.</p>
-          <p><em>H_{0}</em>: <m>μ</m> ≤ 12
-<nbsp /><em>H_{a}</em>: <m>μ</m> &gt; 12
+          <p><m>H_0</m>: <m>μ</m> ≤ 12
+<nbsp /><m>H_a</m>: <m>μ</m> &gt; 12
 <nbsp />The <m>p</m>-value is 0.0013.
 <nbsp />Draw a graph that shows the <m>p</m>-value.</p>
         </statement>
@@ -696,13 +676,17 @@ Remember that <m>q</m> = 1 – <m>p</m>.</p>
       <title>Decision and Conclusion</title>
       <p>A systematic way to make a decision of whether to reject or not reject the <term>null hypothesis</term>
 is to compare the <m>p</m>-value and a preset or preconceived <m>α</m>, also called the <term>level of significance of the test</term>. A preset <m>α</m> is the probability of a <term>Type I error</term> (rejecting the null hypothesis when the null hypothesis is true). It may or may not be given to you at the beginning of the problem.</p>
-      <p>When you make a <em>decision</em> to reject or not reject <em>H_{0}</em>, do as follows:
-If <m>p</m>-value <m>&lt; α</m>, reject <em>H_{0}</em>. The results of the sample data are significant. There is sufficient evidence to conclude that <em>H_{0}</em> is an incorrect belief and that the alternative hypothesis, <em>H_{a}</em>, may be correct.
-If <m>p</m>-value <m>\geq α</m>, do not reject <em>H_{0}</em>. The results of the sample data are not significant.There is not sufficient evidence to conclude that the alternative hypothesis, <em>H_{a}</em>, may be correct.
-When you <em>do not reject H_{0}</em>, it does not mean that you should believe that <em>H_{0}</em> is true. It simply means that the sample data have <em>failed</em> to provide sufficient evidence to cast serious doubt about the truthfulness of <em>H_{0}</em>.</p>
+      <p>When you make a <em>decision</em> to reject or not reject <m>H_0</m>, do as follows:
+If <m>p</m>-value <m>&lt; α</m>, reject <m>H_0</m>. The results of the sample data are significant. There is sufficient evidence to conclude that <m>H_0</m> is an incorrect belief and that the alternative hypothesis, <m>H_a</m>, may be correct.
+If <m>p</m>-value <m>\geq α</m>, do not reject <m>H_0</m>. The results of the sample data are not significant.There is not sufficient evidence to conclude that the alternative hypothesis, <m>H_a</m>, may be correct.
+When you <em>do not reject H_{0}</em>, it does not mean that you should believe that <m>H_0</m> is true. It simply means that the sample data have <em>failed</em> to provide sufficient evidence to cast serious doubt about the truthfulness of <m>H_0</m>.</p>
       <p>Conclusion: After you make your decision, write a thoughtful <em>conclusion</em> about the hypotheses in terms of the given problem.</p>
       <example xml:id="eip-514">
         <statement>
+          <p>When using the <m>p</m>-value to evaluate a hypothesis test, you might find it useful to use the following mnemonic device:</p>
+          <p>If the <m>p</m>-value is low, the null must go.</p>
+          <p>If the <m>p</m>-value is high, the null must fly.</p>
+          <p>This memory aid relates a <m>p</m>-value less than the established alpha (the p is low) as rejecting the null hypothesis and, likewise, relates a <m>p</m>-value higher than the established alpha (the <m>p</m> is high) as not rejecting the null hypothesis.</p>
           <p>Fill in the blanks.</p>
           <p>Reject the null hypothesis when ______________________________________.</p>
           <p>The results of the sample data _____________________________________.</p>
@@ -718,7 +702,7 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         <title>Try It</title>
       <statement>
           <p>It’s a Boy Genetics Labs, a genetics company, claims their procedures improve the chances of a boy being born. The results for a test of a single population proportion are as follows:</p>
-          <p><em>H_{0}</em>: <m>p</m> = 0.50, <em>H_{a}</em>: <m>p</m> &gt; 0.50</p>
+          <p><m>H_0</m>: <m>p</m> = 0.50, <m>H_a</m>: <m>p</m> &gt; 0.50</p>
           <p><m>α</m> = 0.01</p>
           <p><m>p</m>-value = 0.025</p>
           <p>Interpret the results and state a conclusion in simple, nontechnical terms.</p>
@@ -736,15 +720,13 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
 <m>α</m> ≤ <m>p</m>-value, do not reject the null hypothesis.</p>
     </subsection>
 
-    <subsection xml:id="fs-idp139727500224832">
+    <exercises xml:id="fs-idp139727500224832">
       <exercise xml:id="fs-idp139727497512736">
-        <title>Try It</title>
       <statement>
           <p>When do you reject the null hypothesis?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp139727506576944">
-        <title>Try It</title>
       <statement>
           <p>The probability of winning the grand prize at a particular carnival game is 0.005. Is the outcome of winning very likely or very unlikely?</p>
         </statement>
@@ -753,30 +735,26 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="fs-idp139727500342720">
-        <title>Try It</title>
       <statement>
           <p>The probability of winning the grand prize at a particular carnival game is 0.005. Michele wins the grand prize. Is this considered a rare or common event? Why?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp139727500456320">
-        <title>Try It</title>
       <statement>
           <p>It is believed that the mean height of high school students who play basketball on the school team is 73 inches with a standard deviation of 1.8 inches. A random sample of 40 players is chosen. The sample mean was 71 inches, and the sample standard deviation was 1.5 inches. Do the data support the claim that the mean height is less than 73 inches? The <m>p</m>-value is almost zero. State the null and alternative hypotheses and interpret the <m>p</m>-value.</p>
         </statement>
         <solution>
-          <p><em>H_{0}</em>: <m>μ</m> &gt; = 73
-<nbsp /><em>H_{a}</em>: <m>μ</m> &lt; 73
+          <p><m>H_0</m>: <m>μ</m> &gt; = 73
+<nbsp /><m>H_a</m>: <m>μ</m> &lt; 73
 <nbsp />The <m>p</m>-value is almost zero, which means there is sufficient data to conclude that the mean height of high school students who play basketball on the school team is less than 73 inches at the 5 percent level. The data do support the claim.</p>
         </solution>
       </exercise>
       <exercise xml:id="fs-idp139727497515136">
-        <title>Try It</title>
       <statement>
           <p>The mean age of graduate students at a university is at most 31 years with a standard deviation of two years. A random sample of 15 graduate students is taken. The sample mean is 32 years and the sample standard deviation is three years. Are the data significant at the 1 percent level? The <m>p</m>-value is 0.0264. State the null and alternative hypotheses and interpret the <m>p</m>-value.</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp139727497492608">
-        <title>Try It</title>
       <statement>
           <p>Does the shaded region represent a low or a high <m>p</m>-value compared to a level of significance of 1 percent?</p>
         </statement>
@@ -785,29 +763,25 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="fs-idp139727500213504">
-        <title>Try It</title>
       <statement>
           <p>What should you do when <m>α</m> &gt; <m>p</m>-value?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp139727500288288">
-        <title>Try It</title>
       <statement>
           <p>What should you do if <m>α</m> = <m>p</m>-value?</p>
         </statement>
         <solution>
-          <p>Do not reject <em>H_{0}</em>.</p>
+          <p>Do not reject <m>H_0</m>.</p>
         </solution>
       </exercise>
       <exercise xml:id="fs-idp139727500315024">
-        <title>Try It</title>
       <statement>
           <p>If you do not reject the null hypothesis, then it must be true. Is that statement correct? State why or why not in complete sentences.</p>
         </statement>
       </exercise>
       <p><nbsp /><em>Use the following information to answer the next seven exercises:</em> Suppose that a recent article stated that the mean time students spend doing homework each week is  2.5 hours. A study was then done to see if the mean time has increased in the new century. A random sample of 26 students was taken. The mean length of time they did homework each week was  three hours with a standard deviation of 1.8 hours. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of time doing  homework each week has increased. Assume the distribution of homework times is approximately normal.</p>
       <exercise xml:id="eip-714">
-        <title>Try It</title>
       <statement>
           <p>Is this a test of means or proportions?</p>
         </statement>
@@ -816,13 +790,11 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="element-173">
-        <title>Try It</title>
       <statement>
           <p>What symbol represents the random variable for this test?</p>
         </statement>
       </exercise>
       <exercise xml:id="element-126">
-        <title>Try It</title>
       <statement>
           <p>In words, define the random variable for this test.</p>
         </statement>
@@ -831,13 +803,11 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="element-797">
-        <title>Try It</title>
       <statement>
           <p>Is <m>σ</m> known and, if so, what is it?</p>
         </statement>
       </exercise>
       <exercise xml:id="element-877">
-        <title>Try It</title>
       <statement>
           <p>Calculate the following:
       <m>\overline{x}</m> _______
@@ -861,28 +831,25 @@ When you <em>do not reject H_{0}</em>, it does not mean that you should believe 
         </solution>
       </exercise>
       <exercise xml:id="element-95">
-        <title>Try It</title>
       <statement>
           <p>Since both σ and <m>s_{x}</m> are given, which should be used? In one to two complete sentences, explain why.</p>
         </statement>
       </exercise>
       <exercise xml:id="element-121">
-        <title>Try It</title>
       <statement>
           <p>State the distribution to use for the hypothesis test.</p>
         </statement>
         <solution>
-          <p><m>\overline{X}\simN(2.5,\frac{1.5}{\sqrt{26}})</m><nbsp /></p>
+          <p><m>\overline{X}\sim N(2.5,\frac{1.5}{\sqrt{26}})</m><nbsp /></p>
         </solution>
       </exercise>
       <exercise xml:id="fs-idm67684880">
-        <title>Try It</title>
       <statement>
           <p>A random survey of 75 long-term marathon runners revealed that the mean length of time they have been running is 17.4 years with a standard deviation of 6.3 years. Conduct a hypothesis test to determine if the population mean time is likely to be 15 years.</p>
           <ol>
             <li>Is this a test of one mean or proportion?</li>
             <li>State the null and alternative hypotheses.
-    <nbsp /><em>H_{0}</em>: ____________________ <em>H_{a}</em> :  ____________________</li>
+    <nbsp /><m>H_0</m>: ____________________ <m>H_a</m> :  ____________________</li>
             <li>Is this a right-tailed, left-tailed, or two-tailed test?</li>
             <li>What symbol represents the random variable for this test?</li>
             <li>In words, define the random variable for this test.</li>
@@ -919,39 +886,35 @@ Conclusion (write out in a complete sentence):</li>
           </ol>
         </statement>
       </exercise>
-    </subsection>
+    </exercises>
 
 
   </section>
 
   <section xml:id="sec-additional-information-one-sample">
     <title>Additional Information and Full Hypothesis Test Examples</title>
-
-
-    <subsection xml:id="fs-id1164566549793">
       <ul>
         <li>In a <term>hypothesis test</term> problem, you may see words such as "the level of significance is 1 percent". The "1 percent" is the preconceived or preset <m>α</m>.</li>
         <li>The statistician setting up the hypothesis test selects the value of <m>α</m> to use <em>before</em> collecting the sample data.</li>
         <li><em>If no level of significance is given, a common standard to use is <m>α</m> = 0.05.</em></li>
         <li>When you calculate the <m>p</m>-value and draw the picture, the <m>p</m>-value is the area in the left tail, the right tail, or split evenly between the two tails. For this reason, we call the hypothesis test left, right, or two tailed.</li>
         <li>The alternative hypothesis, <m>H_{a}</m>, tells you if the test is left, right, or two-tailed. It is the <em>key</em> to conducting the appropriate test.</li>
-        <li><em>H_{a}</em>  never has a symbol that contains an equal sign.</li>
+        <li><m>H_a</m>  never has a symbol that contains an equal sign.</li>
         <li><em>Thinking about the meaning of the</em> <term><m>p</m>-value</term>: A data analyst should have more confidence that he made the correct decision to reject the null hypothesis with a smaller <m>p</m>-value (for example, 0.001 as opposed to 0.04) even if using the 0.05 level for alpha. Similarly, for a large <m>p</m>-value such as 0.4, as opposed to a <m>p</m>-value of 0.056 (alpha = 0.05 is less than either number), a data analyst should have more confidence that she made the correct decision in not rejecting the null hypothesis. This makes the data analyst use judgment rather than mindlessly applying rules.</li>
       </ul>
       <p>The following examples illustrate a left-, right-, and two-tailed test.</p>
       <example xml:id="fs-idp41487520">
         <statement>
-          <p><em>H_{0}</em>: <m>μ</m> = 5   <em>H_{a}</em>: <m>μ</m> &lt; 5</p>
-          <p>Test of a single population mean. <em>H_{a}</em> tells you the test is left-tailed. The picture of the <m>p</m>-value is as follows:</p>
+          <p><m>H_0</m>: <m>μ</m> = 5   <m>H_a</m>: <m>μ</m> &lt; 5</p>
+          <p>Test of a single population mean. <m>H_a</m> tells you the test is left-tailed. The picture of the <m>p</m>-value is as follows:</p>
           <figure xml:id="fs-idm151356816">
             <image source="media/fig-ch09_09_01-02.jpg" width="76%" />
           </figure>
         </statement>
       </example>
       <exercise xml:id="fs-idp67352928">
-        <title>Try It</title>
       <statement>
-          <p><em>H_{0}</em>: <m>μ</m> = 10   <em>H_{a}</em>: <m>μ</m> &lt; 10</p>
+          <p><m>H_0</m>: <m>μ</m> = 10   <m>H_a</m>: <m>μ</m> &lt; 10</p>
           <p>Assume the <m>p</m>-value is 0.0935. What type of test is this? Draw the picture of the <m>p</m>-value.</p>
         </statement>
         <solution>
@@ -963,17 +926,16 @@ Conclusion (write out in a complete sentence):</li>
       </exercise>
       <example xml:id="element-417">
         <statement>
-          <p><em>H_{0}</em>: <m>p</m> ≤ 0.2  <em>H_{a}</em>: <m>p</m> &gt; 0.2</p>
-          <p>This is a test of a single population proportion. <em>H_{a}</em> tells you the test is right-tailed. The picture of the <m>p</m>-value is as follows:</p>
+          <p><m>H_0</m>: <m>p</m> ≤ 0.2  <m>H_a</m>: <m>p</m> &gt; 0.2</p>
+          <p>This is a test of a single population proportion. <m>H_a</m> tells you the test is right-tailed. The picture of the <m>p</m>-value is as follows:</p>
           <figure xml:id="fs-idm2304848">
             <image source="media/fig-ch09_09_02a.jpg" width="76%" />
           </figure>
         </statement>
       </example>
       <exercise xml:id="eip-417">
-        <title>Try It</title>
       <statement>
-          <p><em>H_{0}</em>: <m>μ</m> ≤ 1   <em>H_{a}</em>: <m>μ</m> &gt; 1</p>
+          <p><m>H_0</m>: <m>μ</m> ≤ 1   <m>H_a</m>: <m>μ</m> &gt; 1</p>
           <p>Assume the <m>p</m>-value is 0.1243. What type of test is this? Draw the picture of the <m>p</m>-value.</p>
         </statement>
         <solution>
@@ -985,8 +947,8 @@ Conclusion (write out in a complete sentence):</li>
       </exercise>
       <example xml:id="element-768">
         <statement>
-          <p><em>H_{0}</em>: <m>p</m> = 50  <em>H_{a}</em>: <m>p</m> ≠ 50</p>
-          <p>This is a test of a single population mean. <em>H_{a}</em> tells you the test is two-tailed. The picture of the <m>p</m>-value is as follows.</p>
+          <p><m>H_0</m>: <m>p</m> = 50  <m>H_a</m>: <m>p</m> ≠ 50</p>
+          <p>This is a test of a single population mean. <m>H_a</m> tells you the test is two-tailed. The picture of the <m>p</m>-value is as follows.</p>
           <figure xml:id="fs-idm117972816">
             <image source="media/fig-ch09_09_03N.jpg" width="76%" />
           </figure>
@@ -995,7 +957,7 @@ Conclusion (write out in a complete sentence):</li>
       <exercise xml:id="eip-335">
         <title>Try It</title>
       <statement>
-          <p><em>H_{0}</em>: <m>p</m> = 0.5   <em>H_{a}</em>: <m>p</m> ≠ 0.5</p>
+          <p><m>H_0</m>: <m>p</m> = 0.5   <m>H_a</m>: <m>p</m> ≠ 0.5</p>
           <p>Assume the <m>p</m>-value is 0.2564. What type of test is this? Draw the picture of the <m>p</m>-value.</p>
         </statement>
         <solution>
@@ -1005,7 +967,6 @@ Conclusion (write out in a complete sentence):</li>
           </figure>
         </solution>
       </exercise>
-    </subsection>
 
     <subsection xml:id="fs-idm12892576">
       <title>Full Hypothesis Test Examples</title>
@@ -1016,22 +977,22 @@ Conclusion (write out in a complete sentence):</li>
         <solution>
           <p>Set up the hypothesis test:</p>
           <p>Since the problem is about a mean, this is a <em>test of a single population mean</em>.</p>
-          <p><em>H_{0}</em>: <m>μ</m> = 16.43  <em>H_{a}</em>: <m>μ</m> &lt; 16.43</p>
+          <p><m>H_0</m>: <m>μ</m> = 16.43  <m>H_a</m>: <m>μ</m> &lt; 16.43</p>
           <p>For Jeffrey to swim faster, his time will be less than 16.43 seconds. The "&lt;" tells you this is left-tailed.</p>
           <p>Determine the distribution needed:</p>
           <p>Random variable: <m>X</m> = the mean time to swim the 25-yard freestyle.</p>
           <p>Distribution for the test:  <m>X</m> is normal (population standard deviation is known: <m>σ</m> = 0.8)</p>
           <p>with mean <m>\mu=16.43</m> and standard error of <m>\frac{0.8}{\sqrt{15}}</m>;</p>
-          <p><m>μ</m> = 16.43 comes from <em>H_{0}</em> and not the data. <m>σ</m> = 0.8, and <m>n</m> = 15.</p>
+          <p><m>μ</m> = 16.43 comes from <m>H_0</m> and not the data. <m>σ</m> = 0.8, and <m>n</m> = 15.</p>
           <p>Using a table or a calculator, we can calculate the <m>p</m>-value as the area to the left of 16 under the normal curve:</p>
           <p><m>p</m>-value = <m>P</m>(<m>\overline{x}</m> &lt; 16) = 0.0187 where the sample mean in the problem is given as 16.</p>
           <p><m>p</m>-value = 0.0187. The <m>p</m>-value is the area to the left of the sample mean given as 16.</p>
           <p>Graph:</p>
-          <p><m>μ</m> = 16.43 comes from <em>H_{0}</em>. Our assumption is <m>μ</m> = 16.43.</p>
-          <p>Interpretation of the <m>p</m>-value: <em>If <em>H_{0}</em> is true</em>, there is a 0.0187 probability (1.87 percent), that Jeffrey's mean time to swim the 25-yard freestyle is 16 seconds or less. Because a 1.87 percent chance is small, the mean time of 16 seconds or less is unlikely to have happened randomly. It is a rare event.</p>
+          <p><m>μ</m> = 16.43 comes from <m>H_0</m>. Our assumption is <m>μ</m> = 16.43.</p>
+          <p>Interpretation of the <m>p</m>-value: <em>If <m>H_0</m> is true</em>, there is a 0.0187 probability (1.87 percent), that Jeffrey's mean time to swim the 25-yard freestyle is 16 seconds or less. Because a 1.87 percent chance is small, the mean time of 16 seconds or less is unlikely to have happened randomly. It is a rare event.</p>
           <p>Compare <m>α</m> and the <m>p</m>-value:</p>
           <p><m>α</m> = 0.05   <m>p</m>-value = 0.0187   <m>α</m> &gt; <m>p</m>-value</p>
-          <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{0}</em>.</p>
+          <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <m>H_0</m>.</p>
           <p>An alternative approach is to find the <m>z</m>-test corresponding to the sample mean <m>\overline{x}=16.</m> This is <m>z\text{-test}=\frac{\overline{x}-\mu_{X}}{\frac{\sigma_{X}}{\sqrt{n}}}=\frac{16-16.43}{\frac{0.8}{\sqrt{15}}}=-2.081729</m>.</p>
           <p>The critical <m>z</m>-value = –1.645 for this test has probability 0.05 to its left tail, according to the Normal Table (see Appendices). Because the <m>z</m>-test is <em>to the left</em> of the critical <m>z</m>-value, we reject the null hypothesis.</p>
           <p>This means that you reject <m>μ</m> = 16.43. In other words, you do not think Jeffrey swims the 25-yard freestyle in 16.43 seconds but instead that he swims faster with the new goggles.</p>
@@ -1051,15 +1012,15 @@ average, in 16.43 seconds. (Reject the null hypothesis when the null hypothesis 
         </solution>
       </example>
       <note xml:id="eip-406">
-        <title>Historical Note (</title>
+        <title>Historical Note (<xref ref="fs-idp41487520">)</title>
         <p>The traditional way to compare the two probabilities, <m>α</m> and the <m>p</m>-value, is to compare the critical value (<m>z</m>-score from <m>α</m>) to the test statistic (<m>z</m>-score from data). The calculated test statistic for the <m>p</m>-value is –2.08. (From the central limit theorem, the test statistic formula is <m>z=\frac{\overline{x}-\mu_{X}}{(\frac{\sigma_{X}}{\sqrt{n}})}</m>.
 
 
-For this problem, <m>\overline{x}</m> = 16, <em>μ_{X}</em> = 16.43 from the null hypothesis, <em>σ_{X}</em> = 0.8, and <m>n</m> = 15.) You can find the critical value for <m>α</m> = 0.05 in the normal table (see <xref ref="appendix-h-tables">Appendix H: Tables</xref>). The <m>z</m>-score for an area to the left equal to 0.05 is midway between –1.65 and –1.64 (0.05 is midway between 0.0505 and 0.0495). The <m>z</m>-score is –1.645. Since –1.645 &gt; –2.08 (which demonstrates that α &gt; <m>p</m>-value), reject <em>H_{0}</em>. Traditionally, the decision
+For this problem, <m>\overline{x}</m> = 16, <em>μ_{X}</em> = 16.43 from the null hypothesis, <em>σ_{X}</em> = 0.8, and <m>n</m> = 15.) You can find the critical value for <m>α</m> = 0.05 in the normal table (see <xref ref="appendix-h-tables">Appendix H: Tables</xref>). The <m>z</m>-score for an area to the left equal to 0.05 is midway between –1.65 and –1.64 (0.05 is midway between 0.0505 and 0.0495). The <m>z</m>-score is –1.645. Since –1.645 &gt; –2.08 (which demonstrates that α &gt; <m>p</m>-value), reject <m>H_0</m>. Traditionally, the decision
 to reject or not reject was done in this way. Today, comparing the two probabilities <m>α</m> and the <m>p</m>-value is very common. For this problem, the <m>p</m>-value, 0.0187, is considerably smaller than <m>α</m>, 0.05. You can be confident about your decision to reject. The graph shows <m>α</m>, the <m>p</m>-value, and the test statistic and the critical value.</p>
         <figure>
           <image source="media/fig-ch09_11_02.png" width="80%">
-            <description>Distribution curve comparing the α to the p-value. Values of -2.15 and -1.645 are on the x-axis. Vertical upward lines extend from both of these values to the curve. The p-value is equal to 0.0158 and points to the area to the left of -2.15. α is equal to 0.05 and points to the area between the values of -2.15 and -1.645.</description>
+            <description>Distribution curve comparing the α to the <m>p</m>-value. Values of -2.15 and -1.645 are on the x-axis. Vertical upward lines extend from both of these values to the curve. The <m>p</m>-value is equal to 0.0158 and points to the area to the left of -2.15. α is equal to 0.05 and points to the area between the values of -2.15 and -1.645.</description>
           </image>
         </figure>
       </note>
@@ -1072,8 +1033,8 @@ to reject or not reject was done in this way. Today, comparing the two probabili
         </statement>
         <solution>
           <p>Since the problem is about a mean, this is a test of a single population mean.</p>
-          <p><em>H_{0}</em> : <m>μ</m> = 40</p>
-          <p><em>H_{a}</em> : <m>μ</m> &gt; 40</p>
+          <p><m>H_0</m> : <m>μ</m> = 40</p>
+          <p><m>H_a</m> : <m>μ</m> &gt; 40</p>
           <p><m>p</m> = 0.0062</p>
           <figure xml:id="fs-idm152825344">
             <image source="media/CNX_Stats_C09_M11_tryit001annoN.jpg" width="76%" />
@@ -1124,20 +1085,20 @@ different weights were (frequencies are in parentheses)
       <solution>
         <p>Set up the hypothesis test:</p>
         <p>Since the problem is about a mean weight, this is a <em>test of a single population mean</em>.</p>
-        <p><em>H_{0}</em>: <m>μ</m> = 275   <em>H_{a}</em>: <m>μ</m> &gt; 275   This is a right-tailed test.</p>
+        <p><m>H_0</m>: <m>μ</m> = 275   <m>H_a</m>: <m>μ</m> &gt; 275   This is a right-tailed test.</p>
         <p>Calculating the distribution needed:</p>
         <p>Random variable: <m>\overline{X}</m> = the mean weight, in pounds, lifted by the football players.</p>
         <p>Distribution for the test: It is normal because <m>σ</m> is known.</p>
-        <p><m>\overline{X}\simN(275,\frac{55}{\sqrt{30}})</m></p>
+        <p><m>\overline{X} \sim N(275,\frac{55}{\sqrt{30}})</m></p>
         <p><m>\overline{x}=286.2</m> pounds (from the data).</p>
         <p><m>σ</m> = 55 pounds. <em>Always use <m>σ</m> if you know it.</em> We assume <m>μ</m> = 275 pounds unless our data shows us otherwise.</p>
         <p>First, we compute the sample mean:</p>
         <p>Next, we compute the <m>z</m>-test:</p>
         <p>Finally, the <m>p</m>-value is the probability to the right tail of the <m>z</m>-test, which we can compute from the table of <m>z</m>-scores as 0.5 - 0.36650 = 0.1335.</p>
         <p><m>p\text{-value}=P(\overline{x}&gt;286.2)=0.1323</m></p>
-        <p>Interpretation of the <m>p</m>-value: If <em>H_{0}</em> is true, then there is a 0.1331 probability, 13.23 percent, that the football players can lift a mean weight of 286.2 pounds or more. Because a 13.23 percent chance is large enough, a mean weight lift of 286.2 pounds or more is not a rare event.</p>
+        <p>Interpretation of the <m>p</m>-value: If <m>H_0</m> is true, then there is a 0.1331 probability, 13.23 percent, that the football players can lift a mean weight of 286.2 pounds or more. Because a 13.23 percent chance is large enough, a mean weight lift of 286.2 pounds or more is not a rare event.</p>
         <p>Compare <m>α</m> and the <m>p</m>-value:</p>
-        <p>Make a decision: Since <m>α</m> &lt; <m>p</m>-value, do not reject <em>H_{0}</em>.</p>
+        <p>Make a decision: Since <m>α</m> &lt; <m>p</m>-value, do not reject <m>H_0</m>.</p>
         <p>Conclusion: At the 2.5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the true mean weight lifted is more than 275 pounds.</p>
         <p>The <m>p</m>-value can easily be calculated.</p>
         <p>Put the data and frequencies into lists. Press <c>STAT</c> and arrow over to <c>TESTS</c>. Press <c>1:<m>z</m>-Test</c>. Arrow over to <c>Data</c> and press <c>ENTER</c>. Arrow down and enter 275 for <em>μ_{0}</em>, 55 for <m>σ</m>, the name of the list where you put the data, and the name of the list where you put the frequencies. Arrow down to <m>μ:</m> and arrow over to &gt; <em>μ_{0}</em>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. The calculator not only calculates the <m>p</m>-value (<m>p</m> = 0.1331, a little different from the previous calculation—in it we used the sample mean rounded to one decimal place instead of the data), but also the test statistic (<m>z</m>-score) for the sample mean, the sample mean, and the sample standard deviation. <m>μ</m> &gt; 275 is the alternative hypothesis. Do this set of instructions again except arrow to <c>Draw</c> (instead of <c>Calculate</c>). Press <c>ENTER</c>. A shaded graph appears with <m>z</m> = 1.112 (test statistic) and <m>p</m> = 0.1331 (<m>p</m>-value). Make sure when you use <c>Draw</c> that no other equations are highlighted in <m>Y</m> = and the plots are turned off.</p>
@@ -1180,7 +1141,7 @@ different weights were (frequencies are in parentheses)
       <solution>
         <p>Set up the hypothesis test:</p>
         <p>A 5 percent level of significance means that <m>α</m> = 0.05. This is a test of a single population mean.</p>
-        <p><em>H_{0}</em>: <m>μ</m> = 65  <em>H_{a}</em>: <m>μ</m> &gt; 65</p>
+        <p><m>H_0</m>: <m>μ</m> = 65  <m>H_a</m>: <m>μ</m> &gt; 65</p>
         <p>Since the instructor thinks the average score is higher, use a "&gt;". The "&gt;" means the test is right-tailed.</p>
         <p>Determine the distribution needed:</p>
         <p>Random variable: <m>\overline{X}</m> = average score on the first statistics test.</p>
@@ -1196,7 +1157,7 @@ different weights were (frequencies are in parentheses)
 probability (3.96 percent) that the sample mean is 65 or more.</p>
         <p>Compare <m>α</m> and the <m>p</m>-value:</p>
         <p>Since <m>α</m> = 0.05 and <m>p</m>-value = 0.0396, <m>α</m> &gt; <m>p</m>-value.</p>
-        <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{0}</em>.</p>
+        <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <m>H_0</m>.</p>
         <p>Alternatively, according to a Student's <m>t</m>-distribution table (see Appendices), the critical <m>t</m>-value is 1.833. Since the <m>t</m>-test (1.98) is to the right of the critical <m>t</m>-value 1.833, we reject the null hypothesis.</p>
         <p>This decision means we reject <m>μ</m> = 65. In other words, we believe the average test score is more than 65.</p>
         <p>Conclusion: At a 5 percent level of significance, the sample data show sufficient evidence that the mean (average) test score is more than 65, just as the math instructor thinks.</p>
@@ -1215,8 +1176,8 @@ probability (3.96 percent) that the sample mean is 65 or more.</p>
         <p>It is believed that a stock price for a particular company will grow at a rate of $5 per week with a standard deviation of $1. An investor believes the stock won’t grow as quickly. The changes in stock price are recorded for 10 weeks and are as follows: $4, $3, $2, $3, $1, $7, $2, $1, $1, $2. Perform a hypothesis test using a 5 percent level of significance. State the null and alternative hypotheses, find the <m>p</m>-value, state your conclusion, and identify the Type I and Type II errors.</p>
       </statement>
       <solution>
-        <p><em>H_{0}</em>: <m>μ</m> = 5</p>
-        <p><em>H_{a}</em>: <m>μ</m> &lt; 5</p>
+        <p><m>H_0</m>: <m>μ</m> = 5</p>
+        <p><m>H_a</m>: <m>μ</m> &lt; 5</p>
         <p><m>p</m> = 0.0082</p>
         <p>Because <m>p</m> &lt; <m>α</m>, we reject the null hypothesis. There is sufficient evidence to suggest that the stock price of the company grows at a rate less than $5 a week.</p>
         <p>Type I Error: To conclude that the stock price is growing slower than $5 a week when, in fact, the stock price is growing at $5 a week (reject the null hypothesis when the null hypothesis is true).</p>
@@ -1230,7 +1191,7 @@ probability (3.96 percent) that the sample mean is 65 or more.</p>
       <solution>
         <p>Set up the hypothesis test:</p>
         <p>The 1 percent level of significance means that <m>α</m> = 0.01. This is a <em>test of a single population proportion</em>.</p>
-        <p><em>H_{0}</em>: <m>p</m> = 0.50  <em>H_{a}</em>: <m>p</m> ≠ 0.50</p>
+        <p><m>H_0</m>: <m>p</m> = 0.50  <m>H_a</m>: <m>p</m> ≠ 0.50</p>
         <p>The words <em>is the same or different from</em> tell you this is a two-tailed test.</p>
         <p>Calculate the distribution needed:</p>
         <p>Random variable: <m>P′</m> = the percentage of first-time brides who are younger than their grooms.</p>
@@ -1245,11 +1206,11 @@ probability (3.96 percent) that the sample mean is 65 or more.</p>
         <p>Interpretation of the <m>p</m>-value: If the null hypothesis is true, there is 0.5485 probability,
 (54.85 percent) that the sample (estimated) proportion <m>p′</m> is 0.53 or more OR 0.47 or less (see
 the graph in ).</p>
-        <p><m>μ</m> = <m>p</m> = 0.50 comes from <em>H_{0}</em>, the null hypothesis.</p>
+        <p><m>μ</m> = <m>p</m> = 0.50 comes from <m>H_0</m>, the null hypothesis.</p>
         <p><m>p′</m> = 0.53. Since the curve is symmetrical and the test is two-tailed, the <m>p′</m> for the left tail is equal to 0.50 – 0.03 = 0.47 where <m>μ</m> = <m>p</m> = 0.50. (0.03 is the difference between 0.53 and 0.50.)</p>
         <p>Compare <m>α</m> and the <m>p</m>-value:</p>
         <p>Since <m>α</m> = 0.01 and <m>p</m>-value = 0.5485, <m>α</m> &lt; <m>p</m>-value.</p>
-        <p>Make a decision: Since <m>α</m> &lt; <m>p</m>-value, you cannot reject <em>H_{0}</em>.</p>
+        <p>Make a decision: Since <m>α</m> &lt; <m>p</m>-value, you cannot reject <m>H_0</m>.</p>
         <p>Conclusion: At the 1 percent level of significance, the sample data do not show sufficient evidence that the percentage of first-time brides who are younger than their grooms is different from 50 percent.</p>
         <p>The <m>p</m>-value can easily be calculated.</p>
         <p>Press <c>STAT</c> and arrow over to <c>TESTS</c>. Press <c>5:1-PropZTest</c>. Enter .5 for <m>p</m>_{0}, 53 for <m>x</m> and 100 for <m>n</m>. Arrow down to <c>Prop</c> and arrow to <c>not equals</c> <m>p</m>_{0}. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. The calculator calculates the <m>p</m>-value (<m>p</m> = 0.5485) and the test statistic (<m>z</m>-score). <c>Prop not equals</c> .5 is the alternate hypothesis. Do this set of instructions again except arrow to <c>Draw</c> (instead of <c>Calculate</c>). Press <c>ENTER</c>. A shaded graph appears with <m>z</m> = 0.6 (test statistic) and <m>p</m> = 0.5485 (<m>p</m>-value). Make sure when you use <c>Draw</c> that no other equations are highlighted in <m>Y</m> = and the plots are turned off.</p>
@@ -1271,8 +1232,8 @@ the graph in ).</p>
       </statement>
       <solution>
         <p>Since the problem is about percentages, this is a test of single population proportions.</p>
-        <p><em>H_{0}</em> : <m>p</m> = 0.85</p>
-        <p><em>H_{a}</em>: <m>p</m> ≠ 0.85</p>
+        <p><m>H_0</m> : <m>p</m> = 0.85</p>
+        <p><m>H_a</m>: <m>p</m> ≠ 0.85</p>
         <p><m>p</m> = 0.7554</p>
         <figure xml:id="fs-idp11874016">
           <image source="media/CNX_Stats_C09_M11_tryit002annoN.jpg" width="76%" />
@@ -1288,21 +1249,21 @@ The value that helps determine the <m>p</m>-value is <m>p′</m>. Calculate <m>p
 What is a <em>success</em> for this problem?
 What is the level of significance?
 Draw the graph for this problem. Draw the horizontal axis. Label and shade appropriately.<nbsp />Calculate the <m>p</m>-value.
-Make a decision. _____________(Reject/Do not reject) <em>H_{0}</em> because____________.</p>
+Make a decision. _____________(Reject/Do not reject) <m>H_0</m> because____________.</p>
         <ol>
           <li>The value that helps determine the <m>p</m>-value is <m>p′</m>. Calculate <m>p′</m>.</li>
           <li>What is a <em>success</em> for this problem?</li>
           <li>What is the level of significance?</li>
           <li>Draw the graph for this problem. Draw the horizontal axis. Label and shade appropriately.<nbsp />Calculate the <m>p</m>-value.</li>
-          <li>Make a decision. _____________(Reject/Do not reject) <em>H_{0}</em> because____________.</li>
+          <li>Make a decision. _____________(Reject/Do not reject) <m>H_0</m> because____________.</li>
         </ol>
       </statement>
       <solution>
         <p>Set up the hypothesis test:</p>
-        <p><em>H_{0}</em>: <m>p</m> = 0.30   <em>H_{a}</em>: <m>p</m> ≠ 0.30</p>
+        <p><m>H_0</m>: <m>p</m> = 0.30   <m>H_a</m>: <m>p</m> ≠ 0.30</p>
         <p>Determine the distribution needed:</p>
         <p>The random variable is <m>P′</m> = proportion of households that have three cell phones.</p>
-        <p>The distribution for the hypothesis test is <m>P'\simN(0.30,\sqrt{\frac{(0.30)⋅(0.70)}{150}})\text{.}</m></p>
+        <p>The distribution for the hypothesis test is <m>P'\sim N(0.30,\sqrt{\frac{(0.30)⋅(0.70)}{150}})\text{.}</m></p>
         <p><m>p′</m> = <m>\frac{x}{n}</m> where <m>x</m> is the number of successes and <m>n</m> is the total number in the sample.</p>
         <p>First we compute the sample proportion <m>p=\frac{43}{150}=\text{0}\text{.287}.</m></p>
         <p>Next, the <m>z</m>-test is given by</p>
@@ -1329,8 +1290,8 @@ Next, the <m>z</m>-test is given by
         <p>Marketers believe that 92 percent of adults in the United States own a cell phone. A cell phone manufacturer believes that number is actually lower. Two hundred American adults are surveyed, of which 174 report having cell phones. Use a 5 percent level of significance. State the null and alternative hypotheses, find the <m>p</m>-value, state your conclusion, and identify the Type I and Type II errors.</p>
       </statement>
       <solution>
-        <p><em>H_{0}</em>: <m>p</m> = 0.92</p>
-        <p><em>H_{a}</em>: <m>p</m> &lt; 0.92</p>
+        <p><m>H_0</m>: <m>p</m> = 0.92</p>
+        <p><m>H_a</m>: <m>p</m> &lt; 0.92</p>
         <p><m>p</m>-value = 0.0046</p>
         <p>Because <m>p</m> &lt; 0.05, we reject the null hypothesis. There is sufficient evidence to conclude that fewer than 92 percent of American adults own cell phones.</p>
         <p>Type I Error: To conclude that fewer than 92 percent of American adults own cell phones when, in fact, 92 percent of American adults do own cell phones (reject the null hypothesis when the null hypothesis is true).</p>
@@ -1341,37 +1302,37 @@ Next, the <m>z</m>-test is given by
     <example xml:id="element-837">
       <statement>
         <title>Note</title>
-        <p>My dog has so many fleas,<nbsp />
-They do not come off with ease.<nbsp />
-As for shampoo, I have tried many types<nbsp />
-Even one called Bubble Hype,<nbsp />
-Which only killed 25 percent of the fleas,<nbsp />
-Unfortunately I was not pleased.<nbsp /><nbsp />
-I've used all kinds of soap,<nbsp />
-Until I had given up hope<nbsp />
-Until one day I saw<nbsp />
-An ad that put me in awe.<nbsp /><nbsp />
-A shampoo used for dogs<nbsp />
-Called GOOD ENOUGH to Clean a Hog<nbsp />
-Guaranteed to kill more fleas.<nbsp /><nbsp />
-I gave Fido a bath<nbsp />
-And after doing the math<nbsp />
-His number of fleas<nbsp />
-Started dropping by 3's!<nbsp /><nbsp />
-Before his shampoo<nbsp />
-I counted 42.<nbsp />
-At the end of his bath,<nbsp />
-I redid the math<nbsp />
-And the new shampoo had killed 17 fleas.<nbsp />
-So now I was pleased.<nbsp /><nbsp />
-Now it is time for you to have some fun<nbsp />
-With the level of significance being .01,<nbsp />
-You must help me figure out<nbsp />
+        <p>My dog has so many fleas,</p><p>
+They do not come off with ease.</p><p>
+As for shampoo, I have tried many types</p><p>
+Even one called Bubble Hype,</p><p>
+Which only killed 25 percent of the fleas,</p><p>
+Unfortunately I was not pleased.</p><p></p><p>
+I've used all kinds of soap,</p><p>
+Until I had given up hope</p><p>
+Until one day I saw</p><p>
+An ad that put me in awe.</p><p></p><p>
+A shampoo used for dogs</p><p>
+Called GOOD ENOUGH to Clean a Hog</p><p>
+Guaranteed to kill more fleas.</p><p></p><p>
+I gave Fido a bath</p><p>
+And after doing the math</p><p>
+His number of fleas</p><p>
+Started dropping by 3's!</p><p></p><p>
+Before his shampoo</p><p>
+I counted 42.</p><p>
+At the end of his bath,</p><p>
+I redid the math</p><p>
+And the new shampoo had killed 17 fleas.</p><p>
+So now I was pleased.</p><p></p><p>
+Now it is time for you to have some fun</p><p>
+With the level of significance being .01,</p><p>
+You must help me figure out</p><p>
 Use the new shampoo or go without?</p>
       </statement>
       <solution>
         <p>Set up the hypothesis test:</p>
-        <p><em>H_{0}</em>: <m>p</m> ≤ 0.25   <em>H_{a}</em>: <m>p</m> &gt; 0.25</p>
+        <p><m>H_0</m>: <m>p</m> ≤ 0.25   <m>H_a</m>: <m>p</m> &gt; 0.25</p>
         <p>Determine the distribution needed:</p>
         <p>In words, <em>clearly</em> state what your random variable <m>\overline{X}</m> or <m>P′</m> represents.</p>
         <p><m>P′</m> = The proportion of fleas that are killed by the new shampoo</p>
@@ -1410,8 +1371,8 @@ Label the point estimate and the lower and upper bounds of the confidence interv
         <p>Let’s follow a four-step process to answer this statistical question.
 State the question: We need to determine if, at a 0.05 significance level, the average conductivity of the selected glass is greater than one. Our hypotheses will be as follows:
 
-<em>H_{0}</em>: <m>μ</m> ≤ 1
-<em>H_{a}</em>: <m>μ</m> &gt; 1
+<m>H_0</m>: <m>μ</m> ≤ 1
+<m>H_a</m>: <m>μ</m> &gt; 1
 
 Plan: We are testing a sample mean without a known population standard deviation. Therefore, we need to use a Student's <m>t</m>-distribution. Assume the underlying population is normal.
 Do the calculations: We will input the sample data into the TI-83 as follows.
@@ -1434,17 +1395,17 @@ State the conclusions: Since the <m>p</m>-value (<m>p</m> = 0.036) is less than 
         <ol>
           <li>State the question: We need to determine if, at a 0.05 significance level, the average conductivity of the selected glass is greater than one. Our hypotheses will be as follows:
 
-<em>H_{0}</em>: <m>μ</m> ≤ 1
-<em>H_{a}</em>: <m>μ</m> &gt; 1</li>
-          <li><em>H_{0}</em>: <m>μ</m> ≤ 1</li>
-          <li><em>H_{a}</em>: <m>μ</m> &gt; 1</li>
+<m>H_0</m>: <m>μ</m> ≤ 1
+<m>H_a</m>: <m>μ</m> &gt; 1</li>
+          <li><m>H_0</m>: <m>μ</m> ≤ 1</li>
+          <li><m>H_a</m>: <m>μ</m> &gt; 1</li>
           <li>Plan: We are testing a sample mean without a known population standard deviation. Therefore, we need to use a Student's <m>t</m>-distribution. Assume the underlying population is normal.</li>
           <li>Do the calculations: We will input the sample data into the TI-83 as follows.</li>
           <li>State the conclusions: Since the <m>p</m>-value (<m>p</m> = 0.036) is less than our alpha value, we will reject the null hypothesis. It is reasonable to state that the data support the claim that the average conductivity level is greater than one.</li>
         </ol>
         <ol>
-          <li><em>H_{0}</em>: <m>μ</m> ≤ 1</li>
-          <li><em>H_{a}</em>: <m>μ</m> &gt; 1</li>
+          <li><m>H_0</m>: <m>μ</m> ≤ 1</li>
+          <li><m>H_a</m>: <m>μ</m> &gt; 1</li>
         </ol>
         <figure xml:id="eip-idp122053552">
           <image source="media/CNX_Stats_C09_M09_001a.jpg" width="50%" />
@@ -1469,19 +1430,19 @@ State the conclusions: Since the <m>p</m>-value (<m>p</m> = 0.036) is less than 
         <p>If we commit a Type I error, we are essentially accepting a false claim. Since the claim describes cancer-causing environments, we want to minimize the chances of incorrectly identifying causes of cancer.</p>
         <ol>
           <li>We need to conduct a hypothesis test on the claimed cancer rate. Our hypotheses will be as follows:
-<em>H_{0}</em>: <m>p</m> ≤ 0.00034
-<em>H_{a}</em>: <m>p</m> &gt; 0.00034
+<m>H_0</m>: <m>p</m> ≤ 0.00034
+<m>H_a</m>: <m>p</m> &gt; 0.00034
 If we commit a Type I error, we are essentially accepting a false claim. Since the claim describes cancer-causing environments, we want to minimize the chances of incorrectly identifying causes of cancer.</li>
-          <li><em>H_{0}</em>: <m>p</m> ≤ 0.00034</li>
-          <li><em>H_{a}</em>: <m>p</m> &gt; 0.00034</li>
+          <li><m>H_0</m>: <m>p</m> ≤ 0.00034</li>
+          <li><m>H_a</m>: <m>p</m> &gt; 0.00034</li>
           <li>We will be testing a sample proportion with <m>x</m> = 172 and <m>n</m> = 420,019. The sample is sufficiently large because we have <m>np</m> = 420,019(0.00034) = 142.8, <m>nq</m> = 420,019(0.99966) = 419,876.2, two independent outcomes, and a fixed probability of success <m>p</m> = 0.00034. Thus we will be able to generalize our results to the population.</li>
           <li>The associated TI results are shown in the following figures.
 <nbsp /></li>
           <li>Since the <m>p</m>-value = 0.0073 is greater than our alpha value = 0.005, we cannot reject the null. Therefore, we conclude that there is not enough evidence to support the claim of higher brain cancer rates for the cell phone users.</li>
         </ol>
         <ol>
-          <li><em>H_{0}</em>: <m>p</m> ≤ 0.00034</li>
-          <li><em>H_{a}</em>: <m>p</m> &gt; 0.00034</li>
+          <li><m>H_0</m>: <m>p</m> ≤ 0.00034</li>
+          <li><m>H_a</m>: <m>p</m> &gt; 0.00034</li>
         </ol>
         <figure xml:id="fs-idm80776672">
           <image source="media/CNX_Stats_C09_M09_002a.jpg" width="50%" />
@@ -1495,20 +1456,20 @@ If we commit a Type I error, we are essentially accepting a false claim. Since t
     <subsection xml:id="fs-idp69608272">
       <title>Chapter Review</title>
       <p>The <term>hypothesis test</term> itself has an established process. This can be summarized as follows:
-Determine <em>H_{0}</em> and <em>H_{a}</em>. Remember, they are contradictory.
+Determine <m>H_0</m> and <m>H_a</m>. Remember, they are contradictory.
 Determine the random variable.
 Determine the distribution for the test.
 Draw a graph, calculate the test statistic, and use the test statistic to calculate the
 <m>p</m>-value. (A <m>z</m>-score and a <m>t</m>-score are examples of test statistics.)
-Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (reject or do not reject <em>H_{0}</em>), and write a clear conclusion using English sentences.</p>
+Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (reject or do not reject <m>H_0</m>), and write a clear conclusion using English sentences.</p>
       <p>Notice that in performing the hypothesis test, you use <m>α</m> and not <m>β</m>. <m>β</m> is needed to help determine the sample size of the data that are used in calculating the <m>p</m>-value. Remember that the quantity 1 – <m>β</m> is called the Power of the Test. A high power is desirable. If the power is too low, statisticians typically increase the sample size while keeping <m>α</m> the same. If the power is low, the null hypothesis might not be rejected when it should be.</p>
     </subsection>
 
-    <subsection xml:id="eip-213">
+    <exercises xml:id="eip-213">
       <exercise xml:id="ch9-eip-750">
         <title>Try It</title>
       <statement>
-          <p>Assume <em>H_{0}</em>: <m>μ</m> = 9 and <em>H_{a}</em>: <m>μ</m> &lt; 9. Is this a left-tailed, right-tailed, or two-tailed test?</p>
+          <p>Assume <m>H_0</m>: <m>μ</m> = 9 and <m>H_a</m>: <m>μ</m> &lt; 9. Is this a left-tailed, right-tailed, or two-tailed test?</p>
         </statement>
         <solution>
           <p>This is a left-tailed test.</p>
@@ -1517,13 +1478,13 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
       <exercise xml:id="eip-815">
         <title>Try It</title>
       <statement>
-          <p>Assume <em>H_{0}</em>: <m>μ</m> ≤ 6 and <em>H_{a}</em>: <m>μ</m> &gt; 6. Is this a left-tailed, right-tailed, or two-tailed test?</p>
+          <p>Assume <m>H_0</m>: <m>μ</m> ≤ 6 and <m>H_a</m>: <m>μ</m> &gt; 6. Is this a left-tailed, right-tailed, or two-tailed test?</p>
         </statement>
       </exercise>
       <exercise xml:id="fs-idp45725152">
         <title>Try It</title>
       <statement>
-          <p>Assume <em>H_{0}</em>: <m>p</m> = 0.25 and <em>H_{a}</em>: <m>p</m> ≠ 0.25. Is this a left-tailed, right-tailed, or two-tailed test?</p>
+          <p>Assume <m>H_0</m>: <m>p</m> = 0.25 and <m>H_a</m>: <m>p</m> ≠ 0.25. Is this a left-tailed, right-tailed, or two-tailed test?</p>
         </statement>
         <solution>
           <p>This is a two-tailed test.</p>
@@ -1606,7 +1567,7 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
           <p>This is a two-tailed test.</p>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
 
 
     <subsection xml:id="fs-idp118682672">
@@ -1633,19 +1594,18 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
 
   <section xml:id="sec-hypothesis-testing-review">
     <title>Hypothesis Testing with One Sample: Review</title>
-
-
-    <subsection xml:id="fs-id1164560823250">
       <note xml:id="fs-id1171854730054">
         <title>Hypothesis Testing of a Single Mean and Single Proportion</title>
+<p><alert>Student Learning Outcomes</alert></p>
         <ul>
           <li>The student will select the appropriate distributions to use in each case.</li>
           <li>The student will conduct hypothesis tests and interpret the results.</li>
         </ul>
+<p><alert>Television Survey</alert></p>
         <p>Television SurveyIn a recent survey, it was stated that Americans watch television on average four hours per day. Assume that <m>σ</m> = 2. Using your class as the sample, conduct a hypothesis test to determine if the average for students at your school is lower.</p>
         <ol>
-          <li><em>H_{0}</em>: _____________</li>
-          <li><em>H_{a}</em>: _____________</li>
+          <li><m>H_0</m>: _____________</li>
+          <li><m>H_a</m>: _____________</li>
           <li>In words, define the random variable. __________ = ______________________</li>
           <li>The distribution to use for the test is _______________________.</li>
           <li>Determine the test statistic using your data.</li>
@@ -1664,10 +1624,11 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
           <li>Do you or do you not reject the null hypothesis? Why?</li>
           <li>Write a clear conclusion using a complete sentence.</li>
         </ol>
-        <p>Language SurveyAbout 42.3 percent of Californians and 19.6 percent of all Americans over age five speak a language other than English at home. Using your class as the sample, conduct a hypothesis test to determine if the percentage of the students at your school who speak a language other than English at home is different from 42.3 percent.</p>
+<p><alert>Language Survey</alert></p>
+        <p>About 42.3 percent of Californians and 19.6 percent of all Americans over age five speak a language other than English at home. Using your class as the sample, conduct a hypothesis test to determine if the percentage of the students at your school who speak a language other than English at home is different from 42.3 percent.</p>
         <ol>
-          <li><em>H_{0}</em>: ___________</li>
-          <li><em>H_{a}</em>: ___________</li>
+          <li><m>H_0</m>: ___________</li>
+          <li><m>H_a</m>: ___________</li>
           <li>In words, define the random variable. __________ = _______________</li>
           <li>The distribution to use for the test is ________________.</li>
           <li>Determine the test statistic using your data.</li>
@@ -1686,10 +1647,11 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
           <li>Do you or do you not reject the null hypothesis? Why?</li>
           <li>Write a clear conclusion using a complete sentence.</li>
         </ol>
-        <p>Jeans SurveyYou've read in an article that young adults own an average of three pairs of jeans. Survey eight people from your class to determine if the average is higher than three. Assume the population is normal.</p>
+<p><alert>Jeans Survey</alert></p>
+        <p>You've read in an article that young adults own an average of three pairs of jeans. Survey eight people from your class to determine if the average is higher than three. Assume the population is normal.</p>
         <ol>
-          <li><em>H_{0}</em>: _____________</li>
-          <li><em>H_{a}</em>: _____________</li>
+          <li><m>H_0</m>: _____________</li>
+          <li><m>H_a</m>: _____________</li>
           <li>In words, define the random variable. __________ = ______________________</li>
           <li>The distribution to use for the test is _______________________.</li>
           <li>Determine the test statistic using your data.</li>
@@ -1709,8 +1671,6 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
           <li>Write a clear conclusion using a complete sentence.</li>
         </ol>
       </note>
-    </subsection>
-
   </section>
 
   <section xml:id="sec-hypothesis-testing-practice">
@@ -1762,7 +1722,7 @@ Test of the two population proportions by testing one population mean of differe
       <exercise xml:id="element-919">
         <statement>
           <p>Some of the following statements refer to the null hypothesis, some to the alternate hypothesis.</p>
-          <p>State the null hypothesis, <em>H_{0}</em>, and the alternative hypothesis. <em>H_{a}</em>, in terms of the appropriate parameter (<m>μ</m> or <m>p</m>).</p>
+          <p>State the null hypothesis, <m>H_0</m>, and the alternative hypothesis. <m>H_a</m>, in terms of the appropriate parameter (<m>μ</m> or <m>p</m>).</p>
           <ol>
             <li>The mean number of years Americans work before retiring is 34.</li>
             <li>At most 60 percent of Americans vote in presidential elections.</li>
@@ -1778,16 +1738,16 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> = 34; <em>H_{a}</em>: <m>μ</m> ≠ 34</li>
-            <li><em>H_{0}</em>: <m>p</m> ≤ 0.60; <em>H_{a}</em>: <m>p</m> &gt; 0.60</li>
-            <li><em>H_{0}</em>: <m>μ</m> ≥ 100,000; <em>H_{a}</em>: <m>μ</m> &lt; 100,000</li>
-            <li><em>H_{0}</em>: <m>p</m> = 0.29; <em>H_{a}</em>: <m>p</m> ≠ 0.29</li>
-            <li><em>H_{0}</em>: <m>p</m> = 0.05; <em>H_{a}</em>: <m>p</m> &lt; 0.05</li>
-            <li><em>H_{0}</em>: <m>μ</m> ≤ 10; <em>H_{a}</em>: <m>μ</m> &gt; 10</li>
-            <li><em>H_{0}</em>: <m>p</m> = 0.50; <em>H_{a}</em>: <m>p</m> ≠ 0.50</li>
-            <li><em>H_{0}</em>: <m>μ</m> = 6; <em>H_{a}</em>: <m>μ</m> ≠ 6</li>
-            <li><em>H_{0}</em>: <m>p</m> ≥ 0.11; <em>H_{a}</em>: <m>p</m> &lt; 0.11</li>
-            <li><em>H_{0}</em>: <m>μ</m> ≤ 20,000; <em>H_{a}</em>: <m>μ</m> &gt; 20,000</li>
+            <li><m>H_0</m>: <m>μ</m> = 34; <m>H_a</m>: <m>μ</m> ≠ 34</li>
+            <li><m>H_0</m>: <m>p</m> ≤ 0.60; <m>H_a</m>: <m>p</m> &gt; 0.60</li>
+            <li><m>H_0</m>: <m>μ</m> ≥ 100,000; <m>H_a</m>: <m>μ</m> &lt; 100,000</li>
+            <li><m>H_0</m>: <m>p</m> = 0.29; <m>H_a</m>: <m>p</m> ≠ 0.29</li>
+            <li><m>H_0</m>: <m>p</m> = 0.05; <m>H_a</m>: <m>p</m> &lt; 0.05</li>
+            <li><m>H_0</m>: <m>μ</m> ≤ 10; <m>H_a</m>: <m>μ</m> &gt; 10</li>
+            <li><m>H_0</m>: <m>p</m> = 0.50; <m>H_a</m>: <m>p</m> ≠ 0.50</li>
+            <li><m>H_0</m>: <m>μ</m> = 6; <m>H_a</m>: <m>μ</m> ≠ 6</li>
+            <li><m>H_0</m>: <m>p</m> ≥ 0.11; <m>H_a</m>: <m>p</m> &lt; 0.11</li>
+            <li><m>H_0</m>: <m>μ</m> ≤ 20,000; <m>H_a</m>: <m>μ</m> &gt; 20,000</li>
           </ol>
           </solution>
         </exercise>
@@ -1820,10 +1780,10 @@ Test of the two population proportions by testing one population mean of differe
         <statement>
           <p>Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test. The null and alternative hypotheses are as follows:</p>
           <ol>
-            <li><em>H_{o}</em>: <m>\overline{x}</m> = 4.5, <em>H_{a}</em> : <m>\overline{x}</m> &gt; 4.5</li>
-            <li><em>H_{o}</em>: <m>μ</m> ≥ 4.5, <em>H_{a}</em>: <m>μ</m> &lt; 4.5</li>
-            <li><em>H_{o}</em>: <m>μ</m> = 4.75, <em>H_{a}</em>: <m>μ</m> &gt; 4.75</li>
-            <li><em>H_{o}</em>: <m>μ</m> = 4.5, <em>H_{a}</em>: <m>μ</m> &gt; 4.5</li>
+            <li><em>H_{o}</em>: <m>\overline{x}</m> = 4.5, <m>H_a</m> : <m>\overline{x}</m> &gt; 4.5</li>
+            <li><em>H_{o}</em>: <m>μ</m> ≥ 4.5, <m>H_a</m>: <m>μ</m> &lt; 4.5</li>
+            <li><em>H_{o}</em>: <m>μ</m> = 4.75, <m>H_a</m>: <m>μ</m> &gt; 4.75</li>
+            <li><em>H_{o}</em>: <m>μ</m> = 4.5, <m>H_a</m>: <m>μ</m> &gt; 4.5</li>
           </ol>
           </statement>
         </exercise>
@@ -1860,7 +1820,7 @@ Test of the two population proportions by testing one population mean of differe
         </exercise>
       <exercise xml:id="ch9-element-231">
         <statement>
-          <p>For Statements A–J in , answer the following in complete sentences.</p>
+          <p>For Statements A–J in <xref ref="element-612">, answer the following in complete sentences.</p>
           <ol>
             <li>State a consequence of committing a Type I error.</li>
             <li>State a consequence of committing a Type II error.</li>
@@ -1924,8 +1884,8 @@ Test of the two population proportions by testing one population mean of differe
           <ol>
             <li><m>N(7.24,\frac{1.93}{\sqrt{22}})</m></li>
             <li><m>N(7.24,1.93)</m></li>
-            <li><m>t</m>_{22}</li>
-            <li><m>t</m>_{21}</li>
+            <li><m>t_{22}</m></li>
+            <li><m>t_{21}</m></li>
           </ol>
           </statement>
         <solution>
@@ -1938,7 +1898,7 @@ Test of the two population proportions by testing one population mean of differe
           <ol>
             <li>Is this a test of one mean or proportion?</li>
             <li>State the null and alternative hypotheses.
-  <nbsp /><em>H_{0}</em>: ____________________  <em>H_{a}</em>:  ____________________</li>
+  <nbsp /><m>H_0</m>: ____________________  <m>H_a</m>:  ____________________</li>
             <li>Is this a right-tailed, left-tailed, or two-tailed test?</li>
             <li>What symbol represents the random variable for this test?</li>
             <li>In words, define the random variable for this test.</li>
@@ -1985,8 +1945,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> ≥ 50,000</li>
-            <li><em>H_{a}</em>: <m>μ</m> &lt; 50,000</li>
+            <li><m>H_0</m>: <m>μ</m> ≥ 50,000</li>
+            <li><m>H_a</m>: <m>μ</m> &lt; 50,000</li>
             <li>Let <m>\overline{X}</m> = the average lifespan of a brand of tires.</li>
             <li>normal distribution</li>
             <li><m>z</m> = -2.315</li>
@@ -2010,8 +1970,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> ≥ 35.5</li>
-            <li><em>H_{a}</em>: <m>μ</m> &lt; 35.5</li>
+            <li><m>H_0</m>: <m>μ</m> ≥ 35.5</li>
+            <li><m>H_a</m>: <m>μ</m> &lt; 35.5</li>
             <li>Let <m>\overline{x}</m> = the average mpg for the sample of cars and trucks in the fleet</li>
             <li>normal distribution</li>
             <li>z = -0.648</li>
@@ -2019,11 +1979,11 @@ Test of the two population proportions by testing one population mean of differe
             <li>Check student’s solution.</li>
             <li>Alpha: 0.05
               Decision: Do not reject the null hypothesis.
-              Reason for decision: The p-value is greater than 0.05.
+              Reason for decision: The <m>p</m>-value is greater than 0.05.
               Conclusion: There is sufficient evidence to support the claim that the manufacturer’s fleet meets the fuel economy standards in the 2016 policy.</li>
             <li>Alpha: 0.05</li>
             <li>Decision: Do not reject the null hypothesis.</li>
-            <li>Reason for decision: The p-value is greater than 0.05.</li>
+            <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
             <li>Conclusion: There is sufficient evidence to support the claim that the manufacturer’s fleet meets the fuel economy standards in the 2016 policy.</li>
             <li>(31.88 mpg, 37.32 mpg)</li>
           </ol>
@@ -2035,8 +1995,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> = $1.00</li>
-            <li><em>H_{a}</em>: <m>μ</m> ≠ $1.00</li>
+            <li><m>H_0</m>: <m>μ</m> = $1.00</li>
+            <li><m>H_a</m>: <m>μ</m> ≠ $1.00</li>
             <li>Let <m>\overline{x}</m>
    = the average cost of a daily newspaper.</li>
             <li>normal distribution</li>
@@ -2066,8 +2026,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> = 10</li>
-            <li><em>H_{a}</em>: <m>μ</m> ≠ 10</li>
+            <li><m>H_0</m>: <m>μ</m> = 10</li>
+            <li><m>H_a</m>: <m>μ</m> ≠ 10</li>
             <li>Let <m>\overline{X}</m> = the mean number of sick days an employee takes per year.</li>
             <li>Student’s <m>t</m>-distribution</li>
             <li><m>t</m> = –1.12</li>
@@ -2096,8 +2056,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>p</m> ≥ 0.6</li>
-            <li><em>H_{a}</em>: <m>p</m> &lt; 0.6</li>
+            <li><m>H_0</m>: <m>p</m> ≥ 0.6</li>
+            <li><m>H_a</m>: <m>p</m> &lt; 0.6</li>
             <li>Let <m>P′</m> = the proportion of students who feel more enriched as a result of taking elementary statistics.</li>
             <li>normal for a single proportion</li>
             <li>1.12</li>
@@ -2122,12 +2082,12 @@ Test of the two population proportions by testing one population mean of differe
         </exercise>
       <exercise xml:id="element-814">
         <statement>
-          <p>Refer to . Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.</p>
+          <p>Refer to <xref ref = "element-950">. Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.</p>
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> = 4</li>
-            <li><em>H_{a}</em>: <m>μ</m> ≠ 4</li>
+            <li><m>H_0</m>: <m>μ</m> = 4</li>
+            <li><m>H_a</m>: <m>μ</m> ≠ 4</li>
             <li>Let <m>\overline{X}</m> the average I.Q. of a set of brown trout.</li>
             <li>two-tailed Student's <m>t</m>-test</li>
             <li><m>t</m> = 1.95</li>
@@ -2156,8 +2116,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>p</m> ≥ 0.13</li>
-            <li><em>H_{a}</em>: <m>p</m> &lt; 0.13</li>
+            <li><m>H_0</m>: <m>p</m> ≥ 0.13</li>
+            <li><m>H_a</m>: <m>p</m> &lt; 0.13</li>
             <li>Let <m>P′</m> = the proportion of Americans who have the disease</li>
             <li>normal for a single proportion</li>
             <li>–2.688</li>
@@ -2188,8 +2148,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> ≥ 129</li>
-            <li><em>H_{a}</em>: <m>μ</m> &lt; 129</li>
+            <li><m>H_0</m>: <m>μ</m> ≥ 129</li>
+            <li><m>H_a</m>: <m>μ</m> &lt; 129</li>
             <li>Let <m>\overline{X}</m> = the average time in seconds that Terri finishes Lap 4.</li>
             <li>Student's <m>t</m>-distribution</li>
             <li><m>t</m> = 1.209</li>
@@ -2252,8 +2212,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.60</li>
-            <li><em>H_{a}</em>: <m>p</m> &lt; 0.60</li>
+            <li><m>H_0</m>: <m>p</m> = 0.60</li>
+            <li><m>H_a</m>: <m>p</m> &lt; 0.60</li>
             <li>Let <m>P′</m> = the proportion of family members who shed tears at a reunion.</li>
             <li>normal for a single proportion</li>
             <li>–1.71</li>
@@ -2298,8 +2258,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> ≥ 22</li>
-            <li><em>H_{a}</em>: <m>μ</m> &lt; 22</li>
+            <li><m>H_0</m>: <m>μ</m> ≥ 22</li>
+            <li><m>H_a</m>: <m>μ</m> &lt; 22</li>
             <li>Let <m>\overline{X}</m> = the mean number of bubbles per blow.</li>
             <li>Student's <m>t</m>-distribution</li>
             <li>–2.667</li>
@@ -2367,7 +2327,7 @@ Test of the two population proportions by testing one population mean of differe
           <p><em>Macaroni and Cheese, please!!</em> by Nedda Misherghi and Rachelle Hall</p>
           <p>As a poor starving student I don't have much money to spend for even the bare necessities. So my favorite and main staple food is macaroni and cheese. It's high in taste and low in cost and nutritional value.</p>
           <p>One day, as I sat down to determine the meaning of life, I got a serious craving for this, oh, so important, food of my life. So I went down the street to Greatway to get a box of macaroni and cheese, but it was SO expensive! $2.02 !!! Can you believe it? It made me stop and think. The world is changing fast. I had thought that the mean cost of a box (the normal size, not some super-gigantic-family-value-pack) was at most $1, but now I wasn't so sure. However, I was determined to find out. I went to 53 of the closest grocery stores and surveyed the prices of macaroni and cheese. Here are the data I wrote in my notebook:</p>
-          <p>I could see that the cost varied but I had to sit down to figure out whether or not I was right. If it does turn out that this mouth-watering dish is at most $1, then I'll throw a big cheesy party in our next statistics lab, with enough macaroni and cheese for just me. After all, as a poor starving student I can't be expected to feed our class of animals!</p>
+           <p>Price per box of Mac and Cheese:</p>
             <ul>
             <li>5 stores @ $2.02</li>
             <li>15 stores @ $0.25</li>
@@ -2378,11 +2338,12 @@ Test of the two population proportions by testing one population mean of differe
             <li>5 stores @ $1.89</li>
             <li>8 stores @ $0.75</li>
             </ul>
+          <p>I could see that the cost varied but I had to sit down to figure out whether or not I was right. If it does turn out that this mouth-watering dish is at most $1, then I'll throw a big cheesy party in our next statistics lab, with enough macaroni and cheese for just me. After all, as a poor starving student I can't be expected to feed our class of animals!</p>
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> ≤ 1</li>
-            <li><em>H_{a}</em>: <m>μ</m> &gt; 1</li>
+            <li><m>H_0</m>: <m>μ</m> ≤ 1</li>
+            <li><m>H_a</m>: <m>μ</m> &gt; 1</li>
             <li>Let <m>\overline{X}</m> = the mean cost in dollars of macaroni and cheese in a certain town.</li>
             <li>Student's <m>t</m>-distribution</li>
             <li><m>t</m> = 0.340</li>
@@ -2437,8 +2398,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.01</li>
-            <li><em>H_{a}</em>: <m>p</m> &gt; 0.01</li>
+            <li><m>H_0</m>: <m>p</m> = 0.01</li>
+            <li><m>H_a</m>: <m>p</m> &gt; 0.01</li>
             <li>Let <m>P′</m> = the proportion of errors generated</li>
             <li>Normal for a single proportion</li>
             <li>2.13</li>
@@ -2505,8 +2466,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.50</li>
-            <li><em>H_{a}</em>: <m>p</m> &lt; 0.50</li>
+            <li><m>H_0</m>: <m>p</m> = 0.50</li>
+            <li><m>H_a</m>: <m>p</m> &lt; 0.50</li>
             <li>Let <m>P′</m> = the proportion of friends that has a pierced ear.</li>
             <li>normal for a single proportion</li>
             <li>–1.70</li>
@@ -2565,8 +2526,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.40</li>
-            <li><em>H_{a}</em>: <m>p</m> &lt; 0.40</li>
+            <li><m>H_0</m>: <m>p</m> = 0.40</li>
+            <li><m>H_a</m>: <m>p</m> &lt; 0.40</li>
             <li>Let <m>P′</m> = the proportion of schoolmates who fear public speaking.</li>
             <li>normal for a single proportion</li>
             <li>–1.01</li>
@@ -2595,8 +2556,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.14</li>
-            <li><em>H_{a}</em>: <m>p</m> &lt; 0.14</li>
+            <li><m>H_0</m>: <m>p</m> = 0.14</li>
+            <li><m>H_a</m>: <m>p</m> &lt; 0.14</li>
             <li>Let <m>P′</m> = the proportion of nursing home residents that have the disease.</li>
             <li>normal for a single proportion</li>
             <li>–0.2756</li>
@@ -2625,8 +2586,8 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>μ</m> = 69,110</li>
-            <li><em>H_{a}</em>: <m>μ</m> &gt; 69,110</li>
+            <li><m>H_0</m>: <m>μ</m> = 69,110</li>
+            <li><m>H_a</m>: <m>μ</m> &gt; 69,110</li>
             <li>Let <m>\overline{X}</m> = the mean salary in dollars for California registered nurses.</li>
             <li>Student's <m>t</m>-distribution</li>
             <li><m>t</m> = 1.719</li>
@@ -2653,15 +2614,15 @@ Test of the two population proportions by testing one population mean of differe
         <statement>
           <p>Harley Davidson motorcycles are the largest selling motorcycle in the United States, with 14 percent of all motorcycles sold in 2012. Interestingly, a random sample of 1,945 stolen motorcycles was selected, and it was found that just 8 percent of them were Harleys. Is there good evidence that the proportion of Harleys among stolen motorcycles is significantly less than their share of all motorcycles?  After conducting the test, what decision and conclusion would you make?</p>
           <ol>
-            <li>Reject <em>H_{0}</em>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles</li>
-            <li>Do not reject <em>H_{0}</em>: There is not sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles</li>
-            <li>Do not reject <em>H_{0}</em>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly more than their share of all motorcycles</li>
-            <li>Reject <em>H_{0}</em>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly more than their share of all motorcycles</li>
+            <li>Reject <m>H_0</m>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles</li>
+            <li>Do not reject <m>H_0</m>: There is not sufficient evidence to conclude that the proportion of Harleys stolen is significantly less than their share of all motorcycles</li>
+            <li>Do not reject <m>H_0</m>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly more than their share of all motorcycles</li>
+            <li>Reject <m>H_0</m>: There is sufficient evidence to conclude that the proportion of Harleys stolen is significantly more than their share of all motorcycles</li>
           </ol>
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>p</m> ≥ 0.14, <em>H_{a}</em>: <m>p</m> &lt; 0.14</li>
+            <li><m>H_0</m>: <m>p</m> ≥ 0.14, <m>H_a</m>: <m>p</m> &lt; 0.14</li>
             <li><m>p</m>-value &lt; 0.0002</li>
             <li>Alpha: 0.05</li>
             <li>Reject the null hypothesis.</li>
@@ -2717,7 +2678,7 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.488 <em>H_{a}</em>: <m>p</m> ≠ 0.488</li>
+            <li><m>H_0</m>: <m>p</m> = 0.488 <m>H_a</m>: <m>p</m> ≠ 0.488</li>
             <li><m>p</m>-value = 0.0114</li>
             <li>alpha = 0.05</li>
             <li>Reject the null hypothesis.</li>
@@ -2737,7 +2698,7 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>p</m> = 0.517 <em>H_{a}</em>: <m>p</m> ≠ 0.517</li>
+            <li><m>H_0</m>: <m>p</m> = 0.517 <m>H_a</m>: <m>p</m> ≠ 0.517</li>
             <li><m>p</m>-value = 0.9203.</li>
             <li>alpha = 0.05.</li>
             <li>Do not reject the null hypothesis.</li>
@@ -2757,7 +2718,7 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>µ</m> ≥ 11.52  <em>H_{a}</em>: <m>µ</m> &lt; 11.52</li>
+            <li><m>H_0</m>: <m>µ</m> ≥ 11.52  <m>H_a</m>: <m>µ</m> &lt; 11.52</li>
             <li><m>p</m>-value = 0.000002 which is almost 0.</li>
             <li>alpha = 0.05.</li>
             <li>Reject the null hypothesis.</li>
@@ -2821,7 +2782,7 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>µ</m> ≤ 5.8	<em>H_{a}</em>: <m>µ</m> &gt; 5.8</li>
+            <li><m>H_0</m>: <m>µ</m> ≤ 5.8	<m>H_a</m>: <m>µ</m> &gt; 5.8</li>
             <li><m>p</m>-value =  0.9987</li>
             <li>alpha = 0.05</li>
             <li>Do not reject the null hypothesis.</li>
@@ -2894,7 +2855,7 @@ Test of the two population proportions by testing one population mean of differe
           </statement>
         <solution>
           <ol>
-            <li><em>H_{0}</em>: <m>µ</m> ≥ 150	<em>H_{a}</em>: <m>µ</m> &lt; 150</li>
+            <li><m>H_0</m>: <m>µ</m> ≥ 150	<m>H_a</m>: <m>µ</m> &lt; 150</li>
             <li><m>p</m>-value = 0.0622</li>
             <li>alpha = 0.01</li>
             <li>Do not reject the null hypothesis.</li>
@@ -2909,7 +2870,7 @@ Test of the two population proportions by testing one population mean of differe
 
 
   <glossary xml:id="glossary-ch09">
-    <title>Glossary</title>
+    <title>Key Terms</title>
 
     <gi xml:id="gi-alternative-hypothesis">
       <title>alternative hypothesis</title>
@@ -2926,8 +2887,8 @@ Test of the two population proportions by testing one population mean of differe
       <p>the hypothesis being tested; usually a statement of no effect or no difference; notation: H_0</p>
     </gi>
 
-    <gi xml:id="gi-p-value">
-      <title>p-value</title>
+    <gi xml:id="gi-<m>p</m>-value">
+      <title><m>p</m>-value</title>
       <p>the probability of obtaining a test statistic at least as extreme as the one observed, assuming the null hypothesis is true</p>
     </gi>
 
