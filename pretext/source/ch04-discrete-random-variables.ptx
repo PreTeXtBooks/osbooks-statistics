@@ -231,7 +231,7 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idp99695744">
+    <exercises xml:id="fs-idp99695744">
       <title>Homework</title>
       <exercise xml:id="fs-idp971520">
         <statement>
@@ -242,7 +242,7 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
           </ol>
         </statement>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
 
@@ -520,7 +520,7 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idm60120304">
+    <exercises xml:id="fs-idm60120304">
       <title>HOMEWORK</title>
       <exercise xml:id="fs-idp10277168">
         <statement>
@@ -780,7 +780,7 @@ It doesn’t matter. I expect to break even.</p>
           <p>A fair price for a ticket is $0.35. Any price over $0.35 will enable the lottery to raise money.</p>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
 
@@ -1143,7 +1143,7 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idp12065056">
+    <exercises xml:id="fs-idp12065056">
       <title>HOMEWORK</title>
       <exercise xml:id="eip-idm67916816">
         <statement>
@@ -1453,7 +1453,7 @@ Standard Deviation = <m>σ</m> = <m>\sqrt{npq}</m> = <m>\sqrt{15(.281)(.719)}</m
           </ol>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
 
@@ -1666,7 +1666,7 @@ Standard Deviation = <m>σ</m> = <m>\sqrt{\frac{\text{1}-p}{p^{2}}}</m> = <m>\s
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idm13601184">
+    <exercises xml:id="fs-idm13601184">
       <title>HOMEWORK</title>
       <exercise xml:id="element-589">
         <statement>
@@ -1804,7 +1804,7 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
           </ol>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
 
@@ -1968,7 +1968,7 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idm62349392">
+    <exercises xml:id="fs-idm62349392">
       <title>HOMEWORK</title>
       <exercise xml:id="element-194">
         <statement>
@@ -2048,7 +2048,7 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
           </ol>
         </statement>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
 
@@ -2360,7 +2360,7 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idm132424448">
+    <exercises xml:id="fs-idm132424448">
       <title>HOMEWORK</title>
       <exercise xml:id="fs-idm121525168">
         <statement>
@@ -2585,7 +2585,7 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
           <p>d</p>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
 
@@ -2861,7 +2861,7 @@ __________</li>
       </note>
     </subsection>
 
-    <subsection xml:id="fs-id1170309339367">
+    <exercises xml:id="fs-id1170309339367">
       <title>HOMEWORK</title>
       <exercise xml:id="fs-id1170309353533">
         <statement>
@@ -2882,7 +2882,7 @@ __________</li>
           </ol>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
 

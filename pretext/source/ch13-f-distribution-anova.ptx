@@ -119,7 +119,7 @@
       </exercise>
     </subsection>
 
-    <subsection xml:id="ch13-m79703-fs-idm25046720">
+    <exercises xml:id="ch13-m79703-fs-idm25046720">
       <title>Homework</title>
       <exercise xml:id="ch13-m79703-eip-213">
         <statement>
@@ -149,7 +149,7 @@
           <p><em>H_{a}</em>: ____________</p>
         </statement>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
 
@@ -415,7 +415,7 @@ cases, may be weighted. We used sum of squares to calculate the sample variance 
       </exercise>
     </subsection>
 
-    <subsection xml:id="ch13-m79704-eip-103">
+    <exercises xml:id="ch13-m79704-eip-103">
       <title>Homework</title>
       <p><em>Use the following information to answer the next three exercises.</em> Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.
 Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.</p>
@@ -450,7 +450,7 @@ Suppose that the following data are randomly collected from five teenagers in ea
           <p><m>F</m> statistic = ________</p>
         </statement>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
 
@@ -797,7 +797,7 @@ sororities?</p>
       </exercise>
     </subsection>
 
-    <subsection xml:id="ch13-m79705-fs-idp159138080">
+    <exercises xml:id="ch13-m79705-fs-idp159138080">
       <title>Homework</title>
       <note xml:id="ch13-m79705-fs-idm3376448">
         <title>DIRECTIONS</title>
@@ -1049,7 +1049,7 @@ Conclusion: _______________________________________________________________</li>
           <p>Calculate 95 percent confidence intervals for the mean body temperature in each group and comment about the confidence intervals.</p>
         </statement>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
 
@@ -1254,7 +1254,7 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
       </exercise>
     </subsection>
 
-    <subsection xml:id="ch13-m79706-fs-idp94808464">
+    <exercises xml:id="ch13-m79706-fs-idp94808464">
       <title>Homework</title>
       <exercise xml:id="ch13-m79706-element-721">
         <statement>
@@ -1383,7 +1383,7 @@ Conclusion: There is not sufficient evidence to conclude that the variances are 
 <nbsp/>Since the <m>p</m>-value is so large, there is not good evidence against the null hypothesis of equal means. We decline to reject the null hypothesis. Thus, for 2012, there is not any good evidence of a significant difference in mean number of wins between the divisions of the American League.</p>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
 
