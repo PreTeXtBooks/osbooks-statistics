@@ -717,7 +717,7 @@ Estimated proportion for group B: 0.05</p>
     <exercise xml:id="fs-idp4946544">
       <title>Try It</title>
       <statement>
-          <p>A new prep class was designed to improve SAT test scores. Five students were selected at random. Their scores on two practice exams were recorded, one before the class and one after. The data are recorded in . Are the scores, on average, higher after the class? Test at a 5 percent level.</p>
+          <p>A new prep class was designed to improve SAT test scores. Five students were selected at random. Their scores on two practice exams were recorded, one before the class and one after. The data are recorded in <xref ref="fs-idp42085840" />. Are the scores, on average, higher after the class? Test at a 5 percent level.</p>
           <table xml:id="fs-idp42085840">
             <title>SAT Scores</title>
             <tabular>
@@ -752,7 +752,7 @@ Estimated proportion for group B: 0.05</p>
 
     <example xml:id="element-241">
         <statement>
-          <p>Seven eighth-graders at Kennedy Middle School measured how far they could push the shot put with their dominant (writing) hand and their weaker (nonwriting) hand. They thought that they could push equal distances with both hands. The data are collected and recorded in .</p>
+          <p>Seven eighth-graders at Kennedy Middle School measured how far they could push the shot put with their dominant (writing) hand and their weaker (nonwriting) hand. They thought that they could push equal distances with both hands. The data are collected and recorded in <xref ref="table-2535678" />.</p>
           <table xml:id="table-2535678">
             <title>Shot Put Distances</title>
             <tabular>
@@ -809,7 +809,7 @@ Estimated proportion for group B: 0.05</p>
     <exercise xml:id="fs-idm3639952">
       <title>Try It</title>
       <statement>
-          <p>Five ball players think they can throw the same distance with their dominant hand (throwing) and off-hand (catching hand). The data were collected and recorded in . Conduct a hypothesis test to determine whether the mean 5 difference in distances between the dominant and off-hand is significant. Test at the 5 percent level.</p>
+          <p>Five ball players think they can throw the same distance with their dominant hand (throwing) and off-hand (catching hand). The data were collected and recorded in <xref ref="fs-idp26621360" />. Conduct a hypothesis test to determine whether the mean difference in distances between the dominant and off-hand is significant. Test at the 5 percent level.</p>
           <table xml:id="fs-idp26621360">
             <title>Ball Player Throwing Distances</title>
             <tabular>
