@@ -1820,7 +1820,7 @@ Test of the two population proportions by testing one population mean of differe
         </exercise>
       <exercise xml:id="ch9-element-231">
         <statement>
-          <p>For Statements A–J in <xref ref="element-612">, answer the following in complete sentences.</p>
+          <p>For Statements A–J in <xref ref="element-612"/>, answer the following in complete sentences.</p>
           <ol>
             <li>State a consequence of committing a Type I error.</li>
             <li>State a consequence of committing a Type II error.</li>
@@ -2082,7 +2082,7 @@ Test of the two population proportions by testing one population mean of differe
         </exercise>
       <exercise xml:id="element-814">
         <statement>
-          <p>Refer to <xref ref = "element-950">. Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.</p>
+          <p>Refer to <xref ref = "element-950"/>. Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.</p>
           </statement>
         <solution>
           <ol>
@@ -2887,7 +2887,7 @@ Test of the two population proportions by testing one population mean of differe
       <p>the hypothesis being tested; usually a statement of no effect or no difference; notation: H_0</p>
     </gi>
 
-    <gi xml:id="gi-<m>p</m>-value">
+    <gi xml:id="gi-p-value">
       <title><m>p</m>-value</title>
       <p>the probability of obtaining a test statistic at least as extreme as the one observed, assuming the null hypothesis is true</p>
     </gi>
