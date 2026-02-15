@@ -2239,6 +2239,11 @@ weight of a car? Is this what you expected?</li>
   <glossary xml:id="glossary-ch12">
     <title>Glossary</title>
 
+    <gi xml:id="gi-coefficient-of-correlation">
+      <title>coefficient of correlation</title>
+      <p>a measure developed by Karl Pearson during the early 1900s that gives the strength of association between the independent variable and the dependent variable; <m>r=\frac{n\sum xy - (\sum x)(\sum y)}{\sqrt{(n\sum x^2 - (\sum x)^2)(n\sum y^2 - (\sum y)^2)}}</m> where <m>n</m> is the number of data points. The coefficient cannot be more than 1 and less than –1. The closer the coefficient is to ±1, the stronger the evidence of a significant linear relationship between <m>x</m> and <m>y</m>.</p>
+    </gi>
+
     <gi xml:id="gi-coefficient-of-determination">
       <title>coefficient of determination</title>
       <p>the square of the correlation coefficient, r²; measures the proportion of the variance in the dependent variable that is predictable from the independent variable</p>
