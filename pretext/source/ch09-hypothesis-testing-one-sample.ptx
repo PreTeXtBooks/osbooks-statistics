@@ -2899,12 +2899,7 @@ Test of the two population proportions by testing one population mean of differe
 
     <gi xml:id="gi-level-of-significance">
       <title>level of significance</title>
-      <p>the probability of rejecting the null hypothesis when it is true; notation: α (alpha); commonly set at 0.05 or 0.01</p>
-    </gi>
-
-    <gi xml:id="gi-level-of-significance-of-the-test">
-      <title>level of significance of the test</title>
-      <p>probability of a Type I error (reject the null hypothesis when it is true). Notation: <m>\alpha</m>. In hypothesis testing, the level of significance is called the preconceived <m>\alpha</m> or the preset <m>\alpha</m>.</p>
+      <p>probability of a Type I error (reject the null hypothesis when it is true); notation: <m>\alpha</m> (alpha); commonly set at 0.05 or 0.01. In hypothesis testing, the level of significance is called the preconceived <m>\alpha</m> or the preset <m>\alpha</m>.</p>
     </gi>
 
     <gi xml:id="gi-normal-distribution">
