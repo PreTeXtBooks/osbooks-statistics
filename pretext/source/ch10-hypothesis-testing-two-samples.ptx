@@ -855,6 +855,32 @@ Estimated proportion for group B: 0.05</p>
       <statement>
         <title>Note</title>
       <p>A college football coach was interested in whether the college’s strength development class increased his players’ maximum lift (in pounds) on the bench press exercise. He asked four of his players to participate in a study. The amount of weight they could each lift was recorded before they took the strength development class. After completing the class, the amount of weight they could each lift was again measured. The data are as follows:</p>
+      <table xml:id="table-234678">
+        <title>Weight Lifting Data</title>
+        <tabular>
+          <row header="yes">
+            <cell>Weight (in pounds)</cell>
+            <cell>Player 1</cell>
+            <cell>Player 2</cell>
+            <cell>Player 3</cell>
+            <cell>Player 4</cell>
+          </row>
+          <row>
+            <cell>Amount of weight lifted prior to the class</cell>
+            <cell>205</cell>
+            <cell>241</cell>
+            <cell>338</cell>
+            <cell>368</cell>
+          </row>
+          <row>
+            <cell>Amount of weight lifted after the class</cell>
+            <cell>295</cell>
+            <cell>252</cell>
+            <cell>330</cell>
+            <cell>360</cell>
+          </row>
+        </tabular>
+      </table>
       <p>The coach wants to know if the strength development class makes his players stronger, on average.
 <nbsp/>Record the <em>differences</em> data. Calculate the differences by subtracting the amount of weight lifted prior to the class from the weight lifted after completing the class. The data for the differences are: {90, 11, -8, -8}. Assume the differences have a normal distribution.</p>
       <p>Using the differences data, calculate the sample mean and the sample standard deviation.</p>
