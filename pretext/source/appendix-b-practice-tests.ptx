@@ -428,7 +428,7 @@
         <em>Use the following information to answer the next four exercises.</em> This box plot represents scores on the final exam for a physics class.
       </p>
       <figure xml:id="fs-idp58462000">
-        <image source="../media/CNX_Stats_AppendixB_Figure_1pt1.jpg"/>
+        <image source="CNX_Stats_AppendixB_Figure_1pt1.jpg"/>
       </figure>
       <p>
         <em>41</em> . What is the median for this data, and how do you know?
@@ -2902,25 +2902,25 @@ Total
         <em>9</em> . Describe the pattern in this scatter plot, and decide whether the <em>X</em> and <em>Y</em> variables would be good candidates for linear regression.
       </p>
       <figure xml:id="fs-idm153068928">
-        <image source="../media/CNX_Stats_AppendixB_Figure_1pt2.jpg"/>
+        <image source="CNX_Stats_AppendixB_Figure_1pt2.jpg"/>
       </figure>
       <p>
         <em>10</em> . Describe the pattern in this scatter plot, and decide whether the <em>X</em> and <em>Y</em> variables would be good candidates for linear regression.
       </p>
       <figure xml:id="fs-idm225001472">
-        <image source="../media/CNX_Stats_AppendixB_Figure_1pt3.jpg"/>
+        <image source="CNX_Stats_AppendixB_Figure_1pt3.jpg"/>
       </figure>
       <p>
         <em>11</em> . Describe the pattern in this scatter plot, and decide whether the <em>X</em> and <em>Y</em> variables would be good candidates for linear regression.
       </p>
       <figure xml:id="fs-idm32835920">
-        <image source="../media/CNX_Stats_AppendixB_Figure_1pt4.jpg"/>
+        <image source="CNX_Stats_AppendixB_Figure_1pt4.jpg"/>
       </figure>
       <p>
         <em>12</em> . Describe the pattern in this scatter plot, and decide whether the <em>X</em> and <em>Y</em> variables would be good candidates for linear regression.
       </p>
       <figure xml:id="fs-idm12350016">
-        <image source="../media/CNX_Stats_AppendixB_Figure_1pt5.jpg"/>
+        <image source="CNX_Stats_AppendixB_Figure_1pt5.jpg"/>
       </figure>
     </subsection>
     <subsection xml:id="fs-idm92254352">
@@ -3084,10 +3084,10 @@ Total
         <em>41</em> . Histograms <em>F</em> 1 and <em>F</em> 2 below display the distribution of cases from samples from two populations, one distributed <em>F</em> <m>_{3,15}</m> and one distributed <em>F</em> <m>_{5,500}</m> . Which sample came from which population?
       </p>
       <figure xml:id="fs-idm163171152">
-        <image source="../media/CNX_Stats_AppendixB_Figure_1pt6N.jpg"/>
+        <image source="CNX_Stats_AppendixB_Figure_1pt6N.jpg"/>
       </figure>
       <figure xml:id="fs-idm145002800">
-        <image source="../media/CNX_Stats_AppendixB_Figure_1pt7N.jpg"/>
+        <image source="CNX_Stats_AppendixB_Figure_1pt7N.jpg"/>
       </figure>
       <p>
         <em>42</em> . The <em>F</em> statistic from an experiment with <em>k</em> = 3 and <em>n</em> = 50 is 3.67. At <em>α</em> = 0.05, will you reject the null hypothesis?
@@ -4631,7 +4631,7 @@ The results of her survey are summarized in the table below . Number of Days on 
       <em>2</em> . The box plot for the data is
     </p>
     <figure xml:id="eip-idp120765168">
-      <image source="../media/CNX_Stats_AppendixB_ART_abcdN.jpg"/>
+      <image source="CNX_Stats_AppendixB_ART_abcdN.jpg"/>
     </figure>
     <p>
       <em>3</em> . If six were added to each value of the data in the table, the 15th percentile of the new list of values is would be 
@@ -4990,7 +4990,7 @@ The results of her survey are summarized in the table below . Number of Days on 
       <em>17</em> . Which graph best shows the probability that a randomly chosen fourth grader takes more than six minutes to take out the trash, given that he or she has already taken more than three minutes?
     </p>
     <figure xml:id="fs-idm1291472">
-      <image source="../media/CNX_Stats_Appendix_ART_3.jpg" width="80%"/>
+      <image source="CNX_Stats_Appendix_ART_3.jpg" width="80%"/>
     </figure>
     <p>
       <em>18</em> . We should expect a fourth grader to take how many minutes to take out the trash? 

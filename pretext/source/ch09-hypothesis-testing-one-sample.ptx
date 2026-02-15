@@ -2887,7 +2887,7 @@ Test of the two population proportions by testing one population mean of differe
       <p>the hypothesis being tested; usually a statement of no effect or no difference; notation: H_0</p>
     </gi>
 
-    <gi xml:id="gi-<m>p</m>-value">
+    <gi xml:id="gi-p-value">
       <title><m>p</m>-value</title>
       <p>the probability of obtaining a test statistic at least as extreme as the one observed, assuming the null hypothesis is true</p>
     </gi>

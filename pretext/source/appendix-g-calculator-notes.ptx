@@ -11,15 +11,15 @@
     </p>
     <p>
       <title>To adjust the contrast</title>
-      Press <image source="../media/ti83-2nd.png"/> <image source="../media/ti83-dir-up.png"/> <image source="../media/ti83-dir-down.png"/>
+      Press <image source="ti83-2nd.png"/> <image source="ti83-dir-up.png"/> <image source="ti83-dir-down.png"/>
     </p>
     <p>
       <title>To capitalize letters and words</title>
-      Press <image source="../media/ti83-alpha.png"/> <image source="../media/ti83-2nd.png"/> <image source="../media/ti83-alpha.png"/> <image source="../media/ti83-alpha.png"/>
+      Press <image source="ti83-alpha.png"/> <image source="ti83-2nd.png"/> <image source="ti83-alpha.png"/> <image source="ti83-alpha.png"/>
     </p>
     <p>
       <title>To correct a mistake</title>
-      If you hit a wrong button, press <image source="../media/ti83-clear.png"/>
+      If you hit a wrong button, press <image source="ti83-clear.png"/>
     </p>
     <p>
       <title>To write in scientific notation</title>
@@ -40,7 +40,7 @@
     </p>
     <p>
       <title>To transfer programs or equations from one calculator to another</title>
-      Both calculators: <image source="../media/ti83-2nd.png"/> [LINK]
+      Both calculators: <image source="ti83-2nd.png"/> [LINK]
     </p>
     <p>
       <title>Calculator receiving information</title>
@@ -66,7 +66,7 @@
       </p>
     </note>
     <p>
-      Both calculators—Insert your respective end of the link cable, press <image source="../media/ti83-2nd.png"/> , then <c>[QUIT]</c> to exit when done.
+      Both calculators—Insert your respective end of the link cable, press <image source="ti83-2nd.png"/> , then <c>[QUIT]</c> to exit when done.
     </p>
   </section>
 
@@ -190,24 +190,24 @@ Continue in the same manner until all data values are entered. Access statistics
       <li>
         <p>
           Access graphing mode. 
- <image source="../media/ti83-2nd.png"/> , <c>[STAT PLOT]</c> .
+ <image source="ti83-2nd.png"/> , <c>[STAT PLOT]</c> .
         </p>
       </li>
       <li>
         <p>
           Select <c>&lt;1:plot 1&gt;</c> to access plotting - first graph. 
- <image source="../media/ti83-enter.png"/>
+ <image source="ti83-enter.png"/>
         </p>
       </li>
       <li>
         <p>
           Use the arrows to navigate to <c>&lt;ON&gt;</c> to turn on Plot 1. 
- <c>&lt;ON&gt;</c> , <image source="../media/ti83-enter.png"/> .
+ <c>&lt;ON&gt;</c> , <image source="ti83-enter.png"/> .
         </p>
       </li>
       <li>
         <p>
-          Use the arrows to go to the histogram picture and select the histogram. <image source="../media/ti83-enter.png"/>
+          Use the arrows to go to the histogram picture and select the histogram. <image source="ti83-enter.png"/>
         </p>
       </li>
       <li>
@@ -218,7 +218,7 @@ Continue in the same manner until all data values are entered. Access statistics
       <li>
         <p>
           If [L1] is not selected, select it. 
- <image source="../media/ti83-2nd.png"/> , <c>[L1]</c> , <image source="../media/ti83-enter.png"/> .
+ <image source="ti83-2nd.png"/> , <c>[L1]</c> , <image source="ti83-enter.png"/> .
         </p>
       </li>
       <li>
@@ -229,13 +229,13 @@ Continue in the same manner until all data values are entered. Access statistics
       <li>
         <p>
           Assign the frequencies to <c>[L2]</c> . 
- <image source="../media/ti83-2nd.png"/> , <c>[L2]</c> , <image source="../media/ti83-enter.png"/> .
+ <image source="ti83-2nd.png"/> , <c>[L2]</c> , <image source="ti83-enter.png"/> .
         </p>
       </li>
       <li>
         <p>
           Go back to access other graphs. 
- <image source="../media/ti83-2nd.png"/> , <c>[STAT PLOT]</c> .
+ <image source="ti83-2nd.png"/> , <c>[STAT PLOT]</c> .
         </p>
       </li>
       <li>
@@ -458,7 +458,7 @@ Continue in the same manner until all data values are entered. Access statistics
       </table>
       <figure xml:id="fs-id13815357">
         <caption>By hand, verify the scatterplot above.</caption>
-        <image source="../media/CNX_Stats_Appendix_ART_Figure_14.6.jpg" width="80%"/>
+        <image source="CNX_Stats_Appendix_ART_Figure_14.6.jpg" width="80%"/>
       </figure>
       <note xml:id="fs-id15648837">
         <title>Note</title>
@@ -867,7 +867,7 @@ n
       </p>
       <p>
         <title>To obtain estimates of </title>
-        There are various ways to determine estimates for &quot; y. x <image source="../media/ti83-trace.png"/>
+        There are various ways to determine estimates for &quot; y. x <image source="ti83-trace.png"/>
       </p>
     </subsection>
   </section>
