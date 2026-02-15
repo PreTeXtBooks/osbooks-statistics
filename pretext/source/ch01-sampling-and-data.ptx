@@ -55,7 +55,7 @@
       <p xml:id="fs-idm37641920"><term>Probability</term> is a mathematical tool used to study randomness. It deals with the chance of an event occurring. For example, if you toss a <em>fair</em> coin four times, the outcomes may not be two heads and two tails. However, if you toss the same coin 4,000 times, the outcomes will be close to half heads and half tails. The expected theoretical probability of heads in any one toss is <m>\frac{1}{2}</m> or .5. Even though the outcomes of a few repetitions are uncertain, there is a regular pattern of outcomes when there are many repetitions. After reading about the English statistician Karl <term>Pearson</term> who tossed a coin 24,000 times with a result of 12,012 heads, one of the authors tossed a coin 2,000 times. The results were 996 heads. The fraction <m>\frac{996}{2,000}</m> is equal to .498 which is very close to .5, the expected probability.</p>
       <p xml:id="fs-idm51841168">The theory of probability began with the study of games of chance such as poker. Predictions take the form of probabilities. To predict the likelihood of an earthquake, of rain, or whether you will get an <em>A</em> in this course, we use probabilities. Doctors use probability to determine the chance of a vaccination causing the disease the vaccination is supposed to prevent. A stockbroker uses probability to determine the rate of return on a client's investments.</p>
     </subsection>
-    <subsection xml:id="eip-159">
+    <exercises xml:id="eip-159">
       <title>Key Terms</title>
       <p xml:id="fs-idm63797184">In statistics, we generally want to study a <term>population</term>. You can think of a population as a collection of persons, things, or objects under study. To study the population, we select a <term>sample</term>. The idea of <term>sampling</term> is to select a portion, or subset, of the larger population and study that portion—the sample—to gain information about the population. Data are the result of sampling from a population.</p>
       <p xml:id="fs-idp7610128">Because it takes a lot of time and money to examine an entire population, sampling is a very practical technique. If you wished to compute the overall grade point average at your school, it would make sense to select a sample of students who attend the school. The data collected from the sample would be the students' grade point averages. In presidential elections, opinion poll samples of 1,000–2,000 people are taken. The opinion poll is supposed to represent the views of the people in the entire country. Manufacturers of canned carbonated drinks take samples to determine if a 16-ounce can contains 16 ounces of carbonated drink.</p>
@@ -164,7 +164,7 @@
       <exploration xml:id="fs-idm62184048">
         <p xml:id="fs-idp44556000">Do the following exercise collaboratively with up to four people per group. Find a population, a sample, the parameter, the statistic, a variable, and data for the following study: You want to determine the average—mean—number of glasses of milk college students drink per day. Suppose yesterday, in your English class, you asked five students how many glasses of milk they drank the day before. The answers were 1, 0, 1, 3, and 4 glasses of milk.</p>
       </exploration>
-    </subsection>
+    </exercises>
   </section>
 
   <section xml:id="sec-data-sampling-variation">
@@ -1104,7 +1104,7 @@
         </exploration>
       </subsection>
     </subsection>
-    <subsection xml:id="eip-166">
+    <exercises xml:id="eip-166">
       <title>Bringing It Together</title>
       <exercise xml:id="eip-219">
         <statement>
@@ -1173,7 +1173,7 @@
           </ul>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
   </section>
 
   <section xml:id="sec-frequency-frequency-tables">
@@ -1208,7 +1208,7 @@
       <p xml:id="eip-750">The differences between the data have meaning. The score 92 is more than the score 68 by 24 points.
     Ratios can be calculated. The minimum score is 0. So 80 is four times 20. The score of 80 is four times better than the score of 20.</p>
     </subsection>
-    <subsection xml:id="eip-959">
+    <exercises xml:id="eip-959">
       <title>Frequency</title>
       <p xml:id="id7489802">Twenty students were asked how many hours they worked per day. Their responses, in hours, are as follows: 5, 6, 3, 3, 2, 4, 7, 5, 2, 3, 5, 6, 5, 4, 4, 3, 5, 2, 5, 3.</p>
       <p xml:id="id9267444"><xref ref="id10383738"/> lists the different data values in ascending order and their frequencies. </p>
@@ -1889,7 +1889,7 @@
           </ol>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
   </section>
 
   <section xml:id="sec-sampling-experiment-design">
@@ -1972,7 +1972,7 @@
         </solution>
       </exercise>
     </subsection>
-    <subsection xml:id="eip-165">
+    <exercises xml:id="eip-165">
       <title>Ethics</title>
       <p xml:id="fs-idp69338592">The widespread misuse and misrepresentation of statistical information often gives the field a bad name. Some say that “numbers don’t lie,” but the people who use numbers to support their claims often do.</p>
       <p xml:id="fs-idp63161552">A recent investigation of famous social psychologist, Diederik Stapel, has led to the retraction of his articles from some of the world’s top journals including, <em>Journal of Experimental Social Psychology, Social Psychology, Basic and Applied Social Psychology, British Journal of Social Psychology,</em> and the magazine <em>Science</em>. Diederik Stapel is a former professor at Tilburg University in the Netherlands. Over the past two years, an extensive investigation involving three universities where Stapel has worked concluded that the psychologist is guilty of fraud on a colossal scale. Falsified data taints over 55 papers he authored and 10 Ph.D. dissertations that he supervised.</p>
@@ -2038,7 +2038,7 @@
           </ol>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
   </section>
 
   <section xml:id="sec-data-collection-experiment">
