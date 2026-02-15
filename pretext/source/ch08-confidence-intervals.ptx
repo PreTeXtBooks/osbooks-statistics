@@ -286,7 +286,7 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
             <p>InterpretationWe estimate with 90 percent confidence that the true population mean exam score for all statistics students is between 67.18 and 68.82.</p>
             <p>Explanation of 90 percent Confidence Level Ninety percent of all confidence intervals constructed in this way contain the true mean statistics exam score. For example, if we constructed 100 of these confidence intervals, we would expect 90 of them to contain the true population mean exam score.</p>
           </solution>
-        </exercise>
+        </example>
 
       <exercise xml:id="ch8-eip-24">
         <title>Try It</title>
@@ -445,7 +445,7 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
               </ul>
             </note>
           </solution>
-        </exercise>
+        </example>
 
       <exercise xml:id="ch8-eip-158">
         <title>Try It</title>
@@ -1240,7 +1240,7 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
   <p>For the TI-84+, you can use the invT command on the DISTRibution menu. The invT command works similarly to the invnorm. The invT command requires two inputs: invT(area to the left, degrees of freedom). The output is the <em>t</em>-score that corresponds to the area we specified. 
   The TI-83 and 83+ do not have the invT command. (The TI-89 has an inverse T command.)</p>
   <p>A probability table for the Student's <em>t</em>-distribution can also be used. The table gives critical <em>t</em>-values that correspond to the confidence level (column) and degrees of freedom (row). (The TI-86 does not have an invT program or command, so if you are using that calculator, you need to use a probability table for the Student's <em>t</em>-distribution.) When using a <em>t</em>-table, note that some tables are formatted to show the confidence level in the column headings, while the column headings in some tables may show only corresponding area in one or both tails.</p>
-<p>A Student's <em>t</em>-table (see Appendix H) gives <em>t</em>-scores given the degrees of freedom and the right-tailed probability. The table is very limited. <em>Calculators and computers can easily calculate any Student's  t-probabilities.</em>
+<p>A Student's <em>t</em>-table (see <xref ref="appendix-h-tables" />) gives <em>t</em>-scores given the degrees of freedom and the right-tailed probability. The table is very limited. <em>Calculators and computers can easily calculate any Student's  t-probabilities.</em>
 </p>
   <p><em>If the population standard deviation is  not known</em>,  the error bound for a population mean is</p>
   <ul>
@@ -2467,7 +2467,13 @@ line with the upper and lower limits of the confidence interval and the sample m
           <li>Error Bound: _____</li>
           <li>How much area is in both tails (combined)? <m>α</m> = _____</li>
           <li>How much area is in each tail? <m>\frac{α}{2}</m> = _____</li>
-          <li>Fill in the blanks on the graph with the area in each section. Then, fill in the number line with the upper and lower limits of the confidence interval and the sample proportion.</li>
+          <li>Fill in the blanks on the graph with the area in each section. Then, fill in the number line with the upper and lower limits of the confidence interval and the sample proportion.
+            <figure xml:id="fig-ch08-place-of-birth">
+              <image source="media/fig-ch08_10_01.jpg" width="50%">
+                <description>A normal distribution curve with blank areas to be filled in for the confidence interval.</description>
+              </image>
+            </figure>
+          </li>
         </ol>
 <p><alert>Describe the Confidence Interval</alert></p>
         <ol>
@@ -2501,7 +2507,24 @@ line with the upper and lower limits of the confidence interval and the sample m
           <li>The student will determine the relationship between the confidence level and the percentage of constructed intervals that contain the population mean.</li>
         </ul>
         <p>Given:</p>
-<p>TODO: Insert missing table of values here</p>
+        <table xml:id="table-ch08-womens-heights">
+          <title>Heights of 100 Adult Women (in inches)</title>
+          <tabular>
+            <row><cell>59.4</cell><cell>71.6</cell><cell>69.3</cell><cell>65.0</cell><cell>62.9</cell><cell>66.5</cell><cell>61.7</cell><cell>55.2</cell></row>
+            <row><cell>67.5</cell><cell>67.2</cell><cell>63.8</cell><cell>62.9</cell><cell>63.0</cell><cell>63.9</cell><cell>68.7</cell><cell>65.5</cell></row>
+            <row><cell>61.9</cell><cell>69.6</cell><cell>58.7</cell><cell>63.4</cell><cell>61.8</cell><cell>60.6</cell><cell>69.8</cell><cell>60.0</cell></row>
+            <row><cell>64.9</cell><cell>66.1</cell><cell>66.8</cell><cell>60.6</cell><cell>65.6</cell><cell>63.8</cell><cell>61.3</cell><cell>59.2</cell></row>
+            <row><cell>64.1</cell><cell>59.3</cell><cell>64.9</cell><cell>62.4</cell><cell>63.5</cell><cell>60.9</cell><cell>77.8</cell><cell>62.9</cell></row>
+            <row><cell>64.7</cell><cell>65.4</cell><cell>60.2</cell><cell>65.0</cell><cell>64.3</cell><cell>64.3</cell><cell>66.0</cell><cell>59.2</cell></row>
+            <row><cell>61.0</cell><cell>67.1</cell><cell>68.3</cell><cell>64.2</cell><cell>62.9</cell><cell>68.3</cell><cell>63.3</cell><cell>62.5</cell></row>
+            <row><cell>67.5</cell><cell>61.6</cell><cell>64.8</cell><cell>68.8</cell><cell>62.2</cell><cell>65.6</cell><cell>67.7</cell><cell>65.8</cell></row>
+            <row><cell>64.7</cell><cell>65.7</cell><cell>66.0</cell><cell>59.6</cell><cell>63.6</cell><cell>63.5</cell><cell>64.0</cell><cell>62.4</cell></row>
+            <row><cell>65.8</cell><cell>65.7</cell><cell>62.5</cell><cell>67.0</cell><cell>65.0</cell><cell>64.4</cell><cell>61.1</cell><cell>60.1</cell></row>
+            <row><cell>66.1</cell><cell>64.8</cell><cell>65.8</cell><cell>60.3</cell><cell>59.8</cell><cell>68.1</cell><cell>66.6</cell><cell>62.5</cell></row>
+            <row><cell>60.8</cell><cell>69.2</cell><cell>63.3</cell><cell>62.1</cell><cell>61.4</cell><cell>57.3</cell><cell>62.8</cell><cell>62.4</cell></row>
+            <row><cell>59.1</cell><cell>66.4</cell><cell>61.2</cell><cell>64.0</cell></row>
+          </tabular>
+        </table>
         <ol>
           <li>Use a random number generator to select 10 data values randomly.</li>
           <li>Calculate the sample mean and the sample standard deviation. Assume that the population standard deviation is known to be 3.3 in. With these values, construct a 90 percent confidence interval for your sample of 10 values. Write the confidence interval you obtained in the first space of .</li>
@@ -2533,7 +2556,6 @@ line with the upper and lower limits of the confidence interval and the sample m
           <li>Suppose you obtained the heights of 10 women and calculated a confidence interval from this information. Without knowing the population mean <m>μ</m>, would you have any way of knowing <em>for certain</em> whether your interval actually contained the value of <m>μ</m>? Explain.</li>
         </ol>
       </note>
-    </subsection>
 
   </section>
 
@@ -2563,6 +2585,51 @@ line with the upper and lower limits of the confidence interval and the sample m
     <gi xml:id="pointest">
       <title>point estimate</title>
       <p>a single number computed from a sample and used to estimate a population parameter</p>
+    </gi>
+    
+    <gi xml:id="binomialdist">
+      <title>binomial distribution</title>
+      <p>a discrete random variable (RV) that arises from Bernoulli trials; there are a fixed number, <em>n</em>, of independent trials. Independent means that the result of any trial (for example, trial 1) does not affect the results of the following trials, and all trials are conducted under the same conditions. Under these circumstances, the binomial RV <em>X</em> is defined as the number of successes in <em>n</em> trials. The notation is <m>X \sim B(n,p)</m>. The mean is <m>\mu = np</m>, and the standard deviation is <m>\sigma = \sqrt{npq}</m>. The probability of exactly <em>x</em> successes in <em>n</em> trials is <m>P(X = x) = \binom{n}{x}p^x q^{n-x}</m>.</p>
+    </gi>
+    
+    <gi xml:id="conlevel">
+      <title>confidence level (CL)</title>
+      <p>the percentage expression for the probability that the confidence interval contains the true population parameter; for example, if the CL = 90 percent, then in 90 out of 100 samples, the interval estimate will enclose the true population parameter</p>
+    </gi>
+    
+    <gi xml:id="degfreedom">
+      <title>degrees of freedom (df)</title>
+      <p>the number of objects in a sample that are free to vary</p>
+    </gi>
+    
+    <gi xml:id="ebm">
+      <title>error bound for a population mean (EBM)</title>
+      <p>the margin of error; depends on the confidence level, sample size, and known or estimated population standard deviation</p>
+    </gi>
+    
+    <gi xml:id="ebp">
+      <title>error bound for a population proportion (EBP)</title>
+      <p>the margin of error; depends on the confidence level, the sample size, and the estimated (from the sample) proportion of successes</p>
+    </gi>
+    
+    <gi xml:id="normdist">
+      <title>normal distribution</title>
+      <p>a bell-shaped continuous random variable <em>X</em>, with center at the mean value (<m>\mu</m>) and distance from the center to the inflection points of the bell curve given by the standard deviation (<m>\sigma</m>). We write <m>X \sim N(\mu, \sigma)</m>. If the mean value is 0 and the standard deviation is 1, the random variable is called the standard normal distribution, and it is denoted with the letter <em>Z</em></p>
+    </gi>
+    
+    <gi xml:id="plusfour">
+      <title>plus-four confidence interval</title>
+      <p>plus-four confidence interval when you add two imaginary successes and two imaginary failures (four overall) to your sample</p>
+    </gi>
+    
+    <gi xml:id="stddev">
+      <title>standard deviation</title>
+      <p>a number that is equal to the square root of the variance and measures how far data values are from their mean; notation: <em>s</em> for sample standard deviation and <m>\sigma</m> for population standard deviation</p>
+    </gi>
+    
+    <gi xml:id="studenttdist">
+      <title>Student's t-distribution</title>
+      <p>investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student. The major characteristics of the random variable (RV) are as follows: It is continuous and assumes any real values. The pdf is symmetrical about its mean of zero. However, it is more spread out and flatter at the apex than the normal distribution. It approaches the standard normal distribution as <em>n</em> get larger. There is a family of t-distributions: Each representative of the family is completely defined by the number of degrees of freedom, which is one less than the number of data.</p>
     </gi>
   </glossary>
 
