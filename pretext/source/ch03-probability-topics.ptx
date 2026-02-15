@@ -61,8 +61,6 @@
   <section xml:id="sec-terminology">
     <title>Terminology</title>
 
-
-    <subsection xml:id="fs-id1164565663984">
       <p><term>Probability</term> is a measure that is associated with how certain we are of results, or outcomes, of a particular activity. When the activity is a planned operation carried out under controlled conditions, it is called an <alert>experiment</alert>. If the result is <em>not</em> predetermined, then the experiment is said to be a chance experiment. Each time the experiment is attempted is called a trial.</p>
       <p>Examples of chance experiments include the following:</p>
       <ul>
@@ -241,7 +239,6 @@
           </ol>
         </solution>
       </example>
-    </subsection>
 
     <subsection xml:id="fs-idp2299568">
       <title>References</title>
