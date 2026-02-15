@@ -261,7 +261,7 @@
       <p><m>P</m>(<m>A</m>|<m>B</m>) = <m>\frac{P\text{(}A\text{AND}B\text{)}}{P\text{(}B\text{)}}</m></p>
     </subsection>
 
-    <subsection xml:id="ch03-eip-99">
+    <exercises xml:id="ch03-eip-99">
       <exercise xml:id="ch03-eip-396">
         <statement>
           <p>In a particular college class, there are male and female students. Some students have long hair and some students have short hair. Write the symbols for the probabilities of the events for parts A through J of this question. Note that you cannot find numerical answers here. You were not given enough information to find any probability values yet; concentrate on understanding the symbols.</p>
@@ -582,7 +582,7 @@
           <p>the probability of landing on an even number or a multiple of three</p>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
 
 
   </section>
@@ -1005,7 +1005,7 @@
     </subsection>
 
 
-    <subsection xml:id="fs-idm4259888">
+    <exercises xml:id="fs-idm4259888">
       <title>Bringing It Together</title>
       <exercise xml:id="ch03-element-738">
         <statement>
@@ -1064,7 +1064,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           </ol>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
 
@@ -1259,7 +1259,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
       <p><alert>The addition rule</alert>—<m>P</m>(<m>A</m> OR <m>B</m>) = <m>P</m>(<m>A</m>) + <m>P</m>(<m>B</m>) − <m>P</m>(<m>A</m> AND <m>B</m>)</p>
     </subsection>
 
-    <subsection xml:id="fs-idm40455392">
+    <exercises xml:id="fs-idm40455392">
       <p><em>Use the following information to answer the next 10 exercises.</em> Forty-eight percent of all voters of a certain state prefer life in prison without parole over the death penalty for a person convicted of first-degree murder. Among Latino registered voters in this state, 55 percent prefer life in prison without parole over the death penalty for a person convicted of first-degree murder. Of all citizens in this state, 37.6 percent are Latino.</p>
       <p>In this problem, let
 <m>C</m> = citizens of a certain state (registered voters) preferring life in prison without parole over the death penalty for a person convicted of first-degree murder.
@@ -1330,7 +1330,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           <p>No, because <m>P</m>(<m>L</m> AND <m>C</m>) does not equal 0.</p>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
 
 
   </section>
@@ -1550,7 +1550,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
       </exercise>
     </subsection>
 
-    <subsection xml:id="fs-idm32828224">
+    <exercises xml:id="fs-idm32828224">
       <title>Bringing It Together</title>
       <p>Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of people who use a product in California and Hawaii. In one part of the report, the self-reported ethnicity and using the product levels per day were given. Of the people using the product at most 10 times a day, there were 9,886 African Americans, 2,745 Native Hawaiians, 12,831 Latinos, 8,378 Japanese Americans, and 7,650 whites. Of the people using the product 11 to 20 times per day, there were 6,514 African Americans, 3,062 Native Hawaiians, 4,932 Latinos, 10,680 Japanese Americans, and 9,877 whites. Of the people using the product 21 to 30 times per day, there were 1,671 African Americans, 1,419 Native Hawaiians, 1,406 Latinos, 4,715 Japanese Americans, and 6,062 Whites. Of the people using the product at least 31 times per day, there were 759 African Americans, 788 Native Hawaiians, 800 Latinos, 2,305 Japanese Americans, and 3,970 whites.</p>
       <exercise xml:id="ch03-element-841">
@@ -1598,7 +1598,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
           <p>Prove that product use/day and ethnicity are dependent events.</p>
         </statement>
       </exercise>
-    </subsection>
+    </exercises>
 
 
   </section>
@@ -1848,7 +1848,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
     </subsection>
 
 
-    <subsection xml:id="fs-idm72330096">
+    <exercises xml:id="fs-idm72330096">
       <title>Bringing It Together</title>
       <p><em>Use the following information to answer the next two exercises.</em> Suppose that you have eight cards. Five are green and three are yellow. The cards are well shuffled.</p>
       <exercise xml:id="ch03-element-194">
@@ -2051,7 +2051,7 @@ Totals
           </ol>
         </statement>
       </exercise>
-    </subsection>
+    </exercises>
 
   </section>
   <section xml:id="sec-probability-topics-practice">
