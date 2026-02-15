@@ -2,9 +2,6 @@
 <chapter xml:id="ch10-hypothesis-testing-two-samples" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Hypothesis Testing with Two Samples</title>
 
-  <section xml:id="sec-hypothesis-testing-two-samples-intro">
-    <title>Introduction</title>
-
     <figure xml:id="ch10-fs-idp119584608">
       <caption>If you want to test a claim that involves two groups (the types of breakfasts eaten east and west of the Mississippi River), you can use a slightly different technique when conducting a hypothesis test. (credit: Chloe Lim)</caption>
       <image source="media/CNX_Stats_C10_CO.jpg" width="76%"/>
@@ -20,6 +17,7 @@
         <li>Conduct and interpret hypothesis tests for matched or paired samples</li>
       </ul>
     </note>
+    <title>Introduction</title>
     <p>Studies often compare two groups. For example, researchers are interested in the effect aspirin has in preventing heart attacks. Over the last few years, newspapers and magazines have reported various aspirin studies involving two groups. Typically, one group is given aspirin and the other group is given a placebo. Then, the heart attack rate is studied over several years.</p>
     <p>There are other situations that deal with the comparison of two groups. For example, studies compare various diet and exercise programs. Politicians compare the proportion of individuals from different income brackets who might vote for them. Students are interested in whether the SAT or GRE preparatory courses really help raise their scores.</p>
     <p>You have learned to conduct hypothesis tests on single means and single proportions. You will expand upon that in this chapter. You will compare two means or two proportions to each other. The general procedure is the same, just expanded.</p>
@@ -42,7 +40,6 @@
         </ul>
       </li>
     </ul>
-  </section>
 
   <section xml:id="sec-two-population-means-unknown-stddev">
     <title>Two Population Means with Unknown Standard Deviations</title>
@@ -81,29 +78,25 @@ where <m>s_{1}</m> and <m>s_{2}</m>, the sample standard deviations, are estimat
       <title>NOTE</title>
       <p>It is not necessary to compute this by hand. A calculator or computer easily computes it.</p>
     </note>
-    <p>When both sample sizes <m>n_{1}</m> and <m>n_{2}</m> are five or larger, the Student's <m>t</m> approximation is very good. Notice that the sample variances <m>(s_{1})^{2}</m> and <m>(s_{2})^{2}</m> are not pooled. (If the question comes up, do not pool the variances.)</p>
-    <note xml:id="ch10-fs-idm50414209-2">
-      <title>NOTE</title>
-      <p>It is not necessary to compute this by hand. A calculator or computer easily computes it.</p>
-    </note>
+
     <example xml:id="element-208">
       <statement>
         <title>Independent groups</title>
         <p>Is there a difference in the mean amount of time boys and girls aged 7 to 11 play sports each day? Test at the 5 percent level of significance.</p>
       </statement>
       <solution>
-        <p>The population standard deviations are not known. Let <m>g</m> be the subscript for girls and <m>b</m> be the subscript for boys. Then, <em>μ_{g}</em> is the population mean for girls and <em>μ_{b}</em> is the population mean for boys. This is a test of two independent groups, two population means.</p>
+        <p>The population standard deviations are not known. Let <m>g</m> be the subscript for girls and <m>b</m> be the subscript for boys. Then, <m>μ_{g}</m> is the population mean for girls and <m>μ_{b}</m> is the population mean for boys. This is a test of two independent groups, two population means.</p>
         <p><term>Random variable</term>:
   <m>\overline{X}_{g}-\overline{X}_{b}</m>
  = difference in the sample mean amount of time girls and boys play sports each day.
 
-<nbsp/><m>H</m>_{0}: <em>μ_{g}</em> = <em>μ_{b}</em>  <em>H_{0}</em>: <em>μ_{g}</em> – <em>μ_{b}</em> = 0
+<nbsp/><m>H</m>_{0}: <m>μ_{g}</m> = <m>μ_{b}</m>  <m>H_0</m>: <m>μ_{g}</m> – <m>μ_{b}</m> = 0
 
-<nbsp/><em>H_{a}</em>: <em>μ_{g}</em> ≠ <em>μ_{b}</em>  <em>H_{a}</em>: <em>μ_{g}</em> – <em>μ_{b}</em> ≠ 0
-<nbsp/>The words <em>the same</em> tell you <em>H_{0}</em> has an "=". Since there are no other words to indicate <em>H_{a}</em>, assume it says <em>is different.</em>
+<nbsp/><m>H_a</m>: <m>μ_{g}</m> ≠ <m>μ_{b}</m>  <m>H_a</m>: <m>μ_{g}</m> – <m>μ_{b}</m> ≠ 0
+<nbsp/>The words <em>the same</em> tell you <m>H_0</m> has an "=". Since there are no other words to indicate <m>H_a</m>, assume it says <em>is different.</em>
 This is a two-tailed test.</p>
         <p>Distribution for the test:
-Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula for independent groups, two population means. Using a calculator, <m>df</m> is approximately 18.8462. <em>Do not pool the variances.</em></p>
+Use <m>t_{df}</m> where <m>df</m> is calculated using the <m>df</m> formula for independent groups, two population means. Using a calculator, <m>df</m> is approximately 18.8462. <em>Do not pool the variances.</em></p>
         <p>Calculate the <m>p</m>-value using a Student’s <m>t</m>-distribution: <m>p</m>-value = 0.0054</p>
         <p>Graph:</p>
         <figure>
@@ -116,7 +109,7 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
 
 <nbsp/>So, <m>x¯_{g}-x¯_{b}</m> = 2 – 3.2 = –1.2
 <nbsp/>Half the <m>p</m>-value is below –1.2, and half is above 1.2.</p>
-        <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{0}</em>. This means you reject <em>μ_{g}</em> = <em>μ_{b}</em>. The means are different.</p>
+        <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <m>H_0</m>. This means you reject <m>μ_{g}</m> = <m>μ_{b}</m>. The means are different.</p>
         <note xml:id="fs-idp61535456">
           <p>Press <c>STAT</c>. Arrow over to <c>TESTS</c> and press <c>4:2-SampTTest</c>. Arrow over to <c>Stats</c> and press <c>ENTER</c>. Arrow down and enter <c>2</c> for the first sample mean, <c>0.866</c> for Sx1, <c>9</c> for n1, <c>3.2</c> for the second sample mean, <c>1</c> for Sx2, and <c>16</c> for n2. Arrow down to <c>μ1:</c> and arrow to <c>does not equal</c> μ2. Press <c>ENTER</c>. Arrow down to <c>Pooled:</c> and <c>No</c>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. The <m>p</m>-value is <m>p</m> = 0.0054, the <m>df</m>s are approximately 18.8462, and the test statistic is –3.14. Do the procedure again, but instead of <c>Calculate</c> do <c>Draw</c>.</p>
         </note>
@@ -134,10 +127,11 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
       </exercise>
     <note xml:id="fs-idm50414208">
       <title>NOTE</title>
-      <p>When the sum of the sample sizes is larger than 30 (<m>n</m>_{1} + <m>n</m>_{2} &gt; 30), you can use the normal distribution to approximate the Student’s <m>t</m>.</p>
+      <p>When the sum of the sample sizes is larger than 30 (<m>n_{1}</m> + <m>n_{2}</m> &gt; 30), you can use the normal distribution to approximate the Student’s <m>t</m>.</p>
     </note>
     <example xml:id="element-968">
       <statement>
+        <p>A study is done by a community group in two neighboring colleges to determine which one graduates students with more math classes. College A samples 11 graduates. Their average is 4 math classes with a standard deviation of 1.5 math classes. College B samples nine graduates. Their average is 3.5 math classes with a standard deviation of 1 math class. The community group believes that a student who graduates from College A has taken more math classes, on average. Both populations have a normal distribution. Test at a 1 percent significance level. Answer the following questions:</p>
         <p>a. Is this a test of two means or two proportions?</p>
       </statement>
       <solution>
@@ -145,7 +139,6 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
       </solution>
     </example>
     <exercise xml:id="eip-idp166826064">
-      <title>Try It</title>
       <statement>
           <p>A study is done to determine if Company A retains its workers longer than Company B. Company A samples 15 workers, and their average time with the company is 5 years with a standard deviation of 1.2. Company B samples 20 workers, and their average time with the company is 4.5 years with a standard deviation of 0.8. The populations are normally distributed.</p>
           <ol>
@@ -197,10 +190,10 @@ Use <em>t_{df}</em> where <m>df</m> is calculated using the <m>df</m> formula fo
           <li>unknown</li>
           <li>Student’s <m>t</m></li>
           <li><m>X¯_{1}-X¯_{2}</m></li>
-          <li><em>H_{0}</em>: <em>μ_{1}</em> = <em>μ_{2}</em> Null hypothesis: The means of the final exam scores are equal for the online and face-to-face statistics classes.
-      <em>H_{a}</em>: <em>μ_{1}</em> &lt; <em>μ_{2}</em> Alternative hypothesis: The mean of the final exam scores of the online class is less than the mean of the final exam scores of the face-to-face class.</li>
-          <li><em>H_{0}</em>: <em>μ_{1}</em> = <em>μ_{2}</em> Null hypothesis: The means of the final exam scores are equal for the online and face-to-face statistics classes.</li>
-          <li><em>H_{a}</em>: <em>μ_{1}</em> &lt; <em>μ_{2}</em> Alternative hypothesis: The mean of the final exam scores of the online class is less than the mean of the final exam scores of the face-to-face class.</li>
+          <li><m>H_0</m>: <em>μ_{1}</em> = <em>μ_{2}</em> Null hypothesis: The means of the final exam scores are equal for the online and face-to-face statistics classes.
+      <m>H_a</m>: <em>μ_{1}</em> &lt; <em>μ_{2}</em> Alternative hypothesis: The mean of the final exam scores of the online class is less than the mean of the final exam scores of the face-to-face class.</li>
+          <li><m>H_0</m>: <em>μ_{1}</em> = <em>μ_{2}</em> Null hypothesis: The means of the final exam scores are equal for the online and face-to-face statistics classes.</li>
+          <li><m>H_a</m>: <em>μ_{1}</em> &lt; <em>μ_{2}</em> Alternative hypothesis: The mean of the final exam scores of the online class is less than the mean of the final exam scores of the face-to-face class.</li>
           <li>left-tailed</li>
           <li><m>p</m>-value = 0.0011</li>
         </ol>
@@ -306,9 +299,9 @@ significance.</p>
       <solution>
         <p>This is a test of two independent groups, two population means, population standard deviations known.</p>
         <p><term>Random Variable</term>: <m>X¯_{1}\text{–}X¯_{2}</m> = difference in the mean number of months the competing floor waxes last.</p>
-        <p><em>H_{0}</em>: <em>μ_{1}</em> ≤ <m>μ</m>_{2}</p>
-        <p><em>H_{a}</em>: <em>μ_{1}</em> &gt; <em>μ_{2}</em></p>
-        <p>The words <em>is more effective</em> says that Wax 1 lasts longer than Wax 2, on average. <em>Longer</em> is a <em>&gt;</em> symbol and goes into <em>H_{a}</em>. Therefore, this is a right-tailed test.</p>
+        <p><m>H_0</m>: <em>μ_{1}</em> ≤ <m>μ</m>_{2}</p>
+        <p><m>H_a</m>: <em>μ_{1}</em> &gt; <em>μ_{2}</em></p>
+        <p>The words <em>is more effective</em> says that Wax 1 lasts longer than Wax 2, on average. <em>Longer</em> is a <em>&gt;</em> symbol and goes into <m>H_a</m>. Therefore, this is a right-tailed test.</p>
         <p>Distribution for the test: The population standard deviations are known, so the distribution is normal. Using the formula, the distribution is</p>
         <p><m>X¯_{1}-X¯_{2}\simN(0,\sqrt{\frac{0.33^{2}}{20}+\frac{0.36^{2}}{20}}).</m></p>
         <p>Since <em>μ_{1}</em> ≤ <em>μ_{2}</em>, then <em>μ_{1}</em> – <em>μ_{2}</em> ≤ 0 and the mean for the normal distribution is zero.</p>
@@ -319,7 +312,7 @@ significance.</p>
         </figure>
         <p><m>X¯_{1}</m> – <m>X¯_{2}</m> = 3 – 2.9 = 0.1</p>
         <p>Compare <m>α</m> and the <m>p</m> value: <m>α</m> = 0.05 and <m>p</m> value = 0.1799. Therefore, <m>α</m> &lt; <m>p</m> value.</p>
-        <p>Make a decision: Since <m>α</m> &lt; <m>p</m> value, do not reject <em>H_{0}</em>.</p>
+        <p>Make a decision: Since <m>α</m> &lt; <m>p</m> value, do not reject <m>H_0</m>.</p>
         <p>Conclusion: At the 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the mean time Wax 1 lasts is longer (Wax 1 is more effective) than the mean time Wax 2 lasts.</p>
         <note xml:id="fs-idp34028208">
           <p>Press <c>STAT</c>. Arrow over to <c>TESTS</c> and press <c>3:2-SampZTest</c>. Arrow over to <c>Stats</c> and press <c>ENTER</c>. Arrow down and enter <c>.33</c> for sigma1, <c>.36</c> for sigma2, <c>3</c> for the first sample mean, <c>20</c> for n1, <c>2.9</c> for the second sample mean, and <c>20</c> for n2. Arrow down to <c><m>μ</m>1:</c> and arrow to <c>&gt; <m>μ</m>_{2}</c>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. The <m>p</m> value is <m>p</m> = 0.1799, and the test statistic is 0.9157. Do the procedure again, but instead of <c>Calculate</c> do <c>Draw</c>.</p>
@@ -343,9 +336,9 @@ significance.</p>
       <solution>
         <p>This is a test of two independent groups, two population means. The population standard deviations are unknown, but the sum of the sample sizes is 30 + 30 = 60, which is greater than 30, so we can use the normal approximation to the Student’s-<m>t</m> distribution. <nbsp/> Subscripts: 1: Democratic senators; 2: Republican senators</p>
         <p>Random variable: <m>X¯_{1}\text{–}X¯_{2}</m> = difference in the mean age of Democratic and Republican U.S. senators.</p>
-        <p><em>H_{0}</em>: <em>µ_{1}</em> ≤ <em>µ_{2}</em> <em>H_{0}</em>: <em>µ_{1}</em> – <em>µ_{2}</em>  ≤ 0</p>
-        <p><em>H_{a}</em>: <em>µ_{1}</em> &gt; <em>µ_{2}</em> <em>H_{a}</em>: <em>µ_{1}</em> – <em>µ_{2}</em> &gt; 0</p>
-        <p>The words <em>older than</em> translates as a <em>&gt;</em> symbol and goes into <em>H_{a}</em>. Therefore, this is a right-tailed test.</p>
+        <p><m>H_0</m>: <em>µ_{1}</em> ≤ <em>µ_{2}</em> <m>H_0</m>: <em>µ_{1}</em> – <em>µ_{2}</em>  ≤ 0</p>
+        <p><m>H_a</m>: <em>µ_{1}</em> &gt; <em>µ_{2}</em> <m>H_a</m>: <em>µ_{1}</em> – <em>µ_{2}</em> &gt; 0</p>
+        <p>The words <em>older than</em> translates as a <em>&gt;</em> symbol and goes into <m>H_a</m>. Therefore, this is a right-tailed test.</p>
         <p>Distribution for the test: The distribution is the normal approximation to the Student’s <m>t</m> for means, independent groups. Using the formula, the distribution is
 
 <m>X¯_{1}-X¯_{2}\simN[0,\sqrt{\frac{(9.55)^{2}}{30}+\frac{(10.17)^{2}}{30}}]</m></p>
@@ -358,7 +351,7 @@ significance.</p>
           </image>
         </figure>
         <p>Compare <m>α</m> and the <m>p</m> value: <m>α</m> = 0.05 and <m>p</m> value = 0.4040. Therefore, <m>α</m> &lt; <m>p</m> value.</p>
-        <p>Make a decision: Since <m>α</m> &lt; <m>p</m> value, do not reject <em>H_{0}</em>.</p>
+        <p>Make a decision: Since <m>α</m> &lt; <m>p</m> value, do not reject <m>H_0</m>.</p>
         <p>Conclusion: At the 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the mean age of Democratic senators is greater than the mean age of the Republican senators.</p>
       </solution>
     </example>
@@ -374,7 +367,7 @@ significance.</p>
       <li>Growing literature states that the population must be at least 10 or 20 times the size of the sample. This keeps each population from being over-sampled and causing incorrect results.</li>
     </ol>
     <p>Comparing two proportions, like comparing two means, is common. If two estimated proportions are different, it may be due to a difference in the populations or it may be due to chance. A hypothesis test can help determine if a difference in the estimated proportions reflects a difference in the population proportions.</p>
-    <p>The difference of two proportions follows an approximate normal distribution. Generally, the null hypothesis states that the two proportions are the same. That is, <em>H_{0}</em>: <em>p_{A}</em> = <em>p_{B}</em>. To conduct the test, we use a <term>pooled proportion</term>, <em>p_{c}</em>.</p>
+    <p>The difference of two proportions follows an approximate normal distribution. Generally, the null hypothesis states that the two proportions are the same. That is, <m>H_0</m>: <em>p_{A}</em> = <em>p_{B}</em>. To conduct the test, we use a <term>pooled proportion</term>, <em>p_{c}</em>.</p>
     <p>The pooled proportion is calculated as follows:</p>
     <me>p_{c}=\frac{x_{A}+x_{B}}{n_{A}+n_{B}}\text{.}</me>
     <p>The distribution for the differences is</p>
@@ -390,9 +383,9 @@ significance.</p>
         <p>The problem asks for a difference in proportions, making it a test of two proportions.</p>
         <p>Let <m>A</m> and <m>B</m> be the subscripts for Medication A and Medication B, respectively. Then, <em>p_{A}</em> and <em>p_{B}</em> are the desired population proportions.</p>
         <p>Random Variable:<em>P′_{A}</em> – <em>P′_{B}</em> = difference in the proportions of adult patients who did not react after 30 minutes to Medication A and to Medication B.</p>
-        <p><em>H_{0}</em>: <em>p_{A}</em> = <em>p_{B}</em></p>
+        <p><m>H_0</m>: <em>p_{A}</em> = <em>p_{B}</em></p>
         <p><em>p_{A}</em> – <em>p_{B}</em> = 0</p>
-        <p><em>H_{a}</em>: <em>p_{A}</em> ≠ <em>p_{B}</em></p>
+        <p><m>H_a</m>: <em>p_{A}</em> ≠ <em>p_{B}</em></p>
         <p><em>p_{A}</em> – <em>p_{B}</em> ≠ 0</p>
         <p>The words <em>is a difference</em> tell you the test is two-tailed.</p>
         <p>Distribution for the test: Since this is a test of two binomial population proportions, the distribution is normal:</p>
@@ -411,7 +404,7 @@ significance.</p>
         <p><em>P′_{A}</em>  – <em>P′_{B}</em> = 0.1 – 0.06 = 0.04.</p>
         <p>Half the <m>p</m>-value is below –0.04, and half is above 0.04.</p>
         <p>Compare <m>α</m> and the <m>p</m>-value: <m>α</m> = 0.01 and the <m>p</m>-value = 0.1404. <m>α</m> &lt; <m>p</m>-value.</p>
-        <p>Make a decision: Since <m>α</m> &lt; <m>p</m>-value, do not reject <em>H_{0}</em>.</p>
+        <p>Make a decision: Since <m>α</m> &lt; <m>p</m>-value, do not reject <m>H_0</m>.</p>
         <p>Conclusion: At a 1 percent level of significance, from the sample data, there is not sufficient evidence to conclude that there is a difference in the proportions of adult patients who did not react after 30 minutes to Medication A and Medication B.</p>
         <note xml:id="fs-idm4331904">
           <p>Press <c>STAT</c>. Arrow over to <c>TESTS</c> and press
@@ -439,8 +432,8 @@ and <c>200</c> for n2. Arrow down to <c>p1</c>: and arrow to <c>not equal p2</c>
         <p>This is a test of two population proportions. Let <m>M</m> and <m>F</m> be the subscripts for males and females. Then, <em>p_{M}</em> and <em>p_{F}</em> are the desired population proportions.</p>
         <p>Random variable:
   <em>p′_{F}</em> − <em>p′_{M}</em> = difference in the proportions of males and females who sent texts.</p>
-        <p><em>H_{0}</em>: <em>p_{F}</em> = <em>p_{M}</em> <em>H_{0}</em>: <em>p_{F}</em> – <em>p_{M}</em>  = 0</p>
-        <p><em>H_{a}</em>: <em>p_{F}</em> &lt; <em>p_{M}</em> <em>H_{a}</em>: <em>p_{F}</em> – <em>p_{M}</em> &lt; 0</p>
+        <p><m>H_0</m>: <em>p_{F}</em> = <em>p_{M}</em> <m>H_0</m>: <em>p_{F}</em> – <em>p_{M}</em>  = 0</p>
+        <p><m>H_a</m>: <em>p_{F}</em> &lt; <em>p_{M}</em> <m>H_a</m>: <em>p_{F}</em> – <em>p_{M}</em> &lt; 0</p>
         <p>The words <em>less than</em> tell you the test is left-tailed.</p>
         <p>Distribution for the test: Since this is a test of two population proportions, the distribution is normal:</p>
         <p><m>p_{c}=\frac{x_{F}+x_{M}}{n_{F}+n_{M}}=\frac{156+183}{2169+2231}=\text{0}\text{.077}</m>
@@ -461,7 +454,7 @@ and <c>200</c> for n2. Arrow down to <c>p1</c>: and arrow to <c>not equal p2</c>
             <description>This is a normal distribution curve with mean equal to zero. A vertical line near the tail of the curve to the left of zero extends from the axis to the curve. The region under the curve to the left of the line is shaded representing p-value = 0.1045.</description>
           </image>
         </figure>
-        <p>Decision: Since <m>α</m> &lt; <m>p</m>-value, do not reject <em>H_{0}</em>.</p>
+        <p>Decision: Since <m>α</m> &lt; <m>p</m>-value, do not reject <m>H_0</m>.</p>
         <p>Conclusion: At the 1 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the proportion of girls sending texts is less than the proportion of boys sending texts.</p>
         <note xml:id="fs-idm151141472">
           <p>Press <c>STAT</c>. Arrow over to <c>TESTS</c> and press <c>6:2-PropZTest</c>. Arrow down and enter <c>156</c> for x1, <c>2169</c> for n1, <c>183</c> for x2, and <c>2231</c> for n2. Arrow down to <c>p1:</c> and arrow to <c>less than p2</c>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. The <m>p</m>-value is <m>p</m> = 0.1045 and the test statistic is <m>z</m> = –1.256.</p>
@@ -476,8 +469,8 @@ and <c>200</c> for n2. Arrow down to <c>p1</c>: and arrow to <c>not equal p2</c>
       <solution>
         <p>This is a test of two population proportions. Let <m>W</m> and <m>A</m> be the subscripts for the whites and African Americans. Then, <em>p_{W}</em> and <em>p_{A}</em> are the desired population proportions.</p>
         <p>Random variable:<em>p′_{W}</em> – <em>p′_{A}</em> = difference in the proportions of Phone A and Phone B users.</p>
-        <p><em>H_{0}</em>: <em>p_{W}</em> = <em>p_{A}</em> <em>H_{0}</em>: <em>p_{W}</em> – <em>p_{A}</em> = 0</p>
-        <p><em>H_{a}</em>: <em>p_{W}</em> &gt; <em>p_{A}</em> <em>H_{a}</em>: <em>p_{W}</em> – <em>p_{A}</em> &gt; 0</p>
+        <p><m>H_0</m>: <em>p_{W}</em> = <em>p_{A}</em> <m>H_0</m>: <em>p_{W}</em> – <em>p_{A}</em> = 0</p>
+        <p><m>H_a</m>: <em>p_{W}</em> &gt; <em>p_{A}</em> <m>H_a</m>: <em>p_{W}</em> – <em>p_{A}</em> &gt; 0</p>
         <p>The words <em>more popular</em> indicate that the test is right-tailed.</p>
         <p>Distribution for the test: The distribution is approximately normal.</p>
         <p><m>p_{c}=\frac{x_{W}+x_{A}}{n_{W}+n_{A}}=\frac{134+12}{1343+232}=0.0927</m></p>
@@ -492,7 +485,7 @@ Estimated proportion for group B: 0.05</p>
         <figure xml:id="id12575638">
           <image source="media/CNX_Stats_C10_M04_007anno2.jpg" width="76%"/>
         </figure>
-        <p>Decision: Since <m>α</m> &gt; <m>p</m>-value, reject the <em>H_{0}</em>.</p>
+        <p>Decision: Since <m>α</m> &gt; <m>p</m>-value, reject the <m>H_0</m>.</p>
         <p>Conclusion: At the 5 percent level of significance, from the sample data, there is sufficient evidence to conclude that a larger proportion of white cell phone owners use Phone B than African Americans.</p>
         <note xml:id="fs-idp15799920">
           <p>TI-83+ and TI-84: Press <c>STAT</c>. Arrow over to <c>TESTS</c> and press <c>6:2-PropZTest</c>. Arrow down and enter <c>135</c> for x1, <c>1343</c> for n1, <c>12</c> for x2, and <c>232</c> for n2. Arrow down to <c>p1:</c> and arrow to <c>greater than p2</c>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. The <m>p</m>-value is <m>p</m> = 0.0092, and the test statistic is <m>z</m> = 2.33.</p>
@@ -532,7 +525,7 @@ Estimated proportion for group B: 0.05</p>
           <p>d. What are the null and alternative hypotheses? Write the null and alternative hypotheses in symbols.</p>
         </statement>
         <solution>
-          <p>d. Subscripts: 1 = 2010, 2 = 2011<nbsp/><em>H_{0}</em>: <em>p_{1}</em> = <em>p_{2}</em> <em>H_{0}</em>: <em>p_{1}</em> − <em>p_{2}</em> = 0 <nbsp/><em>H_{a}</em>: <em>p_{1}</em> ≠ <em>p_{2}</em> <em>H_{a}</em>: <em>p_{1}</em> − <em>p_{2}</em> ≠ 0</p>
+          <p>d. Subscripts: 1 = 2010, 2 = 2011<nbsp/><m>H_0</m>: <em>p_{1}</em> = <em>p_{2}</em> <m>H_0</m>: <em>p_{1}</em> − <em>p_{2}</em> = 0 <nbsp/><m>H_a</m>: <em>p_{1}</em> ≠ <em>p_{2}</em> <m>H_a</m>: <em>p_{1}</em> − <em>p_{2}</em> ≠ 0</p>
         </solution>
       </exercise>
       <exercise xml:id="fs-idm131708672">
@@ -559,7 +552,7 @@ Estimated proportion for group B: 0.05</p>
           <p>g. Do you reject or not reject the null hypothesis?</p>
         </statement>
         <solution>
-          <p>g. Reject the <em>H_{0}</em>.</p>
+          <p>g. Reject the <m>H_0</m>.</p>
         </solution>
       </exercise>
       <exercise xml:id="fs-idm46567952">
@@ -601,9 +594,9 @@ Estimated proportion for group B: 0.05</p>
         <p>Let <m>\mu_{d}</m> be the population mean for the differences. We use the subscript <m>d</m> to denote <em>differences</em>.</p>
         <p>Random variable:
 <m>X¯_{d}</m> = the mean difference of the sensory measurements.</p>
-        <p><em>H_{0}</em>: <em>μ_{d}</em> ≥ 0</p>
+        <p><m>H_0</m>: <em>μ_{d}</em> ≥ 0</p>
         <p>The null hypothesis is zero or positive, meaning that there is the same or more pain felt after taking the medication. That means the subject shows no improvement. <em>μ_{d}</em> is the population mean of the differences.</p>
-        <p><em>H_{a}</em>: <em>μ_{d}</em> &lt; 0</p>
+        <p><m>H_a</m>: <em>μ_{d}</em> &lt; 0</p>
         <p>The alternative hypothesis is negative, meaning there is less pain felt after taking the medication. That means the subject shows improvement. The score should be lower after taking the medication, so the difference ought to be negative to indicate improvement.</p>
         <p>Distribution for the test: The distribution is a Student’s <m>t</m> with <m>df</m> = <m>n</m> – 1 = 8 – 1 = 7. Use <m>t</m>_{7}. Note that the test is for a single population mean.</p>
         <p>Calculate the <m>p</m>-value using the Student’s-<m>t</m> distribution: <m>p</m>-value = 0.0095</p>
@@ -616,7 +609,7 @@ Estimated proportion for group B: 0.05</p>
         <p><m>x¯_{d}</m> = –3.13</p>
         <p><m>s¯_{d}</m> = 2.91</p>
         <p>Compare <m>α</m> and the <m>p</m>-value: <m>α</m> = 0.05 and <m>p</m>-value = 0.0095. <m>α</m> &gt; <m>p</m>-value.</p>
-        <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{0}</em>. This means that <em>μ_{d}</em> &lt; 0 and there is improvement.</p>
+        <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <m>H_0</m>. This means that <em>μ_{d}</em> &lt; 0 and there is improvement.</p>
         <p>Conclusion: At a 5 percent level of significance, from the sample data, there is sufficient evidence to conclude that the sensory measurements, on average, are lower after taking the medication. The medication appears to be effective in reducing pain.</p>
       </solution>
     </example>
@@ -645,7 +638,7 @@ Estimated proportion for group B: 0.05</p>
       <p>Using the difference data, this becomes a test of a single __________.</p>
       <p>Define the random variable: <m>X¯_{d}</m> is the mean difference in the maximum lift per player.</p>
       <p>The distribution for the hypothesis test is <em>t_{3}</em>.</p>
-      <p><em>H_{0}</em>: <em>μ_{d}</em> ≤ 0, <em>H_{a}</em>: <em>μ_{d}</em> &gt; 0</p>
+      <p><m>H_0</m>: <em>μ_{d}</em> ≤ 0, <m>H_a</m>: <em>μ_{d}</em> &gt; 0</p>
       <p>Graph:</p>
       <figure xml:id="hyptest22_samp2">
         <image source="media/fig-ch10_05_02.jpg" width="76%"/>
@@ -683,7 +676,7 @@ Estimated proportion for group B: 0.05</p>
       </figure>
           <p>Calculate the <m>p</m>-value: The <m>p</m>-value is 0.0716 (using the data directly).</p>
           <p>Test statistic = 2.18. <m>p</m>-value = 0.0719 using <m>(x¯_{d}=3.71,s_{d}=4.5)</m>.</p>
-          <p>Decision: Assume <m>α</m> = 0.05. Since <m>α</m> &lt; <m>p</m>-value, do not reject <em>H_{0}</em>.</p>
+          <p>Decision: Assume <m>α</m> = 0.05. Since <m>α</m> &lt; <m>p</m>-value, do not reject <m>H_0</m>.</p>
           <p>Conclusion:  At the 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that there is a difference in the children’s weaker and dominant hands to push the shot put.</p>
         </statement>
       </example>
@@ -737,7 +730,7 @@ Calculate the <m>p</m> value.</li>
       </ol>
       <p>Decreasing Stocks SurveyRandomly pick eight stocks from the newspaper. Using two consecutive days’ business sections, test whether the stocks went down, on average, for the second day.</p>
       <ol>
-        <li><em>H_{0}</em>: ________</li>
+        <li><m>H_0</m>: ________</li>
         <li><em>H_{a}: ________</em></li>
         <li>In words, define the random variable.</li>
         <li>The distribution to use for the test is _____________.</li>
@@ -752,8 +745,8 @@ Calculate the <m>p</m> value:</li>
       </ol>
       <p>Candy SurveyBuy three small packages of multicolored chocolates and five small packages of peanut butter candies (same net weight as the multicolored chocolates). Test whether  the mean number of candy pieces per package is the same for the two brands.</p>
       <ol>
-        <li><em>H_{0}</em>: ________</li>
-        <li><em>H_{a}</em>: ________</li>
+        <li><m>H_0</m>: ________</li>
+        <li><m>H_a</m>: ________</li>
         <li>In words, define the random variable.</li>
         <li>What distribution should be used for this test?</li>
         <li>Calculate the test statistic using your data.</li>
@@ -773,8 +766,8 @@ Calculate the <m>p</m> value.</li>
       <p>Shoe Survey
 Test whether women have, on average, more pairs of shoes than men. Include all forms of sneakers, shoes, sandals, and boots. Use your class as the sample.</p>
       <ol>
-        <li><em>H_{0}</em>: ________</li>
-        <li><em>H_{a}</em>: ________</li>
+        <li><m>H_0</m>: ________</li>
+        <li><m>H_a</m>: ________</li>
         <li>In words, define the random variable.</li>
         <li>The distribution to use for the test is ________________.</li>
         <li>Calculate the test statistic using your data.</li>
