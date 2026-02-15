@@ -1012,7 +1012,7 @@ average, in 16.43 seconds. (Reject the null hypothesis when the null hypothesis 
         </solution>
       </example>
       <note xml:id="eip-406">
-        <title>Historical Note (<xref ref="fs-idp41487520">)</title>
+        <title>Historical Note (<xref ref="fs-idp41487520">See Example</xref>)</title>
         <p>The traditional way to compare the two probabilities, <m>α</m> and the <m>p</m>-value, is to compare the critical value (<m>z</m>-score from <m>α</m>) to the test statistic (<m>z</m>-score from data). The calculated test statistic for the <m>p</m>-value is –2.08. (From the central limit theorem, the test statistic formula is <m>z=\frac{\overline{x}-\mu_{X}}{(\frac{\sigma_{X}}{\sqrt{n}})}</m>.
 
 
