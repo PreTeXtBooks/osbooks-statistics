@@ -1448,8 +1448,8 @@ Teenager Is Reminded</cell>
 
     <exercise xml:id="exercise10">
       <statement>
-        <p>David County has six high schools. Each school sent students to participate in a county-wide science competition.  shows the percentage breakdown of competitors from each school and the percentage of the entire student population of the county that goes to each school. Construct a bar graph that shows the population percentage of competitors from each school.</p>
-        <table>
+        <p>David County has six high schools. Each school sent students to participate in a county-wide science competition. <xref ref="M01_Ch02_tbl022" /> shows the percentage breakdown of competitors from each school and the percentage of the entire student population of the county that goes to each school. Construct a bar graph that shows the population percentage of competitors from each school.</p>
+        <table xml:id="M01_Ch02_tbl022">
           <tabular>
             <row header="yes">
               <cell>High School</cell>
@@ -1493,7 +1493,7 @@ Teenager Is Reminded</cell>
 
     <exercise xml:id="fs-idp107146752">
       <statement>
-        <p>Use the data from the David County science competition supplied in . Construct a bar graph that shows the county-wide population percentage of students at each school.</p>
+        <p>Use the data from the David County science competition supplied in <xref ref="exercise10" />. Construct a bar graph that shows the county-wide population percentage of students at each school.</p>
       </statement>
       <solution>
         <figure xml:id="fs-idp86744448">

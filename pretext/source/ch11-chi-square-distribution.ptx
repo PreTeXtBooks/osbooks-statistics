@@ -373,20 +373,37 @@ sure you clear any lists before you start.</p>
         <p>The observed values and the question at the end of the problem, “Is the number of hours volunteered independent of the type of volunteer?” tell you this is a test of independence. The two factors are <em>number of hours volunteered</em> and <em>type of volunteer</em>. This test is always right-tailed.</p>
         <p><em>H_{0}</em>: The number of hours volunteered is <em>independent</em> of the type of volunteer.</p>
         <p><em>H_{a}</em>: The number of hours volunteered is <em>dependent</em> on the type of volunteer.</p>
-        <p>The expected result are in .
- Number of Hours Worked per Week by Volunteer Type (Expected)
-
-   
-   
-   
-   Type of Volunteer 	1-3 Hours 	4–6 Hours 	7-9 Hours
-   
-    Community College Students90.57115.1949.24
-    Four-Year College Students10313156
-    Nonstudents104.42132.8156.77
-   
-
-The table contains expected (<m>E</m>) values (data).</p>
+        <p>The expected result are in <xref ref="volunteer-expected-table" />.</p>
+        <table xml:id="volunteer-expected-table">
+          <title>Number of Hours Worked per Week by Volunteer Type (Expected)</title>
+          <tabular>
+            <row header="yes">
+              <cell>Type of Volunteer</cell>
+              <cell>1-3 Hours</cell>
+              <cell>4-6 Hours</cell>
+              <cell>7-9 Hours</cell>
+            </row>
+            <row>
+              <cell>Community College Students</cell>
+              <cell>90.57</cell>
+              <cell>115.19</cell>
+              <cell>49.24</cell>
+            </row>
+            <row>
+              <cell>Four-Year College Students</cell>
+              <cell>103</cell>
+              <cell>131</cell>
+              <cell>56</cell>
+            </row>
+            <row>
+              <cell>Nonstudents</cell>
+              <cell>104.42</cell>
+              <cell>132.81</cell>
+              <cell>56.77</cell>
+            </row>
+          </tabular>
+        </table>
+        <p>The table contains expected (<m>E</m>) values (data).</p>
         <p>For example, the calculation for the expected frequency for the top-left cell is</p>
         <p><m>E=\frac{(\text{row total})(\text{column total})}{\text{total number surveyed}}=\frac{(255)(298)}{839}=90.57\text{.}</m></p>
         <p>Calculate the test statistic: <m>χ</m>^{2} = 12.99 (calculator or computer)</p>
@@ -409,7 +426,75 @@ The table contains expected (<m>E</m>) values (data).</p>
     <exercise xml:id="eip-685">
       <title>Try It</title>
       <statement>
-          <p>The Bureau of Labor Statistics gathers data about employment in the United States. A sample is taken to calculate the number of U.S. citizens working in one of several industry sectors over time.  shows the results:</p>
+          <p>The Bureau of Labor Statistics gathers data about employment in the United States. A sample is taken to calculate the number of U.S. citizens working in one of several industry sectors over time.  shows the results in <xref ref="fs-idp61742592" />:</p>
+          <table xml:id="fs-idp61742592">
+            <title>Employment by Industry Sector</title>
+            <tabular>
+              <row header="yes">
+                <cell>Industry Sector</cell>
+                <cell>2000</cell>
+                <cell>2010</cell>
+                <cell>2020</cell>
+                <cell>Total</cell>
+              </row>
+              <row>
+                <cell><em>Non-agriculture Wage and Salary</em></cell>
+                <cell>13,243</cell>
+                <cell>13,044</cell>
+                <cell>15,018</cell>
+                <cell>41,305</cell>
+              </row>
+              <row>
+                <cell><em>Goods-producing, Excluding Agriculture</em></cell>
+                <cell>2,457</cell>
+                <cell>1,771</cell>
+                <cell>1,950</cell>
+                <cell>6,178</cell>
+              </row>
+              <row>
+                <cell><em>Services-providing</em></cell>
+                <cell>10,786</cell>
+                <cell>11,273</cell>
+                <cell>13,068</cell>
+                <cell>35,127</cell>
+              </row>
+              <row>
+                <cell><em>Agriculture, Forestry, Fishing, and Hunting</em></cell>
+                <cell>240</cell>
+                <cell>214</cell>
+                <cell>201</cell>
+                <cell>655</cell>
+              </row>
+              <row>
+                <cell><em>Non-agriculture Self-employed and Unpaid Family Worker</em></cell>
+                <cell>931</cell>
+                <cell>894</cell>
+                <cell>972</cell>
+                <cell>2,797</cell>
+              </row>
+              <row>
+                <cell><em>Secondary Wage and Salary Jobs in Agriculture and Private Household Industries</em></cell>
+                <cell>14</cell>
+                <cell>11</cell>
+                <cell>11</cell>
+                <cell>36</cell>
+              </row>
+              <row>
+                <cell><em>Secondary Jobs as a Self-employed or Unpaid Family Worker</em></cell>
+                <cell>196</cell>
+                <cell>144</cell>
+                <cell>152</cell>
+                <cell>492</cell>
+              </row>
+              <row>
+                <cell>Total</cell>
+                <cell>27,867</cell>
+                <cell>27,351</cell>
+                <cell>31,372</cell>
+                <cell>86,590</cell>
+              </row>
+            </tabular>
+          </table>
           <p>We want to know if the change in the number of jobs is independent of the change in years. State the null and alternative hypotheses and the degrees of freedom.</p>
         </statement>
         <solution>
@@ -437,7 +522,7 @@ The table contains expected (<m>E</m>) values (data).</p>
     <exercise xml:id="eip-358">
       <title>Try It</title>
       <statement>
-          <p>Refer back to the information in . How many services-providing jobs are there expected to be in 2020? How many nonagriculture wage and salary jobs are there expected to be in 2020?</p>
+          <p>Refer back to the information in <xref ref="fs-idp61742592" />. How many services-providing jobs are there expected to be in 2020? How many nonagriculture wage and salary jobs are there expected to be in 2020?</p>
         </statement>
         <solution>
           <p>12,727, 14,965</p>
@@ -462,7 +547,33 @@ The table contains expected (<m>E</m>) values (data).</p>
     <example xml:id="eip-101">
       <statement>
         <title>Distribution of Living Arrangements for College Males and College Females</title>
-        <p>Do male and female college students have the same distribution of living arrangements?  Use a level of significance of 0.05. Suppose that 250 randomly selected male college students and 300 randomly selected female college students were asked about their living arrangements: dormitory, apartment, with parents, other. The results are shown in . Do male and female college students have the same distribution of living arrangements?</p>
+        <p>Do male and female college students have the same distribution of living arrangements?  Use a level of significance of 0.05. Suppose that 250 randomly selected male college students and 300 randomly selected female college students were asked about their living arrangements: dormitory, apartment, with parents, other. The results are shown in <xref ref="eip-924" />. Do male and female college students have the same distribution of living arrangements?</p>
+        <table xml:id="eip-924">
+          <title>Distribution of Living Arrangements for College Males and College Females</title>
+          <tabular>
+            <row header="yes">
+              <cell/>
+              <cell>Dormitory</cell>
+              <cell>Apartment</cell>
+              <cell>With Parents</cell>
+              <cell>Other</cell>
+            </row>
+            <row>
+              <cell><em>Males</em></cell>
+              <cell>72</cell>
+              <cell>84</cell>
+              <cell>49</cell>
+              <cell>45</cell>
+            </row>
+            <row>
+              <cell><em>Females</em></cell>
+              <cell>91</cell>
+              <cell>86</cell>
+              <cell>88</cell>
+              <cell>35</cell>
+            </row>
+          </tabular>
+        </table>
       </statement>
       <solution>
         <p><em>H_{0}</em>: The distribution of living arrangements for male college students is the same as the distribution of living arrangements for female college students.<nbsp />
@@ -477,7 +588,36 @@ The table contains expected (<m>E</m>) values (data).</p>
     <exercise xml:id="eip-976">
       <title>Try It</title>
       <statement>
-          <p>Do families and singles have the same distribution of cars? Suppose that 100 randomly selected families and 200 randomly selected singles were asked what type of car they drove: sport, sedan, hatchback, truck, van/SUV. The results are shown in . Do families and singles have the same distribution of cars? Test at a level of significance of 0.05.</p>
+          <p>Do families and singles have the same distribution of cars? Suppose that 100 randomly selected families and 200 randomly selected singles were asked what type of car they drove: sport, sedan, hatchback, truck, van/SUV. The results are shown in <xref ref="eip-idm93309648" />. Do families and singles have the same distribution of cars? Test at a level of significance of 0.05.</p>
+          <table xml:id="eip-idm93309648">
+            <title>Car Distribution</title>
+            <tabular>
+              <row header="yes">
+                <cell/>
+                <cell>Sport</cell>
+                <cell>Sedan</cell>
+                <cell>Hatchback</cell>
+                <cell>Truck</cell>
+                <cell>Van/SUV</cell>
+              </row>
+              <row>
+                <cell><em>Family</em></cell>
+                <cell>5</cell>
+                <cell>15</cell>
+                <cell>35</cell>
+                <cell>17</cell>
+                <cell>28</cell>
+              </row>
+              <row>
+                <cell><em>Single</em></cell>
+                <cell>45</cell>
+                <cell>65</cell>
+                <cell>37</cell>
+                <cell>46</cell>
+                <cell>7</cell>
+              </row>
+            </tabular>
+          </table>
         </statement>
         <solution>
           <p>With a <m>p</m>-value of almost zero, we reject the null hypothesis. The data show that the distribution of cars is not the same for families and singles.</p>
