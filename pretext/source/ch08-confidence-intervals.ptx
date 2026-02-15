@@ -580,7 +580,7 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
               </li>
             </ul>
           </solution>
-        </exercise>
+        </example>
 
       <exercise xml:id="ch8-eip-847">
         <title>Try It</title>
@@ -616,7 +616,7 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
           <p>If we <em>decrease</em> the sample size <em>n</em> to 25, we <em>increase</em> the error bound.</p>
           <p>When <em>n</em> = 25, <em>EBM</em> = <m>(z_{\frac{α}{2}})(\frac{σ}{\sqrt{n}})</m> = (1.645)<m>(\frac{3}{\sqrt{25}})</m> = 0.987.</p>
         </solution>
-      </exercise>
+      </example>
 
     <exercise xml:id="ch8-eip-159">
       <title>Try It</title>
@@ -814,6 +814,8 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
     <p>The confidence interval has the format (<m>\bar{x}</m> − <em>EBM</em>, <m>\bar{x}</m> + <em>EBM</em>).</p>
 
     </subsection>
+
+  </subsection>
 
     <exercises xml:id="ch8-eip-515-1">
       <title>Practice</title>
@@ -1326,7 +1328,7 @@ The 95 percent confidence interval is (7.3006, 9.1527).</p>
           <p>When calculating the error bound, you can also use a probability table for the Student's <em>t</em>-distribution to find the value of <em>t</em>. The table gives <em>t</em>-scores that correspond to the confidence level (column) and degrees of freedom (row); the <em>t</em>-score is found where the row and column intersect in the table.</p>
         </note>
       </solution>
-    </exercise>
+    </example>
   
   <exercise xml:id="ch8-eip-496">
     <title>Try It</title>
@@ -1837,7 +1839,7 @@ We estimate with 95 percent confidence that between 81 percent and 87.4 percent 
           <p>
 Ninety-five percent of the confidence intervals constructed in this way would contain the true value for the population proportion of all adult residents of this city who have cell phones.</p>
         </solution>
-      </exercise>
+      </example>
     
     <exercise xml:id="ch8-eip-890">
       <title>Try It</title>
@@ -1878,7 +1880,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
           </ul>
           <p>Ninety percent of all confidence intervals constructed in this way contain the true value for the population percentage of students who are registered voters.</p>
         </solution>
-      </exercise>
+      </example>
     
     <exercise xml:id="ch8-fs-idm23330928">
       <title>Try It</title>
@@ -1936,7 +1938,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
         <me>p\text{′ – }EPB\text{ = 0}\text{.276 – 0}\text{.163 = 0}\text{.113}p\text{′ + }EPB\text{ = 0}\text{.276 + 0}\text{.163 = 0}\text{.439}</me>
         <p>We are 95 percent confident that the true proportion of all statistics students who use the product is between 0.113 and 0.439.</p>
       </solution>
-    </exercise>
+    </example>
   
   <exercise xml:id="ch8-eip-479">
     <title>Try It</title>
@@ -1975,7 +1977,7 @@ Suppose 250 randomly selected people are surveyed to determine whether they own 
         <me>p\text{′ – }EPB\text{ = 0}\text{.278 – 0}\text{.100 = 0}\text{.178}p\text{′ + }EPB\text{ = 0}\text{.278 + 0}\text{.160 = 0}\text{.378}</me>
         <p>We are 90 percent confident that between 17.8 percent and 37.8 percent of all teens would report having more than 500 friends on a social media site.</p>
       </solution>
-    </exercise>
+    </example>
   
   <exercise xml:id="ch8-eip-375">
     <title>Try It</title>
@@ -2022,7 +2024,7 @@ If researchers desire a specific margin of error, then they can use the error bo
           <p>Round the answer to the next higher value. The sample size should be 752 cell phone customers ages 50+ in order to be 90 percent  confident that the estimated (sample) proportion is within 3 percentage points of the true population proportion of all customers ages 50+ who use text messaging on their cell phones.
 </p>
         </solution>
-      </exercise>
+      </example>
     
     <exercise xml:id="ch8-eip-143">
       <title>Try It</title>
@@ -2658,6 +2660,7 @@ line with the upper and lower limits of the confidence interval and the sample m
 <li><p>Normal. We know the standard deviation for the population, and the sample size is greater than 30.</p></li>
 <li><p>CI: (70.151, 71.49) EBM = 0.849 </p></li>
 <li><p>The confidence interval will decrease in size, because the sample size increased. Recall, when all factors remain unchanged, an increase in sample size decreases variability. Thus, we do not need as large an interval to capture the true population mean. </p></li>
+</ol>
         </solution>
 
       </exercise>
@@ -3000,7 +3003,7 @@ line with the upper and lower limits of the confidence interval and the sample m
       </exercise>
       <exercise xml:id="ch8-exer3">
         <statement>
-          <p>A random survey of enrollment at 35 community colleges across the United States yielded the following figures: 6,414, 1,550, 2,109, 9,350, 21,828, 4,300, 5,944, 5,722, 2,825, 2,044, 5,481, 5,200, 5,853, 2,750, 10,012, 6,357, 27,000, 9,414, 7,681, 3,200, 17,500, 9,200, 7,380, 18,314, 6,557, 13,713, 17,768, 7,493, 2,771, 2,861, 1,263, 7,285, 28,165, 5,080, 11,622. Assume the underlying population is normal.
+          <p>A random survey of enrollment at 35 community colleges across the United States yielded the following figures: 6,414, 1,550, 2,109, 9,350, 21,828, 4,300, 5,944, 5,722, 2,825, 2,044, 5,481, 5,200, 5,853, 2,750, 10,012, 6,357, 27,000, 9,414, 7,681, 3,200, 17,500, 9,200, 7,380, 18,314, 6,557, 13,713, 17,768, 7,493, 2,771, 2,861, 1,263, 7,285, 28,165, 5,080, 11,622. Assume the underlying population is normal.</p>
 <ol>
 <li><p><m>\bar{x}</m> = __________
      <m>s_{x}</m> = __________
@@ -3020,6 +3023,7 @@ line with the upper and lower limits of the confidence interval and the sample m
 </p></li>
 <li><p>What will happen to the error bound and confidence interval if 500 community colleges are surveyed? Why?
 </p></li>
+</ol>
         </statement>
         <solution>
           <ol>
