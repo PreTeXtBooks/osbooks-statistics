@@ -3041,9 +3041,19 @@ How do you know? Answer in complete sentences.</li>
   <glossary xml:id="glossary-ch04">
     <title>Glossary</title>
 
+    <gi xml:id="gi-bernoulli-trials">
+      <title>Bernoulli trials</title>
+      <p>an experiment with the following characteristics: There are only two possible outcomes called success and failure for each trial. The probability <m>p</m> of a success is the same for any trial (so the probability <m>q = 1 - p</m> of a failure is the same for any trial)</p>
+    </gi>
+
     <gi xml:id="gi-binomial-distribution">
       <title>binomial distribution</title>
       <p>a discrete random variable (RV) that arises from Bernoulli trials; there are a fixed number n of independent trials, each trial has only two possible outcomes (success or failure), and the probability of success is the same for each trial</p>
+    </gi>
+
+    <gi xml:id="gi-binomial-experiment">
+      <title>binomial experiment</title>
+      <p>a statistical experiment that satisfies the following three conditions: There are a fixed number of trials, <m>n</m>. There are only two possible outcomes, called success and failure, for each trial; the letter <m>p</m> denotes the probability of a success on one trial, and <m>q</m> denotes the probability of a failure on one trial. The <m>n</m> trials are independent and are repeated using identical conditions.</p>
     </gi>
 
     <gi xml:id="gi-binomial-probability-distribution">
@@ -3061,14 +3071,49 @@ How do you know? Answer in complete sentences.</li>
       <p>a discrete random variable (RV) that arises from the Bernoulli trials; the trials are repeated until the first success occurs; notation: X ~ G(p)</p>
     </gi>
 
+    <gi xml:id="gi-geometric-experiment">
+      <title>geometric experiment</title>
+      <p>a statistical experiment with the following properties: There are one or more Bernoulli trials with all failures except the last one, which is a success. In theory, the number of trials could go on forever; there must be at least one trial. The probability, <m>p</m>, of a success and the probability, <m>q</m>, of a failure do not change from trial to trial.</p>
+    </gi>
+
     <gi xml:id="gi-hypergeometric-distribution">
       <title>hypergeometric distribution</title>
       <p>a discrete random variable (RV) characterized by: (1) a fixed number of trials; (2) the probability of success is not the same from trial to trial because sampling is without replacement; (3) each trial has only two possible outcomes</p>
     </gi>
 
+    <gi xml:id="gi-hypergeometric-experiment">
+      <title>hypergeometric experiment</title>
+      <p>a statistical experiment with the following properties: You take samples from two groups. You are concerned with a group of interest, called the first group. You sample without replacement from the combined groups. Each pick is not independent, since sampling is without replacement. You are not dealing with Bernoulli trials.</p>
+    </gi>
+
+    <gi xml:id="gi-hypergeometric-probability">
+      <title>hypergeometric probability</title>
+      <p>a discrete random variable (RV) that is characterized by the following: The experiment uses a fixed number of trials. The probability of success is not the same from trial to trial. We sample from two groups of items when we are interested in only one group. <m>X</m> is defined as the number of successes out of the total number of items chosen. Notation <m>X \sim H(r, b, n)</m>, where <m>r</m> = the number of items in the group of interest, <m>b</m> = the number of items in the group not of interest, and <m>n</m> = the number of items chosen.</p>
+    </gi>
+
+    <gi xml:id="gi-law-of-large-numbers">
+      <title>the law of large numbers</title>
+      <p>as the number of trials in a probability experiment increases, the difference between the theoretical probability of an event and the relative frequency probability approaches zero</p>
+    </gi>
+
+    <gi xml:id="gi-mean">
+      <title>mean</title>
+      <p>a number that measures the central tendency; a common name for mean is average. The term mean is a shortened form of arithmetic mean. By definition, the mean for a sample (denoted by <m>\bar{x}</m>) is <m>\bar{x} = \frac{\text{Sum of all values in the sample}}{\text{Number of values in the sample}}</m> and the mean for a population (denoted by <m>\mu</m>) is <m>\mu = \frac{\text{Sum of all values in the population}}{\text{Number of values in the population}}</m>.</p>
+    </gi>
+
+    <gi xml:id="gi-mean-of-probability-distribution">
+      <title>mean of a probability distribution</title>
+      <p>the long-term average of many trials of a statistical experiment</p>
+    </gi>
+
     <gi xml:id="gi-poisson-distribution">
       <title>Poisson distribution</title>
       <p>a discrete random variable (RV) that counts the number of times a certain event occurs in a fixed interval of time or space, assuming that occurrences are independent and occur at a constant rate</p>
+    </gi>
+
+    <gi xml:id="gi-poisson-probability-distribution">
+      <title>Poisson probability distribution</title>
+      <p>a discrete random variable (RV) that counts the number of times a certain event will occur in a specific interval; characteristics of the variable: The probability that the event occurs in a given interval is the same for all intervals. The events occur with a known mean and independently of the time since the last event. The distribution is defined by the mean <m>\mu</m> of the event in the interval. Notation <m>X \sim P(\mu)</m>. The mean is <m>\mu = np</m>. The standard deviation is <m>\sigma = \sqrt{\mu}</m>. The probability of having exactly <m>x</m> successes in <m>r</m> trials is <m>P(X=x)= \frac{e^{-\mu} \mu^x}{x!}</m>. The Poisson distribution is often used to approximate the binomial distribution, when <m>n</m> is large and <m>p</m> is small (a general rule is that <m>n</m> should be greater than or equal to 20 and <m>p</m> should be less than or equal to 0.05).</p>
     </gi>
 
     <gi xml:id="gi-probability-distribution-function">
@@ -3084,6 +3129,11 @@ How do you know? Answer in complete sentences.</li>
     <gi xml:id="gi-standard-deviation-rv">
       <title>standard deviation</title>
       <p>a number that describes the spread of a probability distribution; it is the square root of the variance; notation: σ for population standard deviation and s for sample standard deviation</p>
+    </gi>
+
+    <gi xml:id="gi-standard-deviation-of-probability-distribution">
+      <title>standard deviation of a probability distribution</title>
+      <p>a number that measures how far the outcomes of a statistical experiment are from the mean of the distribution</p>
     </gi>
 
   </glossary>
