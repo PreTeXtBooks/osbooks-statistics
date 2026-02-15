@@ -2879,7 +2879,7 @@ Test of the two population proportions by testing one population mean of differe
 
     <gi xml:id="gi-binomial-distribution">
       <title>binomial distribution</title>
-      <p>a discrete random variable (RV) that arises from Bernoulli trials; there are a fixed number, <m>n</m>, of independent trials. <em>Independent</em> means that the result of any trial (for example, trial 1) does not affect the results of the following trials, and all trials are conducted under the same conditions. Under these circumstances the binomial RV <m>X</m> is defined as the number of successes in <m>n</m> trials. The notation is: <m>X \sim B(n, p)</m>, <m>\mu = np</m> and the standard deviation is <m>\sigma = \sqrt{npq}</m>. The probability of exactly <m>x</m> successes in <m>n</m> trials is <m>P(X=x)=\binom{n}{x} p^x q^{n-x}</m>.</p>
+      <p>a discrete random variable (RV) that arises from Bernoulli trials; there are a fixed number, <m>n</m>, of independent trials. <em>Independent</em> means that the result of any trial (for example, trial 1) does not affect the results of the following trials, and all trials are conducted under the same conditions. Under these circumstances the binomial RV <m>X</m> is defined as the number of successes in <m>n</m> trials. The notation is: <m>X \sim B(n, p)</m>, where <m>p</m> is the probability of success and <m>q = 1-p</m> is the probability of failure. The mean is <m>\mu = np</m> and the standard deviation is <m>\sigma = \sqrt{npq}</m>. The probability of exactly <m>x</m> successes in <m>n</m> trials is <m>P(X=x)=\binom{n}{x} p^x q^{n-x}</m>.</p>
     </gi>
 
     <gi xml:id="gi-confidence-interval">
@@ -2912,7 +2912,7 @@ Test of the two population proportions by testing one population mean of differe
       <p>the hypothesis being tested; usually a statement of no effect or no difference; notation: H_0</p>
     </gi>
 
-    <gi xml:id="gi-<m>p</m>-value">
+    <gi xml:id="gi-p-value">
       <title><m>p</m>-value</title>
       <p>the probability that an event will happen purely by chance assuming the null hypothesis is true; the smaller the p-value, the stronger the evidence is against the null hypothesis</p>
     </gi>
