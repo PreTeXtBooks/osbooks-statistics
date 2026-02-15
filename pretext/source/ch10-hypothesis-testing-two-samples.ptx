@@ -82,6 +82,30 @@ where <m>s_{1}</m> and <m>s_{2}</m>, the sample standard deviations, are estimat
     <example xml:id="element-208">
       <statement>
         <title>Independent groups</title>
+        <p>The average amount of time boys and girls aged 7 to 11 spend playing sports each day is believed to be the same. A study is done and data are collected, resulting in the data in the following table. Each population has a normal distribution.</p>
+        <table xml:id="uid888">
+          <title>Sports Time Data</title>
+          <tabular>
+            <row header="yes">
+              <cell/>
+              <cell>Sample Size</cell>
+              <cell>Average Number of Hours Playing Sports per Day</cell>
+              <cell>Sample Standard Deviation</cell>
+            </row>
+            <row>
+              <cell>Girls</cell>
+              <cell>9</cell>
+              <cell>2</cell>
+              <cell>0.866</cell>
+            </row>
+            <row>
+              <cell>Boys</cell>
+              <cell>16</cell>
+              <cell>3.2</cell>
+              <cell>1.00</cell>
+            </row>
+          </tabular>
+        </table>
         <p>Is there a difference in the mean amount of time boys and girls aged 7 to 11 play sports each day? Test at the 5 percent level of significance.</p>
       </statement>
       <solution>
@@ -617,6 +641,47 @@ Estimated proportion for group B: 0.05</p>
       <title>Try It</title>
       <statement>
           <p>A study was conducted to investigate how effective a new diet was in lowering cholesterol. Results for the randomly selected subjects are shown in the table. The differences have a normal distribution. Are the subjects’ cholesterol levels lower on average after the diet? Test at the 5 percent level.</p>
+          <table xml:id="fs-idm36821616">
+            <title>Cholesterol Levels</title>
+            <tabular>
+              <row header="yes">
+                <cell>Subject</cell>
+                <cell>A</cell>
+                <cell>B</cell>
+                <cell>C</cell>
+                <cell>D</cell>
+                <cell>E</cell>
+                <cell>F</cell>
+                <cell>G</cell>
+                <cell>H</cell>
+                <cell>I</cell>
+              </row>
+              <row>
+                <cell>Before</cell>
+                <cell>209</cell>
+                <cell>210</cell>
+                <cell>205</cell>
+                <cell>198</cell>
+                <cell>216</cell>
+                <cell>217</cell>
+                <cell>238</cell>
+                <cell>240</cell>
+                <cell>222</cell>
+              </row>
+              <row>
+                <cell>After</cell>
+                <cell>199</cell>
+                <cell>207</cell>
+                <cell>189</cell>
+                <cell>209</cell>
+                <cell>217</cell>
+                <cell>202</cell>
+                <cell>211</cell>
+                <cell>223</cell>
+                <cell>201</cell>
+              </row>
+            </tabular>
+          </table>
         </statement>
         <solution>
           <p>The <m>p</m>-value is 0.0130, so we can reject the null hypothesis. There is enough evidence to suggest that the diet lowers cholesterol.</p>
@@ -653,6 +718,32 @@ Estimated proportion for group B: 0.05</p>
       <title>Try It</title>
       <statement>
           <p>A new prep class was designed to improve SAT test scores. Five students were selected at random. Their scores on two practice exams were recorded, one before the class and one after. The data are recorded in . Are the scores, on average, higher after the class? Test at a 5 percent level.</p>
+          <table xml:id="fs-idp42085840">
+            <title>SAT Scores</title>
+            <tabular>
+              <row header="yes">
+                <cell>SAT Scores</cell>
+                <cell>Student 1</cell>
+                <cell>Student 2</cell>
+                <cell>Student 3</cell>
+                <cell>Student 4</cell>
+              </row>
+              <row>
+                <cell><em>Score before class</em></cell>
+                <cell>1840</cell>
+                <cell>1960</cell>
+                <cell>1920</cell>
+                <cell>2150</cell>
+              </row>
+              <row>
+                <cell><em>Score after class</em></cell>
+                <cell>1920</cell>
+                <cell>2160</cell>
+                <cell>2200</cell>
+                <cell>2100</cell>
+              </row>
+            </tabular>
+          </table>
         </statement>
         <solution>
           <p>The <m>p</m>-value is 0.0874, so we decline to reject the null hypothesis. The data do not support that the class improves SAT scores significantly.</p>
@@ -662,6 +753,41 @@ Estimated proportion for group B: 0.05</p>
     <example xml:id="element-241">
         <statement>
           <p>Seven eighth-graders at Kennedy Middle School measured how far they could push the shot put with their dominant (writing) hand and their weaker (nonwriting) hand. They thought that they could push equal distances with both hands. The data are collected and recorded in .</p>
+          <table xml:id="table-2535678">
+            <title>Shot Put Distances</title>
+            <tabular>
+              <row header="yes">
+                <cell>Distance (in feet) using</cell>
+                <cell>Student 1</cell>
+                <cell>Student 2</cell>
+                <cell>Student 3</cell>
+                <cell>Student 4</cell>
+                <cell>Student 5</cell>
+                <cell>Student 6</cell>
+                <cell>Student 7</cell>
+              </row>
+              <row>
+                <cell>Dominant Hand</cell>
+                <cell>30</cell>
+                <cell>26</cell>
+                <cell>34</cell>
+                <cell>17</cell>
+                <cell>19</cell>
+                <cell>26</cell>
+                <cell>20</cell>
+              </row>
+              <row>
+                <cell>Weaker Hand</cell>
+                <cell>28</cell>
+                <cell>14</cell>
+                <cell>27</cell>
+                <cell>18</cell>
+                <cell>17</cell>
+                <cell>26</cell>
+                <cell>16</cell>
+              </row>
+            </tabular>
+          </table>
           <p>Conduct a hypothesis test to determine whether the mean difference in distances between the children’s dominant versus weaker hands is significant.</p>
           <p>Record the <em>differences</em> data. Calculate the differences by subtracting the distances with the weaker hand from the distances with the dominant hand. The data for the differences are: {2, 12, 7, –1, 2, 0, 4}. The differences have a normal distribution.</p>
           <p>Using the differences data, calculate the sample mean and the sample standard deviation. <m>x¯_{d}</m> = 3.71, <m>s_{d}</m> = 4.5.</p>
@@ -684,6 +810,35 @@ Estimated proportion for group B: 0.05</p>
       <title>Try It</title>
       <statement>
           <p>Five ball players think they can throw the same distance with their dominant hand (throwing) and off-hand (catching hand). The data were collected and recorded in . Conduct a hypothesis test to determine whether the mean 5 difference in distances between the dominant and off-hand is significant. Test at the 5 percent level.</p>
+          <table xml:id="fs-idp26621360">
+            <title>Ball Player Throwing Distances</title>
+            <tabular>
+              <row header="yes">
+                <cell/>
+                <cell>Player 1</cell>
+                <cell>Player 2</cell>
+                <cell>Player 3</cell>
+                <cell>Player 4</cell>
+                <cell>Player 5</cell>
+              </row>
+              <row>
+                <cell>Dominant Hand</cell>
+                <cell>120</cell>
+                <cell>111</cell>
+                <cell>135</cell>
+                <cell>140</cell>
+                <cell>125</cell>
+              </row>
+              <row>
+                <cell>Off-Hand</cell>
+                <cell>105</cell>
+                <cell>109</cell>
+                <cell>98</cell>
+                <cell>111</cell>
+                <cell>99</cell>
+              </row>
+            </tabular>
+          </table>
         </statement>
         <solution>
           <p>The <m>p</m>-value is 0.0230, so we can reject the null hypothesis. The data show that the players do not throw the same distance with their off-hands as they do with their dominant hands.</p>
