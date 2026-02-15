@@ -1513,7 +1513,7 @@ Based on the results of your study, is there a need to investigate any of the fo
       <p>a statistical test used to compare the means of three or more groups with respect to one factor</p>
     </gi>
 
-    <gi xml:id="gi-variance">
+    <gi xml:id="gi-variance-ch13">
       <title>variance</title>
       <p>mean of the squared deviations from the mean; the square of the standard deviation. For a set of data, a deviation can be represented as <m>x - \bar{x}</m> where <m>x</m> is a value of the data and <m>\bar{x}</m> is the sample mean. The sample variance is equal to the sum of the squares of the deviations divided by the difference of the sample size and 1.</p>
     </gi>

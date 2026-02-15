@@ -3096,7 +3096,7 @@ How do you know? Answer in complete sentences.</li>
       <p>as the number of trials in a probability experiment increases, the difference between the theoretical probability of an event and the relative frequency probability approaches zero</p>
     </gi>
 
-    <gi xml:id="gi-mean">
+    <gi xml:id="gi-mean-ch04">
       <title>mean</title>
       <p>a number that measures the central tendency; a common name for mean is average. The term mean is a shortened form of arithmetic mean. By definition, the mean for a sample (denoted by <m>\bar{x}</m>) is <m>\bar{x} = \frac{\text{Sum of all values in the sample}}{\text{Number of values in the sample}}</m> and the mean for a population (denoted by <m>\mu</m>) is <m>\mu = \frac{\text{Sum of all values in the population}}{\text{Number of values in the population}}</m>.</p>
     </gi>
