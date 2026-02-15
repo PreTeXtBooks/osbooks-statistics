@@ -365,7 +365,7 @@
       </exercise>
     </subsection>
 
-    <subsection xml:id="subsec-homework-continuous">
+    <exercises xml:id="subsec-homework-continuous">
       <title>Homework</title>
 
       <p><em>For each probability and percentile problem, draw the picture.</em></p>
@@ -388,7 +388,7 @@
           <p>Age is a measurement, regardless of the accuracy used.</p>
         </solution>
       </exercise>
-    </subsection>
+    </exercises>
   </section>
 
 <section xml:id="sec-uniform-distribution" xmlns:xi="http://www.w3.org/2001/XInclude">
