@@ -2082,7 +2082,7 @@ Test of the two population proportions by testing one population mean of differe
         </exercise>
       <exercise xml:id="element-814">
         <statement>
-          <p>Refer to <xref ref = "element-950">. Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.</p>
+          <p>Refer to <xref ref = "element-950">this example</xref>. Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.</p>
           </statement>
         <solution>
           <ol>
