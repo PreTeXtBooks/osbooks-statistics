@@ -2622,73 +2622,73 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
           <li>Let <m>X=\text{number of diamonds}</m>. Theoretically, <m>X</m> ~ <m>B</m>(_____,_____).</li>
         </ol>
         <ol>
-          <li>Record the number of diamonds picked for your class with playing cards in . Then calculate the relative frequency.
-
-
-
-
-
-
-<m>x</m>
-Frequency
-Relative Frequency
-
-
-
-
-0
-__________
-__________
-
-
-1
-__________
-__________
-
-
-2
-__________
-__________
-
-
-3
-__________
-__________
-
-
-4
-__________
-__________
-
-
-5
-__________
-__________
-
-
-6
-__________
-__________
-
-
-7
-__________
-__________
-
-
-8
-__________
-__________
-
-
-9
-__________
-__________
-
-
-10
-__________
-__________</li>
+          <li>Record the number of diamonds picked for your class with playing cards in <xref ref="lab1_tbl001" />. Then calculate the relative frequency.
+          <table xml:id="lab1_tbl001">
+            <title>Diamonds Data</title>
+            <tabular>
+              <row header="yes">
+                <cell><m>x</m></cell>
+                <cell>Frequency</cell>
+                <cell>Relative Frequency</cell>
+              </row>
+              <row>
+                <cell>0</cell>
+                <cell>__________</cell>
+                <cell>__________</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>__________</cell>
+                <cell>__________</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>__________</cell>
+                <cell>__________</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>__________</cell>
+                <cell>__________</cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell>__________</cell>
+                <cell>__________</cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell>__________</cell>
+                <cell>__________</cell>
+              </row>
+              <row>
+                <cell>6</cell>
+                <cell>__________</cell>
+                <cell>__________</cell>
+              </row>
+              <row>
+                <cell>7</cell>
+                <cell>__________</cell>
+                <cell>__________</cell>
+              </row>
+              <row>
+                <cell>8</cell>
+                <cell>__________</cell>
+                <cell>__________</cell>
+              </row>
+              <row>
+                <cell>9</cell>
+                <cell>__________</cell>
+                <cell>__________</cell>
+              </row>
+              <row>
+                <cell>10</cell>
+                <cell>__________</cell>
+                <cell>__________</cell>
+              </row>
+            </tabular>
+          </table>
+          </li>
           <li>Calculate the following:
 <m>\overline{x}</m> = ________
 <m>s</m> = ________</li>

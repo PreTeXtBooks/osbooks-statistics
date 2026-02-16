@@ -82,6 +82,30 @@ where <m>s_{1}</m> and <m>s_{2}</m>, the sample standard deviations, are estimat
     <example xml:id="element-208">
       <statement>
         <title>Independent groups</title>
+        <p>The average amount of time boys and girls aged 7 to 11 spend playing sports each day is believed to be the same. A study is done and data are collected, resulting in the data in the following table. Each population has a normal distribution.</p>
+        <table xml:id="uid888">
+          <title>Sports Time Data</title>
+          <tabular>
+            <row header="yes">
+              <cell/>
+              <cell>Sample Size</cell>
+              <cell>Average Number of Hours Playing Sports per Day</cell>
+              <cell>Sample Standard Deviation</cell>
+            </row>
+            <row>
+              <cell>Girls</cell>
+              <cell>9</cell>
+              <cell>2</cell>
+              <cell>0.866</cell>
+            </row>
+            <row>
+              <cell>Boys</cell>
+              <cell>16</cell>
+              <cell>3.2</cell>
+              <cell>1.00</cell>
+            </row>
+          </tabular>
+        </table>
         <p>Is there a difference in the mean amount of time boys and girls aged 7 to 11 play sports each day? Test at the 5 percent level of significance.</p>
       </statement>
       <solution>
@@ -119,7 +143,30 @@ Use <m>t_{df}</m> where <m>df</m> is calculated using the <m>df</m> formula for 
     <exercise xml:id="fs-idm235264144">
       <title>Try It</title>
       <statement>
-          <p>Two samples are shown in . Both have normal distributions. The means for the two populations are thought to be the same. Is there a difference in the means? Test at the 5 percent level of significance.</p>
+          <p>Two samples are shown in <xref ref="fs-idm99631856" />. Both have normal distributions. The means for the two populations are thought to be the same. Is there a difference in the means? Test at the 5 percent level of significance.</p>
+          <table xml:id="fs-idm99631856">
+            <title>Two Sample Populations</title>
+            <tabular>
+              <row header="yes">
+                <cell/>
+                <cell>Sample Size</cell>
+                <cell>Sample Mean</cell>
+                <cell>Sample Standard Deviation</cell>
+              </row>
+              <row>
+                <cell>Population A</cell>
+                <cell>25</cell>
+                <cell>5</cell>
+                <cell>1</cell>
+              </row>
+              <row>
+                <cell>Population B</cell>
+                <cell>16</cell>
+                <cell>4.7</cell>
+                <cell>1.2</cell>
+              </row>
+            </tabular>
+          </table>
         </statement>
         <solution>
           <p>The <m>p</m>-value is 0.4125, which is much higher than 0.05, so we decline to reject the null hypothesis. There is not sufficient evidence to conclude that the means of the two populations are not the same.</p>
@@ -213,7 +260,7 @@ Use <m>t_{df}</m> where <m>df</m> is calculated using the <m>df</m> formula for 
     <p>Cohen’s <m>d</m> is the measure of the difference between two means divided by the pooled standard deviation: <m>d=\frac{x¯_{1}-x¯_{2}}{s_{pooled}}</m> where <m>s_{pooled}=\sqrt{\frac{(n_{1}-1)s12+(n_{2}-1)s22}{n_{1}+n_{2}-2}}</m>.</p>
     <example xml:id="fs-idm100194752">
       <statement>
-        <p>Calculate Cohen’s <m>d</m> for . Is the size of the effect small, medium, or large? Explain what the size of the effect means for this problem.</p>
+        <p>Calculate Cohen’s <m>d</m> for <xref ref="element-968" />. Is the size of the effect small, medium, or large? Explain what the size of the effect means for this problem.</p>
       </statement>
       <solution>
         <p><m>μ</m>_{1} = 4 <m>s</m>_{1} = 1.5 <m>n</m>_{1} = 11
@@ -224,13 +271,95 @@ Use <m>t_{df}</m> where <m>df</m> is calculated using the <m>df</m> formula for 
     </example>
     <example xml:id="fs-idm112602048">
       <statement>
-        <p>Calculate Cohen’s <m>d</m> for . Is the size of the effect small, medium, or large? Explain what the size of the effect means for this problem.</p>
+        <p>Calculate Cohen’s <m>d</m> for <xref ref="fs-idm22935408" />. Is the size of the effect small, medium, or large? Explain what the size of the effect means for this problem.</p>
       </statement>
       <solution>
         <p><m>d</m> = 0.834; large, because 0.834 is greater than Cohen’s 0.8 for a large effect size. The size of the differences between the means of the final exam scores of online students and students in a face-to-face class is large, indicating a significant difference.</p>
       </solution>
     </example>
-    <p>Weighted alpha is a measure of risk-adjusted performance of stocks over a period of a year. A high positive weighted alpha signifies a stock whose price has risen, while a small positive weighted alpha indicates an unchanged stock price during the time period. Weighted alpha is used to identify companies with strong upward or downward trends. The weighted alpha for the top 30 stocks of banks in the Northeast and in the West as identified by Nasdaq on May 24, 2013 are listed in  and , respectively.</p>
+    <p>Weighted alpha is a measure of risk-adjusted performance of stocks over a period of a year. A high positive weighted alpha signifies a stock whose price has risen, while a small positive weighted alpha indicates an unchanged stock price during the time period. Weighted alpha is used to identify companies with strong upward or downward trends. The weighted alpha for the top 30 stocks of banks in the Northeast and in the West as identified by Nasdaq on May 24, 2013 are listed in <xref ref="fs-idm242901296" /> and <xref ref="fs-idm167801152" />, respectively.</p>
+    <table xml:id="fs-idm242901296">
+      <title>Northeast</title>
+      <tabular>
+        <row>
+          <cell>94.2</cell>
+          <cell>75.2</cell>
+          <cell>69.6</cell>
+          <cell>52.0</cell>
+          <cell>48.0</cell>
+          <cell>41.9</cell>
+          <cell>36.4</cell>
+          <cell>33.4</cell>
+          <cell>31.5</cell>
+          <cell>27.6</cell>
+        </row>
+        <row>
+          <cell>77.3</cell>
+          <cell>71.9</cell>
+          <cell>67.5</cell>
+          <cell>50.6</cell>
+          <cell>46.2</cell>
+          <cell>38.4</cell>
+          <cell>35.2</cell>
+          <cell>33.0</cell>
+          <cell>28.7</cell>
+          <cell>26.5</cell>
+        </row>
+        <row>
+          <cell>76.3</cell>
+          <cell>71.7</cell>
+          <cell>56.3</cell>
+          <cell>48.7</cell>
+          <cell>43.2</cell>
+          <cell>37.6</cell>
+          <cell>33.7</cell>
+          <cell>31.8</cell>
+          <cell>28.5</cell>
+          <cell>26.0</cell>
+        </row>
+      </tabular>
+    </table>
+    <table xml:id="fs-idm167801152">
+      <title>West</title>
+      <tabular>
+        <row>
+          <cell>126.0</cell>
+          <cell>70.6</cell>
+          <cell>65.2</cell>
+          <cell>51.4</cell>
+          <cell>45.5</cell>
+          <cell>37.0</cell>
+          <cell>33.0</cell>
+          <cell>29.6</cell>
+          <cell>23.7</cell>
+          <cell>22.6</cell>
+        </row>
+        <row>
+          <cell>116.1</cell>
+          <cell>70.6</cell>
+          <cell>58.2</cell>
+          <cell>51.2</cell>
+          <cell>43.2</cell>
+          <cell>36.0</cell>
+          <cell>31.4</cell>
+          <cell>28.7</cell>
+          <cell>23.5</cell>
+          <cell>21.6</cell>
+        </row>
+        <row>
+          <cell>78.2</cell>
+          <cell>68.2</cell>
+          <cell>55.6</cell>
+          <cell>50.3</cell>
+          <cell>39.0</cell>
+          <cell>34.1</cell>
+          <cell>31.0</cell>
+          <cell>25.3</cell>
+          <cell>23.4</cell>
+          <cell>21.5</cell>
+        </row>
+      </tabular>
+    </table>
     <exercise xml:id="fs-idm120507648">
       <title>Try It</title>
       <statement>
@@ -426,7 +555,27 @@ and <c>200</c> for n2. Arrow down to <c>p1</c>: and arrow to <c>not equal p2</c>
     <example xml:id="fs-idp34418816">
       <statement>
         <title>Random variable:</title>
-        <p>A research study was conducted about gender differences in texting. The researcher believed that the proportion of girls involved in texting is less than the proportion of boys involved. The data collected in spring 2010 among a random sample of middle and high school students in a large school district in the southern United States is summarized in . Is the proportion of girls sending texts less than the proportion of boys texting? Test at a 1 percent level of significance.</p>
+        <p>A research study was conducted about gender differences in texting. The researcher believed that the proportion of girls involved in texting is less than the proportion of boys involved. The data collected in spring 2010 among a random sample of middle and high school students in a large school district in the southern United States is summarized in <xref ref="fs-idm29483888" />. Is the proportion of girls sending texts less than the proportion of boys texting? Test at a 1 percent level of significance.</p>
+        <table xml:id="fs-idm29483888">
+          <title>Texting Study Data</title>
+          <tabular>
+            <row header="yes">
+              <cell/>
+              <cell>Males</cell>
+              <cell>Females</cell>
+            </row>
+            <row>
+              <cell>Sent texts</cell>
+              <cell>183</cell>
+              <cell>156</cell>
+            </row>
+            <row>
+              <cell>Total number surveyed</cell>
+              <cell>2231</cell>
+              <cell>2169</cell>
+            </row>
+          </tabular>
+        </table>
       </statement>
       <solution>
         <p>This is a test of two population proportions. Let <m>M</m> and <m>F</m> be the subscripts for males and females. Then, <em>p_{M}</em> and <em>p_{F}</em> are the desired population proportions.</p>
@@ -584,7 +733,45 @@ Estimated proportion for group B: 0.05</p>
     <example xml:id="element-457">
       <statement>
         <title>Note</title>
-        <p>A study was conducted to investigate the effectiveness of pain-reducing medication. Results for randomly selected subjects are shown in . A lower score indicates less pain. The <em>before</em> value is matched to an <em>after</em> value, and the differences are calculated. The differences have a normal distribution. Are the sensory measurements, on average, lower after the medication? Test at a 5 percent significance level.</p>
+        <p>A study was conducted to investigate the effectiveness of pain-reducing medication. Results for randomly selected subjects are shown in <xref ref="table-2345" />. A lower score indicates less pain. The <em>before</em> value is matched to an <em>after</em> value, and the differences are calculated. The differences have a normal distribution. Are the sensory measurements, on average, lower after the medication? Test at a 5 percent significance level.</p>
+        <table xml:id="table-2345">
+          <title>Pain Medication Study Results</title>
+          <tabular>
+            <row header="yes">
+              <cell>Subject:</cell>
+              <cell>A</cell>
+              <cell>B</cell>
+              <cell>C</cell>
+              <cell>D</cell>
+              <cell>E</cell>
+              <cell>F</cell>
+              <cell>G</cell>
+              <cell>H</cell>
+            </row>
+            <row>
+              <cell>Before</cell>
+              <cell>6.6</cell>
+              <cell>6.5</cell>
+              <cell>9.0</cell>
+              <cell>10.3</cell>
+              <cell>11.3</cell>
+              <cell>8.1</cell>
+              <cell>6.3</cell>
+              <cell>11.6</cell>
+            </row>
+            <row>
+              <cell>After</cell>
+              <cell>6.8</cell>
+              <cell>2.4</cell>
+              <cell>7.4</cell>
+              <cell>8.5</cell>
+              <cell>8.1</cell>
+              <cell>6.1</cell>
+              <cell>3.4</cell>
+              <cell>2.0</cell>
+            </row>
+          </tabular>
+        </table>
       </statement>
       <solution>
         <p>Corresponding <em>before</em> and <em>after</em> values form matched pairs. (Calculate <em>after</em> – <em>before</em>.)</p>
@@ -617,6 +804,47 @@ Estimated proportion for group B: 0.05</p>
       <title>Try It</title>
       <statement>
           <p>A study was conducted to investigate how effective a new diet was in lowering cholesterol. Results for the randomly selected subjects are shown in the table. The differences have a normal distribution. Are the subjects’ cholesterol levels lower on average after the diet? Test at the 5 percent level.</p>
+          <table xml:id="fs-idm36821616">
+            <title>Cholesterol Levels</title>
+            <tabular>
+              <row header="yes">
+                <cell>Subject</cell>
+                <cell>A</cell>
+                <cell>B</cell>
+                <cell>C</cell>
+                <cell>D</cell>
+                <cell>E</cell>
+                <cell>F</cell>
+                <cell>G</cell>
+                <cell>H</cell>
+                <cell>I</cell>
+              </row>
+              <row>
+                <cell>Before</cell>
+                <cell>209</cell>
+                <cell>210</cell>
+                <cell>205</cell>
+                <cell>198</cell>
+                <cell>216</cell>
+                <cell>217</cell>
+                <cell>238</cell>
+                <cell>240</cell>
+                <cell>222</cell>
+              </row>
+              <row>
+                <cell>After</cell>
+                <cell>199</cell>
+                <cell>207</cell>
+                <cell>189</cell>
+                <cell>209</cell>
+                <cell>217</cell>
+                <cell>202</cell>
+                <cell>211</cell>
+                <cell>223</cell>
+                <cell>201</cell>
+              </row>
+            </tabular>
+          </table>
         </statement>
         <solution>
           <p>The <m>p</m>-value is 0.0130, so we can reject the null hypothesis. There is enough evidence to suggest that the diet lowers cholesterol.</p>
@@ -627,6 +855,32 @@ Estimated proportion for group B: 0.05</p>
       <statement>
         <title>Note</title>
       <p>A college football coach was interested in whether the college’s strength development class increased his players’ maximum lift (in pounds) on the bench press exercise. He asked four of his players to participate in a study. The amount of weight they could each lift was recorded before they took the strength development class. After completing the class, the amount of weight they could each lift was again measured. The data are as follows:</p>
+      <table xml:id="table-234678">
+        <title>Weight Lifting Data</title>
+        <tabular>
+          <row header="yes">
+            <cell>Weight (in pounds)</cell>
+            <cell>Player 1</cell>
+            <cell>Player 2</cell>
+            <cell>Player 3</cell>
+            <cell>Player 4</cell>
+          </row>
+          <row>
+            <cell>Amount of weight lifted prior to the class</cell>
+            <cell>205</cell>
+            <cell>241</cell>
+            <cell>338</cell>
+            <cell>368</cell>
+          </row>
+          <row>
+            <cell>Amount of weight lifted after the class</cell>
+            <cell>295</cell>
+            <cell>252</cell>
+            <cell>330</cell>
+            <cell>360</cell>
+          </row>
+        </tabular>
+      </table>
       <p>The coach wants to know if the strength development class makes his players stronger, on average.
 <nbsp/>Record the <em>differences</em> data. Calculate the differences by subtracting the amount of weight lifted prior to the class from the weight lifted after completing the class. The data for the differences are: {90, 11, -8, -8}. Assume the differences have a normal distribution.</p>
       <p>Using the differences data, calculate the sample mean and the sample standard deviation.</p>
@@ -652,7 +906,33 @@ Estimated proportion for group B: 0.05</p>
     <exercise xml:id="fs-idp4946544">
       <title>Try It</title>
       <statement>
-          <p>A new prep class was designed to improve SAT test scores. Five students were selected at random. Their scores on two practice exams were recorded, one before the class and one after. The data are recorded in . Are the scores, on average, higher after the class? Test at a 5 percent level.</p>
+          <p>A new prep class was designed to improve SAT test scores. Five students were selected at random. Their scores on two practice exams were recorded, one before the class and one after. The data are recorded in <xref ref="fs-idp42085840" />. Are the scores, on average, higher after the class? Test at a 5 percent level.</p>
+          <table xml:id="fs-idp42085840">
+            <title>SAT Scores</title>
+            <tabular>
+              <row header="yes">
+                <cell>SAT Scores</cell>
+                <cell>Student 1</cell>
+                <cell>Student 2</cell>
+                <cell>Student 3</cell>
+                <cell>Student 4</cell>
+              </row>
+              <row>
+                <cell><em>Score before class</em></cell>
+                <cell>1840</cell>
+                <cell>1960</cell>
+                <cell>1920</cell>
+                <cell>2150</cell>
+              </row>
+              <row>
+                <cell><em>Score after class</em></cell>
+                <cell>1920</cell>
+                <cell>2160</cell>
+                <cell>2200</cell>
+                <cell>2100</cell>
+              </row>
+            </tabular>
+          </table>
         </statement>
         <solution>
           <p>The <m>p</m>-value is 0.0874, so we decline to reject the null hypothesis. The data do not support that the class improves SAT scores significantly.</p>
@@ -661,7 +941,42 @@ Estimated proportion for group B: 0.05</p>
 
     <example xml:id="element-241">
         <statement>
-          <p>Seven eighth-graders at Kennedy Middle School measured how far they could push the shot put with their dominant (writing) hand and their weaker (nonwriting) hand. They thought that they could push equal distances with both hands. The data are collected and recorded in .</p>
+          <p>Seven eighth-graders at Kennedy Middle School measured how far they could push the shot put with their dominant (writing) hand and their weaker (nonwriting) hand. They thought that they could push equal distances with both hands. The data are collected and recorded in <xref ref="table-2535678" />.</p>
+          <table xml:id="table-2535678">
+            <title>Shot Put Distances</title>
+            <tabular>
+              <row header="yes">
+                <cell>Distance (in feet) using</cell>
+                <cell>Student 1</cell>
+                <cell>Student 2</cell>
+                <cell>Student 3</cell>
+                <cell>Student 4</cell>
+                <cell>Student 5</cell>
+                <cell>Student 6</cell>
+                <cell>Student 7</cell>
+              </row>
+              <row>
+                <cell>Dominant Hand</cell>
+                <cell>30</cell>
+                <cell>26</cell>
+                <cell>34</cell>
+                <cell>17</cell>
+                <cell>19</cell>
+                <cell>26</cell>
+                <cell>20</cell>
+              </row>
+              <row>
+                <cell>Weaker Hand</cell>
+                <cell>28</cell>
+                <cell>14</cell>
+                <cell>27</cell>
+                <cell>18</cell>
+                <cell>17</cell>
+                <cell>26</cell>
+                <cell>16</cell>
+              </row>
+            </tabular>
+          </table>
           <p>Conduct a hypothesis test to determine whether the mean difference in distances between the children’s dominant versus weaker hands is significant.</p>
           <p>Record the <em>differences</em> data. Calculate the differences by subtracting the distances with the weaker hand from the distances with the dominant hand. The data for the differences are: {2, 12, 7, –1, 2, 0, 4}. The differences have a normal distribution.</p>
           <p>Using the differences data, calculate the sample mean and the sample standard deviation. <m>x¯_{d}</m> = 3.71, <m>s_{d}</m> = 4.5.</p>
@@ -683,7 +998,36 @@ Estimated proportion for group B: 0.05</p>
     <exercise xml:id="fs-idm3639952">
       <title>Try It</title>
       <statement>
-          <p>Five ball players think they can throw the same distance with their dominant hand (throwing) and off-hand (catching hand). The data were collected and recorded in . Conduct a hypothesis test to determine whether the mean 5 difference in distances between the dominant and off-hand is significant. Test at the 5 percent level.</p>
+          <p>Five ball players think they can throw the same distance with their dominant hand (throwing) and off-hand (catching hand). The data were collected and recorded in <xref ref="fs-idp26621360" />. Conduct a hypothesis test to determine whether the mean difference in distances between the dominant and off-hand is significant. Test at the 5 percent level.</p>
+          <table xml:id="fs-idp26621360">
+            <title>Ball Player Throwing Distances</title>
+            <tabular>
+              <row header="yes">
+                <cell/>
+                <cell>Player 1</cell>
+                <cell>Player 2</cell>
+                <cell>Player 3</cell>
+                <cell>Player 4</cell>
+                <cell>Player 5</cell>
+              </row>
+              <row>
+                <cell>Dominant Hand</cell>
+                <cell>120</cell>
+                <cell>111</cell>
+                <cell>135</cell>
+                <cell>140</cell>
+                <cell>125</cell>
+              </row>
+              <row>
+                <cell>Off-Hand</cell>
+                <cell>105</cell>
+                <cell>109</cell>
+                <cell>98</cell>
+                <cell>111</cell>
+                <cell>99</cell>
+              </row>
+            </tabular>
+          </table>
         </statement>
         <solution>
           <p>The <m>p</m>-value is 0.0230, so we can reject the null hypothesis. The data show that the players do not throw the same distance with their off-hands as they do with their dominant hands.</p>
