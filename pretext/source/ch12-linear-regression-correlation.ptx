@@ -1858,8 +1858,8 @@ Cost per ounce
           <li>The student will calculate and construct the line of best fit between two variables.</li>
           <li>The student will evaluate the relationship between two variables to determine whether that relationship is significant.</li>
         </ul>
-        <p><title>Collect the Data</title>Use eight members of your class for the sample. Collect bivariate data (distance an individual lives
-from school, the cost of supplies for the current term).</p>
+        <paragraphs><title>Collect the Data</title><p>Use eight members of your class for the sample. Collect bivariate data (distance an individual lives
+from school, the cost of supplies for the current term).</p></p></paragraphs>
         <ol>
           <li>Complete the table.
           <table xml:id="table-distance-cost-data">
@@ -1914,7 +1914,7 @@ words. Scale both axes.
             </figure>
           </li>
         </ol>
-        <p><title>Analyze the Data</title>Enter your data into a calculator or computer. Write the linear equation, rounding to four decimal places.</p>
+        <paragraphs><title>Analyze the Data</title><p>Enter your data into a calculator or computer. Write the linear equation, rounding to four decimal places.</p></paragraphs>
         <ol>
           <li>Calculate the following:
 <m>a</m> = ______
@@ -1985,9 +1985,9 @@ Survey 10 textbooks. Collect bivariate data (number of pages in a textbook, the 
 variable? Why?</li>
           <li>Graph <em>pages vs. cost</em>. Plot the points on the graph in Analyze the Data. Label both axes with words. Scale both axes.</li>
         </ol>
-        <p><title>Analyze the Data</title>
+        <paragraphs><title>Analyze the Data</title><p>
 Enter your data into a calculator or computer.
-Write the linear equation, rounding to four decimal places.</p>
+Write the linear equation, rounding to four decimal places.</p></paragraphs>
         <ol>
           <li>Calculate the following:
 <m>a</m> = ______
@@ -2042,7 +2042,7 @@ What does the correlation imply about the relationship between the number of pag
           <li>The student will calculate and construct the line of best fit between two variables.</li>
           <li>The student will evaluate the relationship between two variables to determine whether that relationship is significant.</li>
         </ul>
-        <p><title>Collect the Data</title>Find a reputable source that provides information on total fuel efficiency (in miles per gallon) and weight (in pounds) of new cars with an automatic transmission. You will use these data to determine the relationship, if any, between the fuel efficiency of a car and its weight.</p>
+        <paragraphs><title>Collect the Data</title><p>Find a reputable source that provides information on total fuel efficiency (in miles per gallon) and weight (in pounds) of new cars with an automatic transmission. You will use these data to determine the relationship, if any, between the fuel efficiency of a car and its weight.</p></paragraphs>
         <ol>
           <table xml:id="table-fuel-efficiency-data">
             <title>Fuel Efficiency Data Table</title>
@@ -2098,8 +2098,8 @@ variable? Why?</li>
           <li>By hand, draw a scatter plot of <em>weight vs. fuel efficiency</em>. Plot the points on graph paper.
 Label both axes with words. Scale both axes accurately.</li>
         </ol>
-        <p><title>Analyze the Data</title>
-Enter your data into a calculator or computer. Write the linear equation, rounding to four decimal places.</p>
+        <paragraphs><title>Analyze the Data</title><p>
+Enter your data into a calculator or computer. Write the linear equation, rounding to four decimal places.</p></paragraphs>
         <ol>
           <li>Calculate the following:
 
