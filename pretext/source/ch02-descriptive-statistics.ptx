@@ -4965,7 +4965,7 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
     <exercise xml:id="fs-idm9402560">
       <statement>
         <p>Two baseball players, Fredo and Karl, on different teams wanted to find out who had the higher batting average when compared to his team. Which baseball player had the higher batting average when compared to his team?</p>
-        <table>
+        <table xml:id="fs-idm133764640">
           <tabular>
             <row header="yes">
               <cell>Baseball Player</cell>
@@ -5877,7 +5877,7 @@ below the mean.
 
 <exercise xml:id="fs-idp113295424">
 <statement>
-<p>In a survey, 40 people were asked how many times they visited a store before making a major purchase. The results are shown in <xref ref="M01_Ch02_tbl018"/>.</p><table>
+<p>In a survey, 40 people were asked how many times they visited a store before making a major purchase. The results are shown in <xref ref="M01_Ch02_tbl018"/>.</p><table xml:id="M01_Ch02_tbl018">
 <tabular>
 
 <row><cell>Number of Times in Store</cell><cell>Frequency</cell></row>
@@ -5898,7 +5898,7 @@ below the mean.
 
 <exercise xml:id="fs-idp11360192">
 <statement>
-<p>In a survey, several people were asked how many years it has been since they purchased a mattress. The results are shown in <xref ref="M01_Ch02_tbl019"/>.</p><table>
+<p>In a survey, several people were asked how many years it has been since they purchased a mattress. The results are shown in <xref ref="M01_Ch02_tbl019"/>.</p><table xml:id="M01_Ch02_tbl019">
 <tabular>
 
 <row><cell>Years Since Last Purchase</cell>	<cell>Frequency</cell></row>
@@ -5917,7 +5917,7 @@ below the mean.
 
 <exercise xml:id="fs-idp113509472">
 <statement>
-<p>Several children were asked how many TV shows they watch each day. The results of the survey are shown in <xref ref="M01_Ch02_tbl020"/>.</p><table>
+<p>Several children were asked how many TV shows they watch each day. The results of the survey are shown in <xref ref="M01_Ch02_tbl020"/>.</p><table xml:id="M01_Ch02_tbl020">
 <tabular>
 
 <row><cell>Number of TV Shows</cell>	<cell>Frequency</cell></row>
@@ -5939,7 +5939,7 @@ below the mean.
 <exercise xml:id="exercise13">
 <statement>
 <p>The students in Ms. Ramirez’s math class have birthdays in each of the four seasons. <xref ref="M01_Ch02_tbl021"/> shows the four seasons, the number of students who have birthdays in each season, and the percentage of students in each group. Construct a bar graph showing the number of students.</p>
-<table>
+<table xml:id="M01_Ch02_tbl021">
 <tabular>
 
 <row><cell>Seasons</cell>	<cell>Number of Students</cell>	<cell>Proportion of Population</cell></row>
@@ -7023,10 +7023,10 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
 </statement>
 </exercise>
 
-<exercise xml:id="fs-idm9402560">
+<exercise xml:id="fs-idm9402560-practice">
 <statement>
 <p>Two baseball players, Fredo and Karl, on different teams wanted to find out who had the higher batting average when compared to his team. Which baseball player had the higher batting average when compared to his team?</p>
-<table>
+<table xml:id="fs-idm133764640-practice">
 <tabular>
 <row><cell>Baseball Player</cell>	<cell>Batting Average</cell>	<cell>Team Batting Average</cell>	<cell>Team Standard Deviation</cell></row>
 
