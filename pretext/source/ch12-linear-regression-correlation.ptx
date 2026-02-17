@@ -1858,19 +1858,51 @@ Cost per ounce
           <li>The student will calculate and construct the line of best fit between two variables.</li>
           <li>The student will evaluate the relationship between two variables to determine whether that relationship is significant.</li>
         </ul>
-        <p>Collect the DataUse eight members of your class for the sample. Collect bivariate data (distance an individual lives
+        <p><title>Collect the Data</title>Use eight members of your class for the sample. Collect bivariate data (distance an individual lives
 from school, the cost of supplies for the current term).</p>
         <ol>
           <li>Complete the table.
-
-
-
-
-
-
-
-Distance from School
-Cost of Supplies This Term</li>
+          <table xml:id="table-distance-cost-data">
+            <title>Distance and Cost Data Table</title>
+            <tabular>
+              <row header="yes">
+                <cell>Distance from School</cell>
+                <cell>Cost of Supplies This Term</cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+            </tabular>
+          </table>
           <li>Which variable should be the dependent variable and which should be the independent
 variable? Why?</li>
           <li>Graph <em>distance</em> vs. <em>cost</em>. Plot the points on the graph. Label both axes with
@@ -1882,7 +1914,7 @@ words. Scale both axes.
             </figure>
           </li>
         </ol>
-        <p>Analyze the DataEnter your data into a calculator or computer. Write the linear equation, rounding to four decimal places.</p>
+        <p><title>Analyze the Data</title>Enter your data into a calculator or computer. Write the linear equation, rounding to four decimal places.</p>
         <ol>
           <li>Calculate the following:
 <m>a</m> = ______
@@ -1953,7 +1985,7 @@ Survey 10 textbooks. Collect bivariate data (number of pages in a textbook, the 
 variable? Why?</li>
           <li>Graph <em>pages vs. cost</em>. Plot the points on the graph in Analyze the Data. Label both axes with words. Scale both axes.</li>
         </ol>
-        <p>Analyze the Data
+        <p><title>Analyze the Data</title>
 Enter your data into a calculator or computer.
 Write the linear equation, rounding to four decimal places.</p>
         <ol>
@@ -2010,25 +2042,63 @@ What does the correlation imply about the relationship between the number of pag
           <li>The student will calculate and construct the line of best fit between two variables.</li>
           <li>The student will evaluate the relationship between two variables to determine whether that relationship is significant.</li>
         </ul>
-        <p>Collect the DataFind a reputable source that provides information on total fuel efficiency (in miles per gallon) and weight (in pounds) of new cars with an automatic transmission. You will use these data to determine the relationship, if any, between the fuel efficiency of a car and its weight.</p>
+        <p><title>Collect the Data</title>Find a reputable source that provides information on total fuel efficiency (in miles per gallon) and weight (in pounds) of new cars with an automatic transmission. You will use these data to determine the relationship, if any, between the fuel efficiency of a car and its weight.</p>
         <ol>
-          <li>Using your random-number generator, select 20 cars randomly from the list and record their weight and fuel efficiency into .
-
-
-
-
-
-
-
-
-Weight
-Fuel Efficiency</li>
+          <table xml:id="table-fuel-efficiency-data">
+            <title>Fuel Efficiency Data Table</title>
+            <tabular>
+              <row header="yes">
+                <cell>Weight</cell>
+                <cell>Fuel Efficiency</cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell></cell>
+                <cell></cell>
+              </row>
+            </tabular>
+          </table>
           <li>Which variable is the dependent variable and which is the independent
 variable? Why?</li>
           <li>By hand, draw a scatter plot of <em>weight vs. fuel efficiency</em>. Plot the points on graph paper.
 Label both axes with words. Scale both axes accurately.</li>
         </ol>
-        <p>Analyze the Data
+        <p><title>Analyze the Data</title>
 Enter your data into a calculator or computer. Write the linear equation, rounding to four decimal places.</p>
         <ol>
           <li>Calculate the following:
