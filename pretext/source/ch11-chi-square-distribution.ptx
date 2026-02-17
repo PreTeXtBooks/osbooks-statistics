@@ -216,7 +216,6 @@ The test of a single variance, which tests variability, such as in the coffee ex
             </tabular>
           </table>
         </statement>
-        </statement>
         <solution>
           <p><em>H_{0}</em>:The number of defaults fits expectations.</p>
           <p><em>H_{a}</em>:The number of defaults does not fit expectations.<nbsp /><m>df</m> = 4</p>
@@ -290,7 +289,6 @@ The test of a single variance, which tests variability, such as in the coffee ex
               </row>
             </tabular>
           </table>
-        </statement>
         </statement>
         <solution>
           <p><m>df</m> = 6</p>
@@ -401,7 +399,6 @@ So, <m>α</m> &gt; <m>p</m>-value.</p>
               </row>
             </tabular>
           </table>
-        </statement>
           <p>At the 1 percent significance level, does it appear that the distribution <em>number of pets</em> of students in the eastern United States is different from the distribution for the United States student population as a whole? What is the <m>p</m>-value?</p>
         </statement>
         <solution>
@@ -503,7 +500,6 @@ sure you clear any lists before you start.</p>
               </row>
             </tabular>
           </table>
-        </statement>
         </statement>
         <solution>
           <p>degrees of freedom = 9</p>
