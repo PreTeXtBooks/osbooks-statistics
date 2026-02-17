@@ -88,6 +88,29 @@
             <li>Chapter 13: F Distribution and One-way ANOVA</li>
           </ul>
         </paragraphs>
+
+        <paragraphs xml:id="about-pretext-version">
+          <title>About This PreTeXt Version</title>
+          <p>
+            This is an unofficial PreTeXt conversion of the <url href="https://openstax.org/details/books/statistics" visual="openstax.org/details/books/statistics">OpenStax Statistics textbook</url>. 
+            The original work, created by Barbara Illowsky and Susan Dean and published by OpenStax, is available at 
+            <url href="https://openstax.org/details/books/statistics">https://openstax.org/details/books/statistics</url>.
+          </p>
+          <p>
+            <alert>Important Notice:</alert> This PreTeXt version is currently <em>incomplete</em> and under active development. 
+            While we have made every effort to accurately convert the content to the PreTeXt format and maintain 
+            fidelity with the original OpenStax version, some content may be missing, incorrectly formatted, or 
+            differ from the original. We strongly recommend consulting the 
+            <url href="https://openstax.org/details/books/statistics" visual="openstax.org/details/books/statistics">official OpenStax version</url> 
+            as the authoritative source.
+          </p>
+          <p>
+            <em>Full credit goes to OpenStax, Barbara Illowsky, Susan Dean, and all contributors to the original 
+            Statistics textbook for creating this valuable educational resource.</em> This PreTeXt conversion is 
+            provided as an alternative format option and maintains the same Creative Commons Attribution 4.0 
+            International License as the original work.
+          </p>
+        </paragraphs>
       </preface>
     </frontmatter>
 
