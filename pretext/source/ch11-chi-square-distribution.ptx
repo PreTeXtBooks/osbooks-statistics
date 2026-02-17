@@ -851,7 +851,6 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
 
 <p><alert>Uniform Distribution</alert></p>
     <p>Test to see if grocery receipts follow the uniform distribution.</p>
-      <ol>
         <li>Using your lowest and highest values, <m>X</m> ~ <m>U</m> (_______, _______).</li>
         <li>Divide the distribution into fifths.</li>
         <li>Calculate the following:
