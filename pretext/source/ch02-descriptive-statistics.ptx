@@ -5816,12 +5816,12 @@ below the mean.
 
 <p><em>For each of the following data sets, create a stemplot and identify any outliers.</em></p>
 
-<exercise xml:id="fs-idp77965776">
+<exercise xml:id="fs-idp77965776-stem-leaf-practice">
 <statement>
 <p>The miles-per-gallon ratings for 30 cars are shown below (lowest to highest):
 
 19, 19, 19, 20, 21, 21, 25, 25, 25, 26, 26, 28, 29, 31, 31, 32, 32, 33, 34, 35, 36, 37, 37, 38, 38, 38, 38, 41, 43, 43.</p></statement>
-<solution xml:id="fs-idm37847504">
+<solution xml:id="fs-idm37847504-stem-leaf-practice">
 <table>
 <tabular>
 
@@ -5836,20 +5836,20 @@ below the mean.
 </table></solution>
 </exercise>
 
-<exercise xml:id="fs-idp69585968">
+<exercise xml:id="fs-idp69585968-stem-leaf-practice">
 <statement>
 <p>The height in feet of 25 trees is shown below (lowest to highest):
 
 25, 27, 33, 34, 34, 34, 35, 37, 37, 38, 39, 39, 39, 40, 41, 45, 46, 47, 49, 50, 50, 53, 53, 54, 54.</p></statement>
 </exercise>
 
-<exercise xml:id="exercise8">
+<exercise xml:id="exercise8-stem-leaf-practice">
 <statement>
 <p>The data are the prices of different laptops at an electronics store. Round each value to the nearest 10.
 
 249, 249, 260, 265, 265, 280, 299, 299, 309, 319, 325, 326, 350, 350, 350, 365, 369, 389, 409, 459, 489, 559, 569, 570, 610</p></statement>
 
-<solution xml:id="fs-idp114380816">
+<solution xml:id="fs-idp114380816-stem-leaf-practice">
 <table>
 <tabular>
 
@@ -5866,7 +5866,7 @@ below the mean.
 </table></solution>
 </exercise>
 
-<exercise xml:id="fs-idp48193248">
+<exercise xml:id="fs-idp48193248-stem-leaf-practice">
 <statement>
 <p>The following data are daily high temperatures in a town for one month:
 
@@ -5875,9 +5875,9 @@ below the mean.
 
 <p><em>For the next three exercises, use the data to construct a line graph.</em></p>
 
-<exercise xml:id="fs-idp113295424">
+<exercise xml:id="fs-idp113295424-stem-leaf-practice">
 <statement>
-<p>In a survey, 40 people were asked how many times they visited a store before making a major purchase. The results are shown in <xref ref="M01_Ch02_tbl018"/>.</p><table xml:id="M01_Ch02_tbl018">
+<p>In a survey, 40 people were asked how many times they visited a store before making a major purchase. The results are shown in <xref ref="M01_Ch02_tbl018"/>.</p><table xml:id="M01_Ch02_tbl018-stem-leaf-practice">
 <tabular>
 
 <row><cell>Number of Times in Store</cell><cell>Frequency</cell></row>
@@ -5891,14 +5891,14 @@ below the mean.
 </tabular>
 </table>
 </statement>
-<solution xml:id="fs-idp47635040">
-<figure xml:id="fs-idp29124208"><image source="../../media/CNX_Stats_C02_M03_005.jpg"/>
+<solution xml:id="fs-idp47635040-stem-leaf-practice">
+<figure xml:id="fs-idp29124208-stem-leaf-practice"><image source="../../media/CNX_Stats_C02_M03_005.jpg"/>
 </figure></solution>
 </exercise>
 
-<exercise xml:id="fs-idp11360192">
+<exercise xml:id="fs-idp11360192-stem-leaf-practice">
 <statement>
-<p>In a survey, several people were asked how many years it has been since they purchased a mattress. The results are shown in <xref ref="M01_Ch02_tbl019"/>.</p><table xml:id="M01_Ch02_tbl019">
+<p>In a survey, several people were asked how many years it has been since they purchased a mattress. The results are shown in <xref ref="M01_Ch02_tbl019"/>.</p><table xml:id="M01_Ch02_tbl019-stem-leaf-practice">
 <tabular>
 
 <row><cell>Years Since Last Purchase</cell>	<cell>Frequency</cell></row>
@@ -5915,9 +5915,9 @@ below the mean.
 </statement>
 </exercise>
 
-<exercise xml:id="fs-idp113509472">
+<exercise xml:id="fs-idp113509472-stem-leaf-practice">
 <statement>
-<p>Several children were asked how many TV shows they watch each day. The results of the survey are shown in <xref ref="M01_Ch02_tbl020"/>.</p><table xml:id="M01_Ch02_tbl020">
+<p>Several children were asked how many TV shows they watch each day. The results of the survey are shown in <xref ref="M01_Ch02_tbl020"/>.</p><table xml:id="M01_Ch02_tbl020-stem-leaf-practice">
 <tabular>
 
 <row><cell>Number of TV Shows</cell>	<cell>Frequency</cell></row>
@@ -5932,14 +5932,14 @@ below the mean.
 </table>
 
 </statement>
-<solution xml:id="fs-idp49973120">
-<figure xml:id="fs-idm11163840"><image source="../../media/CNX_Stats_C02_M03_007.jpg"/></figure></solution>
+<solution xml:id="fs-idp49973120-stem-leaf-practice">
+<figure xml:id="fs-idm11163840-stem-leaf-practice"><image source="../../media/CNX_Stats_C02_M03_007.jpg"/></figure></solution>
 </exercise>
 
-<exercise xml:id="exercise13">
+<exercise xml:id="exercise13-stem-leaf-practice">
 <statement>
 <p>The students in Ms. Ramirez’s math class have birthdays in each of the four seasons. <xref ref="M01_Ch02_tbl021"/> shows the four seasons, the number of students who have birthdays in each season, and the percentage of students in each group. Construct a bar graph showing the number of students.</p>
-<table xml:id="M01_Ch02_tbl021">
+<table xml:id="M01_Ch02_tbl021-stem-leaf-practice">
 <tabular>
 
 <row><cell>Seasons</cell>	<cell>Number of Students</cell>	<cell>Proportion of Population</cell></row>
@@ -5954,13 +5954,13 @@ below the mean.
 </statement>
 </exercise>
 
-<exercise xml:id="fs-idp114173136">
+<exercise xml:id="fs-idp114173136-stem-leaf-practice">
 <statement><p>Using the data from Mrs. Ramirez’s math class supplied in <xref ref="exercise13"/>, construct a bar graph showing the percentages.</p></statement>
-<solution xml:id="fs-idp107574416">
-<figure xml:id="fs-idp48344576"><image source="../../media/CNX_Stats_C02_M03_009.jpg"/></figure></solution>
+<solution xml:id="fs-idp107574416-stem-leaf-practice">
+<figure xml:id="fs-idp48344576-stem-leaf-practice"><image source="../../media/CNX_Stats_C02_M03_009.jpg"/></figure></solution>
 </exercise>
 
-<exercise xml:id="exercise10">
+<exercise xml:id="exercise10-stem-leaf-practice">
 <statement>
 <p>David County has six high schools. Each school sent students to participate in a county-wide science competition. <xref ref="M01_Ch02_tbl022"/> shows the percentage breakdown of competitors from each school and the percentage of the entire student population of the county that goes to each school. Construct a bar graph that shows the population percentage of competitors from each school.</p>
 
@@ -5982,11 +5982,11 @@ below the mean.
 </statement>
 </exercise>
 
-<exercise xml:id="fs-idp107146752">
+<exercise xml:id="fs-idp107146752-stem-leaf-practice">
 <statement>
 <p>Use the data from the David County science competition supplied in <xref ref="exercise10"/>. Construct a bar graph that shows the county-wide population percentage of students at each school.</p></statement>
-<solution xml:id="fs-idp4118704">
-<figure xml:id="fs-idp86744448"><image source="../../media/CNX_Stats_C02_M03_011.jpg"/></figure></solution>
+<solution xml:id="fs-idp4118704-stem-leaf-practice">
+<figure xml:id="fs-idp86744448-stem-leaf-practice"><image source="../../media/CNX_Stats_C02_M03_011.jpg"/></figure></solution>
 </exercise>
 
 </subsection>    <subsection xml:id="subsec-histograms-practice">
@@ -6672,7 +6672,7 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
 <subsection xml:id="subsec-measures-center-practice">
   <title>Practice</title>
 
-<exercise xml:id="fs-idp11191056">
+<exercise xml:id="fs-idp11191056-measures-center-practice">
 <statement>
 <p>Find the mean for the following frequency tables:</p><ol><li><table>
 <tabular>
@@ -6721,12 +6721,12 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
 </exercise>
 
 <p><em>Use the following information to answer the next three exercises:</em> The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:
-16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40</p><exercise xml:id="fs-idp3713376">
+16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40</p><exercise xml:id="fs-idp3713376-measures-center-practice">
 <statement>
 <p>Calculate the mean.</p>
 </statement>
 
-<solution xml:id="fs-idp54737296">
+<solution xml:id="fs-idp54737296-measures-center-practice">
 <p>Mean: 16 + 17 + 19 + 20 + 20 + 21 + 23 + 24 + 25 + 25 + 25 + 26 + 26 + 27 + 27 + 27 + 28 + 29 + 30 + 32 + 33 + 33 + 34 + 35 + 37 + 39 + 40 = 738;</p><p><math><mrow><mfrac>
     <mrow><mn>738</mn></mrow>
     <mrow><mn>27</mn></mrow></mfrac></mrow>
@@ -6734,23 +6734,23 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
 </solution>
 </exercise>
 
-<exercise xml:id="fs-idp23937584">
+<exercise xml:id="fs-idp23937584-measures-center-practice">
 <statement>
 <p>Identify the median.</p>
 </statement>
 </exercise>
 
-<exercise xml:id="fs-idm35941040">
+<exercise xml:id="fs-idm35941040-measures-center-practice">
 <statement>
 <p>Identify the mode.</p>
 </statement>
-<solution xml:id="fs-idm53012848">
+<solution xml:id="fs-idm53012848-measures-center-practice">
 <p>The most frequent lengths are 25 and 27, which occur three times. Mode = 25, 27</p>
 </solution>
 </exercise>
 
 <p>
-<em>Use the following information to answer the next three exercises:</em> Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars. Calculate the following.</p><exercise xml:id="exercisefour">
+<em>Use the following information to answer the next three exercises:</em> Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars. Calculate the following.</p><exercise xml:id="exercisefour-measures-center-practice">
 <statement>
 <p>sample mean = <math>
 <apply>
@@ -6761,16 +6761,16 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
 </p></statement>
 </exercise>
 
-<exercise xml:id="eip-83"><statement>
+<exercise xml:id="eip-83-measures-center-practice"><statement>
   <p>median = ________</p>
 </statement>
 
-<solution xml:id="eip-288">
+<solution xml:id="eip-288-measures-center-practice">
   <p>4</p>
 </solution>
 </exercise>
 
-<exercise xml:id="eip-630">
+<exercise xml:id="eip-630-measures-center-practice">
 <statement>
   <p>mode = ________</p>
 </statement>
@@ -6978,55 +6978,55 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
   <title>Practice</title>
 
 <p>For each of the examples given below, tell whether the differences in outcomes may be explained by measurement variability, natural variability, induced variability, or sampling variability.</p>
-<exercise xml:id="fs-id1170308667647">
+<exercise xml:id="fs-id1170308667647-measures-spread-practice">
 <statement>
 <p>Scientists randomly select five groups of 10 women from a population of 1,000 women to record their body fat percentage. The scientists compute the mean body fat percentage from each group. The differences in outcomes may be attributed to which type of variability?</p>
 </statement>
-<solution xml:id="fs-id1170308667660">
+<solution xml:id="fs-id1170308667660-measures-spread-practice">
 <p>sampling variability</p>
 </solution>
 </exercise>
-<exercise xml:id="fs-id1170308667668">
+<exercise xml:id="fs-id1170308667668-measures-spread-practice">
 <statement>
 <p>A pharmaceutical company randomly assigns participants to one of two groups: one is a control group receiving a placebo, and another is a treatment group receiving a new drug to lower blood pressure. The differences in outcomes may be attributed to which type of variability?</p></statement>
-<solution xml:id="fs-id1170308667681">
+<solution xml:id="fs-id1170308667681-measures-spread-practice">
 <p>induced variability</p>
 </solution>
 </exercise>
-<exercise xml:id="fs-id1170308667688">
+<exercise xml:id="fs-id1170308667688-measures-spread-practice">
 <statement>
 <p>Jaiqua and Harold are trying to determine how ramp steepness affects the speed of a ball rolling down the ramp. They measure the time it takes for the ball to roll down ramps of differing slopes. When Jaiqua rolls the ball and Harold works the stopwatch, they get different results than when Harold rolls the ball and Jaiqua works the stopwatch. The differences in outcomes may be attributed to which type of variability?</p></statement>
-<solution xml:id="fs-id1170308667699">
+<solution xml:id="fs-id1170308667699-measures-spread-practice">
 <p>measurement variability</p>
 </solution>
 </exercise>
-<exercise xml:id="fs-id1170308667706">
+<exercise xml:id="fs-id1170308667706-measures-spread-practice">
 <statement>
 <p>Twenty people begin the same workout program on the same day and continue for three months. During that time, all participants worked out for the same amount of time and did the same number of exercises and repetitions. Each person was weighed at both the beginning and the end of the program. The differences in outcomes regarding the amount of weight lost may be attributed to which type of variability?</p>
 </statement>
-<solution xml:id="fs-id1170308701361">
+<solution xml:id="fs-id1170308701361-measures-spread-practice">
 <p>natural variability</p>
 </solution>
 </exercise>
 <p><em>Use the following information to answer the next two exercises.</em> The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.
 
-29, 37, 38, 40, 58, 67, 68, 69, 76, 86, 87, 95, 96, 96, 99, 106, 112, 127, 145, 150</p><exercise xml:id="fs-idm25484256"><statement>
+29, 37, 38, 40, 58, 67, 68, 69, 76, 86, 87, 95, 96, 96, 99, 106, 112, 127, 145, 150</p><exercise xml:id="fs-idm25484256-measures-spread-practice"><statement>
 <p>Use a graphing calculator or computer to find the standard deviation and round to the nearest tenth.</p></statement>
-<solution xml:id="fs-idm109784640">
+<solution xml:id="fs-idm109784640-measures-spread-practice">
 <p><em>s</em> = 34.5</p>
 </solution>
 </exercise>
 
-<exercise xml:id="fs-idm62691728">
+<exercise xml:id="fs-idm62691728-measures-spread-practice">
 <statement>
 <p>Find the value that is one standard deviation below the mean.</p>
 </statement>
 </exercise>
 
-<exercise xml:id="fs-idm9402560-practice">
+<exercise xml:id="fs-idm9402560-practice-measures-spread-practice">
 <statement>
 <p>Two baseball players, Fredo and Karl, on different teams wanted to find out who had the higher batting average when compared to his team. Which baseball player had the higher batting average when compared to his team?</p>
-<table xml:id="fs-idm133764640-practice">
+<table xml:id="fs-idm133764640-practice-measures-spread-practice">
 <tabular>
 <row><cell>Baseball Player</cell>	<cell>Batting Average</cell>	<cell>Team Batting Average</cell>	<cell>Team Standard Deviation</cell></row>
 
@@ -7036,7 +7036,7 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
 </tabular>
 </table>
 </statement>
-<solution xml:id="fs-idm34270368">
+<solution xml:id="fs-idm34270368-measures-spread-practice">
 <p>For Fredo: <em>z</em> = <math>
  <mrow>
   <mfrac>
@@ -7068,14 +7068,14 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
 <p>Fredo’s <em>z</em> score of –.67 is higher than Karl’s <em>z</em> score of –.8. For batting average, higher values are better, so Fredo has a better batting average compared to his team.</p></solution>
 </exercise>
 
-<exercise xml:id="exercisefifteen">
+<exercise xml:id="exercisefifteen-measures-spread-practice">
 <statement>
 <p>Use <xref ref="fs-idm133764640"/> to find the value that is three standard deviations</p><ol><li>above the mean, and</li>
 <li>below the mean</li>
 </ol></statement>
 </exercise>
 
-<exercise xml:id="fs-idm109676912"><statement><p>Find the standard deviation for the following frequency tables using the formula. Check the calculations with the TI 83/84.</p>
+<exercise xml:id="fs-idm109676912-measures-spread-practice"><statement><p>Find the standard deviation for the following frequency tables using the formula. Check the calculations with the TI 83/84.</p>
 <ol><li><table>
 <tabular>
 <row><cell>Grade</cell><cell>Frequency</cell></row>
@@ -7113,7 +7113,7 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
 </tabular>
 </table></li>
 </ol></statement>
-<solution xml:id="fs-idm18306912">
+<solution xml:id="fs-idm18306912-measures-spread-practice">
 <ol><li><math>
 <mrow><msub><mi>s</mi><mi>x</mi></msub>
    <mo>=</mo><msqrt><mrow><mfrac><mrow><mstyle displaystyle="true"><mo>∑</mo> <mrow>
@@ -7154,14 +7154,14 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
       <li>first quartile = 528.5 FTES</li>
       <li>third quartile = 1,447.5 FTES</li>
       <li><em>n</em> = 29 years</li>
-    </ol><exercise xml:id="exercisetwenty">
+    </ol><exercise xml:id="exercisetwenty-measures-spread-practice">
       <statement>
         <p>A sample of 11 years is taken. About how many are expected to have an FTES of 1,014 or above? Explain how you determined your answer.</p></statement>
-      <solution xml:id="id8123906">
+      <solution xml:id="id8123906-measures-spread-practice">
         <p>The median value is the middle value in the ordered list of data values. The median value of a set of 11 will be the sixth number in order. Six years will have totals at or below the median.</p></solution>
     </exercise>
 
-    <exercise xml:id="exercisetwentyone">
+    <exercise xml:id="exercisetwentyone-measures-spread-practice">
       <statement>
         <p>Seventy-five percent of all years have an FTES
           <ol><li>at or below ______.</li>
@@ -7169,20 +7169,20 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
           </ol></p></statement>
     </exercise>
 
-    <exercise xml:id="exercisetwentytwo">
+    <exercise xml:id="exercisetwentytwo-measures-spread-practice">
       <statement>
         <p>The population standard deviation = ______.</p></statement>
-      <solution xml:id="id8181808">
+      <solution xml:id="id8181808-measures-spread-practice">
         <p>474 FTES</p>
       </solution>
     </exercise>
 
-    <exercise xml:id="exercisetwentythree">
+    <exercise xml:id="exercisetwentythree-measures-spread-practice">
       <statement>
         <p>What percentage of the FTES were from 528.5 to 1,447.5? How do you know?</p></statement>
     </exercise>
 
-    <exercise xml:id="exercisetwentyfour">
+    <exercise xml:id="exercisetwentyfour-measures-spread-practice">
       <statement>
         <p>What is the <em>IQR</em>? What does the <em>IQR</em> represent?</p></statement>
 </exercise>
