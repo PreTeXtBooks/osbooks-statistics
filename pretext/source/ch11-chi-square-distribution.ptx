@@ -399,7 +399,6 @@ So, <m>α</m> &gt; <m>p</m>-value.</p>
               </row>
             </tabular>
           </table>
-          <p>At the 1 percent significance level, does it appear that the distribution <em>number of pets</em> of students in the eastern United States is different from the distribution for the United States student population as a whole? What is the <m>p</m>-value?</p>
         </statement>
         <solution>
           <p><m>p</m>-value = 0.0036</p>
