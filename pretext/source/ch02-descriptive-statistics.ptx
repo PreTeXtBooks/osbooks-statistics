@@ -5964,7 +5964,7 @@ below the mean.
 <statement>
 <p>David County has six high schools. Each school sent students to participate in a county-wide science competition. <xref ref="M01_Ch02_tbl022-stem-leaf-practice"/> shows the percentage breakdown of competitors from each school and the percentage of the entire student population of the county that goes to each school. Construct a bar graph that shows the population percentage of competitors from each school.</p>
 
-<table>
+<table xml:id="M01_Ch02_tbl022-stem-leaf-practice">
 <tabular>
 
 <row><cell>High School</cell><cell>Science Competition Population</cell><cell>Overall Student Population</cell></row>
@@ -7070,8 +7070,10 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
 
 <exercise xml:id="exercisefifteen-measures-spread-practice">
 <statement>
-<p>Use <xref ref="fs-idm133764640-measures-spread-practice"/> to find the value that is three standard deviations</p><ol><li>above the mean, and</li>
-<li>below the mean</li>
+<p>Use <xref ref="fs-idm133764640-measures-spread-practice"/> to find the value that is three standard deviations</p>
+<ol>
+<li><p>above the mean, and</p></li>
+<li><p>below the mean</p></li>
 </ol></statement>
 </exercise>
 
