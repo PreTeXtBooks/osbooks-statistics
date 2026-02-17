@@ -331,8 +331,8 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       </note>
       <example xml:id="element-22">
         <statement>
-          <p>A random sample of 11 statistics students produced the data in <xref ref="element-50" text="custom">Table 12.1</xref>, where <m>x</m> is the third exam score out of 80 and <m>y</m> is the final exam score out of 200. Can you predict the final exam score of a random student if you know the third exam score?</p>
-          <table xml:id="element-50">
+          <p>A random sample of 11 statistics students produced the data in <xref ref="ch12-element-50" text="custom">Table 12.1</xref>, where <m>x</m> is the third exam score out of 80 and <m>y</m> is the final exam score out of 200. Can you predict the final exam score of a random student if you know the third exam score?</p>
+          <table xml:id="ch12-element-50">
             <title>Table 12.1: Third Exam vs Final Exam Scores</title>
             <tabular>
               <row header="yes">
@@ -395,7 +395,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       <note xml:id="fs-idp122176240">
       </note>
       <p>The third exam score, <m>x</m>, is the independent variable, and the final exam score, <m>y</m>, is the dependent variable. We will plot a regression line that best <em>fits</em> the data. If each of you were to fit a line <em>by eye</em>, you would draw different lines. We can obtain a line of best fit using either the median-median line approach or by calculating the least-squares regression line.</p>
-      <p>Let's first find the line of best fit for the relationship between the third exam score and the final exam score using the median-median line approach. Remember that this is the data from <xref ref="element-50" text="custom">Table 12.1</xref> after the ordered pairs have been listed by ordering <m>x</m> values. If multiple data points have the same <m>x</m> values, then they are listed in order from least to greatest <m>x</m> (see data values where <m>x</m> = 71). We first divide our scores into three groups of approximately equal numbers of <m>x</m> values per group. The first and third groups have the same number of <m>x</m> values. We must remember first to put the <m>x</m> values in ascending order. The corresponding <m>y</m> values are then recorded. However, to find the median, we first must rearrange the <m>y</m> values in each group from the least value to the greatest value. <xref ref="fs-id1170308472605" text="custom">Table 12.2</xref> shows the correct ordering of the <m>x</m> values but does not show a reordering of the <m>y</m> values.</p>
+      <p>Let's first find the line of best fit for the relationship between the third exam score and the final exam score using the median-median line approach. Remember that this is the data from <xref ref="ch12-element-50" text="custom">Table 12.1</xref> after the ordered pairs have been listed by ordering <m>x</m> values. If multiple data points have the same <m>x</m> values, then they are listed in order from least to greatest <m>x</m> (see data values where <m>x</m> = 71). We first divide our scores into three groups of approximately equal numbers of <m>x</m> values per group. The first and third groups have the same number of <m>x</m> values. We must remember first to put the <m>x</m> values in ascending order. The corresponding <m>y</m> values are then recorded. However, to find the median, we first must rearrange the <m>y</m> values in each group from the least value to the greatest value. <xref ref="fs-id1170308472605" text="custom">Table 12.2</xref> shows the correct ordering of the <m>x</m> values but does not show a reordering of the <m>y</m> values.</p>
       <table xml:id="fs-id1170308472605">
           <title>Data Table</title><tabular>
           <row><cell><m>x</m> (third exam score)</cell><cell><m>y</m> (final exam score)</cell></row>
@@ -1052,7 +1052,7 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
           <p>Hand-draw a smooth curve on the graph that shows the flow of the data.</p>
         </statement>
       </exercise>
-      <exercise xml:id="element-508">
+      <exercise xml:id="ch12-element-508">
         <title>Try It</title>
       <statement>
           <p>Does the line seem to fit the data? Why or why not?</p>
