@@ -20,6 +20,7 @@
         <li>Calculate and interpret outliers</li>
       </ul>
     </note>
+    <title>Introduction</title>
     <p>Professionals often want to know how two or more numeric variables are related. For example, is there a relationship between the grade on the second math exam a student takes and the grade on the final exam? If there is a relationship, what is the relationship, and how strong is it?</p>
     <p>In another example, your income may be determined by your education, your profession, your years of experience, and your ability. The amount you pay a repair person for labor is often determined by an initial amount plus an hourly fee.</p>
     <p>The type of data described in the examples is <term>bivariate</term> data—<m>bi</m>—for two variables. In reality, statisticians use <term>multivariate</term> data, meaning many variables.</p>
@@ -98,7 +99,7 @@
     </subsection>
 
     <subsection xml:id="fs-idm35899664">
-      <title>Slope and</title>
+      <title>Slope and Y-Intercept</title>
       <p>For the linear equation <m>y</m> = <m>a</m> + <m>bx</m>, <m>b</m> = slope and <m>a</m> = <m>y</m>-inttercept. From algebra, recall that the slope is a number that describes the steepness of a line; the <m>y</m>-intercept is the <m>y</m>-coordinate of the point (0, <m>a</m>), where the line crosses the <m>y</m>-axis.</p>
       <p>Please note that in previous courses you learned <m>y=mx+b</m> was the slope-intercept form of the equation, where <m>m</m> represented the slope and <m>b</m> represented the <m>y</m>-intercept. In this text, the form <m>y=a+bx</m> is used, where <m>a</m> is the <m>y</m>-intercept and <m>b</m> is the slope. The key is remembering the coefficient of <m>x</m> is the slope, and the constant number is the <m>y</m>-intercept.</p>
       <figure xml:id="linrgs_slope1">
@@ -1980,6 +1981,25 @@ weight of a car? Is this what you expected?</li>
       <exercise xml:id="fs-idm114941024">
         <statement>
           <p>Piece-rate systems are widely debated incentive payment plans. In a recent study of loan officer effectiveness, the following piece-rate system was examined:</p>
+          <table xml:id="table-piece-rate-incentive">
+            <title>Incentive Plan</title>
+            <tabular>
+              <row header="yes">
+                <cell>% of goal reached</cell>
+                <cell>&lt; 80</cell>
+                <cell>80</cell>
+                <cell>100</cell>
+                <cell>120</cell>
+              </row>
+              <row>
+                <cell>Incentive</cell>
+                <cell>n/a</cell>
+                <cell>$4,000, with an additional $125 added per percentage point from 81% to 99%</cell>
+                <cell>$6,500, with an additional $125 added per percentage point from 101% to 119%</cell>
+                <cell>$9,500, with an additional $125 added per percentage point starting at 121%</cell>
+              </row>
+            </tabular>
+          </table>
           <p>If a loan officer makes 95 percent of his or her goal, write the linear function that applies based on the incentive plan table. In context, explain the <m>y</m>-intercept and slope.</p>
         </statement>
       </exercise>
@@ -2036,14 +2056,59 @@ weight of a car? Is this what you expected?</li>
       </exercise>
       <exercise xml:id="ch12-element-213">
         <statement>
-          <p>shows the life expectancy for an individual born in the United States in certain years.</p>
+          <p>Table 12.32 shows the life expectancy for an individual born in the United States in certain years.</p>
+          <table xml:id="table-life-expectancy">
+            <title>Table 12.32: Life Expectancy by Year of Birth</title>
+            <tabular>
+              <row header="yes">
+                <cell>Year of Birth</cell>
+                <cell>Life Expectancy in years</cell>
+              </row>
+              <row>
+                <cell>1930</cell>
+                <cell>59.7</cell>
+              </row>
+              <row>
+                <cell>1940</cell>
+                <cell>62.9</cell>
+              </row>
+              <row>
+                <cell>1950</cell>
+                <cell>70.2</cell>
+              </row>
+              <row>
+                <cell>1965</cell>
+                <cell>69.7</cell>
+              </row>
+              <row>
+                <cell>1973</cell>
+                <cell>71.4</cell>
+              </row>
+              <row>
+                <cell>1982</cell>
+                <cell>74.5</cell>
+              </row>
+              <row>
+                <cell>1987</cell>
+                <cell>75</cell>
+              </row>
+              <row>
+                <cell>1992</cell>
+                <cell>75.7</cell>
+              </row>
+              <row>
+                <cell>2010</cell>
+                <cell>78.7</cell>
+              </row>
+            </tabular>
+          </table>
           <ol>
             <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
             <li>Draw a scatter plot of the ordered pairs.</li>
             <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
             <li>Find the correlation coefficient. Is it significant?</li>
             <li>Find the estimated life expectancy for an individual born in 1950 and for one born in 1982.</li>
-            <li>Why aren’t the answers to Part E the same as the values in  that correspond to those years?</li>
+            <li>Why aren’t the answers to Part E the same as the values in Table 12.32 that correspond to those years?</li>
             <li>Use the two points in Part E to plot the least-squares line on your graph from Part B.</li>
             <li>Based on the data, is there a linear relationship between the year of birth and life expectancy?</li>
             <li>Are there any outliers in the data?</li>
@@ -2054,7 +2119,52 @@ weight of a car? Is this what you expected?</li>
       </exercise>
       <exercise xml:id="element-682">
         <statement>
-          <p>The maximum discount value of the Entertainment^{®} card for the <em>Fine Dining</em> section, 10th edition, for various pages is given in .</p>
+          <p>The maximum discount value of the Entertainment^{®} card for the <em>Fine Dining</em> section, 10th edition, for various pages is given in Table 12.33.</p>
+          <table xml:id="table-entertainment-discount">
+            <title>Table 12.33: Entertainment Card Maximum Discounts</title>
+            <tabular>
+              <row header="yes">
+                <cell>Page Number</cell>
+                <cell>Maximum Value ($)</cell>
+              </row>
+              <row>
+                <cell>4</cell>
+                <cell>16</cell>
+              </row>
+              <row>
+                <cell>14</cell>
+                <cell>19</cell>
+              </row>
+              <row>
+                <cell>25</cell>
+                <cell>15</cell>
+              </row>
+              <row>
+                <cell>32</cell>
+                <cell>17</cell>
+              </row>
+              <row>
+                <cell>43</cell>
+                <cell>19</cell>
+              </row>
+              <row>
+                <cell>57</cell>
+                <cell>15</cell>
+              </row>
+              <row>
+                <cell>72</cell>
+                <cell>16</cell>
+              </row>
+              <row>
+                <cell>85</cell>
+                <cell>15</cell>
+              </row>
+              <row>
+                <cell>90</cell>
+                <cell>17</cell>
+              </row>
+            </tabular>
+          </table>
           <ol>
             <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
             <li>Draw a scatter plot of the ordered pairs.</li>
@@ -2078,7 +2188,60 @@ weight of a car? Is this what you expected?</li>
       </exercise>
       <exercise xml:id="element-263a">
         <statement>
-          <p>gives the gold medal times for every other Summer Olympics for the women’s 100-meter freestyle in swimming.</p>
+          <p>Table 12.34 gives the gold medal times for every other Summer Olympics for the women’s 100-meter freestyle in swimming.</p>
+          <table xml:id="table-swimming-times">
+            <title>Table 12.34: Women's 100-Meter Freestyle Olympic Times</title>
+            <tabular>
+              <row header="yes">
+                <cell>Year</cell>
+                <cell>Time in seconds</cell>
+              </row>
+              <row>
+                <cell>1912</cell>
+                <cell>82.2</cell>
+              </row>
+              <row>
+                <cell>1924</cell>
+                <cell>72.4</cell>
+              </row>
+              <row>
+                <cell>1932</cell>
+                <cell>66.8</cell>
+              </row>
+              <row>
+                <cell>1952</cell>
+                <cell>66.8</cell>
+              </row>
+              <row>
+                <cell>1960</cell>
+                <cell>61.2</cell>
+              </row>
+              <row>
+                <cell>1968</cell>
+                <cell>60.0</cell>
+              </row>
+              <row>
+                <cell>1976</cell>
+                <cell>55.65</cell>
+              </row>
+              <row>
+                <cell>1984</cell>
+                <cell>55.92</cell>
+              </row>
+              <row>
+                <cell>1992</cell>
+                <cell>54.64</cell>
+              </row>
+              <row>
+                <cell>2000</cell>
+                <cell>53.8</cell>
+              </row>
+              <row>
+                <cell>2008</cell>
+                <cell>53.1</cell>
+              </row>
+            </tabular>
+          </table>
           <ol>
             <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
             <li>Draw a scatter plot of the data.</li>
