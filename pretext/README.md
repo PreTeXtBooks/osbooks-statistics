@@ -2,6 +2,14 @@
 
 This directory contains the PreTeXt version of the OpenStax Statistics textbook.
 
+## Disclaimer
+
+**Important:** This PreTeXt version is currently **incomplete and under active development**. This is an unofficial conversion of the [OpenStax Statistics textbook](https://openstax.org/details/books/statistics) to PreTeXt format. While we have made every effort to accurately convert the content and maintain fidelity with the original OpenStax version, some content may be missing, incorrectly formatted, or differ from the original.
+
+**Please refer to the [official OpenStax Statistics textbook](https://openstax.org/details/books/statistics) as the authoritative source.**
+
+Full credit goes to OpenStax, Barbara Illowsky, Susan Dean, and all contributors to the original Statistics textbook for creating this valuable educational resource. This PreTeXt conversion is provided as an alternative format option and maintains the same Creative Commons Attribution 4.0 International License as the original work.
+
 ## Directory Structure
 
 ```
