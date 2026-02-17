@@ -93,70 +93,129 @@ The test of a single variance, which tests variability, such as in the coffee ex
         <p>a. Can you use the information as it appears in the charts to conduct the goodness-of-fit test?</p>
       </statement>
       <solution>
-        <p>a. No. Notice that the expected number of absences for the 12+ entry is less than five; it is two. Combine that group with the 9–11 group to create new tables where the number of students for each entry is at least five. The new results are in  and .
-<nbsp />
-
-
-
-
-  
-    Number of Absences per Term
-    Expected Number of Students
-  
-
-
-  
-    0–2
-    50
-  
-  
-    3–5
-    30
-  
-  
-    6–8
-    12
-  
-  
-    9+
-    8
-  
-
-
-
-
-
-
-
-  
-    Number of Absences per Term
-    Actual Number of Students
-  
-
-
-  
-    0–2
-    35
-  
-  
-    3–5
-    40
-  
-  
-    6–8
-    20
-  
-  
-    9+
-    5</p>
+        <p>a. No. Notice that the expected number of absences for the 12+ entry is less than five; it is two. Combine that group with the 9–11 group to create new tables where the number of students for each entry is at least five. The new results are in <xref ref="element-719-table-expected" /> and <xref ref="element-719-table-actual" />.</p>
+        
+        <table xml:id="element-719-table-expected">
+          <title>Combined Expected Number of Absences</title>
+          <tabular>
+            <row header="yes">
+              <cell>Number of Absences per Term</cell>
+              <cell>Expected Number of Students</cell>
+            </row>
+            <row>
+              <cell>0–2</cell>
+              <cell>50</cell>
+            </row>
+            <row>
+              <cell>3–5</cell>
+              <cell>30</cell>
+            </row>
+            <row>
+              <cell>6–8</cell>
+              <cell>12</cell>
+            </row>
+            <row>
+              <cell>9+</cell>
+              <cell>8</cell>
+            </row>
+          </tabular>
+        </table>
+        
+        <table xml:id="element-719-table-actual">
+          <title>Combined Actual Number of Absences</title>
+          <tabular>
+            <row header="yes">
+              <cell>Number of Absences per Term</cell>
+              <cell>Actual Number of Students</cell>
+            </row>
+            <row>
+              <cell>0–2</cell>
+              <cell>35</cell>
+            </row>
+            <row>
+              <cell>3–5</cell>
+              <cell>40</cell>
+            </row>
+            <row>
+              <cell>6–8</cell>
+              <cell>20</cell>
+            </row>
+            <row>
+              <cell>9+</cell>
+              <cell>5</cell>
+            </row>
+          </tabular>
+        </table>
       </solution>
+
     </example>
     <exercise xml:id="eip-31">
       <title>Try It</title>
       <statement>
-          <p>A factory manager needs to understand how many products are defective versus how many are produced. The number of expected defects is listed in .</p>
-          <p>A random sample was taken to determine the actual number of defects.  shows the results of the survey.</p>
+          <p>A factory manager needs to understand how many products are defective versus how many are produced. The number of expected defects is listed in <xref ref="eip-31-table-expected" />.</p>
+          <p>A random sample was taken to determine the actual number of defects. <xref ref="eip-31-table-actual" /> shows the results of the survey.</p>
           <p>State the null and alternative hypotheses needed to conduct a goodness-of-fit test, and state the degrees of freedom.</p>
+          
+          <table xml:id="eip-31-table-expected">
+            <title>Expected Number of Defective Products</title>
+            <tabular>
+              <row header="yes">
+                <cell>Number Produced</cell>
+                <cell>Number Defective</cell>
+              </row>
+              <row>
+                <cell>0–100</cell>
+                <cell>5</cell>
+              </row>
+              <row>
+                <cell>101–200</cell>
+                <cell>6</cell>
+              </row>
+              <row>
+                <cell>201–300</cell>
+                <cell>7</cell>
+              </row>
+              <row>
+                <cell>301–400</cell>
+                <cell>8</cell>
+              </row>
+              <row>
+                <cell>401–500</cell>
+                <cell>10</cell>
+              </row>
+            </tabular>
+          </table>
+          
+          <table xml:id="eip-31-table-actual">
+            <title>Actual Number of Defective Products from Sample</title>
+            <tabular>
+              <row header="yes">
+                <cell>Number Produced</cell>
+                <cell>Number Defective</cell>
+              </row>
+              <row>
+                <cell>0–100</cell>
+                <cell>5</cell>
+              </row>
+              <row>
+                <cell>101–200</cell>
+                <cell>7</cell>
+              </row>
+              <row>
+                <cell>201–300</cell>
+                <cell>8</cell>
+              </row>
+              <row>
+                <cell>301–400</cell>
+                <cell>9</cell>
+              </row>
+              <row>
+                <cell>401–500</cell>
+                <cell>11</cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
         </statement>
         <solution>
           <p><em>H_{0}</em>:The number of defaults fits expectations.</p>
@@ -203,8 +262,35 @@ The test of a single variance, which tests variability, such as in the coffee ex
     <exercise xml:id="eip-723">
       <title>Try It</title>
       <statement>
-          <p>Teachers want to know which night each week their students are doing most of their homework. Most teachers think that students do homework equally throughout the week. Suppose a random sample of 56 students were asked on which night of the week they did the most homework. The results were distributed as in .</p>
+          <p>Teachers want to know which night each week their students are doing most of their homework. Most teachers think that students do homework equally throughout the week. Suppose a random sample of 56 students were asked on which night of the week they did the most homework. The results were distributed as in <xref ref="eip-723-table-homework" />.</p>
           <p>From the population of students, do the nights for the highest number of students doing the majority of their homework occur with equal frequencies during a week? What type of hypothesis test should you use?</p>
+          
+          <table xml:id="eip-723-table-homework">
+            <title>Night Students Do Most Homework</title>
+            <tabular>
+              <row header="yes">
+                <cell>Night</cell>
+                <cell>Sunday</cell>
+                <cell>Monday</cell>
+                <cell>Tuesday</cell>
+                <cell>Wednesday</cell>
+                <cell>Thursday</cell>
+                <cell>Friday</cell>
+                <cell>Saturday</cell>
+              </row>
+              <row>
+                <cell>Number of Students</cell>
+                <cell>11</cell>
+                <cell>8</cell>
+                <cell>10</cell>
+                <cell>7</cell>
+                <cell>10</cell>
+                <cell>5</cell>
+                <cell>5</cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
         </statement>
         <solution>
           <p><m>df</m> = 6</p>
@@ -252,8 +338,70 @@ So, <m>α</m> &gt; <m>p</m>-value.</p>
     <exercise xml:id="eip-521">
       <title>Try It</title>
       <statement>
-          <p>The expected percentage of the number of pets students have in their homes is distributed (this is the given distribution for the student population of the United States) as in .</p>
-          <p>A random sample of 1,000 students from the eastern United States resulted in the data in .</p>
+          <p>The expected percentage of the number of pets students have in their homes is distributed (this is the given distribution for the student population of the United States) as in <xref ref="eip-521-table-expected" />.</p>
+          <p>A random sample of 1,000 students from the eastern United States resulted in the data in <xref ref="eip-521-table-actual" />.</p>
+          <p>At the 1 percent significance level, does it appear that the distribution <em>number of pets</em> of students in the eastern United States is different from the distribution for the United States student population as a whole? What is the <m>p</m>-value?</p>
+          
+          <table xml:id="eip-521-table-expected">
+            <title>Expected Distribution of Pets (U.S. Student Population)</title>
+            <tabular>
+              <row header="yes">
+                <cell>Number of Pets</cell>
+                <cell>Percent</cell>
+              </row>
+              <row>
+                <cell>0</cell>
+                <cell>18</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>25</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>30</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>18</cell>
+              </row>
+              <row>
+                <cell>4+</cell>
+                <cell>9</cell>
+              </row>
+            </tabular>
+          </table>
+          
+          <table xml:id="eip-521-table-actual">
+            <title>Actual Sample Data (Eastern U.S., 1,000 Students)</title>
+            <tabular>
+              <row header="yes">
+                <cell>Number of Pets</cell>
+                <cell>Frequency</cell>
+              </row>
+              <row>
+                <cell>0</cell>
+                <cell>210</cell>
+              </row>
+              <row>
+                <cell>1</cell>
+                <cell>240</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>320</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>140</cell>
+              </row>
+              <row>
+                <cell>4+</cell>
+                <cell>90</cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
           <p>At the 1 percent significance level, does it appear that the distribution <em>number of pets</em> of students in the eastern United States is different from the distribution for the United States student population as a whole? What is the <m>p</m>-value?</p>
         </statement>
         <solution>
@@ -304,7 +452,58 @@ sure you clear any lists before you start.</p>
     <exercise xml:id="eip-860">
       <title>Try It</title>
       <statement>
-          <p>Students in a social studies class hypothesize that the literacy rates around the world for every region are 82 percent.  shows the actual literacy rates around the world broken down by region. What are the test statistic and the degrees of freedom?</p>
+          <p>Students in a social studies class hypothesize that the literacy rates around the world for every region are 82 percent. <xref ref="eip-860-table-literacy" /> shows the actual literacy rates around the world broken down by region. What are the test statistic and the degrees of freedom?</p>
+          
+          <table xml:id="eip-860-table-literacy">
+            <title>World Literacy Rates by MDG Region</title>
+            <tabular>
+              <row header="yes">
+                <cell>MDG Region</cell>
+                <cell>Adult Literacy Rate (%)</cell>
+              </row>
+              <row>
+                <cell>Developed regions</cell>
+                <cell>99</cell>
+              </row>
+              <row>
+                <cell>Commonwealth of Independent States</cell>
+                <cell>99.5</cell>
+              </row>
+              <row>
+                <cell>Northern Africa</cell>
+                <cell>67.3</cell>
+              </row>
+              <row>
+                <cell>Sub-Saharan Africa</cell>
+                <cell>62.5</cell>
+              </row>
+              <row>
+                <cell>Latin America and the Caribbean</cell>
+                <cell>91</cell>
+              </row>
+              <row>
+                <cell>Eastern Asia</cell>
+                <cell>93.8</cell>
+              </row>
+              <row>
+                <cell>Southern Asia</cell>
+                <cell>61.9</cell>
+              </row>
+              <row>
+                <cell>Southeastern Asia</cell>
+                <cell>91.9</cell>
+              </row>
+              <row>
+                <cell>Western Asia</cell>
+                <cell>84.5</cell>
+              </row>
+              <row>
+                <cell>Oceania</cell>
+                <cell>66.4</cell>
+              </row>
+            </tabular>
+          </table>
+        </statement>
         </statement>
         <solution>
           <p>degrees of freedom = 9</p>
