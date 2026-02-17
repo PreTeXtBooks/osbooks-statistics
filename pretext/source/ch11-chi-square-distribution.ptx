@@ -862,7 +862,7 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
         <li>60th percentile = _________</li>
         <li>80th percentile = _________</li>
         <li>highest value = _________</li>
-      </ol></li>
+         </ol></li>
       <li>For each fifth, count the observed number of receipts and record it. Then determine the expected number of receipts and record that.
      
       TODO: MISSING TABLE
@@ -884,7 +884,7 @@ line, the customer waiting times vary less than 7.2 minutes.</p>
         <li>State your conclusion in a complete sentence.</li>
 
 <p><alert>Exponential Distribution</alert></p>
-Test to see if grocery receipts follow the exponential distribution with decay parameter <m>\frac{1}{x}</m>.</p>
+<p>Test to see if grocery receipts follow the exponential distribution with decay parameter <m>\frac{1}{x}</m>.</p>
 
 <li>Using <m>\frac{1}{x¯}</m> as the decay parameter, <m>X</m> ~ <em>Exp</em>(_________).</li>
         <li>Calculate the following:
