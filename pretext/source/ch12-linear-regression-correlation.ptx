@@ -331,7 +331,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       </note>
       <example xml:id="element-22">
         <statement>
-          <p>A random sample of 11 statistics students produced the data in , where <m>x</m> is the third exam score out of 80 and <m>y</m> is the final exam score out of 200. Can you predict the final exam score of a random student if you know the third exam score?</p>
+          <p>A random sample of 11 statistics students produced the data in <xref ref="element-22" text="custom">Example 12.1</xref>, where <m>x</m> is the third exam score out of 80 and <m>y</m> is the final exam score out of 200. Can you predict the final exam score of a random student if you know the third exam score?</p>
           <figure xml:id="linrgs_regeq1">
             <caption>Using the <m>x</m>- and <m>y</m>-coordinates in the table, we plot the points on a graph to create the scatter plot showing the scores on the final exam based on scores from the third exam.</caption>
             <image source="media/fig-ch12_05_01.jpg" width="76%" />
@@ -341,7 +341,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       <note xml:id="fs-idp122176240">
       </note>
       <p>The third exam score, <m>x</m>, is the independent variable, and the final exam score, <m>y</m>, is the dependent variable. We will plot a regression line that best <em>fits</em> the data. If each of you were to fit a line <em>by eye</em>, you would draw different lines. We can obtain a line of best fit using either the median-median line approach or by calculating the least-squares regression line.</p>
-      <p>Let's first find the line of best fit for the relationship between the third exam score and the final exam score using the median-median line approach. Remember that this is the data from  after the ordered pairs have been listed by ordering <m>x</m> values. If multiple data points have the same <m>x</m> values, then they are listed in order from least to greatest <m>x</m> (see data values where <m>x</m> = 71). We first divide our scores into three groups of approximately equal numbers of <m>x</m> values per group. The first and third groups have the same number of <m>x</m> values. We must remember first to put the <m>x</m> values in ascending order. The corresponding <m>y</m> values are then recorded. However, to find the median, we first must rearrange the <m>y</m> values in each group from the least value to the greatest value.  shows the correct ordering of the <m>x</m> values but does not show a reordering of the <m>y</m> values.</p>
+      <p>Let's first find the line of best fit for the relationship between the third exam score and the final exam score using the median-median line approach. Remember that this is the data from <xref ref="element-22" text="custom">Example 12.1</xref> after the ordered pairs have been listed by ordering <m>x</m> values. If multiple data points have the same <m>x</m> values, then they are listed in order from least to greatest <m>x</m> (see data values where <m>x</m> = 71). We first divide our scores into three groups of approximately equal numbers of <m>x</m> values per group. The first and third groups have the same number of <m>x</m> values. We must remember first to put the <m>x</m> values in ascending order. The corresponding <m>y</m> values are then recorded. However, to find the median, we first must rearrange the <m>y</m> values in each group from the least value to the greatest value. <xref ref="fs-id1170308472605" text="custom">Table 12.2</xref> shows the correct ordering of the <m>x</m> values but does not show a reordering of the <m>y</m> values.</p>
       <table xml:id="fs-id1170308472605">
           <title>Data Table</title><tabular>
           <row><cell><m>x</m> (third exam score)</cell><cell><m>y</m> (final exam score)</cell></row>
@@ -358,7 +358,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
           <row><cell>75</cell><cell>198</cell></row>
         </tabular>
       </table>
-      <p>With this set of data, the first and last groups each have four <m>x</m> values and four corresponding <m>y</m> values. The second group has three <m>x</m> values and three corresponding <m>y</m> values. We need to organize the <m>x</m> and <m>y</m> values per group and find the median <m>x</m> and <m>y</m> values for each group. Let’s now write out our <m>y</m> values for each group in ascending order. For group 1, the <m>y</m> values in order are 126, 133, 153, and 175. For group 2, the <m>y</m> values are already in order. For group 3, the <m>y</m> values are also already in order. We can represent these data as shown in , but notice that we have <em>broken</em> the ordered pairs; (65, 126) is not a data point in our original set:</p>
+      <p>With this set of data, the first and last groups each have four <m>x</m> values and four corresponding <m>y</m> values. The second group has three <m>x</m> values and three corresponding <m>y</m> values. We need to organize the <m>x</m> and <m>y</m> values per group and find the median <m>x</m> and <m>y</m> values for each group. Let’s now write out our <m>y</m> values for each group in ascending order. For group 1, the <m>y</m> values in order are 126, 133, 153, and 175. For group 2, the <m>y</m> values are already in order. For group 3, the <m>y</m> values are also already in order. We can represent these data as shown in <xref ref="fs-id1170308944039" text="custom">Table 12.3</xref>, but notice that we have <em>broken</em> the ordered pairs; (65, 126) is not a data point in our original set:</p>
       <table xml:id="fs-id1170308944039">
           <title>Data Table</title><tabular>
           <row><cell>Group</cell><cell><m>x</m> (third exam score)</cell><cell><m>y</m> (final exam score)</cell><cell>Median <m>x</m> value</cell><cell>Median <m>y</m> value</cell></row>
@@ -422,7 +422,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
       <title>Understanding and Interpreting the</title>
       <p>The <m>y</m>-intercept, <m>a</m>, of the line describes where the plot line crosses the <m>y</m>-axis. The <m>y</m>-intercept of the best-fit line tells us the best value of the relationship when <m>x</m> is zero. In some cases, it does not make sense to figure out what <m>y</m> is when <m>x</m> = 0. For example, in the third exam vs. final exam example, the <m>y</m>-intercept occurs when the third exam score, or <m>x</m>, is zero. Since all the scores are grouped around a passing grade, there is no need to figure out what the final exam score, or <m>y</m>, would be when the third exam was zero.</p>
       <p>However, the <m>y</m>-intercept is very useful in many cases. For many examples in science, the <m>y</m>-intercept gives the baseline reading when the experimental conditions aren't applied to an experimental system. This baseline indicates how much the experimental condition affects the system. It could also be used to ensure that equipment and measurements are calibrated properly before starting the experiment.</p>
-      <p>In biology, the concentration of proteins in a sample can be measured using a chemical assay that changes color depending on how much protein is present. The more protein present, the darker the color. The amount of color can be measured by the absorbance reading.  shows the expected absorbance readings at different protein concentrations. This is called a <em>standard curve</em> for the assay.</p>
+      <p>In biology, the concentration of proteins in a sample can be measured using a chemical assay that changes color depending on how much protein is present. The more protein present, the darker the color. The amount of color can be measured by the absorbance reading. <xref ref="fs-id1170308505621" text="custom">Table 12.4</xref> shows the expected absorbance readings at different protein concentrations. This is called a <em>standard curve</em> for the assay.</p>
       <table xml:id="fs-id1170308505621">
           <title>Data Table</title><tabular>
           <row><cell>Concentration (mM)</cell><cell>Absorbance (mAU)</cell></row>
@@ -435,7 +435,7 @@ predictions. Typically, you have a set of data with a scatter plot that appear t
           <row><cell>2,000</cell><cell>0.146</cell></row>
         </tabular>
       </table>
-      <p>The scatter plot  includes the line of best fit.</p>
+      <p><xref ref="figure_12_03_01" text="custom">Figure 12.1</xref> includes the line of best fit.</p>
       <figure xml:id="figure_12_03_01">
         <image source="media/fig_12_03_01.jpg" width="76%" />
       </figure>
@@ -651,7 +651,7 @@ What the conclusion means: There is not a significant linear relationship betwee
       <note xml:id="eip-939">
         <title>Note</title>
         <ul>
-          <li>If <m>r</m> is significant and the scatter plot shows a  linear trend, the line can be used to predict the value of
+          <li>If <m>r</m> is significant and the scatter plot shows a linear trend, the line can be used to predict the value of
 <m>y</m> for values of <m>x</m> that are within the domain of observed <m>x</m> values.</li>
           <li>If <m>r</m> is not significant <m>or</m> if the scatter plot does not show a linear trend, the line should not be used for prediction.</li>
           <li>If <m>r</m> is significant and the scatter plot shows a linear trend, the line may <em>not</em> be appropriate or reliable for prediction <em>outside</em> the domain of observed <m>x</m> values in the data.</li>
@@ -1112,7 +1112,7 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
 
     <subsection xml:id="eip-212">
       <title>Numerical Identification of Outliers</title>
-      <p>In , the first two columns include the third exam and final exam data. The third column shows the predicted <m>ŷ</m> values calculated from the line of best fit: <m>ŷ</m> = –173.5 + 4.83<m>x</m>. The residuals, or errors, that were mentioned in Section 3 of this chapter have been calculated in the fourth column of the table: Observed <m>y</m> value  predicted <m>y</m> value = <m>y</m>  <m>ŷ</m>.</p>
+      <p>In <xref ref="element-4662" text="custom">Table 12.6</xref>, the first two columns include the third exam and final exam data. The third column shows the predicted <m>ŷ</m> values calculated from the line of best fit: <m>ŷ</m> = –173.5 + 4.83<m>x</m>. The residuals, or errors, that were mentioned in Section 3 of this chapter have been calculated in the fourth column of the table: Observed <m>y</m> value  predicted <m>y</m> value = <m>y</m>  <m>ŷ</m>.</p>
       <p><m>s</m> is the standard deviation of all the <m>y</m>  <m>ŷ</m> = <m>ε</m> values, where <m>n</m> is the total number of data points. If each residual is calculated and squared, and the results are added, we get the SSE. The standard deviation of the residuals is calculated from the SSE as</p>
       <me>s=\sqrt{\frac{SSE}{n-2}}\text{.}</me>
       <note xml:id="fs-idm68726848">
@@ -1859,7 +1859,7 @@ Cost per ounce
           <li>The student will evaluate the relationship between two variables to determine whether that relationship is significant.</li>
         </ul>
         <paragraphs><title>Collect the Data</title><p>Use eight members of your class for the sample. Collect bivariate data (distance an individual lives
-from school, the cost of supplies for the current term).</p></p></paragraphs>
+from school, the cost of supplies for the current term).</p></paragraphs>
         <ol>
           <li>Complete the table.
           <table xml:id="table-distance-cost-data">
@@ -1903,6 +1903,7 @@ from school, the cost of supplies for the current term).</p></p></paragraphs>
               </row>
             </tabular>
           </table>
+          </li>
           <li>Which variable should be the dependent variable and which should be the independent
 variable? Why?</li>
           <li>Graph <em>distance</em> vs. <em>cost</em>. Plot the points on the graph. Label both axes with
