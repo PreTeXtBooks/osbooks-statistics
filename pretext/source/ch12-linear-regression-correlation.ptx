@@ -1410,20 +1410,87 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
       <exercise xml:id="element-793">
         <title>Try It</title>
       <statement>
-          <p>The average number of people in a family who attended college for various years is given in .</p>
+          <p>The average number of people in a family who attended college for various years is given in Table 12.20.</p>
+          <table xml:id="table-family-college">
+            <title>Table 12.20: Family Members Attending College</title>
+            <tabular>
+              <row header="yes">
+                <cell>Year</cell>
+                <cell>No. of Family Members Attending College</cell>
+              </row>
+              <row>
+                <cell>1969</cell>
+                <cell>4.0</cell>
+              </row>
+              <row>
+                <cell>1973</cell>
+                <cell>3.6</cell>
+              </row>
+              <row>
+                <cell>1975</cell>
+                <cell>3.2</cell>
+              </row>
+              <row>
+                <cell>1979</cell>
+                <cell>3.0</cell>
+              </row>
+              <row>
+                <cell>1983</cell>
+                <cell>3.0</cell>
+              </row>
+              <row>
+                <cell>1988</cell>
+                <cell>3.0</cell>
+              </row>
+              <row>
+                <cell>1991</cell>
+                <cell>2.9</cell>
+              </row>
+            </tabular>
+          </table>
           <ol>
             <li>Using <em>year</em> as the independent variable and <em>number of family members attending college</em> as the dependent variable, draw a scatter plot of the data.</li>
             <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
             <li>Does the <m>y</m>-intercept, <m>a</m>, have any meaning here?</li>
             <li>Find the correlation coefficient. Is it significant?</li>
             <li>Pick two years between 1969 and 1991 and find the estimated number of family members attending college.</li>
-            <li>Based on the data in , is there a linear relationship between the year and the average number of family members attending college?</li>
+            <li>Based on the data in Table 12.20, is there a linear relationship between the year and the average number of family members attending college?</li>
             <li>Using the least-squares line, estimate the number of family members attending college for 1960 and 1995. Does the least-squares line give an accurate estimate for those years? Explain why or why not.</li>
             <li>Are there any outliers in the data?</li>
             <li>What is the estimated average number of family members attending college for 1986? Does the least-squares line give an accurate estimate for that year? Explain why or why not.</li>
             <li>What is the slope of the least-squares (best-fit) line?  Interpret the slope.</li>
           </ol>
         </statement>
+          <table xml:id="table-detergent-cost">
+            <title>Table 12.21: Laundry Detergent Cost</title>
+            <tabular>
+              <row header="yes">
+                <cell>Size (ounces)</cell>
+                <cell>Cost ($)</cell>
+                <cell>Cost per Ounce</cell>
+              </row>
+              <row>
+                <cell>16</cell>
+                <cell>3.99</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>32</cell>
+                <cell>4.99</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>64</cell>
+                <cell>5.99</cell>
+                <cell></cell>
+              </row>
+              <row>
+                <cell>200</cell>
+                <cell>10.99</cell>
+                <cell></cell>
+              </row>
+            </tabular>
+          </table>
         <solution>
           <p>c. No. The <m>y</m>-intercept would occur at year 0, which doesn’t exist.</p>
         </solution>
@@ -1460,7 +1527,7 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
           </ol>
         </solution>
       </exercise>
-      <p><nbsp /><em>Use the following information to answer the next two exercises.</em> The cost of a leading liquid laundry detergent in different sizes is given in .</p>
+      <p><nbsp /><em>Use the following information to answer the next two exercises.</em> The cost of a leading liquid laundry detergent in different sizes is given in Table 12.21.</p>
       <table xml:id="id10105430">
           <title>Data Table</title><tabular>
           <row><cell>Size (ounces)</cell><cell>Cost ($)</cell><cell>Cost per Ounce</cell></row>
@@ -1595,7 +1662,44 @@ Cost per ounce
       <exercise xml:id="element-188">
         <title>Try It</title>
       <statement>
-          <p>shows the average heights for American boys in 1990.</p>
+          <p>Table 12.22 shows the average heights for American boys in 1990.</p>
+          <table xml:id="table-boys-heights">
+            <title>Table 12.22: Average Heights for American Boys in 1990</title>
+            <tabular>
+              <row header="yes">
+                <cell>Age (years)</cell>
+                <cell>Height (centimeters)</cell>
+              </row>
+              <row>
+                <cell>Birth</cell>
+                <cell>50.8</cell>
+              </row>
+              <row>
+                <cell>2</cell>
+                <cell>83.8</cell>
+              </row>
+              <row>
+                <cell>3</cell>
+                <cell>91.4</cell>
+              </row>
+              <row>
+                <cell>5</cell>
+                <cell>106.6</cell>
+              </row>
+              <row>
+                <cell>7</cell>
+                <cell>119.3</cell>
+              </row>
+              <row>
+                <cell>10</cell>
+                <cell>137.1</cell>
+              </row>
+              <row>
+                <cell>14</cell>
+                <cell>157.5</cell>
+              </row>
+            </tabular>
+          </table>
           <ol>
             <li>Decide which variable should be the independent variable and which should be the dependent variable.</li>
             <li>Draw a scatter plot of the data.</li>
@@ -1614,6 +1718,95 @@ Cost per ounce
         <title>Try It</title>
       <statement>
           <p>We are interested in whether there is a relationship between the ranking of a state and the area of the state.</p>
+          <table xml:id="table-state-rank-area">
+            <title>Table 12.23: State Ranking and Area</title>
+            <tabular>
+              <row header="yes">
+                <cell>State</cell>
+                <cell>No. of Letters in Name</cell>
+                <cell>Year Entered the Union</cell>
+                <cell>Rank for Entering the Union</cell>
+                <cell>Area (square miles)</cell>
+              </row>
+              <row>
+                <cell>Alabama</cell>
+                <cell>7</cell>
+                <cell>1819</cell>
+                <cell>22</cell>
+                <cell>52,423</cell>
+              </row>
+              <row>
+                <cell>Colorado</cell>
+                <cell>8</cell>
+                <cell>1876</cell>
+                <cell>38</cell>
+                <cell>104,100</cell>
+              </row>
+              <row>
+                <cell>Hawaii</cell>
+                <cell>6</cell>
+                <cell>1959</cell>
+                <cell>50</cell>
+                <cell>10,932</cell>
+              </row>
+              <row>
+                <cell>Iowa</cell>
+                <cell>4</cell>
+                <cell>1846</cell>
+                <cell>29</cell>
+                <cell>56,276</cell>
+              </row>
+              <row>
+                <cell>Maryland</cell>
+                <cell>8</cell>
+                <cell>1788</cell>
+                <cell>7</cell>
+                <cell>12,407</cell>
+              </row>
+              <row>
+                <cell>Missouri</cell>
+                <cell>8</cell>
+                <cell>1821</cell>
+                <cell>24</cell>
+                <cell>69,709</cell>
+              </row>
+              <row>
+                <cell>New Jersey</cell>
+                <cell>9</cell>
+                <cell>1787</cell>
+                <cell>3</cell>
+                <cell>8,722</cell>
+              </row>
+              <row>
+                <cell>Ohio</cell>
+                <cell>4</cell>
+                <cell>1803</cell>
+                <cell>17</cell>
+                <cell>44,828</cell>
+              </row>
+              <row>
+                <cell>South Carolina</cell>
+                <cell>13</cell>
+                <cell>1788</cell>
+                <cell>8</cell>
+                <cell>32,008</cell>
+              </row>
+              <row>
+                <cell>Utah</cell>
+                <cell>4</cell>
+                <cell>1896</cell>
+                <cell>45</cell>
+                <cell>84,904</cell>
+              </row>
+              <row>
+                <cell>Wisconsin</cell>
+                <cell>9</cell>
+                <cell>1848</cell>
+                <cell>30</cell>
+                <cell>65,499</cell>
+              </row>
+            </tabular>
+          </table>
           <ol>
             <li>What are the independent and dependent variables?</li>
             <li>What do you think the scatter plot will look like? Make a scatter plot of the data.</li>
@@ -1643,83 +1836,7 @@ Cost per ounce
             <li>If the outlier is removed, there is a linear relationship.</li>
             <li>There is one outlier (Hawaii).</li>
             <li>rank 51: 75,711.4 square miles, no.</li>
-            <li>Alabama
-7
-1819
-22
-52,423
-
-
-
-
-Colorado
-8
-1876
-38
-104,100
-
-
-Hawaii
-6
-1959
-50
-10,932
-
-
-Iowa
-4
-1846
-29
-56,276
-
-
-Maryland
-8
-1788
-7
-12,407
-
-
-Missouri
-8
-1821
-24
-69,709
-
-
-New Jersey
-9
-1787
-3
-8,722
-
-
-Ohio
-4
-1803
-17
-44,828
-
-
-South Carolina
-13
-1788
-8
-32,008
-
-
-Utah
-4
-1896
-45
-84,904
-
-
-Wisconsin
-9
-1848
-30
-65,499</li>
+            <li>Check student solution.</li>
             <li><m>ŷ</m> = –87065.3 + 7828.532<m>x</m>.</li>
             <li>Alabama: 85,162.404; the prior estimate was closer. Alaska is an outlier.</li>
             <li>Yes, with the exception of Hawaii.</li>
@@ -2298,7 +2415,7 @@ weight of a car? Is this what you expected?</li>
             <li>Calculate the least-squares line. Put the equation in the form <m>ŷ</m> = <m>a</m> + <m>bx</m>.</li>
             <li>Find the correlation coefficient. Is it significant?</li>
             <li>Find the estimated heights for a building that has 32 stories and for a building that has 94 stories.</li>
-            <li>Based on the data in , is there a linear relationship between the number of stories in tall buildings and the height of the buildings?</li>
+            <li>Based on the data in Table 12.31, is there a linear relationship between the number of stories in tall buildings and the height of the buildings?</li>
             <li>Are there any outliers in the data? If so, which point(s)?</li>
             <li>What is the estimated height of a building with six stories? Does the least-squares line give an accurate estimate of height? Explain why or why not.</li>
             <li>Based on the least-squares line, adding an extra story is predicted to add about how many feet to a building?</li>
