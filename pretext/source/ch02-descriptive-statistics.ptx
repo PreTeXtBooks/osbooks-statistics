@@ -4965,7 +4965,7 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
     <exercise xml:id="fs-idm9402560">
       <statement>
         <p>Two baseball players, Fredo and Karl, on different teams wanted to find out who had the higher batting average when compared to his team. Which baseball player had the higher batting average when compared to his team?</p>
-        <table>
+        <table xml:id="fs-idm133764640">
           <tabular>
             <row header="yes">
               <cell>Baseball Player</cell>
@@ -5811,7 +5811,185 @@ below the mean.
     </project>
 
 
-    <subsection xml:id="subsec-histograms-practice">
+<subsection xml:id="subsec-stem-leaf-practice">
+  <title>Practice</title>
+
+<p><em>For each of the following data sets, create a stemplot and identify any outliers.</em></p>
+
+<exercise xml:id="fs-idp77965776-stem-leaf-practice">
+<statement>
+<p>The miles-per-gallon ratings for 30 cars are shown below (lowest to highest):
+
+19, 19, 19, 20, 21, 21, 25, 25, 25, 26, 26, 28, 29, 31, 31, 32, 32, 33, 34, 35, 36, 37, 37, 38, 38, 38, 38, 41, 43, 43.</p></statement>
+<solution xml:id="fs-idm37847504-stem-leaf-practice">
+<table>
+<tabular>
+
+<row><cell>Stem</cell><cell>Leaf</cell></row>
+
+<row><cell>1</cell><cell>9 9 9</cell></row>
+<row><cell>2</cell><cell>0 1 1 5 5 5 6 6 8 9</cell></row>
+<row><cell>3</cell><cell>1 1 2 2 3 4 5 6 7 7 8 8 8 8</cell></row>
+<row><cell>4</cell><cell>1 3  3</cell></row>
+
+</tabular>
+</table></solution>
+</exercise>
+
+<exercise xml:id="fs-idp69585968-stem-leaf-practice">
+<statement>
+<p>The height in feet of 25 trees is shown below (lowest to highest):
+
+25, 27, 33, 34, 34, 34, 35, 37, 37, 38, 39, 39, 39, 40, 41, 45, 46, 47, 49, 50, 50, 53, 53, 54, 54.</p></statement>
+</exercise>
+
+<exercise xml:id="exercise8-stem-leaf-practice">
+<statement>
+<p>The data are the prices of different laptops at an electronics store. Round each value to the nearest 10.
+
+249, 249, 260, 265, 265, 280, 299, 299, 309, 319, 325, 326, 350, 350, 350, 365, 369, 389, 409, 459, 489, 559, 569, 570, 610</p></statement>
+
+<solution xml:id="fs-idp114380816-stem-leaf-practice">
+<table>
+<tabular>
+
+<row><cell>Stem</cell>
+<cell>Leaf</cell></row>
+
+<row><cell>2</cell><cell>5 5 6 7 7 8</cell></row>
+<row><cell>3</cell><cell>0 0 1 2 3 3 5 5 5 7 7 9</cell></row>
+<row><cell>4</cell><cell>1 6 9</cell></row>
+<row><cell>5</cell><cell>6 7 7</cell></row>
+<row><cell>6</cell><cell>1</cell></row>
+
+</tabular>
+</table></solution>
+</exercise>
+
+<exercise xml:id="fs-idp48193248-stem-leaf-practice">
+<statement>
+<p>The following data are daily high temperatures in a town for one month:
+
+61, 61, 62, 64, 66, 67, 67, 67, 68, 69, 70, 70, 70, 71, 71, 72, 74, 74, 74, 75, 75, 75, 76, 76, 77, 78, 78, 79, 79, 95.</p></statement>
+</exercise>
+
+<p><em>For the next three exercises, use the data to construct a line graph.</em></p>
+
+<exercise xml:id="fs-idp113295424-stem-leaf-practice">
+<statement>
+<p>In a survey, 40 people were asked how many times they visited a store before making a major purchase. The results are shown in <xref ref="M01_Ch02_tbl018-stem-leaf-practice"/>.</p><table xml:id="M01_Ch02_tbl018-stem-leaf-practice">
+<tabular>
+
+<row><cell>Number of Times in Store</cell><cell>Frequency</cell></row>
+
+<row><cell>1</cell><cell>4</cell></row>
+<row><cell>2</cell><cell>10</cell></row>
+<row><cell>3</cell><cell>16</cell></row>
+<row><cell>4</cell><cell>6</cell></row>
+<row><cell>5</cell><cell>4</cell></row>
+
+</tabular>
+</table>
+</statement>
+<solution xml:id="fs-idp47635040-stem-leaf-practice">
+<figure xml:id="fs-idp29124208-stem-leaf-practice"><image source="../../media/CNX_Stats_C02_M03_005.jpg"/>
+</figure></solution>
+</exercise>
+
+<exercise xml:id="fs-idp11360192-stem-leaf-practice">
+<statement>
+<p>In a survey, several people were asked how many years it has been since they purchased a mattress. The results are shown in <xref ref="M01_Ch02_tbl019-stem-leaf-practice"/>.</p><table xml:id="M01_Ch02_tbl019-stem-leaf-practice">
+<tabular>
+
+<row><cell>Years Since Last Purchase</cell>	<cell>Frequency</cell></row>
+
+<row><cell>0</cell>	<cell>2</cell></row>
+<row><cell>1</cell>	<cell>8</cell></row>
+<row><cell>2</cell>	<cell>13</cell></row>
+<row><cell>3</cell>	<cell>22</cell></row>
+<row><cell>4</cell>	<cell>16</cell></row>
+<row><cell>5</cell>	<cell>9</cell></row>
+
+</tabular>
+</table>
+</statement>
+</exercise>
+
+<exercise xml:id="fs-idp113509472-stem-leaf-practice">
+<statement>
+<p>Several children were asked how many TV shows they watch each day. The results of the survey are shown in <xref ref="M01_Ch02_tbl020-stem-leaf-practice"/>.</p><table xml:id="M01_Ch02_tbl020-stem-leaf-practice">
+<tabular>
+
+<row><cell>Number of TV Shows</cell>	<cell>Frequency</cell></row>
+
+<row><cell>0</cell>	<cell>12</cell></row>
+<row><cell>1</cell>	<cell>18</cell></row>
+<row><cell>2</cell>	<cell>36</cell></row>
+<row><cell>3</cell>	<cell>7</cell></row>
+<row><cell>4</cell>	<cell>2</cell></row>
+
+</tabular>
+</table>
+
+</statement>
+<solution xml:id="fs-idp49973120-stem-leaf-practice">
+<figure xml:id="fs-idm11163840-stem-leaf-practice"><image source="../../media/CNX_Stats_C02_M03_007.jpg"/></figure></solution>
+</exercise>
+
+<exercise xml:id="exercise13-stem-leaf-practice">
+<statement>
+<p>The students in Ms. Ramirez’s math class have birthdays in each of the four seasons. <xref ref="M01_Ch02_tbl021-stem-leaf-practice"/> shows the four seasons, the number of students who have birthdays in each season, and the percentage of students in each group. Construct a bar graph showing the number of students.</p>
+<table xml:id="M01_Ch02_tbl021-stem-leaf-practice">
+<tabular>
+
+<row><cell>Seasons</cell>	<cell>Number of Students</cell>	<cell>Proportion of Population</cell></row>
+
+<row><cell>Spring</cell>	<cell>8</cell>	<cell>24%</cell></row>
+<row><cell>Summer</cell>	<cell>9</cell>	<cell>26%</cell></row>
+<row><cell>Autumn</cell>	<cell>11</cell>	<cell>32%</cell></row>
+<row><cell>Winter</cell>	<cell>6</cell>	<cell>18%</cell></row>
+
+</tabular>
+</table>
+</statement>
+</exercise>
+
+<exercise xml:id="fs-idp114173136-stem-leaf-practice">
+<statement><p>Using the data from Mrs. Ramirez’s math class supplied in <xref ref="exercise13-stem-leaf-practice"/>, construct a bar graph showing the percentages.</p></statement>
+<solution xml:id="fs-idp107574416-stem-leaf-practice">
+<figure xml:id="fs-idp48344576-stem-leaf-practice"><image source="../../media/CNX_Stats_C02_M03_009.jpg"/></figure></solution>
+</exercise>
+
+<exercise xml:id="exercise10-stem-leaf-practice">
+<statement>
+<p>David County has six high schools. Each school sent students to participate in a county-wide science competition. <xref ref="M01_Ch02_tbl022-stem-leaf-practice"/> shows the percentage breakdown of competitors from each school and the percentage of the entire student population of the county that goes to each school. Construct a bar graph that shows the population percentage of competitors from each school.</p>
+
+<table xml:id="M01_Ch02_tbl022-stem-leaf-practice">
+<tabular>
+
+<row><cell>High School</cell><cell>Science Competition Population</cell><cell>Overall Student Population</cell></row>
+
+<row><cell>Alabaster</cell><cell>28.9%</cell><cell>8.6%</cell></row>
+<row><cell>Concordia</cell><cell>7.6%</cell><cell>23.2%</cell></row>
+<row><cell>Genoa</cell><cell>12.1%</cell><cell>15.0%</cell></row>
+<row><cell>Mocksville</cell><cell>18.5%</cell><cell>14.3%</cell></row>
+<row><cell>Tynneson</cell><cell>24.2%</cell><cell>10.1%</cell></row>
+<row><cell>West End</cell><cell>8.7%</cell><cell>28.8%</cell></row>
+
+</tabular>
+</table>
+
+</statement>
+</exercise>
+
+<exercise xml:id="fs-idp107146752-stem-leaf-practice">
+<statement>
+<p>Use the data from the David County science competition supplied in <xref ref="exercise10-stem-leaf-practice"/>. Construct a bar graph that shows the county-wide population percentage of students at each school.</p></statement>
+<solution xml:id="fs-idp4118704-stem-leaf-practice">
+<figure xml:id="fs-idp86744448-stem-leaf-practice"><image source="../../media/CNX_Stats_C02_M03_011.jpg"/></figure></solution>
+</exercise>
+
+</subsection>    <subsection xml:id="subsec-histograms-practice">
       <title>Practice</title>
 
     <exercise xml:id="ch2-eip-341">
@@ -6491,7 +6669,114 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
 
     </subsection>
 
-    <exercises xml:id="subsec-skewness-practice">
+<subsection xml:id="subsec-measures-center-practice">
+  <title>Practice</title>
+
+<exercise xml:id="fs-idp11191056-measures-center-practice">
+<statement>
+<p>Find the mean for the following frequency tables:</p><ol><li><table>
+<tabular>
+
+<row><cell>Grade</cell>	<cell>Frequency</cell></row>
+
+<row><cell>49.5–59.5</cell><cell>2</cell></row>
+<row><cell>59.5–69.5</cell><cell>3</cell></row>
+<row><cell>69.5–79.5</cell><cell>8</cell></row>
+<row><cell>79.5–89.5</cell><cell>12</cell></row>
+<row><cell>89.5–99.5</cell><cell>5</cell></row>
+
+</tabular>
+</table>
+</li>
+<li><table>
+<tabular>
+<row><cell>Daily Low Temperature</cell>
+<cell>Frequency</cell></row>
+
+<row><cell>49.5–59.5</cell><cell>53</cell></row>
+<row><cell>59.5–69.5</cell><cell>32</cell></row>
+<row><cell>69.5–79.5</cell><cell>15</cell></row>
+<row><cell>79.5–89.5</cell><cell>1</cell></row>
+<row><cell>89.5–99.5</cell><cell>0</cell></row>
+
+</tabular>
+</table>
+</li>
+<li><table>
+<tabular>
+<row><cell>Points per Game</cell>
+<cell>Frequency</cell></row>
+
+<row><cell>49.5–59.5</cell><cell>14</cell></row>
+<row><cell>59.5–69.5</cell><cell>32</cell></row>
+<row><cell>69.5–79.5</cell><cell>15</cell></row>
+<row><cell>79.5–89.5</cell><cell>23</cell></row>
+<row><cell>89.5–99.5</cell><cell>2</cell></row>
+
+</tabular>
+</table>
+</li>
+</ol>
+</statement>
+</exercise>
+
+<p><em>Use the following information to answer the next three exercises:</em> The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:
+16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40</p><exercise xml:id="fs-idp3713376-measures-center-practice">
+<statement>
+<p>Calculate the mean.</p>
+</statement>
+
+<solution xml:id="fs-idp54737296-measures-center-practice">
+<p>Mean: 16 + 17 + 19 + 20 + 20 + 21 + 23 + 24 + 25 + 25 + 25 + 26 + 26 + 27 + 27 + 27 + 28 + 29 + 30 + 32 + 33 + 33 + 34 + 35 + 37 + 39 + 40 = 738;</p><p><math><mrow><mfrac>
+    <mrow><mn>738</mn></mrow>
+    <mrow><mn>27</mn></mrow></mfrac></mrow>
+   </math> = 27.33</p>
+</solution>
+</exercise>
+
+<exercise xml:id="fs-idp23937584-measures-center-practice">
+<statement>
+<p>Identify the median.</p>
+</statement>
+</exercise>
+
+<exercise xml:id="fs-idm35941040-measures-center-practice">
+<statement>
+<p>Identify the mode.</p>
+</statement>
+<solution xml:id="fs-idm53012848-measures-center-practice">
+<p>The most frequent lengths are 25 and 27, which occur three times. Mode = 25, 27</p>
+</solution>
+</exercise>
+
+<p>
+<em>Use the following information to answer the next three exercises:</em> Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars, 19 generally sell four cars, 12 generally sell five cars, nine generally sell six cars, and 11 generally sell seven cars. Calculate the following.</p><exercise xml:id="exercisefour-measures-center-practice">
+<statement>
+<p>sample mean = <math>
+<apply>
+  <conjugate/>
+  <ci>x</ci>
+</apply>
+</math> = ________
+</p></statement>
+</exercise>
+
+<exercise xml:id="eip-83-measures-center-practice"><statement>
+  <p>median = ________</p>
+</statement>
+
+<solution xml:id="eip-288-measures-center-practice">
+  <p>4</p>
+</solution>
+</exercise>
+
+<exercise xml:id="eip-630-measures-center-practice">
+<statement>
+  <p>mode = ________</p>
+</statement>
+</exercise>
+
+</subsection>    <exercises xml:id="subsec-skewness-practice">
       <title>Practice</title>
 
     <p><em>Use the following information to answer the next three exercises.</em> State whether the data are symmetrical, skewed to the left, or skewed to the right.</p>
@@ -6689,6 +6974,180 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
     </exercise>
 
     </exercises>
+<subsection xml:id="subsec-measures-spread-practice">
+  <title>Practice</title>
+
+<p>For each of the examples given below, tell whether the differences in outcomes may be explained by measurement variability, natural variability, induced variability, or sampling variability.</p>
+<exercise xml:id="fs-id1170308667647-measures-spread-practice">
+<statement>
+<p>Scientists randomly select five groups of 10 women from a population of 1,000 women to record their body fat percentage. The scientists compute the mean body fat percentage from each group. The differences in outcomes may be attributed to which type of variability?</p>
+</statement>
+<solution xml:id="fs-id1170308667660-measures-spread-practice">
+<p>sampling variability</p>
+</solution>
+</exercise>
+<exercise xml:id="fs-id1170308667668-measures-spread-practice">
+<statement>
+<p>A pharmaceutical company randomly assigns participants to one of two groups: one is a control group receiving a placebo, and another is a treatment group receiving a new drug to lower blood pressure. The differences in outcomes may be attributed to which type of variability?</p></statement>
+<solution xml:id="fs-id1170308667681-measures-spread-practice">
+<p>induced variability</p>
+</solution>
+</exercise>
+<exercise xml:id="fs-id1170308667688-measures-spread-practice">
+<statement>
+<p>Jaiqua and Harold are trying to determine how ramp steepness affects the speed of a ball rolling down the ramp. They measure the time it takes for the ball to roll down ramps of differing slopes. When Jaiqua rolls the ball and Harold works the stopwatch, they get different results than when Harold rolls the ball and Jaiqua works the stopwatch. The differences in outcomes may be attributed to which type of variability?</p></statement>
+<solution xml:id="fs-id1170308667699-measures-spread-practice">
+<p>measurement variability</p>
+</solution>
+</exercise>
+<exercise xml:id="fs-id1170308667706-measures-spread-practice">
+<statement>
+<p>Twenty people begin the same workout program on the same day and continue for three months. During that time, all participants worked out for the same amount of time and did the same number of exercises and repetitions. Each person was weighed at both the beginning and the end of the program. The differences in outcomes regarding the amount of weight lost may be attributed to which type of variability?</p>
+</statement>
+<solution xml:id="fs-id1170308701361-measures-spread-practice">
+<p>natural variability</p>
+</solution>
+</exercise>
+<p><em>Use the following information to answer the next two exercises.</em> The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.
+
+29, 37, 38, 40, 58, 67, 68, 69, 76, 86, 87, 95, 96, 96, 99, 106, 112, 127, 145, 150</p><exercise xml:id="fs-idm25484256-measures-spread-practice"><statement>
+<p>Use a graphing calculator or computer to find the standard deviation and round to the nearest tenth.</p></statement>
+<solution xml:id="fs-idm109784640-measures-spread-practice">
+<p><em>s</em> = 34.5</p>
+</solution>
+</exercise>
+
+<exercise xml:id="fs-idm62691728-measures-spread-practice">
+<statement>
+<p>Find the value that is one standard deviation below the mean.</p>
+</statement>
+</exercise>
+
+<exercise xml:id="fs-idm9402560-practice-measures-spread-practice">
+<statement>
+<p>Two baseball players, Fredo and Karl, on different teams wanted to find out who had the higher batting average when compared to his team. Which baseball player had the higher batting average when compared to his team?</p>
+<table xml:id="fs-idm133764640-measures-spread-practice">
+<tabular>
+<row><cell>Baseball Player</cell>	<cell>Batting Average</cell>	<cell>Team Batting Average</cell>	<cell>Team Standard Deviation</cell></row>
+
+<row><cell>Fredo</cell>	<cell>.158</cell>	<cell>.166</cell>	<cell>.012</cell></row>
+<row><cell>Karl</cell>	<cell>.177</cell>	<cell>.189</cell>	<cell>.015</cell></row>
+
+</tabular>
+</table>
+</statement>
+<solution xml:id="fs-idm34270368-measures-spread-practice">
+<p>For Fredo: <em>z</em> = <math>
+ <mrow>
+  <mfrac>
+   <mrow>
+    <mn>.158</mn><mtext> – </mtext><mn>.166</mn>
+   </mrow>
+   <mrow>
+    <mn>.012</mn>
+   </mrow>
+  </mfrac>
+
+ </mrow>
+</math>
+ = –0.67.</p>
+<p>For Karl: <em>z</em> = <math>
+ <mrow>
+  <mfrac>
+   <mrow>
+    <mn>.177</mn><mtext> – </mtext><mn>.189</mn>
+   </mrow>
+   <mrow>
+    <mn>.015</mn>
+   </mrow>
+  </mfrac>
+
+ </mrow>
+</math>
+ = –.8.</p>
+<p>Fredo’s <em>z</em> score of –.67 is higher than Karl’s <em>z</em> score of –.8. For batting average, higher values are better, so Fredo has a better batting average compared to his team.</p></solution>
+</exercise>
+
+<exercise xml:id="exercisefifteen-measures-spread-practice">
+<statement>
+<p>Use <xref ref="fs-idm133764640-measures-spread-practice"/> to find the value that is three standard deviations</p>
+<ol>
+<li><p>above the mean, and</p></li>
+<li><p>below the mean</p></li>
+</ol></statement>
+</exercise>
+
+<exercise xml:id="fs-idm109676912-measures-spread-practice"><statement><p>Find the standard deviation for the following frequency tables using the formula. Check the calculations with the TI 83/84.</p>
+<ol><li><table>
+<tabular>
+<row><cell>Grade</cell><cell>Frequency</cell></row>
+
+<row><cell>49.5–59.5</cell><cell>2</cell></row>
+<row><cell>59.5–69.5</cell><cell>3</cell></row>
+<row><cell>69.5–79.5</cell><cell>8</cell></row>
+<row><cell>79.5–89.5</cell><cell>12</cell></row>
+<row><cell>89.5–99.5</cell><cell>5</cell></row>
+
+</tabular>
+</table></li>
+<li><table>
+<tabular>
+<row><cell>Daily Low Temperature</cell>	<cell>Frequency</cell></row>
+
+<row><cell>49.5–59.5</cell>	<cell>53</cell></row>
+<row><cell>59.5–69.5</cell>	<cell>32</cell></row>
+<row><cell>69.5–79.5</cell>	<cell>15</cell></row>
+<row><cell>79.5–89.5</cell>	<cell>1</cell></row>
+<row><cell>89.5–99.5</cell>	<cell>0</cell></row>
+
+</tabular>
+</table></li>
+<li><table>
+<tabular>
+<row><cell>Points per Game</cell>	<cell>Frequency</cell></row>
+
+<row><cell>49.5–59.5</cell>	<cell>14</cell></row>
+<row><cell>59.5–69.5</cell>	<cell>32</cell></row>
+<row><cell>69.5–79.5</cell>	<cell>15</cell></row>
+<row><cell>79.5–89.5</cell>	<cell>23</cell></row>
+<row><cell>89.5–99.5</cell>	<cell>2</cell></row>
+
+</tabular>
+</table></li>
+</ol></statement>
+<solution xml:id="fs-idm18306912-measures-spread-practice">
+<ol><li><math>
+<mrow><msub><mi>s</mi><mi>x</mi></msub>
+   <mo>=</mo><msqrt><mrow><mfrac><mrow><mstyle displaystyle="true"><mo>∑</mo> <mrow>
+         <mi>f</mi><msup><mi>m</mi><mn>2</mn></msup></mrow>
+       </mstyle></mrow><mi>n</mi></mfrac><mo>−</mo><msup><mrow>
+       <mover accent="true"><mi>x</mi><mo stretchy="true">¯</mo>      </mover></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow>
+     <mfrac><mrow><mn>193,157.45</mn></mrow><mrow><mn>30</mn></mrow>
+     </mfrac><mo>−</mo><msup><mrow><mn>79.5</mn></mrow><mn>2</mn>
+     </msup></mrow></msqrt><mo>=</mo><mn>10.88</mn></mrow>
+   </math></li>
+<li><math> <mrow><msub><mi>s</mi><mi>x</mi>
+   </msub><mo>=</mo><msqrt><mrow><mfrac><mrow><mstyle displaystyle="true"><mo>∑</mo> <mrow><mi>f</mi><msup><mi>m</mi><mn>2</mn></msup></mrow></mstyle></mrow>
+      <mi>n</mi></mfrac><mo>−</mo><msup><mrow>
+       <mover accent="true"><mi>x</mi><mo stretchy="true">¯</mo></mover></mrow>
+      <mn>2</mn></msup></mrow></msqrt>
+   <mo>=</mo><msqrt><mrow><mfrac><mrow><mn>380,945.3</mn></mrow><mrow>
+       <mn>101</mn></mrow></mfrac><mo>−</mo><msup>      <mrow><mn>60.94</mn></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>7.62</mn></mrow></math></li>
+<li><math>
+<mrow><msub><mi>s</mi><mi>x</mi></msub>
+   <mo>=</mo><msqrt><mrow><mfrac><mrow><mstyle displaystyle="true">
+        <mo>∑</mo> <mrow><mi>f</mi><msup><mi>m</mi>
+          <mn>2</mn></msup></mrow></mstyle></mrow><mi>n</mi>
+     </mfrac><mo>−</mo><msup><mrow><mover accent="true">
+        <mi>x</mi><mo stretchy="true">¯</mo></mover></mrow><mn>2</mn>
+     </msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mfrac><mrow><mn>440,051.5</mn>
+      </mrow><mrow><mn>86</mn></mrow></mfrac>
+     <mo>−</mo><msup><mrow>
+       <mn>70.66</mn></mrow><mn>2</mn></msup></mrow>
+   </msqrt><mo>=</mo><mn>11.14</mn></mrow></math></li></ol></solution>
+</exercise>
+
+</subsection>
   </section>
 
   <section xml:id="sec-descriptive-statistics-homework">
