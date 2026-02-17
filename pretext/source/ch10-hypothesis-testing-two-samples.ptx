@@ -2,11 +2,12 @@
 <chapter xml:id="ch10-hypothesis-testing-two-samples" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Hypothesis Testing with Two Samples</title>
 
+  <introduction>
     <figure xml:id="ch10-fs-idp119584608">
       <caption>If you want to test a claim that involves two groups (the types of breakfasts eaten east and west of the Mississippi River), you can use a slightly different technique when conducting a hypothesis test. (credit: Chloe Lim)</caption>
       <image source="media/CNX_Stats_C10_CO.jpg" width="76%"/>
     </figure>
-    <note xml:id="ch10-fs-idm64219152">
+    <objectives xml:id="ch10-fs-idm64219152">
       <title>Chapter Objectives</title>
       <p>By the end of this chapter, the student should be able to do the following:</p>
       <ul>
@@ -16,8 +17,7 @@
         <li>Conduct and interpret hypothesis tests for two population proportions</li>
         <li>Conduct and interpret hypothesis tests for matched or paired samples</li>
       </ul>
-    </note>
-    <title>Introduction</title>
+    </objectives>
     <p>Studies often compare two groups. For example, researchers are interested in the effect aspirin has in preventing heart attacks. Over the last few years, newspapers and magazines have reported various aspirin studies involving two groups. Typically, one group is given aspirin and the other group is given a placebo. Then, the heart attack rate is studied over several years.</p>
     <p>There are other situations that deal with the comparison of two groups. For example, studies compare various diet and exercise programs. Politicians compare the proportion of individuals from different income brackets who might vote for them. Students are interested in whether the SAT or GRE preparatory courses really help raise their scores.</p>
     <p>You have learned to conduct hypothesis tests on single means and single proportions. You will expand upon that in this chapter. You will compare two means or two proportions to each other. The general procedure is the same, just expanded.</p>
@@ -40,6 +40,7 @@
         </ul>
       </li>
     </ul>
+  </introduction>
 
   <section xml:id="sec-two-population-means-unknown-stddev">
     <title>Two Population Means with Unknown Standard Deviations</title>
@@ -407,6 +408,14 @@ Use <m>t_{df}</m> where <m>df</m> is calculated using the <m>df</m> formula for 
         </solution>
       </exercise>
 
+    <subsection xml:id="fs-idm-formula-review-unknown">
+      <title>Formula Review</title>
+      <p>Standard error: <m>SE = \sqrt{\frac{(s_{1})^{2}}{n_{1}}+\frac{(s_{2})^{2}}{n_{2}}}</m></p>
+      <p>Test statistic (<m>t</m>-score): <m>t = \frac{(\bar{x}_{1}-\bar{x}_{2})-(\mu_{1}-\mu_{2})}{\sqrt{\frac{(s_{1})^{2}}{n_{1}}+\frac{(s_{2})^{2}}{n_{2}}}}</m></p>
+      <p>Degrees of freedom: <m>df=\frac{(\frac{(s_{1})^{2}}{n_{1}}+\frac{(s_{2})^{2}}{n_{2}})^{2}}{(\frac{1}{n_{1}-1})(\frac{(s_{1})^{2}}{n_{1}})^{2}+(\frac{1}{n_{2}-1})(\frac{(s_{2})^{2}}{n_{2}})^{2}}</m></p>
+      <p>Cohen's <m>d = \frac{\bar{x}_{1}-\bar{x}_{2}}{s_{pooled}}</m> where <m>s_{pooled}=\sqrt{\frac{(n_{1}-1)s_{1}^{2}+(n_{2}-1)s_{2}^{2}}{n_{1}+n_{2}-2}}</m></p>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-two-population-means-known-stddev">
@@ -484,6 +493,13 @@ significance.</p>
         <p>Conclusion: At the 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the mean age of Democratic senators is greater than the mean age of the Republican senators.</p>
       </solution>
     </example>
+
+    <subsection xml:id="fs-idm-formula-review-known">
+      <title>Formula Review</title>
+      <p>Standard error: <m>SE = \sqrt{\frac{(\sigma_{1})^{2}}{n_{1}}+\frac{(\sigma_{2})^{2}}{n_{2}}}</m></p>
+      <p>Test statistic (<m>z</m>-score): <m>z = \frac{(\bar{x}_{1}-\bar{x}_{2})-(\mu_{1}-\mu_{2})}{\sqrt{\frac{(\sigma_{1})^{2}}{n_{1}}+\frac{(\sigma_{2})^{2}}{n_{2}}}}</m></p>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-comparing-two-proportions">
@@ -712,6 +728,13 @@ Estimated proportion for group B: 0.05</p>
           <p>h. At the 5 percent significance level, from the sample data, there is sufficient evidence to conclude that there is a difference between the proportion of forcible rapes in 2011 and 2010.</p>
         </solution>
       </exercise>
+
+    <subsection xml:id="fs-idm-formula-review-proportions">
+      <title>Formula Review</title>
+      <p>Pooled proportion: <m>p_c = \frac{x_1 + x_2}{n_1 + n_2}</m></p>
+      <p>Standard error: <m>SE = \sqrt{p_c(1-p_c)\left(\frac{1}{n_1}+\frac{1}{n_2}\right)}</m></p>
+      <p>Test statistic (<m>z</m>-score): <m>z = \frac{(p'_1 - p'_2) - (p_1 - p_2)}{\sqrt{p_c(1-p_c)\left(\frac{1}{n_1}+\frac{1}{n_2}\right)}}</m></p>
+    </subsection>
 
   </section>
 
@@ -1034,6 +1057,19 @@ Estimated proportion for group B: 0.05</p>
         </solution>
       </exercise>
 
+    <subsection xml:id="fs-idm-formula-review-matched">
+      <title>Formula Review</title>
+      <p>Test statistic (<m>t</m>-score): <m>t = \frac{\bar{x}_d - \mu_d}{\frac{s_d}{\sqrt{n}}}</m></p>
+      <p>where:</p>
+      <ul>
+        <li><m>\bar{x}_d</m> = mean of the sample differences</li>
+        <li><m>\mu_d</m> = mean of the population differences (usually 0 under null hypothesis)</li>
+        <li><m>s_d</m> = standard deviation of the sample differences</li>
+        <li><m>n</m> = number of pairs</li>
+      </ul>
+      <p>Degrees of freedom: <m>df = n - 1</m></p>
+    </subsection>
+
   </section>
 
   <section xml:id="sec-hypothesis-testing-two-samples-practice">
@@ -1129,6 +1165,106 @@ Calculate the <m>p</m> value.</li>
         <li>Write a clear conclusion using a complete sentence.</li>
       </ol>
     </note>
+  </section>
+
+  <section xml:id="sec-hypothesis-testing-two-samples-homework">
+    <title>Homework</title>
+
+    <exercises xml:id="exercises-bringing-it-together-ch10">
+      <title>Bringing It Together</title>
+      
+      <exercise xml:id="ch10-hw-1">
+        <statement>
+          <p>A study is done to determine if students in the California state university system take longer to graduate, on average, than students enrolled in private universities. One hundred students from both the California state university system and private universities are surveyed. Suppose that from years of research, it is known that the population standard deviations are 1.5811 years and 1 year, respectively. The following data are collected. The California state university system students took on average 4.5 years with a standard deviation of 0.8. The private university students took on average 4.1 years with a standard deviation of 0.3. Conduct a hypothesis test at the 5 percent level.</p>
+        </statement>
+        <solution>
+          <p><m>H_0: \mu_1 \leq \mu_2</m></p>
+          <p><m>H_a: \mu_1 > \mu_2</m></p>
+          <p><m>p</m>-value = 0.0127</p>
+          <p>Reject the null hypothesis.</p>
+          <p>Conclusion: At the 5 percent level of significance, from the sample data, there is sufficient evidence to conclude that the mean time for students enrolled in California state universities to earn a bachelor's degree is longer than the mean time for students enrolled in private universities.</p>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="ch10-hw-2">
+        <statement>
+          <p>Parents of teenage boys often complain that auto insurance costs more, on average, for teenage boys than for teenage girls. A group of concerned parents examines a random sample of insurance bills. The mean annual cost for 36 teenage boys was $679. For 23 teenage girls, it was $559. From past years, it is known that the population standard deviation for each group is $180. Determine whether or not you believe that the mean cost for auto insurance for teenage boys is greater than that for teenage girls.</p>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="ch10-hw-3">
+        <statement>
+          <p>A recent drug survey showed an increase in the use of drugs and alcohol among local high school seniors as compared to the national percent. Suppose that a survey of 100 local seniors and 100 national seniors is conducted to see if the proportion of drug and alcohol use is higher locally than nationally. Locally, 65 seniors reported using drugs or alcohol within the past month, while 60 national seniors reported using them. Conduct a hypothesis test at the 5 percent level.</p>
+        </statement>
+        <solution>
+          <p><m>H_0: p_1 \leq p_2</m></p>
+          <p><m>H_a: p_1 > p_2</m></p>
+          <p><m>p</m>-value = 0.2643</p>
+          <p>Do not reject the null hypothesis.</p>
+          <p>Conclusion: At the 5 percent significance level, from the sample data, there is not sufficient evidence to conclude that the proportion of drug and alcohol use among local high school seniors is higher than the proportion of drug and alcohol use among national high school seniors.</p>
+        </solution>
+      </exercise>
+
+      <exercise xml:id="ch10-hw-4">
+        <statement>
+          <p>We are interested in whether children's educational computer software costs less, on average, than children's entertainment software. Thirty-six educational software titles were randomly picked from a catalog. The mean cost was $31.14 with a standard deviation of $4.69. Thirty-five entertainment software titles were randomly picked from the same catalog. The mean cost was $33.86 with a standard deviation of $10.87. Decide whether children's educational software costs less, on average, than children's entertainment software.</p>
+        </statement>
+      </exercise>
+
+      <exercise xml:id="ch10-hw-5">
+        <statement>
+          <p>A study was conducted to test whether the completion time for solving a puzzle is different if background music is playing. The times (in minutes) to complete the puzzle for a random sample of people are shown below:</p>
+          <table xml:id="ch10-hw-table-1">
+            <title>Puzzle Completion Times</title>
+            <tabular>
+              <row header="yes">
+                <cell>Person</cell>
+                <cell>1</cell>
+                <cell>2</cell>
+                <cell>3</cell>
+                <cell>4</cell>
+                <cell>5</cell>
+                <cell>6</cell>
+                <cell>7</cell>
+                <cell>8</cell>
+              </row>
+              <row>
+                <cell>With Music</cell>
+                <cell>23</cell>
+                <cell>26</cell>
+                <cell>20</cell>
+                <cell>25</cell>
+                <cell>27</cell>
+                <cell>24</cell>
+                <cell>22</cell>
+                <cell>28</cell>
+              </row>
+              <row>
+                <cell>Without Music</cell>
+                <cell>20</cell>
+                <cell>24</cell>
+                <cell>19</cell>
+                <cell>22</cell>
+                <cell>25</cell>
+                <cell>21</cell>
+                <cell>20</cell>
+                <cell>25</cell>
+              </row>
+            </tabular>
+          </table>
+          <p>Conduct a hypothesis test at the 5 percent level to determine if the completion time is different when music is playing.</p>
+        </statement>
+        <solution>
+          <p>This is a test of matched pairs.</p>
+          <p><m>H_0: \mu_d = 0</m></p>
+          <p><m>H_a: \mu_d \neq 0</m></p>
+          <p><m>p</m>-value = 0.0067</p>
+          <p>Reject the null hypothesis.</p>
+          <p>Conclusion: At the 5 percent significance level, from the sample data, there is sufficient evidence to conclude that the completion time for solving the puzzle is different when background music is playing.</p>
+        </solution>
+      </exercise>
+
+    </exercises>
   </section>
 
 
