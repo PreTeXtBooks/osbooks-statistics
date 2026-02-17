@@ -5877,7 +5877,7 @@ below the mean.
 
 <exercise xml:id="fs-idp113295424-stem-leaf-practice">
 <statement>
-<p>In a survey, 40 people were asked how many times they visited a store before making a major purchase. The results are shown in <xref ref="M01_Ch02_tbl018"/>.</p><table xml:id="M01_Ch02_tbl018-stem-leaf-practice">
+<p>In a survey, 40 people were asked how many times they visited a store before making a major purchase. The results are shown in <xref ref="M01_Ch02_tbl018-stem-leaf-practice"/>.</p><table xml:id="M01_Ch02_tbl018-stem-leaf-practice">
 <tabular>
 
 <row><cell>Number of Times in Store</cell><cell>Frequency</cell></row>
@@ -5898,7 +5898,7 @@ below the mean.
 
 <exercise xml:id="fs-idp11360192-stem-leaf-practice">
 <statement>
-<p>In a survey, several people were asked how many years it has been since they purchased a mattress. The results are shown in <xref ref="M01_Ch02_tbl019"/>.</p><table xml:id="M01_Ch02_tbl019-stem-leaf-practice">
+<p>In a survey, several people were asked how many years it has been since they purchased a mattress. The results are shown in <xref ref="M01_Ch02_tbl019-stem-leaf-practice"/>.</p><table xml:id="M01_Ch02_tbl019-stem-leaf-practice">
 <tabular>
 
 <row><cell>Years Since Last Purchase</cell>	<cell>Frequency</cell></row>
@@ -5917,7 +5917,7 @@ below the mean.
 
 <exercise xml:id="fs-idp113509472-stem-leaf-practice">
 <statement>
-<p>Several children were asked how many TV shows they watch each day. The results of the survey are shown in <xref ref="M01_Ch02_tbl020"/>.</p><table xml:id="M01_Ch02_tbl020-stem-leaf-practice">
+<p>Several children were asked how many TV shows they watch each day. The results of the survey are shown in <xref ref="M01_Ch02_tbl020-stem-leaf-practice"/>.</p><table xml:id="M01_Ch02_tbl020-stem-leaf-practice">
 <tabular>
 
 <row><cell>Number of TV Shows</cell>	<cell>Frequency</cell></row>
@@ -5938,7 +5938,7 @@ below the mean.
 
 <exercise xml:id="exercise13-stem-leaf-practice">
 <statement>
-<p>The students in Ms. Ramirez’s math class have birthdays in each of the four seasons. <xref ref="M01_Ch02_tbl021"/> shows the four seasons, the number of students who have birthdays in each season, and the percentage of students in each group. Construct a bar graph showing the number of students.</p>
+<p>The students in Ms. Ramirez’s math class have birthdays in each of the four seasons. <xref ref="M01_Ch02_tbl021-stem-leaf-practice"/> shows the four seasons, the number of students who have birthdays in each season, and the percentage of students in each group. Construct a bar graph showing the number of students.</p>
 <table xml:id="M01_Ch02_tbl021-stem-leaf-practice">
 <tabular>
 
@@ -5955,14 +5955,14 @@ below the mean.
 </exercise>
 
 <exercise xml:id="fs-idp114173136-stem-leaf-practice">
-<statement><p>Using the data from Mrs. Ramirez’s math class supplied in <xref ref="exercise13"/>, construct a bar graph showing the percentages.</p></statement>
+<statement><p>Using the data from Mrs. Ramirez’s math class supplied in <xref ref="exercise13-stem-leaf-practice"/>, construct a bar graph showing the percentages.</p></statement>
 <solution xml:id="fs-idp107574416-stem-leaf-practice">
 <figure xml:id="fs-idp48344576-stem-leaf-practice"><image source="../../media/CNX_Stats_C02_M03_009.jpg"/></figure></solution>
 </exercise>
 
 <exercise xml:id="exercise10-stem-leaf-practice">
 <statement>
-<p>David County has six high schools. Each school sent students to participate in a county-wide science competition. <xref ref="M01_Ch02_tbl022"/> shows the percentage breakdown of competitors from each school and the percentage of the entire student population of the county that goes to each school. Construct a bar graph that shows the population percentage of competitors from each school.</p>
+<p>David County has six high schools. Each school sent students to participate in a county-wide science competition. <xref ref="M01_Ch02_tbl022-stem-leaf-practice"/> shows the percentage breakdown of competitors from each school and the percentage of the entire student population of the county that goes to each school. Construct a bar graph that shows the population percentage of competitors from each school.</p>
 
 <table>
 <tabular>
@@ -5984,7 +5984,7 @@ below the mean.
 
 <exercise xml:id="fs-idp107146752-stem-leaf-practice">
 <statement>
-<p>Use the data from the David County science competition supplied in <xref ref="exercise10"/>. Construct a bar graph that shows the county-wide population percentage of students at each school.</p></statement>
+<p>Use the data from the David County science competition supplied in <xref ref="exercise10-stem-leaf-practice"/>. Construct a bar graph that shows the county-wide population percentage of students at each school.</p></statement>
 <solution xml:id="fs-idp4118704-stem-leaf-practice">
 <figure xml:id="fs-idp86744448-stem-leaf-practice"><image source="../../media/CNX_Stats_C02_M03_011.jpg"/></figure></solution>
 </exercise>
@@ -7070,7 +7070,7 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
 
 <exercise xml:id="exercisefifteen-measures-spread-practice">
 <statement>
-<p>Use <xref ref="fs-idm133764640"/> to find the value that is three standard deviations</p><ol><li>above the mean, and</li>
+<p>Use <xref ref="fs-idm133764640-measures-spread-practice"/> to find the value that is three standard deviations</p><ol><li>above the mean, and</li>
 <li>below the mean</li>
 </ol></statement>
 </exercise>
