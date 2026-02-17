@@ -3038,6 +3038,83 @@ How do you know? Answer in complete sentences.</li>
   </section>
 
 
+  <section xml:id="sec-discrete-rv-formula-review">
+    <title>Formula Review</title>
+
+    <subsection xml:id="subsec-general-discrete-rv">
+      <title>General Discrete Random Variables</title>
+      <p>Mean or Expected Value: <m>\mu = E(X) = \sum xP(x)</m></p>
+      <p>Variance: <m>\sigma^2 = \sum (x - \mu)^2 P(x)</m></p>
+      <p>Standard Deviation: <m>\sigma = \sqrt{\sigma^2}</m></p>
+    </subsection>
+
+    <subsection xml:id="subsec-binomial-formulas">
+      <title>Binomial Distribution</title>
+      <p>Notation: <m>X \sim B(n, p)</m></p>
+      <p>Mean: <m>\mu = np</m></p>
+      <p>Variance: <m>\sigma^2 = npq</m></p>
+      <p>Standard Deviation: <m>\sigma = \sqrt{npq}</m></p>
+      <p>where <m>n</m> = number of trials, <m>p</m> = probability of success, <m>q = 1 - p</m> = probability of failure</p>
+    </subsection>
+
+    <subsection xml:id="subsec-geometric-formulas">
+      <title>Geometric Distribution</title>
+      <p>Notation: <m>X \sim G(p)</m></p>
+      <p>Mean: <m>\mu = \frac{1}{p}</m></p>
+      <p>Variance: <m>\sigma^2 = \frac{1}{p}\left(\frac{1}{p} - 1\right)</m></p>
+      <p>Standard Deviation: <m>\sigma = \sqrt{\frac{1}{p}\left(\frac{1}{p} - 1\right)} = \sqrt{\frac{1-p}{p^2}}</m></p>
+      <p>where <m>p</m> = probability of success on each trial</p>
+    </subsection>
+
+    <subsection xml:id="subsec-hypergeometric-formulas">
+      <title>Hypergeometric Distribution</title>
+      <p>Notation: <m>X \sim H(r, b, n)</m></p>
+      <p>Mean: <m>\mu = \frac{nr}{r + b}</m></p>
+      <p>Standard Deviation: <m>\sigma = \sqrt{\frac{rbn(r + b - n)}{(r + b)^2(r + b - 1)}}</m></p>
+      <p>where <m>r</m> = number of items in the group of interest, <m>b</m> = number of items in the group not of interest, <m>n</m> = number of items chosen</p>
+    </subsection>
+
+    <subsection xml:id="subsec-poisson-formulas">
+      <title>Poisson Distribution</title>
+      <p>Notation: <m>X \sim P(\mu)</m></p>
+      <p>Probability: <m>P(X = x) = \frac{e^{-\mu} \mu^x}{x!}</m></p>
+      <p>Mean: <m>\mu</m></p>
+      <p>Variance: <m>\sigma^2 = \mu</m></p>
+      <p>Standard Deviation: <m>\sigma = \sqrt{\mu}</m></p>
+      <p>where <m>\mu</m> = mean number of occurrences in the interval</p>
+      <p>The Poisson distribution is often used to approximate the binomial distribution when <m>n \geq 20</m> and <m>p \leq 0.05</m>.</p>
+    </subsection>
+  </section>
+
+
+  <section xml:id="sec-discrete-rv-references">
+    <title>References</title>
+    
+    <p>American Cancer Society. (2013). <em>What are the key statistics about pancreatic cancer?</em> Retrieved from http://www.cancer.org/cancer/pancreaticcancer/detailedguide/pancreatic-cancer-key-statistics</p>
+    <p>Centers for Disease Control and Prevention. (2012, Oct. 2). <em>Teen drivers: Get the facts</em>. Retrieved from http://www.cdc.gov/Motorvehiclesafety/Teen_Drivers/teendrivers_factsheet.html</p>
+    <p>Central Intelligence Agency. (n.d.). <em>The world factbook</em>. Retrieved from https://www.cia.gov/library/publications/theworld-factbook/geos/af.html</p>
+    <p><em>Daily Mail</em>. (2011, June 9). One born every minute: the maternity unit where mothers are THREE to a bed. Retrieved from http://www.dailymail.co.uk/news/article-2001422/Busiest-maternity-ward-planet-averages-60-babies-day-mothersbed.html</p>
+    <p>Department of Aviation at the Hartsfield-Jackson Atlanta International Airport. (2013). <em>ATL fact sheet</em>. Retrieved from http://www.atlanta-airport.com/Airport/ATL/ATL_FactSheet.aspx</p>
+    <p>ESPN NBA. (2013). NBA statistics 2013. Retrieved from http://espn.go.com/nba/statistics/_/seasontype/2</p>
+    <p>The European Union and ICON-Institute. (2007/8). <em>Summary of the national risk and vulnerability assessment 2007/8: A profile of Afghanistan</em>. Retrieved from http://ec.europa.eu/europeaid/where/asia/documents/afgh_brochure_summary_en.pdf</p>
+    <p>Florida State University. (n.d.). <em>Class catalogue at the Florida State University</em>. Retrieved from https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy</p>
+    <p><em>The Guardian</em>. (2011, June 8). Giving birth in Manila: The maternity ward at the Dr Jose Fabella Memorial Hospital in Manila, the busiest in the Philippines, where there is an average of 60 births a day. Retrieved from http://www.theguardian.com/world/gallery/2011/jun/08/philippines-health#/?picture=375471900&amp;index=2</p>
+    <p>Lenhart, A. (2012). Teens, smartphones &amp; testing: Texting volume is up while the frequency of voice calling is down. About one in four teens say they own smartphones. Pew Internet. Retrieved from http://www.pewinternet.org/~/media/Files/Reports/2012/PIP_Teens_Smartphones_and_Texting.pdf</p>
+    <p>Ministry of Health, Labour, and Welfare. (n.d.). <em>Children and childrearing</em>. Retrieved from http://www.mhlw.go.jp/english/policy/children/children-childrearing/index.html</p>
+    <p>Newport, F. (2013). Americans still enjoy saving rather than spending: Few demographic differences seen in these views other than by income. <em>GALLUP Economy</em>. Retrieved from http://www.gallup.com/poll/162368/americansenjoy-saving-rather-spending.aspx</p>
+    <p>Pew Internet. (2013). <em>How Americans use text messaging</em>. Retrieved from http://pewinternet.org/Reports/2011/Cell-Phone-Texting-2011/Main-Report.aspx</p>
+    <p>Pew Research Center. (n.d.). Millennials: A portrait of generation next. Retrieved from http://www.pewsocialtrends.org/files/2010/10/millennials-confident-connected-open-to-change.pdf</p>
+    <p>Pew Research. (2013). Millennials: confident. Executive Summary: Pew Research Social &amp; Demographic Trends. Retrieved from http://www.pewsocialtrends.org/2010/02/24/millennials-confident-connected-open-tochange/</p>
+    <p>Pryor, J. H., et al. (2011). <em>The American freshman: National norms fall 2011</em>. Los Angeles: Cooperative Institutional Research Program, Higher Education Research Institute. Retrieved from http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf</p>
+    <p>South Carolina Department of Mental Health. (2006). <em>Eating disorder statistics</em>. Retrieved from http://www.state.sc.us/dmh/anorexia/statistics.htm</p>
+    <p>UNICEF Television. (n.d.). <em>UNICEF reports on female literacy centers in Afghanistan established to teach women and girls basic reading and writing skills</em>. (Video). Retrieved from http://www.unicefusa.org/assets/video/afghan-femaleliteracy-centers.html</p>
+    <p>Vanderkam, L. (2012, Oct. 8). Stop checking your email, now. <em>CNNMoney</em>. Retrieved from http://management.fortune.cnn.com/2012/10/08/stop-checking-your-email-now/</p>
+    <p>Wikipedia. (n.d.). <em>Distance education</em>. Retrieved from http://en.wikipedia.org/wiki/Distance_education</p>
+    <p>The World Bank. (2013). Prevalence of HIV, total (% of populations ages 15-49). Retrieved from http://data.worldbank.org/indicator/SH.DYN.AIDS.ZS?order=wbapi_data_value_2011+wbapi_data_value+wbapi_data_value-last&amp;sort=desc</p>
+    <p>World Earthquakes. (2012). <em>World earthquakes: Live earthquake news and highlights</em>. Retrieved from http://www.worldearthquakes.com/index.php?option=ethq_prediction</p>
+  </section>
+
+
   <glossary xml:id="glossary-ch04">
     <title>Glossary</title>
 
