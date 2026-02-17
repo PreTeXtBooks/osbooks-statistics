@@ -7147,48 +7147,6 @@ Tar (mg) in Nonfiltered Cigarettes	Frequency
    </msqrt><mo>=</mo><mn>11.14</mn></mrow></math></li></ol></solution>
 </exercise>
 
-<title>Homework</title>
-<p>
-
-<em>Use the following information to answer the next nine exercises:</em> The population parameters below describe the full-time equivalent number of students (FTES) each year at Lake Tahoe Community College from 1976–1977 through 2004–2005.</p><ol><li><em>μ</em> = 1,000 FTES</li>
-      <li>median = 1,014 FTES</li>
-      <li><em>σ</em> = 474 FTES</li>
-      <li>first quartile = 528.5 FTES</li>
-      <li>third quartile = 1,447.5 FTES</li>
-      <li><em>n</em> = 29 years</li>
-    </ol><exercise xml:id="exercisetwenty-measures-spread-practice">
-      <statement>
-        <p>A sample of 11 years is taken. About how many are expected to have an FTES of 1,014 or above? Explain how you determined your answer.</p></statement>
-      <solution xml:id="id8123906-measures-spread-practice">
-        <p>The median value is the middle value in the ordered list of data values. The median value of a set of 11 will be the sixth number in order. Six years will have totals at or below the median.</p></solution>
-    </exercise>
-
-    <exercise xml:id="exercisetwentyone-measures-spread-practice">
-      <statement>
-        <p>Seventy-five percent of all years have an FTES
-          <ol><li>at or below ______.</li>
-            <li>at or above ______.</li>
-          </ol></p></statement>
-    </exercise>
-
-    <exercise xml:id="exercisetwentytwo-measures-spread-practice">
-      <statement>
-        <p>The population standard deviation = ______.</p></statement>
-      <solution xml:id="id8181808-measures-spread-practice">
-        <p>474 FTES</p>
-      </solution>
-    </exercise>
-
-    <exercise xml:id="exercisetwentythree-measures-spread-practice">
-      <statement>
-        <p>What percentage of the FTES were from 528.5 to 1,447.5? How do you know?</p></statement>
-    </exercise>
-
-    <exercise xml:id="exercisetwentyfour-measures-spread-practice">
-      <statement>
-        <p>What is the <em>IQR</em>? What does the <em>IQR</em> represent?</p></statement>
-</exercise>
-
 </subsection>
   </section>
 
