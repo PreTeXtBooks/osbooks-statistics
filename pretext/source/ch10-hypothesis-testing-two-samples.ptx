@@ -1061,10 +1061,12 @@ Estimated proportion for group B: 0.05</p>
       <title>Formula Review</title>
       <p>Test statistic (<m>t</m>-score): <m>t = \frac{\bar{x}_d - \mu_d}{\frac{s_d}{\sqrt{n}}}</m></p>
       <p>where:</p>
-      <p><m>\bar{x}_d</m> = mean of the sample differences</p>
-      <p><m>\mu_d</m> = mean of the population differences (usually 0 under null hypothesis)</p>
-      <p><m>s_d</m> = standard deviation of the sample differences</p>
-      <p><m>n</m> = number of pairs</p>
+      <ul>
+        <li><m>\bar{x}_d</m> = mean of the sample differences</li>
+        <li><m>\mu_d</m> = mean of the population differences (usually 0 under null hypothesis)</li>
+        <li><m>s_d</m> = standard deviation of the sample differences</li>
+        <li><m>n</m> = number of pairs</li>
+      </ul>
       <p>Degrees of freedom: <m>df = n - 1</m></p>
     </subsection>
 
