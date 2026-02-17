@@ -2,11 +2,12 @@
 <chapter xml:id="ch10-hypothesis-testing-two-samples" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Hypothesis Testing with Two Samples</title>
 
+  <introduction>
     <figure xml:id="ch10-fs-idp119584608">
       <caption>If you want to test a claim that involves two groups (the types of breakfasts eaten east and west of the Mississippi River), you can use a slightly different technique when conducting a hypothesis test. (credit: Chloe Lim)</caption>
       <image source="media/CNX_Stats_C10_CO.jpg" width="76%"/>
     </figure>
-    <note xml:id="ch10-fs-idm64219152">
+    <objectives xml:id="ch10-fs-idm64219152">
       <title>Chapter Objectives</title>
       <p>By the end of this chapter, the student should be able to do the following:</p>
       <ul>
@@ -16,8 +17,7 @@
         <li>Conduct and interpret hypothesis tests for two population proportions</li>
         <li>Conduct and interpret hypothesis tests for matched or paired samples</li>
       </ul>
-    </note>
-    <title>Introduction</title>
+    </objectives>
     <p>Studies often compare two groups. For example, researchers are interested in the effect aspirin has in preventing heart attacks. Over the last few years, newspapers and magazines have reported various aspirin studies involving two groups. Typically, one group is given aspirin and the other group is given a placebo. Then, the heart attack rate is studied over several years.</p>
     <p>There are other situations that deal with the comparison of two groups. For example, studies compare various diet and exercise programs. Politicians compare the proportion of individuals from different income brackets who might vote for them. Students are interested in whether the SAT or GRE preparatory courses really help raise their scores.</p>
     <p>You have learned to conduct hypothesis tests on single means and single proportions. You will expand upon that in this chapter. You will compare two means or two proportions to each other. The general procedure is the same, just expanded.</p>
@@ -40,6 +40,7 @@
         </ul>
       </li>
     </ul>
+  </introduction>
 
   <section xml:id="sec-two-population-means-unknown-stddev">
     <title>Two Population Means with Unknown Standard Deviations</title>
