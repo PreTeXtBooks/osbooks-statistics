@@ -283,8 +283,8 @@ Never state that a claim is proven true or false. Keep in mind the underlying fa
 
     <subsection xml:id="fs-idm48036544">
       <title>References</title>
-      <p>Centers for Disease Control and Prevention. (n.d.). <em>Physical activity facts</em>. Retrieved from http://www.cdc.gov/healthyschools/physicalactivity/facts.htm</p>
-      <p>National Institute of Mental Health. (n.d.). <em>Publications about depression</em>. Retrieved from http://www.nimh.nih.gov/publicat/depression.cfm</p>
+      <p>Centers for Disease Control and Prevention. (n.d.). <em>Physical activity facts</em>. Retrieved from <url href="http://www.cdc.gov/healthyschools/physicalactivity/facts.htm">http://www.cdc.gov/healthyschools/physicalactivity/facts.htm</url></p>
+      <p>National Institute of Mental Health. (n.d.). <em>Publications about depression</em>. Retrieved from <url href="http://www.nimh.nih.gov/publicat/depression.cfm">http://www.nimh.nih.gov/publicat/depression.cfm</url></p>
     </subsection>
 
   </section>
@@ -1572,22 +1572,22 @@ Compare the preconceived <m>α</m> with the <m>p</m>-value, make a decision (rej
 
     <subsection xml:id="fs-idp118682672">
       <title>References</title>
-      <p>American Automobile Association. (n.d.). Retrieved from www.aaa.com</p>
-      <p>American Library Association. (n.d.). Retrieved from www.ala.org</p>
+      <p>American Automobile Association. (n.d.). Retrieved from <url href="https://www.aaa.com">www.aaa.com</url></p>
+      <p>American Library Association. (n.d.). Retrieved from <url href="https://www.ala.org">www.ala.org</url></p>
       <p>Amit Schitai. (n.d.). <em>Data</em>.</p>
-      <p>Bureau of Labor Statistics. (n.d.). <em>Occupational employment statistics</em>. Retrieved from http://www.bls.gov/oes/current/oes291111.htm</p>
-      <p>Centers for Disease Control and Prevention. (n.d.). Retrieved from www.cdc.gov</p>
-      <p>De Anza College. (2006). <em>Foothill-De Anza Community College District</em>. Retrieved from http://research.fhda.edu/factbook/DAdemofs/Fact_sheet_da_2006w.pdf</p>
-      <p>Federal Bureau of Investigation. (n.d.). <em>Uniform crime reports and index of crime in Daviess in the state of Kentucky enforced by Daviess County from 1985 to 2005</em>. Retrieved from http://www.disastercenter.com/kentucky/crime/3868.htm</p>
-      <p>Gallup. (n.d.). Retrieved from www.gallup.com</p>
-      <p>Johansen, C., Boice, Jr. J., McLaughlin, J., &amp; Olsen, J. (2001, Feb. 7). Cellular telephones and cancera nationwide cohort study in Denmark. <em>Journal of National Cancer Institute</em>, 93(3), 2037. Retrieved from http://www.ncbi.nlm.nih.gov/pubmed/11158188</p>
-      <p>La Leche League International. (n.d.). Retrieved from http://www.lalecheleague.org/Law/BAFeb01.html</p>
-      <p>Online Learning Consortium. (2005 Nov.). <em>Growing by degrees: Online education in the United States, 2005</em>. Newburyport, MA: Allen, I. E., &amp; Seaman, J. Available at http://files.eric.ed.gov/fulltext/ED530062.pdf</p>
-      <p>Toastmasters International. (n.d.). Retrieved from http://toastmasters.org/artisan/detail.asp?CategoryID=1&amp;SubCategoryID=10&amp;ArticleID=429&amp;Page=1</p>
-      <p>U.S. Census Bureau. (n.d.). <em>Language use</em>. Retrieved from https://www.census.gov/topics/population/language-use.html</p>
-      <p>U.S. Census Bureau. (n.d.). <em>QuickFacts</em>. Retrieved from https://www.census.gov/quickfacts/table/PST045216/00</p>
-      <p>U.S. Department of Energy. (n.d.). Retrieved from http://energy.gov</p>
-      <p>Weather Underground. (n.d.). Retrieved from www.wunderground.com</p>
+      <p>Bureau of Labor Statistics. (n.d.). <em>Occupational employment statistics</em>. Retrieved from <url href="http://www.bls.gov/oes/current/oes291111.htm">http://www.bls.gov/oes/current/oes291111.htm</url></p>
+      <p>Centers for Disease Control and Prevention. (n.d.). Retrieved from <url href="https://www.cdc.gov">www.cdc.gov</url></p>
+      <p>De Anza College. (2006). <em>Foothill-De Anza Community College District</em>. Retrieved from <url href="http://research.fhda.edu/factbook/DAdemofs/Fact_sheet_da_2006w.pdf">http://research.fhda.edu/factbook/DAdemofs/Fact_sheet_da_2006w.pdf</url></p>
+      <p>Federal Bureau of Investigation. (n.d.). <em>Uniform crime reports and index of crime in Daviess in the state of Kentucky enforced by Daviess County from 1985 to 2005</em>. Retrieved from <url href="http://www.disastercenter.com/kentucky/crime/3868.htm">http://www.disastercenter.com/kentucky/crime/3868.htm</url></p>
+      <p>Gallup. (n.d.). Retrieved from <url href="https://www.gallup.com">www.gallup.com</url></p>
+      <p>Johansen, C., Boice, Jr. J., McLaughlin, J., &amp; Olsen, J. (2001, Feb. 7). Cellular telephones and cancera nationwide cohort study in Denmark. <em>Journal of National Cancer Institute</em>, 93(3), 2037. Retrieved from <url href="http://www.ncbi.nlm.nih.gov/pubmed/11158188">http://www.ncbi.nlm.nih.gov/pubmed/11158188</url></p>
+      <p>La Leche League International. (n.d.). Retrieved from <url href="http://www.lalecheleague.org/Law/BAFeb01.html">http://www.lalecheleague.org/Law/BAFeb01.html</url></p>
+      <p>Online Learning Consortium. (2005 Nov.). <em>Growing by degrees: Online education in the United States, 2005</em>. Newburyport, MA: Allen, I. E., &amp; Seaman, J. Available at <url href="http://files.eric.ed.gov/fulltext/ED530062.pdf">http://files.eric.ed.gov/fulltext/ED530062.pdf</url></p>
+      <p>Toastmasters International. (n.d.). Retrieved from <url href="http://toastmasters.org/artisan/detail.asp?CategoryID=1&amp;SubCategoryID=10&amp;ArticleID=429&amp;Page=1">http://toastmasters.org/artisan/detail.asp?CategoryID=1&amp;SubCategoryID=10&amp;ArticleID=429&amp;Page=1</url></p>
+      <p>U.S. Census Bureau. (n.d.). <em>Language use</em>. Retrieved from <url href="https://www.census.gov/topics/population/language-use.html">https://www.census.gov/topics/population/language-use.html</url></p>
+      <p>U.S. Census Bureau. (n.d.). <em>QuickFacts</em>. Retrieved from <url href="https://www.census.gov/quickfacts/table/PST045216/00">https://www.census.gov/quickfacts/table/PST045216/00</url></p>
+      <p>U.S. Department of Energy. (n.d.). Retrieved from <url href="http://energy.gov">http://energy.gov</url></p>
+      <p>Weather Underground. (n.d.). Retrieved from <url href="https://www.wunderground.com">www.wunderground.com</url></p>
     </subsection>
 
   </section>
@@ -2227,7 +2227,7 @@ Test of the two population proportions by testing one population mean of differe
             <li>Decision: Reject the null hypothesis.</li>
             <li>Reason for decision: <m>p</m>-value &lt; alpha</li>
             <li>Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the <m>p</m>-value and alpha are quite close, so other tests should be done.</li>
-            <li>We are 95 percent confident that between 38.29 percent and 61.71 percent of family members will shed tears at a family reunion. (0.3829, 0.6171). The <em>plus-4s</em> confidence interval (see chapter 8) is (0.3861, 0.6139)</li>
+            <li>We are 95 percent confident that between 38.29 percent and 61.71 percent of family members will shed tears at a family reunion. (0.3829, 0.6171). The <em>plus-4s</em> confidence interval (see <xref ref="ch08-confidence-intervals">chapter 8</xref>) is (0.3861, 0.6139)</li>
           </ol>
           <p>Note that here the  <em>large-sample</em> 1 – PropZTest provides the approximate <m>p</m>-value of 0.0438. Whenever a <m>p</m>-value based on a normal approximation is close to the level of significance, the exact <m>p</m>-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course.</p>
           </solution>
@@ -2571,7 +2571,7 @@ Test of the two population proportions by testing one population mean of differe
             <li>Decision: Do not reject the null hypothesis.</li>
             <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
             <li>At the 5 percent significance level, there is insufficient evidence to conclude that the proportion of nursing home residents that have the disease is less than 0.14.</li>
-            <li>Confidence interval: (0.0502, 0.2070): The <em>plus-4s</em> confidence interval (see chapter 8) is (0.0676, 0.2297).</li>
+            <li>Confidence interval: (0.0502, 0.2070): The <em>plus-4s</em> confidence interval (see <xref ref="ch08-confidence-intervals">chapter 8</xref>) is (0.0676, 0.2297).</li>
           </ol>
           </solution>
         </exercise>

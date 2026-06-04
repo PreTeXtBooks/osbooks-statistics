@@ -1183,11 +1183,11 @@ Teenager Is Reminded</cell>
         </statement>
       </example>
 
-    <p>Burbary, K. (2011, March 7). Facebook demographics revisited – 2001 statistics. <em>Social Media Today</em>. Retrieved from http://www.kenburbary.com/2011/03/facebook-demographics-revisited-2011-statistics-2/</p>
+    <p>Burbary, K. (2011, March 7). Facebook demographics revisited – 2001 statistics. <em>Social Media Today</em>. Retrieved from <url href="http://www.kenburbary.com/2011/03/facebook-demographics-revisited-2011-statistics-2/">http://www.kenburbary.com/2011/03/facebook-demographics-revisited-2011-statistics-2/</url></p>
 
-    <p>Centers for Disease Control and Prevention. (n.d.). <em>Overweight and obesity: Adult obesity facts</em>. Available online http://www.cdc.gov/obesity/data/adult.html</p>
+    <p>Centers for Disease Control and Prevention. (n.d.). <em>Overweight and obesity: Adult obesity facts</em>. Available online <url href="http://www.cdc.gov/obesity/data/adult.html">http://www.cdc.gov/obesity/data/adult.html</url></p>
 
-    <p>CollegeBoard. (2013). <em>The 9th annual AP report to the nation</em>. Retrieved from http://apreport.collegeboard.org/goals-andfindings/promoting-equity</p>
+    <p>CollegeBoard. (2013). <em>The 9th annual AP report to the nation</em>. Retrieved from <url href="http://apreport.collegeboard.org/goals-andfindings/promoting-equity">http://apreport.collegeboard.org/goals-andfindings/promoting-equity</url></p>
 
     <p>A <em>stem-and-leaf plot</em> is a way to plot data and look at the distribution. In a stem-and-leaf plot, all data values within a class are visible. The advantage in a stem-and-leaf plot is that all values are listed, unlike a histogram, which gives classes of data values. A <em>line graph</em> is often used to represent a set of data values in which a quantity varies with time. These graphs are useful for finding trends, that is, finding a general pattern in data sets, including temperature, sales, employment, company profit, or cost, over a period of time. A <em>bar graph</em> is a chart that uses either horizontal or vertical bars to show comparisons among categories. One axis of the chart shows the specific categories being compared, and the other axis represents a discrete value. Bar graphs are especially useful when categorical data are being used.</p>
 
@@ -1686,19 +1686,33 @@ Corresponding percents are {30.1, 22.2, 26.5, 27.1, 30.9, 34.0, 26.0, 25.1}.
 
 
 
-</p></li>
+</p><figure>
+  <image source="media/fig-ch_02_sol_06.jpg" width="80%">
+    <description>A bar graph showing 8 states on the x-axis and corresponding obesity rates on the y-axis.</description>
+  </image>
+</figure></li>
           <li><p>
 
 
 
 
-</p></li>
+
+</p><figure>
+  <image source="media/CNX_Stats_C02_M02_100N.jpg" width="75%">
+    <description>This is a bar graph that matches the supplied data. The x-axis shows states, and the y-axis shows percentages.</description>
+  </image>
+</figure></li>
           <li><p>
 
 
 
 
-</p></li>
+
+</p><figure>
+  <image source="media/CNX_Stats_C02_M02_101.jpg" width="75%">
+    <description>This is a bar graph that matches the supplied data. The x-axis shows states, and the y-axis shows percentages.</description>
+  </image>
+</figure></li>
         </ol>
       </solution>
     </exercise>
@@ -2527,23 +2541,23 @@ that this distribution is skewed because one side of the graph does not mirror t
     <p>Time series graphs are important tools in various applications of statistics. When a researcher records values of the same variable over an extended period of time, it is sometimes difficult for him or her to discern any trend or pattern. However, once the same data points are displayed graphically, some features jump out. Time series graphs make trends easy to spot.</p>
     </subsection>
 
-    <p>Bureau of Labor Statistics, U.S. Department of Labor. (n.d.). <em>Consumer price index</em>. Retrieved from https://www.bls.gov/cpi/</p>
+    <p>Bureau of Labor Statistics, U.S. Department of Labor. (n.d.). <em>Consumer price index</em>. Retrieved from <url href="https://www.bls.gov/cpi/">https://www.bls.gov/cpi/</url></p>
 
-    <p>CIA World Factbook. (n.d.). <em>Demographics: Children under the age of 5 years underweight</em>. Available at http://www.indexmundi.com/g/r.aspx?t=50&amp;v=2224&amp;aml=en</p>
+    <p>CIA World Factbook. (n.d.). <em>Demographics: Children under the age of 5 years underweight</em>. Available at <url href="http://www.indexmundi.com/g/r.aspx?t=50&amp;v=2224&amp;aml=en">http://www.indexmundi.com/g/r.aspx?t=50&amp;v=2224&amp;aml=en</url></p>
 
-    <p>Centers for Disease Control and Prevention. (n.d.). <em>Overweight and obesity: Adult obesity facts</em>. Available online http://www.cdc.gov/obesity/data/adult.html</p>
+    <p>Centers for Disease Control and Prevention. (n.d.). <em>Overweight and obesity: Adult obesity facts</em>. Available online <url href="http://www.cdc.gov/obesity/data/adult.html">http://www.cdc.gov/obesity/data/adult.html</url></p>
 
-    <p>Food and Agriculture Organization of the United Nations. (n.d.). <em>Food security statistics</em>. Retrieved from http://www.fao.org/economic/ess/ess-fs/en/</p>
+    <p>Food and Agriculture Organization of the United Nations. (n.d.). <em>Food security statistics</em>. Retrieved from <url href="http://www.fao.org/economic/ess/ess-fs/en/">http://www.fao.org/economic/ess/ess-fs/en/</url></p>
 
-    <p>General Register Office for Scotland. <em>Births time series data</em>. (2013). Retrieved from http://www.gro-scotland.gov.uk/statistics/theme/vital-events/births/time-series.html</p>
+    <p>General Register Office for Scotland. <em>Births time series data</em>. (2013). Retrieved from <url href="http://www.gro-scotland.gov.uk/statistics/theme/vital-events/births/time-series.html">http://www.gro-scotland.gov.uk/statistics/theme/vital-events/births/time-series.html</url></p>
 
     <p>Gunst, R., and Mason, R. (1980). <em>Regression analysis and its application: A data-oriented approach</em>. Boca Raton, FL: CRC Press.</p>
 
-    <p>Sandbox Networks. (2007). <em>Presidents</em>. Available online at http://www.factmonster.com/ipka/A0194030.html</p>
+    <p>Sandbox Networks. (2007). <em>Presidents</em>. Available online at <url href="http://www.factmonster.com/ipka/A0194030.html">http://www.factmonster.com/ipka/A0194030.html</url></p>
 
-    <p>Scholastic. (2013). <em>Timeline: Guide to the U.S. presidents</em>. Retrieved from http://www.scholastic.com/teachers/article/timeline-guide-us-presidents</p>
+    <p>Scholastic. (2013). <em>Timeline: Guide to the U.S. presidents</em>. Retrieved from <url href="http://www.scholastic.com/teachers/article/timeline-guide-us-presidents">http://www.scholastic.com/teachers/article/timeline-guide-us-presidents</url></p>
 
-    <p>World Bank Group. (2013). <em>DataBank: CO2 emissions (kt)</em>. Retrieved from http://databank.worldbank.org/data/home.aspx</p>
+    <p>World Bank Group. (2013). <em>DataBank: CO2 emissions (kt)</em>. Retrieved from <url href="http://databank.worldbank.org/data/home.aspx">http://databank.worldbank.org/data/home.aspx</url></p>
 
     <p>A <em>histogram</em> is a graphic version of a frequency distribution. The graph consists of bars of equal width drawn adjacent to each other. The horizontal scale represents classes of quantitative data values, and the vertical scale represents frequencies. The heights of the bars correspond to frequency values. Histograms are typically used for large, continuous, quantitative data sets. A frequency polygon can also be used when graphing large data sets with data points that repeat. The data usually go on the <em>y</em>-axis with the frequency being graphed on the <em>x</em>-axis. Time series graphs can be helpful when looking at large amounts of data for one variable over a period of time.</p>
 
@@ -2603,6 +2617,45 @@ Ordered from smallest to largest:
       <title>NOTE</title>
       <p>A potential outlier is a data point that is significantly different from the other data points. These special data points may be errors or some kind of abnormality, or they may be a key to understanding the data.</p>
     </note>
+
+    <example>
+      <statement>
+        <p>A middle school is applying for a grant that will be used to add fitness equipment to the gym. The principal surveyed 15 anonymous students to determine how many minutes a day the students spend exercising. The results from the 15 anonymous students are shown:</p>
+        <p>0 minutes, 40 minutes, 60 minutes, 30 minutes, 60 minutes,</p>
+        <p>10 minutes, 45 minutes, 30 minutes, 300 minutes, 90 minutes,</p>
+        <p>30 minutes, 120 minutes, 60 minutes, 0 minutes, 20 minutes</p>
+        <p>Find the five values that make up the five number summary.</p>
+      </statement>
+      <solution>
+        <p>Min = 0</p>
+        <p><em>Q</em><m>_{1}</m> = 20</p>
+        <p>Med = 40</p>
+        <p><em>Q</em><m>_{3}</m> = 60</p>
+        <p>Max = 300</p>
+        <p>Listing the data in ascending order gives the following:</p>
+        <figure>
+          <image source="media/OSX_HS_Statistics_Figure_02_03_03_01.jpg" width="80%">
+            <description>A number line is shown including the numbers 0, 0, 10, 20, 30, 30, 30, 40, 45, 60, 60, 60, 90, 120, and 300. The following numbers are circled: 20, 40, and 60. The number 40 is encapsulated by two vertical lines.</description>
+          </image>
+        </figure>
+        <p>The minimum value is 0.</p>
+        <p>The maximum value is 300.</p>
+        <p>Since there are an odd number of data values, the median is the middle value of this data set as it is arranged in ascending order, or 40.</p>
+        <p>The first quartile is the median of the lower half of the scores and does not include the median. The lower half has seven data values; the median of the lower half will equal the middle value of the lower half, or 20.</p>
+        <p>The third quartile is the median of the upper half of the scores and does not include the median. The upper half also has seven data values; so the median of the upper half will equal the middle value of the upper half, or 60.</p>
+        <p>If you were the principal, would you be justified in purchasing new fitness equipment? Since 75 percent of the students exercise for 60 minutes or less daily, and since the <em>IQR</em> is 40 minutes (60 – 20 = 40), we know that half of the students surveyed exercise between 20 minutes and 60 minutes daily. This seems a reasonable amount of time spent exercising, so the principal would be justified in purchasing the new equipment.</p>
+        <p>However, the principal needs to be careful. The value 300 appears to be a potential outlier.</p>
+        <p><em>Q</em><m>_{3}</m> + 1.5(<em>IQR</em>) = 60 + (1.5)(40) = 120.</p>
+        <p>The value 300 is greater than 120, so it is a potential outlier. If we delete it and calculate the five values, we get the following values:</p>
+        <ul>
+          <li>Min = 0</li>
+          <li><em>Q</em><m>_{1}</m> = 20</li>
+          <li><em>Q</em><m>_{3}</m> = 60</li>
+          <li>Max = 120</li>
+        </ul>
+        <p>We still have 75 percent of the students exercising for 60 minutes or less daily and half of the students exercising between 20 and 60 minutes a day. However, 15 students is a small sample, and the principal should survey more students to be sure of his survey results.</p>
+      </solution>
+    </example>
 
     <example xml:id="element-826">
         <statement>
@@ -3012,15 +3065,15 @@ Find the percentiles for 47 and 31.</p>
 
     <p>Understanding how to interpret percentiles properly is important not only when describing data, but also when calculating probabilities in later chapters of this text.</p>
 
-    <p>Cauchon, D., and Overberg, P. (2012). Census data shows minorities now a majority of U.S. births. <em>USA Today</em>. Retrieved from http://usatoday30.usatoday.com/news/nation/story/2012-05-17/minority-birthscensus/55029100/1</p>
+    <p>Cauchon, D., and Overberg, P. (2012). Census data shows minorities now a majority of U.S. births. <em>USA Today</em>. Retrieved from <url href="http://usatoday30.usatoday.com/news/nation/story/2012-05-17/minority-birthscensus/55029100/1">http://usatoday30.usatoday.com/news/nation/story/2012-05-17/minority-birthscensus/55029100/1</url></p>
 
-    <p><em>The Mercury News</em>. (n.d.). Retrieved from http://www.mercurynews.com/</p>
+    <p><em>The Mercury News</em>. (n.d.). Retrieved from <url href="http://www.mercurynews.com/">http://www.mercurynews.com/</url></p>
 
     <p><em>Time</em>. (n.d.). Survey by Yankelovich Partners, Inc.</p>
 
-    <p>U.S. Census Bureau. (1990). <em>1990 census</em>. Retrieved from http://www.census.gov/main/www/cen1990.html</p>
+    <p>U.S. Census Bureau. (1990). <em>1990 census</em>. Retrieved from <url href="http://www.census.gov/main/www/cen1990.html">http://www.census.gov/main/www/cen1990.html</url></p>
 
-    <p>U.S. Census Bureau. (n.d.). <em>Data</em>. Retrieved from http://www.census.gov/</p>
+    <p>U.S. Census Bureau. (n.d.). <em>Data</em>. Retrieved from <url href="http://www.census.gov/">http://www.census.gov/</url></p>
 
     <p>The values that divide a rank-ordered set of data into 100 equal parts are called percentiles. Percentiles are used to compare and interpret data. For example, an observation at the 50<m>^{th}</m> percentile would be greater than 50 percent of the other observations in the set. Quartiles divide data into quarters. The first quartile (<em>Q</em><m>_{1}</m>) is the 25<m>^{th}</m> percentile, the second quartile (<em>Q</em><m>_{2}</m> or median) is the 50<m>^{th}</m> percentile, and the third quartile (<em>Q</em><m>_{3}</m>) is the 75<m>^{th}</m> percentile. The interquartile range, or <em>IQR</em>, is the range of the middle 50 percent of the data values. The <em>IQR</em> is found by subtracting <em>Q</em><m>_{1}</m> from <em>Q</em><m>_{3}</m> and can help determine outliers by using the following two expressions.</p>
 
@@ -3240,7 +3293,11 @@ Find the percentiles for 47 and 31.</p>
 
 
 
-        </p></li>
+        </p><figure>
+          <image source="media/fig-ch02_sol_01.jpg" width="80%">
+            <description>Two box plots over a number line from 0 to 100. The top plot shows a whisker from 32 to 56, a solid line at 56, a dashed line at 74.5, a solid line at 82.5, and a whisker from 82.5 to 99. The lower plot shows a whisker from 25.5 to 78, solid line at 78, dashed line at 81, solid line at 89, and a whisker from 89 to 98.</description>
+          </image>
+        </figure></li>
 
         <li><p>The first data set has the wider spread for the middle 50 percent of the data. The <em>IQR</em> for the first data set is greater than the <em>IQR</em> for the second set. This means that there is more variability in the middle 50 percent of the first data set.</p></li>
 
@@ -3321,7 +3378,7 @@ Construct a box plot using a graphing calculator for each data set, and state wh
       </solution>
     </exercise>
 
-    <p><em>West Magazine</em>. (n.d.). Retrieved from https://westmagazine.net/</p>
+    <p><em>West Magazine</em>. (n.d.). Retrieved from <url href="https://westmagazine.net/">https://westmagazine.net/</url></p>
 
     <p>Box plots are a type of graph that can help visually organize data. Before a box plot can be graphed, the following data points must be calculated: the minimum value, the first quartile, the median, the third quartile, and the maximum value. Once the box plot is graphed, you can display and compare distributions of data.</p>
 
@@ -3528,7 +3585,7 @@ Find the mode.
     <exercises xml:id="subsec-sampling-distributions">
       <title>Sampling Distributions and Statistic of a Sampling Distribution</title>
 
-    <p>You can think of a <term>sampling distribution</term> as a <em> relative frequency distribution</em> with a great many samples. See <em>Chapter 1: Sampling and Data</em> for a review of relative frequency. Suppose 30 randomly selected students were asked the number of movies they watched the previous week. The results are in the <em>relative frequency table</em> shown below.</p>
+    <p>You can think of a <term>sampling distribution</term> as a <em> relative frequency distribution</em> with a great many samples. See <xref ref="ch01-sampling-and-data">Chapter 1: Sampling and Data</xref> for a review of relative frequency. Suppose 30 randomly selected students were asked the number of movies they watched the previous week. The results are in the <em>relative frequency table</em> shown below.</p>
 
     <table>
       <tabular>
@@ -3725,9 +3782,9 @@ Mean = (1.75)(3) + (5.5)(7) + (9.5)(12) + (13.5)(7) + (17.5)(9) = 409.75
       </solution>
     </exercise>
 
-    <p>CIA World Factbook. (n.d.). <em>Obesity  adult prevalence rate</em>. Available at http://www.indexmundi.com/g/r.aspx?t=50&amp;v=2228&amp;l=en</p>
+    <p>CIA World Factbook. (n.d.). <em>Obesity  adult prevalence rate</em>. Available at <url href="http://www.indexmundi.com/g/r.aspx?t=50&amp;v=2228&amp;l=en">http://www.indexmundi.com/g/r.aspx?t=50&amp;v=2228&amp;l=en</url></p>
 
-    <p>World Bank Group. (n.d.). Retrieved from http://www.worldbank.org</p>
+    <p>World Bank Group. (n.d.). Retrieved from <url href="http://www.worldbank.org">http://www.worldbank.org</url></p>
 
     <p>The mean and the median can be calculated to help you find the <em>center</em> of a data set. The mean is the best estimate for the actual data set, but the median is the best measurement when a data set contains several outliers or extreme values. The mode will tell you the most frequently occurring datum (or data) in your data set. The mean, median, and mode are extremely helpful when you need to analyze your data, but if your data set consists of ranges that lack specific values, the mean may seem impossible to calculate. However, the mean can be approximated if you add the lower boundary with the upper boundary and divide by two to find the midpoint of each interval. Multiply each midpoint by the number of values found in the corresponding range. Divide the sum of these values by the total number of data values in the set.</p>
 
@@ -3900,20 +3957,24 @@ Frequency
             </statement>
             <solution>
               <ol>
-                <li><p>
-
-    
-
-    Terry’s distribution has a right (positive) skew.
-
-
-            
-    
-            Davis’s distribution has a left (negative) skew.
-                
-            
-                Maris’s distribution is symmetrically shaped.
-    </p></li>
+                <li><figure>
+                  <image source="media/CNX_Stats_C02_M08_030.jpg" width="80%">
+                    <description>This dot plot matches the supplied data for Terry. The plot uses a number line from 1 to 10. It shows one x over 1, two x's over 2, four x's over 3, one x over 4, one x over 7, and one x over 9. There are no x's over the numbers 5, 6, 8, and 10.</description>
+                  </image>
+                  <caption>Terry’s distribution has a right (positive) skew.</caption>
+                </figure>
+                <figure>
+                  <image source="media/CNX_Stats_C02_M08_031.jpg" width="80%">
+                    <description>This dot plot matches the supplied data for Davis. The plot uses a number line from 1 to 10. It shows two x's over 1, one x over 2, five x's over 3, and two x's over 4. There are no x's over the numbers 5, 6, 7, 8, 9, and 10.</description>
+                  </image>
+                  <caption>Davis’s distribution has a left (negative) skew.</caption>
+                </figure>
+                <figure>
+                  <image source="media/CNX_Stats_C02_M08_032.jpg" width="80%">
+                    <description>This dot plot matches the supplied data for Maris. The plot uses a number line from 1 to 10. It shows one x over 2, two x's over 3, three x's over 4, three x's over 6, and one x over 8. There are no x's over the numbers 1, 5, 7, 9, and 10.</description>
+                  </image>
+                  <caption>Maris’s distribution is symmetrically shaped.</caption>
+                </figure></li>
                 <li><p>Terry’s mean is 3.7, Davis’s mean is 2.7, and Maris’s mean is 4.6.</p></li>
                 <li><p>Terry’s median is 3, Davis’s median is 3, and Maris’s median is four. It would be helpful to manually calculate these descriptive statistics, using the given data sets and then compare to the graphs.</p></li>
                 <li><p>It appears that the median is always closest to the high point (the mode), while the mean tends to be farther out on the tail. In a symmetrical distribution, the mean and the median are both centrally located close to the high point of the distribution.</p></li>
@@ -4751,6 +4812,33 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
           </tabular>
         </table>
       </statement>
+        <solution>
+          <p>First, press the <em>STAT</em> key and select <em>1:Edit</em>.</p>
+          <figure>
+            <image source="media/CNX_Stats_C02_M09_016.jpg" width="45%">
+              <description>Calculator screen showing edit, calc, tests on the top line with 1:Edit, 2:SortA, 3:SortD, 4:ClrList, and 5:SetUpEditor.</description>
+            </image>
+          </figure>
+          <p>Input the midpoint values into <em>L1</em> and the frequencies into <em>L2</em>.</p>
+          <figure>
+            <image source="media/CNX_Stats_C02_M09_017.jpg" width="45%">
+              <description>Calculator list editor showing midpoint values 1, 4, 7, 10, 13, and 16 in L1 and frequencies 1, 6, 10, 7, 0, and 2 in L2.</description>
+            </image>
+          </figure>
+          <p>Select <em>STAT</em>, <em>CALC</em>, and <em>1:1-Var Stats</em>.</p>
+          <figure>
+            <image source="media/CNX_Stats_C02_M09_018.jpg" width="45%">
+              <description>Calculator menu with Calc highlighted and 1:1-Var Stats listed among the available options.</description>
+            </image>
+          </figure>
+          <p>Select <em>2nd</em>, then <em>1</em>, then <em>2nd</em>, then <em>2</em>, and press <em>Enter</em>.</p>
+          <figure>
+            <image source="media/CNX_Stats_C02_M09_019.jpg" width="45%">
+              <description>Calculator output showing x-bar, sigma x, sigma x squared, Sx, sigma x, and n for the grouped-data calculation.</description>
+            </image>
+          </figure>
+          <p>You will see displayed both a population standard deviation, <em>σ</em><m>_{x}</m>, and the sample standard deviation, <em>s</em><m>_{x}</m>.</p>
+        </solution>
     </exercise>
 
     <p>As explained before, a <em>z</em>-score allows us to compare statistics from different data sets. If the data sets have different means and standard deviations, then comparing the data values directly can be misleading.</p>
@@ -4883,7 +4971,7 @@ where <m>f=</m> interval frequencies and <em>m</em> = interval midpoints.</p>
       <li><p>It is important to note that this rule applies only when the shape of the distribution of the data is bell-shaped and symmetric; we will learn more about this when studying the <em>Normal</em> or <em>Gaussian</em> probability distribution in later chapters.</p></li>
     </ul>
 
-    <p>King, B. (2005, Dec.). <em>Graphically Speaking</em>. Retrieved from http://www.ltcc.edu/web/about/institutional-research</p>
+    <p>King, B. (2005, Dec.). <em>Graphically Speaking</em>. Retrieved from <url href="http://www.ltcc.edu/web/about/institutional-research">http://www.ltcc.edu/web/about/institutional-research</url></p>
 
     <p>Microsoft Bookshelf. (n.d.).</p>
 
@@ -5459,7 +5547,11 @@ In addition, when the team's most famous quarterback, played football, he weighe
           <li><p>272.5</p></li>
           <li><p>
 
-</p></li>
+</p><figure>
+            <image source="media/fig-ch02_sol_04.jpg" width="60%">
+              <description>A box plot with a whisker between 174 and 205.5, a solid line at 205.5, a dashed line at 241, a solid line at 272.5, and a whisker between 272.5 and 302.</description>
+            </image>
+          </figure></li>
           <li><p>205.5, 272.5</p></li>
           <li><p>sample</p></li>
           <li><p>population</p></li>
@@ -5771,7 +5863,11 @@ _____
         <li><p>Construct a histogram. Make five to six intervals. Sketch the graph using a ruler and pencil and scale the axes.
 
 
-</p></li>
+</p><figure>
+          <image source="media/fig-ch02_14_01.png" width="75%">
+            <description>A blank graph template for use with this problem.</description>
+          </image>
+        </figure></li>
         <li><p>Calculate the following values:
 
 
@@ -7535,14 +7631,22 @@ Overall, are the graphs more similar or different?
 
 
 
-</p></li>
+</p><figure>
+            <image source="media/CNX_Stats_C02_M03_106.jpg" width="75%">
+              <description>This is a histogram that matches the supplied data for singles. The x-axis shows the total charges in intervals of 50 from 50 to 350, and the y-axis shows the relative frequency in increments of 0.05 from 0 to 0.3.</description>
+            </image>
+          </figure></li>
           <li><p>In the following histogram, the data values that fall on the right boundary are counted in the class interval, while values that fall on the left boundary are not counted, with the exception of the first interval, where values on both boundaries are included.
 
 
 
 
 
-</p></li>
+</p><figure>
+            <image source="media/CNX_Stats_C02_M03_107.jpg" width="75%">
+              <description>This is a histogram that matches the supplied data for couples. The x-axis shows the total charges in intervals of 50 from 100 to 650, and the y-axis shows the relative frequency in increments of 0.02 from 0 to 0.16.</description>
+            </image>
+          </figure></li>
           <li><p>Compare the two graphs.
     Answers may vary. Possible answers include the following:
       
@@ -7633,6 +7737,11 @@ Overall, are the graphs more similar or different?
     </exercise>
 
     <p><em>Use the following information to answer the next two exercises:</em> Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.</p>
+    <figure>
+      <image source="media/fig-ch02_13_11.jpg" width="75%">
+        <description>A histogram showing the results of a survey. Of 111 respondents, 5 own 1 t-shirt costing more than $19, 17 own 2, 23 own 3, 39 own 4, 25 own 5, 2 own 6, and no respondents own 7.</description>
+      </image>
+    </figure>
 
     <exercise xml:id="fs-idm24292288">
       <statement>
@@ -8251,11 +8360,19 @@ For <em>Data 1</em>, there are more data values below four than there are above 
           <li><p>If the two histograms depict the distribution of values for each supervisor, which one depicts Ercilia’s sample?  How do you know?
 
 
-</p></li>
+</p><figure>
+            <image source="media/fig-ch02_13_09.jpg" width="80%">
+              <description>This shows two histograms. The first histogram shows a fairly symmetrical distribution with a mode of 6. The second histogram shows a uniform distribution.</description>
+            </image>
+          </figure></li>
           <li><p>If the two box plots depict the distribution of values for each supervisor, which one depicts Ercilia’s sample?  How do you know?
 
 
-</p></li>
+</p><figure>
+            <image source="media/fig-ch02_13_10.jpg" width="80%">
+              <description>This shows two horizontal boxplots. The first boxplot is graphed over a number line from 0 to 21. The first whisker extends from 0 to 1. The box begins at the first quartile, 1, and ends at the third quartile, 14. A vertical, dashed line marks the median at 6. The second whisker extends from the third quartile to the largest value, 21. The second boxplot is graphed over a number line from 0 to 12. The first whisker extends from 0 to 4. The box begins at the first quartile, 4, and ends at the third quartile, 9. A vertical, dashed line marks the median at 6. The second whisker extends from the third quartile to the largest value, 12.</description>
+            </image>
+          </figure></li>
         </ol>
       </statement>
     </exercise>
@@ -8410,17 +8527,17 @@ For <em>Data 1</em>, there are more data values below four than there are above 
     <title>References</title>
     
     <p>Data from the San Jose Mercury News.</p>
-    <p>Data from <em>The World Almanac and Book of Facts</em>. Retrieved from www.worldalmanac.com.</p>
-    <p>Data from www.businessweek.com (accessed May 1, 2013).</p>
-    <p>Data from www.forbes.com (accessed May 1, 2013).</p>
-    <p>Data from http://www.nba.com (accessed May 1, 2013).</p>
-    <p>Data from http://www.baseball-almanac.com (accessed May 1, 2013).</p>
-    <p>"Demographics: Obesity – adult prevalence rate." Retrieved from www.indexmundi.com.</p>
-    <p>"MLB Standings 2011." Retrieved from http://www.baseball-reference.com.</p>
-    <p>"The College Board." Retrieved from www.collegeboard.org.</p>
-    <p>"NFL.com –  Official Site of the National Football League." Retrieved from http://www.nfl.com.</p>
-    <p>"Overweight and Obesity: Adult Obesity Facts." Retrieved from http://www.cdc.gov.</p>
-    <p>"Wind Chill." Retrieved from http://www.weather.com.</p>
+    <p>Data from <em>The World Almanac and Book of Facts</em>. Retrieved from <url href="https://www.worldalmanac.com">www.worldalmanac.com</url>.</p>
+    <p>Data from <url href="https://www.businessweek.com">www.businessweek.com</url> (accessed May 1, 2013).</p>
+    <p>Data from <url href="https://www.forbes.com">www.forbes.com</url> (accessed May 1, 2013).</p>
+    <p>Data from <url href="http://www.nba.com">http://www.nba.com</url> (accessed May 1, 2013).</p>
+    <p>Data from <url href="http://www.baseball-almanac.com">http://www.baseball-almanac.com</url> (accessed May 1, 2013).</p>
+    <p>"Demographics: Obesity – adult prevalence rate." Retrieved from <url href="https://www.indexmundi.com">www.indexmundi.com</url>.</p>
+    <p>"MLB Standings 2011." Retrieved from <url href="http://www.baseball-reference.com">http://www.baseball-reference.com</url>.</p>
+    <p>"The College Board." Retrieved from <url href="https://www.collegeboard.org">www.collegeboard.org</url>.</p>
+    <p>"NFL.com –  Official Site of the National Football League." Retrieved from <url href="http://www.nfl.com">http://www.nfl.com</url>.</p>
+    <p>"Overweight and Obesity: Adult Obesity Facts." Retrieved from <url href="http://www.cdc.gov">http://www.cdc.gov</url>.</p>
+    <p>"Wind Chill." Retrieved from <url href="http://www.weather.com">http://www.weather.com</url>.</p>
   </section>
 
 

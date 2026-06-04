@@ -130,8 +130,8 @@
 
     <subsection xml:id="ch12-eip-746">
       <title>References</title>
-      <p>Centers for Disease Control and Prevention. (n.d.). Retrieved from https://www.cdc.gov/</p>
-      <p>National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention. (n.d.). Centers for Disease Control and Prevention. Retrieved from https://www.cdc.gov/nchhstp/default.htm</p>
+      <p>Centers for Disease Control and Prevention. (n.d.). Retrieved from <url href="https://www.cdc.gov/">https://www.cdc.gov/</url></p>
+      <p>National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention. (n.d.). Centers for Disease Control and Prevention. Retrieved from <url href="https://www.cdc.gov/nchhstp/default.htm">https://www.cdc.gov/nchhstp/default.htm</url></p>
     </subsection>
 
     <subsection xml:id="eip-645">
@@ -736,6 +736,43 @@ What the conclusion means: There is not a significant linear relationship betwee
       </note>
     </subsection>
 
+    <subsection xml:id="fs-idp18638240">
+      <title>METHOD 1: Using a <m>p</m>-value to Make a Decision</title>
+      <note xml:id="fs-idp16405840">
+        <p>To calculate the <m>p</m>-value using <c>LinRegTTEST</c>:</p>
+        <ol>
+          <li>Complete the same steps as the <c>LinRegTTest</c> performed previously in this chapter, making sure on the line prompt for <c>β or σ, ≠ 0</c> is highlighted.</li>
+          <li>When looking at the output screen, the <m>p</m>-value is on the line that reads <c>p =</c>.</li>
+        </ol>
+      </note>
+      <p>If the <m>p</m>-value is less than the significance level (<m>α</m> = 0.05):</p>
+      <ul>
+        <li>Decision: Reject the null hypothesis.</li>
+        <li>Conclusion: There is sufficient evidence to conclude there is a significant linear relationship between <m>x</m> and <m>y</m> because the correlation coefficient is significantly different from zero.</li>
+      </ul>
+      <p>If the <m>p</m>-value is <em>not</em> less than the significance level (<m>α</m> = 0.05):</p>
+      <ul>
+        <li>Decision: Do not reject the null hypothesis.</li>
+        <li>Conclusion: There is insufficient evidence to conclude there is a significant linear relationship between <m>x</m> and <m>y</m> because the correlation coefficient is not significantly different from zero.</li>
+      </ul>
+      <p>You will use technology to calculate the <m>p</m>-value, but it is useful to know that the <m>p</m>-value is calculated using a <m>t</m> distribution with <m>n</m> – 2 degrees of freedom and that the <m>p</m>-value is the combined area in both tails.</p>
+      <p>An alternative way to calculate the <m>p</m>-value (<m>p</m>) given by LinRegTTest is the command <c>2*tcdf(abs(t),10^99, n–2)</c> in <c>2nd DISTR</c>.</p>
+      <p>Third Exam vs. Final Exam Example: <m>p</m>-value Method</p>
+      <p>Consider the <xref ref="element-22" text="custom">third exam/final exam example</xref>. The line of best fit is <m>ŷ</m> = –173.51 + 4.83<m>x</m>, with <m>r</m> = 0.6631, and there are <m>n</m> = 11 data points. Can the regression line be used for prediction? Given a third exam score (<m>x</m> value), can we use the line to predict the final exam score (predicted <m>y</m> value)?</p>
+      <ul>
+        <li><m>H</m>_{0}: <m>ρ</m> = 0</li>
+        <li><em>H_{a}</em>: <m>ρ</m> ≠ 0</li>
+        <li><m>α</m> = 0.05</li>
+      </ul>
+      <ul>
+        <li>The <m>p</m>-value is 0.026 (from LinRegTTest on a calculator or from computer software).</li>
+        <li>The <m>p</m>-value, 0.026, is less than the significance level of <m>α</m> = 0.05.</li>
+        <li>Decision: Reject the null hypothesis <m>H</m>_{0}.</li>
+        <li>Conclusion: There is sufficient evidence to conclude there is a significant linear relationship between the third exam score (<m>x</m>) and the final exam score (<m>y</m>) because the correlation coefficient is significantly different from zero.</li>
+      </ul>
+      <p>Because <m>r</m> is significant and the scatter plot shows a linear trend, the regression line can be used to predict final exam scores.</p>
+    </subsection>
+
     <subsection xml:id="fs-idm89842304">
       <title>Third Exam vs. Final Exam Example: Critical Value Method</title>
       <p>Consider the <xref ref="element-22" text="custom">third exam/final exam example</xref>.
@@ -753,6 +790,39 @@ The line of best fit is: <m>ŷ</m> = –173.51 + 4.83<m>x</m>, with <m>r</m> = .
         <li>Conclusion: There is sufficient evidence to conclude there is a significant  linear relationship between the third exam score (<m>x</m>) and the final exam score (<m>y</m>) because the correlation coefficient is significantly different from zero.</li>
       </ul>
       <p>Because <m>r</m> is significant and the scatter plot shows a linear trend, the regression line can be used to predict final exam scores.</p>
+      <example>
+        <statement>
+          <p>Suppose you computed <m>r</m> = 0.801 using <m>n</m> = 10 data points. The degrees of freedom would be 8 (<m>df</m> = <m>n</m> – 2 = 10 – 2 = 8). Using the <xref ref="eip-518">95 Percent Critical Values of the Sample Correlation Coefficient Table</xref> with <m>df</m> = 8, we find that the critical value is 0.632. This means the critical values are really ±0.632. Since <m>r</m> = 0.801 and 0.801 &gt; 0.632, <m>r</m> is significant and the line may be used for prediction. If you view this example on a number line, it will help you to see that <m>r</m> is not between the two critical values.</p>
+          <figure>
+            <image source="media/fig-ch12_07_01.jpg" width="76%">
+              <description>Horizontal number line with values of -1, -0.632, 0, 0.632, 0.801, and 1. A dashed line above values -0.632, 0, and 0.632 indicates not significant values.</description>
+            </image>
+            <caption><m>r</m> is not between –0.632 and 0.632, so <m>r</m> is significant.</caption>
+          </figure>
+        </statement>
+      </example>
+      <example>
+        <statement>
+          <p>Suppose you computed <m>r</m> = –0.624 with 14 data points, where <m>df</m> = 14 – 2 = 12. The critical values are –0.532 and 0.532. Since –0.624 &lt; –0.532, <m>r</m> is significant and the line can be used for prediction.</p>
+          <figure>
+            <image source="media/fig-ch12_07_02.jpg" width="76%">
+              <description>Horizontal number line with values of -0.624, -0.532, and 0.532.</description>
+            </image>
+            <caption><m>r</m> = –0.624 and –0.624 &lt; –0.532. Therefore, <m>r</m> is significant.</caption>
+          </figure>
+        </statement>
+      </example>
+      <example>
+        <statement>
+          <p>Suppose you computed <m>r</m> = 0.776 and <m>n</m> = 6, with <m>df</m> = 6 – 2 = 4. The critical values are –0.811 and 0.811. Since 0.776 is between the two critical values, <m>r</m> is not significant. The line should not be used for prediction.</p>
+          <figure>
+            <image source="media/fig-ch12_07_03.jpg" width="76%">
+              <description>Horizontal number line with values -0.924, -0.532, and 0.532.</description>
+            </image>
+            <caption>–0.811 &lt; <m>r</m> = 0.776 &lt; 0.811. Therefore, <m>r</m> is not significant.</caption>
+          </figure>
+        </statement>
+      </example>
       <example xml:id="element-433">
         <statement>
           <p>Suppose you computed the following correlation coefficients. Using the table at the end of the chapter, determine whether <m>r</m> is significant and whether the line of best fit associated with each correlation coefficient can be used to predict a <m>y</m> value. If it helps, draw a number line.</p>
@@ -888,10 +958,10 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
 
     <subsection xml:id="eip-368">
       <title>References</title>
-      <p>Centers for Disease Control and Prevention. (n.d.). Retrieved from https://www.cdc.gov/</p>
-      <p>National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention. (n.d.). Centers for Disease Control and Prevention. Retrieved from https://www.cdc.gov/nchhstp/default.htm</p>
-      <p>National Center for Health Statistics. (n.d.). Centers for Disease Control and Prevention. Retrieved from https://www.cdc.gov/nchs/index.htm</p>
-      <p>U.S. Census Bureau. (n.d.). Retrieved from http://www.census.gov/compendia/statab/cats/transportation/motor_vehicle_accidents_and_fatalities.html</p>
+      <p>Centers for Disease Control and Prevention. (n.d.). Retrieved from <url href="https://www.cdc.gov/">https://www.cdc.gov/</url></p>
+      <p>National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention. (n.d.). Centers for Disease Control and Prevention. Retrieved from <url href="https://www.cdc.gov/nchhstp/default.htm">https://www.cdc.gov/nchhstp/default.htm</url></p>
+      <p>National Center for Health Statistics. (n.d.). Centers for Disease Control and Prevention. Retrieved from <url href="https://www.cdc.gov/nchs/index.htm">https://www.cdc.gov/nchs/index.htm</url></p>
+      <p>U.S. Census Bureau. (n.d.). Retrieved from <url href="http://www.census.gov/compendia/statab/cats/transportation/motor_vehicle_accidents_and_fatalities.html">http://www.census.gov/compendia/statab/cats/transportation/motor_vehicle_accidents_and_fatalities.html</url></p>
     </subsection>
 
     <subsection xml:id="ch12-eip-469">
@@ -1290,7 +1360,7 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
             <li>See .</li>
             <li>Using our calculator, <m>ŷ</m> = 3204 + 1.662<m>x</m> is the equation of the line of best fit.</li>
             <li>See .</li>
-            <li><m>r</m> = 0.8694. The number of data points is <m>n</m> = 14. Use the 95 Percent Critical Values of the Sample Correlation Coefficient table at the end of Chapter 12: In this case, <m>df</m> = 12. The corresponding critical values from the table are ±0.532. Since 0.8694 &gt; 0.532, <m>r</m> is significant. We can use the predicted regression line we found above to make the prediction for <m>x</m> = 1990.</li>
+            <li><m>r</m> = 0.8694. The number of data points is <m>n</m> = 14. Use the <xref ref="eip-518">95 Percent Critical Values of the Sample Correlation Coefficient table</xref>: In this case, <m>df</m> = 12. The corresponding critical values from the table are ±0.532. Since 0.8694 &gt; 0.532, <m>r</m> is significant. We can use the predicted regression line we found above to make the prediction for <m>x</m> = 1990.</li>
             <li><m>ŷ</m> = 3204 + 1.662(1990) = 103.4 CPI.</li>
           </ol>
           <figure xml:id="eip-idp35936320">
@@ -1383,7 +1453,7 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
       <p>Committee on Ways and Means, U.S. House of Representatives. (n.d.). Washington, DC: U.S. Department of Health and Human Services.</p>
       <p>Microsoft Bookshelf. (n.d.).</p>
       <p>Physicians Desk Reference Staff. (1990). <em>Physicians desk reference</em>. Ohio: Medical Economics Company.</p>
-      <p>U.S. Bureau of Labor Statistics. (n.d.). Retrieved from https://www.bls.gov/</p>
+      <p>U.S. Bureau of Labor Statistics. (n.d.). Retrieved from <url href="https://www.bls.gov/">https://www.bls.gov/</url></p>
     </subsection>
 
     <subsection xml:id="eip-380">
@@ -2151,7 +2221,13 @@ What does the correlation imply about the relationship between the number of pag
           <li>Which variable is the dependent variable and which is the independent
 variable? Why?</li>
           <li>By hand, draw a scatter plot of <em>weight vs. fuel efficiency</em>. Plot the points on graph paper.
-Label both axes with words. Scale both axes accurately.</li>
+Label both axes with words. Scale both axes accurately.
+            <figure>
+              <image source="media/fig-ch12_16_01.png" width="80%">
+                <description>Blank graph with vertical and horizontal axes.</description>
+              </image>
+            </figure>
+          </li>
         </ol>
         <paragraphs><title>Analyze the Data</title><p>
 Enter your data into a calculator or computer. Write the linear equation, rounding to four decimal places.</p></paragraphs>
