@@ -130,8 +130,8 @@
 
     <subsection xml:id="ch12-eip-746">
       <title>References</title>
-      <p>Centers for Disease Control and Prevention. (n.d.). Retrieved from https://www.cdc.gov/</p>
-      <p>National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention. (n.d.). Centers for Disease Control and Prevention. Retrieved from https://www.cdc.gov/nchhstp/default.htm</p>
+      <p>Centers for Disease Control and Prevention. (n.d.). Retrieved from <url href="https://www.cdc.gov/">https://www.cdc.gov/</url></p>
+      <p>National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention. (n.d.). Centers for Disease Control and Prevention. Retrieved from <url href="https://www.cdc.gov/nchhstp/default.htm">https://www.cdc.gov/nchhstp/default.htm</url></p>
     </subsection>
 
     <subsection xml:id="eip-645">
@@ -888,10 +888,10 @@ It doesn't matter what the degrees of freedom are because <m>r</m> = 0 will al
 
     <subsection xml:id="eip-368">
       <title>References</title>
-      <p>Centers for Disease Control and Prevention. (n.d.). Retrieved from https://www.cdc.gov/</p>
-      <p>National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention. (n.d.). Centers for Disease Control and Prevention. Retrieved from https://www.cdc.gov/nchhstp/default.htm</p>
-      <p>National Center for Health Statistics. (n.d.). Centers for Disease Control and Prevention. Retrieved from https://www.cdc.gov/nchs/index.htm</p>
-      <p>U.S. Census Bureau. (n.d.). Retrieved from http://www.census.gov/compendia/statab/cats/transportation/motor_vehicle_accidents_and_fatalities.html</p>
+      <p>Centers for Disease Control and Prevention. (n.d.). Retrieved from <url href="https://www.cdc.gov/">https://www.cdc.gov/</url></p>
+      <p>National Center for HIV/AIDS, Viral Hepatitis, STD, and TB Prevention. (n.d.). Centers for Disease Control and Prevention. Retrieved from <url href="https://www.cdc.gov/nchhstp/default.htm">https://www.cdc.gov/nchhstp/default.htm</url></p>
+      <p>National Center for Health Statistics. (n.d.). Centers for Disease Control and Prevention. Retrieved from <url href="https://www.cdc.gov/nchs/index.htm">https://www.cdc.gov/nchs/index.htm</url></p>
+      <p>U.S. Census Bureau. (n.d.). Retrieved from <url href="http://www.census.gov/compendia/statab/cats/transportation/motor_vehicle_accidents_and_fatalities.html">http://www.census.gov/compendia/statab/cats/transportation/motor_vehicle_accidents_and_fatalities.html</url></p>
     </subsection>
 
     <subsection xml:id="ch12-eip-469">
@@ -1383,7 +1383,7 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
       <p>Committee on Ways and Means, U.S. House of Representatives. (n.d.). Washington, DC: U.S. Department of Health and Human Services.</p>
       <p>Microsoft Bookshelf. (n.d.).</p>
       <p>Physicians Desk Reference Staff. (1990). <em>Physicians desk reference</em>. Ohio: Medical Economics Company.</p>
-      <p>U.S. Bureau of Labor Statistics. (n.d.). Retrieved from https://www.bls.gov/</p>
+      <p>U.S. Bureau of Labor Statistics. (n.d.). Retrieved from <url href="https://www.bls.gov/">https://www.bls.gov/</url></p>
     </subsection>
 
     <subsection xml:id="eip-380">
