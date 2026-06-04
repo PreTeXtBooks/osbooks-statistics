@@ -2227,7 +2227,7 @@ Test of the two population proportions by testing one population mean of differe
             <li>Decision: Reject the null hypothesis.</li>
             <li>Reason for decision: <m>p</m>-value &lt; alpha</li>
             <li>Conclusion: At the 5 percent significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the <m>p</m>-value and alpha are quite close, so other tests should be done.</li>
-            <li>We are 95 percent confident that between 38.29 percent and 61.71 percent of family members will shed tears at a family reunion. (0.3829, 0.6171). The <em>plus-4s</em> confidence interval (see chapter 8) is (0.3861, 0.6139)</li>
+            <li>We are 95 percent confident that between 38.29 percent and 61.71 percent of family members will shed tears at a family reunion. (0.3829, 0.6171). The <em>plus-4s</em> confidence interval (see <xref ref="ch08-confidence-intervals">chapter 8</xref>) is (0.3861, 0.6139)</li>
           </ol>
           <p>Note that here the  <em>large-sample</em> 1 – PropZTest provides the approximate <m>p</m>-value of 0.0438. Whenever a <m>p</m>-value based on a normal approximation is close to the level of significance, the exact <m>p</m>-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course.</p>
           </solution>
@@ -2571,7 +2571,7 @@ Test of the two population proportions by testing one population mean of differe
             <li>Decision: Do not reject the null hypothesis.</li>
             <li>Reason for decision: The <m>p</m>-value is greater than 0.05.</li>
             <li>At the 5 percent significance level, there is insufficient evidence to conclude that the proportion of nursing home residents that have the disease is less than 0.14.</li>
-            <li>Confidence interval: (0.0502, 0.2070): The <em>plus-4s</em> confidence interval (see chapter 8) is (0.0676, 0.2297).</li>
+            <li>Confidence interval: (0.0502, 0.2070): The <em>plus-4s</em> confidence interval (see <xref ref="ch08-confidence-intervals">chapter 8</xref>) is (0.0676, 0.2297).</li>
           </ol>
           </solution>
         </exercise>

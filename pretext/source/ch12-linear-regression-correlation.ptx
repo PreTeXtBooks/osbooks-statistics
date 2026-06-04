@@ -1290,7 +1290,7 @@ The original line predicted that <m>ŷ</m> = –173.51 + 4.83(73) = 179.08, so t
             <li>See .</li>
             <li>Using our calculator, <m>ŷ</m> = 3204 + 1.662<m>x</m> is the equation of the line of best fit.</li>
             <li>See .</li>
-            <li><m>r</m> = 0.8694. The number of data points is <m>n</m> = 14. Use the 95 Percent Critical Values of the Sample Correlation Coefficient table at the end of Chapter 12: In this case, <m>df</m> = 12. The corresponding critical values from the table are ±0.532. Since 0.8694 &gt; 0.532, <m>r</m> is significant. We can use the predicted regression line we found above to make the prediction for <m>x</m> = 1990.</li>
+            <li><m>r</m> = 0.8694. The number of data points is <m>n</m> = 14. Use the <xref ref="eip-518">95 Percent Critical Values of the Sample Correlation Coefficient table</xref>: In this case, <m>df</m> = 12. The corresponding critical values from the table are ±0.532. Since 0.8694 &gt; 0.532, <m>r</m> is significant. We can use the predicted regression line we found above to make the prediction for <m>x</m> = 1990.</li>
             <li><m>ŷ</m> = 3204 + 1.662(1990) = 103.4 CPI.</li>
           </ol>
           <figure xml:id="eip-idp35936320">
