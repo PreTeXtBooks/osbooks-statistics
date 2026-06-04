@@ -736,6 +736,43 @@ What the conclusion means: There is not a significant linear relationship betwee
       </note>
     </subsection>
 
+    <subsection xml:id="fs-idp18638240">
+      <title>METHOD 1: Using a <m>p</m>-value to Make a Decision</title>
+      <note xml:id="fs-idp16405840">
+        <p>To calculate the <m>p</m>-value using <c>LinRegTTEST</c>:</p>
+        <ol>
+          <li>Complete the same steps as the <c>LinRegTTest</c> performed previously in this chapter, making sure on the line prompt for <c><m>β</m> or <m>σ</m>, ≠ 0</c> is highlighted.</li>
+          <li>When looking at the output screen, the <m>p</m>-value is on the line that reads <c>p =</c>.</li>
+        </ol>
+      </note>
+      <p>If the <m>p</m>-value is less than the significance level (<m>α</m> = 0.05):</p>
+      <ul>
+        <li>Decision: Reject the null hypothesis.</li>
+        <li>Conclusion: There is sufficient evidence to conclude there is a significant linear relationship between <m>x</m> and <m>y</m> because the correlation coefficient is significantly different from zero.</li>
+      </ul>
+      <p>If the <m>p</m>-value is <em>not</em> less than the significance level (<m>α</m> = 0.05):</p>
+      <ul>
+        <li>Decision: Do not reject the null hypothesis.</li>
+        <li>Conclusion: There is insufficient evidence to conclude there is a significant linear relationship between <m>x</m> and <m>y</m> because the correlation coefficient is not significantly different from zero.</li>
+      </ul>
+      <p>You will use technology to calculate the <m>p</m>-value, but it is useful to know that the <m>p</m>-value is calculated using a <m>t</m> distribution with <m>n</m> – 2 degrees of freedom and that the <m>p</m>-value is the combined area in both tails.</p>
+      <p>An alternative way to calculate the <m>p</m>-value (<m>p</m>) given by LinRegTTest is the command <c>2*tcdf(abs(t),10^99, n–2)</c> in <c>2nd DISTR</c>.</p>
+      <p>Third Exam vs. Final Exam Example: <m>p</m>-value Method</p>
+      <p>Consider the <xref ref="element-22" text="custom">third exam/final exam example</xref>. The line of best fit is <m>ŷ</m> = –173.51 + 4.83<m>x</m>, with <m>r</m> = 0.6631, and there are <m>n</m> = 11 data points. Can the regression line be used for prediction? Given a third exam score (<m>x</m> value), can we use the line to predict the final exam score (predicted <m>y</m> value)?</p>
+      <ul>
+        <li><m>H</m>_{0}: <m>ρ</m> = 0</li>
+        <li><em>H_{a}</em>: <m>ρ</m> ≠ 0</li>
+        <li><m>α</m> = 0.05</li>
+      </ul>
+      <ul>
+        <li>The <m>p</m>-value is 0.026 (from LinRegTTest on a calculator or from computer software).</li>
+        <li>The <m>p</m>-value, 0.026, is less than the significance level of <m>α</m> = 0.05.</li>
+        <li>Decision: Reject the null hypothesis <m>H</m>_{0}.</li>
+        <li>Conclusion: There is sufficient evidence to conclude there is a significant linear relationship between the third exam score (<m>x</m>) and the final exam score (<m>y</m>) because the correlation coefficient is significantly different from zero.</li>
+      </ul>
+      <p>Because <m>r</m> is significant and the scatter plot shows a linear trend, the regression line can be used to predict final exam scores.</p>
+    </subsection>
+
     <subsection xml:id="fs-idm89842304">
       <title>Third Exam vs. Final Exam Example: Critical Value Method</title>
       <p>Consider the <xref ref="element-22" text="custom">third exam/final exam example</xref>.
