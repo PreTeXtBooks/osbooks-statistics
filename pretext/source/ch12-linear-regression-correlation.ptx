@@ -741,7 +741,7 @@ What the conclusion means: There is not a significant linear relationship betwee
       <note xml:id="fs-idp16405840">
         <p>To calculate the <m>p</m>-value using <c>LinRegTTEST</c>:</p>
         <ol>
-          <li>Complete the same steps as the <c>LinRegTTest</c> performed previously in this chapter, making sure on the line prompt for <c><m>β</m> or <m>σ</m>, ≠ 0</c> is highlighted.</li>
+          <li>Complete the same steps as the <c>LinRegTTest</c> performed previously in this chapter, making sure on the line prompt for <c>β or σ, ≠ 0</c> is highlighted.</li>
           <li>When looking at the output screen, the <m>p</m>-value is on the line that reads <c>p =</c>.</li>
         </ol>
       </note>
