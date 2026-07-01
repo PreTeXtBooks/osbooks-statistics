@@ -422,7 +422,7 @@
         <p xml:id="ch05-element-919">Notice that the theoretical mean and standard deviation are close to the sample mean and standard deviation in this example.</p>
       </statement>
     </example>
-  <note xml:id="fs-idp70845248" class="statistics try">
+  <exercise xml:id="fs-idp70845248" class="statistics try">
     <task xml:id="fs-idp158465216">
       <title>Try It</title>
       <statement>
@@ -442,9 +442,8 @@
         <p xml:id="fs-idp111364752"><em>a</em> is zero, <em>b</em> is 14, <em>X</em> ~ <em>U</em> (0, 14), <em>μ</em> = 7 passengers, <em>σ</em> = 4.04 passengers</p>
       </solution>
     </task>
-  </note>
+  </exercise>
   <example xml:id="example-170">
-      <statement>
         <task xml:id="element-156">
           <title>Try It</title>
           <statement>
@@ -484,9 +483,8 @@
             <p xml:id="element-613">So, <em>P</em>(<em>x</em> &gt; <em>12</em>|<em>x</em> &gt; 8) = <m>\frac{(x&gt;12ANDx&gt;8)}{P(x&gt;8)}=\frac{P(x&gt;12)}{P(x&gt;8)}=\frac{\frac{11}{23}}{\frac{15}{23}}=\frac{11}{15}</m></p>
           </solution>
         </task>
-      </statement>
     </example>
-  <note xml:id="fs-idp61080304" class="statistics try">
+  <exercise xml:id="fs-idp61080304" class="statistics try">
     <task xml:id="fs-idp178484384">
       <title>Try It</title>
       <statement>
@@ -496,10 +494,11 @@
         <p xml:id="fs-idp3862896"><em>P</em>(2 &lt; <em>x</em> &lt; 18) = 0.8, 90<sup>th</sup> percentile = 18</p>
       </solution>
     </task>
-  </note>
+  </exercise>
   <example xml:id="element-158">
       <statement>
         <p xml:id="element-697">The amount of time, in minutes, that a person must wait for a bus is uniformly distributed between zero and 15 minutes, inclusive.</p>
+      </statement>
         <task xml:id="element-351">
           <title>Try It</title>
           <statement>
@@ -565,9 +564,8 @@ for 0 ≤ <em>x</em> ≤ 15.</p>
 The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a person must wait at most 13.5 minutes.</p>
           </solution>
         </task>
-      </statement>
     </example>
-  <note xml:id="fs-idp13010016" class="statistics try">
+  <exercise xml:id="fs-idp13010016" class="statistics try">
     <task xml:id="fs-idp51205632">
       <title>Try It</title>
       <statement>
@@ -590,10 +588,11 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         </ol>
       </solution>
     </task>
-  </note>
+  </exercise>
   <example xml:id="ch05-element-321">
       <statement>
         <p xml:id="element-637">Suppose the time it takes a nine-year old to eat a donut is between 0.5 and 4 minutes, inclusive. Let <em>X</em> = the time, in minutes, it takes a nine-year-old child to eat a doughnut. Then <em>X</em> ~ <em>U</em>(0.5, 4).</p>
+      </statement>
         <task xml:id="eip-idp102263568">
           <title>Try It</title>
           <statement>
@@ -615,14 +614,13 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
           </statement>
           <solution>
             <p xml:id="eip-idp15120208">b. <m>\frac{4}{5}</m></p>
+            <p xml:id="eip-idm70960944">The probability that a nine-year-old child eats a donut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes is <m>\frac{4}{5}</m>.</p>
+            <p xml:id="eip-idm39713200"><em>Second way:</em> Draw the original graph for <em>X</em> ~ <em>U</em>(0.5, 4). Use the conditional formula</p>
+            <men xml:id="fs-id1164566947548">P(x&gt;2|x&gt;1.5)=\frac{P(x&gt;2ANDx&gt;1.5)}{P(x&gt;1.5)}=\frac{P(x&gt;2)}{P(x&gt;1.5)}=\frac{\frac{2}{3.5}}{\frac{2.5}{3.5}}=0.8=\frac{4}{5}</men>
           </solution>
         </task>
-        <p xml:id="eip-idm70960944">The probability that a nine-year-old child eats a donut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes is <m>\frac{4}{5}</m>.</p>
-        <p xml:id="eip-idm39713200"><em>Second way:</em> Draw the original graph for <em>X</em> ~ <em>U</em>(0.5, 4). Use the conditional formula</p>
-        <men xml:id="fs-id1164566947548">P(x&gt;2|x&gt;1.5)=\frac{P(x&gt;2ANDx&gt;1.5)}{P(x&gt;1.5)}=\frac{P(x&gt;2)}{P(x&gt;1.5)}=\frac{\frac{2}{3.5}}{\frac{2.5}{3.5}}=0.8=\frac{4}{5}</men>
-      </statement>
     </example>
-  <note xml:id="fs-idp42235264" class="statistics try">
+  <exercise xml:id="fs-idp42235264" class="statistics try">
     <task xml:id="fs-idp177663840">
       <title>Try It</title>
       <statement>
@@ -634,10 +632,11 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         <p xml:id="fs-idp63181504"><em>P</em> (<em>x</em> &gt; 8 | x &gt; 7) = 0.875</p>
       </solution>
     </task>
-  </note>
+  </exercise>
   <example xml:id="eip-323">
       <statement>
         <p xml:id="eip-id1170213489898">Ace Heating and Air Conditioning Service finds that the amount of time a repairman needs to fix a furnace is uniformly distributed between 1.5 and four hours. Let <em>x</em> = the time needed to fix a furnace. Then <em>x</em> ~ <em>U</em>(1.5, 4).</p>
+      </statement>
         <task xml:id="eip-idm8252240">
           <title>Try It</title>
           <statement>
@@ -659,9 +658,8 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
             </figure>
           </solution>
         </task>
-      </statement>
     </example>
-  <note xml:id="fs-idm9097392" class="statistics try">
+  <exercise xml:id="fs-idm9097392" class="statistics try">
     <task xml:id="fs-idp8673008">
       <title>Try It</title>
       <statement>
@@ -684,7 +682,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         </ol>
       </solution>
     </task>
-  </note>
+  </exercise>
   <subsection xml:id="fs-idp87344528">
     <title>Chapter Review</title>
     <p xml:id="fs-idp24264368">If <em>X</em> has a uniform distribution where <em>a</em> &lt; <em>x</em> &lt; <em>b</em> or <em>a</em> ≤ <em>x</em> ≤ <em>b</em>, then <em>X</em> takes on values between <em>a</em> and <em>b</em> (may include <em>a</em> and <em>b</em>). All values <em>x</em> are equally likely. We write <em>X</em> ∼ <em>U</em>(<em>a</em>, <em>b</em>). The mean of <em>X</em> is <m>μ=\frac{a+b}{2}</m>. The standard deviation of <em>X</em> is <m>σ=\sqrt{\frac{(b-a)^{2}}{12}}</m>. The probability density function of <em>X</em> is <m>f(x)=\frac{1}{b-a}</m> for <em>a</em> ≤ <em>x</em> ≤ <em>b</em>. The cumulative distribution function of <em>X</em> is <em>P</em>(<em>X</em> ≤ <em>x</em>) = <m>\frac{x-a}{b-a}</m>. <em>X</em> is continuous.</p>

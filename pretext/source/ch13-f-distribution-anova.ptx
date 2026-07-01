@@ -1095,7 +1095,7 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
           <p>Compare <m>α</m> and the <m>p</m>-value: <m>α</m> = 0.10; <m>α</m> &gt; <m>p</m>-value.</p>
           <p>Make a decision: Since <m>α</m> &gt; <m>p</m>-value, reject <em>H_{0}</em>.</p>
           <p>Conclusion: With a 10 percent level of significance from the data, there is sufficient evidence to conclude that the variance in grades for the first instructor is smaller.</p>
-          <p>Press <c>STAT</c> and arrow over to <c>TESTS</c>. Arrow down to <c>D:2-SampFTest</c>. Press <c>ENTER</c>. Arrow to <c>Stats</c> and press <c>ENTER</c>. For <c>Sx1</c>, <c>n1</c>, <c>Sx2</c>, and <c>n2</c>, enter <c><m>\sqrt{(}</m></c>, <c>30</c>, <c><m>\sqrt{(}</m></c>, and <c>30</c>. Press <c>ENTER</c> after each. Arrow to <c>σ1:</c> and <c><m></m>σ2</c>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. <m>F</m> = 0.5818 and <m>p</m>-value = 0.0753. Do the procedure again and try <c>Draw</c> instead of <c>Calculate</c>.</p>
+          <p>Press <c>STAT</c> and arrow over to <c>TESTS</c>. Arrow down to <c>D:2-SampFTest</c>. Press <c>ENTER</c>. Arrow to <c>Stats</c> and press <c>ENTER</c>. For <c>Sx1</c>, <c>n1</c>, <c>Sx2</c>, and <c>n2</c>, enter <c>sqrt(</c>, <c>30</c>, <c>sqrt(</c>, and <c>30</c>. Press <c>ENTER</c> after each. Arrow to <c>σ1:</c> and <c>σ2</c>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. <m>F</m> = 0.5818 and <m>p</m>-value = 0.0753. Do the procedure again and try <c>Draw</c> instead of <c>Calculate</c>.</p>
           <figure xml:id="ch13-m79706-anova_twotests">
             <image source="media/fig-ch13_05_01N.jpg" width="76%"/>
           </figure>

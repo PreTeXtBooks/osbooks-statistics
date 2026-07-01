@@ -225,7 +225,7 @@ Use <m>t_{df}</m> where <m>df</m> is calculated using the <m>df</m> formula for 
         </ol>
         <p>(See the conclusion in , and write yours in a similar fashion.)</p>
         <note xml:id="fs-idm11616112">
-          <p>First put the data for each group into two lists (such as <c>L1</c> and <c>L2</c>). Press <c>STAT</c>. Arrow over to <c>TESTS</c> and press <c>4:2SampTTest</c>. Make sure <c>Data</c> is highlighted and press <c>ENTER</c>. Arrow down and enter <c>L1</c> for the first list and <c>L2</c> for the second list. Arrow down to <c><m>μ</m>_{1}:</c> and arrow to <c>&lt; <m>μ</m>_{2}</c> (less than). Press <c>ENTER</c>. Arrow down to <c>Pooled: No</c>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>.</p>
+          <p>First put the data for each group into two lists (such as <c>L1</c> and <c>L2</c>). Press <c>STAT</c>. Arrow over to <c>TESTS</c> and press <c>4:2SampTTest</c>. Make sure <c>Data</c> is highlighted and press <c>ENTER</c>. Arrow down and enter <c>L1</c> for the first list and <c>L2</c> for the second list. Arrow down to <c>μ_1:</c> and arrow to <c>&lt; μ_2</c> (less than). Press <c>ENTER</c>. Arrow down to <c>Pooled: No</c>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>.</p>
         </note>
         <note xml:id="fs-idm107478368">
           <title>Note</title>
@@ -453,7 +453,7 @@ significance.</p>
         <p>Make a decision: Since <m>α</m> &lt; <m>p</m> value, do not reject <m>H_0</m>.</p>
         <p>Conclusion: At the 5 percent level of significance, from the sample data, there is not sufficient evidence to conclude that the mean time Wax 1 lasts is longer (Wax 1 is more effective) than the mean time Wax 2 lasts.</p>
         <note xml:id="fs-idp34028208">
-          <p>Press <c>STAT</c>. Arrow over to <c>TESTS</c> and press <c>3:2-SampZTest</c>. Arrow over to <c>Stats</c> and press <c>ENTER</c>. Arrow down and enter <c>.33</c> for sigma1, <c>.36</c> for sigma2, <c>3</c> for the first sample mean, <c>20</c> for n1, <c>2.9</c> for the second sample mean, and <c>20</c> for n2. Arrow down to <c><m>μ</m>1:</c> and arrow to <c>&gt; <m>μ</m>_{2}</c>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. The <m>p</m> value is <m>p</m> = 0.1799, and the test statistic is 0.9157. Do the procedure again, but instead of <c>Calculate</c> do <c>Draw</c>.</p>
+          <p>Press <c>STAT</c>. Arrow over to <c>TESTS</c> and press <c>3:2-SampZTest</c>. Arrow over to <c>Stats</c> and press <c>ENTER</c>. Arrow down and enter <c>.33</c> for sigma1, <c>.36</c> for sigma2, <c>3</c> for the first sample mean, <c>20</c> for n1, <c>2.9</c> for the second sample mean, and <c>20</c> for n2. Arrow down to <c>μ1:</c> and arrow to <c>&gt; μ_2</c>. Press <c>ENTER</c>. Arrow down to <c>Calculate</c> and press <c>ENTER</c>. The <m>p</m> value is <m>p</m> = 0.1799, and the test statistic is 0.9157. Do the procedure again, but instead of <c>Calculate</c> do <c>Draw</c>.</p>
         </note>
       </solution>
     </example>
