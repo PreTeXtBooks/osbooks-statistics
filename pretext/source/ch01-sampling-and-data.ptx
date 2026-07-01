@@ -102,15 +102,15 @@
           <p xml:id="fs-idm41922176">Determine what the key terms refer to in the following study.</p>
           <p xml:id="fs-idm14780304">A study was conducted at a local high school to analyze the average cumulative GPAs of students who graduated last year. Fill in the letter of the phrase that best describes each of the items below.</p>
           <p xml:id="fs-idm49702528">1. Population ____  2. Statistic ____  3. Parameter ____  4. Sample ____  5. Variable ____  6. Data ____</p>
-          <ul xml:id="fs-idm9097856">
-            <li>a) all students who attended the high school last year</li>
-            <li>b) the cumulative GPA of one student who graduated from the high school last year</li>
-            <li>c) 3.65, 2.80, 1.50, 3.90</li>
-            <li>d) a group of students who graduated from the high school last year, randomly selected</li>
-            <li>e) the average cumulative GPA of students who graduated from the high school last year</li>
-            <li>f) all students who graduated from the high school last year</li>
-            <li>g) the average cumulative GPA of students in the study who graduated from the high school last year</li>
-          </ul>
+          <ol marker="a" xml:id="fs-idm9097856">
+            <li><p>all students who attended the high school last year</p></li>
+            <li><p>the cumulative GPA of one student who graduated from the high school last year</p></li>
+            <li><p>3.65, 2.80, 1.50, 3.90</p></li>
+            <li><p>a group of students who graduated from the high school last year, randomly selected</p></li>
+            <li><p>the average cumulative GPA of students who graduated from the high school last year</p></li>
+            <li><p>all students who graduated from the high school last year</p></li>
+            <li><p>the average cumulative GPA of students in the study who graduated from the high school last year</p></li>
+          </ol>
         </statement>
         <solution>
           <p xml:id="fs-idm53173376">1. f, 2. g, 3. e, 4. d, 5. b, 6. c
@@ -171,9 +171,9 @@
     <title>Data, Sampling, and Variation in Data and Sampling</title>
     <subsection xml:id="fs-id1164564371802">
       <p xml:id="id7862377">Data may come from a population or from a sample. Lowercase letters like <m>x</m> or <m>y</m> generally are used to represent data values. Most data can be put into the following categories:</p>
-      <ul xml:id="id10607985">
-        <li>Qualitative</li>
-        <li>Quantitative</li>
+      <ul>
+        <li><p>Qualitative</p></li>
+        <li><p>Quantitative</p></li>
       </ul>
       <p xml:id="id9602938"><term>Qualitative data</term> are the result of categorizing or describing attributes of a population. Qualitative data are also often called <term>categorical data</term>. Hair color, blood type, ethnic group, the car a person drives, and the street a person lives on are examples of qualitative data. Qualitative data are generally described by words or letters. For instance, hair color might be black, dark brown, light brown, blonde, gray, or red. Blood type might be AB+, O–, or B+. Researchers often prefer to use quantitative data over qualitative data because it lends itself more easily to mathematical analysis. For example, it does not make sense to find an average hair color or blood type.</p>
       <p xml:id="id3365343"><term>Quantitative data</term> are always numbers. Quantitative data are the result of <em>counting</em> or <em>measuring</em> attributes of a population. Amount of money, pulse rate, weight, number of people living in your town, and number of students who take statistics are examples of quantitative data. Quantitative data may be either <term>discrete</term> or <term>continuous</term>.</p>
@@ -224,10 +224,10 @@
             </statement>
             <solution>
               <p xml:id="fs-idm84978080">A possible solution</p>
-              <ul xml:id="fs-idp14197904">
-                <li>One example of a quantitative discrete data set would be three cans of soup, two packages of nuts, four kinds of vegetables, and two desserts because you count them.</li>
-                <li>The weights of the soups (19 ounces, 14.1 ounces, 19 ounces) are quantitative continuous data because you measure weights as precisely as possible.</li>
-                <li>Types of soups, nuts, vegetables, and desserts are qualitative data because they are categorical.</li>
+              <ul>
+                <li><p>One example of a quantitative discrete data set would be three cans of soup, two packages of nuts, four kinds of vegetables, and two desserts because you count them.</p></li>
+                <li><p>The weights of the soups (19 ounces, 14.1 ounces, 19 ounces) are quantitative continuous data because you measure weights as precisely as possible.</p></li>
+                <li><p>Types of soups, nuts, vegetables, and desserts are qualitative data because they are categorical.</p></li>
               </ul>
             </solution>
           </task>
@@ -254,16 +254,16 @@
       <example xml:id="fs-idm36372528">
         <statement>
           <p xml:id="element-318">Work collaboratively to determine the correct data type: quantitative or qualitative. Indicate whether quantitative data are continuous or discrete. Hint: Data that are discrete often start with the words <em>the number of</em>.</p>
-          <ul xml:id="element-861">
-            <li>the number of pairs of shoes you own</li>
-            <li>the type of car you drive</li>
-            <li>the distance from your home to the nearest grocery store</li>
-            <li>the number of classes you take per school year</li>
-            <li>the type of calculator you use</li>
-            <li>weights of sumo wrestlers</li>
-            <li>number of correct answers on a quiz</li>
-            <li>IQ scores (This may cause some discussion.)</li>
-          </ul>
+          <ol marker="a" xml:id="element-861">
+            <li><p>the number of pairs of shoes you own</p></li>
+            <li><p>the type of car you drive</p></li>
+            <li><p>the distance from your home to the nearest grocery store</p></li>
+            <li><p>the number of classes you take per school year</p></li>
+            <li><p>the type of calculator you use</p></li>
+            <li><p>weights of sumo wrestlers</p></li>
+            <li><p>number of correct answers on a quiz</p></li>
+            <li><p>IQ scores (This may cause some discussion.)</p></li>
+          </ol>
         </statement>
         <solution>
           <p xml:id="exercise-solutions-1">Items a, d, and g are quantitative discrete; items c, f, and h are quantitative continuous; items b and e are qualitative or categorical.</p>
@@ -747,12 +747,12 @@
       <p xml:id="id12688561">The random numbers .94360 and .99832 do not contain appropriate two digit numbers. However the third random number, .14669, contains 14 (the fourth random number also contains 14), the fifth random number contains 05, and the seventh random number contains 04. The two-digit number 14 corresponds to Lundquist, 05 corresponds to Cuningham, and 04 corresponds to Cuarismo. Besides herself, Lisa’s group will consist of Lundquist, Cuningham, and Cuarismo.</p>
       <note xml:id="fs-idm55433408">
         <p xml:id="fs-idp18611456">To generate random numbers perform the following steps:</p>
-        <ul xml:id="eip-752">
-          <li>Press MATH.</li>
-          <li>Arrow over to PRB.</li>
-          <li>Press 5:randInt(0, 30).</li>
-          <li>Press ENTER for the first random number.</li>
-          <li>Press ENTER two more times for the other two random numbers. If there is a repeat press ENTER again.</li>
+        <ul>
+          <li><p>Press MATH.</p></li>
+          <li><p>Arrow over to PRB.</p></li>
+          <li><p>Press 5:randInt(0, 30).</p></li>
+          <li><p>Press ENTER for the first random number.</p></li>
+          <li><p>Press ENTER two more times for the other two random numbers. If there is a repeat press ENTER again.</p></li>
         </ul>
         <p xml:id="eip-107">NoterandInt(0, 30, 3) will generate three random numbers.</p>
         <figure xml:id="eip-idm20794224">
@@ -773,24 +773,24 @@
     <subsection xml:id="eip-415">
       <title>Critical Evaluation</title>
       <p xml:id="element-607">We need to evaluate the statistical studies we read about critically and analyze them before accepting the results of the studies. Common problems to be aware of include the following:</p>
-      <ul xml:id="element-17">
-        <li>Problems with samples: A sample must be representative of the population. A sample that is not representative of the population is biased. Biased samples that are not representative of the population give results that are inaccurate and not reliable. Reliability in statistical measures must also be considered when analyzing data. Reliability refers to the consistency of a measure. A measure is reliable when the same results are produced given the same circumstances.</li>
-        <li>Self-selected samplesResponses only by people who choose to respond, such as internet surveys, are often unreliable.</li>
-        <li>Sample size issues: Samples that are too small may be unreliable. Larger samples are better, if possible. In some situations, having small samples is unavoidable and can still be used to draw conclusions. Examples include crash testing cars or medical testing for rare conditions.</li>
-        <li>Undue influence: collecting data or asking questions in a way that influences the response.</li>
-        <li>Non-response or refusal of subject to participate: The collected responses may no longer be representative of the population.  Often, people with strong positive or negative opinions may answer surveys, which can affect the results.</li>
-        <li>Causality: A relationship between two variables does not mean that one causes the other to occur. They may be related (correlated) because of their relationship through a different variable.</li>
-        <li>Self-funded or self-interest studies: A study performed by a person or organization in order to support their claim. Is the study impartial? Read the study carefully to evaluate the work. Do not automatically assume that the study is good, but do not automatically assume the study is bad either. Evaluate it on its merits and the work done.</li>
-        <li>Misleading use of data: These can be improperly displayed graphs, incomplete data, or lack of context.</li>
+      <ul>
+        <li><p>Problems with samples: A sample must be representative of the population. A sample that is not representative of the population is biased. Biased samples that are not representative of the population give results that are inaccurate and not reliable. Reliability in statistical measures must also be considered when analyzing data. Reliability refers to the consistency of a measure. A measure is reliable when the same results are produced given the same circumstances.</p></li>
+        <li><p>Self-selected samplesResponses only by people who choose to respond, such as internet surveys, are often unreliable.</p></li>
+        <li><p>Sample size issues: Samples that are too small may be unreliable. Larger samples are better, if possible. In some situations, having small samples is unavoidable and can still be used to draw conclusions. Examples include crash testing cars or medical testing for rare conditions.</p></li>
+        <li><p>Undue influence: collecting data or asking questions in a way that influences the response.</p></li>
+        <li><p>Non-response or refusal of subject to participate: The collected responses may no longer be representative of the population.  Often, people with strong positive or negative opinions may answer surveys, which can affect the results.</p></li>
+        <li><p>Causality: A relationship between two variables does not mean that one causes the other to occur. They may be related (correlated) because of their relationship through a different variable.</p></li>
+        <li><p>Self-funded or self-interest studies: A study performed by a person or organization in order to support their claim. Is the study impartial? Read the study carefully to evaluate the work. Do not automatically assume that the study is good, but do not automatically assume the study is bad either. Evaluate it on its merits and the work done.</p></li>
+        <li><p>Misleading use of data: These can be improperly displayed graphs, incomplete data, or lack of context.</p></li>
       </ul>
       <exploration xml:id="fs-idm39314144">
         <p xml:id="id7878578">As a class, determine whether or not the following samples are representative. If they are not, discuss the reasons.</p>
-        <ol xml:id="element-785">
-          <li>To find the average GPA of all students in a high school, use all honor students at the university as the sample.</li>
-          <li>To find out the most popular cereal among young people under the age of 10, stand outside a large supermarket for three hours and speak to every twentieth child under age 10 who enters the supermarket.</li>
-          <li>To find the average annual income of all adults in the United States, sample U.S. congressmen. Create a cluster sample by considering each state as a stratum (group). By using simple random sampling, select states to be part of the cluster. Then survey every U.S. congressman in the cluster.</li>
-          <li>To determine the proportion of people taking public transportation to work, survey 20 people in New York City. Conduct the survey by sitting in Central Park on a bench and interviewing every person who sits next to you.</li>
-          <li>To determine the average cost of a two-day stay in a hospital in Massachusetts, survey 100 hospitals across the state using simple random sampling.</li>
+        <ol>
+          <li><p>To find the average GPA of all students in a high school, use all honor students at the university as the sample.</p></li>
+          <li><p>To find out the most popular cereal among young people under the age of 10, stand outside a large supermarket for three hours and speak to every twentieth child under age 10 who enters the supermarket.</p></li>
+          <li><p>To find the average annual income of all adults in the United States, sample U.S. congressmen. Create a cluster sample by considering each state as a stratum (group). By using simple random sampling, select states to be part of the cluster. Then survey every U.S. congressman in the cluster.</p></li>
+          <li><p>To determine the proportion of people taking public transportation to work, survey 20 people in New York City. Conduct the survey by sitting in Central Park on a bench and interviewing every person who sits next to you.</p></li>
+          <li><p>To determine the average cost of a two-day stay in a hospital in Massachusetts, survey 100 hospitals across the state using simple random sampling.</p></li>
         </ol>
       </exploration>
       <example xml:id="fs-idp39929584">
@@ -1167,17 +1167,17 @@
         <solution>
           <p xml:id="eip-idp37500272">Answers will vary. Sample answer: The sample is not representative of the population of all college textbooks. Two reasons why it is not representative are that he only sampled seven subjects and he only investigated one textbook in each subject. There are several possible sources of bias in the study. The seven subjects that he investigated are all in mathematics and the sciences; there are many subjects in the humanities, social sciences, and other subject areas, for example: literature, art, history, psychology, sociology, business, that he did not investigate at all. It may be that different subject areas exhibit different patterns of textbook availability, but his sample would not detect such results.</p>
           <p xml:id="eip-idp37501360">He also looked only at the most popular textbook in each of the subjects he investigated. The availability of the most popular textbooks may differ from the availability of other textbooks in one of two ways:</p>
-          <ul xml:id="eip-id1168183078945">
-            <li>The most popular textbooks may be more readily available online, because more new
-    copies are printed, and more students nationwide are selling back their used copies</li>
-            <li>The most popular textbooks may be harder to find available online, because more student demand exhausts the supply more quickly.</li>
+          <ul>
+            <li><p>The most popular textbooks may be more readily available online, because more new
+    copies are printed, and more students nationwide are selling back their used copies</p></li>
+            <li><p>The most popular textbooks may be harder to find available online, because more student demand exhausts the supply more quickly.</p></li>
           </ul>
           <p xml:id="eip-idm273136">In reality, many college students do not use the most popular textbook in their subject, and this study gives no useful information about the situation for those less popular textbooks.</p>
           <p xml:id="eip-idm272544">He could improve this study by</p>
-          <ul xml:id="eip-id1169691864822">
-            <li>expanding the selection of subjects he investigates so that it is more representative of all subjects studied by college students, and</li>
-            <li>expanding the selection of textbooks he investigates within each subject to include a
-    mixed representation of both the most popular and less popular textbooks.</li>
+          <ul>
+            <li><p>expanding the selection of subjects he investigates so that it is more representative of all subjects studied by college students, and</p></li>
+            <li><p>expanding the selection of textbooks he investigates within each subject to include a
+    mixed representation of both the most popular and less popular textbooks.</p></li>
           </ul>
         </solution>
       </exercise>
@@ -1199,11 +1199,11 @@
     <subsection xml:id="eip-109">
       <title>Levels of Measurement</title>
       <p xml:id="eip-192">The way a set of data is measured is called its <term>level of measurement</term>. Correct statistical procedures depend on a researcher being familiar with levels of measurement. Not every statistical operation can be used with every set of data. Data can be classified into four levels of measurement. They are as follows (from lowest to highest level):</p>
-      <ul xml:id="eip-865">
-        <li><em>Nominal scale level</em></li>
-        <li><em>Ordinal scale level</em></li>
-        <li><em>Interval scale level</em></li>
-        <li><em>Ratio scale level</em></li>
+      <ul>
+        <li><p><em>Nominal scale level</em></p></li>
+        <li><p><em>Ordinal scale level</em></p></li>
+        <li><p><em>Interval scale level</em></p></li>
+        <li><p><em>Ratio scale level</em></p></li>
       </ul>
       <p xml:id="eip-925">Data that is measured using a <term>nominal scale</term> is <em>qualitative (categorical)</em>. Categories, colors, names, labels, and favorite foods along with yes or no responses are examples of nominal level data. Nominal scale data are not ordered. For example, trying to classify people according to their favorite food does not make any sense. Putting pizza first and sushi second is not meaningful.</p>
       <p xml:id="eip-817">Smartphone companies are another example of nominal scale data. The data are the names of the companies that make smartphones, but there is no agreed upon order of these brands, even though people may have personal preferences. Nominal scale data cannot be used in calculations.</p>
@@ -1455,15 +1455,15 @@
         </tabular>
       </table>
       <p xml:id="element-591">The data in this table have been <em>grouped</em> into the following intervals:</p>
-      <ul xml:id="element-634">
-        <li>59.9561.95 inches</li>
-        <li>61.9563.95 inches</li>
-        <li>63.9565.95 inches</li>
-        <li>65.9567.95 inches</li>
-        <li>67.9569.95 inches</li>
-        <li>69.9571.95 inches</li>
-        <li>71.9573.95 inches</li>
-        <li>73.9575.95 inches</li>
+      <ul>
+        <li><p>59.9561.95 inches</p></li>
+        <li><p>61.9563.95 inches</p></li>
+        <li><p>63.9565.95 inches</p></li>
+        <li><p>65.9567.95 inches</p></li>
+        <li><p>67.9569.95 inches</p></li>
+        <li><p>69.9571.95 inches</p></li>
+        <li><p>71.9573.95 inches</p></li>
+        <li><p>73.9575.95 inches</p></li>
       </ul>
       <note xml:id="id16927214">
         <title>Note</title>
@@ -1688,19 +1688,19 @@
           </statement>
           <task>
             <statement>
-              <ol xml:id="element-582">
-                <li>Is the table correct? If it is not correct, what is wrong?</li>
-                <li>True or False: Three percent of the people surveyed commute three miles. If the statement is not correct, what should it be? If the table is incorrect, make the corrections.</li>
-                <li>What fraction of the people surveyed commute five or seven miles?</li>
-                <li>What fraction of the people surveyed commute 12 miles or more? Less than 12 miles? Between five and 13 miles (not including five and 13 miles)?</li>
+              <ol>
+                <li><p>Is the table correct? If it is not correct, what is wrong?</p></li>
+                <li><p>True or False: Three percent of the people surveyed commute three miles. If the statement is not correct, what should it be? If the table is incorrect, make the corrections.</p></li>
+                <li><p>What fraction of the people surveyed commute five or seven miles?</p></li>
+                <li><p>What fraction of the people surveyed commute 12 miles or more? Less than 12 miles? Between five and 13 miles (not including five and 13 miles)?</p></li>
               </ol>
             </statement>
             <solution>
-              <ol xml:id="solution-list-2">
-                <li>No. The frequency column sums to 18, not 19. Not all cumulative relative frequencies are correct. The table entries for data values 2, 3, 10, and 18 are incorrect. This affects cumulative relative frequency for most values.</li>
-                <li>False. The frequency for three miles should be one; for two miles (left out), two. The cumulative relative frequency column should read 1052, .1579, .2105, .3684, .4737, .6316, .7368, .7895, .8421, .9474, 1.0000.</li>
-                <li><m>\frac{5}{19}</m></li>
-                <li><m>\frac{7}{19}</m>, <m>\frac{12}{19}</m>, <m>\frac{7}{19}</m></li>
+              <ol>
+                <li><p>No. The frequency column sums to 18, not 19. Not all cumulative relative frequencies are correct. The table entries for data values 2, 3, 10, and 18 are incorrect. This affects cumulative relative frequency for most values.</p></li>
+                <li><p>False. The frequency for three miles should be one; for two miles (left out), two. The cumulative relative frequency column should read 1052, .1579, .2105, .3684, .4737, .6316, .7368, .7895, .8421, .9474, 1.0000.</p></li>
+                <li><p><m>\frac{5}{19}</m></p></li>
+                <li><p><m>\frac{7}{19}</m>, <m>\frac{12}{19}</m>, <m>\frac{7}{19}</m></p></li>
               </ol>
             </solution>
           </task>
@@ -1991,21 +1991,21 @@
       <p xml:id="eip-idm40688480"><em>Stapel did not deny that his deceit was driven by ambition. But it was more complicated than that, he told me. He insisted that he loved social psychology but had been frustrated by the messiness of experimental data, which rarely led to clear conclusions. His lifelong obsession with elegance and order, he said, led him to concoct results that journals found attractive. “It was a quest for aesthetics, for beauty—instead of the truth,” he said. He described his behavior as an addiction that drove him to carry out acts of increasingly daring fraud</em>.
     Bhattacharjee, Y. (2013, April 26). The mind of a con man. The New York Times. Retrieved from http://www.nytimes.com/2013/04/28/magazine/diederik-stapels-audacious-academic-fraud.html?_r=3&amp;src=dayp&amp;.</p>
       <p xml:id="fs-idp11297920">The committee investigating Stapel concluded that he is guilty of several practices including</p>
-      <ul xml:id="fs-idp81387808">
-        <li>creating datasets, which largely confirmed the prior expectations,</li>
-        <li>altering data in existing datasets,</li>
-        <li>changing measuring instruments without reporting the change, and</li>
-        <li>misrepresenting the number of experimental subjects.</li>
+      <ul>
+        <li><p>creating datasets, which largely confirmed the prior expectations,</p></li>
+        <li><p>altering data in existing datasets,</p></li>
+        <li><p>changing measuring instruments without reporting the change, and</p></li>
+        <li><p>misrepresenting the number of experimental subjects.</p></li>
       </ul>
       <p xml:id="fs-idp31763600">Clearly, it is never acceptable to falsify data the way this researcher did. Sometimes, however, violations of ethics are not as easy to spot.</p>
       <p xml:id="fs-idp40590784">Researchers have a responsibility to verify that proper methods are being followed. The report describing the investigation of Stapel’s fraud states that, “statistical flaws frequently revealed a lack of familiarity with elementary statistics.”Tillburg University. (2012, Nov. 28). Flawed science: the fraudulent research practices of social psychologist Diederik Stapel. Retrieved from https://www.tilburguniversity.edu/upload/3ff904d7-547b-40ae-85fe-bea38e05a34a_Final%20report%20Flawed%20Science.pdf. Many of Stapel’s co-authors should have spotted irregularities in his data. Unfortunately, they did not know very much about statistical analysis, and they simply trusted that he was collecting and reporting data properly.</p>
       <p xml:id="fs-idp112502080">Many types of statistical fraud are difficult to spot. Some researchers simply stop collecting data once they have just enough to prove what they had hoped to prove. They don’t want to take the chance that a more extensive study would complicate their lives by producing data contradicting their hypothesis.</p>
       <p xml:id="fs-idp75599696">Professional organizations, like the American Statistical Association, clearly define expectations for researchers. There are even laws in the federal code about the use of research data.</p>
       <p xml:id="fs-idp35202800">When a statistical study uses human participants, as in medical studies, both ethics and the law dictate that researchers should be mindful of the safety of their research subjects. The U.S. Department of Health and Human Services oversees federal regulations of research studies with the aim of protecting participants. When a university or other research institution engages in research, it must ensure the safety of all human subjects. For this reason, research institutions establish oversight committees known as <term>Institutional Review Boards (IRB)</term>. All planned studies must be approved in advance by the IRB. Key protections that are mandated by law include the following:</p>
-      <ul xml:id="fs-idp105688032">
-        <li>Risks to participants must be minimized and reasonable with respect to projected benefits.</li>
-        <li>Participants must give <term>informed consent</term>. This means that the risks of participation must be clearly explained to the subjects of the study. Subjects must consent in writing, and researchers are required to keep documentation of their consent.</li>
-        <li>Data collected from individuals must be guarded carefully to protect their privacy.</li>
+      <ul>
+        <li><p>Risks to participants must be minimized and reasonable with respect to projected benefits.</p></li>
+        <li><p>Participants must give <term>informed consent</term>. This means that the risks of participation must be clearly explained to the subjects of the study. Subjects must consent in writing, and researchers are required to keep documentation of their consent.</p></li>
+        <li><p>Data collected from individuals must be guarded carefully to protect their privacy.</p></li>
       </ul>
       <p xml:id="fs-idm5212816">These ideas may seem fundamental, but they can be very difficult to verify in practice. Is removing a participant’s name from the data record sufficient to protect privacy? Perhaps the person’s identity could be discovered from the data that remains. What happens if the study does not proceed as planned and risks arise that were not anticipated? When is informed consent really necessary? Suppose your doctor wants a blood sample to check your cholesterol level. Once the sample has been tested, you expect the lab to dispose of the remaining blood. At that point the blood becomes biological waste. Does a researcher have the right to take it for use in a study?</p>
       <p xml:id="fs-idp36402832">It is important that students of statistics take time to consider the ethical questions that arise in statistical studies. How prevalent is fraud in statistical studies? You might be surprised—and disappointed. There is a <url href="http://openstaxcollege.org/l/40introone">website</url> dedicated to cataloging retractions of study articles that have been proven fraudulent. A quick glance will show that the misuse of statistics is a bigger problem than most people realize.</p>
@@ -2058,11 +2058,11 @@
     <subsection xml:id="fs-id1164567617265">
       <project xml:id="fs-id1170942442486">
         <title>Data Collection Experiment</title>
-        <ul xml:id="element-293">
-          <title>Student Learning Outcomes</title>
-          <li>The student will demonstrate the systematic sampling technique.</li>
-          <li>The student will construct relative frequency tables.</li>
-          <li>The student will interpret results and their differences from different data groupings.</li>
+        <p><strong>Student Learning Outcomes</strong></p>
+        <ul>
+          <li><p>The student will demonstrate the systematic sampling technique.</p></li>
+          <li><p>The student will construct relative frequency tables.</p></li>
+          <li><p>The student will interpret results and their differences from different data groupings.</p></li>
         </ul>
         <title>Movie Survey</title>
         <p xml:id="fs-id1164567996867">Get a class roster/list. Randomly mark a persons name, and then mark every fourth name on the list until you get 12 names. You may have to go back to the start of the list. For each name marked, record the number of movies they saw at the theater last month.</p>
@@ -2307,10 +2307,10 @@
     <subsection xml:id="fs-id1164565979860">
       <project xml:id="fs-id1167914447982">
         <title>Sampling Experiment</title>
-        <ul xml:id="element-806">
-          <title>Student Learning Outcomes</title>
-          <li>The student will demonstrate the simple random, systematic, stratified, and cluster sampling techniques.</li>
-          <li>The student will explain the details of each procedure used.</li>
+        <p><strong>Student Learning Outcomes</strong></p>
+        <ul>
+          <li><p>The student will demonstrate the simple random, systematic, stratified, and cluster sampling techniques.</p></li>
+          <li><p>The student will explain the details of each procedure used.</p></li>
         </ul>
         <p xml:id="element-153">In this lab, you will be asked to pick several random samples of restaurants. In each case, describe your procedure briefly, including how you might have used the random number generator, and then list the restaurants in the sample you obtained.</p>
         <note xml:id="id11521709">
