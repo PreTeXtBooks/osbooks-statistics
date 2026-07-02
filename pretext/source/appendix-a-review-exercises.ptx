@@ -4,7 +4,7 @@
   <title>Review Exercises (Ch 3-13)</title>
 
   <p>
-    These review exercises are designed to provide extra practice on concepts learned before a particular chapter. For example, the review exercises for Chapter 3 cover material learned in Chapters 1 and 2.
+    These review exercises are designed to provide extra practice on concepts learned before a particular chapter. For example, the review exercises for <xref ref="ch03-probability-topics">Chapter 3</xref> cover material learned in <xref ref="ch01-sampling-and-data">Chapters 1</xref> and <xref ref="ch02-descriptive-statistics">2</xref>.
   </p>
 
   <section xml:id="fs-idp100048656">

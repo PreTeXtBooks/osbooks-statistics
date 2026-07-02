@@ -1655,7 +1655,7 @@ The mean of <em>T</em> is 12 seconds, so the decay parameter is <m>
 </subsection>
 <subsection xml:id="fs-idp112021200">
 <title>Relationship Between the Poisson and the Exponential Distribution</title>
-<p xml:id="fs-idp96158416">There is an interesting relationship between the exponential distribution and the Poisson distribution. Suppose that the time that elapses between two successive events follows the exponential distribution with a mean of <em>μ</em> units of time. Also assume that these times are independent, meaning that the time between events is not affected by the times between previous events. If these assumptions hold, then the number of events per unit time follows a Poisson distribution with mean <em>λ</em> = 1/μ. Recall from the chapter on Discrete Random Variables that if <em>X</em> has the Poisson distribution with mean <em>λ</em>, then <m>
+<p xml:id="fs-idp96158416">There is an interesting relationship between the exponential distribution and the Poisson distribution. Suppose that the time that elapses between two successive events follows the exponential distribution with a mean of <em>μ</em> units of time. Also assume that these times are independent, meaning that the time between events is not affected by the times between previous events. If these assumptions hold, then the number of events per unit time follows a Poisson distribution with mean <em>λ</em> = 1/μ. Recall from <xref ref="ch04-discrete-random-variables">Discrete Random Variables</xref> that if <em>X</em> has the Poisson distribution with mean <em>λ</em>, then <m>
 
 P(X=k)=\frac{
 λ^{k}

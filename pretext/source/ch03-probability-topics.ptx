@@ -1337,7 +1337,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
 
 
     <subsection xml:id="fs-id1164567287600">
-      <p>A <term>two-way table</term> provides a way of portraying data that can facilitate calculating probabilities. When used to calculate probabilities, a two-way table is often called a <term>contingency table</term>. The table helps in determining conditional probabilities quite easily. The table displays sample values in relation to two different variables that may be dependent or contingent on one another. We used two-way tables in Chapters 1 and 2 to calculate marginal and conditional distributions. These tables organize data in a way that supports the calculation of relative frequency and, therefore, experimental (empirical) probability. Later on, we will use contingency tables again, but in another manner.</p>
+      <p>A <term>two-way table</term> provides a way of portraying data that can facilitate calculating probabilities. When used to calculate probabilities, a two-way table is often called a <term>contingency table</term>. The table helps in determining conditional probabilities quite easily. The table displays sample values in relation to two different variables that may be dependent or contingent on one another. We used two-way tables in <xref ref="ch01-sampling-and-data">Chapters 1</xref> and <xref ref="ch02-descriptive-statistics">2</xref> to calculate marginal and conditional distributions. These tables organize data in a way that supports the calculation of relative frequency and, therefore, experimental (empirical) probability. Later on, we will use contingency tables again, but in another manner.</p>
       <example xml:id="ch03-element-775">
         <statement>
           <ol>
