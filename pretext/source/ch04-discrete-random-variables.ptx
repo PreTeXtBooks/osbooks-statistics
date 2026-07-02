@@ -363,8 +363,8 @@ batch? <m>P</m>(<m>x</m> = 1) =  ________</p>
 
     <subsection xml:id="fs-idp138592560">
       <title>References</title>
-      <p>Florida State University. (n.d.). <em>Class catalogue at the Florida State University</em>. Retrieved from https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy</p>
-      <p>World Earthquakes. (2012). <em>World earthquakes: Live earthquake news and highlights</em>. Retrieved from http://www.worldearthquakes.com/index.php?option=ethq_prediction</p>
+      <p>Florida State University. (n.d.). <em>Class catalogue at the Florida State University</em>. Retrieved from <url href="https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy">https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy</url></p>
+      <p>World Earthquakes. (2012). <em>World earthquakes: Live earthquake news and highlights</em>. Retrieved from <url href="http://www.worldearthquakes.com/index.php?option=ethq_prediction">http://www.worldearthquakes.com/index.php?option=ethq_prediction</url></p>
     </subsection>
 
     <subsection xml:id="fs-idp17559008">
@@ -887,8 +887,20 @@ It doesn’t matter. I expect to break even.</p>
         <p><m>X</m> takes on the values 0, 1, 2, . . ., 20 where <m>n</m> = 20, <m>p</m> = .41, and <m>q</m> = 1 – .41 = .59. <m>X</m> ~ <m>B</m>(20, .41)</p>
         <p>Find <m>P</m>(<m>x</m> ≤ 12). There is a formula to define the probability of a binomial distribution <m>P</m>(<m>x</m>). We can use the formula to find <m>P(x\leq12)</m>. But the calculation is tedious and time consuming, and people usually use a graphing calculator, software, or binomial table to get the answer. Use a graphing calculator, you can get <m>P(x\leq12)=.9738</m>. The instruction of TI-83, 83+, 84, 84+ is given below.</p>
         <p>The probability that at most 12 workers have a high school diploma but do not pursue any further education is .9738.</p>
+      <figure xml:id="fs-idm42104448-fig-ch04-05-01n-fig">
+        <image source="media/fig-ch04_05_01N.jpg" width="90%">
+          <description>This histogram shows a binomial probability distribution. It is made up of bars that are fairly normally distributed. The x-axis shows values from 0 to 20. The y-axis shows values from 0 to 0.2 in increments of 0.05.</description>
+        </image>
+      </figure>
+
         <p>The graph of <m>X</m> ~ <m>B</m>(20, .41) is as follows.</p>
         <p>The previous graph is called a probability distribution histogram. It is made of a series of vertical bars. The <m>x</m>-axis of each bar is the value of <m>X</m> = the number of workers who have only a high school diploma, and the height of that bar is the probability of that value occurring.</p>
+      <figure xml:id="fs-idm42104448-fig-ch04-05-01-fig">
+        <image source="media/fig-ch04_05_01.jpg" width="80%">
+          <description>This histogram shows a binomial probability distribution. It is made up of bars that are fairly normally distributed. The x-axis shows values from 0 to 20. The y-axis shows values from 0 to 0.2 in increments of 0.05.</description>
+        </image>
+      </figure>
+
         <p>The number of adult workers that you expect to have a high school diploma but not pursue any further education is the mean, <m>μ</m> = <m>np</m> = (20)(.41) = 8.2.</p>
         <p>The formula for the variance is σ^{2} = <em>npq</em>. The standard deviation is <m>σ</m> = <m>\sqrt{npq}</m>. <nbsp/><m>σ</m> = <m>\sqrt{(20)(.41)(.59)}</m> = 2.20.</p>
       </statement>
@@ -1053,13 +1065,13 @@ Standard Deviation = <m>\sqrt{npq}=\sqrt{80(0.613)(0.387)}\approx4.3564</m></li>
 
     <subsection xml:id="fs-idm225879408">
       <title>References</title>
-      <p>American Cancer Society. (2013). <em>What are the key statistics about pancreatic cancer?</em> Retrieved from http://www.cancer.org/cancer/pancreaticcancer/detailedguide/pancreatic-cancer-key-statistics</p>
-      <p>Central Intelligence Agency. (n.d.). <em>The world factbook</em>. Retrieved from https://www.cia.gov/library/publications/theworld-factbook/geos/af.html</p>
-      <p>ESPN NBA. (2013). NBA statistics  2013. Retrieved from http://espn.go.com/nba/statistics/_/seasontype/2</p>
-      <p>Newport, F. (2013). Americans still enjoy saving rather than spending: Few demographic differences seen in these views other than by income. <em>GALLUP Economy</em>. Retrieved from http://www.gallup.com/poll/162368/americansenjoy-saving-rather-spending.aspx</p>
-      <p>Pryor, J. H., et al. (2011). <em>The American freshman: National norms fall 2011</em>. Los Angeles, CA: Cooperative Institutional Research Program, Higher Education Research Institute. Retrieved from http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf</p>
-      <p>Wikipedia. (n.d.). <em>Distance education</em>. Retrieved from http://en.wikipedia.org/wiki/Distance_education</p>
-      <p>World Bank Group. (2013). <em>Access to electricity (% of population)</em>. Retrieved from http://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?order=wbapi_data_value_2009%20wbapi_data_value%20wbapi_data_value-first&amp;sort=asc</p>
+      <p>American Cancer Society. (2013). <em>What are the key statistics about pancreatic cancer?</em> Retrieved from <url href="http://www.cancer.org/cancer/pancreaticcancer/detailedguide/pancreatic-cancer-key-statistics">http://www.cancer.org/cancer/pancreaticcancer/detailedguide/pancreatic-cancer-key-statistics</url></p>
+      <p>Central Intelligence Agency. (n.d.). <em>The world factbook</em>. Retrieved from <url href="https://www.cia.gov/library/publications/theworld-factbook/geos/af.html">https://www.cia.gov/library/publications/theworld-factbook/geos/af.html</url></p>
+      <p>ESPN NBA. (2013). NBA statistics  2013. Retrieved from <url href="http://espn.go.com/nba/statistics/_/seasontype/2">http://espn.go.com/nba/statistics/_/seasontype/2</url></p>
+      <p>Newport, F. (2013). Americans still enjoy saving rather than spending: Few demographic differences seen in these views other than by income. <em>GALLUP Economy</em>. Retrieved from <url href="http://www.gallup.com/poll/162368/americansenjoy-saving-rather-spending.aspx">http://www.gallup.com/poll/162368/americansenjoy-saving-rather-spending.aspx</url></p>
+      <p>Pryor, J. H., et al. (2011). <em>The American freshman: National norms fall 2011</em>. Los Angeles, CA: Cooperative Institutional Research Program, Higher Education Research Institute. Retrieved from <url href="http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf">http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf</url></p>
+      <p>Wikipedia. (n.d.). <em>Distance education</em>. Retrieved from <url href="http://en.wikipedia.org/wiki/Distance_education">http://en.wikipedia.org/wiki/Distance_education</url></p>
+      <p>World Bank Group. (2013). <em>Access to electricity (% of population)</em>. Retrieved from <url href="http://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?order=wbapi_data_value_2009%20wbapi_data_value%20wbapi_data_value-first&amp;sort=asc">http://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?order=wbapi_data_value_2009%20wbapi_data_value%20wbapi_data_value-first&amp;sort=asc</url></p>
     </subsection>
 
     <subsection xml:id="fs-idm59813888">
@@ -1451,7 +1463,12 @@ Standard Deviation = <m>σ</m> = <m>\sqrt{npq}</m> = <m>\sqrt{15(.281)(.719)}</m
 <nbsp/><m>P</m>(<m>x</m> = 4) = binompdf(15, .281, 4) = .2259
 <nbsp/>It is more likely that four people are literate than three people are.</li>
           </ol>
-        </solution>
+              <figure xml:id="fs-idm99183632-cnx-stats-c04-m05-001anno-fig">
+        <image source="media/CNX_Stats_C04_M05_001anno.jpg" width="90%">
+          <description>This histogram shows a binomial probability distribution. It is made up of bars that are fairly normally distributed. The x-axis shows values from 0 to 15, with bars from 0 to 9. The y-axis shows values from 0 to 0.25 in increments of 0.05.</description>
+        </image>
+      </figure>
+</solution>
       </exercise>
     </exercises>
 
@@ -1532,7 +1549,12 @@ Standard Deviation = <m>σ</m> = <m>\sqrt{npq}</m> = <m>\sqrt{15(.281)(.719)}</m
         <p>Let <m>X</m> = the number of computer components tested until the first defect is found.</p>
         <p><m>X</m> takes on the values 1, 2, 3, . . . where <m>p</m> = .02. <m>X</m> ~ G(.02)</p>
         <p>Find <m>P</m>(<m>x</m> = 7). There is a formula to define the probability of a geometric distribution <m>P(x)</m>. We can use the formula to find <m>P(x=7)</m>. But since the calculation is tedious and time consuming, people usually use a graphing calculator or software to get the answer. Using a graphing calculator, you can get <m>P(x=7)=.0177</m>. The instruction of TI83, 83+, 84, 84+ is given below.</p>
-      </statement>
+            <figure xml:id="fs-idp26519760-fig-ch04-06-01n-fig">
+        <image source="media/fig-ch04_06_01N.jpg" width="84%">
+          <description>This graph shows a geometric probability distribution. It consists of bars that peak at the left and slope downwards with each successive bar to the right. The values on the x-axis count the number of computer components tested until the defect is found. The y-axis is scaled from 0 to 0.02 in increments of 0.005.</description>
+        </image>
+      </figure>
+</statement>
     </example>
     <note xml:id="fs-idm16727632">
       <title>Try It</title>
@@ -1567,6 +1589,12 @@ The number of people whom you would expect to ask until one says he or she has p
     <exercise xml:id="eip-271">
       <statement>
         <p>The literacy rate for a nation measures the proportion of people age 15 and over who can read and write. The literacy rate for women in Afghanistan is 12 percent. Let <m>X</m> = the number of Afghani women you ask until one says that she is literate.</p>
+      <figure xml:id="fs-idm31509056-cnx-stats-c04-m06-001anno-fig">
+        <image source="media/CNX_Stats_C04_M06_001anno.jpg" width="84%">
+          <description>This graph shows a geometric probability distribution. It consists of bars that peak at the left and slope downwards with each successive bar to the right. The values on the x-axis count the number of indivuduals tested before an infected person is found. The y-axis is scaled from 0 to 0.2 in increments of 0.02.</description>
+        </image>
+      </figure>
+
         <ol>
           <li>What is the probability distribution of <m>X</m>?</li>
           <li>What is the probability that you ask five women before one says she is literate?</li>
@@ -1589,13 +1617,13 @@ Standard Deviation = <m>σ</m> = <m>\sqrt{\frac{\text{1}-p}{p^{2}}}</m> = <m>\s
 
     <subsection xml:id="fs-idp2191840">
       <title>References</title>
-      <p>Central Intelligence Agency. (n.d.). The world factbook. Retrieved from https://www.cia.gov/library/publications/theworld-factbook/geos/af.html</p>
-      <p>Pew Research Center. (n.d.). Millennials: A portrait of generation next. Retrieved from http://www.pewsocialtrends.org/files/2010/10/millennials-confident-connected-open-to-change.pdf</p>
-      <p>Pew Research. (2013). Millennials: confident. Executive Summary: Pew Research Social &amp; Demographic Trends. Retrieved from http://www.pewsocialtrends.org/2010/02/24/millennials-confident-connected-open-tochange/</p>
-      <p>Pryor, J. H., et al. (2011). <em>The American freshman: National norms fall 2011</em>. Los Angeles: Cooperative Institutional Research Program, Higher Education Research Institute. Retrieved from http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/ TheAmericanFreshman2011.pdf</p>
-      <p>The European Union and ICON-Institute. (2007/8). <em>Summary of the national risk and vulnerability assessment 2007/8: A profile of Afghanistan</em>. Retrieved from http://ec.europa.eu/europeaid/where/asia/documents/afgh_brochure_summary_en.pdf</p>
-      <p>The World Bank. (2013). Prevalence of HIV, total (% of populations ages 15-49). Retrieved from http://data.worldbank.org/indicator/SH.DYN.AIDS.ZS?order=wbapi_data_value_2011+wbapi_data_value+wbapi_data_value-last&amp;sort=desc</p>
-      <p>UNICEF Television. (n.d.). <em>UNICEF reports on female literacy centers in Afghanistan established to teach women and girls basic reading and writing skills</em>. (Video). Retrieved from http://www.unicefusa.org/assets/video/afghan-femaleliteracy-centers.html</p>
+      <p>Central Intelligence Agency. (n.d.). The world factbook. Retrieved from <url href="https://www.cia.gov/library/publications/theworld-factbook/geos/af.html">https://www.cia.gov/library/publications/theworld-factbook/geos/af.html</url></p>
+      <p>Pew Research Center. (n.d.). Millennials: A portrait of generation next. Retrieved from <url href="http://www.pewsocialtrends.org/files/2010/10/millennials-confident-connected-open-to-change.pdf">http://www.pewsocialtrends.org/files/2010/10/millennials-confident-connected-open-to-change.pdf</url></p>
+      <p>Pew Research. (2013). Millennials: confident. Executive Summary: Pew Research Social &amp; Demographic Trends. Retrieved from <url href="http://www.pewsocialtrends.org/2010/02/24/millennials-confident-connected-open-tochange/">http://www.pewsocialtrends.org/2010/02/24/millennials-confident-connected-open-tochange/</url></p>
+      <p>Pryor, J. H., et al. (2011). <em>The American freshman: National norms fall 2011</em>. Los Angeles: Cooperative Institutional Research Program, Higher Education Research Institute. Retrieved from <url href="http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf">http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf</url></p>
+      <p>The European Union and ICON-Institute. (2007/8). <em>Summary of the national risk and vulnerability assessment 2007/8: A profile of Afghanistan</em>. Retrieved from <url href="http://ec.europa.eu/europeaid/where/asia/documents/afgh_brochure_summary_en.pdf">http://ec.europa.eu/europeaid/where/asia/documents/afgh_brochure_summary_en.pdf</url></p>
+      <p>The World Bank. (2013). Prevalence of HIV, total (% of populations ages 15-49). Retrieved from <url href="http://data.worldbank.org/indicator/SH.DYN.AIDS.ZS?order=wbapi_data_value_2011+wbapi_data_value+wbapi_data_value-last&amp;sort=desc">http://data.worldbank.org/indicator/SH.DYN.AIDS.ZS?order=wbapi_data_value_2011+wbapi_data_value+wbapi_data_value-last&amp;sort=desc</url></p>
+      <p>UNICEF Television. (n.d.). <em>UNICEF reports on female literacy centers in Afghanistan established to teach women and girls basic reading and writing skills</em>. (Video). Retrieved from <url href="http://www.unicefusa.org/assets/video/afghan-femaleliteracy-centers.html">http://www.unicefusa.org/assets/video/afghan-femaleliteracy-centers.html</url></p>
     </subsection>
 
     <subsection xml:id="fs-idm56939568">
@@ -1894,7 +1922,12 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
         <p>The graph of <m>X</m> ~ <m>H</m>(6, 5, 4) is</p>
         <figure xml:id="fs-idp36734864">
           <image source="media/OSX_HS_Statistics_Figure_04_03_08_01.jpg" width="80%"/>
-        </figure>
+              <figure xml:id="fs-idp36734864-osx-hs-statistics-figure-04-03-08-01-fig">
+        <image source="media/OSX_HS_Statistics_Figure_04_03_08_01.jpg" width="80%">
+          <description>This figure has the following on the X axis, P (uppercase X is equal to lowercase x). The Y axis ranges from point 00 to point 20. The x axis ranges from 0 to 20. The bars of the graph show a bell-shaped pattern, ranging from 2 to 14 with the highest bar at 8.</description>
+        </image>
+      </figure>
+</figure>
         <p>The <m>y</m>-axis contains the probability of <m>X</m>, where <m>X</m> = the number of men on the committee.</p>
         <p>You would expect <m>m</m> = 2.18 (about two) men on the committee.</p>
         <p>The formula for the mean is <m>\mu=\frac{nr}{r+b}=\frac{(4)(6)}{6+5}=2.18.</m></p>
@@ -2131,7 +2164,12 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
         <p>The graph of <m>X</m> ~ <m>P</m>(.75) is</p>
         <figure xml:id="fs-idm13011872">
           <image source="media/fig-ch04_08_01N.jpg" width="80%"/>
-        </figure>
+              <figure xml:id="fs-idm13011872-fig-ch04-08-01n-fig">
+        <image source="media/fig-ch04_08_01N.jpg" width="80%">
+          <description>This graphs shows a poisson probability distribution. It has 5 bars that decrease in height from left to right. The x-axis shows values in increments of 1 starting with 0, representing the number of calls Leah receives within 15 minutes. The y-axis ranges from 0 to 0.5 in increments of 0.1.</description>
+        </image>
+      </figure>
+</figure>
         <p>The <m>y</m>-axis contains the probability of <m>x</m> where <m>X</m> = the number of calls in 15 minutes.</p>
       </statement>
     </example>
@@ -2246,16 +2284,16 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
 
     <subsection xml:id="fs-idm74033600">
       <title>References</title>
-      <p>Centers for Disease Control and Prevention. (2012, Oct. 2). <em>Teen drivers: Get the facts</em>. Retrieved from http://www.cdc.gov/Motorvehiclesafety/Teen_Drivers/teendrivers_factsheet.html</p>
-      <p><em>Daily Mail</em>. (2011, June 9). One born every minute: the maternity unit where mothers are THREE to a bed. Retrieved from http://www.dailymail.co.uk/news/article-2001422/Busiest-maternity-ward-planet-averages-60-babies-day-mothersbed.html</p>
-      <p>Department of Aviation at the Hartsfield-Jackson Atlanta International Airport. (2013). <em>ATL fact sheet</em>. Retrieved from http://www.atlanta-airport.com/Airport/ATL/ATL_FactSheet.aspx</p>
-      <p>Lenhart, A. (2012). Teens, smartphones &amp; testing: Texting volume is up while the frequency of voice calling is down. About one in four teens say they own smartphones. Pew Internet. Retrieved from http://www.pewinternet.org/~/media/Files/Reports/2012/PIP_Teens_Smartphones_and_Texting.pdf</p>
-      <p>Ministry of Health, Labour, and Welfare. (n.d.). <em>Children and childrearing</em>. Retrieved from http://www.mhlw.go.jp/english/policy/children/children-childrearing/index.html</p>
-      <p>Pew Internet. (2013). <em>How Americans use text messaging</em>. Retrieved from http://pewinternet.org/Reports/2011/Cell-Phone-Texting-2011/Main-Report.aspx</p>
-      <p>South Carolina Department of Mental Health. (2006). <em>Eating disorder statistics</em>. Retrieved from http://www.state.sc.us/dmh/anorexia/statistics.htm</p>
-      <p><em>The Guardian</em>. (2011, June 8). Giving birth in Manila: The maternity ward at the Dr Jose Fabella Memorial Hospital in Manila, the busiest in the Philippines, where there is an average of 60 births a day. Retrieved from http://www.theguardian.com/world/gallery/2011/jun/08/philippines-health#/?picture=375471900&amp;index=2</p>
-      <p>Vanderkam, L. (2012, Oct. 8). Stop checking your email, now. <em>CNNMoney</em>. Retrieved from http://management.fortune.cnn.com/2012/10/08/stop-checking-your-email-now/</p>
-      <p>World Earthquakes. (2012). <em>World earthquakes: Live earthquake news and highlights</em>. Retrieved from http://www.worldearthquakes.com/index.php?option=ethq_prediction</p>
+      <p>Centers for Disease Control and Prevention. (2012, Oct. 2). <em>Teen drivers: Get the facts</em>. Retrieved from <url href="http://www.cdc.gov/Motorvehiclesafety/Teen_Drivers/teendrivers_factsheet.html">http://www.cdc.gov/Motorvehiclesafety/Teen_Drivers/teendrivers_factsheet.html</url></p>
+      <p><em>Daily Mail</em>. (2011, June 9). One born every minute: the maternity unit where mothers are THREE to a bed. Retrieved from <url href="http://www.dailymail.co.uk/news/article-2001422/Busiest-maternity-ward-planet-averages-60-babies-day-mothersbed.html">http://www.dailymail.co.uk/news/article-2001422/Busiest-maternity-ward-planet-averages-60-babies-day-mothersbed.html</url></p>
+      <p>Department of Aviation at the Hartsfield-Jackson Atlanta International Airport. (2013). <em>ATL fact sheet</em>. Retrieved from <url href="http://www.atlanta-airport.com/Airport/ATL/ATL_FactSheet.aspx">http://www.atlanta-airport.com/Airport/ATL/ATL_FactSheet.aspx</url></p>
+      <p>Lenhart, A. (2012). Teens, smartphones &amp; testing: Texting volume is up while the frequency of voice calling is down. About one in four teens say they own smartphones. Pew Internet. Retrieved from <url href="http://www.pewinternet.org/~/media/Files/Reports/2012/PIP_Teens_Smartphones_and_Texting.pdf">http://www.pewinternet.org/~/media/Files/Reports/2012/PIP_Teens_Smartphones_and_Texting.pdf</url></p>
+      <p>Ministry of Health, Labour, and Welfare. (n.d.). <em>Children and childrearing</em>. Retrieved from <url href="http://www.mhlw.go.jp/english/policy/children/children-childrearing/index.html">http://www.mhlw.go.jp/english/policy/children/children-childrearing/index.html</url></p>
+      <p>Pew Internet. (2013). <em>How Americans use text messaging</em>. Retrieved from <url href="http://pewinternet.org/Reports/2011/Cell-Phone-Texting-2011/Main-Report.aspx">http://pewinternet.org/Reports/2011/Cell-Phone-Texting-2011/Main-Report.aspx</url></p>
+      <p>South Carolina Department of Mental Health. (2006). <em>Eating disorder statistics</em>. Retrieved from <url href="http://www.state.sc.us/dmh/anorexia/statistics.htm">http://www.state.sc.us/dmh/anorexia/statistics.htm</url></p>
+      <p><em>The Guardian</em>. (2011, June 8). Giving birth in Manila: The maternity ward at the Dr Jose Fabella Memorial Hospital in Manila, the busiest in the Philippines, where there is an average of 60 births a day. Retrieved from <url href="http://www.theguardian.com/world/gallery/2011/jun/08/philippines-health#/?picture=375471900&amp;index=2">http://www.theguardian.com/world/gallery/2011/jun/08/philippines-health#/?picture=375471900&amp;index=2</url></p>
+      <p>Vanderkam, L. (2012, Oct. 8). Stop checking your email, now. <em>CNNMoney</em>. Retrieved from <url href="http://management.fortune.cnn.com/2012/10/08/stop-checking-your-email-now/">http://management.fortune.cnn.com/2012/10/08/stop-checking-your-email-now/</url></p>
+      <p>World Earthquakes. (2012). <em>World earthquakes: Live earthquake news and highlights</em>. Retrieved from <url href="http://www.worldearthquakes.com/index.php?option=ethq_prediction">http://www.worldearthquakes.com/index.php?option=ethq_prediction</url></p>
     </subsection>
 
     <subsection xml:id="fs-idm134097152">
@@ -2396,6 +2434,12 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
       <exercise xml:id="fs-idm138910624">
         <statement>
           <p>A manufacturer of decorative string lights knows that 3 percent of its bulbs are defective. Using both the binomial and Poisson distributions, find the probability that a string of 100 lights contains at most four defective bulbs.</p>
+      <figure xml:id="fs-idm108814544-cnx-stats-c04-m08-001anno-fig">
+        <image source="media/CNX_Stats_C04_M08_001anno.jpg" width="70%">
+          <description>This graphs shows a poisson probability distribution. It has 11 bars that are skewed to the right. The x-axis shows values in increments of 1 starting with 0, representing the number of births in 1 hour. The y-axis ranges from 0 to 0.3 in increments of 0.05.</description>
+        </image>
+      </figure>
+
         </statement>
         <solution>
           <p>Let <m>X</m> = the number of defective bulbs in a string.</p>
@@ -2858,7 +2902,17 @@ __________</li>
           <li>Using your answers from Questions 1 and 2, does it appear that the two sets of data fit the theoretical distribution? In complete sentences, explain why or why not.</li>
           <li>Suppose that the experiment had been repeated 500 times. Would you expect , , or  to change, and how would it change? Why? Why wouldn’t the other table(s) change?</li>
         </ol>
-      </note>
+            <figure xml:id="figreld-fig-ch04-17-01-fig">
+        <image source="media/fig-ch04_17_01.png" width="80%">
+          <description>This is a blank graph template. The x-axis is labeled Number of diamonds. The y-axis is labeled Relative frequency.</description>
+        </image>
+      </figure>
+      <figure xml:id="id5962835-fig-ch04-17-02-fig">
+        <image source="media/fig-ch04_17_02.png" width="80%">
+          <description>This is a blank graph template. The x-axis is labeled Number of diamonds. The y-axis is labeled Probability.</description>
+        </image>
+      </figure>
+</note>
     </subsection>
 
     <exercises xml:id="fs-id1170309339367">
@@ -3032,7 +3086,17 @@ How do you know? Answer in complete sentences.</li>
           <li>Thinking about your answers to Questions 1 and 2, does it appear that the data fit the theoretical distribution? In complete sentences, explain why or why not.</li>
           <li>Suppose that the experiment had been repeated 500 times. Would you expect  or  to change, and how would it change? Why? Why wouldn’t the other table change?</li>
         </ol>
-      </note>
+            <figure xml:id="id18572910-fig-ch04-18-01-fig">
+        <image source="media/fig-ch04_18_01.png" width="80%">
+          <description>This is a blank graph template. The x-axis is labeled Number of matches. The y-axis is labeled Relative frequency.</description>
+        </image>
+      </figure>
+      <figure xml:id="id18402808-fig-ch04-18-02-fig">
+        <image source="media/fig-ch04_18_02.png" width="80%">
+          <description>This is a blank graph template. The x-axis is labeled Number of diamonds. The y-axis is labeled Probability.</description>
+        </image>
+      </figure>
+</note>
     </subsection>
 
   </section>
@@ -3090,28 +3154,28 @@ How do you know? Answer in complete sentences.</li>
   <section xml:id="sec-discrete-rv-references">
     <title>References</title>
     
-    <p>American Cancer Society. (2013). <em>What are the key statistics about pancreatic cancer?</em> Retrieved from http://www.cancer.org/cancer/pancreaticcancer/detailedguide/pancreatic-cancer-key-statistics</p>
-    <p>Centers for Disease Control and Prevention. (2012, Oct. 2). <em>Teen drivers: Get the facts</em>. Retrieved from http://www.cdc.gov/Motorvehiclesafety/Teen_Drivers/teendrivers_factsheet.html</p>
-    <p>Central Intelligence Agency. (n.d.). <em>The world factbook</em>. Retrieved from https://www.cia.gov/library/publications/theworld-factbook/geos/af.html</p>
-    <p><em>Daily Mail</em>. (2011, June 9). One born every minute: the maternity unit where mothers are THREE to a bed. Retrieved from http://www.dailymail.co.uk/news/article-2001422/Busiest-maternity-ward-planet-averages-60-babies-day-mothersbed.html</p>
-    <p>Department of Aviation at the Hartsfield-Jackson Atlanta International Airport. (2013). <em>ATL fact sheet</em>. Retrieved from http://www.atlanta-airport.com/Airport/ATL/ATL_FactSheet.aspx</p>
-    <p>ESPN NBA. (2013). NBA statistics 2013. Retrieved from http://espn.go.com/nba/statistics/_/seasontype/2</p>
-    <p>The European Union and ICON-Institute. (2007/8). <em>Summary of the national risk and vulnerability assessment 2007/8: A profile of Afghanistan</em>. Retrieved from http://ec.europa.eu/europeaid/where/asia/documents/afgh_brochure_summary_en.pdf</p>
-    <p>Florida State University. (n.d.). <em>Class catalogue at the Florida State University</em>. Retrieved from https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy</p>
-    <p><em>The Guardian</em>. (2011, June 8). Giving birth in Manila: The maternity ward at the Dr Jose Fabella Memorial Hospital in Manila, the busiest in the Philippines, where there is an average of 60 births a day. Retrieved from http://www.theguardian.com/world/gallery/2011/jun/08/philippines-health#/?picture=375471900&amp;index=2</p>
-    <p>Lenhart, A. (2012). Teens, smartphones &amp; testing: Texting volume is up while the frequency of voice calling is down. About one in four teens say they own smartphones. Pew Internet. Retrieved from http://www.pewinternet.org/~/media/Files/Reports/2012/PIP_Teens_Smartphones_and_Texting.pdf</p>
-    <p>Ministry of Health, Labour, and Welfare. (n.d.). <em>Children and childrearing</em>. Retrieved from http://www.mhlw.go.jp/english/policy/children/children-childrearing/index.html</p>
-    <p>Newport, F. (2013). Americans still enjoy saving rather than spending: Few demographic differences seen in these views other than by income. <em>GALLUP Economy</em>. Retrieved from http://www.gallup.com/poll/162368/americansenjoy-saving-rather-spending.aspx</p>
-    <p>Pew Internet. (2013). <em>How Americans use text messaging</em>. Retrieved from http://pewinternet.org/Reports/2011/Cell-Phone-Texting-2011/Main-Report.aspx</p>
-    <p>Pew Research Center. (n.d.). Millennials: A portrait of generation next. Retrieved from http://www.pewsocialtrends.org/files/2010/10/millennials-confident-connected-open-to-change.pdf</p>
-    <p>Pew Research. (2013). Millennials: confident. Executive Summary: Pew Research Social &amp; Demographic Trends. Retrieved from http://www.pewsocialtrends.org/2010/02/24/millennials-confident-connected-open-tochange/</p>
-    <p>Pryor, J. H., et al. (2011). <em>The American freshman: National norms fall 2011</em>. Los Angeles: Cooperative Institutional Research Program, Higher Education Research Institute. Retrieved from http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf</p>
-    <p>South Carolina Department of Mental Health. (2006). <em>Eating disorder statistics</em>. Retrieved from http://www.state.sc.us/dmh/anorexia/statistics.htm</p>
-    <p>UNICEF Television. (n.d.). <em>UNICEF reports on female literacy centers in Afghanistan established to teach women and girls basic reading and writing skills</em>. (Video). Retrieved from http://www.unicefusa.org/assets/video/afghan-femaleliteracy-centers.html</p>
-    <p>Vanderkam, L. (2012, Oct. 8). Stop checking your email, now. <em>CNNMoney</em>. Retrieved from http://management.fortune.cnn.com/2012/10/08/stop-checking-your-email-now/</p>
-    <p>Wikipedia. (n.d.). <em>Distance education</em>. Retrieved from http://en.wikipedia.org/wiki/Distance_education</p>
-    <p>The World Bank. (2013). Prevalence of HIV, total (% of populations ages 15-49). Retrieved from http://data.worldbank.org/indicator/SH.DYN.AIDS.ZS?order=wbapi_data_value_2011+wbapi_data_value+wbapi_data_value-last&amp;sort=desc</p>
-    <p>World Earthquakes. (2012). <em>World earthquakes: Live earthquake news and highlights</em>. Retrieved from http://www.worldearthquakes.com/index.php?option=ethq_prediction</p>
+    <p>American Cancer Society. (2013). <em>What are the key statistics about pancreatic cancer?</em> Retrieved from <url href="http://www.cancer.org/cancer/pancreaticcancer/detailedguide/pancreatic-cancer-key-statistics">http://www.cancer.org/cancer/pancreaticcancer/detailedguide/pancreatic-cancer-key-statistics</url></p>
+    <p>Centers for Disease Control and Prevention. (2012, Oct. 2). <em>Teen drivers: Get the facts</em>. Retrieved from <url href="http://www.cdc.gov/Motorvehiclesafety/Teen_Drivers/teendrivers_factsheet.html">http://www.cdc.gov/Motorvehiclesafety/Teen_Drivers/teendrivers_factsheet.html</url></p>
+    <p>Central Intelligence Agency. (n.d.). <em>The world factbook</em>. Retrieved from <url href="https://www.cia.gov/library/publications/theworld-factbook/geos/af.html">https://www.cia.gov/library/publications/theworld-factbook/geos/af.html</url></p>
+    <p><em>Daily Mail</em>. (2011, June 9). One born every minute: the maternity unit where mothers are THREE to a bed. Retrieved from <url href="http://www.dailymail.co.uk/news/article-2001422/Busiest-maternity-ward-planet-averages-60-babies-day-mothersbed.html">http://www.dailymail.co.uk/news/article-2001422/Busiest-maternity-ward-planet-averages-60-babies-day-mothersbed.html</url></p>
+    <p>Department of Aviation at the Hartsfield-Jackson Atlanta International Airport. (2013). <em>ATL fact sheet</em>. Retrieved from <url href="http://www.atlanta-airport.com/Airport/ATL/ATL_FactSheet.aspx">http://www.atlanta-airport.com/Airport/ATL/ATL_FactSheet.aspx</url></p>
+    <p>ESPN NBA. (2013). NBA statistics 2013. Retrieved from <url href="http://espn.go.com/nba/statistics/_/seasontype/2">http://espn.go.com/nba/statistics/_/seasontype/2</url></p>
+    <p>The European Union and ICON-Institute. (2007/8). <em>Summary of the national risk and vulnerability assessment 2007/8: A profile of Afghanistan</em>. Retrieved from <url href="http://ec.europa.eu/europeaid/where/asia/documents/afgh_brochure_summary_en.pdf">http://ec.europa.eu/europeaid/where/asia/documents/afgh_brochure_summary_en.pdf</url></p>
+    <p>Florida State University. (n.d.). <em>Class catalogue at the Florida State University</em>. Retrieved from <url href="https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy">https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy</url></p>
+    <p><em>The Guardian</em>. (2011, June 8). Giving birth in Manila: The maternity ward at the Dr Jose Fabella Memorial Hospital in Manila, the busiest in the Philippines, where there is an average of 60 births a day. Retrieved from <url href="http://www.theguardian.com/world/gallery/2011/jun/08/philippines-health#/?picture=375471900&amp;index=2">http://www.theguardian.com/world/gallery/2011/jun/08/philippines-health#/?picture=375471900&amp;index=2</url></p>
+    <p>Lenhart, A. (2012). Teens, smartphones &amp; testing: Texting volume is up while the frequency of voice calling is down. About one in four teens say they own smartphones. Pew Internet. Retrieved from <url href="http://www.pewinternet.org/~/media/Files/Reports/2012/PIP_Teens_Smartphones_and_Texting.pdf">http://www.pewinternet.org/~/media/Files/Reports/2012/PIP_Teens_Smartphones_and_Texting.pdf</url></p>
+    <p>Ministry of Health, Labour, and Welfare. (n.d.). <em>Children and childrearing</em>. Retrieved from <url href="http://www.mhlw.go.jp/english/policy/children/children-childrearing/index.html">http://www.mhlw.go.jp/english/policy/children/children-childrearing/index.html</url></p>
+    <p>Newport, F. (2013). Americans still enjoy saving rather than spending: Few demographic differences seen in these views other than by income. <em>GALLUP Economy</em>. Retrieved from <url href="http://www.gallup.com/poll/162368/americansenjoy-saving-rather-spending.aspx">http://www.gallup.com/poll/162368/americansenjoy-saving-rather-spending.aspx</url></p>
+    <p>Pew Internet. (2013). <em>How Americans use text messaging</em>. Retrieved from <url href="http://pewinternet.org/Reports/2011/Cell-Phone-Texting-2011/Main-Report.aspx">http://pewinternet.org/Reports/2011/Cell-Phone-Texting-2011/Main-Report.aspx</url></p>
+    <p>Pew Research Center. (n.d.). Millennials: A portrait of generation next. Retrieved from <url href="http://www.pewsocialtrends.org/files/2010/10/millennials-confident-connected-open-to-change.pdf">http://www.pewsocialtrends.org/files/2010/10/millennials-confident-connected-open-to-change.pdf</url></p>
+    <p>Pew Research. (2013). Millennials: confident. Executive Summary: Pew Research Social &amp; Demographic Trends. Retrieved from <url href="http://www.pewsocialtrends.org/2010/02/24/millennials-confident-connected-open-tochange/">http://www.pewsocialtrends.org/2010/02/24/millennials-confident-connected-open-tochange/</url></p>
+    <p>Pryor, J. H., et al. (2011). <em>The American freshman: National norms fall 2011</em>. Los Angeles: Cooperative Institutional Research Program, Higher Education Research Institute. Retrieved from <url href="http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf">http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf</url></p>
+    <p>South Carolina Department of Mental Health. (2006). <em>Eating disorder statistics</em>. Retrieved from <url href="http://www.state.sc.us/dmh/anorexia/statistics.htm">http://www.state.sc.us/dmh/anorexia/statistics.htm</url></p>
+    <p>UNICEF Television. (n.d.). <em>UNICEF reports on female literacy centers in Afghanistan established to teach women and girls basic reading and writing skills</em>. (Video). Retrieved from <url href="http://www.unicefusa.org/assets/video/afghan-femaleliteracy-centers.html">http://www.unicefusa.org/assets/video/afghan-femaleliteracy-centers.html</url></p>
+    <p>Vanderkam, L. (2012, Oct. 8). Stop checking your email, now. <em>CNNMoney</em>. Retrieved from <url href="http://management.fortune.cnn.com/2012/10/08/stop-checking-your-email-now/">http://management.fortune.cnn.com/2012/10/08/stop-checking-your-email-now/</url></p>
+    <p>Wikipedia. (n.d.). <em>Distance education</em>. Retrieved from <url href="http://en.wikipedia.org/wiki/Distance_education">http://en.wikipedia.org/wiki/Distance_education</url></p>
+    <p>The World Bank. (2013). Prevalence of HIV, total (% of populations ages 15-49). Retrieved from <url href="http://data.worldbank.org/indicator/SH.DYN.AIDS.ZS?order=wbapi_data_value_2011+wbapi_data_value+wbapi_data_value-last&amp;sort=desc">http://data.worldbank.org/indicator/SH.DYN.AIDS.ZS?order=wbapi_data_value_2011+wbapi_data_value+wbapi_data_value-last&amp;sort=desc</url></p>
+    <p>World Earthquakes. (2012). <em>World earthquakes: Live earthquake news and highlights</em>. Retrieved from <url href="http://www.worldearthquakes.com/index.php?option=ethq_prediction">http://www.worldearthquakes.com/index.php?option=ethq_prediction</url></p>
   </section>
 
 

@@ -422,7 +422,7 @@
         <p xml:id="ch05-element-919">Notice that the theoretical mean and standard deviation are close to the sample mean and standard deviation in this example.</p>
       </statement>
     </example>
-  <note xml:id="fs-idp70845248" class="statistics try">
+  <exercise xml:id="fs-idp70845248" class="statistics try">
     <task xml:id="fs-idp158465216">
       <title>Try It</title>
       <statement>
@@ -442,14 +442,18 @@
         <p xml:id="fs-idp111364752"><em>a</em> is zero, <em>b</em> is 14, <em>X</em> ~ <em>U</em> (0, 14), <em>μ</em> = 7 passengers, <em>σ</em> = 4.04 passengers</p>
       </solution>
     </task>
-  </note>
+  </exercise>
   <example xml:id="example-170">
-      <statement>
         <task xml:id="element-156">
           <title>Try It</title>
           <statement>
             <p xml:id="element-170">a. Refer to <xref ref="element-229"/>. What is the probability that a randomly chosen eight-week-old baby smiles between two and 18 seconds?</p>
-          </statement>
+                <figure xml:id="eip-idp133938240-fig-ch05-03-01n-fig">
+        <image source="media/fig-ch05_03_01N.jpg" width="76%">
+          <description>This graph shows a uniform distribution. The horizontal axis ranges from 0 to 15. The distribution is modeled by a rectangle extending from x = 0 to x = 15. A region from x = 2 to x = 18 is shaded inside the rectangle.</description>
+        </image>
+      </figure>
+</statement>
           <solution>
             <p xml:id="element-178"><em>P</em>(2 &lt; <em>x</em> &lt; 18) = (base)(height) = (18 – 2)<m>(\frac{1}{23})</m> = <m>\frac{16}{23}</m></p>
           </solution>
@@ -458,7 +462,12 @@
           <title>Try It</title>
           <statement>
             <p xml:id="element-483">b. Find the 90<sup>th</sup> percentile for an eight-week-old baby's smiling time.</p>
-          </statement>
+                <figure xml:id="eip-idp216325248-fig-ch05-03-02n-fig">
+        <image source="media/fig-ch05_03_02N.jpg" width="76%">
+          <description>This shows the graph of the function f(x) = 1/15. A horiztonal line ranges from the point (0, 1/15) to the point (15, 1/15). A vertical line extends from the x-axis to the end of the line at point (15, 1/15) creating a rectangle. A region is shaded inside the rectangle from x = 0 to x = k. The shaded area represents P(x &amp;lt; k) = 0.90.</description>
+        </image>
+      </figure>
+</statement>
           <solution>
             <p xml:id="ch05-element-6">b. Ninety percent of the smiling times fall below the 90<sup>th</sup> percentile, <em>k</em>, so <em>P</em>(<em>x</em> &lt; <em>k</em>) = 0.90.</p>
             <men xml:id="fs-id1164563350100">P(x&lt;k)=0.90</men>
@@ -471,7 +480,17 @@
           <title>Try It</title>
           <statement>
             <p xml:id="element-503">c. Find the probability that a random eight-week-old baby smiles more than 12 seconds <em>knowing</em> that the baby smiles <em>more than eight seconds</em>.</p>
-          </statement>
+                <figure xml:id="eip-idm134042368-fig-ch05-03-03n-fig">
+        <image source="media/fig-ch05_03_03N.jpg" width="76%">
+          <description>f(X)=1/15 graph displaying a boxed region consisting of a horizontal line extending to the right from point 1/15 on the y-axis, a vertical upward line from points 8 and 23 on the x-axis, and the x-axis. A shaded region from points 12-23 occurs within this area.</description>
+        </image>
+      </figure>
+      <figure xml:id="eip-idm5414416-fig-ch05-03-04n-fig">
+        <image source="media/fig-ch05_03_04N.jpg" width="76%">
+          <description>This shows the graph of the function f(x) = 1/23. A horizontal line ranges from the point (0, 1/23) to the point (23, 1/23). A vertical line extends from the x-axis to the end of the line at point (23, 1/23) creating a rectangle. A shaded region occurs with vertical lines that extend from the horizontal axis to the graph at x = 8 and x = 12.</description>
+        </image>
+      </figure>
+</statement>
           <solution>
             <p xml:id="fs-idp106518000">c. This probability question is a conditional. You are asked to find the probability that an eight-week-old baby smiles more than 12 seconds when you <em>already know</em> the baby has smiled for more than eight seconds.</p>
             <p xml:id="element-836">Find <em>P</em>(<em>x</em> &gt; 12|<em>x</em> &gt; 8) There are two ways to do the problem. <em>For the first way</em>, use the fact that this is a conditional and changes the sample space. The graph illustrates the new sample space. You already know the baby smiled more than eight seconds.</p>
@@ -484,9 +503,8 @@
             <p xml:id="element-613">So, <em>P</em>(<em>x</em> &gt; <em>12</em>|<em>x</em> &gt; 8) = <m>\frac{(x&gt;12ANDx&gt;8)}{P(x&gt;8)}=\frac{P(x&gt;12)}{P(x&gt;8)}=\frac{\frac{11}{23}}{\frac{15}{23}}=\frac{11}{15}</m></p>
           </solution>
         </task>
-      </statement>
     </example>
-  <note xml:id="fs-idp61080304" class="statistics try">
+  <exercise xml:id="fs-idp61080304" class="statistics try">
     <task xml:id="fs-idp178484384">
       <title>Try It</title>
       <statement>
@@ -496,10 +514,11 @@
         <p xml:id="fs-idp3862896"><em>P</em>(2 &lt; <em>x</em> &lt; 18) = 0.8, 90<sup>th</sup> percentile = 18</p>
       </solution>
     </task>
-  </note>
+  </exercise>
   <example xml:id="element-158">
       <statement>
         <p xml:id="element-697">The amount of time, in minutes, that a person must wait for a bus is uniformly distributed between zero and 15 minutes, inclusive.</p>
+      </statement>
         <task xml:id="element-351">
           <title>Try It</title>
           <statement>
@@ -516,7 +535,12 @@ for 0 ≤ <em>x</em> ≤ 15.</p>
               <image source="media/fig-ch05_03_05N.jpg">
               </image>
             </figure>
-          </solution>
+                <figure xml:id="eip-idp75195312-fig-ch05-03-06n-fig">
+        <image source="media/fig-ch05_03_06N.jpg" width="76%">
+          <description>f(X)=1/15 graph displaying a boxed region consisting of a horizontal line extending to the right from point 1/15 on the y-axis, a vertical upward line from an arbitrary point on the x-axis, and the x and y-axes. A shaded region from points 0-k occurs within this area. The area of this probability region is equal to 0.90.</description>
+        </image>
+      </figure>
+</solution>
         </task>
         <task xml:id="element-786">
           <title>Try It</title>
@@ -565,9 +589,8 @@ for 0 ≤ <em>x</em> ≤ 15.</p>
 The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a person must wait at most 13.5 minutes.</p>
           </solution>
         </task>
-      </statement>
     </example>
-  <note xml:id="fs-idp13010016" class="statistics try">
+  <exercise xml:id="fs-idp13010016" class="statistics try">
     <task xml:id="fs-idp51205632">
       <title>Try It</title>
       <statement>
@@ -579,7 +602,12 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
           <li>What is the probability that the duration of games for a team for the 2011 season is between 480 and 500 hours?</li>
           <li>What is the 65<sup>th</sup> percentile for the duration of games for a team for the 2011 season?</li>
         </ol>
-      </statement>
+            <figure xml:id="fs-idp182055760-cnx-stats-c05-m03-tryit001annon-fig">
+        <image source="media/CNX_Stats_C05_M03_tryit001annoN.jpg" width="76%">
+          <description>A graph is shown. It contains an x axis and a f(x) axis. A box is drawn on the graph from an f(x) position of 1/8 to a x axis position of 8. The box is shaded blue between the measurements of 2.5 and 7.5.</description>
+        </image>
+      </figure>
+</statement>
       <solution>
         <ol marker="a">
           <li><em>a</em> is 447, and <em>b</em> is 521. <em>a</em> is the minimum duration of games for a team for the 2011 season, and <em>b</em> is the maximum duration of games for a team for the 2011 season.</li>
@@ -590,10 +618,11 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         </ol>
       </solution>
     </task>
-  </note>
+  </exercise>
   <example xml:id="ch05-element-321">
       <statement>
         <p xml:id="element-637">Suppose the time it takes a nine-year old to eat a donut is between 0.5 and 4 minutes, inclusive. Let <em>X</em> = the time, in minutes, it takes a nine-year-old child to eat a doughnut. Then <em>X</em> ~ <em>U</em>(0.5, 4).</p>
+      </statement>
         <task xml:id="eip-idp102263568">
           <title>Try It</title>
           <statement>
@@ -612,17 +641,21 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
             <men xml:id="fs-id1164566880095">f(x)=\frac{1}{4-1.5}=\frac{2}{5}for 1.5\leqx\leq4.</men>
             <p xml:id="eip-idm60988032">Find <em>P</em>(<em>x</em> &gt; 2|<em>x</em> &gt; 1.5). Draw a graph.</p>
             <men xml:id="fs-id1164564967560">P(x&gt;2|x&gt;1.5)= (base)(new height) = (4 – 2)(\frac{2}{5})=\frac{4}{5}</men>
-          </statement>
+                <figure xml:id="eip-idp101580400-fig-ch05-03-07n-fig">
+        <image source="media/fig-ch05_03_07N.jpg" width="76%">
+          <description>f(X)=2/5 graph displaying a boxed region consisting of a horizontal line extending to the right from point 2/5 on the y-axis, a vertical upward line from points 1.5 and 4 on the x-axis, and the x-axis. A shaded region from points 2-4 occurs within this area.</description>
+        </image>
+      </figure>
+</statement>
           <solution>
             <p xml:id="eip-idp15120208">b. <m>\frac{4}{5}</m></p>
+            <p xml:id="eip-idm70960944">The probability that a nine-year-old child eats a donut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes is <m>\frac{4}{5}</m>.</p>
+            <p xml:id="eip-idm39713200"><em>Second way:</em> Draw the original graph for <em>X</em> ~ <em>U</em>(0.5, 4). Use the conditional formula</p>
+            <men xml:id="fs-id1164566947548">P(x&gt;2|x&gt;1.5)=\frac{P(x&gt;2ANDx&gt;1.5)}{P(x&gt;1.5)}=\frac{P(x&gt;2)}{P(x&gt;1.5)}=\frac{\frac{2}{3.5}}{\frac{2.5}{3.5}}=0.8=\frac{4}{5}</men>
           </solution>
         </task>
-        <p xml:id="eip-idm70960944">The probability that a nine-year-old child eats a donut in more than two minutes given that the child has already been eating the doughnut for more than 1.5 minutes is <m>\frac{4}{5}</m>.</p>
-        <p xml:id="eip-idm39713200"><em>Second way:</em> Draw the original graph for <em>X</em> ~ <em>U</em>(0.5, 4). Use the conditional formula</p>
-        <men xml:id="fs-id1164566947548">P(x&gt;2|x&gt;1.5)=\frac{P(x&gt;2ANDx&gt;1.5)}{P(x&gt;1.5)}=\frac{P(x&gt;2)}{P(x&gt;1.5)}=\frac{\frac{2}{3.5}}{\frac{2.5}{3.5}}=0.8=\frac{4}{5}</men>
-      </statement>
     </example>
-  <note xml:id="fs-idp42235264" class="statistics try">
+  <exercise xml:id="fs-idp42235264" class="statistics try">
     <task xml:id="fs-idp177663840">
       <title>Try It</title>
       <statement>
@@ -634,10 +667,11 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         <p xml:id="fs-idp63181504"><em>P</em> (<em>x</em> &gt; 8 | x &gt; 7) = 0.875</p>
       </solution>
     </task>
-  </note>
+  </exercise>
   <example xml:id="eip-323">
       <statement>
         <p xml:id="eip-id1170213489898">Ace Heating and Air Conditioning Service finds that the amount of time a repairman needs to fix a furnace is uniformly distributed between 1.5 and four hours. Let <em>x</em> = the time needed to fix a furnace. Then <em>x</em> ~ <em>U</em>(1.5, 4).</p>
+      </statement>
         <task xml:id="eip-idm8252240">
           <title>Try It</title>
           <statement>
@@ -648,7 +682,25 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
               <li>The longest 25 percent of furnace repair times take at least how long? (In other words: find the minimum time for the longest 25 percent of repair times.) What percentile does this represent?</li>
               <li>Find the mean and standard deviation</li>
             </ol>
-          </statement>
+                <figure xml:id="fs-idm70679104-fig-ch05-03-09n-fig">
+        <caption>Uniform distribution between 1.5 and four with shaded area between 1.5  and three representing the probability that the repair time  x  is less than three</caption>
+        <image source="media/fig-ch05_03_09N.jpg" width="76%">
+          <description>This shows the graph of the function f(x) = 0.4. A horiztonal line ranges from the point (1.5, 0.4) to the point (4, 0.4). Vertical lines extend from the x-axis to the graph at x = 1.5 and x = 4 creating a rectangle. A region is shaded inside the rectangle from x = 1.5 to x = 3.</description>
+        </image>
+      </figure>
+      <figure xml:id="figure-03-fig-ch05-03-10n-fig">
+        <caption>Uniform distribution between 1.5 and 4 with an area of 0.30 shaded to the left, representing the shortest 30 percent of repair times.</caption>
+        <image source="media/fig-ch05_03_10N.jpg" width="76%">
+          <description>This shows the graph of the function f(x) = 0.4. A horiztonal line ranges from the point (1.5, 0.4) to the point (4, 0.4). Vertical lines extend from the x-axis to the graph at x = 1.5 and x = 4 creating a rectangle. A region is shaded inside the rectangle from x = 1.5 to x = k. The shaded area represents P(x &amp;lt; k) = 0.3.</description>
+        </image>
+      </figure>
+      <figure xml:id="fs-idm51742384-fig-ch05-03-11n-fig">
+        <caption>Uniform distribution between 1.5 and 4 with an area of 0.25 shaded to the right representing the longest 25 percent of repair times.</caption>
+        <image source="media/fig-ch05_03_11N.jpg" width="76%">
+          <description>A graph with an x and an f(x) axis is shown. A box is drawn on the graph between 1.5 and 4 on the x axis, and 0 and 0.4 on the f(x) axis. The box is shaded blue from measurement k to 4. Text above the box says shaded area represents P(x&gt;k)=0.25.</description>
+        </image>
+      </figure>
+</statement>
           <solution>
             <p xml:id="fs-idm59847232">a. To find <em>f</em>(<em>x</em>): <em>f</em> (<em>x</em>) = <m>\frac{1}{4-1.5}</m> = <m>\frac{1}{2.5}</m> so <em>f</em>(<em>x</em>) = 0.4</p>
             <p xml:id="fs-idm19787408"><em>P</em>(<em>x</em> &gt; 2) = (base)(height) = (4 – 2)(0.4) = 0.8</p>
@@ -659,9 +711,8 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
             </figure>
           </solution>
         </task>
-      </statement>
     </example>
-  <note xml:id="fs-idm9097392" class="statistics try">
+  <exercise xml:id="fs-idm9097392" class="statistics try">
     <task xml:id="fs-idp8673008">
       <title>Try It</title>
       <statement>
@@ -684,7 +735,7 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         </ol>
       </solution>
     </task>
-  </note>
+  </exercise>
   <subsection xml:id="fs-idp87344528">
     <title>Chapter Review</title>
     <p xml:id="fs-idp24264368">If <em>X</em> has a uniform distribution where <em>a</em> &lt; <em>x</em> &lt; <em>b</em> or <em>a</em> ≤ <em>x</em> ≤ <em>b</em>, then <em>X</em> takes on values between <em>a</em> and <em>b</em> (may include <em>a</em> and <em>b</em>). All values <em>x</em> are equally likely. We write <em>X</em> ∼ <em>U</em>(<em>a</em>, <em>b</em>). The mean of <em>X</em> is <m>μ=\frac{a+b}{2}</m>. The standard deviation of <em>X</em> is <m>σ=\sqrt{\frac{(b-a)^{2}}{12}}</m>. The probability density function of <em>X</em> is <m>f(x)=\frac{1}{b-a}</m> for <em>a</em> ≤ <em>x</em> ≤ <em>b</em>. The cumulative distribution function of <em>X</em> is <em>P</em>(<em>X</em> ≤ <em>x</em>) = <m>\frac{x-a}{b-a}</m>. <em>X</em> is continuous.</p>
@@ -929,7 +980,12 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
           <li>Label for <em>y</em>-axis (words): _______</li>
         </ol></li>
         </ol>
-      </statement>
+            <figure xml:id="element-123987-fig-ch05-06-01n-fig">
+        <image source="media/fig-ch05_06_01N.jpg" width="76%">
+          <description>This is a blank graph template. The vertical and horizontal axes are unlabeled.</description>
+        </image>
+      </figure>
+</statement>
     </exercise>
     <exercise xml:id="eip-97">
       <title>Try It</title>
@@ -948,7 +1004,12 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
           <li>Sketch the graph, and shade the area of interest.</li>
           <li>Find the probability. <em>P</em>(<em>x</em> &lt; 4) = _______</li>
         </ol>
-      </statement>
+            <figure xml:id="element-12987-fig-ch05-06-02-fig">
+        <image source="media/fig-ch05_06_02.png" width="76%">
+          <description>Blank graph with vertical and horizontal axes.</description>
+        </image>
+      </figure>
+</statement>
     </exercise>
     <exercise xml:id="ch05-eip-709">
       <title>Try It</title>
@@ -1197,7 +1258,17 @@ The 90<sup>th</sup> percentile is 13.5 minutes. Ninety percent of the time, a pe
         = <m>\frac{P(x&gt;21)}{P(x&gt;18)}</m> = <m>\frac{(25-21)}{(25-18)}</m> = <m>\frac{4}{7}</m>.</li>
         </ul></li>
         </ol>
-      </solution>
+            <figure xml:id="fs-idp56920896-soln-01af-fig">
+        <image source="media/soln_01aF.jpg" width="76%">
+          <description>A graph is shown. The x($) axis shown is measured from 14 to 26 in increments of two. A box is drawn on the graph between the measurements of 16 and 25, and up to 1/9 on the y axis. The box is shaded blue from 19 to 25. Text above the box states shaded area represents P(x&gt;19)=2/3.</description>
+        </image>
+      </figure>
+      <figure xml:id="fs-idp47544128-soln-01bf-fig">
+        <image source="media/soln_01bF.jpg" width="76%">
+          <description>A graph is shown. The x($) axis shown is measured from 14 to 26 in increments of two. A box is drawn on the graph between the measurements of 16 and 25 and up to 1/9 on the y axis. The box is shaded from 23 to 25. Text above the box states Shaded area represents P(19&amp;lt;x&amp;lt;22)=1/3.</description>
+        </image>
+      </figure>
+</solution>
     </exercise>
     <exercise xml:id="fs-idp90929648">
       <title>Try It</title>
@@ -1309,6 +1380,16 @@ The probability that a postal clerk spends four to five minutes with a randomly 
  
 </mrow>
 </md>
+      <figure xml:id="fs-idm58174736-fig-ch05-04-02n-fig">
+        <image source="media/fig-ch05_04_02N.jpg" width="76%">
+          <description>Exponential graph with the curved line beginning at point (0, 0.25) and curves down towards point (∞, 0). Two vertical upward lines extend from points 4 and 5 to the curved line. The probability is in the area between points 4 and 5.</description>
+        </image>
+      </figure>
+      <figure xml:id="fs-idm48286512-fig-ch05-04-03n-fig">
+        <image source="media/fig-ch05_04_03N.jpg" width="76%">
+          <description>Exponential graph with the curved line beginning at point (0, 0.25) and curves down towards point (∞, 0). A vertical upward line extends from point k to the curved line. The probability area from 0-k is equal to 0.50.</description>
+        </image>
+      </figure>
 </solution>
 </example>
 <exercise xml:id="fs-idp69715216">
@@ -1331,6 +1412,11 @@ The probability that a postal clerk spends four to five minutes with a randomly 
 <statement>
 <p xml:id="fs-idp93704912">On the average, a certain computer part lasts 10 years. The length of time the computer part lasts is exponentially distributed.</p>
 <p xml:id="fs-idm33791232">a. What is the probability that a computer part lasts more than seven years?</p>
+      <figure xml:id="fs-idm49565232-fig-ch05-04-04n-fig">
+        <image source="media/fig-ch05_04_04N.jpg" width="76%">
+          <description>Exponential graph with the curved line beginning at point (0, 0.1) and curves down towards point (∞, 0). A vertical upward line extends from point 1 to the curved line. The probability area occurs from point 1 to the end of the curve. The x-axis is equal to the amount of time a computer part lasts.</description>
+        </image>
+      </figure>
 </statement>
 <solution>
 <p xml:id="fs-idp73432928">a. Let <em>x</em> = the amount of time (in years) a computer part lasts.</p>
@@ -1355,6 +1441,16 @@ The probability that a postal clerk spends four to five minutes with a randomly 
   
  
 </me>
+      <figure xml:id="fs-idm185319392-fig-ch05-04-05n-fig">
+        <image source="media/fig-ch05_04_05N.jpg" width="76%">
+          <description>Exponential graph with the curved line beginning at point (0, 0.1) and curves down towards point (∞, 0). A vertical upward line extends from point k to the curved line. k is the 80th percentile. The probability area from 0-k is equal to 0.80.</description>
+        </image>
+      </figure>
+      <figure xml:id="fs-idm74816976-fig-ch05-04-06n-fig">
+        <image source="media/fig-ch05_04_06N.jpg" width="76%">
+          <description>Exponential graph with the curved line beginning at point (0, 0.1) and curves down towards point (∞, 0). Two vertical upward lines extend from point 9 and 11 to the curved line. The probability area occurs between point 9 and 11.</description>
+        </image>
+      </figure>
 </solution>
 </example>
 <exercise xml:id="fs-idp160524848">
@@ -1381,16 +1477,16 @@ The probability that a postal clerk spends four to five minutes with a randomly 
 </statement>
 <solution>
 <p xml:id="fs-idp112077456"><em>P</em>(<em>x</em> &gt; 5) = 0.6592</p>
-<ul xml:id="fs-idm74868272">
-<li><em>m</em> = <m>
+<ul>
+<li><p><em>m</em> = <m>
 
 \frac{1}{
 12
 }
 
-</m></li>
-<li><em>μ</em> = 12</li>
-<li><em>σ</em> = 12</li>
+</m></p></li>
+<li><p><em>μ</em> = 12</p></li>
+<li><p><em>σ</em> = 12</p></li>
 </ul>
 </solution>
 </example>
@@ -1518,6 +1614,21 @@ You are finding the 70<m>^{th}</m> percentile <em>k</em> so you can use the form
 
 </li>
 <li>This model assumes that a single customer arrives at a time, which may not be reasonable since people might shop in groups, leading to several customers arriving at the same time. It also assumes that the flow of customers does not change throughout the day, which is not valid if some times of the day are busier than others.</li>
+      <figure xml:id="fs-idp55682592-cnx-stats-c05-m04-001-fig">
+        <image source="media/CNX_Stats_C05_M04_001.jpg" width="76%">
+          <description>A line graph is shown. The x axis measures values from 0 to 15 in increments of 5. The y axis measures values from 0 to 0.5 in increments of 0.1. Line starts from x, y coordinates of 0, 0.5, and then takes a steep curve downwards before leveling out at the x,y coordinates of 15, 0. The segment of the graph from 0 to 1 on the x axis is shaded. Text above the graph reads shaded area represents probability 0.3935.</description>
+        </image>
+      </figure>
+      <figure xml:id="fs-idm13320960-cnx-stats-c05-m04-002n-fig">
+        <image source="media/CNX_Stats_C05_M04_002N.jpg" width="76%">
+          <description>A line graph is shown. The x axis measures values from 0 to 15 in increments of 5. The y axis measures values from 0 to 0.5 in increments of 0.1. Line starts from x, y coordinates of 0, 0.5, and then takes a steep curve downwards before leveling out at the x,y coordinates of 15, 0. The segment of the graph from 5 to 15 on the x axis is shaded. Text above the graph reads shaded area represents probability P(x&gt;5)=1-P(x&amp;lt;5)=0.0821.</description>
+        </image>
+      </figure>
+      <figure xml:id="fs-idp171901552-cnx-stats-c05-m04-003-fig">
+        <image source="media/CNX_Stats_C05_M04_003.jpg" width="76%">
+          <description>A line graph is shown. The x axis measures values from 0 to 15 in increments of 5. The y axis measures values from 0 to 0.5 in increments of 0.1. Line starts from x, y coordinates of 0, 0.5, and then takes a steep curve downwards before leveling out at the x,y coordinates of 15, 0. The segment of the graph from 0 to 2.41 on the x axis is shaded. Text above the graph reads shaded area represents probability 0.70.</description>
+        </image>
+      </figure>
 </ol>
 <me xml:id="fs-id1164565433383">
  
@@ -1657,7 +1768,7 @@ The mean of <em>T</em> is 12 seconds, so the decay parameter is <m>
 </subsection>
 <subsection xml:id="fs-idp112021200">
 <title>Relationship Between the Poisson and the Exponential Distribution</title>
-<p xml:id="fs-idp96158416">There is an interesting relationship between the exponential distribution and the Poisson distribution. Suppose that the time that elapses between two successive events follows the exponential distribution with a mean of <em>μ</em> units of time. Also assume that these times are independent, meaning that the time between events is not affected by the times between previous events. If these assumptions hold, then the number of events per unit time follows a Poisson distribution with mean <em>λ</em> = 1/μ. Recall from the chapter on Discrete Random Variables that if <em>X</em> has the Poisson distribution with mean <em>λ</em>, then <m>
+<p xml:id="fs-idp96158416">There is an interesting relationship between the exponential distribution and the Poisson distribution. Suppose that the time that elapses between two successive events follows the exponential distribution with a mean of <em>μ</em> units of time. Also assume that these times are independent, meaning that the time between events is not affected by the times between previous events. If these assumptions hold, then the number of events per unit time follows a Poisson distribution with mean <em>λ</em> = 1/μ. Recall from <xref ref="ch04-discrete-random-variables">Discrete Random Variables</xref> that if <em>X</em> has the Poisson distribution with mean <em>λ</em>, then <m>
 
 P(X=k)=\frac{
 λ^{k}
@@ -2066,6 +2177,12 @@ k!
 <exercise xml:id="fs-idm5013072">
 <statement>
 <p xml:id="fs-idm17726944">Suppose that the longevity of a light bulb is exponential with a mean lifetime of eight years.</p>
+      <figure xml:id="fs-idm5754752-cnx-stats-c05-m04-005n-fig">
+        <image source="media/CNX_Stats_C05_M04_005N.jpg" width="76%">
+          <description>This graph shows an exponential distribution. The graph slopes downward. It begins at the point (0, 0.25) on the y-axis and approaches the x-axis at the right edge of the graph. The region under the graph to the right of x = 3 is shaded to represent P(x &gt; 3) = 0.4724.</description>
+        </image>
+      </figure>
+
 <ol xml:id="fs-idm17726448">
 <li>Find the probability that a light bulb lasts less than one year.</li>
 <li>Find the probability that a light bulb lasts between six and 10 years.</li>
@@ -2696,8 +2813,8 @@ Therefore, <em>m</em> = <m>
   <section xml:id="sec-continuous-rv-references">
     <title>References</title>
     
-    <p>Data from the National Center for Health Statistics. Retrieved from http://www.cdc.gov/nchs.</p>
-    <p>Data from the Bureau of Transportation Statistics. Retrieved from http://www.bts.gov.</p>
+    <p>Data from the National Center for Health Statistics. Retrieved from <url href="http://www.cdc.gov/nchs">http://www.cdc.gov/nchs</url>.</p>
+    <p>Data from the Bureau of Transportation Statistics. Retrieved from <url href="http://www.bts.gov">http://www.bts.gov</url>.</p>
     <p>Data from www.baseball-reference.com (accessed May 1, 2013).</p>
   </section>
 

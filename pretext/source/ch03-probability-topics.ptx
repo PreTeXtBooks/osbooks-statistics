@@ -79,7 +79,22 @@
           <row><cell>Venn Diagram*</cell><cell></cell><cell></cell></row>
           <row><cell>Set Notation</cell><cell><m>S={H,T}</m></cell><cell><m>S={HH,HT,TH,TT}</m></cell></row>
         </tabular>
-      </table>
+            <figure xml:id="fs-id1164567161729-osx-hs-statistics-figure-03-01-02-02-fig">
+        <image source="media/OSX_HS_Statistics_Figure_03_01_02_02.jpg" width="20%">
+          <description>A simple tree diagram illustrates the two possible outcomes of flipping a coin: Heads or Tails, demonstrating a basic concept in probability.</description>
+        </image>
+      </figure>
+      <figure xml:id="fs-id1164567837356-osx-hs-statistics-figure-03-01-02-03-fig">
+        <image source="media/OSX_HS_Statistics_Figure_03_01_02_03.jpg" width="20%">
+          <description>A tree diagram illustrates the possible outcomes of flipping a coin two times. The outcomes are Heads-Heads (HH), Heads-Tails (HT), Tails-Heads (TH), and Tails-Tails (TT).</description>
+        </image>
+      </figure>
+      <figure xml:id="fs-id1164565375180-osx-hs-statistics-figure-03-01-02-04-fig">
+        <image source="media/OSX_HS_Statistics_Figure_03_01_02_04.jpg" width="20%">
+          <description>A diagram illustrating the outcomes of a coin flip, with </description>
+        </image>
+      </figure>
+</table>
       <p>*We will investigate tree diagrams and Venn diagrams in Section 3.5.</p>
       <p>Note—when represented as a set, the sample space is denoted with an uppercase <m>S</m>.</p>
       <p>An event is any combination of outcomes. It is a subset of the sample space, so uppercase letters like <m>A</m> and <m>B</m> are commonly used to represent events. For example, if the experiment is to flip three fair coins, event <m>A</m> might be getting at most one head.</p>
@@ -242,7 +257,7 @@
 
     <subsection xml:id="fs-idp2299568">
       <title>References</title>
-      <p>Worldatlas. (2013). <em>Countries list by continent</em>. Retrieved from http://www.worldatlas.com/cntycont.htm</p>
+      <p>Worldatlas. (2013). <em>Countries list by continent</em>. Retrieved from <url href="http://www.worldatlas.com/cntycont.htm">http://www.worldatlas.com/cntycont.htm</url></p>
     </subsection>
 
     <subsection xml:id="fs-idp18168192">
@@ -453,6 +468,12 @@
 <nbsp/>Let <m>R</m> = the event of landing on red.
 <nbsp/>Let <m>G</m> = the event of landing on green.
 <nbsp/>Let <m>Y</m> = the event of landing on yellow.</p>
+      <figure xml:id="eip-idp31502288-cnx-stats-c03-m01-021-fig">
+        <image source="media/CNX_Stats_C03_M01_021.jpg" width="50%">
+          <description>A circle is divided into eight equal sections. Beginning at the upper tip and moving clockwise, the colors of the sections are blue, green, red, red, blue, yellow, red, and red.</description>
+        </image>
+      </figure>
+
       <exercise xml:id="fs-idm87354368">
         <statement>
           <p>If you land on <m>Y</m>, you get the biggest prize. Find <m>P</m>(<m>Y</m>).</p>
@@ -615,7 +636,12 @@
       <p>The bag still contains four blue and three white marbles. Maria draws one marble from the bag at random, records the color, and sets the marble aside. The probability of drawing blue on the first draw is <m>\frac{4}{7}</m>. Suppose Maria draws a blue marble and sets it aside. When she draws a marble from the bag a second time, there are now <em>three</em> blue and three white marbles. So, the probability of drawing blue is now <m>\frac{3}{6}=\frac{1}{2}</m>. Removing the first marble without replacing it influences the probabilities on the second draw.</p>
       <figure xml:id="fs-id1164565980547">
         <image source="media/OSX_HS_Statistics_Figure_03_02_02_01.jpg"/>
+            <figure xml:id="fs-id1164564385217-osx-hs-statistics-figure-03-01-02-01-fig">
+        <image source="media/OSX_HS_Statistics_Figure_03_01_02_01.jpg" width="20%">
+          <description>A simple tree diagram illustrates the two possible outcomes of flipping a coin: Heads or Tails, demonstrating a basic concept in probability.</description>
+        </image>
       </figure>
+</figure>
       <p>If it is not known whether <m>A</m> and <m>B</m> are independent or dependent, assume they are dependent until you can show otherwise.</p>
       <example xml:id="fs-idm1963392">
         <statement>
@@ -950,7 +976,7 @@
     <subsection xml:id="fs-idm73253936">
       <title>References</title>
       <p>Gallup. (n.d.). Retrieved from www.gallup.com/</p>
-      <p>Lopez, S., and Sidhu, P. (2013, March 28). U.S. teachers love their lives, but struggle in the workplace. <em>Gallup Wellbeing</em>. http://www.gallup.com/poll/161516/teachers-love-lives-struggle-workplace.aspx</p>
+      <p>Lopez, S., and Sidhu, P. (2013, March 28). U.S. teachers love their lives, but struggle in the workplace. <em>Gallup Wellbeing</em>. <url href="http://www.gallup.com/poll/161516/teachers-love-lives-struggle-workplace.aspx">http://www.gallup.com/poll/161516/teachers-love-lives-struggle-workplace.aspx</url></p>
     </subsection>
 
     <subsection xml:id="fs-idm1912144">
@@ -1234,15 +1260,15 @@ If a test comes up positive, based upon numerical values, can you assume that ma
     <subsection xml:id="fs-idm107103536">
       <title>References</title>
       <p>Baseball Almanac. (2013). Retrieved from www.baseball-almanac.com</p>
-      <p>DiCamillo, Mark, and Field, M. The file poll. <em>Field Research Corporation</em>. Retrieved from http://www.field.com/fieldpollonline/subscribers/Rls2443.pdf</p>
+      <p>DiCamillo, Mark, and Field, M. The file poll. <em>Field Research Corporation</em>. Retrieved from <url href="http://www.field.com/fieldpollonline/subscribers/Rls2443.pdf">http://www.field.com/fieldpollonline/subscribers/Rls2443.pdf</url></p>
       <p>Field Research Corporation. (n.d.). Retrieved from www.field.com/fieldpollonline</p>
-      <p>Forum Research. (n.d.). <em>Mayors approval down</em>. Retrieved from http://www.forumresearch.com/forms/News Archives/News Releases/74209_TO_Issues_-_Mayoral_Approval_%28Forum_Research%29%2820130320%29.pdf</p>
-      <p>Rider, D. (2011, Sept. 14). Ford support plummeting, poll suggests. <em>The Star</em>. Retrieved from http://www.thestar.com/news/gta/2011/09/14/ford_support_plummeting_poll_suggests.html</p>
-      <p>Shin, H. B., and Kominski, R. A. (2010 April). Language use in the United States: 2007 (American Community Survey Reports, ACS-12). Washington, DC: United States Census Bureau. Retrieved from http://www.census.gov/hhes/socdemo/language/data/acs/ACS-12.pdf</p>
-      <p>The Roper Center for Public Opinion Research. (n.d.). <em>Archives</em>. Retrieved from http://www.ropercenter.uconn.edu/</p>
-      <p><em>The Wall Street Journal</em>. (n.d.). Retrieved from https://www.wsj.com/</p>
-      <p>U.S. Census Bureau. (n.d.). Retrieved from https://www.census.gov/</p>
-      <p>Wikipedia. (n.d.). <em>Roulette</em>. Retrieved from http://en.wikipedia.org/wiki/Roulette</p>
+      <p>Forum Research. (n.d.). <em>Mayors approval down</em>. Retrieved from <url href="http://www.forumresearch.com/forms/News%20Archives/News%20Releases/74209_TO_Issues_-_Mayoral_Approval_%28Forum_Research%29%2820130320%29.pdf">http://www.forumresearch.com/forms/News%20Archives/News%20Releases/74209_TO_Issues_-_Mayoral_Approval_%28Forum_Research%29%2820130320%29.pdf</url></p>
+      <p>Rider, D. (2011, Sept. 14). Ford support plummeting, poll suggests. <em>The Star</em>. Retrieved from <url href="http://www.thestar.com/news/gta/2011/09/14/ford_support_plummeting_poll_suggests.html">http://www.thestar.com/news/gta/2011/09/14/ford_support_plummeting_poll_suggests.html</url></p>
+      <p>Shin, H. B., and Kominski, R. A. (2010 April). Language use in the United States: 2007 (American Community Survey Reports, ACS-12). Washington, DC: United States Census Bureau. Retrieved from <url href="http://www.census.gov/hhes/socdemo/language/data/acs/ACS-12.pdf">http://www.census.gov/hhes/socdemo/language/data/acs/ACS-12.pdf</url></p>
+      <p>The Roper Center for Public Opinion Research. (n.d.). <em>Archives</em>. Retrieved from <url href="http://www.ropercenter.uconn.edu/">http://www.ropercenter.uconn.edu/</url></p>
+      <p><em>The Wall Street Journal</em>. (n.d.). Retrieved from <url href="https://www.wsj.com/">https://www.wsj.com/</url></p>
+      <p>U.S. Census Bureau. (n.d.). Retrieved from <url href="https://www.census.gov/">https://www.census.gov/</url></p>
+      <p>Wikipedia. (n.d.). <em>Roulette</em>. Retrieved from <url href="http://en.wikipedia.org/wiki/Roulette">http://en.wikipedia.org/wiki/Roulette</url></p>
     </subsection>
 
     <subsection xml:id="fs-idp34842048">
@@ -1337,7 +1363,7 @@ If a test comes up positive, based upon numerical values, can you assume that ma
 
 
     <subsection xml:id="fs-id1164567287600">
-      <p>A <term>two-way table</term> provides a way of portraying data that can facilitate calculating probabilities. When used to calculate probabilities, a two-way table is often called a <term>contingency table</term>. The table helps in determining conditional probabilities quite easily. The table displays sample values in relation to two different variables that may be dependent or contingent on one another. We used two-way tables in Chapters 1 and 2 to calculate marginal and conditional distributions. These tables organize data in a way that supports the calculation of relative frequency and, therefore, experimental (empirical) probability. Later on, we will use contingency tables again, but in another manner.</p>
+      <p>A <term>two-way table</term> provides a way of portraying data that can facilitate calculating probabilities. When used to calculate probabilities, a two-way table is often called a <term>contingency table</term>. The table helps in determining conditional probabilities quite easily. The table displays sample values in relation to two different variables that may be dependent or contingent on one another. We used two-way tables in <xref ref="ch01-sampling-and-data">Chapters 1</xref> and <xref ref="ch02-descriptive-statistics">2</xref> to calculate marginal and conditional distributions. These tables organize data in a way that supports the calculation of relative frequency and, therefore, experimental (empirical) probability. Later on, we will use contingency tables again, but in another manner.</p>
       <example xml:id="ch03-element-775">
         <statement>
           <ol>
@@ -1493,12 +1519,12 @@ If a test comes up positive, based upon numerical values, can you assume that ma
 
     <subsection xml:id="fs-idm122777312">
       <title>References</title>
-      <p>American Red Cross. (2013). Blood Types. Retrieved from http://www.redcrossblood.org/learn-about-blood/bloodtypes</p>
-      <p>Centers for Disease Control and Prevention/National Center for Health Statistics, United States Department of Health and Human Services. (n.d.). Retrieved from https://www.cdc.gov/nchs/</p>
-      <p>Haiman, C. A., et al. (2006, Jan. 26). Ethnic and racial differences in the smoking-related risk of lung cancer. <em>The New England Journal of Medicine</em>. Retrieved from http://www.nejm.org/doi/full/10.1056/NEJMoa033250</p>
-      <p>Samuels, T. M. (2013). Strange facts about RH negative blood. <em>eHow Health</em>. Retrieved from http://www.ehow.com/facts_5552003_strange-rh-negative-blood.html</p>
-      <p>The Disaster Center Crime Pages. (n.d.). <em>United States: Uniform crime report  state statistics from 19602011</em>. Retrieved from http://www.disastercenter.com/crime/</p>
-      <p>United Blood Services. (2011). <em>Human blood types</em>. Retrieved from http://www.unitedbloodservices.org/learnMore.aspx</p>
+      <p>American Red Cross. (2013). Blood Types. Retrieved from <url href="http://www.redcrossblood.org/learn-about-blood/bloodtypes">http://www.redcrossblood.org/learn-about-blood/bloodtypes</url></p>
+      <p>Centers for Disease Control and Prevention/National Center for Health Statistics, United States Department of Health and Human Services. (n.d.). Retrieved from <url href="https://www.cdc.gov/nchs/">https://www.cdc.gov/nchs/</url></p>
+      <p>Haiman, C. A., et al. (2006, Jan. 26). Ethnic and racial differences in the smoking-related risk of lung cancer. <em>The New England Journal of Medicine</em>. Retrieved from <url href="http://www.nejm.org/doi/full/10.1056/NEJMoa033250">http://www.nejm.org/doi/full/10.1056/NEJMoa033250</url></p>
+      <p>Samuels, T. M. (2013). Strange facts about RH negative blood. <em>eHow Health</em>. Retrieved from <url href="http://www.ehow.com/facts_5552003_strange-rh-negative-blood.html">http://www.ehow.com/facts_5552003_strange-rh-negative-blood.html</url></p>
+      <p>The Disaster Center Crime Pages. (n.d.). <em>United States: Uniform crime report  state statistics from 19602011</em>. Retrieved from <url href="http://www.disastercenter.com/crime/">http://www.disastercenter.com/crime/</url></p>
+      <p>United Blood Services. (2011). <em>Human blood types</em>. Retrieved from <url href="http://www.unitedbloodservices.org/learnMore.aspx">http://www.unitedbloodservices.org/learnMore.aspx</url></p>
       <p>United States Senate. (n.d.). Retrieved from www.senate.gov</p>
     </subsection>
 
@@ -1614,7 +1640,48 @@ If a test comes up positive, based upon numerical values, can you assume that ma
       <example xml:id="ch03-element-192">
         <statement>
           <p>a. List the 24 <m>BR</m> outcomes: <m>B</m>1<m>R</m>1, <m>B</m>1<m>R</m>2, <m>B</m>1<m>R</m>3, . . .</p>
-        </statement>
+              <figure xml:id="element-325-fig-ch03-07-01n-fig">
+        <caption>Total = 64 + 24 + 24 + 9 = 121.</caption>
+        <image source="media/fig-ch03_07_01N.jpg" width="80%">
+          <description>This is a tree diagram with branches showing frequencies of each draw. The first branch shows two lines: 8B and 3R. The second branch has a set of two lines (8B and 3R) for each line of the first branch. Multiply along each line to find 64BB, 24BR, 24RB, and 9RR.</description>
+        </image>
+      </figure>
+      <figure xml:id="element-325a-fig-ch03-07-02-fig">
+        <caption>Total =  
+  
+   
+    
+     56  +  24  +  24  +  6 
+    
+    
+     110 
+    
+   
+   =  
+    
+     110 
+    
+    
+     110 
+    
+   
+   =  1 
+ .</caption>
+        <image source="media/fig-ch03_07_02.jpg" width="80%">
+          <description>This is a tree diagram with branches showing probabilities of each draw. The first branch shows 2 lines: B 8/11 and R 3/11. The second branch has a set of 2 lines for each first branch line. Below B 8/11 are B 7/10 and R 3/10. Below R 3/11 are B 8/10 and R 2/10. Multiply along each line to find BB 56/110, BR 24/110, RB 24/110, and RR 6/110.</description>
+        </image>
+      </figure>
+      <figure xml:id="element-325a-fig-ch03-07-03n-fig">
+        <image source="media/fig-ch03_07_03N.jpg" width="80%">
+          <description>This is a tree diagram for a two-step experiment. The first branch shows first outcome: P(B) and P(R). The second branch has a set of 2 lines for each line of the first branch: the probability of B given B = P(BB), the probability of R given B = P(RB), the probability of B given R = P(BR), and the probability of R given R = P(RR).</description>
+        </image>
+      </figure>
+      <figure xml:id="fs-id1164565500213-prob-tpcs-treedia2-fig">
+        <image source="media/prob_tpcs_treedia2.png" width="76%">
+          <description>Image shows a tree diagram with two levels the first level shows two branches. The first level represents the first draw of a marble. The left branch is labeled eight B and the right branch is labeled three R. The second level represents the second draw, two additional branches extend from the end of first level’s branches. The left branch of each is labeled eight B and the right branch is labeled three R</description>
+        </image>
+      </figure>
+</statement>
         <solution>
           <p>a. We know that there will be 24 different possible outcomes because there are eight ways to draw blue and three ways to draw red. Make a systematic list of possible outcomes that consist of a blue marble on the first draw and a red marble on the second draw.<nbsp/><nbsp/></p>
           <p><m>B</m>1<m>R</m>1, <m>B</m>1<m>R</m>2, <m>B</m>1<m>R</m>3<nbsp/>
@@ -1630,7 +1697,12 @@ If a test comes up positive, based upon numerical values, can you assume that ma
       <exercise xml:id="fs-idm22506096">
         <statement>
           <p>In a standard deck, there are 52 cards. Twelve cards are face cards (event <m>F</m>) and 40 cards are not face cards (event <m>N</m>). Draw two cards, one at a time, with replacement. All possible outcomes are shown in the tree diagram as frequencies. Using the tree diagram, calculate <m>P</m>(<m>FF</m>).</p>
-        </statement>
+              <figure xml:id="eip-idp41385280-cnx-stats-c03-m07-tryit001n-fig">
+        <image source="media/CNX_Stats_C03_M07_tryit001N.jpg" width="76%">
+          <description>This is a tree diagram with branches showing frequencies of each draw. The first branch shows two lines: 12F and 40N. The second branch has a set of two lines (12F and 40N) for each line of the first branch. Multiply along each line to find 144FF, 480FN, 480NF, and 1,600NN.</description>
+        </image>
+      </figure>
+</statement>
         <solution>
           <p>Total number of outcomes is 144 + 480 + 480 + 1600 = 2,704.</p>
           <p><m>P</m>(<m>FF</m>) = <m>\frac{144}{\text{144 + 480 + 480 + 1,600}}=\frac{144}{2,704}=\frac{9}{169}</m></p>
@@ -1656,7 +1728,12 @@ If a test comes up positive, based upon numerical values, can you assume that ma
             <li>Find <m>P</m>(at least one face card).
 <nbsp/>Hint: <em>At least one face card</em> means one or two face cards.</li>
           </ol>
-        </statement>
+              <figure xml:id="eip-idm127200928-cnx-stats-c03-m07-tryit002-fig">
+        <image source="media/CNX_Stats_C03_M07_tryit002.jpg" width="80%">
+          <description>This is a tree diagram with branches showing frequencies of each draw. The first branch shows 2 lines: F 12/52 and N 40/52. The second branch has a set of 2 lines (F 11/52 and N 40/51) for each line of the first branch. Multiply along each line to find FF 121/2652, FN 480/2652, NF 480/2652, and NN 1560/2652.</description>
+        </image>
+      </figure>
+</statement>
         <solution>
           <ol>
             <li><m>P</m>(<m>FN</m> OR <m>NF</m>) = <m>\frac{\text{480}}{\text{2,652}}\text{+}\frac{\text{480}}{\text{2,652}}\text{=}\frac{\text{960}}{\text{2,652}}\text{=}\frac{\text{80}}{\text{221}}</m></li>
@@ -1676,7 +1753,12 @@ If a test comes up positive, based upon numerical values, can you assume that ma
             <li>What is the probability that a tabby is chosen as the second kitten when a black kitten was chosen as the first?</li>
             <li>What is the probability of choosing two kittens of the same color?</li>
           </ol>
-        </statement>
+              <figure xml:id="eip-idm127200928-cnx-stats-c03-m07-001n-fig">
+        <image source="media/CNX_Stats_C03_M07_001N.jpg" width="80%">
+          <description>This is a tree diagram with branches showing probabilities of kitten choices. The first branch shows two lines: T 4/9 and B 5/9. The second branch has a set of 2 lines for each first branch line. Below T 4/9 are T 3/8 and B 5/8. Below B 5/9 are T 4/8 and B 4/8. Multiply along each line to find probabilities of possible combinations.</description>
+        </image>
+      </figure>
+</statement>
         <solution>
           <p>a. <m>(\frac{4}{9})(\frac{3}{8})</m>, b. <m>(\frac{4}{9})(\frac{5}{8})+(\frac{5}{9})(\frac{4}{8})</m>, c. <m>\frac{4}{8}</m>, d. <m>\frac{32}{72}</m></p>
         </solution>
@@ -1815,14 +1897,14 @@ If a test comes up positive, based upon numerical values, can you assume that ma
 
     <subsection xml:id="fs-idp43368080">
       <title>References</title>
-      <p>American Cancer Society. (n.d.). Retrieved from https://www.cancer.org/</p>
-      <p>Clara County Public Health Department. (n.d.). Retrieved from https://www.sccgov.org/sites/sccphd/en-us/pages/phd.aspx</p>
-      <p>Federal Highway Administration, U.S. Department of Transportation. (n.d.). Retrieved from https://www.fhwa.dot.gov/</p>
-      <p>The Data and Story Library. (1996). Retrieved from http://lib.stat.cmu.edu/DASL/</p>
-      <p>The Roper Center for Public Opinion Research. (2013). <em>Search for datasets</em>. Retrieved from http://www.ropercenter.uconn.edu/data_access/data/search_for_datasets.html</p>
-      <p><em>USA Today</em>. (n.d.). Retrieved from https://www.usatoday.com/</p>
-      <p>U.S. Census Bureau. (n.d.). Retrieved from https://www.census.gov/</p>
-      <p>World Bank Group. (2013). <em>Environment</em>. Available online at http://data.worldbank.org/topic/environment</p>
+      <p>American Cancer Society. (n.d.). Retrieved from <url href="https://www.cancer.org/">https://www.cancer.org/</url></p>
+      <p>Clara County Public Health Department. (n.d.). Retrieved from <url href="https://www.sccgov.org/sites/sccphd/en-us/pages/phd.aspx">https://www.sccgov.org/sites/sccphd/en-us/pages/phd.aspx</url></p>
+      <p>Federal Highway Administration, U.S. Department of Transportation. (n.d.). Retrieved from <url href="https://www.fhwa.dot.gov/">https://www.fhwa.dot.gov/</url></p>
+      <p>The Data and Story Library. (1996). Retrieved from <url href="http://lib.stat.cmu.edu/DASL/">http://lib.stat.cmu.edu/DASL/</url></p>
+      <p>The Roper Center for Public Opinion Research. (2013). <em>Search for datasets</em>. Retrieved from <url href="http://www.ropercenter.uconn.edu/data_access/data/search_for_datasets.html">http://www.ropercenter.uconn.edu/data_access/data/search_for_datasets.html</url></p>
+      <p><em>USA Today</em>. (n.d.). Retrieved from <url href="https://www.usatoday.com/">https://www.usatoday.com/</url></p>
+      <p>U.S. Census Bureau. (n.d.). Retrieved from <url href="https://www.census.gov/">https://www.census.gov/</url></p>
+      <p>World Bank Group. (2013). <em>Environment</em>. Available online at <url href="http://data.worldbank.org/topic/environment">http://data.worldbank.org/topic/environment</url></p>
     </subsection>
 
     <subsection xml:id="fs-idp73675888">
@@ -1860,7 +1942,17 @@ If a test comes up positive, based upon numerical values, can you assume that ma
             <li>Find <m>P</m>(<m>G</m>_{2}|<m>G</m>_{1}).</li>
             <li>Are <m>G</m>_{2} and <m>G</m>_{1} independent events?  Explain why or why not.</li>
           </ol>
-        </statement>
+              <figure xml:id="eip-idp75092976-cnx-stats-c03-m06-100n-fig">
+        <image source="media/CNX_Stats_C03_M06_100N.jpg" width="70%">
+          <description>Two ovals are positioned next to each other horizontally, with a small overlap. The left oval is labeled F, contains the number 119, and is purple. The right oval is labeled HC, contains the number 60, and is yellow. The space in between contains the number 136 and is light blue.</description>
+        </image>
+      </figure>
+      <figure xml:id="eip-idp101566032-cnx-stats-c03-m07-100-fig">
+        <image source="media/CNX_Stats_C03_M07_100.jpg" width="76%">
+          <description>This is a tree diagram with branches showing probabilities of each draw. The first branch shows two lines: 5/8 Green and 3/8 Yellow. The second branch has a set of two lines (5/8 Green and 3/8 Yellow) for each line of the first branch.</description>
+        </image>
+      </figure>
+</statement>
         <solution>
           <ol>
             <li></li>
@@ -2287,6 +2379,11 @@ Totals
       <exercise xml:id="ch03-eip-616">
       <statement>
         <p>The graph in  displays the sample sizes and percentages of people in different age and gender groups who were polled concerning their approval of Mayor Ford’s actions in office. The total number in the sample of all the age groups is 1,045.</p>
+      <figure xml:id="ch03_M02-fig001-cnx-stats-c03-rwp-002-fig">
+        <image source="media/CNX_Stats_C03_RWP_002.jpg" width="100%">
+        </image>
+      </figure>
+
         <ol>
           <li>Define three events in the graph.</li>
           <li>Describe in words what the entry 40 means.</li>

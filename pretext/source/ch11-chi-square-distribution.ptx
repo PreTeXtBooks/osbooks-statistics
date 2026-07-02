@@ -1373,10 +1373,10 @@ TODO: MISSING TABLE</li>
   <section xml:id="sec-chi-square-references">
     <title>References</title>
     
-    <p>Data from the United States Census Bureau. Retrieved from http://www.census.gov.</p>
-    <p>Data from the Bureau of Labor Statistics. Retrieved from http://www.bls.gov.</p>
-    <p>Data from the National Center for Health Statistics. Retrieved from http://www.cdc.gov/nchs.</p>
-    <p>"Smoking and Health." Retrieved from http://www.cdc.gov/tobacco.</p>
+    <p>Data from the United States Census Bureau. Retrieved from <url href="http://www.census.gov">http://www.census.gov</url>.</p>
+    <p>Data from the Bureau of Labor Statistics. Retrieved from <url href="http://www.bls.gov">http://www.bls.gov</url>.</p>
+    <p>Data from the National Center for Health Statistics. Retrieved from <url href="http://www.cdc.gov/nchs">http://www.cdc.gov/nchs</url>.</p>
+    <p>"Smoking and Health." Retrieved from <url href="http://www.cdc.gov/tobacco">http://www.cdc.gov/tobacco</url>.</p>
     <p>Data from www.gallup.com.</p>
     <p>Data from www.pewresearch.org.</p>
   </section>

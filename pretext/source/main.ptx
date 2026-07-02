@@ -73,19 +73,19 @@
             and engaging progression that should be familiar to faculty.
           </p>
           <ul>
-            <li>Chapter 1: Sampling and Data</li>
-            <li>Chapter 2: Descriptive Statistics</li>
-            <li>Chapter 3: Probability Topics</li>
-            <li>Chapter 4: Discrete Random Variables</li>
-            <li>Chapter 5: Continuous Random Variables</li>
-            <li>Chapter 6: The Normal Distribution</li>
-            <li>Chapter 7: The Central Limit Theorem</li>
-            <li>Chapter 8: Confidence Intervals</li>
-            <li>Chapter 9: Hypothesis Testing with One Sample</li>
-            <li>Chapter 10: Hypothesis Testing with Two Samples</li>
-            <li>Chapter 11: The Chi-Square Distribution</li>
-            <li>Chapter 12: Linear Regression and Correlation</li>
-            <li>Chapter 13: F Distribution and One-way ANOVA</li>
+            <li><xref ref="ch01-sampling-and-data">Chapter 1: Sampling and Data</xref></li>
+            <li><xref ref="ch02-descriptive-statistics">Chapter 2: Descriptive Statistics</xref></li>
+            <li><xref ref="ch03-probability-topics">Chapter 3: Probability Topics</xref></li>
+            <li><xref ref="ch04-discrete-random-variables">Chapter 4: Discrete Random Variables</xref></li>
+            <li><xref ref="ch05-continuous-random-variables">Chapter 5: Continuous Random Variables</xref></li>
+            <li><xref ref="ch06-normal-distribution">Chapter 6: The Normal Distribution</xref></li>
+            <li><xref ref="ch07-central-limit-theorem">Chapter 7: The Central Limit Theorem</xref></li>
+            <li><xref ref="ch08-confidence-intervals">Chapter 8: Confidence Intervals</xref></li>
+            <li><xref ref="ch09-hypothesis-testing-one-sample">Chapter 9: Hypothesis Testing with One Sample</xref></li>
+            <li><xref ref="ch10-hypothesis-testing-two-samples">Chapter 10: Hypothesis Testing with Two Samples</xref></li>
+            <li><xref ref="ch11-chi-square-distribution">Chapter 11: The Chi-Square Distribution</xref></li>
+            <li><xref ref="ch12-linear-regression-correlation">Chapter 12: Linear Regression and Correlation</xref></li>
+            <li><xref ref="ch13-f-distribution-anova">Chapter 13: F Distribution and One-way ANOVA</xref></li>
           </ul>
         </paragraphs>
 

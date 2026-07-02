@@ -23,6 +23,12 @@
     <p>In this chapter, you will study the normal distribution, the standard normal distribution, and applications associated with them.</p>
 
     <p>The normal distribution has two parameters: the mean (<m>μ</m>) and the standard deviation (<m>σ</m>). If <m>X</m> is a quantity to be measured that has a normal distribution with mean (<m>μ</m>) and standard deviation (<m>σ</m>), we designate this by writing </p>
+      <figure xml:id="fs-idm13606720-fig-ch06-01-01n-fig">
+        <image source="media/fig-ch06_01_01N.jpg" width="90%">
+          <description>This shows the graph of a normal distribution bell curve labeled NORMAL: X ~ N (μ, σ).</description>
+        </image>
+      </figure>
+
 
     <p>The curve is symmetric about a vertical line drawn through the mean, <m>μ</m>. In theory, the mean is the same as the median, because the graph is symmetric about <m>μ</m>. With a normal distribution, the mean, median, and mode all lie at the same point. The normal distribution depends only on the mean and the standard deviation. The location of the mean simply indicates the location of the line of symmetry, in a normal distribution. Since the area under the curve must equal one, a change in the standard deviation, <m>σ</m>, causes a change in the shape of the curve; the curve becomes fatter or skinnier depending on <m>σ</m>. A change in <m>μ</m> causes the graph to shift to the left or right. The location of the mean simply indicates the location of the line of symmetry, in a normal distribution. This means there are an infinite number of normal probability distributions. One distribution of special interest is called the standard normal distribution.</p>
 
@@ -206,14 +212,14 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
 
     <subsection xml:id="fs-idm49020816">
       <title>References</title>
-      <p>CollegeBoard. (2012). 2012 <em>College-bound seniors: Total group profile report</em>. Retrieved from http://media.collegeboard.com/digitalServices/pdf/research/TotalGroup-2012.pdf</p>
+      <p>CollegeBoard. (2012). 2012 <em>College-bound seniors: Total group profile report</em>. Retrieved from <url href="http://media.collegeboard.com/digitalServices/pdf/research/TotalGroup-2012.pdf">http://media.collegeboard.com/digitalServices/pdf/research/TotalGroup-2012.pdf</url></p>
       <p>Joyce, C. A., Janssen, S., &amp; Liu, M. L. (2010). <em>The world almanac and book of facts, 2010</em>. New York, NY: World Almanac Books.</p>
-      <p>London School of Hygiene and Tropical Medicine. (2009). Calculation of z-scores. Retrieved from http://conflict.lshtm.ac.uk/page_125.htm</p>
-      <p>National Center for Education Statistics. (2009). <em>ACT score averages and standard deviations, by sex and race/ethnicity, and percentage of ACT test takers, by selected composite score ranges and planned fields of study: Selected years, 1995 through 2009</em>. Retrieved from http://nces.ed.gov/programs/digest/d09/tables/dt09_147.asp</p>
-      <p>NBA.com. (2013). NBA Media Ventures. Retrieved from http://www.nba.com</p>
-      <p>StatCrunch. (2010). <em>Blood pressure of males and females</em>. Retrieved from http://www.statcrunch.com/5.0/viewreport.php?reportid=11960</p>
-      <p><em>The Mercury News</em>. (n.d.). Retrieved from http://www.mercurynews.com/</p>
-      <p>Wikipedia. (2013). List of stadiums by capacity - Wikipedia. Retrieved from https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity</p>
+      <p>London School of Hygiene and Tropical Medicine. (2009). Calculation of z-scores. Retrieved from <url href="http://conflict.lshtm.ac.uk/page_125.htm">http://conflict.lshtm.ac.uk/page_125.htm</url></p>
+      <p>National Center for Education Statistics. (2009). <em>ACT score averages and standard deviations, by sex and race/ethnicity, and percentage of ACT test takers, by selected composite score ranges and planned fields of study: Selected years, 1995 through 2009</em>. Retrieved from <url href="http://nces.ed.gov/programs/digest/d09/tables/dt09_147.asp">http://nces.ed.gov/programs/digest/d09/tables/dt09_147.asp</url></p>
+      <p>NBA.com. (2013). NBA Media Ventures. Retrieved from <url href="http://www.nba.com">http://www.nba.com</url></p>
+      <p>StatCrunch. (2010). <em>Blood pressure of males and females</em>. Retrieved from <url href="http://www.statcrunch.com/5.0/viewreport.php?reportid=11960">http://www.statcrunch.com/5.0/viewreport.php?reportid=11960</url></p>
+      <p><em>The Mercury News</em>. (n.d.). Retrieved from <url href="http://www.mercurynews.com/">http://www.mercurynews.com/</url></p>
+      <p>Wikipedia. (2013). List of stadiums by capacity - Wikipedia. Retrieved from <url href="https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity">https://en.wikipedia.org/wiki/List_of_stadiums_by_capacity</url></p>
     </subsection>
 
     <subsection xml:id="fs-idp33285824">
@@ -582,7 +588,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
       <example xml:id="element-375">
         <statement>
           <p>If the area to the left is 0.0228, then the area to the right is 1 – 0.0228 = 0.9772.</p>
-        </statement>
+              <figure xml:id="fs-idm66393568-fig-ch06-05-04n-fig">
+        <image source="media/fig-ch06_05_04N.jpg" width="84%">
+          <description>This is a normal distribution curve. The area under the left tail of the curve is shaded. The shaded area shows that the probability that x is less than k is 0.25. It follows that k = 1.67.</description>
+        </image>
+      </figure>
+</statement>
       </example>
       <exercise xml:id="fs-idm96786656">
         <title>Try It</title>
@@ -614,7 +625,12 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by 
           <figure xml:id="fs-idm5159232">
             <image source="media/fig-ch06_05_01.jpg" width="76%" />
           </figure>
-        </solution>
+              <figure xml:id="fs-idm38798848-fig-ch06-05-02-fig">
+        <image source="media/fig-ch06_05_02.jpg" width="90%">
+          <description>This is a normal distribution curve. The peak of the curve coincides with the point 63 on the horizontal axis. A point, k, is labeled to the right of 63. A vertical line extends from k to the curve. The area under the curve to the left of k is shaded. This represents the probability that x is less than k: P(x &amp;lt; k) = 0.90</description>
+        </image>
+      </figure>
+</solution>
       </example>
       <exercise xml:id="fs-idm83435856">
         <title>Try It</title>
@@ -758,10 +774,10 @@ invNorm(0.25,36.9,13.9) = <m>Q</m>_{1} = 27.5246
 
     <subsection xml:id="fs-idm101453488">
       <title>References</title>
-      <p>Chicago Public Media &amp; Ira Glass. (2013). 403: <em>NUMMI</em>. Retrieved from http://www.thisamericanlife.org/radioarchives/episode/403/nummi</p>
-      <p>lauramitchell347. (2012, Dec. 28). Smart phone users, by the numbers. <em>Visually</em>. Retrieved from http://visual.ly/smart-phone-users-numbers</p>
-      <p>Statistics Brain Research Institute. (2013). <em>Facebook company statistics  statistic brain</em>. Retrieved from http://www.statisticbrain.com/facebook-statistics/</p>
-      <p>Wikipedia (2013). <em>Naegele's rule</em>. Retrieved from http://en.wikipedia.org/wiki/Naegele's_rule</p>
+      <p>Chicago Public Media &amp; Ira Glass. (2013). 403: <em>NUMMI</em>. Retrieved from <url href="http://www.thisamericanlife.org/radioarchives/episode/403/nummi">http://www.thisamericanlife.org/radioarchives/episode/403/nummi</url></p>
+      <p>lauramitchell347. (2012, Dec. 28). Smart phone users, by the numbers. <em>Visually</em>. Retrieved from <url href="http://visual.ly/smart-phone-users-numbers">http://visual.ly/smart-phone-users-numbers</url></p>
+      <p>Statistics Brain Research Institute. (2013). <em>Facebook company statistics  statistic brain</em>. Retrieved from <url href="http://www.statisticbrain.com/facebook-statistics/">http://www.statisticbrain.com/facebook-statistics/</url></p>
+      <p>Wikipedia (2013). <em>Naegele's rule</em>. Retrieved from <url href="http://en.wikipedia.org/wiki/Naegele's_rule">http://en.wikipedia.org/wiki/Naegele's_rule</url></p>
       <p>Win at the Lottery. (2013). <em>Scratch-off lottery ticket playing tips</em>. Retrieved  from www.winatthelottery.com/public/department40.cfm</p>
     </subsection>
 

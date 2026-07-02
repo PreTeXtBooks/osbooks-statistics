@@ -1102,6 +1102,12 @@ When <m>x</m> = 1970, <m>ŷ</m> = –725. Why doesn’t this answer make sense? 
         <title>Try It</title>
       <statement>
           <p>Plot the two points on the graph. Then, connect the two points to form the regression line.</p>
+      <figure xml:id="fs-idp74029648-fig-ch12-14-01-fig">
+        <image source="media/fig-ch12_14_01.jpg" width="76%">
+          <description>Blank graph with horizontal and vertical axes.</description>
+        </image>
+      </figure>
+
         </statement>
         <solution>
           <p>Check student solution.</p>

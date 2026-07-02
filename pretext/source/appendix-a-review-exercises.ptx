@@ -4,7 +4,7 @@
   <title>Review Exercises (Ch 3-13)</title>
 
   <p>
-    These review exercises are designed to provide extra practice on concepts learned before a particular chapter. For example, the review exercises for Chapter 3 cover material learned in Chapters 1 and 2.
+    These review exercises are designed to provide extra practice on concepts learned before a particular chapter. For example, the review exercises for <xref ref="ch03-probability-topics">Chapter 3</xref> cover material learned in <xref ref="ch01-sampling-and-data">Chapters 1</xref> and <xref ref="ch02-descriptive-statistics">2</xref>.
   </p>
 
   <section xml:id="fs-idp100048656">
@@ -3291,13 +3291,13 @@ Cumulative Relative Frequency
   <section xml:id="fs-idp74334080">
     <title>References</title>
     <p>
-      Baran, D. (2010). Twenty percent of Americans have never used email. Retrieved from http://www.webguild.org/20080519/20-percent-of-americans-have-never-used-email.
+      Baran, D. (2010). Twenty percent of Americans have never used email. Retrieved from <url href="http://www.webguild.org/20080519/20-percent-of-americans-have-never-used-email">http://www.webguild.org/20080519/20-percent-of-americans-have-never-used-email</url>.
     </p>
     <p>
-      Parade Magazine. (n.d.). Retrieved from https://parade.com/.
+      Parade Magazine. (n.d.). Retrieved from <url href="https://parade.com/">https://parade.com/</url>.
     </p>
     <p>
-      San Jose Mercury News. (n.d.). Retrieved from http://www.mercurynews.com/.
+      San Jose Mercury News. (n.d.). Retrieved from <url href="http://www.mercurynews.com/">http://www.mercurynews.com/</url>.
     </p>
   </section>
 
