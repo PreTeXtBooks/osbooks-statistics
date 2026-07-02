@@ -718,6 +718,12 @@ When asked to find the probability of an individual value, use the stated distri
         <title>Try It</title>
       <statement>
           <p><em>Using the clt to find percentiles</em>Find the 95<m>^{th}</m> percentile for the <em>sample mean excess time</em> for a sample of 80 customers who exceed their basic contract time allowances. Draw a graph.</p>
+      <figure xml:id="fs-idm52706528-fig-ch07-04-05n-fig">
+        <image source="media/fig-ch07_04_05N.jpg" width="76%">
+          <description>This is a normal distribution curve. The peak of the curve coincides with the point 22 on the horizontal axis. A point, 20, is labeled to the left of 22. A vertical line extends from 20 to the curve. The area under the curve to the right of k is shaded. The shaded area shows that P(x-bar &gt; 20).</description>
+        </image>
+      </figure>
+
         </statement>
         <solution>
           <p>Let <em>k</em> = the 95<m>^{th}</m> percentile. Find <em>k</em> where <em>P</em>(<m>\overline{x}</m> &lt; <em>k</em>) = 0.95.</p>
@@ -876,6 +882,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       <title>Try It</title>
       <statement>
         <p>Draw the graph of .</p>
+      <figure xml:id="fs-idm129645712-cnx-stats-c07-m04-item001annon-fig">
+        <image source="media/CNX_Stats_C07_M04_item001annoN.jpg" width="76%">
+          <description>This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. An arrow points to 25 showing P(x-bar &amp;lt; 24.9).</description>
+        </image>
+      </figure>
+
       </statement>
     </exercise>
     <exercise xml:id="ch7-exercise6">
@@ -897,6 +909,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       <title>Try It</title>
       <statement>
         <p>Find the 90<m>^{th}</m> percentile for the mean weight for the 100 weights.</p>
+      <figure xml:id="eip-idp936112-cnx-stats-c07-m04-item002annon-fig">
+        <image source="media/CNX_Stats_C07_M04_item002annoN.jpg" width="76%">
+          <description>This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. An arrow points to 25 showing P(x-bar &amp;gt; 25.2).</description>
+        </image>
+      </figure>
+
       </statement>
       <solution>
         <p>25.07</p>
@@ -927,12 +945,24 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       <title>Try It</title>
       <statement>
         <p>Draw the graph of .</p>
+      <figure xml:id="eip-idp3873008-cnx-stats-c07-m04-item003annon-fig">
+        <image source="media/CNX_Stats_C07_M04_item003annoN.jpg" width="76%">
+          <description>This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. A point, k, is labeled to the right of 25. A vertical line extends from k to the curve. An arrow points to 25 showing P(x-bar &amp;lt; k) = 0.90.</description>
+        </image>
+      </figure>
+
       </statement>
     </exercise>
     <exercise xml:id="ch7-exercise12-b">
       <title>Try It</title>
       <statement>
         <p>Find the 90<m>^{th}</m> percentile for the total weight of the 100 weights.</p>
+      <figure xml:id="eip-idm64321520-cnx-stats-c07-m04-item004annon-fig">
+        <image source="media/CNX_Stats_C07_M04_item004annoN.jpg" width="76%">
+          <description>This is a normal distribution curve which extends from 2400 to 2600. The peak of the curve  coincides with the point 2500 on the horizontal axis. An arrow points to the left tail of the curve showing P(sum of x &amp;lt; 2450).</description>
+        </image>
+      </figure>
+
       </statement>
       <solution>
         <p>2507.40</p>
@@ -945,6 +975,12 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
       </statement>
     </exercise>
     <p><em>Use the following information to answer the next five exercises:</em> The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.</p>
+      <figure xml:id="eip-idp76755600-cnx-stats-c07-m04-item005annon-fig">
+        <image source="media/CNX_Stats_C07_M04_item005annoN.jpg" width="76%">
+          <description>This is a normal distribution curve which extends from 24 to 26. The peak of the curve  coincides with the point 25 on the horizontal axis. A point, k, is labeled to the right of 25. A vertical line extends from k to the curve. An arrow points to 25 showing P(sum of x &amp;lt; k) = 0.90.</description>
+        </image>
+      </figure>
+
     <exercise xml:id="ch7-fs-idm110175696">
       <title>Try It</title>
       <statement>

@@ -887,8 +887,20 @@ It doesn’t matter. I expect to break even.</p>
         <p><m>X</m> takes on the values 0, 1, 2, . . ., 20 where <m>n</m> = 20, <m>p</m> = .41, and <m>q</m> = 1 – .41 = .59. <m>X</m> ~ <m>B</m>(20, .41)</p>
         <p>Find <m>P</m>(<m>x</m> ≤ 12). There is a formula to define the probability of a binomial distribution <m>P</m>(<m>x</m>). We can use the formula to find <m>P(x\leq12)</m>. But the calculation is tedious and time consuming, and people usually use a graphing calculator, software, or binomial table to get the answer. Use a graphing calculator, you can get <m>P(x\leq12)=.9738</m>. The instruction of TI-83, 83+, 84, 84+ is given below.</p>
         <p>The probability that at most 12 workers have a high school diploma but do not pursue any further education is .9738.</p>
+      <figure xml:id="fs-idm42104448-fig-ch04-05-01n-fig">
+        <image source="media/fig-ch04_05_01N.jpg" width="90%">
+          <description>This histogram shows a binomial probability distribution. It is made up of bars that are fairly normally distributed. The x-axis shows values from 0 to 20. The y-axis shows values from 0 to 0.2 in increments of 0.05.</description>
+        </image>
+      </figure>
+
         <p>The graph of <m>X</m> ~ <m>B</m>(20, .41) is as follows.</p>
         <p>The previous graph is called a probability distribution histogram. It is made of a series of vertical bars. The <m>x</m>-axis of each bar is the value of <m>X</m> = the number of workers who have only a high school diploma, and the height of that bar is the probability of that value occurring.</p>
+      <figure xml:id="fs-idm42104448-fig-ch04-05-01-fig">
+        <image source="media/fig-ch04_05_01.jpg" width="80%">
+          <description>This histogram shows a binomial probability distribution. It is made up of bars that are fairly normally distributed. The x-axis shows values from 0 to 20. The y-axis shows values from 0 to 0.2 in increments of 0.05.</description>
+        </image>
+      </figure>
+
         <p>The number of adult workers that you expect to have a high school diploma but not pursue any further education is the mean, <m>μ</m> = <m>np</m> = (20)(.41) = 8.2.</p>
         <p>The formula for the variance is σ^{2} = <em>npq</em>. The standard deviation is <m>σ</m> = <m>\sqrt{npq}</m>. <nbsp/><m>σ</m> = <m>\sqrt{(20)(.41)(.59)}</m> = 2.20.</p>
       </statement>
@@ -1451,7 +1463,12 @@ Standard Deviation = <m>σ</m> = <m>\sqrt{npq}</m> = <m>\sqrt{15(.281)(.719)}</m
 <nbsp/><m>P</m>(<m>x</m> = 4) = binompdf(15, .281, 4) = .2259
 <nbsp/>It is more likely that four people are literate than three people are.</li>
           </ol>
-        </solution>
+              <figure xml:id="fs-idm99183632-cnx-stats-c04-m05-001anno-fig">
+        <image source="media/CNX_Stats_C04_M05_001anno.jpg" width="90%">
+          <description>This histogram shows a binomial probability distribution. It is made up of bars that are fairly normally distributed. The x-axis shows values from 0 to 15, with bars from 0 to 9. The y-axis shows values from 0 to 0.25 in increments of 0.05.</description>
+        </image>
+      </figure>
+</solution>
       </exercise>
     </exercises>
 
@@ -1532,7 +1549,12 @@ Standard Deviation = <m>σ</m> = <m>\sqrt{npq}</m> = <m>\sqrt{15(.281)(.719)}</m
         <p>Let <m>X</m> = the number of computer components tested until the first defect is found.</p>
         <p><m>X</m> takes on the values 1, 2, 3, . . . where <m>p</m> = .02. <m>X</m> ~ G(.02)</p>
         <p>Find <m>P</m>(<m>x</m> = 7). There is a formula to define the probability of a geometric distribution <m>P(x)</m>. We can use the formula to find <m>P(x=7)</m>. But since the calculation is tedious and time consuming, people usually use a graphing calculator or software to get the answer. Using a graphing calculator, you can get <m>P(x=7)=.0177</m>. The instruction of TI83, 83+, 84, 84+ is given below.</p>
-      </statement>
+            <figure xml:id="fs-idp26519760-fig-ch04-06-01n-fig">
+        <image source="media/fig-ch04_06_01N.jpg" width="84%">
+          <description>This graph shows a geometric probability distribution. It consists of bars that peak at the left and slope downwards with each successive bar to the right. The values on the x-axis count the number of computer components tested until the defect is found. The y-axis is scaled from 0 to 0.02 in increments of 0.005.</description>
+        </image>
+      </figure>
+</statement>
     </example>
     <note xml:id="fs-idm16727632">
       <title>Try It</title>
@@ -1567,6 +1589,12 @@ The number of people whom you would expect to ask until one says he or she has p
     <exercise xml:id="eip-271">
       <statement>
         <p>The literacy rate for a nation measures the proportion of people age 15 and over who can read and write. The literacy rate for women in Afghanistan is 12 percent. Let <m>X</m> = the number of Afghani women you ask until one says that she is literate.</p>
+      <figure xml:id="fs-idm31509056-cnx-stats-c04-m06-001anno-fig">
+        <image source="media/CNX_Stats_C04_M06_001anno.jpg" width="84%">
+          <description>This graph shows a geometric probability distribution. It consists of bars that peak at the left and slope downwards with each successive bar to the right. The values on the x-axis count the number of indivuduals tested before an infected person is found. The y-axis is scaled from 0 to 0.2 in increments of 0.02.</description>
+        </image>
+      </figure>
+
         <ol>
           <li>What is the probability distribution of <m>X</m>?</li>
           <li>What is the probability that you ask five women before one says she is literate?</li>
@@ -1894,7 +1922,12 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
         <p>The graph of <m>X</m> ~ <m>H</m>(6, 5, 4) is</p>
         <figure xml:id="fs-idp36734864">
           <image source="media/OSX_HS_Statistics_Figure_04_03_08_01.jpg" width="80%"/>
-        </figure>
+              <figure xml:id="fs-idp36734864-osx-hs-statistics-figure-04-03-08-01-fig">
+        <image source="media/OSX_HS_Statistics_Figure_04_03_08_01.jpg" width="80%">
+          <description>This figure has the following on the X axis, P (uppercase X is equal to lowercase x). The Y axis ranges from point 00 to point 20. The x axis ranges from 0 to 20. The bars of the graph show a bell-shaped pattern, ranging from 2 to 14 with the highest bar at 8.</description>
+        </image>
+      </figure>
+</figure>
         <p>The <m>y</m>-axis contains the probability of <m>X</m>, where <m>X</m> = the number of men on the committee.</p>
         <p>You would expect <m>m</m> = 2.18 (about two) men on the committee.</p>
         <p>The formula for the mean is <m>\mu=\frac{nr}{r+b}=\frac{(4)(6)}{6+5}=2.18.</m></p>
@@ -2131,7 +2164,12 @@ standard deviation = σ = <m>\sqrt{\frac{1-p}{p^{2}}}</m> = <m>\sqrt{\frac{1-\te
         <p>The graph of <m>X</m> ~ <m>P</m>(.75) is</p>
         <figure xml:id="fs-idm13011872">
           <image source="media/fig-ch04_08_01N.jpg" width="80%"/>
-        </figure>
+              <figure xml:id="fs-idm13011872-fig-ch04-08-01n-fig">
+        <image source="media/fig-ch04_08_01N.jpg" width="80%">
+          <description>This graphs shows a poisson probability distribution. It has 5 bars that decrease in height from left to right. The x-axis shows values in increments of 1 starting with 0, representing the number of calls Leah receives within 15 minutes. The y-axis ranges from 0 to 0.5 in increments of 0.1.</description>
+        </image>
+      </figure>
+</figure>
         <p>The <m>y</m>-axis contains the probability of <m>x</m> where <m>X</m> = the number of calls in 15 minutes.</p>
       </statement>
     </example>
@@ -2396,6 +2434,12 @@ Calculate <m>μ</m> = <m>np</m> = 100(0.0143) = 1.43
       <exercise xml:id="fs-idm138910624">
         <statement>
           <p>A manufacturer of decorative string lights knows that 3 percent of its bulbs are defective. Using both the binomial and Poisson distributions, find the probability that a string of 100 lights contains at most four defective bulbs.</p>
+      <figure xml:id="fs-idm108814544-cnx-stats-c04-m08-001anno-fig">
+        <image source="media/CNX_Stats_C04_M08_001anno.jpg" width="70%">
+          <description>This graphs shows a poisson probability distribution. It has 11 bars that are skewed to the right. The x-axis shows values in increments of 1 starting with 0, representing the number of births in 1 hour. The y-axis ranges from 0 to 0.3 in increments of 0.05.</description>
+        </image>
+      </figure>
+
         </statement>
         <solution>
           <p>Let <m>X</m> = the number of defective bulbs in a string.</p>
@@ -2858,7 +2902,17 @@ __________</li>
           <li>Using your answers from Questions 1 and 2, does it appear that the two sets of data fit the theoretical distribution? In complete sentences, explain why or why not.</li>
           <li>Suppose that the experiment had been repeated 500 times. Would you expect , , or  to change, and how would it change? Why? Why wouldn’t the other table(s) change?</li>
         </ol>
-      </note>
+            <figure xml:id="figreld-fig-ch04-17-01-fig">
+        <image source="media/fig-ch04_17_01.png" width="80%">
+          <description>This is a blank graph template. The x-axis is labeled Number of diamonds. The y-axis is labeled Relative frequency.</description>
+        </image>
+      </figure>
+      <figure xml:id="id5962835-fig-ch04-17-02-fig">
+        <image source="media/fig-ch04_17_02.png" width="80%">
+          <description>This is a blank graph template. The x-axis is labeled Number of diamonds. The y-axis is labeled Probability.</description>
+        </image>
+      </figure>
+</note>
     </subsection>
 
     <exercises xml:id="fs-id1170309339367">
@@ -3032,7 +3086,17 @@ How do you know? Answer in complete sentences.</li>
           <li>Thinking about your answers to Questions 1 and 2, does it appear that the data fit the theoretical distribution? In complete sentences, explain why or why not.</li>
           <li>Suppose that the experiment had been repeated 500 times. Would you expect  or  to change, and how would it change? Why? Why wouldn’t the other table change?</li>
         </ol>
-      </note>
+            <figure xml:id="id18572910-fig-ch04-18-01-fig">
+        <image source="media/fig-ch04_18_01.png" width="80%">
+          <description>This is a blank graph template. The x-axis is labeled Number of matches. The y-axis is labeled Relative frequency.</description>
+        </image>
+      </figure>
+      <figure xml:id="id18402808-fig-ch04-18-02-fig">
+        <image source="media/fig-ch04_18_02.png" width="80%">
+          <description>This is a blank graph template. The x-axis is labeled Number of diamonds. The y-axis is labeled Probability.</description>
+        </image>
+      </figure>
+</note>
     </subsection>
 
   </section>

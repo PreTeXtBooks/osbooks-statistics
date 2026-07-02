@@ -79,7 +79,22 @@
           <row><cell>Venn Diagram*</cell><cell></cell><cell></cell></row>
           <row><cell>Set Notation</cell><cell><m>S={H,T}</m></cell><cell><m>S={HH,HT,TH,TT}</m></cell></row>
         </tabular>
-      </table>
+            <figure xml:id="fs-id1164567161729-osx-hs-statistics-figure-03-01-02-02-fig">
+        <image source="media/OSX_HS_Statistics_Figure_03_01_02_02.jpg" width="20%">
+          <description>A simple tree diagram illustrates the two possible outcomes of flipping a coin: Heads or Tails, demonstrating a basic concept in probability.</description>
+        </image>
+      </figure>
+      <figure xml:id="fs-id1164567837356-osx-hs-statistics-figure-03-01-02-03-fig">
+        <image source="media/OSX_HS_Statistics_Figure_03_01_02_03.jpg" width="20%">
+          <description>A tree diagram illustrates the possible outcomes of flipping a coin two times. The outcomes are Heads-Heads (HH), Heads-Tails (HT), Tails-Heads (TH), and Tails-Tails (TT).</description>
+        </image>
+      </figure>
+      <figure xml:id="fs-id1164565375180-osx-hs-statistics-figure-03-01-02-04-fig">
+        <image source="media/OSX_HS_Statistics_Figure_03_01_02_04.jpg" width="20%">
+          <description>A diagram illustrating the outcomes of a coin flip, with </description>
+        </image>
+      </figure>
+</table>
       <p>*We will investigate tree diagrams and Venn diagrams in Section 3.5.</p>
       <p>Note—when represented as a set, the sample space is denoted with an uppercase <m>S</m>.</p>
       <p>An event is any combination of outcomes. It is a subset of the sample space, so uppercase letters like <m>A</m> and <m>B</m> are commonly used to represent events. For example, if the experiment is to flip three fair coins, event <m>A</m> might be getting at most one head.</p>
@@ -453,6 +468,12 @@
 <nbsp/>Let <m>R</m> = the event of landing on red.
 <nbsp/>Let <m>G</m> = the event of landing on green.
 <nbsp/>Let <m>Y</m> = the event of landing on yellow.</p>
+      <figure xml:id="eip-idp31502288-cnx-stats-c03-m01-021-fig">
+        <image source="media/CNX_Stats_C03_M01_021.jpg" width="50%">
+          <description>A circle is divided into eight equal sections. Beginning at the upper tip and moving clockwise, the colors of the sections are blue, green, red, red, blue, yellow, red, and red.</description>
+        </image>
+      </figure>
+
       <exercise xml:id="fs-idm87354368">
         <statement>
           <p>If you land on <m>Y</m>, you get the biggest prize. Find <m>P</m>(<m>Y</m>).</p>
@@ -615,7 +636,12 @@
       <p>The bag still contains four blue and three white marbles. Maria draws one marble from the bag at random, records the color, and sets the marble aside. The probability of drawing blue on the first draw is <m>\frac{4}{7}</m>. Suppose Maria draws a blue marble and sets it aside. When she draws a marble from the bag a second time, there are now <em>three</em> blue and three white marbles. So, the probability of drawing blue is now <m>\frac{3}{6}=\frac{1}{2}</m>. Removing the first marble without replacing it influences the probabilities on the second draw.</p>
       <figure xml:id="fs-id1164565980547">
         <image source="media/OSX_HS_Statistics_Figure_03_02_02_01.jpg"/>
+            <figure xml:id="fs-id1164564385217-osx-hs-statistics-figure-03-01-02-01-fig">
+        <image source="media/OSX_HS_Statistics_Figure_03_01_02_01.jpg" width="20%">
+          <description>A simple tree diagram illustrates the two possible outcomes of flipping a coin: Heads or Tails, demonstrating a basic concept in probability.</description>
+        </image>
       </figure>
+</figure>
       <p>If it is not known whether <m>A</m> and <m>B</m> are independent or dependent, assume they are dependent until you can show otherwise.</p>
       <example xml:id="fs-idm1963392">
         <statement>
@@ -1614,7 +1640,48 @@ If a test comes up positive, based upon numerical values, can you assume that ma
       <example xml:id="ch03-element-192">
         <statement>
           <p>a. List the 24 <m>BR</m> outcomes: <m>B</m>1<m>R</m>1, <m>B</m>1<m>R</m>2, <m>B</m>1<m>R</m>3, . . .</p>
-        </statement>
+              <figure xml:id="element-325-fig-ch03-07-01n-fig">
+        <caption>Total = 64 + 24 + 24 + 9 = 121.</caption>
+        <image source="media/fig-ch03_07_01N.jpg" width="80%">
+          <description>This is a tree diagram with branches showing frequencies of each draw. The first branch shows two lines: 8B and 3R. The second branch has a set of two lines (8B and 3R) for each line of the first branch. Multiply along each line to find 64BB, 24BR, 24RB, and 9RR.</description>
+        </image>
+      </figure>
+      <figure xml:id="element-325a-fig-ch03-07-02-fig">
+        <caption>Total =  
+  
+   
+    
+     56  +  24  +  24  +  6 
+    
+    
+     110 
+    
+   
+   =  
+    
+     110 
+    
+    
+     110 
+    
+   
+   =  1 
+ .</caption>
+        <image source="media/fig-ch03_07_02.jpg" width="80%">
+          <description>This is a tree diagram with branches showing probabilities of each draw. The first branch shows 2 lines: B 8/11 and R 3/11. The second branch has a set of 2 lines for each first branch line. Below B 8/11 are B 7/10 and R 3/10. Below R 3/11 are B 8/10 and R 2/10. Multiply along each line to find BB 56/110, BR 24/110, RB 24/110, and RR 6/110.</description>
+        </image>
+      </figure>
+      <figure xml:id="element-325a-fig-ch03-07-03n-fig">
+        <image source="media/fig-ch03_07_03N.jpg" width="80%">
+          <description>This is a tree diagram for a two-step experiment. The first branch shows first outcome: P(B) and P(R). The second branch has a set of 2 lines for each line of the first branch: the probability of B given B = P(BB), the probability of R given B = P(RB), the probability of B given R = P(BR), and the probability of R given R = P(RR).</description>
+        </image>
+      </figure>
+      <figure xml:id="fs-id1164565500213-prob-tpcs-treedia2-fig">
+        <image source="media/prob_tpcs_treedia2.png" width="76%">
+          <description>Image shows a tree diagram with two levels the first level shows two branches. The first level represents the first draw of a marble. The left branch is labeled eight B and the right branch is labeled three R. The second level represents the second draw, two additional branches extend from the end of first level’s branches. The left branch of each is labeled eight B and the right branch is labeled three R</description>
+        </image>
+      </figure>
+</statement>
         <solution>
           <p>a. We know that there will be 24 different possible outcomes because there are eight ways to draw blue and three ways to draw red. Make a systematic list of possible outcomes that consist of a blue marble on the first draw and a red marble on the second draw.<nbsp/><nbsp/></p>
           <p><m>B</m>1<m>R</m>1, <m>B</m>1<m>R</m>2, <m>B</m>1<m>R</m>3<nbsp/>
@@ -1630,7 +1697,12 @@ If a test comes up positive, based upon numerical values, can you assume that ma
       <exercise xml:id="fs-idm22506096">
         <statement>
           <p>In a standard deck, there are 52 cards. Twelve cards are face cards (event <m>F</m>) and 40 cards are not face cards (event <m>N</m>). Draw two cards, one at a time, with replacement. All possible outcomes are shown in the tree diagram as frequencies. Using the tree diagram, calculate <m>P</m>(<m>FF</m>).</p>
-        </statement>
+              <figure xml:id="eip-idp41385280-cnx-stats-c03-m07-tryit001n-fig">
+        <image source="media/CNX_Stats_C03_M07_tryit001N.jpg" width="76%">
+          <description>This is a tree diagram with branches showing frequencies of each draw. The first branch shows two lines: 12F and 40N. The second branch has a set of two lines (12F and 40N) for each line of the first branch. Multiply along each line to find 144FF, 480FN, 480NF, and 1,600NN.</description>
+        </image>
+      </figure>
+</statement>
         <solution>
           <p>Total number of outcomes is 144 + 480 + 480 + 1600 = 2,704.</p>
           <p><m>P</m>(<m>FF</m>) = <m>\frac{144}{\text{144 + 480 + 480 + 1,600}}=\frac{144}{2,704}=\frac{9}{169}</m></p>
@@ -1656,7 +1728,12 @@ If a test comes up positive, based upon numerical values, can you assume that ma
             <li>Find <m>P</m>(at least one face card).
 <nbsp/>Hint: <em>At least one face card</em> means one or two face cards.</li>
           </ol>
-        </statement>
+              <figure xml:id="eip-idm127200928-cnx-stats-c03-m07-tryit002-fig">
+        <image source="media/CNX_Stats_C03_M07_tryit002.jpg" width="80%">
+          <description>This is a tree diagram with branches showing frequencies of each draw. The first branch shows 2 lines: F 12/52 and N 40/52. The second branch has a set of 2 lines (F 11/52 and N 40/51) for each line of the first branch. Multiply along each line to find FF 121/2652, FN 480/2652, NF 480/2652, and NN 1560/2652.</description>
+        </image>
+      </figure>
+</statement>
         <solution>
           <ol>
             <li><m>P</m>(<m>FN</m> OR <m>NF</m>) = <m>\frac{\text{480}}{\text{2,652}}\text{+}\frac{\text{480}}{\text{2,652}}\text{=}\frac{\text{960}}{\text{2,652}}\text{=}\frac{\text{80}}{\text{221}}</m></li>
@@ -1676,7 +1753,12 @@ If a test comes up positive, based upon numerical values, can you assume that ma
             <li>What is the probability that a tabby is chosen as the second kitten when a black kitten was chosen as the first?</li>
             <li>What is the probability of choosing two kittens of the same color?</li>
           </ol>
-        </statement>
+              <figure xml:id="eip-idm127200928-cnx-stats-c03-m07-001n-fig">
+        <image source="media/CNX_Stats_C03_M07_001N.jpg" width="80%">
+          <description>This is a tree diagram with branches showing probabilities of kitten choices. The first branch shows two lines: T 4/9 and B 5/9. The second branch has a set of 2 lines for each first branch line. Below T 4/9 are T 3/8 and B 5/8. Below B 5/9 are T 4/8 and B 4/8. Multiply along each line to find probabilities of possible combinations.</description>
+        </image>
+      </figure>
+</statement>
         <solution>
           <p>a. <m>(\frac{4}{9})(\frac{3}{8})</m>, b. <m>(\frac{4}{9})(\frac{5}{8})+(\frac{5}{9})(\frac{4}{8})</m>, c. <m>\frac{4}{8}</m>, d. <m>\frac{32}{72}</m></p>
         </solution>
@@ -1860,7 +1942,17 @@ If a test comes up positive, based upon numerical values, can you assume that ma
             <li>Find <m>P</m>(<m>G</m>_{2}|<m>G</m>_{1}).</li>
             <li>Are <m>G</m>_{2} and <m>G</m>_{1} independent events?  Explain why or why not.</li>
           </ol>
-        </statement>
+              <figure xml:id="eip-idp75092976-cnx-stats-c03-m06-100n-fig">
+        <image source="media/CNX_Stats_C03_M06_100N.jpg" width="70%">
+          <description>Two ovals are positioned next to each other horizontally, with a small overlap. The left oval is labeled F, contains the number 119, and is purple. The right oval is labeled HC, contains the number 60, and is yellow. The space in between contains the number 136 and is light blue.</description>
+        </image>
+      </figure>
+      <figure xml:id="eip-idp101566032-cnx-stats-c03-m07-100-fig">
+        <image source="media/CNX_Stats_C03_M07_100.jpg" width="76%">
+          <description>This is a tree diagram with branches showing probabilities of each draw. The first branch shows two lines: 5/8 Green and 3/8 Yellow. The second branch has a set of two lines (5/8 Green and 3/8 Yellow) for each line of the first branch.</description>
+        </image>
+      </figure>
+</statement>
         <solution>
           <ol>
             <li></li>
@@ -2287,6 +2379,11 @@ Totals
       <exercise xml:id="ch03-eip-616">
       <statement>
         <p>The graph in  displays the sample sizes and percentages of people in different age and gender groups who were polled concerning their approval of Mayor Ford’s actions in office. The total number in the sample of all the age groups is 1,045.</p>
+      <figure xml:id="ch03_M02-fig001-cnx-stats-c03-rwp-002-fig">
+        <image source="media/CNX_Stats_C03_RWP_002.jpg" width="100%">
+        </image>
+      </figure>
+
         <ol>
           <li>Define three events in the graph.</li>
           <li>Describe in words what the entry 40 means.</li>

@@ -1223,6 +1223,12 @@ The confidence level is 90 percent (<em>CL</em> = 0.90).</p>
       <title>Try It</title>
       <statement>
         <p>Using the same mean, standard deviation, and sample size, how would the error bound change if the confidence level were reduced to 90 percent? Why?</p>
+      <figure xml:id="fs-idm53713472-cnx-stats-c08-m03-item002annon-fig">
+        <image source="media/CNX_Stats_C08_M03_item002annoN.jpg" width="76%">
+          <description>This is a normal distribution curve. The peak of the curve coincides with the point 151 on the horizontal axis. A central region is shaded between points 142.92 and 159.08.</description>
+        </image>
+      </figure>
+
       </statement>
       <solution>
         <p>The error bound for the mean would decrease, because as the CL decreases, you need less area under the normal curve (which translates into a smaller interval) to capture the true population mean.</p>
@@ -2503,7 +2509,12 @@ line with the upper and lower limits of the confidence interval and the sample m
           </li>
           <li>What happens to the <m>EBM</m> as the confidence level increases? Does the width of the confidence interval increase or decrease? Explain why this happens.</li>
         </ol>
-      </note>
+            <figure xml:id="id7469736-fig-ch08-07-01-fig">
+        <image source="media/fig-ch08_07_01.png" width="76%">
+          <description>Normal distribution curve with two vertical upward lines from the x-axis to the curve. The confidence interval is between these two lines. The residual areas are on either side.</description>
+        </image>
+      </figure>
+</note>
     </subsection>
 
   </section>
@@ -2552,7 +2563,12 @@ line with the upper and lower limits of the confidence interval and the sample m
           </li>
           <li>What happens to the <m>EBP</m> as the confidence level increases? Does the width of the confidence interval increase or decrease? Explain why this happens.</li>
         </ol>
-      </note>
+            <figure xml:id="id9596836-fig-ch08-08-01-fig">
+        <image source="media/fig-ch08_08_01.png" width="76%">
+          <description>Normal distribution curve with two vertical upward lines from the x-axis to the curve. The confidence interval is between these two lines. The residual areas are on either side.</description>
+        </image>
+      </figure>
+</note>
     </subsection>
 
   </section>
@@ -2645,6 +2661,12 @@ line with the upper and lower limits of the confidence interval and the sample m
           </statement>
         <solution>
           <p>71 3 48 <em>X</em> is the height of a Swedish male, and is the mean height from a sample of 48 Swedish males. Normal. We know the standard deviation for the population, and the sample size is greater than 30. CI: (70.151, 71.49) EBM = 0.849 The confidence interval will decrease in size, because the sample size increased. Recall, when all factors remain unchanged, an increase in sample size decreases variability. Thus, we do not need as large an interval to capture the true population mean.</p>
+      <figure xml:id="figure1234-fig-ch08-09-01-fig">
+        <image source="media/fig-ch08_09_01.jpg" width="76%">
+          <description>A graph showing a bell shaped curve of normal distribution with a two vertical lines to the left and right of center. The vertical line to the left is labeled 70.15 and the vertical line to the right is labeled 71.85. The area between the vertical lines is shaded purple. The horizontal axis is labeled as the mean. There are three tick marks on the horizontal axis and the tick marks are at the bottom of the vertical lines and at a point equidistant between the lines.</description>
+        </image>
+      </figure>
+
         </solution>
       </exercise>
       <exercise xml:id="ch8-exer8">
@@ -2737,6 +2759,12 @@ line with the upper and lower limits of the confidence interval and the sample m
             </li>
             <li>
               <p>It will need to change the sample size. The firm needs to determine what the confidence level should be and then apply the error bound formula to determine the necessary sample size.</p>
+      <figure xml:id="eip-idp4235472-xx-fig">
+        <image source="media/xx.jpg" width="80%">
+          <description>A graph showing a bell shaped curve of normal distribution with a two vertical lines to the left and right of center. The vertical line to the left is labeled 22.228 and the vertical line to the right is labeled 24.972. The area between the vertical lines is shaded purple. The horizontal axis is labeled as the mean. There are three tick marks on the horizontal axis and the tick marks are at the bottom of the vertical lines and at a point equidistant between the lines</description>
+        </image>
+      </figure>
+
             </li>
             <li>
               <p>The confidence level would increase as a result of a larger interval. Smaller sample sizes result in more variability. To capture the true population mean, we need to have a larger interval.</p>
@@ -2828,7 +2856,12 @@ line with the upper and lower limits of the confidence interval and the sample m
         </statement>
         <solution>
           <p>7.9 2.5 20 <em>X</em> is the number of letters a single camper will send home. <m>\bar{X}</m> is the mean number of letters sent home from a sample of 20 campers. <em>N</em> <m>7.9(\frac{2.5}{\sqrt{20}})</m> CI: (6.98, 8.82) <em>EBM</em>: 0.92 The error bound and confidence interval will decrease.</p>
-        </solution>
+              <figure xml:id="eip-id1169152005093-cnx-stats-c08-m01-item001-fig">
+        <image source="media/CNX_Stats_C08_M01_item001.jpg" width="80%">
+          <description>A normal distribution curve with a shaded area between 6.98 and 8.82 on the x-axis, labeled as X-bar, representing an interval within the distribution.</description>
+        </image>
+      </figure>
+</solution>
       </exercise>
       <exercise xml:id="exercising">
         <statement>
@@ -3035,6 +3068,12 @@ line with the upper and lower limits of the confidence interval and the sample m
       <exercise xml:id="ch8-exer5">
         <statement>
           <p>Suppose that a committee is studying whether there is wasted time in our judicial system. It is interested in the mean amount of time individuals waste at the courthouse waiting to be called for jury duty. The committee randomly surveyed 81 people who recently served as jurors. The sample mean wait time was 8 hr, with a sample standard deviation of 4 hr.</p>
+      <figure xml:id="fs-idp12588848-fig-ch08-10-01-fig">
+        <image source="media/fig-ch08_10_01.jpg" width="76%">
+          <description>A graph showing a bell shaped curve of normal distribution with two vertical lines to the left and right of center. The vertical line to the left is labeled 7.64 and the vertical line to the right is labeled 9.36. The area between the vertical lines is shaded purple. The horizontal axis is unlabeled. There are three tick marks on the horizontal axis at the bottom of the vertical lines and at a point equidistant between the lines. The tick mark in the center of the bell curve is labeled 8.5. </description>
+        </image>
+      </figure>
+
           <ol>
             <li>
               <ol>
@@ -3367,6 +3406,12 @@ line with the upper and lower limits of the confidence interval and the sample m
       <exercise xml:id="ch8-fs-idm170967312">
         <statement>
           <p>A survey of the mean number of cents off given by coupons was conducted by randomly surveying one coupon per page from the coupons section of a local newspaper. The following data were collected: 20¢, 75¢, 50¢, 65¢, 30¢, 55¢, 40¢, 40¢, 30¢, 55¢, $1.50, 40¢, 65¢, 40¢. Assume the underlying distribution is approximately normal.</p>
+      <figure xml:id="fs-idm59520752-fig-ch08-12-01-7e54-fig">
+        <image source="media/fig-ch08_12_01-7e54.jpg" width="76%">
+          <description>A bell curve showing a normal distribution with a shaded region from 7.64 to 9.36, centered at 8.5, often representing a confidence interval or probability.</description>
+        </image>
+      </figure>
+
           <ol>
             <li>
               <ol>

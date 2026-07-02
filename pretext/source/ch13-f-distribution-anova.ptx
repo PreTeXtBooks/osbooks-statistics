@@ -510,6 +510,12 @@ Suppose that the following data are randomly collected from five teenagers in ea
         <statement>
           <p>MRSA, or <em>Staphylococcus aureus</em>, can cause serious bacterial infections in hospital patients.  shows various colony counts from different patients who may or may not have MRSA. The data from the table is plotted in .</p>
           <p>Plot of the data for the different concentrations:</p>
+      <figure xml:id="fs-idm170381520-cnx-stats-c13-m04-003s-fig">
+        <image source="media/CNX_Stats_C13_M04_003s.png" width="76%">
+          <description>This graph is a scatterplot for the data provided. The horizontal axis is labeled </description>
+        </image>
+      </figure>
+
           <p>Test whether the mean numbers of colonies are the same or are different. Construct the ANOVA table by hand or by using a TI-83, 83+, or 84+ calculator, find the <m>p</m>-value, and state your conclusion. Use a 5 percent significance level.</p>
         </statement>
         <solution>
@@ -1005,6 +1011,12 @@ Conclusion: _______________________________________________________________</li>
       <exercise xml:id="ch13-m79705-eip-137">
         <statement>
           <p>DDT is a pesticide that has been banned from use in the United States and most other areas of the world. It is quite effective but persisted in the environment and over time proved to be harmful to higher-level organisms. Famously, egg shells of eagles and other raptors were believed to be thinner and prone to breakage in the nest because of ingestion of DDT in the food chain of the birds.</p>
+      <figure xml:id="fs-idm82879440-cnx-stats-c13-m04-100-fig">
+        <image source="media/CNX_Stats_C13_M04_100.jpg" width="76%">
+          <description>the graph is a scatter plot which represents the data provided. The horizontal axis is labeled </description>
+        </image>
+      </figure>
+
           <p>An experiment was conducted on the number of eggs (fecundity) laid by female fruit flies. There are three groups of flies. One group was bred to be resistant to DDT (the RS group). Another was bred to be especially susceptible to DDT (SS). The third group was a control line of nonselected or typical fruit flies (NS). Here are the data:</p>
           <table xml:id="ch13-m79705-eip-180">
           <title>Data Table</title><tabular>
@@ -1026,6 +1038,12 @@ Conclusion: _______________________________________________________________</li>
           </table>
           <p>The values are the average number of eggs laid daily for each of 75 flies (25 in each group) over the first 14 days of their lives. Using a 1 percent level of significance, are the mean rates of egg selection for the three strains of fruit fly different?  If so, in what way?  Specifically, the researchers were interested in whether the selectively bred strains were different from the nonselected line, and whether the two selected lines were different from each other.</p>
           <p>Here is a chart of the three groups:</p>
+      <figure xml:id="fs-idm5123296-cnx-stats-c13-m04-007-fig">
+        <image source="media/CNX_Stats_C13_M04_007.jpg" width="76%">
+          <description>This graph is a scatterplot which represents the data provided. The horizontal axis is labeled </description>
+        </image>
+      </figure>
+
         </statement>
         <solution>
           <p>The data appear normally distributed from the chart and of similar spread. There do not appear to be any serious outliers, so we may proceed with our ANOVA calculations, to see if we have good evidence of a difference between the three groups.</p>

@@ -23,6 +23,12 @@
     <p>In this chapter, you will study the normal distribution, the standard normal distribution, and applications associated with them.</p>
 
     <p>The normal distribution has two parameters: the mean (<m>μ</m>) and the standard deviation (<m>σ</m>). If <m>X</m> is a quantity to be measured that has a normal distribution with mean (<m>μ</m>) and standard deviation (<m>σ</m>), we designate this by writing </p>
+      <figure xml:id="fs-idm13606720-fig-ch06-01-01n-fig">
+        <image source="media/fig-ch06_01_01N.jpg" width="90%">
+          <description>This shows the graph of a normal distribution bell curve labeled NORMAL: X ~ N (μ, σ).</description>
+        </image>
+      </figure>
+
 
     <p>The curve is symmetric about a vertical line drawn through the mean, <m>μ</m>. In theory, the mean is the same as the median, because the graph is symmetric about <m>μ</m>. With a normal distribution, the mean, median, and mode all lie at the same point. The normal distribution depends only on the mean and the standard deviation. The location of the mean simply indicates the location of the line of symmetry, in a normal distribution. Since the area under the curve must equal one, a change in the standard deviation, <m>σ</m>, causes a change in the shape of the curve; the curve becomes fatter or skinnier depending on <m>σ</m>. A change in <m>μ</m> causes the graph to shift to the left or right. The location of the mean simply indicates the location of the line of symmetry, in a normal distribution. This means there are an infinite number of normal probability distributions. One distribution of special interest is called the standard normal distribution.</p>
 
@@ -582,7 +588,12 @@ About 99.7 percent of the <m>y</m> values lie between what two values? These val
       <example xml:id="element-375">
         <statement>
           <p>If the area to the left is 0.0228, then the area to the right is 1 – 0.0228 = 0.9772.</p>
-        </statement>
+              <figure xml:id="fs-idm66393568-fig-ch06-05-04n-fig">
+        <image source="media/fig-ch06_05_04N.jpg" width="84%">
+          <description>This is a normal distribution curve. The area under the left tail of the curve is shaded. The shaded area shows that the probability that x is less than k is 0.25. It follows that k = 1.67.</description>
+        </image>
+      </figure>
+</statement>
       </example>
       <exercise xml:id="fs-idm96786656">
         <title>Try It</title>
@@ -614,7 +625,12 @@ For this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 10^{99}) by 
           <figure xml:id="fs-idm5159232">
             <image source="media/fig-ch06_05_01.jpg" width="76%" />
           </figure>
-        </solution>
+              <figure xml:id="fs-idm38798848-fig-ch06-05-02-fig">
+        <image source="media/fig-ch06_05_02.jpg" width="90%">
+          <description>This is a normal distribution curve. The peak of the curve coincides with the point 63 on the horizontal axis. A point, k, is labeled to the right of 63. A vertical line extends from k to the curve. The area under the curve to the left of k is shaded. This represents the probability that x is less than k: P(x &amp;lt; k) = 0.90</description>
+        </image>
+      </figure>
+</solution>
       </example>
       <exercise xml:id="fs-idm83435856">
         <title>Try It</title>

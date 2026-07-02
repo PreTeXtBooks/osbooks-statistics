@@ -43,7 +43,13 @@
       <p xml:id="id9336363">Where do your data appear to cluster? How might you interpret the clustering?</p>
       <p xml:id="id9969457">The questions above ask you to analyze and interpret your data. With this example, you have begun your study of statistics.</p>
     </exploration>
-    <p xml:id="eip-624">In this course, you will learn how to organize and summarize data. Organizing and summarizing data is called <term>descriptive statistics</term>. Two ways to summarize data are by graphing and by using numbers, for example, finding an average. After you have studied probability and probability distributions, you will use formal methods for drawing conclusions from <em>good</em> data. The formal methods are called <term>inferential statistics</term>. Statistical inference uses probability to determine how confident we can be that our conclusions are correct.</p>
+    <p xml:id="eip-624">In this course, you will learn how to organize and summarize data. Organizing and summarizing data is called <term>descriptive statistics</term>. Two ways to summarize data are by graphing and by using numbers, for example, finding an average. After you have studied probability and probability distributions, you will use formal methods for drawing conclusions from <em>good</em> data. The formal methods are called <term>inferential statistics</term>. Statistical inference uses probability to determine how confident we can be that our conclusions are correct.      <figure xml:id="fs-idp81996208-cnx-stats-figure-01-98-invstgraph-fig">
+        <caption>As the graphs show, Acme consistently outperforms the Other Guys!</caption>
+        <image source="media/CNX_Stats_Figure_01_98_invstgraph.jpg" width="60%">
+          <description>(a) This is a line graph titled Acme Investments. The line graph shows a dramatic increase; neither the x-axis nor y-axis are labeled. (b) This is a line graph titled Other Guy</description>
+        </image>
+      </figure>
+</p>
     <p xml:id="eip-23">Effective interpretation of data, or inference, is based on good procedures for producing data and thoughtful examination of the data. You will encounter what will seem to be too many mathematical formulas for interpreting data. The goal of statistics is not to perform numerous calculations using the formulas, but to gain an understanding of your data. The calculations can be done using a calculator or a computer. The understanding must come from you. If you can thoroughly grasp the basics of statistics, you can be more confident in the decisions you make in life.</p>
     <subsection xml:id="fs-id1170309364460">
       <title>Statistical Models</title>
@@ -1812,6 +1818,12 @@
     
         <statement>
           <p xml:id="fs-idm65128336"><xref ref="fs-idm74902768"/> contains the total number of fatal motor vehicle traffic crashes in the United States for the period from 1994–2011.</p>
+      <figure xml:id="eip-idp25576880-cnx-stats-figure-01-98-agegraphs-fig">
+        <image source="media/CNX_Stats_Figure_01_98_agegraphs.jpg" width="60%">
+          <description>(a) Graph A is a bar graph with 7 bars. The x-axis shows CEO</description>
+        </image>
+      </figure>
+
           <table xml:id="fs-idm74902768">
           <title>Data Table</title><tabular>
               <row header="yes">
