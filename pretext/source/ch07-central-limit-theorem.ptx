@@ -321,11 +321,11 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <references>
 <title>References</title>
-<p>Baran, D. (2010). 20 percent of Americans have never used email. <em>WebGuild</em>. Retrieved from http://www.webguild.org/20080519/20-percent-of-americans-have-never-used-email</p>
+<p>Baran, D. (2010). 20 percent of Americans have never used email. <em>WebGuild</em>. Retrieved from <url href="http://www.webguild.org/20080519/20-percent-of-americans-have-never-used-email">http://www.webguild.org/20080519/20-percent-of-americans-have-never-used-email</url></p>
 
-<p>The Flurry Blog. (2013). Retrieved from http://blog.flurry.com</p>
+<p>The Flurry Blog. (2013). Retrieved from <url href="http://blog.flurry.com">http://blog.flurry.com</url></p>
 
-<p>U.S. Department of Agriculture. (n.d.). Retrieved from https://www.usda.gov/</p>
+<p>U.S. Department of Agriculture. (n.d.). Retrieved from <url href="https://www.usda.gov/">https://www.usda.gov/</url></p>
 </references>
 
 <subsection xml:id="ch7-fs-idm33599328">
@@ -560,7 +560,7 @@ k = invNorm\left(area\, to\, the\, left\, of\, k, mean, \frac{standard\, deviati
 
 <section xml:id="ch7-fs-idp3599841">
 <title>References</title>
-<p>Farago, P. (2012, Oct. 29). The truth about cats and dogs: Smartphone vs tablet usage differences. <em>Flurry Analytics Blog</em>. Retrieved from http://flurrymobile.tumblr.com/post/113379683050/the-truth-about-cats-and-dogs-smartphone-vs</p>
+<p>Farago, P. (2012, Oct. 29). The truth about cats and dogs: Smartphone vs tablet usage differences. <em>Flurry Analytics Blog</em>. Retrieved from <url href="http://flurrymobile.tumblr.com/post/113379683050/the-truth-about-cats-and-dogs-smartphone-vs">http://flurrymobile.tumblr.com/post/113379683050/the-truth-about-cats-and-dogs-smartphone-vs</url></p>
 </section>
 
 </section>
@@ -846,8 +846,8 @@ and <em>nq</em> must both be greater than five (<em>np</em> &gt; 5 and <em>nq</e
   </subsection>
   <references>
     <title>References</title>
-    <p><em>The Wall Street Journal</em>. (n.d.). Retrieved from https://www.wsj.com/</p>
-    <p>Centers for Disease Control and Prevention. (2017, April 16). National health and nutrition examination survey. <em>National Center for Health Statistics</em>. Retrieved from http://www.cdc.gov/nchs/nhanes.htm</p>
+    <p><em>The Wall Street Journal</em>. (n.d.). Retrieved from <url href="https://www.wsj.com/">https://www.wsj.com/</url></p>
+    <p>Centers for Disease Control and Prevention. (2017, April 16). National health and nutrition examination survey. <em>National Center for Health Statistics</em>. Retrieved from <url href="http://www.cdc.gov/nchs/nhanes.htm">http://www.cdc.gov/nchs/nhanes.htm</url></p>
   </references>
   <subsection xml:id="ch7-fs-idm72155760">
     <title>Chapter Review</title>

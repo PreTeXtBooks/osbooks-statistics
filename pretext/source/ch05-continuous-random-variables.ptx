@@ -2694,8 +2694,8 @@ Therefore, <em>m</em> = <m>
   <section xml:id="sec-continuous-rv-references">
     <title>References</title>
     
-    <p>Data from the National Center for Health Statistics. Retrieved from http://www.cdc.gov/nchs.</p>
-    <p>Data from the Bureau of Transportation Statistics. Retrieved from http://www.bts.gov.</p>
+    <p>Data from the National Center for Health Statistics. Retrieved from <url href="http://www.cdc.gov/nchs">http://www.cdc.gov/nchs</url>.</p>
+    <p>Data from the Bureau of Transportation Statistics. Retrieved from <url href="http://www.bts.gov">http://www.bts.gov</url>.</p>
     <p>Data from www.baseball-reference.com (accessed May 1, 2013).</p>
   </section>
 

@@ -1427,12 +1427,12 @@
     <p xml:id="fs-id1164967857565">
       Florida State University. (n.d.). 
       <em>Class catalogue at the Florida State University</em>
-      . Retrieved from https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy
+      . Retrieved from <url href="https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy">https://apps.oti.fsu.edu/RegistrarCourseLookup/SearchFormLegacy</url>
     </p>
     <p xml:id="fs-id1164965581425">
       World Earthquakes. (2012). 
       <em>World earthquakes: Live earthquake news and highlights</em>
-      . Retrieved from http://www.worldearthquakes.com/index.php?option=ethq_prediction
+      . Retrieved from <url href="http://www.worldearthquakes.com/index.php?option=ethq_prediction">http://www.worldearthquakes.com/index.php?option=ethq_prediction</url>
     </p>
   </references>
   <conclusion xml:id="fs-idp17559008">
@@ -2960,25 +2960,25 @@ It doesn’t matter. I expect to break even.
   <subsection xml:id="fs-idm225879408">
     <title>References</title>
     <p>
-      American Cancer Society. (2013). <em>What are the key statistics about pancreatic cancer?</em> Retrieved from http://www.cancer.org/cancer/pancreaticcancer/detailedguide/pancreatic-cancer-key-statistics
+      American Cancer Society. (2013). <em>What are the key statistics about pancreatic cancer?</em> Retrieved from <url href="http://www.cancer.org/cancer/pancreaticcancer/detailedguide/pancreatic-cancer-key-statistics">http://www.cancer.org/cancer/pancreaticcancer/detailedguide/pancreatic-cancer-key-statistics</url>
     </p>
     <p>
-      Central Intelligence Agency. (n.d.). <em>The world factbook</em>. Retrieved from https://www.cia.gov/library/publications/theworld-factbook/geos/af.html
+      Central Intelligence Agency. (n.d.). <em>The world factbook</em>. Retrieved from <url href="https://www.cia.gov/library/publications/theworld-factbook/geos/af.html">https://www.cia.gov/library/publications/theworld-factbook/geos/af.html</url>
     </p>
     <p>
-      ESPN NBA. (2013). NBA statistics  2013. Retrieved from http://espn.go.com/nba/statistics/_/seasontype/2
+      ESPN NBA. (2013). NBA statistics  2013. Retrieved from <url href="http://espn.go.com/nba/statistics/_/seasontype/2">http://espn.go.com/nba/statistics/_/seasontype/2</url>
     </p>
     <p>
-      Newport, F. (2013). Americans still enjoy saving rather than spending: Few demographic differences seen in these views other than by income. <em>GALLUP Economy</em>. Retrieved from http://www.gallup.com/poll/162368/americansenjoy-saving-rather-spending.aspx
+      Newport, F. (2013). Americans still enjoy saving rather than spending: Few demographic differences seen in these views other than by income. <em>GALLUP Economy</em>. Retrieved from <url href="http://www.gallup.com/poll/162368/americansenjoy-saving-rather-spending.aspx">http://www.gallup.com/poll/162368/americansenjoy-saving-rather-spending.aspx</url>
     </p>
     <p>
-      Pryor, J. H., et al. (2011). <em>The American freshman: National norms fall 2011</em>. Los Angeles, CA: Cooperative Institutional Research Program, Higher Education Research Institute. Retrieved from http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf
+      Pryor, J. H., et al. (2011). <em>The American freshman: National norms fall 2011</em>. Los Angeles, CA: Cooperative Institutional Research Program, Higher Education Research Institute. Retrieved from <url href="http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf">http://heri.ucla.edu/PDFs/pubs/TFS/Norms/Monographs/TheAmericanFreshman2011.pdf</url>
     </p>
     <p>
-      Wikipedia. (n.d.). <em>Distance education</em>. Retrieved from http://en.wikipedia.org/wiki/Distance_education
+      Wikipedia. (n.d.). <em>Distance education</em>. Retrieved from <url href="http://en.wikipedia.org/wiki/Distance_education">http://en.wikipedia.org/wiki/Distance_education</url>
     </p>
     <p>
-      World Bank Group. (2013). <em>Access to electricity (% of population)</em>. Retrieved from http://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?order=wbapi_data_value_2009%20wbapi_data_value%20wbapi_data_value-first&amp;sort=asc
+      World Bank Group. (2013). <em>Access to electricity (% of population)</em>. Retrieved from <url href="http://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?order=wbapi_data_value_2009%20wbapi_data_value%20wbapi_data_value-first&amp;sort=asc">http://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?order=wbapi_data_value_2009%20wbapi_data_value%20wbapi_data_value-first&amp;sort=asc</url>
     </p>
   </subsection>
 

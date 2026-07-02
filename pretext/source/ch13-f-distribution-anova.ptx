@@ -622,7 +622,7 @@ sororities?</p>
 
     <subsection xml:id="ch13-m79705-eip-712">
       <title>References</title>
-      <p>ESPN. (2012). <em>MLB standings  2012.</em> Retrieved from http://espn.go.com/mlb/standings/_/year/2012.</p>
+      <p>ESPN. (2012). <em>MLB standings  2012.</em> Retrieved from <url href="http://espn.go.com/mlb/standings/_/year/2012">http://espn.go.com/mlb/standings/_/year/2012</url>.</p>
       <p>Hand, D. J. et al. (1994). <em>A Handbook of Small Datasets: Data for Fruitfly Fecundity.</em> London: Chapman &amp; Hall.</p>
       <p>Hand, D. J. et al. (1994). <em>A Handbook of Small Datasets.</em> London: Chapman &amp; Hall, p. 50.</p>
       <p>Hand. <em>A Handbook of Small Datasets.</em> p. 118.</p>
@@ -1120,7 +1120,7 @@ sample sizes be <m>n</m>_{1} and <m>n</m>_{2}. Since we are interested in compar
 
     <subsection xml:id="ch13-m79706-eip-873">
       <title>References</title>
-      <p>ESPN. (2012). <em>MLB standings  2012.</em> Retrieved from http://espn.go.com/mlb/standings/_/year/2012/type/vs-division/order/true.</p>
+      <p>ESPN. (2012). <em>MLB standings  2012.</em> Retrieved from <url href="http://espn.go.com/mlb/standings/_/year/2012/type/vs-division/order/true">http://espn.go.com/mlb/standings/_/year/2012/type/vs-division/order/true</url>.</p>
     </subsection>
 
     <subsection xml:id="ch13-m79706-fs-idm88248672">
